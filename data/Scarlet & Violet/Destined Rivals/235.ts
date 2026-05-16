@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Yuriko Akase",
 
 	rarity: "Special illustration rare",

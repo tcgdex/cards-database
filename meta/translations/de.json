@@ -74,9 +74,10 @@
 	},
 	"suffix": {
 		"EX": "EX",
+		"ex": "ex",
 		"GX": "GX",
 		"Legend": "LEGENDE",
-		"Prime": "Prime",
+		"Prime": "Proto",
 		"SP": "SP",
 		"TAG TEAM-GX": "TAG TEAM-GX",
 		"V": "V"
@@ -238,12 +239,14 @@
 		"international-championship-latin-america": "international-championship-latin-america",
 		"international-championship-north-america": "international-championship-north-america",
 		"ace-trainer": "Ace Trainer",
+		"30th-pokeday": "30th-pokeday",
 		"pikachu": "pikachu",
 		"bulbasaur": "bulbasaur",
 		"squirtle": "squirtle",
 		"charmander": "charmander",
 		"pokeball": "pokeball",
-		"mcdonalds": "mcdonalds"
+		"mcdonalds": "mcdonalds",
+		"pokemon-together" : "pokemon-together"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",

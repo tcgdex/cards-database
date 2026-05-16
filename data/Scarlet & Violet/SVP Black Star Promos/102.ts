@@ -5,40 +5,46 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish",
-		pt: "Oddish"
+		en: "Oddish"
 	},
 
-
 	illustrator: "Miranda Branley",
-
 	rarity: "None",
 	category: "Pokemon",
-
 	dexId: [43],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
 
-	attacks: [
-		{
-			cost: ["Grass"],
+	attacks: [{
+		cost: ["Grass"],
 
-			name: {
-				en: "Razor Leaf",
-				pt: "Folha Navalha"
-			},
+		name: {
+			en: "Razor Leaf"
+		},
 
-			effect: {
-				en: "This attack does 20 damage for each Colorless Energy in your opponent's Active Pokémon Retreat Cost.",
-				pt: "Este ataque causará 20 pontos de dano para cada Energia Incolor no custo de Recuo do Pokémon Ativo do seu oponente."
-			},
+		damage: 10
+	}, {
+		cost: ["Grass", "Grass"],
 
-		}
-	],
+		name: {
+			en: "Grass Knot"
+		},
+
+		effect: {
+			en: "This attack does 20 damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+		},
+
+		damage: "20×"
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "x2"
+	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "G"
 }
 
 export default card

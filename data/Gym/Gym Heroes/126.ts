@@ -11,6 +11,9 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Count the number of cards in your discard pile and shuffle them into your deck. Then discard that many cards from the top of your deck.",
+	},
 	thirdParty: {
 		cardmarket: 274262,
 		tcgplayer: 90029

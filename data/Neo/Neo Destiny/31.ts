@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It holds its egg carefully when moving so as not to break it. Still, it is fast enough to disappear in the blink of an eye.",
 		fr: "Il serre précautionneusement son œuf pour ne pas le casser quand il bouge. Cependant, il reste assez rapide pour disparaître en un clin d'œil."
 	},
 

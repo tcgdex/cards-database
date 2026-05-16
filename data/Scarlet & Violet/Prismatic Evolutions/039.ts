@@ -56,9 +56,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Wintr Wandr",
 
-	thirdParty: {
-		cardmarket: 805428
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805428,
+				tcgplayer: 610394
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805428,
+				tcgplayer: 610394
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806458,
+				tcgplayer: 610562
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806459,
+				tcgplayer: 610663
+			}
+		},
+	],
 }
 
 export default card

@@ -22,6 +22,7 @@ const card: Card = {
 		pt: "Croconaw",
 	},
 
+	suffix: "ex",
 	illustrator: "Souichirou Gunjima",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

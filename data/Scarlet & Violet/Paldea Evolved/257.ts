@@ -63,6 +63,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 
 	thirdParty: {

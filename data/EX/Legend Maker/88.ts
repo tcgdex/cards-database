@@ -23,7 +23,7 @@ const card: Card = {
 		"Psychic",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

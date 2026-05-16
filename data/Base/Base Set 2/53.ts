@@ -64,6 +64,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
+	},
+
 	thirdParty: {
 		cardmarket: 273976,
 		tcgplayer: 42516

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Evoli"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

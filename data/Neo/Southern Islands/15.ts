@@ -51,6 +51,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
+	},
 	thirdParty: {
 		cardmarket: 275645,
 		tcgplayer: 46472

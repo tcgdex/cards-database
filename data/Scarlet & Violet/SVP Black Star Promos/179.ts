@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Xerneas ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 	rarity: "None",
 	category: "Pokemon",

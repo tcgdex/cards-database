@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Garchomp ex da Cíntia"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

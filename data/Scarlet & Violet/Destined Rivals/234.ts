@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "cochi8i",
 
 	rarity: "Special illustration rare",

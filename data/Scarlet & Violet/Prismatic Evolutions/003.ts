@@ -44,9 +44,38 @@ const card: Card = {
 		value: "x2"
 	}],
 
-	thirdParty: {
-		cardmarket: 805392
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805392,
+				tcgplayer: 610358
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805392,
+				tcgplayer: 610358
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806412,
+				tcgplayer: 610538
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806413,
+				tcgplayer: 610639
+			}
+		},
+	],
 }
 
 export default card

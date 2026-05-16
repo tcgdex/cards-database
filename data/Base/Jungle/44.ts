@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
 		fr: "Doté d'un esprit de compétition, il poursuit toute créature rapide pour faire la course."
 	},
 

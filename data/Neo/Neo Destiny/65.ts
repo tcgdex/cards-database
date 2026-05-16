@@ -53,6 +53,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its gas-like body allows it to enter almost anywhere, but it is vulnerable to high winds.",
 		fr: "Son corps gazeux lui permet de se faufiler là où il veut, mais il le rend aussi vulnérable aux rafales de vent."
 	},
 

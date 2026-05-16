@@ -16,6 +16,7 @@ const card: Card = {
 		pt: "Mega Zygarde ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

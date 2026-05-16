@@ -15,6 +15,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
+		en: "If you play this card from your hand, the Pokémon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)",
 		de: "If you play this card from your hand, the Pokémon your attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provide  energy. (Doesn't count as a basic Energy card.)",
 		fr: "Si vous jouez cette carte depuis votre main, le Pokémon auquel vous l'attachez cesse d'être Endormi, Confus, Paralysé ou Empoisonné. Énergie guérisseuse fournit 1 énergie Incolore. (Ne compte pas pour une carte Énergie de base.)",
 	},

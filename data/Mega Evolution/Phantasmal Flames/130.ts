@@ -67,6 +67,7 @@ const card: Card = {
 		value: "x2"
 	}],
   
+	suffix: "ex",
 	illustrator: 'Takuyoa'
 
 }

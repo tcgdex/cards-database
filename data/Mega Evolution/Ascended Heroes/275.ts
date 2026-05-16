@@ -22,6 +22,7 @@ const card: Card = {
 		pt: "Snorunt",
 	},
 
+	suffix: "ex",
 	illustrator: "Teeziro",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

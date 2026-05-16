@@ -68,6 +68,7 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "G",
+	suffix: "ex",
 	illustrator: "5ban Graphics"
 }
 

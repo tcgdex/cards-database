@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Metagross ex do Steven"
 	},
 
+	suffix: "ex",
 	illustrator: "chibi",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

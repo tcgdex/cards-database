@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Excadrill ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

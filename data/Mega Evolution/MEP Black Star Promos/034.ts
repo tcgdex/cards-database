@@ -21,6 +21,7 @@ const card: Card = {
 		pt: "Bayleef",
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Pokemon",

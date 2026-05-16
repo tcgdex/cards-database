@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Vullaby",
 	},
 
+	suffix: "ex",
 	illustrator: "Ultimateinudog",
 	rarity: "Double rare",
 	category: "Pokemon",

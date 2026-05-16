@@ -64,6 +64,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
+	},
+
 	thirdParty: {
 		cardmarket: 274004,
 		tcgplayer: 42533

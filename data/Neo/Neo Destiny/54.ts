@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If two of them brush against each other, they will not be able to separate themselves, as they enjoy touching each other's soft fur too much.",
 		fr: "Si deux d'entre eux se frottent l'un contre l'autre, ils ne peuvent plus se séparer. Ils aiment trop sentir la douceur de la fourrure l'un de l'autre."
 	},
 

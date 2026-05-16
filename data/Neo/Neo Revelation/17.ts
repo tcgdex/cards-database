@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
 		fr: "Un Pokémon qui fonce à travers le monde. On raconte qu'il en naît un nouveau à chaque fois qu'un volcan apparaît à la surface de la Terre."
 	},
 

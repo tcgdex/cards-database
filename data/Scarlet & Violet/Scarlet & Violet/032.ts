@@ -80,6 +80,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	thirdParty: {

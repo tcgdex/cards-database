@@ -24,6 +24,7 @@ const card: Card = {
 		pt: "Dartrix",
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

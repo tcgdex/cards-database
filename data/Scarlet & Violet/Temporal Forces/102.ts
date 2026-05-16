@@ -60,22 +60,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
-		}
+			thirdParty: {
+				cardmarket: 760732,
+				tcgplayer: 542846
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760732,
+				tcgplayer: 542846
+			}
+		},
 	],
 
 	illustrator: "Fujimoto Gold",
 
-	thirdParty: {
-		cardmarket: 760732
-	}
 }
 
 export default card

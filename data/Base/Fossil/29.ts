@@ -61,6 +61,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its long tail serves as a ground to protect itself from its own high voltage power.",
 		fr: "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution."
 	},
 

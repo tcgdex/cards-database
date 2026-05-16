@@ -11,6 +11,9 @@ const card: Card = {
 
 	set: Set,
 
+	effect: {
+		en: "You may draw up to 5 cards, then your opponent may draw up to 5 cards. Your turn is over now (you don't get to attack).",
+	},
 	variants: [
 		{
 			type: "normal"

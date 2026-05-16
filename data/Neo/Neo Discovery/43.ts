@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Apparently, it cracked Shellder's shell with its sharp fangs and sucked out the insides.",
 		fr: "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur."
 	},
 

@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Scraggy",
 	},
 
+	suffix: "ex",
 	illustrator: "Taiga Kasai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",

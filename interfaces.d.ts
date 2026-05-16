@@ -39,7 +39,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
 	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
-	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | 'mcdonalds'
+	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together'
 
 export interface variant_detailed {
 	/**
@@ -102,6 +102,7 @@ export interface variant_detailed {
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number
+		cardtrader?: number
 	}
 }
 
@@ -172,6 +173,7 @@ export interface Set {
 	thirdParty?: {
 		cardmarket?: number
 		tcgplayer?: number
+		cardtrader?: number
 	}
 
 	related?: Array<{
@@ -331,15 +333,21 @@ export interface Card {
 	/**
 	 * Card Suffix
 	 *
-	 * - EX https://www.tcgdex.net/database/ex/ex2/94
+	 * - EX https://www.tcgdex.net/database/bw/bw4/54
 	 * - GX https://www.tcgdex.net/database/sm/sm12/4
 	 * - V https://www.tcgdex.net/database/swsh/swsh1/1
 	 * - Legend https://www.tcgdex.net/database/hgss/hgss1/114
 	 * - Prime https://www.tcgdex.net/database/hgss/hgss2/85
 	 * - SP https://www.tcgdex.net/database/pl/pl1/7
 	 * - TAG TEAM-GX https://www.tcgdex.net/database/sm/sm12/226
+	 * - ex https://www.tcgdex.net/database/ex/ex2/94
+	 * ex is the gen 3 and 9 mechanic while EX is the gen 5 and 6 mechanic.
+	 * Despite the name similarity the 2 mechanics are not the same,
+	 * evolved pokemon are handled differently between them,
+	 * and pokemon EX are not considered pokemon ex and vice versa.
+	 * The ruling on the matter: https://compendium.pokegym.net/ruling/1828/
 	 */
-	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX'
+	suffix?: 'EX' | 'GX' | 'V' | 'Legend' | 'Prime' | 'SP' | 'TAG TEAM-GX' | 'ex'
 
 	/**
 	 * Pokemon Held Item
@@ -407,6 +415,7 @@ export interface Card {
 	thirdParty?: {
 		tcgplayer?: number
 		cardmarket?: number
+		cardtrader?: number
 	}
 
 	related?: Array<{

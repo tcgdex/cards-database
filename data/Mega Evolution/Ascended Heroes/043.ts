@@ -22,6 +22,7 @@ const card: Card = {
 		pt: "Croconaw",
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

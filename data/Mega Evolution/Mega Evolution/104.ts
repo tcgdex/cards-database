@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Kangaskhan ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -77,18 +78,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851175,
+				tcgplayer: 654443
+			}
 		},
-		{
-			type: "normal",
-			stamp: ["player-rewards-program"]
-		}
 	],
-
-	thirdParty: {
-		tcgplayer: 654443,
-		cardmarket: 851175
-	}
 }
 
 export default card

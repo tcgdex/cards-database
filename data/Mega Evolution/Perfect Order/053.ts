@@ -16,6 +16,7 @@ const card: Card = {
 		pt: "Yveltal ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

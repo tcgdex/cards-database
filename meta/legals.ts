@@ -6,6 +6,7 @@ import { Filter } from '../interfaces'
  * The main goal of this file is to update quickly the current list of authorized/banned cards in the standard and expanded formats
  *
  * For included cards/set/etc we are currently using the April post of each years (note: posts seems to be coming each April)
+ * - 2026: https://www.pokemon.com/us/pokemon-news/2026-pokemon-tcg-standard-format-rotation-announcement
  * - 2024: https://www.pokemon.com/us/pokemon-news/2024-pokemon-tcg-standard-format-rotation-announcement
  * - 2023: https://www.pokemon.com/us/pokemon-news/2023-pokemon-tcg-standard-format-rotation-and-pokemon-tool-errata
  * - 2022: https://www.pokemon.com/us/pokemon-news/2022-pokemon-tcg-championship-series-season-format-rotation/
@@ -31,7 +32,7 @@ export const standard: Filter = {
 	includes: {
 		series: [],
 		sets: [],
-		regulationMark: ['G', 'H', 'I']
+		regulationMark: ['H', 'I', 'J']
 	},
 	excludes: {
 		sets: [],
@@ -41,7 +42,7 @@ export const standard: Filter = {
 
 export const expanded: Filter = {
 	includes: {
-		series: ['bw', 'xy', 'sm', 'swsh', 'sv'],
+		series: ['bw', 'xy', 'sm', 'swsh', 'sv', 'me'],
 		sets: [],
 		regulationMark: []
 	},
@@ -72,8 +73,11 @@ export const expanded: Filter = {
 
 			'xy7-74',
 			'xy7-75',
+			'xy6-77a',
 
 			'xy9-98',
+			'xy9-98a',
+			'xy9-98b',
 			'xy9-109',
 
 			'g1-71',
@@ -81,11 +85,19 @@ export const expanded: Filter = {
 			// SM
 			'smp-SM85',
 
+			'swsh2-22',
+			'swsh2-207',
+			'swsh2-165',
+
 			'sm35-45',
 
 			'sm5-114',
 
 			'sm6-83',
+
+			'swsh7-83',
+			'swsh7-185',
+			'swsh7-186',
 
 			'sm8-90',
 			'sm8-91',

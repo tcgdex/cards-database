@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Hydreigon ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Takumi Wada",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

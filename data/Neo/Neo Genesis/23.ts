@@ -46,6 +46,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Each and every time it inhales and exhales, hot embers dribble out of its mouth and nostrils.",
 		fr: "Chaque fois qu'il respire, des braises ardentes tombent de sa bouche et de ses narines."
 	},
 

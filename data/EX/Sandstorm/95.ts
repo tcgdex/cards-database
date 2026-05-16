@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Galegon"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

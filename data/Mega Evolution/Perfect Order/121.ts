@@ -16,6 +16,7 @@ const card: Card = {
 		pt: "Meowth ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Natsumi Yoshida",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

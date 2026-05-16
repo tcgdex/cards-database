@@ -67,16 +67,43 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 720951,
+				tcgplayer: 517051,
+				cardtrader: 258698
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 733800
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 814545
+			}
+		},
+		{
+			type: 'metal',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 720951
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
-	thirdParty: {
-		cardmarket: 733746
-	}
+	
 }
 
 export default card

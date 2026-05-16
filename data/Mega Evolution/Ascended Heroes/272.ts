@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Bayleef",
 	},
 
+	suffix: "ex",
 	illustrator: "Tika Matsuno",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

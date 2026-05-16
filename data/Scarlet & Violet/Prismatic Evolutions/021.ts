@@ -78,9 +78,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 805410
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805410,
+				tcgplayer: 610376
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805410,
+				tcgplayer: 610376
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806438,
+				tcgplayer: 610551
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806439,
+				tcgplayer: 610652
+			}
+		},
+	],
 }
 
 export default card

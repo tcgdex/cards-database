@@ -22,6 +22,7 @@ const card: Card = {
 		pt: "Dragonair",
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",

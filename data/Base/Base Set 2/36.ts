@@ -66,6 +66,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
+	},
+
 	thirdParty: {
 		cardmarket: 273959,
 		tcgplayer: 42475

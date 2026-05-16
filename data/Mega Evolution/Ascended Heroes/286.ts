@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Zoroark ex do N"
 	},
 
+	suffix: "ex",
 	illustrator: "Raita Kazama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

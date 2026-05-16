@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Leveinard ou Leveinard ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

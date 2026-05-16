@@ -64,6 +64,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
+	},
+
 	thirdParty: {
 		cardmarket: 273925,
 		tcgplayer: 42464

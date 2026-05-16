@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Clefairy ex da Lílian"
 	},
 
+	suffix: "ex",
 	illustrator: "Naoki Saito",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

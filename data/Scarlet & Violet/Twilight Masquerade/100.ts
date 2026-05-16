@@ -75,9 +75,35 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769274,
+				tcgplayer: 550144
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769274,
+				tcgplayer: 550144
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858725,
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 883809,
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
 

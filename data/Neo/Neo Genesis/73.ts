@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
 		fr: "Il se la coule douce au bord de l'eau. Si quelque chose mord sa queue, il ne le remarquera pas de la journée."
 	},
 

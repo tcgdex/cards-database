@@ -30,10 +30,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794542,
+				tcgplayer: 589907
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794542,
+				tcgplayer: 589907
+			}
 		},
 		{
 			type: "normal",
@@ -47,9 +55,6 @@ const card: Card = {
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 794542
-	}
 }
 
 export default card

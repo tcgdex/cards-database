@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Registeel ex"
 	},
 
+	suffix: "ex",
 	illustrator: "toriyufu",
 	rarity: "Double rare",
 	category: "Pokemon",

@@ -59,6 +59,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 274016,
 		tcgplayer: 42544

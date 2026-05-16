@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Grimmsnarl ex da Marine"
 	},
 
+	suffix: "ex",
 	illustrator: "Ligton",
 	rarity: "Special illustration rare",
 	category: "Pokemon",

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Kangaskhan ex da Equipe Rocket"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Dudunsparce ex do Lauro"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",

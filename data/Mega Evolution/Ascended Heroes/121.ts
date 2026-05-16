@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Koraidon ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",

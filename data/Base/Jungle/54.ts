@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
 	},
 

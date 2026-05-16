@@ -63,6 +63,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
+	},
+
 	thirdParty: {
 		cardmarket: 273969,
 		tcgplayer: 42509

@@ -48,9 +48,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 805439
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805439,
+				tcgplayer: 610405
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805439,
+				tcgplayer: 610405
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806478,
+				tcgplayer: 610572
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806479,
+				tcgplayer: 610673
+			}
+		},
+	],
 }
 
 export default card

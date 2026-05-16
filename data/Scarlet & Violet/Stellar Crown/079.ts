@@ -55,15 +55,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785933,
+				tcgplayer: 567305
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785933,
+				tcgplayer: 567305
+			}
+		},
+	],
 
 	illustrator: "Fujimoto Gold",
 
-	thirdParty: {
-		cardmarket: 785933
-	}
 }
 
 export default card

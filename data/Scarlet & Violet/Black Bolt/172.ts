@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zekrom ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Black White Rare",
 	category: "Pokemon",

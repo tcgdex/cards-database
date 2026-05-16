@@ -58,15 +58,49 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733620,
+				tcgplayer: 517033,
+				cardtrader: 261140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733620,
+				tcgplayer: 517033,
+				cardtrader: 261140
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['pokemon-together'],
+			thirdParty: {
+				cardmarket: 748474
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 845404
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794911
+			}
+		},
+	],
 
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 733620
-	}
+	
 }
 
 export default card

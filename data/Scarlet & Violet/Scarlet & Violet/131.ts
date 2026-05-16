@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Nisota Niso",
-	suffix: "EX",
+	suffix: "ex",
 
 	weaknesses: [{
 		type: "Fighting",

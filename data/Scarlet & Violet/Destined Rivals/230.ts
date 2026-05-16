@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Atsushi Furusawa",
 
 	rarity: "Special illustration rare",
