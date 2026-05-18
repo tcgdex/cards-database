@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor.",

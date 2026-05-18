@@ -74,6 +74,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.",
