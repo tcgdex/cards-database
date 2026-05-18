@@ -60,6 +60,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave.",
+	},
+
 	thirdParty: {
 		cardmarket: 274002,
 		tcgplayer: 42531

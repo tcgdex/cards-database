@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+	},
+
 	thirdParty: {
 		cardmarket: 278872,
 		tcgplayer: 89177

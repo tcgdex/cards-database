@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can tell what people are dreaming by sniffing with its big nose. It loves fun dreams.",
+	},
+
 	thirdParty: {
 		cardmarket: 277967,
 		tcgplayer: 84976

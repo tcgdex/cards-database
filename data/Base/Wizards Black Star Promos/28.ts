@@ -48,6 +48,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "One summer, a group of Pikachus was found riding the waves at the local beach.",
 		fr: "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
 	},
 

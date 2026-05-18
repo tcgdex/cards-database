@@ -11,6 +11,9 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Put a Basic Pokémon or Evolution card from your hand face down in front of you and tell your opponent its name. Your opponent guesses the length of that Pokémon. Flip the card over. If your opponent guessed right, he or she draws 2 cards. If your opponent guessed wrong, you draw 2 cards. Either way, return the card to your hand.",
+	},
 	thirdParty: {
 		cardmarket: 274233,
 		tcgplayer: 83879

@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.",
 		fr: "Se déplace en colonies dans les endroits sombres. Il se déplace grâce aux ultrasons."
 	},
 

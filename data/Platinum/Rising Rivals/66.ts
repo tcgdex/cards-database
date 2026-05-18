@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+	},
+
 	thirdParty: {
 		cardmarket: 278640,
 		tcgplayer: 86414

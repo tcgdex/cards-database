@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
 		fr: "Il creuse des galeries à travers la pierre avec ses cornes d'acier pour trouver le fer qu'il apprécie."
 	},
 

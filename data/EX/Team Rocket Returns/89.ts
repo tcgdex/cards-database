@@ -14,6 +14,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Search your deck for a Pokémon with Dark in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 		de: "Search your deck for a Pokémon with Dark in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 

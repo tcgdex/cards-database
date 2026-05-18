@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
+	},
+
 	thirdParty: {
 		cardmarket: 278787
 	},

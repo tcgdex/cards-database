@@ -79,8 +79,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
 		fr: "Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse.",
 		it: "Pokémon aggressivo che attacca con rapidità. Il corno sulla sua testa secerne un potente veleno. LIV 25 N.33"
 	},

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love.",
+	},
+
 	thirdParty: {
 		cardmarket: 277979,
 		tcgplayer: 86936

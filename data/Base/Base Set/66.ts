@@ -76,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.",
 		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114"
 

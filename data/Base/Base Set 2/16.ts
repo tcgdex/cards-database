@@ -68,6 +68,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+	},
+
 	thirdParty: {
 		cardmarket: 273939,
 		tcgplayer: 42460

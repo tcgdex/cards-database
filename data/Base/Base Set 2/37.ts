@@ -71,6 +71,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+	},
+
 	thirdParty: {
 		cardmarket: 273960,
 		tcgplayer: 42476

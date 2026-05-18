@@ -59,6 +59,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It coats its entire body with a slimy fluid so it can squirm and slip away if grabbed.",
 		fr: "Il enduit son corps d'une substance visqueuse pour glisser et se libérer quand on l'agrippe."
 	},
 

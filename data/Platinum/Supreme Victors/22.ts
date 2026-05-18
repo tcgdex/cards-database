@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+	},
+
 	thirdParty: {
 		cardmarket: 278713
 	},

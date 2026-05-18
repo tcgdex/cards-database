@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Once it catches the wind, it deftly controls its cotton-puff spores to float, even around the world.",
 		fr: "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde."
 	},
 

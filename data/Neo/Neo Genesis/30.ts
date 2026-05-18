@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
 		fr: "Le clair de lune qui est stocké dans les ailes qu'il porte sur son dos lui donne apparemment la possibilité de flotter dans les airs."
 	},
 

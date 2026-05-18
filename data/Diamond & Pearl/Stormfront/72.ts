@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Roselia raised on clean drinking water are known to grow vividly colored flowers.",
 		fr: "Les Roselia élevés dans une eau claire et potable font de ravissantes fleurs bariolées."
 	},
 

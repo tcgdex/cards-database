@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
 		fr: ":Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino."
 	},
 

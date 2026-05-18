@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
 		fr: "Rapide et agile comme un ninja, il se déplace si vite qu'il crée l'illusion d'être en groupe."
 	},
 

@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It sets a trap by spinning a web with thin but strong silk. It waits motionlessly for prey to arrive.",
 		fr: "Il tisse une toile fine mais solide pour poser des pièges et se poste dans l'attente d'une proie."
 	},
 

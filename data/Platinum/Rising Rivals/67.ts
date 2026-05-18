@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however.",
+	},
+
 	thirdParty: {
 		cardmarket: 278641,
 		tcgplayer: 86431

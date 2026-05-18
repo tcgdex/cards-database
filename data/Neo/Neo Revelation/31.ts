@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling.",
 		fr: "Il fait onduler son corps en rythme. Celui-ci semble changer selon son humeur."
 	},
 

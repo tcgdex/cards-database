@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 277971,
 		tcgplayer: 86228

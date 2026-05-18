@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 		fr: "Cherchez dans votre deck un Pokémon de base ou une carte Évolution (sauf les Pokémon-ex), montrez la carte à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
 		de: "Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex ), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 	},

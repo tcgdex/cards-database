@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.",
 		fr: "Il se protège en expulsant un fluide nocif par son derrière. La puanteur dure 24 heures."
 	},
 

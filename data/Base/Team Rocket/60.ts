@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",
 		fr: "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique."
 	},
 

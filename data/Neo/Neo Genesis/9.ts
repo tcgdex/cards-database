@@ -62,6 +62,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is said that it quietly spends its time deep at the bottom of the sea, because its powers are too strong.",
 		fr: "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
 	},
 

@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 277938,
 		tcgplayer: 84748

@@ -87,6 +87,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
 		fr: "L'électricité libérée par ses griffes peut assommer l'ennemi. Il vit en petits groupes."
 	},
 

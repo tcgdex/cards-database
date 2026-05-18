@@ -11,6 +11,10 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Draw 2 cards.",
+	},
+
 	thirdParty: {
 		cardmarket: 274041,
 		tcgplayer: 42451

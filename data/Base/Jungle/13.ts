@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
 		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison."
 	},
 

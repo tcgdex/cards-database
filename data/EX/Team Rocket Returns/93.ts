@@ -14,6 +14,7 @@ const card: Card = {
 	trainerType: "Rocket's Secret Machine",
 
 	effect: {
+		en: "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon.",
 		de: "Flip a coin. If heads, put 1 damage counter on 1 of your opponent's Pokémon. If tails, put 1 damage counter on 1 of your Pokémon."
 	},
 

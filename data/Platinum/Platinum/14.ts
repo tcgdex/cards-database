@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+	},
+
 	thirdParty: {
 		cardmarket: 278435,
 		tcgplayer: 89108

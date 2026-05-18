@@ -73,6 +73,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+	},
+
 	thirdParty: {
 		cardmarket: 277945,
 		tcgplayer: 86807

@@ -11,6 +11,9 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Search your deck for a Basic Pokémon or Evolution card with Brock in its name. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+	},
 	thirdParty: {
 		cardmarket: 274242,
 		tcgplayer: 83985

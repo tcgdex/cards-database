@@ -100,6 +100,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven colored wings.",
 		fr: "Selon la légende, ce Pokémon traverse constamment le ciel, porté par ses magnifiques ailes aux couleurs de l'arc-en-ciel."
 	},
 

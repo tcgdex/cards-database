@@ -70,6 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
 		fr: "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
 	},
 

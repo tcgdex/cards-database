@@ -44,6 +44,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+	},
+
 	thirdParty: {
 		cardmarket: 274001,
 		tcgplayer: 42530

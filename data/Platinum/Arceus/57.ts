@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.",
+	},
+
 	thirdParty: {
 		cardmarket: 278929,
 		tcgplayer: 84055

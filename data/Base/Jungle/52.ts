@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
 		fr: "Souvent pris pour des œufs, ils attaquent en groupe comme un essaim."
 	},
 

@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
+	},
+
 	thirdParty: {
 		cardmarket: 278756
 	},

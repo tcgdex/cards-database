@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+	},
+
 	thirdParty: {
 		cardmarket: 278484,
 		tcgplayer: 89213
