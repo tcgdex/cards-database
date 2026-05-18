@@ -13,7 +13,8 @@ const card: Card = {
 	category: "Pokemon",		
   hp: 50,
 
-	dexId: [2],
+	dexId: [2],	hp: 50,
+
 	stage: "Stage1",
 
 	abilities: [{
@@ -39,6 +40,14 @@ const card: Card = {
 			en: "Your opponent puts 3 markers onto his or her Pokémon (divided as he or she chooses). (More than 1 marker can be put on the same Pokémon.) Then, this attack does 10 damage to each Pokémon for each marker on it. Don’t apply Weakness and Resistance. Remove the markers at the end of the turn."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	thirdParty: {
 		cardmarket: 275416,

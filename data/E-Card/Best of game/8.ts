@@ -12,7 +12,8 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",		
   hp: 70,
-	dexId: [150],
+	dexId: [150],	hp: 70,
+
 	stage: "Basic",
 
 	attacks: [{
@@ -46,6 +47,14 @@ const card: Card = {
 
 		damage: 60
 	}],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	variants: [
 		{
