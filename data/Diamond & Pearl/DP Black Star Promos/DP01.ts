@@ -65,6 +65,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",

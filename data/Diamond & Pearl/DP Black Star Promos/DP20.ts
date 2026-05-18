@@ -76,6 +76,8 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		fr: "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques.",
