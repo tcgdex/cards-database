@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
 		fr: "Un noyau rouge trône en son centre. Il envoie des signaux radio mystérieux vers le ciel nocturne."
 	},
 

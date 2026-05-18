@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
 		fr: "Il frappe l'ennemi en déroulant violemment ses oreilles. Cela peut faire pleurer un adulte."
 	},
 
