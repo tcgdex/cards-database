@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
