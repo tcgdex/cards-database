@@ -50,6 +50,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
