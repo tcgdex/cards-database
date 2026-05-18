@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Being bitten by Shellder gave it intelligence comparable to that of award-winning scientists.",
+	},
+
 	thirdParty: {
 		cardmarket: 277930,
 		tcgplayer: 89316

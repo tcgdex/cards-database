@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+	},
+
 	thirdParty: {
 		cardmarket: 277928,
 		tcgplayer: 87907
