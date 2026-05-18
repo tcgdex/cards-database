@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is known to drift on winds if it is bloated to bursting with stored electricity.",
 		fr: "Il se laisse porter par les vents lorsque son corps est gonflé d'électricité à en éclater."
 	},
 
