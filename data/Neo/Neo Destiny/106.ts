@@ -70,6 +70,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It is worshipped as a god of the forest. It appears only in undisturbed old-growth forests.",

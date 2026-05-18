@@ -51,6 +51,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its highly developed jaws are powerful enough to crush anything. Even experienced adult trainers must handle it with great caution.",

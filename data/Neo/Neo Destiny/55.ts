@@ -74,6 +74,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It moves so fast as to be invisible to the naked eye. Even when standing still, its camouflage prevents it from being seen.",
