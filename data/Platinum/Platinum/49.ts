@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 278470,
 		tcgplayer: 85918

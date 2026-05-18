@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude.",
+	},
+
 	thirdParty: {
 		cardmarket: 278435,
 		tcgplayer: 89107
