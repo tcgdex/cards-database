@@ -41,6 +41,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
