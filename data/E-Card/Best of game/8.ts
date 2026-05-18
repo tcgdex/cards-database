@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",		
   hp: 70,
-	dexId: [150],	hp: 70,
+	dexId: [150],
 
 	stage: "Basic",
 

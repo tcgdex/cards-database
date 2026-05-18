@@ -13,7 +13,7 @@ const card: Card = {
 	category: "Pokemon",		
   hp: 60,
 
-	dexId: [212],	hp: 60,
+	dexId: [212],
 
 	stage: "Basic",
 
