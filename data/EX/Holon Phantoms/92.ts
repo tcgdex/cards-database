@@ -16,6 +16,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Play Mysterious Fossil as if it were a Basic Pokémon. While in play, Mysterious Fossil counts as a Colorless Pokémon (as well as a Trainer card). Mysterious Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Mysterious Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Mysterious Fossil from play.",
 		fr: "Jouez Mystérieux fossile comme si c'était un Pokémon de base. Lorsqu'elle est en jeu, Mystérieux fossile compte comme un Pokémon  (et comme une carte Dresseur). Mystérieux fossile ne possède pas d'attaques, ne peut pas battre en retraite et ne peut pas être affectée par des États Spéciaux. Si Mystérieux fossile est mise K.O, elle ne compte pas comme un Pokémon K.O (défaussez-la de toutes façons). N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Mystérieux fossile.",
 		de: "Spiele Geheimnis-Fossil wie ein Basis-Pokémon. Während Geheimnis-Fossil im Spiel ist, zählt es als -Pokémon (anstatt einer Trainerkarte). Geheimnis-Fossil hat keine Angriffe, kann sich nicht zurückziehen und wird nicht von Speziellen Zuständen betroffen. Falls Geheimnis-Fossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon (lege es trotzdem ab). Jederzeit während deines Zuges vor deinem Angriff kannst du Geheimnis-Fossil aus dem Spiel ablegen."
 	},
