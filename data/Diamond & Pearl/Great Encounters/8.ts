@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+	},
+
 	thirdParty: {
 		cardmarket: 277910,
 		tcgplayer: 88949

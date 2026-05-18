@@ -52,6 +52,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This ancient Pokémon possessed 10 tentacles, which it used to swim through the ocean.",
 		fr: "Ce Pokémon antique possédait 10 tentacules, qu'il utilisait pour nager dans l'océan."
 	},
 

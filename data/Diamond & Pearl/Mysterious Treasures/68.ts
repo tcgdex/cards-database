@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
 		fr: "Son cœur bat dix fois plus vite que la normale, c'est pourquoi il ne tient pas en place."
 	},
 

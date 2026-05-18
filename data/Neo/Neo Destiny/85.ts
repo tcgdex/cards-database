@@ -53,6 +53,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its highly developed jaws are powerful enough to crush anything. Even experienced adult trainers must handle it with great caution.",
 		fr: "Ses mâchoires surdéveloppées sont assez puissantes pour écraser n'importe quoi. Même les dresseurs adultes les plus expérimentés font très attention."
 	},
 

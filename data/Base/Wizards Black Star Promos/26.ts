@@ -63,6 +63,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed.",
 		fr: "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
 	},
 

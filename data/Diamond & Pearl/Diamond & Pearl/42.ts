@@ -68,6 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
 		fr: "Il se muscle en bousculant ses semblables lors de mêlées. Il raffole des fruits sucrés."
 	},
 

@@ -60,18 +60,54 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733599,
+				tcgplayer: 502555,
+				cardtrader: 261106
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733599,
+				tcgplayer: 502555,
+				cardtrader: 261106
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 720366
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 791827
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 759873
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794909
+			}
+		},
 	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 733599
-	}
+	
 }
 
 export default card

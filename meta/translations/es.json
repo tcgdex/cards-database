@@ -245,7 +245,8 @@
 		"squirtle": "squirtle",
 		"charmander": "charmander",
 		"pokeball": "pokeball",
-		"mcdonalds": "mcdonalds"
+		"mcdonalds": "mcdonalds",
+		"pokemon-together" : "pokemon-together"
 	},
 	"variantSubtype": {
 		"shadowless": "sin sombra",

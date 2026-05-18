@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
 		fr: "Lorsqu'il est en colère, il abat des montagnes et enterre des fleuves. On doit alors modifier les cartes."
 	},
 

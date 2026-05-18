@@ -65,6 +65,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It loves the blood of humans and Pokémon. It flies around at night in search of neck veins.",
 		fr: "Il aime le sang des humains et des Pokémon. Il erre la nuit en quête d'un cou où planter ses crocs."
 	},
 

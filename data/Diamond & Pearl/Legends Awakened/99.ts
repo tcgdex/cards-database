@@ -72,6 +72,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
 		fr: "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes."
 	},
 

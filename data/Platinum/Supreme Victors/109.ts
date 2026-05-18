@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
+	},
+
 	thirdParty: {
 		cardmarket: 278800
 	},

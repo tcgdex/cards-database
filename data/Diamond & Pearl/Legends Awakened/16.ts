@@ -70,6 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
 		fr: "Un Pokémon composé de 108 esprits. Il provient d'une fissure dans une clé de voûte étrange."
 	},
 

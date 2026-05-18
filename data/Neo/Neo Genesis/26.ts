@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
 		fr: "Sa queue est si puissante qu'il peut s'en servir pour attraper une branche d'arbre et se suspendre en l'air."
 	},
 

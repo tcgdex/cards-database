@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Advances in technology have allowed it to evolve. It occasionally displays behavior not found in its programming.",
 		fr: "Les progrès de la technologie lui ont permis d'évoluer. Parfois, il affiche un comportement qui n'a pas été inclus dans sa programmation."
 	},
 

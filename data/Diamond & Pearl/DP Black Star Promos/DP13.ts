@@ -49,6 +49,10 @@ const card: Card = {
 		cost: ["Water"]
 	}],
 
+	description: {
+		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+	},
+
 	variants: [
 		{
 			type: "holo",

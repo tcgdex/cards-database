@@ -63,6 +63,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It spends its days hanging from cliffs, swooping down on any prey it spots from its high vantage point.",
 		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
 	},
 

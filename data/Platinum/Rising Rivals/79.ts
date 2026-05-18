@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
+	},
+
 	thirdParty: {
 		cardmarket: 278653,
 		tcgplayer: 89143

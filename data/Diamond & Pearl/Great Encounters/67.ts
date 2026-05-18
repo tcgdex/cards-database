@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is famous for its shabby appearance. While populous, they tend to cluster in set locations.",
+	},
+
 	thirdParty: {
 		cardmarket: 277969,
 		tcgplayer: 85404

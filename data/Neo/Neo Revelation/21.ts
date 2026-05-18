@@ -80,6 +80,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
 		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
 	},
 

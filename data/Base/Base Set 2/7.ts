@@ -73,6 +73,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+	},
+
 	thirdParty: {
 		cardmarket: 273930,
 		tcgplayer: 42489

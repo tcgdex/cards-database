@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
+	},
+
 	thirdParty: {
 		cardmarket: 278773
 	},

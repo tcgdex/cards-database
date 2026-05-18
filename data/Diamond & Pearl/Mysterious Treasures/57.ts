@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It lives in the gaps of boulders and in holes on the seafloor. Its suction cups grip prey tightly.",
 		fr: "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise."
 	},
 

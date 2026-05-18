@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its tail also has a small brain. It bites to repel any foe trying to sneak up on it from behind.",
 		fr: "Sa queue contient un minuscule cerveau. Elle mord l'ennemi qui essaie de le frapper dans le dos."
 	},
 

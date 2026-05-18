@@ -27,6 +27,7 @@ const card: Card = {
 	}],
 
 	effect: {
+		en: "Attach this card to 1 of your Evolved Grass, Water, or Lightning Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere γ.",
 		de: "Lege diese Karte an 1 deiner entwickelten -, -, oder -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges die Wunder-Sphäre (Gamma) auf deinen Ablagestapel."
 	},
 

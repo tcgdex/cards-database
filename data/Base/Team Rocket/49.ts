@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It teleports itself away from danger, making it difficult to capture.",
 		fr: "Il se téléporte hors du danger, rendant sa capture difficile."
 	},
 

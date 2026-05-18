@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+	},
+
 	thirdParty: {
 		cardmarket: 278513,
 		tcgplayer: 89201

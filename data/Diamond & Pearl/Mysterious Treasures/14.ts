@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
 		fr: "On l'appelle \"être de l'émotion\". Il enseigne aux hommes la beauté de la tristesse, la douleur et la joie."
 	},
 

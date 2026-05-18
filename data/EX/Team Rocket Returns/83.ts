@@ -14,6 +14,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck. Then, count the number of cards in your opponent's hand and draw that many cards.",
 		de: "Shuffle your hand into your deck. Then, count the number of cards in your opponent's hand an draw that many cards."
 	},
 

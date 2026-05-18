@@ -52,6 +52,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
 		fr: "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour."
 	},
 

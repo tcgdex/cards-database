@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
 		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
 	},
 

@@ -53,6 +53,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
 		fr: "Réputé pour tirer avec précision un jet d'encre sur des insectes volants depuis la surface de l'eau."
 	},
 

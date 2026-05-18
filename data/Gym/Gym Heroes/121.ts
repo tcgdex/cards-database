@@ -11,6 +11,9 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Discard any number of other cards from your hand, then flip a coin. If heads, draw twice that many cards.",
+	},
 	thirdParty: {
 		cardmarket: 274257,
 		tcgplayer: 83867

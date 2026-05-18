@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+	},
+
 	thirdParty: {
 		cardmarket: 277828,
 		tcgplayer: 90489

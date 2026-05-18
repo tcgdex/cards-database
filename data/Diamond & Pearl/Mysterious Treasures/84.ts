@@ -59,6 +59,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Many live on mountain trails and remain half buried while keeping an eye on climbers.",
 		fr: "Nombre d'entre eux vivent sur des chemins montagneux où ils restent enfouis à épier les alpinistes."
 	},
 

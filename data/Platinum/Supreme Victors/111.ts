@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The faster the units at its sides rotate, the greater the magnetic force they generate.",
+	},
+
 	thirdParty: {
 		cardmarket: 278802
 	},

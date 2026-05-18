@@ -15,6 +15,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes.",
 		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten",
 		it: "Il tuo avversario rimette le carte che ha in mano nel proprio mazzo, le mischia e poi pesca 7 carte."

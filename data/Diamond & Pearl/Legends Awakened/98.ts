@@ -70,6 +70,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Almost all its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
 		fr: "Il est principalement composé d'un estomac dont les sucs digestifs dissolvent tout ce qu'il avale."
 	},
 

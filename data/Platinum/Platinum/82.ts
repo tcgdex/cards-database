@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+	},
+
 	thirdParty: {
 		cardmarket: 278503,
 		tcgplayer: 87203

@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Flip a coin. If heads, put all cards in your hand on top of your deck. Then, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 		fr: "Lancez une pièce. Si c'est face, placez toutes les cartes de votre main au-dessus de votre deck, puis choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
 		de: "Wirf 1 Münze. Bei \"Kopf\" lege alle deine Handkarten auf dein Deck. Danach durchsuche dein Deck nach 1 beliebigen Karte und nimm sie auf die Hand. Mische dein Deck danach."
 	},
