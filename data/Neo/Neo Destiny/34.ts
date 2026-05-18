@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",
 		fr: "À cause des énormes quantités d'électricité qu'il stocke, sa laine ne pousse plus à certains endroits de son corps."
 	},
 

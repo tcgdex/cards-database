@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Anyone who takes even one bite of Blissey's egg becomes unfailingly caring and pleasant to everyone.",
 		fr: "Quiconque mange une bouchée de l'œuf de Leuphorie devient tout de suite gentil avec tout le monde."
 	},
 

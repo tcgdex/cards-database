@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",
 		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental."
 	},
 

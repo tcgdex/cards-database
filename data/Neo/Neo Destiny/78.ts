@@ -57,6 +57,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This Pokémon was created by human computer engineering. Its program is only capable of simple action and reaction.",
 		fr: "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples."
 	},
 

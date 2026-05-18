@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The large pincer has 10,000 horsepower of crushing power. However, its huge size makes it unwieldy to use.",
 		fr: "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
 	},
 

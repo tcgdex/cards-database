@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It wanders around at night sowing its seeds to create more Oddishes.",
 		fr: "Il vagabonde la nuit en semant ses graines pour créer d'autres Mystherbes."
 	},
 

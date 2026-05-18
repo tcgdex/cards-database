@@ -75,6 +75,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+	},
+
 	thirdParty: {
 		cardmarket: 278474,
 		tcgplayer: 86878

@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
 		fr: "Il brise la glace avec ses grosses défenses. Sa graisse le protège du froid, mais aussi des attaques."
 	},
 

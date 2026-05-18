@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+	},
+
 	thirdParty: {
 		cardmarket: 278126,
 		tcgplayer: 90073

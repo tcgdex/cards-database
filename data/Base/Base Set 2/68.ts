@@ -46,6 +46,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+	},
+
 	thirdParty: {
 		cardmarket: 273991,
 		tcgplayer: 42487

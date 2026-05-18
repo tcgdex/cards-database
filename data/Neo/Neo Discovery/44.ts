@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The swirl on its belly undulates. Staring at it may gradually cause drowsiness.",
 		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir."
 	},
 

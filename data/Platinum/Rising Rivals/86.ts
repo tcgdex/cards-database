@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 278660,
 		tcgplayer: 90545

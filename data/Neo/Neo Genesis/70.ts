@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
 		fr: "Il dresse sa queue pour observer les alentours. Parfois les éclairs frappent sa queue quand elle est en l'air."
 	},
 

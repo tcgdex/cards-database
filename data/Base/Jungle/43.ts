@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
 		fr: "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet."
 	},
 

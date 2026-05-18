@@ -73,6 +73,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+	},
+
 	thirdParty: {
 		cardmarket: 273946,
 		tcgplayer: 42468

@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
 		fr: "Quand il se recroqueville et étend ses ailes, on dirait un chasseur. Sa vitesse est supersonique."
 	},
 

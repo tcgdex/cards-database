@@ -61,6 +61,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 273968,
 		tcgplayer: 42508

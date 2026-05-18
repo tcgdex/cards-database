@@ -104,6 +104,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",
 		fr: "Son super cerveau peut effectuer des opérations plus rapidement qu'un super ordinateur. Il a un Q.I. de 5000.",
 		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65"
 	},

@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The number of incidents of hackers using Magnetons to damage computer systems is steadily increasing.",
 		fr: "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement."
 	},
 

@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It absorbs the heat in the air around it. If you suddenly feel cold, it's because a Gengar has appeared.",
 		fr: "Il absorbe la chaleur de l'air autour de lui. Si vous avez soudain très froid, c'est qu'un Ectoplasma vient d'apparaître."
 	},
 

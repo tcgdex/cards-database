@@ -69,6 +69,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It swims elegantly by flittering its tail as if it were a dress. It has the look of a queen.",
 		fr: "Il nage élégamment en agitant sa nageoire caudale comme si c'était une robe. Il a l'allure d'une reine."
 	},
 

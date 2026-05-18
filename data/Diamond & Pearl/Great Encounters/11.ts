@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will never appear where there is strife. Its sightings have become rare recently.",
+	},
+
 	thirdParty: {
 		cardmarket: 277913,
 		tcgplayer: 89923

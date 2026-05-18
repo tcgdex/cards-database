@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day.",
+	},
+
 	thirdParty: {
 		cardmarket: 278607,
 		tcgplayer: 89390

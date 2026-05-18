@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 278791
 	},

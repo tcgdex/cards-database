@@ -83,6 +83,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	},
+
 	thirdParty: {
 		cardmarket: 278768
 	},

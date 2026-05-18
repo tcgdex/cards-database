@@ -66,6 +66,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit.",
 		fr: "Une carapace d'insecte laissée à l'abandon. On dit qu'il vole l'âme de celui qui regarde à l'intérieur."
 	},
 

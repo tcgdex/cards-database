@@ -64,6 +64,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "After lulling its enemies with its large eyes, this Pokémon sings them to sleep with a relaxing melody.",
+	},
 	thirdParty: {
 		cardmarket: 275638,
 		tcgplayer: 46482

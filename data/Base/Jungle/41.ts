@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte."
 	},
 

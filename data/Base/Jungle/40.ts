@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
 		fr: "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule."
 	},
 

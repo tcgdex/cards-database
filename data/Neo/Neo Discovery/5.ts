@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "To corner prey, they check each other's location using barks that only they can understand.",
 		fr: "Pour traquer leur proie, ils se localisent mutuellement avec des aboiements compris par eux seuls."
 	},
 

@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
 		fr: "Ses pétales sont les plus grands du monde. Il marche en répandant un pollen extrêmement allergène."
 	},
 

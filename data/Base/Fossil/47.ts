@@ -54,6 +54,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
 		fr: "Il vit dans les plaines et les montagnes. On le confond souvent avec un petit caillou."
 	},
 

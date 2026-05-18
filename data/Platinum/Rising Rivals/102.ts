@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Upper Energy provides Colorless Energy. If you have more Prize cards left than your opponent and this card is attached to a Pokémon (excluding Pokémon LV.X), Upper Energy provides ColorlessColorless.",
 		fr: "Énergie Sup fournit de l'Énergie Colorless. Si vous possédez plus de cartes Récompense que votre adversaire et que cette carte est attachée à un Pokémon (Pokémon LV.X exclus), Énergie Sup fournit de l'Énergie ColorlessColorless.",
 		de: "Aufputsch-Energie liefert -Energie. Solange du mehr Preise übrig hast als dein Gegner und diese Karte an ein Pokémon (außer Pokémon LV.X) angelegt ist, liefert Aufputsch-Energie  -Energie."
 	},

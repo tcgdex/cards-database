@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It can launch a rock held in its hand like a missile by tightening then expanding muscles instantly.",
+	},
+
 	thirdParty: {
 		cardmarket: 278701
 	},

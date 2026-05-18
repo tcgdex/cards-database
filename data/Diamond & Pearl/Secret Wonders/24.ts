@@ -83,6 +83,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its three heads moves alternately, driving it through tough soil to depths of over 60 miles.",
+	},
+
 	thirdParty: {
 		cardmarket: 277777,
 		tcgplayer: 85002

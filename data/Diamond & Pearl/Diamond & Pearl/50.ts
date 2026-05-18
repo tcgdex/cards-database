@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It can slip through any obstacle. It lurks inside walls to keep an eye on its foes.",
 		fr: "Il peut traverser n'importe quel obstacle. Il rôde dans les murs pour surveiller ses ennemis."
 	},
 

@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
 		fr: "Il vit à l'ombre des grands arbres où il mange des insectes. Il est attiré par la lumière."
 	},
 

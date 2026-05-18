@@ -86,6 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It is a ruffian that uses its pincers to pick up and toss out other Pokémon from its pond.",
 		fr: "C'est un voyou qui utilise ses pinces pour chasser les autres Pokémon hors de sa mare."
 	},
 

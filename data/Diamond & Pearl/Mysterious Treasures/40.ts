@@ -87,6 +87,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is very territorial. It repels foes by setting of tremors that extend over a three-mile radius.",
 		fr: "Il est attaché à son territoire. Il repousse l'ennemi en provoquant des secousses qui portent à 5 Km."
 	},
 

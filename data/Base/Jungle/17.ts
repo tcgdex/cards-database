@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
 		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain."
 	},
 

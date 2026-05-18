@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It releases a stench from its red antenna to repel enemies. It grows by molting repeatedly.",
+	},
+
 	thirdParty: {
 		cardmarket: 277965,
 		tcgplayer: 84137

@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A carnivore that swallows its prey whole. Pidgeys and Spearows are its favorite food.",
 		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
 	},
 
