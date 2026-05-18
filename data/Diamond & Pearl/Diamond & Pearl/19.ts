@@ -88,6 +88,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids.",
 		fr: "Il est très agressif. Il pique sa proie avec son long museau étroit et absorbe sa vitalité."
 	},
 
