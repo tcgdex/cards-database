@@ -83,6 +83,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+	},
+
 	thirdParty: {
 		cardmarket: 278094,
 		tcgplayer: 88511
