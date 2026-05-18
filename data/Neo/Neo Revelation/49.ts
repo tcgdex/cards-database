@@ -71,6 +71,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",

@@ -63,6 +63,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",

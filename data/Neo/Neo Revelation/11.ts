@@ -68,6 +68,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
