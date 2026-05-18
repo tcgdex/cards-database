@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+	},
+
 	thirdParty: {
 		cardmarket: 277857,
 		tcgplayer: 89066
