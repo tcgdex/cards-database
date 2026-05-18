@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player's Active Evolved Pokémon (excluding Pokémon-ex) can use any attack from its Basic Pokémon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost.)",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
 		de: "Each player's Active Evolved Pokémon (excluding Pokémon-ex) can use any attack from its Basic Pokémon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost.)",
 	},
