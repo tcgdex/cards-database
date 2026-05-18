@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
 		fr: "Les nuages gorgés de pluie qui l'accompagnent lui permettent de lancer des éclairs à volonté. On raconte qu'il est issu de la foudre."
 	},
 

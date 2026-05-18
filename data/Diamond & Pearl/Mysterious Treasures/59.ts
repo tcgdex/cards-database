@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
 		fr: "Son corps est dur comme la pierre souterraine. Il file comme une fusée en expulsant des gaz."
 	},
 

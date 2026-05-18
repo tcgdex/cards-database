@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 278934,
 		tcgplayer: 85143

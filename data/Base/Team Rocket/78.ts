@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "All Pokémon Powers stop working until the end of your opponent's next turn.",
 		fr: "Tous les Pouvoirs Pokémon cessent de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
 		de: "All Pokémon Powers stop working until end of your opponent's next turn."
 	},

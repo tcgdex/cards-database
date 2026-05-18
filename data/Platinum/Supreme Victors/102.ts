@@ -59,6 +59,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+	},
+
 	thirdParty: {
 		cardmarket: 278793
 	},

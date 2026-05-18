@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
 		fr: "Ce Pokémon sauvage possède des os depuis sa naissance. Il s'en sert pour combattre avec dextérité."
 	},
 

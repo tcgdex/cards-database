@@ -52,6 +52,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
 		fr: "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
 	},
 

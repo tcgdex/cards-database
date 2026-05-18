@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+	},
+
 	thirdParty: {
 		cardmarket: 278734
 	},

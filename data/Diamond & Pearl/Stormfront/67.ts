@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
 		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
 	},
 

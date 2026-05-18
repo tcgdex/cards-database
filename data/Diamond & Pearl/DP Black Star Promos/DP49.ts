@@ -68,6 +68,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+	},
+
 	variants: [
 		{
 			type: "holo",

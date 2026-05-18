@@ -85,6 +85,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has a savage nature. It will courageously challenge foes that are much larger.",
 		fr: "Un Pokémon sauvage qui a le courage de défier des ennemis beaucoup plus grands que lui."
 	},
 

@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
 		fr: "Cette brute arrogante n'hésite pas à voler le nid d'autres Pokémon pour s'y installer."
 	},
 

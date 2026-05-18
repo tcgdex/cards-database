@@ -81,6 +81,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
 		fr: "Ses plantes de pieds sont couvertes d'épines qui lui permettent de marcher au mur et au plafond"
 	},
 

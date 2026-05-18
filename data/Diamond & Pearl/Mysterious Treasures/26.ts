@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Once it appears, its rage never settles until it has razed the fields and mountains around it.",
 		fr: "Lorsqu'il apparaît, sa rage ne cesse qu'après qu'il a rasé les plaines et montagnes alentour."
 	},
 

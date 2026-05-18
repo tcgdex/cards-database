@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 278758
 	},

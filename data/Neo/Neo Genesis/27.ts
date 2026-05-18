@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It spins string not only from its rear but also from its mouth. It's hard to tell which end is which.",
 		fr: "Il file sa toile non seulement depuis son derrière, mais aussi depuis sa bouche. Il est difficile de différencier l'avant de l'arrière."
 	},
 

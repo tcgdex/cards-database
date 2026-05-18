@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",
 		fr: "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques."
 	},
 

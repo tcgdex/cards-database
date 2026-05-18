@@ -78,6 +78,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 278716
 	},

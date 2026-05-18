@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+	},
+
 	thirdParty: {
 		cardmarket: 278952,
 		tcgplayer: 90611

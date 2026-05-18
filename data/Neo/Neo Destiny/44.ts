@@ -61,6 +61,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If puffs its body up like a balloon and sings a lullaby that makes all who hear it fall into a deep sleep.",
 		fr: "Il gonfle son corps comme un ballon et chante une berceuse qui fait sombrer tous ceux qui l'entendent dans un profond sommeil."
 	},
 

@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
 		fr: "Il roule des boules de poils pleines d'électricité statique et les range dans des souches avec des Baies."
 	},
 

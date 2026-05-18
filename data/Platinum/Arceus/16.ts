@@ -76,6 +76,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.",
+	},
+
 	thirdParty: {
 		cardmarket: 278888,
 		tcgplayer: 85677

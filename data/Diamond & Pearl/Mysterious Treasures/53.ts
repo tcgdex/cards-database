@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
 		fr: "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier."
 	},
 

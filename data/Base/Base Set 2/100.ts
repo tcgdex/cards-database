@@ -46,6 +46,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 274023,
 		tcgplayer: 42551

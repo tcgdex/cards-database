@@ -15,6 +15,7 @@ const card: Card = {
 	suffix: "SP",
 
 	effect: {
+		en: "Attach this card to 1 of your Pokémon SP in play. That Pokémon may use this card's attack instead of its own. When the Pokémon this card is attached to is no longer Pokémon SP, discard this card.",
 		fr: "Attachez cette carte à 1 de vos Pokémon SP en jeu. Celui-ci peut utiliser l'attaque de cette carte à la place de la sienne. Lorsque le Pokémon auquel cette carte est attachée n'est plus un Pokémon SP, défaussez cette carte.",
 		de: "Lege diese Karte an 1 deiner Pokémon SP im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstelle seiner eigenen Angriffe benutzen. Wenn das Pokémon, an das diese Karte angelegt ist, kein Pokémon SP mehr ist, lege diese Karte auf den Ablagestapel."
 	},

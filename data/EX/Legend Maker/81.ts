@@ -15,6 +15,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
+		en: "Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.) When you attach this card from your hand to 1 of your Pokémon, put 1 damage counter on that Pokémon.",
 		de: "Lege Regenbogen-Energie an 1 deiner Pokémon an. Während Regenbogen-Energie im Spiel ist, zählt sie als jeder beliebige Basis-Energietyp, spendet aber immer nur eine Energie auf einmal. (Zählt nicht als Basis-Energie, wenn sie nicht im Spiel ist.) Lege eine Schadensmarke auf das Pokémon, an das du diese Karte von der Hand anlegst.",
 		fr: "Attachez Énergie Multicolore à 1 de vos Pokémon. Lorsqu'elle est en jeu, Énergie Multicolore fournit tous les types d'Énergie mais seulement 1 Énergie à la fois (Elle n'a pas d'autre effet que de fournir de l'Énergie.) Lorsque vous attachez cette carte de votre main à 1 de vos Pokémon, placez 1 marqueur de dégât sur ce Pokémon.",
 	},

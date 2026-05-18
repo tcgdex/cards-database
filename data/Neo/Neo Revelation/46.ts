@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
 		fr: "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit."
 	},
 

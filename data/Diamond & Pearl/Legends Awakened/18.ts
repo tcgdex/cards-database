@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It went ashore after evolving. Its entire body is clad in a sturdy armor.",
 		fr: "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps."
 	},
 

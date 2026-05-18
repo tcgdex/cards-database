@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It sails on the winds with its limbs extended to strike from the sky. It aims for the prey's face.",
 		fr: "Il chevauche les vents en tendant ses membres pour frapper depuis le ciel. Il vise toujours au visage."
 	},
 

@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim.",
+	},
+
 	thirdParty: {
 		cardmarket: 277922,
 		tcgplayer: 86457

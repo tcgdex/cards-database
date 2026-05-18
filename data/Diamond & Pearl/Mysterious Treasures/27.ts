@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
 		fr: "Il croise ses bras affûtés devant son torse pour crier. Il compose tout un tas de mélodies."
 	},
 

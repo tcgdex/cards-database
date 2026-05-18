@@ -33,6 +33,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
 		fr: "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
 	},
 

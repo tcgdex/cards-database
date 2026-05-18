@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train.",
+	},
+
 	thirdParty: {
 		cardmarket: 278550,
 		tcgplayer: 86094

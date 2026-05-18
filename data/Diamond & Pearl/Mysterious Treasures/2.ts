@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its superb memory lets it recall everything it has experienced from birth. Its IQ exceeds 5,000.",
 		fr: "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000."
 	},
 

@@ -30,6 +30,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon's fur repels water like a duck's feathers, allowing it to stay dry and fluffy even in water.",
+	},
 	thirdParty: {
 		cardmarket: 275641,
 		tcgplayer: 46468

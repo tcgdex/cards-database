@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Search your deck or your discard pile for a Pokémon LV.X, show it to your opponent, and put it into your hand. If you search your deck, shuffle your deck afterward.",
 		fr: "Choisissez dans votre deck ou votre pile de défausse un Pokémon NIV.X, montrez-la à votre adversaire et placez-le dans votre main. Si vous cherchez dans votre deck, mélangez-le.",
 		de: "Durchsuche dein Deck oder deinen Ablagestapel nach 1 Pokémon LV.X-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Falls du dein Deck durchsucht hast, mische es danach."
 	},

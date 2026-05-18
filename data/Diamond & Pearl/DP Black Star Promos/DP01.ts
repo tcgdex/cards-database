@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
 		fr: "La coquille sur son dos est faite de terre. Elle durcit lorsqu'il s'abreuve. Il vit le long des lacs."
 	},
 

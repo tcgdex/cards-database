@@ -80,6 +80,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+	},
+
 	thirdParty: {
 		cardmarket: 278764
 	},

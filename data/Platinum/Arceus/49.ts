@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
+	},
+
 	thirdParty: {
 		cardmarket: 278921,
 		tcgplayer: 90641

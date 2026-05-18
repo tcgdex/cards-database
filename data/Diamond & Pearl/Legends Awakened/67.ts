@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
 		fr: "Il bouge si vite que l'œil a parfois du mal à le suivre. Ils se regroupent près de la sève des arbres."
 	},
 

@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When it's in combat, the air around it shimmers and warps from the intense heat it produces.",
 		fr: "Quand il se bat, l'air autour de lui scintille et semble s'enflammer à cause de l'intense chaleur émanant de lui."
 	},
 

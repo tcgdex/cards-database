@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+	},
+
 	thirdParty: {
 		cardmarket: 278906,
 		tcgplayer: 84005

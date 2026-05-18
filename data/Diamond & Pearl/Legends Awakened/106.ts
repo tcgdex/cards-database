@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
 		fr: "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
 	},
 

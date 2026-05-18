@@ -42,6 +42,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit.",
 		fr: "Il fait des moulinets avec ses bras pour générer de l'électricité, mais il se fatigue vite, il ne se recharge donc pas beaucoup."
 	},
 

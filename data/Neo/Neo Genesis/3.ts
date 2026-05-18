@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
 		fr: "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
 	},
 

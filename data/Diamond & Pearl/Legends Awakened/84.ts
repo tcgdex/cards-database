@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
 		fr: "Il dialogue avec les siens par impulsions magnétiques. En bande, ils se déplacent à l'unisson."
 	},
 

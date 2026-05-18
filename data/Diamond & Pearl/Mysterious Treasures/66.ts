@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
 		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de Zarbi est apparu en premier."
 	},
 

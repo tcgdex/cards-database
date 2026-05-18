@@ -61,6 +61,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
 		fr: "Nageant librement en pleine mer, il peut s'envoler hors de l'eau et par-dessus les vagues s'il prend suffisamment de vitesse."
 	},
 

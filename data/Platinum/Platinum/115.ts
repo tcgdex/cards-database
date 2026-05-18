@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand.",
 		fr: "Choisissez un Pokémon dans votre pile de défausse, montrez-le à votre adversaire et placez-le dans votre main.",
 		de: "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand."
 	},
