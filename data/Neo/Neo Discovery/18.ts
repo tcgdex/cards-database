@@ -88,6 +88,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.",
 		fr: "Il peut vaincre ses adversaires avec ses puissants dards empoisonnés. Parfois, il attaque avec le reste de l'essaim."
 	},
 

@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
 		fr: "Il lance des coups de pieds tournant. S'il tournoie assez vite, il peut s'enfoncer dans le sol."
 	},
 

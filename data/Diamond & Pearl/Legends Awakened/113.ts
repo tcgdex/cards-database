@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It looks just like a pinecone. Its shell protects it from bird Pokémon that peck it by mistake.",
+	},
+
 	thirdParty: {
 		cardmarket: 278262,
 		tcgplayer: 88128

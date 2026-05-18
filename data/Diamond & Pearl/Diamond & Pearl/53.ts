@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy.",
 		fr: "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie."
 	},
 

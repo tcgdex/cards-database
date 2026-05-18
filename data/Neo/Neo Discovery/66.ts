@@ -48,6 +48,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
 		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
 	},
 

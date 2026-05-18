@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in cold water, half burying itself in mud at the bottom to sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 277871,
 		tcgplayer: 90636

@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble.",
+	},
+
 	thirdParty: {
 		cardmarket: 278497,
 		tcgplayer: 86008

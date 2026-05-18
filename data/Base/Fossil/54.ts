@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
 		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
 	},
 

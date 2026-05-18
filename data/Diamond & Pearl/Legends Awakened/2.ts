@@ -88,6 +88,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
 		fr: "On raconte qu'il vit quelque part en mer. Il guide les équipages naufragés jusqu'à la terre ferme."
 	},
 

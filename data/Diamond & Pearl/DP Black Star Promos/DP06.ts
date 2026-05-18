@@ -65,6 +65,10 @@ const card: Card = {
 		en: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
 	},
 
+	description: {
+		en: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+	},
+
 	variants: [
 		{
 			type: "holo",

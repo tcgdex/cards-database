@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
+	},
+
 	thirdParty: {
 		cardmarket: 277952,
 		tcgplayer: 88465

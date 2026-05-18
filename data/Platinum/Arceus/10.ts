@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
+	},
+
 	thirdParty: {
 		cardmarket: 278882,
 		tcgplayer: 89753

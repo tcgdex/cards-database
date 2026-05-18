@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
 		fr: "On prétend qu'il se manifeste auprès des gens généreux et bienfaisants, et les couvre de bonheur."
 	},
 

@@ -58,6 +58,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 273992,
 		tcgplayer: 42488

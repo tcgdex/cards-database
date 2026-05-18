@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It blinds prey with an intense burst of light, then swallows the immobilized prey in a single gulp.",
 		fr: "Il aveugle sa proie avec un flash de lumière intense, puis, une fois immobilisée, il l'avale d'un seul coup."
 	},
 

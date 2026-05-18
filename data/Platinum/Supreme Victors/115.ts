@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+	},
+
 	thirdParty: {
 		cardmarket: 278806
 	},

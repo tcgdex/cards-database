@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+	},
+
 	thirdParty: {
 		cardmarket: 277981,
 		tcgplayer: 87174

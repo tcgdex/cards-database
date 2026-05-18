@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
 		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
 	},
 

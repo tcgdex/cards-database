@@ -64,6 +64,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It possesses a type of radar, which it can use to find the insects it eats for food, even in pitch darkness.",
 		fr: "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale."
 	},
 

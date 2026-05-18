@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
 		fr: "Il attache un fil à sa proie avant de la libérer. Il s'en servira pour la retrouver, elle et ses amis."
 	},
 

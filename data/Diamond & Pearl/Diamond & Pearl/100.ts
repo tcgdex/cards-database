@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
 		fr: "Il se nourrit d'œufs volés dans des nids. Ses griffes crochues percent les défenses de l'ennemi."
 	},
 

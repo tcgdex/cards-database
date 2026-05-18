@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
 	},
 

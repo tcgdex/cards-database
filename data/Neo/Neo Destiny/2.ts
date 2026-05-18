@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although the wings it has evolved on its feet allow it to fly at high speeds, they unfortunately make it difficult to perch.",
 		fr: "Les ailes supplémentaires qui ornent ses pattes lui permettent de voler très vite, mais elles lui compliquent la vie quand il veut se percher."
 	},
 

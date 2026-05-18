@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its wings deliver wicked blows that snap even the thickest of trees. It searches for prey in icy seas.",
+	},
+
 	thirdParty: {
 		cardmarket: 278093,
 		tcgplayer: 88370

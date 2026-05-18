@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in.",
 		fr: "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera."
 	},
 

@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If its fins being to vibrate, it is a sign that it will begin raining soon.",
 		fr: "Si sa nageoire commence à vibrer, c'est signe qu'il va bientôt pleuvoir."
 	},
 

@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
 		fr: "Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger."
 	},
 

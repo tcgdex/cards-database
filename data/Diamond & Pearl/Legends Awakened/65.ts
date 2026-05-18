@@ -87,6 +87,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
 		fr: "Il est formé de deux Terhal soudés. Son corps de fer résiste à un choc avec un avion à réaction."
 	},
 

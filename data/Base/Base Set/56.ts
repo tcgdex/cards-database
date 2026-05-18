@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 		fr: "Les parties en pierre de son corps durcissent pour devenir comme un diamant de couleur noire.",
 		it: "Man mano che cresce, la parte di pietra del suo corpo si indurisce fino a diventare simile al diamante, ma di colore nero. LIV 12 N.95"
 	},

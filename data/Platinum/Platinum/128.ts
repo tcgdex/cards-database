@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It loves to feed on strong electricity. It occasionally appears around large power plants and so on.",
+	},
+
 	thirdParty: {
 		cardmarket: 278549,
 		tcgplayer: 85116

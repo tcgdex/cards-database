@@ -66,6 +66,10 @@ const card: Card = {
 		en: "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully.",
 	},
 
+	description: {
+		en: "On nights around the quarter moon, the aurora from its tail extends and undulates beautifully.",
+	},
+
 	variants: [
 		{
 			type: "holo",

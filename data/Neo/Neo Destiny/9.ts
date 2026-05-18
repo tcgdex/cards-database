@@ -80,6 +80,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Nothing can withstand the pressure of the vise-like grip of this Pokémon's steel claws.",
 		fr: "Rien ne peut résister à la pression des griffes d'acier de ce Pokémon, aussi puissantes qu'un étau."
 	},
 

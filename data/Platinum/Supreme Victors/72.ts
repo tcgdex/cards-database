@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+	},
+
 	thirdParty: {
 		cardmarket: 278763
 	},

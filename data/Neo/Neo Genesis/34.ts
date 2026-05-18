@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
 		fr: "Parce qu'il stocke trop d'électricité, il développe des plaques où sa laine ne pousse plus."
 	},
 

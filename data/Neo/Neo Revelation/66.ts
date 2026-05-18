@@ -68,6 +68,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet.",
 		fr: "Un Pokémon faible et pathétique. Il lui arrive de temps en temps de parvenir à sauter assez haut, mais il ne monte jamais au-delà de 2m."
 	},
 

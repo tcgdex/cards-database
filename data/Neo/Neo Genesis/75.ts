@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
 		fr: "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable."
 	},
 

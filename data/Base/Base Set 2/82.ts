@@ -56,6 +56,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 274005
 	},

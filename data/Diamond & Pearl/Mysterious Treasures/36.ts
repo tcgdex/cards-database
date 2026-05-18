@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
 		fr: "Les griffes de ses poings sécrètent une toxine si atroce qu'une simple égratignure peut s'avérer fatale."
 	},
 

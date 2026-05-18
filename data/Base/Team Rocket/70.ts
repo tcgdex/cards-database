@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Lives in dark caves. Can occasionally be seen at night, when it flies in search of food.",
 		fr: "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture."
 	},
 

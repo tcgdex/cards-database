@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
 		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
 	},
 

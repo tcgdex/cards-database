@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores.",
+	},
+
 	thirdParty: {
 		cardmarket: 278729
 	},

@@ -66,6 +66,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
 		fr: "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
 	},
 

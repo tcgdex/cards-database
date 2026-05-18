@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Return 1 of your Pokémon SP and all cards attached to it to your hand.",
 		fr: "Reprenez dans votre main 1 de vos Pokémon SP ainsi que toutes les cartes qui lui sont attachées.",
 		de: "Return 1 of your Pokémon SP and all cards attached to it to your hand."
 	},

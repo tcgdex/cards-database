@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
 		fr: "Son galop dépasse les 240 km/h. Il file comme une flèche, laissant flotter sa crinière ardente."
 	},
 
