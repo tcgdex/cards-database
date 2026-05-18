@@ -52,6 +52,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+	},
+
 	variants: [
 		{
 			type: "holo",

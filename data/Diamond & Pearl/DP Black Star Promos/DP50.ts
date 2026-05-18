@@ -56,6 +56,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
 		fr: "On dit que son œuf a éclos dans le néant et qu'il est à l'origine de la création du monde."
 	},
 
