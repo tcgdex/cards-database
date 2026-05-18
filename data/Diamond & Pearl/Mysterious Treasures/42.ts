@@ -64,6 +64,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",

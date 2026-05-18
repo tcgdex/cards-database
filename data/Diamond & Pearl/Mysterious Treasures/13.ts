@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Its breath has the fantastic ability to revive dead plants and flowers.",

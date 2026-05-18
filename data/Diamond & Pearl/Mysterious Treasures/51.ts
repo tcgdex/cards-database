@@ -83,6 +83,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "GRAVELER make their homes on sheer cliff faces by gouging out numerous horizontal holes.",

@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Once it appears, its rage never settles until it has razed the fields and mountains around it.",

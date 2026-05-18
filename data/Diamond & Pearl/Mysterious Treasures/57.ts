@@ -74,6 +74,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It lives in the gaps of boulders and in holes on the seafloor. Its suction cups grip prey tightly.",

@@ -76,6 +76,8 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its powerful head butt has enough power to shatter even the most durable things upon impact.",

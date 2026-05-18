@@ -50,6 +50,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
