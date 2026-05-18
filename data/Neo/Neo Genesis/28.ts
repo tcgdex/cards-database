@@ -78,6 +78,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",

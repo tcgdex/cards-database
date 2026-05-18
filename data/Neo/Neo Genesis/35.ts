@@ -83,6 +83,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
