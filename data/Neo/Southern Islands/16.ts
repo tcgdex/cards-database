@@ -65,6 +65,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon uses its six-foot tongue as if it were a hand. The origin of its anaesthetic properties is still a mystery.",
+	},
 	thirdParty: {
 		cardmarket: 275646,
 		tcgplayer: 46473

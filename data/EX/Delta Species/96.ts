@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player that has any Pokémon in play that has δ on its card may draw a card once during his or her turn. If the player does, he or she discards a card from his or her hand.",
 		fr: "Chaque joueur ayant un Pokémon possédant le symbole δ en jeu peut piocher une carte une seule fois lors de son tour. Il ou elle défausse alors une carte de sa main.",
 		de: "Each player that has any Pokémon in play that has Delta on its card may draw a card once during his or her turn. If the player does, he or she discards a cards from his or her hand.",
 	},

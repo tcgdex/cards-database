@@ -52,6 +52,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
 		fr: "Il sait particulièrement bien viser. L'eau qu'il projette peut frapper une proie en mouvement à plus de 100 mètres."
 	},
 

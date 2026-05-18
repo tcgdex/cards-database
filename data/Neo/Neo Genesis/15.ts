@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
 		fr: "Son corps a été compressé à une profondeur incroyable. Il en résulte qu'il est plus dur que le diamant."
 	},
 

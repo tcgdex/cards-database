@@ -18,14 +18,25 @@ const card: Card = {
 	types: ["Psychic"],
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733802,
+				tcgplayer: 517053,
+				cardtrader: 261385
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 733802
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 733802
-	}
+	
 }
 
 export default card

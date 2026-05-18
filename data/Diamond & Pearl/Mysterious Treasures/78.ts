@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
 		fr: "Ses joues contiennent des glandes toxiques. Il attaque par surprise et utilise son toucher empoisonné."
 	},
 

@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
 		fr: "L'extrémité lumineuse de sa queue est visible de très loin. Depuis l'antiquité, elle sert de balise aux gens perdus."
 	},
 

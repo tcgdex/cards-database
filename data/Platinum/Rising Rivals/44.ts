@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+	},
+
 	thirdParty: {
 		cardmarket: 278618,
 		tcgplayer: 86581

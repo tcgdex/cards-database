@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lives along bodies of water. Its body shape changed to suit its habitat.",
+	},
+
 	thirdParty: {
 		cardmarket: 278122,
 		tcgplayer: 89142

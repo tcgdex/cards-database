@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an EXEGGCUTE.",
 		fr: "On l'appelle \" jungle sur pattes \". Si une tête devient trop grosse, elle tombe et produit un Noeunoeuf"
 	},
 

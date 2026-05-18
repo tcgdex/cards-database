@@ -61,6 +61,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
+	},
+
 	thirdParty: {
 		cardmarket: 273952,
 		tcgplayer: 42501

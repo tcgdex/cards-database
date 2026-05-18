@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
+	},
+
 	thirdParty: {
 		cardmarket: 277509,
 		tcgplayer: 87514

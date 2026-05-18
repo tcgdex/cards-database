@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
+	},
+
 	thirdParty: {
 		cardmarket: 278752
 	},

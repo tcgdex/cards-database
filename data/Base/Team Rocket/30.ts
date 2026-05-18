@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live.",
 		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
 	},
 

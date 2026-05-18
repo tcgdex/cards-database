@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its skin is so thin, its internal organs are visible. It has trouble walking on its newly grown feet.",
+	},
+
 	thirdParty: {
 		cardmarket: 278263,
 		tcgplayer: 88259

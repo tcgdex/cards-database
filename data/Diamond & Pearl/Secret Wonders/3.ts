@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said that CHARIZARD's fire burns hotter if it has experienced harsh battles.",
+	},
+
 	thirdParty: {
 		cardmarket: 277756,
 		tcgplayer: 84189

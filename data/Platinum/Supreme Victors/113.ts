@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+	},
+
 	thirdParty: {
 		cardmarket: 278804
 	},

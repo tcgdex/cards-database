@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
 		fr: "Des champignons appelés \"tochukaso\" poussent sur son dos. Ils évoluent avec le Paras hôte."
 	},
 

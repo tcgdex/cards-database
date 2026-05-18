@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
+	},
+
 	thirdParty: {
 		cardmarket: 278948,
 		tcgplayer: 89747

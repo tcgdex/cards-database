@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
 		fr: "Quand il est énervé, ce Pokémon se protège avec une sueur empoisonnée émise par ses pores."
 	},
 

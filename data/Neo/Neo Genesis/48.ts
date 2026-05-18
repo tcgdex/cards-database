@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "An examination of its cells revealed the presence of a gene not found in Horsea. It became a hot topic.",
 		fr: "L'observation de ses cellules a révélé la présence d'un gène inexistant dans Hypotrempe. C'est devenu un sujet très débattu."
 	},
 

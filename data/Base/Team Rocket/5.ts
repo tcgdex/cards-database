@@ -79,6 +79,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight.",
 		fr: "Il est parfois appelé \"Le dieu destructeur\". Ses ailes le supportent en dépit de sa masse imposante."
 	},
 

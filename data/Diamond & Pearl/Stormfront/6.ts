@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+	},
+
 	thirdParty: {
 		cardmarket: 278303,
 		tcgplayer: 87115

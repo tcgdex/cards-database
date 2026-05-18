@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
 		fr: "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid."
 	},
 

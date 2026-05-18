@@ -59,6 +59,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+	},
+
 	thirdParty: {
 		cardmarket: 273997,
 		tcgplayer: 42494

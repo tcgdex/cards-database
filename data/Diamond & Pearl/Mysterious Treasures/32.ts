@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
 		fr: "On raconte que ses neuf queues détiennent un pouvoir mystique. Il peut vivre pendant mille ans."
 	},
 

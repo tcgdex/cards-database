@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 278874,
 		tcgplayer: 85573

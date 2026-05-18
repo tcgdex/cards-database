@@ -64,6 +64,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
 		fr: "Alors qu'il trompe ses ennemis avec son air niais, ce Pokémon rusé utilise des pouvoirs psychokinésiques."
 	},
 

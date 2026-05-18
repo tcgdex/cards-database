@@ -85,6 +85,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
 		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
 	},
 

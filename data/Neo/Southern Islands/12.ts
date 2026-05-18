@@ -59,6 +59,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This gentle Pokémon can understand human language and allows people to ride on its back.",
+	},
 	thirdParty: {
 		cardmarket: 275642,
 		tcgplayer: 46469

@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's.",
+	},
+
 	thirdParty: {
 		cardmarket: 278782
 	},

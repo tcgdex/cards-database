@@ -16,6 +16,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Play Root Fossil as if it were a Basic Pokémon. While in play, Root Fossil counts as a Colorless Pokémon (as well as a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Root Fossil from play.",
 		fr: "Jouez Fossile racine comme si c'était un Pokémon de base. Lorsqu'elle est en jeu, Fossile racine compte comme un Pokémon  (et comme une carte Dresseur). Fossile racine ne possède pas d'attaques, ne peut pas battre en retraite et ne peut pas être affectée par des États Spéciaux. Si Fossile racine est mise K.O, elle ne compte pas comme un Pokémon K.O (défaussez-la de toutes façons). N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Fossile racine.",
 		de: "Spiele Wurzelfossil wie ein Basis-Pokémon. Während Wurzelfossil im Spiel ist, zählt es als -Pokémon (anstatt einer Trainerkarte). Wurzelfossil hat keine Angriffe, kann sich nicht zurückziehen und wird nicht von Speziellen Zuständen betroffen. Falls Wurzelfossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon (lege es trotzdem ab). Jederzeit während deines Zuges vor deinem Angriff kannst du Wurzelfossil aus dem Spiel ablegen."
 	},

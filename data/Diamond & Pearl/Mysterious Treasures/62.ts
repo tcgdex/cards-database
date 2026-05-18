@@ -58,6 +58,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
 		fr: "Il fait souvent tourner des objets sur son museau pour connaitre leur odeur et leur texture."
 	},
 

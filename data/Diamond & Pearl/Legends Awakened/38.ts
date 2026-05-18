@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
 		fr: "Tout son corps est fait de roche. S'il s'ébrèche au combat, il utilise des pierres pour le réparer."
 	},
 

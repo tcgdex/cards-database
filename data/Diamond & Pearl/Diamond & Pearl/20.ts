@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
 		fr: "Il construit des barrages de boue et d'écorce le long des fleuves. C'est un ouvrier de renom."
 	},
 

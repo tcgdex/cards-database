@@ -86,6 +86,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
 		fr: "Il a évolué suite à son exposition à un champ magnétique spécial. Ses 3 unités génèrent du magnétisme."
 	},
 

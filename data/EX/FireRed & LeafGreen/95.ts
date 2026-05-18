@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Flip a coin. If heads, search your deck for a Basic Pokémon or Evolution card, show it to your opponent and put it into your hand. Shuffle your deck afterward.",
 		fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck un Pokémon de base ou une carte Évolution, montrez la carte à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
 		de: "Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einem basis-Pokémon pder einer Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},

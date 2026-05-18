@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It squirts water forcefully from its mouth to shoot down flying prey.",
 		fr: "Il crache un puissant jet d'eau pour abattre les proies volantes."
 	},
 

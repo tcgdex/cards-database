@@ -55,8 +55,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
 		fr: "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement.",
 		it: "Il suo corpo contiene vari tipi di gas tossici ed è per questo che spesso esplode senza alcun preavviso. LIV 13 N.109",
 	},

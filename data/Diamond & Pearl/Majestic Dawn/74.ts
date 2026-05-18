@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 278123,
 		tcgplayer: 89441

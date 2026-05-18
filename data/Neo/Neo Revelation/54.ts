@@ -45,6 +45,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It always rocks its head slowly backwards and forwards as if it is trying to kiss someone.",
 		fr: "Il remue toujours la tête d'avant en arrière comme s'il essayait de faire des bisous."
 	},
 

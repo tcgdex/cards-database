@@ -42,6 +42,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
+	},
+
 	thirdParty: {
 		cardmarket: 274006
 	},

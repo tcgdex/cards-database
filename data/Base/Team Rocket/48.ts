@@ -78,6 +78,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "More and more people play the slots every day, trying to win a Porygon.",
 		fr: "De plus en plus de gens tentent leur chance au jackpot quotidiennement pour essayer de gagner un Porygon."
 	},
 
