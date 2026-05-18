@@ -74,6 +74,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This kindhearted Pokémon nurses sick Pokémon to health. It senses feelings of sadness.",
 		fr: "Ce Pokémon au cœur d'or soigne les Pokémon malades. Il ressent la tristesse d'autrui."
 	},
 

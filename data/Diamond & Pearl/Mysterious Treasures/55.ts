@@ -84,6 +84,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
 		fr: "Des motifs en forme d'yeux ornent ses antennes. Ses 4 ailes l'aident à voler dans toutes les directions."
 	},
 

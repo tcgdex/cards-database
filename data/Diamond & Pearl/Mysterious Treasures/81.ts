@@ -60,6 +60,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
 		fr: "Il améliore ses réflexes en stimulant ses muscles grâce à l'électricité dans sa fourrure."
 	},
 

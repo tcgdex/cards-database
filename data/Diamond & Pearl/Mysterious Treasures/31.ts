@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
 		fr: "Son corps est recouvert d'écailles solides. Il donnera sa vie pour secourir les petits de son terrier."
 	},
 
