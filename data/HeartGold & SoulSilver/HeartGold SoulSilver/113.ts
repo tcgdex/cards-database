@@ -25,6 +25,18 @@ const card: Card = {
 
 	suffix: "Legend",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20",
+		},
+	],
 	retreat: 0,
 
 	description: {
