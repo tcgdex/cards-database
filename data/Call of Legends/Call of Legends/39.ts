@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 279682,
 		tcgplayer: 90708

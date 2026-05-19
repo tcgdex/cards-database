@@ -76,6 +76,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+	},
 
 	thirdParty: {
 		cardmarket: 279707,

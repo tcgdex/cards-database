@@ -72,6 +72,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
+	},
 
 	thirdParty: {
 		cardmarket: 279674,

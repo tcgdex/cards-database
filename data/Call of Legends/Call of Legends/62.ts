@@ -61,6 +61,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
+	},
 
 	thirdParty: {
 		cardmarket: 279705,
