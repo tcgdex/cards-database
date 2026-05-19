@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
 		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
 	},
 

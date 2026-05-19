@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It fights while spinning like a top. The centrifugal force boosts its destructive power by ten.",
 		fr: "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice."
 	},
 

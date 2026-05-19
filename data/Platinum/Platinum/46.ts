@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts.",
+	},
+
 	thirdParty: {
 		cardmarket: 278467,
 		tcgplayer: 84460

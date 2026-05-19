@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
 		fr: "Disparu depuis longtemps, il peut être réanimé génétiquement à partir d'anciens fossiles."
 	},
 

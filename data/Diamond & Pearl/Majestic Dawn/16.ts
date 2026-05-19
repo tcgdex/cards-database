@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 278065,
 		tcgplayer: 83993

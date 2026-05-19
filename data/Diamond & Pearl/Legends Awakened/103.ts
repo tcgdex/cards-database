@@ -74,6 +74,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
 		fr: "Il exprime ses émotions en modulant son cri. Ce Pokémon rusé chasse en meute pour abattre ses proies."
 	},
 

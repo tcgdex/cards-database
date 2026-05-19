@@ -64,6 +64,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
+	},
+
 	thirdParty: {
 		cardmarket: 273948,
 		tcgplayer: 42470

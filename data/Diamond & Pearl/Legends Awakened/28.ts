@@ -86,6 +86,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
 		fr: "Il est prisonnier d'une coquille d'acier. Ses yeux vigilants sont la seule partie visible de son corps."
 	},
 

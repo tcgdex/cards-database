@@ -68,6 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
 		fr: "Un Pokémon qui vit près de l'eau. Au sol, il se déplace rapidement en rebondissant sur sa grosse queue"
 	},
 

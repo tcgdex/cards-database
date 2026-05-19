@@ -50,6 +50,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It fears nothing, not even opponents larger than itself.",
 		fr: "Il n'a peur de rien, pas même d'adversaires plus grands que lui."
 	},
 

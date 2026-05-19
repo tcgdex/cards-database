@@ -72,6 +72,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee.",
+	},
+
 	thirdParty: {
 		cardmarket: 278878,
 		tcgplayer: 87583

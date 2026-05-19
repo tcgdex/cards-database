@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 278479,
 		tcgplayer: 87833

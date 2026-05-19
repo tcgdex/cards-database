@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
 		fr: "Il peut modeler l'espace. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
 	},
 

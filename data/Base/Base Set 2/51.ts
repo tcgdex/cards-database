@@ -60,6 +60,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+	},
+
 	thirdParty: {
 		cardmarket: 273974,
 		tcgplayer: 42514

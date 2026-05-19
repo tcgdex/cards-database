@@ -82,6 +82,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "By flapping its wings with all its might, PIDGEOT can make a gust of wind capable of bending tall trees.",
+	},
+
 	thirdParty: {
 		cardmarket: 277788,
 		tcgplayer: 88033

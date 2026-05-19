@@ -77,6 +77,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is said that each of its nine tails contains a different magical power.",
 		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
 	},
 

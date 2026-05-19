@@ -52,6 +52,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "This legendary Pokémon is said to be present wherever there is a lightning storm.",
 		fr: "Ce Pokémon légendaire est connu pour se montrer partout où il y a un orage."
 	},
 

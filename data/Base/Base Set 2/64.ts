@@ -61,6 +61,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
+	},
+
 	thirdParty: {
 		cardmarket: 273987,
 		tcgplayer: 42527

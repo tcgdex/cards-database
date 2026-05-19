@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there.",
+	},
+
 	thirdParty: {
 		cardmarket: 278460,
 		tcgplayer: 89986

@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "While flying, it constantly emits ultrasonic waves from its mouth to check its surroundings.",
 		fr: "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
 	},
 

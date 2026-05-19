@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+	},
+
 	thirdParty: {
 		cardmarket: 278524,
 		tcgplayer: 90652

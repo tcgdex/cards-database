@@ -14,6 +14,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
+		en: "This card provides ColorlessColorless Energy. You can attach this card to your Pokémon that has basic Energy cards attached to it. When you play this card from your hand and attach it to 1 of your Pokémon, return a basic Energy card attached to that Pokémon to your hand.",
 		de: "Diese Karte erzeugt -Energie. Du kannst diese Karte an dein Pokémon, an dem mindestens eine Basis-Energiekarte angelegt ist, anlegen. Wenn du diese Karte aus deiner Hand spielst und an 1 deiner Pokémon anlegst, bringe eine Basis-Energiekarte, die an dieses Pokémon angelegt ist, auf deine Hand zurück."
 	},
 

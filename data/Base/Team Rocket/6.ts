@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Digs large sinkholes in the ground and tries to trap its enemies in them.",
 		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
 	},
 

@@ -67,6 +67,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
 		fr: "Il est petit mais costaud. Il n'hésite pas à mordre tout ce qui bouge."
 	},
 

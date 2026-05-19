@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
 		fr: "L'odeur du nectar de sa bouche est si répugnante qu'elle agresse les narines à deux kilomètres."
 	},
 

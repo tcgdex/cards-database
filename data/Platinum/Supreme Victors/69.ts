@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+	},
+
 	thirdParty: {
 		cardmarket: 278760
 	},

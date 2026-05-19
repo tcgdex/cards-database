@@ -82,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It defends itself by flapping its wings at high speed, spreading poisonous powder throughout the air.",
 		fr: "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs."
 	},
 

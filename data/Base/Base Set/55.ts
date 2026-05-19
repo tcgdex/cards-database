@@ -54,8 +54,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
 		fr: "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.",
 		it: "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
 	},

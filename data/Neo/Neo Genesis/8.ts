@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
 		fr: "On prétend qu'il se cache dans des grottes sous-marines. Il peut créer des tourbillons rien que par son bâillement."
 	},
 

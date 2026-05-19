@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
 		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
 	},
 

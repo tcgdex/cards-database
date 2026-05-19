@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The light of the moon changed Eevee's genetic structure. It lurks in darkness for prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 278081,
 		tcgplayer: 90144

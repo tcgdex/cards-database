@@ -76,6 +76,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
 		fr: "À l'aide de sa corne, il perce des trous dans les rochers situés au fond des rivières, afin d'y faire un nid pour éviter que ses œufs soient emportés par le courant."
 	},
 

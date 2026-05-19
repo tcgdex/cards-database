@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Supporter",
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Your opponent may also draw a card.",
 		fr: "Piochez 3 cartes. Votre adversaire peut également piocher une carte.",
 		de: "Ziehe 3 Karten. Dein Gegner kann dann ebenfalls 1 Karte ziehen.",
 	},

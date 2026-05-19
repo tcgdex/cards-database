@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+	},
+
 	thirdParty: {
 		cardmarket: 278056,
 		tcgplayer: 86677

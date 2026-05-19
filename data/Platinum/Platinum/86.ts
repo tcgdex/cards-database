@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted.",
+	},
+
 	thirdParty: {
 		cardmarket: 278507,
 		tcgplayer: 88301

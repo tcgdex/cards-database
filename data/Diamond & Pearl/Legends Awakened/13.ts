@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It exudes strong magnetism from all over. It controls three small units call Mini-Noses.",
 		fr: "Son corps libère une puissante force magnétique. Il dirige trois petites unités appelées Mini-nez."
 	},
 

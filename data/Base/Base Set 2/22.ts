@@ -67,6 +67,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
+	},
+
 	thirdParty: {
 		cardmarket: 273945,
 		tcgplayer: 42467

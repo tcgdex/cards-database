@@ -69,6 +69,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "First discovered in a weapons factory, this Pokémon can now be found almost anywhere.",
 		fr: "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout."
 	},
 

@@ -79,18 +79,33 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733744,
+				tcgplayer: 516712,
+				cardtrader: 261228
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733744,
+				tcgplayer: 516712,
+				cardtrader: 261228
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 864952
+			}
+		},
 	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 733744
-	}
+	
 }
 
 export default card

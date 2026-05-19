@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.",
 		fr: "Déplacez une carte Énergie de base d'1 de vos Pokémon à 1 autre de vos Pokémon.",
 		de: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
 	},

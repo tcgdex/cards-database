@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+	},
+
 	thirdParty: {
 		cardmarket: 278897,
 		tcgplayer: 88021

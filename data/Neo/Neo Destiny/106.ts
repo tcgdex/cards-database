@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It is worshipped as a god of the forest. It appears only in undisturbed old-growth forests.",
 		fr: "Il est adoré comme un dieu de la forêt. Il n'apparaît que dans des forêts anciennes et paisibles."
 	},
 

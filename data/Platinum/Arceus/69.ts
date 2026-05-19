@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 278941,
 		tcgplayer: 87803
