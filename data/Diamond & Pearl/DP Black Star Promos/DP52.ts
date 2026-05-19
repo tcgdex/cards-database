@@ -72,10 +72,6 @@ const card: Card = {
 		en: "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
 	},
 
-	description: {
-		en: "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
-	},
-
 	variants: [
 		{
 			type: "holo",

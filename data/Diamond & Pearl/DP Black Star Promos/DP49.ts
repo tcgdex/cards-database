@@ -74,10 +74,6 @@ const card: Card = {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
 	},
 
-	description: {
-		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
-	},
-
 	variants: [
 		{
 			type: "holo",

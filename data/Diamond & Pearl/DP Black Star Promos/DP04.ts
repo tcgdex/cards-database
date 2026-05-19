@@ -72,10 +72,6 @@ const card: Card = {
 		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
 	},
 
-	description: {
-		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
-	},
-
 	variants: [
 		{
 			type: "holo",

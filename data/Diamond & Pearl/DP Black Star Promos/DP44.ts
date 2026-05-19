@@ -78,10 +78,6 @@ const card: Card = {
 		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
 	},
 
-	description: {
-		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
-	},
-
 	variants: [
 		{
 			type: "holo",
