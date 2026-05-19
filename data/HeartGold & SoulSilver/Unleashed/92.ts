@@ -23,6 +23,16 @@ const card: Card = {
 
 	suffix: "Legend",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 
 	variants: [
