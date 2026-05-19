@@ -41,6 +41,16 @@ const card: Card = {
 	],
 
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Colorless",
+			value: "×2",
+		},
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 
 	variants: [
