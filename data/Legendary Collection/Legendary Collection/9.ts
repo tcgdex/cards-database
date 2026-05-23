@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools.",
+	},
 
 	thirdParty: {
 		cardmarket: 274774,

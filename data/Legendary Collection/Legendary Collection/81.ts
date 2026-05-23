@@ -59,6 +59,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Normally friendly, it quickly becomes angry if it doesn't get what it wants.",
+	},
+
 	thirdParty: {
 		cardmarket: 274846,
 		tcgplayer: 87171
