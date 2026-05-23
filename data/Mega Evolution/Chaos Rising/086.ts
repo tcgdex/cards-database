@@ -18,7 +18,11 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Energy",
 	energyType: "Special",
-	regulationMark: "J"
+	regulationMark: "J",
+
+	thirdParty: {
+		tcgplayer: 693527
+	}
 }
 
 export default card

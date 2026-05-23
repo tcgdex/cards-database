@@ -11,7 +11,7 @@ const set: Set = {
 		'es-mx': 'Caos Creciente',
 		fr: "Chaos Ascendant",
 		it: "Caos Nascente",
-		// pt: "Heróis Excelsos"
+		pt: "Caos Ascendente"
 	},
 
 	serie: serie,
