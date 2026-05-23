@@ -58,6 +58,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",

@@ -70,6 +70,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",

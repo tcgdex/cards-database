@@ -70,6 +70,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It lived in jungles around 100 million years ago. Its skull is as hard as iron.",
