@@ -58,6 +58,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",

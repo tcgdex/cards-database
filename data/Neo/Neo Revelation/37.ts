@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
