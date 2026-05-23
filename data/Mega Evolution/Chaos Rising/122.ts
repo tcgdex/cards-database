@@ -24,6 +24,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Frogadier"
 	},
+	rarity: "Mega Hyper Rare",
 
 	stage: "Stage2",
 	suffix: "EX",
