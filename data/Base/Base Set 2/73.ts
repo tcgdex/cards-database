@@ -57,6 +57,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
