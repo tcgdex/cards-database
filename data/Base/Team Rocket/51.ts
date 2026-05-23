@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A Raticate's front teeth are incredibly powerful; it can destroy a two-story house with them in 5 minutes.",

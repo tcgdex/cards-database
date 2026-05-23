@@ -78,6 +78,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Researchers have observed these Pokémon reproducing in industrial waste sites.",
