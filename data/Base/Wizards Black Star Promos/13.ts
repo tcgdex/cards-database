@@ -57,6 +57,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
