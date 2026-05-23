@@ -74,6 +74,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "In snow, the pure white coat covering its body obscures it from predators.",

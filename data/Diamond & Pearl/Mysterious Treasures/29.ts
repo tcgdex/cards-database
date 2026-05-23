@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When the waves are calm, one may encounter a swarm of Mantine swimming as if they are in flight.",

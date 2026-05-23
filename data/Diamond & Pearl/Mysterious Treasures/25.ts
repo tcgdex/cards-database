@@ -74,6 +74,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.",
