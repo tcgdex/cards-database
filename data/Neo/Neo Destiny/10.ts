@@ -69,6 +69,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When it's in combat, the air around it shimmers and warps from the intense heat it produces.",

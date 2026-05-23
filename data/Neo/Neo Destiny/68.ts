@@ -48,6 +48,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It fears nothing, not even opponents larger than itself.",

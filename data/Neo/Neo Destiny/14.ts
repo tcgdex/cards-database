@@ -74,6 +74,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It is said to fly constantly over the sea, looking for people in need of aid.",

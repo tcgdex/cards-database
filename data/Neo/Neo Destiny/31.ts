@@ -80,6 +80,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It holds its egg carefully when moving so as not to break it. Still, it is fast enough to disappear in the blink of an eye.",

@@ -79,6 +79,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Its keen nose can pick out any scent, even that of food buried deep underground.",
