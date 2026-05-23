@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",

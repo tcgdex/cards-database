@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
