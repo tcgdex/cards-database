@@ -37,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	illustrator: "Akira Kamayama",
+	illustrator: "Akira Komayama",
 }
 
 export default card
