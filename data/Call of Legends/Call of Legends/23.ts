@@ -82,6 +82,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+	},
 
 	thirdParty: {
 		cardmarket: 279666,

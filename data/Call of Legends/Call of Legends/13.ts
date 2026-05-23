@@ -80,6 +80,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
+	},
 
 	thirdParty: {
 		cardmarket: 279656,

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+	},
+
 	thirdParty: {
 		cardmarket: 279715,
 		tcgplayer: 89748
