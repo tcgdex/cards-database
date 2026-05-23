@@ -51,6 +51,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "For protection, it releases a horrible stench from the antennae on its head to drive away enemies.",

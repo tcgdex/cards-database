@@ -53,6 +53,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",

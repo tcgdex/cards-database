@@ -88,6 +88,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",

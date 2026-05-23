@@ -65,6 +65,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
