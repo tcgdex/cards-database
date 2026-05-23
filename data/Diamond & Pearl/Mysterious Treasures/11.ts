@@ -73,6 +73,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",

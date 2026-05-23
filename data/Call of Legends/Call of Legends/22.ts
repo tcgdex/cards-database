@@ -81,6 +81,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
+	},
 
 	thirdParty: {
 		cardmarket: 279665,

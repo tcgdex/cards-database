@@ -47,6 +47,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",

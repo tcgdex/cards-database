@@ -71,6 +71,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground.",
+	},
 
 	thirdParty: {
 		cardmarket: 279680,

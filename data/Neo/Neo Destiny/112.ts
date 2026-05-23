@@ -63,6 +63,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
 		en: "If an Onix lives 100 years or more, its skin hardens, eventually becoming even harder than a diamond.",

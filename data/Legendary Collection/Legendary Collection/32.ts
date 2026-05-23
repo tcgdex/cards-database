@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
+	},
 
 	thirdParty: {
 		cardmarket: 274797,

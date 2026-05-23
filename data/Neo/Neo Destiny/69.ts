@@ -65,6 +65,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its punches are blindingly fast, but it can only fight for three minutes before tiring and needing to rest.",

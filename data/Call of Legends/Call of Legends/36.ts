@@ -59,6 +59,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Even though it is small, it can't be ignored because it will slug any handy target without warning.",
+	},
+
 	thirdParty: {
 		cardmarket: 279679,
 		tcgplayer: 90132

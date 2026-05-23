@@ -63,6 +63,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Although it knows how to fish, no other intelligent behavior has been detected in it.",

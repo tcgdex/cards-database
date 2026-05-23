@@ -54,6 +54,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It spins a web using fine – but durable – thread. It then waits patiently for prey to be trapped.",

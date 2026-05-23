@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Advances in technology have allowed it to evolve. It occasionally displays behavior not found in its programming.",

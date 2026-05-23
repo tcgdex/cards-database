@@ -64,6 +64,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It is very small and powerless. If attacked, the best it can do is flap its leaves in an attempt to frighten away its enemies.",

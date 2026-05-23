@@ -72,6 +72,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+	},
 
 	thirdParty: {
 		cardmarket: 279684,

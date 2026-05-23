@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If two of them brush against each other, they will not be able to separate themselves, as they enjoy touching each other's soft fur too much.",

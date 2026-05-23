@@ -84,6 +84,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
 		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",

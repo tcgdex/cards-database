@@ -71,6 +71,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",

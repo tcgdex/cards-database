@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",

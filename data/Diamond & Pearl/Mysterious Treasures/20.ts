@@ -73,6 +73,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",

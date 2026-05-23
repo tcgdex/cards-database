@@ -25,6 +25,18 @@ const card: Card = {
 
 	suffix: "Legend",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20",
+		},
+	],
 	retreat: 0,
 
 	description: {
@@ -41,9 +53,11 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Sacred Rainbow",
 				fr: "Arc-en-ciel sacré",
 			},
 			effect: {
+				en: "All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
 				fr: "Toutes les Énergies attachées à Ho-Oh LÉGENDE sont de type Feu et non de leur type habituel.",
 			},
 		},
@@ -52,11 +66,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Bright Wing",
 				de: "Strahlenschwinge",
 				fr: "Ailes lumineuses",
 			},
 			damage: 100,
 			effect: {
+				en: "Discard an Energy attached to Ho-Oh LEGEND.",
 				de: "Lege 1 an Ho-Oh-LEGENDE angelegte Energie auf deinen Ablagestapel.",
 				fr: "Défaussez une Énergie attachée à Ho-Oh LÉGENDE.",
 			},

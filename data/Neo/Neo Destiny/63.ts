@@ -67,6 +67,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Large from birth, this Pokémon increases in size throughout its life by regularly shedding its skin.",

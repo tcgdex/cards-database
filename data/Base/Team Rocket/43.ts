@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",

@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Lives close to water. Its long tail is ridged with a fin that is often mistaken for a mermaid's.",
