@@ -66,6 +66,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+	},
 }
 
 export default card
