@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+	},
+
 	thirdParty: {
 		cardmarket: 280673,
 		tcgplayer: 87439

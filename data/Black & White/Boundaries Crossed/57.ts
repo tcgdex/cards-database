@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+	},
+
 	thirdParty: {
 		cardmarket: 280644,
 		tcgplayer: 90731

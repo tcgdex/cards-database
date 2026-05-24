@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+	},
+
 	thirdParty: {
 		cardmarket: 280681,
 		tcgplayer: 88965
