@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When Mom gets in the kitchen, the happiest things happen. I can feel my mouth watering!",
+	},
+
 	thirdParty: {
 		cardmarket: 288521
 	}

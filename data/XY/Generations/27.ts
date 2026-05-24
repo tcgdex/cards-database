@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+	},
+
 	thirdParty: {
 		cardmarket: 288465,
 		tcgplayer: 113685

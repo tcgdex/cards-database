@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+	},
+
 	thirdParty: {
 		cardmarket: 288486,
 		tcgplayer: 113706

@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It wiggles its hips as it walks. It can cause people to dance in unison with it.",
+	},
+
 	thirdParty: {
 		cardmarket: 288474,
 		tcgplayer: 113694
