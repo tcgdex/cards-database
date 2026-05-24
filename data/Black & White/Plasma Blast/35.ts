@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
+	},
+
 	thirdParty: {
 		cardmarket: 281056,
 		tcgplayer: 84951
