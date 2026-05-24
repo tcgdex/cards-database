@@ -66,6 +66,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",

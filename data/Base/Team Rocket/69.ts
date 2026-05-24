@@ -47,6 +47,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Usually seen only in power plants, it is sometimes seen in towns, apparently using the power lines to travel.",

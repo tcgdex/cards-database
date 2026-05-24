@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",

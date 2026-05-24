@@ -56,6 +56,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+	},
 
 	variants: [
 		{

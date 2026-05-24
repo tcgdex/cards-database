@@ -56,6 +56,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
+	},
 
 	thirdParty: {
 		cardmarket: 274817,

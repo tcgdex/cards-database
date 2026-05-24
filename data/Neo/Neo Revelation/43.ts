@@ -73,6 +73,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them.",

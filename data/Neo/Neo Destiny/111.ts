@@ -56,6 +56,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If the electricity in its cheeks runs out, it sticks its tail straight up and uses it to collect energy from the air.",

@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "If the Shellder attached to its tail becomes separated, this Pokémon reverts to a normal Slowpoke.",

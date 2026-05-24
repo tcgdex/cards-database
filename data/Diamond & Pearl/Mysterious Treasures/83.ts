@@ -64,6 +64,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",

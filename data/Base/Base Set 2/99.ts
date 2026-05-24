@@ -46,6 +46,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",

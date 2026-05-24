@@ -68,6 +68,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its tail also has a small brain. It bites to repel any foe trying to sneak up on it from behind.",

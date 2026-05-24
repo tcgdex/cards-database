@@ -57,6 +57,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Many live on mountain trails and remain half buried while keeping an eye on climbers.",

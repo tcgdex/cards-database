@@ -54,6 +54,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",

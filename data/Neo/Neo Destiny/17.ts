@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Wherever it goes, it spins a thread that always leads back to its web.",

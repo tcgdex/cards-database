@@ -52,6 +52,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",

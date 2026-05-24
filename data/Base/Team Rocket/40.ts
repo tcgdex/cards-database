@@ -77,6 +77,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "While normally peaceful and friendly, the number of incidents involving cruel Machokes is rising.",

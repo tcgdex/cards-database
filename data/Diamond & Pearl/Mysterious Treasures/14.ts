@@ -68,6 +68,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",

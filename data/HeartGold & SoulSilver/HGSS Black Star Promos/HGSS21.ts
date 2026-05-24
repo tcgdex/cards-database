@@ -47,6 +47,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+	},
 
 	variants: [
 		{

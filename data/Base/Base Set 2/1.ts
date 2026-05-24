@@ -63,6 +63,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its brain can outperform a supercomputer. Its intelligence quotient is said to be 5000.",

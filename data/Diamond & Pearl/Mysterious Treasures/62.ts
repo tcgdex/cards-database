@@ -56,6 +56,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",

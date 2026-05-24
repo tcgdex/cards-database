@@ -60,6 +60,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It speeds up its thought processes by turning its head around 180 degrees.",

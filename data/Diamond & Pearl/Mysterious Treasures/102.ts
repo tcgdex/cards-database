@@ -63,6 +63,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",

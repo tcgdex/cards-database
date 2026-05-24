@@ -83,6 +83,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",

@@ -52,6 +52,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Although clumsy on land, it moves easily through the arctic waters it calls home.",

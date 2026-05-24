@@ -76,6 +76,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",

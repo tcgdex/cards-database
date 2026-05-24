@@ -26,11 +26,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Ozone Buster",
 				fr: "",
 				de: "Ozonsprenger"
 			},
 
 			effect: {
+				en: "Discard all Fire Energy attached to Rayquaza & Deoxys LEGEND.",
 				fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Rayquaza & Deoxys LÉGENDE.",
 				de: "Lege alle -Energien, die an Rayquaza & Deoxys-LEGENDE angelegt sind, auf deinen Ablagestapel."
 			},
@@ -41,6 +43,16 @@ const card: Card = {
 	],
 
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Colorless",
+			value: "×2",
+		},
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 
 	variants: [
