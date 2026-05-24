@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Durant dig nests in mountains. They build their complicated, interconnected tunnels into mazes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280522,
 		tcgplayer: 85021

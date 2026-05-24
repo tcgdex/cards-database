@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The special membrane enveloping Alomomola has the ability to heal wounds.",
+	},
+
 	thirdParty: {
 		cardmarket: 280476,
 		tcgplayer: 83508

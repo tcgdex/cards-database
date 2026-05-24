@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
+	},
+
 	thirdParty: {
 		cardmarket: 280463,
 		tcgplayer: 86000
