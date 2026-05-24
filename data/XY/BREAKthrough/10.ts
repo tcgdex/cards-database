@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+	},
+
 	thirdParty: {
 		cardmarket: 286256,
 		tcgplayer: 107129

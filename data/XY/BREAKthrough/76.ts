@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+	},
+
 	thirdParty: {
 		cardmarket: 286322,
 		tcgplayer: 107195
