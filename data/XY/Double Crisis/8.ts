@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It immobilizes its opponents by wrapping them in its huge, poisonous body. It'll smoosh you, too!",
+	},
+
 	thirdParty: {
 		cardmarket: 282519,
 		tcgplayer: 97054
