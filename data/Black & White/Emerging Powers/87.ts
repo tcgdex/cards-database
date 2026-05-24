@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+	},
+
 	thirdParty: {
 		cardmarket: 280051,
 		tcgplayer: 88842
