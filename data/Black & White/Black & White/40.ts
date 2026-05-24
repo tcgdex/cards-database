@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 279778,
 		tcgplayer: 83927
