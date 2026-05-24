@@ -38,16 +38,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
-
-	thirdParty: {
-		cardmarket: 674027,
-		tcgplayer: 283883
-	}
+	illustrator: "AKIRA EGAWA",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 674027,
+				tcgplayer: 283883
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 674027,
+				tcgplayer: 283883
+			}
+		},
+	],
 }
 
 export default card

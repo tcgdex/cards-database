@@ -79,15 +79,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674084
-	}
+	illustrator: "Tomomi Kaneko",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674084,
+				tcgplayer: 284267
+			}
+		},
+	],
 }
 
 export default card

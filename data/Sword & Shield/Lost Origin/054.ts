@@ -60,16 +60,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
-
-	thirdParty: {
-		cardmarket: 674064,
-		tcgplayer: 283928
-	}
+	illustrator: "otumami",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 674064,
+				tcgplayer: 283928
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 674064,
+				tcgplayer: 283928
+			}
+		},
+	],
 }
 
 export default card
