@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It's good at attacks that freeze opponents with a powerful cold snap. Then, it pulverizes a frozen foe with its sharp tusks!",
+	},
+
 	thirdParty: {
 		cardmarket: 282516,
 		tcgplayer: 97051
