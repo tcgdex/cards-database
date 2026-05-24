@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Because every Prinplup considers itself to be the most important, they can never form a group.",
+	},
+
 	thirdParty: {
 		cardmarket: 280356,
 		tcgplayer: 88372

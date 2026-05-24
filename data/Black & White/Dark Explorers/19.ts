@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
+	},
+
 	thirdParty: {
 		cardmarket: 280347,
 		tcgplayer: 86045

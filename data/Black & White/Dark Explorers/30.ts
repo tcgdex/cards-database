@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+	},
+
 	thirdParty: {
 		cardmarket: 280358,
 		tcgplayer: 85747
