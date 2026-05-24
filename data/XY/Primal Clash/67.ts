@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When feeding its young, it first chews the food into a paste, then spits it out for the offspring.",
+	},
+
 	thirdParty: {
 		cardmarket: 273598,
 		tcgplayer: 95965

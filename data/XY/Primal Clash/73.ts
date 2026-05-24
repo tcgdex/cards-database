@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
+	},
+
 	thirdParty: {
 		cardmarket: 273604,
 		tcgplayer: 95971

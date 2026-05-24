@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+	},
+
 	thirdParty: {
 		cardmarket: 273627,
 		tcgplayer: 95994
