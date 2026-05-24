@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Two bodies comprise a fixed pair. They spin around each other to generate energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 280828,
 		tcgplayer: 86484

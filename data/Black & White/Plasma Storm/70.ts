@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Apparently, it communicates by flashing its three fingers, but those patterns haven't been decoded.",
+	},
+
 	thirdParty: {
 		cardmarket: 280810,
 		tcgplayer: 83780
