@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "My Charmander is so rambunctious! I wonder if we can become good friends?",
+	},
+
 	thirdParty: {
 		cardmarket: 288512
 	}

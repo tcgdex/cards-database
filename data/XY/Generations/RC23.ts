@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Wings and beaks. I like yours, and I like mine, too.",
+	},
+
 	thirdParty: {
 		cardmarket: 288532
 	}
