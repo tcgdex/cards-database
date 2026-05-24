@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+	},
+
 	thirdParty: {
 		cardmarket: 273611,
 		tcgplayer: 95978

@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+	},
+
 	thirdParty: {
 		cardmarket: 273542,
 		tcgplayer: 95895
