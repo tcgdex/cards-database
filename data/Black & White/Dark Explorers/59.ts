@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
+	},
+
 	thirdParty: {
 		cardmarket: 280387,
 		tcgplayer: 85982

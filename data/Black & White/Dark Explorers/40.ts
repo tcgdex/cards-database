@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+	},
+
 	thirdParty: {
 		cardmarket: 280368,
 		tcgplayer: 87493
