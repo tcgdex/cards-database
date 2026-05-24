@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+	},
+
 	thirdParty: {
 		cardmarket: 280786,
 		tcgplayer: 87120

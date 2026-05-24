@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They are known to charge so wildly that if a train were to enter their territory, they would send it flying.",
+	},
+
 	thirdParty: {
 		cardmarket: 280854,
 		tcgplayer: 83946
