@@ -15,7 +15,11 @@ const card: Card = {
     category: "Energy",
     set: Set,
     energyType: "Normal",
-
+    variants: [
+        {
+            type: "normal"
+        }
+    ],
 }
 
 export default card

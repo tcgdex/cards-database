@@ -30,6 +30,7 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+	illustrator: "GIDORA",
 	variants: [
 		{
 			type: "holo",

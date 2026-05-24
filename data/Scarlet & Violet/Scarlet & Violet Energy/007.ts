@@ -16,7 +16,15 @@ const card: Card = {
     set: Set,
     energyType: "Normal",
 
-
+    variants: [
+        {
+            type: "normal",
+            foil: "cosmos"
+        },
+        {
+            type: "normal"
+        }
+    ],
 }
 
 export default card

@@ -71,6 +71,10 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	thirdParty: {
+		tcgplayer: 685497
+	},
+
 	variants: [
 		{
 			type: "holo"
