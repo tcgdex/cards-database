@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
+	},
+
 	thirdParty: {
 		cardmarket: 282750,
 		tcgplayer: 98118

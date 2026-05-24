@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It appears when it senses an impending natural disaster. As a result, it was mistaken as a doom bringer.",
+	},
+
 	thirdParty: {
 		cardmarket: 282708,
 		tcgplayer: 98076
