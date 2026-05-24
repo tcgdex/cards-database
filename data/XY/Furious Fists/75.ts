@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+	},
+
 	thirdParty: {
 		cardmarket: 281739,
 		tcgplayer: 92255

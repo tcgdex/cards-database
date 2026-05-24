@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating only bad dreams.",
+	},
+
 	thirdParty: {
 		cardmarket: 281699,
 		tcgplayer: 92210
