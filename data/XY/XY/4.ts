@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+	},
+
 	thirdParty: {
 		cardmarket: 281341,
 		tcgplayer: 86417

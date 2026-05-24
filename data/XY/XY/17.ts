@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+	},
+
 	thirdParty: {
 		cardmarket: 281354,
 		tcgplayer: 90395
