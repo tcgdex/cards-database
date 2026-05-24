@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
+	},
+
 	thirdParty: {
 		cardmarket: 280920,
 		tcgplayer: 87711
