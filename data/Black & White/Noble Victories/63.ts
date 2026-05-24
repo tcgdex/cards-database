@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+	},
+
 	thirdParty: {
 		cardmarket: 280186,
 		tcgplayer: 85981

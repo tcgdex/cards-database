@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
+	},
+
 	thirdParty: {
 		cardmarket: 280151,
 		tcgplayer: 90263

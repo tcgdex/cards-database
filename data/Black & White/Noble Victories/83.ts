@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They attack in groups, covering themselves in steel armor to protect themselves against Heatmor.",
+	},
+
 	thirdParty: {
 		cardmarket: 280206,
 		tcgplayer: 85020
