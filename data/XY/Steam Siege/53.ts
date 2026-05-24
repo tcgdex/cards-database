@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far.",
+	},
+
 	thirdParty: {
 		cardmarket: 291623,
 		tcgplayer: 121183
