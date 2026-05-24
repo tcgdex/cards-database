@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+	},
+
 	thirdParty: {
 		cardmarket: 291637,
 		tcgplayer: 121200
