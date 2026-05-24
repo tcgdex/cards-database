@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280229,
 		tcgplayer: 86535
