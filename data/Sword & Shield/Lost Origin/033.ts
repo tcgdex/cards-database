@@ -51,16 +51,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
-
-	thirdParty: {
-		cardmarket: 674044,
-		tcgplayer: 283906
-	}
+	illustrator: "GIDORA",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 674044,
+				tcgplayer: 283906
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 674044,
+				tcgplayer: 283906
+			}
+		},
+	],
 }
 
 export default card

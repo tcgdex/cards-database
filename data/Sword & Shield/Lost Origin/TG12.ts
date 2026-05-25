@@ -70,15 +70,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674231
-	}
+	illustrator: "Nisota Niso",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674231,
+				tcgplayer: 284272
+			}
+		},
+	],
 }
 
 export default card

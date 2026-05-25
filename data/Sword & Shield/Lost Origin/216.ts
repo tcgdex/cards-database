@@ -27,16 +27,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674222,
-		tcgplayer: 284171
-	}
+	illustrator: "Ryo Ueda",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674222,
+				tcgplayer: 284171
+			}
+		},
+	],
 }
 
 export default card

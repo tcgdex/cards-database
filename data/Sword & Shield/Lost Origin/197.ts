@@ -79,16 +79,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674201,
-		tcgplayer: 284152
-	}
+	illustrator: "N-DESIGN Inc.",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674201,
+				tcgplayer: 284152
+			}
+		},
+	],
 }
 
 export default card
