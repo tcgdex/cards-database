@@ -70,6 +70,10 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	thirdParty: {
+		tcgplayer: 680480
+	},
+
 	variants: [
 		{
 			type: "holo"
