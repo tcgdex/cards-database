@@ -4,13 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Magnetic Metal Energy"
 	},
@@ -20,9 +13,14 @@ const card: Card = {
 	energyType: "Special",
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 693506
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 693506
+			}
+		}
+	],
 }
 
 export default card

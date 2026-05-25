@@ -4,13 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Transformation Tome"
 	},
@@ -21,9 +14,14 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 693555
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 693555
+			}
+		}
+	],
 }
 
 export default card
