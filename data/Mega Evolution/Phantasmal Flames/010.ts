@@ -65,6 +65,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
 			type: "normal",
