@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886415,
+				tcgplayer: 693456
+			}
+		},
+	],
 
 	name: {
 		en: "Bergmite"
@@ -46,11 +49,6 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693456,
-		cardmarket: 886415
-	}
 }
 
 export default card

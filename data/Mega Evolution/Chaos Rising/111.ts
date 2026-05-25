@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886504,
+				tcgplayer: 693535
+			}
+		},
+	],
 
 	name: {
 		en: "Prism Tower"
@@ -20,11 +23,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Stadium",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693535,
-		cardmarket: 886504
-	}
 }
 
 export default card

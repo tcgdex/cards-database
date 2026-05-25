@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886400,
+				tcgplayer: 693558
+			}
+		},
+	],
 
 	name: {
 		en: "Vulpix"
@@ -42,11 +45,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693558,
-		cardmarket: 886400
-	}
 }
 
 export default card

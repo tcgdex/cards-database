@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886394,
+				tcgplayer: 693502
+			}
+		},
+	],
 
 	name: {
 		en: "Kakuna"
@@ -56,11 +59,6 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693502,
-		cardmarket: 886394
-	}
 }
 
 export default card

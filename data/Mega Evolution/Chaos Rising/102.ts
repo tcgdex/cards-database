@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886494,
+				tcgplayer: 693498
+			}
+		},
+	],
 
 	name: {
 		en: "Gourgeist ex"
@@ -65,11 +68,6 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693498,
-		cardmarket: 886494
-	}
 }
 
 export default card

@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886445,
+				tcgplayer: 693549
+			}
+		},
+	],
 
 	name: {
 		en: "Stunky"
@@ -39,11 +42,6 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693549,
-		cardmarket: 886445
-	}
 }
 
 export default card

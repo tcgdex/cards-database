@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886489,
+				tcgplayer: 693560
+			}
+		},
+	],
 
 	name: {
 		en: "Watchog"
@@ -54,11 +57,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693560,
-		cardmarket: 886489
-	}
 }
 
 export default card

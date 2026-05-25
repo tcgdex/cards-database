@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886469,
+				tcgplayer: 693499
+			}
+		},
+	],
 
 	name: {
 		en: "Great Haul Net"
@@ -20,11 +23,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Item",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693499,
-		cardmarket: 886469
-	}
 }
 
 export default card

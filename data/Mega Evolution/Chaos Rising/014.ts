@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886406,
+				tcgplayer: 693505
+			}
+		},
+	],
 
 	name: {
 		en: "Litleo"
@@ -39,11 +42,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693505,
-		cardmarket: 886406
-	}
 }
 
 export default card

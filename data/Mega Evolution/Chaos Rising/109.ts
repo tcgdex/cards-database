@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886503,
+				tcgplayer: 693501
+			}
+		},
+	],
 
 	name: {
 		en: "Jumbo Ice Cream"
@@ -20,11 +23,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Item",
 	regulationMark: "I",
-
-	thirdParty: {
-		tcgplayer: 693501,
-		cardmarket: 886503
-	}
 }
 
 export default card

@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886498,
+				tcgplayer: 693482
+			}
+		},
+	],
 
 	name: {
 		en: "Energy Retrieval"
@@ -20,11 +23,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Item",
 	regulationMark: "I",
-
-	thirdParty: {
-		tcgplayer: 693482,
-		cardmarket: 886498
-	}
 }
 
 export default card

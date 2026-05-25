@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886476,
+				tcgplayer: 693458
+			}
+		},
+	],
 
 	name: {
 		en: "Bubbly Water Energy"
@@ -19,11 +22,6 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Special",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693458,
-		cardmarket: 886476
-	}
 }
 
 export default card
