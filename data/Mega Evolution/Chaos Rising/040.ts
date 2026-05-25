@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Pumpkaboo"
+		en: "Pumpkaboo",
+		fr: "Pitrouille",
+		es: "Pumpkaboo",
+		'es-mx': "Pumpkaboo",
+		de: "Irrbis",
+		it: "Pumpkaboo",
+		pt: "Pumpkaboo"
 	},
 
 	illustrator: "Jerky",
@@ -25,11 +31,17 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stampede"
+			en: "Stampede",
+			fr: "Ruée",
+			es: "Estampida",
+			'es-mx': "Estampida",
+			de: "Zertrampeln",
+			it: "Fuggi Fuggi",
+			pt: "Estouro"
 		},
 
 		cost: ["Psychic"],
-		damage: 10
+		damage: 20
 	}],
 
 	weaknesses: [{

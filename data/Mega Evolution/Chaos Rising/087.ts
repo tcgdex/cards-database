@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Chespin"
+		en: "Chespin",
+		fr: "Marisson",
+		es: "Chespin",
+		'es-mx': "Chespin",
+		de: "Igamaro",
+		it: "Chespin",
+		pt: "Chespin"
 	},
 
 	illustrator: "Atsushi Furusawa",
@@ -25,17 +31,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Beat"
+			en: "Beat",
+			fr: "Bataille",
+			es: "Toque",
+			'es-mx': "Golpeteo",
+			de: "Verprügler",
+			it: "Battuta",
+			pt: "Pulso"
 		},
 
 		cost: ["Grass"],
 		damage: 10
 	}, {
 		name: {
-			en: "Spike Sting"
+			en: "Spike Sting",
+			fr: "Pic Piquant",
+			es: "Picotazo Púas",
+			'es-mx': "Piquete de Púas",
+			de: "Stachelstich",
+			it: "Aculeopuntura",
+			pt: "Ferroada de Espinhos"
 		},
 
-		cost: ["Grass"],
+		cost: ["Grass", "Grass"],
 		damage: 30
 	}],
 
