@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Xerneas"
+		en: "Xerneas",
+		fr: "Xerneas",
+		es: "Xerneas",
+		'es-mx': "Xerneas",
+		de: "Xerneas",
+		it: "Xerneas",
+		pt: "Xerneas"
 	},
 
 	illustrator: "YASHIRO Nanaco",
@@ -25,14 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Geo Storm"
+			en: "Geo Storm",
+			fr: "Géo-Tempête",
+			es: "Geotormenta",
+			'es-mx': "Geotormenta",
+			de: "Geosturm",
+			it: "Geotempesta",
+			pt: "Geotormenta"
 		},
 
 		cost: ["Psychic", "Psychic", "Psychic"],
-		damage: 30,
+		damage: "30×",
 
 		effect: {
-			en: "This attack does 30 damage for each Psychic Energy attached to all of your Pokémon in play."
+			en: "This attack does 30 damage for each {P} Energy attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts pour chaque Énergie {P} attachée à tous vos Pokémon.",
+			es: "Este ataque hace 30 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
+			'es-mx': "Este ataque hace 30 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 30 Schadenspunkte zu.",
+			it: "Questo attacco infligge 30 danni per ogni Energia {P} assegnata ai tuoi Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano para cada Energia {P} ligada a todos os seus Pokémon."
 		}
 	}],
 

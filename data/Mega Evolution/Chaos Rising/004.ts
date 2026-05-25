@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Carnivine"
+		en: "Carnivine",
+		fr: "Vortente",
+		es: "Carnivine",
+		'es-mx': "Carnivine",
+		de: "Venuflibis",
+		it: "Carnivine",
+		pt: "Carnivine"
 	},
 
 	illustrator: "Heisuke Kitazawa",
@@ -25,14 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite Whole"
+			en: "Chomp Whole",
+			fr: "Mâchoire Dévorante",
+			es: "Mordisco Total",
+			'es-mx': "De un Bocado",
+			de: "Mit einem Happs",
+			it: "Masticatutto",
+			pt: "Abocanhar Inteiro"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
-		damage: 80,
+		damage: "80+",
 
 		effect: {
-			en: "This attack does 80 more damage for each in your opponent's Active Pokémon's Retreat Cost."
+			en: "If your opponent's Active Pokémon has no Retreat Cost, this attack does 80 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire n'a pas de Coût de Retraite, cette attaque inflige 80 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival no tiene ningún Coste de Retirada, este ataque hace 80 puntos de daño más.",
+			'es-mx': "Si el Pokémon Activo de tu rival no tiene ningún Costo de Retirada, este ataque hace 80 puntos de daño más.",
+			de: "Wenn das Aktive Pokémon deines Gegners keine Rückzugskosten hat, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			it: "Se il Pokémon attivo del tuo avversario non ha costo di ritirata, questo attacco infligge 80 danni in più.",
+			pt: "Se o Pokémon Ativo do seu oponente não tiver Custo de Recuo, este ataque causará 80 pontos de dano a mais."
 		}
 	}],
 

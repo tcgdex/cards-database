@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Fennekin"
+		en: "Fennekin",
+		fr: "Feunnec",
+		es: "Fennekin",
+		'es-mx': "Fennekin",
+		de: "Fynx",
+		it: "Fennekin",
+		pt: "Fennekin"
 	},
 
 	illustrator: "saino misaki",
@@ -25,17 +31,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Call for Family"
+			en: "Call for Family",
+			fr: "Appel à la Famille",
+			es: "Llamar a la Familia",
+			'es-mx': "Llamar a la Familia",
+			de: "Familienruf",
+			it: "Cerca Famiglia",
+			pt: "Chamar a Família"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+			en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base, puis placez-les sur votre Banc. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'es-mx': "Busca en tu mazo hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja tu mazo.",
+			de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia il tuo mazzo.",
+			pt: "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
 		}
 	}, {
 		name: {
-			en: "Steady Firebreathing"
+			en: "Steady Firebreathing",
+			fr: "Crachage de Feu Régulier",
+			es: "Lanzallamas Continuo",
+			'es-mx': "Escupefuego",
+			de: "Stetiger Feuerhauch",
+			it: "Soffiofuoco Mirato",
+			pt: "Hálito de Fogo Constante"
 		},
 
 		cost: ["Fire"],

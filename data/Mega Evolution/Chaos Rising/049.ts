@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Zubat"
+		en: "Zubat",
+		fr: "Nosferapti",
+		es: "Zubat",
+		'es-mx': "Zubat",
+		de: "Zubat",
+		it: "Zubat",
+		pt: "Zubat"
 	},
 
 	illustrator: "Mékayu",
@@ -25,13 +31,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Supersonic"
+			en: "Supersonic",
+			fr: "Ultrason",
+			es: "Supersónico",
+			'es-mx': "Supersónico",
+			de: "Superschall",
+			it: "Supersuono",
+			pt: "Supersônico"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
 		}
 	}],
 

@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Litleo"
+		en: "Litleo",
+		fr: "Hélionceau",
+		es: "Litleo",
+		'es-mx': "Litleo",
+		de: "Leufeo",
+		it: "Litleo",
+		pt: "Litleo"
 	},
 
 	illustrator: "Mina Nakai",
@@ -25,7 +31,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge",
+			es: "Placaje",
+			'es-mx': "Tacleada",
+			de: "Tackle",
+			it: "Azione",
+			pt: "Investida"
 		},
 
 		cost: ["Colorless"],
