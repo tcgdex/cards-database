@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Skuntank"
+		en: "Skuntank",
+		fr: "Moufflair",
+		es: "Skuntank",
+		'es-mx': "Skuntank",
+		de: "Skuntank",
+		it: "Skuntank",
+		pt: "Skuntank"
 	},
 
 	illustrator: "Yuriko Akase",
@@ -30,21 +36,39 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rear Kick"
+			en: "Rear Kick",
+			fr: "Ruade",
+			es: "Patada Trasera",
+			'es-mx': "Patada Trasera",
+			de: "Rückwärtskick",
+			it: "Retrocalcio",
+			pt: "Chute Traseiro"
 		},
 
 		cost: ["Darkness"],
 		damage: 40
 	}, {
 		name: {
-			en: "Smash Turn"
+			en: "Smash Turn",
+			fr: "Tour Fracassant",
+			es: "Golpe Giro",
+			'es-mx': "Giro Devastador",
+			de: "Abdrehender Schmetterer",
+			it: "Girata Distruttiva",
+			pt: "Virada Esmagadora"
 		},
 
 		cost: ["Darkness", "Darkness", "Colorless"],
 		damage: 100,
 
 		effect: {
-			en: "Switch this Pokémon with 1 of your Benched Pokémon."
+			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
+			it: "Scambia questo Pokémon con uno nella tua panchina.",
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
 		}
 	}],
 
@@ -57,7 +81,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693544
+		tcgplayer: 693544,
+		cardmarket: 886446
 	}
 }
 

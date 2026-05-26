@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Skrelp"
+		en: "Skrelp",
+		fr: "Venalgue",
+		es: "Skrelp",
+		'es-mx': "Skrelp",
+		de: "Algitt",
+		it: "Skrelp",
+		pt: "Skrelp"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -25,7 +31,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hook"
+			en: "Hook",
+			fr: "Crochet",
+			es: "Garfio",
+			'es-mx': "Gancho",
+			de: "Haken",
+			it: "Uncino",
+			pt: "Gancho"
 		},
 
 		cost: ["Colorless"],
@@ -41,7 +53,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693543
+		tcgplayer: 693543,
+		cardmarket: 886450
 	}
 }
 

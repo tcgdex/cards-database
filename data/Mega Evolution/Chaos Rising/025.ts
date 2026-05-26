@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Wimpod"
+		en: "Wimpod",
+		fr: "Sovkipou",
+		es: "Wimpod",
+		'es-mx': "Wimpod",
+		de: "Reißlaus",
+		it: "Wimpod",
+		pt: "Wimpod"
 	},
 
 	illustrator: "0313",
@@ -25,14 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			fr: "Ronge",
+			es: "Roer",
+			'es-mx': "Mordisquear",
+			de: "Nagen",
+			it: "Rosicchiamento",
+			pt: "Roída"
 		},
 
 		cost: ["Water"],
 		damage: 10
 	}, {
 		name: {
-			en: "Corkscrew Punch"
+			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon",
+			es: "Puño Tirabuzón",
+			'es-mx': "Puño Sacacorchos",
+			de: "Korkenzieherhieb",
+			it: "Pugno Rotante",
+			pt: "Soco Saca-rolha"
 		},
 
 		cost: ["Colorless", "Colorless"],
@@ -48,7 +66,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693562
+		tcgplayer: 693562,
+		cardmarket: 886417
 	}
 }
 

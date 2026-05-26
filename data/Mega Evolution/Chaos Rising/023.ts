@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Bergmite"
+		en: "Bergmite",
+		fr: "Grelaçon",
+		es: "Bergmite",
+		'es-mx': "Bergmite",
+		de: "Arktip",
+		it: "Bergmite",
+		pt: "Bergmite"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -25,14 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Chilly"
+			en: "Chilly",
+			fr: "Glacial",
+			es: "Fresquito",
+			'es-mx': "Frialdad",
+			de: "Frösteln",
+			it: "Addiaccio",
+			pt: "Frio"
 		},
 
 		cost: ["Water"],
 		damage: 10
 	}, {
 		name: {
-			en: "Frost Breath"
+			en: "Frost Breath",
+			fr: "Souffle Glacé",
+			es: "Vaho Gélido",
+			'es-mx': "Vaho Helado",
+			de: "Eisesodem",
+			it: "Alitogelido",
+			pt: "Respiração de Gelo"
 		},
 
 		cost: ["Water", "Colorless", "Colorless"],
@@ -48,7 +66,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693456
+		tcgplayer: 693456,
+		cardmarket: 886415
 	}
 }
 
