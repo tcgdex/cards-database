@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+	},
+
 	thirdParty: {
 		cardmarket: 280012,
 		tcgplayer: 85851
