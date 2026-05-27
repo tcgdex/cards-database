@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+	},
+
 	thirdParty: {
 		cardmarket: 293371,
 		tcgplayer: 124028

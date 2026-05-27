@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+	},
+
 	thirdParty: {
 		cardmarket: 291650,
 		tcgplayer: 121216

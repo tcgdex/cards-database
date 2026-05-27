@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
+	},
+
 	thirdParty: {
 		cardmarket: 293409,
 		tcgplayer: 124068

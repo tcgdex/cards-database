@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+	},
+
 	thirdParty: {
 		cardmarket: 291541,
 		tcgplayer: 121139
