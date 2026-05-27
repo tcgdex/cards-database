@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This Pokémon was restored from a fossil. It swam skillfully and dove to depths beyond half a mile.",
+	},
+
 	thirdParty: {
 		cardmarket: 281048,
 		tcgplayer: 89922

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 280914,
 		tcgplayer: 86612

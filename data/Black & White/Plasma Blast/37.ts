@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When Mesprit flew, people learned the joy and sadness of living. It was the birth of emotions.",
+	},
+
 	thirdParty: {
 		cardmarket: 281058,
 		tcgplayer: 87333
