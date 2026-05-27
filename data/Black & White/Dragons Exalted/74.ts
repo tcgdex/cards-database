@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+	},
+
 	thirdParty: {
 		cardmarket: 280513,
 		tcgplayer: 86233

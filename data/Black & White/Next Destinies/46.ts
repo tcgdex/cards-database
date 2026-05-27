@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+	},
+
 	thirdParty: {
 		cardmarket: 280271,
 		tcgplayer: 91399

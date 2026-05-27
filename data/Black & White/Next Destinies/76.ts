@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
+	},
+
 	thirdParty: {
 		cardmarket: 280301,
 		tcgplayer: 83998

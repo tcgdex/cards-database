@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+	},
+
 	thirdParty: {
 		cardmarket: 280529,
 		tcgplayer: 85625
