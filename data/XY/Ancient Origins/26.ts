@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It accumulates negative ions in the atmosphere to blast out 10,000-volt lightning bolts.",
+	},
+
 	thirdParty: {
 		cardmarket: 284207,
 		tcgplayer: 101447
