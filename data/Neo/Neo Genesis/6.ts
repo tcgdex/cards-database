@@ -71,6 +71,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
