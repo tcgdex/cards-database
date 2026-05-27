@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
+	},
+
 	thirdParty: {
 		cardmarket: 281839,
 		tcgplayer: 94166
