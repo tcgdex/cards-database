@@ -21,27 +21,30 @@ const card: Card = {
 		it: "Metti in Panchina un Pokémon Base dalla tua pila degli scarti. Metti su quel Pokémon un numero di segnalini danno pari alla metà dei suoi PV (arrotondati per difetto alla decina più vicina). (Non puoi giocare questa carta se la tua Panchina è piena.)"
 	},
 
-	thirdParty: {
-		cardmarket: 273784,
-		tcgplayer: 42432
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273784,
+				tcgplayer: 42432
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660116
+			}
 		}
 	],
 }

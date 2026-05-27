@@ -62,23 +62,32 @@ const card: Card = {
 		fr: "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.",
 		it: "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
 	},
+
+
+
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273750
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660173
+			}
 		}
 	],
 }

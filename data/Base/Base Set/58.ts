@@ -78,27 +78,34 @@ const card: Card = {
 		it: "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25"
 	},
 
-	thirdParty: {
-		cardmarket: 273753,
-		tcgplayer: 42402
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273753,
+				tcgplayer: 42402
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless"
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 362859
+			}
 		}
 	],
 }

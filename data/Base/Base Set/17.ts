@@ -94,21 +94,25 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273712,
+				tcgplayer: 42357
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless"
+		},
 	],
 
 	description: {
@@ -117,10 +121,6 @@ const card: Card = {
 		it: " Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda. LIV 32 N.15"
 	},
 
-	thirdParty: {
-		cardmarket: 273712,
-		tcgplayer: 42357
-	}
 }
 
 export default card

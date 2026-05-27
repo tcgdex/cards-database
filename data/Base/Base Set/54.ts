@@ -89,27 +89,30 @@ const card: Card = {
 		it: "È vulnerabile agli attacchi a causa del suo guscio morbido, che non protegge il suo corpo debole e molle. LIV 21 N.11"
 	},
 
-	thirdParty: {
-		cardmarket: 273749,
-		tcgplayer: 42398
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273749,
+				tcgplayer: 42398
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660174
+			}
 		}
 	],
 }

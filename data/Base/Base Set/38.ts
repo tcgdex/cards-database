@@ -90,27 +90,30 @@ const card: Card = {
 		it: "Capace di vivere sia sulla terra che sott'acqua. Quando non è in acqua, suda in continuazione per mantenere lubrificato il suo corpo. LIV 28 N.61"
 	},
 
-	thirdParty: {
-		cardmarket: 273733,
-		tcgplayer: 42380
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273733,
+				tcgplayer: 42380
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660190
+			}
 		}
 	],
 }

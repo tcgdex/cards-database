@@ -85,27 +85,30 @@ const card: Card = {
 		it: "Con la sola forza del pensiero, Questo Pokémon lancia un potente attacco di energia psichica. LIV 23 N.124"
 	},
 
-	thirdParty: {
-		cardmarket: 273726,
-		tcgplayer: 42373
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273726,
+				tcgplayer: 42373
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660197
+			}
 		}
 	],
 }

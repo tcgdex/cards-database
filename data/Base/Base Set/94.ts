@@ -21,27 +21,30 @@ const card: Card = {
 		it: "Togli al massimo 2 segnalini danno da uno dei tuoi Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 273789,
-		tcgplayer: 42438
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273789,
+				tcgplayer: 42438
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660109
+			}
 		}
 	],
 }

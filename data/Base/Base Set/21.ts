@@ -77,20 +77,27 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273716,
+				tcgplayer: 42362
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660207
+			}
 		}
 	],
 
@@ -109,10 +116,6 @@ const card: Card = {
 		it: "Conserva energia elettrica sotto altissima pressione. Spesso esplode senza o con minima provocazione. LIV 40 N.102"
 	},
 
-	thirdParty: {
-		cardmarket: 273716,
-		tcgplayer: 42362
-	}
 }
 
 export default card
