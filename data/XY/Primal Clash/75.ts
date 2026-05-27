@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+	},
+
 	thirdParty: {
 		cardmarket: 273606,
 		tcgplayer: 95973

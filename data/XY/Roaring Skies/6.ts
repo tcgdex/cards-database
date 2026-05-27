@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+	},
+
 	thirdParty: {
 		cardmarket: 282674,
 		tcgplayer: 98042
