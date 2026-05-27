@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
+	},
 
 	thirdParty: {
 		cardmarket: 554275

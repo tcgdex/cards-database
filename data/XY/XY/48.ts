@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+	},
+
 	thirdParty: {
 		cardmarket: 281385,
 		tcgplayer: 83571
