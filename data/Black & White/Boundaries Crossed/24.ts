@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+	},
+
 	thirdParty: {
 		cardmarket: 280611,
 		tcgplayer: 89884

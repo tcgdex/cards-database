@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
+	},
+
 	thirdParty: {
 		cardmarket: 280744,
 		tcgplayer: 84398

@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Despite being clad entirely in iron-hard armor, it flies at speed of over 180 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 280682,
 		tcgplayer: 89244

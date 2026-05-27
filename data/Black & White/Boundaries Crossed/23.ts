@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
+	},
+
 	thirdParty: {
 		cardmarket: 280610,
 		tcgplayer: 90347

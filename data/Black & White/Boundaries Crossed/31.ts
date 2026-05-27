@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.",
+	},
+
 	thirdParty: {
 		cardmarket: 280618,
 		tcgplayer: 83896

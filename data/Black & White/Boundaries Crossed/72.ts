@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey's location and state.",
+	},
+
 	thirdParty: {
 		cardmarket: 280659,
 		tcgplayer: 90296

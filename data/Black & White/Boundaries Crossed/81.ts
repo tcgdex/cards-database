@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.",
+	},
+
 	thirdParty: {
 		cardmarket: 280668,
 		tcgplayer: 85775
