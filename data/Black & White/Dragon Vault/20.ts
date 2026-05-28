@@ -13,6 +13,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Shuffle 3 in any combination of Pokémon and basic Energy cards from your discard pile back into your deck. You may play as many Item cards as you like during your turn (before your attack).",
 		fr: "Choisissez une combinaison de 3 cartes de Pokémon et d'Énergies de base dans votre pile de défausse et mélangez-les avec votre deck.",
 	},
 

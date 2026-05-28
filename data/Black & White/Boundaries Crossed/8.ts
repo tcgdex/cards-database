@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "No matter how heavy its opponents, it flings them far away with its prized horn.",
+	},
+
 	thirdParty: {
 		cardmarket: 280595,
 		tcgplayer: 86066

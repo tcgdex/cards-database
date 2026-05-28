@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon is in a temporary stage while making its body. It is almost completely unable to move on its own.",
+	},
+
 	thirdParty: {
 		cardmarket: 293363,
 		tcgplayer: 124019

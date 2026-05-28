@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+	},
+
 	thirdParty: {
 		cardmarket: 279982,
 		tcgplayer: 90387

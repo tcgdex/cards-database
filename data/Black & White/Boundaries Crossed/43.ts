@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+	},
+
 	thirdParty: {
 		cardmarket: 280630,
 		tcgplayer: 89687

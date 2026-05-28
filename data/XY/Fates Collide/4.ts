@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It flutters around at night and steals honey from the Combee hive.",
+	},
+
 	thirdParty: {
 		cardmarket: 289830,
 		tcgplayer: 117767

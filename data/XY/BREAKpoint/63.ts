@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It looks just like rotten kelp. It hides from foes while storing up power for its evolution.",
+	},
+
 	thirdParty: {
 		cardmarket: 288238,
 		tcgplayer: 111604

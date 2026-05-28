@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+	},
+
 	thirdParty: {
 		cardmarket: 280922,
 		tcgplayer: 87748

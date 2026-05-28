@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+	},
+
 	thirdParty: {
 		cardmarket: 280764,
 		tcgplayer: 89498

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
+	},
+
 	thirdParty: {
 		cardmarket: 279803,
 		tcgplayer: 86541

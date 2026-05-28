@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",

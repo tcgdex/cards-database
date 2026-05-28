@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves sweets because they become energy for the fire burning inside its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 280241,
 		tcgplayer: 89228

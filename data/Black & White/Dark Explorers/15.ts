@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+	},
+
 	thirdParty: {
 		cardmarket: 280342,
 		tcgplayer: 89963

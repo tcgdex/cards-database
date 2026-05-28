@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
+	},
+
 	thirdParty: {
 		cardmarket: 288462,
 		tcgplayer: 113680

@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+	},
+
 	thirdParty: {
 		cardmarket: 281243,
 		tcgplayer: 83522

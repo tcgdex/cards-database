@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+	},
+
 	thirdParty: {
 		cardmarket: 286289,
 		tcgplayer: 107162

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+	},
+
 	thirdParty: {
 		cardmarket: 280901,
 		tcgplayer: 85749

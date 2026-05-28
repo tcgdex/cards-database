@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.",
+	},
+
 	thirdParty: {
 		cardmarket: 280406,
 		tcgplayer: 87969

@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+	},
+
 	thirdParty: {
 		cardmarket: 273547,
 		tcgplayer: 95900

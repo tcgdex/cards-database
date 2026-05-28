@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "The plan for today is to do nothing. My awesome tail is all curled up, and my ears are tired, too.",
+	},
+
 	thirdParty: {
 		cardmarket: 288465
 	}

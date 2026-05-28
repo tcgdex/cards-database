@@ -58,6 +58,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",

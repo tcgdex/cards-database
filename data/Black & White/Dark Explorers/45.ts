@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+	},
+
 	thirdParty: {
 		cardmarket: 280372,
 		tcgplayer: 90096

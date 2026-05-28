@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+	},
+
 	thirdParty: {
 		cardmarket: 281698,
 		tcgplayer: 92209

@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Hidden away in its jet-black wings is a red passion.",
+	},
+
 	thirdParty: {
 		cardmarket: 288525
 	}

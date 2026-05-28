@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.",
+	},
+
 	thirdParty: {
 		cardmarket: 280486,
 		tcgplayer: 85059

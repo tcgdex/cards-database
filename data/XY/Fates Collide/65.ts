@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it inflates to sing a lullaby, it can perform longer and cause sure drowsiness in its audience.",
+	},
+
 	thirdParty: {
 		cardmarket: 289886,
 		tcgplayer: 117840

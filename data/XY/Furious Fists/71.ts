@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 281735,
 		tcgplayer: 92249

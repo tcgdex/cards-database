@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+	},
+
 	thirdParty: {
 		cardmarket: 281491,
 		tcgplayer: 91141

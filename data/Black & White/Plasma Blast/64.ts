@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+	},
+
 	thirdParty: {
 		cardmarket: 281085,
 		tcgplayer: 88901

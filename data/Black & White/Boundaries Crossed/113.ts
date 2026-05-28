@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shows its cute side by chasing its own tail until it gets dizzy.",
+	},
+
 	thirdParty: {
 		cardmarket: 280700,
 		tcgplayer: 89269

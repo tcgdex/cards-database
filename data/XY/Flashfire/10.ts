@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+	},
+
 	thirdParty: {
 		cardmarket: 281493,
 		tcgplayer: 91143

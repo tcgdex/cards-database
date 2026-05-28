@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 273562,
 		tcgplayer: 95923

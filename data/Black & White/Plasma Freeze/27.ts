@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
+	},
+
 	thirdParty: {
 		cardmarket: 280905,
 		tcgplayer: 90272

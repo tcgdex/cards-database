@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",

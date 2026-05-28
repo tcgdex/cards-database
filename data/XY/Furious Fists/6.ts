@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 281670,
 		tcgplayer: 92175
