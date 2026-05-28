@@ -46,14 +46,13 @@ const card: Card = {
 		value: "x2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 686342
-	},
-
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 686342
+			}
 		}
 	]
 }
