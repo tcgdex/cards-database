@@ -15,7 +15,7 @@ const card: Card = {
 		en: "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokémon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)",
 	},
 	thirdParty: {
-		cardmarket: 274285,
+		cardmarket: 274368,
 		tcgplayer: 83859
 	},
 

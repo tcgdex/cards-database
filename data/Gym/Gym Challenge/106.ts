@@ -15,7 +15,7 @@ const card: Card = {
 		en: "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned.",
 	},
 	thirdParty: {
-		cardmarket: 274287,
+		cardmarket: 274348,
 		tcgplayer: 86503
 	},
 

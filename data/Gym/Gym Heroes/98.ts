@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
 	},
 	thirdParty: {
-		cardmarket: 274151,
+		cardmarket: 274234,
 		tcgplayer: 83960
 	},
 

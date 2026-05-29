@@ -15,7 +15,7 @@ const card: Card = {
 		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards.",
 	},
 	thirdParty: {
-		cardmarket: 274152,
+		cardmarket: 274185,
 		tcgplayer: 85282
 	},
 
