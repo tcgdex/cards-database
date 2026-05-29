@@ -55,7 +55,7 @@ const card: Card = {
 		{
 			type: 'normal',
 			thirdParty: {
-				cardmarket: 362810,
+				cardmarket: 362809,
 			}
 		},
 		{
