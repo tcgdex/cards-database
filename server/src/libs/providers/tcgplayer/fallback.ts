@@ -39,8 +39,24 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	const updated = await fetch('https://tcgcsv.com/last-updated.txt', {
 		headers: { 'User-Agent': userAgent }
 	})
-		.then((it) => it.text())
-		.then((it) => new Date(it))
+		.then(async (res) => {
+
+			if (res.status >= 400) {
+				throw(`couldn\'t load TCGplayer datas :(` + await res.text())
+				continue
+			}
+			
+			return res.text()
+		})
+		.then((it) => {
+			const date = new Date(it)
+
+			if (isNaN(date)) {
+				throw new Error(`failed to parse date "${it}"`)
+			}
+			
+			return date
+		})
 
 	if (lastUpdate === updated) {
 		lastFetch = new Date()
