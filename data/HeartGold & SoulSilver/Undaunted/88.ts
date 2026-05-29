@@ -86,7 +86,7 @@ const card: Card = {
 	hp: 150,
 
 	thirdParty: {
-		cardmarket: 279340
+		cardmarket: 279341
 	}
 }
 
