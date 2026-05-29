@@ -43,7 +43,6 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 
 			if (res.status >= 400) {
 				throw(`couldn\'t load TCGplayer datas :(` + await res.text())
-				continue
 			}
 			
 			return res.text()
