@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It strikes at humans from total darkness. Those licked by its cold tongue grow weaker with each passing day until they die.",
+	},
+
 	thirdParty: {
 		cardmarket: 311887,
 		tcgplayer: 149060

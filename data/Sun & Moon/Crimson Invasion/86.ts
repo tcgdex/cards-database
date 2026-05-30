@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.",
+	},
+
 	thirdParty: {
 		cardmarket: 311933,
 		tcgplayer: 149111

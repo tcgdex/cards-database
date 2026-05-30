@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Should you feel yourself attacked by a sudden chill, it is evidence of an approaching Gengar. There is no escaping it. Give up.",
+	},
+
 	thirdParty: {
 		cardmarket: 311888,
 		tcgplayer: 149061

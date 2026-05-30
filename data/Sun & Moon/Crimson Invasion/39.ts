@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will use any means necessary to frighten people and absorb their life energy. It practices constantly to hone its skill in causing fear.",
+	},
+
 	thirdParty: {
 		cardmarket: 311889,
 		tcgplayer: 149062

@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
+	},
+
 	thirdParty: {
 		cardmarket: 311924,
 		tcgplayer: 149103
