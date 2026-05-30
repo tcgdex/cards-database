@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.",
+	},
+
 	thirdParty: {
 		cardmarket: 363498,
 		tcgplayer: 175392
