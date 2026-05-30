@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The bones it possesses were once its mother's. Its mother's regrets have become like a vengeful spirit protecting this Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 311862,
 		tcgplayer: 149033

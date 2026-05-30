@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+	},
+
 	thirdParty: {
 		cardmarket: 311936,
 		tcgplayer: 149114
