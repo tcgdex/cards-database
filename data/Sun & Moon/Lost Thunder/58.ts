@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+	},
+
 	thirdParty: {
 		cardmarket: 365697,
 		tcgplayer: 178865
