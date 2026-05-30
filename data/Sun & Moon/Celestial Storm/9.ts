@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+	},
+
 	thirdParty: {
 		cardmarket: 361256,
 		tcgplayer: 170817
