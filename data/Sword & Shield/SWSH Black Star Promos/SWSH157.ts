@@ -7,6 +7,12 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,

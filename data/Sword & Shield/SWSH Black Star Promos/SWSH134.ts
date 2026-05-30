@@ -67,6 +67,12 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
