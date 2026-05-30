@@ -20,6 +20,18 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",
