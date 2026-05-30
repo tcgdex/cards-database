@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It lived in the same environments as Rampardos. Their fossils have been found together—seemingly from after they'd fought to the finish.",
+	},
+
 	thirdParty: {
 		cardmarket: 316012,
 		tcgplayer: 157702

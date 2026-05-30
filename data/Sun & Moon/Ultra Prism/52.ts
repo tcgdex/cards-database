@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even while under careful observation, large flocks of Drifblim flying at dusk will inexplicably disappear from view.",
+	},
+
 	thirdParty: {
 		cardmarket: 315982,
 		tcgplayer: 157669
