@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
+	},
+
 	thirdParty: {
 		cardmarket: 408339,
 		tcgplayer: 201182

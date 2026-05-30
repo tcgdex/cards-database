@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As the hot season approaches, the petals on this Pokémon's face become more vivid and lively.",
+	},
+
 	thirdParty: {
 		cardmarket: 407694,
 		tcgplayer: 201155

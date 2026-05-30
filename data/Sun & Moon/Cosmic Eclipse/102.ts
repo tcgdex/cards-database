@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Records of it exist in writings from long, long ago, where it was known by the name \"the beast that calls the moon.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 408154,
 		tcgplayer: 201277

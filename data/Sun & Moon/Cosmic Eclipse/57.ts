@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+	},
+
 	thirdParty: {
 		cardmarket: 407934,
 		tcgplayer: 201233

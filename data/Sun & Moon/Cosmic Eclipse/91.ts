@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It vanishes into seaweed and remains perfectly still to avoid attacks from large Pokémon. Rotten seaweed is its main food source.",
+	},
+
 	thirdParty: {
 		cardmarket: 408099,
 		tcgplayer: 201265
