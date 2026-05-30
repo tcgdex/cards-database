@@ -86,6 +86,10 @@ const card: Card = {
 	],
 
 	retreat: 2
+
+	description: {
+		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+	},
 }
 
 export default card

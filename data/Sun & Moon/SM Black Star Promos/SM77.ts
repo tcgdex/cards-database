@@ -77,6 +77,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+	},
 }
 
 export default card

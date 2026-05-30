@@ -86,6 +86,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.",
+	},
 }
 
 export default card

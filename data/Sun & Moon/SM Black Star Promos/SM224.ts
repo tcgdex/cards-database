@@ -69,6 +69,10 @@ const card: Card = {
 	}],
 
 	retreat: 1
+
+	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+	},
 }
 
 export default card

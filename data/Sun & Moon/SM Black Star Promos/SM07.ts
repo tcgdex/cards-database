@@ -70,6 +70,10 @@ const card: Card = {
 	],
 
 	retreat: 1
+
+	description: {
+		en: "It can peck at a rate of 16 times a second to drill holes in trees. It uses holes for food storage and for nesting.",
+	},
 }
 
 export default card

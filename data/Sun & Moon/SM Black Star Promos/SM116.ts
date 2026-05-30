@@ -92,6 +92,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+	},
 }
 
 export default card

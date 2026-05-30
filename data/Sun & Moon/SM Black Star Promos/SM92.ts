@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
+	},
 }
 
 export default card

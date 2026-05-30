@@ -87,6 +87,10 @@ const card: Card = {
 	],
 
 	retreat: 0
+
+	description: {
+		en: "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+	},
 }
 
 export default card

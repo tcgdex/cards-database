@@ -71,6 +71,10 @@ const card: Card = {
 	}],
 
 	retreat: 2
+
+	description: {
+		en: "It protects itself by freezing its fur into sharp needles. It can drop its body temperature below –75 degrees Fahrenheit.",
+	},
 }
 
 export default card

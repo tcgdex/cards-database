@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+	},
 }
 
 export default card

@@ -77,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 1
+
+	description: {
+		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by horror and died of the shock.",
+	},
 }
 
 export default card

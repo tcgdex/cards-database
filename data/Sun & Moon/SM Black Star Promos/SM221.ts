@@ -69,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 2
+
+	description: {
+		en: "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
+	},
 }
 
 export default card

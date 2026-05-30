@@ -80,6 +80,10 @@ const card: Card = {
 	],
 
 	retreat: 1
+
+	description: {
+		en: "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
+	},
 }
 
 export default card

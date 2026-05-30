@@ -90,6 +90,10 @@ const card: Card = {
 	],
 
 	retreat: 2
+
+	description: {
+		en: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+	},
 }
 
 export default card

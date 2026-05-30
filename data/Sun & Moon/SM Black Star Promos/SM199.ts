@@ -56,6 +56,10 @@ const card: Card = {
 	],
 
 	retreat: 2
+
+	description: {
+		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+	},
 }
 
 export default card

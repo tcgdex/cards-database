@@ -49,6 +49,10 @@ const card: Card = {
 	}],
 
 	retreat: 1
+
+	description: {
+		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+	},
 }
 
 export default card

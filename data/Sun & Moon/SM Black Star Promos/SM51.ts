@@ -82,6 +82,10 @@ const card: Card = {
 	],
 
 	retreat: 1
+
+	description: {
+		en: "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
+	},
 }
 
 export default card

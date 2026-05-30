@@ -93,6 +93,10 @@ const card: Card = {
 	],
 
 	retreat: 2
+
+	description: {
+		en: "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
+	},
 }
 
 export default card

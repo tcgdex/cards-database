@@ -61,6 +61,10 @@ const card: Card = {
 	}],
 
 	retreat: 2
+
+	description: {
+		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+	},
 }
 
 export default card

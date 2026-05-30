@@ -71,6 +71,10 @@ const card: Card = {
 	}],
 
 	retreat: 2
+
+	description: {
+		en: "This Pokémon was created by Mewtwo to prove that copies can be even more powerful than their originals.",
+	},
 }
 
 export default card
