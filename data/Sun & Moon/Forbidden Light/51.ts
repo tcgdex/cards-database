@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+	},
+
 	thirdParty: {
 		cardmarket: 355570,
 		tcgplayer: 165701

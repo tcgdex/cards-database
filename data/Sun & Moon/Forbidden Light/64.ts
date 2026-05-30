@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
+	},
+
 	thirdParty: {
 		cardmarket: 355582,
 		tcgplayer: 165716
