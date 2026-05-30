@@ -58,6 +58,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.",
+	},
+
 	thirdParty: {
 		cardmarket: 682179,
 		tcgplayer: 451785
