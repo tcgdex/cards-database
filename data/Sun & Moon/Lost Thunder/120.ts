@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its black fur, it blends into the darkness. It bides its time, and when prey appears, this Pokémon goes for its threat, and then eats it.",
+	},
+
 	thirdParty: {
 		cardmarket: 365757,
 		tcgplayer: 178933

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In hot weather, this Pokémon makes ice shards with its six tails and sprays them around to cool itself off.",
+	},
+
 	thirdParty: {
 		cardmarket: 365692,
 		tcgplayer: 178860

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon feeds on berries, whose leftover seeds become the ammunition for attacks it fires off from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 365799,
 		tcgplayer: 178987
