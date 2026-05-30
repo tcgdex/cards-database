@@ -55,6 +55,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
@@ -63,6 +69,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor.",
 	},
 
 	thirdParty: {
