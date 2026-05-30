@@ -42,6 +42,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -50,6 +56,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction.",
 	},
 
 	thirdParty: {

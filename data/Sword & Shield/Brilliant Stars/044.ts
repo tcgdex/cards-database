@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
@@ -63,6 +69,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The hair on its head connects to the surface of its brain. When this Pokémon has something on its mind, its hair chills the air around it.",
 	},
 
 	thirdParty: {

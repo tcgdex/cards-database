@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -72,6 +78,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
 	},
 
 	thirdParty: {

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -52,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
 	},
 
 	thirdParty: {

@@ -76,6 +76,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -84,6 +90,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
 	},
 
 	thirdParty: {

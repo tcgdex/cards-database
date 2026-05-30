@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -73,6 +79,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
 	},
 
 	thirdParty: {
