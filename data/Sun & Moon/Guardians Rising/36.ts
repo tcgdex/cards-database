@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It uses its special mucus to close the wounds of injured Pokémon. The reason for this behavior remains unknown.",
+	},
+
 	thirdParty: {
 		cardmarket: 297498,
 		tcgplayer: 130936
