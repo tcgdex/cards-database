@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
+	},
+
 	thirdParty: {
 		cardmarket: 315966,
 		tcgplayer: 157652
