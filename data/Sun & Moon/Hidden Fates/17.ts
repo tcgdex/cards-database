@@ -50,6 +50,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
+	},
+
 	thirdParty: {
 		cardmarket: 394702,
 		tcgplayer: 197661
