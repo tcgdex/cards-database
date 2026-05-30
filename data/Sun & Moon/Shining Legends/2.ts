@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower.",
+	},
+
 	thirdParty: {
 		cardmarket: 302140,
 		tcgplayer: 146654
