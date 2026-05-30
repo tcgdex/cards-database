@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's both clever and loyal, but if a stranger tries to invade its territory, it barks threateningly.",
+	},
+
 	thirdParty: {
 		cardmarket: 295329,
 		tcgplayer: 126892

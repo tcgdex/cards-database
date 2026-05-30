@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
+	},
+
 	thirdParty: {
 		cardmarket: 295376,
 		tcgplayer: 126936

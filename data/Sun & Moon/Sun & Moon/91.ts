@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
+	},
+
 	thirdParty: {
 		cardmarket: 295402,
 		tcgplayer: 126963
