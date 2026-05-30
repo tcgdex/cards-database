@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sneaks into people's homes and steals electricity from their outlets. When your electric bill seems off, it's the handiwork of this rascal.",
+	},
+
 	thirdParty: {
 		cardmarket: 388522,
 		tcgplayer: 195132

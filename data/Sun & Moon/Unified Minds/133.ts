@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It digs through the ground with its hard claws and crunches down gems with its thick pointy teeth. Carbink is its favorite food.",
+	},
+
 	thirdParty: {
 		cardmarket: 388462,
 		tcgplayer: 195104

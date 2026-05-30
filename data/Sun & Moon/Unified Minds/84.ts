@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
+	},
+
 	thirdParty: {
 		cardmarket: 388222,
 		tcgplayer: 195014

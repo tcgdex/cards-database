@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
+	},
+
 	thirdParty: {
 		cardmarket: 388352,
 		tcgplayer: 195063

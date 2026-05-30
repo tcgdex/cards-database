@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon may be rude, but it takes very good care of its family, its friends, and its turf.",
+	},
+
 	thirdParty: {
 		cardmarket: 388487,
 		tcgplayer: 195113
