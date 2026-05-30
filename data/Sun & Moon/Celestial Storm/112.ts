@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Gathering food is the work of young males. They store food in their capacious beaks and carry it back to others waiting in the nest.",
+	},
+
 	thirdParty: {
 		cardmarket: 361351,
 		tcgplayer: 170941
