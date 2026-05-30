@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
+	},
+
 	thirdParty: {
 		cardmarket: 299496,
 		tcgplayer: 138589

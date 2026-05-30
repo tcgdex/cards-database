@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+	},
+
 	thirdParty: {
 		cardmarket: 299469,
 		tcgplayer: 138553

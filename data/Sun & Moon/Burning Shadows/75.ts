@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The more intimidating the opponent it faces, the more this Pokémon's blood boils. It will attack with no regard for its own safety.",
+	},
+
 	thirdParty: {
 		cardmarket: 299477,
 		tcgplayer: 138561

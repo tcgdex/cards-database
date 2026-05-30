@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+	},
+
 	thirdParty: {
 		cardmarket: 299449,
 		tcgplayer: 138527
