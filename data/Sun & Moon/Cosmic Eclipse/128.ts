@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.",
+	},
+
 	thirdParty: {
 		cardmarket: 408289,
 		tcgplayer: 201169

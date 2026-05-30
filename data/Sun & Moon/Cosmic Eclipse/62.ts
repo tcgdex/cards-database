@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Wishiwashi assemble in this formation to face off against strong foes. It boasts a strength that earned it the name \"demon of the sea.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 398509,
 		tcgplayer: 201238

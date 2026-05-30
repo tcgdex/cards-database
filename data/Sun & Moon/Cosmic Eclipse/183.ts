@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.",
+	},
+
 	thirdParty: {
 		cardmarket: 408539,
 		tcgplayer: 201305

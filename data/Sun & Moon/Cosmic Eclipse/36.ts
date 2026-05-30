@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When they're young, they live with a pride. Once they're able to hunt prey on their own, they're kicked out and have to make their own way.",
+	},
+
 	thirdParty: {
 		cardmarket: 407829,
 		tcgplayer: 201213

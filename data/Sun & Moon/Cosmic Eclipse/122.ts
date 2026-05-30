@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!",
+	},
+
 	thirdParty: {
 		cardmarket: 408259,
 		tcgplayer: 201157

@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it still can't fly, its jumping power is outstanding. It jumps way up into trees and plucks the buds from the branches.",
+	},
+
 	thirdParty: {
 		cardmarket: 408034,
 		tcgplayer: 201253

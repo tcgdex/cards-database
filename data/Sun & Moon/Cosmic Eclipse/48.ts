@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It freezes its prey and chews them whole. However, it prefers to eat Pokémon like Vanillite that are already frozen.",
+	},
+
 	thirdParty: {
 		cardmarket: 407889,
 		tcgplayer: 201224

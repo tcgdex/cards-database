@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
+	},
+
 	thirdParty: {
 		cardmarket: 408264,
 		tcgplayer: 201158

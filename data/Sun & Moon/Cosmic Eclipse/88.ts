@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+	},
+
 	thirdParty: {
 		cardmarket: 408084,
 		tcgplayer: 201262

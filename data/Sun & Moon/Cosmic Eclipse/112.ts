@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lived on land and went out into the sea to hunt for prey. Its sharp claws were its greatest weapon.",
+	},
+
 	thirdParty: {
 		cardmarket: 408209,
 		tcgplayer: 201144
