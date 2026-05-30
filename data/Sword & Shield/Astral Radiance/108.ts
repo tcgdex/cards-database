@@ -64,6 +64,18 @@ const card: Card = {
 		damage: "220-"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -72,6 +84,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Registeel's body is made of a strange material that is flexible enough to stretch and shrink but also more durable than any metal.",
 	},
 
 	thirdParty: {
