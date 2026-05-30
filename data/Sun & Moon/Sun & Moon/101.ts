@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions.",
+	},
+
 	thirdParty: {
 		cardmarket: 295413,
 		tcgplayer: 126973
