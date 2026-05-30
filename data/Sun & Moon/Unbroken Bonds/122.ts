@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its metallic whiskers are heavy, so it's not very fast, but it has the power to dig through bedrock.",
+	},
+
 	thirdParty: {
 		cardmarket: 372411,
 		tcgplayer: 189221
