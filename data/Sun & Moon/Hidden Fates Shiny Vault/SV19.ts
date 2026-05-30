@@ -64,6 +64,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+	},
 }
 
 export default card
