@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "There are some places where Slowpoke is worshiped because of a long-standing belief that whenever Slowpoke yawns, it rains.",
+	},
+
 	thirdParty: {
 		cardmarket: 372333,
 		tcgplayer: 189122

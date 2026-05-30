@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It drifts through the sea searching for prey. Its poisonous tentacles break off sometimes, but after a while, they grow back.",
+	},
+
 	thirdParty: {
 		cardmarket: 372331,
 		tcgplayer: 189116

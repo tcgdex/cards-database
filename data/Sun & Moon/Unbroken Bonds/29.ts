@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Although it's rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 372321,
 		tcgplayer: 189078

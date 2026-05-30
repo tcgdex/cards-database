@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It travels through tunnels that it digs underground. It hates sunlight, so it comes out only after the sun goes down.",
+	},
+
 	thirdParty: {
 		cardmarket: 372376,
 		tcgplayer: 189184

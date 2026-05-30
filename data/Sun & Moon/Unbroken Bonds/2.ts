@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day.",
+	},
+
 	thirdParty: {
 		cardmarket: 372295,
 		tcgplayer: 189040

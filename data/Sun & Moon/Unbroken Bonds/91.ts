@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It throws bones at Mandibuzz to knock it down. It's thought that Marowak is trying to avenge its parent.",
+	},
+
 	thirdParty: {
 		cardmarket: 372382,
 		tcgplayer: 189190

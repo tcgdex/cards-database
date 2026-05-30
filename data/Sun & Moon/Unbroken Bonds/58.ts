@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you'll get a shock!",
+	},
+
 	thirdParty: {
 		cardmarket: 372348,
 		tcgplayer: 189159
