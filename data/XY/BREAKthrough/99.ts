@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It can make most any Pokémon run away simply by opening its mouth wide to reveal its big fangs.",
+	},
+
 	thirdParty: {
 		cardmarket: 286345,
 		tcgplayer: 107218

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Aggron's metal horns can smash through any defenses, no matter how strong!",
+	},
+
 	thirdParty: {
 		cardmarket: 282525,
 		tcgplayer: 97060

@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Anyone who takes even one bite of Blissey's egg becomes unfailingly caring and pleasant to everyone.",

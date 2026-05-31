@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+	},
+
 	thirdParty: {
 		cardmarket: 280351,
 		tcgplayer: 89335

@@ -43,6 +43,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",

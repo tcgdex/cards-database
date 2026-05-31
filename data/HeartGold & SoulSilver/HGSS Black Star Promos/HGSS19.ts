@@ -53,6 +53,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
+	},
 
 	variants: [
 		{

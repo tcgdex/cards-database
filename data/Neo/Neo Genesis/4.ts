@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",

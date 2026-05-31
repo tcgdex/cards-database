@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+	},
+
 	thirdParty: {
 		cardmarket: 288464,
 		tcgplayer: 113684

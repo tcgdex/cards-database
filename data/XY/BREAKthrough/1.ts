@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+	},
+
 	thirdParty: {
 		cardmarket: 286247,
 		tcgplayer: 107120

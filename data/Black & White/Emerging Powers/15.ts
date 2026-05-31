@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+	},
+
 	thirdParty: {
 		cardmarket: 279980,
 		tcgplayer: 84725

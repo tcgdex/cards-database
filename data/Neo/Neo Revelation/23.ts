@@ -77,6 +77,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",

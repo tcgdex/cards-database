@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+	},
+
 	thirdParty: {
 		cardmarket: 280605,
 		tcgplayer: 84218

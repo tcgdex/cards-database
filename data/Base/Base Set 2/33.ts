@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",

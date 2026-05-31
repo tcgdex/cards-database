@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",

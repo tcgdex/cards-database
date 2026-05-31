@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+	},
+
 	thirdParty: {
 		cardmarket: 281344,
 		tcgplayer: 86696

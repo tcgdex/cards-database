@@ -71,6 +71,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",

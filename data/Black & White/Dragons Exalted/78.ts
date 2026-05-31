@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+	},
+
 	thirdParty: {
 		cardmarket: 280517,
 		tcgplayer: 83640

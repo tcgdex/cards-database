@@ -65,6 +65,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
+	},
 
 	thirdParty: {
 		cardmarket: 274839,

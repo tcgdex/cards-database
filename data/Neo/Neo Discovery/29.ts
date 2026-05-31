@@ -86,6 +86,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It swings its eye patterned pincers up to scare its foes. This makes it look like it has three heads.",

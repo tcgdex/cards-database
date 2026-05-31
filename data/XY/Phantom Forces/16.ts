@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 281819,
 		tcgplayer: 94149

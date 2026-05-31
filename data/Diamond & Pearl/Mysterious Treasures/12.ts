@@ -76,6 +76,8 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters.",

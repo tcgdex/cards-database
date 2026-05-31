@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+	},
+
 	thirdParty: {
 		cardmarket: 279776,
 		tcgplayer: 83505

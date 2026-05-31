@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",

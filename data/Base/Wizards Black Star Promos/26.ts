@@ -61,6 +61,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It uses its sensitive tail to sense its environment and has been known to react violently if its tail is grabbed.",

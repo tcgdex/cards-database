@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its adorable appearance makes it popular as a pet. However, it is rare and difficult to find.",
+	},
+
 	thirdParty: {
 		cardmarket: 293416,
 		tcgplayer: 124076

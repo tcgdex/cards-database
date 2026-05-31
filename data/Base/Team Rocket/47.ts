@@ -65,6 +65,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Recent research has revealed the presence of dragon DNA in this species of Pokémon.",

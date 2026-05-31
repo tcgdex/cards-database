@@ -70,6 +70,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its irregularly configured DNA is affected by its surroundings. It evolves if its environment changes.",

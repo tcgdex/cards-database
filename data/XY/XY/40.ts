@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+	},
+
 	thirdParty: {
 		cardmarket: 281377,
 		tcgplayer: 85570

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 281292,
 		tcgplayer: 89394

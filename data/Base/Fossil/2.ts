@@ -73,6 +73,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",

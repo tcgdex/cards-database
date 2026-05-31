@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+	},
+
 	thirdParty: {
 		cardmarket: 281095,
 		tcgplayer: 88319

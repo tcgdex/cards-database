@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 280329,
 		tcgplayer: 84036

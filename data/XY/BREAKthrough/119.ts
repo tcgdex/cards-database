@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It always stand on one foot. It changes feet so fast, the movement can rarely be seen.",
+	},
+
 	thirdParty: {
 		cardmarket: 286365,
 		tcgplayer: 107238

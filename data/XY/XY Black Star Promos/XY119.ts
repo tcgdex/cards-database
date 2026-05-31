@@ -72,6 +72,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+	},
 
 	thirdParty: {
 		cardmarket: 295149

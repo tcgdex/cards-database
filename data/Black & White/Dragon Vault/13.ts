@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+	},
+
 	thirdParty: {
 		cardmarket: 281012,
 		tcgplayer: 83671

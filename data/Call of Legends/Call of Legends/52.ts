@@ -74,6 +74,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
+	},
 
 	thirdParty: {
 		cardmarket: 279695,

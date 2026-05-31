@@ -68,6 +68,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It squirts water forcefully from its mouth to shoot down flying prey.",

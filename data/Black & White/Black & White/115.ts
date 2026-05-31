@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This is an extremely rare Pikachu card. You're very lucky to have found it!",
+	},
+
 	thirdParty: {
 		cardmarket: 279853,
 		tcgplayer: 88101

@@ -78,6 +78,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
+	},
 
 	thirdParty: {
 		cardmarket: 279659,

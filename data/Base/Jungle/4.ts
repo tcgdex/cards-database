@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts.",

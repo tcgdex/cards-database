@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
+	},
 
 	thirdParty: {
 		cardmarket: 279697,

@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
+	},
+
 	thirdParty: {
 		cardmarket: 286274,
 		tcgplayer: 107147

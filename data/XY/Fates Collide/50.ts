@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has slept underground for hundreds of millions of years since its birth. It's occasionally found during the excavation of caves.",
+	},
+
 	thirdParty: {
 		cardmarket: 290538,
 		tcgplayer: 117810

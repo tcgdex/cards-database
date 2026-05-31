@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Open the magic door and a dream-colored party will start again today. I'll teach you the secret password.",
+	},
+
 	thirdParty: {
 		cardmarket: 288531
 	}

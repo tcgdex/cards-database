@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+	},
+
 	thirdParty: {
 		cardmarket: 286318,
 		tcgplayer: 107191

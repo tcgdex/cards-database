@@ -72,6 +72,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in.",

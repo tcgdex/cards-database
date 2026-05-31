@@ -105,6 +105,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A linked cluster formed of several Magnemite. It discharges powerful magnetic waves at high voltage.",
+	},
+
 	thirdParty: {
 		cardmarket: 293394,
 		tcgplayer: 124051

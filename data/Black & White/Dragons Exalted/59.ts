@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It flies around the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+	},
+
 	thirdParty: {
 		cardmarket: 280498,
 		tcgplayer: 85836

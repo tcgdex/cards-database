@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground.",
+	},
+
 	thirdParty: {
 		cardmarket: 279676,
 		tcgplayer: 89392

@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint.",
+	},
+
 	thirdParty: {
 		cardmarket: 293424,
 		tcgplayer: 124049

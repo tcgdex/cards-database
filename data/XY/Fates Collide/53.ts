@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+	},
+
 	thirdParty: {
 		cardmarket: 289873,
 		tcgplayer: 117811

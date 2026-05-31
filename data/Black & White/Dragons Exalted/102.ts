@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its heart beats at a tenfold tempo, so it cannot sit still for even a moment.",
+	},
+
 	thirdParty: {
 		cardmarket: 280541,
 		tcgplayer: 90372

@@ -83,6 +83,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",

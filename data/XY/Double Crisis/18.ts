@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Thanks to Mightyena's outstanding leadership, it's very good at combination attacks that can leave a foe helpless.",
+	},
+
 	thirdParty: {
 		cardmarket: 282529,
 		tcgplayer: 97064

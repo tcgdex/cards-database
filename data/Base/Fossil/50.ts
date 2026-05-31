@@ -63,6 +63,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",

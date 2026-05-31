@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory.",
+	},
+
 	thirdParty: {
 		cardmarket: 554158
 	}

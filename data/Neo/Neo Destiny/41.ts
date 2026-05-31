@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It is normally peaceful, but will attack any who get between it and honey, its favorite food.",

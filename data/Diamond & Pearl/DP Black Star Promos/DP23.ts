@@ -68,6 +68,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It claws if displeased and purrs when affectionate. Its fickleness if very popular among some.",

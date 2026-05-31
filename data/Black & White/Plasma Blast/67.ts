@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier.",
+	},
+
 	thirdParty: {
 		cardmarket: 281088,
 		tcgplayer: 83672

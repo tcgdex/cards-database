@@ -71,6 +71,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Carries a pendulum with it always. Sometimes appears near less-traveled roads and schools at dusk.",
