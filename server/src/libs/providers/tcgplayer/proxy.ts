@@ -6,15 +6,6 @@ const TCGPLAYER_PROXY = process.env.TCGPLAYER_PROXY!
 const USER_AGENT = process.env.USER_AGENT
 const TCGPLAYER_PROXY_API_KEY = process.env.TCGPLAYER_PROXY_API_KEY!
 
-interface BearerResponse {
-	'access_token': string
-	'token_type': 'bearer'
-	'expires_in': number
-	'userName': string
-	'.issues': string
-	'.expires': string
-}
-
 const cache = new MemoryCache()
 
 export default class TCGPlayerProxy implements TCGPlayerAPI {
@@ -38,8 +29,6 @@ export default class TCGPlayerProxy implements TCGPlayerAPI {
 			product: () => { throw new Error('method unavailable in TCGCSV') },
 		}
 	}
-
-	private bearer: BearerResponse & { expires: Date } | undefined = undefined
 
 	private constructor() {
 		if (
