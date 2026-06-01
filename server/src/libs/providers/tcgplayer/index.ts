@@ -1,36 +1,93 @@
-import * as OfficialTCGPlayer from './official'
-import * as Fallback from './fallback'
-import type RFC7807 from '../../RFCs/RFC7807'
+import type { Result, TCGPlayerAPI } from './interface'
+import TCGCSV from './tcgcsv'
+import TCGPlayer from './tcgplayer'
+import { sets } from '../../../V2/Components/Set'
+import { objectOmit } from '@dzeio/object-util'
+import TCGPlayerProxy from './proxy'
+import cluster from 'node:cluster'
+import ClusterUtils from '../../threadUtils'
 
-let source: (typeof OfficialTCGPlayer) | (typeof Fallback) = Fallback
-if (
-	process.env.TCGPLAYER_CLIENT_ID
-	&& process.env.TCGPLAYER_CLIENT_SECRET
-	&& process.env.TCGPLAYER_CLIENT_NAME
-) {
-	console.log('loading official TCGPlayer backend')
-	source = OfficialTCGPlayer
-} else {
-	console.log('loading fallback TCGPlayer backend')
-}
-
+let cache: Record<number, Record<string, Result> & { updated: string }> = {}
+let lastFetch: Date | undefined = undefined
 
 export async function updateTCGPlayerDatas(): Promise<boolean> {
-	return source.updateTCGPlayerDatas()
-}
-
-export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<any> {
-	return source.getTCGPlayerPrice(card)
-}
-
-export async function listSKUs(card: { thirdParty: { tcgplayer?: number } }): Promise<any> {
-	if ('listSKUs' in source) {
-		return (source as any).listSKUs(card)
+	// disable queries on secondary elements
+	if (!cluster.isPrimary) {
+		return true
 	}
-	return {
-		type: '/errors/provider-error',
-		title: 'The current provider does not provide this feature',
-		status: 503,
-		details: 'The TCGPlayer provider does not provide the feature to list SKUs, please contact you administrator to get more informations.'
-	} satisfies RFC7807
+
+	// only fetch at max, once an hour
+	if (lastFetch && lastFetch.getTime() > new Date().getTime() - 3600000) {
+		return false
+	}
+
+	const products = sets.en
+		.filter((it) => it?.thirdParty?.tcgplayer)
+		.map((it) => it!.thirdParty!.tcgplayer)
+
+	const provider = getTCGPlayer()
+
+
+	for (const product of products) {
+		try {
+			const data = await provider.pricing.group(product!)
+
+			for (const item of data.results) {
+				const cacheItem = cache[item.productId] ?? {}
+				cacheItem.updated = data.updated ?? new Date().toISOString()
+
+				if (!(item.subTypeName in cacheItem)) {
+					const type = item.subTypeName.toLowerCase().replaceAll(' ', '-')
+					cacheItem[type] = objectOmit(item, 'subTypeName')
+				}
+				cache[item.productId] = cacheItem
+			}
+
+		} catch (error) {
+			console.warn(`couldn\'t load TCGplayer datas for ${product} :( ${error}`)
+			continue
+		}
+	}
+
+	lastFetch = new Date()
+
+	return true
+}
+
+export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number } }): Promise<{
+	unit: 'USD',
+	updated: string
+	normal?: Omit<Result, 'subTypeName'>
+	reverse?: Omit<Result, 'subTypeName'>
+	holo?: Omit<Result, 'subTypeName'>
+} | null> {
+
+	if (!cluster.isPrimary) {
+		return (await ClusterUtils.sendAndReceive({ type: 'getTCGPlayerPrice', data: card }, 'getTCGPlayerPrice'))
+			.data as any
+	}
+
+	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
+		return null
+	}
+	const variants = cache[card.thirdParty.tcgplayer!]
+	if (!variants) {
+		return null
+	}
+	const res: NonNullable<Awaited<ReturnType<typeof getTCGPlayerPrice>>> = {
+		unit: 'USD',
+		...variants
+	}
+	return res
+}
+
+export function getTCGPlayer(): TCGPlayerAPI {
+	try {
+		return TCGPlayerProxy.getInstance()
+	} catch { }
+	try {
+		return TCGPlayer.getInstance()
+	} catch {
+		return TCGCSV.getInstance()
+	}
 }
