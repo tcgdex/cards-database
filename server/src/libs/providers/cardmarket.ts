@@ -60,12 +60,16 @@ export async function updateDatas(): Promise<boolean> {
 }
 
 export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
+	if (typeof card.thirdParty?.cardmarket !== 'number') {
+		return null
+	}
+
 	if (!cluster.isPrimary) {
 		return (await ClusterUtils.sendAndReceive({ type: 'getCardMarketPrice', data: card }, `getCardMarketPrice-${card.thirdParty.cardmarket}`))
 			.data
 	}
 
-	if (!dataCache || typeof card.thirdParty?.cardmarket !== 'number') {
+	if (!dataCache) {
 		return null
 	}
 	const input = dataCache.get(card.thirdParty!.cardmarket)

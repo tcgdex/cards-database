@@ -62,12 +62,16 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	holo?: Omit<Result, 'subTypeName'>
 } | null> {
 
+	if (typeof card.thirdParty?.tcgplayer !== 'number') {
+		return null
+	}
+
 	if (!cluster.isPrimary) {
 		return (await ClusterUtils.sendAndReceive({ type: 'getTCGPlayerPrice', data: card }, `getTCGPlayerPrice-${card.thirdParty.tcgplayer}`))
 			.data as any
 	}
 
-	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
+	if (!lastFetch) {
 		return null
 	}
 	const variants = cache[card.thirdParty.tcgplayer!]
