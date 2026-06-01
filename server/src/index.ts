@@ -58,7 +58,7 @@ if (cluster.isPrimary) {
 
 	// auto update each hour the datasets
 	fn()
-	setInterval(fn, 3_600_000)
+	setInterval(fn, 86_400_000)
 
 	// Init Express server
 	const server = express()
