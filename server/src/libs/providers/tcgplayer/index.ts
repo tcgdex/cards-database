@@ -63,7 +63,7 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 } | null> {
 
 	if (!cluster.isPrimary) {
-		return (await ClusterUtils.sendAndReceive({ type: 'getTCGPlayerPrice', data: card }, 'getTCGPlayerPrice'))
+		return (await ClusterUtils.sendAndReceive({ type: 'getTCGPlayerPrice', data: card }, `getTCGPlayerPrice-${card.thirdParty.tcgplayer}`))
 			.data as any
 	}
 

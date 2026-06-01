@@ -61,7 +61,7 @@ export async function updateDatas(): Promise<boolean> {
 
 export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
 	if (!cluster.isPrimary) {
-		return (await ClusterUtils.sendAndReceive({ type: 'getCardMarketPrice', data: card }, 'getTCGPlayerPrice'))
+		return (await ClusterUtils.sendAndReceive({ type: 'getCardMarketPrice', data: card }, `getCardMarketPrice-${card.thirdParty.cardmarket}`))
 			.data
 	}
 

@@ -19,22 +19,23 @@ Sentry.init({
 
 const port = process.env.PORT ? Number.parseInt(process.env.PORT) : 3000
 
-// Load providers one time before loading http server
-const fn = async () => {
-	await updateDatas()
-		.then(() => console.log('loaded cardmarket datas'))
-		.catch((err) => console.error('error loading cardmarket', err))
-	await updateTCGPlayerDatas()
-		.then(() => console.log('loaded TCGPlayer datas'))
-		.catch((err) => console.error('error loading TCGPlayer', err))
-}
-
-// auto update each hour the datasets
-await fn()
-setInterval(fn, 86_400_000)
-
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`)
+
+	// Load providers one time before loading http server
+	const fn = async () => {
+		await updateDatas()
+			.then(() => console.log('loaded cardmarket datas'))
+			.catch((err) => console.error('error loading cardmarket', err))
+		await updateTCGPlayerDatas()
+			.then(() => console.log('loaded TCGPlayer datas'))
+			.catch((err) => console.error('error loading TCGPlayer', err))
+	}
+
+	// auto update each hour the datasets
+	// @ts-expect-error f*ck off
+	await fn()
+	setInterval(fn, 86_400_000)
 
 	// get maximum number of workers available for the software
 	let maxWorkers = availableParallelism()
@@ -58,14 +59,14 @@ if (cluster.isPrimary) {
 			switch (command.type) {
 				case 'getTCGPlayerPrice': {
 					worker.send({
-						type: 'getTCGPlayerPrice',
+						type: `getTCGPlayerPrice-${command.data?.thirdParty.tcgplayer}`,
 						data: await getTCGPlayerPrice(command.data as any)
 					})
 					break
 				}
 				case 'getCardMarketPrice': {
 					worker.send({
-						type: 'getCardMarketPrice',
+						type: `getCardMarketPrice-${command.data?.thirdParty.cardmarket}`,
 						data: await getCardMarketPrice(command.data as any)
 					})
 					break
