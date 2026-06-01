@@ -19,6 +19,20 @@ Sentry.init({
 
 const port = process.env.PORT ? Number.parseInt(process.env.PORT) : 3000
 
+// Load providers one time before loading http server
+const fn = async () => {
+	await updateDatas()
+		.then(() => console.log('loaded cardmarket datas'))
+		.catch((err) => console.error('error loading cardmarket', err))
+	await updateTCGPlayerDatas()
+		.then(() => console.log('loaded TCGPlayer datas'))
+		.catch((err) => console.error('error loading TCGPlayer', err))
+}
+
+// auto update each hour the datasets
+await fn()
+setInterval(fn, 86_400_000)
+
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`)
 
@@ -64,20 +78,6 @@ if (cluster.isPrimary) {
 		console.log(`Worker ${worker.id} exited with code ${code} and signal ${signal}`);
 		cluster.fork()
 	})
-
-	// handle providers from master
-	const fn = () => {
-		void updateDatas()
-			.then(() => console.log('loaded cardmarket datas'))
-			.catch((err) => console.error('error loading cardmarket', err))
-		void updateTCGPlayerDatas()
-			.then(() => console.log('loaded TCGPlayer datas'))
-			.catch((err) => console.error('error loading TCGPlayer', err))
-	}
-
-	// auto update each hour the datasets
-	fn()
-	setInterval(fn, 86_400_000)
 
 	console.log('🚀 Server ready at localhost:' + port);
 } else {
