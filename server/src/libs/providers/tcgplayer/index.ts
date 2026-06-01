@@ -4,11 +4,17 @@ import TCGPlayer from './tcgplayer'
 import { sets } from '../../../V2/Components/Set'
 import { objectOmit } from '@dzeio/object-util'
 import TCGPlayerProxy from './proxy'
+import cluster from 'node:cluster'
+import ClusterUtils from '../../threadUtils'
 
 let cache: Record<number, Record<string, Result> & { updated: string }> = {}
 let lastFetch: Date | undefined = undefined
 
 export async function updateTCGPlayerDatas(): Promise<boolean> {
+	// disable queries on secondary elements
+	if (!cluster.isPrimary) {
+		return true
+	}
 
 	// only fetch at max, once an hour
 	if (lastFetch && lastFetch.getTime() > new Date().getTime() - 3600000) {
@@ -55,6 +61,11 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	reverse?: Omit<Result, 'subTypeName'>
 	holo?: Omit<Result, 'subTypeName'>
 } | null> {
+
+	if (!cluster.isPrimary) {
+		return (await ClusterUtils.sendAndReceive({ type: 'getTCGPlayerPrice', data: card }, 'getTCGPlayerPrice'))
+			.data as any
+	}
 
 	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
 		return null

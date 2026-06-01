@@ -1,26 +1,28 @@
 import { objectOmit } from '@dzeio/object-util'
+import cluster from 'node:cluster'
+import ClusterUtils from '../threadUtils'
 
 interface Root {
-  version: number
-  createdAt: string
-  priceGuides: PriceGuide[]
+	version: number
+	createdAt: string
+	priceGuides: PriceGuide[]
 }
 
 interface PriceGuide {
-  idProduct: number
-  idCategory: number
-  avg?: number
-  low?: number
-  trend?: number
-  avg1?: number
-  avg7?: number
-  avg30?: number
-  "avg-holo"?: number
-  "low-holo"?: number
-  "trend-holo"?: number
-  "avg1-holo"?: number
-  "avg7-holo"?: number
-  "avg30-holo"?: number
+	idProduct: number
+	idCategory: number
+	avg?: number
+	low?: number
+	trend?: number
+	avg1?: number
+	avg7?: number
+	avg30?: number
+	"avg-holo"?: number
+	"low-holo"?: number
+	"trend-holo"?: number
+	"avg1-holo"?: number
+	"avg7-holo"?: number
+	"avg30-holo"?: number
 }
 
 const SUPPORTED_VERSION = 1
@@ -32,6 +34,11 @@ let lastFetch: Date | undefined = undefined
 let dataCache: Map<number, PriceGuide> = new Map()
 
 export async function updateDatas(): Promise<boolean> {
+	// disable queries on secondary elements
+	if (!cluster.isPrimary) {
+		return true
+	}
+
 	// only fetch at max, once an hour
 	if (lastFetch && lastFetch.getTime() > new Date().getTime() - 3600000) {
 		return false
@@ -52,7 +59,12 @@ export async function updateDatas(): Promise<boolean> {
 	return true
 }
 
-export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number }}): Promise<any> {
+export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
+	if (!cluster.isPrimary) {
+		return (await ClusterUtils.sendAndReceive({ type: 'getCardMarketPrice', data: card }, 'getTCGPlayerPrice'))
+			.data
+	}
+
 	if (!dataCache || typeof card.thirdParty?.cardmarket !== 'number') {
 		return null
 	}
@@ -63,6 +75,6 @@ export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: numb
 	return Object.assign({
 		updated: lastUpdate!.toISOString(),
 		unit: 'EUR'
-	}, objectOmit(input,  'idCategory'))
+	}, objectOmit(input, 'idCategory'))
 
 }

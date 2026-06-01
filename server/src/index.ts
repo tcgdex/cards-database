@@ -7,8 +7,9 @@ import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import * as Sentry from "@sentry/node"
-import { updateDatas } from './libs/providers/cardmarket'
-import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import { getCardMarketPrice, updateDatas } from './libs/providers/cardmarket'
+import { getTCGPlayerPrice, updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import { Command } from './libs/threadUtils'
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -37,18 +38,34 @@ if (cluster.isPrimary) {
 
 	cluster.on('online', (worker) => {
 		console.log('Worker', worker.id, 'online')
+
+		// handle sub processes
+		worker.on('message', async (command: Command) => {
+			switch (command.type) {
+				case 'getTCGPlayerPrice': {
+					worker.send({
+						type: 'getTCGPlayerPrice',
+						data: await getTCGPlayerPrice(command.data as any)
+					})
+					break
+				}
+				case 'getCardMarketPrice': {
+					worker.send({
+						type: 'getCardMarketPrice',
+						data: await getCardMarketPrice(command.data as any)
+					})
+					break
+				}
+			}
+		})
 	})
 
 	cluster.on("exit", (worker, code, signal) => {
 		console.log(`Worker ${worker.id} exited with code ${code} and signal ${signal}`);
 		cluster.fork()
 	})
-	console.log('🚀 Server ready at localhost:' + port);
-} else {
 
-	// Current API version
-	const VERSION = 2
-
+	// handle providers from master
 	const fn = () => {
 		void updateDatas()
 			.then(() => console.log('loaded cardmarket datas'))
@@ -61,6 +78,12 @@ if (cluster.isPrimary) {
 	// auto update each hour the datasets
 	fn()
 	setInterval(fn, 86_400_000)
+
+	console.log('🚀 Server ready at localhost:' + port);
+} else {
+
+	// Current API version
+	const VERSION = 2
 
 	// Init Express server
 	const server = express()
