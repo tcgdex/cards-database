@@ -85,6 +85,12 @@ const card: Card = {
 				cardtrader: 274194
 			}
 		},
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 779835,
+			}
+		}
 	],
 
 	illustrator: "Hasuno",

@@ -94,6 +94,15 @@ const card: Card = {
 				cardtrader: 274241
 			}
 		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 751595,
+				tcgplayer: 534419,
+				cardtrader: 274241
+			}
+		}
 	],
 
 	illustrator: "Nelnal",

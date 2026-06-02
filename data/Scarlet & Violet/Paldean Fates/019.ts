@@ -94,6 +94,12 @@ const card: Card = {
 				cardtrader: 274203
 			}
 		},
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 779836,
+			}
+		}
 	],
 
 	illustrator: "Naoyo Kimura",

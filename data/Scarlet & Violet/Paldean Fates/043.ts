@@ -72,6 +72,16 @@ const card: Card = {
 				cardtrader: 274227
 			}
 		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 751580,
+				tcgplayer: 534190,
+				cardtrader: 274227
+			}
+
+		}
 	],
 
 	illustrator: "Kouki Saitou",

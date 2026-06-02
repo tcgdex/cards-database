@@ -45,6 +45,15 @@ const card: Card = {
 				cardtrader: 274261
 			}
 		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 751615,
+				tcgplayer: 534439,
+				cardtrader: 274261
+			}
+		}
 	],
 
 	illustrator: "kantaro",

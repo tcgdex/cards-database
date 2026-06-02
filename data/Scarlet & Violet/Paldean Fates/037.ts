@@ -84,6 +84,15 @@ const card: Card = {
 				cardtrader: 274221
 			}
 		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 751574,
+				tcgplayer: 534183,
+				cardtrader: 274221
+			}
+		}
 	],
 
 	illustrator: "Kagemaru Himeno",
