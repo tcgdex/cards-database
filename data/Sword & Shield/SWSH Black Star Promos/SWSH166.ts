@@ -7,6 +7,18 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 
 	variants: {
 		normal: false,

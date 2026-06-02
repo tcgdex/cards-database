@@ -76,6 +76,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -83,6 +89,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
 	},
 
 	thirdParty: {
