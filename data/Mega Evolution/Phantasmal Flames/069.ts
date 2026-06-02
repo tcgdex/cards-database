@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "akagi",
 	variants: [
 		{
 			type: "normal",
