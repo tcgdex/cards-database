@@ -7,8 +7,8 @@ import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
 import status from './status'
 import * as Sentry from "@sentry/node"
-import { getCardMarketPrice, updateDatas } from './libs/providers/cardmarket'
-import { getTCGPlayerPrice, updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import { fillCardMarketDatas, getCardMarketPrice, updateDatas } from './libs/providers/cardmarket'
+import { fillTCGPlayerCache, getTCGPlayerPrice, updateTCGPlayerDatas } from './libs/providers/tcgplayer'
 import { Command } from './libs/threadUtils'
 
 // Glitchtip will only start if the DSN is set :D
@@ -21,21 +21,6 @@ const port = process.env.PORT ? Number.parseInt(process.env.PORT) : 3000
 
 if (cluster.isPrimary) {
 	console.log(`Primary ${process.pid} is running`)
-
-	// Load providers one time before loading http server
-	const fn = async () => {
-		await updateDatas()
-			.then(() => console.log('loaded cardmarket datas'))
-			.catch((err) => console.error('error loading cardmarket', err))
-		await updateTCGPlayerDatas()
-			.then(() => console.log('loaded TCGPlayer datas'))
-			.catch((err) => console.error('error loading TCGPlayer', err))
-	}
-
-	// auto update each hour the datasets
-	// @ts-expect-error f*ck off
-	await fn()
-	setInterval(fn, 86_400_000)
 
 	// get maximum number of workers available for the software
 	let maxWorkers = availableParallelism()
@@ -56,6 +41,7 @@ if (cluster.isPrimary) {
 
 		// handle sub processes
 		worker.on('message', async (command: Command) => {
+			console.log('worker sent', command)
 			switch (command.type) {
 				case 'getTCGPlayerPrice': {
 					worker.send({
@@ -80,8 +66,53 @@ if (cluster.isPrimary) {
 		cluster.fork()
 	})
 
+	// Load providers one time before loading http server
+	const fn = async () => {
+		await updateDatas()
+			.then(() => console.log('loaded cardmarket datas'))
+			.catch((err) => console.error('error loading cardmarket', err))
+		await updateTCGPlayerDatas()
+			.then(() => console.log('loaded TCGPlayer datas'))
+			.catch((err) => console.error('error loading TCGPlayer', err))
+	}
+
+	// auto update each hour the datasets
+	// @ts-expect-error f*ck off
+	await fn()
+	setInterval(fn, 86_400_000)
+
 	console.log('🚀 Server ready at localhost:' + port);
 } else {
+
+	// load cache before responsing to requests
+	await new Promise<void>((res) => {
+		let oneDone = false
+		process.on('message', (command: Command) => {
+			console.log('master sent', command)
+			switch (command.type) {
+				case 'tcgplayer-update': {
+					fillTCGPlayerCache(command.data as any)
+					if (oneDone) {
+						res()
+					} else {
+						oneDone = true
+					}
+					break
+				}
+				case 'cardmarket-update': {
+					fillCardMarketDatas(command.data as any)
+					if (oneDone) {
+						res()
+					} else {
+						oneDone = true
+					}
+					break
+				}
+			}
+		})
+
+
+	})
 
 	// Current API version
 	const VERSION = 2

@@ -10,6 +10,11 @@ import ClusterUtils from '../../threadUtils'
 let cache: Record<number, Record<string, Result> & { updated: string }> = {}
 let lastFetch: Date | undefined = undefined
 
+export function fillTCGPlayerCache(data: typeof cache) {
+	lastFetch = new Date()
+	cache = data
+}
+
 export async function updateTCGPlayerDatas(): Promise<boolean> {
 	// disable queries on secondary elements
 	if (!cluster.isPrimary) {
@@ -50,6 +55,10 @@ export async function updateTCGPlayerDatas(): Promise<boolean> {
 	}
 
 	lastFetch = new Date()
+	ClusterUtils.broadcard({
+		type: 'tcgplayer-update',
+		data: cache
+	})
 
 	return true
 }
@@ -61,17 +70,7 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	reverse?: Omit<Result, 'subTypeName'>
 	holo?: Omit<Result, 'subTypeName'>
 } | null> {
-
-	if (typeof card.thirdParty?.tcgplayer !== 'number') {
-		return null
-	}
-
-	if (!cluster.isPrimary) {
-		return (await ClusterUtils.sendAndReceive({ type: 'getTCGPlayerPrice', data: card }, `getTCGPlayerPrice-${card.thirdParty.tcgplayer}`))
-			.data as any
-	}
-
-	if (!lastFetch) {
+	if (!lastFetch || typeof card.thirdParty?.tcgplayer !== 'number') {
 		return null
 	}
 	const variants = cache[card.thirdParty.tcgplayer!]

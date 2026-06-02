@@ -31,7 +31,13 @@ const SUPPORTED_VERSION = 1
 
 let lastUpdate: Date | undefined = undefined
 let lastFetch: Date | undefined = undefined
-let dataCache: Map<number, PriceGuide> = new Map()
+let dataCache: Array<PriceGuide> = []
+
+export function fillCardMarketDatas(data: typeof dataCache) {
+	lastFetch = new Date()
+	lastUpdate = new Date()
+	dataCache = data
+}
 
 export async function updateDatas(): Promise<boolean> {
 	// disable queries on secondary elements
@@ -52,27 +58,32 @@ export async function updateDatas(): Promise<boolean> {
 		return false
 	}
 
-	dataCache = new Map(data.priceGuides.map((pg) => [pg.idProduct, pg]))
+	const tmp: Array<any> = []
+	for (const it of data.priceGuides) {
+		tmp[it.idProduct] = it
+	}
+
+	dataCache = tmp
 	lastUpdate = new Date(data.createdAt)
 	lastFetch = new Date()
+	ClusterUtils.broadcard({
+		type: 'cardmarket-update',
+		data: dataCache
+	})
 
 	return true
 }
 
 export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
-	if (typeof card.thirdParty?.cardmarket !== 'number') {
+	const id = card.thirdParty?.cardmarket
+	if (typeof id !== 'number') {
 		return null
-	}
-
-	if (!cluster.isPrimary) {
-		return (await ClusterUtils.sendAndReceive({ type: 'getCardMarketPrice', data: card }, `getCardMarketPrice-${card.thirdParty.cardmarket}`))
-			.data
 	}
 
 	if (!dataCache) {
 		return null
 	}
-	const input = dataCache.get(card.thirdParty!.cardmarket)
+	const input = dataCache[id]
 	if (!input) {
 		return null
 	}
