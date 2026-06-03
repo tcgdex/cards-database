@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit.",
 		fr: "Son corps est fait de glace datant de l'ère glaciaire. Il contrôle un air gelé de -200 °C."
 	},
 

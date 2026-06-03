@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+	},
+
 	thirdParty: {
 		cardmarket: 273596,
 		tcgplayer: 95963

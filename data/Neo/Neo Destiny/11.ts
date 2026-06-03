@@ -85,6 +85,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its power is such that not even mountains can stand in its way.",

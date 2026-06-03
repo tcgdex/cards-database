@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With planetary development software installed, it became capable of working in space.",
+	},
+
 	thirdParty: {
 		cardmarket: 277951,
 		tcgplayer: 88326

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its four muscled arms slam foes with powerful punches and chops at blinding speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 281070,
 		tcgplayer: 86970

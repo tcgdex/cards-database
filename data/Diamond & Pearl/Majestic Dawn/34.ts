@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has evolved to be suitable for aquatic life. It can invisibly melt away into water.",
+	},
+
 	thirdParty: {
 		cardmarket: 278083,
 		tcgplayer: 90284

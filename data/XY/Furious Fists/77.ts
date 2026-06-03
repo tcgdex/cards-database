@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+	},
+
 	thirdParty: {
 		cardmarket: 281741,
 		tcgplayer: 92257

@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
 		fr: "Il fleurit lorsque le soleil est au beau fixe. Il cherche à prendre sa revanche sur une vie de bourgeon."
 	},
 

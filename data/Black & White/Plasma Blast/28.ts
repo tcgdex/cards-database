@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+	},
+
 	thirdParty: {
 		cardmarket: 281049,
 		tcgplayer: 84110

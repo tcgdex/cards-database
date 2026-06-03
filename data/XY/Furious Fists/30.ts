@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 281694,
 		tcgplayer: 92205

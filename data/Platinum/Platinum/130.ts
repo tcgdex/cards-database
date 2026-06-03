@@ -73,6 +73,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It tears and shreds prey with its wickedly sharp scythes. It very rarely spreads its wings to fly.",
+	},
+
 	thirdParty: {
 		cardmarket: 278551,
 		tcgplayer: 89002

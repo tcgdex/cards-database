@@ -61,6 +61,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",

@@ -63,6 +63,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "OKACHEKE",
 	variants: [
 		{
 			type: "normal",

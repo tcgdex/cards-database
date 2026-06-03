@@ -67,6 +67,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+	},
+
 	thirdParty: {
 		cardmarket: 278901,
 		tcgplayer: 88605

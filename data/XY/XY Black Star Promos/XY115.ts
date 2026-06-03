@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude and the message it delivers.",
+	},
+
 	thirdParty: {
 		cardmarket: 291578
 	}

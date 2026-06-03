@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.",
+	},
+
 	thirdParty: {
 		cardmarket: 280037,
 		tcgplayer: 85429

@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
+	},
+
 	thirdParty: {
 		cardmarket: 273607,
 		tcgplayer: 95974

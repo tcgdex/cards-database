@@ -62,6 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
+	},
 
 	variants: [
 		{

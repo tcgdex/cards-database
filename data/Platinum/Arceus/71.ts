@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+	},
+
 	thirdParty: {
 		cardmarket: 278943,
 		tcgplayer: 88094

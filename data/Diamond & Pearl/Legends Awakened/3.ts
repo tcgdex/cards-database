@@ -77,6 +77,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
 		fr: "Momartik gèle ses ennemis grâce à son souffle à -50°C. Ça ne se voit pas, mais son corps est creux."
 	},
 

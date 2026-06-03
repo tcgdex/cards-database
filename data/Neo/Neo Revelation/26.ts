@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",

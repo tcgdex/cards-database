@@ -62,6 +62,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Still only a hatchling, it uses poison to chase off its enemies when threatened.",

@@ -70,6 +70,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It uses its highly developed psychic powers to defeat its enemies before they even have time to think.",

@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's OK. No one will take away your flower. You look cute even when you're angry.",
+	},
+
 	thirdParty: {
 		cardmarket: 288526
 	}

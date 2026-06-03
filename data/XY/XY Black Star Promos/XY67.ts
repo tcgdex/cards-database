@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+	},
+
 	thirdParty: {
 		cardmarket: 553364
 	}

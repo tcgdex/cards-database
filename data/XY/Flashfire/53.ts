@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+	},
+
 	thirdParty: {
 		cardmarket: 281536,
 		tcgplayer: 91190

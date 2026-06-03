@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+	},
+
 	thirdParty: {
 		cardmarket: 280594,
 		tcgplayer: 89006

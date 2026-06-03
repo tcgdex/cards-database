@@ -58,6 +58,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",

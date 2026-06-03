@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+	},
+
 	thirdParty: {
 		cardmarket: 280338,
 		tcgplayer: 89147

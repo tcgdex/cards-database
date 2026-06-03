@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
+	},
+
 	thirdParty: {
 		cardmarket: 280953,
 		tcgplayer: 84732

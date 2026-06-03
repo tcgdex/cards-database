@@ -15,6 +15,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 		fr: "Votre Pokémon actif n'est plus Endormi, Confus, Paralysé ou Empoisonné.",
 		de: "Dein aktives Pokémon ist nicht mehr schlafend, verwirrt, gelähmt oder vergiftet.",
 		it: "Il tuo Pokémon Attivo non è più Addormentato, Confuso, Paralizzato o Avvelenato."

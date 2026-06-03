@@ -58,6 +58,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice.",
+	},
 
 	thirdParty: {
 		cardmarket: 274838,

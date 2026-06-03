@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It creates its flames by swallowing air into a special pouch within its body, then heating it to over 3000 degrees.",

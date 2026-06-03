@@ -71,6 +71,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
 		fr: "On dit qu'il a fait monter les eaux en causant des pluies diluviennes. Il somnolait dans une fosse marine."
 	},
 

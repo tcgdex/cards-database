@@ -77,6 +77,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle.",

@@ -30,6 +30,7 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
+	illustrator: "MARINA Chikazawa",
 	variants: [
 		{
 			type: "normal",

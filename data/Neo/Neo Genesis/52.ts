@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",

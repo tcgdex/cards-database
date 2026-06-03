@@ -74,6 +74,12 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -81,6 +87,10 @@ const card: Card = {
 		"normal": false,
 		"reverse": true,
 		"holo": true
+	},
+
+	description: {
+		en: "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
 	},
 
 	thirdParty: {

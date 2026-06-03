@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+	},
+
 	thirdParty: {
 		cardmarket: 278493,
 		tcgplayer: 84824

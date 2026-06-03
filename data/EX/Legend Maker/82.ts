@@ -15,6 +15,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
+		en: "React Energy provides Colorless Energy.",
 		de: "Reaktions-Energie liefert  Energie.",
 		fr: "Énergie réaction fournit une Énergie Incolore.",
 	},

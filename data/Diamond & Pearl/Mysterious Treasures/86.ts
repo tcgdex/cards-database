@@ -63,8 +63,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
 		fr: "Quand il bascule sa tête d'avant en arrière, ses antennes se heurtent dans un son de xylophone."
 	},
 

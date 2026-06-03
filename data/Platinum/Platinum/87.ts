@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers.",
+	},
+
 	thirdParty: {
 		cardmarket: 278508,
 		tcgplayer: 88439

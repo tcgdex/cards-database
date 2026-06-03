@@ -59,11 +59,17 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
 
 
 
 
+
+
+	description: {
+		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+	},
 }
 
 export default card

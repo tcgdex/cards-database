@@ -83,6 +83,10 @@ const card: Card = {
 		de: "Flossenfossil"
 	},
 
+	description: {
+		en: "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+	},
+
 	thirdParty: {
 		cardmarket: 281689,
 		tcgplayer: 92200

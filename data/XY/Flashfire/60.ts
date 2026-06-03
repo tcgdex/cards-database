@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+	},
+
 	thirdParty: {
 		cardmarket: 281543,
 		tcgplayer: 91197

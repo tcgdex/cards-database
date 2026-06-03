@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+	},
+
 	thirdParty: {
 		cardmarket: 278064,
 		tcgplayer: 83469

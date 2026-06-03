@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It can loose 100,000-volt bursts of electricity instantly downing foes several times its size.",
+	},
+
 	thirdParty: {
 		cardmarket: 286295,
 		tcgplayer: 107168

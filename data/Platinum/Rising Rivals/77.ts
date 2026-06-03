@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+	},
+
 	thirdParty: {
 		cardmarket: 278651,
 		tcgplayer: 89033

@@ -92,6 +92,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
 		fr: "Il peut fondre la roche de son souffle brûlant. Il est souvent la cause de nombreux incendies.",
 		it: "Sputa fiamme così intense da sciogliere le rocce. Senza volerlo, a volte causa incendi boschivi. LIV 76 N.6"
 	},

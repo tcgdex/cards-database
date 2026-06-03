@@ -79,6 +79,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+	},
+
 	thirdParty: {
 		cardmarket: 278096,
 		tcgplayer: 89515

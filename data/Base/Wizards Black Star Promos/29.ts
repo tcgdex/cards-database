@@ -49,6 +49,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning.",

@@ -70,6 +70,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",

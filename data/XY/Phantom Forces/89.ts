@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+	},
+
 	thirdParty: {
 		cardmarket: 281895,
 		tcgplayer: 94657

@@ -62,6 +62,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
 		fr: "Sa fourrure étincelle en cas de danger. Il profite du fait que l'ennemi est aveuglé pour s'enfuir."
 	},
 

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+	},
+
 	thirdParty: {
 		cardmarket: 273590,
 		tcgplayer: 95958

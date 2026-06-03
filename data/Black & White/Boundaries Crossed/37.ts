@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+	},
+
 	thirdParty: {
 		cardmarket: 280624,
 		tcgplayer: 83686

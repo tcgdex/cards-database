@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "My precious friend who is always with me. I have so many things I want to tell you.",
+	},
+
 	thirdParty: {
 		cardmarket: 288513
 	}

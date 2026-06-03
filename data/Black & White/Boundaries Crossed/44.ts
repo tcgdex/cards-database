@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+	},
+
 	thirdParty: {
 		cardmarket: 280631,
 		tcgplayer: 85565

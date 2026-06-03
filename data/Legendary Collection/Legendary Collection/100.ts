@@ -12,6 +12,10 @@ const card: Card = {
 	set: Set,
 	energyType: "Special",
 
+	effect: {
+		en: "If you play this card from your hand, the Pokémon you attach it to is no longer affected by a Special Condition. Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)",
+	},
+
 	thirdParty: {
 		cardmarket: 274865,
 		tcgplayer: 85585

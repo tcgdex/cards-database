@@ -58,6 +58,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+	},
+
 	thirdParty: {
 		cardmarket: 278820
 	},

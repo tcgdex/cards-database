@@ -65,6 +65,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+	},
 
 	variants: [
 		{

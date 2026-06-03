@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+	},
+
 	thirdParty: {
 		cardmarket: 280408,
 		tcgplayer: 84178

@@ -81,8 +81,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
 		fr: "La découverte d'un de ces Pokémon sur un site de fouilles après 2 000 ans de sommeil a fait sensation."
 	},
 

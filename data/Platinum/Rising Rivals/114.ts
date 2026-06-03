@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "One summer, a group of Pikachu was found riding the waves at the local beach.",
+	},
+
 	thirdParty: {
 		cardmarket: 278688,
 		tcgplayer: 89644

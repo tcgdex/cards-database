@@ -64,6 +64,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Many famous songs have been inspired by the melodies that Meloetta plays.",
+	},
 }
 
 export default card
