@@ -45,6 +45,7 @@ if (cluster.isPrimary) {
 			switch (command.type) {
 				case 'getTCGPlayerPrice': {
 					worker.send({
+						// @ts-expect-error f*ck off
 						type: `getTCGPlayerPrice-${command.data?.thirdParty.tcgplayer}`,
 						data: await getTCGPlayerPrice(command.data as any)
 					})
@@ -52,6 +53,7 @@ if (cluster.isPrimary) {
 				}
 				case 'getCardMarketPrice': {
 					worker.send({
+						// @ts-expect-error f*ck off
 						type: `getCardMarketPrice-${command.data?.thirdParty.cardmarket}`,
 						data: await getCardMarketPrice(command.data as any)
 					})
@@ -88,6 +90,7 @@ if (cluster.isPrimary) {
 } else {
 
 	// load cache before responsing to requests
+	// @ts-expect-error f*ck off
 	await new Promise<void>((res) => {
 		let oneDone = false
 		process.on('message', (command: Command) => {

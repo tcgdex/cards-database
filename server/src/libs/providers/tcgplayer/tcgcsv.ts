@@ -64,6 +64,7 @@ export default class TCGCSV implements TCGPlayerAPI {
 
 		if (!this.lastUpdated || (now - this.lastUpdatedCheck) > ONE_HOUR) {
 			const date = await fetch('https://tcgcsv.com/last-updated.txt', {
+				// @ts-expect-error f*ck off
 				headers: { 'User-Agent': TCGCSV_USER_AGENT }
 			}).then((it) => it.text())
 			this.lastUpdatedCheck = now
@@ -82,6 +83,7 @@ export default class TCGCSV implements TCGPlayerAPI {
 		// fetch from remote
 		// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 		const json = await fetch(`https://tcgcsv.com${path}`, {
+			// @ts-expect-error f*ck off
 			headers: { 'User-Agent': TCGCSV_USER_AGENT }
 		})
 			.then(async (res) => {
