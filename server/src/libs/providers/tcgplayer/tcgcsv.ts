@@ -1,7 +1,8 @@
 /* eslint-disable arrow-body-style */
 import type { TCGPlayerAPI, TCGPlayerResponse } from './interface'
 
-const TCGCSV_USER_AGENT = 'tcgdex-server/' + process.env.USER_AGENT ?? process.env.TCGCSV_USER_AGENT!
+const TMP_USER_AGENT = process.env.USER_AGENT ?? process.env.TCGCSV_USER_AGENT!
+const TCGCSV_USER_AGENT = TMP_USER_AGENT ? 'tcgdex-server/' + TMP_USER_AGENT : undefined
 const POKEMON_GROUP = 3
 const ONE_HOUR = 3_600_000
 
