@@ -66,20 +66,23 @@ if (cluster.isPrimary) {
 		cluster.fork()
 	})
 
-	// Load providers one time before loading http server
-	const fn = async () => {
-		await updateDatas()
-			.then(() => console.log('loaded cardmarket datas'))
-			.catch((err) => console.error('error loading cardmarket', err))
-		await updateTCGPlayerDatas()
-			.then(() => console.log('loaded TCGPlayer datas'))
-			.catch((err) => console.error('error loading TCGPlayer', err))
+	if (!('CI' in process.env)) {
+		// Load providers one time before loading http server
+		const fn = async () => {
+			await updateDatas()
+				.then(() => console.log('loaded cardmarket datas'))
+				.catch((err) => console.error('error loading cardmarket', err))
+			await updateTCGPlayerDatas()
+				.then(() => console.log('loaded TCGPlayer datas'))
+				.catch((err) => console.error('error loading TCGPlayer', err))
+		}
+
+		// auto update each hour the datasets
+		// @ts-expect-error f*ck off
+		await fn()
+		setInterval(fn, 86_400_000)
 	}
 
-	// auto update each hour the datasets
-	// @ts-expect-error f*ck off
-	await fn()
-	setInterval(fn, 86_400_000)
 
 	console.log('🚀 Server ready at localhost:' + port);
 } else {
