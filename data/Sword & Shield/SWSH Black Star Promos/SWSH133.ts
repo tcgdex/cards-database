@@ -45,6 +45,12 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,

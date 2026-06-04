@@ -63,6 +63,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Bun Toujo",
 	variants: [
 		{
 			type: "holo",

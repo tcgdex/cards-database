@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -51,6 +57,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "Night after night, they sneak into people's homes seeking food. A massive outbreak of them has become an issue of public concern.",
 	},
 
 	thirdParty: {
