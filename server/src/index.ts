@@ -89,36 +89,36 @@ if (cluster.isPrimary) {
 	console.log('🚀 Server ready at localhost:' + port);
 } else {
 
-	// load cache before responsing to requests
-	// @ts-expect-error f*ck off
-	await new Promise<void>((res) => {
-		let oneDone = false
-		process.on('message', (command: Command) => {
-			console.log('master sent', command)
-			switch (command.type) {
-				case 'tcgplayer-update': {
-					fillTCGPlayerCache(command.data as any)
-					if (oneDone) {
-						res()
-					} else {
-						oneDone = true
+	if (!('CI' in process.env)) {
+		// load cache before responsing to requests
+		// @ts-expect-error f*ck off
+		await new Promise<void>((res) => {
+			let oneDone = false
+			process.on('message', (command: Command) => {
+				console.log('master sent', command)
+				switch (command.type) {
+					case 'tcgplayer-update': {
+						fillTCGPlayerCache(command.data as any)
+						if (oneDone) {
+							res()
+						} else {
+							oneDone = true
+						}
+						break
 					}
-					break
-				}
-				case 'cardmarket-update': {
-					fillCardMarketDatas(command.data as any)
-					if (oneDone) {
-						res()
-					} else {
-						oneDone = true
+					case 'cardmarket-update': {
+						fillCardMarketDatas(command.data as any)
+						if (oneDone) {
+							res()
+						} else {
+							oneDone = true
+						}
+						break
 					}
-					break
 				}
-			}
+			})
 		})
-
-
-	})
+	}
 
 	// Current API version
 	const VERSION = 2
