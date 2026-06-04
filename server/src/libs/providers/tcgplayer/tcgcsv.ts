@@ -1,7 +1,8 @@
 /* eslint-disable arrow-body-style */
 import type { TCGPlayerAPI, TCGPlayerResponse } from './interface'
 
-const TCGCSV_USER_AGENT = 'tcgdex-server/' + process.env.USER_AGENT ?? process.env.TCGCSV_USER_AGENT!
+const TMP_USER_AGENT = process.env.USER_AGENT ?? process.env.TCGCSV_USER_AGENT!
+const TCGCSV_USER_AGENT = TMP_USER_AGENT ? 'tcgdex-server/' + TMP_USER_AGENT : undefined
 const POKEMON_GROUP = 3
 const ONE_HOUR = 3_600_000
 
@@ -63,6 +64,7 @@ export default class TCGCSV implements TCGPlayerAPI {
 
 		if (!this.lastUpdated || (now - this.lastUpdatedCheck) > ONE_HOUR) {
 			const date = await fetch('https://tcgcsv.com/last-updated.txt', {
+				// @ts-expect-error f*ck off
 				headers: { 'User-Agent': TCGCSV_USER_AGENT }
 			}).then((it) => it.text())
 			this.lastUpdatedCheck = now
@@ -81,6 +83,7 @@ export default class TCGCSV implements TCGPlayerAPI {
 		// fetch from remote
 		// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 		const json = await fetch(`https://tcgcsv.com${path}`, {
+			// @ts-expect-error f*ck off
 			headers: { 'User-Agent': TCGCSV_USER_AGENT }
 		})
 			.then(async (res) => {
