@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "The temperature inside its body increases when it experiences strong emotions. It rolls around frantically while spewing flames.",
+	},
 
 	variants: [
 		{

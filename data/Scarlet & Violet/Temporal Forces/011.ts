@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+	},
 
 	variants: [
 		{

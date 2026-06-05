@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+	},
 
 	variants: [
 		{

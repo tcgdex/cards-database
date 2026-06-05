@@ -55,8 +55,24 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+	},
 
 	variants: [
 		{

@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "No records exist of this Pokémon being caught. Data is lacking, but the Pokémon's traits match up with a creature shown in an expedition journal.",
+	},
 
 	variants: [
 		{

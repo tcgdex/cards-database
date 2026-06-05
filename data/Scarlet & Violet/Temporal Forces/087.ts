@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+	},
 
 	variants: [
 		{

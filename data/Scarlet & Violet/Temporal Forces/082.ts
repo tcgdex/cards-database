@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
+	},
 
 	variants: [
 		{
