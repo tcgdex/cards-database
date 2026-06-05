@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Scales shed by this Pokémon have such a splendorous gleam to them that they've been given to royalty as gifts.",
+	},
 
 	variants: [
 		{

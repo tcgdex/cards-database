@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+	},
 
 	variants: [
 		{

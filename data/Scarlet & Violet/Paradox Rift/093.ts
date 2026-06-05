@@ -64,8 +64,18 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+	},
 
 	variants: [
 		{

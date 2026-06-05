@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+	},
 
 	variants: [
 		{

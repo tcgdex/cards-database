@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
+	},
 
 	variants: [
 		{

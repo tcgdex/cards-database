@@ -42,8 +42,24 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "The spirit of a person from a bygone age became this Pokémon. It rambles through ruins, searching for someone who knows its face.",
+	},
 
 	variants: [
 		{

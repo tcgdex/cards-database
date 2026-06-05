@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
+	},
 
 	variants: [
 		{

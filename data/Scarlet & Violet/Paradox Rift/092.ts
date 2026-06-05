@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+	},
 
 	variants: [
 		{

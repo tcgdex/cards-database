@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+	},
 
 	variants: [
 		{
