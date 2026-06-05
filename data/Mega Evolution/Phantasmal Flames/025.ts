@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
+	illustrator: "Takumi Wada",
 	variants: [
 		{
 			type: "normal",

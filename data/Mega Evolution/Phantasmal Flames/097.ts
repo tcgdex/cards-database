@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Taira Akitsu",
 	variants: [
 		{
 			type: "holo",
