@@ -35,8 +35,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It can live in impure water, where it doesn't need to compete with other water Pokémon for food, so its numbers have steadily increased.",
+	},
 
 	variants: [
 		{

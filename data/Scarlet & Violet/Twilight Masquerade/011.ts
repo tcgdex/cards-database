@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "The younger they are, the more they smell like fresh grass. With age, their fragrance takes on the odor of fallen leaves.",
+	},
 
 	variants: [
 		{

@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Glimmora's petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.",
+	},
 
 	variants: [
 		{

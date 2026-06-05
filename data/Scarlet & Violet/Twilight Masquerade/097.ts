@@ -57,8 +57,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "No matter how high a place it falls from, this Pokémon can save itself by rolling into a ball and bouncing.",
+	},
 
 	variants: [
 		{

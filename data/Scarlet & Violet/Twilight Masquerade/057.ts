@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+	},
 
 	variants: [
 		{

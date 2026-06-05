@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It is said that a home visited by a Snorunt will prosper. It can withstand cold of −150 degrees Fahrenheit.",
+	},
 
 	variants: [
 		{

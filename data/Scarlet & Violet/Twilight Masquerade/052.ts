@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+	},
 
 	variants: [
 		{
