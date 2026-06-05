@@ -59,6 +59,26 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'holo',
+			languages: ['en'],
+			thirdParty: {
+				tcgplayer: 543948
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['pokemon-center'],
+			languages: ['en'],
+			thirdParty: {
+				tcgplayer: 543949
+			}
+		},
+	],
 	illustrator: "Tonji Matsuno"
 }
 
