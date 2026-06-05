@@ -63,8 +63,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
+	},
 
 	variants: [
 		{

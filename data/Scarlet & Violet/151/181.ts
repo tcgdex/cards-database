@@ -68,6 +68,10 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
+	description: {
+		en: "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+	},
+
 	variants: [
 		{
 			type: 'holo',

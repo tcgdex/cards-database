@@ -72,8 +72,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
+	},
 
 	variants: [
 		{

@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+	},
 
 	variants: [
 		{

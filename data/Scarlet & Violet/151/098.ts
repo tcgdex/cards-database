@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+	},
 
 	variants: [
 		{

@@ -57,8 +57,18 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
+	},
 
 	variants: [
 		{

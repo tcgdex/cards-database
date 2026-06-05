@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "If the group is threatened, these Pokémon will band together to assault enemies with a chorus of ultrasonic waves.",
+	},
 
 	variants: [
 		{

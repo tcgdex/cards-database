@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its dorsal and pectoral fins are strongly developed like muscles. It can swim at a speed of five knots.",
+	},
 
 	variants: [
 		{

@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "If you've been accepted by Ponyta, its burning mane is mysteriously no longer hot to the touch.",
+	},
 
 	variants: [
 		{

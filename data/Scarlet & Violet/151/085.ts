@@ -74,8 +74,24 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+	},
 
 	variants: [
 		{

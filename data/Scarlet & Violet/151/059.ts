@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+	},
 
 	variants: [
 		{
