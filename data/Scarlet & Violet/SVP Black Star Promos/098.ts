@@ -2,6 +2,16 @@ import { Card } from "../../../interfaces"
 import Set from "../SVP Black Star Promos"
 
 const card: Card = {
+	variants: [
+		{
+			type: 'normal'
+		},
+		{
+			type: 'normal',
+			stamp: ['pokemon-center']
+		},
+	],
+
 	dexId: [995],
 	set: Set,
 
