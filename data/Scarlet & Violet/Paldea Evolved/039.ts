@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "KEIICHIRO ITO",
+
+	description: {
+		en: "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+	},
 
 	thirdParty: {
 		cardmarket: 715512

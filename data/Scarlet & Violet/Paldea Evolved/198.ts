@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -53,6 +59,10 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+
+	description: {
+		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 715673

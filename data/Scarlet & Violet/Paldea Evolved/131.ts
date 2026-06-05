@@ -66,6 +66,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -74,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
+
+	description: {
+		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+	},
 
 	thirdParty: {
 		cardmarket: 715606

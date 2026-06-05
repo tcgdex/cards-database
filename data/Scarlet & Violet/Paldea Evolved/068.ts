@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -65,6 +71,10 @@ const card: Card = {
 	},
 
 	illustrator: "kurumitsu",
+
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+	},
 
 	thirdParty: {
 		cardmarket: 715543

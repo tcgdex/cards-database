@@ -57,6 +57,12 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -65,6 +71,10 @@ const card: Card = {
 	},
 
 	illustrator: "kurumitsu",
+
+	description: {
+		en: "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
+	},
 
 	thirdParty: {
 		cardmarket: 715594

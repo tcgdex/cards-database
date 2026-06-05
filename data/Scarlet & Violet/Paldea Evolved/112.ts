@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kurata So",
+
+	description: {
+		en: "It grows stronger by enduring harsh training. It is a gutsy Pokémon that can withstand any attack.",
+	},
 
 	thirdParty: {
 		cardmarket: 715587

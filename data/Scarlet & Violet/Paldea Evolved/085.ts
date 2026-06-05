@@ -55,6 +55,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -63,6 +75,10 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+
+	description: {
+		en: "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+	},
 
 	thirdParty: {
 		cardmarket: 715560

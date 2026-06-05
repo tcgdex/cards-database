@@ -74,6 +74,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -82,6 +94,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shiburingaru",
+
+	description: {
+		en: "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful.",
+	},
 
 	thirdParty: {
 		cardmarket: 715567

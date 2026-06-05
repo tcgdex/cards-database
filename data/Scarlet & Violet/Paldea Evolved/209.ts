@@ -56,6 +56,12 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -65,6 +71,10 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
+
+	description: {
+		en: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+	},
 
 	thirdParty: {
 		cardmarket: 715684

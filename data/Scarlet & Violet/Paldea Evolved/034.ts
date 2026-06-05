@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+
+	description: {
+		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+	},
 
 	thirdParty: {
 		cardmarket: 715507

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -52,6 +58,10 @@ const card: Card = {
 	},
 
 	illustrator: "Haru Akasaka",
+
+	description: {
+		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+	},
 
 	thirdParty: {
 		cardmarket: 715585

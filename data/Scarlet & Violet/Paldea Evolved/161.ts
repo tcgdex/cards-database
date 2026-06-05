@@ -65,6 +65,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+
+	description: {
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+	},
 
 	thirdParty: {
 		cardmarket: 715636

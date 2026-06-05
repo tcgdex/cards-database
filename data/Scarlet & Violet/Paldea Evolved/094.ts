@@ -57,6 +57,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -65,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "Toshinao Aoki",
+
+	description: {
+		en: "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
+	},
 
 	thirdParty: {
 		cardmarket: 715569

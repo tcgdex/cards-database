@@ -42,6 +42,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -50,6 +56,10 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+
+	description: {
+		en: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+	},
 
 	thirdParty: {
 		cardmarket: 715599

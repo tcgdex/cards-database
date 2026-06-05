@@ -64,6 +64,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +84,10 @@ const card: Card = {
 	},
 
 	illustrator: "Sekio",
+
+	description: {
+		en: "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
+	},
 
 	thirdParty: {
 		cardmarket: 715622

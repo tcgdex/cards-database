@@ -35,6 +35,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -43,6 +55,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+	},
 
 	thirdParty: {
 		cardmarket: 715633

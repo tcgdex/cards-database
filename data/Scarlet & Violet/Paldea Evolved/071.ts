@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -82,6 +88,10 @@ const card: Card = {
 	},
 
 	illustrator: "aoki",
+
+	description: {
+		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+	},
 
 	thirdParty: {
 		cardmarket: 715546

@@ -72,6 +72,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -80,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+
+	description: {
+		en: "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+	},
 
 	thirdParty: {
 		cardmarket: 715601

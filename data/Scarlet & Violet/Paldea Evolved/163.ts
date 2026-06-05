@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -52,6 +64,10 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
+
+	description: {
+		en: "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
+	},
 
 	thirdParty: {
 		cardmarket: 715638

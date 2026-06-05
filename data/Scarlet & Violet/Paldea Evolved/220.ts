@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -64,6 +70,10 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
+
+	description: {
+		en: "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
+	},
 
 	thirdParty: {
 		cardmarket: 715695

@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -82,6 +88,10 @@ const card: Card = {
 	},
 
 	illustrator: "hncl",
+
+	description: {
+		en: "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
+	},
 
 	thirdParty: {
 		cardmarket: 715610

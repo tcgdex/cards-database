@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,6 +85,10 @@ const card: Card = {
 	},
 
 	illustrator: "Atsushi Furusawa",
+
+	description: {
+		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+	},
 
 	thirdParty: {
 		cardmarket: 715563

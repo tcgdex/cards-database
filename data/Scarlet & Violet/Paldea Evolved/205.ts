@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -66,6 +72,10 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+
+	description: {
+		en: "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
+	},
 
 	thirdParty: {
 		cardmarket: 715680

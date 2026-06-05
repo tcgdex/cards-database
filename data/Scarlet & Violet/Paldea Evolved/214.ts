@@ -48,6 +48,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -57,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
+
+	description: {
+		en: "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
+	},
 
 	thirdParty: {
 		cardmarket: 715689

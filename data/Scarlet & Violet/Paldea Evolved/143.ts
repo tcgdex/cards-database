@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+
+	description: {
+		en: "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+	},
 
 	thirdParty: {
 		cardmarket: 715618

@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "ryoma uratsuka",
+
+	description: {
+		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+	},
 
 	thirdParty: {
 		cardmarket: 715540

@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
+
+	description: {
+		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+	},
 
 	thirdParty: {
 		cardmarket: 715541

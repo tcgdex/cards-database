@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -74,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "SIE NANAHARA",
+
+	description: {
+		en: "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
+	},
 
 	thirdParty: {
 		cardmarket: 715688

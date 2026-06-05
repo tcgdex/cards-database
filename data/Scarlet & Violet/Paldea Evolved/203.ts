@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -53,6 +59,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
+
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+	},
 
 	thirdParty: {
 		cardmarket: 715678

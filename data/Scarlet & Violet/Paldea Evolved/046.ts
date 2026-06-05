@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "miki kudo",
+
+	description: {
+		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+	},
 
 	thirdParty: {
 		cardmarket: 715520

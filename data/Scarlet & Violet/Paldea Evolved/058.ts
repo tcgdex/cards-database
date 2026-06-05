@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
+
+	description: {
+		en: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+	},
 
 	thirdParty: {
 		cardmarket: 715532

@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +78,10 @@ const card: Card = {
 	},
 
 	illustrator: "ryoma uratsuka",
+
+	description: {
+		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love.",
+	},
 
 	thirdParty: {
 		cardmarket: 715521

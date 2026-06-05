@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,6 +85,10 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
+
+	description: {
+		en: "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 715640

@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -53,6 +65,10 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+
+	description: {
+		en: "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 715700

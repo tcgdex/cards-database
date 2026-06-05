@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -53,6 +59,10 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+
+	description: {
+		en: "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+	},
 
 	thirdParty: {
 		cardmarket: 715681

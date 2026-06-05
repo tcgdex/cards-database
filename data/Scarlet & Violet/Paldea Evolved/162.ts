@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
@@ -82,6 +88,10 @@ const card: Card = {
 	},
 
 	illustrator: "Yuya Oka",
+
+	description: {
+		en: "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.",
+	},
 
 	thirdParty: {
 		cardmarket: 715637

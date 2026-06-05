@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 	},
 
 	illustrator: "kodama",
+
+	description: {
+		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+	},
 
 	thirdParty: {
 		cardmarket: 715551

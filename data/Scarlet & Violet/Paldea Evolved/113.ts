@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
+
+	description: {
+		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap.",
+	},
 
 	thirdParty: {
 		cardmarket: 715588

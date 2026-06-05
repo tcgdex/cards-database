@@ -74,6 +74,18 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -82,6 +94,10 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+
+	description: {
+		en: "It has top-notch flying capabilities. It flies around easily, even while carrying prey that weighs more than 220 lbs.",
+	},
 
 	thirdParty: {
 		cardmarket: 715503

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -52,6 +58,10 @@ const card: Card = {
 	},
 
 	illustrator: "Yoriyuki Ikegami",
+
+	description: {
+		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+	},
 
 	thirdParty: {
 		cardmarket: 715480
