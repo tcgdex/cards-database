@@ -45,6 +45,7 @@ if (cluster.isPrimary) {
 			switch (command.type) {
 				case 'getTCGPlayerPrice': {
 					worker.send({
+						// @ts-expect-error f*ck off
 						type: `getTCGPlayerPrice-${command.data?.thirdParty.tcgplayer}`,
 						data: await getTCGPlayerPrice(command.data as any)
 					})
@@ -52,6 +53,7 @@ if (cluster.isPrimary) {
 				}
 				case 'getCardMarketPrice': {
 					worker.send({
+						// @ts-expect-error f*ck off
 						type: `getCardMarketPrice-${command.data?.thirdParty.cardmarket}`,
 						data: await getCardMarketPrice(command.data as any)
 					})
@@ -66,53 +68,57 @@ if (cluster.isPrimary) {
 		cluster.fork()
 	})
 
-	// Load providers one time before loading http server
-	const fn = async () => {
-		await updateDatas()
-			.then(() => console.log('loaded cardmarket datas'))
-			.catch((err) => console.error('error loading cardmarket', err))
-		await updateTCGPlayerDatas()
-			.then(() => console.log('loaded TCGPlayer datas'))
-			.catch((err) => console.error('error loading TCGPlayer', err))
+	if (!('CI' in process.env)) {
+		// Load providers one time before loading http server
+		const fn = async () => {
+			await updateDatas()
+				.then(() => console.log('loaded cardmarket datas'))
+				.catch((err) => console.error('error loading cardmarket', err))
+			await updateTCGPlayerDatas()
+				.then(() => console.log('loaded TCGPlayer datas'))
+				.catch((err) => console.error('error loading TCGPlayer', err))
+		}
+
+		// auto update each hour the datasets
+		// @ts-expect-error f*ck off
+		await fn()
+		setInterval(fn, 86_400_000)
 	}
 
-	// auto update each hour the datasets
-	// @ts-expect-error f*ck off
-	await fn()
-	setInterval(fn, 86_400_000)
 
 	console.log('🚀 Server ready at localhost:' + port);
 } else {
 
-	// load cache before responsing to requests
-	await new Promise<void>((res) => {
-		let oneDone = false
-		process.on('message', (command: Command) => {
-			console.log('master sent', command)
-			switch (command.type) {
-				case 'tcgplayer-update': {
-					fillTCGPlayerCache(command.data as any)
-					if (oneDone) {
-						res()
-					} else {
-						oneDone = true
+	if (!('CI' in process.env)) {
+		// load cache before responsing to requests
+		// @ts-expect-error f*ck off
+		await new Promise<void>((res) => {
+			let oneDone = false
+			process.on('message', (command: Command) => {
+				console.log('master sent', command)
+				switch (command.type) {
+					case 'tcgplayer-update': {
+						fillTCGPlayerCache(command.data as any)
+						if (oneDone) {
+							res()
+						} else {
+							oneDone = true
+						}
+						break
 					}
-					break
-				}
-				case 'cardmarket-update': {
-					fillCardMarketDatas(command.data as any)
-					if (oneDone) {
-						res()
-					} else {
-						oneDone = true
+					case 'cardmarket-update': {
+						fillCardMarketDatas(command.data as any)
+						if (oneDone) {
+							res()
+						} else {
+							oneDone = true
+						}
+						break
 					}
-					break
 				}
-			}
+			})
 		})
-
-
-	})
+	}
 
 	// Current API version
 	const VERSION = 2
