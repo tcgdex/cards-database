@@ -45,6 +45,10 @@ const card: Card = {
 
 	illustrator: "Nelnal",
 
+	description: {
+		en: "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.",
+	},
+
 	thirdParty: {
 		cardmarket: 751733
 	}

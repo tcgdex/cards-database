@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -52,6 +64,10 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
+
+	description: {
+		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
+	},
 
 	thirdParty: {
 		cardmarket: 751578

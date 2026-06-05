@@ -74,6 +74,18 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -83,6 +95,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+	},
 
 	thirdParty: {
 		cardmarket: 751701

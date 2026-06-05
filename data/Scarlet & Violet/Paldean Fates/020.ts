@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "yuu",
+
+	description: {
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+	},
 
 	thirdParty: {
 		cardmarket: 751549

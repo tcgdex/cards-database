@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -64,6 +70,10 @@ const card: Card = {
 	},
 
 	illustrator: "kurumitsu",
+
+	description: {
+		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+	},
 
 	thirdParty: {
 		cardmarket: 751662

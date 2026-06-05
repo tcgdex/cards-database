@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -82,6 +88,10 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
+
+	description: {
+		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+	},
 
 	thirdParty: {
 		cardmarket: 751541

@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -75,6 +81,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+
+	description: {
+		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+	},
 
 	thirdParty: {
 		cardmarket: 751678

@@ -63,6 +63,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +84,10 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
+
+	description: {
+		en: "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
+	},
 
 	thirdParty: {
 		cardmarket: 751695

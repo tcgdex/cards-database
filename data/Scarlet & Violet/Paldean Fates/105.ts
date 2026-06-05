@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -53,6 +59,10 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+
+	description: {
+		en: "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
+	},
 
 	thirdParty: {
 		cardmarket: 751644

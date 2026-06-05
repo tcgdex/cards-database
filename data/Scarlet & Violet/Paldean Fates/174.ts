@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -83,6 +89,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+
+	description: {
+		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",
+	},
 
 	thirdParty: {
 		cardmarket: 751713

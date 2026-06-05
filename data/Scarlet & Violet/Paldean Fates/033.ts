@@ -52,6 +52,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -60,6 +72,10 @@ const card: Card = {
 	},
 
 	illustrator: "Narumi Sato",
+
+	description: {
+		en: "The auspicious shape of this Pokémon's nose apparently led some regions to consider Swoobat a symbol of good luck.",
+	},
 
 	thirdParty: {
 		cardmarket: 751570

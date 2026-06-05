@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+
+	description: {
+		en: "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
+	},
 
 	thirdParty: {
 		cardmarket: 751575

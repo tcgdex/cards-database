@@ -43,6 +43,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
@@ -51,6 +57,10 @@ const card: Card = {
 	},
 
 	illustrator: "KYUPIYAMA",
+
+	description: {
+		en: "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+	},
 
 	thirdParty: {
 		cardmarket: 751572

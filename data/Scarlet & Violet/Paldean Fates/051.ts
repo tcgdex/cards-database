@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -52,6 +58,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kedamahadaitai Yawarakai",
+
+	description: {
+		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old.",
+	},
 
 	thirdParty: {
 		cardmarket: 751588

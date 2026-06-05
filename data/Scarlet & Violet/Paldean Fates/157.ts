@@ -40,6 +40,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
@@ -49,6 +61,10 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+
+	description: {
+		en: "In an attempt to confuse its enemy, it mimics the enemy's movements. Then it wastes no time in making itself scarce!",
+	},
 
 	thirdParty: {
 		cardmarket: 751696

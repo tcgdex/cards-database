@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
+
+	description: {
+		en: "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
+	},
 
 	thirdParty: {
 		cardmarket: 751610

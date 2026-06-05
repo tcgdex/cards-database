@@ -64,6 +64,12 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 	},
 
 	illustrator: "Misa Tsutsui",
+
+	description: {
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+	},
 
 	thirdParty: {
 		cardmarket: 751737

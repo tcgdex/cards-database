@@ -72,6 +72,18 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,6 +92,10 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
+
+	description: {
+		en: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+	},
 
 	thirdParty: {
 		cardmarket: 751605

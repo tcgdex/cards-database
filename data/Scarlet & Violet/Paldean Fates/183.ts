@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -74,6 +80,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+
+	description: {
+		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+	},
 
 	thirdParty: {
 		cardmarket: 751722

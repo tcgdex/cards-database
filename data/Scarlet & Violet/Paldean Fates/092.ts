@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -44,6 +50,10 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
+
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+	},
 
 	thirdParty: {
 		cardmarket: 751631

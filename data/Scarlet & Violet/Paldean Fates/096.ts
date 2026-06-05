@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -53,6 +59,10 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+
+	description: {
+		en: "This Pokémon is blown across vast distances by the wind. It is unclear where the Hoppip of Paldea originally came from.",
+	},
 
 	thirdParty: {
 		cardmarket: 751635

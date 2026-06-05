@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -83,6 +89,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+	},
 
 	thirdParty: {
 		cardmarket: 751646

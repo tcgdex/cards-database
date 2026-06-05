@@ -52,6 +52,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -60,6 +66,10 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
+
+	description: {
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+	},
 
 	thirdParty: {
 		cardmarket: 751593

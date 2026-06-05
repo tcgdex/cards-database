@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -82,6 +88,10 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
+
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	},
 
 	thirdParty: {
 		cardmarket: 751546

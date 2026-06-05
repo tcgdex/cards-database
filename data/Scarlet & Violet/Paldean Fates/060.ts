@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+
+	description: {
+		en: "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
+	},
 
 	thirdParty: {
 		cardmarket: 751598

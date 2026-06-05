@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -74,6 +80,10 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
+
+	description: {
+		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+	},
 
 	thirdParty: {
 		cardmarket: 751673

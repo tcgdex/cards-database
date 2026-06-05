@@ -53,6 +53,10 @@ const card: Card = {
 
 	illustrator: "GIDORA",
 
+	description: {
+		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+	},
+
 	thirdParty: {
 		cardmarket: 751608
 	}

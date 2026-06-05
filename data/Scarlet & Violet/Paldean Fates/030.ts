@@ -55,6 +55,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +75,10 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
+
+	description: {
+		en: "Emitting ultrasonic cries, it floats on winds to travel great distances.",
+	},
 
 	thirdParty: {
 		cardmarket: 751563

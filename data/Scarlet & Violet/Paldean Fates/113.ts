@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -66,6 +72,10 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
+
+	description: {
+		en: "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
+	},
 
 	thirdParty: {
 		cardmarket: 751652

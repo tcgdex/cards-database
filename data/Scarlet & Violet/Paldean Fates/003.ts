@@ -64,6 +64,12 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -72,6 +78,10 @@ const card: Card = {
 	},
 
 	illustrator: "Masako Tomii",
+
+	description: {
+		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
+	},
 
 	thirdParty: {
 		cardmarket: 751529

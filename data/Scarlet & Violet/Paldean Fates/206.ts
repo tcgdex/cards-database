@@ -65,6 +65,12 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -74,6 +80,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+
+	description: {
+		en: "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
+	},
 
 	thirdParty: {
 		cardmarket: 751745

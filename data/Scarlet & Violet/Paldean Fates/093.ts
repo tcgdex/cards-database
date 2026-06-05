@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -74,6 +80,10 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+
+	description: {
+		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+	},
 
 	thirdParty: {
 		cardmarket: 751632

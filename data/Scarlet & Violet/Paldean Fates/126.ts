@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
@@ -66,6 +72,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
+
+	description: {
+		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+	},
 
 	thirdParty: {
 		cardmarket: 751665

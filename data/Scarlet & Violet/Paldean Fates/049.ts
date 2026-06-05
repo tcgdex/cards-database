@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -82,6 +88,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+
+	description: {
+		en: "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain.",
+	},
 
 	thirdParty: {
 		cardmarket: 751586

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -52,6 +58,10 @@ const card: Card = {
 	},
 
 	illustrator: "kurumitsu",
+
+	description: {
+		en: "Weaving together the cotton of both Cottonee and Eldegoss produces exquisite cloth that's highly prized by many luxury brands.",
+	},
 
 	thirdParty: {
 		cardmarket: 751571

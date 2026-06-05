@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -52,6 +58,10 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+
+	description: {
+		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+	},
 
 	thirdParty: {
 		cardmarket: 751582

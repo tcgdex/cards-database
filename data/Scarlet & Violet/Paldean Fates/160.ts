@@ -64,6 +64,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+
+	description: {
+		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+	},
 
 	thirdParty: {
 		cardmarket: 751699

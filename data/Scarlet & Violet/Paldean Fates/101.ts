@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -74,6 +80,10 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+
+	description: {
+		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+	},
 
 	thirdParty: {
 		cardmarket: 751640

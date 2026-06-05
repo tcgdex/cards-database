@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -66,6 +72,10 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+
+	description: {
+		en: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+	},
 
 	thirdParty: {
 		cardmarket: 751664

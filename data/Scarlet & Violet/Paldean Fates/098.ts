@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -83,6 +89,10 @@ const card: Card = {
 	},
 
 	illustrator: "Lee HyunJung",
+
+	description: {
+		en: "Jumpluff travels on seasonal winds. Once its cotton spores run out, its journey ends, as does its life.",
+	},
 
 	thirdParty: {
 		cardmarket: 751637
