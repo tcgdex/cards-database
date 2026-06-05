@@ -61,9 +61,6 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: 'normal'
-		},
-		{
 			type: 'holo',
 			languages: ['en'],
 			thirdParty: {
