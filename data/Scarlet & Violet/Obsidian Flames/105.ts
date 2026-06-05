@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+	},
 
 	variants: [
 		{

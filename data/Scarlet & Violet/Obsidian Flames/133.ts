@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+	},
 
 	variants: [
 		{

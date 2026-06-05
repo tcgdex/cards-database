@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
+	},
 
 	variants: [
 		{

@@ -42,8 +42,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
+	},
 
 	variants: [
 		{
