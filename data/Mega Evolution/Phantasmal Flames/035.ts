@@ -41,6 +41,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Mousho",
 	variants: [
 		{
 			type: "normal",

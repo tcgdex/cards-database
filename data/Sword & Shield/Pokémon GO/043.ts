@@ -76,6 +76,12 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -83,6 +89,10 @@ const card: Card = {
 		"normal": false,
 		"reverse": true,
 		"holo": true
+	},
+
+	description: {
+		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
 	},
 
 	thirdParty: {
