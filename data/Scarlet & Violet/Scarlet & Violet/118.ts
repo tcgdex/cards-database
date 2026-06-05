@@ -71,6 +71,10 @@ const card: Card = {
 		normal: false
 	},
 
+	description: {
+		en: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+	},
+
 	thirdParty: {
         cardmarket: 702414,
         tcgplayer: 488007

@@ -85,6 +85,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+	},
+
 	thirdParty: {
         cardmarket: 702413,
         tcgplayer: 488006

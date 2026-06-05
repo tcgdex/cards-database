@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "kodama",
+
+	description: {
+		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+	},
 
 	thirdParty: {
         cardmarket: 702451,

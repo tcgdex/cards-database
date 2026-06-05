@@ -63,6 +63,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -71,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "Gemi",
+
+	description: {
+		en: "It can sense the feelings of others by touching them with its horns. This species has assisted people with their work since 5,000 years ago.",
+	},
 
 	thirdParty: {
         cardmarket: 702309,

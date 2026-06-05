@@ -70,6 +70,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
+	},
+
 	thirdParty: {
         cardmarket: 702417,
         tcgplayer: 488010

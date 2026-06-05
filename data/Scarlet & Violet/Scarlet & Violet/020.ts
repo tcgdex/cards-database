@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "yuu",
+
+	description: {
+		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+	},
 
 	thirdParty: {
         cardmarket: 702316,

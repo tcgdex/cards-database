@@ -57,6 +57,12 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -65,6 +71,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kurata So",
+
+	description: {
+		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+	},
 
 	thirdParty: {
         cardmarket: 702331,

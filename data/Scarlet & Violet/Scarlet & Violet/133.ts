@@ -76,6 +76,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "This Pokémon commands a group of several Pawniard. Groups that are defeated in territorial disputes are absorbed by the winning side.",
+	},
+
 	thirdParty: {
         cardmarket: 702428,
         tcgplayer: 488023

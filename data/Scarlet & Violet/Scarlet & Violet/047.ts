@@ -50,6 +50,12 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -58,6 +64,10 @@ const card: Card = {
 	},
 
 	illustrator: "Gemi",
+
+	description: {
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+	},
 
 	thirdParty: {
         cardmarket: 702342,

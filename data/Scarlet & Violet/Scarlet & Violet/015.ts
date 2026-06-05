@@ -63,6 +63,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +78,10 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
+
+	description: {
+		en: "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+	},
 
 	thirdParty: {
         cardmarket: 702311,
