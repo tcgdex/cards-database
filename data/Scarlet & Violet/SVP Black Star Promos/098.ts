@@ -62,7 +62,6 @@ const card: Card = {
 	variants: [
 		{
 			type: 'holo',
-			languages: ['en'],
 			thirdParty: {
 				tcgplayer: 543948
 			}
@@ -70,7 +69,6 @@ const card: Card = {
 		{
 			type: 'holo',
 			stamp: ['pokemon-center'],
-			languages: ['en'],
 			thirdParty: {
 				tcgplayer: 543949
 			}
