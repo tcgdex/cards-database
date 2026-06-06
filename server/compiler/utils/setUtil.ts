@@ -76,7 +76,11 @@ export async function setToSetSimple(set: Set, lang: SupportedLanguages): Promis
 		id: set.id,
 		logo: pics[0],
 		name: resolveText(set.name, lang),
-		symbol: pics[1]
+		symbol: pics[1],
+		abbreviation: (set.abbreviations?.official || resolveText(set.abbreviations, lang)) ? {
+			official: set.abbreviations?.official,
+			localized: resolveText(set.abbreviations, lang)
+		} : undefined,
 	}
 }
 
