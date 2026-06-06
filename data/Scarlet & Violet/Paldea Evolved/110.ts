@@ -48,13 +48,17 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-		holo: false
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
 	},
 
 	illustrator: "Haru Akasaka",
 
 	thirdParty: {
-		cardmarket: 715585
+		cardmarket: 715585,
+		tcgplayer: 497525
 	}
 }
 

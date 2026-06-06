@@ -63,6 +63,13 @@ const card: Card = {
 
 	retreat: 1,
 
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
+
 	description: {
 		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
 	},
