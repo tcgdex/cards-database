@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "Shinji Kanda",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857649,
-				tcgplayer: 662154
+				tcgplayer: 662154,
+				cardtrader: 356860
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857649,
-				tcgplayer: 662154
+				tcgplayer: 662154,
+				cardtrader: 356860
 			}
-		}
+		},
 	],	
 }
 

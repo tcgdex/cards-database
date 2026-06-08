@@ -54,12 +54,13 @@ const card: Card = {
 	illustrator: "Ayako Ozaki",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857674,
-				tcgplayer: 662243
+				tcgplayer: 662243,
+				cardtrader: 356885
 			}
-		}
+		},
 	],
 }
 

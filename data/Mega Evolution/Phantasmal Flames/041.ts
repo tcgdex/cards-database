@@ -78,12 +78,13 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857616,
-				tcgplayer: 660379
+				tcgplayer: 660379,
+				cardtrader: 356824
 			}
-		}
+		},
 	],
 }
 

@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "Narumi Sato",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857619,
-				tcgplayer: 660384
+				tcgplayer: 660384,
+				cardtrader: 356827
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857619,
-				tcgplayer: 660384
+				tcgplayer: 660384,
+				cardtrader: 356827
 			}
-		}
+		},
 	],
 }
 

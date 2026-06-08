@@ -66,12 +66,13 @@ const card: Card = {
 	illustrator: "Bun Toujo",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857679,
-				tcgplayer: 662233
+				tcgplayer: 662233,
+				cardtrader: 356890
 			}
-		}
+		},
 	],
 }
 

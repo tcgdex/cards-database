@@ -68,19 +68,21 @@ const card: Card = {
 	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857637,
-				tcgplayer: 660413
+				tcgplayer: 660413,
+				cardtrader: 356846
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857637,
-				tcgplayer: 660413
+				tcgplayer: 660413,
+				cardtrader: 356846
 			}
-		}
+		},
 	],
 }
 

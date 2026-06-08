@@ -66,19 +66,21 @@ const card: Card = {
 	illustrator: "MINAMINAMI Take",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857615,
-				tcgplayer: 662194
+				tcgplayer: 662194,
+				cardtrader: 356823
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857615,
-				tcgplayer: 662194
+				tcgplayer: 662194,
+				cardtrader: 356823
 			}
-		}
+		},
 	],
 }
 

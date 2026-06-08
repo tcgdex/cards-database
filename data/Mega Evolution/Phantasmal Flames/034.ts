@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "satoma",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857609,
-				tcgplayer: 662212
+				tcgplayer: 662212,
+				cardtrader: 356817
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857609,
-				tcgplayer: 662212
+				tcgplayer: 662212,
+				cardtrader: 356817
 			}
-		}
+		},
 	],	
 }
 

@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "svlt",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857596,
-				tcgplayer: 662226
+				tcgplayer: 662226,
+				cardtrader: 356804
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857596,
-				tcgplayer: 662226
+				tcgplayer: 662226,
+				cardtrader: 356804
 			}
-		}
+		},
 	],	
 }
 

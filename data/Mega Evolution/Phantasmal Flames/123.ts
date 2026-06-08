@@ -33,12 +33,13 @@ const card: Card = {
 	illustrator: "Studio Bora Inc.",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857698,
-				tcgplayer: 662231
+				tcgplayer: 662231,
+				cardtrader: 356909
 			}
-		}
+		},
 	],
 }
 

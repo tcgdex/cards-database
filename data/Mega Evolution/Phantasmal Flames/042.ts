@@ -66,19 +66,21 @@ const card: Card = {
 	illustrator: "miki kudo",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857617,
-				tcgplayer: 662197
+				tcgplayer: 662197,
+				cardtrader: 356825
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857617,
-				tcgplayer: 662197
+				tcgplayer: 662197,
+				cardtrader: 356825
 			}
-		}
+		},
 	],
 }
 

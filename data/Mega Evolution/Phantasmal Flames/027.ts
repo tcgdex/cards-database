@@ -66,19 +66,21 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857602,
-				tcgplayer: 662214
+				tcgplayer: 662214,
+				cardtrader: 356810
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857602,
-				tcgplayer: 662214
+				tcgplayer: 662214,
+				cardtrader: 356810
 			}
-		}
+		},
 	],
 }
 

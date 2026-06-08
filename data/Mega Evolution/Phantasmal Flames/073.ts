@@ -66,19 +66,21 @@ const card: Card = {
 	illustrator: "Bun Toujo",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857648,
-				tcgplayer: 662232
+				tcgplayer: 662232,
+				cardtrader: 356859
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857648,
-				tcgplayer: 662232
+				tcgplayer: 662232,
+				cardtrader: 356859
 			}
-		}
+		},
 	],
 }
 

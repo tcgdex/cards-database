@@ -33,19 +33,21 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857662,
-				tcgplayer: 660414
+				tcgplayer: 660414,
+				cardtrader: 356873
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857662,
-				tcgplayer: 660414
+				tcgplayer: 660414,
+				cardtrader: 356873
 			}
-		}
+		},
 	],
 }
 

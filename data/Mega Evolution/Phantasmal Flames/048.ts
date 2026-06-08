@@ -78,19 +78,21 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857623,
-				tcgplayer: 662208
+				tcgplayer: 662208,
+				cardtrader: 356831
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857623,
-				tcgplayer: 662208
+				tcgplayer: 662208,
+				cardtrader: 356831
 			}
-		}
+		},
 	],
 }
 

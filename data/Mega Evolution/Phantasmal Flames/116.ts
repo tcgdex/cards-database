@@ -33,12 +33,13 @@ const card: Card = {
 	illustrator: "MARINA Chikazawa",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857691,
-				tcgplayer: 662131
+				tcgplayer: 662131,
+				cardtrader: 356902
 			}
-		}
+		},
 	],
 }
 

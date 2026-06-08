@@ -58,19 +58,21 @@ const card: Card = {
 	illustrator: "imoniii",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857598,
-				tcgplayer: 662230
+				tcgplayer: 662230,
+				cardtrader: 356806
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857598,
-				tcgplayer: 662230
+				tcgplayer: 662230,
+				cardtrader: 356806
 			}
-		}
+		},
 	],	
 }
 

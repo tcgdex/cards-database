@@ -68,19 +68,21 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857641,
-				tcgplayer: 662174
+				tcgplayer: 662174,
+				cardtrader: 356850
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857641,
-				tcgplayer: 662174
+				tcgplayer: 662174,
+				cardtrader: 356850
 			}
-		}
+		},
 	],	
 }
 

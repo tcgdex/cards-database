@@ -87,12 +87,13 @@ const card: Card = {
 	illustrator: "Kinu Nishimura",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857703,
-				tcgplayer: 662190
+				tcgplayer: 662190,
+				cardtrader: 356914
 			}
-		}
+		},
 	],
 }
 

@@ -33,19 +33,21 @@ const card: Card = {
 	illustrator: "Studio Bora Inc.",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857669,
-				tcgplayer: 662241
+				tcgplayer: 662241,
+				cardtrader: 356880
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857669,
-				tcgplayer: 662241
+				tcgplayer: 662241,
+				cardtrader: 356880
 			}
-		}
+		},
 	],
 }
 

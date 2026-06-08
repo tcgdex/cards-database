@@ -66,19 +66,21 @@ const card: Card = {
 	illustrator: "OKACHEKE",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857642,
-				tcgplayer: 660411
+				tcgplayer: 660411,
+				cardtrader: 356851
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857642,
-				tcgplayer: 660411
+				tcgplayer: 660411,
+				cardtrader: 356851
 			}
-		}
+		},
 	],	
 }
 

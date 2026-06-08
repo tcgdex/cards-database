@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "Dsuke",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857625,
-				tcgplayer: 662163
+				tcgplayer: 662163,
+				cardtrader: 356833
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857625,
-				tcgplayer: 662163
+				tcgplayer: 662163,
+				cardtrader: 356833
 			}
-		}
+		},
 	],	
 }
 

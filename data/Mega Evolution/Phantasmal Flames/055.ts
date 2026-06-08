@@ -44,19 +44,21 @@ const card: Card = {
 	illustrator: "Rianti Hidayat",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857630,
-				tcgplayer: 660408
+				tcgplayer: 660408,
+				cardtrader: 356838
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857630,
-				tcgplayer: 660408
+				tcgplayer: 660408,
+				cardtrader: 356838
 			}
-		}
+		},
 	],
 }
 

@@ -66,26 +66,28 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857583,
-				tcgplayer: 662161
+				tcgplayer: 662161,
+				cardtrader: 356792
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857583,
-				tcgplayer: 662161
+				tcgplayer: 662161,
+				cardtrader: 356792
 			}
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"],
+			type: 'holo',
+			stamp: ['set-logo'],
 			thirdParty: {
-				cardmarket: 858502,
+				cardmarket: 858502
 			}
-		}
+		},
 	],
 }
 

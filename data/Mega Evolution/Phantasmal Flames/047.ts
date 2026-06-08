@@ -68,19 +68,21 @@ const card: Card = {
 	illustrator: "Tetsu Kayama",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857622,
-				tcgplayer: 662135
+				tcgplayer: 662135,
+				cardtrader: 356830
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857622,
-				tcgplayer: 662135
+				tcgplayer: 662135,
+				cardtrader: 356830
 			}
-		}
+		},
 	],
 }
 

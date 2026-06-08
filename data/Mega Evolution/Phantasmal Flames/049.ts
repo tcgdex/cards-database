@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857624,
-				tcgplayer: 662162
+				tcgplayer: 662162,
+				cardtrader: 356832
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857624,
-				tcgplayer: 662162
+				tcgplayer: 662162,
+				cardtrader: 356832
 			}
-		}
+		},
 	],	
 }
 

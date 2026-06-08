@@ -68,19 +68,21 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857582,
-				tcgplayer: 662179
+				tcgplayer: 662179,
+				cardtrader: 356791
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857582,
-				tcgplayer: 662179
+				tcgplayer: 662179,
+				cardtrader: 356791
 			}
-		}
+		},
 	],
 }
 

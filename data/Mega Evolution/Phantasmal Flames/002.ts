@@ -53,21 +53,23 @@ const card: Card = {
 
 	illustrator: "Yoriyuki Ikegami",
 	variants: [
-	{
-		type: "normal",
-		thirdParty: {
-			cardmarket: 857577,
-			tcgplayer: 662164
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 857577,
-			tcgplayer: 662164
-		}
-	},
-],
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857577,
+				tcgplayer: 662164,
+				cardtrader: 356786
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857577,
+				tcgplayer: 662164,
+				cardtrader: 356786
+			}
+		},
+	],
 }
 
 export default card

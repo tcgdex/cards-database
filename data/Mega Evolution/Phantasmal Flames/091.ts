@@ -33,19 +33,21 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857666,
-				tcgplayer: 662172
+				tcgplayer: 662172,
+				cardtrader: 356877
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857666,
-				tcgplayer: 662172
+				tcgplayer: 662172,
+				cardtrader: 356877
 			}
-		}
+		},
 	],
 }
 

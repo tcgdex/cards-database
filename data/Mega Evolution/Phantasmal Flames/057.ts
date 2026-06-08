@@ -54,19 +54,21 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857632,
-				tcgplayer: 662202
+				tcgplayer: 662202,
+				cardtrader: 356840
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857632,
-				tcgplayer: 662202
+				tcgplayer: 662202,
+				cardtrader: 356840
 			}
-		}
+		},
 	],	
 }
 
