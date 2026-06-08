@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "A contest is under way to determine which one can stick its tongue out the farthest. The current record is…more than 82 feet.",
+	},
+
 	thirdParty: {
 		cardmarket: 372441,
 		tcgplayer: 189255

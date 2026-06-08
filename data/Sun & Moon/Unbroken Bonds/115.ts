@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Krokorok really hates it when its body gets cold. On nights when the temperature drops, it digs deep into the desert sands.",
+	},
+
 	thirdParty: {
 		cardmarket: 372405,
 		tcgplayer: 189215

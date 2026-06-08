@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "While it's quite friendly toward humans once it's grown used to them, in the wild it must be quite fierce to defend its territory from Rockruff.",
+	},
+
 	thirdParty: {
 		cardmarket: 372313,
 		tcgplayer: 189062

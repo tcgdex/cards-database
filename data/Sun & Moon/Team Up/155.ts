@@ -26,6 +26,7 @@ const card: Card = {
 	},
 
 	trainerType: "Item",
+	hp: 60,
 
 	thirdParty: {
 		cardmarket: 369080,

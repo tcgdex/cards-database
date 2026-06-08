@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+	},
+
 	thirdParty: {
 		cardmarket: 372413,
 		tcgplayer: 189223

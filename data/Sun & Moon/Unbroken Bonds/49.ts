@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its horn spins like a drill to steadily hollow out rocks—even harder ones. The coloration of the male is more vivid.",
+	},
+
 	thirdParty: {
 		cardmarket: 372340,
 		tcgplayer: 189148

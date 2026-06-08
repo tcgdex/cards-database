@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.",
+	},
+
 	thirdParty: {
 		cardmarket: 372437,
 		tcgplayer: 189253
