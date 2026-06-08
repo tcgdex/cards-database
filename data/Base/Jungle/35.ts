@@ -72,8 +72,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
 		fr: "On raconte que si une de ses têtes se détache, elle se transforme en un Nœunœuf."
 	},
 

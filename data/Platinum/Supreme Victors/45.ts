@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
+	},
+
 	thirdParty: {
 		cardmarket: 278736
 	},

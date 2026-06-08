@@ -13,6 +13,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "You can play only 1 Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for up to 2 Supporter and/or Stadium cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 		de: "Du kannst in jedem Zug nur 1 Unterstützer-Karte spielen. Wenn du diese Karte ausspielst, lege sie neben dein aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach bis zu 2 Unterstützer- bzw. Stadion-Karten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 

@@ -59,6 +59,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
+	},
 
 	thirdParty: {
 		cardmarket: 273933,

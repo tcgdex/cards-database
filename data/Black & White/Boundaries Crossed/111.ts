@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 280698,
 		tcgplayer: 85014

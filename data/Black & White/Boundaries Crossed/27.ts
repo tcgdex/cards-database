@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 F.",
+	},
+
 	thirdParty: {
 		cardmarket: 280614,
 		tcgplayer: 84722

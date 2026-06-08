@@ -51,8 +51,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is very meek and constantly crouches in a defensive posture. When threatened, it protects itself with the flame on its back.",
 		fr: "Il est très timide et il est souvent sur la défensive. Quand il se sent menacé, il se protège avec les flammes de son dos."
 	},
 

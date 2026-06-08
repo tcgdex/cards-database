@@ -63,6 +63,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+	},
 
 	thirdParty: {
 		cardmarket: 274000,

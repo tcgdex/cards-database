@@ -79,6 +79,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
 		fr: "Les trois cornes de son bec sont le symbole de sa force. Celles du chef sont plus grosses que les autres."
 	},
 

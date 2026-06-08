@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+	},
+
 	thirdParty: {
 		cardmarket: 278437,
 		tcgplayer: 89292

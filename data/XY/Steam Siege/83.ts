@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+	},
+
 	thirdParty: {
 		cardmarket: 291644,
 		tcgplayer: 121209

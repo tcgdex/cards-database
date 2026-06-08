@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the group leader.",
+	},
+
 	thirdParty: {
 		cardmarket: 280299,
 		tcgplayer: 88978

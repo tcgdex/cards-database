@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280475,
 		tcgplayer: 89058

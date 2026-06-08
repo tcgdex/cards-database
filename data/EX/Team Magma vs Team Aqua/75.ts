@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Flip a coin. If heads, search your deck for a Pokémon that has Team Aqua in its name, show it to your opponent, and put it into your hand. If tails, search your deck for a Basic Pokémon that has Team Aqua in its name, show it to your opponent and put it into your hand. Shuffle your deck afterward.",
 		fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck un Pokémon dont le nom comporte Team Aqua, montrez-le à votre adversaire et placez-le dans votre main. Si c'est pile, cherchez dans votre deck un Pokémon de base dont le nom comporte Team Aqua, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
 		de: "Wirf I Münze. Durchsuche bei Kopf dein Deck nach einem Pokémon, das \"Aqua's\" im Namen hat. Durchsuche bei Zahl dein Deck nach einem Basispokémon, das \"Aqua's\" im Namen hat. Mische dein Deck danach."
 	},

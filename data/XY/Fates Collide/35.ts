@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+	},
+
 	thirdParty: {
 		cardmarket: 289861,
 		tcgplayer: 117795

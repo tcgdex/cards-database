@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+	},
+
 	thirdParty: {
 		cardmarket: 281504,
 		tcgplayer: 91154

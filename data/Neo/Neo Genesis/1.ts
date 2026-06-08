@@ -58,8 +58,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
 		fr: "La pointe de sa queue luit intensément et on l'aperçoit de très loin. Il sert de balise aux gens perdus."
 	},
 

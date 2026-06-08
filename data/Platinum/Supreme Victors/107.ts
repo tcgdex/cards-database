@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn.",
+	},
+
 	thirdParty: {
 		cardmarket: 278798
 	},

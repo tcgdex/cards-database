@@ -30,14 +30,16 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+	illustrator: "Toyste Beach",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857692,
-				tcgplayer: 662133
+				tcgplayer: 662133,
+				cardtrader: 356903
 			}
-		}
+		},
 	],
 }
 

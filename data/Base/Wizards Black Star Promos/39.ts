@@ -63,8 +63,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It loves to bite and yank people's hair from behind without warning, just to see their shocked reactions.",
 		fr: "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée."
 	},
 

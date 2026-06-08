@@ -58,6 +58,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+	},
+
 	thirdParty: {
 		cardmarket: 278937,
 		tcgplayer: 85693

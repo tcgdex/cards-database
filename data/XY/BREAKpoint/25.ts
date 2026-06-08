@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
+	},
+
 	thirdParty: {
 		cardmarket: 288200,
 		tcgplayer: 111528

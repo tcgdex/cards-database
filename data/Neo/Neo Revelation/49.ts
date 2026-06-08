@@ -71,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
 		fr: "Pour lancer ses piquants empoisonnés, il doit gonfler son corps en buvant 10 litres d'eau d'un seul coup."
 	},
 

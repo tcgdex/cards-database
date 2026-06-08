@@ -45,6 +45,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
+	},
 
 	thirdParty: {
 		cardmarket: 274023,

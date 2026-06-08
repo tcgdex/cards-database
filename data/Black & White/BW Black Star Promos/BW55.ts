@@ -63,6 +63,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+	},
 }
 
 export default card

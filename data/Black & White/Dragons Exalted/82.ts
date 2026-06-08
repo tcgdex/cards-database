@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It freely controls three small units called Mini-Noses using magnetic force.",
+	},
+
 	thirdParty: {
 		cardmarket: 280521,
 		tcgplayer: 88379

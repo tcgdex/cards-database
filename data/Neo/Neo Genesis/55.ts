@@ -67,8 +67,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
 		fr: "Il lance des arcs électriques positifs et négatifs entre ses antennes et électrocute ses ennemis."
 	},
 

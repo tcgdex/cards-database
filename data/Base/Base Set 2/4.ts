@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
+	},
+
 	thirdParty: {
 		cardmarket: 273927,
 		tcgplayer: 42479

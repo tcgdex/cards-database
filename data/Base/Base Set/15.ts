@@ -76,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 		fr: "Sa plante mûrit en absorbant les rayons du soleil. Il migre souvent vers les endroits ensoleillés.",
 		it: "È un tipo di pianta che sboccia quando assorbe l'energia solare e si mantiene sempre in movimento per poter rimanere esposta al sole. LIV 67 N.3"
 	},

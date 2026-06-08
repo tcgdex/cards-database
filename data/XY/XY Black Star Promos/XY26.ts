@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The male with the largest mane of fire is the leader of the pride.",
+	},
+
 	thirdParty: {
 		cardmarket: 281313
 	}

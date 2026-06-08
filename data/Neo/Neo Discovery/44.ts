@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The swirl on its belly undulates. Staring at it may gradually cause drowsiness.",
 		fr: "La spirale sur son ventre ondule subtilement. A force de la regarder, on risque de s'assoupir."
 	},
 

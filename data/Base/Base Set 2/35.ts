@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
+	},
 
 	thirdParty: {
 		cardmarket: 273958,

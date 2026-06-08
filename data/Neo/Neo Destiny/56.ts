@@ -68,8 +68,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its shell is said to contain happiness itself, which it will share with those who are kind to it.",
 		fr: "On raconte que sa coquille est pleine de bonheur, qu'il partage avec tous ceux qui sont gentils avec lui."
 	},
 

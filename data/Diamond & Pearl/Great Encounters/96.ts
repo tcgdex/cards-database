@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground.",
+	},
+
 	thirdParty: {
 		cardmarket: 277998,
 		tcgplayer: 90748

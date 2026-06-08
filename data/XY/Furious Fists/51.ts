@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It toughens up by slamming into thick trees over and over. It gains a sturdy body and dauntless spirit.",
+	},
+
 	thirdParty: {
 		cardmarket: 281715,
 		tcgplayer: 92228

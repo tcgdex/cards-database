@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It fights while spinning like a top. The centrifugal force boosts its destructive power by 10.",
+	},
+
 	thirdParty: {
 		cardmarket: 281713,
 		tcgplayer: 92226

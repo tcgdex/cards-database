@@ -77,8 +77,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
 		fr: "Quand ils entendent ses hurlements sinistres, les autres Pokémon ont un frisson dans le dos et ils retournent au nid."
 	},
 

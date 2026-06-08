@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+	},
+
 	thirdParty: {
 		cardmarket: 280174,
 		tcgplayer: 85017

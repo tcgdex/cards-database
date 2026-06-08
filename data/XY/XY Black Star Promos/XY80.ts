@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+	},
+
 	thirdParty: {
 		cardmarket: 553908
 	}

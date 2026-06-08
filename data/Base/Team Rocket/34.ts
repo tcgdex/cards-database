@@ -70,8 +70,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Some researchers hypothesize that Electrode may actually be a form of energy instead of having an actual body.",
 		fr: "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel."
 	},
 

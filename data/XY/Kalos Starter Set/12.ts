@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+	},
+
 	thirdParty: {
 		cardmarket: 281278,
 		tcgplayer: 85569

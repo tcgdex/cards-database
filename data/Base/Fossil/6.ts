@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
 		fr: "Il peut se glisser à travers les murs comme une créature d'une autre dimension."
 	},
 

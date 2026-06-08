@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+	},
+
 	thirdParty: {
 		cardmarket: 281511,
 		tcgplayer: 91161

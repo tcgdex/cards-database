@@ -51,14 +51,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Yoriyuki Ikegami",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857675,
-				tcgplayer: 662245
+				tcgplayer: 662245,
+				cardtrader: 356886
 			}
-		}
+		},
 	],
 }
 

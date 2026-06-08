@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Prevent all effects of an attack, including damage, done by either player's Active Pokémon. If an Active Pokémon uses an attack, that attack ends, and discard this card.",
 		fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés par les Pokémon Actifs de chaque joueur. Si un Pokémon Actif utilise une attaque, cette attaque se termine. Défaussez cette carte.",
 		de: "Verhindere alle Effekte von Angriffen, inklusive Schaden, die durch Aktive Pokémon (deins oder das deines Gegners) verursacht werden. Wenn ein Aktives Pokémon einen Angriff einsetzt, wird dieser Angriff ohne Auswirkungen beendet und der Holon-Kreis auf deinen Ablagestapel gelegt.",
 	},

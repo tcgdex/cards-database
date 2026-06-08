@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -63,6 +69,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "With waves of its fan—made from leaves and its own fur—Oranguru skillfully gives instructions to other Pokémon.",
 	},
 
 	thirdParty: {

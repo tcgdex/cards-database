@@ -75,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
 		fr: "Un Pokémon préhistorique qui disparut quand sa coquille devint trop lourde à déplacer."
 	},
 

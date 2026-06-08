@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A being that exists as a thin gas. It can topple an Indian elephant by enveloping the prey in two seconds.",
+	},
+
 	thirdParty: {
 		cardmarket: 293402,
 		tcgplayer: 124061

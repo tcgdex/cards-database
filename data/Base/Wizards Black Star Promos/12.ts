@@ -56,7 +56,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
+
+	description: {
+		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
+	},
 	variants: [
 		{
 			type: "normal"

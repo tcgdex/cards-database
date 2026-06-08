@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+	},
+
 	thirdParty: {
 		cardmarket: 278813
 	},

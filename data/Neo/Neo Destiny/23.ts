@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This Pokémon has evolved its dorsal fin to emit light, which attracts the fish it feeds on.",
 		fr: "La nageoire dorsale de ce Pokémon a évolué pour émettre de la lumière, ce qui attire les poissons dont il se nourrit."
 	},
 

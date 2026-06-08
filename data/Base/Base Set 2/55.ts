@@ -62,6 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+	},
 
 	thirdParty: {
 		cardmarket: 273978,

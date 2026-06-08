@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+	},
+
 	thirdParty: {
 		cardmarket: 278743
 	},

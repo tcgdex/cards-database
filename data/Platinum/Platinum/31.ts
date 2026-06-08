@@ -75,6 +75,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent.",
+	},
+
 	thirdParty: {
 		cardmarket: 278452,
 		tcgplayer: 86277

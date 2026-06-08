@@ -84,14 +84,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857631,
-				tcgplayer: 660380
+				tcgplayer: 660380,
+				cardtrader: 356839
 			}
-		}
+		},
 	],
 }
 

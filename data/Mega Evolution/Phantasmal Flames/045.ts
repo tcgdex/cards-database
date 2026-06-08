@@ -51,27 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "kawayoo",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 858507
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857620,
-				tcgplayer: 662244
+				tcgplayer: 662244,
+				cardtrader: 356828
 			}
 		},
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857620,
-				tcgplayer: 662244
+				tcgplayer: 662244,
+				cardtrader: 356828
 			}
-		}
+		},
 	],	
 }
 

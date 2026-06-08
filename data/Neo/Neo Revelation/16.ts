@@ -52,8 +52,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When Celebi disappears deep in a forest, it is said to leave behind an egg it brought from the future.",
 		fr: "Lorsque Celebi disparaît dans les profondeurs de la forêt, on raconte qu'il laisse derrière lui un œuf qu'il a rapporté du futur."
 	},
 

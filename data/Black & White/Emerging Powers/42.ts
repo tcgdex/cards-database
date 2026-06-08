@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They never vary the route they fly, because their memories of guarding an ancient city remain steadfast.",
+	},
+
 	thirdParty: {
 		cardmarket: 280006,
 		tcgplayer: 89205

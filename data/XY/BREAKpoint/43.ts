@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.",
+	},
+
 	thirdParty: {
 		cardmarket: 288218,
 		tcgplayer: 111550

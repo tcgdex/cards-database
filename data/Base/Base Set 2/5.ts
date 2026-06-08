@@ -68,6 +68,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "A timid Fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+	},
 
 	thirdParty: {
 		cardmarket: 273928,

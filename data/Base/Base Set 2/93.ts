@@ -58,6 +58,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
+	},
 
 	thirdParty: {
 		cardmarket: 274016,

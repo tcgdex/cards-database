@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is formed by two Beldum joining together. Its two brains are linked, amplifying its psychic power.",
+	},
+
 	thirdParty: {
 		cardmarket: 284229,
 		tcgplayer: 101470

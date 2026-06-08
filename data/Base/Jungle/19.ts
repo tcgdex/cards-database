@@ -77,8 +77,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
 		fr: "Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés."
 	},
 

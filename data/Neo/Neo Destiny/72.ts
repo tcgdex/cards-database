@@ -71,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although it is extremely active during the day, it stops moving entirely as soon as the sun sets.",
 		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
 	},
 

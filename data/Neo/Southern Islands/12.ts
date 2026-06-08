@@ -58,7 +58,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "This gentle Pokémon can understand human language and allows people to ride on its back.",
+	},
 	thirdParty: {
 		cardmarket: 275642,
 		tcgplayer: 46469

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+	},
+
 	thirdParty: {
 		cardmarket: 286287,
 		tcgplayer: 107160

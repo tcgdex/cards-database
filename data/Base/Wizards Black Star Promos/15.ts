@@ -64,7 +64,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
+	},
 	variants: [
 		{
 			type: "normal"

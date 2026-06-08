@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
+	},
 
 	thirdParty: {
 		cardmarket: 274790,

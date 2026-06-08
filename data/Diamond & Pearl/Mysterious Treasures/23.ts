@@ -81,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Having four wings enables it to fly faster and more quietly. It turns active when the night comes.",
 		fr: "Il vole rapidement et sans faire de bruit grâce à ses quatre ailes. C'est un Pokémon nocturne."
 	},
 

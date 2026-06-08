@@ -59,6 +59,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+	},
 
 	thirdParty: {
 		cardmarket: 274020,

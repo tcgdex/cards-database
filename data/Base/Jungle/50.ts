@@ -75,8 +75,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
 		fr: "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon."
 	},
 

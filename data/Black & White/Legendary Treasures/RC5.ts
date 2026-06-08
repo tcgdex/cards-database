@@ -55,6 +55,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+	},
 
 	thirdParty: {
 		cardmarket: 281145

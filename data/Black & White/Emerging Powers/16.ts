@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 279981,
 		tcgplayer: 88942

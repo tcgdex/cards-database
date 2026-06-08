@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+	},
+
 	thirdParty: {
 		cardmarket: 277968,
 		tcgplayer: 85103

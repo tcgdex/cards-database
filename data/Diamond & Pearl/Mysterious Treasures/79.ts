@@ -59,8 +59,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
 		fr: "Ce Pokémon est un grand timide. Les flammes sur son dos s'intensifient lorsqu'il prend peur."
 	},
 

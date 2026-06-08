@@ -65,6 +65,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+	},
+
 	thirdParty: {
 		cardmarket: 274859,
 		tcgplayer: 89437

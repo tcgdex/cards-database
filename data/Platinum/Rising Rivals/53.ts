@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+	},
+
 	thirdParty: {
 		cardmarket: 278627,
 		tcgplayer: 90338

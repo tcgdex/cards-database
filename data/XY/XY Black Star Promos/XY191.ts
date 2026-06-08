@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When it is resolute, it body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+	},
 
 	thirdParty: {
 		cardmarket: 293189

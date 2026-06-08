@@ -83,6 +83,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+	},
 
 	thirdParty: {
 		cardmarket: 279648,

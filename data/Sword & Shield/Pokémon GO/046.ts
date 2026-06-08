@@ -67,6 +67,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
@@ -74,6 +86,10 @@ const card: Card = {
 		"normal": false,
 		"reverse": true,
 		"holo": true
+	},
+
+	description: {
+		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
 	},
 
 	thirdParty: {

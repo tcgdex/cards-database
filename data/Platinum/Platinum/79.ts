@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+	},
+
 	thirdParty: {
 		cardmarket: 278500,
 		tcgplayer: 86619

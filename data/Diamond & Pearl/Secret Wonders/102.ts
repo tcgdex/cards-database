@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses the thorns on its head to sense human emotions. It is said to appear in front of cheerful people.",
+	},
+
 	thirdParty: {
 		cardmarket: 277855,
 		tcgplayer: 88561
