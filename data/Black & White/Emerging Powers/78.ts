@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.",
+	},
+
 	thirdParty: {
 		cardmarket: 280043,
 		tcgplayer: 87963

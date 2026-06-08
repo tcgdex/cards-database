@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact.",
+	},
+
 	thirdParty: {
 		cardmarket: 281352,
 		tcgplayer: 88943

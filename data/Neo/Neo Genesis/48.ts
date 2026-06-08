@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "An examination of its cells revealed the presence of a gene not found in Horsea. It became a hot topic.",

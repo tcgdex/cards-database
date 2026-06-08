@@ -74,8 +74,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.",
 		fr: "Il gèle l'humidité de l'air pour former une armure de glace protectrice autour de son corps."
 	},
 

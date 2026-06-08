@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+	},
+
 	thirdParty: {
 		cardmarket: 280621,
 		tcgplayer: 85818

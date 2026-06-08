@@ -65,8 +65,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",
 		fr: "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant.",
 		it: "I suoi zoccoli sono più duri dei diamanti e schiacciano qualsiasi ostacolo in pochi secondi. LIV 10 N.77"
 	},

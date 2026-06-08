@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+	},
+
 	thirdParty: {
 		cardmarket: 281418,
 		tcgplayer: 87972

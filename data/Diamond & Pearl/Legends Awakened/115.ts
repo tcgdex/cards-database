@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The spiral pattern on its belly subtly undulates. Staring at it gradually causes drowsiness.",
+	},
+
 	thirdParty: {
 		cardmarket: 278264,
 		tcgplayer: 88267

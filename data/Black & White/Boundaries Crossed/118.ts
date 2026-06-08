@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind.",
+	},
+
 	thirdParty: {
 		cardmarket: 280705,
 		tcgplayer: 87964

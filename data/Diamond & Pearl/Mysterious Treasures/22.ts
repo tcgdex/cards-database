@@ -67,8 +67,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "To knock foes flying, it makes the air shudder with its cries. It converses using seven cries.",
 		fr: "Son langage comporte sept cris. Il les utilise pour faire vibrer l'air et projeter son ennemi."
 	},
 

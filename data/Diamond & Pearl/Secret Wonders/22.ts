@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its proud and regal appearance has captured the hearts of people since long ago.",
+	},
+
 	thirdParty: {
 		cardmarket: 277775,
 		tcgplayer: 83584

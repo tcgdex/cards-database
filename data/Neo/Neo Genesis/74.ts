@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Although it looks frightening, it is actually kind and affectionate. It is very popular.",

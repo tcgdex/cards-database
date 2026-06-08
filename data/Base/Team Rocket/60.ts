@@ -66,6 +66,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It is said that enough Magnemites and Magnetons gather in one place, they can create a powerful magnetic barrier.",

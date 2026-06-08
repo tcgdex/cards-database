@@ -45,6 +45,12 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -58,7 +64,8 @@ const card: Card = {
 	retreat: 3,
 
 	thirdParty: {
-		cardmarket: 576732
+		cardmarket: 576732,
+		tcgplayer: 251089
 	}
 }
 

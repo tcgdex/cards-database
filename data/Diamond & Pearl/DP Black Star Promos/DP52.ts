@@ -65,6 +65,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+	},
 
 	variants: [
 		{

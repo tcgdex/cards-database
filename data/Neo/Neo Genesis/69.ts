@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way.",

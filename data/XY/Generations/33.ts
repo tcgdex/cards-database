@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 288471,
 		tcgplayer: 113691

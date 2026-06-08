@@ -63,6 +63,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Tomokazu Komiya",
 	variants: [
 		{
 			type: "normal",

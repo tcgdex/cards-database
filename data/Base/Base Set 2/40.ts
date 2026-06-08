@@ -64,6 +64,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",

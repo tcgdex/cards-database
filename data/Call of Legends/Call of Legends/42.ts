@@ -85,6 +85,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",
+	},
 
 	thirdParty: {
 		cardmarket: 279685,

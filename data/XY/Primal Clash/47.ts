@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease.",
+	},
+
 	thirdParty: {
 		cardmarket: 273578,
 		tcgplayer: 95945

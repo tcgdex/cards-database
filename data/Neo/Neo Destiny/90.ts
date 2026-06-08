@@ -62,6 +62,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It possesses a type of radar, which it can use to find the insects it eats for food, even in pitch darkness.",

@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Can you handle the formation attack of the fearless Zangoose?",
+	},
+
 	thirdParty: {
 		cardmarket: 282533,
 		tcgplayer: 97068

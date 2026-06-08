@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
+	},
+
 	thirdParty: {
 		cardmarket: 282686,
 		tcgplayer: 98054

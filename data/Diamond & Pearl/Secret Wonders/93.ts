@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
+	},
+
 	thirdParty: {
 		cardmarket: 277846,
 		tcgplayer: 87048

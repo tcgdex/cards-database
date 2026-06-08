@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 		fr: "Il est le fruit de nombreuses expériences génétiques horribles et malsaines.",
 		it: "Questo Pokémon è stato creato da uno scienziato pazzo, dopo anni di esperimenti con mutazioni genetiche e manipolazioni di DNA. LIV 53 N.150"
 	},

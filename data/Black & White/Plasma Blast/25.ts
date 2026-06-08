@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Seemingly curious about people, they gather around footsteps they find on snowy mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 281046,
 		tcgplayer: 89407

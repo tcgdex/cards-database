@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its spines provide protection. Its fins and bones are prized as traditional-medicine ingredients.",
+	},
+
 	thirdParty: {
 		cardmarket: 280897,
 		tcgplayer: 89017

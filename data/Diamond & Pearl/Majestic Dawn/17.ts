@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
+	},
+
 	thirdParty: {
 		cardmarket: 278066,
 		tcgplayer: 85198

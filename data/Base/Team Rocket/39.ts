@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Some people say that Kadabras are responsible for many of the mysterious events reported in the news.",

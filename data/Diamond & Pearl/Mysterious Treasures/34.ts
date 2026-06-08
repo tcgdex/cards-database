@@ -71,8 +71,11 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
+		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
 		fr: "Le Pokémon le plus fainéant du monde. Il s'allonge pour économiser ses forces et contre-attaquer."
 	},
 

@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
+	},
 
 	thirdParty: {
 		cardmarket: 274792,

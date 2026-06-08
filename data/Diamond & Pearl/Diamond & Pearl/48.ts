@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It generates electricity by whirling its arms. However, it can't store the energy it makes.",
 		fr: "Il génère de l'électricité en battant des bras, mais il n'a aucun moyen de stocker cette énergie."
 	},
 

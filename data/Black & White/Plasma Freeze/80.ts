@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+	},
+
 	thirdParty: {
 		cardmarket: 280958,
 		tcgplayer: 87265

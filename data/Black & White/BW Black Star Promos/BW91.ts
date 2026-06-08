@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
+	},
 }
 
 export default card

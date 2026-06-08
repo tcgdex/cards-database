@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's drowsy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+	},
+
 	thirdParty: {
 		cardmarket: 291538,
 		tcgplayer: 121136

@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This ancient Pokémon uses its razor-sharp claws to cut open its prey and gain access to its blood.",

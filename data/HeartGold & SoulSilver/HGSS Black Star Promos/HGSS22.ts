@@ -59,6 +59,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It is a manmade Pokémon. Since it doesn't breathe, people are eager to try it in any environment..",
+	},
 
 	variants: [
 		{

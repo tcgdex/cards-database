@@ -49,6 +49,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+	},
+
 	thirdParty: {
 		cardmarket: 281176,
 		tcgplayer: 89885

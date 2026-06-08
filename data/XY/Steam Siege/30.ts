@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+	},
+
 	thirdParty: {
 		cardmarket: 291530,
 		tcgplayer: 121017

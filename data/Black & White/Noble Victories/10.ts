@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+	},
+
 	thirdParty: {
 		cardmarket: 280133,
 		tcgplayer: 83531

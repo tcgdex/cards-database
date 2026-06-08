@@ -81,8 +81,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
 		fr: "Il résiste à toute attaque frontale. C'est un Pokémon docile qui se nourrit d'herbe et de Baies."
 	},
 

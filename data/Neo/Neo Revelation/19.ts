@@ -71,6 +71,8 @@ const card: Card = {
 		},
 	],
 
+	retreat: 2,
+
 	description: {
 		en: "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
 		fr: "Il sommeille au fond de l'océan pour s'alimenter en énergie. On raconte qu'il provoque des tornades quand il se réveille."

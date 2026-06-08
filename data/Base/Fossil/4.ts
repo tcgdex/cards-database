@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",

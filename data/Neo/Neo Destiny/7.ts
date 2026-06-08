@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The flame it breathes is actually a volatile poison it produces internally that ignites when exposed to air.",

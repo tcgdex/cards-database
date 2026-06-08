@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The number of incidents of hackers using Magnetons to damage computer systems is steadily increasing.",

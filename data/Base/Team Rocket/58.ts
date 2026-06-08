@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "First discovered in a weapons factory, this Pokémon can now be found almost anywhere.",

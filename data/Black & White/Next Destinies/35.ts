@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 280260,
 		tcgplayer: 86306

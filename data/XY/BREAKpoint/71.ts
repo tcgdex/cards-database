@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 288246,
 		tcgplayer: 111609

@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+	},
+
 	thirdParty: {
 		cardmarket: 286366,
 		tcgplayer: 107239

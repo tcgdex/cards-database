@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+	},
+
 	thirdParty: {
 		cardmarket: 277907,
 		tcgplayer: 87899

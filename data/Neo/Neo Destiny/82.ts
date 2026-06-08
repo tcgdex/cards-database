@@ -48,6 +48,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This Pokémon is often seen crawling around in volcanic regions.",

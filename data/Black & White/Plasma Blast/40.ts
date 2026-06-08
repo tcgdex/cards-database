@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+	},
+
 	thirdParty: {
 		cardmarket: 281061,
 		tcgplayer: 87662

@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 281075,
 		tcgplayer: 83611

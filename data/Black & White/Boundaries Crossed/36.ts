@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280623,
 		tcgplayer: 87222

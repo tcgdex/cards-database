@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+	},
 
 	thirdParty: {
 		cardmarket: 279714,

@@ -71,6 +71,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
 		fr: "Il niche à l'ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d'encre opaque."
 	},
 

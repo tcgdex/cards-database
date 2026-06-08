@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+	},
+
 	thirdParty: {
 		cardmarket: 280364,
 		tcgplayer: 89686

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+	},
+
 	thirdParty: {
 		cardmarket: 278078,
 		tcgplayer: 88961

@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
+	},
+
 	thirdParty: {
 		cardmarket: 278808
 	},

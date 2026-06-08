@@ -30,6 +30,7 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
+	illustrator: "Toyste Beach",
 	variants: [
 		{
 			type: "holo",

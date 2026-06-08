@@ -14,6 +14,7 @@ const card: Card = {
   hp: 60,
 
 	dexId: [107],
+
 	stage: "Basic",
 
 	attacks: [{
@@ -35,6 +36,14 @@ const card: Card = {
 
 		damage: 50
 	}],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+
 
 	variants: [
 		{

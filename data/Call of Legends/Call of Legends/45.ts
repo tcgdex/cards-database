@@ -79,6 +79,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
+	},
+
 	thirdParty: {
 		cardmarket: 279688,
 		tcgplayer: 86346

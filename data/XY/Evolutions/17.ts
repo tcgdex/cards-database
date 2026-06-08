@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+	},
+
 	thirdParty: {
 		cardmarket: 293373,
 		tcgplayer: 124030

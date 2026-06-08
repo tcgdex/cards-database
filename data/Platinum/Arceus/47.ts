@@ -66,6 +66,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.",
+	},
+
 	thirdParty: {
 		cardmarket: 278900,
 		tcgplayer: 88586

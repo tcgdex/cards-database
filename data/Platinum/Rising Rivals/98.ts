@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. You may discard a card from your hand. Then, draw cards until you have 6 cards in your hand. (If you can't draw any cards, you can't play this card.)",
 		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
 		de: "Du kannst 1 Karte von deiner Hand auf deinen Ablagestapel legen. Danach ziehe so viele Karten, bis du 6 Karten auf der Hand hast. (Wenn du keine Karten ziehen kannst, kannst du diese Karte nicht spielen.)"
 	},

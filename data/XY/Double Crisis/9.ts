@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Seviper's tail is a sharp blade. It can even poison you!",
+	},
+
 	thirdParty: {
 		cardmarket: 282520,
 		tcgplayer: 97055

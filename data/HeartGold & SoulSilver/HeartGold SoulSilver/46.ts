@@ -34,10 +34,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Green Shield",
 				fr: "Bouclier vert",
 				de: "Grüner Schild"
 			},
 			effect: {
+				en: "Each of your Grass Pokémon has no Weakness.",
 				fr: "Vos Pokémon Grass ne subissent plus la Faiblesse.",
 				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
 			},

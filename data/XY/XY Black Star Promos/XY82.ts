@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
+	},
+
 	thirdParty: {
 		cardmarket: 289805
 	}
