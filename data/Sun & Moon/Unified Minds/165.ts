@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Every day, it tilts its head in the same rhythm. A long time ago, people raised these Pokémon to serve as clocks.",
+	},
+
 	thirdParty: {
 		cardmarket: 388612,
 		tcgplayer: 195165

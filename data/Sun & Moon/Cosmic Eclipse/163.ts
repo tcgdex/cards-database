@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it howls after finishing off its prey, the metallic sounds of its celebrating comrades can be heard from all around.",
+	},
+
 	thirdParty: {
 		cardmarket: 408444,
 		tcgplayer: 201647

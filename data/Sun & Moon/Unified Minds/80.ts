@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its round body is stuffed with souls and expands each time it leads someone away.",
+	},
+
 	thirdParty: {
 		cardmarket: 388207,
 		tcgplayer: 195010

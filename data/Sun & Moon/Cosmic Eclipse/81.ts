@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
+	},
+
 	thirdParty: {
 		cardmarket: 408049,
 		tcgplayer: 201256

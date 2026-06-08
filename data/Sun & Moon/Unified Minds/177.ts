@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
+	},
+
 	thirdParty: {
 		cardmarket: 388672,
 		tcgplayer: 195179

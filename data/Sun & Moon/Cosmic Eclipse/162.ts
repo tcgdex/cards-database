@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It makes noise by clanging its scales together. When the rhythm has reached its peak, Hakamo-o attacks.",
+	},
+
 	thirdParty: {
 		cardmarket: 408439,
 		tcgplayer: 201283

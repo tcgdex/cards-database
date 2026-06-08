@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+	},
 }
 
 export default card

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A master of grand and beautiful kicks, it can knock out even kickboxing champions with a single blow.",
+	},
+
 	thirdParty: {
 		cardmarket: 387927,
 		tcgplayer: 194935

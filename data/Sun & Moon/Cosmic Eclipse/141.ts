@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Although it can control its units known as Mini-Noses, they sometimes get lost and don't come back.",
+	},
+
 	thirdParty: {
 		cardmarket: 408354,
 		tcgplayer: 201186
