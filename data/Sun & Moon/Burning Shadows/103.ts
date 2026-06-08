@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.",
+	},
+
 	thirdParty: {
 		cardmarket: 299504,
 		tcgplayer: 138599

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+	},
+
 	thirdParty: {
 		cardmarket: 299455,
 		tcgplayer: 138533

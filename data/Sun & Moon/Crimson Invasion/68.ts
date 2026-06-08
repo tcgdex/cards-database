@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched.",
+	},
+
 	thirdParty: {
 		cardmarket: 311916,
 		tcgplayer: 149092

@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Large numbers of these Pokémon make their home at the seaside. At night, a strange red glow radiates from the center of their bodies.",
+	},
+
 	thirdParty: {
 		cardmarket: 311865,
 		tcgplayer: 149036

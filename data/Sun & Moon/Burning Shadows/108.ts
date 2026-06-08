@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.",
+	},
+
 	thirdParty: {
 		cardmarket: 299509,
 		tcgplayer: 138604

@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
+	},
+
 	thirdParty: {
 		cardmarket: 299415,
 		tcgplayer: 138278
