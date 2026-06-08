@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Thought to have gone extinct, Relicanth was given a name that is a variation of the name of the person who discovered it.",
+	},
+
 	thirdParty: {
 		cardmarket: 388357,
 		tcgplayer: 195064

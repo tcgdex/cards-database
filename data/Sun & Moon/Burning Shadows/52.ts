@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+	},
+
 	thirdParty: {
 		cardmarket: 299456,
 		tcgplayer: 138534

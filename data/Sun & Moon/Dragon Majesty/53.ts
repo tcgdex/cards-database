@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they're regrown.",
+	},
+
 	thirdParty: {
 		cardmarket: 363524,
 		tcgplayer: 175483

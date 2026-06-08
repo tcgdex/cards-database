@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+	},
+
 	thirdParty: {
 		cardmarket: 280393,
 		tcgplayer: 86538

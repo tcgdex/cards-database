@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy.",
+	},
+
 	thirdParty: {
 		cardmarket: 281680,
 		tcgplayer: 92190

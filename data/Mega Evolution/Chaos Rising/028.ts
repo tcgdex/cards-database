@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Flaaffy"
+		en: "Flaaffy",
+		fr: "Lainergie",
+		es: "Flaaffy",
+		'es-mx': "Flaaffy",
+		de: "Waaty",
+		it: "Flaaffy",
+		pt: "Flaaffy"
 	},
 
 	illustrator: "miki kudo",
@@ -33,14 +39,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Disconnect"
+			en: "Disconnect",
+			fr: "Déconnexion",
+			es: "Desconectar",
+			'es-mx': "Desconectar",
+			de: "Unterbrechen",
+			it: "Disconnessione",
+			pt: "Desconexão"
 		},
 
 		cost: ["Lightning", "Colorless"],
 		damage: 40,
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
+			fr: "Pendant son prochain tour, votre adversaire ne peut pas jouer de cartes Objet de sa main.",
+			es: "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
+			'es-mx': "Durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
+			de: "Dein Gegner kann während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen.",
+			it: "Durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
+			pt: "Durante o próximo turno do seu oponente, ele não poderá jogar nenhuma carta de Item da mão dele."
 		}
 	}],
 

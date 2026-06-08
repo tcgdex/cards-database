@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it's powerful enough to dig right through volcanic rock, it doesn't allow itself to be seen very often.",
+	},
+
 	thirdParty: {
 		cardmarket: 372410,
 		tcgplayer: 189220

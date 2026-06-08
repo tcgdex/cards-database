@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
+	},
+
 	thirdParty: {
 		cardmarket: 361263,
 		tcgplayer: 170826

@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Beldum"
+		en: "Beldum",
+		fr: "Terhal",
+		es: "Beldum",
+		'es-mx': "Beldum",
+		de: "Tanhel",
+		it: "Beldum",
+		pt: "Beldum"
 	},
 
 	illustrator: "toi8",
@@ -28,14 +34,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule",
+			es: "Golpe Cabeza",
+			'es-mx': "Golpe Cabeza",
+			de: "Kopfnuss",
+			it: "Bottintesta",
+			pt: "Cabeçada"
 		},
 
 		cost: ["Metal"],
 		damage: 10
 	}, {
 		name: {
-			en: "Beam"
+			en: "Beam",
+			fr: "Rayon",
+			es: "Transmisión",
+			'es-mx': "Rayo",
+			de: "Strahl",
+			it: "Raggio",
+			pt: "Feixe"
 		},
 
 		cost: ["Metal", "Colorless"],

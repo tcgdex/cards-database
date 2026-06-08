@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+	},
+
 	thirdParty: {
 		cardmarket: 368294,
 		tcgplayer: 183785

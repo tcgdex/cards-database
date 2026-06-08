@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It circles in the sky, keeping a keen eye out for Pokémon in a weakened state. Its choicest food is Cubone.",
+	},
+
 	thirdParty: {
 		cardmarket: 369023,
 		tcgplayer: 183871

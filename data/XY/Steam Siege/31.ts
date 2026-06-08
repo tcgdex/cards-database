@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As a result of strict training, each Dewott learns different forms for using the scalchops.",
+	},
+
 	thirdParty: {
 		cardmarket: 291566,
 		tcgplayer: 121018

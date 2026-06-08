@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+	},
+
 	thirdParty: {
 		cardmarket: 369051,
 		tcgplayer: 183913

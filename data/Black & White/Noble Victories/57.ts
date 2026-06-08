@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel it burns.",
+	},
+
 	thirdParty: {
 		cardmarket: 280180,
 		tcgplayer: 86808

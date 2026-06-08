@@ -72,6 +72,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Small and very docile, it protects itself with its small, poisonous horn when attacked.",
+	},
 }
 
 export default card

@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Once it has identified an enemy, this Pokémon smashes it mercilessly with pincers hard as steel.",
+	},
+
 	thirdParty: {
 		cardmarket: 365763,
 		tcgplayer: 178941

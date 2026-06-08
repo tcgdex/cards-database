@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.",
+	},
+
 	thirdParty: {
 		cardmarket: 279805,
 		tcgplayer: 86725

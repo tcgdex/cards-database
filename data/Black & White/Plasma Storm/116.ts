@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
+	},
+
 	thirdParty: {
 		cardmarket: 280856,
 		tcgplayer: 83952

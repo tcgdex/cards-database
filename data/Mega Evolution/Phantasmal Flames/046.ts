@@ -49,21 +49,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Takeshi Nakamura",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857621,
-				tcgplayer: 662136
+				tcgplayer: 662136,
+				cardtrader: 356829
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857621,
-				tcgplayer: 662136
+				tcgplayer: 662136,
+				cardtrader: 356829
 			}
-		}
+		},
 	],
 }
 

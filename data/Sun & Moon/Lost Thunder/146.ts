@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Some of Ribombee's pollen puffs are highly nutritious. They are sometimes sold as supplements.",
+	},
+
 	thirdParty: {
 		cardmarket: 365783,
 		tcgplayer: 178965

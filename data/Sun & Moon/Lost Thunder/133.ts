@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Jigglypuff posses a vocal range that exceeds 12 octaves, but each individual's singing skill depends on its own effort.",
+	},
+
 	thirdParty: {
 		cardmarket: 365770,
 		tcgplayer: 178952

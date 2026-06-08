@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",

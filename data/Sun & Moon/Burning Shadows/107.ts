@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+	},
+
 	thirdParty: {
 		cardmarket: 299508,
 		tcgplayer: 138603

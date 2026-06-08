@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+	},
+
 	thirdParty: {
 		cardmarket: 365764,
 		tcgplayer: 178942

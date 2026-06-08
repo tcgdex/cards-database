@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+	},
+
 	thirdParty: {
 		cardmarket: 280808,
 		tcgplayer: 85180

@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Megumi Mizutani",

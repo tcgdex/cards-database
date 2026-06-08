@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
+	},
+
 	thirdParty: {
 		cardmarket: 370774,
 		tcgplayer: 186015

@@ -108,6 +108,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.",
+	},
 }
 
 export default card

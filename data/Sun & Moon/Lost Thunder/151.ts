@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The guardian deity of Poni, it can control water. People say it can create pure water that will wash away any uncleanness.",
+	},
+
 	thirdParty: {
 		cardmarket: 365788,
 		tcgplayer: 178972

@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+	},
+
 	thirdParty: {
 		cardmarket: 281096,
 		tcgplayer: 89861

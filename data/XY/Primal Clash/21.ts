@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+	},
+
 	thirdParty: {
 		cardmarket: 273552,
 		tcgplayer: 95905

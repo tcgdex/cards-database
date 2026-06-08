@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Ferroseed"
+		en: "Ferroseed",
+		fr: "Grindur",
+		es: "Ferroseed",
+		'es-mx': "Ferroseed",
+		de: "Kastadur",
+		it: "Ferroseed",
+		pt: "Ferroseed"
 	},
 
 	illustrator: "OKUBO",
@@ -28,7 +34,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rolling Tackle"
+			en: "Rolling Tackle",
+			fr: "Roulé-Boulé",
+			es: "Placaje Giro",
+			'es-mx': "Tacleada Rodante",
+			de: "Rolltackle",
+			it: "Rollazione",
+			pt: "Golpe de Colisão Rolante"
 		},
 
 		cost: ["Metal", "Metal"],

@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Darkness"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",

@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They all cry out at once to let us know when they spot an enemy. It really helps out!",
+	},
+
 	thirdParty: {
 		cardmarket: 282521,
 		tcgplayer: 97056

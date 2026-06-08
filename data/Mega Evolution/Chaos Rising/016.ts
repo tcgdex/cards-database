@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Remoraid"
+		en: "Remoraid",
+		fr: "Rémoraid",
+		es: "Remoraid",
+		'es-mx': "Remoraid",
+		de: "Remoraid",
+		it: "Remoraid",
+		pt: "Remoraid"
 	},
 
 	illustrator: "Mori Yuu",
@@ -28,7 +34,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sharp Fin"
+			en: "Sharp Fin",
+			fr: "Aileron Aiguisé",
+			es: "Cortaleta",
+			'es-mx': "Aleta Afilada",
+			de: "Schneidige Flosse",
+			it: "Pinnaffilata",
+			pt: "Barbatana Afiada"
 		},
 
 		cost: ["Water"],

@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Froakie"
+		en: "Froakie",
+		fr: "Grenousse",
+		es: "Froakie",
+		'es-mx': "Froakie",
+		de: "Froxy",
+		it: "Froakie",
+		pt: "Froakie"
 	},
 
 	illustrator: "Kariya",
@@ -28,17 +34,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte",
+			es: "Coleccionar",
+			'es-mx': "Recolectar",
+			de: "Sammeln",
+			it: "Tassa",
+			pt: "Coleta"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			es: "Roba 1 carta.",
+			'es-mx': "Roba 1 carta.",
+			de: "Ziehe 1 Karte.",
+			it: "Pesca una carta.",
+			pt: "Compre uma carta."
 		}
 	}, {
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O",
+			es: "Pistola Agua",
+			'es-mx': "Chorro de Agua",
+			de: "Aquaknarre",
+			it: "Pistolacqua",
+			pt: "Revólver d'Água"
 		},
 
 		cost: ["Water"],

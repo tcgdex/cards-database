@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said that kids who drink Miltank's milk grow up to become hearty, healthy adults.",
+	},
+
 	thirdParty: {
 		cardmarket: 280971,
 		tcgplayer: 87467

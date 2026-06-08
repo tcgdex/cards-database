@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.",
+	},
+
 	thirdParty: {
 		cardmarket: 286279,
 		tcgplayer: 107152

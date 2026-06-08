@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+	},
+
 	thirdParty: {
 		cardmarket: 355523,
 		tcgplayer: 165649

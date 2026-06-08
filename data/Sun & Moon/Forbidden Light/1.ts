@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Six of them together form a full-fledged Pokémon. It's often hunted by Crabrawler, but uses psychokinesis to drive it off.",
+	},
+
 	thirdParty: {
 		cardmarket: 355522,
 		tcgplayer: 165648

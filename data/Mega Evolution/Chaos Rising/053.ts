@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Stunky"
+		en: "Stunky",
+		fr: "Moufouette",
+		es: "Stunky",
+		'es-mx': "Stunky",
+		de: "Skunkapuh",
+		it: "Stunky",
+		pt: "Stunky"
 	},
 
 	illustrator: "Nobuhiro Imagawa",
@@ -28,7 +34,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Scratch"
+			en: "Scratch",
+			fr: "Griffe",
+			es: "Arañazo",
+			'es-mx': "Arañazo",
+			de: "Kratzer",
+			it: "Graffio",
+			pt: "Arranhão"
 		},
 
 		cost: ["Darkness"],

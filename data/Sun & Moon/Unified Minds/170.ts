@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The world's laziest Pokémon. It moves to another spot when there's no food left within its reach.",
+	},
+
 	thirdParty: {
 		cardmarket: 388637,
 		tcgplayer: 195170

@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The mud stuck to Mudbray's hooves enhances its grip and its powerful running gait.",
+	},
+
 	thirdParty: {
 		cardmarket: 299479,
 		tcgplayer: 138563

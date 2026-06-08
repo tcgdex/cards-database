@@ -49,6 +49,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
+	},
+
 	thirdParty: {
 		cardmarket: 281337
 	}

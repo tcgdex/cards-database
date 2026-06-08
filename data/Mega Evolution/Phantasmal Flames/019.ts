@@ -63,21 +63,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Tomokazu Komiya",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857594,
-				tcgplayer: 662142
+				tcgplayer: 662142,
+				cardtrader: 356802
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857594,
-				tcgplayer: 662142
+				tcgplayer: 662142,
+				cardtrader: 356802
 			}
-		}
+		},
 	],
 }
 

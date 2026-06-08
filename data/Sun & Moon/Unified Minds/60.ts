@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It uses radar to monitor its territory. Intruders are quickly disposed of with a hyper beam.",
+	},
+
 	thirdParty: {
 		cardmarket: 388122,
 		tcgplayer: 194986

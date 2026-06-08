@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+	},
+
 	thirdParty: {
 		cardmarket: 355658,
 		tcgplayer: 165724

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+	},
+
 	thirdParty: {
 		cardmarket: 280295,
 		tcgplayer: 90534

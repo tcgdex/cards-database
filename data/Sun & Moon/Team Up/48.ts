@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+	},
+
 	thirdParty: {
 		cardmarket: 368979,
 		tcgplayer: 183823

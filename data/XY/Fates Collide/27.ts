@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+	},
+
 	thirdParty: {
 		cardmarket: 289853,
 		tcgplayer: 117787

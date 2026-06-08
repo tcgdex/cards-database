@@ -51,21 +51,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857653,
-				tcgplayer: 662126
+				tcgplayer: 662126,
+				cardtrader: 356864
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857653,
-				tcgplayer: 662126
+				tcgplayer: 662126,
+				cardtrader: 356864
 			}
-		}
+		},
 	],
 }
 

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It raises its offspring in its belly pouch. It lets the baby play only when it feels safe.",
+	},
+
 	thirdParty: {
 		cardmarket: 281092,
 		tcgplayer: 86424

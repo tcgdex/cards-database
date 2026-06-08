@@ -77,6 +77,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+	},
+
 	thirdParty: {
 		cardmarket: 691898
 	}

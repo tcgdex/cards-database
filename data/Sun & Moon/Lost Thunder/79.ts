@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 365717,
 		tcgplayer: 178888

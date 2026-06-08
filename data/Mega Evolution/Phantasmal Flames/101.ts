@@ -65,14 +65,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Ryoto Muriyama",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857676,
-				tcgplayer: 662160
+				tcgplayer: 662160,
+				cardtrader: 356887
 			}
-		}
+		},
 	],
 }
 

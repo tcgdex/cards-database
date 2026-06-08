@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+	},
+
 	thirdParty: {
 		cardmarket: 299453,
 		tcgplayer: 138531

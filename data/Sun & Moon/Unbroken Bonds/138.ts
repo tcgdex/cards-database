@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+	},
+
 	thirdParty: {
 		cardmarket: 372425,
 		tcgplayer: 189236

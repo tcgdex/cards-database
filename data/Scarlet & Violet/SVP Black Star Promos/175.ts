@@ -82,6 +82,11 @@ const card: Card = {
 	regulationMark: "H",
 	suffix: "ex",
 	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

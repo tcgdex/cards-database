@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in arid locations. Its yellow flowers bloom once a year.",
+	},
+
 	thirdParty: {
 		cardmarket: 311855,
 		tcgplayer: 149026

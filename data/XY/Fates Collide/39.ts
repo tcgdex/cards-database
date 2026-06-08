@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A slim and fast swimmer. It slices its prey with its sharp sickles and drinks the body fluids.",
+	},
+
 	thirdParty: {
 		cardmarket: 289865,
 		tcgplayer: 117799

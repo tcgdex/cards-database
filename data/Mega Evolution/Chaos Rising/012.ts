@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Braixen"
+		en: "Braixen",
+		fr: "Roussil",
+		es: "Braixen",
+		'es-mx': "Braixen",
+		de: "Rutena",
+		it: "Braixen",
+		pt: "Braixen"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -33,14 +39,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flamethrower"
+			en: "Flamethrower",
+			fr: "Lance-Flammes",
+			es: "Lanzallamas",
+			'es-mx': "Lanzallamas",
+			de: "Flammenwurf",
+			it: "Lanciafiamme",
+			pt: "Lança-chamas"
 		},
 
 		cost: ["Fire", "Fire"],
 		damage: 80,
 
 		effect: {
-			en: "Discard an Energy from this Pokémon."
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			'es-mx': "Descarta 1 Energía de este Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon.",
+			pt: "Descarte uma Energia deste Pokémon."
 		}
 	}],
 

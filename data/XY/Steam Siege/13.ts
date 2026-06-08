@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+	},
+
 	thirdParty: {
 		cardmarket: 291520,
 		tcgplayer: 121002

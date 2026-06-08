@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
+	},
+
 	thirdParty: {
 		cardmarket: 365704,
 		tcgplayer: 178875

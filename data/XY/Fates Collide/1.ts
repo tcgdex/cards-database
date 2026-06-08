@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores Berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+	},
+
 	thirdParty: {
 		cardmarket: 289827,
 		tcgplayer: 117764

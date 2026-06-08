@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",

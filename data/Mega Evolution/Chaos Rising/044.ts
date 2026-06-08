@@ -15,7 +15,13 @@ const card: Card = {
 	],
 
 	name: {
-		en: "Phanpy"
+		en: "Phanpy",
+		fr: "Phanpy",
+		es: "Phanpy",
+		'es-mx': "Phanpy",
+		de: "Phanpy",
+		it: "Phanpy",
+		pt: "Phanpy"
 	},
 
 	illustrator: "Akino Fukuji",
@@ -28,14 +34,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap"
+			en: "Mud-Slap",
+			fr: "Coud'Boue",
+			es: "Bofetón Lodo",
+			'es-mx': "Bofetón Lodo",
+			de: "Lehmschelle",
+			it: "Fangosberla",
+			pt: "Tapa de Lama"
 		},
 
 		cost: ["Fighting"],
 		damage: 10
 	}, {
 		name: {
-			en: "Rollout"
+			en: "Rollout",
+			fr: "Roulade",
+			es: "Rodar",
+			'es-mx': "Rodada",
+			de: "Walzer",
+			it: "Rotolamento",
+			pt: "Rolagem"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],

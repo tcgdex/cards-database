@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 286369,
 		tcgplayer: 107242

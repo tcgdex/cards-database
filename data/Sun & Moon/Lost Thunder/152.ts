@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Not only are these Pokémon fast runners, they're also few in number, so anyone who finds one must be lucky indeed.",
+	},
+
 	thirdParty: {
 		cardmarket: 365789,
 		tcgplayer: 178973
