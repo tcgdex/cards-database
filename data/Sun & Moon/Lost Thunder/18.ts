@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With its Herculean powers, it can easily throw around an object that is 100 times its own weight.",
+	},
+
 	thirdParty: {
 		cardmarket: 365611,
 		tcgplayer: 178817

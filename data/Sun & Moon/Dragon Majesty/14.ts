@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
+	},
+
 	thirdParty: {
 		cardmarket: 363486,
 		tcgplayer: 175366

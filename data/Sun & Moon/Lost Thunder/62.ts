@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+	},
+
 	thirdParty: {
 		cardmarket: 365700,
 		tcgplayer: 178871

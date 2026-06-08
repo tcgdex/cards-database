@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+	},
+
 	thirdParty: {
 		cardmarket: 355574,
 		tcgplayer: 165705

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It draws symbols all over the place to mark its territory. In towns with many Smeargle, the walls are covered in graffiti.",
+	},
+
 	thirdParty: {
 		cardmarket: 365794,
 		tcgplayer: 178978
