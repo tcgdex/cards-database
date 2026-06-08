@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If it is around babies, it milk it produces contains much more nutrition than usual.",
+	},
+
 	thirdParty: {
 		cardmarket: 281293,
 		tcgplayer: 87468

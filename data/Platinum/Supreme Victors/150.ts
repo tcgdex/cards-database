@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This legendary Pokémon is said to be present wherever there is a lightning storm.",
+	},
+
 	thirdParty: {
 		cardmarket: 278739
 	},

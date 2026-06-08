@@ -54,6 +54,12 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -62,6 +68,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
 	},
 
 	thirdParty: {

@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [778],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,

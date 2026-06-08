@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+	},
+
 	thirdParty: {
 		cardmarket: 291567,
 		tcgplayer: 121019

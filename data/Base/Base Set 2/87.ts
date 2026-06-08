@@ -57,6 +57,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",

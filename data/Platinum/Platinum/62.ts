@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is outstandingly armored. As a result, it can eat grass and berries without having to fight.",
+	},
+
 	thirdParty: {
 		cardmarket: 278483,
 		tcgplayer: 89151

@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
+	},
+
 	thirdParty: {
 		cardmarket: 281248,
 		tcgplayer: 84733

@@ -69,6 +69,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Magearna, with its metallic body, is an artificial Pokémon created 500 years ago by humans.",
+	},
 
 	thirdParty: {
 		cardmarket: 295156

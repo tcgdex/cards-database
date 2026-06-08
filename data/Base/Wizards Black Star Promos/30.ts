@@ -62,8 +62,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Still only a hatchling, it uses poison to chase off its enemies when threatened.",
 		fr: "Même si ce n'est qu'un poussin, il utilise un poison pour repousser ses ennemis quand il se sent menacé."
 	},
 

@@ -84,6 +84,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 279673,
 		tcgplayer: 88035

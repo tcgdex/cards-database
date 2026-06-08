@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It likes playing mischievous tricks, such as screaming and wailing to startle people at night.",
+	},
+
 	thirdParty: {
 		cardmarket: 286311,
 		tcgplayer: 107184

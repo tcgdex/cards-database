@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
+	},
+
 	thirdParty: {
 		cardmarket: 278061,
 		tcgplayer: 88007

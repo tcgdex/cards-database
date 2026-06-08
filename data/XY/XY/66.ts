@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+	},
+
 	thirdParty: {
 		cardmarket: 281403,
 		tcgplayer: 85984

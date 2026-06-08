@@ -49,7 +49,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+	},
 	variants: [
 		{
 			type: "holo",

@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -74,6 +80,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
 	},
 
 	thirdParty: {

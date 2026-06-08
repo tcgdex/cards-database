@@ -48,7 +48,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
+
+	description: {
+		en: "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
+	},
 	thirdParty: {
 		cardmarket: 275643,
 		tcgplayer: 46470

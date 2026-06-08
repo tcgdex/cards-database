@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster.",
+	},
+
 	thirdParty: {
 		cardmarket: 279813,
 		tcgplayer: 86474

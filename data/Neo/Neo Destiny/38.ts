@@ -82,8 +82,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is encased within a hard shell, yet retains a great deal of mobility—a dangerous combination.",
 		fr: "Il est protégé par une solide carapace, mais il garde une grande mobilité... Une combinaison dangereuse."
 	},
 

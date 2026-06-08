@@ -51,6 +51,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
 		fr: "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit."
 	},
 

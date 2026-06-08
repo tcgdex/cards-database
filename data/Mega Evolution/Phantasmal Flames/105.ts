@@ -65,6 +65,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Naoyo Kimura",
 	variants: [
 		{
 			type: 'holo',

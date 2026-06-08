@@ -51,6 +51,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Kazumasa Yasukuni",
 	variants: [
 		{
 			type: 'normal',

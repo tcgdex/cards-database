@@ -78,8 +78,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The larger its tusks, the higher its status in the herd.",
 		fr: "Plus ses défenses sont grosses, plus c'est un membre important du troupeau."
 	},
 

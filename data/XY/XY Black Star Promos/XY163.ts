@@ -67,6 +67,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+	},
 
 	thirdParty: {
 		cardmarket: 295154

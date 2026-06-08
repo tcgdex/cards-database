@@ -77,6 +77,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
+	},
 
 	thirdParty: {
 		cardmarket: 279669,

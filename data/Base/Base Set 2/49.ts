@@ -66,6 +66,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It latches on to prey with its sucker mouth, sinking in its fangs and shocking the prey with powerful electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 281054,
 		tcgplayer: 85072

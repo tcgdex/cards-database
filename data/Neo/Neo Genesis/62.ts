@@ -54,6 +54,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin.",
 		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
 	},
 

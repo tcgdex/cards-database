@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 278086,
 		tcgplayer: 85917

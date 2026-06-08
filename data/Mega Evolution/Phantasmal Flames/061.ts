@@ -83,6 +83,7 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
 			type: 'holo',

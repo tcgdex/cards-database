@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+	},
+
 	thirdParty: {
 		cardmarket: 282678,
 		tcgplayer: 98046

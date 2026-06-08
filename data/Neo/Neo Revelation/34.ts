@@ -75,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It traps enemies with its suction cupped tentacles then smashes them with its rockhard head.",
 		fr: "Il attrape ses ennemis avec les ventouses de ses tentacules et les écrase d'un coup de sa tête dure."
 	},
 

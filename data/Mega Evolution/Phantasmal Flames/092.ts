@@ -30,6 +30,7 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
+	illustrator: "Studio Bora Inc.",
 	variants: [
 		{
 			type: 'normal',

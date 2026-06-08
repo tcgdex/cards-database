@@ -58,6 +58,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+	},
 
 	variants: [
 		{

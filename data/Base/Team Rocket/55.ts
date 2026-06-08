@@ -72,8 +72,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A rare and unique Pokémon about which little is known, as few have been captured.",
 		fr: "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés."
 	},
 

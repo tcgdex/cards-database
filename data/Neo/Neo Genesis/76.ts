@@ -78,8 +78,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
 		fr: "Les bois courbés changent le flot d'air afin de créer un espace étrange où la réalité est déformée."
 	},
 

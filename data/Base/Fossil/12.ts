@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",

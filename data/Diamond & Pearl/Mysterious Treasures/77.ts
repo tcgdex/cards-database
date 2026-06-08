@@ -72,8 +72,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
 		fr: "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil."
 	},
 

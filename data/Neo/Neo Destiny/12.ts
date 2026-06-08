@@ -76,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This legendary Chinese Pokémon is easily recognized by its large flowing mane.",
 		fr: "Ce légendaire Pokémon chinois est facilement reconnaissable de par sa grande crinière."
 	},
 

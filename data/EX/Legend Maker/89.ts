@@ -79,6 +79,16 @@ const card: Card = {
 	],
 
 	
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 
 	thirdParty: {

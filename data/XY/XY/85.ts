@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 281422,
 		tcgplayer: 83462

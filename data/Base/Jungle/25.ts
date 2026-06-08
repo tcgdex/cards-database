@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",

@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+	},
 }
 
 export default card

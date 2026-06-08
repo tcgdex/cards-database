@@ -81,6 +81,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+	},
 
 	thirdParty: {
 		cardmarket: 279671,

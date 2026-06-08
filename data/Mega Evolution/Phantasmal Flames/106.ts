@@ -51,6 +51,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	illustrator: "Uninori",
 	variants: [
 		{
 			type: 'holo',

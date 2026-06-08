@@ -80,6 +80,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+	},
+
 	thirdParty: {
 		cardmarket: 278759
 	},

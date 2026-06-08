@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
 		fr: "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente."
 	},
 

@@ -67,8 +67,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is a pantomime expert that can create invisible but solid walls using miming gestures.",
 		fr: "Un expert de la pantomime dont les gestes façonnent de solides murs invisibles."
 	},
 

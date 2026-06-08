@@ -31,8 +31,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It is so powerful, it can knock down a mountain with hust one arm.",
 		fr: "Il est si puissant qu'il peut renverser une montagne d'un coup de coude."
 	},
 

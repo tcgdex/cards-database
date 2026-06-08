@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+	},
+
 	thirdParty: {
 		cardmarket: 278516,
 		tcgplayer: 89299

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+	},
+
 	thirdParty: {
 		cardmarket: 280163,
 		tcgplayer: 85067

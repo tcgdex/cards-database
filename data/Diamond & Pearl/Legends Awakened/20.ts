@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
 		fr: "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil."
 	},
 

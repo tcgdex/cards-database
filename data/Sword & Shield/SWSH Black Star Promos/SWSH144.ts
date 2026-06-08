@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [658],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -66,7 +72,11 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	thirdParty: {
+		tcgplayer: 248731
+	}
 }
 
 export default card

@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its huge mouth is almost seven feet across. It has enough power to completely crush a car.",
+	},
+
 	thirdParty: {
 		cardmarket: 278070,
 		tcgplayer: 86084

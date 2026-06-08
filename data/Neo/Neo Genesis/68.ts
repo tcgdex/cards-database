@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Awakened by moonlight, it roams actively at night. In the day it stays quietly underground.",
 		fr: "Réveillé par le clair de lune, il rode pendant la nuit. Le jour, il reste tranquillement sous terre."
 	},
 

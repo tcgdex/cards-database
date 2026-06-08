@@ -76,8 +76,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
 		fr: "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout."
 	},
 

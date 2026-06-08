@@ -67,6 +67,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+	},
+
 	thirdParty: {
 		cardmarket: 691824,
 		tcgplayer: 478216

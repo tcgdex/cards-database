@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Flitting around in the dead of night, it sinks its fangs into its prey and drains a nearly fatal amount of blood.",
+	},
+
 	thirdParty: {
 		cardmarket: 280794,
 		tcgplayer: 85798

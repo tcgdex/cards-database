@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+	},
+
 	thirdParty: {
 		cardmarket: 278491,
 		tcgplayer: 84288

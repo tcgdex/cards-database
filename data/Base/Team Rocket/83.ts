@@ -58,8 +58,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone.",
 		fr: "Il emmagasine l'électricité dans son corps, puis la libère sans prévenir afin de surprendre et commotionner tout le monde."
 	},
 

@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+	},
+
 	thirdParty: {
 		cardmarket: 281816,
 		tcgplayer: 94146

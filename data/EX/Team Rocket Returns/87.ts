@@ -14,6 +14,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Pokémon with Dark or Rocket's in its name (both yours and your opponent's) gets +20 HP.",
 		de: "Each Pokémon with Dark of Rocket's in its name (both yours an your opponent's) gets +20 HP."
 	},
 

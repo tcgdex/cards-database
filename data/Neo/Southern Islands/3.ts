@@ -62,7 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
+
+	description: {
+		en: "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+	},
 	thirdParty: {
 		cardmarket: 275633,
 		tcgplayer: 46477

@@ -82,6 +82,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
 		fr: "Il ne peut pas vivre sans son légume, c'est pourquoi il le protégera au péril de sa vie."
 	},
 

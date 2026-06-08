@@ -49,6 +49,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Takeshi Nakamura",
 	variants: [
 		{
 			type: 'normal',

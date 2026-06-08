@@ -59,8 +59,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It moves with its sensitive nose pressed to the ground, always searching for food.",
 		fr: "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture."
 	},
 

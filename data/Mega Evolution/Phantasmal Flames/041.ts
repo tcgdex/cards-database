@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "aky CG Works",
 	variants: [
 		{
 			type: 'holo',

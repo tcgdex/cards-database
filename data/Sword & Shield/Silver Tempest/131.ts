@@ -77,6 +77,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "It's a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
+	},
+
 	thirdParty: {
 		cardmarket: 682178,
 		tcgplayer: 451784

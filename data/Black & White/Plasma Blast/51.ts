@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+	},
+
 	thirdParty: {
 		cardmarket: 281072,
 		tcgplayer: 89902

@@ -65,8 +65,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
 		fr: "Il utilise différents types d'aboiements pour communiquer avec les autres de son espèce et pour chasser sa proie."
 	},
 

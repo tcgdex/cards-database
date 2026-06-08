@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 278784
 	},

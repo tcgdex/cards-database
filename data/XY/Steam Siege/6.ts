@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+	},
+
 	thirdParty: {
 		cardmarket: 291513,
 		tcgplayer: 120995

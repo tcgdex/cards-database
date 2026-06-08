@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It burrows and lives underground. If threatened, it curls itself up into a ball for protection.",
+	},
+
 	thirdParty: {
 		cardmarket: 293408,
 		tcgplayer: 124067

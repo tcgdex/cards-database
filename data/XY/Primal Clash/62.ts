@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+	},
+
 	thirdParty: {
 		cardmarket: 273593,
 		tcgplayer: 95960

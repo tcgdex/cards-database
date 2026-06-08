@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It wield the fur on its arms like a whip. Its arms attacks come with such rapidity that they cannot even be seen.",
+	},
+
 	thirdParty: {
 		cardmarket: 280193,
 		tcgplayer: 87440

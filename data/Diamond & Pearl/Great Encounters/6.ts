@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
+	},
+
 	thirdParty: {
 		cardmarket: 277908,
 		tcgplayer: 88315

@@ -55,6 +55,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
 		fr: "Sa bouée est pareille à un collier gonflable. Quand il flotte, il garde la tête à l'air libre."
 	},
 

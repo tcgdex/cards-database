@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "No matter what happens, if we stick together, we can get past it. Forever and ever.",
+	},
+
 	thirdParty: {
 		cardmarket: 288405
 	}

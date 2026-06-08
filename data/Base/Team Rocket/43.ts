@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",
 		fr: "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
 	},
 

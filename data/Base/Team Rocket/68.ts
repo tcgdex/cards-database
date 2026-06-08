@@ -48,8 +48,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Cute Pokémon that charms people with its innocent eyes. Loves swimming all day long.",
 		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
 	},
 

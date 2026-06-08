@@ -71,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
 		fr: "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin."
 	},
 

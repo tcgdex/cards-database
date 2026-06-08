@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "You can't keep up with its movements underwater, can you? If you get caught in this whirlpool, there'll be no escape.",
+	},
+
 	thirdParty: {
 		cardmarket: 282531,
 		tcgplayer: 97066

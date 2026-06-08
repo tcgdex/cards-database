@@ -52,8 +52,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
 		fr: "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
 	},
 

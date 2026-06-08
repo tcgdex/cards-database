@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Shibuzoh.",
 	variants: [
 		{
 			type: 'holo',

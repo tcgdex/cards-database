@@ -51,6 +51,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "NC Empire",
 	variants: [
 		{
 			type: 'normal',

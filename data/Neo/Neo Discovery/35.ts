@@ -50,8 +50,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
 		fr: "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier."
 	},
 

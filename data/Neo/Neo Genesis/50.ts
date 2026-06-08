@@ -58,8 +58,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
 		fr: "Il convertit la lumière solaire en énergie. Dans l'obscurité après le coucher du soleil, il ferme ses pétales et demeure immobile."
 	},
 

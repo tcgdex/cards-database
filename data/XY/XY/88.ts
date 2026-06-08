@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
+	},
+
 	thirdParty: {
 		cardmarket: 281424,
 		tcgplayer: 86323

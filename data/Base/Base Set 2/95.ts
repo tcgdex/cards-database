@@ -43,6 +43,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",

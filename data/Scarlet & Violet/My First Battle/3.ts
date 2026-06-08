@@ -2,7 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../My First Battle"
 
 const card: Card = {
-	dexId: [2],
+	dexId: [43],
 	set: Set,
 
 	name: {
