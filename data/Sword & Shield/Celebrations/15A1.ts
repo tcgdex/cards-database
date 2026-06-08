@@ -45,6 +45,10 @@ const card: Card = {
 		reverse: false
 	},
 
+	description: {
+		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+	},
+
 	thirdParty: {
 		cardmarket: 576773
 	}

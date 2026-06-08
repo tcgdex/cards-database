@@ -19,6 +19,18 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "KIYOTAKA OSHIYAMA",

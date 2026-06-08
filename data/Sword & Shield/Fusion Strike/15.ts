@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kagemaru Himeno",
