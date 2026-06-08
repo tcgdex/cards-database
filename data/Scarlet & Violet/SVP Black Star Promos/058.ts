@@ -68,7 +68,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Lee HyunJung"
+	illustrator: "Lee HyunJung",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

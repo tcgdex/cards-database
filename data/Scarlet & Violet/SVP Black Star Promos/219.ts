@@ -29,7 +29,12 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "H",
-	illustrator: "GOSSAN"
+	illustrator: "GOSSAN",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card
