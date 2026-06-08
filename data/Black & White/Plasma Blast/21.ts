@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+	},
+
 	thirdParty: {
 		cardmarket: 281042,
 		tcgplayer: 89404

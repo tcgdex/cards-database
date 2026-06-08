@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+	},
+
 	thirdParty: {
 		cardmarket: 281349,
 		tcgplayer: 84269

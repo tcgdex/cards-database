@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 280396,
 		tcgplayer: 88979

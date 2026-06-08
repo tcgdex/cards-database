@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life.",
+	},
+
 	thirdParty: {
 		cardmarket: 286353,
 		tcgplayer: 107226

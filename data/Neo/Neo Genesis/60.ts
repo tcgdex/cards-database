@@ -71,6 +71,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It always stands on one foot. It changes feet so fast that the movement can rarely be seen.",

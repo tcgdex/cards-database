@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tongue is just like a human's. As a result, it can cleverly mimic human speech.",
+	},
+
 	thirdParty: {
 		cardmarket: 281098,
 		tcgplayer: 84244

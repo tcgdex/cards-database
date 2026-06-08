@@ -58,6 +58,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "It is hard for it to support its own weight out of water, so it gets down on all fours. But it moves fast.",

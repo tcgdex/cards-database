@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
+	},
+
 	thirdParty: {
 		cardmarket: 288188,
 		tcgplayer: 111516

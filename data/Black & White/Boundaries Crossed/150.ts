@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+	},
+
 	thirdParty: {
 		cardmarket: 280737,
 		tcgplayer: 85837

@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+	},
+
 	thirdParty: {
 		cardmarket: 280693,
 		tcgplayer: 87328

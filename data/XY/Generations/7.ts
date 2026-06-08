@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+	},
+
 	thirdParty: {
 		cardmarket: 288449,
 		tcgplayer: 113665

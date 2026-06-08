@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The minigear spins at high speed. Then the energy from the red core charges the minigear to make it ready to fire.",
+	},
+
 	thirdParty: {
 		cardmarket: 280830,
 		tcgplayer: 86488

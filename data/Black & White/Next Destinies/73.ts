@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It immediately headbutts anyones that makes eye contact with it. Its skull is massively thick.",
+	},
+
 	thirdParty: {
 		cardmarket: 280298,
 		tcgplayer: 88983

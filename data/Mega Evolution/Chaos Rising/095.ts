@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Sliggoo"
+		en: "Sliggoo",
+		fr: "Colimucus",
+		es: "Sliggoo",
+		'es-mx': "Sliggoo",
+		de: "Viscargot",
+		it: "Sliggoo",
+		pt: "Sliggoo"
 	},
 
 	illustrator: "aspara",
@@ -30,7 +36,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap"
+			en: "Gentle Slap",
+			fr: "Gifle Douce",
+			es: "Bofetada Gentil",
+			'es-mx': "Cachetadita",
+			de: "Sanfter Hieb",
+			it: "Schiaffetto",
+			pt: "Tapinha"
 		},
 
 		cost: ["Water", "Psychic"],
@@ -41,7 +53,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693546
+		tcgplayer: 693546,
+		cardmarket: 886486
 	}
 }
 

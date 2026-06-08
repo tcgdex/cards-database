@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.",
+	},
+
 	thirdParty: {
 		cardmarket: 273609,
 		tcgplayer: 95976

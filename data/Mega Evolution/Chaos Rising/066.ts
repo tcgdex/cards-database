@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Goomy"
+		en: "Goomy",
+		fr: "Mucuscule",
+		es: "Goomy",
+		'es-mx': "Goomy",
+		de: "Viscora",
+		it: "Goomy",
+		pt: "Goomy"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -25,14 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Absorb"
+			en: "Absorb",
+			fr: "Vole-Vie",
+			es: "Absorber",
+			'es-mx': "Absorción",
+			de: "Absorber",
+			it: "Assorbimento",
+			pt: "Absorção"
 		},
 
 		cost: ["Water", "Psychic"],
 		damage: 30,
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			es: "Cura 30 puntos de daño a este Pokémon.",
+			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
+			it: "Cura questo Pokémon da 30 danni.",
+			pt: "Cure 30 pontos de dano deste Pokémon."
 		}
 	}],
 
@@ -40,7 +58,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693496
+		tcgplayer: 693496,
+		cardmarket: 886458
 	}
 }
 

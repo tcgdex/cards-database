@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Meowstic"
+		en: "Meowstic",
+		fr: "Mistigrix",
+		es: "Meowstic",
+		'es-mx': "Meowstic",
+		de: "Psiaugon",
+		it: "Meowstic",
+		pt: "Meowstic"
 	},
 
 	illustrator: "mingo",
@@ -30,14 +36,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tricky Steps"
+			en: "Tricky Steps",
+			fr: "Pas Délicats",
+			es: "Pasos Astutos",
+			'es-mx': "Pasos Astutos",
+			de: "Listiges Vorgehen",
+			it: "Passinganno",
+			pt: "Passos Ardilosos"
 		},
 
 		cost: ["Psychic", "Colorless"],
 		damage: 80,
 
 		effect: {
-			en: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon."
+			en: "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			fr: "Vous pouvez déplacer une Énergie du Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
+			es: "Puedes mover 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
+			'es-mx': "Puedes mover 1 Energía del Pokémon Activo de tu rival a 1 de sus Pokémon en Banca.",
+			de: "Du kannst 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben.",
+			it: "Puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei Pokémon nella sua panchina.",
+			pt: "Você pode mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele."
 		}
 	}],
 
@@ -55,7 +73,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693521
+		tcgplayer: 693521,
+		cardmarket: 886429
 	}
 }
 

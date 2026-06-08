@@ -64,6 +64,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+	},
 }
 
 export default card

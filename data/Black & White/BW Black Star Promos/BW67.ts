@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The tip of its tail shines brightly. In the olden days, people sent signals using the tail's light.",
+	},
 }
 
 export default card

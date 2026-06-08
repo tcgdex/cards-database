@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses.",
+	},
+
 	thirdParty: {
 		cardmarket: 280199,
 		tcgplayer: 83843

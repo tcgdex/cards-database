@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its internal fire burns at 2,500º F, making enough power that it can destroy a dump truck with one punch.",
+	},
+
 	thirdParty: {
 		cardmarket: 279986,
 		tcgplayer: 84714

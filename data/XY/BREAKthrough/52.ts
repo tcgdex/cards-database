@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It moves while constantly hovering. It discharges Thunder Wave and so on from the units at its sides.",
+	},
+
 	thirdParty: {
 		cardmarket: 286297,
 		tcgplayer: 107171

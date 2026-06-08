@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Intense silence. Two lamplights. Keep waiting for night to end.",
+	},
+
 	thirdParty: {
 		cardmarket: 288475
 	}

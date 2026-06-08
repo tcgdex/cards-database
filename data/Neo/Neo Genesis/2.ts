@@ -72,6 +72,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",

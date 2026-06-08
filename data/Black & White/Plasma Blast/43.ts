@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When their two divided brains think the same thoughts, their psychic power is maximized.",
+	},
+
 	thirdParty: {
 		cardmarket: 281064,
 		tcgplayer: 85018

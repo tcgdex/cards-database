@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+	},
+
 	thirdParty: {
 		cardmarket: 279786,
 		tcgplayer: 87641

@@ -77,6 +77,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
+	},
+
 	thirdParty: {
 		cardmarket: 682177,
 		tcgplayer: 451783

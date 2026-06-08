@@ -63,21 +63,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857654,
 				tcgplayer: 662127
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857654,
-				tcgplayer: 662127
+				tcgplayer: 662127,
+				cardtrader: 356865
 			}
-		}
+		},
 	],
 }
 

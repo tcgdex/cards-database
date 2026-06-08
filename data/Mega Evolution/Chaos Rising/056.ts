@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Trubbish"
+		en: "Trubbish",
+		fr: "Miamiasme",
+		es: "Trubbish",
+		'es-mx': "Trubbish",
+		de: "Unratütox",
+		it: "Trubbish",
+		pt: "Trubbish"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -25,14 +31,26 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Acid Spray"
+			en: "Acid Spray",
+			fr: "Bombe Acide",
+			es: "Bomba Ácida",
+			'es-mx': "Bomba Ácida",
+			de: "Säurespeier",
+			it: "Acidobomba",
+			pt: "Spray Ácido"
 		},
 
 		cost: ["Darkness"],
 		damage: 10,
 
 		effect: {
-			en: "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			'es-mx': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente."
 		}
 	}],
 
@@ -45,7 +63,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693557
+		tcgplayer: 693557,
+		cardmarket: 886448
 	}
 }
 

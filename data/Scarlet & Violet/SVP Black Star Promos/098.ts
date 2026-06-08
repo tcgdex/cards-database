@@ -59,12 +59,22 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "Tonji Matsuno",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 543948
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['pokemon-center'],
+			thirdParty: {
+				tcgplayer: 543949
+			}
+		},
 	],
+	illustrator: "Tonji Matsuno"
 }
 
 export default card

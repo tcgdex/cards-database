@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+	},
+
 	thirdParty: {
 		cardmarket: 280127,
 		tcgplayer: 87992

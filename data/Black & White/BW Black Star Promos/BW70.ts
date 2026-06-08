@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.",
+	},
 }
 
 export default card

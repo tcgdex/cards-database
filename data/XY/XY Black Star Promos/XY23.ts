@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
+	},
+
 	thirdParty: {
 		cardmarket: 281307
 	}

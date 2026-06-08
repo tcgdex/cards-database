@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+	},
+
 	thirdParty: {
 		cardmarket: 280447,
 		tcgplayer: 83760

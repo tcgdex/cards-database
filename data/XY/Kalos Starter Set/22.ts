@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+	},
+
 	thirdParty: {
 		cardmarket: 281288,
 		tcgplayer: 89418

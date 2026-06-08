@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
+	},
+
 	thirdParty: {
 		cardmarket: 293403,
 		tcgplayer: 124060

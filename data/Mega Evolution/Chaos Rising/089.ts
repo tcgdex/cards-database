@@ -12,7 +12,13 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Frogadier"
+		en: "Frogadier",
+		fr: "Croâporal",
+		es: "Frogadier",
+		'es-mx': "Frogadier",
+		de: "Amphizel",
+		it: "Frogadier",
+		pt: "Frogadier"
 	},
 
 	illustrator: "Susumu Maeya",
@@ -30,17 +36,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Summoning Jutsu"
+			en: "Summoning Jutsu",
+			fr: "Jutsu Invocatoire",
+			es: "Llamamiento Jutsu",
+			'es-mx': "Jutsu de Invocación",
+			de: "Beschwörendes Jutsu",
+			it: "Jutsu Evocativa",
+			pt: "Invoca-jitsu"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+			en: "Search your deck for up to 3 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 Pokémon, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			es: "Busca en tu baraja hasta 3 Pokémon, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
+			'es-mx': "Busca en tu mazo hasta 3 Pokémon, muéstralos y ponlos en tu mano. Después, baraja tu mazo.",
+			de: "Durchsuche dein Deck nach bis zu 3 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			it: "Cerca nel tuo mazzo fino a tre Pokémon, mostrali e aggiungili alle carte che hai in mano. Poi rimischia il tuo mazzo.",
+			pt: "Procure por até 3 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
 		}
 	}, {
 		name: {
-			en: "Aqua Edge"
+			en: "Aqua Edge",
+			fr: "Aqua-Dague",
+			es: "Filo Agua",
+			'es-mx': "Filo Acuático",
+			de: "Aquaschneide",
+			it: "Acquataglio",
+			pt: "Aqua Gume"
 		},
 
 		cost: ["Water", "Water"],
@@ -56,7 +80,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	thirdParty: {
-		tcgplayer: 693491
+		tcgplayer: 693491,
+		cardmarket: 886481
 	}
 }
 

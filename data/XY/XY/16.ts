@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them.",
+	},
+
 	thirdParty: {
 		cardmarket: 281353,
 		tcgplayer: 89444

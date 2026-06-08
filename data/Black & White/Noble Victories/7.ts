@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 280130,
 		tcgplayer: 84508

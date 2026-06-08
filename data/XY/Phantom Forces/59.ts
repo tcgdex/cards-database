@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
+	},
+
 	thirdParty: {
 		cardmarket: 281865,
 		tcgplayer: 94627

@@ -65,21 +65,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857613,
-				tcgplayer: 662165
+				tcgplayer: 662165,
+				cardtrader: 356821
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857613,
-				tcgplayer: 662165
+				tcgplayer: 662165,
+				cardtrader: 356821
 			}
-		}
+		},
 	],
 }
 
