@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Shin Nagasawa",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [66],
 	hp: 70,
 	types: ["Fighting"],
 

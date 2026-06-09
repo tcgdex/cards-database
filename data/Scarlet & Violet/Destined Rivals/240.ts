@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	rarity: "Hyper rare",
@@ -79,14 +80,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826114,
+				tcgplayer: 633040
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826114
-	}
 }
 
 export default card

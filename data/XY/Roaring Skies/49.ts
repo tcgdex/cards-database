@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.",
+	},
+
 	thirdParty: {
 		cardmarket: 282717,
 		tcgplayer: 98085

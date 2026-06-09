@@ -7,7 +7,8 @@ const card: Card = {
 	name: {
 		ja: "クイタラン",
 		'zh-tw': "熔蟻獸",
-		th: "คุยทาแรน"
+		th: "คุยทาแรน",
+		ko: "앤티골"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -20,7 +21,8 @@ const card: Card = {
 	description: {
 		ja: "しっぽの 穴から 空気を 取りこみ 炎を 燃やす。 穴を 塞がれると 具合が 悪くなる。",
 		'zh-tw': "從尾部的孔洞吸入空氣，燃起火焰。如果孔洞被 堵住了，身體就會不舒服。",
-		th: "สูบอากาศผ่านรูที่หางเพื่อทำให้เปลวไฟลุกไหม้ ถ้ารูถูกปิดจะรู้สึกไม่สบาย"
+		th: "สูบอากาศผ่านรูที่หางเพื่อทำให้เปลวไฟลุกไหม้ ถ้ารูถูกปิดจะรู้สึกไม่สบาย",
+		ko: "꼬리의 구멍을 통해 공기를 빨아들여 불꽃을 태운다. 구멍이 막히면 상태가 나빠진다."
 	},
 
 	stage: "Basic",
@@ -31,7 +33,8 @@ const card: Card = {
 		name: {
 			ja: "ひだね",
 			'zh-tw': "火種",
-			th: "เชื้อไฟ"
+			th: "เชื้อไฟ",
+			ko: "불씨"
 		},
 
 		damage: 20
@@ -41,7 +44,8 @@ const card: Card = {
 		name: {
 			ja: "なめやきファイヤー",
 			'zh-tw': "滑燒火焰",
-			th: "ไฟเลียเผา"
+			th: "ไฟเลียเผา",
+			ko: "핥아 태우는 파이어"
 		},
 
 		damage: 130,
@@ -59,7 +63,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	thirdParty: {
+		cardmarket: 752751
+	}
 }
 
 export default card

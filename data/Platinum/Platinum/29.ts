@@ -73,6 +73,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+	},
+
 	thirdParty: {
 		cardmarket: 278450,
 		tcgplayer: 85816

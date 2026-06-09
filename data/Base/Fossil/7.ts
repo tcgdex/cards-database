@@ -66,8 +66,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
 		fr: "S'il est pressé, ses jambes s'allongent progressivement. Il court alors très rapidement."
 	},
 

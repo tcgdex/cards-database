@@ -67,11 +67,17 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 576502
+		cardmarket: 491199
 	}
 }
 

@@ -67,8 +67,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
 		fr: "Vivant dans les tas d'ordures, il se nourrit des déchets polluants rejetés par les usines."
 	},
 

@@ -99,8 +99,12 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+	},
+
 	thirdParty: {
-		cardmarket: 370788,
+		cardmarket: 372407,
 		tcgplayer: 189217
 	}
 }

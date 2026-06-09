@@ -57,20 +57,31 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760814,
+				tcgplayer: 542905
+			}
+		},
 	],
 
 	illustrator: "Mékayu",
 
-	thirdParty: {
-		cardmarket: 760814
-	}
 }
 
 export default card

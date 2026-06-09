@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		427,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Colorless",
@@ -47,6 +49,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+	},
 
 	thirdParty: {
 		cardmarket: 278927,

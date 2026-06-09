@@ -57,18 +57,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769208,
+				tcgplayer: 550078
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769208,
+				tcgplayer: 550078
+			}
+		},
+	],
 
 	illustrator: "osare",
 
-	thirdParty: {
-		cardmarket: 769208
-	}
 }
 
 export default card

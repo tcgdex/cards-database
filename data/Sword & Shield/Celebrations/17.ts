@@ -27,6 +27,18 @@ const card: Card = {
 	hp: 130,
 	stage: "Basic",
 
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				fr: "Rayon Obscur",
+			},
+			effect: {
+				fr: "Une seule fois lors de votre tour, lorsque vous placez Noctali Star de votre main sur votre Banc, vous pouvez choisir 1 carte de la main de votre adversaire sans regarder et la défausser.",
+			},
+		},
+	],
+
 	attacks: [{
 		name: {
 			en: "Magma Volcano",

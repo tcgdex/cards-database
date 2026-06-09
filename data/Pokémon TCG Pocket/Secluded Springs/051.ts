@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "miki kudo",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [686],
 	hp: 60,
 	types: ["Darkness"],
 

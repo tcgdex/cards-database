@@ -31,18 +31,35 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "MARINA Chikazawa",
 
-	thirdParty: {
-		cardmarket: 817302
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817302,
+				tcgplayer: 623577
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817302,
+				tcgplayer: 623577
+			}
 		},
-	]
+		{
+			type: 'normal',
+			stamp: ['gym-challenge']
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program']
+		}
+	],
 }
 
 export default card

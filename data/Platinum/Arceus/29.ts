@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		20,
 	],
+	
+	hp: 70,
 
 	types: [
 		"Colorless",
@@ -64,6 +66,10 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+
+	description: {
+		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+	},
 
 	thirdParty: {
 		cardmarket: 278901,

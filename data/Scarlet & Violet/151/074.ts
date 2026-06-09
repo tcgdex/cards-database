@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733669,
+				tcgplayer: 516569,
+				cardtrader: 261119
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733669,
+				tcgplayer: 516569,
+				cardtrader: 261119
+			}
+		},
+	],
 
 	illustrator: "Uta",
 
-	thirdParty: {
-		cardmarket: 733669
-	}
+	
 }
 
 export default card

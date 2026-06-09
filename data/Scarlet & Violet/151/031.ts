@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733626,
+				tcgplayer: 516004,
+				cardtrader: 261197
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733626,
+				tcgplayer: 516004,
+				cardtrader: 261197
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 733626
-	}
+	
 }
 
 export default card

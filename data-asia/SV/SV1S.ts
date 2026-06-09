@@ -3,6 +3,7 @@ import serie from '../SV'
 
 const set: Set = {
 	id: 'SV1S',
+
 	name: {
 		ja: 'スカーレットex',
 		ko: '스칼렛ex',
@@ -22,6 +23,10 @@ const set: Set = {
 		'zh-tw': '2023-02-03',
 		id: '2023-03-03',
 		th: '2023-02-24'
+	},
+
+	thirdParty: {
+		cardmarket: 5216
 	}
 }
 

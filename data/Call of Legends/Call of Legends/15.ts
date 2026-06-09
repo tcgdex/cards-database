@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+	},
+
 	thirdParty: {
 		cardmarket: 279637,
 		tcgplayer: 86910

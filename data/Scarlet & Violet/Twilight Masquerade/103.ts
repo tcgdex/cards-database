@@ -44,18 +44,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle heavy lumber without difficulty.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769277,
+				tcgplayer: 550147
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769277,
+				tcgplayer: 550147
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 769277
-	}
 }
 
 export default card

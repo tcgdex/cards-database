@@ -63,18 +63,41 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733606,
+				tcgplayer: 502560,
+				cardtrader: 261195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733606,
+				tcgplayer: 502560,
+				cardtrader: 261195
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 733606
-	}
+	
 }
 
 export default card

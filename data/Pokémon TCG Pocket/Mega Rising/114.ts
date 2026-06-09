@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Eri Yamaki",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [576],
 	hp: 130,
 	types: ["Psychic"],
 

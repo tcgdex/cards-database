@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [935],
 	hp: 70,
 	types: ["Fire"],
 	stage: "Basic",
-	dexId: [935],
 
 	attacks: [{
 		cost: ["Fire"],
@@ -62,18 +63,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Tomokazu Komiya",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857594,
+				tcgplayer: 662142,
+				cardtrader: 356802
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857594,
+				tcgplayer: 662142,
+				cardtrader: 356802
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857594
-	}
 }
 
 export default card

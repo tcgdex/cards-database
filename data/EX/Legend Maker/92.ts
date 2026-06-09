@@ -3,9 +3,9 @@ import Set from '../Legend Maker'
 
 const card: Card = {
 	name: {
-		en: "Registeel Star",
+		en: "Registeel ☆",
 		fr: "Registeel ☆",
-		de: "Registeel *"
+		de: "Registeel ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -55,9 +55,9 @@ const card: Card = {
 				de: "Finaler Laser"
 			},
 			effect: {
-				en: "Put 3 damage counters on your opponent's Pokémon in any way you like. If your opponent has only 1 Prize card left and Registeel Star is the only Pokémon you have in play, put 6 damage counters instead.",
-				fr: "Placez 3 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez. S'il reste à votre adversaire une seule carte Récompense et que Registeel  est le seul Pokémon que vous ayez en jeu, placez 6 marqueurs de dégât.",
-				de: "Lege 3 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon. Wenn dein Gegner nur noch einen Preis übrig hat, und Registeel * das einzige Pokémon ist, das du im Spiel hast, lege stattdessen 6 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
+				en: "Put 3 damage counters on your opponent's Pokémon in any way you like. If your opponent has only 1 Prize card left and Registeel ☆ is the only Pokémon you have in play, put 6 damage counters instead.",
+				fr: "Placez 3 marqueurs de dégât sur les Pokémon de votre adversaire de la façon que vous voulez. S'il reste à votre adversaire une seule carte Récompense et que Registeel ☆ est le seul Pokémon que vous ayez en jeu, placez 6 marqueurs de dégât.",
+				de: "Lege 3 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon. Wenn dein Gegner nur noch einen Preis übrig hat, und Registeel ☆ das einzige Pokémon ist, das du im Spiel hast, lege stattdessen 6 Schadensmarken in beliebiger Verteilung auf die gegnerischen Pokémon."
 			}
 
 		},
@@ -76,6 +76,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 88678

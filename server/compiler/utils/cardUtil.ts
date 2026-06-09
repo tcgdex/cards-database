@@ -1,12 +1,14 @@
 /* eslint-disable sort-keys */
 import pathLib from 'node:path'
-import { Card, Set, SupportedLanguages, Types, Stamps, variant_detailed, StampDetail } from '../../../interfaces'
-import { CardResume, Card as CardSingle } from '../../../meta/definitions/api'
+
+import { Card, Set, SupportedLanguages, Types, variant_detailed, VariantStamps, VariantType StampDetail } from '../../../interfaces'
+import { CardResume, Card as CardSingle, variant_detailed as ApiVariantDetailed } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
-import { variant_detailed as api_variant_detailed } from "../../public/v2/api";
+
+import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 	try {
@@ -46,7 +48,7 @@ function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>):
 		})) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
 		normal: variants_detailed?.some((variant) => variant.type === 'normal') ?? false,
-		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
+		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false
 		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => {
 			if (typeof stamp === 'string') {
 				return stamp === 'w-promo'
@@ -70,13 +72,15 @@ function createStampString(stamp: Stamps | StampDetail, lang: SupportedLanguages
 	].filter(Boolean).join('');
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<api_variant_detailed> {
-	const result: Array<api_variant_detailed> = [];
+
+function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<ApiVariantDetailed> {
+	const result: Array<ApiVariantDetailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
-			type,
+			type: type as VariantType,
 			size: translate('variantSize', "standard", lang) as any,
-			stamp: stamps.length > 0 ? stamps : undefined
+			stamp: stamps.length > 0 ? stamps as Array<VariantStamps> : undefined,
+			variantId: "generated"
 		});
 	};
 
@@ -85,11 +89,11 @@ function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: Suppo
 		if (variants?.firstEdition) addVariant('normal', ['1st-edition']);
 		if (variants?.wPromo) addVariant('normal', ['w-Promo']);
 	}
-	if (typeof variants?.reverse === 'boolean' ? variants.reverse : true) {
+	if (typeof variants?.reverse === 'boolean' ? variants.reverse : false) {
 		addVariant('reverse');
 		if (variants?.firstEdition) addVariant('reverse', ['1st-edition']);
 	}
-	if (typeof variants?.holo === 'boolean' ? variants.holo : true) {
+	if (typeof variants?.holo === 'boolean' ? variants.holo : false) {
 		addVariant('holo');
 		if (variants?.firstEdition) addVariant('holo', ['1st-edition']);
 	}
@@ -119,9 +123,9 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		variants : Array.isArray(card.variants) ?
 			variantsDetailedToVariants(card.variants) : {
 			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
-			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : true,
+			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : false,
 			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
-			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : true,
+			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : false,
 			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
 		},
 
@@ -137,6 +141,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 				foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined
 			}
 		}) : variantsToVariantsDetailed(card.variants,lang),
+
 
 		dexId: card.dexId,
 		hp: card.hp,

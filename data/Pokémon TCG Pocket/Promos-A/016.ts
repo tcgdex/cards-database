@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [35],
 	types: ["Psychic"],
 	stage: "Basic",
 

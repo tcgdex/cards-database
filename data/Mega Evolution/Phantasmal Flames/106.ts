@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [52],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
-	dexId: [52],
 
 	attacks: [{
 		cost: ["Colorless", "Colorless"],
@@ -50,15 +51,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	illustrator: "Uninori",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857681,
+				tcgplayer: 662195,
+				cardtrader: 356892
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857681
-	}
 }
 
 export default card

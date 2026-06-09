@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		317,
 	],
+	
+	hp: 100,
 
 	types: [
 		"Psychic",
@@ -68,6 +70,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+	},
 
 	thirdParty: {
 		cardmarket: 278881,

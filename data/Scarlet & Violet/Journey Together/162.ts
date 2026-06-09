@@ -60,15 +60,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Katsunori Sato",
 
-	thirdParty: {
-		cardmarket: 817314
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817314,
+				tcgplayer: 623589
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon that consists entirely of programming code. It is capable of moving freely in cyberspace.",
+	},
+
 	thirdParty: {
 		cardmarket: 284245,
 		tcgplayer: 101486

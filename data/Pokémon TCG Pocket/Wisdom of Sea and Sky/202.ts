@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Yoshimi Miyoshi",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [213],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Basic",

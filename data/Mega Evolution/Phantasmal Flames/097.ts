@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [87],
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
-	dexId: [87],
 
 	abilities: [{
 		type: "Ability",
@@ -74,15 +75,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857672
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857672,
+				tcgplayer: 662152,
+				cardtrader: 356883
+			}
+		},
+	],	
 }
 
 export default card

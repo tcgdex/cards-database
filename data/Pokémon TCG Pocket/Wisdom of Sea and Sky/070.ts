@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [239],
 	hp: 30,
 	types: ["Lightning"],
 

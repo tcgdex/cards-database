@@ -15,6 +15,8 @@ const card: Card = {
 
 	illustrator: "Haru Akasaka",
 	category: "Pokemon",
+
+	dexId: [131],
 	hp: 100,
 	types: ["Water"],
 	stage: "Basic",

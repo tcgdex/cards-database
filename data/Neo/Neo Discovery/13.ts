@@ -74,8 +74,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.",
 		fr: "Quand la nuit tombe, les anneaux de son corps se mettent à luire, éveillant la peur dans le cœur de ceux qui sont dans les parages."
 	},
 

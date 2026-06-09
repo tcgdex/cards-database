@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "Through yoga training, it has honed its sixth sense. Its movements are elegant.",
 		fr: "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux."
 	},
 

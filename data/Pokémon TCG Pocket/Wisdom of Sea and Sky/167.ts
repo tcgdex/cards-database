@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Ayako Ozaki",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [158],
 	hp: 60,
 	types: ["Water"],
 

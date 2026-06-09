@@ -43,18 +43,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725131,
+				tcgplayer: 509794,
+				cardtrader: 255611
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725131,
+				tcgplayer: 509794,
+				cardtrader: 255611
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 725131
-	}
+	
 }
 
 export default card

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [745],
 	hp: 150,
 	types: ["Fighting"],
 

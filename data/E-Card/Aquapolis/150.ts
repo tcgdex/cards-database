@@ -78,6 +78,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	abilities: [{
 		name: {
@@ -94,7 +96,7 @@ const card: Card = {
 	}],
 
 	thirdParty: {
-		cardmarket: 275043,
+		cardmarket: 275096,
 		tcgplayer: 87695
 	},
 

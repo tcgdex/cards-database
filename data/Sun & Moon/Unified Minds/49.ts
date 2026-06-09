@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually passes its time in the water. When its belly is full, it stores its subdued prey in the water bubble on its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 388072,
 		tcgplayer: 194972

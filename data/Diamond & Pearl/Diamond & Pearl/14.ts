@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses.",
 		fr: "D'un coup de sa feuille éventail, il génère des bourrasques de 30 m/s capables de souffler une maison."
 	},
 

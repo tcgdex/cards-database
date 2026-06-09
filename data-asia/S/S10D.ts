@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S10D',
+
 	name: {
 		ja: 'タイムゲイザー',
 		ko: '타임게이저',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 67
 	},
+
 	releaseDate: {
 		ja: '2022-04-08',
 		'zh-tw': '2022-04-22',
 		id: '2022-07-29',
 		th: '2022-05-27'
+	},
+
+	thirdParty: {
+		cardmarket: 4973
 	}
 }
 

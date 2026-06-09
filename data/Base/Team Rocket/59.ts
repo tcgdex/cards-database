@@ -63,8 +63,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It's said that not even pro wrestlers can take down a Machop.",
 		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
 	},
 

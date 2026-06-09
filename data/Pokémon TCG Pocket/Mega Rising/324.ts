@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [766],
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Basic",

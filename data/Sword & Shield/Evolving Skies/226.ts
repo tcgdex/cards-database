@@ -75,6 +75,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
+	description: {
+		en: "It spits out cold air of nearly -60 degrees Fahrenheit to freeze its quarry. It brings frozen prey back to its lair and neatly lines them up.",
+	},
+
 	thirdParty: {
 		cardmarket: 574284,
 		tcgplayer: 246801

@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 805487
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805487,
+				tcgplayer: 610448
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805487,
+				tcgplayer: 610448
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806542,
+				tcgplayer: 610604
+			}
+		},
+	],
 }
 
 export default card

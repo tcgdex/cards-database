@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [491],
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Basic",

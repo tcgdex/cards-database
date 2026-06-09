@@ -7,7 +7,8 @@ const card: Card = {
 	name: {
 		ja: "グソクムシャex",
 		'zh-tw': "具甲武者ex",
-		th: "กูโซคูมูฉะex"
+		th: "กูโซคูมูฉะex",
+		ko: "갑주무사 ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -24,7 +25,8 @@ const card: Card = {
 		name: {
 			ja: "アクアブレード",
 			'zh-tw': "水之利刃",
-			th: "อควาเบลด"
+			th: "อควาเบลด",
+			ko: "아쿠아 블레이드"
 		},
 
 		damage: 70
@@ -34,7 +36,8 @@ const card: Card = {
 		name: {
 			ja: "いっとうりだつ",
 			'zh-tw': "一刀立斷",
-			th: "หนึ่งดาบถอยทัพ"
+			th: "หนึ่งดาบถอยทัพ",
+			ko: "일도이탈"
 		},
 
 		damage: 170,
@@ -52,7 +55,11 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	thirdParty: {
+		cardmarket: 741325
+	}
 }
 
 export default card

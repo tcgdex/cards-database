@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Natsumi Yoshida",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [242],
 	hp: 150,
 	types: ["Colorless"],
 

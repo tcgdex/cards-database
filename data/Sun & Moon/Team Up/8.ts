@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Six of them form a single Pokémon. Should one of the six be lost, the next morning there will once more be six.",
+	},
+
 	thirdParty: {
 		cardmarket: 368941,
 		tcgplayer: 183779

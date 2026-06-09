@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
+
+	dexId: [16],
 	hp: 50,
 	types: ["Colorless"],
 

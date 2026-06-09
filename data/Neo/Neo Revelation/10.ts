@@ -81,8 +81,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Three Magnemites are linked by a strong magnetic force. Earaches will occur if you get too close.",
 		fr: "Trois Magneti sont reliés par une puissante force magnétique. Vous risquez d'avoir mal aux oreilles si vous approchez de trop près."
 	},
 

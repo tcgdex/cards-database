@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725128,
+				tcgplayer: 509772,
+				cardtrader: 255608
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725128,
+				tcgplayer: 509772,
+				cardtrader: 255608
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 725128
-	}
+	
 }
 
 export default card

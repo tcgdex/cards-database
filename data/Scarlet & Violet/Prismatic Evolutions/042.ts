@@ -59,9 +59,38 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 805431
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805431,
+				tcgplayer: 610397
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805431,
+				tcgplayer: 610397
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806462,
+				tcgplayer: 610564
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806463,
+				tcgplayer: 610665
+			}
+		},
+	],
 }
 
 export default card

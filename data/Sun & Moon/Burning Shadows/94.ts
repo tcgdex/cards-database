@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.",
+	},
+
 	thirdParty: {
 		cardmarket: 299495,
 		tcgplayer: 138588

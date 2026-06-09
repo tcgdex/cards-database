@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [127],
 	hp: 90,
 	types: ["Grass"],
 

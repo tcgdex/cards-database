@@ -15,10 +15,11 @@ const card: Card = {
 
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [25],
 	hp: 50,
 	types: ["Lightning"],
 	stage: "Basic",
-	dexId: [25],
 
 	attacks: [
 		{
@@ -41,7 +42,12 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -63,8 +63,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A wild Pokémon with a short temper. It is able to distinguish colors, and likes the color red.",
 		fr: "Un Pokémon sauvage au mauvais caractère. Capable de reconnaître les couleurs et apprécie la couleur rouge."
 	},
 

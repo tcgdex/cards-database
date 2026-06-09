@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Saki Hayashiro",
@@ -76,7 +82,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582173,
+		cardmarket: 582983,
 		tcgplayer: 253141
 	}
 }

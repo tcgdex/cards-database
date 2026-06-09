@@ -64,18 +64,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 817197
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817197,
+				tcgplayer: 623472
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817197,
+				tcgplayer: 623472
+			}
 		},
-	]
+	],
 }
 
 export default card

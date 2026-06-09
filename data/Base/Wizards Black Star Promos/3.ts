@@ -61,8 +61,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Years of genetic experiments resulted in the creation of this never-before-seen violent Pokémon.",
 		fr: "Ce Pokémon violent, jamais vu auparavant, est le fruit de nombreuses années d'expériences génétiques."
 	},
 

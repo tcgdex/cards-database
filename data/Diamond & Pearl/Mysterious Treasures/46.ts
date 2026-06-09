@@ -83,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
 		fr: "Quand Doduo connait cette étrange évolution, l'une de ses têtes se dédouble. Il atteint les 60 km/h."
 	},
 

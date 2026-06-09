@@ -74,6 +74,7 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
+		en: "Its stomach can digest any kind of food, even if it happens to be moldy or rotten.",
 		fr: "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie."
 	},
 

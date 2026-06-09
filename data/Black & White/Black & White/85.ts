@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can return to its Trainer's location regardless of the distance separating them.",
+	},
+
 	thirdParty: {
 		cardmarket: 279823,
 		tcgplayer: 90014

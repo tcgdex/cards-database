@@ -90,6 +90,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+	},
 }
 
 export default card

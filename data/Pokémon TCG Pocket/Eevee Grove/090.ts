@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Mori Yuu",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [149],
 	hp: 180,
 	types: ["Dragon"],
 

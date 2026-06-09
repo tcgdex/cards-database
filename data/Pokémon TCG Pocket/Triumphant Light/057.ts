@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [476],
 	hp: 160,
 	types: ["Metal"],
 

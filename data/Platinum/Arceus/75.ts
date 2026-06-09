@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		361,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Water",
@@ -63,6 +65,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+	},
 
 	thirdParty: {
 		cardmarket: 278947,

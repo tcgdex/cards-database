@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [393],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
-	dexId: [393],
 
 	attacks: [{
 		cost: ["Colorless"],
@@ -62,15 +63,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Jiro Sasumo",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857673,
+				tcgplayer: 662215,
+				cardtrader: 356884
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857673
-	}
 }
 
 export default card

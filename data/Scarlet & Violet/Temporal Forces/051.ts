@@ -42,27 +42,52 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760681,
+				tcgplayer: 542795
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760681,
+				tcgplayer: 542795
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		}
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 800144,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-day"],
+			thirdParty: {
+				cardmarket: 870424,
+			}
+		},
 	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 760681
-	}
 }
 
 export default card

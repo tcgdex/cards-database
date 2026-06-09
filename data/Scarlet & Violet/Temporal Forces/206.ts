@@ -64,20 +64,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760836,
+				tcgplayer: 542927
+			}
+		},
 	],
 	
+	suffix: "ex",
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 760836
-	}
 }
 
 export default card

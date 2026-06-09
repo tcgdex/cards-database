@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "PLANETA Igarashi",
 	category: "Pokemon",
+
+	dexId: [121],
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",

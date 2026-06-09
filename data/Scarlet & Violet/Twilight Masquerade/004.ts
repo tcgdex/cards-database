@@ -35,18 +35,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Some fishers weave its sturdy thread into nets to catch fish Pokémon.",
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769178,
+				tcgplayer: 550048
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769178,
+				tcgplayer: 550048
+			}
+		},
+	],
+	
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 769178
-	}
 }
 
 export default card

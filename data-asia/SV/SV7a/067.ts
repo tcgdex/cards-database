@@ -50,7 +50,11 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		cardmarket: 787566
+	}
 }
 
 export default card

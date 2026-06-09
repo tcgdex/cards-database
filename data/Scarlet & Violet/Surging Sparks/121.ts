@@ -72,18 +72,34 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794465,
+				tcgplayer: 589959
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794465,
+				tcgplayer: 589959
+			}
+		},
+	],
 
 	illustrator: "NC Empire",
 
-	thirdParty: {
-		cardmarket: 794465
-	}
 }
 
 export default card

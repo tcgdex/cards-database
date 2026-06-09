@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "While it's unexpectedly quiet and friendly, if it's not fed any trash for a while, it will smash its Trainer's furnishings and eat up the fragments.",
+	},
+
 	thirdParty: {
 		cardmarket: 369014,
 		tcgplayer: 183862

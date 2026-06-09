@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 281362,
 		tcgplayer: 83948

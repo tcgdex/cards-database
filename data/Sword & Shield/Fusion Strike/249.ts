@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Eske Yoshinob",
@@ -78,7 +84,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582496,
+		cardmarket: 582985,
 		tcgplayer: 253144
 	}
 }

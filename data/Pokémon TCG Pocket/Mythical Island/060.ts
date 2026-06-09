@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "KEIICHIRO ITO",
 	category: "Pokemon",
+
+	dexId: [128],
 	hp: 100,
 	types: ["Colorless"],
 

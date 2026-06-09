@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwag",
+		fr: "Ptitard",
 		it: "Poliwag"
 	},
 
@@ -80,8 +81,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
 		fr: "Amphibie, il peut vivre à l'air libre mais il doit rester mouillé pour survivre.",
 		it: "Capace di vivere sia sulla terra che sott'acqua. Quando non è in acqua, suda in continuazione per mantenere lubrificato il suo corpo. LIV 28 N.61"
 	},

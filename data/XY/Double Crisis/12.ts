@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Magma's Aron",
 		fr: "Galekid de la Team Magma",
+		pt: "Aron da Equipe Magma",
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				pt: "Roída",
 			},
 
 			damage: 10,
@@ -47,6 +49,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Aron, which even devour metal, can eat and destroy enemy ships in an instant.",
+	},
 
 	thirdParty: {
 		cardmarket: 282523,

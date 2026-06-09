@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Masako Yamashita",
 	category: "Pokemon",
+
+	dexId: [92],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",

@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
+	},
+
 	thirdParty: {
 		cardmarket: 278492,
 		tcgplayer: 84395

@@ -73,8 +73,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.",
 		fr: "Quand il mord, il ne lâche pas prise avant que ses crocs se brisent. Ils repoussent par la suite."
 	},
 

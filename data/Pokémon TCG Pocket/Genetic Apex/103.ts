@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Hitoshi Ariga",
 	category: "Pokemon",
+
+	dexId: [145],
 	hp: 100,
 	types: ["Lightning"],
 	stage: "Basic",

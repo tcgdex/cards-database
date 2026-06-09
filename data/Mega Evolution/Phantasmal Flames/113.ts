@@ -13,13 +13,22 @@ const card: Card = {
 		it: "Mega Sharpedo-ex",
 		pt: "Mega Sharpedo ex"
 	},
+	evolveFrom: {
+		en: "Carvanha",
+		de: "Kanivanha",
+		es: "Carvanha",
+		fr: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+	},
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+
+	dexId: [319],
 	hp: 330,
 	types: ["Darkness"],
 	stage: "Stage1",
-	dexId: [319],
 
 	attacks: [{
 		cost: ["Darkness"],
@@ -74,15 +83,17 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857688,
+				tcgplayer: 662192,
+				cardtrader: 356899
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857688
-	}
 }
 
 export default card

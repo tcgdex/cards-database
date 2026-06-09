@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [127],
 	hp: 90,
 	types: ["Grass"],
 

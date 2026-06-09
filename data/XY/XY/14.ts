@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+	},
+
 	thirdParty: {
 		cardmarket: 281351,
 		tcgplayer: 84267

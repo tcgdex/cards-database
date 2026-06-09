@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "PLANETA Saito",
 	rarity: "Two Shiny",
 	category: "Pokemon",
+
+	dexId: [146],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Basic",

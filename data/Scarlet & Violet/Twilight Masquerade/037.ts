@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769211,
+				tcgplayer: 550081
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769211,
+				tcgplayer: 550081
+			}
+		},
+	],
 
 	illustrator: "Rond",
 
-	thirdParty: {
-		cardmarket: 769211
-	}
 }
 
 export default card

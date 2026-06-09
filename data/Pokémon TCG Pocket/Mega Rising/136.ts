@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [623],
 	hp: 130,
 	types: ["Fighting"],
 

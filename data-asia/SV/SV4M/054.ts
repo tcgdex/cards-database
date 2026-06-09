@@ -7,7 +7,8 @@ const card: Card = {
 	name: {
 		ja: "チルット",
 		'zh-tw': "青綿鳥",
-		th: "ทิลท์โท"
+		th: "ทิลท์โท",
+		ko: "파비코"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -20,7 +21,8 @@ const card: Card = {
 	description: {
 		ja: "自分も まわりも きれいでないと 落ち着かない 性格。 汚れを 見つけると 羽で ふき取る。",
 		'zh-tw': "如果自己和周圍不乾淨，就靜不下心來的性格。見到髒污會用羽毛擦掉。",
-		th: "ถ้าตัวเองและรอบข้างไม่สะอาดจะรู้สึกกระสับกระส่าย พอเจอสิ่งสกปรกจะใช้ปีกเช็ด"
+		th: "ถ้าตัวเองและรอบข้างไม่สะอาดจะรู้สึกกระสับกระส่าย พอเจอสิ่งสกปรกจะใช้ปีกเช็ด",
+		ko: "자신도 주변도 깨끗하지 않으면 진정되지 않는 성격이다. 더러운 것을 발견하면 날개로 닦는다."
 	},
 
 	stage: "Basic",
@@ -31,7 +33,8 @@ const card: Card = {
 		name: {
 			ja: "つつく",
 			'zh-tw': "啄",
-			th: "จิก"
+			th: "จิก",
+			ko: "쪼기"
 		},
 
 		damage: 10
@@ -41,7 +44,8 @@ const card: Card = {
 		name: {
 			ja: "きずをなおす",
 			'zh-tw': "療傷",
-			th: "รักษาบาดแผล"
+			th: "รักษาบาดแผล",
+			ko: "상처치료"
 		},
 
 		effect: {
@@ -62,7 +66,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	thirdParty: {
+		cardmarket: 741881
+	}
 }
 
 export default card

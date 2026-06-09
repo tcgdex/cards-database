@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [712],
 	hp: 70,
 	types: ["Water"],
 

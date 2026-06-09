@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "En Morikura",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],
 

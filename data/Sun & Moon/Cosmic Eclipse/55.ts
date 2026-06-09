@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+	},
+
 	thirdParty: {
 		cardmarket: 407924,
 		tcgplayer: 201231

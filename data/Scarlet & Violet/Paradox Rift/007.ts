@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740483,
+				tcgplayer: 523606,
+				cardtrader: 265009
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740483,
+				tcgplayer: 523606,
+				cardtrader: 265009
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 740483
-	}
+	
 }
 
 export default card

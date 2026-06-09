@@ -20,6 +20,18 @@ const card: Card = {
 	types: ["Metal"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "PLANETA Tsuji",
@@ -78,7 +90,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582813,
+		cardmarket: 582990,
 		tcgplayer: 253154
 	}
 }

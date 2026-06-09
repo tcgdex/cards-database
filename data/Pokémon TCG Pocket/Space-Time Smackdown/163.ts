@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [403],
 	hp: 60,
 	types: ["Lightning"],
 

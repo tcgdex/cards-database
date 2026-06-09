@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.",
+	},
+
 	thirdParty: {
 		cardmarket: 363525,
 		tcgplayer: 175484

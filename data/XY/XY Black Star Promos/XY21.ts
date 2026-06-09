@@ -76,8 +76,12 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+	},
+
 	thirdParty: {
-		cardmarket: 281309
+		cardmarket: 848304
 	}
 }
 

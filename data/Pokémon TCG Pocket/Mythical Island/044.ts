@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Ayaka Yoshida",
 	category: "Pokemon",
+
+	dexId: [75],
 	hp: 100,
 	types: ["Fighting"],
 

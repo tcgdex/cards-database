@@ -13,11 +13,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		491, // Darkrai
-		488, // Cresselia
-	],
-
+	dexId: [491, 488],
 	hp: 150,
 
 	types: [
@@ -29,11 +25,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			en: "Lost Crisis",
 			fr: "",
 			de: "Nirgendwo-Krise"
 		},
 
 		effect: {
+			en: "Choose 2 Energy attached to Darkrai & Cresselia LEGEND and put them in the Lost Zone. If any of your opponent's Pokémon would be Knocked Out by damage from this attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it.",
 			fr: "Placez cette carte sur votre Banc uniquement avec l’autre moitié de Darkrai & Cresselia LÉGENDE.",
 			de: "Wähle 2 an Darkrai- & Cresselia-LEGENDE angelegte Energiekarten und lege sie ins Nirgendwo. Wenn ein Pokémon deines Gegners durch diesen Angriff kampfunfähig würde, lege dieses Pokémon und alle daran angelegten Karten nicht auf den Ablagestapel, sondern ins Nirgendwo."
 		},
@@ -42,10 +40,12 @@ const card: Card = {
 		cost: ["Darkness", "Darkness", "Colorless", "Colorless"]
 	}, {
 		name: {
+			en: "Moon's Invite",
 			de: "Mondeinladung"
 		},
 
 		effect: {
+			en: "Move as many damage counters on your opponent's Pokémon as you like to any of your opponent's other Pokémon in any way you like.",
 			de: "Verschiebe beliebig viele Schadensmarken von Pokémon deines Gegners in beliebiger Verteilung auf andere gegnerische Pokémon."
 		},
 
@@ -53,6 +53,16 @@ const card: Card = {
 	}],
 
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 
 	variants: {

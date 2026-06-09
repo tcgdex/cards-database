@@ -55,6 +55,12 @@ const card: Card = {
 		damage: "160+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -66,7 +72,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 658696,
+		cardmarket: 658856,
 		tcgplayer: 272449
 	}
 }

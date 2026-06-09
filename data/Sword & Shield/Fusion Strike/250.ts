@@ -20,6 +20,18 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "aky CG Works",
@@ -76,7 +88,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582611,
+		cardmarket: 582986,
 		tcgplayer: 253146
 	}
 }

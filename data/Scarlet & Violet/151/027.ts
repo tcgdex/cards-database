@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733622,
+				tcgplayer: 515978,
+				cardtrader: 261627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733622,
+				tcgplayer: 515978,
+				cardtrader: 261627
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 733714
-	}
+	
 }
 
 export default card

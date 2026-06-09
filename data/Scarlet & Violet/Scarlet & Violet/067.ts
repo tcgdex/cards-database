@@ -63,6 +63,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -71,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kurata So",
+
+	description: {
+		en: "Because of its rubbery, electricity-resistant skin, it can store lots of electricity in its fur.",
+	},
 
 	thirdParty: {
         cardmarket: 702363,

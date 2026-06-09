@@ -23,7 +23,7 @@ const card: Card = {
 		"Psychic",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -76,6 +76,9 @@ const card: Card = {
 
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 277175,

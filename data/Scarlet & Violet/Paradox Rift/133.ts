@@ -63,18 +63,47 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740671,
+				tcgplayer: 523810,
+				cardtrader: 265251
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740671,
+				tcgplayer: 523810,
+				cardtrader: 265251
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 740670
-	}
+	
 }
 
 export default card

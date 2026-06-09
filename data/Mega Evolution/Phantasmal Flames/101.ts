@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [330],
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
-	dexId: [330],
 
 	abilities: [{
 		type: "Ability",
@@ -64,15 +65,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Ryoto Muriyama",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857676,
+				tcgplayer: 662160,
+				cardtrader: 356887
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857676
-	}
 }
 
 export default card

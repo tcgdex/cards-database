@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yoshinobu Saito",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [462],
 	hp: 140,
 	types: ["Lightning"],
 

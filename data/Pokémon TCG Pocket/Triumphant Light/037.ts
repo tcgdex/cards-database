@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Asako Ito",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [231],
 	hp: 60,
 	types: ["Fighting"],
 

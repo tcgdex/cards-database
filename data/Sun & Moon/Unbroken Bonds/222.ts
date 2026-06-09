@@ -16,10 +16,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		571,
-	],
-
+	dexId: [658, 571],
 	hp: 250,
 
 	types: [
@@ -95,7 +92,7 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 370788,
+		cardmarket: 372722,
 		tcgplayer: 189312
 	}
 }

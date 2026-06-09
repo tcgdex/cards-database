@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760656,
+				tcgplayer: 542770
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760656,
+				tcgplayer: 542770
+			}
+		},
 	],
 
 	illustrator: "takashi shiraishi",
 
-	thirdParty: {
-		cardmarket: 760656
-	}
 }
 
 export default card

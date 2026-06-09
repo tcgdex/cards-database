@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Rare",
 	category: "Pokemon",
+
+	dexId: [649],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Basic",
-	dexId: [649],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -62,22 +63,32 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Mitsuhiro Arita",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857583,
+				tcgplayer: 662161,
+				cardtrader: 356792
+			}
 		},
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857583,
+				tcgplayer: 662161,
+				cardtrader: 356792
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 858502
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857583
-	}
 }
 
 export default card

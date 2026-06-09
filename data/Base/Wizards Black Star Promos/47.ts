@@ -52,7 +52,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+	},
 	variants: [
 		{
 			type: "normal",

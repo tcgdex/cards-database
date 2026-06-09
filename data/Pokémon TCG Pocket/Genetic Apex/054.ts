@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Nelnal",
 	category: "Pokemon",
+
+	dexId: [8],
 	hp: 80,
 	types: ["Water"],
 	stage: "Stage1",

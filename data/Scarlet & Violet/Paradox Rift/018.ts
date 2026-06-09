@@ -64,19 +64,41 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740494,
+				tcgplayer: 523618,
+				cardtrader: 265098
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740494,
+				tcgplayer: 523618,
+				cardtrader: 265098
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 740494
-	}
+	
 }
 
 export default card

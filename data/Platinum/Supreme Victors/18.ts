@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+	},
+
 	thirdParty: {
 		cardmarket: 278709
 	},

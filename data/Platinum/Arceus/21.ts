@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		428,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Colorless",
@@ -67,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+	},
 
 	thirdParty: {
 		cardmarket: 278893,

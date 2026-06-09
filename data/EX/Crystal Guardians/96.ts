@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Gewaldro ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Shizurow",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -80,6 +81,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 277177

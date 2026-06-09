@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		437,
 	],
+	
+	hp: 90,
 
 	types: [
 		"Metal",
@@ -75,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
+	},
 
 	thirdParty: {
 		cardmarket: 278886,

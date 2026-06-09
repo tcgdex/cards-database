@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [271],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
-	dexId: [271],
 
 	attacks: [{
 		cost: ["Grass", "Colorless"],
@@ -50,18 +51,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Shigenori Negishi",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857581,
+				tcgplayer: 662177,
+				cardtrader: 356790
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857581,
+				tcgplayer: 662177,
+				cardtrader: 356790
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857581
-	}
 }
 
 export default card

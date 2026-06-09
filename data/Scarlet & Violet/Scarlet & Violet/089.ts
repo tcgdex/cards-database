@@ -57,6 +57,18 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -65,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "Taira Akitsu",
+
+	description: {
+		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+	},
 
 	thirdParty: {
         cardmarket: 702385,

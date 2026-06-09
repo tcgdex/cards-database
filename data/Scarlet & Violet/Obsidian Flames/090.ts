@@ -48,18 +48,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Spoink will die if it stops bouncing. The pearl on its head amplifies its psychic powers.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725170,
+				tcgplayer: 509863,
+				cardtrader: 255775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725170,
+				tcgplayer: 509863,
+				cardtrader: 255775
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 725170
-	}
+	
 }
 
 export default card

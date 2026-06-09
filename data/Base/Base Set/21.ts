@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
+		fr: "Voltorbe",
 		it: "Voltorb"
 	},
 
@@ -99,8 +100,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser.",
 		it: "Conserva energia elettrica sotto altissima pressione. Spesso esplode senza o con minima provocazione. LIV 40 N.102"
 	},

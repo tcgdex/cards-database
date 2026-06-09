@@ -39,9 +39,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 805441
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805441,
+				tcgplayer: 610407
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805441,
+				tcgplayer: 610407
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806480,
+				tcgplayer: 610573
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806481,
+				tcgplayer: 610674
+			}
+		},
+	],
 }
 
 export default card

@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",
 		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
 	},
 

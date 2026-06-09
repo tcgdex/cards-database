@@ -93,6 +93,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Boiling blood, like plasma, circulates through its body. It makes its dwelling place in volcanic caves.",
+	},
 }
 
 export default card

@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
+	},
 }
 
 export default card

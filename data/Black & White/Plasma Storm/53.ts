@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It does not need eyes, because it emits ultrasonic waves to check its surrounding while it flies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280792,
 		tcgplayer: 90778

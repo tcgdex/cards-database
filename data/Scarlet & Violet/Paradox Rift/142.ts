@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In recent years, this species has been very helpful in cyberspace. These Pokémon will go around checking to make sure no suspicious data exists.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740680,
+				tcgplayer: 523823,
+				cardtrader: 265262
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740680,
+				tcgplayer: 523823,
+				cardtrader: 265262
+			}
+		},
+	],
 
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 740680
-	}
+	
 }
 
 export default card

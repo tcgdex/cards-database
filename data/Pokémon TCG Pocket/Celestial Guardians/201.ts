@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Miki Tanaka",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [740],
 	hp: 160,
 	types: ["Water"],
 

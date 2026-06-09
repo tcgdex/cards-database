@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Kanami Ogata",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [547],
 	hp: 140,
 	types: ["Grass"],
 

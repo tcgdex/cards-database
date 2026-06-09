@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "REND",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [797],
 	hp: 120,
 	types: ["Colorless"],
 

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Nisota Niso",
 	category: "Pokemon",
+
+	dexId: [93],
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Stage1",

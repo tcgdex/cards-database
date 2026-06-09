@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		140,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Fighting",
@@ -64,6 +66,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.",
+	},
 
 	thirdParty: {
 		cardmarket: 278876,

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Fujimoto Gold",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [471],
 	hp: 100,
 	types: ["Water"],
 

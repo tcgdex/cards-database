@@ -24,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -69,8 +70,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A legendary Pokémon famous for its beauty. It looks almost as if it flies when it runs.",
 		fr: "Un Pokémon légendaire réputé pour sa beauté. Il galope si vite qu'il semble voler."
 	},
 

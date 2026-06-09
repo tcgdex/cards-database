@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725193,
+				tcgplayer: 509836,
+				cardtrader: 255798
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725193,
+				tcgplayer: 509836,
+				cardtrader: 255798
+			}
+		},
+	],
 
 	illustrator: "SATOSHI NAKAI",
 
-	thirdParty: {
-		cardmarket: 725193
-	}
+	
 }
 
 export default card

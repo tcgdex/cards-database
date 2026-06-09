@@ -46,7 +46,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamps: ["1st Edition"],
+			stamp: ["1st Edition"],
 		},
 	],
 };

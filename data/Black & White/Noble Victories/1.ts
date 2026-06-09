@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+	},
+
 	thirdParty: {
 		cardmarket: 280124,
 		tcgplayer: 89091

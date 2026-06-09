@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Mékayu",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [93],
 	types: ["Psychic"],
 	stage: "Stage1",
 

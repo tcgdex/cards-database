@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+	},
+
 	thirdParty: {
 		cardmarket: 280943,
 		tcgplayer: 89373

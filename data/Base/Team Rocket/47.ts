@@ -65,8 +65,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Recent research has revealed the presence of dragon DNA in this species of Pokémon.",
 		fr: "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon."
 	},
 

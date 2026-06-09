@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset.",
+	},
+
 	thirdParty: {
 		cardmarket: 365667,
 		tcgplayer: 178829

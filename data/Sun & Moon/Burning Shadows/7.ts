@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+	},
+
 	thirdParty: {
 		cardmarket: 299414,
 		tcgplayer: 138277

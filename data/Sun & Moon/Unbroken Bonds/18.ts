@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If you find its nest, you shouldn't stick your hand inside. You'll get bitten by an irritated Grubbin.",
+	},
+
 	thirdParty: {
 		cardmarket: 372311,
 		tcgplayer: 189060

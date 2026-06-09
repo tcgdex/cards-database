@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "whomor Inc.",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [725],
 	hp: 60,
 	types: ["Fire"],
 

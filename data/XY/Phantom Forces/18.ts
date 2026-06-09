@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The line running down its side can store sunlight. It shines vividly at night.",
+	},
+
 	thirdParty: {
 		cardmarket: 281822,
 		tcgplayer: 94151

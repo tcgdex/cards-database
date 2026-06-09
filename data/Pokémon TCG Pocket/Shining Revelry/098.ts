@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
+
+	dexId: [14],
 	hp: 80,
 	types: ["Grass"],
 

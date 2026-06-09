@@ -74,18 +74,54 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733689,
+				tcgplayer: 516663,
+				cardtrader: 261231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733689,
+				tcgplayer: 516663,
+				cardtrader: 261231
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 861151
+			}
+		},
+	],
 
 	illustrator: "Tomokazu Komiya",
 
-	thirdParty: {
-		cardmarket: 733689
-	}
+	
 }
 
 export default card

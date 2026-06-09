@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Shimaris Yukichi",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [479],
 	hp: 70,
 	types: ["Lightning"],
 

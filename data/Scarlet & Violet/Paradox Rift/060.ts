@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740551,
+				tcgplayer: 523673,
+				cardtrader: 265134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740551,
+				tcgplayer: 523673,
+				cardtrader: 265134
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 740551
-	}
+	
 }
 
 export default card

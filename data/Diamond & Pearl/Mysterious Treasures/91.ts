@@ -68,8 +68,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
 		fr: "Bien qu'il rechigne à se battre, une goutte du poison sécrété par ses piquants peut s'avérer fatale."
 	},
 

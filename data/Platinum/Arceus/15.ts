@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		421,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Grass",
@@ -74,6 +76,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
+	},
 
 	thirdParty: {
 		cardmarket: 278887,

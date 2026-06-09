@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [25],
 	types: ["Lightning"],
 	stage: "Basic",
 

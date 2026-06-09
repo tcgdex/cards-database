@@ -64,8 +64,12 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+	},
+
 	thirdParty: {
-		cardmarket: 279640
+		cardmarket: 279646
 	}
 }
 

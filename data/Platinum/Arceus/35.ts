@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		5,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Fire",
@@ -67,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+	},
 
 	thirdParty: {
 		cardmarket: 278907,

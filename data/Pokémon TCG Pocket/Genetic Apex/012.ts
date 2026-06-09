@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Anesaki Dynamic",
 	category: "Pokemon",
+
+	dexId: [44],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",

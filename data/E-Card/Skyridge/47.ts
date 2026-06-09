@@ -10,6 +10,8 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [138, 140, 142],
 	set: Set,
 	hp: 30,
 
@@ -32,6 +34,8 @@ const card: Card = {
 			},
 		},
 	],
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 275305,

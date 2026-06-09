@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It loves to startle people. It fills itself up with seawater and plays by bouncing around like a ball.",
+	},
+
 	thirdParty: {
 		cardmarket: 297491,
 		tcgplayer: 130929

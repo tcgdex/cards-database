@@ -46,9 +46,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Yoriyuki Ikegami",
 
-	thirdParty: {
-		cardmarket: 805393
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805393,
+				tcgplayer: 610359
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805393,
+				tcgplayer: 610359
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806414,
+				tcgplayer: 610539
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806415,
+				tcgplayer: 610640
+			}
+		},
+	],
 }
 
 export default card

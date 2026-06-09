@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "AKIRA EGAWA",
@@ -87,7 +93,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582174,
+		cardmarket: 583008,
 		tcgplayer: 253167
 	}
 }

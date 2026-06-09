@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280033,
 		tcgplayer: 90429

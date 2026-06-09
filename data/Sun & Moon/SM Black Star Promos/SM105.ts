@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
+	},
 }
 
 export default card

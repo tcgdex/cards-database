@@ -16,10 +16,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		445,
-	],
-
+	dexId: [445, 487],
 	hp: 270,
 
 	types: [
@@ -109,7 +106,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
 }
 
 export default card

@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [741],
 	hp: 190,
 	types: ["Fire"],
 	stage: "Basic",
-	dexId: [741],
 
 	abilities: [{
 		type: "Ability",
@@ -64,15 +65,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "akagi",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857593,
+				tcgplayer: 662206,
+				cardtrader: 356801
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857593
-	}
 }
 
 export default card

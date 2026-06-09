@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Ayaka Yoshida",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [584],
 	hp: 140,
 	types: ["Water"],
 

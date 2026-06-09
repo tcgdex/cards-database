@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Dialga ex"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 	rarity: "None",
 	category: "Pokemon",
@@ -68,7 +69,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

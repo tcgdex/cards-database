@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Yukiko Baba",
 	category: "Pokemon",
+
+	dexId: [121],
 	hp: 90,
 	types: ["Water"],
 	stage: "Stage1",

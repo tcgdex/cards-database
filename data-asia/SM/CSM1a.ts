@@ -2,18 +2,17 @@ import { Set } from '../../interfaces'
 import serie from '../SM'
 
 const set: Set = {
-	id: 's1a',
+	id: 'csm1a',
 	name: {
-		ja: 'VMAXライジング',
-		ko: 'VMAX라이징'
+		"zh-cn": "风暴涌现"
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 70
+		official: 211
 	},
-	releaseDate: '2020-02-07'
+	releaseDate: '2022-10-22'
 }
 
 export default set

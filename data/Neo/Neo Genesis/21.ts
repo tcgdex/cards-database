@@ -82,8 +82,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",
 		fr: "Il possède des défenses aiguisées et une peau épaisse. Ses charges sont suffisamment puissantes pour abattre une maison."
 	},
 

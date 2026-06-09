@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ponyta",
+		fr: "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -72,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A wild, uncontrollable Pokémon. When running, it looks like a comet streaking through the sky.",
 		fr: "C'est un Pokémon sauvage et indomptable. Lorsqu'il galope, on dirait une comète traversant les cieux."
 	},
 

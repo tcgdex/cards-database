@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Tylton"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -80,6 +80,9 @@ const card: Card = {
 
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 83524,

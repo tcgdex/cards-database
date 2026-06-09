@@ -60,7 +60,11 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "F",
-	dexId: [81]
+	dexId: [81],
+
+	thirdParty: {
+		cardmarket: 687656
+	}
 }
 
 export default card

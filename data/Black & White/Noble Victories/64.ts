@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It it thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+	},
+
 	thirdParty: {
 		cardmarket: 280187,
 		tcgplayer: 84418

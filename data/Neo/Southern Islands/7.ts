@@ -64,7 +64,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "When it senses enemies approaching, this Pokémon releases an orange fluid from the joints in its legs and flees.",
+	},
 	thirdParty: {
 		cardmarket: 275637,
 		tcgplayer: 46481

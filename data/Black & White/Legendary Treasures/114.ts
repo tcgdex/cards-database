@@ -64,8 +64,12 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
+	},
+
 	thirdParty: {
-		cardmarket: 281139,
+		cardmarket: 281179,
 		tcgplayer: 88711
 	}
 }

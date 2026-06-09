@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		74,
 	],
+	
+	hp: 60,
 
 	types: [
 		"Fighting",
@@ -55,6 +57,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+	},
 
 	thirdParty: {
 		cardmarket: 278937,

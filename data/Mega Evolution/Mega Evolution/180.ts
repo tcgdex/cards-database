@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Absol ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -75,14 +76,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851251,
+				tcgplayer: 654519
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654519,
-		cardmarket: 851251
-	}
 }
 
 export default card

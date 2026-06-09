@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Kyoko Umemoto",
 	category: "Pokemon",
+
+	dexId: [119],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",

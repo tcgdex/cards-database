@@ -3,9 +3,9 @@ import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Entei Star",
+		en: "Entei ☆",
 		fr: "Entei ☆",
-		de: "Entei *"
+		de: "Entei ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,9 +37,9 @@ const card: Card = {
 				de: "Burning Turn"
 			},
 			effect: {
-				en: "Switch Entei Star with 1 of your Benched Pokémon.",
-				fr: "Échangez Entei  avec 1 de vos Pokémon de Banc.",
-				de: "Switch Shining Entei with 1 of your Benched Pokémon."
+				en: "Switch Entei ☆ with 1 of your Benched Pokémon.",
+				fr: "Échangez Entei ☆ avec 1 de vos Pokémon de Banc.",
+				de: "Switch Entei ☆ with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 
@@ -71,6 +71,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 85275

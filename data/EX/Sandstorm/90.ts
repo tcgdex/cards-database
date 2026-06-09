@@ -16,20 +16,24 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Play Claw Fossil as if it were a Basic Pokémon. While in play, Claw Fossil counts as a Colorless Pokémon (instead of a Trainer card). Claw Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Claw Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Claw Fossil from play.",
 		fr: "Jouez Fossile griffe comme si c'était un Pokémon de base. Lorsqu'elle est en jeu, Fossile griffe est un Pokémon  (et non une carte Dresseur). Elle ne possède pas d'attaque, ne peut pas battre en retraite et ne peut pas être affectée par un État Spécial. Si Fossile griffe est mise K.O, elle n'est pas considérée comme un Pokémon K.O (mais défaussez-la quand même). N'importe quand lors de votre tour, avant votre attaque, vous pouvez défausser Fossile Griffe.",
 		de: "Spiele Klauenfossil wie ein Basis-Pokémon. Während Klauenfossil im Spiel ist, zählt es als -Pokémon (anstatt einer Trainerkarte). Klauenfossil hat keine Angriffe, kann sich nicht zurückziehen und wird nicht von Speziellen Zuständen betroffen. Falls Klauenfossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon (lege es trotzdem ab). Jederzeit während deines Zuges vor deinem Angriff kannst du Klauenfossil aus dem Spiel ablegen."
 	},
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Gezackter Stein"
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				de: "Gezackter Stein",
+				fr: "Pierre tranchante",
+			},
+			effect: {
+				de: "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon.",
+				fr: "Si Fossile Griffe est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Fossile Griffe est mise K.O), placez un marqueur de dégât sur le Pokémon Attaquant.",
+			},
 		},
-
-		effect: {
-			de: "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon."
-		}
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275867,

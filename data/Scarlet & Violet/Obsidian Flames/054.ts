@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is a ferocious, carnivorous Pokémon. Once it captures its prey, it will breathe cold air onto the prey to freeze and preserve it.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725134,
+				tcgplayer: 509800,
+				cardtrader: 255614
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725134,
+				tcgplayer: 509800,
+				cardtrader: 255614
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
-	thirdParty: {
-		cardmarket: 725134
-	}
+	
 }
 
 export default card

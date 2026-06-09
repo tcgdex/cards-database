@@ -76,9 +76,12 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
-		fr: "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques."
+		fr: "Il projette des boules de feu de 2000°C à bout de bras. Il vit dans les cratères volcaniques.",
+		en: "It blasts fireballs of over 3,600 degrees F from the ends of its arms. it lives in volcanic craters"
 	},
 
 	variants: [
@@ -86,6 +89,11 @@ const card: Card = {
 			type: "holo",
 		}
 	],
+
+	thirdParty: {
+		cardmarket: 275562,
+		tcgplayer: 87057
+	}
 }
 
 export default card

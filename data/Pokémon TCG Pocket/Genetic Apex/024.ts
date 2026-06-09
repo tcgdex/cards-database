@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Midori Harada",
 	category: "Pokemon",
+
+	dexId: [114],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Basic",

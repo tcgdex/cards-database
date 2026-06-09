@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [441],
 	hp: 70,
 	types: ["Colorless"],
 

@@ -13,11 +13,7 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		244, // Entei
-		243, // Raikou
-	],
-
+	dexId: [244, 243],
 	hp: 140,
 
 	types: [

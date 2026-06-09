@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		252,
 	],
+	
+	hp: 60,
 
 	types: [
 		"Grass",
@@ -65,6 +67,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+	},
 
 	thirdParty: {
 		cardmarket: 278950,

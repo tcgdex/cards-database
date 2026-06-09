@@ -59,8 +59,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
 		fr: "Il rappelle des objets trouvés dans des sépultures anciennes. Nul ne sait qu'ils sont liés."
 	},
 

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Haru Akasaka",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [593],
 	hp: 120,
 	types: ["Water"],
 

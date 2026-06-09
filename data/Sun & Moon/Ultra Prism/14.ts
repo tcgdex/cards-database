@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+	},
+
 	thirdParty: {
 		cardmarket: 315945,
 		tcgplayer: 157631

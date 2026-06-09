@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+	},
+
 	thirdParty: {
 		cardmarket: 365772,
 		tcgplayer: 178954

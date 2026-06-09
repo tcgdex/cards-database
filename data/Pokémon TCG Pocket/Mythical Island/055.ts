@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
+
+	dexId: [545],
 	hp: 140,
 	types: ["Darkness"],
 

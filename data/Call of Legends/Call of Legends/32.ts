@@ -73,6 +73,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It has incredible intellect and intuition. Whatever the situation, it remains calm and collected.",
+	},
 
 	thirdParty: {
 		cardmarket: 279675,

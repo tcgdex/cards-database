@@ -65,19 +65,54 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740662,
+				tcgplayer: 523801,
+				cardtrader: 265242
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786603
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740662,
+				tcgplayer: 523801,
+				cardtrader: 265242
+			}
+		},
+	],
 
 	illustrator: "Po-Suzuki",
 
-	thirdParty: {
-		cardmarket: 740662
-	}
+	
 }
 
 export default card

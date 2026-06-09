@@ -75,8 +75,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
 		fr: "Il est capable de copier le code génétique d'un ennemi pour se transformer en son double."
 	},
 

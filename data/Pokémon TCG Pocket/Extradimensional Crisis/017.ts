@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Hajime Kusajima",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [523],
 	hp: 90,
 	types: ["Lightning"],
 

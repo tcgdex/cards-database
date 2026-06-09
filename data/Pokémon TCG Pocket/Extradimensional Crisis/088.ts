@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "akagi",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [794],
 	hp: 140,
 	types: ["Grass"],
 	stage: "Basic",

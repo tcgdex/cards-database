@@ -42,18 +42,41 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740511,
+				tcgplayer: 523644,
+				cardtrader: 265166
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740511,
+				tcgplayer: 523644,
+				cardtrader: 265166
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 740511
-	}
+	
 }
 
 export default card

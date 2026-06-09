@@ -44,18 +44,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733679,
+				tcgplayer: 516653,
+				cardtrader: 261109
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733679,
+				tcgplayer: 516653,
+				cardtrader: 261109
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 733702
-	}
+	
 }
 
 export default card

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	rarity: "Crown",
 	category: "Pokemon",
+
+	dexId: [458],
 	hp: 30,
 	types: ["Water"],
 

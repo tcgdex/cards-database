@@ -64,19 +64,48 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740548,
+				tcgplayer: 523668,
+				cardtrader: 265105
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 812589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740548,
+				tcgplayer: 523668,
+				cardtrader: 265105
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 740548
-	}
+	
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rocket's Admin."
+		en: "Rocket's Admin.",
+		fr: "Admin Rocket"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)"
+		en: "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)",
+		fr: "Chaque joueur mélange sa main avec son deck. Ensuite, chaque joueur compte ses cartes Récompenses restantes et pioche au maximum ce même nombre de cartes. (Vous piochez vos cartes en premier.)",
 	},
 
 	trainerType: "Supporter",

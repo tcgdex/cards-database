@@ -82,17 +82,34 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "takuyoa",
-
-	thirdParty: {
-		cardmarket: 817176
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817176,
+				tcgplayer: 623451
+			}
 		},
-	]
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841284,
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			size: 'jumbo'
+		},
+		{
+			type: 'holo',
+			size: 'jumbo'
+		}
+	],
 }
 
 export default card

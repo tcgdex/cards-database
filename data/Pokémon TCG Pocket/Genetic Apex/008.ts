@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Hajime Kusajima",
 	category: "Pokemon",
+
+	dexId: [13],
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Nelnal",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [131],
 	hp: 100,
 	types: ["Water"],
 

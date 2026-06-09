@@ -80,8 +80,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "In South America, it is said that its right eye sees the future and its left eye views the past.",
 		fr: "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé."
 	},
 

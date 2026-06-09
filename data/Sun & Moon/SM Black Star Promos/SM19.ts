@@ -89,6 +89,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
+	},
 }
 
 export default card

@@ -7,7 +7,8 @@ const card: Card = {
 	name: {
 		ja: "バケッチャ",
 		'zh-tw': "南瓜精",
-		th: "บาเค็จจะ"
+		th: "บาเค็จจะ",
+		ko: "호바귀"
 	},
 
 	illustrator: "saino misaki",
@@ -20,7 +21,8 @@ const card: Card = {
 	description: {
 		ja: "かぼちゃの 穴から 照らしている 光は 見た 人や ポケモンを 催眠状態にして 操る。",
 		'zh-tw': "南瓜的洞裡發出的光會催眠並控制看到牠的人和寶可夢。",
-		th: "แสงที่ส่องออกมาจากรูของฟักทองสามารถสะกดจิตและควบคุมมนุษย์หรือโปเกมอนที่มองแสงนั้น"
+		th: "แสงที่ส่องออกมาจากรูของฟักทองสามารถสะกดจิตและควบคุมมนุษย์หรือโปเกมอนที่มองแสงนั้น",
+		ko: "호박의 구멍에서 나오는 빛을 본 사람과 포켓몬을 최면상태로 만들어 조종한다."
 	},
 
 	stage: "Basic",
@@ -31,7 +33,8 @@ const card: Card = {
 		name: {
 			ja: "タネばくだん",
 			'zh-tw': "種子炸彈",
-			th: "ระเบิดเมล็ดพืช"
+			th: "ระเบิดเมล็ดพืช",
+			ko: "씨폭탄"
 		},
 
 		damage: 10
@@ -41,7 +44,8 @@ const card: Card = {
 		name: {
 			ja: "とつげき",
 			'zh-tw': "突擊",
-			th: "ประจัญบาน"
+			th: "ประจัญบาน",
+			ko: "돌격"
 		},
 
 		damage: 40,
@@ -64,7 +68,11 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "G"
+	regulationMark: "G",
+
+	thirdParty: {
+		cardmarket: 741856
+	}
 }
 
 export default card

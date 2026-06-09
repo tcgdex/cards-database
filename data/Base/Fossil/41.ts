@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandshrew",
+		fr: "Sabelette"
 	},
 
 	stage: "Stage1",
@@ -77,8 +78,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
 		fr: "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer."
 	},
 

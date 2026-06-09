@@ -14,23 +14,27 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Attach this card to 1 of your Fighting Pokémon in play. That Pokémon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.",
 		fr: "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de combat 01.",
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Kampf-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Rasende Wut"
+	attacks: [
+		{
+			name: {
+				de: "Rasende Wut",
+				fr: "Rage violente",
+			},
+			damage: "10x",
+			effect: {
+				de: "Wirf so viele Münzen, wie Schadensmarken auf diesem Pokémon liegen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu.",
+				fr: "Lancez un nombre de pièces égal au nombre de marqueurs de dégâts sur ce Pokémon. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+			},
+			cost: [
+				"Fighting",
+			],
 		},
-
-		damage: "10x",
-
-		effect: {
-			de: "Wirf so viele Münzen, wie Schadensmarken auf diesem Pokémon liegen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
-		},
-
-		cost: ["Fighting"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275197,

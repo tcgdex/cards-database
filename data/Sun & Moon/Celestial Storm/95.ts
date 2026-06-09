@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "A linkage of two Metang, this Pokémon can perform any calculation in a flash by utilizing parallel processing in its four brains.",
+	},
+
 	thirdParty: {
 		cardmarket: 360408,
 		tcgplayer: 170920

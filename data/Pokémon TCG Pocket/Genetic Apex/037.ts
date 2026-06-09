@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Toshinao Aoki",
 	category: "Pokemon",
+
+	dexId: [37],
 	hp: 50,
 	types: ["Fire"],
 	stage: "Basic",

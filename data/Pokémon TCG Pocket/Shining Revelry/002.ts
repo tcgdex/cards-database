@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [14],
 	hp: 80,
 	types: ["Grass"],
 

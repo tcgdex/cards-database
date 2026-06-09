@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Dragapult ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -64,10 +65,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675972,
-		cardmarket: 869771
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869771,
+				tcgplayer: 675972
+			}
+		}
+	],
 }
 
 export default card

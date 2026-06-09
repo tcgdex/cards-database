@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Seedraking ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Masahiko Ishii",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -92,6 +93,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 277299

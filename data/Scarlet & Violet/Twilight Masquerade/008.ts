@@ -57,18 +57,38 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769182,
+				tcgplayer: 550052
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769182,
+				tcgplayer: 550052
+			}
+		},
+	],
 
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 769182
-	}
 }
 
 export default card

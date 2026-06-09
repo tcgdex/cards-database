@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It knows how people and Pokémon feel by looking at their auras. It doesn't approach dangerous opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 372393,
 		tcgplayer: 189201

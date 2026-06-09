@@ -20,7 +20,7 @@ const card: Card = {
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fire",
 	],
 
 	evolveFrom: {
@@ -88,6 +88,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 276096,

@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "MUGENUP",
@@ -76,7 +82,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582210,
+		cardmarket: 582984,
 		tcgplayer: 253143
 	}
 }

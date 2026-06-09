@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [146],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Basic",

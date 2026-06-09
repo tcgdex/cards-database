@@ -71,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 		fr: "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",
 		it: "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme. LIV 24 N.126"
 	},

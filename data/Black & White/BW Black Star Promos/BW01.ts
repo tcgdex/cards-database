@@ -56,6 +56,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+	},
 }
 
 export default card

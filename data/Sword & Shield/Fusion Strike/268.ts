@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",
@@ -85,7 +97,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582613,
+		cardmarket: 583016,
 		tcgplayer: 253176
 	}
 }

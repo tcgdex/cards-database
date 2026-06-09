@@ -7,7 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Charizard",
-		fr: "Palkia"
+		fr: "Dracaufeu",
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -17,20 +17,25 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage2",
 
-	attacks: [{
-		name: {
-			en: "Fire Spin",
-			fr: "Boost Atomisant"
+	attacks: [
+		{
+			name: {
+				en: "Fire Spin",
+				fr: "Danseflamme",
+			},
+			effect: {
+				en: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
+				fr: "Défaussez 2 cartes Énergie attachées à Dracaufeu pour pouvoir utiliser cette attaque.",
+			},
+			damage: 100,
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+			],
 		},
-
-		effect: {
-			en: "Discard 2 Energy cards attached to Charizard in order to use this attack.",
-			fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige 80 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
-		},
-
-		damage: 100,
-		cost: ["Fire", "Fire", "Fire", "Fire"]
-	}],
+	],
 
 	weaknesses: [{
 		type: "Water",

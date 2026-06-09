@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Miki Tanaka",
 	category: "Pokemon",
+
+	dexId: [29],
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",

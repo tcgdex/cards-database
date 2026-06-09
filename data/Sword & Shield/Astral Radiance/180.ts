@@ -67,6 +67,12 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -78,7 +84,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 658795,
+		cardmarket: 658841,
 		tcgplayer: 272430
 	}
 }

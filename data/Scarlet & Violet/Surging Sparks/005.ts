@@ -42,18 +42,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794260,
+				tcgplayer: 590039
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794260,
+				tcgplayer: 590039
+			}
+		},
+	],
 
 	illustrator: "Iori Suzuki",
-
-	thirdParty: {
-		cardmarket: 794260
-	}
+	
 }
 
 export default card

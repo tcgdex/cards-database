@@ -10,7 +10,9 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  	hp: 70,  
+	dexId: [3],
 	stage: "Stage2",
 
 	attacks: [{
@@ -26,6 +28,14 @@ const card: Card = {
 			en: "Flip 2 coins. If 1 is heads, the Defending Pokémon is now Asleep and Poisoned. If both are heads, the Defending Pokémon is now Confused and Poisoned. If both are tails, the Defending Pokémon is now Paralyzed and Poisoned."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	thirdParty: {
 		cardmarket: 275417,

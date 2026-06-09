@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "sowsow",
@@ -87,7 +93,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582785,
+		cardmarket: 583024,
 		tcgplayer: 253266
 	}
 }

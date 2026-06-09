@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Masako Tomii",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [491],
 	hp: 110,
 	types: ["Darkness"],
 

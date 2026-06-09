@@ -55,18 +55,34 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794529,
+				tcgplayer: 590011
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794529,
+				tcgplayer: 590011
+			}
+		},
+	],
 
 	illustrator: "Saboteri",
 
-	thirdParty: {
-		cardmarket: 794529
-	}
 }
 
 export default card

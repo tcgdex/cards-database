@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
+		fr: "Carabaffe",
 		it: "Wartortle"
 	},
 
@@ -81,6 +82,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
 		fr: "Un Pokémon brutal armé de canons hydrauliques. Ses puissants jets d'eau sont dévastateurs.",
 		it: "Pokémon aggressivo con getti d'acqua pressurizzata dal guscio, che vengo usati per placcaggi ad alta velocità. LIV 52 N.9"
 	},

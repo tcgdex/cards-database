@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733701,
+				tcgplayer: 516675,
+				cardtrader: 261184
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733701,
+				tcgplayer: 516675,
+				cardtrader: 261184
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 733688
-	}
+	
 }
 
 export default card

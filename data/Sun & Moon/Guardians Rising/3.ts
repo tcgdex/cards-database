@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+	},
+
 	thirdParty: {
 		cardmarket: 297467,
 		tcgplayer: 130688

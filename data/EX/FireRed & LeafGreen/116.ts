@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Zapdos ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -67,6 +68,9 @@ const card: Card = {
 
 		type: "Poke-POWER"
 	}],
+
+	
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 276292,

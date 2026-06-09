@@ -3,6 +3,7 @@ import serie from '../SV'
 
 const set: Set = {
 	id: 'SV5K',
+
 	name: {
 		ja: 'ワイルドフォース',
 		ko: '와일드포스',
@@ -15,10 +16,15 @@ const set: Set = {
 	cardCount: {
 		official: 71
 	},
+
 	releaseDate: {
 		ja: '2024-01-26',
 		'zh-tw': '2024-02-02',
 		th: '2024-02-23'
+	},
+
+	thirdParty: {
+		cardmarket: 5573
 	}
 }
 

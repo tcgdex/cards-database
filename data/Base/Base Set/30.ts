@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bulbasaur",
+		fr: "Bulbizarre",
 		it: "Bulbasaur"
 	},
 
@@ -77,8 +78,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.",
 		fr: "Son bulbe dorsal devient si gros qu'il ne peut plus se tenir sur ses membres postérieurs.",
 		it: "Quando la pianta che ha sul dorso cresce, questo Pokémon non è più in grado di mantenersi eretto sulle zampe posteriori. LIV 20 N.2"
 	},

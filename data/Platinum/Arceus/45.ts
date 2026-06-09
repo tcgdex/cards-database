@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		279,
 	],
+	
+	hp: 90,
 
 	types: [
 		"Water",
@@ -73,6 +75,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+	},
 
 	thirdParty: {
 		cardmarket: 278896,

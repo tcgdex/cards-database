@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
+		fr: "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -75,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
 		fr: "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet."
 	},
 

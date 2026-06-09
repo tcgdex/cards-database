@@ -55,6 +55,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -66,7 +72,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 658560,
+		cardmarket: 658551,
 		tcgplayer: 272463
 	}
 }

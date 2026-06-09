@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+	},
+
 	thirdParty: {
 		cardmarket: 363510,
 		tcgplayer: 175456

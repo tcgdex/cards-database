@@ -63,8 +63,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
+		en: "If an Onix lives 100 years or more, its skin hardens, eventually becoming even harder than a diamond.",
 		fr: "Si un Onix vit au moins 100 ans, sa peau durcit et devient peu à peu plus dure que le diamant."
 	},
 

@@ -3,9 +3,9 @@ import Set from '../Dragon Frontiers'
 
 const card: Card = {
 	name: {
-		en: "Charizard Star δ",
+		en: "Charizard ☆ δ",
 		fr: "Dracaufeu ☆ δ",
-		de: "Glurak *"
+		de: "Glurak ☆ δ"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Rare",
@@ -23,6 +23,11 @@ const card: Card = {
 	stage: "Basic",
 
 
+	
+
+	retreat: 3,
+
+
 	attacks: [
 		{
 			cost: [
@@ -35,9 +40,9 @@ const card: Card = {
 				de: "Rotierende Klauen"
 			},
 			effect: {
-				en: "You may discard an Energy card attached to Charizard Star. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Charizard Star.",
-				fr: "Vous pouvez défausser une carte Énergie attachée à Dracaufeu . Choisissez alors dans votre pile de défausse une carte Énergie (celle que vous venez de défausser exclue) et attachez-la à Dracaufeu .",
-				de: "Du kannst eine Energiekarte, die an Glurak* angelegt ist, auf den Ablagestapel legen. Wenn du das machst, durchsuche deinen Ablagestapel nach einer Energiekarte (außer der, die du abgelegt hast) und lege sie an Glurak* an."
+				en: "You may discard an Energy card attached to Charizard ☆. If you do, search your discard pile for an Energy card (excluding the one you discarded) and attach it to Charizard ☆.",
+				fr: "Vous pouvez défausser une carte Énergie attachée à Dracaufeu ☆. Choisissez alors dans votre pile de défausse une carte Énergie (celle que vous venez de défausser exclue) et attachez-la à Dracaufeu ☆.",
+				de: "Du kannst eine Energiekarte, die an Glurak ☆ angelegt ist, auf den Ablagestapel legen. Wenn du das machst, durchsuche deinen Ablagestapel nach einer Energiekarte (außer der, die du abgelegt hast) und lege sie an Glurak ☆ an."
 			},
 			damage: 20,
 
@@ -57,8 +62,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Energy cards attached to Charizard Star and discard the top 3 cards from your opponent's deck.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Dracaufeu  et défaussez les 3 cartes du dessus du deck de votre adversaire.",
-				de: "Lege alle Energiekarten, die an Glurak* angelegt sind, auf deinen Ablagestapel. Lege die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+				fr: "Défaussez toutes les cartes Énergie attachées à Dracaufeu Star et défaussez les 3 cartes du dessus du deck de votre adversaire.",
+				de: "Lege alle Energiekarten, die an Glurak Star angelegt sind, auf deinen Ablagestapel. Lege die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 150,
 

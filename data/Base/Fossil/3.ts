@@ -54,8 +54,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
 		fr: "Il est capable de copier le code génétique d'un ennemi pour se transformer en son double."
 	},
 

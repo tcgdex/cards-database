@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
+		fr: "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -75,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
 		fr: "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée."
 	},
 

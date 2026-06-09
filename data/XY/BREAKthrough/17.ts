@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 286263,
 		tcgplayer: 107136

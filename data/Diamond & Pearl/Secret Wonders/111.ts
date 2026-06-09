@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 277864,
 		tcgplayer: 89461

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Skitty"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -87,6 +87,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 0,
 
 	thirdParty: {
 		cardmarket: 277172,

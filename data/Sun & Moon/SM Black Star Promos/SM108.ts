@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pikachu is wearing its Trainer's cap. Since the cap's not the right size, the fit is a bit loose.",
+	},
 }
 
 export default card

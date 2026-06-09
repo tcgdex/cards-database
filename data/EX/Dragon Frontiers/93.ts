@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Guardevoir ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Masahiko Ishii",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -74,6 +75,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277298

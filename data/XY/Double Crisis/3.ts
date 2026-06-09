@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Aqua's Spheal",
 		fr: "Obalie de la Team Aqua",
+		pt: "Spheal da Equipe Aqua",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				pt: "Revólver d'Água"
 			},
 
 			damage: 10,
@@ -47,6 +49,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Spheal's Water Gun can put out any fire. Flames used by opponents have no effect!",
+	},
 
 	thirdParty: {
 		cardmarket: 282514,

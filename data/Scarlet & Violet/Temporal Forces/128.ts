@@ -57,23 +57,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
+	description: {
+		en: "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760758,
+				tcgplayer: 542872
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760758,
+				tcgplayer: 542872
+			}
+		},
 	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 760758
-	}
 }
 
 export default card

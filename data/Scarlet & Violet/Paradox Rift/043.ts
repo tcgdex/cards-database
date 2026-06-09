@@ -35,18 +35,41 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740519,
+				tcgplayer: 523652,
+				cardtrader: 265122
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740519,
+				tcgplayer: 523652,
+				cardtrader: 265122
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 740519
-	}
+	
 }
 
 export default card

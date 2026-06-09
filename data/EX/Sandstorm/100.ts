@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Wailmer"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -79,6 +79,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 5,
 
 	thirdParty: {
 		cardmarket: 275877,

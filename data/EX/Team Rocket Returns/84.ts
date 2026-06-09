@@ -14,6 +14,7 @@ const card: Card = {
 	trainerType: "Rocket's Secret Machine",
 
 	effect: {
+		en: "Search your discard pile for Basic Pokémon and Evolution cards. You may either show 1 Basic Pokémon or Evolution card to your opponent and put it into your hand, or show a combination of 3 Basic Pokémon or Evolution cards to your opponent and shuffle them into your deck.",
 		de: "Search your discard pile for Basic Pokémon and Evolution cards. You may either show 1 Basic Pokémon or Evolution card to your opponent and put it into your hand, or show a combination of 3 Basic Pokémon and Evolution cards to your opponent nd shuffle them into your deck."
 	},
 

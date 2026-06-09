@@ -73,7 +73,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Nisota Niso",
-	suffix: "EX",
+	suffix: "ex",
 
 	weaknesses: [{
 		type: "Fighting",
@@ -83,6 +83,10 @@ const card: Card = {
 	variants: {
 		reverse: false,
 		normal: false
+	},
+
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
 	},
 
 	thirdParty: {

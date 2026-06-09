@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [405],
 	hp: 130,
 	types: ["Lightning"],
 

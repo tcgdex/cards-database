@@ -36,6 +36,7 @@ const card: Card = {
 	},
 	trainerType: "Item",
 
+	hp: 30,
 }
 
 export default card

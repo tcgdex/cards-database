@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		412,
 	],
+	
+	hp: 40,
 
 	types: [
 		"Grass",
@@ -60,6 +62,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.",
+	},
 
 	thirdParty: {
 		cardmarket: 278928,

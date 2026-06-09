@@ -53,15 +53,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769301,
+				tcgplayer: 550171
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769301,
+				tcgplayer: 550171
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 769301
-	}
 }
 
 export default card

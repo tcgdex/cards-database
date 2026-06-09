@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Ho-oh ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -70,7 +71,11 @@ const card: Card = {
 		},
 	],
 
+	
+	retreat: 2,
+
 	thirdParty: {
+		cardmarket: 276750,
 		tcgplayer: 86128
 	},
 

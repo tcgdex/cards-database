@@ -10,7 +10,10 @@ const card: Card = {
 
 	illustrator: "Katsura Tabata",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  hp: 60,
+	dexId: [215],
+
 	stage: "Basic",
 
 	attacks: [{
@@ -36,6 +39,20 @@ const card: Card = {
 			en: "Flip 4 coins. This attack does 10 damage times the number of heads."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+
 
 	variants: [
 		{

@@ -64,8 +64,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its body temperature is around 1,100 degrees F. It is healthy if it is breathing yellow flames.",
 		fr: "Sa température corporelle avoisine les 600°C. Son souffle est jaune quand il est en bonne santé."
 	},
 

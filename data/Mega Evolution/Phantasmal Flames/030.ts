@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [835],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
-	dexId: [835],
 
 	attacks: [{
 		cost: ["Lightning", "Colorless"],
@@ -50,18 +51,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Ayako Ozaki",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857605
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
+		},
+	],	
 }
 
 export default card

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Koji Nakata",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [296],
 	hp: 80,
 	types: ["Fighting"],
 

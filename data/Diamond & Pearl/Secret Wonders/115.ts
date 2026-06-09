@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+	},
+
 	thirdParty: {
 		cardmarket: 277868,
 		tcgplayer: 90023

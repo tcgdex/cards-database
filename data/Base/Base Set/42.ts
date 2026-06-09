@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Squirtle",
+		fr: "Carapuce",
 		it: "Squirtle"
 	},
 
@@ -75,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.",
 		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
 	},

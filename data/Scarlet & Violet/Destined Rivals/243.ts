@@ -32,16 +32,17 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "H",
+
 	variants: [
 		{
-			type: 'holo',
-			foil: 'gold'
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 826117,
+				tcgplayer: 633043
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826117
-	}
 }
 
 export default card

@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Aya Kusube",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [302],
 	hp: 80,
 	types: ["Psychic"],
 

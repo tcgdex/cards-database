@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
+		fr: "Minidraco"
 	},
 
 	stage: "Stage1",
@@ -73,8 +74,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall.",
 		fr: "Comme il se doit à un Pokémon légendaire, il a de nombreux pouvoirs étranges, comme la faculté de faire pleuvoir ou neiger."
 	},
 

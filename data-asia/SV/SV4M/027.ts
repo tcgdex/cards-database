@@ -7,7 +7,8 @@ const card: Card = {
 	name: {
 		ja: "テツノカイナex",
 		'zh-tw': "鐵臂膀ex",
-		th: "แขนเหล็กex"
+		th: "แขนเหล็กex",
+		ko: "무쇠손 ex"
 	},
 
 	illustrator: "PLANETA Mochizuki",
@@ -24,7 +25,8 @@ const card: Card = {
 		name: {
 			ja: "アームプレス",
 			'zh-tw': "臂壓制",
-			th: "อาร์มเพรส"
+			th: "อาร์มเพรส",
+			ko: "암프레스"
 		},
 
 		damage: 160
@@ -34,7 +36,8 @@ const card: Card = {
 		name: {
 			ja: "ごっつあんプリファイ",
 			'zh-tw': "感激放大",
-			th: "เครื่องขยายขอบใจหลาย"
+			th: "เครื่องขยายขอบใจหลาย",
+			ko: "감사 앰플리파이"
 		},
 
 		damage: 120,

@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		372,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Colorless",
@@ -68,6 +70,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+	},
 
 	thirdParty: {
 		cardmarket: 278920,

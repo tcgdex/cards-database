@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Vibraninf"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -81,6 +81,15 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30",
+		},
+	],
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 276964,

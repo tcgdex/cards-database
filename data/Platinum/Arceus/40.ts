@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		316,
 	],
+	
+	hp: 60,
 
 	types: [
 		"Psychic",
@@ -59,6 +61,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
+	},
 
 	thirdParty: {
 		cardmarket: 278912,

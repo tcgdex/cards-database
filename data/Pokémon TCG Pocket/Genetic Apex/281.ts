@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Ryota Murayama",
 	category: "Pokemon",
+
+	dexId: [25],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",

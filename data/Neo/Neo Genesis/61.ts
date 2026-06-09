@@ -72,6 +72,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
 		fr: "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise."
 	},
 

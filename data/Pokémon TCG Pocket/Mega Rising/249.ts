@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Whisker",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [508],
 	hp: 150,
 	types: ["Colorless"],
 

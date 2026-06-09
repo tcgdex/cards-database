@@ -13,13 +13,22 @@ const card: Card = {
 		it: "Mismagius-ex",
 		pt: "Mismagius ex"
 	},
+	evolveFrom: {
+		en: "Misdreavus",
+		de: "Traunfugil",
+		es: "Misdreavus",
+		fr: "Feuforêve",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+	},
 
 	rarity: "Double rare",
 	category: "Pokemon",
+
+	dexId: [429],
 	hp: 260,
 	types: ["Psychic"],
 	stage: "Stage1",
-	dexId: [429],
 
 	abilities: [{
 		type: "Ability",
@@ -74,15 +83,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857611
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857611,
+				tcgplayer: 662199,
+				cardtrader: 356819
+			}
+		},
+	],	
 }
 
 export default card

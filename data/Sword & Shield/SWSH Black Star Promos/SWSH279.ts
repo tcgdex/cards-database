@@ -67,11 +67,21 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
+	description: {
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+	},
+
 	thirdParty: {
-		cardmarket: 450618
+		cardmarket: 566761
 	}
 }
 

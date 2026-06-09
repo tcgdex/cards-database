@@ -76,8 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+	},
+
 	thirdParty: {
-		cardmarket: 281306
+		cardmarket: 552884
 	}
 }
 

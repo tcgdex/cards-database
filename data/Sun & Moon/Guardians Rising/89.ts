@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They don't like to reveal themselves in front of people. They live quietly in packs deep in the mountains.",
+	},
+
 	thirdParty: {
 		cardmarket: 297545,
 		tcgplayer: 131003

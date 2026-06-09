@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		453,
 	],
+	
+	hp: 60,
 
 	types: [
 		"Fighting",
@@ -60,6 +62,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.",
+	},
 
 	thirdParty: {
 		cardmarket: 278933,

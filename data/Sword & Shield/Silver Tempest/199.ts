@@ -75,6 +75,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -86,7 +98,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 682113,
+		cardmarket: 682247,
 		tcgplayer: 451989
 	}
 }

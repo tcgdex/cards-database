@@ -73,6 +73,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
 		fr: "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface.",
 		it: "Vive sotto terra, dove sopravvive mangiando le radici di varie piante. Ogni tanto risale in superficie. LIV 8 N.50"
 	},

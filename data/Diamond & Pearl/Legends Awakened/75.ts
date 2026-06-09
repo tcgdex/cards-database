@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "With 80 tentacles for ensnaring victims, it prevents escape until the prey is weakened by poison.",
 		fr: "Ses 80 tentacules ligotent ses proies et les retiennent jusqu'à ce que son poison fasse effet."
 	},
 

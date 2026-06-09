@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Shining Magikarp"
+		en: "Shining Magikarp",
+		fr: "Magicarpe Brillant"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -18,21 +19,25 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gold Scale"
+			en: "Gold Scale",
+			fr: "Écaille d'or"
 		},
 
 		effect: {
-			en: "Your opponent may draw 2 cards. Either way, you may draw 2 cards."
+			en: "Your opponent may draw 2 cards. Either way, you may draw 2 cards.",
+			fr: "Votre adversaire peut piocher 2 cartes. Quoi qu'il décide, vous pouvez aussi piocher 2 cartes."
 		},
 
 		cost: ["Water"]
 	}, {
 		name: {
-			en: "Dragon Bond"
+			en: "Dragon Bond",
+			fr: "Lien du Dragon"
 		},
 
 		effect: {
-			en: "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
+			en: "Search your deck for a card named Gyarados, Dark Gyarados, or Shining Gyarados. Show it to your opponent and put it into your hand. Shuffle your deck afterward.",
+			fr: "Cherchez une carte Léviator, Léviator Obscur ou Léviator Brillant dans votre deck. Montrez-la à votre adversaire et placez-la dans votre main. Mélangez ensuite votre deck."
 		},
 
 		cost: ["Psychic"]

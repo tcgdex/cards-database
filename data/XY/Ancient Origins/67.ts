@@ -117,8 +117,12 @@ const card: Card = {
 		}
 	}],
 
+	description: {
+		en: "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…",
+	},
+
 	thirdParty: {
-		cardmarket: 284247,
+		cardmarket: 284245,
 		tcgplayer: 101489
 	}
 }

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [52],
 	hp: 60,
 	types: ["Darkness"],
 

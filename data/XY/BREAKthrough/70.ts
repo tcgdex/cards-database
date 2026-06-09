@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
+	},
+
 	thirdParty: {
 		cardmarket: 286316,
 		tcgplayer: 107189

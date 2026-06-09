@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		436,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Metal",
@@ -69,6 +71,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+	},
 
 	thirdParty: {
 		cardmarket: 278906,

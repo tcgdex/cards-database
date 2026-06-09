@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
+	},
+
 	thirdParty: {
 		cardmarket: 281395,
 		tcgplayer: 84827

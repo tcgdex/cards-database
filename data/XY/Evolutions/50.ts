@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+	},
+
 	thirdParty: {
 		cardmarket: 293426,
 		tcgplayer: 124063

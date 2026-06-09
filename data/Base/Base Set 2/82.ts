@@ -55,6 +55,16 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
+	},
+
+	thirdParty: {
+		cardmarket: 274005
+	},
 
 	variants: [
 		{

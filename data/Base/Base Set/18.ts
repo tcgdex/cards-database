@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
+		fr: "Minidraco",
 		it: "Dratini"
 	},
 
@@ -103,8 +104,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
 		fr: "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.",
 		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148"
 	},

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "hatachu",
 	category: "Pokemon",
+
+	dexId: [604],
 	hp: 140,
 	types: ["Lightning"],
 	stage: "Stage2",

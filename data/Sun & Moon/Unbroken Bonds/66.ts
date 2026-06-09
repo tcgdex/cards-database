@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its fangs are so sharp, if it bites you in the dark and sucks your blood, you won't notice any pain or realize you've been bitten.",
+	},
+
 	thirdParty: {
 		cardmarket: 372354,
 		tcgplayer: 189166

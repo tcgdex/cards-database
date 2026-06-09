@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Dudunsparce ex do Lauro"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -50,10 +51,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675976,
-		cardmarket: 869775
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869775,
+				tcgplayer: 675976
+			}
+		}
+	],
 }
 
 export default card

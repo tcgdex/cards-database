@@ -101,8 +101,12 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.",
+	},
+
 	thirdParty: {
-		cardmarket: 290989,
+		cardmarket: 290995,
 		tcgplayer: 120156
 	}
 }

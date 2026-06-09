@@ -63,18 +63,47 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725230,
+				tcgplayer: 509937,
+				cardtrader: 255835
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725230,
+				tcgplayer: 509937,
+				cardtrader: 255835
+			}
+		},
+	],
 
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 725230
-	}
+	
 }
 
 export default card

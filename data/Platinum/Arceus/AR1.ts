@@ -16,6 +16,8 @@ const card: Card = {
 	dexId: [
 		493,
 	],
+	
+	hp: 70,
 
 	types: [
 		"Darkness",
@@ -59,6 +61,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+	},
 
 	thirdParty: {
 		cardmarket: 278861

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "rika",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [380],
 	hp: 90,
 	types: ["Psychic"],
 

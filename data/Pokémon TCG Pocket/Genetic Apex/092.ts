@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "ryoma uratsuka",
 	category: "Pokemon",
+
+	dexId: [872],
 	hp: 50,
 	types: ["Water"],
 	stage: "Basic",

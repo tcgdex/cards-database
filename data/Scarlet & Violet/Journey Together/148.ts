@@ -31,18 +31,27 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 817300
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817300,
+				tcgplayer: 623575
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817300,
+				tcgplayer: 623575
+			}
 		},
-	]
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['player-rewards-program']
+		}
+	],
 }
 
 export default card

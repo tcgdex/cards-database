@@ -80,8 +80,12 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
+	},
+
 	thirdParty: {
-		cardmarket: 279642
+		cardmarket: 279652
 	}
 }
 

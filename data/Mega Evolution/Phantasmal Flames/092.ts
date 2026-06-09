@@ -30,18 +30,25 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
+	illustrator: "Studio Bora Inc.",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857667,
+				tcgplayer: 660419,
+				cardtrader: 356878
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857667,
+				tcgplayer: 660419,
+				cardtrader: 356878
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857667
-	}
 }
 
 export default card

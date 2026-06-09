@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+	},
 }
 
 export default card

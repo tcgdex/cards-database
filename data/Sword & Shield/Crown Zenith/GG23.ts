@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
@@ -65,6 +71,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
 	},
 
 	thirdParty: {

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+	},
+
 	thirdParty: {
 		cardmarket: 363478,
 		tcgplayer: 175274

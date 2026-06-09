@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	rarity: "Four Diamond",
 	category: "Pokemon",
+
+	dexId: [25],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Masakazu Fukuda",
 	category: "Pokemon",
+
+	dexId: [112],
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",

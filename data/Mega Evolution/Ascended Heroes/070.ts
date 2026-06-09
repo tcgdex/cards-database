@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Bellibolt ex da Kissera"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675882,
-		cardmarket: 869681
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869681,
+				tcgplayer: 675882
+			}
+		}
+	],
 }
 
 export default card

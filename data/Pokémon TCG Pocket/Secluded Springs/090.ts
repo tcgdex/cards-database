@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "mele",
 	rarity: "Three Star",
 	category: "Pokemon",
+
+	dexId: [245],
 	hp: 140,
 	types: ["Water"],
 	stage: "Basic",

@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+	},
+
 	thirdParty: {
 		cardmarket: 280379,
 		tcgplayer: 90677

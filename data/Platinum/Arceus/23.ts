@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		139,
 	],
+	
+	hp: 120,
 
 	types: [
 		"Water",
@@ -68,6 +70,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large.",
+	},
 
 	thirdParty: {
 		cardmarket: 278895,

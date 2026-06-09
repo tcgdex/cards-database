@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "miki kudo",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [12],
 	types: ["Grass"],
 	stage: "Stage2",
 

@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "PLANETA CG Works",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [128],
 	hp: 140,
 	types: ["Colorless"],
 	stage: "Basic",

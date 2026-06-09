@@ -80,8 +80,12 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+	},
+
 	thirdParty: {
-		cardmarket: 281331
+		cardmarket: 552809
 	}
 }
 

@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		310,
 	],
+	
+	hp: 90,
 
 	types: [
 		"Lightning",
@@ -75,6 +77,10 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+
+	description: {
+		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+	},
 
 	thirdParty: {
 		cardmarket: 278894,

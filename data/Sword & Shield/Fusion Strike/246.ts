@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "PLANETA Mochizuki",
@@ -56,7 +62,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582075,
+		cardmarket: 582982,
 		tcgplayer: 253139
 	}
 }

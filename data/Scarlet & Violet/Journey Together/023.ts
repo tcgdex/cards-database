@@ -50,18 +50,22 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Fujimoto Gold",
 
-	thirdParty: {
-		cardmarket: 817175
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817175,
+				tcgplayer: 623450
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817175,
+				tcgplayer: 623450
+			}
 		},
-	]
+	],
 }
 
 export default card

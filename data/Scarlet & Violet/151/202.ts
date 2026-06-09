@@ -66,19 +66,36 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733797,
+				tcgplayer: 517048,
+				cardtrader: 261380
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-		cardmarket: 733797
-	}
+	
 }
 
 export default card

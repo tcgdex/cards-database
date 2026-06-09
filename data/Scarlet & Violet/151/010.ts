@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733605,
+				tcgplayer: 502559,
+				cardtrader: 261067
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733605,
+				tcgplayer: 502559,
+				cardtrader: 261067
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 733743
-	}
+	
 }
 
 export default card

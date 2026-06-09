@@ -12,10 +12,20 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Pokemon",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	description: {
 		en: "Normally found near power plants, it can wander away and cause major blackouts in cities."
 	},
+	
+	hp: 70,
 
 	stage: "Basic",
 

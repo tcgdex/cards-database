@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It controls its water balloons with song. The melody is learning from others of its kind and is passed down from one generation to the next.",
+	},
+
 	thirdParty: {
 		cardmarket: 295351,
 		tcgplayer: 126912

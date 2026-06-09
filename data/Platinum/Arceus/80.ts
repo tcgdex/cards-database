@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		278,
 	],
+	
+	hp: 40,
 
 	types: [
 		"Water",
@@ -68,6 +70,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+	},
 
 	thirdParty: {
 		cardmarket: 278952,

@@ -63,6 +63,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
+	},
+
 	thirdParty: {
         cardmarket: 702404,
         tcgplayer: 487994

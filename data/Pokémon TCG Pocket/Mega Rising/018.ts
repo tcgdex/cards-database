@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Kanako Eo",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [549],
 	hp: 80,
 	types: ["Grass"],
 

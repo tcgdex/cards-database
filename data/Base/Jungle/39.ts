@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cubone",
+		fr: "Osselait"
 	},
 
 	stage: "Stage1",
@@ -81,8 +82,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
 		fr: "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie."
 	},
 

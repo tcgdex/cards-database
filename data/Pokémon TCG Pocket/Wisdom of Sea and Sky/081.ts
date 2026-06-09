@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [177],
 	hp: 50,
 	types: ["Psychic"],
 

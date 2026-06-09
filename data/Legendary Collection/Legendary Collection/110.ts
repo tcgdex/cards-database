@@ -11,8 +11,12 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Remove up to 2 damage counters from 1 of your Pokémon.",
+	},
+
 	thirdParty: {
-		cardmarket: 274866,
+		cardmarket: 274875,
 		tcgplayer: 88332
 	},
 

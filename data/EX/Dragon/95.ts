@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Limagma"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -75,6 +75,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+
+	retreat: 3,
 
 	thirdParty: {
 		tcgplayer: 87019,

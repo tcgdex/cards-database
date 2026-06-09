@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		ja: "ウガツホムラex"
+		ja: "ウガツホムラex",
+		ko: "꿰뚫는화염 ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -19,7 +20,8 @@ const card: Card = {
 		cost: ["Fire", "Colorless"],
 
 		name: {
-			ja: "ヒートブラスト"
+			ja: "ヒートブラスト",
+			ko: "히트블라스트"
 		},
 
 		damage: 60
@@ -27,7 +29,8 @@ const card: Card = {
 		cost: ["Fire", "Fire", "Colorless"],
 
 		name: {
-			ja: "れっかばくしん"
+			ja: "れっかばくしん",
+			ko: "열화맥진"
 		},
 
 		damage: 260,

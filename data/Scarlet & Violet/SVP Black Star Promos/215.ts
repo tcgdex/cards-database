@@ -8,7 +8,7 @@ const card: Card = {
 		en: "Toxtricity ex",
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 260,

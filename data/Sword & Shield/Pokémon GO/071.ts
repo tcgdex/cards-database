@@ -63,6 +63,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -73,7 +79,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 664541,
+		cardmarket: 665239,
 		tcgplayer: 277000
 	}
 }

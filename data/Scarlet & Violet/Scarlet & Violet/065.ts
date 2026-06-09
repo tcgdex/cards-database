@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -80,7 +86,12 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "hncl",
+
+	description: {
+		en: "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
+	},
 
 	thirdParty: {
         cardmarket: 702361,

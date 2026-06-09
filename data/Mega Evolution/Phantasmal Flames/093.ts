@@ -30,18 +30,25 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "I",
 
+	illustrator: "Toyste Beach",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857668,
+				tcgplayer: 662223,
+				cardtrader: 356879
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857668
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857668,
+				tcgplayer: 662223,
+				cardtrader: 356879
+			}
+		},
+	],	
 }
 
 export default card

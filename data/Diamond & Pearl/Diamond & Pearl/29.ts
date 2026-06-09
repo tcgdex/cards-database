@@ -89,6 +89,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
 		fr: "Il emmagasine du sable qu'il expulse en tornades par les pores de sa peau pour attaquer."
 	},
 

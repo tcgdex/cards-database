@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Raita Kazama",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [658],
 	hp: 170,
 	types: ["Water"],
 

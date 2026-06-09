@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
+		fr: "Salamèche"
 	},
 
 	stage: "Stage1",
@@ -73,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Its tail is incredibly strong, able to lift up to 5 adult men.",
 		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes."
 	},
 

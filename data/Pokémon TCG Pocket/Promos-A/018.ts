@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kuroimori",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [3],
 	types: ["Grass"],
 	stage: "Stage2",
 

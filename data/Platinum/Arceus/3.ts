@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		485,
 	],
+	
+	hp: 100,
 
 	types: [
 		"Fire",
@@ -67,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Its body is made of rugged steel. However, it is partially melted in spots because of its own heat.",
+	},
 
 	thirdParty: {
 		cardmarket: 278875,

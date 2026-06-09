@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "AKIRA EGAWA",
@@ -85,7 +97,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582613,
+		cardmarket: 583019,
 		tcgplayer: 253177
 	}
 }

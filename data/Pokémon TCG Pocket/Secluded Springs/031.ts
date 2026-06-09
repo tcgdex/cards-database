@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Tomomi Ozaki",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [836],
 	hp: 120,
 	types: ["Lightning"],
 

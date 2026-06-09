@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives atop giant trees. It wraps its tail around a branch so it won't fall off while asleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 278099,
 		tcgplayer: 83490

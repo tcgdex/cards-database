@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		26,
 	],
+	
+	hp: 90,
 
 	types: [
 		"Lightning",
@@ -76,6 +78,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	},
 
 	thirdParty: {
 		cardmarket: 278899,

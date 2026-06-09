@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 	rarity: "Three Diamond",
 	category: "Pokemon",
+
+	dexId: [786],
 	hp: 90,
 	types: ["Psychic"],
 

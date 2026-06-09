@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Extremely cautious, there is always one keeping watch, but they don't notice enemies coming from behind.",
+	},
+
 	thirdParty: {
 		cardmarket: 280850,
 		tcgplayer: 87966

@@ -63,8 +63,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Because it is inept at walking on its newly grown legs, it always swims around in water.",
 		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
 	},
 

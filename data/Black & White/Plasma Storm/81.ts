@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete.",
+	},
+
 	thirdParty: {
 		cardmarket: 280821,
 		tcgplayer: 84420

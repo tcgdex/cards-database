@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+	},
+
 	thirdParty: {
 		cardmarket: 281869,
 		tcgplayer: 94631

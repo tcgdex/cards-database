@@ -78,8 +78,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It turns aggressive if it has too much electricity in its body. It discharges power through its tail.",
 		fr: "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue."
 	},
 

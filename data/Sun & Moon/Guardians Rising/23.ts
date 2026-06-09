@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They can be found lying dehydrated on beaches, but they are often still alive. When soaked in water, they will revive.",
+	},
+
 	thirdParty: {
 		cardmarket: 297486,
 		tcgplayer: 130923

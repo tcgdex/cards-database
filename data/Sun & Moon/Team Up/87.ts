@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+	},
+
 	thirdParty: {
 		cardmarket: 369017,
 		tcgplayer: 183865

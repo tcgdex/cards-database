@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "OKACHEKE",
 	category: "Pokemon",
+
+	dexId: [802],
 	hp: 80,
 	types: ["Fighting"],
 

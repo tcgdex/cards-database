@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "YASHIRO Nanaco",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [350],
 	hp: 120,
 	types: ["Water"],
 

@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		172,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Lightning",
@@ -66,6 +68,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+	},
 
 	thirdParty: {
 		cardmarket: 278897,

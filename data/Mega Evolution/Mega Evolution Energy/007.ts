@@ -1,0 +1,36 @@
+import { Card } from '../../../interfaces'
+import Set from '../Mega Evolution Energy'
+
+const card: Card = {
+    name: {
+        en: "Darkness Energy",
+        fr: "Énergie Obscurité",
+        es: "Energía Oscura",
+        it: "Energia Oscurità",
+        pt: "Energia de Escuridão",
+        de: "Finsternis-Energie"
+    },
+
+    rarity: "Common",
+    category: "Energy",
+    set: Set,
+    energyType: "Normal",
+
+    variants: [
+        {
+            type: "normal",
+            thirdParty: {
+                tcgplayer: 656269
+            }
+        },
+        {
+            type: "reverse",
+            thirdParty: {
+                tcgplayer: 656269
+            }
+        }
+    ],
+
+}
+
+export default card

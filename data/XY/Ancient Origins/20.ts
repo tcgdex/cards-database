@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+	},
+
 	thirdParty: {
 		cardmarket: 284201,
 		tcgplayer: 101441

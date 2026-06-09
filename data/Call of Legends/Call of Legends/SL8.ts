@@ -57,8 +57,12 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.",
+	},
+
 	thirdParty: {
-		cardmarket: 279633
+		cardmarket: 279662
 	}
 }
 

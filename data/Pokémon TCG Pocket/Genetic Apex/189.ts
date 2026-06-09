@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Atsushi Furusawa",
 	category: "Pokemon",
+
+	dexId: [19],
 	hp: 40,
 	types: ["Colorless"],
 	stage: "Basic",

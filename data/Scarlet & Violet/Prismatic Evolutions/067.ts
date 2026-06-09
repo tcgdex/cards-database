@@ -69,9 +69,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 805456
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805456,
+				tcgplayer: 610422
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805456,
+				tcgplayer: 610422
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806502,
+				tcgplayer: 610584
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806503,
+				tcgplayer: 610685
+			}
+		},
+	],
 }
 
 export default card

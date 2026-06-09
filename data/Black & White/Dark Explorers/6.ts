@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+	},
+
 	thirdParty: {
 		cardmarket: 280334,
 		tcgplayer: 86682

@@ -63,18 +63,47 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733617,
+				tcgplayer: 502589,
+				cardtrader: 261177
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733617,
+				tcgplayer: 502589,
+				cardtrader: 261177
+			}
+		},
+	],
 
 	illustrator: "Gemi",
 
-	thirdParty: {
-		cardmarket: 733623
-	}
+	
 }
 
 export default card

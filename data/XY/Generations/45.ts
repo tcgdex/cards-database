@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It tumbles down mountains, leaving grooves from peak to base. Stay clear of these grooves.",
+	},
+
 	thirdParty: {
 		cardmarket: 288483,
 		tcgplayer: 113703

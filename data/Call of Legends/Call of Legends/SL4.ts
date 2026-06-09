@@ -57,8 +57,12 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+	},
+
 	thirdParty: {
-		cardmarket: 279643
+		cardmarket: 279649
 	}
 }
 

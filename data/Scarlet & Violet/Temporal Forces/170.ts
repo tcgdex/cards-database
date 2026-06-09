@@ -44,20 +44,37 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760800,
+				tcgplayer: 542891
+			}
+		},
 	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 760800
-	}
 }
 
 export default card

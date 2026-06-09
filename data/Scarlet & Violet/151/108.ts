@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Bug Pokémon are Lickitung's main food source. This Pokémon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733703,
+				tcgplayer: 516677,
+				cardtrader: 261128
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733703,
+				tcgplayer: 516677,
+				cardtrader: 261128
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 733703
-	}
+	
 }
 
 export default card

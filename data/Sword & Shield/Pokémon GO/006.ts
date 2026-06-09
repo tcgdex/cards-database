@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -53,8 +59,12 @@ const card: Card = {
 		"holo": false
 	},
 
+	description: {
+		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
+	},
+
 	thirdParty: {
-		cardmarket: 664539,
+		cardmarket: 665655,
 		tcgplayer: 276944
 	}
 }

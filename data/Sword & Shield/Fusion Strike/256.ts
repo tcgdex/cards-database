@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "PLANETA Mochizuki",
@@ -78,7 +84,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 582953,
+		cardmarket: 582992,
 		tcgplayer: 253156
 	}
 }

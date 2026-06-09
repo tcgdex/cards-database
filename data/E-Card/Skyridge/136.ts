@@ -25,10 +25,12 @@ const card: Card = {
 	}],
 
 	effect: {
+		en: "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate δ.",
 		de: "Lege diese Karte an 1 deiner Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges das Geheimnis Schild S auf deinen Ablagestapel."
 	},
 
 	thirdParty: {
+		cardmarket: 275394,
 		tcgplayer: 87672
 	},
 

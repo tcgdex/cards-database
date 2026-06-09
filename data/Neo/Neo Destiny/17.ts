@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Wherever it goes, it spins a thread that always leads back to its web.",
 		fr: "Où qu'il aille, il tisse un fil qui le ramène à sa toile."
 	},
 

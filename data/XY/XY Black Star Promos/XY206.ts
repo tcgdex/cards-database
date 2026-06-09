@@ -13,8 +13,12 @@ const card: Card = {
 	set: Set,
 	trainerType: "Item",
 
+	effect: {
+		en: "Flip a coin until you get tails. For each heads, draw a card. You may play as many Item cards as you like during your turn (before your attack).",
+	},
+
 	thirdParty: {
-		cardmarket: 295188
+		cardmarket: 554217
 	}
 }
 

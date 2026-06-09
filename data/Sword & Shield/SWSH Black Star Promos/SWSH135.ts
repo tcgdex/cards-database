@@ -56,6 +56,18 @@ const card: Card = {
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -69,7 +81,7 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 465529
+		cardmarket: 491179
 	}
 }
 

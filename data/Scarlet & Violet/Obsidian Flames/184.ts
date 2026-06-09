@@ -72,18 +72,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725264,
+				tcgplayer: 509773,
+				cardtrader: 256080
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725264,
+				tcgplayer: 509773,
+				cardtrader: 256080
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 725264
-	}
+	
 }
 
 export default card

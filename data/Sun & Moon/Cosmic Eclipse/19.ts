@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This narcissistic Pokémon is a clean freak. If you don't groom it diligently, it will stop listening to you.",
+	},
+
 	thirdParty: {
 		cardmarket: 407749,
 		tcgplayer: 201175

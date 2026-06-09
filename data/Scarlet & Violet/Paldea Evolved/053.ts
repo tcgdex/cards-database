@@ -47,15 +47,36 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715528,
+				tcgplayer: 497464,
+				cardtrader: 248664
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 785460
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715528,
+				tcgplayer: 497464,
+				cardtrader: 248664
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 715528
-	}
+	
 }
 
 export default card

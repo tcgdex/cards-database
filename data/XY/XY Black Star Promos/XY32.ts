@@ -78,8 +78,12 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+	},
+
 	thirdParty: {
-		cardmarket: 281315
+		cardmarket: 552959
 	}
 }
 

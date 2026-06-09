@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Tomowaka",
 	rarity: "One Shiny",
 	category: "Pokemon",
+
+	dexId: [40],
 	hp: 100,
 	types: ["Colorless"],
 

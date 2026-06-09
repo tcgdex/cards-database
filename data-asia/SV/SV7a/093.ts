@@ -16,7 +16,11 @@ const card: Card = {
 	},
 
 	trainerType: "Tool",
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		cardmarket: 787619
+	}
 }
 
 export default card

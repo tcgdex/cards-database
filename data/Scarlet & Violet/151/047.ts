@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733642,
+				tcgplayer: 516170,
+				cardtrader: 261202
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733642,
+				tcgplayer: 516170,
+				cardtrader: 261202
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
-	thirdParty: {
-		cardmarket: 733642
-	}
+	
 }
 
 export default card

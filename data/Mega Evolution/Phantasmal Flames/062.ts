@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Uncommon",
 	category: "Pokemon",
+
+	dexId: [336],
 	hp: 120,
 	types: ["Darkness"],
 	stage: "Basic",
-	dexId: [336],
 
 	abilities: [{
 		type: "Ability",
@@ -64,18 +65,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857637,
+				tcgplayer: 660413,
+				cardtrader: 356846
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857637,
+				tcgplayer: 660413,
+				cardtrader: 356846
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857637
-	}
 }
 
 export default card

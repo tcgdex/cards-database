@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Team Aqua's Grimer",
 		fr: "Tadmorv de la Team Aqua",
+		pt: "Grimer da Equipe Aqua",
 	},
 
 	illustrator: "kawayoo",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				pt: "Pancada",
 			},
 
 			damage: 10,
@@ -46,6 +48,7 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud'Boue",
+				pt: "Tapa de Lama",
 			},
 
 			damage: 30,
@@ -61,6 +64,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Its flexible body, which allows it to squeeze into any cracks, comes in handy when invading enemy hideouts.",
+	},
 
 	thirdParty: {
 		cardmarket: 282518,

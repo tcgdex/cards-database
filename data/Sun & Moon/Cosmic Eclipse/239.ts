@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+	},
+
 	thirdParty: {
 		cardmarket: 398504,
 		tcgplayer: 201350

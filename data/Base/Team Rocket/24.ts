@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weavile",
+		fr: "Nosferapti"
 	},
 
 	stage: "Stage1",
@@ -80,6 +81,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Sneaks up silently on its prey and attacks it from behind, sometimes killing it with one bite.",
 		fr: "Il se faufile silencieusement derrière ses proies pour les attaquer, les tuant parfois d'une seule morsure."
 	},
 

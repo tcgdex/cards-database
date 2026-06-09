@@ -69,8 +69,12 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's hypothesized that it's monitoring those those who destroy the ecosystem from deep in the cave where it lives.",
+	},
+
 	thirdParty: {
-		cardmarket: 290102
+		cardmarket: 553968
 	}
 }
 

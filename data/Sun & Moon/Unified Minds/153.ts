@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+	},
+
 	thirdParty: {
 		cardmarket: 388557,
 		tcgplayer: 195151

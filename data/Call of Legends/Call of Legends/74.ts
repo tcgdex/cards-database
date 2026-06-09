@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+	},
+
 	thirdParty: {
 		cardmarket: 279717,
 		tcgplayer: 90003

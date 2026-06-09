@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [919],
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
-	dexId: [919],
 
 	attacks: [{
 		cost: ["Grass"],
@@ -50,15 +51,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Nakamura Ippan",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857671,
+				tcgplayer: 662204,
+				cardtrader: 356882
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857671
-	}
 }
 
 export default card

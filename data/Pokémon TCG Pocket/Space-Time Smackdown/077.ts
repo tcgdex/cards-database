@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [482],
 	hp: 70,
 	types: ["Psychic"],
 

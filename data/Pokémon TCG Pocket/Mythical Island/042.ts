@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Taiga Kayama",
 	category: "Pokemon",
+
+	dexId: [57],
 	hp: 80,
 	types: ["Fighting"],
 

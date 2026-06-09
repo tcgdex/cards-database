@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+	},
+
 	thirdParty: {
 		cardmarket: 280782,
 		tcgplayer: 87086

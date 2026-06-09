@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+	},
+
 	thirdParty: {
 		cardmarket: 281549,
 		tcgplayer: 91203

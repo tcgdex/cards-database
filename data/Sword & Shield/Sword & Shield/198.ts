@@ -99,7 +99,7 @@ const card: Card = {
 	dexId: [845],
 
 	thirdParty: {
-		cardmarket: 436869,
+		cardmarket: 437084,
 		tcgplayer: 208478
 	}
 }

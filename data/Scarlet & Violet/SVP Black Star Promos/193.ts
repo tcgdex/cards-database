@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Zacian ex do Lupo"
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 	rarity: "None",
 	category: "Pokemon",
@@ -68,7 +69,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

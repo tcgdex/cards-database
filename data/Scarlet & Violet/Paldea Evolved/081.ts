@@ -58,15 +58,28 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715556,
+				tcgplayer: 497492,
+				cardtrader: 248708
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715556,
+				tcgplayer: 497492,
+				cardtrader: 248708
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 715555
-	}
+	
 }
 
 export default card

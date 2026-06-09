@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "MINAMINAMI Take",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [490],
 	hp: 50,
 	types: ["Water"],
 

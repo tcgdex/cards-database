@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Illustration rare",
 	category: "Pokemon",
+
+	dexId: [888],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Basic",
-	dexId: [888],
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],
@@ -50,15 +51,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Yoriyuki Ikegami",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857675,
+				tcgplayer: 662245,
+				cardtrader: 356886
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857675
-	}
 }
 
 export default card

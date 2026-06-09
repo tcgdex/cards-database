@@ -62,9 +62,15 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It has the power to travel across time, but it is said to appear only in peaceful times.",
+	},
 
 	thirdParty: {
-		cardmarket: 289560
+		cardmarket: 553429
 	}
 }
 

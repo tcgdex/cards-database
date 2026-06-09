@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Galegon"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -90,6 +90,9 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+
+	
+	retreat: 4,
 
 	thirdParty: {
 		cardmarket: 275872,

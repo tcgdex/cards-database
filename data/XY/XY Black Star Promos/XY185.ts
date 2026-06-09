@@ -68,9 +68,15 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 4,
+
+
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+	},
 
 	thirdParty: {
-		cardmarket: 291585
+		cardmarket: 553958
 	}
 }
 

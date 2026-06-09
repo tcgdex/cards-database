@@ -13,7 +13,16 @@ const card: Card = {
 		it: "Mega Froslass-ex",
 		pt: "Mega Froslass ex"
 	},
+	evolveFrom: {
+		en: "Snorunt",
+		de: "Schneppke",
+		es: "Snorunt",
+		fr: "Stalgamin",
+		it: "Snorunt",
+		pt: "Snorunt",
+	},
 
+	suffix: "ex",
 	illustrator: "Teeziro",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -74,10 +83,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676087,
-		cardmarket: 869886
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869886,
+				tcgplayer: 676087
+			}
+		}
+	],
 }
 
 export default card

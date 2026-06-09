@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
+	},
+
 	thirdParty: {
 		cardmarket: 273642,
 		tcgplayer: 96009

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "0313",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [725],
 	hp: 70,
 	types: ["Fire"],
 

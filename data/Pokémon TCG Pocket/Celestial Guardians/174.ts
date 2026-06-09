@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "imoniii",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [774],
 	hp: 80,
 	types: ["Fighting"],
 

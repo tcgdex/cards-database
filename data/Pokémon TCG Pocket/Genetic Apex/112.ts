@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Tika Matsuno",
 	category: "Pokemon",
+
+	dexId: [871],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",

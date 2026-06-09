@@ -67,6 +67,18 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -78,7 +90,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 608651,
+		cardmarket: 608709,
 		tcgplayer: 263882
 	}
 }

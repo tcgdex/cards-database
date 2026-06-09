@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Hot days cause its body to melt. It can be restored by refreezing it, but the process leaves its body slightly warped.",
+	},
+
 	thirdParty: {
 		cardmarket: 297496,
 		tcgplayer: 130934

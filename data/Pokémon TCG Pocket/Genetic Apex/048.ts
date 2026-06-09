@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Suwama Chiaki",
 	category: "Pokemon",
+
+	dexId: [631],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",

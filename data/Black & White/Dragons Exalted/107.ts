@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A river dammed by Bibarel will never overflow its banks, which is appreciated by the people nearby.",
+	},
+
 	thirdParty: {
 		cardmarket: 280546,
 		tcgplayer: 83821

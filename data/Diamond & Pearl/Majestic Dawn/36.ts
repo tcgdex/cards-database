@@ -79,6 +79,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
+	},
+
 	thirdParty: {
 		cardmarket: 278085,
 		tcgplayer: 85398

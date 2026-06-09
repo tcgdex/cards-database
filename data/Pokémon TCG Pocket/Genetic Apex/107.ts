@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Asako Ito",
 	category: "Pokemon",
+
+	dexId: [602],
 	hp: 30,
 	types: ["Lightning"],
 	stage: "Basic",

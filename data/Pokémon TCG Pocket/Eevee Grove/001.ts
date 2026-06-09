@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Oswaldo KATO",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [357],
 	hp: 100,
 	types: ["Grass"],
 

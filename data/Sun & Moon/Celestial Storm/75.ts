@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+	},
+
 	thirdParty: {
 		cardmarket: 361320,
 		tcgplayer: 170897

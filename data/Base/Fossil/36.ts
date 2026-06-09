@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
+		fr: "Gravalanch"
 	},
 
 	stage: "Stage2",
@@ -74,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
+		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
 		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
 	},
 

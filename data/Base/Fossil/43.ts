@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -72,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",
 		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
 	},
 

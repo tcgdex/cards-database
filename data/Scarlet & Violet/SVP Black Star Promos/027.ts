@@ -46,7 +46,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Atsushi Furusawa"
+	illustrator: "Atsushi Furusawa",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

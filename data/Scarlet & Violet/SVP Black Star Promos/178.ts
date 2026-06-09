@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Kyogre ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "None",
 	category: "Pokemon",
@@ -68,7 +69,12 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -53,6 +53,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For some reason they evolve when they receive electrical energy while they are attacking Shelmet.",
+	},
+
 	thirdParty: {
 		cardmarket: 281027,
 		tcgplayer: 86427

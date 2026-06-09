@@ -10,7 +10,11 @@ const card: Card = {
 
 	illustrator: "Ken Sugimori",
 	rarity: "None",
-	category: "Pokemon",
+	category: "Pokemon",		
+  hp: 60,
+
+	dexId: [107],
+
 	stage: "Basic",
 
 	attacks: [{
@@ -32,6 +36,14 @@ const card: Card = {
 
 		damage: 50
 	}],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+
 
 	variants: [
 		{

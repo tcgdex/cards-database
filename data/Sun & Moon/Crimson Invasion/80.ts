@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you're in a dream.",
+	},
+
 	thirdParty: {
 		cardmarket: 311927,
 		tcgplayer: 149106

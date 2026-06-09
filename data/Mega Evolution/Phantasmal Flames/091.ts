@@ -30,18 +30,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+	illustrator: "AYUMI ODASHIMA",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857666,
+				tcgplayer: 662172,
+				cardtrader: 356877
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857666,
+				tcgplayer: 662172,
+				cardtrader: 356877
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857666
-	}
 }
 
 export default card

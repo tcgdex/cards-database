@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "NC Empire",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [404],
 	hp: 90,
 	types: ["Lightning"],
 

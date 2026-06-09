@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740486,
+				tcgplayer: 523609,
+				cardtrader: 265004
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740486,
+				tcgplayer: 523609,
+				cardtrader: 265004
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 740486
-	}
+	
 }
 
 export default card

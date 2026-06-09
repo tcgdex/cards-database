@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off.",
+	},
+
 	thirdParty: {
 		cardmarket: 281527,
 		tcgplayer: 91177

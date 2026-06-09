@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [19],
 	hp: 50,
 	types: ["Darkness"],
 

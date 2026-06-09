@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
+	},
+
 	thirdParty: {
 		cardmarket: 370768,
 		tcgplayer: 186004

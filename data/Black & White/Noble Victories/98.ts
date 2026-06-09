@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+	},
+
 	thirdParty: {
 		cardmarket: 280137,
 		tcgplayer: 90349

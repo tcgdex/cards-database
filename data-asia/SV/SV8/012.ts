@@ -10,7 +10,7 @@ const card: Card = {
 		'zh-cn': "比克提尼"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [494],
@@ -59,7 +59,11 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+
+	thirdParty: {
+		cardmarket: 793446
+	}
 }
 
 export default card

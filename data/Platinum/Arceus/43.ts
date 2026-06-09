@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		404,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Lightning",
@@ -73,6 +75,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+	},
 
 	thirdParty: {
 		cardmarket: 278915,

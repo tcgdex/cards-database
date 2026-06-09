@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+	},
+
 	thirdParty: {
 		cardmarket: 280371,
 		tcgplayer: 85612

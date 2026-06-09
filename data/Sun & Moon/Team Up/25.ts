@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+	},
+
 	thirdParty: {
 		cardmarket: 368957,
 		tcgplayer: 183796

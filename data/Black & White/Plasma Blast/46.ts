@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Golurk were created to protect people and Pokémon. They run on a mysterious energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 281067,
 		tcgplayer: 85838

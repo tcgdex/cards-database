@@ -86,8 +86,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+	},
+
 	thirdParty: {
-		cardmarket: 293405,
+		cardmarket: 450038,
 		tcgplayer: 124066
 	}
 }

@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "kawayoo",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [197],
 	hp: 100,
 	types: ["Darkness"],
 

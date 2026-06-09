@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Two Star",
 	category: "Pokemon",
+
+	dexId: [727],
 	hp: 180,
 	types: ["Fire"],
 
@@ -62,7 +64,7 @@ const card: Card = {
 			ko: "스카스매시"
 		},
 
-		damage: 80,
+		damage: "80+",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {

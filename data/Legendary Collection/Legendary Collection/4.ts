@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "An aggressive Pokémon that tackles anything it sees.",
+	},
 
 	thirdParty: {
 		cardmarket: 274769,

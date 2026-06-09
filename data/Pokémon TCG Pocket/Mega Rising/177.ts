@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "Midori Harada",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [704],
 	hp: 40,
 	types: ["Dragon"],
 

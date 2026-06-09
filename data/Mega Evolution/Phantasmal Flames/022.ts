@@ -16,10 +16,11 @@ const card: Card = {
 
 	rarity: "Common",
 	category: "Pokemon",
+
+	dexId: [87],
 	hp: 130,
 	types: ["Water"],
 	stage: "Stage1",
-	dexId: [87],
 
 	abilities: [{
 		type: "Ability",
@@ -74,18 +75,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857597,
+				tcgplayer: 662151,
+				cardtrader: 356805
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857597
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857597,
+				tcgplayer: 662151,
+				cardtrader: 356805
+			}
+		},
+	],	
 }
 
 export default card

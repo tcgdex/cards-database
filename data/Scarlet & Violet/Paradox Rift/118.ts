@@ -66,19 +66,47 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740647,
+				tcgplayer: 523793,
+				cardtrader: 265215
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740647,
+				tcgplayer: 523793,
+				cardtrader: 265215
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 740647
-	}
+	
 }
 
 export default card

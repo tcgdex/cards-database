@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Doduo",
+		fr: "Doduo"
 	},
 
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
 		fr: "Il élabore des plans complexes avec ses trois cerveaux. Une de ses têtes reste toujours éveillée."
 	},
 

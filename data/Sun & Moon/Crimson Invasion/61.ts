@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The two heads do not get along. Whichever head eats more than the other gets to be the leader.",
+	},
+
 	thirdParty: {
 		cardmarket: 311910,
 		tcgplayer: 149084

@@ -58,11 +58,17 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	thirdParty: {
-		cardmarket: 604998
+		cardmarket: 606749
 	}
 }
 

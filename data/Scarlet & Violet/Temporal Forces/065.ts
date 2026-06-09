@@ -74,23 +74,38 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760695,
+				tcgplayer: 542809
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760695,
+				tcgplayer: 542809
+			}
+		},
 	],
 
 	illustrator: "Makura Tami",
 
-	thirdParty: {
-		cardmarket: 760695
-	}
 }
 
 export default card

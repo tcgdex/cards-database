@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
+		fr: "Taupiqueur",
 		it: "Diglett"
 	},
 
@@ -85,6 +86,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	variants: [
 		{
@@ -107,6 +110,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur.",
 		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51"
 	},

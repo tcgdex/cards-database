@@ -55,18 +55,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769210,
+				tcgplayer: 550080
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769210,
+				tcgplayer: 550080
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 769210
-	}
 }
 
 export default card

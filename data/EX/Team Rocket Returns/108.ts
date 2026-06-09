@@ -3,8 +3,8 @@ import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Torchic Star",
-		de: "Flemmli *"
+		en: "Torchic ☆",
+		de: "Flemmli ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				de: "Firworks"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic Star.",
-				de: "Flip a coin. If tails, discard a  Energy card attached to Shinning Torchic."
+				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic ☆.",
+				de: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic ☆."
 			},
 			damage: 20,
 
@@ -64,6 +64,9 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+
+	
+	retreat: 1,
 
 	thirdParty: {
 		tcgplayer: 89965

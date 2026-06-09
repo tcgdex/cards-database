@@ -92,8 +92,12 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It concentrates its mental energy and fires off mysterious waves called auras, which can crush boulders of large size to dust.",
+	},
+
 	thirdParty: {
-		cardmarket: 370789,
+		cardmarket: 372415,
 		tcgplayer: 189225
 	}
 }

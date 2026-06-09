@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
+		fr: "Machopeur",
 		it: "Machoke"	
 	},
 
@@ -75,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
 		fr: "Ses coups de poing sont si puissants qu'ils font voler ses adversaires jusqu'à l'horizon.",
 		it: "I suoi muscoli supersviluppati gli permettono di tirare pugni capaci di mandare in orbita gli avversari. LIV 67 N.68"
 	},

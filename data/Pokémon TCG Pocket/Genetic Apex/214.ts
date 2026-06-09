@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Yoriyuki Ikegami",
 	category: "Pokemon",
+
+	dexId: [831],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",

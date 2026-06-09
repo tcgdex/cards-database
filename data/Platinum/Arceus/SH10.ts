@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		371,
 	],
+	
+	hp: 50,
 
 	types: [
 		"Colorless",
@@ -62,6 +64,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+	},
 
 	thirdParty: {
 		cardmarket: 278870

@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+	},
+
 	thirdParty: {
 		cardmarket: 372430,
 		tcgplayer: 189244

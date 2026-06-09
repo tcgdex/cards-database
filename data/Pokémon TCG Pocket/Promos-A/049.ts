@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "okayamatakatoshi",
 	rarity: "None",
 	category: "Pokemon",
+
+	dexId: [143],
 	hp: 140,
 	types: ["Colorless"],
 

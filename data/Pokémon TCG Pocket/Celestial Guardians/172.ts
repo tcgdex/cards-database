@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "mele",
 	rarity: "One Star",
 	category: "Pokemon",
+
+	dexId: [744],
 	hp: 60,
 	types: ["Fighting"],
 

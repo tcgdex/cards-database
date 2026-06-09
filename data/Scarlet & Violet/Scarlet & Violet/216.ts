@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -57,6 +63,10 @@ const card: Card = {
 	},
 
 	illustrator: "Nurikabe",
+
+	description: {
+		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+	},
 
 	thirdParty: {
         cardmarket: 702512,

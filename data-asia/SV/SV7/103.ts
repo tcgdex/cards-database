@@ -65,7 +65,11 @@ const card: Card = {
 		}
 	}],
 
-	rarity: "None"
+	rarity: "None",
+
+	thirdParty: {
+		cardmarket: 778994
+	}
 }
 
 export default card

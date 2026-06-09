@@ -76,8 +76,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "By reading air currents, it can predict things such as the weather or its foe's next move.",
 		fr: "En analysant les courants aériens, il peut prédire le temps ou la prochaine action de son ennemi."
 	},
 

@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Naoyo Kimura",
 	category: "Pokemon",
+
+	dexId: [32],
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",

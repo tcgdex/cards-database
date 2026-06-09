@@ -15,6 +15,8 @@ const card: Card = {
 	dexId: [
 		138,
 	],
+	
+	hp: 80,
 
 	types: [
 		"Water",
@@ -67,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+	},
 
 	thirdParty: {
 		cardmarket: 278942,

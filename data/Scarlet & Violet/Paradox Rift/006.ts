@@ -35,18 +35,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740482,
+				tcgplayer: 523605,
+				cardtrader: 265011
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740482,
+				tcgplayer: 523605,
+				cardtrader: 265011
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 740482
-	}
+	
 }
 
 export default card

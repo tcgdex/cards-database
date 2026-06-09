@@ -26,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seel",
+		fr: "Otaria",
 		it: "Seel"
 	},
 
@@ -97,8 +98,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
 		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds.",
 		it: "Conserva energia termica nel suo corpo. Nuota ad una velocità costante di 8 nodi anche in acque estremamente fredde. LIV 42 N.87"
 	},

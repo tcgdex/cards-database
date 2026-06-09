@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+	},
+
 	thirdParty: {
 		cardmarket: 281258,
 		tcgplayer: 83945

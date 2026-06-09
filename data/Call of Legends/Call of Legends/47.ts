@@ -58,6 +58,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "In an attempt to confuse its enemy, it mimics the enemy's movements. Then it wastes no time in making itself scarce!",
+	},
+
 	thirdParty: {
 		cardmarket: 279690,
 		tcgplayer: 87472

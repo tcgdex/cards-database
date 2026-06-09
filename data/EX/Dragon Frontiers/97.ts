@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Rayquaza ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -76,6 +77,9 @@ const card: Card = {
 
 		},
 	],
+
+
+	retreat: 2,
 
 	thirdParty: {
 		cardmarket: 277302

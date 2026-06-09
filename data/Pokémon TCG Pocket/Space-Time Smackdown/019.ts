@@ -17,6 +17,8 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [455],
 	hp: 90,
 	types: ["Grass"],
 

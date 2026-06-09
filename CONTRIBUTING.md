@@ -19,6 +19,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [I Want To Contribute](#i-want-to-contribute)
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
+- [Setting Up a Local Development Server](#setting-up-a-local-development-server)
 - [Your First Code Contribution](#your-first-code-contribution)
 - [Improving The Documentation](#improving-the-documentation)
 - [Styleguides](#styleguides)
@@ -132,6 +133,107 @@ Enhancement suggestions are tracked as [GitHub issues](https:/github.com/tcgdex/
 - **Explain why this enhancement would be useful** to most TCGdex users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
 
 <!-- You might want to create an issue template for enhancement suggestions that can be used as a guide and that defines the structure of the information to be included. If you do so, reference it here in the description. -->
+
+### Setting Up a Local Development Server
+
+To build and run the API locally, you'll need [Bun](https://bun.sh) and Git installed.
+
+#### Prerequisites
+
+- [Bun](https://bun.sh) — install with `curl -fsSL https://bun.sh/install | bash`
+- [Git](https://git-scm.com/)
+
+#### Install Dependencies
+
+```bash
+# From the project root
+bun install
+
+cd server
+bun install
+```
+#### Set up an env var
+```bash 
+TCGCSV_USER_AGENT="YourName/1.0"
+```
+
+#### Compile the Card Database
+
+The compiler generates the JSON data files that the API server reads from.
+
+```bash
+cd server
+bun run compile
+```
+
+> **Note:** The full compilation processes all 18 languages and runs `git log` on ~34,000 files to collect last-edit timestamps. This can take 10+ minutes depending on your machine. See [Faster Local Build](#faster-local-build) below for how to speed this up during development.
+
+#### Start the Server
+
+```bash
+cd server
+bun run start
+# 🚀 Server ready at localhost:3000
+```
+
+The server uses [Node.js clustering](https://nodejs.org/api/cluster.html) by default. You can control the number of worker processes with the `MAX_WORKERS` environment variable:
+
+```bash
+MAX_WORKERS=1 bun run start
+```
+
+#### API Endpoints
+
+Once running, the following endpoints are available:
+
+- **REST API:** `http://localhost:3000/v2/{lang}/...` (e.g., `/v2/en/sets`, `/v2/en/cards/swsh3-136`)
+- **GraphQL:** `POST http://localhost:3000/v2/graphql`
+- **GraphQL Explorer (Ruru):** `GET http://localhost:3000/v2/graphql` in a browser
+- **Health Check:** `GET http://localhost:3000/ping`
+- **Status:** `GET http://localhost:3000/status`
+
+#### Faster Local Build
+
+During development you may not need all 18 languages or the full git-log timestamps. To speed up compilation:
+
+1. **Limit languages** — In `server/compiler/index.ts`, temporarily change the `LANGS` array to only include the languages you need:
+
+    ```typescript
+    const LANGS: Array<SupportedLanguages> = ['en']
+    ```
+
+2. **Skip git-log timestamps** — In `server/compiler/utils/util.ts`, temporarily replace the `loadLastEdits()` function body with an empty implementation. The `getLastEdit()` function already falls back to the current date when no cached date is found.
+
+3. **Create stub files for skipped languages** — The server imports data files for every language at startup, so you need empty stubs for any language you didn't compile:
+
+    ```bash
+    cd server
+    for lang in de fr es es-mx it id ja ko nl pl pt pt-br pt-pt ru th zh-cn zh-tw; do
+      mkdir -p "generated/$lang"
+      echo '{"count":0,"total":0,"images":0,"sets":{}}' > "generated/$lang/stats.json"
+      echo '[]' > "generated/$lang/cards.json"
+      echo '[]' > "generated/$lang/sets.json"
+      echo '[]' > "generated/$lang/series.json"
+    done
+    ```
+
+> **Remember** to revert these changes before committing — they are only meant for local development.
+
+#### Using Docker
+
+Alternatively, you can build and run the full API with Docker (Still requires env var to be set):
+
+```bash
+docker-compose up
+# Builds and runs on port 3000
+```
+
+Or build the image directly:
+
+```bash
+docker build -t tcgdex-server .
+docker run -p 3000:3000 tcgdex-server
+```
 
 ### Your First Code Contribution
 

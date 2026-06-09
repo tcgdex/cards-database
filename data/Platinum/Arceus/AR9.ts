@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+	},
+
 	thirdParty: {
 		cardmarket: 278861
 	},

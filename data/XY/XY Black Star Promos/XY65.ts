@@ -67,8 +67,12 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+	},
+
 	thirdParty: {
-		cardmarket: 289791
+		cardmarket: 553449
 	}
 }
 

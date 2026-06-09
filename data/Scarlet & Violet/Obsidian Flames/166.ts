@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725246,
+				tcgplayer: 509689,
+				cardtrader: 255851
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725246,
+				tcgplayer: 509689,
+				cardtrader: 255851
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 725246
-	}
+	
 }
 
 export default card

@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725183,
+				tcgplayer: 509790,
+				cardtrader: 255788
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725183,
+				tcgplayer: 509790,
+				cardtrader: 255788
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 725183
-	}
+	
 }
 
 export default card

@@ -11,8 +11,11 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards.",
+	},
 	thirdParty: {
-		cardmarket: 274139,
+		cardmarket: 274152,
 		tcgplayer: 85282
 	},
 

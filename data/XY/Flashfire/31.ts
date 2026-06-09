@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
+	},
+
 	thirdParty: {
 		cardmarket: 281514,
 		tcgplayer: 91164

@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280171,
 		tcgplayer: 90065

@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -81,6 +87,10 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+
+	description: {
+		en: "Skeledirge's gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
+	},
 
 	thirdParty: {
         cardmarket: 702333,

@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Haunter",
+		fr: "Spectrum"
 	},
 
 	stage: "Stage2",
@@ -73,8 +74,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
 		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi."
 	},
 

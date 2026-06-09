@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 361258,
 		tcgplayer: 170820

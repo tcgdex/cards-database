@@ -16,6 +16,8 @@ const card: Card = {
 
 	illustrator: "Narumi Sato",
 	category: "Pokemon",
+
+	dexId: [1],
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",

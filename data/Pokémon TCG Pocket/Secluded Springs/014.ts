@@ -12,6 +12,8 @@ const card: Card = {
 	illustrator: "Kanako Eo",
 	rarity: "Two Diamond",
 	category: "Pokemon",
+
+	dexId: [61],
 	hp: 80,
 	types: ["Water"],
 

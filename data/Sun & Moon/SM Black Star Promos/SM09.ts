@@ -89,6 +89,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
+	},
 }
 
 export default card

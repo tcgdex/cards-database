@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S8a',
+
 	name: {
 		ja: '25th アニバーサリーコレクション',
 		ko: '25th Anniversary',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 28
 	},
+
 	releaseDate: {
 		ja: '2021-10-22',
 		'zh-tw': '2021-10-20',
 		th: '2021-10-29',
 		id: '2021-12-15'
+	},
+
+	thirdParty: {
+		cardmarket: 4345
 	}
 }
 

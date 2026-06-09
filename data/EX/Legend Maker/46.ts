@@ -74,6 +74,15 @@ const card: Card = {
 		},
 	],
 
+	
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+
 	thirdParty: {
 		cardmarket: 276923,
 		tcgplayer: 90335

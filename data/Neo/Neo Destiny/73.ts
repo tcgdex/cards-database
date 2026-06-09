@@ -61,8 +61,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "When bored, this super-strong Pokémon trains by lifting rocks.",
 		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
 	},
 

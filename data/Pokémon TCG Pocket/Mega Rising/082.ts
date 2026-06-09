@@ -11,6 +11,8 @@ const card: Card = {
 	illustrator: "saino misaki",
 	rarity: "One Diamond",
 	category: "Pokemon",
+
+	dexId: [179],
 	hp: 70,
 	types: ["Lightning"],
 

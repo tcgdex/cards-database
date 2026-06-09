@@ -71,17 +71,33 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
-
-	thirdParty: {
-		cardmarket: 817221
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817221,
+				tcgplayer: 623496
+			}
 		},
-	]
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 855660,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 855661,
+			}
+		},
+	],
 }
 
 export default card

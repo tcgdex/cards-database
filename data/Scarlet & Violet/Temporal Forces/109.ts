@@ -57,35 +57,45 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "holo",
-			foil: "cosmos"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760739,
+				tcgplayer: 542853
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
+			thirdParty: {
+				cardmarket: 760739,
+				tcgplayer: 542853
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["player-rewards-program"]
-		}
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858723,
+			}
+		},
 	],
 
 	illustrator: "hncl",
 
-	thirdParty: {
-		cardmarket: 760739
-	}
 }
 
 export default card

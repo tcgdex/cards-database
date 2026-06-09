@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When they feel threatened, they spit acidic liquid to drive attackers away. This Pokémon targets Shelmet.",
+	},
+
 	thirdParty: {
 		cardmarket: 280131,
 		tcgplayer: 86425

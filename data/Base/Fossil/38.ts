@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krabby",
+		fr: "Krabby"
 	},
 
 	stage: "Stage1",
@@ -70,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The large pincer has 10,000 horsepower of crushing power. However, its huge size makes it unwieldy to use.",
 		fr: "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
 	},
 

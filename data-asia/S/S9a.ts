@@ -3,6 +3,7 @@ import serie from '../S'
 
 const set: Set = {
 	id: 'S9a',
+
 	name: {
 		ja: 'バトルリージョン',
 		ko: '배틀리전',
@@ -16,11 +17,16 @@ const set: Set = {
 	cardCount: {
 		official: 67
 	},
+
 	releaseDate: {
 		ja: '2022-02-25',
 		'zh-tw': '2022-03-11',
 		th: '2022-04-29',
 		id: '2022-04-22'
+	},
+
+	thirdParty: {
+		cardmarket: 4441
 	}
 }
 
