@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "This popular symbol of good fortune will never fall over in its sleep, no matter how it's pushed or pulled.",
+	},
 
 	variants: [
 		{

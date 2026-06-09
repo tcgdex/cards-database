@@ -35,8 +35,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+	},
 
 	variants: [
 		{
