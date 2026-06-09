@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+	},
 
 	variants: [
 		{

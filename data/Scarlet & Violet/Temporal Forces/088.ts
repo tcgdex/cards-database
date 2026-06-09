@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+	},
 
 	variants: [
 		{

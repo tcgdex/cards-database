@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation.",
+	},
 
 	variants: [
 		{

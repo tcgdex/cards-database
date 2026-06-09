@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
+	},
 
 	variants: [
 		{

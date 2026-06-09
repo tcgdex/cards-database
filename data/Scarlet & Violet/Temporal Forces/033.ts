@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "In the midst of battle, the fire pouch on Torracat's neck rings like a bell and produces stronger flames than usual.",
+	},
 
 	variants: [
 		{

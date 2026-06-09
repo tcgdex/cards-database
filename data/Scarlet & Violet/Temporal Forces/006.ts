@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "If it senses danger, it scatters spores from the top of its head to protect itself.",
+	},
 
 	variants: [
 		{
