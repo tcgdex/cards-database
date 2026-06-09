@@ -74,8 +74,24 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
+	},
 
 	variants: [
 		{

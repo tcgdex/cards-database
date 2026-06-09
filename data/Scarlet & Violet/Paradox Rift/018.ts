@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
+	},
 
 	variants: [
 		{

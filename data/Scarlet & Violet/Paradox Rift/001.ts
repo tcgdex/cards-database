@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
+	},
 
 	variants: [
 		{

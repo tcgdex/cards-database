@@ -72,8 +72,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+	},
 
 	variants: [
 		{
