@@ -243,8 +243,8 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
@@ -265,5 +265,10 @@
 		"no-e-reader": "Kein e-Reader",
 		"rarity-error": "Seltenheitsfehler",
 		"cosmos": "cosmos"
+	},
+	"stampPositioning": {
+		"left": "links",
+		"right": "rechts",
+		"center": "mitte"
 	}
 }

@@ -133,9 +133,9 @@
 		"professor-program": "professor-program",
 		"tinsel": "tinsel",
 		"loveball": "Love Ball",
-		"friendball": "Friend Ball", 
+		"friendball": "Friend Ball",
 		"quickball": "Velox Ball",
-		"duskball": "Scuro Ball", 
+		"duskball": "Scuro Ball",
 		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
@@ -244,8 +244,8 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",
@@ -266,5 +266,10 @@
 		"no-e-reader": "Senza e-Reader",
 		"rarity-error": "Errore rarità",
 		"cosmos": "cosmos"
+	},
+	"stampPositioning": {
+		"left": "sinistra",
+		"right": "destra",
+		"center": "centro"
 	}
 }
