@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
@@ -52,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Since Dedenne can't generate as much electricity on its own, it steals electricity from outlets or other electric Pokémon.",
 	},
 
 	thirdParty: {
