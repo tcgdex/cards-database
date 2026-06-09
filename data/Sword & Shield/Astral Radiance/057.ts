@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they've hardly been seen at all.",
 	},
 
 	thirdParty: {

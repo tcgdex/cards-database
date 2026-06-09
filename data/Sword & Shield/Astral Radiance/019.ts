@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -52,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Flies noiselessly on delicate wings. It has mastered the art of deftly launching dagger-sharp feathers from those same wings.",
 	},
 
 	thirdParty: {

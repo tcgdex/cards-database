@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -65,6 +71,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
 	},
 
 	thirdParty: {
