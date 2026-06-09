@@ -68,7 +68,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
 
 	description: {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",

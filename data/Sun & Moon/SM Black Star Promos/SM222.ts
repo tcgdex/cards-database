@@ -75,7 +75,7 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
 
 	description: {
 		en: "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people.",

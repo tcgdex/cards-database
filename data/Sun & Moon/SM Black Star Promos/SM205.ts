@@ -82,7 +82,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 4
+	retreat: 4,
 
 	description: {
 		en: "Its charge is strong enough to break through a giant castle wall in one blow. This Pokémon is spoken of in legends.",

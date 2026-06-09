@@ -68,7 +68,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
 
 	description: {
 		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",

@@ -60,7 +60,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
 
 	description: {
 		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",

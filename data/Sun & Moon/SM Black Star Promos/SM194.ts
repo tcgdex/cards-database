@@ -67,7 +67,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
 
 	description: {
 		en: "Skilled in deduction, he's a self-proclaimed \"great detective.\" His detective hat is his trademark.",

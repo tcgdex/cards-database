@@ -68,7 +68,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
 
 	description: {
 		en: "Although it doesn't like disputes, it will sharpen the leaf on its tail into a blade and fight if it has to protect its friends.",

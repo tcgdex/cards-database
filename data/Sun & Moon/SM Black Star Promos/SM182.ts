@@ -60,7 +60,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
 
 	description: {
 		en: "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it's mostly made of the same material.",
