@@ -74,6 +74,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It will expand its body as much as it can and then contract itself, blasting out sand with enough force to wash away a dump truck.",
+	},
+
 	thirdParty: {
         cardmarket: 702416,
         tcgplayer: 488009

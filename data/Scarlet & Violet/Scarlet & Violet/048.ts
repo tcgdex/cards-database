@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -65,6 +71,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
+
+	description: {
+		en: "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+	},
 
 	thirdParty: {
         cardmarket: 702343,

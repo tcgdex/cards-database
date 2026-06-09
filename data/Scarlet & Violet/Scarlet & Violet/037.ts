@@ -54,6 +54,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -62,6 +68,10 @@ const card: Card = {
 	},
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "The valve in Crocalor's flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
+	},
 
 	thirdParty: {
         cardmarket: 702332,
