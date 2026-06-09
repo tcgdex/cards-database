@@ -72,8 +72,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
+	},
 
 	variants: [
 		{

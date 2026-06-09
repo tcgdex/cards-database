@@ -77,6 +77,12 @@ const card: Card = {
 		},
 	],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 

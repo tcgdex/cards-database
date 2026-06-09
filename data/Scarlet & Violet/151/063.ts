@@ -35,8 +35,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
+	},
 
 	variants: [
 		{

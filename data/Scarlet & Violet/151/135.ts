@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
+	},
 
 	variants: [
 		{

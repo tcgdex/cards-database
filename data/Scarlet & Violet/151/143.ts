@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
+	},
 
 	variants: [
 		{
