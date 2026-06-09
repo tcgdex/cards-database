@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
+	},
 
 	variants: [
 		{

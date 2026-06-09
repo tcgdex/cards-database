@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+	},
 
 	variants: [
 		{

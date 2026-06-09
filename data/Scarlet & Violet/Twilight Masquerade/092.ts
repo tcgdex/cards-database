@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "From the hollows in its arms, it fires the bones of its victims, which are all dried up after being drained of their vitality.",
+	},
 
 	variants: [
 		{

@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "When endangered, it may protect itself by increasing its magnetism and drawing nearby iron objects to its body.",
+	},
 
 	variants: [
 		{

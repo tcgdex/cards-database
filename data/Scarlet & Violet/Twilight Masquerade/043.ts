@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "It can use its well-developed arms and legs to run on the surface of the water for a split second.",
+	},
 
 	variants: [
 		{

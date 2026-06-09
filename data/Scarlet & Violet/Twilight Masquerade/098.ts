@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes.",
+	},
 
 	variants: [
 		{

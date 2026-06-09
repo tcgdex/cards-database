@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Probopass radiates such a powerful magnetic field that nearby electrical appliances are rendered useless while it's around.",
+	},
 
 	variants: [
 		{
