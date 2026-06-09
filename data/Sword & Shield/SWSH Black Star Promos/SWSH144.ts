@@ -19,12 +19,12 @@ const card: Card = {
 	},
 
 	name: {
-		en: "Greninja {star}",
-		fr: "Amphinobi {star}",
-		de: "Quajutsu {star}",
-		es: "Greninja {star}",
-		pt: "Greninja {star}",
-		it: "Greninja {star}"
+		en: "Greninja ☆",
+		fr: "Amphinobi ☆",
+		de: "Quajutsu ☆",
+		es: "Greninja ☆",
+		pt: "Greninja ☆",
+		it: "Greninja ☆"
 	},
 
 	rarity: "None",
