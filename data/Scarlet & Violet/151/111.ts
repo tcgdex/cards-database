@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733706,
+				tcgplayer: 516570,
+				cardtrader: 261146
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733706,
+				tcgplayer: 516570,
+				cardtrader: 261146
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 733706
-	}
+	
 }
 
 export default card

@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -65,6 +71,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A Dedenne's whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another.",
 	},
 
 	thirdParty: {

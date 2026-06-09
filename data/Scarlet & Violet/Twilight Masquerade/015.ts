@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769189,
+				tcgplayer: 550059
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769189,
+				tcgplayer: 550059
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 769189
-	}
 }
 
 export default card

@@ -76,6 +76,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It loves to sneak up on people late at night, then startle them with its shrieklike cry.",
 		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident."
 	},
 

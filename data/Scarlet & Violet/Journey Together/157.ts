@@ -31,18 +31,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 817309
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817309,
+				tcgplayer: 623584
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817309,
+				tcgplayer: 623584
+			}
 		},
-	]
+	],
 }
 
 export default card

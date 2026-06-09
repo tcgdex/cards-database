@@ -51,6 +51,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
+	},
+
 	thirdParty: {
 		cardmarket: 396652,
 		tcgplayer: 197696

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+	},
+
 	thirdParty: {
 		cardmarket: 372351,
 		tcgplayer: 189163

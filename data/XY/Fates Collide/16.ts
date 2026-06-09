@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its streamlined body has little drag in water. The colder the temperature, the friskier it gets.",
+	},
+
 	thirdParty: {
 		cardmarket: 289842,
 		tcgplayer: 117778

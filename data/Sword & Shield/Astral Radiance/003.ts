@@ -61,6 +61,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -69,6 +75,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
 	},
 
 	thirdParty: {

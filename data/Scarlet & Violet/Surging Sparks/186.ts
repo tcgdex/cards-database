@@ -29,20 +29,17 @@ const card: Card = {
 	regulationMark: "H",
 
 	variants: [
-		{
-			type: "holo"
-		},
-		{
-			type: "holo",
-			stamp: ["player-rewards-program"]
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 794559,
+			tcgplayer: 590042
 		}
-	],
+	},
+],
 
 	illustrator: "Ayaka Yoshida",
 
-	thirdParty: {
-		cardmarket: 794559
-	}
 }
 
 export default card

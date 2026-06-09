@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Ymphect"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

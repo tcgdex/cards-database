@@ -65,6 +65,12 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 

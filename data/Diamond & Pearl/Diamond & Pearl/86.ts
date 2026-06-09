@@ -51,6 +51,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts.",
 		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
 	},
 

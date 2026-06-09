@@ -3,24 +3,62 @@ import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
 	name: {
-		fr: "Mélodelfe",
+		fr: "Goélise",
 	},
-	rarity: "Common",
+
+	rarity: "None",
 	category: "Pokemon",
+	illustrator: "Aya Kusube",
 
 	set: Set,
-	dexId: [36],
-	hp: 100,
-	types: ["Fairy"],
+	dexId: [278],
+	hp: 60,
+	types: ["Water"],
 
-	stage: "Stage1",
+	stage: "Basic",
+	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				fr: "Atterrissage"
+			},
+			effect: {
+				fr: "Soignez 30 dégâts à ce Pokémon. Il ne peut pas battre en retraite pendant votre prochain tour."
+			}
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 362784,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 362784,
+			}
+		}
+	]
 }
 
 export default card
+

@@ -57,19 +57,37 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760768,
+				tcgplayer: 542882
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760768,
+				tcgplayer: 542882
+			}
+		},
 	],
 
 	illustrator: "Toshinao Aoki",
+
+	description: {
+		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
+	},
 
 	thirdParty: {
 		cardmarket: 760768

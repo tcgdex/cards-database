@@ -35,18 +35,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769200,
+				tcgplayer: 550070
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769200,
+				tcgplayer: 550070
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 769200
-	}
 }
 
 export default card

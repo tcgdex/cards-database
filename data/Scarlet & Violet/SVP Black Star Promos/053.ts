@@ -66,7 +66,13 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "Natsumi Yoshida"
+	suffix: "ex",
+	illustrator: "Natsumi Yoshida",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

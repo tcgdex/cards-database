@@ -52,23 +52,44 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760701,
+				tcgplayer: 542815
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760701,
+				tcgplayer: 542815
+			}
+		},
 	],
 
 	illustrator: "mele",
 
-	thirdParty: {
-		cardmarket: 760701
-	}
 }
 
 export default card

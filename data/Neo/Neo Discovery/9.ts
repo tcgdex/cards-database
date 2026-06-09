@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
 		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
 	},
 

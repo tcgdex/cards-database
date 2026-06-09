@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
@@ -82,6 +88,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
 	},
 
 	thirdParty: {

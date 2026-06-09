@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725164,
+				tcgplayer: 509833,
+				cardtrader: 255769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725164,
+				tcgplayer: 509833,
+				cardtrader: 255769
+			}
+		},
+	],
 
 	illustrator: "Kyoko Umemoto",
 
-	thirdParty: {
-		cardmarket: 725164
-	}
+	
 }
 
 export default card

@@ -48,18 +48,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769247,
+				tcgplayer: 550117
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769247,
+				tcgplayer: 550117
+			}
+		},
+	],
 
 	illustrator: "nisimono",
 
-	thirdParty: {
-		cardmarket: 769247
-	}
 }
 
 export default card

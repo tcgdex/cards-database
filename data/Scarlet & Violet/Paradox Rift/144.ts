@@ -74,19 +74,48 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Some say an additional program made this Pokémon evolve, but even academics can't agree on whether Porygon-Z is really an evolution.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740682,
+				tcgplayer: 523825,
+				cardtrader: 265212
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786605
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740682,
+				tcgplayer: 523825,
+				cardtrader: 265212
+			}
+		},
+	],
 
 	illustrator: "hatachu",
 
-	thirdParty: {
-		cardmarket: 740682
-	}
+	
 }
 
 export default card

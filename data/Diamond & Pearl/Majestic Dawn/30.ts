@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Groups of this Pokémon migrating in search of water have been mistaken for \"moving forests.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 278079,
 		tcgplayer: 89984

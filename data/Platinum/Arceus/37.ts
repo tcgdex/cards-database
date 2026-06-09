@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+	},
+
 	thirdParty: {
 		cardmarket: 278909,
 		tcgplayer: 85894

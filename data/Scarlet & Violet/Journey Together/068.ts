@@ -73,18 +73,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 817220
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817220,
+				tcgplayer: 623495
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817220,
+				tcgplayer: 623495
+			}
 		},
-	]
+	],
 }
 
 export default card

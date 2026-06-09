@@ -72,6 +72,18 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,7 +92,12 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
+
+	description: {
+		en: "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
+	},
 
 	thirdParty: {
         cardmarket: 702384,

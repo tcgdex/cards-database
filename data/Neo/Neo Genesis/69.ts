@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It twists and squirms through the ground. The thunderous roar of its tunneling echoes a long way.",
 		fr: "Il serpente et ondule à travers le sol. Le rugissement bruyant de son excavation résonne très loin."
 	},
 

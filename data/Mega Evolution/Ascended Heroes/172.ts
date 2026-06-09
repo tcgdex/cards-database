@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mega Audino ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -72,10 +73,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675984,
-		cardmarket: 869783
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869783,
+				tcgplayer: 675984
+			}
+		}
+	],
 }
 
 export default card

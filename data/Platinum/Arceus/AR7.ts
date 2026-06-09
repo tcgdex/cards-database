@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+	},
+
 	thirdParty: {
 		cardmarket: 278861
 	},

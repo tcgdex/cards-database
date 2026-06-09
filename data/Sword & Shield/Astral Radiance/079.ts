@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
@@ -56,6 +62,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
 	},
 
 	thirdParty: {

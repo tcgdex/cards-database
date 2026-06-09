@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it's imitating.",
+	},
+
 	thirdParty: {
 		cardmarket: 408159,
 		tcgplayer: 201278

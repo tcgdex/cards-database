@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+	},
+
 	thirdParty: {
 		cardmarket: 278276,
 		tcgplayer: 90554

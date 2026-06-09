@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725224,
+				tcgplayer: 509928,
+				cardtrader: 255829
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725224,
+				tcgplayer: 509928,
+				cardtrader: 255829
+			}
+		},
+	],
 
 	illustrator: "Shinji Kanda",
 
-	thirdParty: {
-		cardmarket: 725224
-	}
+	
 }
 
 export default card

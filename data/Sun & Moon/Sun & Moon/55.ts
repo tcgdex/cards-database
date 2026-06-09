@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood.",
+	},
+
 	thirdParty: {
 		cardmarket: 295366,
 		tcgplayer: 126926

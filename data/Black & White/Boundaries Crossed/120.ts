@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Though it is a very brave Pokémon, it's also smart enough to check its foe's strength and avoid battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 280707,
 		tcgplayer: 86800

@@ -76,6 +76,18 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -84,6 +96,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
 	},
 
 	thirdParty: {

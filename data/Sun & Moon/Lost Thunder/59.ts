@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+	},
+
 	thirdParty: {
 		cardmarket: 364940,
 		tcgplayer: 178866

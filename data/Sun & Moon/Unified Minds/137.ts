@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They move in small groups, walking around lazily. Anyone who makes eye contact gets smacked with a headbutt.",
+	},
+
 	thirdParty: {
 		cardmarket: 388482,
 		tcgplayer: 195111

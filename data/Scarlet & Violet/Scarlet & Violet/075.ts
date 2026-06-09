@@ -63,6 +63,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -71,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+
+	description: {
+		en: "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+	},
 
 	thirdParty: {
         cardmarket: 702371,

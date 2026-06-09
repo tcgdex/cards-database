@@ -69,9 +69,52 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "MINAMINAMI Take",
 
-	thirdParty: {
-		cardmarket: 805429
-	}
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805429,
+				tcgplayer: 610395
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805429,
+				tcgplayer: 610395
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806460,
+				tcgplayer: 610563
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806461,
+				tcgplayer: 610664
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["30th-pokeday"],
+			thirdParty: {
+				cardmarket: 810420,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858734,
+			}
+		},
+	],
 }
 
 export default card

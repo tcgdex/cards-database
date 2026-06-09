@@ -41,19 +41,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "MINAMINAMI Take",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857576,
+				tcgplayer: 662205,
+				cardtrader: 356785
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857576,
+				tcgplayer: 662205,
+				cardtrader: 356785
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857576, 
-		tcgplayer: 662205
-	}
 }
 
 export default card

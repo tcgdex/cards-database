@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 293361,
 		tcgplayer: 124017

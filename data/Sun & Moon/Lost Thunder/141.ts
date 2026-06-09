@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
+	},
+
 	thirdParty: {
 		cardmarket: 365778,
 		tcgplayer: 178960

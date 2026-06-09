@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Atsuko Nishida",

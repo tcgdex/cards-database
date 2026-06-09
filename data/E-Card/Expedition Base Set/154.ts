@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Remove all Special Conditions from your Active Pokémon.",
 		fr: "Retirez tous les États spéciaux de votre Pokémon Actif.",
 		de: "Entferne alle Speziellen Zustände von deinem Aktiven Pokémon."
 	},

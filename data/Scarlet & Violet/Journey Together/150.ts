@@ -31,16 +31,20 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "MARINA Chikazawa",
 
-	thirdParty: {
-		cardmarket: 817302
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817302,
+				tcgplayer: 623577
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817302,
+				tcgplayer: 623577
+			}
 		},
 		{
 			type: 'normal',
@@ -55,7 +59,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-	]
+	],
 }
 
 export default card

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is mostly seawater. It's said there's a castle of ships Jellicent have sunk on the seafloor.",
+	},
+
 	thirdParty: {
 		cardmarket: 280632,
 		tcgplayer: 86307

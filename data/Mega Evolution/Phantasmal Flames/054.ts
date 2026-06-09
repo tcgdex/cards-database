@@ -41,19 +41,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857629,
+				tcgplayer: 660495,
+				cardtrader: 356837
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857629,
+				tcgplayer: 660495,
+				cardtrader: 356837
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857629,
-		tcgplayer: 660495
-	}
 }
 
 export default card

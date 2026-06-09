@@ -62,10 +62,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835988
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835988,
+				tcgplayer: 642492
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835988,
+				tcgplayer: 642492
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836357,
+				tcgplayer: 642736
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836359,
+				tcgplayer: 642663
+			}
+		}
+	]
 }
 
 export default card

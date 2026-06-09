@@ -96,6 +96,10 @@ const card: Card = {
 		de: "Altbernstein Aerodactyl"
 	},
 
+	description: {
+		en: "This vicious Pokémon is said to have flown in ancient skies while shrieking high-pitched cries.",
+	},
+
 	thirdParty: {
 		cardmarket: 289897,
 		tcgplayer: 117851

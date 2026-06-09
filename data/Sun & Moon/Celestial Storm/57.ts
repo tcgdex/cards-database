@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "There is nothing its stomach can't digest. While it is digesting, vile, overpowering gases are expelled.",
+	},
+
 	thirdParty: {
 		cardmarket: 361302,
 		tcgplayer: 170878

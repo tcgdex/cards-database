@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 372428,
 		tcgplayer: 189242

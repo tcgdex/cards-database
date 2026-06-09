@@ -35,13 +35,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Dewott",
 		fr: "Mateloutre"
@@ -51,9 +44,18 @@ const card: Card = {
 	hp: 90,
 	types: ["Water"],
 
-	thirdParty: {
-		tcgplayer: 84797
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281782,
+				tcgplayer: 84797
+			}
+		}
+	]
 }
 
 export default card
+

@@ -3,24 +3,66 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Miaouss",
+		fr: "Lokhlass",
 	},
-	rarity: "Common",
+
+	rarity: "None",
 	category: "Pokemon",
+	illustrator: "Saya Tsuruta",
 
 	set: Set,
-	dexId: [52],
-	hp: 60,
-	types: ["Colorless"],
+	dexId: [131],
+	hp: 120,
+	types: ["Water"],
 
 	stage: "Basic",
+	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	attacks: [
+		{
+			cost: ["Water"],
+			name: {
+				fr: "Aquaballe"
+			},
+			damage: 20,
+			effect: {
+				fr: "Cette attaque inflige 20 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			}
+		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				fr: "Hydrocanon"
+			},
+			damage: "70+",
+			effect: {
+				fr: "Cette attaque inflige 10 dégâts supplémentaires multipliés par le nombre d'Énergies Water attachées à ce Pokémon."
+			}
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 479759,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 581861,
+			}
+		}
+	]
 }
 
 export default card
+

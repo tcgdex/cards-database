@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280269,
 		tcgplayer: 86943

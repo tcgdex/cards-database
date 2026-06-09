@@ -54,7 +54,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
+	},
 	variants: [
 		{
 			type: "reverse",

@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Its brightly lit tail can be seen for miles in the dark, even by ships on the sea.",
 		fr: "La nuit, la pointe de sa queue est visible à des kilomètres à la ronde, même pour les bateaux qui naviguent au large."
 	},
 

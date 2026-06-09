@@ -72,18 +72,47 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733675,
+				tcgplayer: 516651,
+				cardtrader: 261218
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733675,
+				tcgplayer: 516651,
+				cardtrader: 261218
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 733675
-	}
+	
 }
 
 export default card

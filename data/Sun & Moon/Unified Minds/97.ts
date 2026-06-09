@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet.",
+	},
+
 	thirdParty: {
 		cardmarket: 388292,
 		tcgplayer: 195030

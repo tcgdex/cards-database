@@ -51,19 +51,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Kazumasa Yasukuni",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857624,
+				tcgplayer: 662162,
+				cardtrader: 356832
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857624,
-		tcgplayer: 662162
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857624,
+				tcgplayer: 662162,
+				cardtrader: 356832
+			}
+		},
+	],	
 }
 
 export default card

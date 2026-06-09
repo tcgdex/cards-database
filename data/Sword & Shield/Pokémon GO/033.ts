@@ -74,6 +74,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
@@ -81,6 +93,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
 	},
 
 	thirdParty: {

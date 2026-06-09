@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Koraidon ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675933,
-		cardmarket: 869732
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869732,
+				tcgplayer: 675933
+			}
+		}
+	],
 }
 
 export default card

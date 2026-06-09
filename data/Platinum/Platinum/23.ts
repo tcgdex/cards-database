@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga's heart beats.",
+	},
+
 	thirdParty: {
 		cardmarket: 278426,
 		tcgplayer: 84802

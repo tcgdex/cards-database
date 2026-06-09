@@ -57,23 +57,41 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+	},
+
 	variants: [
 		{
-			type: 'reverse'
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740498,
+				tcgplayer: 523625,
+				cardtrader: 265056
+			}
 		},
 		{
-			type: 'holo'
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740498,
+				tcgplayer: 523625,
+				cardtrader: 265056
+			}
 		},
 	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 740498
-	}
+	
 }
 
 export default card

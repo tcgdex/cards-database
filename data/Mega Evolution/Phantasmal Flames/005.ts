@@ -41,19 +41,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Wintr Wandr",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857580,
+				tcgplayer: 662178,
+				cardtrader: 356789
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857580,
+				tcgplayer: 662178,
+				cardtrader: 356789
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 857580, 
-		tcgplayer: 662178
-	}
+	
 }
 
 export default card

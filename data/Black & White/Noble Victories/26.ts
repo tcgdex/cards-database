@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+	},
+
 	thirdParty: {
 		cardmarket: 280149,
 		tcgplayer: 84109

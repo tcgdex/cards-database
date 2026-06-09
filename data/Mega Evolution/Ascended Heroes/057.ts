@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Pikachu ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675869,
-		cardmarket: 869668
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869668,
+				tcgplayer: 675869
+			}
+		}
+	],
 }
 
 export default card

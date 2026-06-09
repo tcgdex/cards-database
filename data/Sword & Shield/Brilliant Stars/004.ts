@@ -76,6 +76,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -84,6 +90,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
 	},
 
 	thirdParty: {

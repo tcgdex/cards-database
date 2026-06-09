@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It adores magnetic minerals, so it pursues Nosepass at speeds exceeding 60 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 361338,
 		tcgplayer: 170919

@@ -60,35 +60,49 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
+	},
+
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760751,
+				tcgplayer: 542865
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760751,
+				tcgplayer: 542865
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		},
-		{
-			type: "normal"
-		},
-		{
-			type: "normal",
-			stamp: ["player-rewards-program"]
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 761963,
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
-		}
+			thirdParty: {
+				cardmarket: 761975,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 804338,
+			}
+		},
 	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 760751
-	}
 }
 
 export default card

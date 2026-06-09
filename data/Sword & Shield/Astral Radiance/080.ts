@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
 	},
 
 	thirdParty: {

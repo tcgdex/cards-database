@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+	},
+
 	thirdParty: {
 		cardmarket: 311860,
 		tcgplayer: 149031

@@ -13,6 +13,7 @@ const card: Card = {
 		pt: "Oricorio ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Shinji Kanda",
 	rarity: "None",
 	category: "Pokemon",

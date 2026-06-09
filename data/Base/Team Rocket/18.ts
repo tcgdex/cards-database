@@ -77,8 +77,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Almost as if it were being controlled by something else, it never changes expressions, even in the middle of battle.",
 		fr: "Il ne change jamais d'expression, même en plein cœur d'une bataille, comme s'il était sous le contrôle d'une force inconnue."
 	},
 

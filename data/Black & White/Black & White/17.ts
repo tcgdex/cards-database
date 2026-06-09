@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+	},
+
 	thirdParty: {
 		cardmarket: 279755,
 		tcgplayer: 88060

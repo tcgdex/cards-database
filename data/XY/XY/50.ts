@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
+	},
+
 	thirdParty: {
 		cardmarket: 281387,
 		tcgplayer: 85973

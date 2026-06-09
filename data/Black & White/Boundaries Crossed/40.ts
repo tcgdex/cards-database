@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Strict training is how it learns its flowing double-scalchop technique.",
+	},
+
 	thirdParty: {
 		cardmarket: 280627,
 		tcgplayer: 84795

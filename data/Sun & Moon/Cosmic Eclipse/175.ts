@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The longer its black fur grows, the harder and more impervious it gets. Claws and fangs can't easily penetrate it.",
+	},
+
 	thirdParty: {
 		cardmarket: 408499,
 		tcgplayer: 201297

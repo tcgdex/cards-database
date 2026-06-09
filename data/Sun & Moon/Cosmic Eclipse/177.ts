@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its powerful legs and sturdy claws, it can crack even the hard shells of Shellder and pluck out their insides.",
+	},
+
 	thirdParty: {
 		cardmarket: 408509,
 		tcgplayer: 201299

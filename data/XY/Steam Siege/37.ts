@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.",
+	},
+
 	thirdParty: {
 		cardmarket: 291570,
 		tcgplayer: 121126

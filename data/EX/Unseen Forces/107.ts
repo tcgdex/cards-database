@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Tetarte"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

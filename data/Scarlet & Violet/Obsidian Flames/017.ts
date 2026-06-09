@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Steenee spreads a sweet scent that makes others feel invigorated. This same scent is popular for antiperspirants.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725097,
+				tcgplayer: 509748,
+				cardtrader: 255577
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725097,
+				tcgplayer: 509748,
+				cardtrader: 255577
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 725097
-	}
+	
 }
 
 export default card

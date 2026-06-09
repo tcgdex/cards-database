@@ -57,23 +57,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760640,
+				tcgplayer: 542760
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760640,
+				tcgplayer: 542760
+			}
+		},
 	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 760640
-	}
 }
 
 export default card

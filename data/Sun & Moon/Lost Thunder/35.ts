@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 365675,
 		tcgplayer: 178838

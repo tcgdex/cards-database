@@ -63,6 +63,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+	},
 }
 
 export default card

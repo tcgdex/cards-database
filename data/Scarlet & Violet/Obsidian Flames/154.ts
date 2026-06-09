@@ -44,18 +44,47 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725234,
+				tcgplayer: 509941,
+				cardtrader: 255839
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725234,
+				tcgplayer: 509941,
+				cardtrader: 255839
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 725234
-	}
+	
 }
 
 export default card

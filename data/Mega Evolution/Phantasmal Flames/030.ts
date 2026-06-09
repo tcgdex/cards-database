@@ -51,19 +51,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Ayako Ozaki",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857605,
-		tcgplayer: 662242
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
+		},
+	],	
 }
 
 export default card

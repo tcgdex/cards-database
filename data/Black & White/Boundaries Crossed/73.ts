@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Storing energy for evolution, it sits. But, when predators approach, it moves to stab them with poison spikes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280660,
 		tcgplayer: 90572

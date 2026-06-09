@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -74,6 +80,7 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	thirdParty: {

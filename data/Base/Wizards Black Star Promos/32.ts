@@ -54,8 +54,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
 		fr: "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos."
 	},
 

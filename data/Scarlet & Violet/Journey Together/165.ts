@@ -63,15 +63,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Nakamura Ippan",
 
-	thirdParty: {
-		cardmarket: 817317
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817317,
+				tcgplayer: 623592
+			}
 		},
-	]
+	],
 }
 
 export default card

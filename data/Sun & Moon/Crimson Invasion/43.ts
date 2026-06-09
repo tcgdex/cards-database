@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones.",
+	},
+
 	thirdParty: {
 		cardmarket: 311893,
 		tcgplayer: 149066

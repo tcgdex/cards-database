@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -74,6 +80,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
 	},
 
 	thirdParty: {

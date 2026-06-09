@@ -64,8 +64,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
 		fr: "Il émet des cris en agitant l'orbe à l'arrière de sa gorge. Il avance par bonds désordonnés."
 	},
 

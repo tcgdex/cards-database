@@ -50,8 +50,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This legendary Pokémon is said to freeze the water in the air during winter, causing snow.",
 		fr: "On prétend que ce Pokémon légendaire refroidit l'eau contenue dans l'air en hiver, au point de provoquer des chutes de neige."
 	},
 

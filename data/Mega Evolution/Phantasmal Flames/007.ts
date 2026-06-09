@@ -65,19 +65,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Anesaki Dynamic",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857582,
+				tcgplayer: 662179,
+				cardtrader: 356791
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857582,
+				tcgplayer: 662179,
+				cardtrader: 356791
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857582,
-		tcgplayer: 662179
-	}
 }
 
 export default card

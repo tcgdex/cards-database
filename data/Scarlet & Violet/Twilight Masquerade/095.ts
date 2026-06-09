@@ -66,18 +66,50 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769269,
+				tcgplayer: 550139
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769269,
+				tcgplayer: 550139
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 776163,
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 769269
-	}
 }
 
 export default card

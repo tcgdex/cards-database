@@ -55,19 +55,33 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740754,
+				tcgplayer: 523892,
+				cardtrader: 265560
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 740754
-	}
+	
 }
 
 export default card

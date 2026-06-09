@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725163,
+				tcgplayer: 509825,
+				cardtrader: 255768
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725163,
+				tcgplayer: 509825,
+				cardtrader: 255768
+			}
+		},
+	],
 
 	illustrator: "Natsumi Yoshida",
 
-	thirdParty: {
-		cardmarket: 725163
-	}
+	
 }
 
 export default card

@@ -61,9 +61,38 @@ const card: Card = {
 	regulationMark: "H",
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 805469
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805469,
+				tcgplayer: 610434
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805469,
+				tcgplayer: 610434
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806520,
+				tcgplayer: 610593
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806521,
+				tcgplayer: 610694
+			}
+		},
+	],
 }
 
 export default card

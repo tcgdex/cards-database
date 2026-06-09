@@ -64,6 +64,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
+	},
 
 	thirdParty: {
 		cardmarket: 273943,

@@ -51,16 +51,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Nakamura Ippan",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857671,
+				tcgplayer: 662204,
+				cardtrader: 356882
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857671,
-		tcgplayer: 662204
-	}
 }
 
 export default card

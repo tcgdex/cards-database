@@ -26,28 +26,20 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Colorless"],
+			cost: ["Lightning"],
 			name: {
-				en: "Gnaw",
-				fr: "Ronge",
-				es: "Roer",
-				it: "Rosicchiamento",
-				pt: "Roída",
-				de: "Nagen"
+				en: "Charge",
 			},
-			damage: 10,
+			effect: {
+				en: "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
+			}
 		},
 		{
-			cost: ["Lightning", "Colorless"],
+			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
-				en: "Electro Ball",
-				fr: "Boule Élek",
-				es: "Bola Voltio",
-				it: "Energisfera",
-				pt: "Bola Elétrica",
-				de: "Elektroball"
+				en: "Pika Punch",
 			},
-			damage: 30,
+			damage: 50,
 		},
 	],
 
@@ -59,13 +51,15 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 802824,
+				tcgplayer: 614371
+			}
+		}
+	]
 }
 
 export default card

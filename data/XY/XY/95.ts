@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+	},
+
 	thirdParty: {
 		cardmarket: 281432,
 		tcgplayer: 89349

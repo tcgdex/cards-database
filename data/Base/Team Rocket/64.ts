@@ -52,8 +52,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A gentle grass-eater, it will allow riders on its back. However, anyone attempting to do so must be careful not to get burned.",
 		fr: "Ce gentil herbivore accepte d'être monté. Toutefois, il faut prendre garde à ne pas se brûler."
 	},
 

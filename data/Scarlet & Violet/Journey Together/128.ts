@@ -84,21 +84,28 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 817280
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817280,
+				tcgplayer: 623555
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817280,
+				tcgplayer: 623555
+			}
 		},
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 819253,
+			}
 		},
-	]
+	],
 }
 
 export default card

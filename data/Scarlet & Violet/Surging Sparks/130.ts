@@ -74,37 +74,53 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794503,
+				tcgplayer: 589867
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841276,
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841277,
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"]
 		},
-		{
-			type: "holo",
-			stamp: ["set-logo"],
-			size: "jumbo"
-		},
-		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
 	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 794503
-	}
 }
 
 export default card

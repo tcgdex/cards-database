@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -52,6 +64,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
 	},
 
 	thirdParty: {

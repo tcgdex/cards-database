@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725217,
+				tcgplayer: 509901,
+				cardtrader: 255822
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725217,
+				tcgplayer: 509901,
+				cardtrader: 255822
+			}
+		},
+	],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
-	thirdParty: {
-		cardmarket: 725217
-	}
+	
 }
 
 export default card

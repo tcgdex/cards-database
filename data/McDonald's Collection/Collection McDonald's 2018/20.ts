@@ -2,25 +2,71 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2018"
 
 const card: Card = {
-	name: {
-		fr: "Psykokwak",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Togedemaru",
+    },
 
-	set: Set,
-	dexId: [54],
-	hp: 70,
-	types: ["Water"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Kouki Saitou",
 
-	stage: "Basic",
+    set: Set,
+    dexId: [777],
+    hp: 80,
+    types: ["Lightning"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 1,
+
+    weaknesses: [
+        {
+            type: "Fighting",
+            value: "×2"
+        },
+    ],
+
+    resistances: [
+        {
+            type: "Metal",
+            value: "-20"
+        },
+    ],
+
+    attacks: [
+        {
+			cost: ["Lightning"],
+            name: {
+                fr: "Roulade"
+            },
+            damage: 20
+        },
+        {
+			cost: ["Lightning", "Colorless"],
+            name: {
+                fr: "Électro Impact"
+            },
+            effect: {
+                fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+            },
+            damage: 40
+        }
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 362791,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 362791,
+            }
+        }
+    ]
 }
 
 export default card
+

@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+	},
+
 	thirdParty: {
 		cardmarket: 278420,
 		tcgplayer: 90442

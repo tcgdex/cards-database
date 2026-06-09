@@ -15,6 +15,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
 	rarity: "None",
@@ -79,7 +80,12 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

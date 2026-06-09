@@ -60,6 +60,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "To avoid attack, it mimics a tree. It will run off if splashed with water, which it hates.",
+	},
 }
 
 export default card

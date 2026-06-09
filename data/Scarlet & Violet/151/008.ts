@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733603,
+				tcgplayer: 502550,
+				cardtrader: 261224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733603,
+				tcgplayer: 502550,
+				cardtrader: 261224
+			}
+		},
+	],
 
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 733603
-	}
+	
 }
 
 export default card

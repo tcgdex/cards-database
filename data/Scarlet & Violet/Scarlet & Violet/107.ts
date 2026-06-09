@@ -57,6 +57,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+	},
+
 	thirdParty: {
         cardmarket: 702403,
         tcgplayer: 487993

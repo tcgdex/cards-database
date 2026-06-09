@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+	},
+
 	thirdParty: {
 		cardmarket: 302193,
 		tcgplayer: 146719

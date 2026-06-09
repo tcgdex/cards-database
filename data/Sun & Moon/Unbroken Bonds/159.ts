@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+	},
+
 	thirdParty: {
 		cardmarket: 372447,
 		tcgplayer: 189261

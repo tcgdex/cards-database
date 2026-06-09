@@ -35,18 +35,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725232,
+				tcgplayer: 509939,
+				cardtrader: 255837
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725232,
+				tcgplayer: 509939,
+				cardtrader: 255837
+			}
+		},
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 
-	thirdParty: {
-		cardmarket: 725232
-	}
+	
 }
 
 export default card

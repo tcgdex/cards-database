@@ -54,6 +54,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -62,6 +74,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
 	thirdParty: {

@@ -71,8 +71,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from its mouth.",
 		fr: "Bien que dépourvu d'yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule."
 	},
 

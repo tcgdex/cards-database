@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By imitating the voice of a child, it causes people to get hopelessly lost deep in the forest. It's trying to make friends with them.",
+	},
+
 	thirdParty: {
 		cardmarket: 408109,
 		tcgplayer: 201267

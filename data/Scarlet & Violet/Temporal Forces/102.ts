@@ -55,27 +55,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+	},
+
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
-		}
+			thirdParty: {
+				cardmarket: 760732,
+				tcgplayer: 542846
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760732,
+				tcgplayer: 542846
+			}
+		},
 	],
 
 	illustrator: "Fujimoto Gold",
 
-	thirdParty: {
-		cardmarket: 760732
-	}
 }
 
 export default card

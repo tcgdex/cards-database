@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon is so famed for its intellect that a proverb still persists in some regions: \"When in doubt, ask Slowking.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 365694,
 		tcgplayer: 178862

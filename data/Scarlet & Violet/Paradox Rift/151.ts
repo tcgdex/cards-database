@@ -66,18 +66,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740691,
+				tcgplayer: 523832,
+				cardtrader: 265274
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740691,
+				tcgplayer: 523832,
+				cardtrader: 265274
+			}
+		},
+	],
 
 	illustrator: "Masakazu Fukuda",
 
-	thirdParty: {
-		cardmarket: 740691
-	}
+	
 }
 
 export default card

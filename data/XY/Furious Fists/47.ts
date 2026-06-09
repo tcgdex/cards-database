@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+	},
+
 	thirdParty: {
 		cardmarket: 281711,
 		tcgplayer: 92224

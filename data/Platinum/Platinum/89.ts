@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+	},
+
 	thirdParty: {
 		cardmarket: 278510,
 		tcgplayer: 88563

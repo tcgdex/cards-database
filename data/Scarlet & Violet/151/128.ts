@@ -64,18 +64,41 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733723,
+				tcgplayer: 516691,
+				cardtrader: 261220
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733723,
+				tcgplayer: 516691,
+				cardtrader: 261220
+			}
+		},
+	],
 
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 733723
-	}
+	
 }
 
 export default card

@@ -57,19 +57,33 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740738,
+				tcgplayer: 523876,
+				cardtrader: 265372
+			}
+		},
+	],
 
 	illustrator: "matazo",
 
-	thirdParty: {
-		cardmarket: 740738
-	}
+	
 }
 
 export default card

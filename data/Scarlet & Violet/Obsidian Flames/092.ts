@@ -57,18 +57,47 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725172,
+				tcgplayer: 509871,
+				cardtrader: 255777
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725172,
+				tcgplayer: 509871,
+				cardtrader: 255777
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 725172
-	}
+	
 }
 
 export default card

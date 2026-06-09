@@ -15,21 +15,26 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each player's Pokémon that has δ on its card can use attacks on this card instead of its own.",
 		fr: "Les Pokémon de chaque joueur possédant le symbole δ peuvent utiliser les attaques de cette carte à la place des leurs.",
 		de: "Jedes Pokémon, auf dem δ zu sehen ist, kann die Angriffe auf dieser Karte anstelle seiner eigenen benutzen.",
 	},
 
-	attacks: [{
-		name: {
-			de: "Delta-Ruf"
+	attacks: [
+		{
+			name: {
+				de: "Delta-Ruf",
+				fr: "Appel Delta"
+			},
+			effect: {
+				de: "Durchsuche dein Deck nach einem Pokémon, auf dem δ zu sehen ist, zeige es deinem Gegner und nimm es auf die Hand. Mische dein Deck danach.",
+				fr: "Cherchez dans votre deck un Pokémon possédant le symbole δ, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck."
+			},
+			cost: [
+				"Colorless",
+			]
 		},
-
-		effect: {
-			de: "Durchsuche dein Deck nach einem Pokémon, auf dem δ zu sehen ist, zeige es deinem Gegner und nimm es auf die Hand. Mische dein Deck danach."
-		},
-
-		cost: ["Colorless"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 277057,

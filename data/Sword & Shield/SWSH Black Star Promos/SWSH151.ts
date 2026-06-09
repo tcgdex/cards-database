@@ -7,6 +7,12 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,

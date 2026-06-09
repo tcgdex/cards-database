@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+	},
+
 	thirdParty: {
 		cardmarket: 279778,
 		tcgplayer: 83928

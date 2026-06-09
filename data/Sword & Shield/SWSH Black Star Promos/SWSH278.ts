@@ -76,8 +76,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
+
+	description: {
+		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+	},
 
 	thirdParty: {
 		cardmarket: 566760

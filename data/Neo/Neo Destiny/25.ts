@@ -60,8 +60,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It uses its four arms in combat to unleash a ceaseless flurry of punches.",
 		fr: "Il utilise ses quatre bras au combat pour délivrer une véritable ruée de coups."
 	},
 

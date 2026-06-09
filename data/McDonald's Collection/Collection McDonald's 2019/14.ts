@@ -3,24 +3,55 @@ import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
 	name: {
-		fr: "Goupix",
+		fr: "Ramoloss",
 	},
-	rarity: "Common",
+
+	rarity: "None",
 	category: "Pokemon",
+	illustrator: "Tomokazu Komiya",
 
 	set: Set,
-	dexId: [37],
-	hp: 60,
-	types: ["Fire"],
+	dexId: [79],
+	hp: 70,
+	types: ["Water"],
 
 	stage: "Basic",
+	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				fr: "Bâillement"
+			},
+			effect: {
+				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
+			}
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 479739,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 581857,
+			}
+		}
+	]
 }
 
 export default card
+

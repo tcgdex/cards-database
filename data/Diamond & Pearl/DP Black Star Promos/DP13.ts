@@ -30,6 +30,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	effect: {
 		en: "If Buizel has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
@@ -48,6 +50,10 @@ const card: Card = {
 
 		cost: ["Water"]
 	}],
+
+	description: {
+		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+	},
 
 	variants: [
 		{

@@ -63,6 +63,12 @@ const card: Card = {
 		damage: "180+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
@@ -71,6 +77,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	thirdParty: {

@@ -73,6 +73,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Using its tail as a float, it dives underwater. It likes eating plants that grow on river bottoms.",
 		fr: "Il plonge sous l'eau en utilisant sa queue comme un flotteur. Il aime les plantes du fond des rivières."
 	},
 

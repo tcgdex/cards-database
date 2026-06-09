@@ -77,8 +77,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
 		fr: "Ayant grandi dans un nid de ronces, ses oisillons ont les ailes durcies à force d'être griffées par les épines."
 	},
 

@@ -66,6 +66,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "When the stars flicker in the night sky, Ledian flutters about, scattering a glowing powder.",
 		fr: "Lorsque les étoiles scintillent dans le ciel nocturne, Ledian voltige en répandant une poudre brillante."
 	},
 

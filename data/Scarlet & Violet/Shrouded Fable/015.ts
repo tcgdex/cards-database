@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
@@ -82,6 +88,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
 	thirdParty: {

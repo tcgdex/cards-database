@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores berries in its shell. The berries eventually ferment to become delicious juices.",
+	},
+
 	thirdParty: {
 		cardmarket: 277862,
 		tcgplayer: 89191

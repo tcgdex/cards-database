@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760730,
+				tcgplayer: 542844
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760730,
+				tcgplayer: 542844
+			}
+		},
 	],
 
 	illustrator: "Shimaris Yukichi",
 
-	thirdParty: {
-		cardmarket: 760730
-	}
 }
 
 export default card

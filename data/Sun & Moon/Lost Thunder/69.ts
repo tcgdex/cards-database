@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.",
+	},
+
 	thirdParty: {
 		cardmarket: 365707,
 		tcgplayer: 178878

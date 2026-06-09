@@ -63,18 +63,41 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725109,
+				tcgplayer: 509724,
+				cardtrader: 255589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725109,
+				tcgplayer: 509724,
+				cardtrader: 255589
+			}
+		},
+	],
 
 	illustrator: "Yoshioka",
 
-	thirdParty: {
-		cardmarket: 725109
-	}
+	
 }
 
 export default card

@@ -11,6 +11,10 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Discard 1 Energy card attached to 1 of your own Pokémon in order to remove up to 4 damage counters from that Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 274040,
 		tcgplayer: 42561

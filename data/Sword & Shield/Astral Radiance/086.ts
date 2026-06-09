@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -82,6 +88,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
 	},
 
 	thirdParty: {

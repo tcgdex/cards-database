@@ -51,15 +51,32 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733742,
+				tcgplayer: 516710,
+				cardtrader: 261110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733742,
+				tcgplayer: 516710,
+				cardtrader: 261110
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 733742
-	}
+	
 }
 
 export default card

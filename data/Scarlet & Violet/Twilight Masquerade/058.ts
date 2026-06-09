@@ -55,18 +55,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's an incredibly poor learner because it uses the bare minimum amount of energy for its brain. It focuses on battling instead.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769232,
+				tcgplayer: 550102
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769232,
+				tcgplayer: 550102
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 769232
-	}
 }
 
 export default card

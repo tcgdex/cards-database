@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Metagross ex do Steven"
 	},
 
+	suffix: "ex",
 	illustrator: "chibi",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -64,10 +65,15 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676101,
-		cardmarket: 869900
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869900,
+				tcgplayer: 676101
+			}
+		}
+	],
 }
 
 export default card

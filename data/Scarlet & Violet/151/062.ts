@@ -74,18 +74,41 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733657,
+				tcgplayer: 516251,
+				cardtrader: 261207
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733657,
+				tcgplayer: 516251,
+				cardtrader: 261207
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 733657
-	}
+	
 }
 
 export default card

@@ -2,25 +2,76 @@ import { Card } from '../../../interfaces'
 import Set from "../Collection McDonald's 2019"
 
 const card: Card = {
-	name: {
-		fr: "Machoc",
-	},
-	rarity: "Common",
-	category: "Pokemon",
+    name: {
+        fr: "Voltorbe",
+    },
 
-	set: Set,
-	dexId: [66],
-	hp: 70,
-	types: ["Fighting"],
+    rarity: "None",
+    category: "Pokemon",
+    illustrator: "Ken Sugimori",
 
-	stage: "Basic",
+    set: Set,
+    dexId: [100],
+    hp: 50,
+    types: ["Lightning"],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+    stage: "Basic",
+    retreat: 1,
+
+    weaknesses: [
+        {
+            type: "Fighting",
+            value: "×2"
+        },
+    ],
+
+    resistances: [
+        {
+            type: "Metal",
+            value: "-20"
+        }
+    ],
+
+    abilities: [
+        {
+            type: "Ability",
+            name: {
+                fr: "Électrons Flottants"
+            },
+            effect: {
+                fr: "Si de l'Énergie Lightning est attachée à ce Pokémon, il n'a pas de Coût de Retraite."
+            }
+        }
+    ],
+
+    attacks: [
+        {
+            cost: ["Lightning", "Colorless"],
+            name: {
+                fr: "Éclair"
+            },
+            damage: 20,
+            effect: {
+                fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+            }
+        },
+    ],
+
+    variants: [
+        {
+            type: 'normal',
+            thirdParty: {
+                cardmarket: 479789,
+            }
+        },
+        {
+            type: 'holo',
+            thirdParty: {
+                cardmarket: 581868,
+            }
+        }
+    ]
 }
 
 export default card
+

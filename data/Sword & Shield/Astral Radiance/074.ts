@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -74,6 +80,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
 	},
 
 	thirdParty: {

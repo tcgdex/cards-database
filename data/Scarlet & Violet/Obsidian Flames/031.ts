@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725111,
+				tcgplayer: 509726,
+				cardtrader: 255591
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725111,
+				tcgplayer: 509726,
+				cardtrader: 255591
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 725111
-	}
+	
 }
 
 export default card

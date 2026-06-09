@@ -57,18 +57,44 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "People fashion swords from Skarmory's shed feathers, so this Pokémon is a popular element in heraldic designs.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769293,
+				tcgplayer: 550163
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769293,
+				tcgplayer: 550163
+			}
+		},
+	],
 
 	illustrator: "toi8",
 
-	thirdParty: {
-		cardmarket: 769293
-	}
 }
 
 export default card

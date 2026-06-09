@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Whimsicott ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -82,9 +83,15 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835909
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835909,
+				tcgplayer: 642120
+			}
+		},
+	],
 }
 
 export default card

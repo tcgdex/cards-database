@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+	},
+
 	thirdParty: {
 		cardmarket: 280252,
 		tcgplayer: 83652

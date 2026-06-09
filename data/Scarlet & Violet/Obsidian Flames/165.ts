@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "There are records of a lost human child being raised by a childless Kangaskhan.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725245,
+				tcgplayer: 509673,
+				cardtrader: 255850
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725245,
+				tcgplayer: 509673,
+				cardtrader: 255850
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
-	thirdParty: {
-		cardmarket: 725245
-	}
+	
 }
 
 export default card

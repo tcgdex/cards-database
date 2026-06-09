@@ -81,6 +81,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+	},
 
 	thirdParty: {
 		cardmarket: 279650,

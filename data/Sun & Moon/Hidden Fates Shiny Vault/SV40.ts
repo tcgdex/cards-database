@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The protuberances on its head serve as sensors. It can even detect distant prey.",
+	},
 }
 
 export default card

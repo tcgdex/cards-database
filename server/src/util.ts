@@ -239,3 +239,19 @@ export function handleValidation(data: Array<any>, query: Query) {
 export function isNull(value: unknown): value is (undefined | null) {
 	return typeof value === 'undefined' || value === null
 }
+
+
+export function deepOmit<T extends Record<string, any>>(obj: T, keyToOmit: string): T {
+	if (Array.isArray(obj)) {
+		return obj.map((item) => deepOmit(item, keyToOmit)) as unknown as T;
+	} else if (obj && typeof obj === 'object') {
+		return Object.keys(obj).reduce((acc, key) => {
+			if (key !== keyToOmit) {
+				// @ts-ignore
+				acc[key] = deepOmit(obj[key], keyToOmit);
+			}
+			return acc;
+		}, {} as T);
+	}
+	return obj;
+}

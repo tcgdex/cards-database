@@ -78,8 +78,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
 		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
 	},
 

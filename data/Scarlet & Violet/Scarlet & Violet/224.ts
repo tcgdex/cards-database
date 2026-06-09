@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -80,6 +86,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	thirdParty: {

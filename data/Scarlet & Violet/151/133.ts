@@ -55,18 +55,55 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733728,
+				tcgplayer: 516696,
+				cardtrader: 261112
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733728,
+				tcgplayer: 516696,
+				cardtrader: 261112
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['pokemon-together'],
+			thirdParty: {
+				cardmarket: 748475
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 845405
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 733728
-	}
+	
 }
 
 export default card

@@ -75,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
 		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
 	},
 

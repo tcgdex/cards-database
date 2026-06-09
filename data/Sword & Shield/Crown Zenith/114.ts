@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 

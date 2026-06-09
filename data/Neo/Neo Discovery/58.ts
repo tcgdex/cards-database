@@ -52,8 +52,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
 		fr: "Sa toison pousse constamment. En été, même tondu, sa laine repousse en moins d'une semaine."
 	},
 

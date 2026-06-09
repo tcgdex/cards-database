@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+	},
+
 	thirdParty: {
 		cardmarket: 361361,
 		tcgplayer: 170983

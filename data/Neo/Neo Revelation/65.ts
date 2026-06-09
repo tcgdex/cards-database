@@ -80,8 +80,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
 		fr: "Dès qu'il apparaît, il devient violent. Il reste enragé jusqu'à ce que tout ce qui l'entoure soit détruit."
 	},
 

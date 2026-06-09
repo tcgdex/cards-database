@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Although it possesses a violent temperament, it won't put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 289713
 	}

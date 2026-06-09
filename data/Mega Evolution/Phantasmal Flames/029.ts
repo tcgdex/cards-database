@@ -75,16 +75,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857604,
-		tcgplayer: 662220
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857604,
+				tcgplayer: 662220,
+				cardtrader: 356812
+			}
+		},
+	],	
 }
 
 export default card

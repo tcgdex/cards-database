@@ -44,23 +44,38 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760658,
+				tcgplayer: 542772
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760658,
+				tcgplayer: 542772
+			}
+		},
 	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 760658
-	}
 }
 
 export default card

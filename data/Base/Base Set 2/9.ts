@@ -67,6 +67,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
+	},
 
 	thirdParty: {
 		cardmarket: 273932,

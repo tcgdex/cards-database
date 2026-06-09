@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Pincurchin ex do Lupo"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675880,
-		cardmarket: 869679
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869679,
+				tcgplayer: 675880
+			}
+		}
+	],
 }
 
 export default card

@@ -55,19 +55,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857639,
+				tcgplayer: 662225,
+				cardtrader: 356848
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857639,
-		tcgplayer: 662225
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857639,
+				tcgplayer: 662225,
+				cardtrader: 356848
+			}
+		},
+	],	
 }
 
 export default card

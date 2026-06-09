@@ -16,6 +16,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Discard your hand, then draw 7 cards.",
 		fr: "Défaussez-vous de votre main, puis piochez 7 cartes.",
 		de: "Entferne alle Karten aus Deiner Hand und ziehe sieben neue Karten.",
 		it: "Scarta le carte che hai in mano e pescane altre 7."

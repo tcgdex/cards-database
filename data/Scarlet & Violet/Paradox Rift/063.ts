@@ -72,18 +72,41 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740554,
+				tcgplayer: 523679,
+				cardtrader: 265143
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740554,
+				tcgplayer: 523679,
+				cardtrader: 265143
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 740554
-	}
+	
 }
 
 export default card

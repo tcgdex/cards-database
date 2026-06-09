@@ -70,6 +70,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A mysterious Pokémon. Some say it is a lifeform from another dimension, while other believe it is formed from smog.",
 		fr: "Un Pokémon mystérieux. Certains pensent qu'il vient d'une autre dimension, d'autres croient qu'il est formé de brouillard."
 	},
 

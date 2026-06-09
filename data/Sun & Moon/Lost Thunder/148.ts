@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 365785,
 		tcgplayer: 178967

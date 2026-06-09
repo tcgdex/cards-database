@@ -76,8 +76,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
 		fr: "Son lait très riche est le meilleur breuvage pour les malades ou les souffreteux."
 	},
 

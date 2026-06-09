@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740575,
+				tcgplayer: 523749,
+				cardtrader: 265185
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740575,
+				tcgplayer: 523749,
+				cardtrader: 265185
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 740574
-	}
+	
 }
 
 export default card

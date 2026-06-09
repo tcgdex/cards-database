@@ -68,6 +68,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+	},
 
 	thirdParty: {
 		cardmarket: 279700,

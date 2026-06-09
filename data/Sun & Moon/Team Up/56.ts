@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+	},
+
 	thirdParty: {
 		cardmarket: 368986,
 		tcgplayer: 183834

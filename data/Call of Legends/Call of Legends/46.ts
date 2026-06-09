@@ -58,6 +58,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don't underestimate it.",
+	},
+
 	thirdParty: {
 		cardmarket: 279689,
 		tcgplayer: 87007

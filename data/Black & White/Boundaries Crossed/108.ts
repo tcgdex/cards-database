@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280695,
 		tcgplayer: 84845

@@ -62,6 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
+	},
 
 	thirdParty: {
 		cardmarket: 281129

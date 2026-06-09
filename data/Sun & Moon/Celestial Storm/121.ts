@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+	},
+
 	thirdParty: {
 		cardmarket: 361360,
 		tcgplayer: 170980

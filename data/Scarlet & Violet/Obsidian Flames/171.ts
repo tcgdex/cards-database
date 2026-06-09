@@ -56,18 +56,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The black fur that covers this Pokémon's body is dense and springy. Even sharp fangs bounce right off.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725251,
+				tcgplayer: 509711,
+				cardtrader: 256067
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725251,
+				tcgplayer: 509711,
+				cardtrader: 256067
+			}
+		},
+	],
 
 	illustrator: "Kariya",
 
-	thirdParty: {
-		cardmarket: 725251
-	}
+	
 }
 
 export default card

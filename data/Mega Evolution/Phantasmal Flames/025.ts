@@ -75,19 +75,25 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
+	illustrator: "Takumi Wada",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857600,
+				tcgplayer: 662181,
+				cardtrader: 356808
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857600,
-		tcgplayer: 662181
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857600,
+				tcgplayer: 662181,
+				cardtrader: 356808
+			}
+		},
+	],	
 }
 
 export default card

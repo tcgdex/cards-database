@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		ja: "グソクムシャex",
-		th: "กูโซคูมูฉะex"
+		th: "กูโซคูมูฉะex",
+		ko: "갑주무사 ex"
 	},
 
 	illustrator: "N-DESIGN Inc.",
@@ -21,7 +22,8 @@ const card: Card = {
 
 		name: {
 			ja: "アクアブレード",
-			th: "อควาเบลด"
+			th: "อควาเบลด",
+			ko: "아쿠아 블레이드"
 		},
 
 		damage: 70
@@ -30,7 +32,8 @@ const card: Card = {
 
 		name: {
 			ja: "いっとうりだつ",
-			th: "หนึ่งดาบถอยทัพ"
+			th: "หนึ่งดาบถอยทัพ",
+			ko: "일도이탈"
 		},
 
 		damage: 170,

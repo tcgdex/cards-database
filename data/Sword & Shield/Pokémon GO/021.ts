@@ -64,6 +64,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -71,6 +77,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
 	},
 
 	thirdParty: {

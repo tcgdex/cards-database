@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733641,
+				tcgplayer: 516163,
+				cardtrader: 261137
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733641,
+				tcgplayer: 516163,
+				cardtrader: 261137
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
-	thirdParty: {
-		cardmarket: 733753
-	}
+	
 }
 
 export default card

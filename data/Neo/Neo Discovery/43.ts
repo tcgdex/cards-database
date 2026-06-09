@@ -75,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Apparently, it cracked Shellder's shell with its sharp fangs and sucked out the insides.",
 		fr: "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur."
 	},
 

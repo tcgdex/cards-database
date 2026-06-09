@@ -64,19 +64,31 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769361,
+				tcgplayer: 550231
+			}
+		},
+	],
 
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 769361
-	}
 }
 
 export default card

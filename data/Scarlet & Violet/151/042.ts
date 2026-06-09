@@ -50,18 +50,47 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its feet are tiny, but this Pokémon walks skillfully. It sneaks up on sleeping prey before sinking in its fangs and slurping up blood.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733637,
+				tcgplayer: 516152,
+				cardtrader: 261179
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733637,
+				tcgplayer: 516152,
+				cardtrader: 261179
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 733637
-	}
+	
 }
 
 export default card

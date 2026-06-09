@@ -44,18 +44,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769243,
+				tcgplayer: 550113
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769243,
+				tcgplayer: 550113
+			}
+		},
+	],
 
 	illustrator: "Shimaris Yukichi",
 
-	thirdParty: {
-		cardmarket: 769243
-	}
 }
 
 export default card

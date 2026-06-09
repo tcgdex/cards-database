@@ -57,18 +57,38 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769284,
+				tcgplayer: 550154
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769284,
+				tcgplayer: 550154
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 769284
-	}
 }
 
 export default card

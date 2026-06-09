@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Nothing can escape once wrapped in its tentacles, which it uses for self-defense as well as to catch food.",
 		fr: "Rien ne peut lui échapper une fois dans ses tentacules, qu'il utilise pour se défendre, mais aussi pour se nourrir."
 	},
 

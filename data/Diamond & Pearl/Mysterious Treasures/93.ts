@@ -72,8 +72,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",
 		fr: "Les poches sur ses joues sont encore trop petites pour accumuler beaucoup d'électricité."
 	},
 

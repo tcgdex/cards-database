@@ -77,8 +77,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
 		fr: "Lorsqu'il est attraqué, il projette ses cornes en rapides volées. Personne n'a jamais vu ses entrailles."
 	},
 

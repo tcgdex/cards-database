@@ -20,6 +20,7 @@ const card: Card = {
 		damage: "30+",
 
 		effect: {
+		en: "Attach this card to 1 of your Evolved Fire, Water, or Psychic Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere β.",
 			de: "Frostkraft Sind an das Pokémon, das diesen Angriff verwendet,  und  Basis Energiekarten angelegt, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu, und das verteidigende Pokémon ist jetzt verbrannt. Sind an das Pokémon, das diesen Angriff verwendet,  und  Basis Energiekarten angelegt, wähle eine an das verteidigende Pokémon angelegte Energiekarte, falls vorhanden. Dein Gegner mischt diese Karte dann in sein Deck."
 		},
 
@@ -27,6 +28,7 @@ const card: Card = {
 	}],
 
 	effect: {
+		en: "Attach this card to 1 of your Evolved Fire, Water, or Psychic Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere β.",
 		de: "Lege diese Karte an 1 deiner entwickelten -, - oder  Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges die Wunder-Sphäre (Beta) auf deinen Ablagestapel."
 	},
 

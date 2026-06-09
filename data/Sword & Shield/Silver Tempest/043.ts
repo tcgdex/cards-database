@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "After a woman met her end on a snowy mountain, her regrets lingered on. From them, this Pokémon was born. Its favorite food is frozen souls.",
 	},
 
 	thirdParty: {

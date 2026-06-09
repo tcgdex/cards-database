@@ -66,6 +66,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+	},
 
 	thirdParty: {
 		cardmarket: 274775,

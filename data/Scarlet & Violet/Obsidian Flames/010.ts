@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Be wary of the poisonous spores it releases. Mushrooms resembling Amoonguss's caps will grow out of anywhere the spores touch.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725090,
+				tcgplayer: 509700,
+				cardtrader: 255570
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725090,
+				tcgplayer: 509700,
+				cardtrader: 255570
+			}
+		},
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 
-	thirdParty: {
-		cardmarket: 725090
-	}
+	
 }
 
 export default card

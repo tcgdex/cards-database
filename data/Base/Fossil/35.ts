@@ -75,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
 		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
 	},
 

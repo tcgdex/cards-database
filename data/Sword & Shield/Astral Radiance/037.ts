@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -72,6 +78,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it.",
 	},
 
 	thirdParty: {

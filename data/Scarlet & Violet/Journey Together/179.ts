@@ -31,15 +31,15 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 817332
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817332,
+				tcgplayer: 623606
+			}
 		},
-	]
+	],
 }
 
 export default card

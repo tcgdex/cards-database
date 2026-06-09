@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
 		de: "At any time between turns, each player puts 1 damage counter on his or her Pokémon-ex with maximum HP of at least 100.",
 	},

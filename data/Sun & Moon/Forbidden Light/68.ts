@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its immense jaws have enough destructive force that it can chew up an automobile. It lived 100 million years ago.",
+	},
+
 	thirdParty: {
 		cardmarket: 355586,
 		tcgplayer: 165720

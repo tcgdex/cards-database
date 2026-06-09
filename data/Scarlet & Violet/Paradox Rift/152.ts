@@ -55,18 +55,47 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740692,
+				tcgplayer: 523833,
+				cardtrader: 265276
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740692,
+				tcgplayer: 523833,
+				cardtrader: 265276
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 740692
-	}
+	
 }
 
 export default card

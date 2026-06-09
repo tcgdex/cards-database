@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its psychic powers, it rewrites its opponents' memories. You, too, may have already had your memories rewritten.",
+	},
+
 	thirdParty: {
 		cardmarket: 388267,
 		tcgplayer: 195023

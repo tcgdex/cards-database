@@ -8,7 +8,7 @@ const card: Card = {
 		'zh-tw': "寶包繭"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],

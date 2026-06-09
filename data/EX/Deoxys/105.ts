@@ -3,9 +3,9 @@ import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Latias Star",
+		en: "Latias ☆",
 		fr: "Latias ☆",
-		de: "Latias *"
+		de: "Latias ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -36,9 +36,9 @@ const card: Card = {
 				de: "Healing Light"
 			},
 			effect: {
-				en: "Remove 1 damage counter from each of your Pokémon (including Latias Star).",
-				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Latias  inclus).",
-				de: "Remove 1 damage counter from each of your Pokémon (including Latias*)."
+				en: "Remove 1 damage counter from each of your Pokémon (including Latias ☆).",
+				fr: "Retirez 1 marqueur de dégât à chacun de vos Pokémon (Latias ☆ inclus).",
+				de: "Remove 1 damage counter from each of your Pokémon (including Latias ☆)."
 			},
 			damage: 10,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				de: "Shooting Star"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Pokémon-ex, discard all Energy cards attached to Latias Star and this attack does 50 damage plus 100 more damage.",
+				en: "If the Defending Pokémon is Pokémon-ex, discard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-ex, défaussez toutes les cartes Énergie attachées à Latias ☆. Cette attaque inflige 50 dégâts plus 100 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, dicard all Energy cards attached to Latias* and this attack does 50 damage plus 100 more damage."
+				de: "If the Defending Pokémon is Pokémon-ex, dicard all Energy cards attached to Latias ☆ and this attack does 50 damage plus 100 more damage."
 			},
 			damage: "50+",
 

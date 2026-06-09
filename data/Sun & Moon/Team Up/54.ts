@@ -78,6 +78,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns.",
+	},
 }
 
 export default card

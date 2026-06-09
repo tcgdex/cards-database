@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It silently hunts its prey in dark rooms.",
 		fr: "Il chasse sa proie silencieusement dans les salles obscures."
 	},
 

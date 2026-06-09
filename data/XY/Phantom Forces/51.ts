@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It hides any shiny object it finds in a secret location. Murkrow and Meowth loot one another's stashes.",
+	},
+
 	thirdParty: {
 		cardmarket: 281857,
 		tcgplayer: 94509

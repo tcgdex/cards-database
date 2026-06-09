@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it's in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 295355,
 		tcgplayer: 126915

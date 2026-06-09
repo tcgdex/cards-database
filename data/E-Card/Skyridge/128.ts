@@ -13,6 +13,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Flip 3 coins. For each heads, choose an Evolution card from your discard pile, show it to your opponent, and put it into your hand.",
 		de: "Wirf 3 Münzen. Bei jedem \"Kopf\" wähle eine Entwicklungskarte aus deinem Ablagestapel, zeige sie deinem Gegner und nimm sie auf deine Hand."
 	},
 

@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740477,
+				tcgplayer: 523584,
+				cardtrader: 265003
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740477,
+				tcgplayer: 523584,
+				cardtrader: 265003
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
-	thirdParty: {
-		cardmarket: 740477
-	}
+	
 }
 
 export default card

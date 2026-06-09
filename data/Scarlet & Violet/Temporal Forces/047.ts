@@ -64,23 +64,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760677,
+				tcgplayer: 542791
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760677,
+				tcgplayer: 542791
+			}
+		},
 	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 760677
-	}
 }
 
 export default card

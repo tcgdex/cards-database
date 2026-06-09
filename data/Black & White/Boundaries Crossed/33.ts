@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When headaches stimulate its brain cells, which are usually inactive, it can use a mysterious power.",
+	},
+
 	thirdParty: {
 		cardmarket: 280619,
 		tcgplayer: 88442

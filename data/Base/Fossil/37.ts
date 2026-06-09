@@ -71,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
 		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
 	},
 

@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Mystérieux fossile"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

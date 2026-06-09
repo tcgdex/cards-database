@@ -52,8 +52,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "The capture of the first Dratini inspired the search for other legendary Pokémon.",
 		fr: "La capture du premier Minidraco a inspiré la quêtre d'autres Pokémon légendaires."
 	},
 

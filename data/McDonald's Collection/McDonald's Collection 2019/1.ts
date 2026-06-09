@@ -26,13 +26,6 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Caterpie"
 	},
@@ -41,10 +34,25 @@ const card: Card = {
 	hp: 50,
 	types: ["Grass"],
 
-	thirdParty: {
-		cardmarket: 412849,
-		tcgplayer: 200960
-	}
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		}
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 412849,
+				tcgplayer: 200960
+			}
+		}
+	]
 }
 
 export default card
+

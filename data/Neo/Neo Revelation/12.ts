@@ -81,8 +81,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
 		fr: "Cette version améliorée de Porygon est conçue pour l'exploration spatiale. Cependant, elle ne peut pas voler."
 	},
 

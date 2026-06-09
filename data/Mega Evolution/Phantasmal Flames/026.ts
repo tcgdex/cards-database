@@ -51,31 +51,46 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Takeshi Nakamura",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857601,
+				tcgplayer: 662229,
+				cardtrader: 356809
+			}
 		},
 		{
-			type: "holo",
-			foil: "cosmos"
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 867791
+			}
 		},
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857601,
+				tcgplayer: 662229,
+				cardtrader: 356809
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["eb-games"]
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 858506
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["gamestop"]
-		}
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 858505
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857601,
-		tcgplayer: 662229
-	}
 }
 
 export default card

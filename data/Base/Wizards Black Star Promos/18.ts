@@ -48,7 +48,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
+
+	description: {
+		en: "This Pokémon is more active at night. It likes bright, shiny things and cannot resist taking them and adding them to its collection.",
+	},
 	variants: [
 		{
 			type: "holo"

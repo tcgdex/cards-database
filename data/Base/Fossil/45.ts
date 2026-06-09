@@ -78,8 +78,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Where two kinds of poison gases meet, two Koffings can fuse into a Weezing over many years.",
 		fr: "Deux Smogo peuvent se combiner en un Smogogo en combinant leurs gaz."
 	},
 

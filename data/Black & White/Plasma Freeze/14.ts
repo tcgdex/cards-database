@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280892,
 		tcgplayer: 86813

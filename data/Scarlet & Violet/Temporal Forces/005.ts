@@ -72,23 +72,38 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760635,
+				tcgplayer: 542650
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760635,
+				tcgplayer: 542650
+			}
+		},
 	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 760635
-	}
 }
 
 export default card

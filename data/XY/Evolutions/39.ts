@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A life-form whose identity is unknown. It is said to Screech or suddenly Self-Destruct.",
+	},
+
 	thirdParty: {
 		cardmarket: 293395,
 		tcgplayer: 124052

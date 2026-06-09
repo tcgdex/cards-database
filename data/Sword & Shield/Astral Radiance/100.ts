@@ -76,6 +76,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -84,6 +90,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
 	},
 
 	thirdParty: {

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+	},
+
 	thirdParty: {
 		cardmarket: 365695,
 		tcgplayer: 178863

@@ -64,6 +64,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +84,10 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+
+	description: {
+		en: "Green-feathered flocks hold the most sway. When they're out searching for food in the mornings and evenings, it gets very noisy.",
+	},
 
 	thirdParty: {
         cardmarket: 702458,

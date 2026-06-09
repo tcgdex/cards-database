@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+	},
+
 	thirdParty: {
 		cardmarket: 278115,
 		tcgplayer: 86079

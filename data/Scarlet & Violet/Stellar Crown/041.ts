@@ -52,19 +52,43 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785895,
+				tcgplayer: 567267
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841269,
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841270,
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 785895
-	}
 }
 
 export default card

@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -73,6 +85,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
 	},
 
 	thirdParty: {

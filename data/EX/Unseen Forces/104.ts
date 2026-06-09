@@ -8,6 +8,7 @@ const card: Card = {
 		de: "Ho-oh ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",

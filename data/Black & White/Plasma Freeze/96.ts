@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+	},
+
 	thirdParty: {
 		cardmarket: 280974,
 		tcgplayer: 89518

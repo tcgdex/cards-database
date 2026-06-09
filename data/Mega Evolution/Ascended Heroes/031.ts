@@ -13,7 +13,17 @@ const card: Card = {
 		it: "Mega Emboar-ex",
 		pt: "Mega Emboar ex"
 	},
+	evolveFrom: {
+		en: "Pignite",
+		de: "Ferkokel",
+		es: "Pignite",
+		'es-mx': "Pignite",
+		fr: "Grotichon",
+		it: "Pignite",
+		pt: "Pignite",
+	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -50,10 +60,15 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675843,
-		cardmarket: 869642
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869642,
+				tcgplayer: 675843
+			}
+		}
+	],
 }
 
 export default card

@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785925,
+				tcgplayer: 567297
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785925,
+				tcgplayer: 567297
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 785925
-	}
 }
 
 export default card

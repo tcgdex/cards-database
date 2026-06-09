@@ -52,8 +52,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
 		fr: "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles."
 	},
 

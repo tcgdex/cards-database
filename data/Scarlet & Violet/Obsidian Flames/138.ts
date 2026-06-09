@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725218,
+				tcgplayer: 509909,
+				cardtrader: 255823
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725218,
+				tcgplayer: 509909,
+				cardtrader: 255823
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 725218
-	}
+	
 }
 
 export default card

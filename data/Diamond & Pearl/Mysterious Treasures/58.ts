@@ -75,8 +75,11 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "A mushroom grown larger than the host's body controls PARASECT. It scatters poisonous spores.",
 		fr: "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
 	},
 

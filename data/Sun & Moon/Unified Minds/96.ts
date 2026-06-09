@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.",
+	},
+
 	thirdParty: {
 		cardmarket: 388287,
 		tcgplayer: 195029

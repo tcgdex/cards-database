@@ -35,18 +35,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733638,
+				tcgplayer: 516156,
+				cardtrader: 261136
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733638,
+				tcgplayer: 516156,
+				cardtrader: 261136
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 733638
-	}
+	
 }
 
 export default card

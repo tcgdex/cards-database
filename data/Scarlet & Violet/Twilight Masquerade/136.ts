@@ -55,18 +55,38 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its stomach's digestive juices can dissolve any kind of poison. Eating things off the ground doesn't bother it at all.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769310,
+				tcgplayer: 550180
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769310,
+				tcgplayer: 550180
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 769310
-	}
 }
 
 export default card

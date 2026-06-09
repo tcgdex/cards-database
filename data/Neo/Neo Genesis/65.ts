@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
 		fr: "Si de l'électricité statique s'accumule dans son corps, sa toison double de volume. Tout contact avec lui vous électrocute."
 	},
 

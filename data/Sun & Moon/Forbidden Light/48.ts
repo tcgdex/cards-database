@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.",
+	},
+
 	thirdParty: {
 		cardmarket: 355567,
 		tcgplayer: 165699

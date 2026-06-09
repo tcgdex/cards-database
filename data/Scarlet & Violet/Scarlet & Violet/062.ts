@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +78,10 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+
+	description: {
+		en: "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+	},
 
 	thirdParty: {
         cardmarket: 702357,

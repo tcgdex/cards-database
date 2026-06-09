@@ -6,12 +6,6 @@ const card: Card = {
 		25,
 	],
 	set: Set,
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
@@ -23,19 +17,17 @@ const card: Card = {
 		"Lightning",
 	],
 	stage: "Basic",
-	thirdParty: {
-		cardmarket: 301847,
-		tcgplayer: 152685,
-	},
 	attacks: [
 		{
 			cost: [
 				"Lightning",
 			],
 			name: {
+				en: "Thudner Wave",
 				fr: "Cage-Éclair",
 			},
 			effect: {
+				en: "Flip a coin, If heads your opponent's active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
 			},
 		},
@@ -51,6 +43,19 @@ const card: Card = {
 			damage: "50",
 		},
 	],
+
+	illustrator: "kirisAki",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 301847,
+				tcgplayer: 152685
+			}
+		}
+	]
 }
 
 export default card
+

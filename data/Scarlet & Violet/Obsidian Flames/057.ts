@@ -52,18 +52,48 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725137,
+				tcgplayer: 509805,
+				cardtrader: 255617
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 781858
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725137,
+				tcgplayer: 509805,
+				cardtrader: 255617
+			}
+		},
+	],
 
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 725137
-	}
+	
 }
 
 export default card

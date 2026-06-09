@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+	},
+
 	thirdParty: {
 		cardmarket: 280934,
 		tcgplayer: 84387

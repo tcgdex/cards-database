@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
+	},
+
 	thirdParty: {
 		cardmarket: 299485,
 		tcgplayer: 138571

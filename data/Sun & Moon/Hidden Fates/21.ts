@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+	},
+
 	thirdParty: {
 		cardmarket: 394642,
 		tcgplayer: 197665

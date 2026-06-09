@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "D",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
 	},
 
 	thirdParty: {

@@ -3,47 +3,52 @@ import Set from "../Collection McDonald's 2013"
 
 const card: Card = {
 	name: {
-		fr: "Pyroli",
+		fr: "Charpenti",
 	},
-	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	illustrator: "Masakazu Fukuda",
+	rarity: "None",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [136],
-	hp: 90,
-	types: ["Fire"],
+	dexId: [532],
+	hp: 70,
+	types: ["Fighting"],
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
-			cost: ["Fire"],
+			cost: ["Colorless"],
 			name: {
-				fr: "Flammèche",
+				fr: "Balayage",
 			},
-			damage: 20,
+			damage: 10,
 		},
 		{
-			cost: ["Fire", "Colorless", "Colorless"],
+			cost: ["Fighting", "Colorless"],
 			name: {
-				fr: "Déflagration",
+				fr: "Écras'Face",
 			},
-			effect: {
-				fr: "Défaussez une Énergie attachée à ce Pokémon.",
-			},
-			damage: 80,
-		},
+			damage: 20,
+		}
 	],
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
 
 	retreat: 2,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 361728,
+			}
+		}
+	]
 }
 
 export default card
-

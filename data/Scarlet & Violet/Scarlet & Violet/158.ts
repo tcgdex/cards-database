@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,7 +86,12 @@ const card: Card = {
 		normal: false
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
+
+	description: {
+		en: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
+	},
 
 	thirdParty: {
         cardmarket: 702454,

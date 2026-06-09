@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Clefairy ex da Lílian"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -74,10 +75,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675888,
-		cardmarket: 869687
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869687,
+				tcgplayer: 675888
+			}
+		}
+	],
 }
 
 export default card

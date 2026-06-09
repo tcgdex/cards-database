@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -80,6 +86,7 @@ const card: Card = {
 		reverse: false
 	},
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
 	thirdParty: {

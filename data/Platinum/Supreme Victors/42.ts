@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It curls up, then rolls into foes with its back. Its sharp spines inflict severe damage.",
+	},
+
 	thirdParty: {
 		cardmarket: 278733
 	},

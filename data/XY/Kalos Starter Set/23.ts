@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+	},
+
 	thirdParty: {
 		cardmarket: 281289,
 		tcgplayer: 85867

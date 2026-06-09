@@ -62,6 +62,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -70,6 +76,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Exactly 108 spirits gathered to become this Pokémon. Apparently there are some ill-natured spirits in the mix.",
 	},
 
 	thirdParty: {

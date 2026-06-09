@@ -66,6 +66,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
+	},
 
 	thirdParty: {
 		cardmarket: 273945,

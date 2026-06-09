@@ -90,6 +90,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+	},
+
 	thirdParty: {
         cardmarket: 702399,
         tcgplayer: 487978

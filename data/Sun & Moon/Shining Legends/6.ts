@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 302144,
 		tcgplayer: 146658

@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is mostly made of water. A Tentacool out in the ocean is very hard to spot, because its body blends in with the sea.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733667,
+				tcgplayer: 516565,
+				cardtrader: 261154
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733667,
+				tcgplayer: 516565,
+				cardtrader: 261154
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 733733
-	}
+	
 }
 
 export default card

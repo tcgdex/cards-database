@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Voltorb ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -50,10 +51,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675870,
-		cardmarket: 869669
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869669,
+				tcgplayer: 675870
+			}
+		}
+	],
 }
 
 export default card

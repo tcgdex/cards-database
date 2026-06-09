@@ -69,6 +69,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
+	},
+
 	thirdParty: {
 		cardmarket: 274771,
 		tcgplayer: 84637

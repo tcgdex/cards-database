@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "This ancient Pokémon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.",
 	},
 
 	thirdParty: {

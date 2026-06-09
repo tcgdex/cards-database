@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…",
+	},
+
 	thirdParty: {
 		cardmarket: 284247,
 		tcgplayer: 101488

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.",
+	},
+
 	thirdParty: {
 		cardmarket: 316017,
 		tcgplayer: 157708

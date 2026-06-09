@@ -71,6 +71,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
 		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et transperce son ennemi."
 	},
 

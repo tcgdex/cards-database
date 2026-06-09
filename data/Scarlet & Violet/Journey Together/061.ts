@@ -55,18 +55,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Izucch",
 
-	thirdParty: {
-		cardmarket: 817213
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817213,
+				tcgplayer: 623488
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817213,
+				tcgplayer: 623488
+			}
 		},
-	]
+	],
 }
 
 export default card

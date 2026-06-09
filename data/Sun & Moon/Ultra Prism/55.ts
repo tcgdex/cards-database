@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 315985,
 		tcgplayer: 157672

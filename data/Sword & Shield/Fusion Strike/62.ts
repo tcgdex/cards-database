@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "KIYOTAKA OSHIYAMA",

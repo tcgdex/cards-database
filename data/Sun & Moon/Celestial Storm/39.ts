@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
+	},
+
 	thirdParty: {
 		cardmarket: 361286,
 		tcgplayer: 170856

@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+	},
+
 	thirdParty: {
 		cardmarket: 278920,
 		tcgplayer: 89129

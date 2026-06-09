@@ -63,16 +63,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Shigenori Negishi",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857682,
+				tcgplayer: 662128,
+				cardtrader: 356893
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857682,
-		tcgplayer: 662128
-	}
 }
 
 export default card

@@ -65,19 +65,33 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740745,
+				tcgplayer: 523883,
+				cardtrader: 265517
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 740745
-	}
+	
 }
 
 export default card

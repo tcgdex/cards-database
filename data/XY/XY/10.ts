@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+	},
+
 	thirdParty: {
 		cardmarket: 281347,
 		tcgplayer: 87938

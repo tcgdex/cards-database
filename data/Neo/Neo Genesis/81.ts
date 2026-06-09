@@ -67,8 +67,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
 		fr: "Sa mâchoire super développée est puissante et capable de broyer n'importe quoi. Même ses dresseurs doivent être prudents."
 	},
 

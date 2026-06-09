@@ -74,19 +74,28 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 786023,
+				tcgplayer: 567476
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 786023
-	}
 }
 
 export default card

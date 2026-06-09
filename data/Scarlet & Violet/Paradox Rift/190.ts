@@ -43,19 +43,40 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it's a kind Pokémon.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740733,
+				tcgplayer: 523871,
+				cardtrader: 265222
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 845406
+			}
+		},
+	],
 
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 845406
-	}
+	
 }
 
 export default card

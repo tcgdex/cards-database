@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Phantasmal Flames"
+import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,

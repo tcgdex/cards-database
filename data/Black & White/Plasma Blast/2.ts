@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+	},
+
 	thirdParty: {
 		cardmarket: 281023,
 		tcgplayer: 87250

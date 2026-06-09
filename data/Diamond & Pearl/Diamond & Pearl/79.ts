@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
 		fr: "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine."
 	},
 

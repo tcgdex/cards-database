@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It is known for its fantastic strength, but as it grows older, it focuses more on training Makuhita.",
+	},
+
 	thirdParty: {
 		cardmarket: 295379,
 		tcgplayer: 126939

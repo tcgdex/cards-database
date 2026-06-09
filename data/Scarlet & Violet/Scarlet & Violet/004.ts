@@ -41,6 +41,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -49,6 +55,10 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+
+	description: {
+		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+	},
 
 	thirdParty: {
         cardmarket: 702301,

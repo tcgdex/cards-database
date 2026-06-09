@@ -71,8 +71,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted.",
 		fr: "Son épaisse toison stocke l'électricité. Sa peau caoutchouteuse le sauve de l'électrocution."
 	},
 

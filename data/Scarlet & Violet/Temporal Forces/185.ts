@@ -74,20 +74,28 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760815,
+				tcgplayer: 542906
+			}
+		},
 	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
-	thirdParty: {
-		cardmarket: 760815
-	}
 }
 
 export default card

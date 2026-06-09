@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its wings are covered in toxic scales. If it finds bird Pokémon going after Caterpie, Butterfree sprinkles its scales on them to drive them off.",
+	},
+
 	thirdParty: {
 		cardmarket: 394797,
 		tcgplayer: 197645

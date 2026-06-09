@@ -64,6 +64,12 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -72,6 +78,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
 	},
 
 	thirdParty: {

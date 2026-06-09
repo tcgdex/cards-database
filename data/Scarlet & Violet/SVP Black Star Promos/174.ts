@@ -15,6 +15,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Natsuko Shoji été",
 
 	rarity: "None",
@@ -61,7 +62,12 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

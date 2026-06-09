@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sumiyoshi Kizuki",

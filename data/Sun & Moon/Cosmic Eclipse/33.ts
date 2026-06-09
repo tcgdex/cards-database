@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+	},
+
 	thirdParty: {
 		cardmarket: 407814,
 		tcgplayer: 201211

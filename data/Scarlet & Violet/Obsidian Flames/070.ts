@@ -66,18 +66,41 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725150,
+				tcgplayer: 509837,
+				cardtrader: 255630
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725150,
+				tcgplayer: 509837,
+				cardtrader: 255630
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 725150
-	}
+	
 }
 
 export default card

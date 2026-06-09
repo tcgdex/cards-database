@@ -59,8 +59,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "This Pokémon is perfectly adapted to its ocean home. It can gather up enough speed to burst above the water like a whale.",
 		fr: "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
 	},
 

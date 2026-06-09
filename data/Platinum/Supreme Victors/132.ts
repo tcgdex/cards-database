@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane.",
+	},
+
 	thirdParty: {
 		cardmarket: 278823
 	},

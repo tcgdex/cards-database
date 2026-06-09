@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+	},
+
 	thirdParty: {
 		cardmarket: 363501,
 		tcgplayer: 175412

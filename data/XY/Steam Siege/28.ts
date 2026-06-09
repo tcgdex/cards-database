@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its shape and coloration vary, depending on its habitat.",
+	},
+
 	thirdParty: {
 		cardmarket: 291529,
 		tcgplayer: 121015

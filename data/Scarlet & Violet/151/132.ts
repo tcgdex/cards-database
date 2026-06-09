@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733727,
+				tcgplayer: 516695,
+				cardtrader: 261226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733727,
+				tcgplayer: 516695,
+				cardtrader: 261226
+			}
+		},
+	],
 
 	illustrator: "KIYOTAKA OSHIYAMA",
 
-	thirdParty: {
-		cardmarket: 794900
-	}
+	
 }
 
 export default card

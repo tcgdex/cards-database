@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 278821
 	},

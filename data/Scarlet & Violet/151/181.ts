@@ -68,16 +68,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733776,
+				tcgplayer: 517020,
+				cardtrader: 261308
+			}
+		},
+	],
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 733776
-	}
+	
 }
 
 export default card

@@ -30,13 +30,6 @@ const card: Card = {
 		damage: 60
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	name: {
 		en: "Alomomola",
 		fr: "Mamanbo"
@@ -46,9 +39,16 @@ const card: Card = {
 	hp: 100,
 	types: ["Water"],
 
-	thirdParty: {
-		tcgplayer: 83507
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281794,
+				tcgplayer: 83507
+			}
+		}
+	]
 }
 
 export default card
+

@@ -75,8 +75,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
 		fr: "Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation."
 	},
 

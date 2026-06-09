@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It raises flowers and uses them as weapons. The more gorgeous the blossom, the more power it contains.",
+	},
+
 	thirdParty: {
 		cardmarket: 408399,
 		tcgplayer: 201196

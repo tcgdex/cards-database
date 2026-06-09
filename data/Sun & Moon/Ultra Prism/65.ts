@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Records exist of a revived fossil that evolved into Rampardos. It proceeded to escape and then destroy a skyscraper with a headbutt.",
+	},
+
 	thirdParty: {
 		cardmarket: 315993,
 		tcgplayer: 157682

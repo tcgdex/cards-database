@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+	},
 
 	thirdParty: {
 		cardmarket: 273980,

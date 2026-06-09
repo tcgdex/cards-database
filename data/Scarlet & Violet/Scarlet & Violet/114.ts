@@ -85,6 +85,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",
+	},
+
 	thirdParty: {
         cardmarket: 702410,
         tcgplayer: 488003

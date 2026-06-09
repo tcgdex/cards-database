@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+	},
+
 	thirdParty: {
 		cardmarket: 361260,
 		tcgplayer: 170821

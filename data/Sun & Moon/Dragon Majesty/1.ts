@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+	},
+
 	thirdParty: {
 		cardmarket: 363474,
 		tcgplayer: 175263

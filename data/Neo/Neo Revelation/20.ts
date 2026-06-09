@@ -63,8 +63,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
 		fr: "On prétend qu'il est le gardien des mers. La rumeur veut qu'il apparaisse les nuits de tempête."
 	},
 

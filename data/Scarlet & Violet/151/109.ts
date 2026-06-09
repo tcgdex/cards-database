@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733704,
+				tcgplayer: 516679,
+				cardtrader: 261126
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733704,
+				tcgplayer: 516679,
+				cardtrader: 261126
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 733654
-	}
+	
 }
 
 export default card

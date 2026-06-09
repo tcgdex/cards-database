@@ -65,6 +65,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes.",
+	},
 
 	variants: [
 		{

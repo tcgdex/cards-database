@@ -41,19 +41,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Gapao",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857612,
+				tcgplayer: 662228,
+				cardtrader: 356820
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857612,
-		tcgplayer: 662228
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857612,
+				tcgplayer: 662228,
+				cardtrader: 356820
+			}
+		},
+	],	
 }
 
 export default card

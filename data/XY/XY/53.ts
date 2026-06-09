@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+	},
+
 	thirdParty: {
 		cardmarket: 281390,
 		tcgplayer: 88971

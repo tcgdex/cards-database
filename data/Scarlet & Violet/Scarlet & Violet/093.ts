@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "Haru Akasaka",
+
+	description: {
+		en: "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
+	},
 
 	thirdParty: {
         cardmarket: 702389,

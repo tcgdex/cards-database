@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It unleashes electric shocks that can reach 100,000 volts. When agitated, it can knock out even an Indian elephant.",
+	},
+
 	thirdParty: {
 		cardmarket: 299445,
 		tcgplayer: 138523

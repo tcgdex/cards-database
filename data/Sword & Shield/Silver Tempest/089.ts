@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -73,6 +85,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
 	},
 
 	thirdParty: {

@@ -57,18 +57,41 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Many of this species can be found along the shorelines of cold regions. If a Cubchoo lacks dangling snot, there's a chance it is sick.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725133,
+				tcgplayer: 509798,
+				cardtrader: 255613
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725133,
+				tcgplayer: 509798,
+				cardtrader: 255613
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 725133
-	}
+	
 }
 
 export default card

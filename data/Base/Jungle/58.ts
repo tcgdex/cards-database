@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
 		fr: "Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines."
 	},
 

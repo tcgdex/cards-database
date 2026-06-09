@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+	},
+
 	thirdParty: {
 		cardmarket: 273649,
 		tcgplayer: 96016

@@ -35,18 +35,6 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Psychic"],
-			name: {
-				en: "Smack",
-				fr: "Claque",
-				es: "Golpazo",
-				it: "Sberla",
-				pt: "Tapa",
-				de: "Klatscher"
-			},
-			damage: 20,
-		},
-		{
 			cost: ["Psychic", "Colorless"],
 			name: {
 				en: "Magical Shot",
@@ -56,25 +44,45 @@ const card: Card = {
 				pt: "Tiro Mágico",
 				de: "Magischer Schuss"
 			},
-			damage: 40,
+			damage: 30,
 		},
+		{
+			cost: ["Psychic"],
+			name: {
+				en: "Phychic",
+			},
+			effect: {
+				en: "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon."
+			},
+			damage: 20,
+		}
 	],
 
 	weaknesses: [
 		{
-			type: "Metal",
+			type: "Darkness",
 			value: "×2"
 		},
 	],
 
-	retreat: 1,
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		}
+	],
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	}
+	retreat: 1,
+	
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725432,
+				tcgplayer: 516526
+			}
+		}
+	]
 }
 
 export default card

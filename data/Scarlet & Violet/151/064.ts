@@ -52,18 +52,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon's telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733659,
+				tcgplayer: 516269,
+				cardtrader: 261188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733659,
+				tcgplayer: 516269,
+				cardtrader: 261188
+			}
+		},
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
-	thirdParty: {
-		cardmarket: 733659
-	}
+	
 }
 
 export default card

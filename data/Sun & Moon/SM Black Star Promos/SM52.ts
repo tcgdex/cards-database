@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
+	},
 }
 
 export default card
