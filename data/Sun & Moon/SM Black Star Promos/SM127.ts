@@ -83,7 +83,7 @@ const card: Card = {
 		},
 
 		cost: ["Metal", "Metal", "Colorless"]
-	}]
+	}],
 
 	description: {
 		en: "This Pokémon's steel spikes are sheathed in ice. Stabs from these spikes cause deep wounds and severe frostbite as well.",
