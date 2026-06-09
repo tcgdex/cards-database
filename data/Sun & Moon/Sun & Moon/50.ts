@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 295361,
 		tcgplayer: 126921

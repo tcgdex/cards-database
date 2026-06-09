@@ -62,7 +62,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Its six eggs use telepathy to communicate among themselves. It is believed to carry plant genes and the genes of other species.",
+	},
 }
 
 export default card

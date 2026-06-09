@@ -85,7 +85,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+	},
 }
 
 export default card

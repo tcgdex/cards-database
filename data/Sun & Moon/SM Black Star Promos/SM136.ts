@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+	},
 }
 
 export default card
