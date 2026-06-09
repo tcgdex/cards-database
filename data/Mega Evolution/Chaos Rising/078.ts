@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886469,
+				tcgplayer: 693499
+			}
+		},
+	],
 
 	name: {
 		en: "Great Haul Net",
@@ -26,11 +29,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Item",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693499,
-		cardmarket: 886469
-	},
 
 	effect: {
 		en: "Choose 1 or both:\n• Shuffle up to 3 {W} Pokémon from your discard pile into your deck.\n• Shuffle up to 3 Basic {W} Energy cards from your discard pile into your deck.",

@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886466,
+				tcgplayer: 693444
+			}
+		},
+	],
 
 	name: {
 		en: "Adversity Policy",
@@ -26,10 +29,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Tool",
 	regulationMark: "I",
-
-	thirdParty: {
-		tcgplayer: 693444
-	},
 
 	effect: {
 		en: "If the Pokémon this card is attached to has Weakness to your opponent's Active Pokémon's type, is in the Active Spot, and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), draw 3 cards.",

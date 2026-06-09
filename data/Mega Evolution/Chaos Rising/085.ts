@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886477,
+				tcgplayer: 693506
+			}
+		},
+	],
 
 	name: {
 		en: "Magnetic Metal Energy",
@@ -25,11 +28,6 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693506,
-		cardmarket: 886477
-	},
 
 	effect: {
 		en: "As long as this card is attached to a Pokémon, it provides {M} Energy.\n\nThe {M} Pokémon this card is attached to has no Retreat Cost.",

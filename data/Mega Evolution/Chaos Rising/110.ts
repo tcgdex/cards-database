@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886502,
+				tcgplayer: 693533
+			}
+		},
+	],
 
 	name: {
 		en: "Philippe",
@@ -26,11 +29,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Supporter",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693533,
-		cardmarket: 886502
-	},
 
 	effect: {
 		en: "Attach up to 2 Basic {M} Energy cards from your discard pile to 1 of your {M} Pokémon.",

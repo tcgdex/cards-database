@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886492,
+				tcgplayer: 693516
+			}
+		},
+	],
 
 	name: {
 		en: "Mega Greninja ex",
@@ -91,11 +94,6 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693516,
-		cardmarket: 886492
-	}
 }
 
 export default card

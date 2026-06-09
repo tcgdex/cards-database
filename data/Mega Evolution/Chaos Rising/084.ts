@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886476,
+				tcgplayer: 693458
+			}
+		},
+	],
 
 	name: {
 		en: "Bubbly Water Energy",
@@ -25,11 +28,6 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693458,
-		cardmarket: 886476
-	},
 
 	effect: {
 		en: "As long as this card is attached to a Pokémon, it provides {W} Energy.\n\nThe {W} Pokémon this card is attached to recovers from all Special Conditions and can't be affected by any Special Conditions.",

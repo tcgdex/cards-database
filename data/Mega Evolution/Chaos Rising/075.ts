@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886467,
+				tcgplayer: 693447
+			}
+		},
+	],
 
 	name: {
 		en: "Ange Floette",
@@ -26,11 +29,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Stadium",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693447,
-		cardmarket: 886467
-	},
 
 	effect: {
 		en: "You can put this card into play only if you discard a Prism Tower in play, and you can put this card into play during the same turn you play Prism Tower.\nEach Mega Floette ex in play (both yours and your opponent's) gets +150 HP.",

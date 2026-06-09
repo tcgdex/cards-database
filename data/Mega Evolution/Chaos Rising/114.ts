@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886507,
+				tcgplayer: 693551
+			}
+		},
+	],
 
 	name: {
 		en: "Surfing Beach",
@@ -26,11 +29,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Stadium",
 	regulationMark: "I",
-
-	thirdParty: {
-		tcgplayer: 693551,
-		cardmarket: 886507
-	},
 
 	effect: {
 		en: "Once during each player's turn, that player may switch their Active {W} Pokémon with 1 of their Benched {W} Pokémon.",

@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886449,
+				tcgplayer: 693492
+			}
+		},
+	],
 
 	name: {
 		en: "Garbodor",
@@ -80,11 +83,6 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693492,
-		cardmarket: 886449
-	}
 }
 
 export default card

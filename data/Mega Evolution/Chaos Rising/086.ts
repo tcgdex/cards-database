@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886478,
+				tcgplayer: 693527
+			}
+		},
+	],
 
 	name: {
 		en: "Nitro Fire Energy",
@@ -25,11 +28,6 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693527,
-		cardmarket: 886478
-	},
 
 	effect: {
 		en: "As long as this card is attached to a Pokémon, it provides {R} Energy.\n\nIf this card is discarded by an effect of an attack used by the {R} Pokémon this card is attached to, put this card into your hand after attack damage and effects.",

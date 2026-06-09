@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886508,
+				tcgplayer: 693554
+			}
+		},
+	],
 
 	name: {
 		en: "Tool Scrapper",
@@ -26,11 +29,6 @@ const card: Card = {
 	category: "Trainer",
 	trainerType: "Item",
 	regulationMark: "I",
-
-	thirdParty: {
-		tcgplayer: 693554,
-		cardmarket: 886508
-	},
 
 	effect: {
 		en: "Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent's) and discard them.",

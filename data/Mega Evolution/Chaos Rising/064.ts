@@ -4,12 +4,15 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886456,
+				tcgplayer: 693468
+			}
+		},
+	],
 
 	name: {
 		en: "Cobalion ex",
@@ -91,11 +94,6 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
-
-	thirdParty: {
-		tcgplayer: 693468,
-		cardmarket: 886456
-	}
 }
 
 export default card
