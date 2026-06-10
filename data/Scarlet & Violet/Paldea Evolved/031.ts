@@ -69,9 +69,25 @@ const card: Card = {
 		en: "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
 	},
 
-	thirdParty: {
-		cardmarket: 715504
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715504,
+				tcgplayer: 498857,
+				cardtrader: 248612
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715504,
+				tcgplayer: 498857,
+				cardtrader: 248612
+			}
+		},
+	],
+
 }
 
 export default card

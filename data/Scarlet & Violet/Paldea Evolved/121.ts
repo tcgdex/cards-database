@@ -69,9 +69,25 @@ const card: Card = {
 		en: "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
 	},
 
-	thirdParty: {
-		cardmarket: 715596
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715596,
+				tcgplayer: 497536,
+				cardtrader: 248768
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715596,
+				tcgplayer: 497536,
+				cardtrader: 248768
+			}
+		},
+	],
+
 }
 
 export default card
