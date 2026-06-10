@@ -20,7 +20,7 @@ import th from '../../../generated/th/cards.json'
 import zhcn from '../../../generated/zh-cn/cards.json'
 import zhtw from '../../../generated/zh-tw/cards.json'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
-import { getTCGPlayerPrice, type PricingMode, PRICING_MODES } from '../../libs/providers/tcgplayer'
+import { getTCGPlayerPrice, type PricingMode } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 import { deepOmit } from "../../util";
 

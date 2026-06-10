@@ -98,7 +98,7 @@ export async function fetchTCGTrackingSetProducts(
 		)
 	}
 
-	return response.json()
+	return response.json() as Promise<TCGTrackingSetProductsResponse>
 }
 
 export async function fetchTCGTrackingSetPricing(
