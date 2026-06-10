@@ -41,7 +41,6 @@ if (cluster.isPrimary) {
 
 		// handle sub processes
 		worker.on('message', async (command: Command) => {
-			console.log('worker sent', command)
 			switch (command.type) {
 				case 'getTCGPlayerPrice': {
 					worker.send({
@@ -95,7 +94,6 @@ if (cluster.isPrimary) {
 		await new Promise<void>((res) => {
 			let oneDone = false
 			process.on('message', (command: Command) => {
-				console.log('master sent', command)
 				switch (command.type) {
 					case 'tcgplayer-update': {
 						fillTCGPlayerCache(command.data as any)

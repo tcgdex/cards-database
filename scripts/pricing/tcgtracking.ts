@@ -1,7 +1,9 @@
 import {
 	fetchTCGTrackingSetPricing,
+	fetchTCGTrackingSetProducts,
 	type TCGTrackingCategoryId,
 	type TCGTrackingProductPricing,
+	type TCGTrackingSetProduct,
 } from '../utils-data/tcgtracking'
 import { TTLCache } from './cache'
 import type { PricingProvider, ResolvedPrice } from './types'
@@ -30,10 +32,19 @@ interface SetPricingResponse {
 	prices: Record<string, TCGTrackingProductPricing>
 }
 
+// productId → product metadata (CardTrader ID, sealed flag)
+type ProductMeta = { cardtraderId: number | null; isSealed: boolean }
+
+function isSealed(product: TCGTrackingSetProduct): boolean {
+	const ct = product.cardtrader ?? []
+	return ct.length > 0 && ct.every((entry) => entry.product_type !== 'single')
+}
+
 export class TCGTrackingProvider implements PricingProvider {
 	readonly name = 'tcgtracking' as const
 
 	private pricingCache = new TTLCache<string, SetPricingResponse>()
+	private productsCache = new TTLCache<string, Map<number, ProductMeta>>()
 	private inflight = new Map<string, Promise<SetPricingResponse | null>>()
 
 	async getPrices(input: {
@@ -41,10 +52,10 @@ export class TCGTrackingProvider implements PricingProvider {
 		tcgplayerSetId: number
 		tcgplayerProductId: number
 	}): Promise<ResolvedPrice[]> {
-		const setPricing = await this.loadSet(
-			input.categoryId as TCGTrackingCategoryId,
-			input.tcgplayerSetId,
-		)
+		const [setPricing, productsMeta] = await Promise.all([
+			this.loadSet(input.categoryId as TCGTrackingCategoryId, input.tcgplayerSetId),
+			this.loadProducts(input.categoryId as TCGTrackingCategoryId, input.tcgplayerSetId),
+		])
 
 		if (!setPricing) {
 			return []
@@ -56,6 +67,8 @@ export class TCGTrackingProvider implements PricingProvider {
 			return []
 		}
 
+		const meta = productsMeta?.get(input.tcgplayerProductId)
+
 		return Object.entries(productPricing.tcg)
 			.map(([priceType, price]) => ({
 				source: 'tcgtracking' as const,
@@ -63,11 +76,43 @@ export class TCGTrackingProvider implements PricingProvider {
 				priceType,
 				low: price.low,
 				market: price.market,
+				cardtraderId: meta?.cardtraderId ?? undefined,
+				isSealed: meta?.isSealed,
 			}))
 			.filter(
 				(price) =>
 					typeof price.low === 'number' || typeof price.market === 'number',
 			)
+	}
+
+	private async loadProducts(
+		categoryId: TCGTrackingCategoryId,
+		tcgplayerSetId: number,
+	): Promise<Map<number, ProductMeta> | null> {
+		const cacheKey = `${categoryId}:${tcgplayerSetId}`
+		const cached = this.productsCache.get(cacheKey)
+		if (cached !== undefined) return cached
+
+		try {
+			const fetchSetId = TCGTRACKING_SET_ID_OVERRIDES[tcgplayerSetId] ?? tcgplayerSetId
+			const data = await fetchTCGTrackingSetProducts(categoryId, fetchSetId)
+			const map = new Map<number, ProductMeta>()
+
+			for (const product of data.products) {
+				map.set(product.id, {
+					cardtraderId: product.cardtrader_id,
+					isSealed: isSealed(product),
+				})
+			}
+
+			this.productsCache.set(cacheKey, map, PRICING_TTL_MS)
+			return map
+		} catch (error) {
+			console.warn(
+				`TCGTracking: failed to load products for category ${categoryId}, set ${tcgplayerSetId}: ${getErrorMessage(error)}`,
+			)
+			return null
+		}
 	}
 
 	private async loadSet(

@@ -2,9 +2,41 @@ import path from 'node:path'
 import { pathToFileURL } from 'node:url'
 
 /**
- * TCGTracking Open TCG API base URL.
+ * Returns the TCGTracking API base URL.
+ *
+ * When `TCGPLAYER_PROXY` is set the proxy is used as the base so all external
+ * traffic routes through the same self-hosted proxy as TCGPlayer requests.
+ * Falls back to the public TCGTracking endpoint when no proxy is configured.
  */
-export const TCGTRACKING_API_BASE_URL = 'https://tcgtracking.com/tcgapi/v1'
+export function buildTCGTrackingBaseUrl(): string {
+	const proxy = process.env.TCGPLAYER_PROXY
+	return proxy ? `${proxy}/tcgapi/v1` : 'https://tcgtracking.com/tcgapi/v1'
+}
+
+/**
+ * Returns the headers to send with every TCGTracking API request.
+ *
+ * Mirrors the auth used by `TCGPlayerProxy` so the self-hosted proxy can
+ * validate requests from both callers uniformly.
+ */
+export function buildTCGTrackingHeaders(): Record<string, string> {
+	const headers: Record<string, string> = {
+		Accept: 'application/json',
+	}
+
+	const userAgent = process.env.USER_AGENT
+	if (userAgent) {
+		headers['User-Agent'] = userAgent
+	}
+
+	const apiKey = process.env.TCGPLAYER_PROXY_API_KEY
+	if (apiKey) {
+		headers.Authorization = `bearer ${apiKey}`
+	}
+
+	return headers
+}
+
 
 /**
  * TCGTracking category IDs.
@@ -34,17 +66,48 @@ export interface TCGTrackingVariantPrice {
 	market?: number
 }
 
+export interface TCGTrackingCardTraderEntry {
+	id: number
+	product_type: string
+}
+
+export interface TCGTrackingSetProduct {
+	id: number
+	name: string
+	number: string | null
+	cardtrader_id: number | null
+	cardtrader: TCGTrackingCardTraderEntry[] | null
+}
+
+export interface TCGTrackingSetProductsResponse {
+	set_id: number
+	set_name: string
+	products: TCGTrackingSetProduct[]
+}
+
+export async function fetchTCGTrackingSetProducts(
+	categoryId: TCGTrackingCategoryId,
+	tcgTrackingSetId: number,
+): Promise<TCGTrackingSetProductsResponse> {
+	const url = `${buildTCGTrackingBaseUrl()}/${categoryId}/sets/${tcgTrackingSetId}`
+	const response = await fetch(url, { headers: buildTCGTrackingHeaders() })
+
+	if (!response.ok) {
+		throw new Error(
+			`TCGTracking products fetch failed for category ${categoryId}, set ${tcgTrackingSetId}: ${response.status} ${response.statusText}`,
+		)
+	}
+
+	return response.json()
+}
+
 export async function fetchTCGTrackingSetPricing(
 	categoryId: TCGTrackingCategoryId,
 	tcgTrackingSetId: number,
 ): Promise<TCGTrackingRawPricingResponse> {
-	const url = `${TCGTRACKING_API_BASE_URL}/${categoryId}/sets/${tcgTrackingSetId}/pricing`
+	const url = `${buildTCGTrackingBaseUrl()}/${categoryId}/sets/${tcgTrackingSetId}/pricing`
 
-	const response = await fetch(url, {
-		headers: {
-			Accept: 'application/json',
-		},
-	})
+	const response = await fetch(url, { headers: buildTCGTrackingHeaders() })
 
 	if (!response.ok) {
 		throw new Error(
