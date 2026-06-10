@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
+	},
+
 	thirdParty: {
 		cardmarket: 299418,
 		tcgplayer: 138281

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 279995,
 		tcgplayer: 83751

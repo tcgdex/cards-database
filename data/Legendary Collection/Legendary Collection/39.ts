@@ -62,6 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
+	},
 
 	thirdParty: {
 		cardmarket: 274804,

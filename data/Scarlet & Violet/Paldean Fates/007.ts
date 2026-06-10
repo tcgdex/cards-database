@@ -64,9 +64,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751533,
+				tcgplayer: 534142,
+				cardtrader: 274191
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 833339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751533,
+				tcgplayer: 534142,
+				cardtrader: 274191
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
@@ -74,9 +96,6 @@ const card: Card = {
 		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 
-	thirdParty: {
-		cardmarket: 751533
-	}
 }
 
 export default card

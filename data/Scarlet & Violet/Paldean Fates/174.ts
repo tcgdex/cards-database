@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751713,
+				tcgplayer: 534753,
+				cardtrader: 274359
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",
 	},
 
-	thirdParty: {
-		cardmarket: 751713
-	}
 }
 
 export default card

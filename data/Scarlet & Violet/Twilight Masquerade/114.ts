@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Once it's caught the scent of faraway prey, the leader gives a signal, and the whole pack moves out.",
+	},
 
 	variants: [
 		{

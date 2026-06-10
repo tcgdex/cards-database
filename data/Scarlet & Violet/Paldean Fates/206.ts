@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751745,
+				tcgplayer: 535203,
+				cardtrader: 274391
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 751745
-	}
 }
 
 export default card

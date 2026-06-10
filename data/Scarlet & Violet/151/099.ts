@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Its oversized claw is very powerful, but when it's not in battle, the claw just gets in the way.",
+	},
 
 	variants: [
 		{

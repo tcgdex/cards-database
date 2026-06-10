@@ -74,9 +74,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751612,
+				tcgplayer: 534436,
+				cardtrader: 274258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751612,
+				tcgplayer: 534436,
+				cardtrader: 274258
+			}
+		},
+	],
 
 	illustrator: "KIYOTAKA OSHIYAMA",
 
@@ -84,9 +99,6 @@ const card: Card = {
 		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
 	},
 
-	thirdParty: {
-		cardmarket: 751612
-	}
 }
 
 export default card

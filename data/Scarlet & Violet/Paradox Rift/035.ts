@@ -42,8 +42,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+	},
 
 	variants: [
 		{

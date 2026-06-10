@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+	},
 
 	variants: [
 		{

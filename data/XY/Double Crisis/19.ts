@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon is loyal to its master. It will protect its partner to the end, no matter what.",
+	},
+
 	thirdParty: {
 		cardmarket: 282530,
 		tcgplayer: 97065

@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751656,
+				tcgplayer: 534507,
+				cardtrader: 274301
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
 	},
 
-	thirdParty: {
-		cardmarket: 751656
-	}
 }
 
 export default card

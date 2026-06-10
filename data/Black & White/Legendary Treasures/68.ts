@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 281219,
 		tcgplayer: 85618

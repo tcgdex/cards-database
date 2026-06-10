@@ -57,9 +57,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751598,
+				tcgplayer: 534422,
+				cardtrader: 274244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751598,
+				tcgplayer: 534422,
+				cardtrader: 274244
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
@@ -67,9 +82,6 @@ const card: Card = {
 		en: "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
 	},
 
-	thirdParty: {
-		cardmarket: 751598
-	}
 }
 
 export default card

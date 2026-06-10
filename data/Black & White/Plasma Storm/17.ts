@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It uses unique fighting moves with fire on its hand and feet. It will take on any opponent.",
+	},
+
 	thirdParty: {
 		cardmarket: 280757,
 		tcgplayer: 86278

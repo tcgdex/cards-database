@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+	},
 
 	variants: [
 		{

@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751700,
+				tcgplayer: 534685,
+				cardtrader: 274346
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
 	},
 
-	thirdParty: {
-		cardmarket: 751700
-	}
 }
 
 export default card

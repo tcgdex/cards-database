@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its milk is high in calories and packed with nutrients. Therefore, if you drink too much of it, you may wind up with a body like Miltank's.",
+	},
+
 	thirdParty: {
 		cardmarket: 311925,
 		tcgplayer: 149104

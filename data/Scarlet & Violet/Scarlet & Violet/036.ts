@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
+
+	description: {
+		en: "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco's head and flickers to and fro.",
+	},
 
 	thirdParty: {
         cardmarket: 689764,

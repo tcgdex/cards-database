@@ -50,6 +50,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "This legendary Pokémon is said to be present wherever there is a lightning storm.",

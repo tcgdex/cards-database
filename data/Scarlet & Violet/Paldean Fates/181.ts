@@ -81,10 +81,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751720,
+				tcgplayer: 535097,
+				cardtrader: 274366
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
@@ -92,9 +98,6 @@ const card: Card = {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
 	},
 
-	thirdParty: {
-		cardmarket: 751720
-	}
 }
 
 export default card

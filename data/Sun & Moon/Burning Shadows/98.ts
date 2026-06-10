@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.",
+	},
+
 	thirdParty: {
 		cardmarket: 299499,
 		tcgplayer: 138592

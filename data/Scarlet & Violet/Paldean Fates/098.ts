@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751637,
+				tcgplayer: 534469,
+				cardtrader: 274282
+			}
+		},
+	],
 
 	illustrator: "Lee HyunJung",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "Jumpluff travels on seasonal winds. Once its cotton spores run out, its journey ends, as does its life.",
 	},
 
-	thirdParty: {
-		cardmarket: 751637
-	}
 }
 
 export default card

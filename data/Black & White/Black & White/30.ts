@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
+	},
+
 	thirdParty: {
 		cardmarket: 279767,
 		tcgplayer: 84794

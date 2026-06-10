@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It swims along with its mouth open and swallows down seawater along with its food. It sprays excess water out of its nostrils.",
+	},
+
 	thirdParty: {
 		cardmarket: 407874,
 		tcgplayer: 201221

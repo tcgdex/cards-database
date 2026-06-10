@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+	},
 
 	variants: [
 		{

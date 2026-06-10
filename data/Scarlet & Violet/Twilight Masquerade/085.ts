@@ -55,8 +55,24 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+	},
 
 	variants: [
 		{

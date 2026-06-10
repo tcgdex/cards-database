@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a trail.",
+	},
+
 	thirdParty: {
 		cardmarket: 280549,
 		tcgplayer: 83944

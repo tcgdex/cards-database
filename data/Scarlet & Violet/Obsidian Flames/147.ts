@@ -43,8 +43,24 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
+	},
 
 	variants: [
 		{

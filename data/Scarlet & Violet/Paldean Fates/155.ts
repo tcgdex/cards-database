@@ -72,10 +72,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751694,
+				tcgplayer: 534662,
+				cardtrader: 274340
+			}
+		},
+	],
 
 	illustrator: "Kyoko Umemoto",
 
@@ -83,9 +89,6 @@ const card: Card = {
 		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
 	},
 
-	thirdParty: {
-		cardmarket: 751694
-	}
 }
 
 export default card

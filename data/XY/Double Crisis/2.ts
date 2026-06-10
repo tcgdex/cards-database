@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Camerupt, with its strength against fire, played a big role in rescuing team members.",
+	},
+
 	thirdParty: {
 		cardmarket: 282513,
 		tcgplayer: 97048

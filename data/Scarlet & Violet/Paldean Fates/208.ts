@@ -81,10 +81,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751747,
+				tcgplayer: 535955,
+				cardtrader: 274393
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
@@ -92,9 +98,6 @@ const card: Card = {
 		en: "This Pokémon sends a flowerlike scent wafting about. Well-developed muscles in its legs allow it to leap more than 16 feet with no trouble at all.",
 	},
 
-	thirdParty: {
-		cardmarket: 751747
-	}
 }
 
 export default card

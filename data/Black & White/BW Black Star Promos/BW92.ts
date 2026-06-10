@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+	},
 }
 
 export default card

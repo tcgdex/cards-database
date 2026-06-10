@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751670,
+				tcgplayer: 534522,
+				cardtrader: 274315
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "﻿When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
 
-	thirdParty: {
-		cardmarket: 751670
-	}
 }
 
 export default card

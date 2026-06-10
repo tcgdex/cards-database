@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "On nights with many shooting stars, they gather in packs and dance in circles. If you should see them, something good will happen!",
+	},
+
 	thirdParty: {
 		cardmarket: 372211,
 		tcgplayer: 189229

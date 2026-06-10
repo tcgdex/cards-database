@@ -53,10 +53,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751672,
+				tcgplayer: 534525,
+				cardtrader: 274316
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
@@ -64,9 +70,6 @@ const card: Card = {
 		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
 	},
 
-	thirdParty: {
-		cardmarket: 751672
-	}
 }
 
 export default card

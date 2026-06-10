@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",

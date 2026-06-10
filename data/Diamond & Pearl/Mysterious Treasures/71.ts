@@ -59,6 +59,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",

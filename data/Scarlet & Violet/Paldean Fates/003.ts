@@ -73,9 +73,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751529,
+				tcgplayer: 534136,
+				cardtrader: 274187
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751529,
+				tcgplayer: 534136,
+				cardtrader: 274187
+			}
+		},
+	],
 
 	illustrator: "Masako Tomii",
 
@@ -83,9 +98,6 @@ const card: Card = {
 		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
 	},
 
-	thirdParty: {
-		cardmarket: 751529
-	}
 }
 
 export default card

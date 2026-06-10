@@ -76,6 +76,8 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",

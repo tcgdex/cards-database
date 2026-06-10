@@ -82,7 +82,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+	},
 }
 
 export default card

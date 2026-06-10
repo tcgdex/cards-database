@@ -47,6 +47,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.",
+	},
+
 	thirdParty: {
 		cardmarket: 281206,
 		tcgplayer: 87688

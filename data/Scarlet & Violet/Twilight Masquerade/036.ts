@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
+	},
 
 	variants: [
 		{

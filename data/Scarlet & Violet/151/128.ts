@@ -64,8 +64,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+	},
 
 	variants: [
 		{

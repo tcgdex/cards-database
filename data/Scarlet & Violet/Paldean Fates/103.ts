@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751642,
+				tcgplayer: 534475,
+				cardtrader: 274287
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
 	},
 
-	thirdParty: {
-		cardmarket: 751642
-	}
 }
 
 export default card

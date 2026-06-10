@@ -58,6 +58,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A popular Pokémon that earns money for its owner with its \"Pay Day\" ability.",

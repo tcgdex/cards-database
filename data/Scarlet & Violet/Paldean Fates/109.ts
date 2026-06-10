@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751648,
+				tcgplayer: 534483,
+				cardtrader: 274293
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
 	},
 
-	thirdParty: {
-		cardmarket: 751648
-	}
 }
 
 export default card

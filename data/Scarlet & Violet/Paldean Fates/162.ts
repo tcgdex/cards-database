@@ -89,10 +89,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751701,
+				tcgplayer: 534687,
+				cardtrader: 274347
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
@@ -100,9 +106,6 @@ const card: Card = {
 		en: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
 	},
 
-	thirdParty: {
-		cardmarket: 751701
-	}
 }
 
 export default card

@@ -62,6 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+	},
 
 	thirdParty: {
 		cardmarket: 274809,

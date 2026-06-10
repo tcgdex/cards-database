@@ -61,9 +61,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751583,
+				tcgplayer: 534194,
+				cardtrader: 274230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751583,
+				tcgplayer: 534194,
+				cardtrader: 274230
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
@@ -71,9 +86,6 @@ const card: Card = {
 		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
 	},
 
-	thirdParty: {
-		cardmarket: 751583
-	}
 }
 
 export default card

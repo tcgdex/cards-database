@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+	},
+
 	thirdParty: {
 		cardmarket: 281708,
 		tcgplayer: 92221

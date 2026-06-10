@@ -63,6 +63,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "As is fitting for a legendary Pokémon, it has many strange powers, including the ability to make rain or snow fall.",
+	},
 
 	thirdParty: {
 		cardmarket: 274803,

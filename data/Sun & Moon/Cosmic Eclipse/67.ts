@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
+	},
+
 	thirdParty: {
 		cardmarket: 407984,
 		tcgplayer: 201983

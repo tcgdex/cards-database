@@ -80,10 +80,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751691,
+				tcgplayer: 534646,
+				cardtrader: 274337
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
@@ -91,9 +97,6 @@ const card: Card = {
 		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
 	},
 
-	thirdParty: {
-		cardmarket: 751691
-	}
 }
 
 export default card

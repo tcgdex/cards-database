@@ -78,10 +78,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751695,
+				tcgplayer: 534670,
+				cardtrader: 274341
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
@@ -89,9 +95,6 @@ const card: Card = {
 		en: "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
 	},
 
-	thirdParty: {
-		cardmarket: 751695
-	}
 }
 
 export default card

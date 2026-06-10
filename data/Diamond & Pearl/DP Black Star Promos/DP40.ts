@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
 		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",

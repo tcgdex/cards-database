@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+	},
+
 	thirdParty: {
 		cardmarket: 281520,
 		tcgplayer: 91170

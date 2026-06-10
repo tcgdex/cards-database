@@ -66,8 +66,18 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+	},
 
 	variants: [
 		{

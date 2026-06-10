@@ -81,10 +81,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751697,
+				tcgplayer: 534680,
+				cardtrader: 274343
+			}
+		},
+	],
 
 	illustrator: "MAHOU",
 
@@ -92,9 +98,6 @@ const card: Card = {
 		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
 	},
 
-	thirdParty: {
-		cardmarket: 751697
-	}
 }
 
 export default card

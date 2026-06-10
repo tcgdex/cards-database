@@ -68,6 +68,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
+	description: {
+		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+	},
+
 	variants: [
 		{
 			type: 'normal',

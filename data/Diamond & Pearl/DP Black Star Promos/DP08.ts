@@ -83,6 +83,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",

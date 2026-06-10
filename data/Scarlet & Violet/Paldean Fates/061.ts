@@ -74,9 +74,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751599,
+				tcgplayer: 534423,
+				cardtrader: 274245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751599,
+				tcgplayer: 534423,
+				cardtrader: 274245
+			}
+		},
+	],
 
 	illustrator: "Mousho",
 
@@ -84,9 +99,6 @@ const card: Card = {
 		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
 	},
 
-	thirdParty: {
-		cardmarket: 751599
-	}
 }
 
 export default card

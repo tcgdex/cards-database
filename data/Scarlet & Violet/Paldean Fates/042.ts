@@ -59,9 +59,31 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751579,
+				tcgplayer: 534188,
+				cardtrader: 274226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751579,
+				tcgplayer: 534188,
+				cardtrader: 274226
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794906
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
@@ -69,9 +91,6 @@ const card: Card = {
 		en: "This friendly Pokémon doesn't like being alone. Pay it even the slightest bit of attention, and it will follow you forever.",
 	},
 
-	thirdParty: {
-		cardmarket: 751579
-	}
 }
 
 export default card

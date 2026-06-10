@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
+	},
+
 	thirdParty: {
 		cardmarket: 295386,
 		tcgplayer: 126947

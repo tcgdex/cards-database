@@ -59,6 +59,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave.",
+	},
 
 	thirdParty: {
 		cardmarket: 274845,

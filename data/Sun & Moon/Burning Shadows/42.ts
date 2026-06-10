@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Half of all sudden blackouts are caused by Electabuzz gathering at electric power plants and gobbling up electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 299446,
 		tcgplayer: 138524

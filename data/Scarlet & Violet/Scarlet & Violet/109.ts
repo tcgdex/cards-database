@@ -86,6 +86,10 @@ const card: Card = {
 		normal: false
 	},
 
+	description: {
+		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+	},
+
 	thirdParty: {
         cardmarket: 702405,
         tcgplayer: 486617

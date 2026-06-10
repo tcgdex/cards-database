@@ -53,9 +53,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751530,
+				tcgplayer: 534137,
+				cardtrader: 274188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751530,
+				tcgplayer: 534137,
+				cardtrader: 274188
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
@@ -63,9 +78,6 @@ const card: Card = {
 		en: "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
 	},
 
-	thirdParty: {
-		cardmarket: 751530
-	}
 }
 
 export default card

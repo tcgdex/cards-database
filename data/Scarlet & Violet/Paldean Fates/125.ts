@@ -66,10 +66,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751664,
+				tcgplayer: 534516,
+				cardtrader: 274309
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
@@ -77,9 +83,6 @@ const card: Card = {
 		en: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
 	},
 
-	thirdParty: {
-		cardmarket: 751664
-	}
 }
 
 export default card

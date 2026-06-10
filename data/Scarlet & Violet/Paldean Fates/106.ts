@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751645,
+				tcgplayer: 534479,
+				cardtrader: 274290
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
 	},
 
-	thirdParty: {
-		cardmarket: 751645
-	}
 }
 
 export default card

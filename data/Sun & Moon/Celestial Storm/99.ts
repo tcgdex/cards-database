@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
+	},
+
 	thirdParty: {
 		cardmarket: 361341,
 		tcgplayer: 170924

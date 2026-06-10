@@ -80,10 +80,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751693,
+				tcgplayer: 534659,
+				cardtrader: 274339
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
@@ -91,9 +97,6 @@ const card: Card = {
 		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
 	},
 
-	thirdParty: {
-		cardmarket: 751693
-	}
 }
 
 export default card

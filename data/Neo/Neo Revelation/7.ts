@@ -98,6 +98,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven colored wings.",

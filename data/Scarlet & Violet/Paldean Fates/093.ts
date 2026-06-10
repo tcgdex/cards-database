@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751632,
+				tcgplayer: 534460,
+				cardtrader: 274277
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
 	},
 
-	thirdParty: {
-		cardmarket: 751632
-	}
 }
 
 export default card

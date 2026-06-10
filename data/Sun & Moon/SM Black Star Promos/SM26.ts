@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its long, striking legs aren't just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+	},
 }
 
 export default card

@@ -44,9 +44,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751540,
+				tcgplayer: 534155,
+				cardtrader: 274198
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751540,
+				tcgplayer: 534155,
+				cardtrader: 274198
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
@@ -54,9 +69,6 @@ const card: Card = {
 		en: "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
 	},
 
-	thirdParty: {
-		cardmarket: 751540
-	}
 }
 
 export default card

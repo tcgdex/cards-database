@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It likes the shovel on its head, so Sandygast will get serious and fight any children who come to take it back.",
+	},
+
 	thirdParty: {
 		cardmarket: 408279,
 		tcgplayer: 201166

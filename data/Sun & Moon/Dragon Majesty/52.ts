@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They live in mountains where no trace of humans can be detected. Jangmo-o grow little by little as they battle one another.",
+	},
+
 	thirdParty: {
 		cardmarket: 363523,
 		tcgplayer: 175482

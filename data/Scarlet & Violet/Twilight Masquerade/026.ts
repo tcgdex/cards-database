@@ -35,8 +35,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+	},
 
 	variants: [
 		{

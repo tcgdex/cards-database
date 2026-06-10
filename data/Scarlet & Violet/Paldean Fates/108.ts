@@ -53,10 +53,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751647,
+				tcgplayer: 534482,
+				cardtrader: 274292
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
@@ -64,9 +70,6 @@ const card: Card = {
 		en: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
 	},
 
-	thirdParty: {
-		cardmarket: 751647
-	}
 }
 
 export default card

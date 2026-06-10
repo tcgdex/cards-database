@@ -52,8 +52,24 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+	},
 
 	variants: [
 		{

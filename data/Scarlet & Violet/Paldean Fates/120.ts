@@ -73,10 +73,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751659,
+				tcgplayer: 534511,
+				cardtrader: 274304
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
@@ -84,9 +90,6 @@ const card: Card = {
 		en: "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
 	},
 
-	thirdParty: {
-		cardmarket: 751659
-	}
 }
 
 export default card

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+	},
+
 	thirdParty: {
 		cardmarket: 297480,
 		tcgplayer: 130762

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -52,6 +58,10 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
+
+	description: {
+		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+	},
 
 	thirdParty: {
         cardmarket: 702326,

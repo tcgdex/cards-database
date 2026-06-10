@@ -64,9 +64,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751611,
+				tcgplayer: 534435,
+				cardtrader: 274257
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751611,
+				tcgplayer: 534435,
+				cardtrader: 274257
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
@@ -74,9 +89,6 @@ const card: Card = {
 		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
 	},
 
-	thirdParty: {
-		cardmarket: 751611
-	}
 }
 
 export default card

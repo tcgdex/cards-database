@@ -70,9 +70,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751581,
+				tcgplayer: 534191,
+				cardtrader: 274228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751581,
+				tcgplayer: 534191,
+				cardtrader: 274228
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
@@ -80,9 +95,6 @@ const card: Card = {
 		en: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
 	},
 
-	thirdParty: {
-		cardmarket: 751581
-	}
 }
 
 export default card

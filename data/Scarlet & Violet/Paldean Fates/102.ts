@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751641,
+				tcgplayer: 534473,
+				cardtrader: 274286
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
 	},
 
-	thirdParty: {
-		cardmarket: 751641
-	}
 }
 
 export default card

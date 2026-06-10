@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751649,
+				tcgplayer: 534484,
+				cardtrader: 274294
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
 	},
 
-	thirdParty: {
-		cardmarket: 751649
-	}
 }
 
 export default card

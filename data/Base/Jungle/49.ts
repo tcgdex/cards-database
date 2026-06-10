@@ -63,6 +63,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",

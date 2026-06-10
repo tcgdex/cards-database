@@ -80,10 +80,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751730,
+				tcgplayer: 535149,
+				cardtrader: 274376
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
@@ -91,9 +97,6 @@ const card: Card = {
 		en: "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
 	},
 
-	thirdParty: {
-		cardmarket: 751730
-	}
 }
 
 export default card

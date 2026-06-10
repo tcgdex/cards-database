@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751722,
+				tcgplayer: 535118,
+				cardtrader: 274368
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
 	},
 
-	thirdParty: {
-		cardmarket: 751722
-	}
 }
 
 export default card

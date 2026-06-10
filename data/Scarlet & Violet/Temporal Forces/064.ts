@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+	},
 
 	variants: [
 		{

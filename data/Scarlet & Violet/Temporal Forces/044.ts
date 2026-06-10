@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Keldeo has strengthened its resolve for battle, filling its body with power and changing its form.",
+	},
 
 	variants: [
 		{

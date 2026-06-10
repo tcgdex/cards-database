@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cells are all magnetic, and it communicates with others by using magnetic pulses.",
+	},
+
 	thirdParty: {
 		cardmarket: 280928,
 		tcgplayer: 83793

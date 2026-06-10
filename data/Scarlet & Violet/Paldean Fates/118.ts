@@ -53,10 +53,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751657,
+				tcgplayer: 534508,
+				cardtrader: 274302
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
@@ -64,9 +70,6 @@ const card: Card = {
 		en: "Fish Pokémon nibble at it, but Staryu isn't bothered. Its body regenerates quickly, even if part of it is completely torn off.",
 	},
 
-	thirdParty: {
-		cardmarket: 751657
-	}
 }
 
 export default card

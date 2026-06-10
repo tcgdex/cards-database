@@ -75,10 +75,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751698,
+				tcgplayer: 534681,
+				cardtrader: 274344
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
@@ -86,9 +92,6 @@ const card: Card = {
 		en: "In the past, noble families entrusted their vault keys to a Klefki. They passed the Klefki down through the generations, taking good care of it.",
 	},
 
-	thirdParty: {
-		cardmarket: 751698
-	}
 }
 
 export default card

@@ -66,6 +66,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",

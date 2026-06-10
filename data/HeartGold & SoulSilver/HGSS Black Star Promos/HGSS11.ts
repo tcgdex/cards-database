@@ -60,6 +60,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+	},
 
 	variants: [
 		{

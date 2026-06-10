@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751710,
+				tcgplayer: 534733,
+				cardtrader: 274356
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
 	},
 
-	thirdParty: {
-		cardmarket: 751710
-	}
 }
 
 export default card

@@ -50,6 +50,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+	},
+
 	thirdParty: {
 		cardmarket: 288491,
 		tcgplayer: 113711

@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
+	},
 
 	variants: [
 		{

@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 368985,
 		tcgplayer: 183833

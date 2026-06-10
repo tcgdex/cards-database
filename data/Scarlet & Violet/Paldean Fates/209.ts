@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751748,
+				tcgplayer: 535214,
+				cardtrader: 274394
+			}
+		},
+	],
 
 	illustrator: "Lee HyunJung",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
 	},
 
-	thirdParty: {
-		cardmarket: 751748
-	}
 }
 
 export default card

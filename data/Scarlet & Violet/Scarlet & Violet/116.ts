@@ -76,6 +76,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+	},
+
 	thirdParty: {
         cardmarket: 702412,
         tcgplayer: 488005

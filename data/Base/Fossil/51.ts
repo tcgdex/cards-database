@@ -64,6 +64,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",

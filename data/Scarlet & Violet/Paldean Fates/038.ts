@@ -44,9 +44,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751575,
+				tcgplayer: 534184,
+				cardtrader: 274222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751575,
+				tcgplayer: 534184,
+				cardtrader: 274222
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794905
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
@@ -54,9 +76,6 @@ const card: Card = {
 		en: "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
 	},
 
-	thirdParty: {
-		cardmarket: 751575
-	}
 }
 
 export default card

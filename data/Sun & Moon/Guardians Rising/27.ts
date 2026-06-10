@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Each school has its own territory. Any intruders are mercilessly attacked with fangs bared.",
+	},
+
 	thirdParty: {
 		cardmarket: 297489,
 		tcgplayer: 130927

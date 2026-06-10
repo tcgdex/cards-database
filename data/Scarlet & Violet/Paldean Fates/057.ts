@@ -83,9 +83,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751595,
+				tcgplayer: 534419,
+				cardtrader: 274241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751595,
+				tcgplayer: 534419,
+				cardtrader: 274241
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
@@ -93,9 +108,6 @@ const card: Card = {
 		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
 	},
 
-	thirdParty: {
-		cardmarket: 751595
-	}
 }
 
 export default card

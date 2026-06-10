@@ -64,9 +64,24 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751537,
+				tcgplayer: 534152,
+				cardtrader: 274195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751537,
+				tcgplayer: 534152,
+				cardtrader: 274195
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
@@ -74,9 +89,6 @@ const card: Card = {
 		en: "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
 	},
 
-	thirdParty: {
-		cardmarket: 751537
-	}
 }
 
 export default card

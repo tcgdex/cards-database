@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its cell composition is similar to water molecules. As a result, it can melt away into water.",
+	},
+
 	thirdParty: {
 		cardmarket: 280353,
 		tcgplayer: 90288

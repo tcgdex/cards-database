@@ -55,10 +55,16 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751696,
+				tcgplayer: 534671,
+				cardtrader: 274342
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
@@ -66,9 +72,6 @@ const card: Card = {
 		en: "In an attempt to confuse its enemy, it mimics the enemy's movements. Then it wastes no time in making itself scarce!",
 	},
 
-	thirdParty: {
-		cardmarket: 751696
-	}
 }
 
 export default card

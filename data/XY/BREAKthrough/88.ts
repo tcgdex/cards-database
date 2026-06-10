@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Packs of them follow travelers through the desert until the travelers can no longer move.",
+	},
+
 	thirdParty: {
 		cardmarket: 286334,
 		tcgplayer: 107207

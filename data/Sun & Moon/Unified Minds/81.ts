@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "There's a rumor that if you catch a Drifblim floating on the wind at dusk, you'll be carried away to the afterlife.",
+	},
+
 	thirdParty: {
 		cardmarket: 388212,
 		tcgplayer: 195011

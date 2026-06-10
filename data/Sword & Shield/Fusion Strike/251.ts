@@ -20,6 +20,18 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "Naoki Saito",

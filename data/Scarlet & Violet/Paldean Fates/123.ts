@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751662,
+				tcgplayer: 534514,
+				cardtrader: 274307
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
 	},
 
-	thirdParty: {
-		cardmarket: 751662
-	}
 }
 
 export default card

@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
+	},
+
 	thirdParty: {
 		cardmarket: 407914,
 		tcgplayer: 201229

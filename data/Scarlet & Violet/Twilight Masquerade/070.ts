@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves.",
+	},
 
 	variants: [
 		{

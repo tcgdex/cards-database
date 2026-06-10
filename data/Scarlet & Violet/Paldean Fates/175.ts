@@ -66,10 +66,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751714,
+				tcgplayer: 534755,
+				cardtrader: 274360
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
@@ -77,9 +83,6 @@ const card: Card = {
 		en: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
 	},
 
-	thirdParty: {
-		cardmarket: 751714
-	}
 }
 
 export default card

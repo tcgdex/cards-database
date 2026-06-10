@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
+	},
 
 	variants: [
 		{

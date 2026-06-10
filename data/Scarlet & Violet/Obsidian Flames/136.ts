@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+	},
 
 	variants: [
 		{

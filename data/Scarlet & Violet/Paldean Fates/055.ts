@@ -64,9 +64,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751592,
+				tcgplayer: 534417,
+				cardtrader: 274239
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751592,
+				tcgplayer: 534417,
+				cardtrader: 274239
+			}
+		},
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 
@@ -74,9 +89,6 @@ const card: Card = {
 		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
 	},
 
-	thirdParty: {
-		cardmarket: 751592
-	}
 }
 
 export default card

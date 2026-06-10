@@ -55,6 +55,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
+	},
+
 	thirdParty: {
 		cardmarket: 608654,
 		tcgplayer: 263828

@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751654,
+				tcgplayer: 534497,
+				cardtrader: 274299
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
 	},
 
-	thirdParty: {
-		cardmarket: 751654
-	}
 }
 
 export default card

@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
+
+	description: {
+		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
+	},
 
 	variants: [
 		{

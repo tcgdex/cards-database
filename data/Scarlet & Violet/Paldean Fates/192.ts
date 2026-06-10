@@ -70,10 +70,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751731,
+				tcgplayer: 535151,
+				cardtrader: 274377
+			}
+		},
+	],
 
 	illustrator: "Masakazu Fukuda",
 
@@ -81,9 +87,6 @@ const card: Card = {
 		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
 	},
 
-	thirdParty: {
-		cardmarket: 751731
-	}
 }
 
 export default card

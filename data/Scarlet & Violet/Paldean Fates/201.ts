@@ -66,10 +66,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751740,
+				tcgplayer: 535191,
+				cardtrader: 274386
+			}
+		},
+	],
 
 	illustrator: "0313",
 
@@ -77,9 +83,6 @@ const card: Card = {
 		en: "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
 	},
 
-	thirdParty: {
-		cardmarket: 751740
-	}
 }
 
 export default card

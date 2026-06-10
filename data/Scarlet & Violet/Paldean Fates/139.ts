@@ -75,10 +75,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751678,
+				tcgplayer: 534540,
+				cardtrader: 274322
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
@@ -86,9 +92,6 @@ const card: Card = {
 		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
 	},
 
-	thirdParty: {
-		cardmarket: 751678
-	}
 }
 
 export default card

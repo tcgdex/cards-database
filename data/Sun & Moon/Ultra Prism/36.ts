@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
+	},
+
 	thirdParty: {
 		cardmarket: 315967,
 		tcgplayer: 157653

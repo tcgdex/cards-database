@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751646,
+				tcgplayer: 534481,
+				cardtrader: 274291
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
 	},
 
-	thirdParty: {
-		cardmarket: 751646
-	}
 }
 
 export default card

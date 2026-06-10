@@ -67,9 +67,24 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751580,
+				tcgplayer: 534190,
+				cardtrader: 274227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751580,
+				tcgplayer: 534190,
+				cardtrader: 274227
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
@@ -77,9 +92,6 @@ const card: Card = {
 		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
 	},
 
-	thirdParty: {
-		cardmarket: 751580
-	}
 }
 
 export default card

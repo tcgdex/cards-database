@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws.",
+	},
 
 	variants: [
 		{

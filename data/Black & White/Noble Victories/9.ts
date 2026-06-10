@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
+	},
+
 	thirdParty: {
 		cardmarket: 280132,
 		tcgplayer: 85537

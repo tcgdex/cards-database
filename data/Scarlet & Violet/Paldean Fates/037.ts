@@ -73,9 +73,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751574,
+				tcgplayer: 534183,
+				cardtrader: 274221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751574,
+				tcgplayer: 534183,
+				cardtrader: 274221
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
@@ -83,9 +98,6 @@ const card: Card = {
 		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
 	},
 
-	thirdParty: {
-		cardmarket: 751574
-	}
 }
 
 export default card

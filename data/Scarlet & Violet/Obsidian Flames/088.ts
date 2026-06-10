@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog.",
+	},
 
 	variants: [
 		{

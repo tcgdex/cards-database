@@ -74,9 +74,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751551,
+				tcgplayer: 534167,
+				cardtrader: 274205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751551,
+				tcgplayer: 534167,
+				cardtrader: 274205
+			}
+		},
+	],
 
 	illustrator: "aspara",
 
@@ -84,9 +99,6 @@ const card: Card = {
 		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
 	},
 
-	thirdParty: {
-		cardmarket: 751551
-	}
 }
 
 export default card

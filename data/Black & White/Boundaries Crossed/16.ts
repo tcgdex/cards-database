@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+	},
+
 	thirdParty: {
 		cardmarket: 280603,
 		tcgplayer: 87993

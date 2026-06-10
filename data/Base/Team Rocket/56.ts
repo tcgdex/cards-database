@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A carnivore that swallows its prey whole. Pidgeys and Spearows are its favorite food.",

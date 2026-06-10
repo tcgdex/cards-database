@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day.",
+	},
+
 	thirdParty: {
 		cardmarket: 361352,
 		tcgplayer: 170942

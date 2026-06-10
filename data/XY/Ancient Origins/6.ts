@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+	},
+
 	thirdParty: {
 		cardmarket: 284187,
 		tcgplayer: 101455

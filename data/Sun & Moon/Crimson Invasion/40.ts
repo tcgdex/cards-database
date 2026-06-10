@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It appears as if from nowhere—muttering incantations, placing curses, and giving people terrifying visions.",
+	},
+
 	thirdParty: {
 		cardmarket: 311890,
 		tcgplayer: 149063

@@ -55,8 +55,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+	},
 
 	variants: [
 		{

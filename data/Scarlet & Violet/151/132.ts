@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
+	},
 
 	variants: [
 		{

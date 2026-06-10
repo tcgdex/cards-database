@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 297528,
 		tcgplayer: 130977

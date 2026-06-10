@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751676,
+				tcgplayer: 534533,
+				cardtrader: 274320
+			}
+		},
+	],
 
 	illustrator: "kantaro",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "It can see clearly through walls to track down its prey and seek its lost young.",
 	},
 
-	thirdParty: {
-		cardmarket: 751676
-	}
 }
 
 export default card

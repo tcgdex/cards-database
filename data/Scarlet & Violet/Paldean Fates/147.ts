@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751686,
+				tcgplayer: 534616,
+				cardtrader: 274330
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
 	},
 
-	thirdParty: {
-		cardmarket: 751686
-	}
 }
 
 export default card

@@ -73,10 +73,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751666,
+				tcgplayer: 534518,
+				cardtrader: 274311
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
@@ -84,9 +90,6 @@ const card: Card = {
 		en: "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
 	},
 
-	thirdParty: {
-		cardmarket: 751666
-	}
 }
 
 export default card

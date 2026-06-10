@@ -74,10 +74,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751673,
+				tcgplayer: 534527,
+				cardtrader: 274317
+			}
+		},
+	],
 
 	illustrator: "Masakazu Fukuda",
 
@@ -85,9 +91,6 @@ const card: Card = {
 		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
 	},
 
-	thirdParty: {
-		cardmarket: 751673
-	}
 }
 
 export default card

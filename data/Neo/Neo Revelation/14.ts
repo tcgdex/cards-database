@@ -69,6 +69,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Said to be the reincarnation of north winds, it can instantly purify filthy, murky water.",

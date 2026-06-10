@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+	},
 
 	variants: [
 		{

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its howls can be heard over six miles away. It emits all sorts of noises from the ports on its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 280847,
 		tcgplayer: 85374

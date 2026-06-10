@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Born of an icicle, this Pokémon uses its frosty breath to make ice crystals, causing snow to fall.",
+	},
+
 	thirdParty: {
 		cardmarket: 297495,
 		tcgplayer: 130933

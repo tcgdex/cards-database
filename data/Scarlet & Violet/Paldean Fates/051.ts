@@ -53,9 +53,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751588,
+				tcgplayer: 534387,
+				cardtrader: 274235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751588,
+				tcgplayer: 534387,
+				cardtrader: 274235
+			}
+		},
+	],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
@@ -63,9 +78,6 @@ const card: Card = {
 		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old.",
 	},
 
-	thirdParty: {
-		cardmarket: 751588
-	}
 }
 
 export default card

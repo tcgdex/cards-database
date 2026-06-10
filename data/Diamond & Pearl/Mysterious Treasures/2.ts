@@ -74,6 +74,8 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its superb memory lets it recall everything it has experienced from birth. Its IQ exceeds 5,000.",

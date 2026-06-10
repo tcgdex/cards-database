@@ -69,6 +69,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It may drop out of the sky suddenly. If attacked by a Spearow, it violently shakes its leaves.",

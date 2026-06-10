@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+	},
+
 	thirdParty: {
 		cardmarket: 279811,
 		tcgplayer: 87150

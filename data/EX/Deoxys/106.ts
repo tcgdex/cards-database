@@ -3,9 +3,9 @@ import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Latios Star",
+		en: "Latios ☆",
 		fr: "Latios ☆",
-		de: "Latios *"
+		de: "Latios ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -36,9 +36,9 @@ const card: Card = {
 				de: "Miraculous Light"
 			},
 			effect: {
-				en: "Remove 1 damage counter and all Special Conditions from Latios Star.",
-				fr: "Retirez à Latios  1 marqueur de dégât et tous ses États Spéciaux.",
-				de: "Remove1 damage counter and all Special Conditiones from Latios*."
+				en: "Remove 1 damage counter and all Special Conditions from Latios ☆.",
+				fr: "Retirez à Latios ☆ 1 marqueur de dégât et tous ses États Spéciaux.",
+				de: "Remove 1 damage counter and all Special Conditiones from Latios ☆."
 			},
 			damage: 10,
 
@@ -55,9 +55,9 @@ const card: Card = {
 				de: "Shining Star"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Stage 2 Evolved Pokémon, discard all Energy cards attached to Latios Star and this attack does 50 damage plus 100 more damage.",
+				en: "If the Defending Pokémon is a Stage 2 Evolved Pokémon, discard all Energy cards attached to Latios ☆ and this attack does 50 damage plus 100 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon Évolué de niveau 2, défaussez toutes les cartes Énergie attachées à Latios ☆. Cette attaque inflige 50 dégâts plus 100 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is a Stage 2 Evolved Pokémon, discard all Energy cards attached to Latios* and this attack does 50 damage plus 100 more damage."
+				de: "If the Defending Pokémon is a Stage 2 Evolved Pokémon, discard all Energy cards attached to Latios ☆ and this attack does 50 damage plus 100 more damage."
 			},
 			damage: "50+",
 

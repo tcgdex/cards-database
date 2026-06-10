@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It reacts to anything that moves—flies right at it and bites it. Sometimes it injures itself, but it doesn't care too much.",
+	},
+
 	thirdParty: {
 		cardmarket: 388362,
 		tcgplayer: 195065

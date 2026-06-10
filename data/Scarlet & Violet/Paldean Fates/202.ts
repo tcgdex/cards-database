@@ -75,10 +75,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751741,
+				tcgplayer: 535193,
+				cardtrader: 274387
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
@@ -86,9 +92,6 @@ const card: Card = {
 		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
 	},
 
-	thirdParty: {
-		cardmarket: 751741
-	}
 }
 
 export default card

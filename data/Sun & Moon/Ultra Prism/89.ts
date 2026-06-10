@@ -111,6 +111,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This Pokémon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.",
+	},
+
 	thirdParty: {
 		cardmarket: 316016
 	}

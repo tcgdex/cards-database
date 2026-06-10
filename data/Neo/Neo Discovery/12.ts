@@ -80,6 +80,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",

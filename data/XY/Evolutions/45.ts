@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom.",
+	},
+
 	thirdParty: {
 		cardmarket: 293400,
 		tcgplayer: 124058

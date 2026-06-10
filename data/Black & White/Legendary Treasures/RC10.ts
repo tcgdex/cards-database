@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+	},
 
 	thirdParty: {
 		cardmarket: 281135

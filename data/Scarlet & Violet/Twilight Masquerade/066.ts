@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. Its fur glows when it's in trouble.",
+	},
 
 	variants: [
 		{

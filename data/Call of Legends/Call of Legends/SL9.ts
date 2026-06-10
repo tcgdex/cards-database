@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon that races across the land while barking a cry that sounds like crashing thunder.",
+	},
+
 	thirdParty: {
 		cardmarket: 279634
 	}

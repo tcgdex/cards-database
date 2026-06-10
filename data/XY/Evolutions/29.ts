@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is covered with a pure white fur. The colder the weather, the more active it becomes.",
+	},
+
 	thirdParty: {
 		cardmarket: 293386,
 		tcgplayer: 124042

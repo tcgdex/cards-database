@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",

@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's.",
+	},
 
 	variants: [
 		{

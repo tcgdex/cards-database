@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.",
+	},
+
 	thirdParty: {
 		cardmarket: 408404,
 		tcgplayer: 201646

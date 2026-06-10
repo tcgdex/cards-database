@@ -60,6 +60,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A sure sign spring is on its way is when the seed on this Pokémon's back flowers.",

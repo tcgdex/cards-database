@@ -53,9 +53,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751582,
+				tcgplayer: 534192,
+				cardtrader: 274229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751582,
+				tcgplayer: 534192,
+				cardtrader: 274229
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
@@ -63,9 +78,6 @@ const card: Card = {
 		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
 	},
 
-	thirdParty: {
-		cardmarket: 751582
-	}
 }
 
 export default card

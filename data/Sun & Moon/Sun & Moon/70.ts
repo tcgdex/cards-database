@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It explores caves in search of underground water. It's not comfortable around water, so this Pokémon takes great care in lapping it up.",
+	},
+
 	thirdParty: {
 		cardmarket: 295381,
 		tcgplayer: 126941

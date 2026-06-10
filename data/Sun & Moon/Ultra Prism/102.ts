@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its tongue is twice the length of its body. It can be moved like an arm for grabbing food and attacking.",
+	},
+
 	thirdParty: {
 		cardmarket: 316028,
 		tcgplayer: 157719

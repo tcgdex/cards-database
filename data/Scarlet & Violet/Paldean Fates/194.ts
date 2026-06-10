@@ -38,10 +38,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751733,
+				tcgplayer: 535155,
+				cardtrader: 274379
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
@@ -49,9 +55,6 @@ const card: Card = {
 		en: "This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.",
 	},
 
-	thirdParty: {
-		cardmarket: 751733
-	}
 }
 
 export default card

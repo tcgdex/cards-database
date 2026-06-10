@@ -81,9 +81,24 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751538,
+				tcgplayer: 534153,
+				cardtrader: 274196
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751538,
+				tcgplayer: 534153,
+				cardtrader: 274196
+			}
+		},
+	],
 
 	illustrator: "satoma",
 
@@ -91,9 +106,6 @@ const card: Card = {
 		en: "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
 	},
 
-	thirdParty: {
-		cardmarket: 751538
-	}
 }
 
 export default card

@@ -50,9 +50,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751560,
+				tcgplayer: 534173,
+				cardtrader: 274211
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751560,
+				tcgplayer: 534173,
+				cardtrader: 274211
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
@@ -60,9 +75,6 @@ const card: Card = {
 		en: "The horns on its head provide a strong power that enables it to sense people's emotions.",
 	},
 
-	thirdParty: {
-		cardmarket: 751560
-	}
 }
 
 export default card

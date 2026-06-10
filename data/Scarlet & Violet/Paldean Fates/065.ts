@@ -89,9 +89,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751603,
+				tcgplayer: 534427,
+				cardtrader: 274249
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751603,
+				tcgplayer: 534427,
+				cardtrader: 274249
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
@@ -99,9 +114,6 @@ const card: Card = {
 		en: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 751603
-	}
 }
 
 export default card

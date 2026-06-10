@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Its physical capabilities are no different than a Finizen's, but when its allies are in danger, it transforms and powers itself up.",
+	},
 
 	variants: [
 		{

@@ -44,10 +44,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751631,
+				tcgplayer: 534459,
+				cardtrader: 274276
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
@@ -55,9 +61,6 @@ const card: Card = {
 		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
 	},
 
-	thirdParty: {
-		cardmarket: 751631
-	}
 }
 
 export default card

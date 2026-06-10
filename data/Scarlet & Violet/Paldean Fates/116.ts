@@ -64,10 +64,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751655,
+				tcgplayer: 534504,
+				cardtrader: 274300
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
@@ -75,9 +81,6 @@ const card: Card = {
 		en: "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
 	},
 
-	thirdParty: {
-		cardmarket: 751655
-	}
 }
 
 export default card

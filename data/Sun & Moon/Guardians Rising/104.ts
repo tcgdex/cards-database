@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its two tail feathers are standing at attention, it is proof of good health. It soars elegantly in the sky.",
+	},
+
 	thirdParty: {
 		cardmarket: 297556,
 		tcgplayer: 131022

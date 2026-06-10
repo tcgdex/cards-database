@@ -59,9 +59,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751568,
+				tcgplayer: 534178,
+				cardtrader: 274216
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751568,
+				tcgplayer: 534178,
+				cardtrader: 274216
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
@@ -69,9 +84,6 @@ const card: Card = {
 		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 751568
-	}
 }
 
 export default card

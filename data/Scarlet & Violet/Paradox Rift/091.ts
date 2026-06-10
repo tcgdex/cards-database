@@ -42,8 +42,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
+	},
 
 	variants: [
 		{

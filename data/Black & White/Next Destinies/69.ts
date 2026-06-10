@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+	},
+
 	thirdParty: {
 		cardmarket: 280294,
 		tcgplayer: 89372

@@ -53,9 +53,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751539,
+				tcgplayer: 534154,
+				cardtrader: 274197
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751539,
+				tcgplayer: 534154,
+				cardtrader: 274197
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
@@ -63,9 +78,6 @@ const card: Card = {
 		en: "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
 	},
 
-	thirdParty: {
-		cardmarket: 751539
-	}
 }
 
 export default card

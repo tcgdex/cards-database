@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
+	},
 
 	variants: [
 		{

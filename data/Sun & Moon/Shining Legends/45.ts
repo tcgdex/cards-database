@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
+	},
+
 	thirdParty: {
 		cardmarket: 302183,
 		tcgplayer: 146702

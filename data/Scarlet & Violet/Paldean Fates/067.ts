@@ -87,9 +87,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751605,
+				tcgplayer: 534429,
+				cardtrader: 274251
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751605,
+				tcgplayer: 534429,
+				cardtrader: 274251
+			}
+		},
+	],
 
 	illustrator: "Mitsuhiro Arita",
 
@@ -97,9 +112,6 @@ const card: Card = {
 		en: "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
 	},
 
-	thirdParty: {
-		cardmarket: 751605
-	}
 }
 
 export default card

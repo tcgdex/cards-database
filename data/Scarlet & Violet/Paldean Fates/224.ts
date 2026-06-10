@@ -72,10 +72,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751771,
+				tcgplayer: 534731,
+				cardtrader: 274408
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
@@ -83,9 +89,6 @@ const card: Card = {
 		en: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
 	},
 
-	thirdParty: {
-		cardmarket: 751771
-	}
 }
 
 export default card

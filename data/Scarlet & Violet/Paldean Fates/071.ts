@@ -53,9 +53,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751609,
+				tcgplayer: 534433,
+				cardtrader: 274255
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751609,
+				tcgplayer: 534433,
+				cardtrader: 274255
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
@@ -63,9 +78,6 @@ const card: Card = {
 		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
 	},
 
-	thirdParty: {
-		cardmarket: 751609
-	}
 }
 
 export default card

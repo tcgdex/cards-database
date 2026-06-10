@@ -44,10 +44,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751638,
+				tcgplayer: 534470,
+				cardtrader: 274283
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
@@ -55,9 +61,6 @@ const card: Card = {
 		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 	},
 
-	thirdParty: {
-		cardmarket: 751527
-	}
 }
 
 export default card

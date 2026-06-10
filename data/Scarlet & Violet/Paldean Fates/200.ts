@@ -89,10 +89,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751739,
+				tcgplayer: 535185,
+				cardtrader: 274385
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
@@ -100,9 +106,6 @@ const card: Card = {
 		en: "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
 	},
 
-	thirdParty: {
-		cardmarket: 751739
-	}
 }
 
 export default card

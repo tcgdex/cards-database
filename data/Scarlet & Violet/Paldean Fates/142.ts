@@ -57,10 +57,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751681,
+				tcgplayer: 534577,
+				cardtrader: 274325
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
@@ -68,9 +74,6 @@ const card: Card = {
 		en: "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
 	},
 
-	thirdParty: {
-		cardmarket: 751681
-	}
 }
 
 export default card

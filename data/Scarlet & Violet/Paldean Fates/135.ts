@@ -53,10 +53,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751674,
+				tcgplayer: 534528,
+				cardtrader: 274318
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
@@ -64,9 +70,6 @@ const card: Card = {
 		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
 	},
 
-	thirdParty: {
-		cardmarket: 751674
-	}
 }
 
 export default card

@@ -84,6 +84,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "Aggressive and cruel, this Pokémon will ruthlessly torment enemies that are helpless in the dark.",
+	},
+
 	thirdParty: {
 		cardmarket: 682180,
 		tcgplayer: 451786

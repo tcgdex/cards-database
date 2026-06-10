@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+	},
 
 	variants: [
 		{

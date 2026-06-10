@@ -66,10 +66,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751712,
+				tcgplayer: 534749,
+				cardtrader: 274358
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
@@ -77,9 +83,6 @@ const card: Card = {
 		en: "They communicate with one another using their auras. They are able to run all through the night.",
 	},
 
-	thirdParty: {
-		cardmarket: 751712
-	}
 }
 
 export default card

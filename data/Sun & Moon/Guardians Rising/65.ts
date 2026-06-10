@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It unleashes megaton-level punches that send opponents flying clear over the horizon.",
+	},
+
 	thirdParty: {
 		cardmarket: 297526,
 		tcgplayer: 130975

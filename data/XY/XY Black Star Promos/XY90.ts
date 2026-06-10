@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It gathers things it likes and pushes them through its loop to teleport them to a secret place.",
+	},
+
 	thirdParty: {
 		cardmarket: 289790
 	}

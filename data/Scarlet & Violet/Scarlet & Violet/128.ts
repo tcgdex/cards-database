@@ -77,6 +77,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+	},
+
 	thirdParty: {
         cardmarket: 702423,
         tcgplayer: 488016

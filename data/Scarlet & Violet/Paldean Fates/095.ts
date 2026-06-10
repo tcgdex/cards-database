@@ -66,10 +66,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751634,
+				tcgplayer: 534463,
+				cardtrader: 274279
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
@@ -77,9 +83,6 @@ const card: Card = {
 		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
 	},
 
-	thirdParty: {
-		cardmarket: 751634
-	}
 }
 
 export default card

@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
+	},
 
 	variants: [
 		{

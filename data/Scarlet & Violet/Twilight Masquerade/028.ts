@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "It's said that in ancient times, when volcanoes were more active, there were many more Slugma than there are now.",
+	},
 
 	variants: [
 		{

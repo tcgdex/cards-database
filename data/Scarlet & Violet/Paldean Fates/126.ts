@@ -66,10 +66,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751665,
+				tcgplayer: 534517,
+				cardtrader: 274310
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
@@ -77,9 +83,6 @@ const card: Card = {
 		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
 	},
 
-	thirdParty: {
-		cardmarket: 751665
-	}
 }
 
 export default card

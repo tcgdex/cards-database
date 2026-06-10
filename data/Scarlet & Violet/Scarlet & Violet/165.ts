@@ -57,6 +57,18 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -65,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "Thanks to a behavior of theirs known as \"synchronizing,\" an entire flock of these Pokémon can attack simultaneously in perfect harmony.",
+	},
 
 	thirdParty: {
         cardmarket: 702461,

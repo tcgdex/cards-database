@@ -68,6 +68,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
+	},
 
 	thirdParty: {
 		cardmarket: 279664,

@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+	},
 
 	variants: [
 		{

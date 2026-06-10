@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 280774,
 		tcgplayer: 87149

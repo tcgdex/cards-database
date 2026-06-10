@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",

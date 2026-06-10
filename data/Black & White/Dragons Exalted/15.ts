@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+	},
+
 	thirdParty: {
 		cardmarket: 280453,
 		tcgplayer: 88832

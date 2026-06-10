@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751706,
+				tcgplayer: 534704,
+				cardtrader: 274352
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
 	},
 
-	thirdParty: {
-		cardmarket: 751706
-	}
 }
 
 export default card

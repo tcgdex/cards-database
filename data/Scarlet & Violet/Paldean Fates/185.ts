@@ -57,10 +57,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751724,
+				tcgplayer: 535126,
+				cardtrader: 274370
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
@@ -68,9 +74,6 @@ const card: Card = {
 		en: "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 751724
-	}
 }
 
 export default card

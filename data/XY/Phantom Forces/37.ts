@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a small heart and brain. Its stomach compromises most of its body, with enzymes to dissolve anything.",
+	},
+
 	thirdParty: {
 		cardmarket: 281843,
 		tcgplayer: 94235

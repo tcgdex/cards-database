@@ -89,6 +89,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Possessing a calm demeanor, this Pokémon was revered as a deity incarnate before it was identified as a regional variant of Ninetales.",
+	},
 }
 
 export default card

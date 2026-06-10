@@ -83,10 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751663,
+				tcgplayer: 534515,
+				cardtrader: 274308
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
@@ -94,9 +100,6 @@ const card: Card = {
 		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
 	},
 
-	thirdParty: {
-		cardmarket: 751663
-	}
 }
 
 export default card

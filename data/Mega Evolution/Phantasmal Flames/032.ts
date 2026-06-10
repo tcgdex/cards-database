@@ -63,21 +63,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Shimaris Yukichi",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857607,
-				tcgplayer: 662210
+				tcgplayer: 662210,
+				cardtrader: 356815
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857607,
-				tcgplayer: 662210
+				tcgplayer: 662210,
+				cardtrader: 356815
 			}
-		}
+		},
 	],
 }
 

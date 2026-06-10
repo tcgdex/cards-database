@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+	},
 
 	variants: [
 		{

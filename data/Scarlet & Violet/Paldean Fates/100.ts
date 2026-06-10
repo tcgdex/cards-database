@@ -44,10 +44,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751639,
+				tcgplayer: 534471,
+				cardtrader: 274284
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
@@ -55,9 +61,6 @@ const card: Card = {
 		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
 	},
 
-	thirdParty: {
-		cardmarket: 751639
-	}
 }
 
 export default card

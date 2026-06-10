@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It leaps at its prey with a courageous shout. Its scaly punches tear its opponents to shreds.",
+	},
+
 	thirdParty: {
 		cardmarket: 297553,
 		tcgplayer: 131015

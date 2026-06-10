@@ -59,9 +59,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751578,
+				tcgplayer: 534187,
+				cardtrader: 274225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751578,
+				tcgplayer: 534187,
+				cardtrader: 274225
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
@@ -69,9 +84,6 @@ const card: Card = {
 		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
 	},
 
-	thirdParty: {
-		cardmarket: 751578
-	}
 }
 
 export default card

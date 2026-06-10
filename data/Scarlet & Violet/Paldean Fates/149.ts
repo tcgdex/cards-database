@@ -67,10 +67,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751688,
+				tcgplayer: 534634,
+				cardtrader: 274332
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
@@ -78,9 +84,6 @@ const card: Card = {
 		en: "This Pokémon's telekinesis is immensely powerful. To prepare for evolution, Kadabra stores up psychic energy in the star on its forehead.",
 	},
 
-	thirdParty: {
-		cardmarket: 751688
-	}
 }
 
 export default card

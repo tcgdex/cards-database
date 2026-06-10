@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 280187,
 		tcgplayer: 84419

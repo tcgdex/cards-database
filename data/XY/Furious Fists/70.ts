@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+	},
+
 	thirdParty: {
 		cardmarket: 281733,
 		tcgplayer: 92248

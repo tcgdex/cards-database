@@ -50,10 +50,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751742,
+				tcgplayer: 535196,
+				cardtrader: 274388
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
@@ -61,9 +67,6 @@ const card: Card = {
 		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
 	},
 
-	thirdParty: {
-		cardmarket: 751742
-	}
 }
 
 export default card
