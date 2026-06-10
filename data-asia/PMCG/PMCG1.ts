@@ -12,7 +12,14 @@ const set: Set = {
 	cardCount: {
 		official: 102
 	},
-	releaseDate: '1996-10-20'
+	releaseDate: '1996-10-20',
+
+	related: [
+		{
+			type: "translation",
+			setPath: "data/Base/Base Set.ts"
+		}
+	]
 }
 
 export default set
