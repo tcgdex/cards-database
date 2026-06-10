@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -89,7 +95,9 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "Toshinao Aoki",
 
-	
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	},
 }
 
 export default card

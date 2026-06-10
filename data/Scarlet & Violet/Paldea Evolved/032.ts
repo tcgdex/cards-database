@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -96,7 +102,9 @@ const card: Card = {
 
 	illustrator: "Uta",
 
-	
+	description: {
+		en: "The females of a pride work together to bring down prey. It's thanks to them that their pride doesn't starve.",
+	},
 }
 
 export default card

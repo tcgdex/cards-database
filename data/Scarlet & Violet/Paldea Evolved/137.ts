@@ -57,6 +57,12 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -81,7 +87,9 @@ const card: Card = {
 
 	illustrator: "Nisota Niso",
 
-	
+	description: {
+		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+	},
 }
 
 export default card

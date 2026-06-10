@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "Pani Kobayashi",
 
-	
+	description: {
+		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+	},
 }
 
 export default card

@@ -56,6 +56,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -72,7 +78,9 @@ const card: Card = {
 
 	illustrator: "kantaro",
 
-	
+	description: {
+		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
+	},
 }
 
 export default card

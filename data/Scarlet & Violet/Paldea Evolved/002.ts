@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -98,7 +104,9 @@ const card: Card = {
 
 	illustrator: "Yoriyuki Ikegami",
 
-	
+	description: {
+		en: "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head.",
+	},
 }
 
 export default card

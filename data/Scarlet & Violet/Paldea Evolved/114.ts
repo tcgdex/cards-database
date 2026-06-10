@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "kawayoo",
 
-	
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+	},
 }
 
 export default card

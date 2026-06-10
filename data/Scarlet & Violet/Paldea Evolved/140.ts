@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -96,7 +102,9 @@ const card: Card = {
 
 	illustrator: "Teeziro",
 
-	
+	description: {
+		en: "Only the central head has a brain. It is very intelligent, but it thinks only of destruction.",
+	},
 }
 
 export default card

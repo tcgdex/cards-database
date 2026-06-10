@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -79,7 +85,9 @@ const card: Card = {
 
 	illustrator: "Mizue",
 
-	
+	description: {
+		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+	},
 }
 
 export default card

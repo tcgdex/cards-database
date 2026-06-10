@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -73,7 +79,9 @@ const card: Card = {
 
 	illustrator: "Kurata So",
 
-	
+	description: {
+		en: "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
+	},
 }
 
 export default card

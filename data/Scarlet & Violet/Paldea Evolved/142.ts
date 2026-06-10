@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -72,7 +78,9 @@ const card: Card = {
 
 	illustrator: "Shibuzoh.",
 
-	
+	description: {
+		en: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+	},
 }
 
 export default card

@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -81,7 +87,9 @@ const card: Card = {
 
 	illustrator: "kirisAki",
 
-	
+	description: {
+		en: "Though very small, the brain in its tail is still considered an important organ because it emits powerful psychic energy.",
+	},
 }
 
 export default card

@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
@@ -89,7 +101,9 @@ const card: Card = {
 
 	illustrator: "Pani Kobayashi",
 
-	
+	description: {
+		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+	},
 }
 
 export default card

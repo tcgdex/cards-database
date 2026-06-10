@@ -35,6 +35,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -59,7 +71,9 @@ const card: Card = {
 
 	illustrator: "Oswaldo KATO",
 
-	
+	description: {
+		en: "Using the pointy tip of its trunk, it carves off chunks of hard rocks to eat. It is very docile and helps people with physical labor.",
+	},
 }
 
 export default card

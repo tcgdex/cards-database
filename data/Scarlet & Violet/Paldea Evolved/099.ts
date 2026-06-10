@@ -72,6 +72,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -96,7 +108,9 @@ const card: Card = {
 
 	illustrator: "Oswaldo KATO",
 
-	
+	description: {
+		en: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+	},
 }
 
 export default card

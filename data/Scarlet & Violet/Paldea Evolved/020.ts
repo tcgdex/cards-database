@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "Sekio",
 
-	
+	description: {
+		en: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+	},
 }
 
 export default card

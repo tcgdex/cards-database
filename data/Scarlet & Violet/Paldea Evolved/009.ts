@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -98,7 +104,9 @@ const card: Card = {
 
 	illustrator: "Megumi Higuchi",
 
-	
+	description: {
+		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+	},
 }
 
 export default card

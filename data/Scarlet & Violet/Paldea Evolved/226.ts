@@ -63,6 +63,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -79,7 +85,9 @@ const card: Card = {
 
 	illustrator: "Mizue",
 
-	
+	description: {
+		en: "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
+	},
 }
 
 export default card

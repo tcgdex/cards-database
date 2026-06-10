@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "Narumi Sato",
 
-	
+	description: {
+		en: "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you.",
+	},
 }
 
 export default card

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "saino misaki",
 
-	
+	description: {
+		en: "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+	},
 }
 
 export default card

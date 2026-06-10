@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -82,7 +88,9 @@ const card: Card = {
 
 	illustrator: "Anesaki Dynamic",
 
-	
+	description: {
+		en: "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.",
+	},
 }
 
 export default card

@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,7 +78,9 @@ const card: Card = {
 
 	illustrator: "Saya Tsuruta",
 
-	
+	description: {
+		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+	},
 }
 
 export default card

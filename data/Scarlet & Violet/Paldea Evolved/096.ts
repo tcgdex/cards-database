@@ -65,6 +65,18 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
@@ -89,7 +101,9 @@ const card: Card = {
 
 	illustrator: "HYOGONOSUKE",
 
-	
+	description: {
+		en: "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
+	},
 }
 
 export default card

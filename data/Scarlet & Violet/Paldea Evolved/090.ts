@@ -57,6 +57,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -81,7 +93,9 @@ const card: Card = {
 
 	illustrator: "0313",
 
-	
+	description: {
+		en: "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
+	},
 }
 
 export default card

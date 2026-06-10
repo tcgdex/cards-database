@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "Jerky",
 
-	
+	description: {
+		en: "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
+	},
 }
 
 export default card

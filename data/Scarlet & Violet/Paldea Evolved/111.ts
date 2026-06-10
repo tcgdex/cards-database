@@ -43,6 +43,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -74,7 +80,9 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 
-	
+	description: {
+		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+	},
 }
 
 export default card

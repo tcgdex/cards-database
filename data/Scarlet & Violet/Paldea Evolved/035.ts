@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -79,7 +85,9 @@ const card: Card = {
 
 	illustrator: "ryoma uratsuka",
 
-	
+	description: {
+		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+	},
 }
 
 export default card

@@ -52,6 +52,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +80,9 @@ const card: Card = {
 
 	illustrator: "Atsushi Furusawa",
 
-	
+	description: {
+		en: "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
+	},
 }
 
 export default card

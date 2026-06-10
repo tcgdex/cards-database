@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -79,7 +85,9 @@ const card: Card = {
 
 	illustrator: "Nagomi Nijo",
 
-	
+	description: {
+		en: "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+	},
 }
 
 export default card

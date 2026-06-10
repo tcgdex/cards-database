@@ -74,6 +74,18 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -98,7 +110,9 @@ const card: Card = {
 
 	illustrator: "Scav",
 
-	
+	description: {
+		en: "Corviknight can't serve as a taxi service in Paldea because the Pokémon's natural predators will attack it while it flies, endangering the customer.",
+	},
 }
 
 export default card

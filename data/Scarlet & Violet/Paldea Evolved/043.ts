@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
@@ -105,7 +111,9 @@ const card: Card = {
 
 	illustrator: "Yuya Oka",
 
-	
+	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+	},
 }
 
 export default card

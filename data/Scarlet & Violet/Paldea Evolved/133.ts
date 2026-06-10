@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -59,7 +65,9 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 
-	
+	description: {
+		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
+	},
 }
 
 export default card

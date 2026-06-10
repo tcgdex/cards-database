@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -90,7 +96,9 @@ const card: Card = {
 
 	illustrator: "AKIRA EGAWA",
 
-	
+	description: {
+		en: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
+	},
 }
 
 export default card

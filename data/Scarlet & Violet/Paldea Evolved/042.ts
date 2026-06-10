@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,9 @@ const card: Card = {
 
 	illustrator: "HYOGONOSUKE",
 
-	
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+	},
 }
 
 export default card

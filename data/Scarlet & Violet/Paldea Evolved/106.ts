@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,7 +78,9 @@ const card: Card = {
 
 	illustrator: "kurumitsu",
 
-	
+	description: {
+		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+	},
 }
 
 export default card

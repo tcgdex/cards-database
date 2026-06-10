@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,7 +78,9 @@ const card: Card = {
 
 	illustrator: "Sekio",
 
-	
+	description: {
+		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+	},
 }
 
 export default card

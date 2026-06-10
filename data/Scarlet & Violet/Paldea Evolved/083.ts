@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -79,7 +85,9 @@ const card: Card = {
 
 	illustrator: "Yuu Nishida",
 
-	
+	description: {
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+	},
 }
 
 export default card

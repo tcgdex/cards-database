@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -89,7 +95,9 @@ const card: Card = {
 
 	illustrator: "Hitoshi Ariga",
 
-	
+	description: {
+		en: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+	},
 }
 
 export default card

@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +80,9 @@ const card: Card = {
 
 	illustrator: "Megumi Higuchi",
 
-	
+	description: {
+		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+	},
 }
 
 export default card

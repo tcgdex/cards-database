@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -89,7 +95,9 @@ const card: Card = {
 
 	illustrator: "Yuya Oka",
 
-	
+	description: {
+		en: "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
+	},
 }
 
 export default card

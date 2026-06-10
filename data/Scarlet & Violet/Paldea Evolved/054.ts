@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -88,7 +94,9 @@ const card: Card = {
 
 	illustrator: "Saya Tsuruta",
 
-	
+	description: {
+		en: "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+	},
 }
 
 export default card

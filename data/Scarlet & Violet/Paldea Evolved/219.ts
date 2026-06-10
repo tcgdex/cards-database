@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,7 +79,9 @@ const card: Card = {
 
 	illustrator: "Narumi Sato",
 
-	
+	description: {
+		en: "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+	},
 }
 
 export default card

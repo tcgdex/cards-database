@@ -66,6 +66,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -90,7 +96,9 @@ const card: Card = {
 
 	illustrator: "Taira Akitsu",
 
-	
+	description: {
+		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+	},
 }
 
 export default card

@@ -42,6 +42,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -73,7 +79,9 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 
-	
+	description: {
+		en: "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
+	},
 }
 
 export default card

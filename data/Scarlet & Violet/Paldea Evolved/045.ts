@@ -74,6 +74,12 @@ const card: Card = {
 		damage: "100×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -98,7 +104,9 @@ const card: Card = {
 
 	illustrator: "En Morikura",
 
-	
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+	},
 }
 
 export default card
