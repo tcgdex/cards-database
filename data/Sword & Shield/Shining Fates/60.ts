@@ -5,8 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Recherches Professorales (Professeure Keteleeria)",
-		en: "Professor's Research (Professor Juniper)",
+		fr: "Recherches Professorales",
+		en: "Professor's Research",
 		es: "Investigación de Profesores",
 		it: "Ricerca Accademica",
 		pt: "Pesquisa de Professores",
@@ -28,6 +28,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "D",
+
+	description: {
+		en: "Professor's Research (Professor Juniper)",
+		de: "Forschung des Professors (Professor Esche)",
+		es: "Investigación de Profesores (Profesora Encina)",
+		fr: "Recherches Professorales (Professeure Keteleeria)",
+		it: "Ricerca Accademica (Professoressa Aralia)",
+		pt: "Pesquisa de Professores (Professor Juniper)"
+	},
 
 	variants: {
 		normal: true,
