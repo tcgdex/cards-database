@@ -63,20 +63,22 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715689,
+				tcgplayer: 497617,
+				cardtrader: 248868
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
 	description: {
 		en: "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
 	},
-
-	thirdParty: {
-		cardmarket: 715689
-	}
 }
 
 export default card

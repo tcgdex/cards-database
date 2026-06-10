@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+	},
+
 	thirdParty: {
 		cardmarket: 280505,
 		tcgplayer: 83935

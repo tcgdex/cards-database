@@ -69,6 +69,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection.",

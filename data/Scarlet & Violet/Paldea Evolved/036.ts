@@ -65,19 +65,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715510,
+				tcgplayer: 497447,
+				cardtrader: 248624
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715510,
+				tcgplayer: 497447,
+				cardtrader: 248624
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
 	description: {
 		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
 	},
-
-	thirdParty: {
-		cardmarket: 715510
-	}
 }
 
 export default card

@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory.",
+	},
 
 	variants: [
 		{

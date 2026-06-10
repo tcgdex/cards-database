@@ -58,6 +58,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+	},
 
 	thirdParty: {
 		cardmarket: 274840,

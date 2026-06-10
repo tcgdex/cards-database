@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
+
+	description: {
+		en: "It makes pollen puffs from pollen and nectar. The puffs' effects depend on the type of ingredients and how much of each one is used.",
+	},
 
 	variants: [
 		{

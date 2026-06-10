@@ -30,21 +30,24 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
+	illustrator: "AYUMI ODASHIMA",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857663,
-				tcgplayer: 662153
+				tcgplayer: 662153,
+				cardtrader: 356874
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857663,
-				tcgplayer: 662153
+				tcgplayer: 662153,
+				cardtrader: 356874
 			}
-		}
+		},
 	],
 }
 

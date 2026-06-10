@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine.",
+	},
+
 	thirdParty: {
 		cardmarket: 361355,
 		tcgplayer: 170974

@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715530,
+				tcgplayer: 497466,
+				cardtrader: 248659
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715530,
+				tcgplayer: 497466,
+				cardtrader: 248659
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
 	description: {
 		en: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
 	},
-
-	thirdParty: {
-		cardmarket: 715530
-	}
 }
 
 export default card

@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715590,
+				tcgplayer: 497530,
+				cardtrader: 248761
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715590,
+				tcgplayer: 497530,
+				cardtrader: 248761
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
 	description: {
 		en: "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
 	},
-
-	thirdParty: {
-		cardmarket: 715590
-	}
 }
 
 export default card

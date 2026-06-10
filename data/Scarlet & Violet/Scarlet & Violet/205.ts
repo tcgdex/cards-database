@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -44,6 +50,10 @@ const card: Card = {
 	},
 
 	illustrator: "Shinya Komatsu",
+
+	description: {
+		en: "Clauncher's claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn't appeal to all tastes.",
+	},
 
 	thirdParty: {
         cardmarket: 702501,

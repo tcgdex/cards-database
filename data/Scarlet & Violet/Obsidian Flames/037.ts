@@ -63,8 +63,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
+	},
 
 	variants: [
 		{

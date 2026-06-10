@@ -63,19 +63,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715570,
+				tcgplayer: 497510,
+				cardtrader: 248724
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715570,
+				tcgplayer: 497510,
+				cardtrader: 248724
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
 	description: {
 		en: "If it loses its shovel, it will stick something else— like a branch—in its head to make do until it finds another shovel.",
 	},
-
-	thirdParty: {
-		cardmarket: 715570
-	}
 }
 
 export default card

@@ -81,20 +81,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715698,
+				tcgplayer: 497626,
+				cardtrader: 248875
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
 	description: {
 		en: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
 	},
-
-	thirdParty: {
-		cardmarket: 715698
-	}
 }
 
 export default card

@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+	},
 
 	variants: [
 		{

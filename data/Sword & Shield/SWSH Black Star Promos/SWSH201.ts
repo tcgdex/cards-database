@@ -56,11 +56,24 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	thirdParty: {
-		cardmarket: 609460
+		cardmarket: 609460,
+		tcgplayer: 268710
 	}
 }
 

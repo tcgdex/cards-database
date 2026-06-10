@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This Pokémon has evolved its dorsal fin to emit light, which attracts the fish it feeds on.",

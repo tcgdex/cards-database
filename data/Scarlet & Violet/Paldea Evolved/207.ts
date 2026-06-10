@@ -65,20 +65,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715682,
+				tcgplayer: 497610,
+				cardtrader: 248848
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
 	description: {
 		en: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
 	},
-
-	thirdParty: {
-		cardmarket: 715682
-	}
 }
 
 export default card

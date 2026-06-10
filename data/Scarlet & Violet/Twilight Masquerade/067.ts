@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "By gathering their tails together, they collectively generate powerful electricity from their claws.",
+	},
 
 	variants: [
 		{

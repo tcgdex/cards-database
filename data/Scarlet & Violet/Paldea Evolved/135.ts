@@ -83,19 +83,44 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715610,
+				tcgplayer: 497596,
+				cardtrader: 248792
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 845427
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715610,
+				tcgplayer: 497596,
+				cardtrader: 248792
+			}
+		},
+	],
 
 	illustrator: "hncl",
 
 	description: {
 		en: "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
 	},
-
-	thirdParty: {
-		cardmarket: 715610
-	}
 }
 
 export default card

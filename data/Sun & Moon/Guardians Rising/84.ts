@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When two Beldum link together, their psychic power is doubled. Their intelligence, however, remains unchanged.",
+	},
+
 	thirdParty: {
 		cardmarket: 297541,
 		tcgplayer: 130996

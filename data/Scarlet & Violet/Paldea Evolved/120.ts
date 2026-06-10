@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715595,
+				tcgplayer: 497535,
+				cardtrader: 248767
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715595,
+				tcgplayer: 497535,
+				cardtrader: 248767
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
 	description: {
 		en: "It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.",
 	},
-
-	thirdParty: {
-		cardmarket: 715595
-	}
 }
 
 export default card

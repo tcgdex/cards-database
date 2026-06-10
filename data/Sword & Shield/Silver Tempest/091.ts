@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -52,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
 	},
 
 	thirdParty: {

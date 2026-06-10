@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",

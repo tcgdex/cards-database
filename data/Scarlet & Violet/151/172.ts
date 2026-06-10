@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+	},
 
 	variants: [
 		{

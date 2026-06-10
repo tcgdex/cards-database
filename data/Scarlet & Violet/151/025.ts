@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+	},
 
 	variants: [
 		{

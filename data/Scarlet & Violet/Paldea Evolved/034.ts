@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715507,
+				tcgplayer: 497445,
+				cardtrader: 248615
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715507,
+				tcgplayer: 497445,
+				cardtrader: 248615
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
 	description: {
 		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
-
-	thirdParty: {
-		cardmarket: 715507
-	}
 }
 
 export default card

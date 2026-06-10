@@ -67,6 +67,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
@@ -75,6 +87,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It flutters around at night and steals honey from the Combee hive.",
 	},
 
 	thirdParty: {

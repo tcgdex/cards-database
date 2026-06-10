@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It is said that the red part of its forehead grants supernatural powers to those who posses one, so it was over-hunted in the past.",
+	},
+
 	thirdParty: {
 		cardmarket: 295339,
 		tcgplayer: 126900

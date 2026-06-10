@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
+	},
+
 	thirdParty: {
 		cardmarket: 280499,
 		tcgplayer: 84536

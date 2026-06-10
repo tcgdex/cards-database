@@ -72,8 +72,18 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+	},
 
 	variants: [
 		{

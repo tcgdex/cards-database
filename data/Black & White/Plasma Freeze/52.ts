@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280930,
 		tcgplayer: 87343

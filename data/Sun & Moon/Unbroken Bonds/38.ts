@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Although it has become capable of living on land, it spends its time in the water, where its prey, fish Pokémon, are plentiful.",
+	},
+
 	thirdParty: {
 		cardmarket: 372329,
 		tcgplayer: 189112

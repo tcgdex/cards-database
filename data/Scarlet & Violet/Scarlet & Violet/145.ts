@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "chibi",
+
+	description: {
+		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+	},
 
 	thirdParty: {
         cardmarket: 702441,

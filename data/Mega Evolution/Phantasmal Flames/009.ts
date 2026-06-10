@@ -51,21 +51,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Yuka Morii",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857584,
-				tcgplayer: 662203
+				tcgplayer: 662203,
+				cardtrader: 356793
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857584,
-				tcgplayer: 662203
+				tcgplayer: 662203,
+				cardtrader: 356793
 			}
-		}
+		},
 	],
 }
 

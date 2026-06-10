@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -73,6 +79,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "After evolution, this Pokémon emerged onto land. Its lower body has become stronger, and blows from its tail are devastating.",
 	},
 
 	thirdParty: {

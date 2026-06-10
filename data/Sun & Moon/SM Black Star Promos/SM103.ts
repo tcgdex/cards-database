@@ -120,7 +120,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
 }
 
 export default card

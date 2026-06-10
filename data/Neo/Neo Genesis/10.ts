@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",

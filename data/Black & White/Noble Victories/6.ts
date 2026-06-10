@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 280129,
 		tcgplayer: 85061

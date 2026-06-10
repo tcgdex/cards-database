@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+	},
+
 	thirdParty: {
 		cardmarket: 286266,
 		tcgplayer: 107139

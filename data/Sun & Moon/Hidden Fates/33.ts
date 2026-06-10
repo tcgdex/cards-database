@@ -48,6 +48,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Geodude that have lived a long life have had all their edges smoothed out until they're totally round. They also have a calm, quiet disposition.",
+	},
+
 	thirdParty: {
 		cardmarket: 394647,
 		tcgplayer: 197677

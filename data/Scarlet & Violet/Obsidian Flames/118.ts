@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+	},
 
 	variants: [
 		{

@@ -67,6 +67,12 @@ const card: Card = {
 		damage: "220-"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 

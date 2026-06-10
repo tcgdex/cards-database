@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It pushes the tips of its tails against its foes and then lets loose a high-voltage current. Its foes are burned to a crisp in an instant.",
+	},
+
 	thirdParty: {
 		cardmarket: 299447,
 		tcgplayer: 138525

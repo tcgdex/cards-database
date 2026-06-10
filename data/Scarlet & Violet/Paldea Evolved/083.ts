@@ -64,19 +64,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715558,
+				tcgplayer: 497496,
+				cardtrader: 248710
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715558,
+				tcgplayer: 497496,
+				cardtrader: 248710
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
 	description: {
 		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
-
-	thirdParty: {
-		cardmarket: 715558
-	}
 }
 
 export default card

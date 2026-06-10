@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.",

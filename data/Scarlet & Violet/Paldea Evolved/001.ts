@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715473,
+				tcgplayer: 497412,
+				cardtrader: 248297
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715473,
+				tcgplayer: 497412,
+				cardtrader: 248297
+			}
+		},
+	],
 
 	illustrator: "Yukiko Baba",
 
 	description: {
 		en: "This Pokémon is blown across vast distances by the wind. It is unclear where the Hoppip of Paldea originally came from.",
 	},
-
-	thirdParty: {
-		cardmarket: 715473
-	}
 }
 
 export default card

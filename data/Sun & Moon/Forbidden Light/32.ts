@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it comes across enemies or potential prey, this Pokémon smashes its water-bubble-covered head into them.",
+	},
+
 	thirdParty: {
 		cardmarket: 355551,
 		tcgplayer: 165683

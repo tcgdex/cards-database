@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715485,
+				tcgplayer: 497424,
+				cardtrader: 248309
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715485,
+				tcgplayer: 497424,
+				cardtrader: 248309
+			}
+		},
+	],
 
 	illustrator: "Naoyo Kimura",
 
 	description: {
 		en: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
 	},
-
-	thirdParty: {
-		cardmarket: 715484
-	}
 }
 
 export default card

@@ -64,19 +64,38 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715537,
+				tcgplayer: 497473,
+				cardtrader: 248672
+			}
+		},
+		{
+			type: 'normal',
+			size: 'jumbo',
+			stamp: ['rain-city'],
+			thirdParty: {
+				cardmarket: 793388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715537,
+				tcgplayer: 497473,
+				cardtrader: 248672
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
 	description: {
 		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
-
-	thirdParty: {
-		cardmarket: 715537
-	}
 }
 
 export default card

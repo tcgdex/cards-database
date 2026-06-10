@@ -72,6 +72,12 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+
+	description: {
+		en: "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy.",
+	},
 
 	thirdParty: {
         cardmarket: 702322,

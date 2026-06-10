@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It looks somehow pained as it rages around in search of light, which serves as its energy. It's apparently from another world.",
+	},
+
 	thirdParty: {
 		cardmarket: 388312,
 		tcgplayer: 195041

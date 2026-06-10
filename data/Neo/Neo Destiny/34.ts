@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",

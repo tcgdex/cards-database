@@ -85,7 +85,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
+	},
 }
 
 export default card

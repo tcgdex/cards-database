@@ -81,9 +81,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715539,
+				tcgplayer: 497475,
+				cardtrader: 248679
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715539,
+				tcgplayer: 497475,
+				cardtrader: 248679
+			}
+		},
+	],
 
 	suffix: "ex",
 	illustrator: "Teeziro",
@@ -91,10 +106,6 @@ const card: Card = {
 	description: {
 		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
 	},
-
-	thirdParty: {
-		cardmarket: 715539
-	}
 }
 
 export default card

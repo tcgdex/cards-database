@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+	},
+
 	thirdParty: {
 		cardmarket: 408454,
 		tcgplayer: 201288

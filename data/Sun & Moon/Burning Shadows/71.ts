@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Not only does it perceive auras, but it has also gained the power to control them. It employs them in battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 299473,
 		tcgplayer: 138557

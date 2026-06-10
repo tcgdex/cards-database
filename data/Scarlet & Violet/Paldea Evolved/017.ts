@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715490,
+				tcgplayer: 497428,
+				cardtrader: 248314
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715490,
+				tcgplayer: 497428,
+				cardtrader: 248314
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
 	description: {
 		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
 	},
-
-	thirdParty: {
-		cardmarket: 715489
-	}
 }
 
 export default card

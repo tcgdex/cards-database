@@ -82,7 +82,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
 }
 
 export default card

@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715552,
+				tcgplayer: 497488,
+				cardtrader: 248704
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715552,
+				tcgplayer: 497488,
+				cardtrader: 248704
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
 	description: {
 		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
 	},
-
-	thirdParty: {
-		cardmarket: 715552
-	}
 }
 
 export default card

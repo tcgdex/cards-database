@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Loving to battle, this Pokémon pinches all Pokémon that enter its territory with its pincers and throws them out.",
+	},
+
 	thirdParty: {
 		cardmarket: 273623,
 		tcgplayer: 95990

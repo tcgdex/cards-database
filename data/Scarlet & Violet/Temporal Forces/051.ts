@@ -42,8 +42,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+	},
 
 	variants: [
 		{

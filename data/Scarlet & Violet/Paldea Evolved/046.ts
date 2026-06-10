@@ -64,19 +64,37 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715520,
+				tcgplayer: 497457,
+				cardtrader: 248642
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 845403
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715520,
+				tcgplayer: 497457,
+				cardtrader: 248642
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
 	description: {
 		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
 	},
-
-	thirdParty: {
-		cardmarket: 715520
-	}
 }
 
 export default card

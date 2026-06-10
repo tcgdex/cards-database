@@ -57,19 +57,38 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715533,
+				tcgplayer: 497469,
+				cardtrader: 248669
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 785461
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715533,
+				tcgplayer: 497469,
+				cardtrader: 248669
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
 	description: {
 		en: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
 	},
-
-	thirdParty: {
-		cardmarket: 715532
-	}
 }
 
 export default card

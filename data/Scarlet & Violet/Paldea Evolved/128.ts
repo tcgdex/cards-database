@@ -64,19 +64,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715603,
+				tcgplayer: 497581,
+				cardtrader: 248777
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715603,
+				tcgplayer: 497581,
+				cardtrader: 248777
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
 	description: {
 		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
 	},
-
-	thirdParty: {
-		cardmarket: 715603
-	}
 }
 
 export default card

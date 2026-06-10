@@ -62,6 +62,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "The flames it breathes are so hot that they can melt anything.",

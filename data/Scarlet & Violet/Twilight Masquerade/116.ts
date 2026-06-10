@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "This Pokémon spins itself rapidly and charges into its opponents. Its top speed is just over 60 mph.",
+	},
 
 	variants: [
 		{

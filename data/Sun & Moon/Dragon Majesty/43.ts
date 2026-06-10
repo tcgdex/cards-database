@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They lurk deep within caves—motionless, neither eating nor drinking. Why they don't die is not known.",
+	},
+
 	thirdParty: {
 		cardmarket: 363514,
 		tcgplayer: 175469

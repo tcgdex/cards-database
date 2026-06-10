@@ -72,19 +72,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715491,
+				tcgplayer: 497429,
+				cardtrader: 248315
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715491,
+				tcgplayer: 497429,
+				cardtrader: 248315
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
 	description: {
 		en: "It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.",
 	},
-
-	thirdParty: {
-		cardmarket: 715491
-	}
 }
 
 export default card

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -52,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
 	},
 
 	thirdParty: {

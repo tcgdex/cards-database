@@ -66,20 +66,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715694,
+				tcgplayer: 497622,
+				cardtrader: 248871
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
 	description: {
 		en: "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
 	},
-
-	thirdParty: {
-		cardmarket: 715694
-	}
 }
 
 export default card

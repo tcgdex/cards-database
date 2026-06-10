@@ -65,19 +65,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715534,
+				tcgplayer: 497470,
+				cardtrader: 248649
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715534,
+				tcgplayer: 497470,
+				cardtrader: 248649
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
 	description: {
 		en: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
 	},
-
-	thirdParty: {
-		cardmarket: 715534
-	}
 }
 
 export default card

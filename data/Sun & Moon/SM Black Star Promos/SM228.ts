@@ -48,7 +48,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+
+	description: {
+		en: "Mewtwo was on a rampage searching for meaning to its existence in this world when Giovanni suppressed and controlled its power.",
+	},
 }
 
 export default card

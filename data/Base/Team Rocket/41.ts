@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",

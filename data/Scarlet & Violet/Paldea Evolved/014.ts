@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715487,
+				tcgplayer: 497425,
+				cardtrader: 248311
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715487,
+				tcgplayer: 497425,
+				cardtrader: 248311
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
 	description: {
 		en: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
 	},
-
-	thirdParty: {
-		cardmarket: 715487
-	}
 }
 
 export default card

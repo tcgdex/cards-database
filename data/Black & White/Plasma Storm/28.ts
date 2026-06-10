@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "When the temperature rose at the end of the ice age, most Mamoswine disappeared.",
+	},
+
 	thirdParty: {
 		cardmarket: 280768,
 		tcgplayer: 87141

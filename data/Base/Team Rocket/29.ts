@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people.",

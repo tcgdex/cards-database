@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has no problem ignoring orders it doesn't like. It doesn't seem to mind getting hurt at all—as long as it can finish off its opponent.",
+	},
+
 	thirdParty: {
 		cardmarket: 408269,
 		tcgplayer: 201161

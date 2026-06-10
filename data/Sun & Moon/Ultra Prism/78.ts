@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its golden hairs function as sensors. It pokes them out of its burrow to monitor its surroundings.",
+	},
+
 	thirdParty: {
 		cardmarket: 316005,
 		tcgplayer: 157695

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "From its beak, it fires embers at its prey. Once it has caught them, it grills them at high heat before feasting upon them.",
+	},
+
 	thirdParty: {
 		cardmarket: 297562,
 		tcgplayer: 131028

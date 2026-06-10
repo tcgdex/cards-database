@@ -30,14 +30,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+	illustrator: "Yuu Nishida",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857704,
-				tcgplayer: 662150
+				tcgplayer: 662150,
+				cardtrader: 356915
 			}
-		}
+		},
 	],
 }
 

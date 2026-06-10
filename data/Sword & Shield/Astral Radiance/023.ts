@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -63,6 +69,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower.",
 	},
 
 	thirdParty: {

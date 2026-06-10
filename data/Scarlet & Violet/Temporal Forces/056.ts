@@ -65,8 +65,18 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+	},
 
 	variants: [
 		{

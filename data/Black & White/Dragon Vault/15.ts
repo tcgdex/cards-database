@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+	},
+
 	thirdParty: {
 		cardmarket: 281014,
 		tcgplayer: 85560

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
+	},
+
 	thirdParty: {
 		cardmarket: 280203,
 		tcgplayer: 85313

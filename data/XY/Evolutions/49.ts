@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A descendant of the legendary animal baku, which is said to eat dreams. It is skilled at hypnotism.",
+	},
+
 	thirdParty: {
 		cardmarket: 293404,
 		tcgplayer: 124062

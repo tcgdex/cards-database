@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The energetic, cheerful dance of these Oricorio is popular with children, but the Oricorio themselves are hard to find in Paldea.",
+	},
 
 	variants: [
 		{

@@ -61,19 +61,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715597,
+				tcgplayer: 497537,
+				cardtrader: 248769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715597,
+				tcgplayer: 497537,
+				cardtrader: 248769
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
 	description: {
 		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
 	},
-
-	thirdParty: {
-		cardmarket: 715597
-	}
 }
 
 export default card

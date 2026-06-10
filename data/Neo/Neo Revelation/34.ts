@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It traps enemies with its suction cupped tentacles then smashes them with its rockhard head.",

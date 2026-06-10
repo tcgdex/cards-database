@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715613,
+				tcgplayer: 497638,
+				cardtrader: 248795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715613,
+				tcgplayer: 497638,
+				cardtrader: 248795
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
 	description: {
 		en: "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you.",
 	},
-
-	thirdParty: {
-		cardmarket: 715613
-	}
 }
 
 export default card

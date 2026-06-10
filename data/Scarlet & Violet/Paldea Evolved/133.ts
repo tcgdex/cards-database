@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715608,
+				tcgplayer: 497594,
+				cardtrader: 248790
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715608,
+				tcgplayer: 497594,
+				cardtrader: 248790
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
 	description: {
 		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
 	},
-
-	thirdParty: {
-		cardmarket: 715608
-	}
 }
 
 export default card

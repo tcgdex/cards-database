@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+	},
+
 	thirdParty: {
 		cardmarket: 280500,
 		tcgplayer: 87229

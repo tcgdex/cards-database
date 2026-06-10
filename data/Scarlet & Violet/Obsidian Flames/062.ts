@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+	},
 
 	variants: [
 		{

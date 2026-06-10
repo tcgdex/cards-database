@@ -75,19 +75,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715479,
+				tcgplayer: 497418,
+				cardtrader: 248303
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715479,
+				tcgplayer: 497418,
+				cardtrader: 248303
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
 	description: {
 		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
 	},
-
-	thirdParty: {
-		cardmarket: 715479
-	}
 }
 
 export default card

@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When Uxie flew, people gained the ability to solve problems. It was the birth of knowledge.",
+	},
+
 	thirdParty: {
 		cardmarket: 281057,
 		tcgplayer: 90261

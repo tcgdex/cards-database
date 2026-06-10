@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+	},
 
 	variants: [
 		{

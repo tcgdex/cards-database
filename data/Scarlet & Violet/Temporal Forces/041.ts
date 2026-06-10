@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+	},
 
 	variants: [
 		{

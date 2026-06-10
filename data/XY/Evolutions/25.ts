@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
+	},
+
 	thirdParty: {
 		cardmarket: 293382,
 		tcgplayer: 124038

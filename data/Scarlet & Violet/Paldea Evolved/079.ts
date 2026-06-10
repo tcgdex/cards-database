@@ -81,16 +81,21 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715554,
+				tcgplayer: 497490,
+				cardtrader: 248706
+			}
+		},
+	],
 
 	suffix: "ex",
 	illustrator: "PLANETA Yamashita",
 
-	thirdParty: {
-		cardmarket: 715554
-	}
+	
 }
 
 export default card

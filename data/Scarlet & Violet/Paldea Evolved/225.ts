@@ -59,20 +59,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715700,
+				tcgplayer: 497628,
+				cardtrader: 248877
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
 	description: {
 		en: "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
 	},
-
-	thirdParty: {
-		cardmarket: 715700
-	}
 }
 
 export default card

@@ -57,8 +57,24 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "It flings sand into the eyes of its prey and tries to close in on them while they're blinded, but since Sandygast is so slow, the prey tends to escape.",
+	},
 
 	variants: [
 		{

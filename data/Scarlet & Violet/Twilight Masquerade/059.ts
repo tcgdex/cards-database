@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
+	},
 
 	variants: [
 		{

@@ -11,6 +11,10 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	effect: {
+		en: "Trade 1 of the other cards in your hand for up to 2 basic Energy cards from your discard pile.",
+	},
+
 	thirdParty: {
 		cardmarket: 274872,
 		tcgplayer: 85233

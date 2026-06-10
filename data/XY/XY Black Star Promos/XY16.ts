@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It can tell how its trainer is feeling by subtle shifts in the grip on its horns. This empathetic sense lets them run as if one being.",
+	},
+
 	thirdParty: {
 		cardmarket: 281322
 	}

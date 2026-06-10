@@ -74,20 +74,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715685,
+				tcgplayer: 497613,
+				cardtrader: 248866
+			}
+		},
+	],
 
 	illustrator: "Tomokazu Komiya",
 
 	description: {
 		en: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
 	},
-
-	thirdParty: {
-		cardmarket: 715685
-	}
 }
 
 export default card

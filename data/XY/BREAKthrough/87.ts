@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+	},
+
 	thirdParty: {
 		cardmarket: 286333,
 		tcgplayer: 107206

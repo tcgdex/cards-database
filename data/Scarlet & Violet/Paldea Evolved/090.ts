@@ -72,19 +72,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715565,
+				tcgplayer: 497505,
+				cardtrader: 248717
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715565,
+				tcgplayer: 497505,
+				cardtrader: 248717
+			}
+		},
+	],
 
 	illustrator: "0313",
 
 	description: {
 		en: "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
 	},
-
-	thirdParty: {
-		cardmarket: 715565
-	}
 }
 
 export default card

@@ -62,6 +62,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
+	},
+
 	thirdParty: {
         cardmarket: 702398,
         tcgplayer: 487976

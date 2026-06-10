@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Historically, in the Kalos region, these Pokémon were the designated guardians of the king.",
+	},
+
 	thirdParty: {
 		cardmarket: 355612,
 		tcgplayer: 165761

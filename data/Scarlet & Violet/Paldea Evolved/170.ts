@@ -81,20 +81,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715645,
+				tcgplayer: 497591,
+				cardtrader: 248814
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715645,
+				tcgplayer: 497591,
+				cardtrader: 248814
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
 	description: {
 		en: "This Pokémon apparently ties the base of its neck into a knot so that the energy stored in its belly does not escape from its beak.",
 	},
-
-	thirdParty: {
-		cardmarket: 715645,
-		tcgplayer: 497591
-	}
 }
 
 export default card

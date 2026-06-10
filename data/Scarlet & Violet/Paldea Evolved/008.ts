@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715480,
+				tcgplayer: 497419,
+				cardtrader: 248304
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715480,
+				tcgplayer: 497419,
+				cardtrader: 248304
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
 	description: {
 		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
 	},
-
-	thirdParty: {
-		cardmarket: 715480
-	}
 }
 
 export default card

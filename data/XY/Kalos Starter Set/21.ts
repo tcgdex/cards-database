@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+	},
+
 	thirdParty: {
 		cardmarket: 281287,
 		tcgplayer: 86167

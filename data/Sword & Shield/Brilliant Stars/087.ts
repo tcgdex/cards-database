@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -73,6 +79,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
 	},
 
 	thirdParty: {

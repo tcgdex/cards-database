@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Wailord pursue their prey in pods. With their large mouths, they can swallow entire schools of Wishiwashi whole.",
+	},
+
 	thirdParty: {
 		cardmarket: 297492,
 		tcgplayer: 130930

@@ -75,19 +75,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715501,
+				tcgplayer: 497439,
+				cardtrader: 248325
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715501,
+				tcgplayer: 497439,
+				cardtrader: 248325
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
 	description: {
 		en: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
 	},
-
-	thirdParty: {
-		cardmarket: 715501
-	}
 }
 
 export default card

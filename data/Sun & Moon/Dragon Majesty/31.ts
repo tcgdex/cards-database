@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
+	},
+
 	thirdParty: {
 		cardmarket: 363503,
 		tcgplayer: 175417

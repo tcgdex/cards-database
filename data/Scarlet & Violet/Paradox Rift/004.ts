@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+	},
 
 	variants: [
 		{

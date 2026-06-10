@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715493,
+				tcgplayer: 497431,
+				cardtrader: 248317
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715493,
+				tcgplayer: 497431,
+				cardtrader: 248317
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
 	description: {
 		en: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
 	},
-
-	thirdParty: {
-		cardmarket: 715492
-	}
 }
 
 export default card

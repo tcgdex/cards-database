@@ -55,6 +55,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "This Pokémon was created by human computer engineering. Its program is only capable of simple action and reaction.",

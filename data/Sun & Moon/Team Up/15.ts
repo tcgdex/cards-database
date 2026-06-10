@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its beautiful tails have made it very popular. However, if it's not brushed diligently, it will be a mass of tangles before you know it.",
+	},
+
 	thirdParty: {
 		cardmarket: 368947,
 		tcgplayer: 183786

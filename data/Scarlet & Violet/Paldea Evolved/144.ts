@@ -64,19 +64,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715619,
+				tcgplayer: 497659,
+				cardtrader: 248782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715619,
+				tcgplayer: 497659,
+				cardtrader: 248782
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
 	description: {
 		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
 	},
-
-	thirdParty: {
-		cardmarket: 715619
-	}
 }
 
 export default card

@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+	},
+
 	thirdParty: {
 		cardmarket: 365613,
 		tcgplayer: 178819

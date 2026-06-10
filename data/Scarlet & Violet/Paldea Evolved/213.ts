@@ -80,20 +80,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715688,
+				tcgplayer: 497616,
+				cardtrader: 248863
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
 
 	description: {
 		en: "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
 	},
-
-	thirdParty: {
-		cardmarket: 715688
-	}
 }
 
 export default card

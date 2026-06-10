@@ -53,20 +53,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715678,
+				tcgplayer: 497606,
+				cardtrader: 248856
+			}
+		},
+	],
 
 	illustrator: "Shinji Kanda",
 
 	description: {
 		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
 	},
-
-	thirdParty: {
-		cardmarket: 715678
-	}
 }
 
 export default card

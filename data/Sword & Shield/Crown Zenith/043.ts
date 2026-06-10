@@ -74,6 +74,12 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
@@ -82,6 +88,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
 	},
 
 	thirdParty: {

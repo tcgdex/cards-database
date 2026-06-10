@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This Pokémon has soft, fine hair. When angered, it increases in size and has been known to charge those it considers a threat.",

@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715495,
+				tcgplayer: 497433,
+				cardtrader: 248319
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715495,
+				tcgplayer: 497433,
+				cardtrader: 248319
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
 	description: {
 		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
 	},
-
-	thirdParty: {
-		cardmarket: 715495
-	}
 }
 
 export default card

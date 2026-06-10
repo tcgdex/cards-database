@@ -76,6 +76,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
@@ -84,6 +90,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
 	},
 
 	thirdParty: {

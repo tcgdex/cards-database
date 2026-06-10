@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+	},
+
 	thirdParty: {
 		cardmarket: 281144,
 		tcgplayer: 86471

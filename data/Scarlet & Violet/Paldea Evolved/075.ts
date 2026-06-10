@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715550,
+				tcgplayer: 497486,
+				cardtrader: 248702
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715550,
+				tcgplayer: 497486,
+				cardtrader: 248702
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
 	description: {
 		en: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
 	},
-
-	thirdParty: {
-		cardmarket: 715550
-	}
 }
 
 export default card

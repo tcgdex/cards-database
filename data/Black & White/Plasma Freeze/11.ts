@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With cells similar to those of plants, it performs photosynthesis inside its body and creates pure air.",
+	},
+
 	thirdParty: {
 		cardmarket: 280889,
 		tcgplayer: 86683

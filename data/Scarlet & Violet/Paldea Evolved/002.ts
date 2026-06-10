@@ -83,19 +83,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715474,
+				tcgplayer: 497413,
+				cardtrader: 248298
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715474,
+				tcgplayer: 497413,
+				cardtrader: 248298
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
 	description: {
 		en: "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head.",
 	},
-
-	thirdParty: {
-		cardmarket: 715474
-	}
 }
 
 export default card

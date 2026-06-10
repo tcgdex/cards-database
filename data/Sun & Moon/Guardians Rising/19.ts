@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives on snowy mountains. Its steel shell is very hard—so much so, it can't roll its body up into a ball.",
+	},
+
 	thirdParty: {
 		cardmarket: 297483,
 		tcgplayer: 130767

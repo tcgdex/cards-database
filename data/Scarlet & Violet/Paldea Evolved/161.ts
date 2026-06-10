@@ -74,19 +74,37 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715636,
+				tcgplayer: 497579,
+				cardtrader: 248815
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858719
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715636,
+				tcgplayer: 497579,
+				cardtrader: 248815
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
 	description: {
 		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
 	},
-
-	thirdParty: {
-		cardmarket: 715636
-	}
 }
 
 export default card

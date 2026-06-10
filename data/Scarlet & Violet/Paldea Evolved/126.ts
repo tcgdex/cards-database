@@ -81,19 +81,37 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715601,
+				tcgplayer: 497542,
+				cardtrader: 248773
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 785702
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715601,
+				tcgplayer: 497542,
+				cardtrader: 248773
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
 	description: {
 		en: "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
 	},
-
-	thirdParty: {
-		cardmarket: 715601
-	}
 }
 
 export default card

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "By putting power into its bumps, it creates vibrations and increases the power of its punches.",
+	},
+
 	thirdParty: {
 		cardmarket: 280904,
 		tcgplayer: 89060

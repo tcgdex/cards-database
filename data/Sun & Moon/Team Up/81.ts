@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "There's no point to the leaf in its mouth, aside from an effort to look cool. It's mischievous, so it's not well suited to inexperienced Trainers.",
+	},
+
 	thirdParty: {
 		cardmarket: 369011,
 		tcgplayer: 183859

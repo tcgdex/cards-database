@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 70,
 	types: ["Fire"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Megumi Mizutani",

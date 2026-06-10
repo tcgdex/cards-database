@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.",
 	},
 
 	thirdParty: {

@@ -69,6 +69,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Despite appearing to be a tree, its body is closer to rocks and stones. It is very weak to water.",

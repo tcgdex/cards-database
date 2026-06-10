@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 365766,
 		tcgplayer: 178944

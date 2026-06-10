@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715593,
+				tcgplayer: 497533,
+				cardtrader: 248765
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715593,
+				tcgplayer: 497533,
+				cardtrader: 248765
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
 	description: {
 		en: "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
 	},
-
-	thirdParty: {
-		cardmarket: 715593
-	}
 }
 
 export default card

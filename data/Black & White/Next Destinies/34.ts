@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+	},
+
 	thirdParty: {
 		cardmarket: 280259,
 		tcgplayer: 85564

@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -43,6 +49,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
 	},
 
 	thirdParty: {

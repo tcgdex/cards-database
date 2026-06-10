@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 280220,
 		tcgplayer: 90392

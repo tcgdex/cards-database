@@ -87,20 +87,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715690,
+				tcgplayer: 497618,
+				cardtrader: 248867
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
 	description: {
 		en: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
 	},
-
-	thirdParty: {
-		cardmarket: 715690
-	}
 }
 
 export default card

@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",

@@ -65,6 +65,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Although possessed of great mental powers, it doesn't know how to use them.",

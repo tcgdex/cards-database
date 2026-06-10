@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715549,
+				tcgplayer: 497485,
+				cardtrader: 248701
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715549,
+				tcgplayer: 497485,
+				cardtrader: 248701
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
 	description: {
 		en: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
 	},
-
-	thirdParty: {
-		cardmarket: 715549
-	}
 }
 
 export default card

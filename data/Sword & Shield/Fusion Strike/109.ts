@@ -19,6 +19,12 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sanosuke Sakuma",

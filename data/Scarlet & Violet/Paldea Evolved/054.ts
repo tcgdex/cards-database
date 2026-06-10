@@ -73,19 +73,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715529,
+				tcgplayer: 497465,
+				cardtrader: 248662
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715529,
+				tcgplayer: 497465,
+				cardtrader: 248662
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
 	description: {
 		en: "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
 	},
-
-	thirdParty: {
-		cardmarket: 715528
-	}
 }
 
 export default card

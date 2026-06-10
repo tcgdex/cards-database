@@ -83,19 +83,37 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715637,
+				tcgplayer: 497580,
+				cardtrader: 248819
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858720
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715637,
+				tcgplayer: 497580,
+				cardtrader: 248819
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
 	description: {
 		en: "It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.",
 	},
-
-	thirdParty: {
-		cardmarket: 715637
-	}
 }
 
 export default card

@@ -66,19 +66,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715594,
+				tcgplayer: 497534,
+				cardtrader: 248766
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715594,
+				tcgplayer: 497534,
+				cardtrader: 248766
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
 	description: {
 		en: "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
 	},
-
-	thirdParty: {
-		cardmarket: 715594
-	}
 }
 
 export default card

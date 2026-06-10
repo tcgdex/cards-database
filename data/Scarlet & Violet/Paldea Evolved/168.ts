@@ -72,19 +72,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715643,
+				tcgplayer: 497588,
+				cardtrader: 248824
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715643,
+				tcgplayer: 497588,
+				cardtrader: 248824
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
 	description: {
 		en: "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
 	},
-
-	thirdParty: {
-		cardmarket: 715643
-	}
 }
 
 export default card

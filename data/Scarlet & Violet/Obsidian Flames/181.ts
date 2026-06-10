@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+	},
 
 	variants: [
 		{

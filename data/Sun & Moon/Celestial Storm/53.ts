@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+	},
+
 	thirdParty: {
 		cardmarket: 361299,
 		tcgplayer: 170872

@@ -56,8 +56,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "The black fur that covers this Pokémon's body is dense and springy. Even sharp fangs bounce right off.",
+	},
 
 	variants: [
 		{

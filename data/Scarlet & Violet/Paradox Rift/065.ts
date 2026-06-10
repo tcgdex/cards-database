@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It lays traps of electrified threads near the nests of bird Pokémon, aiming to snare chicks that are not yet good at flying.",
+	},
 
 	variants: [
 		{

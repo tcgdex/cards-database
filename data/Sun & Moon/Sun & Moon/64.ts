@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+	},
+
 	thirdParty: {
 		cardmarket: 295375,
 		tcgplayer: 126935

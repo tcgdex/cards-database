@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Exeggutor is the pride of the Alolan people. Its image is carved into historical buildings and murals.",
+	},
+
 	thirdParty: {
 		cardmarket: 369042,
 		tcgplayer: 183902

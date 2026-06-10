@@ -57,8 +57,24 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+	},
 
 	variants: [
 		{

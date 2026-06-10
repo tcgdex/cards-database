@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+	},
+
 	thirdParty: {
 		cardmarket: 281348,
 		tcgplayer: 89224

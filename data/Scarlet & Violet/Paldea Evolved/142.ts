@@ -57,19 +57,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715617,
+				tcgplayer: 497650,
+				cardtrader: 248781
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715617,
+				tcgplayer: 497650,
+				cardtrader: 248781
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
 	description: {
 		en: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
 	},
-
-	thirdParty: {
-		cardmarket: 759872
-	}
 }
 
 export default card

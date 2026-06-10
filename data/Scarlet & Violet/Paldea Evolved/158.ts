@@ -50,19 +50,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715633,
+				tcgplayer: 497576,
+				cardtrader: 248804
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715633,
+				tcgplayer: 497576,
+				cardtrader: 248804
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
 	description: {
 		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
 	},
-
-	thirdParty: {
-		cardmarket: 715633
-	}
 }
 
 export default card

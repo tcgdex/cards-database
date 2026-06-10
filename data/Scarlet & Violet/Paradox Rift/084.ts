@@ -52,8 +52,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
+	},
 
 	variants: [
 		{

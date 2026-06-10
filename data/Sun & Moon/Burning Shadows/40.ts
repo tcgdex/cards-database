@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+	},
+
 	thirdParty: {
 		cardmarket: 299444,
 		tcgplayer: 138522

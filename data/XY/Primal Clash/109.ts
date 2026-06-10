@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It generates ultrasonic waves by violently flapping its wings. After making its prey faint, it melts the prey with acid.",
+	},
+
 	thirdParty: {
 		cardmarket: 273640,
 		tcgplayer: 96007

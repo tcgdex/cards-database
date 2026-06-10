@@ -81,19 +81,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715564,
+				tcgplayer: 497504,
+				cardtrader: 248716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715564,
+				tcgplayer: 497504,
+				cardtrader: 248716
+			}
+		},
+	],
 
 	illustrator: "Aya Kusube",
 
 	description: {
 		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
 	},
-
-	thirdParty: {
-		cardmarket: 715564
-	}
 }
 
 export default card

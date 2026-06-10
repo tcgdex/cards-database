@@ -78,6 +78,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "The larger its tusks, the higher its status in the herd.",

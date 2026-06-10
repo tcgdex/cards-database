@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+	},
+
 	thirdParty: {
 		cardmarket: 387877,
 		tcgplayer: 194925

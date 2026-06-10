@@ -44,19 +44,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715476,
+				tcgplayer: 497415,
+				cardtrader: 248300
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715476,
+				tcgplayer: 497415,
+				cardtrader: 248300
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
 	description: {
 		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 	},
-
-	thirdParty: {
-		cardmarket: 715476
-	}
 }
 
 export default card

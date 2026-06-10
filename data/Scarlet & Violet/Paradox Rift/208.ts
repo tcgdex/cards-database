@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+	},
 
 	variants: [
 		{

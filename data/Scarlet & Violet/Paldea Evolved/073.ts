@@ -75,19 +75,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715548,
+				tcgplayer: 497484,
+				cardtrader: 248700
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715548,
+				tcgplayer: 497484,
+				cardtrader: 248700
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
 	description: {
 		en: "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
 	},
-
-	thirdParty: {
-		cardmarket: 715547
-	}
 }
 
 export default card

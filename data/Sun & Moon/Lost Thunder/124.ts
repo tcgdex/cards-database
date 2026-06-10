@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It remains immovably rooted to its tree. It scatters piece of its hard shell to drive its enemies away.",
+	},
+
 	thirdParty: {
 		cardmarket: 365761,
 		tcgplayer: 178939

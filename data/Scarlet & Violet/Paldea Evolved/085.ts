@@ -70,19 +70,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715560,
+				tcgplayer: 497499,
+				cardtrader: 248712
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715560,
+				tcgplayer: 497499,
+				cardtrader: 248712
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
 	description: {
 		en: "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
 	},
-
-	thirdParty: {
-		cardmarket: 715560
-	}
 }
 
 export default card

@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.",
+	},
 
 	variants: [
 		{

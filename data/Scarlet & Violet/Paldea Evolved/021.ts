@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715494,
+				tcgplayer: 497432,
+				cardtrader: 248318
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715494,
+				tcgplayer: 497432,
+				cardtrader: 248318
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
 	description: {
 		en: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
 	},
-
-	thirdParty: {
-		cardmarket: 715494
-	}
 }
 
 export default card

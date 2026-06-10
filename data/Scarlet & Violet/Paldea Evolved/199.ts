@@ -67,20 +67,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715674,
+				tcgplayer: 497602,
+				cardtrader: 248853
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
 	description: {
 		en: "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
 	},
-
-	thirdParty: {
-		cardmarket: 715674
-	}
 }
 
 export default card

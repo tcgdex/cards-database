@@ -63,8 +63,24 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+	},
 
 	variants: [
 		{

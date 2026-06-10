@@ -48,6 +48,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "Silicobra's neck pouch, which can inflate and deflate like a balloon, gets more elastic each time Silicobra sheds its skin.",
+	},
+
 	thirdParty: {
         cardmarket: 702415,
         tcgplayer: 488008

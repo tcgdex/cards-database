@@ -64,20 +64,22 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715676,
+				tcgplayer: 497604,
+				cardtrader: 248851
+			}
+		},
+	],
 
 	illustrator: "kantaro",
 
 	description: {
 		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
-
-	thirdParty: {
-		cardmarket: 715676
-	}
 }
 
 export default card

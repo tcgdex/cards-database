@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+	},
+
 	thirdParty: {
 		cardmarket: 279790,
 		tcgplayer: 90294

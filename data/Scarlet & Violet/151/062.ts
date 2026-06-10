@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
+	},
 
 	variants: [
 		{

@@ -83,19 +83,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715579,
+				tcgplayer: 497519,
+				cardtrader: 248733
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715579,
+				tcgplayer: 497519,
+				cardtrader: 248733
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
 	description: {
 		en: "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
 	},
-
-	thirdParty: {
-		cardmarket: 715579
-	}
 }
 
 export default card

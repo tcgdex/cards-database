@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "With four arms that react more quickly than it can think, it can execute many punches at once.",
+	},
 
 	variants: [
 		{

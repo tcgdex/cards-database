@@ -59,6 +59,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This Pokémon is perfectly adapted to its ocean home. It can gather up enough speed to burst above the water like a whale.",

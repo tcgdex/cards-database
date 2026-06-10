@@ -52,8 +52,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+	},
 
 	variants: [
 		{

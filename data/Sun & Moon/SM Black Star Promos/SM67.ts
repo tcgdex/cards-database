@@ -115,7 +115,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 4
+	retreat: 4,
 }
 
 export default card

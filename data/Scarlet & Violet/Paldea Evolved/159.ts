@@ -80,19 +80,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715634,
+				tcgplayer: 497577,
+				cardtrader: 248816
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715634,
+				tcgplayer: 497577,
+				cardtrader: 248816
+			}
+		},
+	],
 
 	illustrator: "Shinya Komatsu",
 
 	description: {
 		en: "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
 	},
-
-	thirdParty: {
-		cardmarket: 715634
-	}
 }
 
 export default card

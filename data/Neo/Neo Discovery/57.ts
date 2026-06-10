@@ -54,6 +54,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",

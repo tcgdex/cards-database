@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
+	},
+
 	thirdParty: {
 		cardmarket: 361248,
 		tcgplayer: 170806

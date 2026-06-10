@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715632,
+				tcgplayer: 497575,
+				cardtrader: 248812
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715632,
+				tcgplayer: 497575,
+				cardtrader: 248812
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
 	description: {
 		en: "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
 	},
-
-	thirdParty: {
-		cardmarket: 715632
-	}
 }
 
 export default card

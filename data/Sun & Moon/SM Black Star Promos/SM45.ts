@@ -85,6 +85,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
+	},
 }
 
 export default card

@@ -89,19 +89,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715567,
+				tcgplayer: 497507,
+				cardtrader: 248719
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715567,
+				tcgplayer: 497507,
+				cardtrader: 248719
+			}
+		},
+	],
 
 	illustrator: "Shiburingaru",
 
 	description: {
 		en: "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful.",
 	},
-
-	thirdParty: {
-		cardmarket: 715567
-	}
 }
 
 export default card

@@ -51,6 +51,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",

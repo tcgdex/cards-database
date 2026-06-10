@@ -64,6 +64,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+	},
 }
 
 export default card

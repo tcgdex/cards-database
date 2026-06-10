@@ -57,8 +57,24 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon.",
+	},
 
 	variants: [
 		{

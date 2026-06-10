@@ -81,19 +81,37 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715626,
+				tcgplayer: 497569,
+				cardtrader: 248806
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 754781
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715626,
+				tcgplayer: 497569,
+				cardtrader: 248806
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
 	description: {
 		en: "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
 	},
-
-	thirdParty: {
-		cardmarket: 715626
-	}
 }
 
 export default card

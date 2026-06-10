@@ -66,19 +66,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715522,
+				tcgplayer: 497459,
+				cardtrader: 248640
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715522,
+				tcgplayer: 497459,
+				cardtrader: 248640
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
 	description: {
 		en: "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
 	},
-
-	thirdParty: {
-		cardmarket: 715522
-	}
 }
 
 export default card

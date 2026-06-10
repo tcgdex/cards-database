@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
+
+	description: {
+		en: "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+	},
 
 	variants: [
 		{

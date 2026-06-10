@@ -66,19 +66,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715584,
+				tcgplayer: 497524,
+				cardtrader: 248755
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715584,
+				tcgplayer: 497524,
+				cardtrader: 248755
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
 	description: {
 		en: "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
 	},
-
-	thirdParty: {
-		cardmarket: 715584
-	}
 }
 
 export default card

@@ -64,19 +64,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715576,
+				tcgplayer: 497516,
+				cardtrader: 248730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715576,
+				tcgplayer: 497516,
+				cardtrader: 248730
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
 	description: {
 		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
 	},
-
-	thirdParty: {
-		cardmarket: 715576
-	}
 }
 
 export default card

@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+	},
+
 	thirdParty: {
 		cardmarket: 387977,
 		tcgplayer: 194947

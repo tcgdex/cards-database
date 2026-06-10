@@ -74,19 +74,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715551,
+				tcgplayer: 497487,
+				cardtrader: 248703
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715551,
+				tcgplayer: 497487,
+				cardtrader: 248703
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
 	description: {
 		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
 	},
-
-	thirdParty: {
-		cardmarket: 715551
-	}
 }
 
 export default card

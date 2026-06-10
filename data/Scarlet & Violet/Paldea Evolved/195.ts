@@ -75,20 +75,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715670,
+				tcgplayer: 497598,
+				cardtrader: 248847
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
 	description: {
 		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
 	},
-
-	thirdParty: {
-		cardmarket: 715670
-	}
 }
 
 export default card

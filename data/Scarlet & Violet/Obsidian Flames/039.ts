@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
+	},
 
 	variants: [
 		{

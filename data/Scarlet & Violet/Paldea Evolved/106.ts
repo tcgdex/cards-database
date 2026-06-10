@@ -57,19 +57,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715581,
+				tcgplayer: 497521,
+				cardtrader: 248295
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715581,
+				tcgplayer: 497521,
+				cardtrader: 248295
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
 	description: {
 		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
 	},
-
-	thirdParty: {
-		cardmarket: 709537
-	}
 }
 
 export default card

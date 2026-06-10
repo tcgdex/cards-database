@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+	},
 
 	variants: [
 		{

@@ -63,6 +63,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",

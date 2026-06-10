@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It flaps its four wings to hover and fly freely in any direction—to and fro and sideways.",
+	},
 
 	variants: [
 		{

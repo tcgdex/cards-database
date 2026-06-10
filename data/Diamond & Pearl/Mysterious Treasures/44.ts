@@ -73,6 +73,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.",

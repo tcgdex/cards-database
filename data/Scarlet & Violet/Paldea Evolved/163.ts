@@ -59,19 +59,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715638,
+				tcgplayer: 497582,
+				cardtrader: 248818
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715638,
+				tcgplayer: 497582,
+				cardtrader: 248818
+			}
+		},
+	],
 
 	illustrator: "sui",
 
 	description: {
 		en: "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
 	},
-
-	thirdParty: {
-		cardmarket: 715638
-	}
 }
 
 export default card

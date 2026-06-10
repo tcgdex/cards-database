@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+	},
 
 	variants: [
 		{

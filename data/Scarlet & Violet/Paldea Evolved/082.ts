@@ -80,19 +80,30 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715557,
+				tcgplayer: 497493,
+				cardtrader: 248709
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715557,
+				tcgplayer: 497493,
+				cardtrader: 248709
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
 	description: {
 		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
 	},
-
-	thirdParty: {
-		cardmarket: 715557
-	}
 }
 
 export default card

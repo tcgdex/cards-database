@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+	},
+
 	thirdParty: {
 		cardmarket: 279709,
 		tcgplayer: 88004

@@ -72,20 +72,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715703,
+				tcgplayer: 497631,
+				cardtrader: 248880
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
 	description: {
 		en: "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig's.",
 	},
-
-	thirdParty: {
-		cardmarket: 715703
-	}
 }
 
 export default card

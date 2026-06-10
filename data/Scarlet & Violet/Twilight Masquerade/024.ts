@@ -64,8 +64,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
+	},
 
 	variants: [
 		{

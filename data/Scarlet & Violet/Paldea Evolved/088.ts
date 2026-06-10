@@ -80,19 +80,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715563,
+				tcgplayer: 497502,
+				cardtrader: 248715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715563,
+				tcgplayer: 497502,
+				cardtrader: 248715
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
 	description: {
 		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
 	},
-
-	thirdParty: {
-		cardmarket: 715563
-	}
 }
 
 export default card

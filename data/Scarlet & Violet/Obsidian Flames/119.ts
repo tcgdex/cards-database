@@ -65,8 +65,18 @@ const card: Card = {
 		damage: "100×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.",
+	},
 
 	variants: [
 		{

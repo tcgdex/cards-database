@@ -80,19 +80,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715640,
+				tcgplayer: 497584,
+				cardtrader: 248820
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715640,
+				tcgplayer: 497584,
+				cardtrader: 248820
+			}
+		},
+	],
 
 	illustrator: "sui",
 
 	description: {
 		en: "It's said that the reason behind Corvisquire's high level of intelligence is the large size of its brain relative to those of other bird Pokémon.",
 	},
-
-	thirdParty: {
-		cardmarket: 715640
-	}
 }
 
 export default card

@@ -51,6 +51,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone.",
+	},
 
 	thirdParty: {
 		cardmarket: 274772,

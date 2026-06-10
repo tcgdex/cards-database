@@ -89,19 +89,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715503,
+				tcgplayer: 497442,
+				cardtrader: 248327
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715503,
+				tcgplayer: 497442,
+				cardtrader: 248327
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
 	description: {
 		en: "It has top-notch flying capabilities. It flies around easily, even while carrying prey that weighs more than 220 lbs.",
 	},
-
-	thirdParty: {
-		cardmarket: 715503
-	}
 }
 
 export default card

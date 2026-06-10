@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",

@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its two sharp scythes are more than just weapons. It uses them with dexterity to dress its prey before eating.",
+	},
+
 	thirdParty: {
 		cardmarket: 394672,
 		tcgplayer: 197647

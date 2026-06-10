@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",

@@ -70,19 +70,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715556,
+				tcgplayer: 497492,
+				cardtrader: 248708
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715556,
+				tcgplayer: 497492,
+				cardtrader: 248708
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
 	description: {
 		en: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
 	},
-
-	thirdParty: {
-		cardmarket: 715555
-	}
 }
 
 export default card

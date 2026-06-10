@@ -53,19 +53,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715589,
+				tcgplayer: 497529,
+				cardtrader: 248760
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715589,
+				tcgplayer: 497529,
+				cardtrader: 248760
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
 	description: {
 		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
 	},
-
-	thirdParty: {
-		cardmarket: 715589
-	}
 }
 
 export default card

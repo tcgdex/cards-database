@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -63,6 +69,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
 	},
 
 	thirdParty: {

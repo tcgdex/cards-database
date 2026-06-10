@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With the mist from its forehead, it can create shapes of things from dreams it has eaten.",
+	},
+
 	thirdParty: {
 		cardmarket: 280284,
 		tcgplayer: 87660

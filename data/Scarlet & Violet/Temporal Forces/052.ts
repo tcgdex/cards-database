@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+	},
 
 	variants: [
 		{

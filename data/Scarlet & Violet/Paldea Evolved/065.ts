@@ -64,19 +64,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715540,
+				tcgplayer: 497476,
+				cardtrader: 248660
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715540,
+				tcgplayer: 497476,
+				cardtrader: 248660
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
 	description: {
 		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
 	},
-
-	thirdParty: {
-		cardmarket: 715540
-	}
 }
 
 export default card

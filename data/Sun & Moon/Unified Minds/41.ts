@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+	},
+
 	thirdParty: {
 		cardmarket: 388032,
 		tcgplayer: 194962

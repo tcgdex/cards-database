@@ -67,6 +67,12 @@ const card: Card = {
 		damage: "130+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It has a body of ice that won't melt, even with fire. It can instantly freeze moisture in the atmosphere.",
 	},
 
 	thirdParty: {

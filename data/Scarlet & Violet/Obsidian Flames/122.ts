@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+	},
 
 	variants: [
 		{

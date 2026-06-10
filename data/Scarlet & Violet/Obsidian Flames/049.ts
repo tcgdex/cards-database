@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+	},
 
 	variants: [
 		{

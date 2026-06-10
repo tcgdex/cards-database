@@ -53,20 +53,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715673,
+				tcgplayer: 497601,
+				cardtrader: 248854
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
 	description: {
 		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
 	},
-
-	thirdParty: {
-		cardmarket: 715673
-	}
 }
 
 export default card
