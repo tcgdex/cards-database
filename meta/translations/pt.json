@@ -132,9 +132,9 @@
 		"professor-program": "professor-program",
 		"tinsel": "tinsel",
 		"loveball": "Bola de Amor",
-		"friendball": "Bola de Amizade", 
+		"friendball": "Bola de Amizade",
 		"quickball": "Bola Rápida",
-		"duskball": "Bola Crepúsculo", 
+		"duskball": "Bola Crepúsculo",
 		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
@@ -195,14 +195,13 @@
 		"paul-atanassov": "paul-atanassov",
 		"david-cohen": "david-cohen",
 		"tsubasa-nakamura": "tsubasa-nakamura",
-		"worlds-2007": "worlds-2007",
+		"worlds": "worlds",
+		"illustration-contest": "ilustration-contest",
 		"finalist": "finalist",
 		"quarter-finalist": "quarter-finalist",
 		"semi-finalist": "semi-finalist",
 		"top-sixteen": "top-sixteen",
 		"top-thirty-two": "top-thirty-two",
-		"worlds-2008": "worlds-2008",
-		"worlds-2009": "worlds-2009",
 		"countdown-calendar": "countdown-calendar",
 		"michael-pramawat": "michael-pramawat",
 		"distributor-meeting": "distributor-meeting",
@@ -211,9 +210,7 @@
 		"yuka-furusawa": "yuka-furusawa",
 		"jason-martinez": "jason-martinez",
 		"yuta-komatsuda": "yuta-komatsuda",
-		"origins-2008": "origins-2008",
 		"platinum": "platinum",
-		"worlds-2010": "worlds-2010",
 		"ross-cawthorn": "ross-cawthorn",
 		"gustavo-wada": "gustavo-wada",
 		"snowflake": "snowflake",
@@ -246,8 +243,8 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
@@ -268,5 +265,10 @@
 		"no-e-reader": "Sem e-Reader",
 		"rarity-error": "Erro de raridade",
 		"cosmos": "cosmos"
+	},
+	"stampPositioning": {
+		"left": "esquerda",
+		"right": "direita",
+		"center": "centro"
 	}
 }

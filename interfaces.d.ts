@@ -6,15 +6,6 @@ export type SupportedLanguages =
 
 export type Languages<T = string> = Partial<Record<SupportedLanguages, T>>
 
-export interface Serie {
-	id: string
-	name: Languages
-
-	/**
-	 * Serie Energy cards
-	 */
-	energies?: Array<Types>
-}
 
 export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
 export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
@@ -26,15 +17,34 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
 	| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
 	| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
-	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
-	| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
+	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'finalist'
+	| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two'
 	| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
-	| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
+	| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'platinum'
 	| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
+	| 'illustration-contest' | 'worlds' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
 	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection'
+
+
+export interface Serie {
+	id: string
+	name: Languages
+
+	/**
+	 * Serie Energy cards
+	 */
+	energies?: Array<Types>
+}
+
+
+interface StampDetail {
+	stamp: VariantStamps
+	detail?: number | ''
+	year?: number
+	positioning?: 'left' | 'right'
+}
 
 export interface variant_detailed {
 	/**
@@ -80,8 +90,7 @@ export interface variant_detailed {
 	 * - ace-trainer: a card that is stamped with a golden ACE TRAINER, won by getting 200 championship points in the season since 2025 season.
 	 * - player-rewards-program: a card that is stamped with the player reward logo, available in the yearly player rewards program (play! pokemon prize pack)
 	 */
-	stamp?: Array<VariantStamps>
-
+	stamp?: Array<VariantStamps | StampDetail>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */

@@ -188,7 +188,6 @@
 		"tom-roos": "tom-roos",
 		"pokemon-rocks-america": "pokemon-rocks-america",
 		"jun-hasebe": "jun-hasebe",
-		"origins": "origins",
 		"games-expo": "games-expo",
 		"kraze-club": "kraze-club",
 		"dylan-lefavour": "dylan-lefavour",
@@ -196,14 +195,14 @@
 		"paul-atanassov": "paul-atanassov",
 		"david-cohen": "david-cohen",
 		"tsubasa-nakamura": "tsubasa-nakamura",
-		"worlds-2007": "worlds-2007",
+		"worlds": "worlds",
+		"illustration-contest": "ilustration-contest",
+		"origins": "origins",
 		"finalist": "finalist",
 		"quarter-finalist": "quarter-finalist",
 		"semi-finalist": "semi-finalist",
 		"top-sixteen": "top-sixteen",
 		"top-thirty-two": "top-thirty-two",
-		"worlds-2008": "worlds-2008",
-		"worlds-2009": "worlds-2009",
 		"countdown-calendar": "countdown-calendar",
 		"michael-pramawat": "michael-pramawat",
 		"distributor-meeting": "distributor-meeting",
@@ -212,9 +211,7 @@
 		"yuka-furusawa": "yuka-furusawa",
 		"jason-martinez": "jason-martinez",
 		"yuta-komatsuda": "yuta-komatsuda",
-		"origins-2008": "origins-2008",
 		"platinum": "platinum",
-		"worlds-2010": "worlds-2010",
 		"ross-cawthorn": "ross-cawthorn",
 		"gustavo-wada": "gustavo-wada",
 		"christopher-kan": "christopher-kan",
@@ -226,9 +223,8 @@
 		"eb-games": "EB Games",
 		"snowflake": "Schneeflocke",
 		"horizons": "horizons",
-		"illustration-contest-2024": "illustration-contest-2024",
-		"worlds-2025": "worlds-2025",
 		"top-eight": "top-eight",
+		"illustration-contest-2024": "illustration-contest-2024",
 		"trick-or-trade": "trick-or-trade",
 		"champion": "champion",
 		"master-ball-league": "master-ball-league",
@@ -247,8 +243,8 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
@@ -269,5 +265,10 @@
 		"no-e-reader": "Kein e-Reader",
 		"rarity-error": "Seltenheitsfehler",
 		"cosmos": "cosmos"
+	},
+	"stampPositioning": {
+		"left": "links",
+		"right": "rechts",
+		"center": "mitte"
 	}
 }

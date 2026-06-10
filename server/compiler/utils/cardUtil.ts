@@ -1,11 +1,13 @@
 /* eslint-disable sort-keys */
 import pathLib from 'node:path'
-import { Card, Set, SupportedLanguages, Types, variant_detailed, VariantStamps, VariantType } from '../../../interfaces'
+
+import { Card, Set, SupportedLanguages, Types, variant_detailed, VariantStamps, VariantType, StampDetail } from '../../../interfaces'
 import { CardResume, Card as CardSingle, variant_detailed as ApiVariantDetailed } from '../../../meta/definitions/api'
 import { getSet, setToSetSimple } from './setUtil'
 import translate from './translationUtil'
 import { DB_PATH, cardIsLegal, fetchRemoteFile, getDataFolder, getLastEdit, resolveText, smartGlob } from './util'
 import { objectMap, objectPick } from '@dzeio/object-util'
+
 import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
@@ -37,15 +39,27 @@ export async function cardToCardSimple(id: string, card: Card, lang: SupportedLa
 
 function variantsDetailedToVariants(variants_detailed: Array<variant_detailed>): CardSingle['variants'] {
 	return {
-		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === '1st-edition')) ?? false,
+		firstEdition: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => {
+			if (typeof stamp === 'string') {
+				return stamp === '1st-edition'
+			} else {
+				return stamp.stamp === '1st-edition'
+			}
+		})) ?? false,
 		holo: variants_detailed?.some((variant) => variant.type === 'holo') ?? false,
 		normal: variants_detailed?.some((variant) => variant.type === 'normal') ?? false,
 		reverse: variants_detailed?.some((variant) => variant.type === 'reverse') ?? false,
-		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => stamp === 'w-Promo' as VariantStamps)) ?? false
+		wPromo: variants_detailed?.some((variant) => variant.stamp?.some((stamp) => {
+			if (typeof stamp === 'string') {
+				return stamp === 'w-promo'
+			} else {
+				return stamp.stamp === 'w-promo'
+			}
+		})) ?? false
 	}
 }
 
-function variantsToVariantsDetailed(variants: CardSingle['variants'],lang: SupportedLanguages): Array<ApiVariantDetailed> {
+function variantsToVariantsDetailed(variants: CardSingle['variants'], lang: SupportedLanguages): Array<ApiVariantDetailed> {
 	const result: Array<ApiVariantDetailed> = [];
 	const addVariant = (type: string, stamps: string[] = []) => {
 		result.push({
@@ -92,26 +106,25 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		rarity: translate('rarity', card.rarity, lang) as any,
 		set: await setToSetSimple(card.set, lang),
 
-		variants : Array.isArray(card.variants) ?
+		variants: Array.isArray(card.variants) ?
 			variantsDetailedToVariants(card.variants) : {
-			firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
-			holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : false,
-			normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
-			reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : false,
-			wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
-		},
+				firstEdition: typeof card.variants?.firstEdition === 'boolean' ? card.variants.firstEdition : false,
+				holo: typeof card.variants?.holo === 'boolean' ? card.variants.holo : false,
+				normal: typeof card.variants?.normal === 'boolean' ? card.variants.normal : true,
+				reverse: typeof card.variants?.reverse === 'boolean' ? card.variants.reverse : false,
+				wPromo: typeof card.variants?.wPromo === 'boolean' ? card.variants.wPromo : false
+			},
 
 		variants_detailed: Array.isArray(card.variants)
 			? await Promise.all(card.variants.map(async (variant, index) => {
 				const variantId = variantToIdentifier(variant);
-				let formattedVariant = formatVariant(variant,lang)
-
+				let formattedVariant = formatVariant(variant, lang)
 				return {
 					...formattedVariant,
 					variantId
 				} as ApiVariantDetailed
-			}))
-			: variantsToVariantsDetailed(card.variants, lang),
+			})) : variantsToVariantsDetailed(card.variants, lang),
+
 
 		dexId: card.dexId,
 		hp: card.hp,
