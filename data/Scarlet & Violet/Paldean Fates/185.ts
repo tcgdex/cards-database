@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -64,7 +70,10 @@ const card: Card = {
 
 	illustrator: "Misa Tsutsui",
 
-	
+	description: {
+		en: "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
+	},
+
 }
 
 export default card

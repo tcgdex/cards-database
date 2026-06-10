@@ -44,6 +44,12 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -60,7 +66,10 @@ const card: Card = {
 
 	illustrator: "Misa Tsutsui",
 
-	
+	description: {
+		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+	},
+
 }
 
 export default card

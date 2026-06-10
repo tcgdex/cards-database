@@ -44,6 +44,18 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +80,10 @@ const card: Card = {
 
 	illustrator: "Teeziro",
 
-	
+	description: {
+		en: "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
+	},
+
 }
 
 export default card

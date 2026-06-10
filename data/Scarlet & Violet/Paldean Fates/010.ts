@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -89,7 +95,10 @@ const card: Card = {
 
 	illustrator: "Hasuno",
 
-	
+	description: {
+		en: "Living in the crater of a volcano has caused this Pokémon's body to resemble its environment— it has an organ similar to a magma chamber.",
+	},
+
 }
 
 export default card

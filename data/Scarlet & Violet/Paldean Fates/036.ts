@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -88,7 +94,10 @@ const card: Card = {
 
 	illustrator: "Tika Matsuno",
 
-	
+	description: {
+		en: "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
+	},
+
 }
 
 export default card

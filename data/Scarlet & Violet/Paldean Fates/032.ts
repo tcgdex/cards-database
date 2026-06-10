@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +80,10 @@ const card: Card = {
 
 	illustrator: "Kagemaru Himeno",
 
-	
+	description: {
+		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon.",
+	},
+
 }
 
 export default card

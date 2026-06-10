@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -86,7 +92,10 @@ const card: Card = {
 
 	illustrator: "GIDORA",
 
-	
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+	},
+
 }
 
 export default card

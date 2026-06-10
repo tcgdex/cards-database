@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -88,7 +94,10 @@ const card: Card = {
 
 	illustrator: "Gemi",
 
-	
+	description: {
+		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+	},
+
 }
 
 export default card

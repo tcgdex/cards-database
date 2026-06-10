@@ -52,6 +52,18 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -76,7 +88,10 @@ const card: Card = {
 
 	illustrator: "Kouki Saitou",
 
-	
+	description: {
+		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
+	},
+
 }
 
 export default card

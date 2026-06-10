@@ -66,6 +66,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -82,7 +94,10 @@ const card: Card = {
 
 	illustrator: "Akira Komayama",
 
-	
+	description: {
+		en: "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+	},
+
 }
 
 export default card

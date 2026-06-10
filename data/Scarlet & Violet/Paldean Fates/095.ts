@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,7 +79,10 @@ const card: Card = {
 
 	illustrator: "Hitoshi Ariga",
 
-	
+	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+	},
+
 }
 
 export default card

@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -89,7 +95,10 @@ const card: Card = {
 
 	illustrator: "Mousho",
 
-	
+	description: {
+		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
+	},
+
 }
 
 export default card

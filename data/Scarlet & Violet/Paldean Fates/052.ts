@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -89,7 +95,10 @@ const card: Card = {
 
 	illustrator: "Sanosuke Sakuma",
 
-	
+	description: {
+		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+	},
+
 }
 
 export default card

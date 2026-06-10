@@ -52,6 +52,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -76,7 +82,10 @@ const card: Card = {
 
 	illustrator: "Ryuta Fuse",
 
-	
+	description: {
+		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
+	},
+
 }
 
 export default card

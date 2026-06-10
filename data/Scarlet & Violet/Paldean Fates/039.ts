@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -89,7 +95,10 @@ const card: Card = {
 
 	illustrator: "You Iribi",
 
-	
+	description: {
+		en: "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+	},
+
 }
 
 export default card

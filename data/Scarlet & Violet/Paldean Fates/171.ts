@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -90,7 +96,10 @@ const card: Card = {
 
 	illustrator: "Hitoshi Ariga",
 
-	
+	description: {
+		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+	},
+
 }
 
 export default card

@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -79,7 +85,10 @@ const card: Card = {
 
 	illustrator: "miki kudo",
 
-	
+	description: {
+		en: "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
+	},
+
 }
 
 export default card

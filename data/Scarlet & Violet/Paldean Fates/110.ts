@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -81,7 +87,10 @@ const card: Card = {
 
 	illustrator: "Kouki Saitou",
 
-	
+	description: {
+		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+	},
+
 }
 
 export default card

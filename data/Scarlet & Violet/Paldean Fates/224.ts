@@ -63,6 +63,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -79,7 +85,10 @@ const card: Card = {
 
 	illustrator: "Tetsu Kayama",
 
-	
+	description: {
+		en: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+	},
+
 }
 
 export default card

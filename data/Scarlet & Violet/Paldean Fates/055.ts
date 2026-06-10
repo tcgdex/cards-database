@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -79,7 +85,10 @@ const card: Card = {
 
 	illustrator: "Nobuhiro Imagawa",
 
-	
+	description: {
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+	},
+
 }
 
 export default card

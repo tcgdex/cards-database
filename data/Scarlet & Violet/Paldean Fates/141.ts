@@ -72,6 +72,12 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -88,7 +94,10 @@ const card: Card = {
 
 	illustrator: "GIDORA",
 
-	
+	description: {
+		en: "Many youths admire the way this Pokémon listlessly picks fights and keeps its cool no matter what opponent it faces.",
+	},
+
 }
 
 export default card

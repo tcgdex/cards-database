@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -81,7 +87,10 @@ const card: Card = {
 
 	illustrator: "Shin Nagasawa",
 
-	
+	description: {
+		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+	},
+
 }
 
 export default card

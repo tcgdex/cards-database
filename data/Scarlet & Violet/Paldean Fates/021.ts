@@ -65,6 +65,12 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -89,7 +95,10 @@ const card: Card = {
 
 	illustrator: "aspara",
 
-	
+	description: {
+		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+	},
+
 }
 
 export default card

@@ -64,6 +64,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -80,7 +86,10 @@ const card: Card = {
 
 	illustrator: "GOSSAN",
 
-	
+	description: {
+		en: "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
+	},
+
 }
 
 export default card

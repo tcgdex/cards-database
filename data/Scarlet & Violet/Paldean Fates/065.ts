@@ -74,6 +74,18 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -98,7 +110,10 @@ const card: Card = {
 
 	illustrator: "Anesaki Dynamic",
 
-	
+	description: {
+		en: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+	},
+
 }
 
 export default card

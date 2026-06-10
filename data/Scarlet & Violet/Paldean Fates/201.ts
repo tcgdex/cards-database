@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,7 +79,10 @@ const card: Card = {
 
 	illustrator: "0313",
 
-	
+	description: {
+		en: "Its transformation ability is perfect. However, if made to laugh, it can't maintain its disguise.",
+	},
+
 }
 
 export default card

@@ -55,6 +55,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -71,7 +83,10 @@ const card: Card = {
 
 	illustrator: "sowsow",
 
-	
+	description: {
+		en: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+	},
+
 }
 
 export default card

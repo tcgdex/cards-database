@@ -66,6 +66,12 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -82,7 +88,10 @@ const card: Card = {
 
 	illustrator: "Ryuta Fuse",
 
-	
+	description: {
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+	},
+
 }
 
 export default card

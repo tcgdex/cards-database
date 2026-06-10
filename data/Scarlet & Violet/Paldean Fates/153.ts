@@ -35,6 +35,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -51,7 +63,10 @@ const card: Card = {
 
 	illustrator: "yuu",
 
-	
+	description: {
+		en: "The horns on its head provide a strong power that enables it to sense people's emotions.",
+	},
+
 }
 
 export default card

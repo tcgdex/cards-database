@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -72,7 +78,10 @@ const card: Card = {
 
 	illustrator: "Atsuko Nishida",
 
-	
+	description: {
+		en: "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
+	},
+
 }
 
 export default card

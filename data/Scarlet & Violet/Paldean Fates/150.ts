@@ -40,6 +40,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
@@ -56,7 +62,10 @@ const card: Card = {
 
 	illustrator: "Mizue",
 
-	
+	description: {
+		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+	},
+
 }
 
 export default card

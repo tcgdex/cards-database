@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -81,7 +93,10 @@ const card: Card = {
 
 	illustrator: "nagimiso",
 
-	
+	description: {
+		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
+	},
+
 }
 
 export default card

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -68,7 +74,10 @@ const card: Card = {
 
 	illustrator: "Scav",
 
-	
+	description: {
+		en: "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
+	},
+
 }
 
 export default card

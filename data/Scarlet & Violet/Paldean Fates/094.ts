@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -81,7 +87,10 @@ const card: Card = {
 
 	illustrator: "0313",
 
-	
+	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+	},
+
 }
 
 export default card

@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -90,7 +96,10 @@ const card: Card = {
 
 	illustrator: "Shin Nagasawa",
 
-	
+	description: {
+		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+	},
+
 }
 
 export default card

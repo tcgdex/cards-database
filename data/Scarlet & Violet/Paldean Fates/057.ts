@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -98,7 +104,10 @@ const card: Card = {
 
 	illustrator: "Nelnal",
 
-	
+	description: {
+		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
+	},
+
 }
 
 export default card

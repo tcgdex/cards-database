@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,7 +79,10 @@ const card: Card = {
 
 	illustrator: "Souichirou Gunjima",
 
-	
+	description: {
+		en: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+	},
+
 }
 
 export default card

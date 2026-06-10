@@ -65,6 +65,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -81,7 +93,10 @@ const card: Card = {
 
 	illustrator: "Masakazu Fukuda",
 
-	
+	description: {
+		en: "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
+	},
+
 }
 
 export default card

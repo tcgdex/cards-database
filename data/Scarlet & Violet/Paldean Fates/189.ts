@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -71,7 +77,10 @@ const card: Card = {
 
 	illustrator: "otumami",
 
-	
+	description: {
+		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+	},
+
 }
 
 export default card

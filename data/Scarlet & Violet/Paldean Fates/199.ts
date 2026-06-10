@@ -44,6 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -60,7 +72,10 @@ const card: Card = {
 
 	illustrator: "Saya Tsuruta",
 
-	
+	description: {
+		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+	},
+
 }
 
 export default card

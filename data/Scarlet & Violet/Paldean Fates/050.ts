@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -79,7 +85,10 @@ const card: Card = {
 
 	illustrator: "ryoma uratsuka",
 
-	
+	description: {
+		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
+	},
+
 }
 
 export default card

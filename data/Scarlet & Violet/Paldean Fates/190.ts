@@ -72,6 +72,12 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -88,7 +94,10 @@ const card: Card = {
 
 	illustrator: "Scav",
 
-	
+	description: {
+		en: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+	},
+
 }
 
 export default card

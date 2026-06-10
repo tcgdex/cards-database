@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -90,7 +96,10 @@ const card: Card = {
 
 	illustrator: "Kouki Saitou",
 
-	
+	description: {
+		en: "Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.",
+	},
+
 }
 
 export default card

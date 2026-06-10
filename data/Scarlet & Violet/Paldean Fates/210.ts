@@ -65,6 +65,12 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -81,7 +87,10 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 
-	
+	description: {
+		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+	},
+
 }
 
 export default card

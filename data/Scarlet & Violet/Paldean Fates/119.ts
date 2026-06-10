@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -81,7 +87,10 @@ const card: Card = {
 
 	illustrator: "Shigenori Negishi",
 
-	
+	description: {
+		en: "Starmie swims by spinning its body at high speed. As this Pokémon cruises through the ocean, it absorbs tiny plankton.",
+	},
+
 }
 
 export default card

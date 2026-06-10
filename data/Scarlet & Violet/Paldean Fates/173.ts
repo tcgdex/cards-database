@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -73,7 +79,10 @@ const card: Card = {
 
 	illustrator: "sowsow",
 
-	
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+	},
+
 }
 
 export default card
