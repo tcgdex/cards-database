@@ -47,6 +47,18 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Tomomi Ozaki",
