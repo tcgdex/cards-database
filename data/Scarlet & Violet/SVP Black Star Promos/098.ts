@@ -80,7 +80,7 @@ const card: Card = {
 			}
 		},
 	],
-	illustrator: "Tonji Matsuno"
+	illustrator: "Tonji Matsuno",
 
 	description: {
 		en: "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
