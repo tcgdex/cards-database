@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
+	},
+
 	variants: [
 		{
 			type: "normal",

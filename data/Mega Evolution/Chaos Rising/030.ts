@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The energy made in its cheeks' electric pouches is stored inside its patagial membranes and released while it is gliding.",
+	},
+
 	variants: [
 		{
 			type: "normal",

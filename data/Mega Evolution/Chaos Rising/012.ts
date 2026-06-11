@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
+	},
+
 	variants: [
 		{
 			type: "normal",

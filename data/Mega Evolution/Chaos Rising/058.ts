@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
+	},
+
 	variants: [
 		{
 			type: "normal",

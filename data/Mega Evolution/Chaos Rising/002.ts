@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+	},
+
 	variants: [
 		{
 			type: "normal",

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+	},
+
 	variants: [
 		{
 			type: "normal",

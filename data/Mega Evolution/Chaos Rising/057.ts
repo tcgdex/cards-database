@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+	},
+
 	variants: [
 		{
 			type: "normal",

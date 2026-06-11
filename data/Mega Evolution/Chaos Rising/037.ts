@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+	},
+
 	variants: [
 		{
 			type: "normal",

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Keldeo has strengthened its resolve for battle filling its body with power and changing its form.",
+	},
+
 	variants: [
 		{
 			type: "normal",

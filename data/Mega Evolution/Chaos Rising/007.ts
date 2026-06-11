@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+	},
+
 	variants: [
 		{
 			type: "normal",

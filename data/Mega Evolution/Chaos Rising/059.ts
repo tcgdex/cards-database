@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
+	},
+
 	variants: [
 		{
 			type: "normal",

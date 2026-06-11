@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+	},
+
 	variants: [
 		{
 			type: "normal",

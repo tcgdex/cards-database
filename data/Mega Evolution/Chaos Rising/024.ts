@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its ice-covered body is as hard as steel. Its enormous frame crushes anything that stands in its way.",
+	},
+
 	variants: [
 		{
 			type: "normal",

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+	},
+
 	variants: [
 		{
 			type: "normal",

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+	},
+
 	variants: [
 		{
 			type: "normal",

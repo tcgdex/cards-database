@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The water they shoot from their mouths can hit moving prey from more than 300 feet away.",
+	},
+
 	variants: [
 		{
 			type: "normal",

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
+	},
+
 	variants: [
 		{
 			type: "normal",

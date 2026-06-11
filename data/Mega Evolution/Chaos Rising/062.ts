@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
+	},
+
 	variants: [
 		{
 			type: "normal",

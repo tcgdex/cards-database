@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "They fight each other by locking horns. The herd's protectors take pride in their battle-scarred horns.",
+	},
+
 	variants: [
 		{
 			type: "normal",
