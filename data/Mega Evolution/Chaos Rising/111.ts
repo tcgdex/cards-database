@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886504,
-				tcgplayer: 693535
-			}
-		},
-	],
 
 	name: {
 		en: "Prism Tower",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 2 Karten aus seiner Hand auf seinen Ablagestapel legen, um 1 Karte zu ziehen.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare due carte che ha in mano per pescare una carta.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá descartar 2 cartas da própria mão para comprar uma carta."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886504,
+				tcgplayer: 693535
+			}
+		},
+	],
 }
 
 export default card

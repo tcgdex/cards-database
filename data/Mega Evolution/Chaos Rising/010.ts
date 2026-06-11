@@ -4,16 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886402,
-				tcgplayer: 693500
-			}
-		},
-	],
-
 	name: {
 		en: "Ho-Oh",
 		fr: "Ho-Oh",
@@ -86,6 +76,30 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886402,
+				tcgplayer: 693500
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 886625
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 888580
+			}
+		},
+	],
 }
 
 export default card

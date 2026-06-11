@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886464,
-				tcgplayer: 693525
-			}
-		},
-	],
 
 	name: {
 		en: "Minccino",
@@ -64,6 +55,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886464,
+				tcgplayer: 693525
+			}
+		},
+	],
 }
 
 export default card

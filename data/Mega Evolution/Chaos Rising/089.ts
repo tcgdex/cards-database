@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886481,
-				tcgplayer: 693491
-			}
-		},
-	],
 
 	name: {
 		en: "Frogadier",
@@ -81,6 +72,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886481,
+				tcgplayer: 693491
+			}
+		},
+	],
 }
 
 export default card

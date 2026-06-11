@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886444,
-				tcgplayer: 693538
-			}
-		},
-	],
 
 	name: {
 		en: "Qwilfish",
@@ -88,6 +79,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886444,
+				tcgplayer: 693538
+			}
+		},
+	],
 }
 
 export default card

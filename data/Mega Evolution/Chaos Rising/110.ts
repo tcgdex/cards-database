@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886502,
-				tcgplayer: 693533
-			}
-		},
-	],
 
 	name: {
 		en: "Philippe",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Lege bis zu 2 Basis-{M}-Energiekarten aus deinem Ablagestapel an 1 deiner {M}-Pokémon an.",
 		it: "Assegna a uno dei tuoi Pokémon {M} fino a due carte Energia base {M} dalla tua pila degli scarti.",
 		pt: "Ligue até 2 cartas de Energia {M} Básica da sua pilha de descarte a 1 dos seus Pokémon {M}."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886502,
+				tcgplayer: 693533
+			}
+		},
+	],
 }
 
 export default card

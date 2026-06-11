@@ -4,16 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886401,
-				tcgplayer: 693526
-			}
-		},
-	],
-
 	name: {
 		en: "Ninetales",
 		fr: "Feunard",
@@ -81,6 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886401,
+				tcgplayer: 693526
+			}
+		},
+	],
 }
 
 export default card

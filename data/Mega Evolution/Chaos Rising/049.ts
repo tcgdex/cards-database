@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886441,
-				tcgplayer: 693565
-			}
-		},
-	],
 
 	name: {
 		en: "Zubat",
@@ -68,6 +59,16 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886441,
+				tcgplayer: 693565
+			}
+		},
+	],
 }
 
 export default card

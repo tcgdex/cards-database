@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886508,
-				tcgplayer: 693554
-			}
-		},
-	],
 
 	name: {
 		en: "Tool Scrapper",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Wähle bis zu 2 an Pokémon (deine oder die deines Gegners) angelegte Pokémon-Ausrüstungen und lege sie auf den Ablagestapel.",
 		it: "Scegli fino a due carte Oggetto Pokémon assegnate ai Pokémon, tuoi o del tuo avversario, e scartale.",
 		pt: "Escolha até 2 Ferramentas Pokémon ligadas a Pokémon (seus ou do seu oponente) e descarte-as."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886508,
+				tcgplayer: 693554
+			}
+		},
+	],
 }
 
 export default card

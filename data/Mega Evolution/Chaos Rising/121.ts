@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886514,
-				tcgplayer: 693542
-			}
-		},
-	],
 
 	name: {
 		en: "Roxie's Performance",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Während des nächsten Zuges deines Gegners können sich seine vergifteten Pokémon nicht zurückziehen. (Dies schließt Pokémon ein, die neu vergiftet werden.)",
 		it: "Durante il prossimo turno del tuo avversario, il suo Pokémon avvelenato non può ritirarsi. Questo include i Pokémon che sono stati appena avvelenati.",
 		pt: "Durante o próximo turno do seu oponente, os Pokémon Envenenados dele não poderão recuar. (Isso inclui Pokémon recém-Envenenados.)"
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886514,
+				tcgplayer: 693542
+			}
+		},
+	],
 }
 
 export default card
