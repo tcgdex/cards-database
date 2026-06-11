@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886506,
-				tcgplayer: 693548
-			}
-		},
-	],
 
 	name: {
 		en: "Special Red Card",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Du kannst diese Karte nur einsetzen, wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat.\n\nDein Gegner mischt seine Handkarten und legt sie unter sein Deck. Wenn er auf diese Weise mindestens 1 Karte unter sein Deck gelegt hat, zieht er 3 Karten.",
 		it: "Puoi usare questa carta solo se il tuo avversario ha tre o meno carte Premio rimanenti.\n\nIl tuo avversario rimischia le carte che ha in mano e le mette in fondo al proprio mazzo. Se mette delle carte in fondo al proprio mazzo in questo modo, il tuo avversario pesca tre carte.",
 		pt: "Você só poderá usar esta carta se o seu oponente tiver 3 ou menos cartas de Prêmio restantes.\n\nSeu oponente embaralha a mão dele e a coloca como as cartas de baixo do baralho dele. Se o seu oponente colocar quaisquer cartas como as cartas de baixo do baralho dele desta forma, ele comprará 3 cartas."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886506,
+				tcgplayer: 693548
+			}
+		},
+	],
 }
 
 export default card

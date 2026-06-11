@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886478,
-				tcgplayer: 693527
-			}
-		},
-	],
 
 	name: {
 		en: "Nitro Fire Energy",
@@ -37,7 +28,17 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {R}-Energie.\n\nWenn diese Karte durch einen Effekt einer von dem {R}-Pokémon, an das diese Karte angelegt ist, eingesetzten Attacke auf deinen Ablagestapel gelegt wird, nimm diese Karte nach Attackenschaden und Effekten auf deine Hand.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia {R}.\n\nSe questa carta viene scartata per effetto di un attacco usato dal Pokémon {R} a cui è assegnata, aggiungila alle carte che hai in mano dopo i danni e gli effetti dell'attacco.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia {R}.\n\nSe esta carta for descartada pelo efeito de um ataque usado pelo Pokémon {R} ao qual esta carta está ligada, coloque esta carta na sua mão após o dano e os efeitos do ataque."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886478,
+				tcgplayer: 693527
+			}
+		},
+	],
 }
 
 export default card

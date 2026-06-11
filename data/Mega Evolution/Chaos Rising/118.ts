@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886511,
-				tcgplayer: 693510
-			}
-		},
-	],
 
 	name: {
 		en: "Mega Dragalge ex",
@@ -86,6 +77,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886511,
+				tcgplayer: 693510
+			}
+		},
+	],
 }
 
 export default card

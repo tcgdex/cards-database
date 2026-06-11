@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886503,
-				tcgplayer: 693501
-			}
-		},
-	],
 
 	name: {
 		en: "Jumbo Ice Cream",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Heile 80 Schadenspunkte bei deinem Aktiven Pokémon, an das 3 oder mehr Energien angelegt sind.",
 		it: "Cura il tuo Pokémon attivo che ha tre o più Energie assegnate da 80 danni.",
 		pt: "Cure 80 pontos de dano do seu Pokémon Ativo que tiver 3 ou mais Energias ligadas a ele."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886503,
+				tcgplayer: 693501
+			}
+		},
+	],
 }
 
 export default card

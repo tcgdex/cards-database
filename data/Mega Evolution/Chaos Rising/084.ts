@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886476,
-				tcgplayer: 693458
-			}
-		},
-	],
 
 	name: {
 		en: "Bubbly Water Energy",
@@ -37,7 +28,17 @@ const card: Card = {
 		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {W}-Energie.\n\nDas {W}-Pokémon, an das diese Karte angelegt ist, erholt sich von allen Speziellen Zuständen und kann nicht von Speziellen Zuständen betroffen werden.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia {W}.\n\nIl Pokémon {W} a cui è assegnata questa carta guarisce da tutte le condizioni speciali e non può esserne influenzato.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia {W}.\n\nO Pokémon {W} ao qual esta carta está ligada se recupera de todas as Condições Especiais e não pode ser afetado por quaisquer Condições Especiais."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886476,
+				tcgplayer: 693458
+			}
+		},
+	],
 }
 
 export default card

@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886452,
-				tcgplayer: 693523
-			}
-		},
-	],
 
 	name: {
 		en: "Metang",
@@ -87,6 +78,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886452,
+				tcgplayer: 693523
+			}
+		},
+	],
 }
 
 export default card
