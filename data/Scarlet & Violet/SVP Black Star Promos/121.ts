@@ -74,7 +74,12 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Nisota Niso"
+	illustrator: "Nisota Niso",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

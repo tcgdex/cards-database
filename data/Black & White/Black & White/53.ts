@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 279791,
 		tcgplayer: 90570

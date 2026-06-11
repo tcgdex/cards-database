@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
+	},
+
 	thirdParty: {
 		cardmarket: 280040,
 		tcgplayer: 86475

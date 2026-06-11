@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
+	},
 
 	variants: [
 		{

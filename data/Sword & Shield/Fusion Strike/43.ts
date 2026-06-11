@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",

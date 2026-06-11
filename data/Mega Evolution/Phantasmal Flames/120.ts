@@ -30,14 +30,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+	illustrator: "GIDORA",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857695,
-				tcgplayer: 662167
+				tcgplayer: 662167,
+				cardtrader: 356906
 			}
-		}
+		},
 	],
 }
 

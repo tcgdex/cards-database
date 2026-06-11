@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",

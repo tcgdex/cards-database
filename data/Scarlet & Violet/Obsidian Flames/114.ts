@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon punches trees and eats the berries that drop down, training itself and getting food at the same time.",
+	},
 
 	variants: [
 		{

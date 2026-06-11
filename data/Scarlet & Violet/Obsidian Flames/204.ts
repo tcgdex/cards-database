@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+	},
 
 	variants: [
 		{

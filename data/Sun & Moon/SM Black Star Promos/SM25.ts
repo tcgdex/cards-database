@@ -80,6 +80,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
+	},
 }
 
 export default card

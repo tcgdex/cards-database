@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -64,6 +70,10 @@ const card: Card = {
 		"normal": false,
 		"reverse": true,
 		"holo": true
+	},
+
+	description: {
+		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
 	},
 
 	thirdParty: {

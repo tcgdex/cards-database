@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon.",
+	},
+
 	thirdParty: {
 		cardmarket: 293360,
 		tcgplayer: 124016

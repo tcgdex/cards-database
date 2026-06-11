@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+	},
 
 	variants: [
 		{

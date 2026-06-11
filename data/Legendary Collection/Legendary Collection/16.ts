@@ -62,6 +62,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+	},
 
 	thirdParty: {
 		cardmarket: 274781,

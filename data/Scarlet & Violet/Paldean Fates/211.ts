@@ -66,19 +66,38 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751750,
+				tcgplayer: 535217,
+				cardtrader: 274396
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 751750
-	}
+	description: {
+		en: "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+	},
+
 }
 
 export default card

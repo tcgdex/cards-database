@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Found at the mouths of volcanoes and extremely hard to spot. There are very few instances of capturing this Pokémon.",

@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+	},
+
 	thirdParty: {
 		cardmarket: 279818,
 		tcgplayer: 86798

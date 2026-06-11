@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Thought to be an embodiment of the sun, it appeared during a bitterly cold winter and saved Pokémon from freezing.",
+	},
+
 	thirdParty: {
 		cardmarket: 281034,
 		tcgplayer: 90405

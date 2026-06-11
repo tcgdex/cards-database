@@ -74,19 +74,32 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751654,
+				tcgplayer: 534497,
+				cardtrader: 274299
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 751654
-	}
+	description: {
+		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+	},
+
 }
 
 export default card

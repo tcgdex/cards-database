@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
+	},
+
 	thirdParty: {
 		cardmarket: 291639,
 		tcgplayer: 121202

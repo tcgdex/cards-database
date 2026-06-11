@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food.",
+	},
+
 	thirdParty: {
 		cardmarket: 365696,
 		tcgplayer: 178864

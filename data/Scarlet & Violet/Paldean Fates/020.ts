@@ -55,18 +55,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751549,
+				tcgplayer: 534166,
+				cardtrader: 274204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751549,
+				tcgplayer: 534166,
+				cardtrader: 274204
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
-	thirdParty: {
-		cardmarket: 751549
-	}
+	description: {
+		en: "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+	},
+
 }
 
 export default card

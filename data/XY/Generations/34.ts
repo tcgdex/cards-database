@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It licks with its gaseous tongue to steal the victim's life force. It lurks in darkness for prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 288472,
 		tcgplayer: 113692

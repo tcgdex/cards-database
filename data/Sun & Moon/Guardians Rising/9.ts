@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
+	},
+
 	thirdParty: {
 		cardmarket: 297473,
 		tcgplayer: 130694

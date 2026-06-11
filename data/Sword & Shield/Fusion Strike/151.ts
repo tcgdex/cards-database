@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Shigenori Negishi",

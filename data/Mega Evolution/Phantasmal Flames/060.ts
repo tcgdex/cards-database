@@ -51,21 +51,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Shin Nagasawa",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857635,
-				tcgplayer: 662140
+				tcgplayer: 662140,
+				cardtrader: 356844
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857635,
-				tcgplayer: 662140
+				tcgplayer: 662140,
+				cardtrader: 356844
 			}
-		}
+		},
 	],	
 }
 

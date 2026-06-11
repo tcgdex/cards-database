@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "Tika Matsuno",
+
+	description: {
+		en: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+	},
 
 	thirdParty: {
         cardmarket: 702351,

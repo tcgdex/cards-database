@@ -74,20 +74,36 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751780,
+				tcgplayer: 535085,
+				cardtrader: 274417
+			}
+		},
+	],
 
 	suffix: "ex",
 	illustrator: "Kuroimori",
 
-	thirdParty: {
-		cardmarket: 751780
-	}
+	
 }
 
 export default card

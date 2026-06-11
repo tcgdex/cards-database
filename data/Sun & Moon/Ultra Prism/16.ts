@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
+	},
+
 	thirdParty: {
 		cardmarket: 315947,
 		tcgplayer: 157633

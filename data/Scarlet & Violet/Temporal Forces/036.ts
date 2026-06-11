@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+	},
 
 	variants: [
 		{

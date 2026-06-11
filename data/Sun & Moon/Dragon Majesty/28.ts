@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
+	},
+
 	thirdParty: {
 		cardmarket: 363500,
 		tcgplayer: 175403

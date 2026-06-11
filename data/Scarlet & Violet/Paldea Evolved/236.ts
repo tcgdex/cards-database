@@ -66,20 +66,30 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715711,
+				tcgplayer: 497642,
+				cardtrader: 248889
+			}
+		},
+	],
 
 	suffix: "ex",
 	illustrator: "aky CG Works",
 
-	thirdParty: {
-		cardmarket: 715711
-	}
+	
 }
 
 export default card

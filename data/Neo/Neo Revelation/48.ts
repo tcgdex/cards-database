@@ -80,6 +80,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",

@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
+	},
+
 	thirdParty: {
 		cardmarket: 280882,
 		tcgplayer: 85350

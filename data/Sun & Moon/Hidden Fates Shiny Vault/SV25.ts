@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+	},
 }
 
 export default card

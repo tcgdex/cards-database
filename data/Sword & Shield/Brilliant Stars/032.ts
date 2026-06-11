@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -56,6 +62,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
 	},
 
 	thirdParty: {

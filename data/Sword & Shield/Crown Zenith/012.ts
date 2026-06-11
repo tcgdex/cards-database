@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -72,6 +78,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
 	},
 
 	thirdParty: {

@@ -61,6 +61,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It has the ability to alter the composition of its body to suit its surrounding environment.",
+	},
 
 	thirdParty: {
 		cardmarket: 279699,

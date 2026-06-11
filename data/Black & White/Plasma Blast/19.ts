@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a tendency to want to be in holes. It prefers rock crags or pots and sprays ink from them before attacking.",
+	},
+
 	thirdParty: {
 		cardmarket: 281040,
 		tcgplayer: 87835

@@ -65,18 +65,46 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751561,
+				tcgplayer: 534174,
+				cardtrader: 274212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751561,
+				tcgplayer: 534174,
+				cardtrader: 274212
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 751561
-	}
+	description: {
+		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+	},
+
 }
 
 export default card

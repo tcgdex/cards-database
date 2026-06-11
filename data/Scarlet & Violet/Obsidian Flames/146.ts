@@ -74,8 +74,24 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
+	},
 
 	variants: [
 		{

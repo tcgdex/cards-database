@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -62,6 +68,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "The egg Chansey carries is not only delicious but also packed with nutrition. It's used as a high-class cooking ingredient.",
 	},
 
 	thirdParty: {

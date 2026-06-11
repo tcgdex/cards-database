@@ -67,6 +67,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish-blue.",

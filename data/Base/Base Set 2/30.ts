@@ -71,6 +71,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
 		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",

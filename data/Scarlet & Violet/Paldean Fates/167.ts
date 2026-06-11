@@ -74,19 +74,32 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751706,
+				tcgplayer: 534704,
+				cardtrader: 274352
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 751706
-	}
+	description: {
+		en: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+	},
+
 }
 
 export default card

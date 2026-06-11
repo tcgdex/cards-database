@@ -57,19 +57,31 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715694,
+				tcgplayer: 497622,
+				cardtrader: 248871
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 715694
-	}
+	description: {
+		en: "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+	},
 }
 
 export default card

@@ -35,8 +35,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Small but brave, this Pokémon will hold its ground and even risk its life in battle to protect the female it's friendly with.",
+	},
 
 	variants: [
 		{

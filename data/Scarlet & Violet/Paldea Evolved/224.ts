@@ -66,19 +66,37 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715699,
+				tcgplayer: 497627,
+				cardtrader: 248876
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 715699
-	}
+	description: {
+		en: "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+	},
 }
 
 export default card

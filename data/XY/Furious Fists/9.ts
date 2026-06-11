@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+	},
+
 	thirdParty: {
 		cardmarket: 281673,
 		tcgplayer: 92178

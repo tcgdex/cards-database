@@ -56,19 +56,32 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751675,
+				tcgplayer: 534529,
+				cardtrader: 274319
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 751675
-	}
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+	},
+
 }
 
 export default card

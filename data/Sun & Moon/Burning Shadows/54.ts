@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+	},
+
 	thirdParty: {
 		cardmarket: 299458,
 		tcgplayer: 138536

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It carries food all day long. When someone is lost in the mountains, it shares that food.",
+	},
+
 	thirdParty: {
 		cardmarket: 280625,
 		tcgplayer: 84751

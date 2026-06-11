@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It evolves by sucking the energy out of the small ball where it had been storing nutrients.",
+	},
+
 	thirdParty: {
 		cardmarket: 315942,
 		tcgplayer: 157627

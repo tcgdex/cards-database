@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "D",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
 	},
 
 	thirdParty: {

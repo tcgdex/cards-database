@@ -71,6 +71,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When it walks around on the ground, it coats its body with a slimy, poisonous film.",

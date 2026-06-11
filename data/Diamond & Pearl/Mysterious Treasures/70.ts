@@ -64,6 +64,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It uses its tail to pluck fruits that are out of reach. Its tail is more adept than its real hands.",

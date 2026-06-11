@@ -51,21 +51,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "Naoyo Kimura",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857651,
-				tcgplayer: 662171
+				tcgplayer: 662171,
+				cardtrader: 356862
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857651,
-				tcgplayer: 662171
+				tcgplayer: 662171,
+				cardtrader: 356862
 			}
-		}
+		},
 	],
 }
 

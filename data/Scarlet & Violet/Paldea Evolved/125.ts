@@ -35,18 +35,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715600,
+				tcgplayer: 497540,
+				cardtrader: 248772
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715600,
+				tcgplayer: 497540,
+				cardtrader: 248772
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 715600
-	}
+	description: {
+		en: "It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.",
+	},
 }
 
 export default card

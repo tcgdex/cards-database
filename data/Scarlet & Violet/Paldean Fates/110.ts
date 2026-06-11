@@ -65,19 +65,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751649,
+				tcgplayer: 534484,
+				cardtrader: 274294
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 751649
-	}
+	description: {
+		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+	},
+
 }
 
 export default card

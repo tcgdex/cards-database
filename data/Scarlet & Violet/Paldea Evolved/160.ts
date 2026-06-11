@@ -42,18 +42,46 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715635,
+				tcgplayer: 497578,
+				cardtrader: 248803
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 858718
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715635,
+				tcgplayer: 497578,
+				cardtrader: 248803
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 715635
-	}
+	description: {
+		en: "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
+	},
 }
 
 export default card

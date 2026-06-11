@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+	},
+
 	thirdParty: {
 		cardmarket: 281681,
 		tcgplayer: 92192

@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
+	},
+
 	thirdParty: {
 		cardmarket: 280046,
 		tcgplayer: 90015

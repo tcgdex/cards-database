@@ -63,6 +63,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -71,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
+
+	description: {
+		en: "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
+	},
 
 	thirdParty: {
         cardmarket: 702307,

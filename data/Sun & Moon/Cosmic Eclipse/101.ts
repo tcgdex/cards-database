@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The king who ruled Alola in times of antiquity called it the \"cocoon of the stars\" and built an altar to worship it.",
+	},
+
 	thirdParty: {
 		cardmarket: 408149,
 		tcgplayer: 201276

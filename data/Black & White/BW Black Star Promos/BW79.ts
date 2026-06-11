@@ -74,6 +74,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
+	},
 }
 
 export default card

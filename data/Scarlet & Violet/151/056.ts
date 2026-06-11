@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+	},
 
 	variants: [
 		{

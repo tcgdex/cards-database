@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+	},
 
 	variants: [
 		{

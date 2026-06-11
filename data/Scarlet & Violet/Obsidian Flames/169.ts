@@ -55,8 +55,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+	},
 
 	variants: [
 		{

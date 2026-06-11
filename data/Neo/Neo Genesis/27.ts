@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It spins string not only from its rear but also from its mouth. It's hard to tell which end is which.",

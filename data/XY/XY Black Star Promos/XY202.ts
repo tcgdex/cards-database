@@ -71,6 +71,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+	},
 
 	thirdParty: {
 		cardmarket: 289809

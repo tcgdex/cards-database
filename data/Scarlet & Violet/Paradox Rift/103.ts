@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+	},
 
 	variants: [
 		{

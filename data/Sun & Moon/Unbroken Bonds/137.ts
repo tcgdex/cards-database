@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+	},
+
 	thirdParty: {
 		cardmarket: 372424,
 		tcgplayer: 189235

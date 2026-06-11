@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+	},
 
 	variants: [
 		{

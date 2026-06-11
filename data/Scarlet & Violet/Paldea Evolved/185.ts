@@ -29,9 +29,25 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 715660
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715660,
+				tcgplayer: 497557,
+				cardtrader: 248837
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715660,
+				tcgplayer: 497557,
+				cardtrader: 248837
+			}
+		},
+	],
+
 }
 
 export default card

@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "From the food it digests, it generates electricity, and it stores this energy in its electric sac.",
+	},
+
 	thirdParty: {
 		cardmarket: 295362,
 		tcgplayer: 126922

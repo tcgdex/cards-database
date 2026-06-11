@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+	},
+
 	thirdParty: {
 		cardmarket: 273536,
 		tcgplayer: 95889

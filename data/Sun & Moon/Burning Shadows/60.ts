@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck to dust.",
+	},
+
 	thirdParty: {
 		cardmarket: 299464,
 		tcgplayer: 138542

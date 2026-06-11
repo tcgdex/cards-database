@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It has recently been found that Grimers are formed in waste-processing plants, and can move into towns via sewers.",

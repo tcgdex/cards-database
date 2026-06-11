@@ -74,6 +74,12 @@ const card: Card = {
 		damage: "140×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 

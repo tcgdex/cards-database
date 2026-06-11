@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don't take it lightly.",
+	},
+
 	thirdParty: {
 		cardmarket: 311915,
 		tcgplayer: 149091

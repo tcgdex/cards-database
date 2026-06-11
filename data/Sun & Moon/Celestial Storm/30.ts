@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Oricorio has sipped red nectar. Its passionate dance moves cause its enemies to combust in both body and mind.",
+	},
+
 	thirdParty: {
 		cardmarket: 361277,
 		tcgplayer: 170845

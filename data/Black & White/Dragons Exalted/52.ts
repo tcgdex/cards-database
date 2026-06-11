@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+	},
+
 	thirdParty: {
 		cardmarket: 280491,
 		tcgplayer: 89206

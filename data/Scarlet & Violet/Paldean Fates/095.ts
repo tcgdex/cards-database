@@ -57,19 +57,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751634,
+				tcgplayer: 534463,
+				cardtrader: 274279
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 751634
-	}
+	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+	},
+
 }
 
 export default card

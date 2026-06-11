@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+	},
 
 	variants: [
 		{

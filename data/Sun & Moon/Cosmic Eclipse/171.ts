@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+	},
+
 	thirdParty: {
 		cardmarket: 408479,
 		tcgplayer: 201293

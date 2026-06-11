@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 279661,
 		tcgplayer: 87904

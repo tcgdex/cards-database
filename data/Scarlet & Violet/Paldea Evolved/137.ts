@@ -57,18 +57,39 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715612,
+				tcgplayer: 497635,
+				cardtrader: 248794
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715612,
+				tcgplayer: 497635,
+				cardtrader: 248794
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 715612
-	}
+	description: {
+		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+	},
 }
 
 export default card

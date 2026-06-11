@@ -57,18 +57,45 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715565,
+				tcgplayer: 497505,
+				cardtrader: 248717
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715565,
+				tcgplayer: 497505,
+				cardtrader: 248717
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 715565
-	}
+	description: {
+		en: "This Pokémon is normally very innocent. When it is staring at something invisible, it is unblinking and utterly silent.",
+	},
 }
 
 export default card

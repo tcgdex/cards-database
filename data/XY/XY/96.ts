@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+	},
+
 	thirdParty: {
 		cardmarket: 281433,
 		tcgplayer: 90669

@@ -73,6 +73,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 274785,
 		tcgplayer: 83768

@@ -66,8 +66,24 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+	},
 
 	variants: [
 		{

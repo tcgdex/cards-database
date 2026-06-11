@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 281717,
 		tcgplayer: 92230

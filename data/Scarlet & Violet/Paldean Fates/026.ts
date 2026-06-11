@@ -65,18 +65,46 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751559,
+				tcgplayer: 534171,
+				cardtrader: 274210
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751559,
+				tcgplayer: 534171,
+				cardtrader: 274210
+			}
+		},
+	],
 
 	illustrator: "DOM",
 
-	thirdParty: {
-		cardmarket: 751559
-	}
+	description: {
+		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
+	},
+
 }
 
 export default card

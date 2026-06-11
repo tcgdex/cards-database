@@ -52,8 +52,18 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places.",
+	},
 
 	variants: [
 		{

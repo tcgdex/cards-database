@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+	},
+
 	thirdParty: {
 		cardmarket: 281003,
 		tcgplayer: 84903

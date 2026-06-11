@@ -68,6 +68,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It sets a trap by spinning a web with thin but strong silk. It waits motionlessly for prey to arrive.",

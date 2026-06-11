@@ -79,6 +79,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
 		en: "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",

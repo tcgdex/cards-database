@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -65,6 +71,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
 	},
 
 	thirdParty: {

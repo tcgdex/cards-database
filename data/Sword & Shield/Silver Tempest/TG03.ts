@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
@@ -75,6 +81,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches.",
 	},
 
 	thirdParty: {

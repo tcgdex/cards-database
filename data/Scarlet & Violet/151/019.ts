@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
+	},
 
 	variants: [
 		{

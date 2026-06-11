@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Three Magnemites are linked by a strong magnetic force. Earaches will occur if you get too close.",

@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "Aerodactyl's sawlike fangs can shred skin to tatters—even the skin of Steel-type Pokémon.",
+	},
 
 	variants: [
 		{

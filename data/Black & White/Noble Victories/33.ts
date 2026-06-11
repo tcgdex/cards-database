@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 280155,
 		tcgplayer: 84513

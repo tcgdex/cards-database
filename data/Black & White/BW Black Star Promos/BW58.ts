@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+	},
 }
 
 export default card

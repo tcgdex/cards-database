@@ -44,18 +44,39 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715613,
+				tcgplayer: 497638,
+				cardtrader: 248795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715613,
+				tcgplayer: 497638,
+				cardtrader: 248795
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 715613
-	}
+	description: {
+		en: "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you.",
+	},
 }
 
 export default card

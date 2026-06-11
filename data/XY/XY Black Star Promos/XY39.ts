@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
+	},
+
 	thirdParty: {
 		cardmarket: 289702
 	}

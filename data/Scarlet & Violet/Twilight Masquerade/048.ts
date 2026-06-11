@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "A rough customer that wildly flails its giant claws. It is said to be extremely hard to raise.",
+	},
 
 	variants: [
 		{

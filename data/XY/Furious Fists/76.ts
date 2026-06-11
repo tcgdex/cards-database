@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand.",
+	},
+
 	thirdParty: {
 		cardmarket: 281740,
 		tcgplayer: 92256

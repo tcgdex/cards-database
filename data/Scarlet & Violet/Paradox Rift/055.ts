@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+	},
 
 	variants: [
 		{

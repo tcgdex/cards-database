@@ -56,6 +56,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",

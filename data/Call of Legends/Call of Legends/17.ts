@@ -70,6 +70,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years.",
+	},
 
 	thirdParty: {
 		cardmarket: 279660,

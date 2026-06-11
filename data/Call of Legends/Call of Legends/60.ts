@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.",
+	},
 
 	thirdParty: {
 		cardmarket: 279703,

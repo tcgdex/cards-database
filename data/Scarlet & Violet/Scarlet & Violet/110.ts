@@ -57,6 +57,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+	},
+
 	thirdParty: {
         cardmarket: 702406,
         tcgplayer: 487999

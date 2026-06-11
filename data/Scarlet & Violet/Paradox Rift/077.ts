@@ -57,8 +57,24 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
+	},
 
 	variants: [
 		{

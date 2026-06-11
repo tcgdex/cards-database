@@ -57,6 +57,12 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -65,6 +71,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
 	},
 
 	thirdParty: {

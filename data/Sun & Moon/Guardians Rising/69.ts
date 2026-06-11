@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The magnet in Nosepass's nose provides an unerring compass, making it an excellent partner for Trainers going on a journey.",
+	},
+
 	thirdParty: {
 		cardmarket: 297530,
 		tcgplayer: 130979

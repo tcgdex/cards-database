@@ -52,19 +52,38 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751707,
+				tcgplayer: 534724,
+				cardtrader: 274353
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 751707
-	}
+	description: {
+		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
+	},
+
 }
 
 export default card

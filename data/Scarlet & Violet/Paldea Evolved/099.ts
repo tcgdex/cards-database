@@ -72,18 +72,45 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715574,
+				tcgplayer: 497514,
+				cardtrader: 248728
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715574,
+				tcgplayer: 497514,
+				cardtrader: 248728
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 715574
-	}
+	description: {
+		en: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+	},
 }
 
 export default card

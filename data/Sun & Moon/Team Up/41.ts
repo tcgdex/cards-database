@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+	},
+
 	thirdParty: {
 		cardmarket: 368972,
 		tcgplayer: 183814

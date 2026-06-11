@@ -77,6 +77,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The aura it projects from its body has an effect on the surrounding climate and weather.",

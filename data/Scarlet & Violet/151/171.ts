@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+	},
 
 	variants: [
 		{

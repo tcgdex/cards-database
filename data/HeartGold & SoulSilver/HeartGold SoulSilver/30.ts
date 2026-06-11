@@ -29,10 +29,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Sweet Sleeping Face",
 				fr: "Joli visage endormi",
 				de: "Niedliches Schlafgesicht"
 			},
 			effect: {
+				en: "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
 				fr: "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Kussilla schläft, verhindere allen Schaden, der Kussilla durch Angriffe zugefügt wird."
 			},

@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.",
+	},
+
 	thirdParty: {
 		cardmarket: 291512,
 		tcgplayer: 120994

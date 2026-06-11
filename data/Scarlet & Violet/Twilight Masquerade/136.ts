@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "Its stomach's digestive juices can dissolve any kind of poison. Eating things off the ground doesn't bother it at all.",
+	},
 
 	variants: [
 		{

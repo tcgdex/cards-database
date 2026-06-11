@@ -76,6 +76,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",

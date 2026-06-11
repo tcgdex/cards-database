@@ -64,18 +64,40 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751543,
+				tcgplayer: 534158,
+				cardtrader: 274200
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751543,
+				tcgplayer: 534158,
+				cardtrader: 274200
+			}
+		},
+	],
 
 	illustrator: "Gemi",
 
-	thirdParty: {
-		cardmarket: 751543
-	}
+	description: {
+		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+	},
+
 }
 
 export default card

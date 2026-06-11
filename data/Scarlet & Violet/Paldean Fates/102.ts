@@ -55,19 +55,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751641,
+				tcgplayer: 534473,
+				cardtrader: 274286
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 751641
-	}
+	description: {
+		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+	},
+
 }
 
 export default card

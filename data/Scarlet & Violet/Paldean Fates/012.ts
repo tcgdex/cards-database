@@ -72,18 +72,40 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751538,
+				tcgplayer: 534153,
+				cardtrader: 274196
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751538,
+				tcgplayer: 534153,
+				cardtrader: 274196
+			}
+		},
+	],
 
 	illustrator: "satoma",
 
-	thirdParty: {
-		cardmarket: 751538
-	}
+	description: {
+		en: "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
+	},
+
 }
 
 export default card

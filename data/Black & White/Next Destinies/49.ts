@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The energy made in its cheeks' electric pouches is stored inside its membrane and released while it is gliding.",
+	},
+
 	thirdParty: {
 		cardmarket: 280274,
 		tcgplayer: 85190

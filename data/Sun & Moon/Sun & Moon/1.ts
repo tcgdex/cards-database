@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 295306,
 		tcgplayer: 126872

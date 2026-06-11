@@ -70,6 +70,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+	},
 
 	thirdParty: {
 		cardmarket: 279644,

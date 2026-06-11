@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
+	},
+
 	thirdParty: {
 		cardmarket: 408469,
 		tcgplayer: 201291

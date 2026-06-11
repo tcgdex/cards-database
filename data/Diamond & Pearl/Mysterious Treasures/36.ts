@@ -73,6 +73,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",

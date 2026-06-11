@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
+	},
 
 	variants: [
 		{

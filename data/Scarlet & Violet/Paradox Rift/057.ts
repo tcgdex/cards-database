@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
+	},
 
 	variants: [
 		{

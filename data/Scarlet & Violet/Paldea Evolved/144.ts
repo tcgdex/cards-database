@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715619,
+				tcgplayer: 497659,
+				cardtrader: 248782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715619,
+				tcgplayer: 497659,
+				cardtrader: 248782
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 715619
-	}
+	description: {
+		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+	},
 }
 
 export default card

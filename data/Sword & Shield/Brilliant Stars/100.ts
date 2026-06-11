@@ -66,6 +66,18 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
@@ -74,6 +86,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
 	},
 
 	thirdParty: {

@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "They eat so many fish Pokémon that when Wailord become too numerous, fishermen have to chase them off.",
+	},
+
 	thirdParty: {
 		cardmarket: 407879,
 		tcgplayer: 201222

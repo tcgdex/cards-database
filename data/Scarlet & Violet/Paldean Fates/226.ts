@@ -48,19 +48,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751773,
+				tcgplayer: 534739,
+				cardtrader: 274410
+			}
+		},
+	],
 
 	illustrator: "REND",
 
-	thirdParty: {
-		cardmarket: 751773
-	}
+	description: {
+		en: "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
+	},
+
 }
 
 export default card

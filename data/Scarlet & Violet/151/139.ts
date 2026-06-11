@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Omastar's sharp fangs could crush rock, but the Pokémon can attack only the prey that come within reach of its tentacles.",
+	},
 
 	variants: [
 		{

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It prefers to battle by biting apart foes' heads instantly while flying by at high speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 387847,
 		tcgplayer: 194919

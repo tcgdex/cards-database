@@ -65,18 +65,39 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715618,
+				tcgplayer: 497656,
+				cardtrader: 248797
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715618,
+				tcgplayer: 497656,
+				cardtrader: 248797
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 715618
-	}
+	description: {
+		en: "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+	},
 }
 
 export default card

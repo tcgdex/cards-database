@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.",
+	},
+
 	thirdParty: {
 		cardmarket: 280677,
 		tcgplayer: 88459

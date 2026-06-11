@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
+	},
+
 	thirdParty: {
 		cardmarket: 288181,
 		tcgplayer: 111509

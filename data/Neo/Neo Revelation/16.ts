@@ -52,6 +52,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When Celebi disappears deep in a forest, it is said to leave behind an egg it brought from the future.",

@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",

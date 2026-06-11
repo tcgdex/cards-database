@@ -58,6 +58,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "To corner prey, they check each other's location using barks that only they can understand.",
+	},
 
 	thirdParty: {
 		cardmarket: 279702,

@@ -44,6 +44,12 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "D",
 
@@ -52,6 +58,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
 	},
 
 	thirdParty: {

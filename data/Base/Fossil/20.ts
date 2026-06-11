@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",

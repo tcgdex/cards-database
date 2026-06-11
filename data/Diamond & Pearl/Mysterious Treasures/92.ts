@@ -65,6 +65,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",

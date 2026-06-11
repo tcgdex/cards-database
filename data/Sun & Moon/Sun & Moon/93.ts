@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.",
+	},
+
 	thirdParty: {
 		cardmarket: 295404,
 		tcgplayer: 126965

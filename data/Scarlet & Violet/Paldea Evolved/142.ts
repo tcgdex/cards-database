@@ -48,18 +48,39 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715617,
+				tcgplayer: 497650,
+				cardtrader: 248781
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715617,
+				tcgplayer: 497650,
+				cardtrader: 248781
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 759872
-	}
+	description: {
+		en: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+	},
 }
 
 export default card

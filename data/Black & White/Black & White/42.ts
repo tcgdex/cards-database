@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This ill-tempered Pokémon is dangerous because when it's angry, it shoots lightning from its mane in all directions.",
+	},
+
 	thirdParty: {
 		cardmarket: 279780,
 		tcgplayer: 90727

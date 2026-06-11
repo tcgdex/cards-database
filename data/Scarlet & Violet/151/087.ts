@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
+	},
 
 	variants: [
 		{

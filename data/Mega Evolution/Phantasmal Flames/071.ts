@@ -63,21 +63,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "OKUBO",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857646,
-				tcgplayer: 662138
+				tcgplayer: 662138,
+				cardtrader: 356857
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857646,
-				tcgplayer: 662138
+				tcgplayer: 662138,
+				cardtrader: 356857
 			}
-		}
+		},
 	],	
 }
 

@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -74,6 +80,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
 	},
 
 	thirdParty: {

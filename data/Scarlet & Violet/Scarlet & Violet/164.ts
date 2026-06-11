@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
@@ -64,6 +70,10 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
+
+	description: {
+		en: "It can sprint at over 70 mph while carrying a human. The rider's body heat warms Cyclizar's back and lifts the Pokémon's spirit.",
+	},
 
 	thirdParty: {
         cardmarket: 702460,

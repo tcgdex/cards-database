@@ -74,18 +74,60 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715580,
+				tcgplayer: 497520,
+				cardtrader: 248734
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 719854
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 749046
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 785700
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715580,
+				tcgplayer: 497520,
+				cardtrader: 248734
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 715580
-	}
+	description: {
+		en: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+	},
 }
 
 export default card

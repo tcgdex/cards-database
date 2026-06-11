@@ -70,6 +70,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+	},
 
 	thirdParty: {
 		cardmarket: 279710,

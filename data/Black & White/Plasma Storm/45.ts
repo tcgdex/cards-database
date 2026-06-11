@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The stronger electromagnetic waves from the three linked Magnemite are enough to dry out surrounding moisture.",
+	},
+
 	thirdParty: {
 		cardmarket: 280784,
 		tcgplayer: 87112

@@ -3,9 +3,9 @@ import Set from '../Deoxys'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza Star",
+		en: "Rayquaza ☆",
 		fr: "Rayquaza ☆",
-		de: "Rayquaza *"
+		de: "Rayquaza ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -57,9 +57,9 @@ const card: Card = {
 				de: "Holy Star"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Rayquaza Star. This attack does 100 damage to each of your opponent's Pokémon-ex. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toutes les cartes Énergie attachées à Rayquaza . Cette attaque inflige 100 dégâts à chacun des Pokémon-ex de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Discard all Energy cards attached to Rayquaza *. This attack does 100 damage to each of your opponent's Pokémon-ex. (Don't apply Weakness and Resistance for benched Pokémon.)"
+				en: "Discard all Energy cards attached to Rayquaza ☆. This attack does 100 damage to each of your opponent's Pokémon-ex. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Défaussez toutes les cartes Énergie attachées à Rayquaza ☆. Cette attaque inflige 100 dégâts à chacun des Pokémon-ex de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Discard all Energy cards attached to Rayquaza ☆. This attack does 100 damage to each of your opponent's Pokémon-ex. (Don't apply Weakness and Resistance for benched Pokémon.)"
 			},
 
 		},

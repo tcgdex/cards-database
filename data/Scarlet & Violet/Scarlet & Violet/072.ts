@@ -70,6 +70,12 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -78,6 +84,10 @@ const card: Card = {
 	},
 
 	illustrator: "Atsushi Furusawa",
+
+	description: {
+		en: "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts.",
+	},
 
 	thirdParty: {
         cardmarket: 702368,

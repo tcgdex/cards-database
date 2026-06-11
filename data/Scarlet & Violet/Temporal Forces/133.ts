@@ -57,8 +57,24 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
+	},
 
 	variants: [
 		{

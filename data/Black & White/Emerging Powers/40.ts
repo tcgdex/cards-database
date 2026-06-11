@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+	},
+
 	thirdParty: {
 		cardmarket: 280005,
 		tcgplayer: 88969

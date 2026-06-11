@@ -64,20 +64,30 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715709,
+				tcgplayer: 497640,
+				cardtrader: 248887
+			}
+		},
+	],
 
 	suffix: "ex",
 	illustrator: "PLANETA Yamashita",
 
-	thirdParty: {
-		cardmarket: 715709
-	}
+	
 }
 
 export default card

@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These Pokémon are cherished in the Alola region, where they are thought to be feminine deities of the land incarnate.",
+	},
+
 	thirdParty: {
 		cardmarket: 316006,
 		tcgplayer: 157696

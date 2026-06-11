@@ -44,19 +44,31 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715679,
+				tcgplayer: 497607,
+				cardtrader: 248857
+			}
+		},
+	],
 
 	illustrator: "Atsuya Uki",
 
-	thirdParty: {
-		cardmarket: 715679
-	}
+	description: {
+		en: "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+	},
 }
 
 export default card

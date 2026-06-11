@@ -74,18 +74,39 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715481,
+				tcgplayer: 497420,
+				cardtrader: 248305
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715481,
+				tcgplayer: 497420,
+				cardtrader: 248305
+			}
+		},
+	],
 
 	illustrator: "Megumi Higuchi",
 
-	thirdParty: {
-		cardmarket: 715481
-	}
+	description: {
+		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+	},
 }
 
 export default card

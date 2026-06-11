@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The center section of its body is called the core. It glows in a different color each time it is seen.",

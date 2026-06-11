@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+	},
 
 	variants: [
 		{

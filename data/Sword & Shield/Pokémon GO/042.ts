@@ -72,6 +72,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
@@ -79,6 +85,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "It commands a nest of Rattata. Different nests don't get along, whipping up severe fights over feeding grounds.",
 	},
 
 	thirdParty: {

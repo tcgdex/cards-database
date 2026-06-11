@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will absolutely not forgive failure from or betrayal by its goons. It has no choice in this if it wants to maintain the order of the flock.",
+	},
+
 	thirdParty: {
 		cardmarket: 388447,
 		tcgplayer: 195100

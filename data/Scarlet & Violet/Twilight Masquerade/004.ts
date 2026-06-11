@@ -35,8 +35,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Some fishers weave its sturdy thread into nets to catch fish Pokémon.",
+	},
 
 	variants: [
 		{

@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+	},
 
 	variants: [
 		{

@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
+	},
 }
 
 export default card

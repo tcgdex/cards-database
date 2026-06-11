@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In rock layers where Cranidos fossils are found, the fossilized trunks of trees snapped in two are also often found.",
+	},
+
 	thirdParty: {
 		cardmarket: 315992,
 		tcgplayer: 157681

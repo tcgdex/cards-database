@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling.",
+	},
 
 	variants: [
 		{

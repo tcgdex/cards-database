@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "After shredding its prey, it sharpens its blades on a stone by the river. Each Pawniard has its own favorite sharpening stone.",
+	},
+
 	thirdParty: {
 		cardmarket: 408319,
 		tcgplayer: 201178

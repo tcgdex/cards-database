@@ -54,6 +54,18 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 
@@ -62,6 +74,10 @@ const card: Card = {
 		reverse: false,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
 	},
 
 	thirdParty: {

@@ -76,7 +76,12 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Kazumasa Yasukuni"
+	illustrator: "Kazumasa Yasukuni",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

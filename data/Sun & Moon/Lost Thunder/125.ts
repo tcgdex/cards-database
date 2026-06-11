@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground.",
+	},
+
 	thirdParty: {
 		cardmarket: 365762,
 		tcgplayer: 178940

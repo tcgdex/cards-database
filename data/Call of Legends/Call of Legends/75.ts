@@ -68,6 +68,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
+	},
 
 	thirdParty: {
 		cardmarket: 279718,

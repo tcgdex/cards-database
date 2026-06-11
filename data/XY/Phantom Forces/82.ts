@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While it sleeps, the head of its tail keeps watch. The tail doesn't need to sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 281888,
 		tcgplayer: 94650

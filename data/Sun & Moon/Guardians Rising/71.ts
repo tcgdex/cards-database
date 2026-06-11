@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "A glutton that devours anything that moves, it quietly lurks at the bottom of swamps, lying in wait for prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 297532,
 		tcgplayer: 130981

@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle heavy lumber without difficulty.",
+	},
 
 	variants: [
 		{

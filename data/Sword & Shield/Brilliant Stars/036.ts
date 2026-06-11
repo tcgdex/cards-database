@@ -45,6 +45,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -53,6 +59,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
 	},
 
 	thirdParty: {

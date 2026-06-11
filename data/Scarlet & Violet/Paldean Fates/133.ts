@@ -44,19 +44,32 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751672,
+				tcgplayer: 534525,
+				cardtrader: 274316
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
-	thirdParty: {
-		cardmarket: 751672
-	}
+	description: {
+		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+	},
+
 }
 
 export default card

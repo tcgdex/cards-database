@@ -13,3 +13,6 @@ scripts/pokedexIdFixer/fix-preview.txt
 scripts/pokedexIdFixer/fix-log.txt
 scripts/pokedexIdFixer/audit-report.txt
 docs/
+
+# ignore mac os metadata
+.DS_Store

@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
+	},
+
 	thirdParty: {
 		cardmarket: 288195,
 		tcgplayer: 111523
