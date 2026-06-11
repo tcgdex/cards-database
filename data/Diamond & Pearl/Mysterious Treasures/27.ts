@@ -75,6 +75,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",

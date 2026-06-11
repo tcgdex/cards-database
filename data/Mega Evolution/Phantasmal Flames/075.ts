@@ -67,21 +67,24 @@ const card: Card = {
 		en: "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
 	},
 
+	illustrator: "toriyufu",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857650,
-				tcgplayer: 662129
+				tcgplayer: 662129,
+				cardtrader: 356861
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857650,
-				tcgplayer: 662129
+				tcgplayer: 662129,
+				cardtrader: 356861
 			}
-		}
+		},
 	],
 }
 

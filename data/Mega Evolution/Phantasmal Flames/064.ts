@@ -65,21 +65,24 @@ const card: Card = {
 		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
 	},
 
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857639,
-				tcgplayer: 662225
+				tcgplayer: 662225,
+				cardtrader: 356848
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857639,
-				tcgplayer: 662225
+				tcgplayer: 662225,
+				cardtrader: 356848
 			}
-		}
+		},
 	],	
 }
 

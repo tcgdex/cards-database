@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
+	},
 }
 
 export default card

@@ -61,21 +61,24 @@ const card: Card = {
 		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
 	},
 
+	illustrator: "satoma",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857609,
-				tcgplayer: 662212
+				tcgplayer: 662212,
+				cardtrader: 356817
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857609,
-				tcgplayer: 662212
+				tcgplayer: 662212,
+				cardtrader: 356817
 			}
-		}
+		},
 	],	
 }
 

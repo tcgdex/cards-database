@@ -51,21 +51,24 @@ const card: Card = {
 		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
 	},
 
+	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857629,
-				tcgplayer: 660495
+				tcgplayer: 660495,
+				cardtrader: 356837
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857629,
-				tcgplayer: 660495
+				tcgplayer: 660495,
+				cardtrader: 356837
 			}
-		}
+		},
 	],
 }
 

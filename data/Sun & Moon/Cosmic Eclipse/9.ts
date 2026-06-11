@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It's proud of its thick horn. In Alola, its biggest rival is Vikavolt, which it's always fighting with.",
+	},
+
 	thirdParty: {
 		cardmarket: 407699,
 		tcgplayer: 201156

@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+	},
+
 	thirdParty: {
 		cardmarket: 407944,
 		tcgplayer: 201235

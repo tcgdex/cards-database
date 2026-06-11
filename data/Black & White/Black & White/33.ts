@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 279771,
 		tcgplayer: 87927

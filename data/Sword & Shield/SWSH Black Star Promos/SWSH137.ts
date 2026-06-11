@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [849],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -81,6 +87,10 @@ const card: Card = {
 	}],
 
 	retreat: 2,
+
+	description: {
+		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
+	},
 
 	thirdParty: {
 		cardmarket: 576736

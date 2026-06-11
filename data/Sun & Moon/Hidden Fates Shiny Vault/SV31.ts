@@ -72,6 +72,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When two Beldum link together, their psychic power is doubled. Their intelligence, however, remains unchanged.",
+	},
 }
 
 export default card

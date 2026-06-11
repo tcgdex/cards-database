@@ -61,21 +61,24 @@ const card: Card = {
 		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
 
+	illustrator: "Naoyo Kimura",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857651,
-				tcgplayer: 662171
+				tcgplayer: 662171,
+				cardtrader: 356862
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857651,
-				tcgplayer: 662171
+				tcgplayer: 662171,
+				cardtrader: 356862
 			}
-		}
+		},
 	],
 }
 

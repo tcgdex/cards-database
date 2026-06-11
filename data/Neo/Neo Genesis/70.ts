@@ -70,6 +70,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",

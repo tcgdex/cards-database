@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They give off a sweet and refreshing scent. Cutiefly often gather near the tall grass where Fomantis are hiding.",
+	},
+
 	thirdParty: {
 		cardmarket: 295321,
 		tcgplayer: 126885

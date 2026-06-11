@@ -79,21 +79,24 @@ const card: Card = {
 		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
 	},
 
+	illustrator: "Raita Kazama",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857614,
-				tcgplayer: 662145
+				tcgplayer: 662145,
+				cardtrader: 356822
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857614,
-				tcgplayer: 662145
+				tcgplayer: 662145,
+				cardtrader: 356822
 			}
-		}
+		},
 	],
 }
 

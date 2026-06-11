@@ -61,21 +61,24 @@ const card: Card = {
 		en: "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
 	},
 
+	illustrator: "Dsuke",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857625,
-				tcgplayer: 662163
+				tcgplayer: 662163,
+				cardtrader: 356833
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857625,
-				tcgplayer: 662163
+				tcgplayer: 662163,
+				cardtrader: 356833
 			}
-		}
+		},
 	],	
 }
 

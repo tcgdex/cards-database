@@ -75,21 +75,24 @@ const card: Card = {
 		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
 	},
 
+	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857641,
-				tcgplayer: 662174
+				tcgplayer: 662174,
+				cardtrader: 356850
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857641,
-				tcgplayer: 662174
+				tcgplayer: 662174,
+				cardtrader: 356850
 			}
-		}
+		},
 	],	
 }
 

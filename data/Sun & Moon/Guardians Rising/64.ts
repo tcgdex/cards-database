@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "As a result of its continual workouts, it has developed tremendous power. It uses that power to help people with their work.",
+	},
+
 	thirdParty: {
 		cardmarket: 297525,
 		tcgplayer: 130974

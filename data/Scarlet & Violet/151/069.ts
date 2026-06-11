@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
+	},
 
 	variants: [
 		{

@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If it smells something enticing, it dashes headlong off to find the source of the aroma.",

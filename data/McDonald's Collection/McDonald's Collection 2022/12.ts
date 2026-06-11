@@ -20,7 +20,7 @@ const card: Card = {
 
 	hp: 130,
 
-	types: ["Colorless"],
+	types: ["Fighting"],
 
 	stage: "Stage1",
 
@@ -61,7 +61,7 @@ const card: Card = {
 	],
 
 	retreat: 3,
-	
+
 	variants: [
 		{
 			type: 'holo',

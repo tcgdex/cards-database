@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It carries a pendulum-like device. There once was an incident in which it took away a child it hypnotized.",
+	},
+
 	thirdParty: {
 		cardmarket: 281700,
 		tcgplayer: 92211

@@ -67,21 +67,24 @@ const card: Card = {
 		en: "Duraludon's body is comprised of a special metal that's lightweight and scratch resistant. It's also smooth, as though it was given a mirror finish.",
 	},
 
+	illustrator: "Shinji Kanda",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857649,
-				tcgplayer: 662154
+				tcgplayer: 662154,
+				cardtrader: 356860
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857649,
-				tcgplayer: 662154
+				tcgplayer: 662154,
+				cardtrader: 356860
 			}
-		}
+		},
 	],	
 }
 

@@ -67,6 +67,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+	},
+
 	thirdParty: {
 		cardmarket: 682273
 	}

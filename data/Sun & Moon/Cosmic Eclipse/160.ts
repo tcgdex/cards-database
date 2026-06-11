@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises.",
+	},
+
 	thirdParty: {
 		cardmarket: 408429,
 		tcgplayer: 201281

@@ -48,6 +48,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "What a delicious-looking snowman! I think I'll sneak a bite. It's OK…no one's looking, right?",
+	},
+
 	thirdParty: {
 		cardmarket: 288516
 	}

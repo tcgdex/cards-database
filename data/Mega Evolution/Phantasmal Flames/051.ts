@@ -61,21 +61,24 @@ const card: Card = {
 		en: "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
 	},
 
+	illustrator: "Uta",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857626,
-				tcgplayer: 662236
+				tcgplayer: 662236,
+				cardtrader: 356834
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857626,
-				tcgplayer: 662236
+				tcgplayer: 662236,
+				cardtrader: 356834
 			}
-		}
+		},
 	],	
 }
 

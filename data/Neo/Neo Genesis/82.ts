@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "This Pokémon lives in cold water. It leaves the water to search for food when it gets cold outside.",

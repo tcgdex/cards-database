@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It stays motionless in trees, driving away with flying armored shards from its hard shell any who come close.",

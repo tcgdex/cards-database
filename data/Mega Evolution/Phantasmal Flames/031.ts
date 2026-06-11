@@ -61,21 +61,24 @@ const card: Card = {
 		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
 	},
 
+	illustrator: "Orca",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857606,
-				tcgplayer: 662134
+				tcgplayer: 662134,
+				cardtrader: 356814
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857606,
-				tcgplayer: 662134
+				tcgplayer: 662134,
+				cardtrader: 356814
 			}
-		}
+		},
 	],
 }
 

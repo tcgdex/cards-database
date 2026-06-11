@@ -75,27 +75,30 @@ const card: Card = {
 		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
 	},
 
+	illustrator: "Jerky",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857628,
-				tcgplayer: 662159
+				tcgplayer: 662159,
+				cardtrader: 356836
 			}
 		},
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 858508
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857628,
-				tcgplayer: 662159
+				tcgplayer: 662159,
+				cardtrader: 356836
 			}
-		}
+		},
 	],
 
 	

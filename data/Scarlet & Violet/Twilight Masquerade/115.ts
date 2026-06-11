@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
+	},
 
 	variants: [
 		{

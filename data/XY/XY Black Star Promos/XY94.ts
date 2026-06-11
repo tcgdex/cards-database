@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 552809
 	}

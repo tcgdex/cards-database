@@ -61,21 +61,24 @@ const card: Card = {
 		en: "It prefers waterfronts with plentiful food. It became nocturnal so it wouldn't have to compete for food with bird Pokémon.",
 	},
 
+	illustrator: "Shigenori Negishi",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857581,
-				tcgplayer: 662177
+				tcgplayer: 662177,
+				cardtrader: 356790
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857581,
-				tcgplayer: 662177
+				tcgplayer: 662177,
+				cardtrader: 356790
 			}
-		}
+		},
 	],
 }
 

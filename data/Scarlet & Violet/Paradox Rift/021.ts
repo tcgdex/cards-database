@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+	},
 
 	variants: [
 		{

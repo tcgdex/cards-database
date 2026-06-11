@@ -73,21 +73,24 @@ const card: Card = {
 		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees in half with a single hit.",
 	},
 
+	illustrator: "Atsuya Uki",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857603,
-				tcgplayer: 662216
+				tcgplayer: 662216,
+				cardtrader: 356811
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857603,
-				tcgplayer: 662216
+				tcgplayer: 662216,
+				cardtrader: 356811
 			}
-		}
+		},
 	],
 }
 

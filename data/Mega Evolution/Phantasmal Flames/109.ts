@@ -57,14 +57,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857684,
-				tcgplayer: 662183
+				tcgplayer: 662183,
+				cardtrader: 356895
 			}
-		}
+		},
 	],
 }
 

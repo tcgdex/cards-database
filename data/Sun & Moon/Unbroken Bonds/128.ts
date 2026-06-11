@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+	},
+
 	thirdParty: {
 		cardmarket: 372417,
 		tcgplayer: 189227

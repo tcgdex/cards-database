@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
+	},
+
 	thirdParty: {
 		cardmarket: 355565,
 		tcgplayer: 165698

@@ -79,6 +79,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",

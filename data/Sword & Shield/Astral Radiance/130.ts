@@ -66,6 +66,12 @@ const card: Card = {
 		damage: "150+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
@@ -74,6 +80,10 @@ const card: Card = {
 		reverse: true,
 		holo: true,
 		firstEdition: false
+	},
+
+	description: {
+		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
 	},
 
 	thirdParty: {

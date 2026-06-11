@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
+	},
 }
 
 export default card

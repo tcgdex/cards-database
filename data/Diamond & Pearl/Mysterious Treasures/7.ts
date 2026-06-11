@@ -66,6 +66,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It has the power to travel across time, but is is said to appear only in peaceful times.",

@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Discovered by chance during deep-sea explorations, it has not changed since ancient times.",
+	},
+
 	thirdParty: {
 		cardmarket: 279712,
 		tcgplayer: 88690

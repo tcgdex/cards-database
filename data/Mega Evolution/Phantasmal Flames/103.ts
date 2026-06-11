@@ -75,14 +75,16 @@ const card: Card = {
 		en: "As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.",
 	},
 
+	illustrator: "DOM",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857678,
-				tcgplayer: 662235
+				tcgplayer: 662235,
+				cardtrader: 356889
 			}
-		}
+		},
 	],
 }
 

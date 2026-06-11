@@ -82,6 +82,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It is encased within a hard shell, yet retains a great deal of mobility—a dangerous combination.",

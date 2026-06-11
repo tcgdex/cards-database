@@ -63,6 +63,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "This Pokémon makes a loud jangling noise when it shakes its petals to spread poison powder.",

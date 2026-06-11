@@ -72,8 +72,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+	},
 
 	variants: [
 		{

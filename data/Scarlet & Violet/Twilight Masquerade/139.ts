@@ -55,8 +55,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
+	},
 
 	variants: [
 		{

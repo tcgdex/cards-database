@@ -65,6 +65,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",

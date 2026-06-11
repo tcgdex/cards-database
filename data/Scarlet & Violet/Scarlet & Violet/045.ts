@@ -63,6 +63,12 @@ const card: Card = {
 		damage: "180+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
@@ -73,6 +79,10 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
+
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+	},
 
 	thirdParty: {
         cardmarket: 702340,

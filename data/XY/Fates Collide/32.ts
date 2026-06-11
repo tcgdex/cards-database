@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something only Gothita can see.",
+	},
+
 	thirdParty: {
 		cardmarket: 289858,
 		tcgplayer: 117792

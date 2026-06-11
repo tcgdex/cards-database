@@ -85,21 +85,24 @@ const card: Card = {
 		en: "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
 	},
 
+	illustrator: "Takumi Wada",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857600,
-				tcgplayer: 662181
+				tcgplayer: 662181,
+				cardtrader: 356808
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857600,
-				tcgplayer: 662181
+				tcgplayer: 662181,
+				cardtrader: 356808
 			}
-		}
+		},
 	],	
 }
 

@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a gutsy spirit that makes it bravely take on tough foes. It flies in search of warm climates.",
+	},
+
 	thirdParty: {
 		cardmarket: 281439,
 		tcgplayer: 89737

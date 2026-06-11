@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has the ability to reconstitute its entire cellular structure to transform into whatever it sees.",
+	},
+
 	thirdParty: {
 		cardmarket: 289703
 	}

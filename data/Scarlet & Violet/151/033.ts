@@ -56,8 +56,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+	},
 
 	variants: [
 		{

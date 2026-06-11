@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If both heads get angry simultaneously, this Pokémon expels a blizzard, burying everything in snow.",
+	},
+
 	thirdParty: {
 		cardmarket: 280152,
 		tcgplayer: 90273

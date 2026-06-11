@@ -85,6 +85,10 @@ const card: Card = {
 		normal: false
 	},
 
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+	},
+
 	thirdParty: {
         cardmarket: 702426,
         tcgplayer: 488019

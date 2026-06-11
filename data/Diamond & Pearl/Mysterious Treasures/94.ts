@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It lives in forests with others. It stores electricity in the pouches on its cheeks.",

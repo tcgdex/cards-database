@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
+	},
 
 	variants: [
 		{

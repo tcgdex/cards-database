@@ -78,6 +78,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",

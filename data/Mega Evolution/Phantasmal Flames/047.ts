@@ -81,21 +81,24 @@ const card: Card = {
 		en: "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
 	},
 
+	illustrator: "Tetsu Kayama",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857622,
-				tcgplayer: 662135
+				tcgplayer: 662135,
+				cardtrader: 356830
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857622,
-				tcgplayer: 662135
+				tcgplayer: 662135,
+				cardtrader: 356830
 			}
-		}
+		},
 	],
 }
 

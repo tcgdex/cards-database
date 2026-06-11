@@ -73,21 +73,23 @@ const card: Card = {
 		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
 	},
 
+	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857654,
 				tcgplayer: 662127
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857654,
-				tcgplayer: 662127
+				tcgplayer: 662127,
+				cardtrader: 356865
 			}
-		}
+		},
 	],
 }
 

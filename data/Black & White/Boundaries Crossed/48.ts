@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+	},
+
 	thirdParty: {
 		cardmarket: 280634,
 		tcgplayer: 86434

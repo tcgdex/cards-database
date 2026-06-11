@@ -75,21 +75,24 @@ const card: Card = {
 		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
 	},
 
+	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857613,
-				tcgplayer: 662165
+				tcgplayer: 662165,
+				cardtrader: 356821
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857613,
-				tcgplayer: 662165
+				tcgplayer: 662165,
+				cardtrader: 356821
 			}
-		}
+		},
 	],
 }
 

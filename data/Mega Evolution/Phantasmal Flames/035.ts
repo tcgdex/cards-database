@@ -57,21 +57,24 @@ const card: Card = {
 		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
 	},
 
+	illustrator: "Mousho",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857610,
-				tcgplayer: 662198
+				tcgplayer: 662198,
+				cardtrader: 356818
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857610,
-				tcgplayer: 662198
+				tcgplayer: 662198,
+				cardtrader: 356818
 			}
-		}
+		},
 	],
 }
 

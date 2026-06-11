@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+	},
 
 	variants: [
 		{

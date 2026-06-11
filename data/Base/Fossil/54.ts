@@ -66,6 +66,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",

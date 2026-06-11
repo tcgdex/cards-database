@@ -65,6 +65,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its legs are short, but its hooves are wide and flat, allowing it to easily walk over snow.",

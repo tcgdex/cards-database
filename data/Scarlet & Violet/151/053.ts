@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
+	},
 
 	variants: [
 		{

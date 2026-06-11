@@ -51,6 +51,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+	},
 }
 
 export default card

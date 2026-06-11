@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Because it continually ate only its favorite fruit, the fruit started growing around its neck.",

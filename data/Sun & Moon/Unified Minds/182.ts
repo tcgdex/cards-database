@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
+	},
+
 	thirdParty: {
 		cardmarket: 388697,
 		tcgplayer: 195192

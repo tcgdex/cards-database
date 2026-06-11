@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "There are records of a lost human child being raised by a childless Kangaskhan.",
+	},
 
 	variants: [
 		{

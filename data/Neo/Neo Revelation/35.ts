@@ -57,6 +57,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It stays mostly in dark, damp places, the preference not of the bug, but of the big mushrooms on its back.",

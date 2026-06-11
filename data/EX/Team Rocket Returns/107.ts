@@ -3,8 +3,8 @@ import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Mudkip Star",
-		de: "Hydropi *"
+		en: "Mudkip ☆",
+		de: "Hydropi ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",

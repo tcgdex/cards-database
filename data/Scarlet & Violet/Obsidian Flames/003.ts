@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "90×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+	},
 
 	variants: [
 		{

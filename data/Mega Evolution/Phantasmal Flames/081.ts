@@ -61,21 +61,24 @@ const card: Card = {
 		en: "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
 	},
 
+	illustrator: "Dsuke",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857656,
-				tcgplayer: 662246
+				tcgplayer: 662246,
+				cardtrader: 356867
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857656,
-				tcgplayer: 662246
+				tcgplayer: 662246,
+				cardtrader: 356867
 			}
-		}
+		},
 	],
 }
 

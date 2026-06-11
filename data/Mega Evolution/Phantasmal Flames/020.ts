@@ -61,21 +61,24 @@ const card: Card = {
 		en: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
 	},
 
+	illustrator: "Gemi",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857595,
-				tcgplayer: 662141
+				tcgplayer: 662141,
+				cardtrader: 356803
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857595,
-				tcgplayer: 662141
+				tcgplayer: 662141,
+				cardtrader: 356803
 			}
-		}
+		},
 	],	
 }
 

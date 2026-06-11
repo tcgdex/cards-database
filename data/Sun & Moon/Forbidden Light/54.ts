@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
+	},
+
 	thirdParty: {
 		cardmarket: 355573,
 		tcgplayer: 165704

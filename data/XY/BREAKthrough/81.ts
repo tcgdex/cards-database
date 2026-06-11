@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+	},
+
 	thirdParty: {
 		cardmarket: 286327,
 		tcgplayer: 107200

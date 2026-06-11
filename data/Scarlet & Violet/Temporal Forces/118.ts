@@ -66,6 +66,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
@@ -94,6 +106,10 @@ const card: Card = {
 ],
 
 	illustrator: "Tonji Matsuno",
+
+	description: {
+		en: "Sightings of this Pokémon have occurred in recent years. It resembles a mysterious object described in an old expedition journal.",
+	},
 
 	thirdParty: {
 		cardmarket: 760748

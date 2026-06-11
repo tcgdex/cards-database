@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
+	},
 
 	variants: [
 		{

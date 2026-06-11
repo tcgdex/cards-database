@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600º F.",
+	},
+
 	thirdParty: {
 		cardmarket: 279983,
 		tcgplayer: 87941

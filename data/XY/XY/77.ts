@@ -104,6 +104,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+	},
+
 	thirdParty: {
 		cardmarket: 281413,
 		tcgplayer: 87137

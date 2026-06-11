@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+	},
+
 	thirdParty: {
 		cardmarket: 365687,
 		tcgplayer: 178852

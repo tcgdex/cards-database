@@ -51,21 +51,24 @@ const card: Card = {
 		en: "The leaf on its head is naturally dirt repellent and will stay clean even after transporting Pokémon that are covered in mud.",
 	},
 
+	illustrator: "Wintr Wandr",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
-				cardmarket: 857580, 
-				tcgplayer: 662178
+				cardmarket: 857580,
+				tcgplayer: 662178,
+				cardtrader: 356789
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
-				cardmarket: 857580, 
-				tcgplayer: 662178
+				cardmarket: 857580,
+				tcgplayer: 662178,
+				cardtrader: 356789
 			}
-		}
+		},
 	],
 
 	

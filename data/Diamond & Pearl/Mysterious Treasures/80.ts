@@ -76,6 +76,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",

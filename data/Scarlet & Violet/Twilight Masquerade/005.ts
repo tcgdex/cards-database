@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It wanders in search of food after darkness falls, never nesting in a specific place.",
+	},
 
 	variants: [
 		{

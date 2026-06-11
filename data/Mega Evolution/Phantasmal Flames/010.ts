@@ -75,23 +75,24 @@ const card: Card = {
 		en: "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
 	},
 
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857585,
-				tcgplayer: 662176
+				tcgplayer: 662176,
+				cardtrader: 356794
 			}
-
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857585,
-				tcgplayer: 662176
+				tcgplayer: 662176,
+				cardtrader: 356794
 			}
-
-		}
+		},
 	],
 }
 

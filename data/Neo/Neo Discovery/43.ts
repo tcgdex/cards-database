@@ -75,6 +75,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Apparently, it cracked Shellder's shell with its sharp fangs and sucked out the insides.",

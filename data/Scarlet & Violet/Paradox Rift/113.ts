@@ -64,8 +64,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Because of this Pokémon's ability to detect danger, people mistook Absol as a bringer of doom.",
+	},
 
 	variants: [
 		{

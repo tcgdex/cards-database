@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
+	},
+
 	thirdParty: {
 		cardmarket: 299465,
 		tcgplayer: 138543

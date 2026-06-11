@@ -73,21 +73,24 @@ const card: Card = {
 		en: "Once a Smeargle reaches adulthood, it will have other members of its species leave paw prints on its back.",
 	},
 
+	illustrator: "REND",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857655,
-				tcgplayer: 662227
+				tcgplayer: 662227,
+				cardtrader: 356866
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857655,
-				tcgplayer: 662227
+				tcgplayer: 662227,
+				cardtrader: 356866
 			}
-		}
+		},
 	],
 }
 

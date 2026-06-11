@@ -74,6 +74,8 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",

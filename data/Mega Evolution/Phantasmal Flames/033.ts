@@ -51,21 +51,24 @@ const card: Card = {
 		en: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
 	},
 
+	illustrator: "Taiga Kayama",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857608,
-				tcgplayer: 662211
+				tcgplayer: 662211,
+				cardtrader: 356816
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857608,
-				tcgplayer: 662211
+				tcgplayer: 662211,
+				cardtrader: 356816
 			}
-		}
+		},
 	],	
 }
 

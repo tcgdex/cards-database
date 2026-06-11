@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will never forgive opponents who have angered it. Even after it has beaten them down until they can't move, it never ever forgives.",
+	},
+
 	thirdParty: {
 		cardmarket: 369002,
 		tcgplayer: 183850

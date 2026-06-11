@@ -61,21 +61,24 @@ const card: Card = {
 		en: "The more sweet aromas it absorbs, the more its body swells. Milcery will deflate when its energy level drops.",
 	},
 
+	illustrator: "Taiga Kayama",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857618,
-				tcgplayer: 662196
+				tcgplayer: 662196,
+				cardtrader: 356826
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857618,
-				tcgplayer: 662196
+				tcgplayer: 662196,
+				cardtrader: 356826
 			}
-		}
+		},
 	],	
 }
 

@@ -73,14 +73,16 @@ const card: Card = {
 		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
 	},
 
+	illustrator: "Jiro Sasumo",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857673,
-				tcgplayer: 662215
+				tcgplayer: 662215,
+				cardtrader: 356884
 			}
-		}
+		},
 	],
 }
 

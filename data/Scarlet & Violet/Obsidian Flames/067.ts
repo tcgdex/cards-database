@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+	},
 
 	variants: [
 		{

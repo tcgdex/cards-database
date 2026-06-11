@@ -85,22 +85,25 @@ const card: Card = {
 		en: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
 	},
 
+	illustrator: "Shibuzoh.",
 	variants: [
-	{
-		type: "holo",
-		thirdParty: {
-			cardmarket: 857578,
-			tcgplayer: 662238
-		}
-	},
-	{
-		type: "reverse",
-		thirdParty: {
-			cardmarket: 857578,
-			tcgplayer: 662238
-		}
-	},
-],
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857578,
+				tcgplayer: 662238,
+				cardtrader: 356787
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857578,
+				tcgplayer: 662238,
+				cardtrader: 356787
+			}
+		},
+	],
 }
 
 export default card

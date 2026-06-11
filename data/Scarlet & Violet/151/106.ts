@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+	},
 
 	variants: [
 		{

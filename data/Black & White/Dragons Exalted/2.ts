@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.",
+	},
+
 	thirdParty: {
 		cardmarket: 280441,
 		tcgplayer: 89258

@@ -43,8 +43,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+	},
 
 	variants: [
 		{

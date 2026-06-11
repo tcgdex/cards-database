@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+	},
+
 	thirdParty: {
 		cardmarket: 286371,
 		tcgplayer: 107244

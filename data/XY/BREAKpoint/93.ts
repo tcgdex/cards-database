@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+	},
+
 	thirdParty: {
 		cardmarket: 288268,
 		tcgplayer: 111626

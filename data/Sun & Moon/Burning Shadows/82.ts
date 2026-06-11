@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
+	},
+
 	thirdParty: {
 		cardmarket: 299484,
 		tcgplayer: 138570

@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They communicate with one another using their auras made tangible by their emotions.",
+	},
+
 	thirdParty: {
 		cardmarket: 280815,
 		tcgplayer: 88762

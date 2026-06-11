@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+	},
+
 	thirdParty: {
 		cardmarket: 361316,
 		tcgplayer: 170893

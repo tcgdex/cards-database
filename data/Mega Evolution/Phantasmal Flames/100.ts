@@ -61,14 +61,16 @@ const card: Card = {
 		en: "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
 	},
 
+	illustrator: "Yoriyuki Ikegami",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857675,
-				tcgplayer: 662245
+				tcgplayer: 662245,
+				cardtrader: 356886
 			}
-		}
+		},
 	],
 }
 

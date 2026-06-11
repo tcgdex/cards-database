@@ -61,21 +61,24 @@ const card: Card = {
 		en: "It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest.",
 	},
 
+	illustrator: "Kazumasa Yasukuni",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857624,
-				tcgplayer: 662162
+				tcgplayer: 662162,
+				cardtrader: 356832
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857624,
-				tcgplayer: 662162
+				tcgplayer: 662162,
+				cardtrader: 356832
 			}
-		}
+		},
 	],	
 }
 

@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
+
+	description: {
+		en: "It moves while constantly hovering. It discharges electromagnetic waves and so on from the units at its sides.",
+	},
 
 	thirdParty: {
         cardmarket: 702359,

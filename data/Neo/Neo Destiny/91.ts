@@ -52,6 +52,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "As it grows older, its white tail changes colors and splits into six different tails. Its body radiates a faint warmth.",

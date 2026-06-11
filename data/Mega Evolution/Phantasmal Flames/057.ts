@@ -67,21 +67,24 @@ const card: Card = {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
 	},
 
+	illustrator: "Tomokazu Komiya",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857632,
-				tcgplayer: 662202
+				tcgplayer: 662202,
+				cardtrader: 356840
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857632,
-				tcgplayer: 662202
+				tcgplayer: 662202,
+				cardtrader: 356840
 			}
-		}
+		},
 	],	
 }
 

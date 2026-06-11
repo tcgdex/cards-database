@@ -64,8 +64,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+	},
 
 	variants: [
 		{

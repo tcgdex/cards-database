@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
+	},
 
 	variants: [
 		{

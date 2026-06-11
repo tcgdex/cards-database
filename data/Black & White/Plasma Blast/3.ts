@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
+	},
+
 	thirdParty: {
 		cardmarket: 281024,
 		tcgplayer: 86790

@@ -58,6 +58,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "Applin lives inside an apple. When an Applin is separated from its apple, its body loses moisture and the Pokémon grows weak.",
+	},
+
 	variants: [
 		{
 			type: "normal",

@@ -6,10 +6,9 @@ import { Errors, sendError } from '../../libs/Errors'
 import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
-import { getAllCards, findOneCard, findCards, toBrief, getCardById, getCompiledCard } from '../Components/Card'
+import { getAllCards, findOneCard, findCards, toBrief, getCardById } from '../Components/Card'
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
-import { listSKUs } from '../../libs/providers/tcgplayer'
 
 type CustomRequest = Request & {
 	/**
@@ -251,7 +250,7 @@ server
 				result = {
 					name: parseInt(id, 10),
 					// @ts-expect-error current behavior is normal
-					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) }}))
+					cards: (await findCards(lang, { dexId: { $eq: parseInt(id, 10) } }))
 						.map(toBrief)
 				}
 				break
@@ -296,11 +295,11 @@ server
 
 		let result: unknown
 		switch (endpoint) {
-			case 'cards':
-				if (subid === 'skus') {
-					result = await listSKUs(getCompiledCard(lang, id))
-				}
-				break
+			// case 'cards':
+			// 	if (subid === 'skus') {
+			// 		result = await listSKUs(getCompiledCard(lang, id))
+			// 	}
+			// 	break
 			case 'sets':
 				// allow the dev to use a non prefixed value like `10` instead of `010` for newer sets
 				// @ts-expect-error normal behavior until the filtering is more fiable

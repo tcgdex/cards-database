@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Interlocking two bodies and spinning around generates the energy they need to live.",
+	},
+
 	thirdParty: {
 		cardmarket: 280039,
 		tcgplayer: 86481

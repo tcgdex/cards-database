@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+	},
+
 	thirdParty: {
 		cardmarket: 368970,
 		tcgplayer: 183812

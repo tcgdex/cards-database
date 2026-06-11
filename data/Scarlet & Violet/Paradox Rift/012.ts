@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It emits psychic energy to observe and study what's around it—and what's around it can include things over six miles away.",
+	},
 
 	variants: [
 		{

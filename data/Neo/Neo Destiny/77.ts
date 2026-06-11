@@ -48,6 +48,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It waits suspended from tree branches for insects to fly into its mouth, often not moving for hours at a time.",

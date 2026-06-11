@@ -89,21 +89,24 @@ const card: Card = {
 		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
 	},
 
+	illustrator: "Masako Tomii",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857647,
-				tcgplayer: 662137
+				tcgplayer: 662137,
+				cardtrader: 356858
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857647,
-				tcgplayer: 662137
+				tcgplayer: 662137,
+				cardtrader: 356858
 			}
-		}
+		},
 	],
 }
 

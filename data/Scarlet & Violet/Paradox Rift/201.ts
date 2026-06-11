@@ -66,8 +66,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "This is its form when its shell has fallen off. The color of its core depends on the materials that made up the food it ate.",
+	},
 
 	variants: [
 		{

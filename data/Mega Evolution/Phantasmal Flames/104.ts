@@ -79,14 +79,16 @@ const card: Card = {
 		en: "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
 	},
 
+	illustrator: "Bun Toujo",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857679,
-				tcgplayer: 662233
+				tcgplayer: 662233,
+				cardtrader: 356890
 			}
-		}
+		},
 	],
 }
 

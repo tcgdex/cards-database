@@ -75,6 +75,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",

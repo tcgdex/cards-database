@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
+	},
 
 	variants: [
 		{

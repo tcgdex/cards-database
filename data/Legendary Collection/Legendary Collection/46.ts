@@ -63,6 +63,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
+	},
+
 	thirdParty: {
 		cardmarket: 274811,
 		tcgplayer: 86022

@@ -61,21 +61,24 @@ const card: Card = {
 		en: "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
 	},
 
+	illustrator: "Shin Nagasawa",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857635,
-				tcgplayer: 662140
+				tcgplayer: 662140,
+				cardtrader: 356844
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857635,
-				tcgplayer: 662140
+				tcgplayer: 662140,
+				cardtrader: 356844
 			}
-		}
+		},
 	],	
 }
 

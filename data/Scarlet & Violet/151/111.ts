@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
+	},
 
 	variants: [
 		{

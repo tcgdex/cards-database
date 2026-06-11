@@ -40,8 +40,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "It swims along with a school of Remoraid, and they'll all fight together to repel attackers.",
+	},
 
 	variants: [
 		{

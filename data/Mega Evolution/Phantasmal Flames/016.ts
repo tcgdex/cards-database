@@ -61,21 +61,24 @@ const card: Card = {
 		en: "This Pokémon's power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
 	},
 
+	illustrator: "Uta",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857591,
-				tcgplayer: 662146
+				tcgplayer: 662146,
+				cardtrader: 356799
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857591,
-				tcgplayer: 662146
+				tcgplayer: 662146,
+				cardtrader: 356799
 			}
-		}
+		},
 	],
 }
 

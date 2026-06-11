@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+	},
 
 	variants: [
 		{

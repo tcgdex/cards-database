@@ -35,8 +35,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
+	},
 
 	variants: [
 		{

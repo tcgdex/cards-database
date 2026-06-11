@@ -81,6 +81,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+	},
 
 	thirdParty: {
 		cardmarket: 279653,

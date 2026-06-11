@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
+	},
 
 	variants: [
 		{

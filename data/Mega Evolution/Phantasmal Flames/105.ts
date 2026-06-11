@@ -75,14 +75,16 @@ const card: Card = {
 		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
 	},
 
+	illustrator: "Naoyo Kimura",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857680,
-				tcgplayer: 662240
+				tcgplayer: 662240,
+				cardtrader: 356891
 			}
-		}
+		},
 	],
 }
 

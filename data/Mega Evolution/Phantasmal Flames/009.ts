@@ -61,21 +61,24 @@ const card: Card = {
 		en: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
 	},
 
+	illustrator: "Yuka Morii",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857584,
-				tcgplayer: 662203
+				tcgplayer: 662203,
+				cardtrader: 356793
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857584,
-				tcgplayer: 662203
+				tcgplayer: 662203,
+				cardtrader: 356793
 			}
-		}
+		},
 	],
 }
 

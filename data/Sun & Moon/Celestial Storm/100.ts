@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
+	},
+
 	thirdParty: {
 		cardmarket: 361342,
 		tcgplayer: 170925

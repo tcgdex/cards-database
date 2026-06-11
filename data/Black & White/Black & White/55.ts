@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
+	},
+
 	thirdParty: {
 		cardmarket: 279793,
 		tcgplayer: 89420

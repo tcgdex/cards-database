@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their wings are too tiny to allow them to fly. They guard their posteriors with bones that were gathered by Mandibuzz.",
+	},
+
 	thirdParty: {
 		cardmarket: 289878,
 		tcgplayer: 117814

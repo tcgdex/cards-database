@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They flock in great numbers. Though small, they flap their wings with great power.",
+	},
+
 	thirdParty: {
 		cardmarket: 311928,
 		tcgplayer: 149107

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 280344,
 		tcgplayer: 84413

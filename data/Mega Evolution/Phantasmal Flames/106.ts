@@ -61,14 +61,16 @@ const card: Card = {
 		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
 	},
 
+	illustrator: "Uninori",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857681,
-				tcgplayer: 662195
+				tcgplayer: 662195,
+				cardtrader: 356892
 			}
-		}
+		},
 	],
 }
 

@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+	},
 
 	variants: [
 		{

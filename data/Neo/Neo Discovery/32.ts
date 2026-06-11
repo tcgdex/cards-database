@@ -76,6 +76,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",

@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+	},
+
 	thirdParty: {
 		cardmarket: 281065,
 		tcgplayer: 88723

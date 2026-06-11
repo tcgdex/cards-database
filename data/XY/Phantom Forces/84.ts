@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It shouts loudly by inhaling air, and then using its well-developed stomach muscles to exhale.",
+	},
+
 	thirdParty: {
 		cardmarket: 281890,
 		tcgplayer: 94652

@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As it inhales, it expands…and expands…and expands. Wigglytuff compete to see which one can inflate itself the most.",
+	},
+
 	thirdParty: {
 		cardmarket: 365771,
 		tcgplayer: 178953

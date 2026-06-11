@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+	},
+
 	thirdParty: {
 		cardmarket: 280054,
 		tcgplayer: 89977

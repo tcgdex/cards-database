@@ -61,6 +61,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+	},
+
 	thirdParty: {
         cardmarket: 702408,
         tcgplayer: 488001

@@ -73,6 +73,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
+	},
 
 	thirdParty: {
 		cardmarket: 279647,

@@ -72,6 +72,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",

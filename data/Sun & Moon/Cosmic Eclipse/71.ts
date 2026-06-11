@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its two antennae glow softly to lure in prey, making it a useful Pokémon for night fishing.",
+	},
+
 	thirdParty: {
 		cardmarket: 408004,
 		tcgplayer: 201245

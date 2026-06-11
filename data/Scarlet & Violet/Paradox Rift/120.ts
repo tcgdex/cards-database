@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy.",
+	},
 
 	variants: [
 		{

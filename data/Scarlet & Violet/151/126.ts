@@ -57,8 +57,18 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
+	},
 
 	variants: [
 		{

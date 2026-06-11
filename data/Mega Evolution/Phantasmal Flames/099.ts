@@ -61,14 +61,16 @@ const card: Card = {
 		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
 	},
 
+	illustrator: "Ayako Ozaki",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857674,
-				tcgplayer: 662243
+				tcgplayer: 662243,
+				cardtrader: 356885
 			}
-		}
+		},
 	],
 }
 

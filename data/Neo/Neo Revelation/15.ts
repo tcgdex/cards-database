@@ -78,6 +78,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "A vicious Pokémon from the distant past, it appears to have flown by spreading its wings and gliding.",

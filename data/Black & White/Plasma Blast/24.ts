@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
+	},
+
 	thirdParty: {
 		cardmarket: 281045,
 		tcgplayer: 88691

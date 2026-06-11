@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
+	},
+
 	thirdParty: {
 		cardmarket: 297540,
 		tcgplayer: 130995

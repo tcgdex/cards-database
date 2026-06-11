@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Split into two, the tails are so adept at handling and doing things that Ambipom rarely uses its hands.",
+	},
 
 	variants: [
 		{

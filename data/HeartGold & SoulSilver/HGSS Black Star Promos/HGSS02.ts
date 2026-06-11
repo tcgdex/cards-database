@@ -66,6 +66,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
+	},
 
 	variants: [
 		{

@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They prefer unpolluted southern seas. Their coral branches lose their color and deteriorate in dirty water.",
+	},
+
 	thirdParty: {
 		cardmarket: 288204,
 		tcgplayer: 111535

@@ -77,6 +77,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy— it will fume and run riot if those dearest to it ever leave its side.",
+	},
+
 	thirdParty: {
 		cardmarket: 691900
 	}

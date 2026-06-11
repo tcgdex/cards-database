@@ -80,6 +80,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "In South America, it is said that its right eye sees the future and its left eye views the past.",

@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
+
+	description: {
+		en: "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+	},
 
 	variants: [
 		{

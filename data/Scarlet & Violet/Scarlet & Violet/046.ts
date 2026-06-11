@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+
+	description: {
+		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+	},
 
 	thirdParty: {
         cardmarket: 702341,

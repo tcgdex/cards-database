@@ -75,21 +75,24 @@ const card: Card = {
 		en: "There are structures throughout its whole body that produce energy when hit by sound waves with a cheerful rhythm.",
 	},
 
+	illustrator: "Anesaki Dynamic",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857582,
-				tcgplayer: 662179
+				tcgplayer: 662179,
+				cardtrader: 356791
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857582,
-				tcgplayer: 662179
+				tcgplayer: 662179,
+				cardtrader: 356791
 			}
-		}
+		},
 	],
 }
 

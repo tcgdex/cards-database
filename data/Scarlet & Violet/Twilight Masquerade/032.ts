@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+	},
 
 	variants: [
 		{

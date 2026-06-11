@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Stoutland is immensely proud of its impressive moustache. It's said that moustache length is what determines social standing among this species.",
+	},
 
 	variants: [
 		{

@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+	},
 }
 
 export default card

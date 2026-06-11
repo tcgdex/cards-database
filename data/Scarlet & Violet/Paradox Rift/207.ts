@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+	},
 
 	variants: [
 		{

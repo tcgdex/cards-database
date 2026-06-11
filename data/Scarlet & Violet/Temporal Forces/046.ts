@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "Frosmoth senses air currents with its antennae. It sends its scales drifting on frigid air, making them fall like snow.",
+	},
 
 	variants: [
 		{

@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+	},
 
 	variants: [
 		{

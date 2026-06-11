@@ -80,6 +80,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The buds that ring its neck give off a spicy aroma that perks people up.",

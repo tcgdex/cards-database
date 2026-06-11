@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+	},
+
 	thirdParty: {
 		cardmarket: 291480,
 		tcgplayer: 121194

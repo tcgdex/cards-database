@@ -74,6 +74,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It absorbs the heat in the air around it. If you suddenly feel cold, it's because a Gengar has appeared.",

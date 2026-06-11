@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+	},
+
 	thirdParty: {
 		cardmarket: 291630,
 		tcgplayer: 121190
