@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+	},
 
 	variants: [
 	{

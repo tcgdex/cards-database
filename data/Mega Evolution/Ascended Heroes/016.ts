@@ -45,8 +45,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
+
+	description: {
+		en: "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+	},
 
 	variants: [
 		{

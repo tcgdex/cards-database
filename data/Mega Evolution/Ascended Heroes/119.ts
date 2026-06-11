@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "Due to the coal tar created inside it, the heap of coal on Carkol’s back never falls apart, even when the Pokémon rolls around at high speeds.",
+	},
 
 	variants: [
 	{

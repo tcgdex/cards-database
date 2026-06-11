@@ -74,6 +74,10 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings.",
+	},
+
 	variants: [
 	{
 		type: "holo",

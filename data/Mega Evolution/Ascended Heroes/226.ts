@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+	},
 
 	variants: [
 		{

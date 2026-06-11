@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+	},
 
 	variants: [
 		{

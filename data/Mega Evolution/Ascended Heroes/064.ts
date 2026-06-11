@@ -71,8 +71,18 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+	},
 
 	variants: [
 	{

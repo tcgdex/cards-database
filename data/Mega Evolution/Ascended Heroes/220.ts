@@ -71,8 +71,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards.",
+	},
 
 	variants: [
 		{

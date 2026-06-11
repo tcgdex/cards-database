@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
+	},
 
 	variants: [
 	{

@@ -59,8 +59,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sun rays.",
+	},
 
 	variants: [
 		{
