@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+	},
 
 	variants: [
 		{

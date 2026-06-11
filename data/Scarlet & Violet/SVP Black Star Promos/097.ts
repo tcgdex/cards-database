@@ -74,11 +74,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Takumi Wada"
-
+	illustrator: "Takumi Wada",
 	description: {
 		en: "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

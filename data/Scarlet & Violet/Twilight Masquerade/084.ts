@@ -74,8 +74,24 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
+	},
 
 	variants: [
 		{

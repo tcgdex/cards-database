@@ -73,11 +73,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "GIDORA"
-
+	illustrator: "GIDORA",
 	description: {
 		en: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

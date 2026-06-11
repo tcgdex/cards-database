@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Inhaling toxic fumes from trash and mixing them inside its body lets it spread an even fouler stench.",
+	},
+
 	thirdParty: {
 		cardmarket: 280798,
 		tcgplayer: 90566

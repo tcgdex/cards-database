@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It absorbs spirits, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+	},
 
 	variants: [
 		{

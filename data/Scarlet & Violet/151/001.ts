@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+	},
 
 	variants: [
 		{

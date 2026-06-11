@@ -64,6 +64,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",

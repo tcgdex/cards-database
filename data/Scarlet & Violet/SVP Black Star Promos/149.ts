@@ -74,11 +74,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Souichirou Gunjima"
-
+	illustrator: "Souichirou Gunjima",
 	description: {
 		en: "Its peach-shaped shell serves as storage for a potent poison. It makes poisonous mochi and serves them to people and Pokémon.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

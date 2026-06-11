@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It fires rocks charged with electricity. Even if the rock isn't fired that accurately, just grazing an opponent will cause numbness and fainting.",
+	},
+
 	thirdParty: {
 		cardmarket: 297504,
 		tcgplayer: 130944

@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",

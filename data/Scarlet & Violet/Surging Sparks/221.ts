@@ -72,6 +72,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 

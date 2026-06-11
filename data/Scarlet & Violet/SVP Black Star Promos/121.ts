@@ -86,11 +86,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Nisota Niso"
-
+	illustrator: "Nisota Niso",
 	description: {
 		en: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

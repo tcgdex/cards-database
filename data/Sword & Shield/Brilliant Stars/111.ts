@@ -68,6 +68,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
+	},
+
 	thirdParty: {
 		cardmarket: 608657,
 		tcgplayer: 263832

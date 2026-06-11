@@ -68,6 +68,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",

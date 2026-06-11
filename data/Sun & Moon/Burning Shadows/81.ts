@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
+	},
+
 	thirdParty: {
 		cardmarket: 299483,
 		tcgplayer: 138569

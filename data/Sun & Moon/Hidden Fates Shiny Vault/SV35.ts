@@ -68,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
+	},
 }
 
 export default card

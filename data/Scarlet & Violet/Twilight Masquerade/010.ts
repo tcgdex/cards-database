@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs.",
+	},
 
 	variants: [
 		{

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of living things on riverbeds.",
+	},
+
 	thirdParty: {
 		cardmarket: 299440,
 		tcgplayer: 138515

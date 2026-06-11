@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They are timid and grow uneasy when not in a swarm with others of their kind. The pattern on their backs differs slightly from one to another.",
+	},
+
 	thirdParty: {
 		cardmarket: 299416,
 		tcgplayer: 138279

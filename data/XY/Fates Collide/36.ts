@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+	},
+
 	thirdParty: {
 		cardmarket: 289862,
 		tcgplayer: 117796

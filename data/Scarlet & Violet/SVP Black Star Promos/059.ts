@@ -79,11 +79,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "GOSSAN"
-
+	illustrator: "GOSSAN",
 	description: {
 		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

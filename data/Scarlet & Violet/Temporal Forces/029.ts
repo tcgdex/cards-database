@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+	},
 
 	variants: [
 		{

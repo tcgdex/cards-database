@@ -71,11 +71,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "hncl"
-
+	illustrator: "hncl",
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

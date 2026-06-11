@@ -79,11 +79,15 @@ const card: Card = {
 	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "Sanosuke Sakuma"
-
+	illustrator: "Sanosuke Sakuma",
 	description: {
 		en: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -10,7 +10,7 @@ const card: Card = {
 		'zh-cn': "比克提尼"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [494],

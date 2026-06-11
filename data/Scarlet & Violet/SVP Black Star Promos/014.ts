@@ -65,11 +65,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Mina Nakai"
-
+	illustrator: "Mina Nakai",
 	description: {
 		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

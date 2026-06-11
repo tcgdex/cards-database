@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it's mostly made of the same material.",
+	},
+
 	thirdParty: {
 		cardmarket: 372434,
 		tcgplayer: 189248

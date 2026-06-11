@@ -58,11 +58,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "kurumitsu"
-
+	illustrator: "kurumitsu",
 	description: {
 		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

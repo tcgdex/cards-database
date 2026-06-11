@@ -49,6 +49,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things.",
+	},
+
 	variants: [
 		{
 			type: "holo"

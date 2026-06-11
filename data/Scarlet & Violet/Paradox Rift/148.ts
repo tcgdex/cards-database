@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "When Whismur cries, the sound of its own voice startles it, making the Pokémon cry even louder. It cries until it's exhausted, then it falls asleep.",
+	},
 
 	variants: [
 		{

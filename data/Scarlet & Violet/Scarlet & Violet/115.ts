@@ -61,6 +61,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+	},
+
 	thirdParty: {
         cardmarket: 702411,
         tcgplayer: 488004

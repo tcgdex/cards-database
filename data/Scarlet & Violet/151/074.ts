@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering.",
+	},
 
 	variants: [
 		{

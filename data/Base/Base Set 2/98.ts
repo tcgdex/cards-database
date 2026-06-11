@@ -43,6 +43,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",

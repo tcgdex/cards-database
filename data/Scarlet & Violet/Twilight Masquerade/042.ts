@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "Its skin is moist all over its body. The skin on its belly spiral also feels smooth.",
+	},
 
 	variants: [
 		{

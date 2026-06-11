@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+	},
 
 	variants: [
 		{

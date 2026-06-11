@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+	},
 
 	variants: [
 		{

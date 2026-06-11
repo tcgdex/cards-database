@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+	},
+
 	thirdParty: {
 		cardmarket: 281749,
 		tcgplayer: 92265

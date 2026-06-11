@@ -60,17 +60,28 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715538,
+				tcgplayer: 497474,
+				cardtrader: 248654
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 785463
+			}
+		},
+	],
 
 	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 
-	thirdParty: {
-		cardmarket: 715538
-	}
+	
 }
 
 export default card

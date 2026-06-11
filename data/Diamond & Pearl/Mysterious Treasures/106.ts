@@ -62,6 +62,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It has the habit of biting anything with its developed jaws. Even its Trainer need to be careful.",

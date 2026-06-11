@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+	},
+
 	thirdParty: {
 		cardmarket: 365745,
 		tcgplayer: 178921

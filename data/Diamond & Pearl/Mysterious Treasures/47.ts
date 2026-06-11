@@ -63,6 +63,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",

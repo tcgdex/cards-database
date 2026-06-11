@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers.",
+	},
+
 	thirdParty: {
 		cardmarket: 365782,
 		tcgplayer: 178964

@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 279985,
 		tcgplayer: 84719

@@ -82,11 +82,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "Kurata So"
-
+	illustrator: "Kurata So",
 	description: {
 		en: "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -59,6 +59,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",

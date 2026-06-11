@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+	},
+
 	thirdParty: {
 		cardmarket: 299510,
 		tcgplayer: 138605

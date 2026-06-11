@@ -74,11 +74,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Teeziro"
-
+	illustrator: "Teeziro",
 	description: {
 		en: "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

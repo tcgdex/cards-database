@@ -73,11 +73,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Shiburingaru"
-
+	illustrator: "Shiburingaru",
 	description: {
 		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -66,8 +66,24 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+	},
 
 	variants: [
 		{

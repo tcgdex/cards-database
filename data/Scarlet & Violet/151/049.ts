@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+	},
 
 	variants: [
 		{

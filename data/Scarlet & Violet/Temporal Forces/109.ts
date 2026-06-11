@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.",
+	},
 
 	variants: [
 		{

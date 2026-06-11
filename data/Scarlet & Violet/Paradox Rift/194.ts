@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+	},
 
 	variants: [
 		{

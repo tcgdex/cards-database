@@ -64,8 +64,18 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.",
+	},
 
 	variants: [
 		{

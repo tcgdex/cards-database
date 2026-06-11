@@ -43,11 +43,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Nobuhiro Imagawa"
-
+	illustrator: "Nobuhiro Imagawa",
 	description: {
 		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

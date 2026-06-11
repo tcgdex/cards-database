@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
+
+	description: {
+		en: "The detached pincers of these Pokémon are delicious. Some Trainers bring Lechonk into the mountains just to search for them.",
+	},
 
 	variants: [
 		{

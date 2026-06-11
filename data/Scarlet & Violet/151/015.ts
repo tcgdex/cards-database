@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+	},
 
 	variants: [
 		{

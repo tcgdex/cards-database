@@ -55,8 +55,24 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+	},
 
 	variants: [
 		{

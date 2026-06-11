@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -65,6 +71,10 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+
+	description: {
+		en: "This Pokémon scatters poisonous powder to repel enemies. It will eat different plants depending on where it lives.",
+	},
 
 	thirdParty: {
         cardmarket: 702305,

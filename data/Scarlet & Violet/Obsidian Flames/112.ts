@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "For some reason, this Pokémon smiles slightly when it emits a strong electric current from the yellow markings on its body.",
+	},
 
 	variants: [
 		{

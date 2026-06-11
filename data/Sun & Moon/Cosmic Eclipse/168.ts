@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It's always practicing its singing because it wants to improve. Even when it's asleep, it keeps singing in its dreams!",
+	},
+
 	thirdParty: {
 		cardmarket: 408464,
 		tcgplayer: 201290

@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -63,6 +69,10 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+
+	description: {
+		en: "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
+	},
 
 	thirdParty: {
         cardmarket: 702324,

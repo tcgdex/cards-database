@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "Pani Kobayashi",
+
+	description: {
+		en: "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+	},
 
 	thirdParty: {
         cardmarket: 702455,

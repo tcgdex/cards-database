@@ -81,6 +81,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+	},
 }
 
 export default card

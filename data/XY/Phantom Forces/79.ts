@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its huge and magnificent wings, it can keep aloft without ever having to land or rest.",
+	},
+
 	thirdParty: {
 		cardmarket: 281885,
 		tcgplayer: 94647

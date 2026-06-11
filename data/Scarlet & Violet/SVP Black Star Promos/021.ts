@@ -80,11 +80,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Shiburingaru"
-
+	illustrator: "Shiburingaru",
 	description: {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

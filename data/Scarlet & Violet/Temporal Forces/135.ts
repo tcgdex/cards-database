@@ -74,8 +74,24 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
+
+	description: {
+		en: "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
+	},
 
 	variants: [
 		{

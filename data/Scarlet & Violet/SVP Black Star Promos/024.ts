@@ -63,11 +63,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Uta"
-
+	illustrator: "Uta",
 	description: {
 		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

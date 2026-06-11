@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+	},
 
 	variants: [
 		{

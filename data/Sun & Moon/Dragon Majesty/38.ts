@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+	},
+
 	thirdParty: {
 		cardmarket: 363509,
 		tcgplayer: 175451

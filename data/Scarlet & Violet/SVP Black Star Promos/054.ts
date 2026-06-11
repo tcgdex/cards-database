@@ -81,7 +81,12 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 	suffix: "ex",
-	illustrator: "takuyoa"
+	illustrator: "takuyoa",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -77,11 +77,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Pani Kobayashi"
-
+	illustrator: "Pani Kobayashi",
 	description: {
 		en: "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

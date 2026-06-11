@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A Pokémon with a hot temper that can't be controlled once it's angered. Capable of breathing flames hotter than 3000°.",

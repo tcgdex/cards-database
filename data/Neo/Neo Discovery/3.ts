@@ -71,6 +71,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If you become enchanted by its smooth, elegant, dancelike kicks, you may get drilled hard.",

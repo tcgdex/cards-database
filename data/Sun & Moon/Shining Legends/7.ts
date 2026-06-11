@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+	},
+
 	thirdParty: {
 		cardmarket: 302145,
 		tcgplayer: 146659

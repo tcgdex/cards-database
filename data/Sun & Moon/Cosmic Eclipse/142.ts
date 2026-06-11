@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Sometimes the result of its opening an Ultra Wormhole is that energy and life-forms from other worlds are called here to this world.",
+	},
+
 	thirdParty: {
 		cardmarket: 450388,
 		tcgplayer: 201187

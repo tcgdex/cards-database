@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
+	},
+
 	thirdParty: {
 		cardmarket: 280838,
 		tcgplayer: 84349

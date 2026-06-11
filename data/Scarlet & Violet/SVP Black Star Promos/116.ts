@@ -82,11 +82,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Kazumasa Yasukuni"
-
+	illustrator: "Kazumasa Yasukuni",
 	description: {
 		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

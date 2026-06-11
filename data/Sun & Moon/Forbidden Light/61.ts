@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Shiny objects are its passion. It can be found in its cave, scarcely moving, its gaze fixed on the jewels it's amassed or Carbink it has caught.",
+	},
+
 	thirdParty: {
 		cardmarket: 355579,
 		tcgplayer: 165713

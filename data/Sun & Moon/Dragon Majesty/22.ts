@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful.",
+	},
+
 	thirdParty: {
 		cardmarket: 363494,
 		tcgplayer: 175384

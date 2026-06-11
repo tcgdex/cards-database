@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It's said that many artists have taken inspiration from the sight of a Swanna performing a beautiful dance in the light of dawn.",
+	},
 
 	variants: [
 		{

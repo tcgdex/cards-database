@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.",
+	},
 
 	variants: [
 		{

@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+	},
 }
 
 export default card

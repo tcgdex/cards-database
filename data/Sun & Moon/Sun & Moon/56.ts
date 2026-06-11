@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Both its legs became wings, and as a result, it can't move well on the ground. All it can do is crawl around.",
+	},
+
 	thirdParty: {
 		cardmarket: 295367,
 		tcgplayer: 126927

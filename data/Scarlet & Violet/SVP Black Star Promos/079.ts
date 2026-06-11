@@ -43,11 +43,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "OKACHEKE"
-
+	illustrator: "OKACHEKE",
 	description: {
 		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

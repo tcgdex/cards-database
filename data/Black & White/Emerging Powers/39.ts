@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+	},
+
 	thirdParty: {
 		cardmarket: 280004,
 		tcgplayer: 90571

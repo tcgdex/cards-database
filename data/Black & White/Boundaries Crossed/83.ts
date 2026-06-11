@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+	},
+
 	thirdParty: {
 		cardmarket: 280670,
 		tcgplayer: 90025

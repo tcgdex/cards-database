@@ -69,11 +69,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "GIDORA"
-
+	illustrator: "GIDORA",
 	description: {
 		en: "There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

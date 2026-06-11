@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+	},
+
 	thirdParty: {
 		cardmarket: 316022,
 		tcgplayer: 157713

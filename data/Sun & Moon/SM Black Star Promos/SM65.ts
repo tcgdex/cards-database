@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
+	},
 }
 
 export default card

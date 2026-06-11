@@ -52,7 +52,12 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Kagemaru Himeno"
+	illustrator: "Kagemaru Himeno",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+	},
 
 	variants: [
 		{

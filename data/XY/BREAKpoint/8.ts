@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+	},
+
 	thirdParty: {
 		cardmarket: 288183,
 		tcgplayer: 111511

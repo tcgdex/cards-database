@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It radiates such a powerful magnetic field that nearby electrical appliances become unusable.",
+	},
+
 	thirdParty: {
 		cardmarket: 297542,
 		tcgplayer: 131000

@@ -63,8 +63,24 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas.",
+	},
 
 	variants: [
 		{

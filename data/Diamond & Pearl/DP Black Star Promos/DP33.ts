@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",

@@ -75,6 +75,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",

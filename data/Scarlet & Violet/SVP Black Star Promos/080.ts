@@ -64,11 +64,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "G",
-	illustrator: "Hideki Ishikawa"
-
+	illustrator: "Hideki Ishikawa",
 	description: {
 		en: "The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

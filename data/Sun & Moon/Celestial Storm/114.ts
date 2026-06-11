@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+	},
+
 	thirdParty: {
 		cardmarket: 361353,
 		tcgplayer: 170943

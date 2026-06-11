@@ -77,6 +77,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
+	},
+
 	thirdParty: {
 		cardmarket: 608658,
 		tcgplayer: 263833

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "In order to create a more advanced Pokémon, an additional program was installed, but apparently it contained a defect that makes it move oddly.",
+	},
+
 	thirdParty: {
 		cardmarket: 299506,
 		tcgplayer: 138601

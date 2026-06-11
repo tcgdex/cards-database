@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
+	},
 
 	variants: [
 		{

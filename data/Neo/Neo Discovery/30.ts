@@ -58,6 +58,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",

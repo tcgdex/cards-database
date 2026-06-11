@@ -80,11 +80,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Bun Toujo"
-
+	illustrator: "Bun Toujo",
 	description: {
 		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

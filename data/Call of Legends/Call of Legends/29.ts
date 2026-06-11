@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fingertips emit a peculiar force field that hardens air to create an actual wall.",
+	},
+
 	thirdParty: {
 		cardmarket: 279672,
 		tcgplayer: 87594

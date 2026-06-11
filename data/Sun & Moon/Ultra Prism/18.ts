@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When angered, it spouts brilliant fire from all over its body. It doesn't calm down until its opponent has burned to ash.",
+	},
+
 	thirdParty: {
 		cardmarket: 315949,
 		tcgplayer: 157635

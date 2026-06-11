@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can't relax if it or its surroundings are not clean. It wipes of dirt with its wings.",
+	},
+
 	thirdParty: {
 		cardmarket: 280543,
 		tcgplayer: 89662

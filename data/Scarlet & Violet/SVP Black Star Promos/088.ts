@@ -63,11 +63,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "saino misaki"
-
+	illustrator: "saino misaki",
 	description: {
 		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

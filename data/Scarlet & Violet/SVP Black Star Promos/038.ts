@@ -82,11 +82,15 @@ const card: Card = {
 	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "OKACHEKE"
-
+	illustrator: "OKACHEKE",
 	description: {
 		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

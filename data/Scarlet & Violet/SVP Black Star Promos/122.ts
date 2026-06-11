@@ -43,11 +43,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "Po-Suzuki"
-
+	illustrator: "Po-Suzuki",
 	description: {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

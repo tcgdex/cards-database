@@ -74,11 +74,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Tonji Matsuno"
-
+	illustrator: "Tonji Matsuno",
 	description: {
 		en: "These Pokémon can crush a car with no more than a headbutt. Bouffalant with more hair on their heads hold higher positions within the herd.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -65,6 +65,12 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -73,6 +79,10 @@ const card: Card = {
 		reverse: true,
 		holo: false,
 		firstEdition: false
+	},
+
+	description: {
+		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
 	},
 
 	thirdParty: {

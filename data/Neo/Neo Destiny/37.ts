@@ -50,6 +50,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "This ancient Pokémon possessed 10 tentacles, which it used to swim through the ocean.",

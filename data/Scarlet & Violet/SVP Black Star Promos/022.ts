@@ -79,11 +79,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Nisota Niso"
-
+	illustrator: "Nisota Niso",
 	description: {
 		en: "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

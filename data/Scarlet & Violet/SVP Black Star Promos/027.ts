@@ -52,11 +52,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Atsushi Furusawa"
-
+	illustrator: "Atsushi Furusawa",
 	description: {
 		en: "Pikachu seems excited to be going on an adventure, and so do its new pals, from attention-seeking Sprigatito to laid-back Fuecoco and tidy Quaxly.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -82,11 +82,15 @@ const card: Card = {
 	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "GOSSAN"
-
+	illustrator: "GOSSAN",
 	description: {
 		en: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

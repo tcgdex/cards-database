@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its heavy shell is thought to be the reason this ancient Pokémon died out. It's apparently a distant ancestor of Octillery.",
+	},
+
 	thirdParty: {
 		cardmarket: 369006,
 		tcgplayer: 183854

@@ -67,6 +67,12 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -74,6 +80,10 @@ const card: Card = {
 		"normal": true,
 		"reverse": true,
 		"holo": false
+	},
+
+	description: {
+		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
 	},
 
 	thirdParty: {

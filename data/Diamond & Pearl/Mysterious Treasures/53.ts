@@ -77,6 +77,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",

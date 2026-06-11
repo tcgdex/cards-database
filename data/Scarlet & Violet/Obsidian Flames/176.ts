@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its stomach fills most of its torso. It wanders the same path every day, searching for fresh food.",
+	},
 
 	variants: [
 		{

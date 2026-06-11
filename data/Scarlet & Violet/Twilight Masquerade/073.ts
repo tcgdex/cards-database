@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
+	},
 
 	variants: [
 		{

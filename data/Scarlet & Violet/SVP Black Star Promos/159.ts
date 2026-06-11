@@ -73,7 +73,12 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Shinji Kanda"
+	illustrator: "Shinji Kanda",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Cloyster that live in seas with harsh tidal currents grow large, sharp spikes on their shells.",
+	},
 
 	variants: [
 		{

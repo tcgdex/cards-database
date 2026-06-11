@@ -77,11 +77,15 @@ const card: Card = {
 	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "Oku"
-
+	illustrator: "Oku",
 	description: {
 		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

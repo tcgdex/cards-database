@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Each of its grains of sand has its own will. Palossand eats small Pokémon and siphons away their vital essence while they're still alive.",
+	},
+
 	thirdParty: {
 		cardmarket: 408284,
 		tcgplayer: 201168

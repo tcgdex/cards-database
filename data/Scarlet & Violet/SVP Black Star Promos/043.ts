@@ -63,11 +63,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "saino misaki"
-
+	illustrator: "saino misaki",
 	description: {
 		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

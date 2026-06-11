@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+	},
+
 	thirdParty: {
 		cardmarket: 407764,
 		tcgplayer: 201189

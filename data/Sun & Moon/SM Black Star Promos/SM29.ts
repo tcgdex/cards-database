@@ -79,6 +79,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
+	},
 }
 
 export default card

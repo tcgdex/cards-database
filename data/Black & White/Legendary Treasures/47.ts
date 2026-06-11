@@ -60,6 +60,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
+	},
+
 	thirdParty: {
 		cardmarket: 281198,
 		tcgplayer: 88174

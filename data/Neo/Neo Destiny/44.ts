@@ -59,6 +59,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "If puffs its body up like a balloon and sings a lullaby that makes all who hear it fall into a deep sleep.",

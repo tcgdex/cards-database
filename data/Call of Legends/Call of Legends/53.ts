@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays.",
+	},
+
 	thirdParty: {
 		cardmarket: 279696,
 		tcgplayer: 84280

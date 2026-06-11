@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",

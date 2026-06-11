@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+	},
 
 	variants: [
 		{

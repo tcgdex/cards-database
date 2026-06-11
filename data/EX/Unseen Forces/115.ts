@@ -3,9 +3,9 @@ import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Suicune Star",
+		en: "Suicune ☆",
 		fr: "Suicune ☆",
-		de: "Suicune *"
+		de: "Suicune ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,9 +37,9 @@ const card: Card = {
 				de: "Splashing Turn"
 			},
 			effect: {
-				en: "Switch Suicune Star with 1 of your Benched Pokémon.",
-				fr: "Échangez Suicune  avec 1 de vos Pokémon de Banc.",
-				de: "Switch Shining Suicune with 1 of your Benched Pokémon."
+				en: "Switch Suicune ☆ with 1 of your Benched Pokémon.",
+				fr: "Échangez Suicune ☆ avec 1 de vos Pokémon de Banc.",
+				de: "Switch Suicune ☆ with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 

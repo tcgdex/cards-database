@@ -35,8 +35,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon is far brighter than the average child, and Lillipup won't forget the love it receives or any abuse it suffers.",
+	},
 
 	variants: [
 		{

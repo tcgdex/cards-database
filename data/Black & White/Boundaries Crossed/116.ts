@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By extending its rolled up ears and striking the ground, it can bound so high it surprises itself.",
+	},
+
 	thirdParty: {
 		cardmarket: 280703,
 		tcgplayer: 84045

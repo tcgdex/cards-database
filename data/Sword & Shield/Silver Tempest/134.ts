@@ -67,6 +67,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "Born when around 10% of Zygarde's cells have been gathered from all over, this form is skilled in close-range combat.",
+	},
+
 	thirdParty: {
 		cardmarket: 682181,
 		tcgplayer: 451787

@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 365681,
 		tcgplayer: 178844

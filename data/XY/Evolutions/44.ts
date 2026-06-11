@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is easily angered. By swinging its well-developed horn wildly, it can even punch through diamond.",
+	},
+
 	thirdParty: {
 		cardmarket: 293399,
 		tcgplayer: 124057

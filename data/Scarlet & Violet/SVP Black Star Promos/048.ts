@@ -52,11 +52,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Gemi"
-
+	illustrator: "Gemi",
 	description: {
 		en: "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

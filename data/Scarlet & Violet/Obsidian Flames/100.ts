@@ -44,8 +44,24 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.",
+	},
 
 	variants: [
 		{

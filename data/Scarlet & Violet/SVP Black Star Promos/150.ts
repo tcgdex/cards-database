@@ -27,7 +27,12 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "H",
-	illustrator: "Naoki Saito"
+	illustrator: "Naoki Saito",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

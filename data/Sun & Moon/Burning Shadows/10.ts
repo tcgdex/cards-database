@@ -93,6 +93,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While it's believed that starlight provides it with energy, this Pokémon also loves to eat berries. In the daytime, it curls up in the grass to sleep.",
+	},
+
 	thirdParty: {
 		cardmarket: 299417,
 		tcgplayer: 138280

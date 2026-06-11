@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+	},
 
 	variants: [
 		{

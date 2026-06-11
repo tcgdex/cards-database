@@ -74,6 +74,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+	},
 
 	thirdParty: {
 		cardmarket: 279683,

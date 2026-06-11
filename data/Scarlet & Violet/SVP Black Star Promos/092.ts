@@ -59,11 +59,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "akagi"
-
+	illustrator: "akagi",
 	description: {
 		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -63,6 +63,12 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -71,6 +77,10 @@ const card: Card = {
 	},
 
 	illustrator: "hncl",
+
+	description: {
+		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+	},
 
 	thirdParty: {
         cardmarket: 702330,

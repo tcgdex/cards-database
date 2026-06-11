@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+	},
+
 	thirdParty: {
 		cardmarket: 311858,
 		tcgplayer: 149029

@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It pursues its prey at speeds of 75 mph and finishes them off with fangs that can crush iron. It is known as the bully of the sea.",
+	},
+
 	thirdParty: {
 		cardmarket: 297490,
 		tcgplayer: 130928

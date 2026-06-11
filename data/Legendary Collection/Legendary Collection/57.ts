@@ -57,6 +57,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+	},
 
 	thirdParty: {
 		cardmarket: 274822,

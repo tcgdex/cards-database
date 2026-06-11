@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+	},
+
 	thirdParty: {
 		cardmarket: 281704,
 		tcgplayer: 92215

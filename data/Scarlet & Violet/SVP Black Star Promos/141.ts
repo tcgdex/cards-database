@@ -79,11 +79,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Tetsu Kayama"
-
+	illustrator: "Tetsu Kayama",
 	description: {
 		en: "Its extremely soft wings make no sound in flight. It silently sneaks up on prey without being detected.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

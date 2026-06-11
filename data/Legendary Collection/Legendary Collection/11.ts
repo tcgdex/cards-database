@@ -63,6 +63,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright.",
+	},
 
 	thirdParty: {
 		cardmarket: 274776,

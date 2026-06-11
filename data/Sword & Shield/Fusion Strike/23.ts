@@ -29,6 +29,12 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "5ban Graphics",

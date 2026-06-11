@@ -73,11 +73,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "mingo"
-
+	illustrator: "mingo",
 	description: {
 		en: "It freezes prey by blowing its −58 degree Fahrenheit breath. It is said to then secretly display its prey.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

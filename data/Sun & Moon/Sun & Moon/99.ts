@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Kangaskhan's maternal love is so deep that it will brave death to protect its offspring.",
+	},
+
 	thirdParty: {
 		cardmarket: 295410,
 		tcgplayer: 126971

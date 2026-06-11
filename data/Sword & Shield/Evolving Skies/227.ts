@@ -70,6 +70,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
+	description: {
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+	},
+
 	thirdParty: {
 		cardmarket: 574285,
 		tcgplayer: 246802

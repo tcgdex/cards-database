@@ -66,11 +66,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Keisin"
-
+	illustrator: "Keisin",
 	description: {
 		en: "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

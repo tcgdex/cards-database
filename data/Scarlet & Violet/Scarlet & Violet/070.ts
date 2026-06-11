@@ -64,6 +64,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -72,6 +78,10 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+	},
 
 	thirdParty: {
         cardmarket: 702366,

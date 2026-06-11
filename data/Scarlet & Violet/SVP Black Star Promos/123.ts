@@ -72,11 +72,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "kodama"
-
+	illustrator: "kodama",
 	description: {
 		en: "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

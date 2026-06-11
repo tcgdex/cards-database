@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "My fluffy heart makes me feel like a marshmallow. A thrilling macaron full of colorful magic. Everybody's crazy about the taste of candy! ☆",
+	},
+
 	thirdParty: {
 		cardmarket: 288528
 	}

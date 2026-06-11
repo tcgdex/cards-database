@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using the most advanced technologies, scientists finally succeeded in making the first artificial Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 293431,
 		tcgplayer: 124084

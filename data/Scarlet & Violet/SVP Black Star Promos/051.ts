@@ -74,11 +74,15 @@ const card: Card = {
 	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "GOSSAN"
-
+	illustrator: "GOSSAN",
 	description: {
 		en: "This POKéMON's stomach is so strong, even eating moldy or rotten food will not affect it.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

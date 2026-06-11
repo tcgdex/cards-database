@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
+	},
+
 	thirdParty: {
 		cardmarket: 280653,
 		tcgplayer: 90010

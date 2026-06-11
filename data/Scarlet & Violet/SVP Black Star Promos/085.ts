@@ -44,11 +44,15 @@ const card: Card = {
 		},
 	],
 	retreat: 1,
-	regulationMark: "H"
-
+	regulationMark: "H",
 	description: {
 		en: "When it is angered, it immediately discharges the energy stored in the pouches of its cheeks.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

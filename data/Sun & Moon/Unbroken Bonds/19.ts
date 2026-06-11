@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "This Ultra Beast's body, which is as thin as paper, is like a sharpened sword.",
+	},
+
 	thirdParty: {
 		cardmarket: 372312,
 		tcgplayer: 189061

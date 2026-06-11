@@ -54,11 +54,15 @@ const card: Card = {
 	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "Tika Matsuno"
-
+	illustrator: "Tika Matsuno",
 	description: {
 		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

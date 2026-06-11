@@ -79,11 +79,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Uta"
-
+	illustrator: "Uta",
 	description: {
 		en: "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

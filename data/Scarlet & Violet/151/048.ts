@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+	},
 
 	variants: [
 		{

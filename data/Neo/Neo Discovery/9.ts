@@ -73,6 +73,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",

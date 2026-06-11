@@ -73,11 +73,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Uninori"
-
+	illustrator: "Uninori",
 	description: {
 		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

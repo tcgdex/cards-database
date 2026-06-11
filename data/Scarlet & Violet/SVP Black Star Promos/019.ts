@@ -73,11 +73,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Oswaldo KATO"
-
+	illustrator: "Oswaldo KATO",
 	description: {
 		en: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

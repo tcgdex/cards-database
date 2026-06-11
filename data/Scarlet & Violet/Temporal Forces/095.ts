@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
+
+	description: {
+		en: "To intimidate its opponents, Coalossal will vigorously shake its body, scattering coal from its smoldering back.",
+	},
 
 	variants: [
 		{

@@ -68,6 +68,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",

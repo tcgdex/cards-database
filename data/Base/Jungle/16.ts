@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",

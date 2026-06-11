@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+	},
 
 	variants: [
 		{

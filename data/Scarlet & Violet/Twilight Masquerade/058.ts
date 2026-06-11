@@ -55,8 +55,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It's an incredibly poor learner because it uses the bare minimum amount of energy for its brain. It focuses on battling instead.",
+	},
 
 	variants: [
 		{

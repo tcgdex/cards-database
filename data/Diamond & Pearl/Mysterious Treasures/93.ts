@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",

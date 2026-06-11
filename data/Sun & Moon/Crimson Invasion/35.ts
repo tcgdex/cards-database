@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It glides using its cape-like membrane. Electrical energy scatters from it, shocking its friends and foes alike.",
+	},
+
 	thirdParty: {
 		cardmarket: 311885,
 		tcgplayer: 149058

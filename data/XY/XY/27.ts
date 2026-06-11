@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+	},
+
 	thirdParty: {
 		cardmarket: 281364,
 		tcgplayer: 85506

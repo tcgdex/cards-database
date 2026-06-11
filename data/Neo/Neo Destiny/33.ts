@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "If one of its heads falls off, it turns into an Exeggcute, which begins to look for other Exeggcutes using a special form of telepathy.",

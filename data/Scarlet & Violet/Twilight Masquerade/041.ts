@@ -57,8 +57,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Its legs are newly grown, and it can't walk very well. It seems to prefer swimming through the water instead.",
+	},
 
 	variants: [
 		{

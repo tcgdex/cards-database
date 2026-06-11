@@ -66,8 +66,18 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
+	},
 
 	variants: [
 		{

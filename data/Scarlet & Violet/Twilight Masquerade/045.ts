@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+	},
 
 	variants: [
 		{

@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",

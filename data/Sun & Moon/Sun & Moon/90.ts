@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its growls make its opponents uneasy. This laid-back Pokémon tends to sleep half the day.",
+	},
+
 	thirdParty: {
 		cardmarket: 295401,
 		tcgplayer: 126962

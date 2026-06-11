@@ -8,6 +8,9 @@ on:
     branches: 
       - "**"
 
+env:
+  CI: true
+
 permissions: {}
 jobs:
   test:

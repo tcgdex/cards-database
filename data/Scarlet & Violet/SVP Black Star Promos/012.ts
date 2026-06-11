@@ -65,11 +65,15 @@ const card: Card = {
 	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "Shin Nagasawa"
-
+	illustrator: "Shin Nagasawa",
 	description: {
 		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

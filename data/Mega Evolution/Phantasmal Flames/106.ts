@@ -51,14 +51,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	illustrator: "Uninori",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857681,
-				tcgplayer: 662195
+				tcgplayer: 662195,
+				cardtrader: 356892
 			}
-		}
+		},
 	],
 }
 

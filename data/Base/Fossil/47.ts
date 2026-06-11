@@ -52,6 +52,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",

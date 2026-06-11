@@ -51,21 +51,24 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "osare",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857634,
-				tcgplayer: 660412
+				tcgplayer: 660412,
+				cardtrader: 356842
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857634,
-				tcgplayer: 660412
+				tcgplayer: 660412,
+				cardtrader: 356842
 			}
-		}
+		},
 	],	
 }
 

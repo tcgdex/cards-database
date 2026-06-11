@@ -67,6 +67,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+	},
+
 	thirdParty: {
 		cardmarket: 658779,
 		tcgplayer: 272349

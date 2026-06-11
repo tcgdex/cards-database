@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
+	},
+
 	thirdParty: {
 		cardmarket: 408374,
 		tcgplayer: 201190

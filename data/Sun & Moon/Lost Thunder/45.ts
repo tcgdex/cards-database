@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To corner prey, they check each other's location using barks that only they can understand.",
+	},
+
 	thirdParty: {
 		cardmarket: 365685,
 		tcgplayer: 178850

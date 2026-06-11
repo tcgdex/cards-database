@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+	},
+
 	thirdParty: {
 		cardmarket: 372423,
 		tcgplayer: 189234

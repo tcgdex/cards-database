@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro.",
+	},
+
 	thirdParty: {
 		cardmarket: 295397,
 		tcgplayer: 126958

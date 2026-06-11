@@ -48,11 +48,15 @@ const card: Card = {
 	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "Mina Nakai"
-
+	illustrator: "Mina Nakai",
 	description: {
 		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

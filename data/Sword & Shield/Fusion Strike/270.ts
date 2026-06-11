@@ -29,6 +29,18 @@ const card: Card = {
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",

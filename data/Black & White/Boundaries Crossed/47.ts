@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+	},
+
 	thirdParty: {
 		cardmarket: 280634,
 		tcgplayer: 86433

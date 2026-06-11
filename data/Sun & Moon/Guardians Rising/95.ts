@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It has trouble drawing a line between friends and food. It will calmly try to melt and eat even those it gets along well with.",
+	},
+
 	thirdParty: {
 		cardmarket: 297549,
 		tcgplayer: 131011

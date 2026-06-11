@@ -71,11 +71,15 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Souichirou Gunjima"
-
+	illustrator: "Souichirou Gunjima",
 	description: {
 		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -73,11 +73,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "0313"
-
+	illustrator: "0313",
 	description: {
 		en: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

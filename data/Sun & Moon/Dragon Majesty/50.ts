@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+	},
+
 	thirdParty: {
 		cardmarket: 363521,
 		tcgplayer: 175480

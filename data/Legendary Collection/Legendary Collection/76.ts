@@ -59,6 +59,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "A mysterious Pokémon. Some say it is a lifeform from another dimension, while others believe it is formed from smog.",
+	},
+
 	thirdParty: {
 		cardmarket: 274841,
 		tcgplayer: 85648

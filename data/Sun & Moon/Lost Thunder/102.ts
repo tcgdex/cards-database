@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It arrives near the moment of death and steals spirit from the body.",
+	},
+
 	thirdParty: {
 		cardmarket: 365739,
 		tcgplayer: 178915

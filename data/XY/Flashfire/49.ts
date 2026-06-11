@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+	},
+
 	thirdParty: {
 		cardmarket: 281532,
 		tcgplayer: 91182

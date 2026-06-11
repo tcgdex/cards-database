@@ -82,11 +82,15 @@ const card: Card = {
 	],
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "KEIICHIRO ITO"
-
+	illustrator: "KEIICHIRO ITO",
 	description: {
 		en: "Though its punches are powerful, this Pokémon's movements are sluggish. It blows icy bubbles from its mouth to immobilize its opponents.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

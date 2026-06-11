@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
+	},
 
 	variants: [
 		{

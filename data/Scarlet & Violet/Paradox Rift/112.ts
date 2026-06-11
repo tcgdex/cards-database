@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+	},
 
 	variants: [
 		{

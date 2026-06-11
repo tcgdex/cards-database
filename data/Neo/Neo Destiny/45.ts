@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It has an aerodynamic shape that allows it to swim at great speeds. The colder the water gets, the more active it becomes.",

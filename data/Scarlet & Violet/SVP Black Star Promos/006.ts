@@ -82,11 +82,15 @@ const card: Card = {
 	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "GIDORA"
-
+	illustrator: "GIDORA",
 	description: {
 		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
 	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.",
+	},
+
 	thirdParty: {
 		cardmarket: 288196,
 		tcgplayer: 111524

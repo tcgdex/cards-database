@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
+	},
+
 	thirdParty: {
 		cardmarket: 365749,
 		tcgplayer: 178925

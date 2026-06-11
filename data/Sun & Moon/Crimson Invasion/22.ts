@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
+	},
+
 	thirdParty: {
 		cardmarket: 311872,
 		tcgplayer: 149043

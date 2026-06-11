@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It brings its claws together and whirls around at high speed before rushing toward its prey.",
+	},
 
 	variants: [
 		{

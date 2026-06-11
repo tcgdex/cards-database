@@ -64,8 +64,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It eats its own weight in sugar every day. If it doesn't get enough sugar, it becomes incredibly grumpy.",
+	},
 
 	variants: [
 		{

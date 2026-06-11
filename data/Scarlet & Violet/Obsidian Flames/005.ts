@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+	},
 
 	variants: [
 		{

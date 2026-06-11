@@ -63,8 +63,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+	},
 
 	variants: [
 		{

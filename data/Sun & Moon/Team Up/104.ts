@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 369033,
 		tcgplayer: 183886

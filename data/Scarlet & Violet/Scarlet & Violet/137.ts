@@ -72,6 +72,12 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
@@ -80,6 +86,10 @@ const card: Card = {
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
+
+	description: {
+		en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+	},
 
 	thirdParty: {
         cardmarket: 702432,

@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning.",
+	},
 
 	variants: [
 		{

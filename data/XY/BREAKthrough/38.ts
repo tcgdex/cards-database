@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+	},
+
 	thirdParty: {
 		cardmarket: 286284,
 		tcgplayer: 107157

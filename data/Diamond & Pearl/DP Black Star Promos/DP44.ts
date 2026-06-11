@@ -71,6 +71,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
