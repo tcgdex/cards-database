@@ -64,11 +64,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 692118
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 692118
+			}
 		}
 	]
 }
