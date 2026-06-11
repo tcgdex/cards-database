@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I", 
+
+	description: {
+		en: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+	},
 
 	variants: [
 	{

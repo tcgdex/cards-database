@@ -60,8 +60,18 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "Once a Smeargle reaches adulthood, it will have other members of its species leave paw prints on its back.",
+	},
 
 	variants: [
 		{

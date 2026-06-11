@@ -70,8 +70,24 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+	},
 
 	variants: [
 		{

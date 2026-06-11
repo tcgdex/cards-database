@@ -48,8 +48,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+	},
 
 	variants: [
 		{

@@ -62,8 +62,18 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+	},
 
 	variants: [
 		{

@@ -62,8 +62,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+	},
 
 	variants: [
 		{

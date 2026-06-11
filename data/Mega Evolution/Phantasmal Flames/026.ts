@@ -48,8 +48,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+	},
 
 	variants: [
 		{

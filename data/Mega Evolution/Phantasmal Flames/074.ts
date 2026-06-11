@@ -48,8 +48,24 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "Duraludon's body is comprised of a special metal that's lightweight and scratch resistant. It's also smooth, as though it was given a mirror finish.",
+	},
 
 	variants: [
 		{

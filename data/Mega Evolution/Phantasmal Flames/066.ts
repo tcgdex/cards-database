@@ -62,8 +62,18 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+	},
 
 	variants: [
 		{

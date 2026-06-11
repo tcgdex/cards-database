@@ -60,8 +60,24 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+	},
 
 	variants: [
 		{

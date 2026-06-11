@@ -48,8 +48,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
+	},
 
 	variants: [
 		{

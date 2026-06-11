@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "It sleeps under shallow ocean waters during the day, then looks for food at night when it's colder.",
+	},
 
 	variants: [
 		{

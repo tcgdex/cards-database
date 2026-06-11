@@ -38,8 +38,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "In truth, it is a cowardly Pokémon. It growls eagerly in order to hide its fear from its opponent.",
+	},
 
 	variants: [
 		{

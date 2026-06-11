@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
+	},
 
 	variants: [
 		{
