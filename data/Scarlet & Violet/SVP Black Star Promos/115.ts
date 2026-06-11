@@ -65,9 +65,19 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Uninori"
+
+	description: {
+		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
+	},
 }
 
 export default card

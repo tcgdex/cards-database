@@ -74,9 +74,19 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 	illustrator: "OKACHEKE"
+
+	description: {
+		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+	},
 }
 
 export default card

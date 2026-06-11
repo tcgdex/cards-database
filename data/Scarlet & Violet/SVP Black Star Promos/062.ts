@@ -44,9 +44,25 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "kurumitsu"
+
+	description: {
+		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
+	},
 }
 
 export default card

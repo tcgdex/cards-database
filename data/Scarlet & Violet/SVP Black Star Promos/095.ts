@@ -40,9 +40,25 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 	illustrator: "Tika Matsuno"
+
+	description: {
+		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+	},
 }
 
 export default card

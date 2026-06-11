@@ -74,6 +74,12 @@ const card: Card = {
 		damage: 330
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	suffix: "ex",

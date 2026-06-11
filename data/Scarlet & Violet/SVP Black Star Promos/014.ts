@@ -57,9 +57,19 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Mina Nakai"
+
+	description: {
+		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+	},
 }
 
 export default card

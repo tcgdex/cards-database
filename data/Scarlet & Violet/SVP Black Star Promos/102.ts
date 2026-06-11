@@ -45,6 +45,10 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "G"
+
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+	},
 }
 
 export default card

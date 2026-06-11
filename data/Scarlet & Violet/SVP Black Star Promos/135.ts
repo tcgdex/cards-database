@@ -52,9 +52,25 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Keisin"
+
+	description: {
+		en: "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
+	},
 }
 
 export default card

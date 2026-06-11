@@ -57,9 +57,25 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Souichirou Gunjima"
+
+	description: {
+		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+	},
 }
 
 export default card

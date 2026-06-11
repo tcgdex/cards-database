@@ -65,9 +65,19 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "0313"
+
+	description: {
+		en: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+	},
 }
 
 export default card

@@ -65,9 +65,19 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "GIDORA"
+
+	description: {
+		en: "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+	},
 }
 
 export default card

@@ -74,9 +74,19 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Anesaki Dynamic"
+
+	description: {
+		en: "This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.",
+	},
 }
 
 export default card

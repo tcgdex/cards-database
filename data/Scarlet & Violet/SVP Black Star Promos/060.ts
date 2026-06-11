@@ -74,9 +74,25 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 	illustrator: "Takeshi Nakamura"
+
+	description: {
+		en: "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking.",
+	},
 }
 
 export default card

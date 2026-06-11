@@ -65,9 +65,19 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "mingo"
+
+	description: {
+		en: "It freezes prey by blowing its −58 degree Fahrenheit breath. It is said to then secretly display its prey.",
+	},
 }
 
 export default card
