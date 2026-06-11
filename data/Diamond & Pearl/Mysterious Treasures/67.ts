@@ -66,6 +66,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",

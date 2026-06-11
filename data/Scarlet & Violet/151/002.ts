@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
+	},
 
 	variants: [
 		{

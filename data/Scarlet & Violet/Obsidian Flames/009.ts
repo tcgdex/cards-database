@@ -55,8 +55,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
+	},
 
 	variants: [
 		{

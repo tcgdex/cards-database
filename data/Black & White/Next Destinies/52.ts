@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
+	},
+
 	thirdParty: {
 		cardmarket: 280277,
 		tcgplayer: 85914

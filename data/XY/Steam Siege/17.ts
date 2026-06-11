@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
+	},
+
 	thirdParty: {
 		cardmarket: 291524,
 		tcgplayer: 121006

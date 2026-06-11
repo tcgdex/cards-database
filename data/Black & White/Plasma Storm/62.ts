@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+	},
+
 	thirdParty: {
 		cardmarket: 280802,
 		tcgplayer: 85738

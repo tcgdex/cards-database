@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It attacks with retractable horns. It throws a punch that's the equivalent of the force of a hundred pro boxers.",
+	},
+
 	thirdParty: {
 		cardmarket: 284241,
 		tcgplayer: 101482

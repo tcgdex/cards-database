@@ -56,6 +56,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",

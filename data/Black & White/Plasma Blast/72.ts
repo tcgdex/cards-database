@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A man-made Pokémon created using advanced scientific means. It can move freely in cyberspace.",
+	},
+
 	thirdParty: {
 		cardmarket: 281093,
 		tcgplayer: 88314

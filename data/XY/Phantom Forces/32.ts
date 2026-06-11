@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Once it bites, it will not stop draining energy from the victim even if it gets too heavy to fly.",
+	},
+
 	thirdParty: {
 		cardmarket: 281838,
 		tcgplayer: 94165

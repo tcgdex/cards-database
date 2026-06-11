@@ -61,6 +61,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
+	},
+
 	thirdParty: {
         cardmarket: 702427,
         tcgplayer: 488021

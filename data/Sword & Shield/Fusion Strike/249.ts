@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Lightning"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Eske Yoshinob",

@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Electricity leaks from it in amounts far greater than the amount of electricity it eats.",
+	},
+
 	thirdParty: {
 		cardmarket: 365709,
 		tcgplayer: 178880

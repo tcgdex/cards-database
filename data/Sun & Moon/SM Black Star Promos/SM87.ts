@@ -82,6 +82,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+	},
 }
 
 export default card

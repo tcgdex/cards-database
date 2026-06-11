@@ -58,7 +58,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+	},
 }
 
 export default card

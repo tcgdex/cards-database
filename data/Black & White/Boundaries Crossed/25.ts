@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases.",
+	},
+
 	thirdParty: {
 		cardmarket: 280612,
 		tcgplayer: 88062

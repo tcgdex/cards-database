@@ -74,8 +74,24 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
+	},
 
 	variants: [
 		{

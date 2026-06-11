@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The males are usually lazy, but when attacked by a strong foe, a male will protect its friends with no regard for its own safety.",
+	},
+
 	thirdParty: {
 		cardmarket: 407834,
 		tcgplayer: 201214

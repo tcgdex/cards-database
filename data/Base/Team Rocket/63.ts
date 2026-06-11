@@ -66,6 +66,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It wanders around at night sowing its seeds to create more Oddishes.",

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+	},
+
 	thirdParty: {
 		cardmarket: 286251,
 		tcgplayer: 107124

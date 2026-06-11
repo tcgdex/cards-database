@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can't fly yet and must wait until its wings have developed more. Since it's still at a playful age, it hops around friskily.",
+	},
+
 	thirdParty: {
 		cardmarket: 369022,
 		tcgplayer: 183870

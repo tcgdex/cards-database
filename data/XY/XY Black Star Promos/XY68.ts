@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.",
+	},
+
 	thirdParty: {
 		cardmarket: 553074
 	}

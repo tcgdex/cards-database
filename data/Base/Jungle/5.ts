@@ -77,6 +77,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",

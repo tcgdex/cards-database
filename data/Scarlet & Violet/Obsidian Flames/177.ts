@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.",
+	},
 
 	variants: [
 		{

@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If you mistake it for a rock and step on it, it will headbutt you in anger. In addition to the pain, it will also zap you with a shock.",
+	},
+
 	thirdParty: {
 		cardmarket: 368965,
 		tcgplayer: 183808

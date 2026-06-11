@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its dorsal, pectoral and tail fins wave elegantly in water. That is why it is known as the water dancer.",
+	},
+
 	thirdParty: {
 		cardmarket: 286273,
 		tcgplayer: 107146

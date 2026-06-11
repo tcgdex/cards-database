@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+	},
+
 	thirdParty: {
 		cardmarket: 363528,
 		tcgplayer: 175487

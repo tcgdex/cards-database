@@ -60,6 +60,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",

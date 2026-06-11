@@ -84,7 +84,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+	},
 }
 
 export default card

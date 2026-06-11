@@ -57,8 +57,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "With its herculean powers, it can easily throw around an object that is 100 times its own weight.",
+	},
 
 	variants: [
 		{

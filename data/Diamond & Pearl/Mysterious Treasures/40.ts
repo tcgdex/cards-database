@@ -85,6 +85,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "It is very territorial. It repels foes by setting of tremors that extend over a three-mile radius.",

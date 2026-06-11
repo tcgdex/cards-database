@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Rather than rely on their strength, they master moves that make good use of centrifugal force to swing around concrete.",
+	},
 
 	variants: [
 		{

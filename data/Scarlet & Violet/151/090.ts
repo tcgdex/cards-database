@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender.",
+	},
 
 	variants: [
 		{

@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+	},
+
 	thirdParty: {
 		cardmarket: 280780,
 		tcgplayer: 84526

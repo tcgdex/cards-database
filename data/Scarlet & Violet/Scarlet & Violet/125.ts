@@ -81,6 +81,10 @@ const card: Card = {
 		normal: false
 	},
 
+	description: {
+		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+	},
+
 	thirdParty: {
         cardmarket: 689767,
         tcgplayer: 475421

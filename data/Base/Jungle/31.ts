@@ -74,6 +74,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",

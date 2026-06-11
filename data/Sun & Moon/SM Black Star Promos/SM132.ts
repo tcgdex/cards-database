@@ -79,6 +79,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+	},
 }
 
 export default card

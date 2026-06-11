@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
+	},
+
 	thirdParty: {
 		cardmarket: 368950,
 		tcgplayer: 183789

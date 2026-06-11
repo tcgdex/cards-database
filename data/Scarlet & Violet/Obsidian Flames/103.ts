@@ -44,8 +44,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+	},
 
 	variants: [
 		{

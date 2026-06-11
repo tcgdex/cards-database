@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+	},
+
 	thirdParty: {
 		cardmarket: 281860,
 		tcgplayer: 94512

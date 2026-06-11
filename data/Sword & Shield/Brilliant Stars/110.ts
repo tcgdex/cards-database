@@ -52,6 +52,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "These Pokémon nest in the ground and use their tusks to crush hard berries. Crushing berries is also how they test each other's strength.",
+	},
+
 	thirdParty: {
 		cardmarket: 608656,
 		tcgplayer: 263830

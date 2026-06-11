@@ -55,21 +55,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857639,
-				tcgplayer: 662225
+				tcgplayer: 662225,
+				cardtrader: 356848
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857639,
-				tcgplayer: 662225
+				tcgplayer: 662225,
+				cardtrader: 356848
 			}
-		}
+		},
 	],	
 }
 

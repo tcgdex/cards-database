@@ -50,6 +50,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Its six eggs converse using telepathy. They can quickly gather if they become separated.",

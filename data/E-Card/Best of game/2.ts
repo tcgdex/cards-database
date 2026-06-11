@@ -12,6 +12,14 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Pokemon",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	description: {
 		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see."

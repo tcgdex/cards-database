@@ -74,8 +74,18 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
+	},
 
 	variants: [
 		{

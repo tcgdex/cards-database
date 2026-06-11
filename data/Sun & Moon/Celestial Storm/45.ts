@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit.",
+	},
+
 	thirdParty: {
 		cardmarket: 361292,
 		tcgplayer: 170862

@@ -68,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+	},
 }
 
 export default card

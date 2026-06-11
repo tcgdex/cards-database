@@ -101,6 +101,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+	},
+
 	thirdParty: {
 		cardmarket: 311908,
 		tcgplayer: 149082

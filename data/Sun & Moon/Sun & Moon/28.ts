@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As a result of headaches so fierce they cause it to cry, it sometimes uses psychokinesis without meaning to.",
+	},
+
 	thirdParty: {
 		cardmarket: 295338,
 		tcgplayer: 126899

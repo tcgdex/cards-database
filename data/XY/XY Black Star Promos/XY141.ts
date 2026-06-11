@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
+	},
+
 	thirdParty: {
 		cardmarket: 289722
 	}

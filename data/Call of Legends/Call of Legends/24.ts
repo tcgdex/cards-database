@@ -58,6 +58,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+	},
+
 	thirdParty: {
 		cardmarket: 279667,
 		tcgplayer: 84369

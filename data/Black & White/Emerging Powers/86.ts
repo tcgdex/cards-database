@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
+	},
+
 	thirdParty: {
 		cardmarket: 280051,
 		tcgplayer: 88841

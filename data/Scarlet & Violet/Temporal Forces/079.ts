@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It's possible that this is the object listed as Iron Valiant in a certain expedition journal.",
+	},
 
 	variants: [
 		{

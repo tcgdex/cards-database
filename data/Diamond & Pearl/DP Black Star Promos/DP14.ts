@@ -65,6 +65,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It can learn and speak human words. If they gather, they all learn the same saying.",

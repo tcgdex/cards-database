@@ -71,6 +71,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Although it is extremely active during the day, it stops moving entirely as soon as the sun sets.",

@@ -99,6 +99,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+	},
+
 	thirdParty: {
 		cardmarket: 355568,
 		tcgplayer: 165700

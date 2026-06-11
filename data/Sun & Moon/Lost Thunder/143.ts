@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although this Pokémon is not especially rare, its glittering, jewel-draped body draws attention from people.",
+	},
+
 	thirdParty: {
 		cardmarket: 365754,
 		tcgplayer: 178962

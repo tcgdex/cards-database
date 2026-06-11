@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
+
+	description: {
+		en: "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
+	},
 
 	variants: [
 		{

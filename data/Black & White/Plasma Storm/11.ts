@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.",
+	},
+
 	thirdParty: {
 		cardmarket: 280751,
 		tcgplayer: 87191

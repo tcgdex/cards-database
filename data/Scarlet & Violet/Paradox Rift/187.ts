@@ -66,8 +66,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "No records exist of this species being caught. Data is lacking, but the Pokémon's traits match up with an object described in an old book.",
+	},
 
 	variants: [
 		{

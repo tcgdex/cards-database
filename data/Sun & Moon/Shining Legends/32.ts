@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
+	},
+
 	thirdParty: {
 		cardmarket: 302170,
 		tcgplayer: 146688

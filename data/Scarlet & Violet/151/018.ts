@@ -65,8 +65,24 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
+
+	description: {
+		en: "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
+	},
 
 	variants: [
 		{

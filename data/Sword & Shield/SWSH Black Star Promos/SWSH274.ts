@@ -67,6 +67,12 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
@@ -75,7 +81,8 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 684386
+		cardmarket: 684386,
+		tcgplayer: 454227
 	}
 }
 

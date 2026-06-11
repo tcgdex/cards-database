@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Tales are told of ships that wander into seas where Dragalge live, never to return.",
+	},
+
 	thirdParty: {
 		cardmarket: 355572,
 		tcgplayer: 165703

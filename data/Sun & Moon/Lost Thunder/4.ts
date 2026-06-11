@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "One solid blow from its horns is enough to split apart a large tree. Its greatest rival in Alola is Vikavolt.",
+	},
+
 	thirdParty: {
 		cardmarket: 365572,
 		tcgplayer: 178801

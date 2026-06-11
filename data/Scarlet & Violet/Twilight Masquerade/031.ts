@@ -44,8 +44,18 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+	},
 
 	variants: [
 		{

@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Becoming active at night, it is known to swarm with numerous MURKROW in tow.",

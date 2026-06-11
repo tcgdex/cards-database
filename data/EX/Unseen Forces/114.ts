@@ -3,9 +3,9 @@ import Set from '../Unseen Forces'
 
 const card: Card = {
 	name: {
-		en: "Raikou Star",
+		en: "Raikou ☆",
 		fr: "Raikou ☆",
-		de: "Raikou *"
+		de: "Raikou ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -37,9 +37,9 @@ const card: Card = {
 				de: "Lightning Turn"
 			},
 			effect: {
-				en: "Switch Raikou Star with 1 of your Benched Pokémon.",
-				fr: "Échangez Raikou  avec 1 des Pokémon de votre Banc.",
-				de: "Switch Raikou * with 1 of your Benched Pokémon."
+				en: "Switch Raikou ☆ with 1 of your Benched Pokémon.",
+				fr: "Échangez Raikou ☆ avec 1 des Pokémon de votre Banc.",
+				de: "Switch Raikou ☆ with 1 of your Benched Pokémon."
 			},
 			damage: 20,
 

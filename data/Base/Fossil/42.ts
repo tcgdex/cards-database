@@ -76,6 +76,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail.",

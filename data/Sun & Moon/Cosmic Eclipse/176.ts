@@ -92,6 +92,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It pays no mind to the cold, thanks to its long warm coat. Stoutland in Alola look a little uncomfortable.",
+	},
+
 	thirdParty: {
 		cardmarket: 398519,
 		tcgplayer: 201298

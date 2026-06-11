@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.",
+	},
+
 	thirdParty: {
 		cardmarket: 363495,
 		tcgplayer: 175385

@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+	},
 
 	variants: [
 		{

@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The hexagonal cavity is its ear. It walks in the direction of sounds it hears, but if the sounds cease, it panics and topples over.",
+	},
+
 	thirdParty: {
 		cardmarket: 295380,
 		tcgplayer: 126940

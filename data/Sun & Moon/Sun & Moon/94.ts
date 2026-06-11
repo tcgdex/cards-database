@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.",
+	},
+
 	thirdParty: {
 		cardmarket: 295405,
 		tcgplayer: 126966

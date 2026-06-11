@@ -69,6 +69,8 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",

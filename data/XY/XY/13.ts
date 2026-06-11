@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
+	},
+
 	thirdParty: {
 		cardmarket: 281350,
 		tcgplayer: 88489

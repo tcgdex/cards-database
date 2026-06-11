@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
+	},
+
 	thirdParty: {
 		cardmarket: 299443,
 		tcgplayer: 138518

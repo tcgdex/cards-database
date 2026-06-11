@@ -64,8 +64,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+	},
 
 	variants: [
 		{

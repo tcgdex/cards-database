@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence—or so it's said.",
+	},
 
 	variants: [
 		{

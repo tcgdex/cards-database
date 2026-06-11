@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Savage, violent Pokémon, red and blue Basculin are always fighting each other over territory.",
+	},
+
 	thirdParty: {
 		cardmarket: 388042,
 		tcgplayer: 194964

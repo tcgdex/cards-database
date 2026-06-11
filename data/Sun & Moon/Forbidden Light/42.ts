@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
+	},
+
 	thirdParty: {
 		cardmarket: 355561,
 		tcgplayer: 165693

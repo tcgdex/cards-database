@@ -44,6 +44,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",

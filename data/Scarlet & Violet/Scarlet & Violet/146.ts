@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "Yuya Oka",
+
+	description: {
+		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+	},
 
 	thirdParty: {
         cardmarket: 702442,

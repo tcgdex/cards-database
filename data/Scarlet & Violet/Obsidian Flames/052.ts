@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
+
+	description: {
+		en: "This Pokémon is popular among the elderly, who say the vibrations of its lumps are great for massages.",
+	},
 
 	variants: [
 		{

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames.",
+	},
+
 	thirdParty: {
 		cardmarket: 297478,
 		tcgplayer: 130760

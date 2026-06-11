@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
+	},
+
 	thirdParty: {
 		cardmarket: 281373,
 		tcgplayer: 84444

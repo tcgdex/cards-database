@@ -19,6 +19,18 @@ const card: Card = {
 	hp: 100,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",

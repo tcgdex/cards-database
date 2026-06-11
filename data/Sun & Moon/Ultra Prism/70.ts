@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.",
+	},
+
 	thirdParty: {
 		cardmarket: 315998,
 		tcgplayer: 157687

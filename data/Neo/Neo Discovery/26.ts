@@ -77,6 +77,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "These Pokémon are attracted to electrical emissions and will often follow people using PokéGear.",

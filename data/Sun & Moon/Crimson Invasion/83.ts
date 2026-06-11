@@ -102,6 +102,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 311930,
 		tcgplayer: 149108

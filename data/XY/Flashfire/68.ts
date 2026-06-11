@@ -94,6 +94,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Born from temperatures and pressures deep underground, it fires beams from the stone in its head.",
+	},
+
 	thirdParty: {
 		cardmarket: 281551,
 		tcgplayer: 91205

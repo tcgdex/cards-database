@@ -74,8 +74,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
+
+	description: {
+		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
+	},
 
 	variants: [
 		{

@@ -71,6 +71,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
+	},
 
 	thirdParty: {
 		cardmarket: 274799,

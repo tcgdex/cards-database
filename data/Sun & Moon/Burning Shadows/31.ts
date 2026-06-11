@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+	},
+
 	thirdParty: {
 		cardmarket: 299568,
 		tcgplayer: 138511

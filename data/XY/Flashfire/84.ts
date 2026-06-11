@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+	},
+
 	thirdParty: {
 		cardmarket: 281567,
 		tcgplayer: 91221

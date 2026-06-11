@@ -65,8 +65,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+	},
 
 	variants: [
 		{

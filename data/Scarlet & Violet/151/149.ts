@@ -77,6 +77,10 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
+	description: {
+		en: "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
+	},
+
 	variants: [
 		{
 			type: 'holo',

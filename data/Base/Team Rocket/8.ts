@@ -81,6 +81,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
 		en: "Normally found only in the deep ocean, it has recently been seen in shallow waters as well.",

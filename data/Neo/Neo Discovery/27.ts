@@ -77,6 +77,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
 		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",

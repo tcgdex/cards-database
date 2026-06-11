@@ -75,14 +75,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857683,
-				tcgplayer: 662187
-			},
-		}
+				tcgplayer: 662187,
+				cardtrader: 356894
+			}
+		},
 	],
 
 	weaknesses: [{

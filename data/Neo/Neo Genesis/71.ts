@@ -58,6 +58,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",

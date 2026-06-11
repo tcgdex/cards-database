@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+	},
+
 	thirdParty: {
 		cardmarket: 299411,
 		tcgplayer: 138274

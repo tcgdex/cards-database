@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives on the deep-sea floor. It attracts prey by flashing the patterns on its four tail fins.",
+	},
+
 	thirdParty: {
 		cardmarket: 281823,
 		tcgplayer: 94152

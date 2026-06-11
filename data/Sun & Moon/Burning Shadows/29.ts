@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+	},
+
 	thirdParty: {
 		cardmarket: 299435,
 		tcgplayer: 138509

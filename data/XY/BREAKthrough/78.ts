@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+	},
+
 	thirdParty: {
 		cardmarket: 286324,
 		tcgplayer: 107197

@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.",
+	},
+
 	thirdParty: {
 		cardmarket: 297503,
 		tcgplayer: 130943

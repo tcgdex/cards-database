@@ -73,6 +73,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+	},
 
 	thirdParty: {
 		cardmarket: 279668,

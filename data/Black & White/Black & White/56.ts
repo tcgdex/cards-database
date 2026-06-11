@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When their brains, now divided in two, are thinking the same thought, these Pokémon exhibit their maximum power.",
+	},
+
 	thirdParty: {
 		cardmarket: 279794,
 		tcgplayer: 85016

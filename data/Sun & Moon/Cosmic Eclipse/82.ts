@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+	},
+
 	thirdParty: {
 		cardmarket: 398549,
 		tcgplayer: 201257

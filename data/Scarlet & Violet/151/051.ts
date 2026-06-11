@@ -56,8 +56,18 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
+
+	description: {
+		en: "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+	},
 
 	variants: [
 		{

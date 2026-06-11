@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 297465,
 		tcgplayer: 130686

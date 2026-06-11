@@ -90,6 +90,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For self-protection, it pretends to be a bug Pokémon. Both of its arms bear keen-edged petals.",
+	},
+
 	thirdParty: {
 		cardmarket: 387912,
 		tcgplayer: 194932

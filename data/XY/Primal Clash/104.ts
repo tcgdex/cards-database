@@ -127,6 +127,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.",
+	},
+
 	thirdParty: {
 		cardmarket: 273634,
 		tcgplayer: 96002

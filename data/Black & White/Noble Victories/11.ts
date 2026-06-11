@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+	},
+
 	thirdParty: {
 		cardmarket: 280134,
 		tcgplayer: 89146

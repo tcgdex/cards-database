@@ -61,6 +61,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+	},
 }
 
 export default card

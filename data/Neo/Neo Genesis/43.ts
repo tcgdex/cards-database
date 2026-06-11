@@ -70,6 +70,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It swings its long snout around playfully, but, because it is so strong, that can be dangerous.",

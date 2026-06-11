@@ -75,7 +75,12 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 	suffix: "ex",
-	illustrator: "PLANETA Igarashi"
+	illustrator: "PLANETA Igarashi",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

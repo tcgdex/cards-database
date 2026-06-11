@@ -72,6 +72,8 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
 		en: "It has an active, playful nature. Many people like to frolic with it because of its affectionate ways.",

@@ -75,21 +75,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 857597,
-				tcgplayer: 662151
+				tcgplayer: 662151,
+				cardtrader: 356805
 			}
 		},
 		{
-			type: "reverse",
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857597,
-				tcgplayer: 662151
+				tcgplayer: 662151,
+				cardtrader: 356805
 			}
-		}
+		},
 	],	
 }
 

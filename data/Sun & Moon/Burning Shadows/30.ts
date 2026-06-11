@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
+	},
+
 	thirdParty: {
 		cardmarket: 299436,
 		tcgplayer: 138510
