@@ -3,12 +3,12 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Malamar EX",
-		fr: "Sepiatroce EX",
-		es: "Malamar EX",
-		it: "Malamar EX",
-		pt: "Malamar EX",
-		de: "Calamanero EX"
+		en: "Malamar-EX",
+		fr: "Sepiatroce-EX",
+		es: "Malamar-EX",
+		it: "Malamar-EX",
+		pt: "Malamar-EX",
+		de: "Calamanero-EX"
 	},
 
 	illustrator: "Eske Yoshinob",

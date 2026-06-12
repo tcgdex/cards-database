@@ -3,12 +3,12 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Xerneas EX",
-		fr: "Xerneas EX",
-		es: "Xerneas EX",
-		it: "Xerneas EX",
-		pt: "Xerneas EX",
-		de: "Xerneas EX"
+		en: "Xerneas-EX",
+		fr: "Xerneas-EX",
+		es: "Xerneas-EX",
+		it: "Xerneas-EX",
+		pt: "Xerneas-EX",
+		de: "Xerneas-EX"
 	},
 
 	illustrator: "5ban Graphics",

@@ -3,12 +3,12 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Hydreigon EX",
-		fr: "Trioxhydre EX",
-		es: "Hydreigon EX",
-		it: "Hydreigon EX",
-		pt: "Hydreigon EX",
-		de: "Trikephalo EX"
+		en: "Hydreigon-EX",
+		fr: "Trioxhydre-EX",
+		es: "Hydreigon-EX",
+		it: "Hydreigon-EX",
+		pt: "Hydreigon-EX",
+		de: "Trikephalo-EX"
 	},
 
 	illustrator: "Ryo Ueda",
