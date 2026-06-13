@@ -5,6 +5,7 @@ const set: Set = {
 	id: 'CSV2C',
 	name: {
 		'zh-cn': '奇迹启程',
+    'en': 'Miracle Journey'
 	},
 
 	serie: serie,

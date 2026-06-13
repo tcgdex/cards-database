@@ -2,18 +2,18 @@ import { Set } from '../../interfaces'
 import serie from '../SV'
 
 const set: Set = {
-	id: 'CSV3C',
+	id: 'CSV9C',
 	name: {
-		'zh-cn': '无畏太晶',
-    'en': 'Fearless Terestal'
+		'zh-cn': '星彩晶璃',
+    'en': 'Stellar Crystal'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 130
+		official: 208
 	},
-	releaseDate: '2025-05-16',
+	releaseDate: '2026-05-15',
 }
 
 export default set
