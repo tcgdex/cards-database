@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+	},
+
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",

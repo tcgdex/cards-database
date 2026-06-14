@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It carries food rolled up in its tail. It has a habit of sharing food with people lost in the mountains.",
+	},
+
 
 	name: {
 		en: "Delibird",

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+	},
+
 
 	name: {
 		en: "Metang",

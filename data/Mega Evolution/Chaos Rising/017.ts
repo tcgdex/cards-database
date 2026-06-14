@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
+	},
+
 
 	name: {
 		en: "Octillery",

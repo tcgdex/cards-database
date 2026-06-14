@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
+	},
+
 
 	name: {
 		en: "Espurr",
