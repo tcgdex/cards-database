@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "When it is woken by moonlight, it wanders about. But during the day, it stays still underground.",
+	},
 
 	variants: [
 		{

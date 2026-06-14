@@ -59,8 +59,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "The oil-filled tail functions as a buoy, so it’s fine even in rivers with strong currents.",
+	},
 
 	variants: [
 	{

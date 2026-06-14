@@ -71,8 +71,18 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+	},
 
 	variants: [
 	{

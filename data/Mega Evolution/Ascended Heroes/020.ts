@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
+	},
 
 	variants: [
 	{

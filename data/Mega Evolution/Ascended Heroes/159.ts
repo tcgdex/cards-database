@@ -64,6 +64,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon stores up energy in its lungs, then shoots it out. It takes care of Dreepy and battles alongside them until they’re all grown up.",
+	},
+
 	variants: [
 	{
 		type: "normal",
