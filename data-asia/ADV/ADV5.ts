@@ -4,7 +4,6 @@ import serie from '../ADV'
 const set: Set = {
 	id: 'ADV5',
 	name: {
-    en: 'Magma VS Aqua: Two Ambitions',
 		ja: '強化拡張パックex1マグマVSアクア ふたつの野望'
 	},
 

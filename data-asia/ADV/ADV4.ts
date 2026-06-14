@@ -4,7 +4,6 @@ import serie from '../ADV'
 const set: Set = {
 	id: 'ADV4',
 	name: {
-    en: 'Undone Seal',
 		ja: 'とかれた封印'
 	},
 
