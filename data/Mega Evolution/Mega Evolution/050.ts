@@ -82,6 +82,12 @@ const card: Card = {
 		damage: "200+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
