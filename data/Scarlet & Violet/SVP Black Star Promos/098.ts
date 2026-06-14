@@ -57,6 +57,12 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	variants: [
@@ -74,7 +80,11 @@ const card: Card = {
 			}
 		},
 	],
-	illustrator: "Tonji Matsuno"
+	illustrator: "Tonji Matsuno",
+
+	description: {
+		en: "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
+	},
 }
 
 export default card

@@ -74,9 +74,18 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Kazumasa Yasukuni",
+	description: {
+		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+	},
 	variants: [
 		{
 			type: "holo"

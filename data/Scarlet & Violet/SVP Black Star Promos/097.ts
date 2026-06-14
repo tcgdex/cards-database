@@ -66,9 +66,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Takumi Wada",
+	description: {
+		en: "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.",
+	},
 	variants: [
 		{
 			type: "holo"
