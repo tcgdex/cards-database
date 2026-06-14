@@ -5,7 +5,6 @@ const set: Set = {
 	id: 'CSV6C',
 	name: {
 		'zh-cn': '真实玄虚',
-    'en': 'Paradox Veil'
 	},
 
 	serie: serie,

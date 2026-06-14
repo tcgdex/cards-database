@@ -5,7 +5,6 @@ const set: Set = {
 	id: 'CSV3C',
 	name: {
 		'zh-cn': '无畏太晶',
-    'en': 'Fearless Terestal'
 	},
 
 	serie: serie,

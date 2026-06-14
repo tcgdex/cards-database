@@ -5,7 +5,6 @@ const set: Set = {
 	id: 'CSV7C',
 	name: {
 		'zh-cn': '利刃猛醒',
-    'en': 'Blade Awakened'
 	},
 
 	serie: serie,

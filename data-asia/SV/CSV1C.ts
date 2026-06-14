@@ -5,7 +5,6 @@ const set: Set = {
 	id: 'CSV1C',
 	name: {
 		'zh-cn': '亘古开来',
-    'en': 'Eternal Beginnings'
 	},
 
 	serie: serie,
