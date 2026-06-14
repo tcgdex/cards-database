@@ -69,8 +69,24 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "It is said that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+	},
 
 	variants: [
 	{
