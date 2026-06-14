@@ -8,16 +8,6 @@ const card: Card = {
 		en: "Its tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886399,
-				tcgplayer: 693460
-			}
-		},
-	],
-
 	name: {
 		en: "Chesnaught",
 		fr: "Blindépique",
@@ -97,6 +87,16 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886399,
+				tcgplayer: 693460
+			}
+		},
+	],
 }
 
 export default card

@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886442,
-				tcgplayer: 693493
-			}
-		},
-	],
 
 	name: {
 		en: "Golbat",
@@ -78,6 +69,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886442,
+				tcgplayer: 693493
+			}
+		},
+	],
 }
 
 export default card

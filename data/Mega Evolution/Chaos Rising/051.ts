@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886443,
-				tcgplayer: 693470
-			}
-		},
-	],
 
 	name: {
 		en: "Crobat",
@@ -102,6 +93,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888531,
+				tcgplayer: 693470
+			}
+		},
+	],
 }
 
 export default card

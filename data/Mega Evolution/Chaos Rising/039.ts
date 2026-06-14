@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886431,
-				tcgplayer: 693556
-			}
-		},
-	],
 
 	name: {
 		en: "Trevenant",
@@ -101,6 +92,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886431,
+				tcgplayer: 693556
+			}
+		},
+	],
 }
 
 export default card

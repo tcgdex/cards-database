@@ -64,6 +64,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+	},
+
 	variants: [
 	{
 		type: "holo",

@@ -74,9 +74,18 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "KEIICHIRO ITO",
+	description: {
+		en: "Though its punches are powerful, this Pokémon's movements are sluggish. It blows icy bubbles from its mouth to immobilize its opponents.",
+	},
 	variants: [
 		{
 			type: "holo"

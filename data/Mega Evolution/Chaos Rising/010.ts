@@ -8,16 +8,6 @@ const card: Card = {
 		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886402,
-				tcgplayer: 693500
-			}
-		},
-	],
-
 	name: {
 		en: "Ho-Oh",
 		fr: "Ho-Oh",
@@ -90,6 +80,30 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886402,
+				tcgplayer: 693500
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 886625
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 888580
+			}
+		},
+	],
 }
 
 export default card

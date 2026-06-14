@@ -8,16 +8,6 @@ const card: Card = {
 		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886400,
-				tcgplayer: 693558
-			}
-		},
-	],
-
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
@@ -67,6 +57,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886400,
+				tcgplayer: 693558
+			}
+		},
+	],
 }
 
 export default card

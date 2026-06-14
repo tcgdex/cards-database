@@ -8,15 +8,6 @@ const card: Card = {
 		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886434,
-				tcgplayer: 693563
-			}
-		},
-	],
 
 	name: {
 		en: "Xerneas",
@@ -68,6 +59,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886434,
+				tcgplayer: 693563
+			}
+		},
+	],
 }
 
 export default card

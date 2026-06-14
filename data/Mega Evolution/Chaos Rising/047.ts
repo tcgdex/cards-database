@@ -8,15 +8,6 @@ const card: Card = {
 		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886439,
-				tcgplayer: 693466
-			}
-		},
-	],
 
 	name: {
 		en: "Claydol",
@@ -73,6 +64,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886439,
+				tcgplayer: 693466
+			}
+		},
+	],
 }
 
 export default card

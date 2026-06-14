@@ -8,15 +8,6 @@ const card: Card = {
 		en: "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886445,
-				tcgplayer: 693549
-			}
-		},
-	],
 
 	name: {
 		en: "Stunky",
@@ -58,6 +49,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886445,
+				tcgplayer: 693549
+			}
+		},
+	],
 }
 
 export default card

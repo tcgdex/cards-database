@@ -8,15 +8,6 @@ const card: Card = {
 		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886448,
-				tcgplayer: 693557
-			}
-		},
-	],
 
 	name: {
 		en: "Trubbish",
@@ -68,6 +59,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886448,
+				tcgplayer: 693557
+			}
+		},
+	],
 }
 
 export default card

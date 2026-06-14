@@ -8,15 +8,6 @@ const card: Card = {
 		en: "They fight each other by locking horns. The herd's protectors take pride in their battle-scarred horns.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886488,
-				tcgplayer: 693553
-			}
-		},
-	],
 
 	name: {
 		en: "Tauros",
@@ -67,6 +58,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886488,
+				tcgplayer: 693553
+			}
+		},
+	],
 }
 
 export default card

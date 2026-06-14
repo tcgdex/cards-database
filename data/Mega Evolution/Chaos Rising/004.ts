@@ -8,16 +8,6 @@ const card: Card = {
 		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886396,
-				tcgplayer: 693459
-			}
-		},
-	],
-
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
@@ -68,6 +58,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886396,
+				tcgplayer: 693459
+			}
+		},
+	],
 }
 
 export default card

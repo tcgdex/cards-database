@@ -57,9 +57,18 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Akira Komayama",
+	description: {
+		en: "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+	},
 	variants: [
 		{
 			type: "holo"

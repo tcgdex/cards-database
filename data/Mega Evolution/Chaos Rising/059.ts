@@ -8,15 +8,6 @@ const card: Card = {
 		en: "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886451,
-				tcgplayer: 693455
-			}
-		},
-	],
 
 	name: {
 		en: "Beldum",
@@ -76,6 +67,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886451,
+				tcgplayer: 693455
+			}
+		},
+	],
 }
 
 export default card

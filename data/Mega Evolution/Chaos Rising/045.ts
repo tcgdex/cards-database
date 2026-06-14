@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Donphan is normally a calm Pokemon, but once it is enraged, it will curl its body into a ball and charge at you while rolling.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886437,
-				tcgplayer: 693478
-			}
-		},
-	],
 
 	name: {
 		en: "Donphan",
@@ -96,6 +87,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886437,
+				tcgplayer: 693478
+			}
+		},
+	],
 }
 
 export default card

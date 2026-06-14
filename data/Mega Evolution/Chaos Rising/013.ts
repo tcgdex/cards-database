@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886405,
-				tcgplayer: 693473
-			}
-		},
-	],
 
 	name: {
 		en: "Delphox",
@@ -97,6 +88,23 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888552,
+				tcgplayer: 693473
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 886624
+			}
+		},
+	],
 }
 
 export default card

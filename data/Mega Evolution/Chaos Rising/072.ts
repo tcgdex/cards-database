@@ -8,15 +8,6 @@ const card: Card = {
 		en: "These Pokemon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886464,
-				tcgplayer: 693525
-			}
-		},
-	],
 
 	name: {
 		en: "Minccino",
@@ -68,6 +59,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886464,
+				tcgplayer: 693525
+			}
+		},
+	],
 }
 
 export default card

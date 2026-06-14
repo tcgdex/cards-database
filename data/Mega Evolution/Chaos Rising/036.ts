@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It keeps its intense psychic power from leaking out by using its ears to cover the organs emitting that power.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886428,
-				tcgplayer: 693483
-			}
-		},
-	],
 
 	name: {
 		en: "Espurr",
@@ -73,6 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886428,
+				tcgplayer: 693483
+			}
+		},
+	],
 }
 
 export default card

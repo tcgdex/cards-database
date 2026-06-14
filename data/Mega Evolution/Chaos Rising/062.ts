@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886454,
-				tcgplayer: 693485
-			}
-		},
-	],
 
 	name: {
 		en: "Ferroseed",
@@ -63,6 +54,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886454,
+				tcgplayer: 693485
+			}
+		},
+	],
 }
 
 export default card

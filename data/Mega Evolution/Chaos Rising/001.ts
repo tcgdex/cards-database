@@ -8,16 +8,6 @@ const card: Card = {
 		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886393,
-				tcgplayer: 693561
-			}
-		},
-	],
-
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",
@@ -68,6 +58,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886393,
+				tcgplayer: 693561
+			}
+		},
+	],
 }
 
 export default card

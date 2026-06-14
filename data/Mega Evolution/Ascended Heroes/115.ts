@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "It does its level best to glare and pull a scary face, but it can’t help grinning if anyone pats its head.",
+	},
 
 	variants: [
 	{

@@ -8,15 +8,6 @@ const card: Card = {
 		en: "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886425,
-				tcgplayer: 693476
-			}
-		},
-	],
 
 	name: {
 		en: "Deoxys",
@@ -73,6 +64,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886425,
+				tcgplayer: 693476
+			}
+		},
+	],
 }
 
 export default card

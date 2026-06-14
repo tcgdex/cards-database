@@ -8,16 +8,6 @@ const card: Card = {
 		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886397,
-				tcgplayer: 693461
-			}
-		},
-	],
-
 	name: {
 		en: "Chespin",
 		fr: "Marisson",
@@ -71,6 +61,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886397,
+				tcgplayer: 693461
+			}
+		},
+	],
 }
 
 export default card

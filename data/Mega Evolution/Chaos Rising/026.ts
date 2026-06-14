@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886418,
-				tcgplayer: 693494
-			}
-		},
-	],
 
 	name: {
 		en: "Golisopod",
@@ -96,6 +87,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886418,
+				tcgplayer: 693494
+			}
+		},
+	],
 }
 
 export default card

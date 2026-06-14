@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It is far stronger than it appears. If a Phanpy is swinging its trunk around and your arm gets hit by it, your arm bone will shatter.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886436,
-				tcgplayer: 693530
-			}
-		},
-	],
 
 	name: {
 		en: "Phanpy",
@@ -71,6 +62,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886436,
+				tcgplayer: 693530
+			}
+		},
+	],
 }
 
 export default card

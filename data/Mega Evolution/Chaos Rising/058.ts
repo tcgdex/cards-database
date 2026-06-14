@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Camouflaged as rotten kelp, this Pokemon sprays liquid poison to take down prey that approach unawares.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886450,
-				tcgplayer: 693543
-			}
-		},
-	],
 
 	name: {
 		en: "Skrelp",
@@ -58,6 +49,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886450,
+				tcgplayer: 693543
+			}
+		},
+	],
 }
 
 export default card

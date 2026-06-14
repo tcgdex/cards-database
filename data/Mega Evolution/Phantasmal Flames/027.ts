@@ -60,8 +60,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+	},
 
 	illustrator: "Hideki Ishikawa",
 	variants: [

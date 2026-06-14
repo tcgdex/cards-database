@@ -8,15 +8,6 @@ const card: Card = {
 		en: "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886430,
-				tcgplayer: 693531
-			}
-		},
-	],
 
 	name: {
 		en: "Phantump",
@@ -87,6 +78,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886430,
+				tcgplayer: 693531
+			}
+		},
+	],
 }
 
 export default card

@@ -8,15 +8,6 @@ const card: Card = {
 		en: "The energy made in its cheeks' electric pouches is stored inside its patagial membranes and released while it is gliding.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886422,
-				tcgplayer: 693481
-			}
-		},
-	],
 
 	name: {
 		en: "Emolga",
@@ -90,6 +81,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886422,
+				tcgplayer: 693481
+			}
+		},
+	],
 }
 
 export default card

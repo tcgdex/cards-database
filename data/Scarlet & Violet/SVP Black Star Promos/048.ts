@@ -44,9 +44,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Gemi",
+	description: {
+		en: "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+	},
 	variants: [
 		{
 			type: "holo"

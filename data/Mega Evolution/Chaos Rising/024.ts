@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Its ice-covered body is as hard as steel. Its enormous frame crushes anything that stands in its way.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886416,
-				tcgplayer: 693448
-			}
-		},
-	],
 
 	name: {
 		en: "Avalugg",
@@ -87,6 +78,16 @@ const card: Card = {
 
 	retreat: 4,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886416,
+				tcgplayer: 693448
+			}
+		},
+	],
 }
 
 export default card

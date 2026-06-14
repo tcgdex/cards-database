@@ -8,15 +8,6 @@ const card: Card = {
 		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886406,
-				tcgplayer: 693505
-			}
-		},
-	],
 
 	name: {
 		en: "Litleo",
@@ -58,6 +49,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886406,
+				tcgplayer: 693505
+			}
+		},
+	],
 }
 
 export default card

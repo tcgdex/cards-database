@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It carries food rolled up in its tail. It has a habit of sharing food with people lost in the mountains.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886410,
-				tcgplayer: 693472
-			}
-		},
-	],
 
 	name: {
 		en: "Delibird",
@@ -80,6 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886410,
+				tcgplayer: 693472
+			}
+		},
+	],
 }
 
 export default card

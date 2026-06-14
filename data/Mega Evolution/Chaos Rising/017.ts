@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886409,
-				tcgplayer: 693528
-			}
-		},
-	],
 
 	name: {
 		en: "Octillery",
@@ -96,6 +87,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886409,
+				tcgplayer: 693528
+			}
+		},
+	],
 }
 
 export default card

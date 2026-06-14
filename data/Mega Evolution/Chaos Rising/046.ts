@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886438,
-				tcgplayer: 693452
-			}
-		},
-	],
 
 	name: {
 		en: "Baltoy",
@@ -68,6 +59,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886438,
+				tcgplayer: 693452
+			}
+		},
+	],
 }
 
 export default card

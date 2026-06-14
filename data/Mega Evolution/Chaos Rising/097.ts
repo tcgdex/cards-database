@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886489,
-				tcgplayer: 693560
-			}
-		},
-	],
 
 	name: {
 		en: "Watchog",
@@ -85,6 +76,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886489,
+				tcgplayer: 693560
+			}
+		},
+	],
 }
 
 export default card

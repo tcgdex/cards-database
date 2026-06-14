@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Its fluffy coat doubles in size when static electricity builds up. Touching it can be shocking.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886419,
-				tcgplayer: 693507
-			}
-		},
-	],
 
 	name: {
 		en: "Mareep",
@@ -68,6 +59,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886419,
+				tcgplayer: 693507
+			}
+		},
+	],
 }
 
 export default card

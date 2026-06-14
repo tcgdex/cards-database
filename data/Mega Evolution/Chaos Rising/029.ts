@@ -8,15 +8,6 @@ const card: Card = {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886421,
-				tcgplayer: 693445
-			}
-		},
-	],
 
 	name: {
 		en: "Ampharos",
@@ -97,6 +88,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888542,
+				tcgplayer: 693445
+			}
+		},
+	],
 }
 
 export default card

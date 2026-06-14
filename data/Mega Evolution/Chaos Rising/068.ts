@@ -8,15 +8,6 @@ const card: Card = {
 		en: "This very friendly dragon Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886460,
-				tcgplayer: 693495
-			}
-		},
-	],
 
 	name: {
 		en: "Goodra",
@@ -92,6 +83,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 888530,
+				tcgplayer: 693495
+			}
+		},
+	],
 }
 
 export default card

@@ -71,8 +71,18 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+	},
 
 	variants: [
 		{

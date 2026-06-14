@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886403,
-				tcgplayer: 693484
-			}
-		},
-	],
 
 	name: {
 		en: "Fennekin",
@@ -80,6 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886403,
+				tcgplayer: 693484
+			}
+		},
+	],
 }
 
 export default card

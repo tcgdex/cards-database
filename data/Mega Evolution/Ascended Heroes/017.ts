@@ -47,8 +47,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It spits sticky threads and winds them around branches, then swings nimbly from tree to tree in a pendulum-like motion.",
+	},
 
 	variants: [
 		{

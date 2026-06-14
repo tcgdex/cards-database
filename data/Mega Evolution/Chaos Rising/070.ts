@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886462,
-				tcgplayer: 693529
-			}
-		},
-	],
 
 	name: {
 		en: "Patrat",
@@ -82,6 +73,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886462,
+				tcgplayer: 693529
+			}
+		},
+	],
 }
 
 export default card

@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+	},
 
 	variants: [
 	{

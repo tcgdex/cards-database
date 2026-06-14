@@ -8,15 +8,6 @@ const card: Card = {
 		en: "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886420,
-				tcgplayer: 693487
-			}
-		},
-	],
 
 	name: {
 		en: "Flaaffy",
@@ -73,6 +64,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886420,
+				tcgplayer: 693487
+			}
+		},
+	],
 }
 
 export default card

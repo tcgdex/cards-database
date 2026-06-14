@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886459,
-				tcgplayer: 693545
-			}
-		},
-	],
 
 	name: {
 		en: "Sliggoo",
@@ -58,6 +49,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886459,
+				tcgplayer: 693545
+			}
+		},
+	],
 }
 
 export default card

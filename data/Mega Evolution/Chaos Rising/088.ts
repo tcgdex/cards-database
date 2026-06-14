@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watch ful eye on its surroundings.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886480,
-				tcgplayer: 693489
-			}
-		},
-	],
 
 	name: {
 		en: "Froakie",
@@ -80,6 +71,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886480,
+				tcgplayer: 693489
+			}
+		},
+	],
 }
 
 export default card

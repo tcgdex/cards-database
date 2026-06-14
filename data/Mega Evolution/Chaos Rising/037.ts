@@ -8,15 +8,6 @@ const card: Card = {
 		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886429,
-				tcgplayer: 693521
-			}
-		},
-	],
 
 	name: {
 		en: "Meowstic",
@@ -78,6 +69,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886429,
+				tcgplayer: 693521
+			}
+		},
+	],
 }
 
 export default card

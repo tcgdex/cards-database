@@ -74,16 +74,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "Whisker",
 
-	thirdParty: {
-		cardmarket: 780973
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780973,
+				tcgplayer: 560389
+			}
+		},
+	],
 }
 
 export default card

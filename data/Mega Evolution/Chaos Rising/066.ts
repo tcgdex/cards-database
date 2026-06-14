@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886458,
-				tcgplayer: 693496
-			}
-		},
-	],
 
 	name: {
 		en: "Goomy",
@@ -63,6 +54,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886458,
+				tcgplayer: 693496
+			}
+		},
+	],
 }
 
 export default card

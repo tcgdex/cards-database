@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886404,
-				tcgplayer: 693457
-			}
-		},
-	],
 
 	name: {
 		en: "Braixen",
@@ -73,6 +64,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886404,
+				tcgplayer: 693457
+			}
+		},
+	],
 }
 
 export default card

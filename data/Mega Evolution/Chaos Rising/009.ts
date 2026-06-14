@@ -8,16 +8,6 @@ const card: Card = {
 		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886401,
-				tcgplayer: 693526
-			}
-		},
-	],
-
 	name: {
 		en: "Ninetales",
 		fr: "Feunard",
@@ -85,6 +75,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886401,
+				tcgplayer: 693526
+			}
+		},
+	],
 }
 
 export default card

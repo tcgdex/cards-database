@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It blocks opponents' attacks with the ice that shields its body. If the ice breaks, this Pokémon uses cold air to quickly create new ice.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886415,
-				tcgplayer: 693456
-			}
-		},
-	],
 
 	name: {
 		en: "Bergmite",
@@ -71,6 +62,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886415,
+				tcgplayer: 693456
+			}
+		},
+	],
 }
 
 export default card

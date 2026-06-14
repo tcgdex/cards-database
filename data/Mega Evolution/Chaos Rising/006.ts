@@ -8,16 +8,6 @@ const card: Card = {
 		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886398,
-				tcgplayer: 693537
-			}
-		},
-	],
-
 	name: {
 		en: "Quilladin",
 		fr: "Boguérisse",
@@ -86,6 +76,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886398,
+				tcgplayer: 693537
+			}
+		},
+	],
 }
 
 export default card

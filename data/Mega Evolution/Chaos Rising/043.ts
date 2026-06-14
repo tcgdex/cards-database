@@ -8,15 +8,6 @@ const card: Card = {
 		en: "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886435,
-				tcgplayer: 693550
-			}
-		},
-	],
 
 	name: {
 		en: "Sudowoodo",
@@ -90,6 +81,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886435,
+				tcgplayer: 693550
+			}
+		},
+	],
 }
 
 export default card

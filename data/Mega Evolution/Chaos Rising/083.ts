@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886475,
-				tcgplayer: 693555
-			}
-		},
-	],
 
 	name: {
 		en: "Transformation Tome",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Du musst 2 Transformationsfoliant-Karten gleichzeitig spielen. (Dieser Effekt funktioniert einmal für 2 Karten.)\nWähle 1 Basis-Pokémon aus deinem Ablagestapel und tausche es gegen 1 deiner Basis-Pokémon im Spiel aus. Alle angelegten Karten, Schadensmarken, Speziellen Zustände, die Anzahl der Züge im Spiel sowie alle anderen Effekte bleiben auf dem neuen Pokémon.",
 		it: "Devi giocare due carte Tomo della Trasformazione alla volta. Questo effetto si applica una volta ogni due carte.\n\nScegli un Pokémon Base nella tua pila degli scarti e scambialo con uno dei tuoi Pokémon Base in gioco. Le carte assegnate, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon.",
 		pt: "Você deve jogar 2 cartas Tomo da Transformação de uma vez. (Este efeito funciona uma vez para 2 cartas.)\n\nEscolha um Pokémon Básico da sua pilha de descarte e troque-o por 1 dos seus Pokémon Básicos em jogo. Quaisquer cartas ligadas, contadores de dano, Condições Especiais, turnos em jogo e quaisquer outros efeitos permanecem no novo Pokémon."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886475,
+				tcgplayer: 693555
+			}
+		},
+	],
 }
 
 export default card

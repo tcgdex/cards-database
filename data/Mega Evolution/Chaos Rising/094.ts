@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886487,
-				tcgplayer: 693524
-			}
-		},
-	],
 
 	name: {
 		en: "Metang",
@@ -91,6 +82,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886487,
+				tcgplayer: 693524
+			}
+		},
+	],
 }
 
 export default card

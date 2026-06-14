@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Experienced fishers say they try to catch Qwilfish in the brief moment that these Pokemon become defenseless just after launching poisonous spikes.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886444,
-				tcgplayer: 693538
-			}
-		},
-	],
 
 	name: {
 		en: "Qwilfish",
@@ -92,6 +83,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886444,
+				tcgplayer: 693538
+			}
+		},
+	],
 }
 
 export default card

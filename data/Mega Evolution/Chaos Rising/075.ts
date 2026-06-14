@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886467,
-				tcgplayer: 693447
-			}
-		},
-	],
 
 	name: {
 		en: "Ange Floette",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Du kannst diese Karte nur ins Spiel bringen, wenn du einen Prismaturm im Spiel auf den Ablagestapel legst, und du kannst diese Karte während desselben Zuges ins Spiel bringen, in dem du Prismaturm spielst.\nJedes Mega-Floette-ex im Spiel (deine und die deines Gegners) erhält +150 KP.",
 		it: "Puoi mettere in gioco questa carta solo se scarti una carta Torre Prisma in gioco e puoi mettere in gioco questa carta durante lo stesso turno in cui giochi Torre Prisma.\n\nOgni Mega Floette-ex in gioco, sia tuo che del tuo avversario, ha 150 PS in più.",
 		pt: "Você só pode colocar esta carta em jogo se descartar uma Torre Prisma em jogo, e você pode colocar esta carta em jogo durante o mesmo turno que jogar Torre Prisma.\nCada Mega Floette ex em jogo (seus e do seu oponente) recebe +150 PS."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886467,
+				tcgplayer: 693447
+			}
+		},
+	],
 }
 
 export default card

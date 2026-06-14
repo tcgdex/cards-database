@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+	},
 
 	variants: [
 	{

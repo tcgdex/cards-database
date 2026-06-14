@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It's nature's cleaner-it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886417,
-				tcgplayer: 693562
-			}
-		},
-	],
 
 	name: {
 		en: "Wimpod",
@@ -71,6 +62,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886417,
+				tcgplayer: 693562
+			}
+		},
+	],
 }
 
 export default card

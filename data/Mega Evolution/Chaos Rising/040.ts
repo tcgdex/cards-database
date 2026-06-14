@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It was recently discovered that the different varieties of Pumpkaboo vary not only in size but also in the size of the souls they collect.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886432,
-				tcgplayer: 693536
-			}
-		},
-	],
 
 	name: {
 		en: "Pumpkaboo",
@@ -63,6 +54,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886432,
+				tcgplayer: 693536
+			}
+		},
+	],
 }
 
 export default card

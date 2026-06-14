@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886446,
-				tcgplayer: 693544
-			}
-		},
-	],
 
 	name: {
 		en: "Skuntank",
@@ -86,6 +77,16 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886446,
+				tcgplayer: 693544
+			}
+		},
+	],
 }
 
 export default card

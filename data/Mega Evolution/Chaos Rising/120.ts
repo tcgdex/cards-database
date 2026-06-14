@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886513,
-				tcgplayer: 693451
-			}
-		},
-	],
 
 	name: {
 		en: "AZ's Tranquility",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du auf diese Weise ein Pokémon-ex auf deine Bank verschoben hast, heile 80 Schadenspunkte bei jenem Pokémon.",
 		it: "Scambia il tuo Pokémon attivo con uno nella tua panchina. Se hai spostato in panchina un Pokémon-ex in questo modo, cura quel Pokémon da 80 danni.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco. Se você moveu um Pokémon ex para o seu Banco desta forma, cure 80 pontos de dano daquele Pokémon."
-	}
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886513,
+				tcgplayer: 693451
+			}
+		},
+	],
 }
 
 export default card

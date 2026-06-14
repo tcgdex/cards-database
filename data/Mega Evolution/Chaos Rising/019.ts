@@ -8,15 +8,6 @@ const card: Card = {
 		en: "Keldeo has strengthened its resolve for battle filling its body with power and changing its form.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886411,
-				tcgplayer: 693503
-			}
-		},
-	],
 
 	name: {
 		en: "Keldeo",
@@ -91,6 +82,23 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886411,
+				tcgplayer: 693503
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 886626
+			}
+		},
+	],
 }
 
 export default card

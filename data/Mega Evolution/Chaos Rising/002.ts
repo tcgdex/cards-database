@@ -8,16 +8,6 @@ const card: Card = {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886394,
-				tcgplayer: 693502
-			}
-		},
-	],
-
 	name: {
 		en: "Kakuna",
 		fr: "Coconfort",
@@ -87,6 +77,16 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886394,
+				tcgplayer: 693502
+			}
+		},
+	],
 }
 
 export default card

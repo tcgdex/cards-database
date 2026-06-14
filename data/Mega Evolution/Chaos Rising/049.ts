@@ -8,15 +8,6 @@ const card: Card = {
 		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886441,
-				tcgplayer: 693565
-			}
-		},
-	],
 
 	name: {
 		en: "Zubat",
@@ -72,6 +63,16 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "J",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886441,
+				tcgplayer: 693565
+			}
+		},
+	],
 }
 
 export default card

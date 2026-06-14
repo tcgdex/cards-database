@@ -48,8 +48,18 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+	},
 
 	illustrator: "Orca",
 	variants: [

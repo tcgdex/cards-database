@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear.",
+	},
 
 	variants: [
 		{

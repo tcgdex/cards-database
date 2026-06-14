@@ -4,15 +4,6 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 886466,
-				tcgplayer: 693444
-			}
-		},
-	],
 
 	name: {
 		en: "Adversity Policy",
@@ -38,7 +29,17 @@ const card: Card = {
 		de: "Wenn das Pokémon, an das diese Karte angelegt ist, eine Schwäche gegen den Typ des Aktiven Pokémon deines Gegners hat, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), ziehe 3 Karten.",
 		it: "Se il Pokémon a cui è assegnata questa carta ha una debolezza verso il tipo del Pokémon attivo del tuo avversario, è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, pesca tre carte.",
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver Fraqueza ao tipo do Pokémon Ativo do seu oponente, estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que este Pokémon seja Nocauteado), compre 3 cartas."
-	}
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 886466,
+				tcgplayer: 693444
+			}
+		},
+	],
 }
 
 export default card
