@@ -83,6 +83,13 @@ const card: Card = {
 				cardmarket: 794906
 			}
 		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 794906
+			}
+		}
 	],
 
 	illustrator: "yuu",

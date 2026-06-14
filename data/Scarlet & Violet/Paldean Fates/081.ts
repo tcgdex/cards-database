@@ -45,6 +45,16 @@ const card: Card = {
 				cardtrader: 274265
 			}
 		},
+		{
+			type: 'holo',
+			foil: "cosmos",
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 751620,
+				tcgplayer: 534443,
+				cardtrader: 274265
+			}
+		}
 	],
 
 	illustrator: "AYUMI ODASHIMA",
