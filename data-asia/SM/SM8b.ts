@@ -4,7 +4,8 @@ import serie from '../SM'
 const set: Set = {
 	id: 'SM8b',
 	name: {
-		ja: 'GXウルトラシャイニ',
+    en: 'GX Ultra Shiny',
+		ja: 'GXウルトラシャイニー',
 		ko: 'GX 울트라샤이니 ULTIMATE'
 	},
 
