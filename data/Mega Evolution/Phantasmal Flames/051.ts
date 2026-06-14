@@ -48,8 +48,18 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
+	},
 
 	illustrator: "Uta",
 	variants: [
