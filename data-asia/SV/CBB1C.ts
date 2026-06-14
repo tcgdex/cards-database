@@ -5,7 +5,6 @@ const set: Set = {
 	id: 'CSV1C',
 	name: {
 		'zh-cn': '宝石包 第一卷',
-    'en': 'Gem Pack Vol.1'
 	},
 
 	serie: serie,

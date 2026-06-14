@@ -5,7 +5,6 @@ const set: Set = {
 	id: 'CBB3C',
 	name: {
 		'zh-cn': '宝石包Vol.3',
-    'en': 'Gem Pack Vol.3'
 	},
 
 	serie: serie,
