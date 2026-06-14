@@ -4,6 +4,7 @@ import serie from '../XYb'
 const set: Set = {
 	id: 'XY11a',
 	name: {
+    en: 'Fever-Burst Fighter',
 		ja: '爆熱の闘士',
 		ko: '타오르는 투사'
 	},

@@ -4,6 +4,7 @@ import serie from '../XYb'
 const set: Set = {
 	id: 'XY11b',
 	name: {
+    en: 'Cruel Traitor',
 		ja: '冷酷の反逆者',
 		ko: '냉혹한 반역자'
 	},
