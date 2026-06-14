@@ -5,7 +5,8 @@ const set: Set = {
 	id: 'S11',
 
 	name: {
-		ja: 'トリプレットビート',
+    en: 'Lost Abyss',
+		ja: 'ロストアビス',
 		ko: '트리플렛비트',
 		'zh-tw': '三連音爆',
 		id: 'Hantaman Triplet',
