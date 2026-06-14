@@ -9,7 +9,10 @@
 		"dex:audit:report": "bun scripts/pokedexIdFixer/audit-dex-ids.ts --report",
 		"dex:fix:dry-run": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --dry-run",
 		"dex:fix:apply": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --apply",
-		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts"
+		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts",
+
+		"pricing:update": "bun scripts/updatePricing.ts",
+		"pricing:update:debug": "bun scripts/updatePricing.ts --write-debug-artifact",
 	},
 	"devDependencies": {
 		"@dzeio/object-util": "^1.9.2",
