@@ -80,6 +80,12 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 	illustrator: "Takeshi Nakamura",

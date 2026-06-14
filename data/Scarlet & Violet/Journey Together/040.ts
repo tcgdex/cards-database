@@ -37,6 +37,12 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "Shinya Mizuno",
