@@ -4,15 +4,16 @@ import serie from '../ADV'
 const set: Set = {
 	id: 'ADV5',
 	name: {
-		ja: 'とかれた封印'
+    en: 'Magma VS Aqua: Two Ambitions',
+		ja: '強化拡張パックex1マグマVSアクア ふたつの野望'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 83
+		official: 95
 	},
-	releaseDate: '2004-01-16'
+	releaseDate: '2003-10-24'
 }
 
 export default set

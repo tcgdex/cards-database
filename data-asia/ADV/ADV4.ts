@@ -4,15 +4,16 @@ import serie from '../ADV'
 const set: Set = {
 	id: 'ADV4',
 	name: {
-		ja: '強化拡張パックex1マグマVSアクア ふたつの野望'
+    en: 'Undone Seal',
+		ja: 'とかれた封印'
 	},
 
 	serie: serie,
 
 	cardCount: {
-		official: 80
+		official: 101
 	},
-	releaseDate: '2003-10-24'
+	releaseDate: '2004-1-16'
 }
 
 export default set
