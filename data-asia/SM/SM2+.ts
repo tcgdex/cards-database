@@ -4,7 +4,6 @@ import serie from '../SM'
 const set: Set = {
 	id: 'sm2+',
 	name: {
-    en: 'Facing a New Trial',
 		ja: '新たなる試練の向こう',
 	},
 
