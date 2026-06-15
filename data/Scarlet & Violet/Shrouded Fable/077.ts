@@ -77,16 +77,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "MINAMINAMI Take",
 
-	thirdParty: {
-		cardmarket: 780972
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780972,
+				tcgplayer: 560388
+			}
+		},
+	],
 }
 
 export default card

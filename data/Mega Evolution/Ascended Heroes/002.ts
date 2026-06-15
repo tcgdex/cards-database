@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "It secretes a sticky, drool-like nectar. Though sweet, it smells too repulsive to get very close.",
+	},
 
 	variants: [
 		{

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+	},
+
 
 	name: {
 		en: "Metagross",

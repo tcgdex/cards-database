@@ -48,8 +48,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
+	},
 
 	illustrator: "Dsuke",
 	variants: [

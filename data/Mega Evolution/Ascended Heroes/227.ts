@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "In some snowy lands, certain folklore says a house will prosper if a Snorunt lives there.",
+	},
 
 	variants: [
 		{

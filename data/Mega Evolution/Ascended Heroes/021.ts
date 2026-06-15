@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+	},
 
 	variants: [
 	{

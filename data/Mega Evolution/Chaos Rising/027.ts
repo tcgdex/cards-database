@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its fluffy coat doubles in size when static electricity builds up. Touching it can be shocking.",
+	},
+
 
 	name: {
 		en: "Mareep",
