@@ -4,7 +4,7 @@ import serie from '../SM'
 const set: Set = {
 	id: 'sm2+',
 	name: {
-		ja: '新たな試練に直面',
+		ja: '新たなる試練の向こう',
 	},
 
 	serie: serie,
