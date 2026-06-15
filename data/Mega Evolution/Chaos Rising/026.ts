@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
+	},
+
 
 	name: {
 		en: "Golisopod",

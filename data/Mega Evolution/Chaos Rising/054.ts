@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
+	},
+
 
 	name: {
 		en: "Skuntank",
