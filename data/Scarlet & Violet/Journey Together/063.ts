@@ -70,6 +70,18 @@ const card: Card = {
 		damage: "130+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "Mitsuhiro Arita",

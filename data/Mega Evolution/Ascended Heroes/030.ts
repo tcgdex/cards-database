@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
+
+	description: {
+		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+	},
 
 	variants: [
 	{

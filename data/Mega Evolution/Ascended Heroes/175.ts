@@ -69,8 +69,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
+
+	description: {
+		en: "A potent anesthetic can be made by diluting Komala’s drool. This anesthetic was used for surgeries in the past.",
+	},
 
 	variants: [
 	{

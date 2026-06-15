@@ -60,8 +60,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+	},
 
 	illustrator: "hncl",
 	variants: [

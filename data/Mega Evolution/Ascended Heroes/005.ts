@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
+
+	description: {
+		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+	},
 
 	variants: [
 		{

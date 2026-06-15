@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "Only female Salandit can produce gas laden with pheromones. Males entranced by this gas will do whatever the females tell them.",
+	},
 
 	variants: [
 	{

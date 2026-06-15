@@ -65,9 +65,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Oswaldo KATO",
+	description: {
+		en: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+	},
 	variants: [
 		{
 			type: "holo"

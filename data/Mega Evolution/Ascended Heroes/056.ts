@@ -71,8 +71,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+	},
 
 	variants: [
 	{

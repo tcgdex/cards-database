@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+	},
 
 	variants: [
 	{

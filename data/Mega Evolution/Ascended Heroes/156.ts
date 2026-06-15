@@ -62,6 +62,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+	},
+
 	variants: [
 	{
 		type: "normal",

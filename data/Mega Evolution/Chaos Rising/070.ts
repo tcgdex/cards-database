@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+	},
+
 
 	name: {
 		en: "Patrat",
