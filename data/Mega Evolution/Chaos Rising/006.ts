@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+	},
+
 	name: {
 		en: "Quilladin",
 		fr: "Boguérisse",

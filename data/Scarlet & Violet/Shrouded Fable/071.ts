@@ -79,16 +79,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "satoma",
 
-	thirdParty: {
-		cardmarket: 780966
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780966,
+				tcgplayer: 560382
+			}
+		},
+	],
 }
 
 export default card

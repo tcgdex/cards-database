@@ -47,8 +47,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+	},
 
 	variants: [
 	{

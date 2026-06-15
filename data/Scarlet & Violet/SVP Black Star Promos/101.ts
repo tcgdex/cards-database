@@ -44,9 +44,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Jiro Sasumo",
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+	},
 	variants: [
 		{
 			type: "holo"

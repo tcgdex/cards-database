@@ -65,9 +65,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 	illustrator: "Ryuta Fuse",
+	description: {
+		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+	},
 	variants: [
 		{
 			type: "holo"

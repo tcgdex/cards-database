@@ -33,7 +33,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["ace-trainer"]
 		},
-	]
+	],
 }
 
 export default card

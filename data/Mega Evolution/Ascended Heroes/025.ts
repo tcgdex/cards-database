@@ -47,8 +47,18 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+	},
 
 	variants: [
 	{

@@ -66,9 +66,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 	illustrator: "GOSSAN",
+	description: {
+		en: "This POKéMON's stomach is so strong, even eating moldy or rotten food will not affect it.",
+	},
 	variants: [
 		{
 			type: "holo"

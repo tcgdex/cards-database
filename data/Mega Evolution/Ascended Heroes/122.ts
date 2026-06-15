@@ -61,8 +61,18 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
+	},
 
 	variants: [
 	{

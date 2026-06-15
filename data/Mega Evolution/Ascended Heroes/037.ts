@@ -51,8 +51,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "While it prides itself on its varied kicking moves, it can also deliver powerful headbutts once its flames have heated up its forehead.",
+	},
 
 	variants: [
 	{

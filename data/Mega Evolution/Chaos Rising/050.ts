@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+	},
+
 
 	name: {
 		en: "Golbat",

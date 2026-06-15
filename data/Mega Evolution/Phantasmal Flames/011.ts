@@ -62,8 +62,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.",
+	},
 
 	illustrator: "HYOGONOSUKE",
 	variants: [

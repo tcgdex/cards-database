@@ -37,8 +37,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+	},
 
 	variants: [
 	{

@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
+
+	description: {
+		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+	},
 
 	variants: [
 	{

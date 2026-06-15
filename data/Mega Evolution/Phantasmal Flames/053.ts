@@ -62,8 +62,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+	},
 
 	illustrator: "Jerky",
 	variants: [

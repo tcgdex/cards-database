@@ -48,6 +48,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "J",
 

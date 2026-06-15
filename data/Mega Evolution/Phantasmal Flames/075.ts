@@ -48,8 +48,24 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+	},
 
 	illustrator: "toriyufu",
 	variants: [

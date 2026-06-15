@@ -60,8 +60,18 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+	},
 
 	illustrator: "Mitsuhiro Arita",
 	variants: [

@@ -74,9 +74,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 	illustrator: "Natsumi Yoshida",
+	description: {
+		en: "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+	},
 	variants: [
 		{
 			type: "holo"
