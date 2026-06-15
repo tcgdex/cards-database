@@ -69,8 +69,18 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
+
+	description: {
+		en: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+	},
 
 	variants: [
 	{

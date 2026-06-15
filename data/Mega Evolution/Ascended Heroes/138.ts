@@ -37,8 +37,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases.",
+	},
 
 	variants: [
 	{

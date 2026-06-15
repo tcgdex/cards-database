@@ -52,8 +52,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+	},
 
 	illustrator: "Uninori",
 	variants: [

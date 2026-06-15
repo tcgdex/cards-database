@@ -70,15 +70,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
 
 	illustrator: "IKEDA Saki",
 
-	thirdParty: {
-		cardmarket: 780910
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 780910,
+				tcgplayer: 560328
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 780910,
+				tcgplayer: 560328
+			}
+		},
+	],
 }
 
 export default card

@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
+
+	description: {
+		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+	},
 
 	variants: [
 	{

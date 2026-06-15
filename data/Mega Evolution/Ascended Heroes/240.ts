@@ -59,8 +59,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
+
+	description: {
+		en: "It spins on its horn while dealing out elegant kicks. Its horn grows continuously through its lifetime.",
+	},
 
 	variants: [
 		{

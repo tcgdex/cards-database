@@ -37,8 +37,17 @@ const card: Card = {
 		}
 	],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches of its cheeks.",
+	},
 	variants: [
 		{
 			type: "holo"

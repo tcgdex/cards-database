@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+	},
+
 
 	name: {
 		en: "Deoxys",

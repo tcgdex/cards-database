@@ -40,6 +40,10 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.",
+	},
+
 	variants: [
 	{
 		type: "normal",

@@ -69,8 +69,18 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+	},
 
 	variants: [
 	{

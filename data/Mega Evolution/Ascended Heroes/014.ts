@@ -45,8 +45,18 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near.",
+	},
 
 	variants: [
 		{

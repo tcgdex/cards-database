@@ -64,6 +64,10 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+	},
+
 	variants: [
 	{
 		type: "normal",
