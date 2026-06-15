@@ -47,8 +47,18 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "J",
+
+	description: {
+		en: "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
+	},
 
 	variants: [
 	{

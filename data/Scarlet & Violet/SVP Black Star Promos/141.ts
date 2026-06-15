@@ -65,9 +65,24 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Tetsu Kayama",
+	description: {
+		en: "Its extremely soft wings make no sound in flight. It silently sneaks up on prey without being detected.",
+	},
 	variants: [
 		{
 			type: "holo"

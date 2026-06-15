@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+	},
 
 	variants: [
 	{

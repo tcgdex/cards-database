@@ -18,14 +18,24 @@ const card: Card = {
 	types: ["Darkness"],
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
-	thirdParty: {
-		cardmarket: 780993
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 560409
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 780993
+			}
+		},
+	],
 }
 
 export default card

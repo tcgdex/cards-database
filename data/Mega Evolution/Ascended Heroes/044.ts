@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
+
+	description: {
+		en: "This is a smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+	},
 
 	variants: [
 	{

@@ -72,8 +72,18 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+
+	description: {
+		en: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+	},
 
 	illustrator: "Shibuzoh.",
 	variants: [

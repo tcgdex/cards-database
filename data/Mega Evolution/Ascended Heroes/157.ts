@@ -74,6 +74,10 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
+	description: {
+		en: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+	},
+
 	variants: [
 	{
 		type: "normal",
