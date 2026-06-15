@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+	},
+
 	name: {
 		en: "Carnivine",
 		fr: "Vortente",
