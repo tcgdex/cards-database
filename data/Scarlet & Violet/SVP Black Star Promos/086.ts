@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mastifioso-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Darkness"],

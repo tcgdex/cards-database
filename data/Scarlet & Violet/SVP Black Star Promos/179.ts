@@ -16,7 +16,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],

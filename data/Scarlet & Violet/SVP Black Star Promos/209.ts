@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [642],
 	hp: 120,

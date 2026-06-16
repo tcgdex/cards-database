@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Espinodon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],

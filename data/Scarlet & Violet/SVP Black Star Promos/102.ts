@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Miranda Branley",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [43],
 	hp: 60,

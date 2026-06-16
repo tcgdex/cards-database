@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "satoma",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [579],
 	hp: 140,

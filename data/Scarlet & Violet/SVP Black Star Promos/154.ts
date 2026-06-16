@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Servol"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],

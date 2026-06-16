@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Darkrai-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Darkness"],

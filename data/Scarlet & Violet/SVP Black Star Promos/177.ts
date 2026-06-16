@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Blutmond-Ursaluna-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Colorless"],

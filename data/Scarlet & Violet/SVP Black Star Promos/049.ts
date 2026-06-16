@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Zapdos-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],

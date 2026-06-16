@@ -18,7 +18,7 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fighting"],

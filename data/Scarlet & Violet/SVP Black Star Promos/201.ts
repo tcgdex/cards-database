@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Krgc",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [523],
 	hp: 120,
