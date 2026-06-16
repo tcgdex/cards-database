@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shimaris Yukichi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

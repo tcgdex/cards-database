@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "LINNE",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],

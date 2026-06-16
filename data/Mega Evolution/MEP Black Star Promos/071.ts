@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "takuyoa",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Fighting"],

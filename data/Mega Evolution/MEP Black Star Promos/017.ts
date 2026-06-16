@@ -14,7 +14,7 @@ const card: Card = {
 		pt: "Toxtricity"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Darkness"],
