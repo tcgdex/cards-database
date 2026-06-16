@@ -133,9 +133,9 @@
 		"professor-program": "professor-program",
 		"tinsel": "tinsel",
 		"loveball": "Love Ball",
-		"friendball": "Friend Ball", 
+		"friendball": "Friend Ball",
 		"quickball": "Velox Ball",
-		"duskball": "Scuro Ball", 
+		"duskball": "Scuro Ball",
 		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
@@ -247,8 +247,11 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection",
+		"worlds-2024": "worlds-2024",
+		"worlds-2023": "worlds-2023",
+		"asia-2023-24": "asia-2023-24"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",
