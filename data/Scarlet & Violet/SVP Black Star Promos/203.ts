@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saboteri",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [202],
 	hp: 110,

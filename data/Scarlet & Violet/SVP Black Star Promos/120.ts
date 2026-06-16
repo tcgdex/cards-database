@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pupitar"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

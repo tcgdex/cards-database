@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Kanivanha"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],

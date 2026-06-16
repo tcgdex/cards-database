@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Chochodile"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],

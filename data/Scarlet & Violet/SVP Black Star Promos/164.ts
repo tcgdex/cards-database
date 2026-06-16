@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Lapras-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Water"],

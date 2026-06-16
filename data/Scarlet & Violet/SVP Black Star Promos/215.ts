@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	suffix: "ex",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Lightning"],

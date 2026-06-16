@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Spinsidias"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],

@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

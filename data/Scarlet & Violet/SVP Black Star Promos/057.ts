@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Yuyu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Magneton"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],

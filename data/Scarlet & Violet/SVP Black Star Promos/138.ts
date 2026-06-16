@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Porygon2"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
