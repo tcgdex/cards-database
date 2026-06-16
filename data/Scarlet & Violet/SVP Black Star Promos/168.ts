@@ -81,7 +81,8 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

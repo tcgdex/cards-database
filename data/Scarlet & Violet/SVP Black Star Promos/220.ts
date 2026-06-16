@@ -32,7 +32,7 @@ const card: Card = {
 	illustrator: "GOSSAN",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

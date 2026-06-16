@@ -30,7 +30,10 @@ const card: Card = {
 	illustrator: "Susumu Maeya",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
+		},
+		{
+			type: "normal"
 		}
 	],
 }

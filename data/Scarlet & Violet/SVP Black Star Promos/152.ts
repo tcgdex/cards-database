@@ -77,7 +77,12 @@ const card: Card = {
 	illustrator: "toi8",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
 		}
 	],
 }

@@ -59,7 +59,7 @@ const card: Card = {
 	illustrator: "Orca",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

@@ -30,7 +30,11 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"]
 		}
 	],
 }

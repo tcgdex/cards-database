@@ -79,7 +79,8 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

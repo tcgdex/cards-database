@@ -70,7 +70,8 @@ const card: Card = {
 	illustrator: "Iori Suzuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

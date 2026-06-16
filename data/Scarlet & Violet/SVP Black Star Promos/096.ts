@@ -78,7 +78,8 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

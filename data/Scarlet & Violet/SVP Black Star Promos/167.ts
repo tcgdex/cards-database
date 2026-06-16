@@ -81,7 +81,8 @@ const card: Card = {
 	illustrator: "SIE NANAHARA",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

@@ -41,6 +41,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"]
 		}
 	],
 }

@@ -45,7 +45,11 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024"]
 		}
 	],
 }

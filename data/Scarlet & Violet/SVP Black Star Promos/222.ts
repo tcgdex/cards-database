@@ -30,7 +30,11 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"]
 		}
 	],
 }

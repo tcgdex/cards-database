@@ -46,7 +46,7 @@ const card: Card = {
 	illustrator: "matazo",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

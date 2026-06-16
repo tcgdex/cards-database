@@ -49,7 +49,8 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

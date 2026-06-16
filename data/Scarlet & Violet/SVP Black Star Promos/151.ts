@@ -68,7 +68,12 @@ const card: Card = {
 	illustrator: "Hasuno",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
 		}
 	],
 }

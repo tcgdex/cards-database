@@ -71,7 +71,12 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
 		}
 	],
 }

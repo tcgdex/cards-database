@@ -59,7 +59,7 @@ const card: Card = {
 	illustrator: "hncl",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

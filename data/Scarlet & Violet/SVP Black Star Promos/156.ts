@@ -76,7 +76,8 @@ const card: Card = {
 	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos"
 		}
 	],
 }

@@ -50,7 +50,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			stamp: ["illustration-contest-2024"]
 		},
 	]
