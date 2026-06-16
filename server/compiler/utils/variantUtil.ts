@@ -1,5 +1,5 @@
 
-import { SupportedLanguages, variant_detailed } from "../../../interfaces";
+import { StampDetail, SupportedLanguages, variant_detailed, VariantStamps } from "../../../interfaces";
 import translate from "./translationUtil";
 
 // Adding new keys to this array will break existing identifiers, so be cautious when modifying it. Only include keys that are essential for identifying a variant uniquely.
@@ -35,10 +35,23 @@ export function formatVariant(variant: variant_detailed, lang: SupportedLanguage
 		size: variant.size && variant.size !== 'standard'
 			? translate('variantSize', variant.size, lang) as any
 			: translate('variantSize', "standard", lang) as any,
-		stamp: variant.stamp
-			? variant.stamp.map((stamp) => translate('variantStamp', stamp, lang))
-			: undefined,
+			stamp: variant.stamp ? variant.stamp.map((stamp) => {
+				return createStampString(stamp, lang)
+			}) : undefined,
 		foil: variant.foil ? translate('variantFoil', variant.foil, lang) : undefined,
 		thirdParty: variant.thirdParty
 	};
+}
+
+function createStampString(stamp: VariantStamps | StampDetail, lang: SupportedLanguages): string {
+	if (typeof stamp === "string") {
+		return translate('variantStamp', stamp, lang)
+	}
+
+	return [
+		translate('variantStamp', stamp.stamp, lang),
+		stamp.year ? `-${stamp.year}` : '',
+		stamp.detail ? `-${stamp.detail}` : '',
+		stamp.positioning ? `_${translate('stampPositioning', stamp.positioning, lang)}` : ''
+	].filter(Boolean).join('');
 }
