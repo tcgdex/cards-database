@@ -51,7 +51,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			stamp: ["illustration-contest-2024"]
+			stamp: ["illustration-contest-2024"],
+			thirdParty: {
+				cardmarket: 810399,
+				tcgplayer: 620107
+			},
 		},
 	]
 }

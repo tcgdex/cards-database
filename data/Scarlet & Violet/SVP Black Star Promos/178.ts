@@ -72,7 +72,11 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 810393,
+				tcgplayer: 619580
+			},
 		}
 	],
 }

@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "N-DESIGN Inc.",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 791829,
+				tcgplayer: 587945
+			},
 		}
 	],
 }

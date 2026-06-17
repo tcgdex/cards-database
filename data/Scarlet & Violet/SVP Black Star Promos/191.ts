@@ -50,7 +50,11 @@ const card: Card = {
 	variants:[
 		{
 			type: "holo",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 784941,
+				tcgplayer: 595036
+			},
 		}
 	]
 }

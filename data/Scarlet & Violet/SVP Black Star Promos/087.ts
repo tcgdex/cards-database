@@ -69,7 +69,11 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751812,
+				tcgplayer: 542468
+			},
 		}
 	],
 }

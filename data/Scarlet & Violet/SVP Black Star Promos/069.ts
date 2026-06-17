@@ -46,7 +46,11 @@ const card: Card = {
 	illustrator: "sowsow",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751793,
+				tcgplayer: 536070
+			},
 		}
 	],
 }

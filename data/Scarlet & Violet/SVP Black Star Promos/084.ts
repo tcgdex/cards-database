@@ -86,11 +86,19 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751809,
+				tcgplayer: 537973
+			},
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 782681,
+				tcgplayer: 537977
+			}
 		}
 	],
 }

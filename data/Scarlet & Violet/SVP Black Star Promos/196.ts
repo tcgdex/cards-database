@@ -88,10 +88,18 @@ const card: Card = {
 	variants:[
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 821616,
+				tcgplayer: 641610
+			},
 		},
 		{
 			type: "lenticular",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 821617,
+				tcgplayer: 641615
+			}
 		}
 	]
 }

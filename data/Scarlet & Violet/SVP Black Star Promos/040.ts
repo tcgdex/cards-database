@@ -59,7 +59,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			thirdParty: {
+				tcgplayer: 512043
+			},
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 715755,
+				tcgplayer: 607764
+			},
 		}
 	],
 }

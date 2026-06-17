@@ -30,7 +30,11 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855674,
+				tcgplayer: 664829
+			},
 		},
 		{
 			type: "normal",

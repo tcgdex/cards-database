@@ -86,11 +86,19 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769423,
+				tcgplayer: 556449
+			},
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 769424,
+				tcgplayer: 560085
+			}
 		}
 	],
 }

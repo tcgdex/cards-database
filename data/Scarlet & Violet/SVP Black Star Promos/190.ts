@@ -45,11 +45,18 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 784938
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2024"]
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 780209,
+				tcgplayer: 562088
+			},
 		}
 	],
 }

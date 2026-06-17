@@ -31,11 +31,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2024"]
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 783445,
+				tcgplayer: 578146
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2024","staff"]
+			stamp: ["worlds-2024","staff"],
+			thirdParty: {
+				cardmarket: 783446,
+				tcgplayer: 583726
+			},
 		},
 		{
 			type: "normal",

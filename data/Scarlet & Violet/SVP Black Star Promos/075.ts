@@ -75,11 +75,19 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751799,
+				tcgplayer: 535952
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 751800,
+				tcgplayer: 535953
+			},
 		}
 	],
 }

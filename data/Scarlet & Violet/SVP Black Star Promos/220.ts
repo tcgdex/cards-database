@@ -32,7 +32,11 @@ const card: Card = {
 	illustrator: "GOSSAN",
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855673,
+				tcgplayer: 664824
+			},
 		}
 	],
 }

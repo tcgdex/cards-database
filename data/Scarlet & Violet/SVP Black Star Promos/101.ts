@@ -59,11 +59,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 740411,
+				tcgplayer: 528365
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["asia-2023-24"]
+			stamp: ["asia-2023-24"],
+			thirdParty: {
+				cardmarket: 726923,
+				tcgplayer: 681225
+			},
 		}
 	],
 }

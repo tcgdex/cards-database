@@ -77,7 +77,11 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 703186,
+				tcgplayer: 484397
+			},
 		},
 		{
 			type: "holo",

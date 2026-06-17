@@ -39,7 +39,11 @@ const card: Card = {
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: ,
+				tcgplayer: 595035
+			}
 		},
 	]
 }

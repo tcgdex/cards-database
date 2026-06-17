@@ -30,7 +30,11 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855676,
+				tcgplayer: 664828
+			},
 		},
 		{
 			type: "normal",

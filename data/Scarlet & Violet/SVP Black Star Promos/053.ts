@@ -82,7 +82,11 @@ const card: Card = {
 	illustrator: "Natsumi Yoshida",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720950,
+				tcgplayer: 518871
+			},
 		}
 	],
 }

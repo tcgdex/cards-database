@@ -78,15 +78,27 @@ const card: Card = {
 	illustrator: "PLANETA Yamashita",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701130,
+				tcgplayer: 487435
+			},
 		},
 		{
 			type: "holo",
 			size: "jumbo",
+			thirdParty: {
+				cardmarket: 701131,
+				tcgplayer: 487439
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: ,
+				tcgplayer: 513798
+			}
 		}
 	],
 }
