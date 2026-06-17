@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Calamanero"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

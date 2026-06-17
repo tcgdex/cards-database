@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kyurem"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

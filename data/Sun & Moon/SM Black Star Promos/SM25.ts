@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mantidea"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
