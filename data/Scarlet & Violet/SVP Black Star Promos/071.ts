@@ -55,7 +55,11 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751795,
+				tcgplayer: 536075
+			},
 		}
 	],
 }

@@ -66,7 +66,12 @@ const card: Card = {
 	illustrator: "Yuya Oka",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796932,
+				tcgplayer: 594410
+			},
 		}
 	],
 }

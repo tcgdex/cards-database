@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "Saki Hayashiro",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767568,
+				tcgplayer: 586179
+			},
 		}
 	],
 }

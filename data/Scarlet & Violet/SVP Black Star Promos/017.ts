@@ -77,7 +77,19 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 703187,
+				tcgplayer: 484396
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 730157,
+				tcgplayer: 513792
+			}
 		}
 	],
 }

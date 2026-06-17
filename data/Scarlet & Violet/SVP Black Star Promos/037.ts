@@ -54,7 +54,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 720387,
+				tcgplayer: 512896
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761128,
+				tcgplayer: 513423
+			},
 		}
 	],
 }

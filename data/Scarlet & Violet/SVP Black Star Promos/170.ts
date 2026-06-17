@@ -70,7 +70,12 @@ const card: Card = {
 	illustrator: "Iori Suzuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805367,
+				tcgplayer: 611829
+			},
 		}
 	],
 }

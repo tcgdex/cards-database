@@ -59,7 +59,11 @@ const card: Card = {
 	illustrator: "hncl",
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769427,
+				tcgplayer: 593282
+			},
 		}
 	],
 }

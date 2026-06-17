@@ -30,9 +30,42 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
+			type: "normal",
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 783445,
+				tcgplayer: 578146
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","staff"],
+			thirdParty: {
+				cardmarket: 783446,
+				tcgplayer: 583726
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","top-thirty-two"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","top-sixteen"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","top-eight"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","semi-finalist"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","finalist"]
+		},
+	]
 }
 
 export default card

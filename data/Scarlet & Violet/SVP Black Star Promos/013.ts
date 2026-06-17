@@ -71,7 +71,19 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 692233,
+				tcgplayer: 490719
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 692234,
+				tcgplayer: 490730
+			},
 		}
 	],
 }

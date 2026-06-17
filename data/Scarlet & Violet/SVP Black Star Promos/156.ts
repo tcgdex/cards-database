@@ -76,7 +76,12 @@ const card: Card = {
 	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796927,
+				tcgplayer: 594403
+			},
 		}
 	],
 }

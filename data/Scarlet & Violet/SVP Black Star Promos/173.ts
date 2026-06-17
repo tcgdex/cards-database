@@ -73,7 +73,19 @@ const card: Card = {
 	illustrator: "Makura Tami",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805370,
+				tcgplayer: 610757
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 806407,
+				tcgplayer: 610758
+			},
 		}
 	],
 }

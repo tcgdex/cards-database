@@ -81,7 +81,12 @@ const card: Card = {
 	illustrator: "SIE NANAHARA",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805364,
+				tcgplayer: 611826
+			},
 		}
 	],
 }

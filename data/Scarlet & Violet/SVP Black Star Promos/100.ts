@@ -86,7 +86,19 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 764544,
+				tcgplayer: 546448
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 764545,
+				tcgplayer: 548540
+			}
 		}
 	],
 }

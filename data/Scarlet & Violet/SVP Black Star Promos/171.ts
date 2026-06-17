@@ -72,7 +72,12 @@ const card: Card = {
 	illustrator: "Keisin",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805368,
+				tcgplayer: 611830
+			},
 		}
 	],
 }

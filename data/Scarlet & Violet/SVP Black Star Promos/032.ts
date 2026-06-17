@@ -77,7 +77,11 @@ const card: Card = {
 	illustrator: "PLANETA Hiiragi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 709541,
+				tcgplayer: 502981
+			},
 		}
 	],
 }

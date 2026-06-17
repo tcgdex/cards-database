@@ -54,7 +54,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

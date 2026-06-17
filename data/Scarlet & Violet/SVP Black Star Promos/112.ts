@@ -54,7 +54,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

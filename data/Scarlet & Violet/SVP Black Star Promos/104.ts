@@ -90,7 +90,11 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 764547,
+				tcgplayer: 546755
+			},
 		}
 	],
 }

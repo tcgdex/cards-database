@@ -81,7 +81,12 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805365,
+				tcgplayer: 611827
+			},
 		}
 	],
 }

@@ -30,7 +30,18 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855676,
+				tcgplayer: 664828
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 878017
+			}
 		}
 	],
 }

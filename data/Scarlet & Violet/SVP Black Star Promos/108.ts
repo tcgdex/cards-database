@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

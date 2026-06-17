@@ -71,7 +71,20 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 816616,
+				tcgplayer: 623235
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 817774,
+				tcgplayer: 624472
+			},
 		}
 	],
 }

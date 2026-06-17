@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "akagi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 780811,
+				tcgplayer: 562019
+			},
 		}
 	],
 }

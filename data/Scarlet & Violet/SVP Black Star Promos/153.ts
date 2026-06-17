@@ -76,7 +76,20 @@ const card: Card = {
 	illustrator: "Shinya Mizuno",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 793743,
+				tcgplayer: 594385
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 799713,
+				tcgplayer: 607015
+			},
 		}
 	],
 }

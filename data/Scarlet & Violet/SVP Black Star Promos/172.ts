@@ -79,7 +79,12 @@ const card: Card = {
 	illustrator: "Susumu Maeya",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805369,
+				tcgplayer: 611831
+			},
 		}
 	],
 }

@@ -74,7 +74,12 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796930,
+				tcgplayer: 594405
+			},
 		}
 	],
 }

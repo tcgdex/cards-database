@@ -30,7 +30,11 @@ const card: Card = {
 	illustrator: "Susumu Maeya",
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769410,
+				tcgplayer: 551687
+			},
 		}
 	],
 }
