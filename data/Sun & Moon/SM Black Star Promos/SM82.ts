@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schimmerndes Lugia"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

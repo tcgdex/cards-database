@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kapu-Kime"
 	},
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

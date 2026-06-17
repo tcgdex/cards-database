@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lamellux"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

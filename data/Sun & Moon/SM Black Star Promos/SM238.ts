@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Glaziola"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],

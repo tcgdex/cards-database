@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Glurak & Rutena GX"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fire"],
