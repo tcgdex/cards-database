@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Sylveon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Psychic"],

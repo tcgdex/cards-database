@@ -15,7 +15,7 @@ const card: Card = {
 		de: "Arceus VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Colorless"],

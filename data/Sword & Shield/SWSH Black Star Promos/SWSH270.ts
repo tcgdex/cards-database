@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Rapidash"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fire"],
