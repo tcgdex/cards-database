@@ -38,7 +38,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 878017
+			}
 		}
 	],
 }

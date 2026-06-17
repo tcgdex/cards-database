@@ -88,7 +88,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: ,
+				cardmarket: 866035,
 				tcgplayer: 666591
 			}
 		},
@@ -97,7 +97,7 @@ const card: Card = {
 			size: "jumbo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: ,
+				cardmarket: 866036,
 				tcgplayer: 666593
 			}
 		}

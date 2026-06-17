@@ -72,7 +72,6 @@ const card: Card = {
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: ,
 				tcgplayer: 666603
 			}
 		}
