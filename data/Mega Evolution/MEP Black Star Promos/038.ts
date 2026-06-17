@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saboteri",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],

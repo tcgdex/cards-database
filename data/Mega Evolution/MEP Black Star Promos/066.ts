@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],

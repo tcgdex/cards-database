@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taiga Kasai",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],

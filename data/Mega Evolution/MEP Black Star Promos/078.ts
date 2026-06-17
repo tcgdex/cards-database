@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mina Nakai",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

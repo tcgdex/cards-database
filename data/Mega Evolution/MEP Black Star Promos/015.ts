@@ -14,7 +14,7 @@ const card: Card = {
 		pt: "Zacian"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
