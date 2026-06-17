@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Durengard"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],

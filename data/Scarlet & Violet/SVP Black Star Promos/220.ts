@@ -14,7 +14,7 @@ const card: Card = {
 		"es-mx": "Entrenamiento de Karateka"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {

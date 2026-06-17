@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Hundemon-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],

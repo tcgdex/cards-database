@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Feraligatr",
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],

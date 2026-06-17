@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Noctuh"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],

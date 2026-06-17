@@ -17,7 +17,7 @@ const card: Card = {
 
 	illustrator: "hncl",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Metal"],

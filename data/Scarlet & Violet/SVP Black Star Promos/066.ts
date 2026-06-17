@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenbündel"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],

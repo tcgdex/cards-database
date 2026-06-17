@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pachirisu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

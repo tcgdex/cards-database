@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [445],
 	hp: 330,

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Latias"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

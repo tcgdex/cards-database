@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "IKEDA Saki",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [576],
 	hp: 150,

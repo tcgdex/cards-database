@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Frosdedje"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

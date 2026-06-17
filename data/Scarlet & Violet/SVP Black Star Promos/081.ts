@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Skelokrok-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fire"],
