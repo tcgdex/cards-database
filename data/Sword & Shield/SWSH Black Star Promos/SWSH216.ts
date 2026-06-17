@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Morpeko V-UNION"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	suffix: "V",
 	hp: 310,

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {

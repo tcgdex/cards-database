@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Cramorant V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [845],
 	hp: 200,
 	types: ["Colorless"],

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Lucario VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],

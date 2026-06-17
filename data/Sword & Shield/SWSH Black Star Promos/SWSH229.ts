@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Mewtwo V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],

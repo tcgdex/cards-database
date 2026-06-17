@@ -27,7 +27,7 @@ const card: Card = {
 		it: "Greninja ☆"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
