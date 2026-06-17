@@ -82,21 +82,29 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
 	},
 
-	thirdParty: {
-		cardmarket: 691807,
-		tcgplayer: 478226
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691807,
+				tcgplayer: 478226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691807,
+				tcgplayer: 478226
+			}
+		},
+	],
 }
 
 export default card

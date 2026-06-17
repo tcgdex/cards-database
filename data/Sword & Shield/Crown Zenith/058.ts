@@ -80,21 +80,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Each of Exeggutor's three heads is thinking different thoughts. The three don't seem to be very interested in one another.",
 	},
 
-	thirdParty: {
-		cardmarket: 691775,
-		tcgplayer: 478172
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691775,
+				tcgplayer: 478172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691775,
+				tcgplayer: 478172
+			}
+		},
+	],
 }
 
 export default card

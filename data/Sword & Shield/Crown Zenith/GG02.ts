@@ -76,20 +76,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
 	},
 
-	thirdParty: {
-		cardmarket: 691881
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691881,
+				tcgplayer: 478019
+			}
+		},
+	],
 }
 
 export default card

@@ -85,21 +85,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
 	},
 
-	thirdParty: {
-		cardmarket: 691745,
-		tcgplayer: 478126
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691745,
+				tcgplayer: 478126
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691745,
+				tcgplayer: 478126
+			}
+		},
+	],
 }
 
 export default card

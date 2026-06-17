@@ -85,21 +85,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Weave a carpet from its springy wool, and you end up with something closer to a trampoline. You'll start to bounce the moment you set foot on it.",
 	},
 
-	thirdParty: {
-		cardmarket: 691841,
-		tcgplayer: 478161
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691841,
+				tcgplayer: 478161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691841,
+				tcgplayer: 478161
+			}
+		},
+	],
 }
 
 export default card

@@ -64,21 +64,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor.",
 	},
 
-	thirdParty: {
-		cardmarket: 691747,
-		tcgplayer: 478129
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691747,
+				tcgplayer: 478129
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691747,
+				tcgplayer: 478129
+			}
+		},
+	],
 }
 
 export default card

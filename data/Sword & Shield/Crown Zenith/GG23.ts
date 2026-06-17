@@ -66,20 +66,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
 	},
 
-	thirdParty: {
-		cardmarket: 691902
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691902,
+				tcgplayer: 478041
+			}
+		},
+	],
 }
 
 export default card

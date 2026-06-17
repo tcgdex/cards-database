@@ -70,20 +70,22 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy— it will fume and run riot if those dearest to it ever leave its side.",
 	},
 
-	thirdParty: {
-		cardmarket: 691900
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691900,
+				tcgplayer: 478039
+			}
+		},
+	],
 }
 
 export default card

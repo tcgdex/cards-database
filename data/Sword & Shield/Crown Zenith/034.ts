@@ -44,21 +44,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
 	},
 
-	thirdParty: {
-		cardmarket: 691751,
-		tcgplayer: 478133
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691751,
+				tcgplayer: 478133
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691751,
+				tcgplayer: 478133
+			}
+		},
+	],
 }
 
 export default card

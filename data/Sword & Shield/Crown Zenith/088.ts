@@ -82,21 +82,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
 	},
 
-	thirdParty: {
-		cardmarket: 691806,
-		tcgplayer: 478225
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691806,
+				tcgplayer: 478225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691806,
+				tcgplayer: 478225
+			}
+		},
+	],
 }
 
 export default card

@@ -75,21 +75,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
 	},
 
-	thirdParty: {
-		cardmarket: 691734,
-		tcgplayer: 478089
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691734,
+				tcgplayer: 478089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691734,
+				tcgplayer: 478089
+			}
+		},
+	],
 }
 
 export default card
