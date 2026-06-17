@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 

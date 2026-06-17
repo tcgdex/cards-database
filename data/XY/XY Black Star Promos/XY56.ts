@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
