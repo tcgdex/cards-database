@@ -212,6 +212,12 @@ export interface Card extends CardResume {
 	 * Card Set
 	 */
 	set: SetResume;
+
+	/**
+	 * Other printings of the card (card IDs)
+	 */
+	otherPrintings?: Array<string>;
+
 	/**
 	 * Pokemon only elements
 	 */

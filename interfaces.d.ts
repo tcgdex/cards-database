@@ -259,6 +259,11 @@ export interface Card {
 	set: Set
 
 	/**
+	 * Other printings of the card (card IDs)
+	 */
+	otherPrintings?: Array<string>
+
+	/**
 	 * Card regulation Mark
 	 *
 	 * note: added from Sword & Shield

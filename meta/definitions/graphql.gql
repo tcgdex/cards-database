@@ -225,6 +225,9 @@ type Card {
 	"""The boosters in which the card is available"""
 	boosters: [Booster]
 
+	"""Other printings of the card (card IDs)"""
+	otherPrintings: [String]
+
 	"""The pokémon weaknesses"""
 	weaknesses: [WeakResListItem]
 

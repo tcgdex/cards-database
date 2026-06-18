@@ -168,6 +168,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 		})) : undefined,
 		updated: await getCardLastEdit(localId, card, lang),
 
+		otherPrintings: card.otherPrintings,
 		thirdParty: card.thirdParty
 	}
 }
