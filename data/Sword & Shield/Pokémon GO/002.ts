@@ -74,20 +74,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
 	},
 
-	thirdParty: {
-		cardmarket: 664536,
-		tcgplayer: 274434
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665236,
+				tcgplayer: 274434
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665236,
+				tcgplayer: 274434
+			}
+		},
+	],
 }
 
 export default card

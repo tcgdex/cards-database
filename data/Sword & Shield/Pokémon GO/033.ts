@@ -89,20 +89,29 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
 	},
 
-	thirdParty: {
-		cardmarket: 664573,
-		tcgplayer: 276969
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665663,
+				tcgplayer: 276969
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665663,
+				tcgplayer: 276969
+			}
+		},
+	],
 }
 
 export default card

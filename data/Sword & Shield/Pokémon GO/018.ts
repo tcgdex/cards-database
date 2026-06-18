@@ -75,20 +75,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
 	description: {
 		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
 	},
 
-	thirdParty: {
-		cardmarket: 664555,
-		tcgplayer: 274468
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665251,
+				tcgplayer: 274468
+			}
+		},
+	],
 }
 
 export default card

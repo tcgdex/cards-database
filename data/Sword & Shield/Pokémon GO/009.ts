@@ -76,20 +76,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
 	},
 
-	thirdParty: {
-		cardmarket: 664543,
-		tcgplayer: 274438
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665243,
+				tcgplayer: 274438
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665243,
+				tcgplayer: 274438
+			}
+		},
+	],
 }
 
 export default card

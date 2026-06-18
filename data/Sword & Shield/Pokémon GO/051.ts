@@ -64,20 +64,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "The egg Chansey carries is not only delicious but also packed with nutrition. It's used as a high-class cooking ingredient.",
 	},
 
-	thirdParty: {
-		cardmarket: 664597,
-		tcgplayer: 276965
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665272,
+				tcgplayer: 276965
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665272,
+				tcgplayer: 276965
+			}
+		},
+	],
 }
 
 export default card

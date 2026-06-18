@@ -53,20 +53,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
 	},
 
-	thirdParty: {
-		cardmarket: 665282,
-		tcgplayer: 276982
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665282,
+				tcgplayer: 276982
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665282,
+				tcgplayer: 276982
+			}
+		},
+	],
 }
 
 export default card

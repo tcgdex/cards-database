@@ -66,20 +66,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
 	},
 
-	thirdParty: {
-		cardmarket: 665657,
-		tcgplayer: 276947
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665657,
+				tcgplayer: 276947
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665657,
+				tcgplayer: 276947
+			}
+		},
+	],
 }
 
 export default card

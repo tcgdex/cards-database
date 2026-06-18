@@ -82,20 +82,29 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
 	description: {
 		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
 	},
 
-	thirdParty: {
-		cardmarket: 664587,
-		tcgplayer: 277016
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665269,
+				tcgplayer: 277016
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665269,
+				tcgplayer: 277016
+			}
+		},
+	],
 }
 
 export default card
