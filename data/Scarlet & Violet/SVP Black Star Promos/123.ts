@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Türkisgrüne-Maske-Ogerpon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
@@ -78,7 +78,19 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 765994,
+				tcgplayer: 552785
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 765995,
+				tcgplayer: 552786
+			},
 		}
 	],
 }

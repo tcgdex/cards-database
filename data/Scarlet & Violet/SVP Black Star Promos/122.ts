@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Relaxo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
@@ -49,7 +49,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 769422,
+				tcgplayer: 554297
+			},
 		}
 	],
 }

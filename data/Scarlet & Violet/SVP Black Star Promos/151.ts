@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Keilflamme"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -68,7 +68,20 @@ const card: Card = {
 	illustrator: "Hasuno",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 793739,
+				tcgplayer: 594382
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 799711,
+				tcgplayer: 607013
+			},
 		}
 	],
 }

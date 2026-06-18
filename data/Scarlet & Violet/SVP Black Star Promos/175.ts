@@ -12,7 +12,7 @@ const card: Card = {
 		it: "Espeon-ex",
 		de: "Psiana-ex"
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],
@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 850982,
+				tcgplayer: 655095
+			}
 		}
 	],
 }

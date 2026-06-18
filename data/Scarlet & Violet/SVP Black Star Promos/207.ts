@@ -17,7 +17,7 @@ const card: Card = {
 
 	illustrator: "hncl",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Metal"],
@@ -42,7 +42,11 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 813959,
+				tcgplayer: 635457
+			},
 		}
 	],
 }

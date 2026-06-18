@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Baojian-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Water"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 709539,
+				tcgplayer: 505534
+			},
 		}
 	],
 }

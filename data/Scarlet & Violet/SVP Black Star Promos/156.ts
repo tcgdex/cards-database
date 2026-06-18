@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Morlord"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
@@ -76,7 +76,12 @@ const card: Card = {
 	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796927,
+				tcgplayer: 594403
+			},
 		}
 	],
 }

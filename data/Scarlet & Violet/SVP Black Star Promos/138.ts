@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Porygon2"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Colorless"],
@@ -66,7 +66,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 785847,
+				tcgplayer: 585577
+			},
 		}
 	],
 }

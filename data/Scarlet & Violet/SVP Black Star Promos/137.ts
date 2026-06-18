@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Seeper"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],
@@ -49,7 +49,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 785846,
+				tcgplayer: 585578
+			},
 		}
 	],
 }

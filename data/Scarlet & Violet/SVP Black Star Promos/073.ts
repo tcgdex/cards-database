@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenrad-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Metal"],
@@ -62,7 +62,18 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751797,
+				tcgplayer: 538686
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 666603
+			}
 		}
 	],
 }

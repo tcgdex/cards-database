@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Dsuke",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
@@ -57,7 +57,12 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 817778,
+				tcgplayer: 627724
+			},
 		}
 	],
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Krawalloro-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "N-DESIGN Inc.",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 791829,
+				tcgplayer: 587945
+			},
 		}
 	],
 }

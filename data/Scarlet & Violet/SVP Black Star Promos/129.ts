@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Infamomo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Darkness"],
@@ -80,7 +80,19 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 770948,
+				tcgplayer: 564137
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 770949,
+				tcgplayer: 573720
+			},
 		}
 	],
 }

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
-	rarity: "Uncommon",
+	rarity: "Promo",
 	category: "Trainer",
 
 	set: Set,

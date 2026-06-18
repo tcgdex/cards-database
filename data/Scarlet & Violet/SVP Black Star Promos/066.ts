@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenbündel"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Water"],
@@ -80,7 +80,19 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 740405,
+				tcgplayer: 526656
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 740406,
+				tcgplayer: 526657
+			},
 		}
 	],
 }

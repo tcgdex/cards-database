@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
@@ -69,7 +69,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 715757,
+				tcgplayer: 512492
+			},
 		}
 	],
 }

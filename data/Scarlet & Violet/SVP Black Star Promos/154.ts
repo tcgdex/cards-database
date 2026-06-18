@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Servol"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
@@ -74,7 +74,20 @@ const card: Card = {
 	illustrator: "buchi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 793744,
+				tcgplayer: 594388
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 799714,
+				tcgplayer: 607016
+			},
 		}
 	],
 }

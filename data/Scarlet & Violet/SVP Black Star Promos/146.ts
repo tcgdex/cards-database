@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenhaupt-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],
@@ -82,7 +82,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775960,
+				tcgplayer: 579992
+			},
 		}
 	],
 }

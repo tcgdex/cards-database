@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Forgita"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -58,7 +58,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703193,
+				tcgplayer: 499996
+			},
 		}
 	],
 }

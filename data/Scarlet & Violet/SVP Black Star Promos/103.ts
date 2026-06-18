@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Hundemon-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
@@ -86,7 +86,11 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 764546,
+				tcgplayer: 546754
+			},
 		}
 	],
 }

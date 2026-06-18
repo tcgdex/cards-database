@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Wyrdeer"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

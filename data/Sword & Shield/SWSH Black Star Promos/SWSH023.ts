@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Higuchi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],

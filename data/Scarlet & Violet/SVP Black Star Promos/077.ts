@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Feliospa"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
@@ -79,7 +79,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751802,
+				tcgplayer: 537980
+			},
 		}
 	],
 }

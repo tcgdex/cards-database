@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "satoma",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [579],
 	hp: 140,
@@ -87,14 +87,13 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836658,
-		tcgplayer: 647309
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836658,
+				tcgplayer: 647309
+			},
 		}
 	],
 }

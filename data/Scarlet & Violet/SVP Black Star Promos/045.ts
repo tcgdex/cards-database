@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Paradies Resort"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -30,9 +30,42 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
+			type: "normal",
+			stamp: ["worlds-2023"],
+			thirdParty: {
+				cardmarket: 726924,
+				tcgplayer: 518863
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2023","staff"],
+			thirdParty: {
+				cardmarket: 727542,
+				tcgplayer: 583700
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2023","top-thirty-two"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2023","top-sixteen"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2023","top-eight"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2023","semi-finalist"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2023","finalist"]
+		},
+	]
 }
 
 export default card

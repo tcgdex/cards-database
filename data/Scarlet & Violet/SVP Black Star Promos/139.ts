@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Latias"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -77,7 +77,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 785848,
+				tcgplayer: 585579
+			},
 		}
 	],
 }

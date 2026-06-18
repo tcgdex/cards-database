@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Fatalitee"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],
@@ -64,7 +64,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 729206,
+				tcgplayer: 526638
+			},
 		}
 	],
 }

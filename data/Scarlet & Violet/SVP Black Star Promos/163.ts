@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Liberlo-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],
@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 796939,
+				tcgplayer: 596420
+			},
 		}
 	],
 }

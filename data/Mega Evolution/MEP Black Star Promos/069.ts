@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Makura Tami",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],

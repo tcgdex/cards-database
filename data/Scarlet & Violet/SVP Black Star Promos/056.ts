@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Glurak-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
@@ -86,7 +86,11 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 740401,
+				tcgplayer: 521697
+			},
 		}
 	],
 }

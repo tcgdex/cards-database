@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladimperio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Metal"],
@@ -83,7 +83,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 770950,
+				tcgplayer: 562087
+			},
 		}
 	],
 }

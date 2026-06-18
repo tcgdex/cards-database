@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [34],
 	hp: 330,
@@ -80,6 +80,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 832226,
+				tcgplayer: 653258
+			},
 		}
 	]
 }

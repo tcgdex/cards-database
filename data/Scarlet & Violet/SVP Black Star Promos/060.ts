@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Durengard"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
@@ -94,7 +94,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 739449,
+				tcgplayer: 526610
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761134,
+				tcgplayer: 548555
+			},
 		}
 	],
 }

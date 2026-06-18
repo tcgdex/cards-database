@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Yuyu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
@@ -78,7 +78,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 739441,
+				tcgplayer: 526574
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761131,
+				tcgplayer: 548552
+			},
 		}
 	],
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Entei"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],

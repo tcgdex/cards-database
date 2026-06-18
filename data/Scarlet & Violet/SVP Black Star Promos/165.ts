@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Terapagos-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Colorless"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 796944,
+				tcgplayer: 596422
+			},
 		}
 	],
 }

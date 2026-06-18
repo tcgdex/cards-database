@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Kanivanha"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Water"],
@@ -49,7 +49,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 751814,
+				tcgplayer: 544183
+			},
 		}
 	],
 }

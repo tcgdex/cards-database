@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Paldea-Felino"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],
@@ -69,7 +69,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720943,
+				tcgplayer: 512049
+			},
 		}
 	],
 }

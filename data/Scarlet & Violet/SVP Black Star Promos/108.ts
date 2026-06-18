@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Waaty"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

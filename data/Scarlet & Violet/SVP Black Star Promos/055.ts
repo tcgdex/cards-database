@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Kangama-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Colorless"],
@@ -76,7 +76,11 @@ const card: Card = {
 	illustrator: "N-DESIGN Inc.",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 723929,
+				tcgplayer: 519482
+			},
 		}
 	],
 }

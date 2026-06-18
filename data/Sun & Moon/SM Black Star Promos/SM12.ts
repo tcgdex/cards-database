@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Quartermak"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

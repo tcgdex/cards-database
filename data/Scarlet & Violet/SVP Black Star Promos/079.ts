@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Krokel"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
@@ -49,7 +49,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751804,
+				tcgplayer: 537818
+			},
 		}
 	],
 }

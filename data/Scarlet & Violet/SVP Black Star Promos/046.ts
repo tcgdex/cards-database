@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bisasam"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
@@ -49,7 +49,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720944,
+				tcgplayer: 517271
+			},
 		}
 	],
 }

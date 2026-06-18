@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Drifzepeli"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
@@ -72,7 +72,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 785842,
+				tcgplayer: 576974
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 785843,
+				tcgplayer: 580336
+			},
 		}
 	],
 }

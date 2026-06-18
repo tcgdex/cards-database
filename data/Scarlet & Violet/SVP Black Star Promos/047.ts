@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Glumanda"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],
@@ -58,7 +58,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720945,
+				tcgplayer: 517272
+			},
 		}
 	],
 }

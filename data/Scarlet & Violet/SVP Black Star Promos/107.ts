@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Voltilamm"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -59,7 +59,7 @@ const card: Card = {
 	illustrator: "Orca",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

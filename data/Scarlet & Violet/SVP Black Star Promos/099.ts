@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Sproxi"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],
@@ -71,7 +71,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 764543,
+				tcgplayer: 546450
+			},
 		}
 	],
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Sylveon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
@@ -79,7 +79,12 @@ const card: Card = {
 	illustrator: "Susumu Maeya",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805369,
+				tcgplayer: 611831
+			},
 		}
 	],
 }

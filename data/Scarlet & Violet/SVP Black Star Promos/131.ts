@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Seedraking-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Water"],
@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "akagi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 780811,
+				tcgplayer: 562019
+			},
 		}
 	],
 }

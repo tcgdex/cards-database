@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Amelicart",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [494],
 	hp: 80,
@@ -53,18 +53,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836653,
-		tcgplayer: 646169
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836653,
+				tcgplayer: 646169
+			},
 		},
 		{
 			type: "holo",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 836654,
+				tcgplayer: 646170
+			}
 		}
 	],
 }

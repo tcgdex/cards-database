@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Fuentente"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
@@ -70,7 +70,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751808,
+				tcgplayer: 537972
+			},
 		}
 	],
 }

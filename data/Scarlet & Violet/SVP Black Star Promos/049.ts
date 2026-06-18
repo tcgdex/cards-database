@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Zapdos-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],
@@ -84,7 +84,19 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720392,
+				tcgplayer: 518869
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 720393,
+				tcgplayer: 520722
+			}
 		}
 	],
 }

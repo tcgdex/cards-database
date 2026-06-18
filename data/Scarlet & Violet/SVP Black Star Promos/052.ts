@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mewtu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
@@ -86,7 +86,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720949,
+				tcgplayer: 518872
+			},
 		}
 	],
 }

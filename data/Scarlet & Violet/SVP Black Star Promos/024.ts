@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Fukano"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
@@ -69,7 +69,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703192,
+				tcgplayer: 500563
+			},
 		}
 	],
 }

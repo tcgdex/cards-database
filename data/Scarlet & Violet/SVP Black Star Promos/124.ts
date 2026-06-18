@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Enigmara"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -30,7 +30,11 @@ const card: Card = {
 	illustrator: "yuu",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751836,
+				tcgplayer: 545661
+			},
 		}
 	],
 }

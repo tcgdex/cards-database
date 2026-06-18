@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenblatt-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Grass"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769426,
+				tcgplayer: 554299
+			},
 		}
 	],
 }

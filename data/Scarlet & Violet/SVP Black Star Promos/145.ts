@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Furienblitz-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Dragon"],
@@ -70,7 +70,11 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775959,
+				tcgplayer: 583850
+			},
 		}
 	],
 }

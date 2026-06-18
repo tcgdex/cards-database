@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Miraidon-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Lightning"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 703197,
+				tcgplayer: 500062
+			},
 		}
 	],
 }

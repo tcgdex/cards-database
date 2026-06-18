@@ -17,7 +17,7 @@ const card: Card = {
 		it: "Calyrex Cavaliere Glaciale V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 210,
 	types: ["Water"],
 

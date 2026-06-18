@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Delfinator-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Water"],
@@ -86,7 +86,19 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769423,
+				tcgplayer: 556449
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 769424,
+				tcgplayer: 560085
+			}
 		}
 	],
 }

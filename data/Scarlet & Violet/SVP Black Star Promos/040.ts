@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pamo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Lightning"],
@@ -58,7 +58,18 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 512043
+			},
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 715755,
+				tcgplayer: 607764
+			},
 		}
 	],
 }

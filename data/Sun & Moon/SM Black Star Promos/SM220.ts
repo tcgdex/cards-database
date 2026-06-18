@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Phione"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Waaty"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
@@ -79,7 +79,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 703183,
+				tcgplayer: 496972
+			},
 		}
 	],
 }

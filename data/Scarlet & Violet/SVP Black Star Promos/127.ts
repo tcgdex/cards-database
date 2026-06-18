@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Windewoge-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Water"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769425,
+				tcgplayer: 554298
+			},
 		}
 	],
 }
