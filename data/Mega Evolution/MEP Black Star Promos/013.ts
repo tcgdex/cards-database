@@ -16,7 +16,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 380,
 	types: ["Grass"],
@@ -85,20 +85,26 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654342,
-		cardmarket: 851074
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859011,
+				tcgplayer: 666905
+			}
 		},
 		{
 			type: "holo",
 			size: "jumbo"
-		}
-	]
+		},
+		{
+			type: 'lenticular',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 859012
+			}
+		},
+	],
 }
 
 export default card

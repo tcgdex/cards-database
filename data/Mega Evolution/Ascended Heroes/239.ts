@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
+
+	description: {
+		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+	},
 
 	variants: [
 		{

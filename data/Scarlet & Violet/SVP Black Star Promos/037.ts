@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pii"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],
@@ -40,12 +40,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 	illustrator: "Mina Nakai",
+	description: {
+		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 720387,
+				tcgplayer: 512896
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761128,
+				tcgplayer: 513423
+			},
 		}
 	],
 }

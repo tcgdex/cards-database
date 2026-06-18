@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladiantri"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],
@@ -35,12 +35,18 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "matazo",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

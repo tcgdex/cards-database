@@ -61,8 +61,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+	},
 
 	variants: [
 		{

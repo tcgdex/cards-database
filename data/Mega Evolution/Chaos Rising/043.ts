@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+	},
+
 
 	name: {
 		en: "Sudowoodo",

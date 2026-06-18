@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Chochodile"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
@@ -41,7 +41,11 @@ const card: Card = {
 	variants:[
 		{
 			type: "holo",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 784942,
+				tcgplayer: 595038
+			},
 		}
 	]
 }

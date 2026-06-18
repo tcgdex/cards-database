@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mimigma-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Psychic"],
@@ -66,13 +66,39 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	suffix: "ex",
 	illustrator: "PLANETA Yamashita",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701130,
+				tcgplayer: 487435
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 701131,
+				tcgplayer: 487439
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 730153,
+				tcgplayer: 513798
+			}
 		}
 	],
 }

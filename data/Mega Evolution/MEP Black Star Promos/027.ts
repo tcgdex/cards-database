@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Arai Kiriko",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
@@ -50,9 +50,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 855283,
+				tcgplayer: 659232
+			}
+		},
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "These Pokemon like things neat and tidy. They are always sweeping and dusting their habitat, using their tails as brooms.",
+	},
+
 
 	name: {
 		en: "Minccino",

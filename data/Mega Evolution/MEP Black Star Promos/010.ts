@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],
@@ -48,19 +48,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 656260,
-		cardmarket: 851058
-	},
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 851058,
+				tcgplayer: 656260
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 851059,
+				tcgplayer: 656262
+			}
+		},
+	],
 }
 
 export default card

@@ -59,8 +59,18 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+
+	description: {
+		en: "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
+	},
 
 	variants: [
 	{

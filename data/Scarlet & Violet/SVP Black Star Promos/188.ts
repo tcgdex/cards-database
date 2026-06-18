@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKUBO",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],
@@ -69,7 +69,12 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 817779,
+				tcgplayer: 627725
+			},
 		}
 	],
 }

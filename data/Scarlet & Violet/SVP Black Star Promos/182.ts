@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
@@ -71,7 +71,20 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 816615,
+				tcgplayer: 623234
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 817773,
+				tcgplayer: 624482
+			},
 		}
 	],
 }

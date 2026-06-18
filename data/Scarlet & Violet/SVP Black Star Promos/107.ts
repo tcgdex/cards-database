@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Voltilamm"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -48,12 +48,18 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Orca",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

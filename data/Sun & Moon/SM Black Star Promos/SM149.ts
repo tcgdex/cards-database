@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Suicune"
 	},
 	illustrator: "Anesaki Dynamic",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

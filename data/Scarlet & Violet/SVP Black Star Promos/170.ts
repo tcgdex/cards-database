@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Leafeon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
@@ -70,7 +70,12 @@ const card: Card = {
 	illustrator: "Iori Suzuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805367,
+				tcgplayer: 611829
+			},
 		}
 	],
 }

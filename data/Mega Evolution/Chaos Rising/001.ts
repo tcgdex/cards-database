@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+	},
+
 	name: {
 		en: "Weedle",
 		fr: "Aspicot",

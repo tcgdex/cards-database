@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Caesurio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
@@ -43,12 +43,18 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "AKIRA EGAWA",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

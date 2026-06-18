@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Skelokrok-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fire"],
@@ -74,13 +74,31 @@ const card: Card = {
 		damage: "270-"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751806,
+				tcgplayer: 537975
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 751806,
+				tcgplayer: 537976
+			}
 		}
 	],
 }

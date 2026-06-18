@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "Saboteri",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 360,
 	types: ["Psychic"],
@@ -84,9 +84,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 873708,
+				tcgplayer: 685510
+			}
+		},
+	],
 }
 
 export default card

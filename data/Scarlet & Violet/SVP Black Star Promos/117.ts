@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Frosdedje"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
@@ -65,12 +65,34 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "mingo",
+	description: {
+		en: "It freezes prey by blowing its −58 degree Fahrenheit breath. It is said to then secretly display its prey.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 769415,
+				tcgplayer: 551691
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 769416,
+				tcgplayer: 563317
+			},
 		}
 	],
 }

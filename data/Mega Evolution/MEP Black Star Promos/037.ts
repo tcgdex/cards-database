@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saboteri",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Grass"],
@@ -51,15 +51,17 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		cardmarket: 875186
-	},
+	
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 875186,
+				tcgplayer: 684461
+			}
+		},
+	],
 }
 
 export default card

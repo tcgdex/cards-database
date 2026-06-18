@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Krawalloro-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
@@ -66,13 +66,29 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 791829,
+				tcgplayer: 587945
+			},
 		}
 	],
 }

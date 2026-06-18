@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 	trainerType: "Stadium",
 	regulationMark: "I",
@@ -33,7 +33,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["ace-trainer"]
 		},
-	]
+	],
 }
 
 export default card

@@ -27,7 +27,7 @@ const card: Card = {
 		it: "Mimikyu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],

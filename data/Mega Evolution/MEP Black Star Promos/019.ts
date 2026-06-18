@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Tanaka",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
@@ -79,9 +79,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859022,
+				tcgplayer: 664054
+			}
+		},
+	],
 }
 
 export default card

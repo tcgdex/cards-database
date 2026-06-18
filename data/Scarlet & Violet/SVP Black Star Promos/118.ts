@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Nigiragi"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Dragon"],
@@ -60,9 +60,25 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Shimaris Yukichi",
+	description: {
+		en: "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 769417,
+				tcgplayer: 551692
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 769418,
+				tcgplayer: 563318
+			},
 		}
 	],
 }

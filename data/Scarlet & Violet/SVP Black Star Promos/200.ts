@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kariya",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [133],
 	hp: 60,
@@ -67,7 +67,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 826138,
+				tcgplayer: 637077
+			}
 		}
 	]
 }

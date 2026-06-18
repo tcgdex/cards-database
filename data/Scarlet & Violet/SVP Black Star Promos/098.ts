@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisendorn"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Lightning"],
@@ -57,12 +57,19 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	variants: [
 		{
 			type: 'holo',
 			thirdParty: {
+				cardmarket: 750482,
 				tcgplayer: 543948
 			}
 		},
@@ -70,11 +77,16 @@ const card: Card = {
 			type: 'holo',
 			stamp: ['pokemon-center'],
 			thirdParty: {
+				cardmarket: 761961,
 				tcgplayer: 543949
 			}
 		},
 	],
-	illustrator: "Tonji Matsuno"
+	illustrator: "Tonji Matsuno",
+
+	description: {
+		en: "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
+	},
 }
 
 export default card

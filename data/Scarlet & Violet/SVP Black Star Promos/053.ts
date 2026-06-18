@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mew-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Psychic"],
@@ -64,13 +64,29 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 	suffix: "ex",
 	illustrator: "Natsumi Yoshida",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720950,
+				tcgplayer: 518871
+			},
 		}
 	],
 }

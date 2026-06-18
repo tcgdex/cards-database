@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Seedraking-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Water"],
@@ -72,13 +72,23 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	suffix: "ex",
 	illustrator: "akagi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 780811,
+				tcgplayer: 562019
+			},
 		}
 	],
 }

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "NC Empire",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],

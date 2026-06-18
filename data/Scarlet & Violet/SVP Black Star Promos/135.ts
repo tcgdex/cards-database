@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Drifzepeli"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
@@ -52,12 +52,40 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Keisin",
+	description: {
+		en: "They carry people and Pokémon, but the wind can catch them, so there can't be a fixed destination.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 785842,
+				tcgplayer: 576974
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 785843,
+				tcgplayer: 580336
+			},
 		}
 	],
 }

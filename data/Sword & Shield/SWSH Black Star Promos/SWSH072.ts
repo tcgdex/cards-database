@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "so-taro",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],

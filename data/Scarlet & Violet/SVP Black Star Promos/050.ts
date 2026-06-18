@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Simsala-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Psychic"],
@@ -74,13 +74,29 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720394,
+				tcgplayer: 518868
+			},
 		}
 	],
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Fukano"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
@@ -55,12 +55,26 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 	illustrator: "Uta",
+	description: {
+		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703192,
+				tcgplayer: 500563
+			},
 		}
 	],
 }

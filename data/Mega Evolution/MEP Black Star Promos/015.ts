@@ -14,7 +14,7 @@ const card: Card = {
 		pt: "Zacian"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
@@ -50,21 +50,22 @@ const card: Card = {
 	regulationMark: "I",
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-        tcgplayer: 663189,
-        cardmarket: 857393
-	},
-
     variants: [
-		{
-			type: "holo",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "holo",
-			stamp: ["set-logo","staff"]
-		},
-    ]
+    	{
+    		type: "holo",
+    		stamp: ["set-logo"],
+    		thirdParty: {
+    			cardmarket: 857393
+    		}
+    	},
+    	{
+    		type: "holo",
+    		stamp: ["set-logo","staff"],
+    		thirdParty: {
+    			cardmarket: 859015
+    		}
+    	},
+    ],
 }
 
 export default card

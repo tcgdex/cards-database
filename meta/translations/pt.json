@@ -56,7 +56,8 @@
 		"Two Shiny": "Deux Chromatique",
 		"Three Shiny": "Un Chromatique",
 		"Black White Rare": "Rara Preto e Branco",
-		"Mega Hyper Rare": "Mega Hiper Raro"
+		"Mega Hyper Rare": "Mega Hiper Raro",
+		"Promo": "Promo"
 	},
 	"stage": {
 		"Baby": "Bebê",
@@ -132,9 +133,9 @@
 		"professor-program": "professor-program",
 		"tinsel": "tinsel",
 		"loveball": "Bola de Amor",
-		"friendball": "Bola de Amizade", 
+		"friendball": "Bola de Amizade",
 		"quickball": "Bola Rápida",
-		"duskball": "Bola Crepúsculo", 
+		"duskball": "Bola Crepúsculo",
 		"team-rocket": "Team Rocket"
 	},
 	"variantStamp": {
@@ -246,8 +247,11 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection",
+		"worlds-2024": "worlds-2024",
+		"worlds-2023": "worlds-2023",
+		"asia-2023-24": "asia-2023-24"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

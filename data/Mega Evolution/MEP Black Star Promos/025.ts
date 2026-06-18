@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],
@@ -73,13 +73,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859037,
+				tcgplayer: 668509
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
-		}
-	]
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 859039
+			}
+		},
+	],
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Schiggy"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -44,12 +44,26 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Gemi",
+	description: {
+		en: "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720946,
+				tcgplayer: 517273
+			},
 		}
 	],
 }

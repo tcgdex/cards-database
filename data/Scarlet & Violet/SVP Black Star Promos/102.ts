@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Miranda Branley",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [43],
 	hp: 60,
@@ -45,9 +45,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "G",
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 740398,
+				tcgplayer: 525293
+			},
 		}
 	],
 }

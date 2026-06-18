@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pupitar"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],
@@ -65,12 +65,26 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Shiburingaru",
+	description: {
+		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 769420,
+				tcgplayer: 554189
+			},
 		}
 	],
 }

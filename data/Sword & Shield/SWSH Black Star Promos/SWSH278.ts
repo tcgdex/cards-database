@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Cinderace"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fire"],

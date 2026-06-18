@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Koalelu"
 	},
 	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

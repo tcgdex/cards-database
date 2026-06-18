@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -44,12 +44,34 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Jiro Sasumo",
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 740411,
+				tcgplayer: 528365
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["asia-2023-24"],
+			thirdParty: {
+				cardmarket: 726923,
+				tcgplayer: 681225
+			},
 		}
 	],
 }

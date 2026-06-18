@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Keisin",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
@@ -61,9 +61,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 855284,
+				tcgplayer: 659231
+			}
+		},
+	],
 }
 
 export default card

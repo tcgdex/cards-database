@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Bun Toujo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Dragon"],
@@ -72,13 +72,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 873702,
+				tcgplayer: 680480
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 873704,
+				tcgplayer: 680481
+			}
+		},
+	],
 }
 
 export default card

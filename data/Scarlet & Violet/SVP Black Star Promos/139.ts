@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Latias"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -57,12 +57,32 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "hncl",
+	description: {
+		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 785848,
+				tcgplayer: 585579
+			},
 		}
 	],
 }

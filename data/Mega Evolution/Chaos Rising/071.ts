@@ -4,6 +4,10 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
+	},
+
 
 	name: {
 		en: "Watchog",

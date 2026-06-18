@@ -62,8 +62,18 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
+
+	description: {
+		en: "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
+	},
 
 	illustrator: "Shinya Komatsu",
 	variants: [

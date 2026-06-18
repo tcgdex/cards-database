@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Miraidon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Dragon"],
@@ -60,9 +60,25 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "akagi",
+	description: {
+		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 760234,
+				tcgplayer: 543953
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761138,
+				tcgplayer: 548309
+			},
 		}
 	],
 }

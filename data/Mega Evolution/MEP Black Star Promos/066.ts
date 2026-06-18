@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Fighting"],
@@ -92,9 +92,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 685496
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 877545
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo', 'staff'],
+			thirdParty: {
+				cardmarket: 879315
+			}
+		},
+	],
 }
 
 export default card

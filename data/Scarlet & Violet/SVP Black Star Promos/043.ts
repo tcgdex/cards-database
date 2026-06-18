@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
@@ -55,12 +55,26 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "saino misaki",
+	description: {
+		en: "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 715757,
+				tcgplayer: 512492
+			},
 		}
 	],
 }

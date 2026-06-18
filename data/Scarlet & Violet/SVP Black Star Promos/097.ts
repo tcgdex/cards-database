@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Flatterhaar"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
@@ -66,12 +66,33 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Takumi Wada",
+	description: {
+		en: "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.",
+	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 750478,
+				tcgplayer: 543946
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 761960,
+				tcgplayer: 543947
+			},
 		}
 	],
 }

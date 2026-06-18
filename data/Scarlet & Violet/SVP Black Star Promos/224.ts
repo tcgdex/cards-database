@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -32,11 +32,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: ["worlds-2025"],
+			thirdParty: {
+				tcgplayer: 649232
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["worlds-2025","staff"]
+			stamp: ["worlds-2025","staff"],
+			thirdParty: {
+				tcgplayer: 649234
+			},
 		},
 		{
 			type: "normal",
