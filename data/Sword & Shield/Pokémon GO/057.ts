@@ -85,20 +85,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
 	},
 
-	thirdParty: {
-		cardmarket: 664615,
-		tcgplayer: 276978
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665281,
+				tcgplayer: 276978
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665281,
+				tcgplayer: 276978
+			}
+		},
+	],
 }
 
 export default card

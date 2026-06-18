@@ -66,20 +66,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
 	},
 
-	thirdParty: {
-		cardmarket: 664579,
-		tcgplayer: 276993
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665669,
+				tcgplayer: 276993
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665669,
+				tcgplayer: 276993
+			}
+		},
+	],
 }
 
 export default card

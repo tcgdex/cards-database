@@ -85,20 +85,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
 	},
 
-	thirdParty: {
-		cardmarket: 664540,
-		tcgplayer: 276945
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665656,
+				tcgplayer: 276945
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665656,
+				tcgplayer: 276945
+			}
+		},
+	],
 }
 
 export default card

@@ -66,20 +66,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
 	description: {
 		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
 	},
 
-	thirdParty: {
-		cardmarket: 664548,
-		tcgplayer: 276953
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665246,
+				tcgplayer: 276953
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665246,
+				tcgplayer: 276953
+			}
+		},
+	],
 }
 
 export default card

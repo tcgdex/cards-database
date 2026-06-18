@@ -44,20 +44,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
 	},
 
-	thirdParty: {
-		cardmarket: 664551,
-		tcgplayer: 274445
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665247,
+				tcgplayer: 274445
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665247,
+				tcgplayer: 274445
+			}
+		},
+	],
 }
 
 export default card

@@ -82,20 +82,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest.",
 	},
 
-	thirdParty: {
-		cardmarket: 664638,
-		tcgplayer: 276988
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665679,
+				tcgplayer: 276988
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665679,
+				tcgplayer: 276988
+			}
+		},
+	],
 }
 
 export default card

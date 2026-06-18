@@ -64,20 +64,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces.",
 	},
 
-	thirdParty: {
-		cardmarket: 664612,
-		tcgplayer: 276975
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665280,
+				tcgplayer: 276975
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665280,
+				tcgplayer: 276975
+			}
+		},
+	],
 }
 
 export default card

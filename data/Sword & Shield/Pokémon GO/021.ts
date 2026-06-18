@@ -73,20 +73,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
 	description: {
 		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
 	},
 
-	thirdParty: {
-		cardmarket: 664560,
-		tcgplayer: 276951
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665252,
+				tcgplayer: 276951
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665252,
+				tcgplayer: 276951
+			}
+		},
+	],
 }
 
 export default card
