@@ -45,12 +45,6 @@ const card: Card = {
 
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	weaknesses: [
 		{
@@ -59,6 +53,16 @@ const card: Card = {
 		},
 	],
 	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 506930,
+				tcgplayer: 223761
+			}
+		},
+	],
 }
 
 export default card
