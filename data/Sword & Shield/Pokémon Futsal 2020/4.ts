@@ -47,7 +47,17 @@ const card: Card = {
 		}
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 569468,
+				tcgplayer: 248016
+			}
+		},
+	],
 }
 
 export default card
