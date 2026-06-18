@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladimperio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],
@@ -67,7 +67,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

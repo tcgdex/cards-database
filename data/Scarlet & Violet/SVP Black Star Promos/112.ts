@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Caesurio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
@@ -54,7 +54,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

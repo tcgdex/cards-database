@@ -76,21 +76,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 691796,
-		tcgplayer: 478217
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691796,
+				tcgplayer: 478217
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691796,
+				tcgplayer: 478217
+			}
+		},
+	],
 }
 
 export default card

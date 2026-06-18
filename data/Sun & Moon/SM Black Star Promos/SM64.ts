@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Amigento"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

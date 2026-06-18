@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Granforgita"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
@@ -88,7 +88,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 715468,
+				tcgplayer: 501888
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761124,
+				tcgplayer: 512506
+			},
 		}
 	],
 }

@@ -44,21 +44,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Although it will eat anything, it prefers fresh living things, so it marches down streets in search of prey.",
 	},
 
-	thirdParty: {
-		cardmarket: 691836,
-		tcgplayer: 478153
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691836,
+				tcgplayer: 478153
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691836,
+				tcgplayer: 478153
+			}
+		},
+	],
 }
 
 export default card

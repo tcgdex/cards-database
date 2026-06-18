@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Terapagos & Friends",
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	types: ["Colorless"],
 	hp: 90,
@@ -39,7 +39,11 @@ const card: Card = {
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["horizons"]
+			stamp: ["horizons"],
+			thirdParty: {
+				cardmarket: 784943,
+				tcgplayer: 595035
+			}
 		},
 	]
 }

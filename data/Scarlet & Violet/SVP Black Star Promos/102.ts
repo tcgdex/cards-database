@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Miranda Branley",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [43],
 	hp: 60,
@@ -50,7 +50,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 740398,
+				tcgplayer: 525293
+			},
 		}
 	],
 }

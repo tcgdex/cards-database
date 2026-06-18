@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Keilflamme-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fire"],
@@ -69,7 +69,11 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775958,
+				tcgplayer: 579993
+			},
 		}
 	],
 }

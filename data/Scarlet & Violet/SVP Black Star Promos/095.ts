@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pii"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],
@@ -60,7 +60,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 751816,
+				tcgplayer: 544201
+			},
 		}
 	],
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Maskagato-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Grass"],
@@ -86,7 +86,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720129,
+				tcgplayer: 513876
+			},
 		}
 	],
 }

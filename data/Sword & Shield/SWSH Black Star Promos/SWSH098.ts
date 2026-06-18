@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Crobat V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [169],
 	hp: 180,
 	types: ["Darkness"],

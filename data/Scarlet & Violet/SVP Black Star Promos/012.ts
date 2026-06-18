@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Heerashai"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
@@ -71,7 +71,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 692232,
+				tcgplayer: 653800
+			},
 		}
 	],
 }

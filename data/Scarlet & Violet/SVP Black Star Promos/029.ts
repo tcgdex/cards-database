@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Koraidon-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fighting"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 703198,
+				tcgplayer: 500070
+			},
 		}
 	],
 }

@@ -12,7 +12,7 @@ const card: Card = {
 		it: "Umbreon-ex",
 		de: "Nachtara-ex"
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Darkness"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 850983,
+				tcgplayer: 655094
+			}
 		}
 	],
 }

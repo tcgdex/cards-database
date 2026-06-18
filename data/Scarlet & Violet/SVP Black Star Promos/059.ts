@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Xatu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
@@ -85,7 +85,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 739448,
+				tcgplayer: 526590
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761133,
+				tcgplayer: 548554
+			},
 		}
 	],
 }

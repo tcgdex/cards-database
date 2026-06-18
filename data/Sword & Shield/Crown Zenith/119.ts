@@ -64,21 +64,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "With waves of its fan—made from leaves and its own fur—Oranguru skillfully gives instructions to other Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 691838,
-		tcgplayer: 478155
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691838,
+				tcgplayer: 478155
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691838,
+				tcgplayer: 478155
+			}
+		},
+	],
 }
 
 export default card

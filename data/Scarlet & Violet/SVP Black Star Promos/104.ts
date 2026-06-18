@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Melmetal-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Metal"],
@@ -90,7 +90,11 @@ const card: Card = {
 	illustrator: "PLANETA Igarashi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 764547,
+				tcgplayer: 546755
+			},
 		}
 	],
 }

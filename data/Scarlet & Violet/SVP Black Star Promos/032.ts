@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Epitaff-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fighting"],
@@ -77,7 +77,11 @@ const card: Card = {
 	illustrator: "PLANETA Hiiragi",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 709541,
+				tcgplayer: 502981
+			},
 		}
 	],
 }

@@ -64,21 +64,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
 	},
 
-	thirdParty: {
-		cardmarket: 691725,
-		tcgplayer: 478054
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691725,
+				tcgplayer: 478054
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691725,
+				tcgplayer: 478054
+			}
+		},
+	],
 }
 
 export default card

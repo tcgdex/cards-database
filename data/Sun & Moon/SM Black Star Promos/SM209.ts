@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Muramura"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

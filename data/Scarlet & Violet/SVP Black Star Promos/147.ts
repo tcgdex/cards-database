@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenfels-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Fighting"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775961,
+				tcgplayer: 583851
+			},
 		}
 	],
 }

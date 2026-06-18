@@ -16,7 +16,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],
@@ -63,7 +63,11 @@ const card: Card = {
 	regulationMark: "H",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 810394,
+				tcgplayer: 619584
+			},
 		}
 	],
 }

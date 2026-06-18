@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kariya",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

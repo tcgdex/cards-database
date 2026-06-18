@@ -69,20 +69,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
 	},
 
-	thirdParty: {
-		cardmarket: 691899
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691899,
+				tcgplayer: 478038
+			}
+		},
+	],
 }
 
 export default card

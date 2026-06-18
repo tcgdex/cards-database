@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Olini"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
@@ -69,7 +69,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703191,
+				tcgplayer: 500833
+			},
 		}
 	],
 }

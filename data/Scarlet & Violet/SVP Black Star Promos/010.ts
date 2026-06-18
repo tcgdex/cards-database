@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Psiopatra"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -85,7 +85,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703185,
+				tcgplayer: 491185
+			},
 		}
 	],
 }

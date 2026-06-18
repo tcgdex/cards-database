@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Victini-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fire"],
@@ -78,7 +78,11 @@ const card: Card = {
 	illustrator: "Saki Hayashiro",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767568,
+				tcgplayer: 586179
+			},
 		}
 	],
 }

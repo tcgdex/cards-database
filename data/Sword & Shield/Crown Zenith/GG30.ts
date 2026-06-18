@@ -75,20 +75,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
 	},
 
-	thirdParty: {
-		cardmarket: 691879
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691909,
+				tcgplayer: 478058
+			}
+		},
+	],
 }
 
 export default card

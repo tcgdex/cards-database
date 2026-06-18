@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Lokroko"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],
@@ -70,7 +70,11 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751805,
+				tcgplayer: 537981
+			},
 		}
 	],
 }

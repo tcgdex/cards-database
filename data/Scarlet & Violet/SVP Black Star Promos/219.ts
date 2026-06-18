@@ -14,7 +14,7 @@ const card: Card = {
 		"es-mx": "Entrenamiento de Karateka"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -32,7 +32,11 @@ const card: Card = {
 	illustrator: "GOSSAN",
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855672,
+				tcgplayer: 664825
+			},
 		}
 	],
 }

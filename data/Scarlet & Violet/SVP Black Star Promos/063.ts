@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Kolowal"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
@@ -88,7 +88,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 729207,
+				tcgplayer: 561591
+			},
 		}
 	],
 }

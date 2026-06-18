@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Cryospino"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
@@ -70,7 +70,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 729208,
+				tcgplayer: 561590
+			},
 		}
 	],
 }

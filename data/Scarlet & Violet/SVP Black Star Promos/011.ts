@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Arkani"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -79,7 +79,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 692231,
+				tcgplayer: 491186
+			},
 		}
 	],
 }

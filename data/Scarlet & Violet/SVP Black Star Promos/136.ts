@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bisofank"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
@@ -80,7 +80,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 785844,
+				tcgplayer: 576976
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 785845,
+				tcgplayer: 580337
+			},
 		}
 	],
 }

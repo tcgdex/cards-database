@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Crimanzo-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fire"],
@@ -86,7 +86,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 766667,
+				tcgplayer: 547653
+			},
 		}
 	],
 }

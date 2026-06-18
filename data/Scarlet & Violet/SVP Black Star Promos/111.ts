@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladiantri"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],
@@ -46,7 +46,7 @@ const card: Card = {
 	illustrator: "matazo",
 	variants: [
 		{
-			type: "holo"
+			type: "normal"
 		}
 	],
 }

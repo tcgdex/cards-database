@@ -53,21 +53,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
 	},
 
-	thirdParty: {
-		cardmarket: 691801,
-		tcgplayer: 478227
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691801,
+				tcgplayer: 478227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691801,
+				tcgplayer: 478227
+			}
+		},
+	],
 }
 
 export default card

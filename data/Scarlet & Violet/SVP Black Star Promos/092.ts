@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Miraidon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Dragon"],
@@ -65,7 +65,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 760234,
+				tcgplayer: 543953
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761138,
+				tcgplayer: 548309
+			},
 		}
 	],
 }

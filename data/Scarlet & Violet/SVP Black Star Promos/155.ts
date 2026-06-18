@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Felino"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],
@@ -66,7 +66,12 @@ const card: Card = {
 	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796925,
+				tcgplayer: 594389
+			},
 		}
 	],
 }

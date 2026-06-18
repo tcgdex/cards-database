@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Ledian"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
@@ -88,7 +88,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 785838,
+				tcgplayer: 576970
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 785839,
+				tcgplayer: 580334
+			},
 		}
 	],
 }

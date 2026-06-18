@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pachirisu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -66,7 +66,12 @@ const card: Card = {
 	illustrator: "Yuya Oka",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796932,
+				tcgplayer: 594410
+			},
 		}
 	],
 }

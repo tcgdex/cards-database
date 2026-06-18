@@ -73,21 +73,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
 	},
 
-	thirdParty: {
-		cardmarket: 691732,
-		tcgplayer: 478082
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691732,
+				tcgplayer: 478082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691732,
+				tcgplayer: 478082
+			}
+		},
+	],
 }
 
 export default card

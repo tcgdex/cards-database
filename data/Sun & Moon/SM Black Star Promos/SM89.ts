@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zoroark"
 	},
 	illustrator: "Misa Tsutsui",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,

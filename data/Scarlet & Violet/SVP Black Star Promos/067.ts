@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Donnersichel-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Darkness"],
@@ -76,7 +76,19 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 740407,
+				tcgplayer: 527878
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 740408,
+				tcgplayer: 529857
+			}
 		}
 	],
 }

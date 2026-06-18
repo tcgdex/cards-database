@@ -66,21 +66,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
 	},
 
-	thirdParty: {
-		cardmarket: 691743,
-		tcgplayer: 478124
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691743,
+				tcgplayer: 478124
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691743,
+				tcgplayer: 478124
+			}
+		},
+	],
 }
 
 export default card

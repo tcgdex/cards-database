@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bailonda-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],
@@ -86,7 +86,11 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720131,
+				tcgplayer: 513874
+			},
 		}
 	],
 }

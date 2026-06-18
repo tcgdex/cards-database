@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Impergator"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
@@ -88,7 +88,20 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 760231,
+				tcgplayer: 543950
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761135,
+				tcgplayer: 548310
+			},
 		}
 	],
 }

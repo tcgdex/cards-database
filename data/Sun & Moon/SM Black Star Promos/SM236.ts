@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Alola-Sandamer GX"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Water"],

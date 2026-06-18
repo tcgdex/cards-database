@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],
@@ -74,7 +74,12 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796930,
+				tcgplayer: 594405
+			},
 		}
 	],
 }

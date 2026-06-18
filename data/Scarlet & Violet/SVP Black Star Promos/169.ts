@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Jolteon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],
@@ -79,7 +79,12 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805366,
+				tcgplayer: 653353
+			},
 		}
 	],
 }

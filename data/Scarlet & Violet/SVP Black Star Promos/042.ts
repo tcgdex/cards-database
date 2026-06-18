@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Friedwuff"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
@@ -83,7 +83,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 715756,
+				tcgplayer: 512914
+			},
 		}
 	],
 }

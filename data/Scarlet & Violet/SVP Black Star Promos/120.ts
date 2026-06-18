@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pupitar"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],
@@ -79,7 +79,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 769420,
+				tcgplayer: 554189
+			},
 		}
 	],
 }

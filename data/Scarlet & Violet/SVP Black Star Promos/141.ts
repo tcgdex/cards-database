@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Noctuh"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
@@ -85,7 +85,19 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785850,
+				tcgplayer: 578811
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 788037,
+				tcgplayer: 578812
+			},
 		}
 	],
 }

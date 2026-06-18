@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gruff"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -61,7 +61,11 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751794,
+				tcgplayer: 536072
+			},
 		}
 	],
 }

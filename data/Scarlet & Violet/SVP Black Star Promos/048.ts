@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Schiggy"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -58,7 +58,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720946,
+				tcgplayer: 517273
+			},
 		}
 	],
 }

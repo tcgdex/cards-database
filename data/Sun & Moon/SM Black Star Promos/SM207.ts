@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 

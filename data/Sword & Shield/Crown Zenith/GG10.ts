@@ -72,20 +72,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
 	},
 
-	thirdParty: {
-		cardmarket: 691776
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691889,
+				tcgplayer: 478027
+			}
+		},
+	],
 }
 
 export default card

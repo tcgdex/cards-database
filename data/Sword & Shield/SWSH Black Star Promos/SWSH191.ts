@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Leafeon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],

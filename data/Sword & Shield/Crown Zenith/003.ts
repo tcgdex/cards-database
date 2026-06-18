@@ -63,21 +63,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
 	},
 
-	thirdParty: {
-		cardmarket: 691720,
-		tcgplayer: 478049
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691720,
+				tcgplayer: 478049
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691720,
+				tcgplayer: 478049
+			}
+		},
+	],
 }
 
 export default card

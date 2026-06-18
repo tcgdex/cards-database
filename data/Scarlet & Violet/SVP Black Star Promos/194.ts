@@ -18,7 +18,7 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
@@ -83,7 +83,11 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 819266,
+				tcgplayer: 628320
+			},
 		}
 	],
 }

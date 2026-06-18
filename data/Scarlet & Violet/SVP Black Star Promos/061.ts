@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Tannza"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
@@ -49,7 +49,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 729205,
+				tcgplayer: 526634
+			},
 		}
 	],
 }

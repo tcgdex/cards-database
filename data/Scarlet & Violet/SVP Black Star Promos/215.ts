@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	suffix: "ex",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Lightning"],
@@ -50,8 +50,12 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			type: "holo",
+			stamp: ["illustration-contest-2024"],
+			thirdParty: {
+				cardmarket: 810399,
+				tcgplayer: 620107
+			},
 		},
 	]
 }

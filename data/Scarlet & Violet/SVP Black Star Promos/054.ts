@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Quajutsu-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Water"],
@@ -84,7 +84,11 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 723928,
+				tcgplayer: 518878
+			},
 		}
 	],
 }

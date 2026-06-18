@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Flareon VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],

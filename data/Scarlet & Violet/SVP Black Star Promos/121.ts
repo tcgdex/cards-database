@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Knattatox"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],
@@ -92,7 +92,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 769421,
+				tcgplayer: 560618
+			},
 		}
 	],
 }

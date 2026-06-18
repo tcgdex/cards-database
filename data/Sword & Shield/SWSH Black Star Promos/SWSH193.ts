@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Galarian Obstagoon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],

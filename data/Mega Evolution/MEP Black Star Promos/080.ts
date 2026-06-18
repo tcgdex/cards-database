@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "satoma",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],

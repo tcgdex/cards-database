@@ -74,21 +74,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Dragalge uses a poisonous liquid capable of corroding metal to send tankers that enter its territory to the bottom of the sea.",
 	},
 
-	thirdParty: {
-		cardmarket: 691800,
-		tcgplayer: 478222
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691800,
+				tcgplayer: 478222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691800,
+				tcgplayer: 478222
+			}
+		},
+	],
 }
 
 export default card

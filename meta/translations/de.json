@@ -57,7 +57,8 @@
 		"Two Shiny": "Deux Chromatique",
 		"Three Shiny": "Un Chromatique",
 		"Black White Rare": "Schwarz-Weiß Selten",
-		"Mega Hyper Rare": "Mega Hyper Selten"
+		"Mega Hyper Rare": "Mega Hyper Selten",
+		"Promo": "Promo"
 	},
 	"stage": {
 		"Baby": "Baby",
@@ -248,8 +249,11 @@
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
     	"pokemon-together": "pokemon-together",
-		"rain-city": "rain-city", 
-		"tournament-collection": "tournament-collection" 
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection",
+		"worlds-2024": "worlds-2024",
+		"worlds-2023": "worlds-2023",
+		"asia-2023-24": "asia-2023-24"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",

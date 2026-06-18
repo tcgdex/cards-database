@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mopex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
@@ -78,7 +78,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 751817,
+				tcgplayer: 544214
+			},
 		}
 	],
 }

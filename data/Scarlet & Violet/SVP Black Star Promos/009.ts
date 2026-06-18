@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Spinsidias"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Grass"],
@@ -79,7 +79,12 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703184,
+				tcgplayer: 491184
+			},
 		}
 	],
 }

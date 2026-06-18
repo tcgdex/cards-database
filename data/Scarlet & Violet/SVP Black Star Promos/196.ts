@@ -15,7 +15,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [6],
 	hp: 330,
@@ -88,10 +88,18 @@ const card: Card = {
 	variants:[
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 821616,
+				tcgplayer: 641610
+			},
 		},
 		{
 			type: "lenticular",
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 821617,
+				tcgplayer: 641615
+			}
 		}
 	]
 }

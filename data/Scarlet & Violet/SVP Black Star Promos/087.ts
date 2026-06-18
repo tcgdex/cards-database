@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Felori-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Grass"],
@@ -69,7 +69,11 @@ const card: Card = {
 	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751812,
+				tcgplayer: 542468
+			},
 		}
 	],
 }
