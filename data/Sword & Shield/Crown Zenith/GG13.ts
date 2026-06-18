@@ -75,20 +75,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
 	},
 
-	thirdParty: {
-		cardmarket: 691892
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691892,
+				tcgplayer: 478030
+			}
+		},
+	],
 }
 
 export default card

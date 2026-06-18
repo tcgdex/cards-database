@@ -69,21 +69,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Two Beldum have become stuck together via their own magnetic forces. With two brains, the resulting Metang has doubled psychic powers.",
 	},
 
-	thirdParty: {
-		cardmarket: 691808,
-		tcgplayer: 478228
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691808,
+				tcgplayer: 478228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691808,
+				tcgplayer: 478228
+			}
+		},
+	],
 }
 
 export default card

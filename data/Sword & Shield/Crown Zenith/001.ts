@@ -53,21 +53,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
 	},
 
-	thirdParty: {
-		cardmarket: 691718,
-		tcgplayer: 478033
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691718,
+				tcgplayer: 478033
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691718,
+				tcgplayer: 478033
+			}
+		},
+	],
 }
 
 export default card

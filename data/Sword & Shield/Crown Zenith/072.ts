@@ -44,21 +44,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It chooses a Pangoro as its master and then imitates its master's actions. This is how it learns to battle and hunt for prey.",
 	},
 
-	thirdParty: {
-		cardmarket: 691790,
-		tcgplayer: 478201
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691790,
+				tcgplayer: 478201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691790,
+				tcgplayer: 478201
+			}
+		},
+	],
 }
 
 export default card

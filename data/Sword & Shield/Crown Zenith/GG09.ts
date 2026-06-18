@@ -76,20 +76,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.",
 	},
 
-	thirdParty: {
-		cardmarket: 691888
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691888,
+				tcgplayer: 478026
+			}
+		},
+	],
 }
 
 export default card

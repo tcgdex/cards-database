@@ -72,21 +72,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 691813,
-		tcgplayer: 478232
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691813,
+				tcgplayer: 478232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691813,
+				tcgplayer: 478232
+			}
+		},
+	],
 }
 
 export default card

@@ -76,21 +76,22 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
 	},
 
-	thirdParty: {
-		cardmarket: 691737,
-		tcgplayer: 478098
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691737,
+				tcgplayer: 478098
+			}
+		},
+	],
 }
 
 export default card

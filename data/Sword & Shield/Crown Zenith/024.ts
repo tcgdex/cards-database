@@ -44,21 +44,29 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The people of ancient times believed that Larvesta fell from the sun.",
 	},
 
-	thirdParty: {
-		cardmarket: 691741,
-		tcgplayer: 478107
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691741,
+				tcgplayer: 478107
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691741,
+				tcgplayer: 478107
+			}
+		},
+	],
 }
 
 export default card

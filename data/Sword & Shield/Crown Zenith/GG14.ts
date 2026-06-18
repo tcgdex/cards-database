@@ -66,20 +66,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Comfey picks flowers with its vine and decorates itself with them. For some reason, flowers won't wither once they're attached to a Comfey.",
 	},
 
-	thirdParty: {
-		cardmarket: 691893
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691893,
+				tcgplayer: 478031
+			}
+		},
+	],
 }
 
 export default card

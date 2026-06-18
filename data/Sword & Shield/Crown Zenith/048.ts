@@ -76,21 +76,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 691765,
-		tcgplayer: 478157
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691765,
+				tcgplayer: 478157
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691765,
+				tcgplayer: 478157
+			}
+		},
+	],
 }
 
 export default card

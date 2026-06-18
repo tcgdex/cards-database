@@ -53,21 +53,29 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "As it flies, it scatters electricity around, so bird Pokémon keep their distance. That's why Emolga can keep all its food to itself.",
 	},
 
-	thirdParty: {
-		cardmarket: 691764,
-		tcgplayer: 478156
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691764,
+				tcgplayer: 478156
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691764,
+				tcgplayer: 478156
+			}
+		},
+	],
 }
 
 export default card

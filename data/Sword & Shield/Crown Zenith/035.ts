@@ -64,21 +64,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola's branches.",
 	},
 
-	thirdParty: {
-		cardmarket: 691752,
-		tcgplayer: 478134
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691752,
+				tcgplayer: 478134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691752,
+				tcgplayer: 478134
+			}
+		},
+	],
 }
 
 export default card

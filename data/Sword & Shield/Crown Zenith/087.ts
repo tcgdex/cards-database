@@ -72,21 +72,29 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 691805,
-		tcgplayer: 478224
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691805,
+				tcgplayer: 478224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691805,
+				tcgplayer: 478224
+			}
+		},
+	],
 }
 
 export default card

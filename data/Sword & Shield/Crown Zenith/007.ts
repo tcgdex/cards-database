@@ -44,21 +44,29 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
 	},
 
-	thirdParty: {
-		cardmarket: 691724,
-		tcgplayer: 478053
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691724,
+				tcgplayer: 478053
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691724,
+				tcgplayer: 478053
+			}
+		},
+	],
 }
 
 export default card
