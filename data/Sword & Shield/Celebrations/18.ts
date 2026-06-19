@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zamazenta V",
@@ -73,10 +67,16 @@ const card: Card = {
 	suffix: "V",
 	dexId: [889],
 
-	thirdParty: {
-		cardmarket: 576763,
-		tcgplayer: 250299
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['25th-celebration'],
+			thirdParty: {
+				cardmarket: 576763,
+				tcgplayer: 250299
+			}
+		},
+	],
 }
 
 export default card

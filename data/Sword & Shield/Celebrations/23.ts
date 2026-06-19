@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Professor's Research (Professor Oak)",
@@ -34,7 +28,18 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	illustrator: "KIYOTAKA OSHIYAMA",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['25th-celebration'],
+			thirdParty: {
+				cardmarket: 576768,
+				tcgplayer: 250318
+			}
+		},
+	],
 }
 
 export default card
