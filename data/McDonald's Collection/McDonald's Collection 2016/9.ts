@@ -13,6 +13,7 @@ const card: Card = {
 	},
 
 	hp: 40,
+	types: ["Fairy"],
 
 	stage: "Basic",
 
