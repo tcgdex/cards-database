@@ -1,0 +1,8 @@
+{
+  "id": "A2a-072",
+  "name": "Irida",
+  "category": "Pokemon",
+  "rarity": "U",
+  "retreat": 0,
+  "description": "Heal 40 damage from each of your Pokémon that has any <span class=\"energy-text energy-text--type-water\"></span> Energy attached."
+}
