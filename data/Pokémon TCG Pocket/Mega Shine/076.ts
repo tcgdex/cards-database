@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Houndoom"
 	},
-	rarity: "AR",
+	rarity: "One Star",
 	category: "Pokemon",
 	retreat: 0
 }

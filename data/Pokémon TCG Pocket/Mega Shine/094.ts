@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Probopass ex"
 	},
-	rarity: "SAR",
+	rarity: "Three Star",
 	category: "Pokemon",
 	retreat: 0
 }
