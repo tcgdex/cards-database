@@ -63,27 +63,30 @@ const card: Card = {
 		it: "Le sue gambe appena sviluppate non riescono a sostenerlo nella corsa; preferisce nuotare inceve di stare in piedi. LIV 13 N.60"
 	},
 
-	thirdParty: {
-		cardmarket: 273754,
-		tcgplayer: 42403
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273754,
+				tcgplayer: 42403
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660168
+			}
 		}
 	],
 }

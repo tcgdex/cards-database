@@ -86,20 +86,27 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
-		},
-		{
-			type: "holo",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "holo",
-			subtype: "shadowless",
-		},
-		{
-			type: "holo",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273696,
+				tcgplayer: 42346
+			}
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660227
+			}
 		}
 	],
 
@@ -109,10 +116,6 @@ const card: Card = {
 		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65"
 	},
 
-	thirdParty: {
-		cardmarket: 273696,
-		tcgplayer: 42346
-	}
 }
 
 export default card
