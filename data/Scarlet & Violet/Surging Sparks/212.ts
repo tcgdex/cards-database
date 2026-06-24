@@ -62,10 +62,6 @@ const card: Card = {
 	],
 
 	illustrator: "Mékayu",
-
-		thirdParty: {
-			cardmarket: 794585
-		}
 }
 
 export default card
