@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",
 		fr: "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit."
 	},
 

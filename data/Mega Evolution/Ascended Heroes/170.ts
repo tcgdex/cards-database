@@ -71,13 +71,50 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675982,
-		cardmarket: 869781
-	}
+	description: {
+		en: "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869781,
+			tcgplayer: 675982
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870399,
+			tcgplayer: 676984
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870400,
+			tcgplayer: 677124
+		}
+	},
+],
 }
 
 export default card

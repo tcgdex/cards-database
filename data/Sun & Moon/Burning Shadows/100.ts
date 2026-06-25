@@ -84,10 +84,23 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
+	},
+
 	thirdParty: {
 		cardmarket: 299501,
 		tcgplayer: 138596
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

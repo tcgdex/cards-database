@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Evoli GX"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
@@ -80,7 +80,7 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
 }
 
 export default card

@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733684,
+				tcgplayer: 516658,
+				cardtrader: 261196
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733684,
+				tcgplayer: 516658,
+				cardtrader: 261196
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 733684
-	}
+	
 }
 
 export default card

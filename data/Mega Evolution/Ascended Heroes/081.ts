@@ -47,13 +47,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675893,
-		cardmarket: 869692
-	}
+	description: {
+		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869692,
+			tcgplayer: 675893
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870261,
+			tcgplayer: 676915
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870262,
+			tcgplayer: 677055
+		}
+	},
+],
 }
 
 export default card

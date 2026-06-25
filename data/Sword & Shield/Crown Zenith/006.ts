@@ -44,20 +44,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree.",
 	},
 
-	thirdParty: {
-		cardmarket: 691723,
-		tcgplayer: 478052
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691723,
+				tcgplayer: 478052
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691723,
+				tcgplayer: 478052
+			}
+		},
+	],
 }
 
 export default card

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 315972,
 		tcgplayer: 157659

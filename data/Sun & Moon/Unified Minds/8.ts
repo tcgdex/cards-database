@@ -83,6 +83,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+	},
+
 	thirdParty: {
 		cardmarket: 387872,
 		tcgplayer: 194924

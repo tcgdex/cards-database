@@ -86,6 +86,10 @@ const card: Card = {
 		firstEdition: false
 	},
 
+	description: {
+		en: "Garchomp makes its home in volcanic mountains. It flies through the sky as fast as a jet airplane, hunting down as much prey as it can.",
+	},
+
 	thirdParty: {
 		cardmarket: 608655,
 		tcgplayer: 263829

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Pikachu-EX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -69,6 +69,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 
 

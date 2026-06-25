@@ -57,19 +57,31 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
 	},
 
-	thirdParty: {
-		cardmarket: 691912
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691912,
+				tcgplayer: 478062
+			}
+		},
+	],
 }
 
 export default card

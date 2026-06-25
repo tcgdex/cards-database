@@ -45,13 +45,28 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676033,
-		cardmarket: 869832
-	}
+	description: {
+		en: "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869832,
+				tcgplayer: 676033
+			}
+		}
+	],
 }
 
 export default card

@@ -64,10 +64,35 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675963,
-		cardmarket: 869762
-	}
+	description: {
+		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869762,
+			tcgplayer: 675963
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870371,
+			tcgplayer: 676970
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870372,
+			tcgplayer: 677110
+		}
+	},
+],
 }
 
 export default card

@@ -6,6 +6,14 @@ const card: Card = {
 	set: Set,
 	illustrator: "The Pokémon Company Art Team",
 	category: "Pokemon",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
 
 	description: {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
@@ -24,7 +32,7 @@ const card: Card = {
 		en: "Special Delivery Bidoof"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 70,
 	types: ["Colorless"],
 

@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
+	},
+
 	thirdParty: {
 		cardmarket: 388232,
 		tcgplayer: 195015

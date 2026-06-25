@@ -48,19 +48,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
 	},
 
-	thirdParty: {
-		cardmarket: 664535,
-		tcgplayer: 274433
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665235,
+				tcgplayer: 274433
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665235,
+				tcgplayer: 274433
+			}
+		},
+	],
 }
 
 export default card

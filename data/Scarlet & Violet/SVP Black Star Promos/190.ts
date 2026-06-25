@@ -13,7 +13,7 @@ const card: Card = {
 
 	illustrator: "Atsushi Furusawa",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [25],
@@ -42,7 +42,23 @@ const card: Card = {
 	],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 784938
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 780209,
+				tcgplayer: 562088
+			},
+		}
+	],
 }
 
 export default card

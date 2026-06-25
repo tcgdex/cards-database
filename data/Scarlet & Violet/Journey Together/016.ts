@@ -47,22 +47,32 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 817168
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817168,
+				tcgplayer: 623443
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817168,
+				tcgplayer: 623443
+			}
 		},
-	]
+	],
 }
 
 export default card

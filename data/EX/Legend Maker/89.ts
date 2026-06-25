@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Phogleur"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -79,6 +79,16 @@ const card: Card = {
 	],
 
 	
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 
 	thirdParty: {

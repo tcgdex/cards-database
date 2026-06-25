@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Raikou"
 	},
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -68,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity.",
+	},
 }
 
 export default card

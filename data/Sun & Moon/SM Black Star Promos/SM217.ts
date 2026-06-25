@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: undefined,
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -90,7 +90,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
 }
 
 export default card

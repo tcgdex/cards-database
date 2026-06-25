@@ -75,6 +75,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",
+	},
+
 	thirdParty: {
         cardmarket: 702424,
         tcgplayer: 488017

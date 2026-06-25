@@ -31,12 +31,21 @@ const card: Card = {
 			name: {
 				en: "Hover Lift",
 				fr: "Rebond aérien",
-				de: "Schwebelift"
+				de: "Schwebelift",
 			},
 			effect: {
 				en: "You pay Colorless less to retreat your Jigglypuff, Wigglytuff, Wigglytuff ex, and Igglybuff.",
 				fr: "Vous payez un  de moins pour faire battre Rondoudou, Groudoudou, Grodoudou ex et Toudoudou en retraite.",
-				de: "Der Rückzug deiner Pummeluff, Knuddeluff, Knuddeluff ex und Fluffeluff kostet dich  weniger."
+				de: "Der Rückzug deiner Pummeluff, Knuddeluff, Knuddeluff ex und Fluffeluff kostet dich  weniger.",
+			},
+		},
+		{
+			type: "Poke-POWER",
+			name: {
+				fr: "Évolution bébé",
+			},
+			effect: {
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Rondoudou de votre main sur Toudoudou (vous le faites ainsi évoluer) et retirer à Toudoudou tous ses marqueurs de dégât.",
 			},
 		},
 	],

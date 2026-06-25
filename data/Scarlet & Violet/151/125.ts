@@ -57,18 +57,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "With the coming of a storm, many of these Pokémon will gather under tall trees and sit there waiting for lightning to strike.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733720,
+				tcgplayer: 516688,
+				cardtrader: 261114
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733720,
+				tcgplayer: 516688,
+				cardtrader: 261114
+			}
+		},
+	],
 
 	illustrator: "NC Empire",
 
-	thirdParty: {
-		cardmarket: 733720
-	}
+	
 }
 
 export default card

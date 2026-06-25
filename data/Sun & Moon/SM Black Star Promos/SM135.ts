@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Latias"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -88,6 +88,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+	},
 }
 
 export default card

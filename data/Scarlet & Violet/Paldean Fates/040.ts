@@ -74,18 +74,53 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751577,
+				tcgplayer: 534186,
+				cardtrader: 274224
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['pokemon-day'],
+			thirdParty: {
+				cardmarket: 756335
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751577,
+				tcgplayer: 534186,
+				cardtrader: 274224
+			}
+		},
+	],
 
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 751577
-	}
+	description: {
+		en: "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+	},
+
 }
 
 export default card

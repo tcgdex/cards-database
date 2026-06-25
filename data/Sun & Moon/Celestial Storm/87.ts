@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+	},
+
 	thirdParty: {
 		cardmarket: 361331,
 		tcgplayer: 170909

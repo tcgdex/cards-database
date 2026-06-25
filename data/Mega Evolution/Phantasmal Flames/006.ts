@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It prefers waterfronts with plentiful food. It became nocturnal so it wouldn't have to compete for food with bird Pokémon.",
+	},
+
+	illustrator: "Shigenori Negishi",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857581,
+				tcgplayer: 662177,
+				cardtrader: 356790
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857581,
+				tcgplayer: 662177,
+				cardtrader: 356790
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857581,
-		tcgplayer: 662177
-	}
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "so-taro",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
@@ -92,7 +92,8 @@ const card: Card = {
 	regulationMark: "D",
 
 	thirdParty: {
-		cardmarket: 453313
+		cardmarket: 453313,
+		tcgplayer: 214240
 	}
 }
 

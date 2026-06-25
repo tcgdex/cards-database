@@ -65,19 +65,29 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 780974
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780974,
+				tcgplayer: 560390
+			}
+		},
+	],
 }
 
 export default card

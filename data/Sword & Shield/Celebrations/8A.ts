@@ -24,7 +24,8 @@ const card: Card = {
 		},
 
 		effect: {
-			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		},
 
 		damage: 30,

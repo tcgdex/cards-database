@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Ultra-Necrozma"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
+	},
 }
 
 export default card

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its dense black fur grows continuously. The high cost of keeping its hard fur properly groomed make this a troublesome Pokémon to train.",
+	},
+
 	thirdParty: {
 		cardmarket: 295416,
 		tcgplayer: 126976

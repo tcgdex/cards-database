@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I", 
 
+	description: {
+		en: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+	},
+
+	illustrator: "Yoriyuki Ikegami",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857577,
+				tcgplayer: 662164,
+				cardtrader: 356786
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857577,
+				tcgplayer: 662164,
+				cardtrader: 356786
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857577,
-		tcgplayer: 662164
-	}
 }
 
 export default card

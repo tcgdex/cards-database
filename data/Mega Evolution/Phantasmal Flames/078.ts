@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance.",
+	},
+
+	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857653,
+				tcgplayer: 662126,
+				cardtrader: 356864
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857653,
+				tcgplayer: 662126,
+				cardtrader: 356864
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857653,
-		tcgplayer: 662126
-	}
 }
 
 export default card

@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+	},
+
 	thirdParty: {
 		cardmarket: 315944,
 		tcgplayer: 157629

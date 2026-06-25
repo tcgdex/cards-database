@@ -74,10 +74,35 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675969,
-		cardmarket: 869768
-	}
+	description: {
+		en: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869768,
+			tcgplayer: 675969
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870381,
+			tcgplayer: 676975
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870382,
+			tcgplayer: 677115
+		}
+	},
+],
 }
 
 export default card

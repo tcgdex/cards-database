@@ -48,18 +48,40 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751585,
+				tcgplayer: 534198,
+				cardtrader: 274232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751585,
+				tcgplayer: 534198,
+				cardtrader: 274232
+			}
+		},
+	],
 
 	illustrator: "Atsuko Nishida",
 
-	thirdParty: {
-		cardmarket: 751585
-	}
+	description: {
+		en: "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
+	},
+
 }
 
 export default card

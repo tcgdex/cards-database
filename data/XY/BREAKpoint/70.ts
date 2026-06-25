@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape.",
+	},
+
 	thirdParty: {
 		cardmarket: 288245,
 		tcgplayer: 111613

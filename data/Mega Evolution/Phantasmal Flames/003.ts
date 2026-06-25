@@ -72,22 +72,38 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+	},
+
+	illustrator: "Shibuzoh.",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857578,
+				tcgplayer: 662238,
+				cardtrader: 356787
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857578,
+				tcgplayer: 662238,
+				cardtrader: 356787
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857578,
-		tcgplayer: 662238
-	}
 }
 
 export default card

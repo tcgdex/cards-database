@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Waaty"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
@@ -65,9 +65,27 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "0313"
+	illustrator: "0313",
+	description: {
+		en: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 703183,
+				tcgplayer: 496972
+			},
+		}
+	],
 }
 
 export default card

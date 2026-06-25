@@ -56,26 +56,39 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 817193
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817193,
+				tcgplayer: 623468
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817193,
+				tcgplayer: 623468
+			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos'
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 851017,
+			}
 		},
-	]
+	],
 }
 
 export default card

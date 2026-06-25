@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Miniras"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -78,6 +78,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
+	},
 }
 
 export default card

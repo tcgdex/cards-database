@@ -99,10 +99,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to take lost spirits into its pliant body and guide them home.",
+	},
+
 	thirdParty: {
 		cardmarket: 299457,
 		tcgplayer: 138535
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

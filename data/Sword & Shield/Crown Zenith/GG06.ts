@@ -57,19 +57,29 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 691885
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691885,
+				tcgplayer: 478023
+			}
+		},
+	],
 }
 
 export default card

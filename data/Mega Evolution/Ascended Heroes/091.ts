@@ -59,13 +59,50 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675903,
-		cardmarket: 869702
-	}
+	description: {
+		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869702,
+			tcgplayer: 675903
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870277,
+			tcgplayer: 676923
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870278,
+			tcgplayer: 677063
+		}
+	},
+],
 }
 
 export default card

@@ -42,6 +42,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -50,6 +56,10 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+
+	description: {
+		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+	},
 
 	thirdParty: {
         cardmarket: 702365,

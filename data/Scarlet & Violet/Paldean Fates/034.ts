@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751571,
+				tcgplayer: 534180,
+				cardtrader: 274218
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751571,
+				tcgplayer: 534180,
+				cardtrader: 274218
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
-	thirdParty: {
-		cardmarket: 751571
-	}
+	description: {
+		en: "Weaving together the cotton of both Cottonee and Eldegoss produces exquisite cloth that's highly prized by many luxury brands.",
+	},
+
 }
 
 export default card

@@ -66,18 +66,41 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "These Pokémon live in herds of about 20 individuals. Bouffalant that betray the herd will lose the hair on their heads for some reason.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725254,
+				tcgplayer: 509718,
+				cardtrader: 256070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725254,
+				tcgplayer: 509718,
+				cardtrader: 256070
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
-	thirdParty: {
-		cardmarket: 725254
-	}
+	
 }
 
 export default card

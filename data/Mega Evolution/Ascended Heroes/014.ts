@@ -45,13 +45,44 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675826,
-		cardmarket: 869625
-	}
+	description: {
+		en: "Its body, which is made of soft silk, hardens over time. When cracks appear, evolution is near.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869625,
+				tcgplayer: 675826
+			}
+		},
+		{
+			type: "reverse",
+			foil: "loveball",
+			thirdParty: {
+				cardmarket: 870157,
+				tcgplayer: 676863
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870158,
+				tcgplayer: 677003
+			}
+		},
+	],
 }
 
 export default card

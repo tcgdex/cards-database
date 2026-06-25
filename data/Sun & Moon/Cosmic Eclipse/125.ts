@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They use their saliva to stick leaves to their shoulders. You can tell what troop they belong to from the position of the leaves.",
+	},
+
 	thirdParty: {
 		cardmarket: 408274,
 		tcgplayer: 201165

@@ -38,22 +38,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+	},
+
+	illustrator: "Mousho",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857610,
+				tcgplayer: 662198,
+				cardtrader: 356818
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857610,
+				tcgplayer: 662198,
+				cardtrader: 356818
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857610,
-		tcgplayer: 662198
-	}
 }
 
 export default card

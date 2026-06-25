@@ -66,12 +66,43 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794373,
+				tcgplayer: 589983,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 841273,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 841274,
+			}
 		},
 		{
 			type: "holo",
@@ -79,24 +110,13 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "holo",
 			stamp: ["gym-challenge"]
 		},
-		{
-			type: "holo",
-			stamp: ["set-logo"],
-			size: "jumbo"
-		}
 	],
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 
-	thirdParty: {
-		cardmarket: 794373
-	}
 }
 
 export default card

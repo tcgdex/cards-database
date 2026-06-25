@@ -42,19 +42,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
 	},
 
-	thirdParty: {
-		cardmarket: 691826
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691901,
+				tcgplayer: 475445
+			}
+		},
+	],
 }
 
 export default card

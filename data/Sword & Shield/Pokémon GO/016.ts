@@ -67,19 +67,38 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
 	},
 
-	thirdParty: {
-		cardmarket: 664552,
-		tcgplayer: 274451
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665249,
+				tcgplayer: 274451
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665249,
+				tcgplayer: 274451
+			}
+		},
+	],
 }
 
 export default card

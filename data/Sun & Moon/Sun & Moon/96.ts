@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Incur the wrath of this normally calm Pokémon at your peril, because it will smash everything to smithereens before it's satisfied.",
+	},
+
 	thirdParty: {
 		cardmarket: 295407,
 		tcgplayer: 126968

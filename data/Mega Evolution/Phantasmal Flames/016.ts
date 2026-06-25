@@ -48,22 +48,38 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon's power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
+	},
+
+	illustrator: "Uta",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857591,
+				tcgplayer: 662146,
+				cardtrader: 356799
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857591,
+				tcgplayer: 662146,
+				cardtrader: 356799
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857591,
-		tcgplayer: 662146
-	}
 }
 
 export default card

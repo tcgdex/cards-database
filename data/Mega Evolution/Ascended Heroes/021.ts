@@ -37,13 +37,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675833,
-		cardmarket: 869632
-	}
+	description: {
+		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869632,
+			tcgplayer: 675833
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870171,
+			tcgplayer: 676870
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870172,
+			tcgplayer: 677010
+		}
+	},
+],
 }
 
 export default card

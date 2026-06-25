@@ -15,7 +15,9 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Falls das Pokémon, an das Finsternis-Energie angelegt ist, mit einem Angriff Schaden zufügt (bevor Schwäche und Resistenz verrechnet wurden), fügt der Angriff 10 weitere Schadenspunkte zu. Dieser Effekt wirkt nur, wenn die Finsternis-Energie an einem Pokémon vom Typ  oder einem Pokémon, das \"Dunkel\" im Namen hat, angelegt ist. Finsternis-Energie spendet -Energie. (Zählt nicht als Basis-Energiekarte.)"
+		en: "If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance). Ignore this effect unless the Attacking Pokémon is Darkness or has Dark in its name. Darkness Energy provides Darkness Energy. (Doesn't count as a basic Energy card.)",
+		de: "Falls das Pokémon, an das Finsternis-Energie angelegt ist, mit einem Angriff Schaden zufügt (bevor Schwäche und Resistenz verrechnet wurden), fügt der Angriff 10 weitere Schadenspunkte zu. Dieser Effekt wirkt nur, wenn die Finsternis-Energie an einem Pokémon vom Typ  oder einem Pokémon, das \"Dunkel\" im Namen hat, angelegt ist. Finsternis-Energie spendet -Energie. (Zählt nicht als Basis-Energiekarte.)",
+		fr: "Si le Pokémon Énergie Obscurité est attaché à des attaques, l'attaque inflige 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance). Ignorez cet effet sauf si le Pokémon Attaquant est de type Obscurité ou si son nom comporte Obscur. Énergie Obscurité fournit de l'Énergie Obscurité. (Elle ne compte pas comme carte Énergie de base).",
 	},
 
 	thirdParty: {

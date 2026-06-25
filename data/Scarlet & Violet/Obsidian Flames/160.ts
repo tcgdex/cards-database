@@ -68,15 +68,32 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725240,
+				tcgplayer: 509663,
+				cardtrader: 255845
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725240,
+				tcgplayer: 509663,
+				cardtrader: 255845
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
-	thirdParty: {
-		cardmarket: 725240
-	}
+	
 }
 
 export default card

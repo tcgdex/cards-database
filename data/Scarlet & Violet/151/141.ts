@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "The cause behind the extinction of this species is unknown. Kabutops were aggressive Pokémon that inhabited warm seas.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733736,
+				tcgplayer: 516704,
+				cardtrader: 261234
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733736,
+				tcgplayer: 516704,
+				cardtrader: 261234
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 733736
-	}
+	
 }
 
 export default card

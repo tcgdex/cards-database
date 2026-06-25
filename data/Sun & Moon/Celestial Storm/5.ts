@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Some fishermen weave its sturdy thread into nets to catch fish Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 361252,
 		tcgplayer: 170811

@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
 		fr: "La carapace qu'il porte sur le dos n'est qu'une excroissance de peau, refroidie et durcie. Elle se brise au moindre contact."
 	},
 

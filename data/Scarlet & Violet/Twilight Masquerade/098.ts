@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769272,
+				tcgplayer: 550142
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769272,
+				tcgplayer: 550142
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 769272
-	}
 }
 
 export default card

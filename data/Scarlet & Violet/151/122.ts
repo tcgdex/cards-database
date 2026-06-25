@@ -64,18 +64,47 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It's known for its top-notch pantomime skills. It protects itself from all sorts of attacks by emitting auras from its fingers to create walls.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733717,
+				tcgplayer: 516685,
+				cardtrader: 261241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733717,
+				tcgplayer: 516685,
+				cardtrader: 261241
+			}
+		},
+	],
 
 	illustrator: "OOYAMA",
 
-	thirdParty: {
-		cardmarket: 733717
-	}
+	
 }
 
 export default card

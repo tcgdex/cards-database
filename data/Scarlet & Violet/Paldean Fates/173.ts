@@ -57,19 +57,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751712,
+				tcgplayer: 534749,
+				cardtrader: 274358
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 751712
-	}
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+	},
+
 }
 
 export default card

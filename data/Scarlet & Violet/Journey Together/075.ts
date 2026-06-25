@@ -70,23 +70,33 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
-
-	thirdParty: {
-		cardmarket: 817227
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817227,
+				tcgplayer: 623502
+			}
 		},
 		{
-			type: 'holo',
-			size: 'jumbo'
-		}
-	]
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 855659,
+			}
+		},
+	],
 }
 
 export default card

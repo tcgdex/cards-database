@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With its ability to distinguish any aroma, it unfailingly finds all food buried deep underground.",
+	},
+
 	thirdParty: {
 		cardmarket: 408484,
 		tcgplayer: 201294

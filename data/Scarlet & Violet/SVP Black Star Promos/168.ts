@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Vaporeon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
@@ -78,7 +78,17 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Taira Akitsu"
+	illustrator: "Taira Akitsu",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805365,
+				tcgplayer: 611827
+			},
+		}
+	],
 }
 
 export default card

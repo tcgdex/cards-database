@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715509,
+				tcgplayer: 497446,
+				cardtrader: 248620
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715509,
+				tcgplayer: 497446,
+				cardtrader: 248620
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 715507
-	}
+	description: {
+		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+	},
 }
 
 export default card

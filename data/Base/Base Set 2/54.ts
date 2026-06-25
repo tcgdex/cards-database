@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+	},
 
 	thirdParty: {
 		cardmarket: 273977,

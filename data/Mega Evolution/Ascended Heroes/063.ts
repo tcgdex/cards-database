@@ -37,13 +37,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675875,
-		cardmarket: 869674
-	}
+	description: {
+		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869674,
+			tcgplayer: 675875
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870235,
+			tcgplayer: 676902
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870236,
+			tcgplayer: 677042
+		}
+	},
+],
 }
 
 export default card

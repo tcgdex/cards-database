@@ -65,19 +65,41 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "They live in sunken ships or in holes in the seabed. When Golisopod and Grapploct battle, the loser becomes the winner's meal.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740532,
+				tcgplayer: 523659,
+				cardtrader: 265117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740532,
+				tcgplayer: 523659,
+				cardtrader: 265117
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 740532
-	}
+	
 }
 
 export default card

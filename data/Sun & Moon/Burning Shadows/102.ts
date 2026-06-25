@@ -83,10 +83,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a violent temperament. It will attack anything that looks it in the eye. Its sharp claws inflict deep wounds.",
+	},
+
 	thirdParty: {
 		cardmarket: 299503,
 		tcgplayer: 138598
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

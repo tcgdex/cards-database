@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 302139,
 		tcgplayer: 146653

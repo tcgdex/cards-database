@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Tadbulb",
+		fr: "Têtampoule",
+		en: "Tadbulb",
+		es: "Tadbulb",
+		it: "Tadbulb",
+		pt: "Tadbulb",
+		de: "Blipp"
   },
   illustrator: "Saya Tsuruta",
   rarity: "One Diamond",
@@ -19,7 +24,12 @@ const card: Card = {
   attacks: [
     {
       name: {
+        fr: "Boule Élek",
         en: "Electro Ball",
+        es: "Bola Voltio",
+        it: "Energisfera",
+        pt: "Bola Elétrica",
+        de: "Elektroball"
       },
       damage: 20,
       cost: ["Lightning"],

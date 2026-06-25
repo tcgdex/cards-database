@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A Pokémon with a hot temper that can't be controlled once it's angered. Capable of breathing flames hotter than 3000°.",
 		fr: "Ce Pokémon a le sang chaud et devient incontrôlable lorsqu'il s'emporte. Il peut cracher des flammes de plus de 3000°."
 	},
 

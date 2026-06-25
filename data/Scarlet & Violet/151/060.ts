@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In rivers with fast-flowing water, this Pokémon will cling to a rock by using its thick lips, which act like a suction cup.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733655,
+				tcgplayer: 516249,
+				cardtrader: 261141
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733655,
+				tcgplayer: 516249,
+				cardtrader: 261141
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 733655
-	}
+	
 }
 
 export default card

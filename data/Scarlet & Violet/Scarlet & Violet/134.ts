@@ -63,12 +63,22 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 	illustrator: "Anesaki Dynamic",
 
 	variants: {
 		normal: false
+	},
+
+	description: {
+		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
 	},
 
 	thirdParty: {

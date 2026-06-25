@@ -35,6 +35,12 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
@@ -43,6 +49,10 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
+
+	description: {
+		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
+	},
 
 	thirdParty: {
         cardmarket: 702367,

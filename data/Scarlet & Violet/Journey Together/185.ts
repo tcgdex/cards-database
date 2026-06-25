@@ -78,19 +78,26 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "Megumi Mizutani",
-
-	thirdParty: {
-		cardmarket: 817338
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817338,
+				tcgplayer: 623612
+			}
 		},
-	]
+	],
 }
 
 export default card

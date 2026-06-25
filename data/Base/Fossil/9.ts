@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
 		fr: "Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie."
 	},
 

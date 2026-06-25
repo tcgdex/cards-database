@@ -48,18 +48,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769188,
+				tcgplayer: 550058
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769188,
+				tcgplayer: 550058
+			}
+		},
+	],
 
 	illustrator: "Tomomi Ozaki",
 
-	thirdParty: {
-		cardmarket: 769188
-	}
 }
 
 export default card

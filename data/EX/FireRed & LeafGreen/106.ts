@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Mélofée"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

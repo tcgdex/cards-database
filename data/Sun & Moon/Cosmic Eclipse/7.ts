@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves.",
+	},
+
 	thirdParty: {
 		cardmarket: 407689,
 		tcgplayer: 201153

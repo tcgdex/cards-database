@@ -67,20 +67,38 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
 	},
 
-	thirdParty: {
-		cardmarket: 691749,
-		tcgplayer: 478131
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691749,
+				tcgplayer: 478131
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691749,
+				tcgplayer: 478131
+			}
+		},
+	],
 }
 
 export default card

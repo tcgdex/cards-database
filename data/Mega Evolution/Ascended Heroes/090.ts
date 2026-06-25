@@ -37,13 +37,50 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675902,
-		cardmarket: 869701
-	}
+	description: {
+		en: "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869701,
+			tcgplayer: 675902
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870275,
+			tcgplayer: 676922
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870276,
+			tcgplayer: 677062
+		}
+	},
+],
 }
 
 export default card

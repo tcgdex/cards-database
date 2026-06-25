@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zorua"
 	},
 	illustrator: "kodama",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -77,6 +77,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+	},
 }
 
 export default card

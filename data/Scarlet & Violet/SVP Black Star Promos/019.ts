@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Espinodon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Water"],
@@ -65,9 +65,36 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Oswaldo KATO"
+	illustrator: "Oswaldo KATO",
+	description: {
+		en: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 715467,
+				tcgplayer: 501885
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761123,
+				tcgplayer: 515202
+			},
+		}
+	],
 }
 
 export default card

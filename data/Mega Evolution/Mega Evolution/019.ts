@@ -52,22 +52,31 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851090,
+				tcgplayer: 654358
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851090,
+				tcgplayer: 654358
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654358,
-		cardmarket: 851090
-	}
 }
 
 export default card

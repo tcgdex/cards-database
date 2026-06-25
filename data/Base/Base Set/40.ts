@@ -25,7 +25,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		en: "Poochyena",
 		fr: "Rattata",
 		it: "Rattata"
 	},
@@ -83,8 +83,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
 		fr: "Si ses moustaches sont coupées, il perd le sens de l'équilibre et devient moins rapide.",
 		it: "Usa i suoi baffi per mantenere l'equilibrio. Sembra che rallenti se i baffi gli vengono tagliati. LIV 41 N.20"
 	},

@@ -67,19 +67,38 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs.",
 	},
 
-	thirdParty: {
-		cardmarket: 664565,
-		tcgplayer: 274459
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665258,
+				tcgplayer: 274459
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665258,
+				tcgplayer: 274459
+			}
+		},
+	],
 }
 
 export default card

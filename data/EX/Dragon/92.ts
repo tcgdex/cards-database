@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Hypocéan"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

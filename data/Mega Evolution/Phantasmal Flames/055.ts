@@ -38,22 +38,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+	},
+
+	illustrator: "Rianti Hidayat",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857630,
+				tcgplayer: 660408,
+				cardtrader: 356838
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857630,
+				tcgplayer: 660408,
+				cardtrader: 356838
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857630,
-		tcgplayer: 660408
-	}
 }
 
 export default card

@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's said that gas emanating from a graveyard was possessed by the grievances of the deceased and thus became a Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 372355,
 		tcgplayer: 189167

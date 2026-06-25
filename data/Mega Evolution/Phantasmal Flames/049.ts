@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest.",
+	},
+
+	illustrator: "Kazumasa Yasukuni",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857624,
+				tcgplayer: 662162,
+				cardtrader: 356832
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857624,
-		tcgplayer: 662162
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857624,
+				tcgplayer: 662162,
+				cardtrader: 356832
+			}
+		},
+	],	
 }
 
 export default card

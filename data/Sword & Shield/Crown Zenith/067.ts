@@ -66,20 +66,38 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
 	},
 
-	thirdParty: {
-		cardmarket: 691785,
-		tcgplayer: 478189
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691785,
+				tcgplayer: 478189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691785,
+				tcgplayer: 478189
+			}
+		},
+	],
 }
 
 export default card

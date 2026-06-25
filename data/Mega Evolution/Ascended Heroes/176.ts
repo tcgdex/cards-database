@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675988,
-		cardmarket: 869787
-	}
+	description: {
+		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869787,
+			tcgplayer: 675988
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870409,
+			tcgplayer: 676989
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870410,
+			tcgplayer: 677129
+		}
+	},
+],
 }
 
 export default card

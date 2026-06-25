@@ -60,22 +60,44 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+	},
+
+	illustrator: "Anesaki Dynamic",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857633,
+				tcgplayer: 662169,
+				cardtrader: 356841
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857633,
-		tcgplayer: 662169
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857633,
+				tcgplayer: 662169,
+				cardtrader: 356841
+			}
+		},
+	],	
 }
 
 export default card

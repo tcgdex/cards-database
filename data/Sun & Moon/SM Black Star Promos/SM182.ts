@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Snobilikat"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
@@ -60,7 +60,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it's mostly made of the same material.",
+	},
 }
 
 export default card

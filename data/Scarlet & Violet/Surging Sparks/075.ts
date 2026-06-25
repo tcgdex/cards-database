@@ -40,23 +40,40 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794369,
+				tcgplayer: 590059
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794369,
+				tcgplayer: 590059
+			}
+		},
 	],
 
 	illustrator: "Saya Tsuruta",
-
-	thirdParty: {
-		cardmarket: 794369
-	}
+	
 }
 
 export default card

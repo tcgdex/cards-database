@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760633,
+				tcgplayer: 542648
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760633,
+				tcgplayer: 542648
+			}
+		},
 	],
 
 	illustrator: "Asako Ito",
 
-	thirdParty: {
-		cardmarket: 760633
-	}
 }
 
 export default card

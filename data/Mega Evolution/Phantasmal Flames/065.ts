@@ -52,22 +52,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+	},
+
+	illustrator: "Uninori",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857640,
+				tcgplayer: 662173,
+				cardtrader: 356849
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857640,
+				tcgplayer: 662173,
+				cardtrader: 356849
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857640,
-		tcgplayer: 662173
-	}
 }
 
 export default card

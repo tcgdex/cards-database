@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740635,
+				tcgplayer: 523788,
+				cardtrader: 265226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740635,
+				tcgplayer: 523788,
+				cardtrader: 265226
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 740635
-	}
+	
 }
 
 export default card

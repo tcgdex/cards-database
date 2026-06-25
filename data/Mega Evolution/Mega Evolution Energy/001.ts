@@ -15,6 +15,20 @@ const card: Card = {
     category: "Energy",
     set: Set,
     energyType: "Normal",
+    variants: [
+        {
+            type: "normal",
+            thirdParty: {
+                tcgplayer: 656263
+            }
+        },
+        {
+            type: "reverse",
+            thirdParty: {
+                tcgplayer: 656263
+            }
+        }
+    ],
 
 }
 

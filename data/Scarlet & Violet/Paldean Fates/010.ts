@@ -65,18 +65,40 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751536,
+				tcgplayer: 534150,
+				cardtrader: 274194
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751536,
+				tcgplayer: 534150,
+				cardtrader: 274194
+			}
+		},
+	],
 
 	illustrator: "Hasuno",
 
-	thirdParty: {
-		cardmarket: 751536
-	}
+	description: {
+		en: "Living in the crater of a volcano has caused this Pokémon's body to resemble its environment— it has an organ similar to a magma chamber.",
+	},
+
 }
 
 export default card

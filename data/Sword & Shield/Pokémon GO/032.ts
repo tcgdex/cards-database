@@ -55,19 +55,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.",
 	},
 
-	thirdParty: {
-		cardmarket: 664572,
-		tcgplayer: 276966
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665662,
+				tcgplayer: 276966
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665662,
+				tcgplayer: 276966
+			}
+		},
+	],
 }
 
 export default card

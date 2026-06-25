@@ -28,17 +28,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691854,
-		tcgplayer: 478188
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691854,
+				tcgplayer: 478188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691854,
+				tcgplayer: 478188
+			}
+		},
+	],
 }
 
 export default card

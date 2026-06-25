@@ -60,22 +60,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+	},
+
+	illustrator: "Shimaris Yukichi",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857607,
+				tcgplayer: 662210,
+				cardtrader: 356815
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857607,
+				tcgplayer: 662210,
+				cardtrader: 356815
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857607,
-		tcgplayer: 662210
-	}
 }
 
 export default card

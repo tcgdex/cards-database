@@ -57,18 +57,45 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715555,
+				tcgplayer: 497491,
+				cardtrader: 248707
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715555,
+				tcgplayer: 497491,
+				cardtrader: 248707
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 715555
-	}
+	description: {
+		en: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
+	},
 }
 
 export default card

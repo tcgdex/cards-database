@@ -85,10 +85,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "For the purposes of planetary development, Porygon was updated with the most cutting-edge technology available.",
+	},
+
 	thirdParty: {
 		cardmarket: 299505,
 		tcgplayer: 138600
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

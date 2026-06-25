@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725104,
+				tcgplayer: 510900,
+				cardtrader: 255584
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725104,
+				tcgplayer: 510900,
+				cardtrader: 255584
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
-	thirdParty: {
-		cardmarket: 725104
-	}
+	
 }
 
 export default card

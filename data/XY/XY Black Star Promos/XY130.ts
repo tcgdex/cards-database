@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Satoshi Shirai",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -80,6 +80,10 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+	},
 
 	thirdParty: {
 		cardmarket: 554153

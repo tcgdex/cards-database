@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "AI has been installed in it. It learns various things all on its own, but it even remembers things it doesn't need to know.",
+	},
+
 	thirdParty: {
 		cardmarket: 372444,
 		tcgplayer: 189258

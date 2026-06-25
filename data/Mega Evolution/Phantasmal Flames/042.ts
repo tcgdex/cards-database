@@ -60,22 +60,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+	},
+
+	illustrator: "miki kudo",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857617,
+				tcgplayer: 662197,
+				cardtrader: 356825
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857617,
+				tcgplayer: 662197,
+				cardtrader: 356825
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857617,
-		tcgplayer: 662197
-	}
 }
 
 export default card

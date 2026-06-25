@@ -67,20 +67,38 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon is quick to anger, and it has no problem using its prodigious strength to get its way. It lives for duels against Obstagoon.",
 	},
 
-	thirdParty: {
-		cardmarket: 691798,
-		tcgplayer: 478219
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691798,
+				tcgplayer: 478219
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691798,
+				tcgplayer: 478219
+			}
+		},
+	],
 }
 
 export default card

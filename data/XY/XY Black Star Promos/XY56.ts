@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -73,6 +73,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+	},
 
 	thirdParty: {
 		cardmarket: 289781

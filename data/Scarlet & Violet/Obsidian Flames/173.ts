@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures' feelings and physical conditions.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725253,
+				tcgplayer: 509714,
+				cardtrader: 256069
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725253,
+				tcgplayer: 509714,
+				cardtrader: 256069
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 725253
-	}
+	
 }
 
 export default card

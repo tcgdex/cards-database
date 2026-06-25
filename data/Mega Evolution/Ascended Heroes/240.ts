@@ -59,13 +59,28 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676052,
-		cardmarket: 869851
-	}
+	description: {
+		en: "It spins on its horn while dealing out elegant kicks. Its horn grows continuously through its lifetime.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869851,
+				tcgplayer: 676052
+			}
+		}
+	],
 }
 
 export default card

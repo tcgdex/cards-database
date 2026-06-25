@@ -54,8 +54,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It spins a web using fine – but durable – thread. It then waits patiently for prey to be trapped.",
 		fr: "Il tisse une toile en utilisant un fil fin mais solide, puis il attend tranquillement sa proie."
 	},
 

@@ -76,20 +76,44 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Bulky pincers account for one third of Scizor's body weight. A single swing of one of these pincers will crush a boulder completely.",
 	},
 
-	thirdParty: {
-		cardmarket: 691804,
-		tcgplayer: 478223
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691804,
+				tcgplayer: 478223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691804,
+				tcgplayer: 478223
+			}
+		},
+	],
 }
 
 export default card

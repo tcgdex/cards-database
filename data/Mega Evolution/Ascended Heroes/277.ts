@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Pikachu ex"
 	},
 
+	suffix: "ex",
 	illustrator: "James Turner",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -71,13 +72,24 @@ const card: Card = {
 		damage: 300
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676089,
-		cardmarket: 869887
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869887,
+				tcgplayer: 676089
+			}
+		}
+	],
 }
 
 export default card

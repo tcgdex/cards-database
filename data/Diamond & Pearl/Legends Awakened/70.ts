@@ -75,6 +75,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
 		fr: "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle."
 	},
 

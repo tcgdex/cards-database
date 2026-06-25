@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675872,
-		cardmarket: 869671
-	}
+	description: {
+		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869671,
+			tcgplayer: 675872
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870231,
+			tcgplayer: 676900
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870232,
+			tcgplayer: 677040
+		}
+	},
+],
 }
 
 export default card

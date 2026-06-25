@@ -64,20 +64,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
 	},
 
-	thirdParty: {
-		cardmarket: 691729,
-		tcgplayer: 478064
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691729,
+				tcgplayer: 478064
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691729,
+				tcgplayer: 478064
+			}
+		},
+	],
 }
 
 export default card

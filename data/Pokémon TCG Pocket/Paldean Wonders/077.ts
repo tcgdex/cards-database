@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Orthworm",
+		fr: "Ferdeter",
+		en: "Orthworm",
+		es: "Orthworm",
+		it: "Orthworm",
+		pt: "Orthworm",
+		de: "Schlurm"
   },
   illustrator: "Pani Kobayashi",
   rarity: "Two Diamond",

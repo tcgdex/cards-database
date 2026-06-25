@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Forschung des Professors"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -27,7 +27,23 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
-	illustrator: "Taira Akitsu"
+	illustrator: "Taira Akitsu",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855676,
+				tcgplayer: 664828
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 878017
+			}
+		}
+	],
 }
 
 export default card

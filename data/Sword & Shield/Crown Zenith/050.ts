@@ -67,20 +67,38 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
 	},
 
-	thirdParty: {
-		cardmarket: 691767,
-		tcgplayer: 478160
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691767,
+				tcgplayer: 478160
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691767,
+				tcgplayer: 478160
+			}
+		},
+	],
 }
 
 export default card

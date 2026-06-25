@@ -37,21 +37,31 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825878,
+				tcgplayer: 632832
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825878,
+				tcgplayer: 632832
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825878,
-	},
 
 	illustrator: "YASHIRO Nanaco"
 }

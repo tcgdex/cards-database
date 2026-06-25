@@ -59,19 +59,25 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 	illustrator: "Nakamura Ippan",
 
-	thirdParty: {
-		cardmarket: 817317
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817317,
+				tcgplayer: 623592
+			}
 		},
-	]
+	],
 }
 
 export default card

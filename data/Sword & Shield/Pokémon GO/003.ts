@@ -67,19 +67,38 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 	},
 
-	thirdParty: {
-		cardmarket: 664537,
-		tcgplayer: 274435
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665237,
+				tcgplayer: 274435
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665237,
+				tcgplayer: 274435
+			}
+		},
+	],
 }
 
 export default card

@@ -63,6 +63,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "The tentacles are normally kept short. On hunts, the are extended to ensnare and immobilize prey.",
+	},
+
 	thirdParty: {
 		cardmarket: 274831,
 		tcgplayer: 89874

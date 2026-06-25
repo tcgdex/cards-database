@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+	},
+
 	thirdParty: {
 		cardmarket: 279989,
 		tcgplayer: 83731

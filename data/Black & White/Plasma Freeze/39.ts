@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+	},
+
 	thirdParty: {
 		cardmarket: 280917,
 		tcgplayer: 90736

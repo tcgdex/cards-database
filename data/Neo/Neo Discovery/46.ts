@@ -59,8 +59,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
 		fr: "Il se fraie un chemin dans les herbes avec ses cisailles, trop rapidement pour qu'un être humain puisse le suivre."
 	},
 

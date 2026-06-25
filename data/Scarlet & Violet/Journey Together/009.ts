@@ -47,22 +47,32 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 817161
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817161,
+				tcgplayer: 623436
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817161,
+				tcgplayer: 623436
+			}
 		},
-	]
+	],
 }
 
 export default card

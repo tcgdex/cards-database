@@ -47,8 +47,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its soft wool coat captures air, allowing it to remain cool during the summer and warm in the winter.",
 		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
 	},
 

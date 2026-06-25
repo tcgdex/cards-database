@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Dsuke",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
@@ -46,7 +46,17 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 817776,
+				tcgplayer: 627706
+			},
+		}
+	],
 }
 
 export default card

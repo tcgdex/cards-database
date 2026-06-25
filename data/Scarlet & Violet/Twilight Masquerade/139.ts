@@ -55,18 +55,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769313,
+				tcgplayer: 550183
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769313,
+				tcgplayer: 550183
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 769313
-	}
 }
 
 export default card

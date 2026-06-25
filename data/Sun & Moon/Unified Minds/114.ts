@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It flies at the speed of sound while searching for prey, and it has midair battles with Salamence as the two compete for food.",
+	},
+
 	thirdParty: {
 		cardmarket: 377496,
 		tcgplayer: 195068

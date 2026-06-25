@@ -62,22 +62,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "There are structures throughout its whole body that produce energy when hit by sound waves with a cheerful rhythm.",
+	},
+
+	illustrator: "Anesaki Dynamic",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857582,
+				tcgplayer: 662179,
+				cardtrader: 356791
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857582,
+				tcgplayer: 662179,
+				cardtrader: 356791
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857582,
-		tcgplayer: 662179
-	}
 }
 
 export default card

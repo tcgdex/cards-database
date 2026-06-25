@@ -67,6 +67,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+	},
 
 	thirdParty: {
 		cardmarket: 273939,

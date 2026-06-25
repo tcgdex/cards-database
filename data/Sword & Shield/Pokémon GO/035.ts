@@ -74,19 +74,38 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
 	},
 
-	thirdParty: {
-		cardmarket: 664575,
-		tcgplayer: 276976
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665665,
+				tcgplayer: 276976
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665665,
+				tcgplayer: 276976
+			}
+		},
+	],
 }
 
 export default card

@@ -13,7 +13,17 @@ const card: Card = {
 		it: "Mega Scrafty-ex",
 		pt: "Mega Scrafty ex"
 	},
+	evolveFrom: {
+		en: "Scraggy",
+		de: "Zurrokex",
+		es: "Scraggy",
+		'es-mx': "Scraggy",
+		fr: "Baggiguane",
+		it: "Scraggy",
+		pt: "Scraggy",
+	},
 
+	suffix: "ex",
 	illustrator: "Taiga Kasai",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -71,13 +81,24 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676082,
-		cardmarket: 869881
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869881,
+				tcgplayer: 676082
+			}
+		}
+	],
 }
 
 export default card

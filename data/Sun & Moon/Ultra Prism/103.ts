@@ -89,6 +89,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+	},
+
 	thirdParty: {
 		cardmarket: 316029,
 		tcgplayer: 157720

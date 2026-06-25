@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715540,
+				tcgplayer: 497476,
+				cardtrader: 248660
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715540,
+				tcgplayer: 497476,
+				cardtrader: 248660
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 715540
-	}
+	description: {
+		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+	},
 }
 
 export default card

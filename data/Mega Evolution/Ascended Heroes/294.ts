@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mega Charizard Y ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
@@ -45,13 +46,24 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676106,
-		cardmarket: 869905
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869905,
+				tcgplayer: 676106
+			}
+		}
+	],
 }
 
 export default card

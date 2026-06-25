@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Xatu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Psychic"],
@@ -65,9 +65,42 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "GOSSAN"
+	illustrator: "GOSSAN",
+	description: {
+		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 739448,
+				tcgplayer: 526590
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761133,
+				tcgplayer: 548554
+			},
+		}
+	],
 }
 
 export default card

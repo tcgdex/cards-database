@@ -89,6 +89,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+	},
 }
 
 export default card

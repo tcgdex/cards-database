@@ -59,13 +59,34 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676058,
-		cardmarket: 869857
-	}
+	description: {
+		en: "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869857,
+				tcgplayer: 676058
+			}
+		}
+	],
 }
 
 export default card

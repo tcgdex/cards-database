@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Baojian-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Water"],
@@ -66,9 +66,25 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "aky CG Works"
+	suffix: "ex",
+	illustrator: "aky CG Works",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 709539,
+				tcgplayer: 505534
+			},
+		}
+	],
 }
 
 export default card

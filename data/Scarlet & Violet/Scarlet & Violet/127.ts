@@ -85,6 +85,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+	},
+
 	thirdParty: {
         cardmarket: 702422,
         tcgplayer: 488015

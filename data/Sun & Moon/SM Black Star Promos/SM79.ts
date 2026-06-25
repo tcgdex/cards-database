@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schimmerndes Celebi"
 	},
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -76,6 +76,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+	},
 }
 
 export default card

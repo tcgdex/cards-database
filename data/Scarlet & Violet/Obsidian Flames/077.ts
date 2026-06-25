@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725157,
+				tcgplayer: 509858,
+				cardtrader: 255637
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725157,
+				tcgplayer: 509858,
+				cardtrader: 255637
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 725157
-	}
+	
 }
 
 export default card

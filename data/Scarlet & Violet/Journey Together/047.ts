@@ -47,27 +47,37 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Kazumasa Yasukuni",
 
-	thirdParty: {
-		cardmarket: 817199
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817199,
+				tcgplayer: 623474
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817199,
+				tcgplayer: 623474
+			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos',
-			stamp: ['player-rewards-program']
-		}
-	]
+				type: 'holo',
+				foil: 'cosmos',
+				stamp: ['player-rewards-program']
+			}
+	],
 }
 
 export default card

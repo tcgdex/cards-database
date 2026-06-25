@@ -29,9 +29,30 @@ const card: Card = {
 	regulationMark: "G",
 	illustrator: "Megumi Mizutani",
 
-	thirdParty: {
-		cardmarket: 805514
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805514,
+				tcgplayer: 610475
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805514,
+				tcgplayer: 610475
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806590,
+				tcgplayer: 610628
+			}
+		},
+	],
 }
 
 export default card

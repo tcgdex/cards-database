@@ -52,18 +52,39 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715597,
+				tcgplayer: 497537,
+				cardtrader: 248769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715597,
+				tcgplayer: 497537,
+				cardtrader: 248769
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 715597
-	}
+	description: {
+		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+	},
 }
 
 export default card

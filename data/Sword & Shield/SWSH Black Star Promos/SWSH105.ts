@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Gardevoir V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 210,
 	types: ["Psychic"],
 

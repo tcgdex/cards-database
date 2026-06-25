@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Rondoudou"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

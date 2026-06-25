@@ -86,6 +86,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This amiable Pokémon is easy to train. But when battle is joined, it shows its ferocious side.",
+	},
+
 	thirdParty: {
 		cardmarket: 297561,
 		tcgplayer: 131027

@@ -66,18 +66,38 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769237,
+				tcgplayer: 550107
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769237,
+				tcgplayer: 550107
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 769237
-	}
 }
 
 export default card

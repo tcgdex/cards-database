@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Generates strange radio signals. It raises the temperature by 3.6 degrees Fahrenheit within 3,300 feet.",
+	},
+
 	thirdParty: {
 		cardmarket: 286299,
 		tcgplayer: 107172

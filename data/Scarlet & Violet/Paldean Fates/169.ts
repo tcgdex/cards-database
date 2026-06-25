@@ -44,19 +44,32 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751708,
+				tcgplayer: 534728,
+				cardtrader: 274354
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 751708
-	}
+	description: {
+		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+	},
+
 }
 
 export default card

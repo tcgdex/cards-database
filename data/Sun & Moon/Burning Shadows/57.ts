@@ -87,10 +87,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 299461,
 		tcgplayer: 138539
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -114,7 +114,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
 }
 
 export default card

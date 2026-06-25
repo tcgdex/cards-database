@@ -69,8 +69,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is said to be the world's weakest Pokémon. No one knows why it has managed to survive.",
 		fr: "Ce Pokémon est réputé pour être le plus faible au monde. Nul ne sait comment son espèce perdure."
 	},
 

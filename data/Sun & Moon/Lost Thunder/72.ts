@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
+	},
+
 	thirdParty: {
 		cardmarket: 365710,
 		tcgplayer: 178881

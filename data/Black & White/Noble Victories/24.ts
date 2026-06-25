@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
+	},
+
 	thirdParty: {
 		cardmarket: 280147,
 		tcgplayer: 89057

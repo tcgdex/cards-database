@@ -70,22 +70,32 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Jiro Sasumo",
 
-	thirdParty: {
-		cardmarket: 817159
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817159,
+				tcgplayer: 623434
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817159,
+				tcgplayer: 623434
+			}
 		},
-	]
+	],
 }
 
 export default card

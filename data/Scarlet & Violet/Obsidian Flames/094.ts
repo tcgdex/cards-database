@@ -44,18 +44,47 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725174,
+				tcgplayer: 509876,
+				cardtrader: 255779
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725174,
+				tcgplayer: 509876,
+				cardtrader: 255779
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 725174
-	}
+	
 }
 
 export default card

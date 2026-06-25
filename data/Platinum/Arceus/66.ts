@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
+	},
+
 	thirdParty: {
 		cardmarket: 278912,
 		tcgplayer: 85979

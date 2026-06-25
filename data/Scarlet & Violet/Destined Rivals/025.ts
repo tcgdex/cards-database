@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Rabsca ex"
 	},
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -79,17 +80,24 @@ const card: Card = {
 		damage: "20+"
 	}],
 
-	retreat: 1,
-	regulationMark: "H",
-	variants: [
+	weaknesses: [
 		{
-			type: 'holo'
+			type: "Fire",
+			value: "×2",
 		},
 	],
+	retreat: 1,
+	regulationMark: "H",
 
-	thirdParty: {
-		cardmarket: 825899
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825899,
+				tcgplayer: 632848
+			}
+		},
+	],
 }
 
 export default card

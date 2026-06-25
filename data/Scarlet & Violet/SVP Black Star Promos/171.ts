@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Glaceon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
@@ -69,7 +69,17 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Keisin"
+	illustrator: "Keisin",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805368,
+				tcgplayer: 611830
+			},
+		}
+	],
 }
 
 export default card

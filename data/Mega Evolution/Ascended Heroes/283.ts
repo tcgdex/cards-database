@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mega Hawlucha ex"
 	},
 
+	suffix: "ex",
 	illustrator: "AKIRA EGAWA",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
@@ -71,13 +72,24 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676095,
-		cardmarket: 869894
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869894,
+				tcgplayer: 676095
+			}
+		}
+	],
 }
 
 export default card

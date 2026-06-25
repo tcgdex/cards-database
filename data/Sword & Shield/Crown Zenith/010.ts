@@ -44,20 +44,38 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
 	},
 
-	thirdParty: {
-		cardmarket: 691727,
-		tcgplayer: 478057
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691727,
+				tcgplayer: 478057
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691727,
+				tcgplayer: 478057
+			}
+		},
+	],
 }
 
 export default card

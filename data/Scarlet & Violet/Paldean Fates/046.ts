@@ -52,18 +52,40 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751583,
+				tcgplayer: 534194,
+				cardtrader: 274230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751583,
+				tcgplayer: 534194,
+				cardtrader: 274230
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 751583
-	}
+	description: {
+		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
+	},
+
 }
 
 export default card

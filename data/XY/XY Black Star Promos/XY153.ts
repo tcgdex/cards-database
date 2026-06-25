@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Ho-Oh",
 	},
 	illustrator: "You Iribi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.",
+	},
 }
 
 export default card

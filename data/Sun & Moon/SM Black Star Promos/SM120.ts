@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -55,7 +55,11 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
+	},
 }
 
 export default card

@@ -54,6 +54,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+	},
+
 	thirdParty: {
 		cardmarket: 279693,
 		tcgplayer: 88758

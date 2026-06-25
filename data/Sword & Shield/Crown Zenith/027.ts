@@ -55,20 +55,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit's poisonous gas.",
 	},
 
-	thirdParty: {
-		cardmarket: 691744,
-		tcgplayer: 478125
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691744,
+				tcgplayer: 478125
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691744,
+				tcgplayer: 478125
+			}
+		},
+	],
 }
 
 export default card

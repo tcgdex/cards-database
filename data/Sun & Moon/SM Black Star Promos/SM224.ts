@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Celebi"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -68,7 +68,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+	},
 }
 
 export default card

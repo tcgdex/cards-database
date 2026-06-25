@@ -1,0 +1,57 @@
+import { Card } from "../../../interfaces"
+import Set from "../MEP Black Star Promos"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Turtwig",
+		fr: "Tortipouss",
+		de: "Chelast",
+		it: "Turtwig",
+		es: "Turtwig",
+		pt: "Turtwig",
+		'es-mx': "Turtwig"
+	},
+
+	illustrator: "Saboteri",
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Grass"],
+	stage: "Basic",
+	dexId: [387],
+
+	attacks: [{
+		cost: ["Grass", "Grass", "Colorless"],
+
+		name: {
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe",
+			de: "Rasierblatt",
+			it: "Foglielama",
+			es: "Hoja Afilada",
+			pt: "Folha Navalha",
+			'es-mx': "Hojas Navaja"
+		},
+
+		damage: 60
+	}],
+
+	retreat: 3,
+	regulationMark: "J",
+
+	
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 875189,
+				tcgplayer: 684464
+			}
+		},
+	],
+}
+
+export default card

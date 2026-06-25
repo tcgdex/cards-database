@@ -59,8 +59,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It has 49 teeth in its mouth that are constantly replacing themselves. Pull one out, and a new one grows in.",
 		fr: "Il a 49 dents dans sa gueule qui se régénèrent constamment. Arrachez-en une et une nouvelle pousse à sa place."
 	},
 

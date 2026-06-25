@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+	},
+
 	thirdParty: {
 		cardmarket: 361319,
 		tcgplayer: 170896

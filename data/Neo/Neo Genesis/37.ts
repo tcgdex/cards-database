@@ -79,8 +79,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
 		fr: "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant."
 	},
 

@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740589,
+				tcgplayer: 523759,
+				cardtrader: 265204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740589,
+				tcgplayer: 523759,
+				cardtrader: 265204
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 740589
-	}
+	
 }
 
 export default card

@@ -37,13 +37,44 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675858,
-		cardmarket: 869657
-	}
+	description: {
+		en: "In some snowy lands, certain folklore says a house will prosper if a Snorunt lives there.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869657,
+			tcgplayer: 675858
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870211,
+			tcgplayer: 676890
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870212,
+			tcgplayer: 677030
+		}
+	},
+],
 }
 
 export default card

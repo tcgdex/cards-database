@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+	},
+
 	thirdParty: {
 		cardmarket: 279978,
 		tcgplayer: 87991

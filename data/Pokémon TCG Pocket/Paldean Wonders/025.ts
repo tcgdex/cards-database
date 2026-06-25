@@ -4,7 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Wiglett",
+		en: "Wiglett",
+		fr: "Taupikeau",
+		es: "Wiglett",
+		it: "Wiglett",
+		de: "Schligda",
+		'pt-br': "Wiglett",
+		ko: "바다그다"
   },
   illustrator: "Shin Nagasawa",
   rarity: "One Diamond",
@@ -19,7 +25,10 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Water Gun",
+				en: "Water Gun",
+				fr: "Pistolet à O",
+				de: "Aquaknarre",
+				it: "Pistolacqua"
       },
       damage: "20",
       cost: ["Water"],

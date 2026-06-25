@@ -47,13 +47,50 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675907,
-		cardmarket: 869706
-	}
+	description: {
+		en: "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869706,
+			tcgplayer: 675907
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870285,
+			tcgplayer: 676927
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870286,
+			tcgplayer: 677067
+		}
+	},
+],
 }
 
 export default card

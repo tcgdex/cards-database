@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+	},
+
 	thirdParty: {
 		cardmarket: 408329,
 		tcgplayer: 201180

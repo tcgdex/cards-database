@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Jiro Sasumo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -61,15 +61,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 656257,
-		cardmarket: 851053
-	},
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				cardmarket: 851053,
+				tcgplayer: 656257
+			}
+		},
+	],
 }
 
 export default card

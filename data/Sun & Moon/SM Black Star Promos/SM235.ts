@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
@@ -48,7 +48,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+	},
 }
 
 export default card

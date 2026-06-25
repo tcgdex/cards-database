@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+	},
+
 	thirdParty: {
 		cardmarket: 388562,
 		tcgplayer: 195152

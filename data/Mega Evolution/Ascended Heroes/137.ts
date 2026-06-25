@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Zoroark ex do N"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -69,13 +70,24 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675949,
-		cardmarket: 869748
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869748,
+				tcgplayer: 675949
+			}
+		}
+	],
 }
 
 export default card

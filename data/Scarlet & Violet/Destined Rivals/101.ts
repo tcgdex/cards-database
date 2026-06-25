@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "Nisota Niso",
 
 	rarity: "Double rare",
@@ -72,18 +73,24 @@ const card: Card = {
 		damage: "140+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825975,
+				tcgplayer: 632909
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825975
-	}
 }
 
 export default card

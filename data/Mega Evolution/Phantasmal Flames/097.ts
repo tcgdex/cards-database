@@ -72,19 +72,30 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It sleeps under shallow ocean waters during the day, then looks for food at night when it's colder.",
+	},
+
+	illustrator: "Taira Akitsu",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857672,
-		tcgplayer: 662152
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857672,
+				tcgplayer: 662152,
+				cardtrader: 356883
+			}
+		},
+	],	
 }
 
 export default card

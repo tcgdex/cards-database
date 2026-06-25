@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "akagi",
 
 	rarity: "Double rare",
@@ -83,18 +84,24 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826013,
+				tcgplayer: 632946
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826013
-	}
 }
 
 export default card

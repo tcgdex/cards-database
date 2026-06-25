@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -71,6 +71,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
+	},
 
 	thirdParty: {
 		cardmarket: 553054

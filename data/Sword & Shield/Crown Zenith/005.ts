@@ -67,20 +67,38 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Tangrowth has two arms that it can extend as it pleases. Recent research has shown that these arms are, in fact, bundles of vines.",
 	},
 
-	thirdParty: {
-		cardmarket: 691722,
-		tcgplayer: 478051
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691722,
+				tcgplayer: 478051
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691722,
+				tcgplayer: 478051
+			}
+		},
+	],
 }
 
 export default card

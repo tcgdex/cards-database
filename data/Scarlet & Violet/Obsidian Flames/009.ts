@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "There is a theory that the developer of the modern-day Poké Ball really liked Foongus, but this has not been confirmed.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725089,
+				tcgplayer: 509665,
+				cardtrader: 255569
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725089,
+				tcgplayer: 509665,
+				cardtrader: 255569
+			}
+		},
+	],
 
 	illustrator: "You Iribi",
 
-	thirdParty: {
-		cardmarket: 725089
-	}
+	
 }
 
 export default card

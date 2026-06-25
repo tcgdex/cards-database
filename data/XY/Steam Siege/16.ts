@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its legs grow strong while it chases after its parent. It runs in fields and mountains all day.",
+	},
+
 	thirdParty: {
 		cardmarket: 291523,
 		tcgplayer: 121005

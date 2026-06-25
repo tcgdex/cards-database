@@ -64,23 +64,41 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
+	description: {
+		en: "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
+	},
+
 	variants: [
 		{
-			type: 'reverse'
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740627,
+				tcgplayer: 523781,
+				cardtrader: 265219
+			}
 		},
 		{
-			type: 'holo'
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740627,
+				tcgplayer: 523781,
+				cardtrader: 265219
+			}
 		},
 	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 740627
-	}
+	
 }
 
 export default card

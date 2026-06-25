@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Forschung des Professors"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -27,7 +27,23 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
-	illustrator: "Hideki Ishikawa"
+	illustrator: "Hideki Ishikawa",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855674,
+				tcgplayer: 664829
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 878015
+			}
+		}
+	],
 }
 
 export default card

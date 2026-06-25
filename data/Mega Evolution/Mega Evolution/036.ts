@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Abomasnow ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -81,23 +82,24 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
 			type: "holo",
-			stamp: ["player-rewards-program"]
-		}
+			thirdParty: {
+				cardmarket: 851107,
+				tcgplayer: 654375
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654375,
-		cardmarket: 851107
-	}
 }
 
 export default card

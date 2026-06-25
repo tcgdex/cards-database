@@ -65,18 +65,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733688,
+				tcgplayer: 516662,
+				cardtrader: 261182
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733688,
+				tcgplayer: 516662,
+				cardtrader: 261182
+			}
+		},
+	],
 
 	illustrator: "Tomokazu Komiya",
 
-	thirdParty: {
-		cardmarket: 733688
-	}
+	
 }
 
 export default card

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -78,6 +78,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+	},
 
 	thirdParty: {
 		cardmarket: 289710

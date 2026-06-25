@@ -74,15 +74,29 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794367,
+				tcgplayer: 589872
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794367,
+				tcgplayer: 589872
+			}
 		},
 		{
 			type: "normal",
@@ -91,10 +105,7 @@ const card: Card = {
 	],
 
 	illustrator: "Orca",
-
-	thirdParty: {
-		cardmarket: 794367
-	}
+	
 }
 
 export default card

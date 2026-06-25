@@ -68,6 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
 		fr: "En hiver, son bourgeon se referme pour résister au froid. Il s'ouvre au printemps et libère du pollen."
 	},
 

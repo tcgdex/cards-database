@@ -68,6 +68,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
 		fr: "En journée, il plante ses piedsracines dans le sol. La nuit, il se promène en semant des graines."
 	},
 

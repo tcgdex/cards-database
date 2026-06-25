@@ -76,20 +76,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.",
 	},
 
-	thirdParty: {
-		cardmarket: 691760,
-		tcgplayer: 478148
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691761,
+				tcgplayer: 478148
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691761,
+				tcgplayer: 478148
+			}
+		},
+	],
 }
 
 export default card

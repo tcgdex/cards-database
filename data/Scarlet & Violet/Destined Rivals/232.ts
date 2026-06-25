@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "HICO KIM",
 
 	rarity: "Special illustration rare",
@@ -83,18 +84,24 @@ const card: Card = {
 		damage: 260
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826106,
+				tcgplayer: 633032
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826106
-	}
 }
 
 export default card

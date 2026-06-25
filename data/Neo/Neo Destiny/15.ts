@@ -75,6 +75,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It becomes depressed if it is not near kind-hearted people. Is is able to float in the air without moving its wings.",
 		fr: "Il devient rapidement déprimé s'il n'est pas près de personnes au grand cœur. Il peut flotter dans les airs sans bouger ses ailes."
 	},
 

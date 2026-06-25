@@ -74,18 +74,40 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751584,
+				tcgplayer: 534197,
+				cardtrader: 274231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751584,
+				tcgplayer: 534197,
+				cardtrader: 274231
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 751584
-	}
+	description: {
+		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+	},
+
 }
 
 export default card

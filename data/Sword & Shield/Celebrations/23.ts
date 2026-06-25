@@ -4,20 +4,23 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
+		en: "Professor's Research",
+		fr: "Recherches Professorales",
+		es: "Investigación de Profesores",
+		it: "Ricerca Accademica",
+		pt: "Pesquisa de Professores",
+		de: "Forschung des Professors"
+	},
+
+	description: {
 		en: "Professor's Research (Professor Oak)",
 		fr: "Recherches Professorales (Professeur Chen)",
 		es: "Investigación de Profesores (Profesor Oak)",
 		it: "Ricerca Accademica (Professor Oak)",
-		pt: "Pesquisa de Professores",
-		de: "Forschung des Professors (Prof. Eich)"
+		pt: "Pesquisa de Professores (Professor Oak)",
+		de: "Forschung des Professors (Professor Eich)"
 	},
 
 	rarity: "Holo Rare",
@@ -34,7 +37,18 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	illustrator: "KIYOTAKA OSHIYAMA",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['25th-celebration'],
+			thirdParty: {
+				cardmarket: 576768,
+				tcgplayer: 250318
+			}
+		},
+	],
 }
 
 export default card

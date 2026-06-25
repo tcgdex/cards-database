@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751588,
+				tcgplayer: 534387,
+				cardtrader: 274235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751588,
+				tcgplayer: 534387,
+				cardtrader: 274235
+			}
+		},
+	],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
-	thirdParty: {
-		cardmarket: 751588
-	}
+	description: {
+		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old.",
+	},
+
 }
 
 export default card

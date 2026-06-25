@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -66,6 +66,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It gathers things it likes and pushes them through its loop to teleport them to a secret place.",
+	},
 
 	thirdParty: {
 		cardmarket: 289790

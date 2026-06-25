@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Omastar's sharp fangs could crush rock, but the Pokémon can attack only the prey that come within reach of its tentacles.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733734,
+				tcgplayer: 516702,
+				cardtrader: 261237
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733734,
+				tcgplayer: 516702,
+				cardtrader: 261237
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 733734
-	}
+	
 }
 
 export default card

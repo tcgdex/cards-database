@@ -66,20 +66,44 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
 	},
 
-	thirdParty: {
-		cardmarket: 691816,
-		tcgplayer: 478234
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691816,
+				tcgplayer: 478234
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691816,
+				tcgplayer: 478234
+			}
+		},
+	],
 }
 
 export default card

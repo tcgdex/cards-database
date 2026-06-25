@@ -74,20 +74,38 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
 	},
 
-	thirdParty: {
-		cardmarket: 691760,
-		tcgplayer: 478147
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691760,
+				tcgplayer: 478147
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691760,
+				tcgplayer: 478147
+			}
+		},
+	],
 }
 
 export default card

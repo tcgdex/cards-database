@@ -75,8 +75,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It is said that each of its nine tails contains a different magical power.",
 		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
 	},
 

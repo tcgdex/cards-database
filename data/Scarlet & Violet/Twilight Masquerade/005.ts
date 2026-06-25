@@ -74,18 +74,38 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It wanders in search of food after darkness falls, never nesting in a specific place.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769179,
+				tcgplayer: 550049
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769179,
+				tcgplayer: 550049
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 769179
-	}
 }
 
 export default card

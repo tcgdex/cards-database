@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+	},
+
 	thirdParty: {
 		cardmarket: 279706,
 		tcgplayer: 87207

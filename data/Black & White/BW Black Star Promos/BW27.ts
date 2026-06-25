@@ -62,6 +62,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+	},
 }
 
 export default card

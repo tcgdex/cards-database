@@ -62,22 +62,37 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851166,
+				tcgplayer: 654434
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851166,
+				tcgplayer: 654434
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654434,
-		cardmarket: 851166
-	}
 }
 
 export default card

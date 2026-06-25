@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -72,6 +72,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+	},
 
 	thirdParty: {
 		cardmarket: 289784

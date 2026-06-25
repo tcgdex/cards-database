@@ -96,10 +96,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+	},
+
 	thirdParty: {
 		cardmarket: 299480,
 		tcgplayer: 138564
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Males swing the plumage on their heads to threaten others, but females are better at flying.",
+	},
+
 	thirdParty: {
 		cardmarket: 280712,
 		tcgplayer: 90161

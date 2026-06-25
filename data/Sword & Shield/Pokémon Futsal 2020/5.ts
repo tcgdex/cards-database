@@ -41,7 +41,17 @@ const card: Card = {
 		damage: 20
 	}],
 
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574871,
+				tcgplayer: 248015
+			}
+		},
+	],
 }
 
 export default card

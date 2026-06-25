@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kapu-Fala"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -82,6 +82,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
+	},
 }
 
 export default card

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Koalelu"
 	},
 	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
+	},
 }
 
 export default card

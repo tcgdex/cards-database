@@ -63,18 +63,39 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715643,
+				tcgplayer: 497588,
+				cardtrader: 248824
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715643,
+				tcgplayer: 497588,
+				cardtrader: 248824
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 715643
-	}
+	description: {
+		en: "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
+	},
 }
 
 export default card

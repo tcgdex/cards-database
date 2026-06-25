@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Alolan Exeggutor V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Grass"],
@@ -63,6 +63,12 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 

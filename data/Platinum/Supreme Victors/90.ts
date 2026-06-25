@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
+	},
+
 	thirdParty: {
 		cardmarket: 278781
 	},

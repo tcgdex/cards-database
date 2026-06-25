@@ -15,8 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre Carte Stade est mise en jeu.\n\nTous les Pokémon (les vôtres et ceux de votre adversaire) ayant un total de Points de vie maximum de moins 70 ne peuvent pas utiliser de Poké-Powers.",
-		de: "Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poke-Power"
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poké-Powers.",
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre Carte Stade est mise en jeu.",
+		de: "Any Pokémon (both yours and your opponent's) with maximum HP less than 70 can't use any Poke-Power",
 	},
 
 	thirdParty: {

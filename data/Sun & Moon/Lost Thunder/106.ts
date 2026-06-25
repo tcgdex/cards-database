@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "One of the Ultra Beasts, it's unclear whether or not this Pokémon is sentient, but sometimes it can be observed behaving like a young girl.",
+	},
+
 	thirdParty: {
 		cardmarket: 365743,
 		tcgplayer: 178919

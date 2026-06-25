@@ -14,23 +14,27 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Attach this card to 1 of your Metal Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Metal Cube 01.",
 		fr: "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de métal 01.",
 		de: "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Metall-Würfel 01 auf deinen Ablagestapel."
 	},
 
-	attacks: [{
-		name: {
-			de: "Metall-Umkehrung"
+	attacks: [
+		{
+			name: {
+				de: "Metall-Umkehrung",
+				fr: "Inversion métal",
+			},
+			damage: 10,
+			effect: {
+				de: "Bevor Schaden zugefügt wird, kannst du 1 der Pokémon auf der Bank deines Gegners wählen und es mit dem Verteidigenden Pokémon austauschen.",
+				fr: "Avant d'infliger les dégâts, vous pouvez choisir un des Pokémon du Banc de votre adversaire et l'échanger contre le Pokémon Défenseur.",
+			},
+			cost: [
+				"Metal",
+			],
 		},
-
-		damage: 10,
-
-		effect: {
-			de: "Bevor Schaden zugefügt wird, kannst du 1 der Pokémon auf der Bank deines Gegners wählen und es mit dem Verteidigenden Pokémon austauschen."
-		},
-
-		cost: ["Metal"]
-	}],
+	],
 
 	thirdParty: {
 		cardmarket: 275205,

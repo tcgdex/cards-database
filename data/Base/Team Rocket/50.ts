@@ -61,8 +61,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Many people find it cute and try to hold it, only to be burned by its tail.",
 		fr: "De nombreuses personnes le trouvent mignon et essaient de l'attraper. Leur seule récompense est de se brûler sur sa queue."
 	},
 

@@ -66,6 +66,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
+	},
 
 	thirdParty: {
 		cardmarket: 273934,

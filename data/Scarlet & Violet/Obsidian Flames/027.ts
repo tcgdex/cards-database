@@ -52,20 +52,47 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
+	description: {
+		en: "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 727117,
+				tcgplayer: 509708,
+				cardtrader: 255587
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725107
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725107,
+				tcgplayer: 509708,
+				cardtrader: 255587
+			}
+		},
+	],
 
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 725107
-	}
+	
 }
 
 export default card

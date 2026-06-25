@@ -44,19 +44,38 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
 	},
 
-	thirdParty: {
-		cardmarket: 664566,
-		tcgplayer: 276946
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665260,
+				tcgplayer: 276946
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665260,
+				tcgplayer: 276946
+			}
+		},
+	],
 }
 
 export default card

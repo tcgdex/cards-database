@@ -60,19 +60,30 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+	},
+
+	illustrator: "Shigenori Negishi",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857682,
+				tcgplayer: 662128,
+				cardtrader: 356893
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857682,
-		tcgplayer: 662128
-	}
 }
 
 export default card

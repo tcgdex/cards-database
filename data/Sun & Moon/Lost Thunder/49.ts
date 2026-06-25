@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+	},
+
 	thirdParty: {
 		cardmarket: 365689,
 		tcgplayer: 178854

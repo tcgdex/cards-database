@@ -59,13 +59,50 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675900,
-		cardmarket: 869699
-	}
+	description: {
+		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869699,
+			tcgplayer: 675900
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870273,
+			tcgplayer: 676921
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870274,
+			tcgplayer: 677061
+		}
+	},
+],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "If you have any Benched Pokémon, your opponent chooses 1 of them and switches it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",
 		fr: "Si vous avez un ou plusieurs Pokémon sur votre Banc, votre adversaire choisit l'un d'eux et l'échange avec votre Pokémon Actif. Ensuite, si votre adversaire a un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux et échangez-le avec son Pokémon Actif.",
 		de: "If you have any Benched Pokémon, your opponent chooses 1 of them and switches it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
 	},

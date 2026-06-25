@@ -75,6 +75,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance.",
+	},
+
 	thirdParty: {
 		cardmarket: 278477,
 		tcgplayer: 87572

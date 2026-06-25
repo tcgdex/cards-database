@@ -58,20 +58,38 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
 	},
 
-	thirdParty: {
-		cardmarket: 691786,
-		tcgplayer: 478193
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691786,
+				tcgplayer: 478193
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691786,
+				tcgplayer: 478193
+			}
+		},
+	],
 }
 
 export default card

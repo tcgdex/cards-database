@@ -72,26 +72,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851158,
+				tcgplayer: 654426
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851158,
+				tcgplayer: 654426
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
-		}
+			stamp: ["trick-or-trade"],
+			thirdParty: {
+				cardmarket: 850911,
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 851158,
-		tcgplayer: 654426
-	}
 }
 
 export default card

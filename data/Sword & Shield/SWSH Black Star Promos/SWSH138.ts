@@ -4,6 +4,12 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [635],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,
@@ -21,7 +27,7 @@ const card: Card = {
 		it: "Hydreigon C"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],

@@ -63,18 +63,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725129,
+				tcgplayer: 509774,
+				cardtrader: 255609
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725129,
+				tcgplayer: 509774,
+				cardtrader: 255609
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 725129
-	}
+	
 }
 
 export default card

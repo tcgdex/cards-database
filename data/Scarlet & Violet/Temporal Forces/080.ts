@@ -64,23 +64,38 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It's possible that this is the object listed as Iron Valiant in a certain expedition journal.",
+	},
+
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760710,
+				tcgplayer: 542824
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760710,
+				tcgplayer: 542824
+			}
+		},
 	],
 
 	illustrator: "chibi",
 
-	thirdParty: {
-		cardmarket: 760710
-	}
 }
 
 export default card

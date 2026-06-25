@@ -57,18 +57,41 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740697,
+				tcgplayer: 523838,
+				cardtrader: 265264
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740697,
+				tcgplayer: 523838,
+				cardtrader: 265264
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 740697
-	}
+	
 }
 
 export default card

@@ -47,13 +47,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675814,
-		cardmarket: 869613
-	}
+	description: {
+		en: "It secretes a sticky, drool-like nectar. Though sweet, it smells too repulsive to get very close.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869613,
+				tcgplayer: 675814
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 870137,
+				tcgplayer: 676853
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870138,
+				tcgplayer: 676993
+			}
+		},
+	],
 }
 
 export default card

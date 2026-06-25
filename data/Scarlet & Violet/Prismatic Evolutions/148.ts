@@ -66,19 +66,27 @@ const card: Card = {
 		damage: "140+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
+	suffix: "ex",
 	illustrator: "Yukihiro Tada",
 
-	thirdParty: {
-		cardmarket: 805542
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805542,
+				tcgplayer: 610503
+			}
+		},
+	],
 }
 
 export default card

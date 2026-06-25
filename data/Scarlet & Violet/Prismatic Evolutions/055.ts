@@ -55,13 +55,48 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 805444
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805444,
+				tcgplayer: 610410
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805444,
+				tcgplayer: 610410
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806486,
+				tcgplayer: 610576
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806487,
+				tcgplayer: 610677
+			}
+		},
+	],
 }
 
 export default card

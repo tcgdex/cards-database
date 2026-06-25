@@ -101,10 +101,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 299450,
 		tcgplayer: 138528
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

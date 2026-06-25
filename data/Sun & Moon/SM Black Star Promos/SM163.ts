@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mimigma"
 	},
 	illustrator: "Saya Tsuruta",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -80,6 +80,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
+	},
 }
 
 export default card

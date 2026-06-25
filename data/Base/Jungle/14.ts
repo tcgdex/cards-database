@@ -73,8 +73,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
 		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant."
 	},
 

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Abendmähne-Necrozma"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -91,6 +91,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This is its form with it is devouring the light of Solgaleo. It pounces on its foes and then slashes them with the claws on its four limbs and back.",
+	},
 }
 
 export default card

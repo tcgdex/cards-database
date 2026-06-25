@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760717,
+				tcgplayer: 542831
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760717,
+				tcgplayer: 542831
+			}
+		},
 	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 760717
-	}
 }
 
 export default card

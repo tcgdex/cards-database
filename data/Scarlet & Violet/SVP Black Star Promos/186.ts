@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKUBO",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],
@@ -46,7 +46,17 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "H"
+	regulationMark: "H",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 817777,
+				tcgplayer: 627707
+			},
+		}
+	],
 }
 
 export default card

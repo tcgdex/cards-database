@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715641,
+				tcgplayer: 497585,
+				cardtrader: 248821
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715641,
+				tcgplayer: 497585,
+				cardtrader: 248821
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 715641
-	}
+	description: {
+		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+	},
 }
 
 export default card

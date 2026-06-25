@@ -51,13 +51,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675844,
-		cardmarket: 869643
-	}
+	description: {
+		en: "This popular symbol of good fortune will never fall over in its sleep, no matter how it’s pushed or pulled.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869643,
+			tcgplayer: 675844
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870187,
+			tcgplayer: 676878
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870188,
+			tcgplayer: 677018
+		}
+	},
+],
 }
 
 export default card

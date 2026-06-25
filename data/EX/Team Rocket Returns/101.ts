@@ -26,7 +26,7 @@ const card: Card = {
 		en: "Rocket's Scyther ex",
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

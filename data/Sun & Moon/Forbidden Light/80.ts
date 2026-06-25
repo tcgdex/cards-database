@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+	},
+
 	thirdParty: {
 		cardmarket: 320584,
 		tcgplayer: 165736

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -82,7 +82,8 @@ const card: Card = {
 	suffix: "V",
 
 	thirdParty: {
-		cardmarket: 496545
+		cardmarket: 496545,
+		tcgplayer: 232434
 	}
 }
 

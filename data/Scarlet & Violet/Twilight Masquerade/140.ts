@@ -65,18 +65,44 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's said that many artists have taken inspiration from the sight of a Swanna performing a beautiful dance in the light of dawn.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769314,
+				tcgplayer: 550184
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769314,
+				tcgplayer: 550184
+			}
+		},
+	],
 
 	illustrator: "Susumu Maeya",
 
-	thirdParty: {
-		cardmarket: 769314
-	}
 }
 
 export default card

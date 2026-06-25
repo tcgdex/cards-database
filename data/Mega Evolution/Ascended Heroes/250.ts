@@ -71,13 +71,34 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676062,
-		cardmarket: 869861
-	}
+	description: {
+		en: "There are several appliances that Rotom can inspirit, but the first one to be developed was the electric fan.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869861,
+				tcgplayer: 676062
+			}
+		}
+	],
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pikachu VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],
@@ -67,11 +67,18 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	thirdParty: {
-		cardmarket: 461594
+		cardmarket: 461594,
+		tcgplayer: 478424
 	}
 }
 

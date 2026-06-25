@@ -63,6 +63,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight.",
+	},
 
 	thirdParty: {
 		cardmarket: 274770,

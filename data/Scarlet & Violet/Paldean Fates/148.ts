@@ -35,19 +35,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751687,
+				tcgplayer: 534631,
+				cardtrader: 274331
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 751687
-	}
+	description: {
+		en: "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
+	},
+
 }
 
 export default card

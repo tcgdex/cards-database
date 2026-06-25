@@ -3,9 +3,9 @@ import Set from '../Power Keepers'
 
 const card: Card = {
 	name: {
-		en: "Flareon Star",
-		fr: "Pyroli",
-		de: "Flamara *"
+		en: "Flareon ☆",
+		fr: "Pyroli ☆",
+		de: "Flamara ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -34,8 +34,8 @@ const card: Card = {
 				de: "Purpurner Strahl"
 			},
 			effect: {
-				en: "Once during your turn, when you put Flareon Star from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent's) is now Burned.",
-				fr: "Une seule fois lors de votre tour, lorsque vous placez Pyroli  de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Chaque Pokémon Actif (les vôtres et ceux de votre adversaire) est maintenant Brûlé.",
+				en: "Once during your turn, when you put Flareon ☆ from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent's) is now Burned.",
+				fr: "Une seule fois lors de votre tour, lorsque vous placez Pyroli ☆ de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Chaque Pokémon Actif (les vôtres et ceux de votre adversaire) est maintenant Brûlé.",
 				de: "Einmal während deines Zuges, wenn du Flamara ☆ von deiner Hand auf deine Bank legst, kannst du diese Poké-Power einsetzen. Alle Aktiven Pokémon (deine und die deines Gegners) sind jetzt verbrannt."
 			},
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 				de: "Flammenwurf"
 			},
 			effect: {
-				en: "Discard a Fire Energy attached to Flareon Star.",
-				fr: "Défaussez une Énergie  attachée à Pyroli .",
+				en: "Discard a Fire Energy attached to Flareon ☆.",
+				fr: "Défaussez une Énergie  attachée à Pyroli ☆.",
 				de: "Entferne eine -Energie von Flamara ☆ und lege sie auf deinen Ablagestapel."
 			},
 			damage: 50,

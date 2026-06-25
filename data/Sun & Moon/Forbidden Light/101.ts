@@ -100,6 +100,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.",
+	},
+
 	thirdParty: {
 		cardmarket: 355614,
 		tcgplayer: 165763

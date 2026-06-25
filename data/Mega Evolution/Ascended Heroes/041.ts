@@ -47,13 +47,44 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675853,
-		cardmarket: 869652
-	}
+	description: {
+		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869652,
+			tcgplayer: 675853
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870203,
+			tcgplayer: 676886
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870204,
+			tcgplayer: 677026
+		}
+	},
+],
 }
 
 export default card

@@ -13,7 +13,16 @@ const card: Card = {
 		it: "Mega Froslass-ex",
 		pt: "Mega Froslass ex"
 	},
+	evolveFrom: {
+		en: "Snorunt",
+		de: "Schneppke",
+		es: "Snorunt",
+		fr: "Stalgamin",
+		it: "Snorunt",
+		pt: "Snorunt",
+	},
 
+	suffix: "ex",
 	illustrator: "Saboteri",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -71,13 +80,24 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676077,
-		cardmarket: 869876
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869876,
+				tcgplayer: 676077
+			}
+		}
+	],
 }
 
 export default card

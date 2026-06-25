@@ -65,23 +65,34 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794318,
+				tcgplayer: 590030
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794318,
+				tcgplayer: 590030
+			}
+		},
 	],
 
 	illustrator: "nagimiso",
-
-	thirdParty: {
-		cardmarket: 794318
-	}
+	
 }
 
 export default card

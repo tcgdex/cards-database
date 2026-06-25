@@ -72,19 +72,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It commands a nest of Rattata. Different nests don't get along, whipping up severe fights over feeding grounds.",
 	},
 
-	thirdParty: {
-		cardmarket: 664582,
-		tcgplayer: 277003
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665672,
+				tcgplayer: 277003
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665672,
+				tcgplayer: 277003
+			}
+		},
+	],
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Sylveon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],
@@ -76,7 +76,17 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Susumu Maeya"
+	illustrator: "Susumu Maeya",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805369,
+				tcgplayer: 611831
+			},
+		}
+	],
 }
 
 export default card

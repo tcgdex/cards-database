@@ -44,19 +44,37 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
 	},
 
-	thirdParty: {
-		cardmarket: 691891
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691891,
+				tcgplayer: 478029
+			}
+		},
+	],
 }
 
 export default card

@@ -44,18 +44,47 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725177,
+				tcgplayer: 509930,
+				cardtrader: 255782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725177,
+				tcgplayer: 509930,
+				cardtrader: 255782
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 725177
-	}
+	
 }
 
 export default card

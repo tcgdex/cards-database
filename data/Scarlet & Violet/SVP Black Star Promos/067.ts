@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Donnersichel-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Darkness"],
@@ -64,9 +64,33 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "takuyoa"
+	suffix: "ex",
+	illustrator: "takuyoa",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 740407,
+				tcgplayer: 527878
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 740408,
+				tcgplayer: 529857
+			}
+		}
+	],
 }
 
 export default card

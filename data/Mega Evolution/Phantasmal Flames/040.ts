@@ -60,22 +60,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+	},
+
+	illustrator: "MINAMINAMI Take",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857615,
+				tcgplayer: 662194,
+				cardtrader: 356823
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857615,
+				tcgplayer: 662194,
+				cardtrader: 356823
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857615,
-		tcgplayer: 662194
-	}
 }
 
 export default card

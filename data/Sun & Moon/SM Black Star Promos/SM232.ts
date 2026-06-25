@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pikachu GX"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
@@ -97,7 +97,7 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
 }
 
 export default card

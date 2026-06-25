@@ -67,19 +67,38 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
 	},
 
-	thirdParty: {
-		cardmarket: 664578,
-		tcgplayer: 276990
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665668,
+				tcgplayer: 276990
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665668,
+				tcgplayer: 276990
+			}
+		},
+	],
 }
 
 export default card

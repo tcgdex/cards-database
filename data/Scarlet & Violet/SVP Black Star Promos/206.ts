@@ -17,7 +17,7 @@ const card: Card = {
 
 	illustrator: "Susumu Maeya",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],
@@ -48,7 +48,16 @@ const card: Card = {
 	}],
 
 	retreat: 0,
-	regulationMark: "I"
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 813958,
+				tcgplayer: 635456
+			},
+		}
+	],
 }
 
 export default card

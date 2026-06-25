@@ -67,8 +67,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there.",
 		fr: "Selon un vieux dicton des régions enneigées : \"Stalgamin dans la maison, richesse à l'horizon\"."
 	},
 

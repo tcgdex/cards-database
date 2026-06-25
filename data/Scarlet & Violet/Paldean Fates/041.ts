@@ -44,18 +44,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751578,
+				tcgplayer: 534187,
+				cardtrader: 274225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751578,
+				tcgplayer: 534187,
+				cardtrader: 274225
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 751578
-	}
+	description: {
+		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
+	},
+
 }
 
 export default card

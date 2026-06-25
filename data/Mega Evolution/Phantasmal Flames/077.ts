@@ -62,22 +62,38 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+	},
+
+	illustrator: "Naoyo Kimura",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857652,
+				tcgplayer: 662239,
+				cardtrader: 356863
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857652,
-		tcgplayer: 662239
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857652,
+				tcgplayer: 662239,
+				cardtrader: 356863
+			}
+		},
+	],	
 }
 
 export default card

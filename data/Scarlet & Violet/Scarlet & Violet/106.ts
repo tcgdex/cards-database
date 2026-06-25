@@ -69,6 +69,10 @@ const card: Card = {
 		normal: false
 	},
 
+	description: {
+		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
+	},
+
 	thirdParty: {
         cardmarket: 702402,
         tcgplayer: 487983

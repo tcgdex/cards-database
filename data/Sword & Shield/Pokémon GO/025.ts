@@ -57,19 +57,38 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It's nature's cleaner—it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
 	},
 
-	thirdParty: {
-		cardmarket: 664564,
-		tcgplayer: 274457
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665257,
+				tcgplayer: 274457
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665257,
+				tcgplayer: 274457
+			}
+		},
+	],
 }
 
 export default card

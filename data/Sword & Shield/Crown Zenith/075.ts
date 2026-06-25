@@ -44,20 +44,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now.",
 	},
 
-	thirdParty: {
-		cardmarket: 691793,
-		tcgplayer: 478208
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691793,
+				tcgplayer: 478208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691793,
+				tcgplayer: 478208
+			}
+		},
+	],
 }
 
 export default card

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+	},
 
 	thirdParty: {
 		cardmarket: 553953

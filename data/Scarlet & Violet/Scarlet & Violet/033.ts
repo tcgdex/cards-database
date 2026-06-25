@@ -48,6 +48,12 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
@@ -56,6 +62,10 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+
+	description: {
+		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+	},
 
 	thirdParty: {
         cardmarket: 702329,

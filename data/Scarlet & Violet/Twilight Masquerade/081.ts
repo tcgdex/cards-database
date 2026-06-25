@@ -52,18 +52,44 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769255,
+				tcgplayer: 550125
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769255,
+				tcgplayer: 550125
+			}
+		},
+	],
 
 	illustrator: "Uninori",
 
-	thirdParty: {
-		cardmarket: 769255
-	}
 }
 
 export default card

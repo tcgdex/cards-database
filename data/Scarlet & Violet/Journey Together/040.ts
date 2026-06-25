@@ -37,22 +37,32 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "Shinya Mizuno",
 
-	thirdParty: {
-		cardmarket: 817192
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817192,
+				tcgplayer: 623467
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817192,
+				tcgplayer: 623467
+			}
 		},
-	]
+	],
 }
 
 export default card

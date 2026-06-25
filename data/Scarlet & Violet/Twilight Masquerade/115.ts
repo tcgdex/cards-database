@@ -55,18 +55,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769289,
+				tcgplayer: 550159
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769289,
+				tcgplayer: 550159
+			}
+		},
+	],
 
 	illustrator: "Tomokazu Komiya",
 
-	thirdParty: {
-		cardmarket: 769289
-	}
 }
 
 export default card

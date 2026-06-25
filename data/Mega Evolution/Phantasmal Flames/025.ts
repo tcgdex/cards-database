@@ -72,22 +72,38 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
+	description: {
+		en: "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+	},
+
+	illustrator: "Takumi Wada",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857600,
+				tcgplayer: 662181,
+				cardtrader: 356808
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857600,
-		tcgplayer: 662181
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857600,
+				tcgplayer: 662181,
+				cardtrader: 356808
+			}
+		},
+	],	
 }
 
 export default card

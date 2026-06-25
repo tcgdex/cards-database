@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Registeel ex"
 	},
 
+	suffix: "ex",
 	illustrator: "toriyufu",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -69,13 +70,30 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675957,
-		cardmarket: 869756
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869756,
+				tcgplayer: 675957
+			}
+		}
+	],
 }
 
 export default card

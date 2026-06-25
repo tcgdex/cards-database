@@ -81,6 +81,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's still not very good at walking. Its Trainers should train this Pokémon to walk every day.",
+	},
+
 	thirdParty: {
 		cardmarket: 295340,
 		tcgplayer: 126901

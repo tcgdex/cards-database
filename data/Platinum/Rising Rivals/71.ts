@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
+	},
+
 	variants: [
 		{
 			type: "normal"

@@ -57,19 +57,31 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715680,
+				tcgplayer: 497608,
+				cardtrader: 248858
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 715680
-	}
+	description: {
+		en: "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
+	},
 }
 
 export default card

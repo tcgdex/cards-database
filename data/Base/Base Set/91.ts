@@ -15,6 +15,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Draw 2 cards.",
 		fr: "Piochez 2 cartes.",
 		de: "Ziehe 2 Karten.",
 		it: "Pesca 2 carte."

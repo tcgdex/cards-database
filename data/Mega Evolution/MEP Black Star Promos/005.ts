@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shimaris Yukichi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -46,15 +46,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 656255,
-		cardmarket: 851051
-	},
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				cardmarket: 851051,
+				tcgplayer: 656255
+			}
+		},
+	],
 }
 
 export default card

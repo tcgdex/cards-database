@@ -68,6 +68,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+	},
 
 	thirdParty: {
 		cardmarket: 273985,

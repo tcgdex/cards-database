@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+	},
+
 	thirdParty: {
 		cardmarket: 281396,
 		tcgplayer: 85005

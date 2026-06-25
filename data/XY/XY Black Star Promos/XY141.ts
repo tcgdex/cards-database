@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -69,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
+	},
 
 	thirdParty: {
 		cardmarket: 289722

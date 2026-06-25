@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Silvarro"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -90,6 +90,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It fires arrow quills from its wings with such precision they can pierce a pebble at distances over a hundred yards.",
+	},
 }
 
 export default card

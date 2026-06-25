@@ -57,19 +57,38 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
 	},
 
-	thirdParty: {
-		cardmarket: 664563,
-		tcgplayer: 276959
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665255,
+				tcgplayer: 276959
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665255,
+				tcgplayer: 276959
+			}
+		},
+	],
 }
 
 export default card

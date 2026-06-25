@@ -56,11 +56,12 @@
 		"Two Shiny": "Deux Chromatiques",
 		"Three Shiny": "Trois Chromatiques",
 		"Black White Rare": "Rare Noir Blanc",
-		"Mega Hyper Rare": "Méga Hyper Rare"
+		"Mega Hyper Rare": "Méga Hyper Rare",
+		"Promo": "Promo"
 	},
 	"stage": {
 		"Baby": "Bébé",
-		"Basic": "De base",
+		"Basic": "Base",
 		"BREAK": "TURBO",
 		"LEVEL-UP": "Niveau Sup",
 		"MEGA": "MÉGA",
@@ -68,16 +69,17 @@
 		"Stage1": "Niveau 1",
 		"Stage2": "Niveau 2",
 		"V-UNION": "V-UNION",
-		"VMAX": "ESCOUADE",
+		"VMAX": "VMAX",
 		"VSTAR": "VSTAR"
 	},
 	"suffix": {
 		"EX": "EX",
+		"ex": "ex",
 		"GX": "GX",
 		"Legend": "LÉGENDE",
-		"Prime": "Prime",
+		"Prime": "Primo",
 		"SP": "SP",
-		"TAG TEAM-GX": "TAG TEAM-GX",
+		"TAG TEAM-GX": "ESCOUADE",
 		"V": "V"
 	},
 	"trainerType": {
@@ -104,7 +106,7 @@
 		"Water": "Eau"
 	},
 	"variantType": {
-		"normal": "De base",
+		"normal": "Normal",
 		"holo": "Holo",
 		"reverse": "Reverse",
 		"metal": "Métal",
@@ -128,7 +130,14 @@
 		"mirror": "mirror",
 		"league": "league",
 		"player-reward": "player-reward",
-		"professor-program": "professor-program"
+		"professor-program": "professor-program",
+		"tinsel": "tinsel",
+		"loveball": "Love Ball",
+		"friendball": "Copain Ball",
+		"quickball": "Rapide Ball",
+		"duskball": "Sombre Ball",
+		"team-rocket": "Team Rocket",
+    "rainbow": "Rainbow"
 	},
 	"variantStamp": {
 		"1st-edition": "1re Édition",
@@ -229,7 +238,21 @@
 		"judge": "juge",
 		"international-championship-europe": "championnat-international-europe",
 		"international-championship-latin-america": "championnat-international-amérique-latine",
-		"international-championship-north-america": "championnat-international-amérique-du-nord"
+		"international-championship-north-america": "championnat-international-amérique-du-nord",
+		"30th-pokeday": "30th-pokeday",
+		"ace-trainer": "Entraîneur d'as",
+		"pikachu": "pikachu",
+		"bulbasaur": "bulbizarre",
+		"squirtle": "carapuce",
+		"charmander": "salamèche",
+		"pokeball": "pokeball",
+		"mcdonalds": "mcdonalds",
+    	"pokemon-together": "pokemon-together",
+		"rain-city": "rain-city",
+		"tournament-collection": "tournament-collection",
+		"worlds-2024": "worlds-2024",
+		"worlds-2023": "worlds-2023",
+		"asia-2023-24": "asia-2023-24"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
@@ -249,6 +272,7 @@
 		"japanese-back": "Dos japonais",
 		"no-e-reader": "Sans e-Reader",
 		"rarity-error": "Erreur de rareté",
-		"cosmos": "cosmos"
+		"cosmos": "cosmos",
+		"blue border": "bordure bleue"
 	}
 }

@@ -69,13 +69,44 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675953,
-		cardmarket: 869752
-	}
+	description: {
+		en: "This troublemaker sends anything and everything to faraway places using its loop, which can warp space.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869752,
+			tcgplayer: 675953
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870357,
+			tcgplayer: 676963
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870358,
+			tcgplayer: 677103
+		}
+	},
+],
 }
 
 export default card

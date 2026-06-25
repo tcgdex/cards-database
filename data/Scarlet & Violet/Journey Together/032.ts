@@ -59,26 +59,45 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Takumi Wada",
 
-	thirdParty: {
-		cardmarket: 817184
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817184,
+				tcgplayer: 623459
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817184,
+				tcgplayer: 623459
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ["snowflake"]
+			type: "holo",
+			stamp: ["snowflake"],
+			thirdParty: {
+				cardmarket: 845411,
+			}
 		},
-	]
+	],
 }
 
 export default card

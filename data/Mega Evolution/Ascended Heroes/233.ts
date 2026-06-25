@@ -45,13 +45,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676045,
-		cardmarket: 869844
-	}
+	description: {
+		en: "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869844,
+				tcgplayer: 676045
+			}
+		}
+	],
 }
 
 export default card

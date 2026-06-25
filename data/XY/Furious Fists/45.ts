@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+	},
+
 	thirdParty: {
 		cardmarket: 281709,
 		tcgplayer: 92222

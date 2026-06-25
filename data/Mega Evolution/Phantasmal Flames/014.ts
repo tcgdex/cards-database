@@ -48,25 +48,44 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
+	},
+
+	illustrator: "Kazumasa Yasukuni",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 858503,
+				cardtrader: 356797
+			}
 		},
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857589,
+				tcgplayer: 662201,
+				cardtrader: 356797
+			}
 		},
 		{
-			type: "normal"
-		}
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857589,
+				tcgplayer: 662201
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857589,
-		tcgplayer: 662201
-	}
 }
 
 export default card

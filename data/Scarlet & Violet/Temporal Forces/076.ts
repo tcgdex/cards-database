@@ -52,23 +52,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
+	description: {
+		en: "It makes pollen puffs from pollen and nectar. The puffs' effects depend on the type of ingredients and how much of each one is used.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760706,
+				tcgplayer: 542820
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760706,
+				tcgplayer: 542820
+			}
+		},
 	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 760706
-	}
 }
 
 export default card

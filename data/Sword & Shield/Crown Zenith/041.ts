@@ -65,20 +65,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
 	},
 
-	thirdParty: {
-		cardmarket: 691758,
-		tcgplayer: 478145
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691758,
+				tcgplayer: 478145
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691758,
+				tcgplayer: 478145
+			}
+		},
+	],
 }
 
 export default card

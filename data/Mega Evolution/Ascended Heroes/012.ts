@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675824,
-		cardmarket: 869623
-	}
+	description: {
+		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869623,
+				tcgplayer: 675824
+			}
+		},
+		{
+			type: "reverse",
+			foil: "loveball",
+			thirdParty: {
+				cardmarket: 870153,
+				tcgplayer: 676861
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870154,
+				tcgplayer: 677001
+			}
+		},
+	],
 }
 
 export default card

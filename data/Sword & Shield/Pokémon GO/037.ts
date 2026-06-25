@@ -44,19 +44,38 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
 	},
 
-	thirdParty: {
-		cardmarket: 664577,
-		tcgplayer: 276984
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665667,
+				tcgplayer: 276984
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665667,
+				tcgplayer: 276984
+			}
+		},
+	],
 }
 
 export default card

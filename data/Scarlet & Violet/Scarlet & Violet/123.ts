@@ -69,7 +69,7 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 	illustrator: "5ban Graphics",
-	suffix: "EX",
+	suffix: "ex",
 
 	weaknesses: [{
 		type: "Psychic",
@@ -79,6 +79,10 @@ const card: Card = {
 	variants: {
 		normal: false,
 		reverse: false
+	},
+
+	description: {
+		en: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
 	},
 
 	thirdParty: {

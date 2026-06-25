@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Baojian"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
@@ -66,9 +66,33 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "toi8"
+	illustrator: "toi8",
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 793742,
+				tcgplayer: 594383
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 799712,
+				tcgplayer: 607014
+			},
+		}
+	],
 }
 
 export default card

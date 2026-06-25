@@ -47,13 +47,44 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675842,
-		cardmarket: 869641
-	}
+	description: {
+		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869641,
+			tcgplayer: 675842
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870185,
+			tcgplayer: 676877
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870186,
+			tcgplayer: 677017
+		}
+	},
+],
 }
 
 export default card

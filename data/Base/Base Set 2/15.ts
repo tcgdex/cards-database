@@ -67,6 +67,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+	},
 
 	thirdParty: {
 		cardmarket: 273938,

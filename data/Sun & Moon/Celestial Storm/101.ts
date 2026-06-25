@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
+	},
+
 	thirdParty: {
 		cardmarket: 361343,
 		tcgplayer: 170926

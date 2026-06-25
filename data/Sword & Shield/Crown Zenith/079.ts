@@ -65,20 +65,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful.",
 	},
 
-	thirdParty: {
-		cardmarket: 691797,
-		tcgplayer: 478218
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691797,
+				tcgplayer: 478218
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691797,
+				tcgplayer: 478218
+			}
+		},
+	],
 }
 
 export default card

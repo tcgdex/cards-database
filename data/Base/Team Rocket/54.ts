@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice.",
 		fr: "Il n'a pas vraiment la cote auprès des filles en raison de son mauvais caractère. On le surprend souvent maugréant tout seul à voix basse."
 	},
 

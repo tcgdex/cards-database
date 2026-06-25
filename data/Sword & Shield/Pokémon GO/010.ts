@@ -76,19 +76,38 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
 	},
 
-	thirdParty: {
-		cardmarket: 664546,
-		tcgplayer: 274439
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665244,
+				tcgplayer: 274439
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665244,
+				tcgplayer: 274439
+			}
+		},
+	],
 }
 
 export default card

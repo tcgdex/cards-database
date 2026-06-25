@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Spectrum"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{

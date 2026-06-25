@@ -74,8 +74,11 @@ const card: Card = {
 			value: "+30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
 		fr: "C'est l'abominable homme des neiges. Il ensevelit les montagnes sous ses blizzards."
 	},
 

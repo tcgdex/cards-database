@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It can produce ultracold air. Its body is frozen.",
+	},
 
 	thirdParty: {
 		cardmarket: 281021,

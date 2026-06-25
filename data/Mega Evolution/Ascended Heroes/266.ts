@@ -13,7 +13,17 @@ const card: Card = {
 		it: "Mega Eelektross-ex",
 		pt: "Mega Eelektross ex"
 	},
+	evolveFrom: {
+		en: "Eelektrik",
+		de: "Zapplalek",
+		es: "Eelektrik",
+		'es-mx': "Eelektrik",
+		fr: "Lampéroie",
+		it: "Eelektrik",
+		pt: "Eelektrik",
+	},
 
+	suffix: "ex",
 	illustrator: "DOM",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -69,13 +79,24 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676078,
-		cardmarket: 869877
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869877,
+				tcgplayer: 676078
+			}
+		}
+	],
 }
 
 export default card

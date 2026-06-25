@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725147,
+				tcgplayer: 509832,
+				cardtrader: 255627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725147,
+				tcgplayer: 509832,
+				cardtrader: 255627
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 725147
-	}
+	
 }
 
 export default card

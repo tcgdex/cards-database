@@ -65,19 +65,49 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 805397
-	}
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805397,
+				tcgplayer: 610363
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805397,
+				tcgplayer: 610363
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806420,
+				tcgplayer: 610542
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806421,
+				tcgplayer: 610643
+			}
+		},
+	],
 }
 
 export default card

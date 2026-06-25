@@ -79,22 +79,37 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851127,
+				tcgplayer: 654395
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851127,
+				tcgplayer: 654395
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654395,
-		cardmarket: 851127
-	}
 }
 
 export default card

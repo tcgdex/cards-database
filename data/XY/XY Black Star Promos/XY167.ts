@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Carchacrok-EX"
 	},
 	illustrator: "Ryo Ueda",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -63,6 +63,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 
 

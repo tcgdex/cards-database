@@ -74,19 +74,31 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715697,
+				tcgplayer: 497625,
+				cardtrader: 248874
+			}
+		},
+	],
 
 	illustrator: "Nurikabe",
 
-	thirdParty: {
-		cardmarket: 715697
-	}
+	description: {
+		en: "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
+	},
 }
 
 export default card

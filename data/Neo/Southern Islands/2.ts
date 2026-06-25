@@ -72,6 +72,9 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
+	},
 	thirdParty: {
 		cardmarket: 275632,
 		tcgplayer: 46476

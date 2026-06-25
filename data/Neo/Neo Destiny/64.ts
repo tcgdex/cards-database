@@ -68,8 +68,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Its shell is very durable, allowing it to survive even if the shell becomes cracked.",
 		fr: "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée."
 	},
 

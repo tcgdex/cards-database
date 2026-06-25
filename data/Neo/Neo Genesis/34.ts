@@ -74,8 +74,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
 		fr: "Parce qu'il stocke trop d'électricité, il développe des plaques où sa laine ne pousse plus."
 	},
 

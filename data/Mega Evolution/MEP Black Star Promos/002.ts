@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kazumasa Yasukuni",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
@@ -73,21 +73,22 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654596,
-		cardmarket: 851045
-	},
-
 	variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 851045
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo","staff"]
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 851046
+			}
 		},
-	]
+	],
 }
 
 export default card

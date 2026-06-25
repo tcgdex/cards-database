@@ -28,15 +28,32 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769333,
+				tcgplayer: 550203
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769333,
+				tcgplayer: 550203
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 800149,
+			}
+		},
+	],
 
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 769333
-	}
 }
 
 export default card

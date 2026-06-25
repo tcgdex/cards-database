@@ -54,10 +54,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676059,
-		cardmarket: 869858
-	}
+	description: {
+		en: "It has a habit of biting at Clauncher even though it doesn’t feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869858,
+				tcgplayer: 676059
+			}
+		}
+	],
 }
 
 export default card

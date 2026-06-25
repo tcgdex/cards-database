@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Pampross"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -93,6 +93,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+	},
 }
 
 export default card

@@ -65,18 +65,39 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715483,
+				tcgplayer: 497422,
+				cardtrader: 248307
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715483,
+				tcgplayer: 497422,
+				cardtrader: 248307
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 715483
-	}
+	description: {
+		en: "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+	},
 }
 
 export default card

@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.",
+	},
+
 	thirdParty: {
 		cardmarket: 372322,
 		tcgplayer: 189079

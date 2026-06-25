@@ -61,13 +61,44 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675978,
-		cardmarket: 869777
-	}
+	description: {
+		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869777,
+			tcgplayer: 675978
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870393,
+			tcgplayer: 676981
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870394,
+			tcgplayer: 677121
+		}
+	},
+],
 }
 
 export default card

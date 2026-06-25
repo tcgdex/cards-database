@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Maschiff",
+		fr: "Grondogue",
+		en: "Maschiff",
+		es: "Maschiff",
+		it: "Maschiff",
+		pt: "Maschiff",
+		de: "Mobtiff"
   },
   illustrator: "KEIICHIRO ITO",
   rarity: "One Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Bite",
+        fr: "Morsure",
+        de: "Biss",
+        it: "Morso",
+        es: "Mordisco",
+        pt: "Mordida",
+        'es-mx': "Mordida"
       },
       damage: "30",
       cost: ["Darkness", "Colorless"],

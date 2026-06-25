@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola-Sandamer"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -87,6 +87,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Fleeing a volcanic eruption, it settled on a snowy mountain. As it races through the snowfields, it sends up a spray of snow.",
+	},
 }
 
 export default card

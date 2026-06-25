@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "tetsuya koizumi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -93,6 +93,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Boiling blood, like plasma, circulates through its body. It makes its dwelling place in volcanic caves.",
+	},
 }
 
 export default card

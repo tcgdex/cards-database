@@ -70,20 +70,30 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 	illustrator: "mashu",
 
-	thirdParty: {
-		cardmarket: 817219
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
 		},
 		{
-			type: 'reverse'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817219,
+				tcgplayer: 623494
+			}
 		},
 		{
 			type: 'holo',
@@ -94,7 +104,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-	]
+	],
 }
 
 export default card

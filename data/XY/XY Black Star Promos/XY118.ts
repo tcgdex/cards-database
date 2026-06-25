@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -66,6 +66,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are too fast to follow.",
+	},
 
 	thirdParty: {
 		cardmarket: 293189

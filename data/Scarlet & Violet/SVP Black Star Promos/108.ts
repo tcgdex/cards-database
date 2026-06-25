@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Waaty"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
@@ -56,9 +56,20 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Akira Komayama"
+	illustrator: "Akira Komayama",
+	variants: [
+		{
+			type: "normal"
+		}
+	],
 }
 
 export default card

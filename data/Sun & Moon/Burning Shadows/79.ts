@@ -81,10 +81,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
+	},
+
 	thirdParty: {
 		cardmarket: 299481,
 		tcgplayer: 138565
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

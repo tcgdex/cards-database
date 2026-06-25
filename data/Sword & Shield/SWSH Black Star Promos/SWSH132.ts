@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "Stage2",
 
@@ -65,6 +65,18 @@ const card: Card = {
 				pt: "Descarte 1 carta aleatória da mão do seu oponente.",
 				it: "Scarta una carta a caso dalla mano del tuo avversario."
 			},
+		},
+	],
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
 		},
 	],
 

@@ -65,18 +65,44 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769295,
+				tcgplayer: 550165
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769295,
+				tcgplayer: 550165
+			}
+		},
+	],
 
 	illustrator: "takashi shiraishi",
 
-	thirdParty: {
-		cardmarket: 769295
-	}
 }
 
 export default card

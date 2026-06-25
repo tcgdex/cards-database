@@ -69,13 +69,28 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676036,
-		cardmarket: 869835
-	}
+	description: {
+		en: "When two Salazzle meet, they will use their pheromone gas to fight over the males in each other’s group.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869835,
+				tcgplayer: 676036
+			}
+		}
+	],
 }
 
 export default card

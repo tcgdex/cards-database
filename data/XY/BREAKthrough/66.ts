@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+	},
+
 	thirdParty: {
 		cardmarket: 286312,
 		tcgplayer: 107185

@@ -75,10 +75,23 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+	},
+
 	thirdParty: {
 		cardmarket: 299468,
 		tcgplayer: 138551
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

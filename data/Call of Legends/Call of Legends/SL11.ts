@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "This Pokémon races across the land. It is said that north winds will somehow blow whenever it appears.",
+	},
+
 	thirdParty: {
 		cardmarket: 279636
 	}

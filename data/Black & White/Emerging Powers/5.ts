@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+	},
+
 	thirdParty: {
 		cardmarket: 279970,
 		tcgplayer: 89665

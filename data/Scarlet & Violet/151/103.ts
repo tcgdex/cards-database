@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When they work together, Exeggutor's three heads can put out powerful psychic energy. Cloudy days make this Pokémon sluggish.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733698,
+				tcgplayer: 516672,
+				cardtrader: 261176
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733698,
+				tcgplayer: 516672,
+				cardtrader: 261176
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 733684
-	}
+	
 }
 
 export default card

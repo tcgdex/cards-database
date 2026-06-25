@@ -82,6 +82,7 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
+		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
 		fr: "Un Pokémon censé vivre dans un monde à l'opposé du nôtre. Il apparaît dans un cimetière ancien."
 	},
 

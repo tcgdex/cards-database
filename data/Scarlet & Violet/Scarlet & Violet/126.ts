@@ -57,6 +57,10 @@ const card: Card = {
 		holo: false
 	},
 
+	description: {
+		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+	},
+
 	thirdParty: {
         cardmarket: 702421,
         tcgplayer: 487055

@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Narumi Sato",

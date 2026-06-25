@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Finizen",
+		fr: "Dofin",
+		en: "Finizen",
+		es: "Finizen",
+		it: "Finizen",
+		pt: "Finizen",
+		de: "Normifin"
   },
   illustrator: "kodama",
   rarity: "One Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Razor Fin",
+        fr: "Aileron-Rasoir",
+        es: "Aleta Afilada",
+        it: "Pinnalama",
+        de: "Rasierflosse",
+        'pt-br': "Barbatana Cortante",
+        ko: "지느러미 커터"
       },
       damage: "20",
       cost: ["Water"],

@@ -85,6 +85,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is vindictive and relentless by nature. Those who cross it even once will be cursed for a thousand years, along with their descendants.",
+	},
+
 	thirdParty: {
 		cardmarket: 368948,
 		tcgplayer: 183787

@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Reshiram",
@@ -84,10 +78,16 @@ const card: Card = {
 
 	dexId: [643],
 
-	thirdParty: {
-		cardmarket: 576747,
-		tcgplayer: 250301
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['25th-celebration'],
+			thirdParty: {
+				cardmarket: 576747,
+				tcgplayer: 250301
+			}
+		},
+	],
 }
 
 export default card

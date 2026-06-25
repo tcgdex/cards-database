@@ -48,19 +48,26 @@ const card: Card = {
 		damage: "90×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	illustrator: "takuyoa",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857588,
-		tcgplayer: 662182
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857588,
+				tcgplayer: 662182,
+				cardtrader: 353122
+			}
+		},
+	],	
 }
 
 export default card

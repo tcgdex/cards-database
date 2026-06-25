@@ -38,22 +38,40 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857587,
+				tcgplayer: 662144,
+				cardtrader: 356796
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857587,
+				tcgplayer: 662144,
+				cardtrader: 356796
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 857587,
-		tcgplayer: 662144
-	}
+	illustrator: "Uninori",
+  
 }
 
 export default card

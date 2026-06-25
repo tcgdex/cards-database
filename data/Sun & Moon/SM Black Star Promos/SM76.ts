@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 	illustrator: "match",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+	},
 }
 
 export default card

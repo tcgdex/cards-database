@@ -66,32 +66,34 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794516,
+				tcgplayer: 589932
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794516,
+				tcgplayer: 589932
+			}
 		},
-		{
-			type: "holo",
-			stamp: ['gym-challenge']
-		},
-		{
-			type: "holo",
-			stamp: ['player-rewards-program'],
-			foil: "cosmos"
-		}
 	],
 
 	illustrator: "Naoyo Kimura",
 
-	thirdParty: {
-		cardmarket: 794516
-	}
 }
 
 export default card

@@ -78,27 +78,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "takuyoa",
-
-	thirdParty: {
-		cardmarket: 817250
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817250,
+				tcgplayer: 623525
+			}
 		},
 		{
-			type: 'holo',
-			stamp: ['master-ball-league']
-		},
-		{
-			type: 'holo',
-			stamp: ['player-rewards-program']
-		}
-	]
+				type: 'holo',
+				stamp: ['master-ball-league']
+			},
+			{
+				type: 'holo',
+				stamp: ['player-rewards-program']
+			}
+	],
 }
 
 export default card

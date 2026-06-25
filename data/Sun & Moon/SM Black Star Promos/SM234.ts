@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -63,7 +63,11 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
+	},
 }
 
 export default card

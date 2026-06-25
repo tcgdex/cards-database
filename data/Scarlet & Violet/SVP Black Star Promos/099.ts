@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Sproxi"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],
@@ -57,9 +57,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Hitoshi Ariga"
+	illustrator: "Hitoshi Ariga",
+	description: {
+		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 764543,
+				tcgplayer: 546450
+			},
+		}
+	],
 }
 
 export default card

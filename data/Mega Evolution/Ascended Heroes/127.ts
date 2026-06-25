@@ -61,13 +61,50 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675939,
-		cardmarket: 869738
-	}
+	description: {
+		en: "A single cry from this nocturnal Pokémon, and more than 100 of its Murkrow cronies will assemble.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869738,
+			tcgplayer: 675939
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870335,
+			tcgplayer: 677092
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870336,
+			tcgplayer: 676952
+		}
+	},
+],
 }
 
 export default card

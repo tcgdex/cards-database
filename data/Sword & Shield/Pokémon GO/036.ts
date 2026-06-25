@@ -66,19 +66,38 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
 	},
 
-	thirdParty: {
-		cardmarket: 664576,
-		tcgplayer: 276981
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665666,
+				tcgplayer: 276981
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665666,
+				tcgplayer: 276981
+			}
+		},
+	],
 }
 
 export default card

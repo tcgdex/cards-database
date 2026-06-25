@@ -65,6 +65,12 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+	},
 
 	thirdParty: {
 		cardmarket: 273929,

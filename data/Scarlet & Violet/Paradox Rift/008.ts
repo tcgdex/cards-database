@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its sweat is sweet, like syrup made from boiled- down fruit. Because of this, Bounsweet was highly valued in the past, when sweeteners were scarce.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740484,
+				tcgplayer: 523607,
+				cardtrader: 265006
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740484,
+				tcgplayer: 523607,
+				cardtrader: 265006
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 740484
-	}
+	
 }
 
 export default card

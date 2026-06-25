@@ -44,19 +44,32 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751746,
+				tcgplayer: 535213,
+				cardtrader: 274392
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 751746
-	}
+	description: {
+		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+	},
+
 }
 
 export default card

@@ -65,18 +65,38 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769278,
+				tcgplayer: 550148
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769278,
+				tcgplayer: 550148
+			}
+		},
+	],
 
 	illustrator: "Aya Kusube",
 
-	thirdParty: {
-		cardmarket: 769278
-	}
 }
 
 export default card

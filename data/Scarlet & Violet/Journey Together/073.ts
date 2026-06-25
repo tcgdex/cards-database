@@ -70,22 +70,32 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 817225
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817225,
+				tcgplayer: 623500
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817225,
+				tcgplayer: 623500
+			}
 		},
-	]
+	],
 }
 
 export default card

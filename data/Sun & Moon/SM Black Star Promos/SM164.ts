@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Deoxys"
 	},
 	illustrator: "You Iribi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+	},
 }
 
 export default card

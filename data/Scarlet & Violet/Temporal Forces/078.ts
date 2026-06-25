@@ -66,34 +66,45 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.",
+	},
+
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760708,
+				tcgplayer: 542822
+			}
 		},
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 760708,
+				tcgplayer: 542822
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["trick-or-trade"]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 761972,
+			}
 		},
-		{
-			type: "normal",
-			stamp: ["player-rewards-program"]
-		}
 	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 760708
-	}
 }
 
 export default card

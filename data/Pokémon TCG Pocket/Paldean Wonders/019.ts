@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Charcadet",
+		fr: "Charbambin",
+		en: "Charcadet",
+		es: "Charcadet",
+		it: "Charcadet",
+		pt: "Charcadet",
+		de: "Knarbon"
   },
   illustrator: "Souichirou Gunjima",
   rarity: "One Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Punch",
+        fr: "Koud'Poing",
+        es: "Puño",
+        it: "Pugno",
+        de: "Boxhieb",
+        'pt-br': "Soco",
+        ko: "펀치"
       },
       damage: "10",
       cost: ["Colorless"],

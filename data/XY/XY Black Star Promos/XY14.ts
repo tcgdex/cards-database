@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -79,6 +79,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+	},
 
 	thirdParty: {
 		cardmarket: 552809

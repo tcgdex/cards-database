@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+	},
+
 	thirdParty: {
 		cardmarket: 368938,
 		tcgplayer: 183776

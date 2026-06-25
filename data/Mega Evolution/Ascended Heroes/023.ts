@@ -37,13 +37,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675835,
-		cardmarket: 869634
-	}
+	description: {
+		en: "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869634,
+			tcgplayer: 675835
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870173,
+			tcgplayer: 676871
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870174,
+			tcgplayer: 677011
+		}
+	},
+],
 }
 
 export default card

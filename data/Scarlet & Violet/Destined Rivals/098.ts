@@ -73,21 +73,31 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825972,
+				tcgplayer: 632906
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825972,
+				tcgplayer: 632906
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825972
-	}
 }
 
 export default card

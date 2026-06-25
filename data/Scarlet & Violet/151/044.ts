@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733639,
+				tcgplayer: 516157,
+				cardtrader: 261178
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733639,
+				tcgplayer: 516157,
+				cardtrader: 261178
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 733639
-	}
+	
 }
 
 export default card

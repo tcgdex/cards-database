@@ -63,18 +63,38 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The younger they are, the more they smell like fresh grass. With age, their fragrance takes on the odor of fallen leaves.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769185,
+				tcgplayer: 550055
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769185,
+				tcgplayer: 550055
+			}
+		},
+	],
 
 	illustrator: "Kuroimori",
 
-	thirdParty: {
-		cardmarket: 769185
-	}
 }
 
 export default card

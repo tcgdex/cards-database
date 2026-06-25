@@ -59,13 +59,34 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676046,
-		cardmarket: 869845
-	}
+	description: {
+		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869845,
+				tcgplayer: 676046
+			}
+		}
+	],
 }
 
 export default card

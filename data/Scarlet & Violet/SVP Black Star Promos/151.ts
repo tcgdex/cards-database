@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Keilflamme"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -57,9 +57,33 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Hasuno"
+	illustrator: "Hasuno",
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 793739,
+				tcgplayer: 594382
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 799711,
+				tcgplayer: 607013
+			},
+		}
+	],
 }
 
 export default card

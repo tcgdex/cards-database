@@ -55,20 +55,44 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
 	},
 
-	thirdParty: {
-		cardmarket: 691831,
-		tcgplayer: 478140
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691831,
+				tcgplayer: 478140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691831,
+				tcgplayer: 478140
+			}
+		},
+	],
 }
 
 export default card

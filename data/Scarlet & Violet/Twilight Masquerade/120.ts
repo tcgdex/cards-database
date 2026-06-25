@@ -44,18 +44,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769294,
+				tcgplayer: 550164
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769294,
+				tcgplayer: 550164
+			}
+		},
+	],
 
 	illustrator: "Gapao",
 
-	thirdParty: {
-		cardmarket: 769294
-	}
 }
 
 export default card

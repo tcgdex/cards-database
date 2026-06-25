@@ -44,19 +44,37 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said.",
 	},
 
-	thirdParty: {
-		cardmarket: 691907
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691907,
+				tcgplayer: 478047
+			}
+		},
+	],
 }
 
 export default card

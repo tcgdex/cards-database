@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -77,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+	},
 
 	thirdParty: {
 		cardmarket: 678788

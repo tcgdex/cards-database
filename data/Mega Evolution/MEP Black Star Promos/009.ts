@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],
@@ -73,19 +73,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654597,
-		cardmarket: 851047
-	},
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 851055,
+				tcgplayer: 656259
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 851056,
+				tcgplayer: 656261
+			}
+		},
+	],
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Atsushi Furusawa",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Metal"],

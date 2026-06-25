@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675862,
-		cardmarket: 869661
-	}
+	description: {
+		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869661,
+			tcgplayer: 675862
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870215,
+			tcgplayer: 676892
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870216,
+			tcgplayer: 677032
+		}
+	},
+],
 }
 
 export default card

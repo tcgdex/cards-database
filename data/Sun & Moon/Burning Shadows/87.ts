@@ -96,10 +96,23 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+	},
+
 	thirdParty: {
 		cardmarket: 299489,
 		tcgplayer: 138577
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

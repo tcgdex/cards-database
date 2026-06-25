@@ -62,22 +62,38 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
+	description: {
+		en: "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
+	},
+
+	illustrator: "Shinya Komatsu",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857599,
+				tcgplayer: 662213,
+				cardtrader: 356807
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857599,
+				tcgplayer: 662213,
+				cardtrader: 356807
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857599,
-		tcgplayer: 662213
-	}
 }
 
 export default card

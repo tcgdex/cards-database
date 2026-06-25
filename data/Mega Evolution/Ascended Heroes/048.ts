@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Regice ex"
 	},
 
+	suffix: "ex",
 	illustrator: "akagi",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -69,13 +70,24 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675860,
-		cardmarket: 869659
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869659,
+				tcgplayer: 675860
+			}
+		}
+	],
 }
 
 export default card

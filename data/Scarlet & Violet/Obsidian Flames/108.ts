@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725188,
+				tcgplayer: 509797,
+				cardtrader: 255793
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725188,
+				tcgplayer: 509797,
+				cardtrader: 255793
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 725188
-	}
+	
 }
 
 export default card

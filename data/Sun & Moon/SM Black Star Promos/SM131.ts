@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kaguron"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
+	},
 }
 
 export default card

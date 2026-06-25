@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Morgenschwingen-Necrozma"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -92,6 +92,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Lunala no longer has a will of its own. Now under the control of Necrozma, it continuously expels all of its energy.",
+	},
 }
 
 export default card

@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It hides food under its long fur, but it sometimes forgets about it and causes a stinky disturbance.",
+	},
+
 	thirdParty: {
 		cardmarket: 388652,
 		tcgplayer: 195173

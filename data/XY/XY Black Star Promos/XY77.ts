@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "TOKIYA",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -72,6 +72,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+	},
 
 	thirdParty: {
 		cardmarket: 289800

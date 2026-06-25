@@ -71,13 +71,28 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676031,
-		cardmarket: 869830
-	}
+	description: {
+		en: "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869830,
+				tcgplayer: 676031
+			}
+		}
+	],
 }
 
 export default card

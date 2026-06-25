@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Kangaskhan ex da Equipe Rocket"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -71,13 +72,24 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675974,
-		cardmarket: 869773
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869773,
+				tcgplayer: 675974
+			}
+		}
+	],
 }
 
 export default card

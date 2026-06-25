@@ -29,10 +29,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Sweet Sleeping Face",
 				fr: "Joli visage endormi",
 				de: "Niedliches Schlafgesicht"
 			},
 			effect: {
+				en: "As long as Igglybuff is Asleep, prevent all damage done to Igglybuff by attacks.",
 				fr: "Tant que Toudoudou reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Fluffeluff schläft, verhindere allen Schaden, der Fluffeluff durch Angriffe zugefügt wird."
 			},

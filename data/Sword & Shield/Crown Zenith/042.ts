@@ -65,20 +65,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "By joining its tail with that of another Luxio, this Pokémon can receive some of the other Luxio's electricity and power up its own electric blasts.",
 	},
 
-	thirdParty: {
-		cardmarket: 691758,
-		tcgplayer: 478146
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691759,
+				tcgplayer: 478146
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691759,
+				tcgplayer: 478146
+			}
+		},
+	],
 }
 
 export default card

@@ -35,20 +35,38 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon's stomach is so strong, even eating moldy or rotten food will not affect it.",
 	},
 
-	thirdParty: {
-		cardmarket: 691828,
-		tcgplayer: 478136
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691828,
+				tcgplayer: 478136
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691828,
+				tcgplayer: 478136
+			}
+		},
+	],
 }
 
 export default card

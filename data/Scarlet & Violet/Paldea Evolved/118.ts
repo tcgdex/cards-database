@@ -44,18 +44,39 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715593,
+				tcgplayer: 497533,
+				cardtrader: 248765
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715593,
+				tcgplayer: 497533,
+				cardtrader: 248765
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 715593
-	}
+	description: {
+		en: "This Pokémon battles by throwing hard berries. It won't obey a Trainer who throws Poké Balls without skill.",
+	},
 }
 
 export default card

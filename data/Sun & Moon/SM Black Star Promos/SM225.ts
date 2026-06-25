@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Victini"
 	},
 	illustrator: "Nagimiso",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -77,6 +77,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+	},
 }
 
 export default card

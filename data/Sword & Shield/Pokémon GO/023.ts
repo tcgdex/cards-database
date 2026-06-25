@@ -57,19 +57,38 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
 	},
 
-	thirdParty: {
-		cardmarket: 664562,
-		tcgplayer: 276957
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665661,
+				tcgplayer: 276957
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665661,
+				tcgplayer: 276957
+			}
+		},
+	],
 }
 
 export default card

@@ -44,18 +44,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is said that a home visited by a Snorunt will prosper. It can withstand cold of −150 degrees Fahrenheit.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769225,
+				tcgplayer: 550095
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769225,
+				tcgplayer: 550095
+			}
+		},
+	],
 
 	illustrator: "Mékayu",
 
-	thirdParty: {
-		cardmarket: 769225
-	}
 }
 
 export default card

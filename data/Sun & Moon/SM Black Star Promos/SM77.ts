@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mewtu"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -77,6 +77,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+	},
 }
 
 export default card

@@ -72,19 +72,32 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715686,
+				tcgplayer: 497614,
+				cardtrader: 248865
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 715686
-	}
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+	},
 }
 
 export default card

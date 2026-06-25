@@ -71,13 +71,44 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675840,
-		cardmarket: 869639
-	}
+	description: {
+		en: "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869639,
+			tcgplayer: 675840
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870181,
+			tcgplayer: 676875
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870182,
+			tcgplayer: 677015
+		}
+	},
+],
 }
 
 export default card

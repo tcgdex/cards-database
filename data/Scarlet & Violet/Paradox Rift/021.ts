@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740497,
+				tcgplayer: 523622,
+				cardtrader: 265096
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740497,
+				tcgplayer: 523622,
+				cardtrader: 265096
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
-	thirdParty: {
-		cardmarket: 740497
-	}
+	
 }
 
 export default card

@@ -52,18 +52,41 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733735,
+				tcgplayer: 516703,
+				cardtrader: 261187
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733735,
+				tcgplayer: 516703,
+				cardtrader: 261187
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 733735
-	}
+	
 }
 
 export default card

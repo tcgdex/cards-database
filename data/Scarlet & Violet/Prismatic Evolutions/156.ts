@@ -72,19 +72,27 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
+	suffix: "ex",
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 805550
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805550,
+				tcgplayer: 610511
+			}
+		},
+	],
 }
 
 export default card

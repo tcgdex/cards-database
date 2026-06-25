@@ -55,20 +55,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When Tauros begins whipping itself with its tails, it's a warning that the Pokémon is about to charge with astounding speed.",
 	},
 
-	thirdParty: {
-		cardmarket: 691825,
-		tcgplayer: 478114
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691825,
+				tcgplayer: 478114
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691825,
+				tcgplayer: 478114
+			}
+		},
+	],
 }
 
 export default card

@@ -29,27 +29,24 @@ const card: Card = {
 	regulationMark: "H",
 
 	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal",
-			stamp: ["regional-championships"]
-		},
-		{
-			type: "normal",
-			stamp: ["regional-championships", "staff"]
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 794560,
+			tcgplayer: 590066
 		}
-	],
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 794560,
+			tcgplayer: 590066
+		}
+	},
+],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 794560
-	}
 }
 
 export default card

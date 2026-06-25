@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Mawile ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -72,19 +73,30 @@ const card: Card = {
 		damage: 260
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851233,
+				tcgplayer: 654501
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654501,
-		cardmarket: 851233
-	}
 }
 
 export default card

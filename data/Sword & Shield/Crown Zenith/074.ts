@@ -54,20 +54,38 @@ const card: Card = {
 		damage: "240-"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This form of Lycanroc is reckless. It charges headlong at its opponents, attacking without any care about what injuries it might receive.",
 	},
 
-	thirdParty: {
-		cardmarket: 691792,
-		tcgplayer: 478207
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691792,
+				tcgplayer: 478207
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691792,
+				tcgplayer: 478207
+			}
+		},
+	],
 }
 
 export default card

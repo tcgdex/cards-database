@@ -43,6 +43,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+	},
 
 	thirdParty: {
 		cardmarket: 274001,

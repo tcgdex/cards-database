@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Entei"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -60,7 +60,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+	},
 }
 
 export default card

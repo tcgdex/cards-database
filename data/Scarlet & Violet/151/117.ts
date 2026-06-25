@@ -52,18 +52,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Seadra's mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that's larger than the opening of its mouth.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733712,
+				tcgplayer: 516584,
+				cardtrader: 261216
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733712,
+				tcgplayer: 516584,
+				cardtrader: 261216
+			}
+		},
+	],
 
 	illustrator: "aspara",
 
-	thirdParty: {
-		cardmarket: 733712
-	}
+	
 }
 
 export default card

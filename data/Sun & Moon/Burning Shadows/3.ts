@@ -92,10 +92,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Close examination of its large eyes reveals that each eye is composed of a myriad of tiny eyes.",
+	},
+
 	thirdParty: {
 		cardmarket: 299410,
 		tcgplayer: 138273
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -74,18 +74,47 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725226,
+				tcgplayer: 509932,
+				cardtrader: 255831
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725226,
+				tcgplayer: 509932,
+				cardtrader: 255831
+			}
+		},
+	],
 
 	illustrator: "takuyoa",
 
-	thirdParty: {
-		cardmarket: 725226
-	}
+	
 }
 
 export default card

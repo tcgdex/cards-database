@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -86,6 +86,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+	},
 }
 
 export default card

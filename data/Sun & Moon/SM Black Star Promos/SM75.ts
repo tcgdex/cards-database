@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Registeel"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -92,6 +92,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched.",
+	},
 }
 
 export default card

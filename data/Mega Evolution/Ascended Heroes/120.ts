@@ -69,13 +69,44 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675932,
-		cardmarket: 869731
-	}
+	description: {
+		en: "It’s gentle usually but fearsome when angered. With a body that burns at over 2,700 degrees Fahrenheit, it crushes foes and turns them to ash.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869731,
+			tcgplayer: 675932
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870325,
+			tcgplayer: 676947
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870326,
+			tcgplayer: 677087
+		}
+	},
+],
 }
 
 export default card

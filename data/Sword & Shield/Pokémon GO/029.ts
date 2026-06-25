@@ -57,19 +57,38 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
 	},
 
-	thirdParty: {
-		cardmarket: 664568,
-		tcgplayer: 276954
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665264,
+				tcgplayer: 276954
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665264,
+				tcgplayer: 276954
+			}
+		},
+	],
 }
 
 export default card

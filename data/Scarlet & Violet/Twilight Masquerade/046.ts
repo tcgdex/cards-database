@@ -55,18 +55,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769220,
+				tcgplayer: 550090
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769220,
+				tcgplayer: 550090
+			}
+		},
+	],
 
 	illustrator: "Gapao",
 
-	thirdParty: {
-		cardmarket: 769220
-	}
 }
 
 export default card

@@ -47,13 +47,44 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675829,
-		cardmarket: 869628
-	}
+	description: {
+		en: "It spits sticky threads and winds them around branches, then swings nimbly from tree to tree in a pendulum-like motion.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869628,
+				tcgplayer: 675829
+			}
+		},
+		{
+			type: "reverse",
+			foil: "quickball",
+			thirdParty: {
+				cardmarket: 870163,
+				tcgplayer: 676866
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870164,
+				tcgplayer: 677006
+			}
+		},
+	],
 }
 
 export default card

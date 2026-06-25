@@ -13,6 +13,15 @@ const card: Card = {
 		it: "Mega Lopunny-ex",
 		pt: "Mega Lopunny ex"
 	},
+	evolveFrom: {
+		en: "Buneary",
+		de: "Haspiror",
+		es: "Buneary",
+		'es-mx': "Buneary",
+		fr: "Laporeille",
+		it: "Buneary",
+		pt: "Buneary",
+	},
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -72,19 +81,26 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857690,
+				tcgplayer: 662189,
+				cardtrader: 356901
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857690,
-		tcgplayer: 662189
-	}
 }
 
 export default card

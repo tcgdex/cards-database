@@ -15,8 +15,9 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
-		fr: "{{Infobox Faculté (JCC) | description=Retirez à 1 de vos Pokémon 2 marqueurs de dégât (ou un s'il n'y en a qu'un). }",
-		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat)."
+		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
+		fr: "Soignez 30 dégâts à 1 de vos Pokémon .",
+		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat).",
 	},
 
 	thirdParty: {

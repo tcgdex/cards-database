@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pikachu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -55,6 +55,12 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
@@ -63,7 +69,8 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 461594
+		cardmarket: 461594,
+		tcgplayer: 277039
 	}
 }
 

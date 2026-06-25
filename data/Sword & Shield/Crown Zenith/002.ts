@@ -54,20 +54,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
 	},
 
-	thirdParty: {
-		cardmarket: 691719,
-		tcgplayer: 478042
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691719,
+				tcgplayer: 478042
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691719,
+				tcgplayer: 478042
+			}
+		},
+	],
 }
 
 export default card

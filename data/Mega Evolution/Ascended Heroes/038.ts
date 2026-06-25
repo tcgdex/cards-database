@@ -13,7 +13,17 @@ const card: Card = {
 		it: "Cinderace-ex",
 		pt: "Cinderace ex"
 	},
+	evolveFrom: {
+		en: "Raboot",
+		de: "Kickerlo",
+		es: "Raboot",
+		'es-mx': "Raboot",
+		fr: "Lapyro",
+		it: "Raboot",
+		pt: "Raboot",
+	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -69,13 +79,24 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675850,
-		cardmarket: 869649
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869649,
+				tcgplayer: 675850
+			}
+		}
+	],
 }
 
 export default card

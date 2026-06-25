@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+	},
+
 	thirdParty: {
 		cardmarket: 280815,
 		tcgplayer: 88761

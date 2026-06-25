@@ -46,22 +46,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "En Morikura",
 
-	thirdParty: {
-		cardmarket: 817278
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817278,
+				tcgplayer: 623553
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817278,
+				tcgplayer: 623553
+			}
 		},
-	]
+	],
 }
 
 export default card

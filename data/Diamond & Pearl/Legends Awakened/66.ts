@@ -85,6 +85,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
+		en: "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
 		fr: "Il traque ses proies en groupe. Il ne désobéira jamais aux ordres d'un bon Dresseur."
 	},
 

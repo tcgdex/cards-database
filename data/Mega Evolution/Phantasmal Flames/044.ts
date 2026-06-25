@@ -48,22 +48,38 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Desserts that Alcremie have decorated with their cream have a rich, sweet flavor and bring happiness to all who eat them.",
+	},
+
+	illustrator: "Narumi Sato",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857619,
+				tcgplayer: 660384,
+				cardtrader: 356827
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857619,
+				tcgplayer: 660384,
+				cardtrader: 356827
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857619,
-		tcgplayer: 660384
-	}
 }
 
 export default card

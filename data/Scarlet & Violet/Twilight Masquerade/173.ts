@@ -74,19 +74,31 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769347,
+				tcgplayer: 550217
+			}
+		},
+	],
 
 	illustrator: "Krgc",
 
-	thirdParty: {
-		cardmarket: 769347
-	}
 }
 
 export default card

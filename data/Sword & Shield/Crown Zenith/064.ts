@@ -66,20 +66,38 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Although called a guardian deity, Tapu Lele is devoid of guilt about its cruel disposition and can be described as nature incarnate.",
 	},
 
-	thirdParty: {
-		cardmarket: 691781,
-		tcgplayer: 478183
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691781,
+				tcgplayer: 478183
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691781,
+				tcgplayer: 478183
+			}
+		},
+	],
 }
 
 export default card

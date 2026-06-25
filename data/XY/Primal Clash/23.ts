@@ -97,6 +97,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
+	},
+
 	thirdParty: {
 		cardmarket: 273554,
 		tcgplayer: 95907

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mobtiff"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],
@@ -44,9 +44,24 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Kagemaru Himeno"
+	illustrator: "Kagemaru Himeno",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751795,
+				tcgplayer: 536075
+			},
+		}
+	],
 }
 
 export default card

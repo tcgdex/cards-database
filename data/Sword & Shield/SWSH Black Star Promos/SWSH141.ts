@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Pikachu V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "V-UNION",
 
@@ -71,6 +71,12 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
 	variants: {
 		normal: false,

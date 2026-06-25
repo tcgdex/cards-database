@@ -65,20 +65,31 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760813,
+				tcgplayer: 542904
+			}
+		},
 	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 760813
-	}
 }
 
 export default card

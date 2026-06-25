@@ -52,18 +52,41 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733615,
+				tcgplayer: 502569,
+				cardtrader: 261212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733615,
+				tcgplayer: 502569,
+				cardtrader: 261212
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 733615
-	}
+	
 }
 
 export default card

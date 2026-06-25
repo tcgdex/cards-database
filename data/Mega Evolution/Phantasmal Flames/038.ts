@@ -62,22 +62,38 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+	},
+
+	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857613,
+				tcgplayer: 662165,
+				cardtrader: 356821
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857613,
+				tcgplayer: 662165,
+				cardtrader: 356821
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857613,
-		tcgplayer: 662165
-	}
 }
 
 export default card

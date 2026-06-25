@@ -59,18 +59,24 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826073,
+				tcgplayer: 632999
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826073
-	}
 }
 
 export default card

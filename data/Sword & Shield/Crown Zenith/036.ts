@@ -62,20 +62,38 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
 	},
 
-	thirdParty: {
-		cardmarket: 691753,
-		tcgplayer: 478135
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691753,
+				tcgplayer: 478135
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691753,
+				tcgplayer: 478135
+			}
+		},
+	],
 }
 
 export default card

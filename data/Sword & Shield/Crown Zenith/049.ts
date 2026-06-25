@@ -48,20 +48,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves.",
 	},
 
-	thirdParty: {
-		cardmarket: 691766,
-		tcgplayer: 478158
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691766,
+				tcgplayer: 478158
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691766,
+				tcgplayer: 478158
+			}
+		},
+	],
 }
 
 export default card

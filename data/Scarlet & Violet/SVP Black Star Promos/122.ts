@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Relaxo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Colorless"],
@@ -35,9 +35,28 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "Po-Suzuki"
+	illustrator: "Po-Suzuki",
+	description: {
+		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 769422,
+				tcgplayer: 554297
+			},
+		}
+	],
 }
 
 export default card

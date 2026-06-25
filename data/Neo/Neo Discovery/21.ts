@@ -79,8 +79,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
 		fr: "Son corps est protégé par une coquille dure comme l'acier. Ce que cache l'armure reste un mystère complet."
 	},
 

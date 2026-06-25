@@ -52,22 +52,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+	},
+
+	illustrator: "Taiga Kasai",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857639,
+				tcgplayer: 662225,
+				cardtrader: 356848
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857639,
-		tcgplayer: 662225
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857639,
+				tcgplayer: 662225,
+				cardtrader: 356848
+			}
+		},
+	],	
 }
 
 export default card

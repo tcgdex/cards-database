@@ -66,18 +66,41 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon wears the skull of its deceased mother. Sometimes Cubone's dreams make it cry, but each tear Cubone sheds makes it stronger.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733699,
+				tcgplayer: 516673,
+				cardtrader: 261628
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733699,
+				tcgplayer: 516673,
+				cardtrader: 261628
+			}
+		},
+	],
 
 	illustrator: "Shinya Komatsu",
 
-	thirdParty: {
-		cardmarket: 733699
-	}
+	
 }
 
 export default card

@@ -57,18 +57,47 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733616,
+				tcgplayer: 502587,
+				cardtrader: 261150
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733616,
+				tcgplayer: 502587,
+				cardtrader: 261150
+			}
+		},
+	],
 
 	illustrator: "Gemi",
 
-	thirdParty: {
-		cardmarket: 733616
-	}
+	
 }
 
 export default card

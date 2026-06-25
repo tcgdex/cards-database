@@ -103,10 +103,23 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.",
+	},
+
 	thirdParty: {
 		cardmarket: 299466,
 		tcgplayer: 138544
-	}
+	},
+
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

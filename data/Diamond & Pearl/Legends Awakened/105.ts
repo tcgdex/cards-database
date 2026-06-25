@@ -78,6 +78,7 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
+		en: "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
 		fr: "Il vivait au fond de la mer il y a 100 millions d'années. La science a permis de le ressusciter."
 	},
 

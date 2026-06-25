@@ -37,22 +37,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 817270
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817270,
+				tcgplayer: 623545
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817270,
+				tcgplayer: 623545
+			}
 		},
-	]
+	],
 }
 
 export default card

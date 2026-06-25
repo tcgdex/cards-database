@@ -64,8 +64,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat.",
 		fr: "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain."
 	},
 

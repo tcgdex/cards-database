@@ -62,19 +62,30 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+	},
+
+	illustrator: "Ryoto Muriyama",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857676,
+				tcgplayer: 662160,
+				cardtrader: 356887
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857676,
-		tcgplayer: 662160
-	}
 }
 
 export default card

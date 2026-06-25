@@ -55,19 +55,44 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "Where people go, these Pokémon follow. If you're scattering food for them, be careful— several hundred of them can gather at once.",
 	},
 
-	thirdParty: {
-		cardmarket: 664632,
-		tcgplayer: 276985
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665678,
+				tcgplayer: 276985
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665678,
+				tcgplayer: 276985
+			}
+		},
+	],
 }
 
 export default card

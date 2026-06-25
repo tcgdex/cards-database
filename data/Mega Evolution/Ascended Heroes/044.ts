@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675856,
-		cardmarket: 869655
-	}
+	description: {
+		en: "This is a smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869655,
+			tcgplayer: 675856
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870207,
+			tcgplayer: 676888
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870208,
+			tcgplayer: 677028
+		}
+	},
+],
 }
 
 export default card

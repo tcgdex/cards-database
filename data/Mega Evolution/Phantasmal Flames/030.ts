@@ -48,22 +48,38 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+	},
+
+	illustrator: "Ayako Ozaki",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857605,
-		tcgplayer: 662242
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
+		},
+	],	
 }
 
 export default card

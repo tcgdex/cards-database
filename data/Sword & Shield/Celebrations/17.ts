@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Groudon",
@@ -26,6 +20,18 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	hp: 130,
 	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				fr: "Rayon Obscur",
+			},
+			effect: {
+				fr: "Une seule fois lors de votre tour, lorsque vous placez Noctali Star de votre main sur votre Banc, vous pouvez choisir 1 carte de la main de votre adversaire sans regarder et la défausser.",
+			},
+		},
+	],
 
 	attacks: [{
 		name: {
@@ -76,10 +82,16 @@ const card: Card = {
 
 	dexId: [383],
 
-	thirdParty: {
-		cardmarket: 576762,
-		tcgplayer: 250314
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['25th-celebration'],
+			thirdParty: {
+				cardmarket: 576762,
+				tcgplayer: 250314
+			}
+		},
+	],
 }
 
 export default card

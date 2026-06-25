@@ -57,19 +57,31 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
 	},
 
-	thirdParty: {
-		cardmarket: 691886
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691886,
+				tcgplayer: 478024
+			}
+		},
+	],
 }
 
 export default card

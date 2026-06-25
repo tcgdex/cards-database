@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "BREAK",
 
@@ -56,6 +56,18 @@ const card: Card = {
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 
 	variants: {
 		normal: false,

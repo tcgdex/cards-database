@@ -64,18 +64,42 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
 
 	illustrator: "SIE NANAHARA",
 
-	thirdParty: {
-		cardmarket: 780930
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 780930,
+				tcgplayer: 560345
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 780930,
+				tcgplayer: 560345
+			}
+		},
+	],
 }
 
 export default card

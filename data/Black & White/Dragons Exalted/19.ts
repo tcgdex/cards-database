@@ -82,6 +82,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+	},
+
 	thirdParty: {
 		cardmarket: 280458,
 		tcgplayer: 87778

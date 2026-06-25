@@ -71,13 +71,44 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675868,
-		cardmarket: 869667
-	}
+	description: {
+		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869667,
+			tcgplayer: 675868
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870227,
+			tcgplayer: 676898
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870228,
+			tcgplayer: 677038
+		}
+	},
+],
 }
 
 export default card

@@ -13,7 +13,17 @@ const card: Card = {
 		it: "Mandibuzz-ex",
 		pt: "Mandibuzz ex"
 	},
+	evolveFrom: {
+		en: "Vullaby",
+		de: "Skallyk",
+		es: "Vullaby",
+		'es-mx': "Vullaby",
+		fr: "Vostourno",
+		it: "Vullaby",
+		pt: "Vullaby",
+	},
 
+	suffix: "ex",
 	illustrator: "Ultimateinudog",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -69,13 +79,30 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675951,
-		cardmarket: 869750
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869750,
+				tcgplayer: 675951
+			}
+		}
+	],
 }
 
 export default card

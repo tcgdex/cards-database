@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Regirock ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Nisota Niso",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -69,13 +70,24 @@ const card: Card = {
 		damage: "140+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675919,
-		cardmarket: 869718
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869718,
+				tcgplayer: 675919
+			}
+		}
+	],
 }
 
 export default card

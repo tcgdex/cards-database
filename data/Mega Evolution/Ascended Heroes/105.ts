@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675917,
-		cardmarket: 869716
-	}
+	description: {
+		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869716,
+			tcgplayer: 675917
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870305,
+			tcgplayer: 676937
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870306,
+			tcgplayer: 677077
+		}
+	},
+],
 }
 
 export default card

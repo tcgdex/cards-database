@@ -65,18 +65,38 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769209,
+				tcgplayer: 550079
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769209,
+				tcgplayer: 550079
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 769209
-	}
 }
 
 export default card

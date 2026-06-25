@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Zubat live in caves, down where the sun's light won't reach. In the morning, they gather together to keep each other warm as they sleep.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740628,
+				tcgplayer: 523783,
+				cardtrader: 265220
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740628,
+				tcgplayer: 523783,
+				cardtrader: 265220
+			}
+		},
+	],
 
 	illustrator: "Sumiyoshi Kizuki",
 
-	thirdParty: {
-		cardmarket: 740628
-	}
+	
 }
 
 export default card

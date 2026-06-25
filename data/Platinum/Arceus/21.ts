@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+	},
+
 	thirdParty: {
 		cardmarket: 278893,
 		tcgplayer: 86827

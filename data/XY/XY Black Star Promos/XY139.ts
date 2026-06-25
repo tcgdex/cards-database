@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -77,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
+	},
 
 	thirdParty: {
 		cardmarket: 291580

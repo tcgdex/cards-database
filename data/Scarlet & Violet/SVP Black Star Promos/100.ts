@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Affiti-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Colorless"],
@@ -74,9 +74,33 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "aky CG Works"
+	suffix: "ex",
+	illustrator: "aky CG Works",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 764544,
+				tcgplayer: 546448
+			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 764545,
+				tcgplayer: 548540
+			}
+		}
+	],
 }
 
 export default card

@@ -79,10 +79,23 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The fur on its body naturally repels water. It can stay dry, even when it plays in the water.",
+	},
+
 	thirdParty: {
 		cardmarket: 299439,
 		tcgplayer: 138514
-	}
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
 }
 
 export default card

@@ -74,19 +74,32 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751676,
+				tcgplayer: 534533,
+				cardtrader: 274320
+			}
+		},
+	],
 
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 751676
-	}
+	description: {
+		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+	},
+
 }
 
 export default card

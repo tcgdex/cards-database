@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Seeper"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],
@@ -35,9 +35,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "MAHOU"
+	illustrator: "MAHOU",
+	description: {
+		en: "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 785846,
+				tcgplayer: 585578
+			},
+		}
+	],
 }
 
 export default card

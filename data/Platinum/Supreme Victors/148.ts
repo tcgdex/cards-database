@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This legendary Pokémon is said to freeze the water in the air during winter, causing snow.",
+	},
+
 	thirdParty: {
 		cardmarket: 278707
 	},

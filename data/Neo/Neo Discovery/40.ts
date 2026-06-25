@@ -42,6 +42,7 @@ const card: Card = {
 	],
 
 	description: {
+		en: "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
 		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement — tout le temps, et dans toutes les directions."
 	},
 

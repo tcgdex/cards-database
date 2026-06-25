@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Crimanzo-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fire"],
@@ -52,9 +52,21 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "PLANETA Tsuji"
+	suffix: "ex",
+	illustrator: "PLANETA Tsuji",
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 }
 
 export default card

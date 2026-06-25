@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Brutalanda"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -81,6 +81,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up the fields it passes over.",
+	},
 }
 
 export default card

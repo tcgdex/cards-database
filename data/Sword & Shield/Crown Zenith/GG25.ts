@@ -76,19 +76,31 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
 	},
 
-	thirdParty: {
-		cardmarket: 691904
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691904,
+				tcgplayer: 475643
+			}
+		},
+	],
 }
 
 export default card

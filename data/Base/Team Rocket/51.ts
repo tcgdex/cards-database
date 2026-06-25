@@ -81,8 +81,11 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "A Raticate's front teeth are incredibly powerful; it can destroy a two-story house with them in 5 minutes.",
 		fr: "Les incisives d'un Rattatac sont incroyablement puissantes ; grâce à elle, il est capable de détruire une maison de 2 étages en 5 minutes."
 	},
 

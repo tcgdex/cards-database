@@ -44,20 +44,38 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
 	},
 
-	thirdParty: {
-		cardmarket: 691795,
-		tcgplayer: 478215
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691795,
+				tcgplayer: 478215
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691795,
+				tcgplayer: 478215
+			}
+		},
+	],
 }
 
 export default card

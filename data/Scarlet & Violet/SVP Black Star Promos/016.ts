@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Ampharos-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Lightning"],
@@ -65,9 +65,29 @@ const card: Card = {
 		damage: "140+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "PLANETA Tsuji"
+	suffix: "ex",
+	illustrator: "PLANETA Tsuji",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 703186,
+				tcgplayer: 484397
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"]
+		}
+	],
 }
 
 export default card

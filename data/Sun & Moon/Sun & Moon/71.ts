@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Known for its hefty horsepower, this Pokémon is a popular partner for construction workers.",
+	},
+
 	thirdParty: {
 		cardmarket: 295382,
 		tcgplayer: 126942

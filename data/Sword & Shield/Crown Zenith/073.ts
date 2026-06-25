@@ -55,20 +55,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
 	},
 
-	thirdParty: {
-		cardmarket: 691791,
-		tcgplayer: 478204
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691791,
+				tcgplayer: 478204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691791,
+				tcgplayer: 478204
+			}
+		},
+	],
 }
 
 export default card

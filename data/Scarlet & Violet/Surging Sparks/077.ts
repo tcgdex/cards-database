@@ -55,23 +55,40 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794375,
+				tcgplayer: 589986
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794375,
+				tcgplayer: 589986
+			}
+		},
 	],
 	
 	illustrator: "kantaro",
-
-	thirdParty: {
-		cardmarket: 794375
-	}
+	
 }
 
 export default card

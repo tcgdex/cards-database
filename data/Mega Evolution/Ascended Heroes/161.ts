@@ -69,13 +69,44 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675973,
-		cardmarket: 869772
-	}
+	description: {
+		en: "All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869772,
+			tcgplayer: 675973
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870387,
+			tcgplayer: 677118
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870388,
+			tcgplayer: 676978
+		}
+	},
+],
 }
 
 export default card

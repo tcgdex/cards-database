@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -50,6 +50,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "This Pokémon lives in caves with volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+	},
 
 	thirdParty: {
 		cardmarket: 290104

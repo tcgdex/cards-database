@@ -55,20 +55,38 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
 	},
 
-	thirdParty: {
-		cardmarket: 691748,
-		tcgplayer: 478130
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691748,
+				tcgplayer: 478130
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691748,
+				tcgplayer: 478130
+			}
+		},
+	],
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Flareon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -78,7 +78,17 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "SIE NANAHARA"
+	illustrator: "SIE NANAHARA",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 805364,
+				tcgplayer: 611826
+			},
+		}
+	],
 }
 
 export default card

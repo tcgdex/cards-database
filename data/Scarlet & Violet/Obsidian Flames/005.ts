@@ -64,18 +64,41 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725085,
+				tcgplayer: 509657,
+				cardtrader: 255565
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725085,
+				tcgplayer: 509657,
+				cardtrader: 255565
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 725085
-	}
+	
 }
 
 export default card

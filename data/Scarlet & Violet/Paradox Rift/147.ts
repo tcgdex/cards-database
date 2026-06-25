@@ -44,18 +44,41 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon needs to be milked every day, or else it will fall ill. The flavor of Miltank milk changes with the seasons.",
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740687,
+				tcgplayer: 523828,
+				cardtrader: 265258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740687,
+				tcgplayer: 523828,
+				cardtrader: 265258
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 740687
-	}
+	
 }
 
 export default card

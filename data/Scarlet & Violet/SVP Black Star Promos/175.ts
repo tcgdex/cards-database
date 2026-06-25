@@ -12,7 +12,7 @@ const card: Card = {
 		it: "Espeon-ex",
 		de: "Psiana-ex"
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],
@@ -80,7 +80,17 @@ const card: Card = {
 	],
 	retreat: 1,
 	regulationMark: "H",
+	suffix: "ex",
 	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 850982,
+				tcgplayer: 655095
+			}
+		}
+	],
 }
 
 export default card

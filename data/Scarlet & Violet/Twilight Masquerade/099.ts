@@ -62,18 +62,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769273,
+				tcgplayer: 550143
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769273,
+				tcgplayer: 550143
+			}
+		},
+	],
 
 	illustrator: "Whisker",
 
-	thirdParty: {
-		cardmarket: 769273
-	}
 }
 
 export default card

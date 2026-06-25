@@ -63,19 +63,48 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Scales shed by this Pokémon have such a splendorous gleam to them that they've been given to royalty as gifts.",
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740508,
+				tcgplayer: 523641,
+				cardtrader: 265176
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786600
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740508,
+				tcgplayer: 523641,
+				cardtrader: 265176
+			}
+		},
+	],
 
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 740508
-	}
+	
 }
 
 export default card

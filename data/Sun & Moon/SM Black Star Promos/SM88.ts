@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Latios"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -81,6 +81,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+	},
 }
 
 export default card

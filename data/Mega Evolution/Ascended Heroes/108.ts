@@ -61,13 +61,44 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675920,
-		cardmarket: 869719
-	}
+	description: {
+		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869719,
+			tcgplayer: 675920
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870309,
+			tcgplayer: 676939
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870310,
+			tcgplayer: 677079
+		}
+	},
+],
 }
 
 export default card

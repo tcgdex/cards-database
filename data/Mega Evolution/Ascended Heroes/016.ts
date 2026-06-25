@@ -45,13 +45,44 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675828,
-		cardmarket: 869627
-	}
+	description: {
+		en: "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869627,
+				tcgplayer: 675828
+			}
+		},
+		{
+			type: "reverse",
+			foil: "friendball",
+			thirdParty: {
+				cardmarket: 870161,
+				tcgplayer: 676865
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870162,
+				tcgplayer: 677005
+			}
+		},
+	],
 }
 
 export default card

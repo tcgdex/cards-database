@@ -48,6 +48,8 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 4,
+
 
 	thirdParty: {
 		cardmarket: 278845

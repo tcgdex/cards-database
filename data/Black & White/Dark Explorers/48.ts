@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+	},
+
 	thirdParty: {
 		cardmarket: 280376,
 		tcgplayer: 85325

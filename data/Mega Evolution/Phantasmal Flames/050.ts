@@ -48,22 +48,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
+	},
+
+	illustrator: "Dsuke",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857625,
+				tcgplayer: 662163,
+				cardtrader: 356833
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857625,
-		tcgplayer: 662163
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857625,
+				tcgplayer: 662163,
+				cardtrader: 356833
+			}
+		},
+	],	
 }
 
 export default card

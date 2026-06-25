@@ -67,6 +67,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+	},
 
 	variants: [
 		{

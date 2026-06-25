@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Kangama-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Colorless"],
@@ -64,9 +64,25 @@ const card: Card = {
 		damage: "100×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "N-DESIGN Inc."
+	suffix: "ex",
+	illustrator: "N-DESIGN Inc.",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 723929,
+				tcgplayer: 519482
+			},
+		}
+	],
 }
 
 export default card

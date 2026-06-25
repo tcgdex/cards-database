@@ -48,20 +48,38 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
 	},
 
-	thirdParty: {
-		cardmarket: 691721,
-		tcgplayer: 478050
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691721,
+				tcgplayer: 478050
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691721,
+				tcgplayer: 478050
+			}
+		},
+	],
 }
 
 export default card

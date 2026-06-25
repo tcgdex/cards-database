@@ -68,6 +68,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+	},
+
 	thirdParty: {
 		cardmarket: 277980,
 		tcgplayer: 87131

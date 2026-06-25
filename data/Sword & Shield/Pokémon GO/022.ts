@@ -74,19 +74,38 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets.",
 	},
 
-	thirdParty: {
-		cardmarket: 664561,
-		tcgplayer: 276955
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665253,
+				tcgplayer: 276955
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665253,
+				tcgplayer: 276955
+			}
+		},
+	],
 }
 
 export default card

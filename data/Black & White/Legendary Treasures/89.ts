@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+	},
+
 	thirdParty: {
 		cardmarket: 281240,
 		tcgplayer: 90763

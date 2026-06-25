@@ -55,18 +55,46 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715484,
+				tcgplayer: 497423,
+				cardtrader: 248308
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['horizons'],
+			thirdParty: {
+				cardmarket: 794945
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715484,
+				tcgplayer: 497423,
+				cardtrader: 248308
+			}
+		},
+	],
 
 	illustrator: "Megumi Mizutani",
 
-	thirdParty: {
-		cardmarket: 715484
-	}
+	description: {
+		en: "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+	},
 }
 
 export default card

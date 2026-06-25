@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Quartermak"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -85,6 +85,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
+	},
 }
 
 export default card

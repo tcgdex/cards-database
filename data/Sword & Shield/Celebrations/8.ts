@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Surfing Pikachu V",
@@ -51,10 +45,16 @@ const card: Card = {
 	suffix: "V",
 	dexId: [25],
 
-	thirdParty: {
-		cardmarket: 576753,
-		tcgplayer: 250306
-	}
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['25th-celebration'],
+			thirdParty: {
+				cardmarket: 576753,
+				tcgplayer: 250306
+			}
+		},
+	],
 }
 
 export default card
