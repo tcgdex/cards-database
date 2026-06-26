@@ -82,9 +82,15 @@ const card: Card = {
 		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
 	},
 
-	thirdParty: {
-		cardmarket: 539158
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539533,
+				tcgplayer: 232382
+			}
+		},
+	],
 }
 
 export default card

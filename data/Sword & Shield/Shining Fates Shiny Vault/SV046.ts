@@ -74,9 +74,15 @@ const card: Card = {
 		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
 	},
 
-	thirdParty: {
-		cardmarket: 539613
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539613,
+				tcgplayer: 232405
+			}
+		},
+	],
 }
 
 export default card

@@ -60,9 +60,15 @@ const card: Card = {
 		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
 	},
 
-	thirdParty: {
-		cardmarket: 539648
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539648,
+				tcgplayer: 232415
+			}
+		},
+	],
 }
 
 export default card

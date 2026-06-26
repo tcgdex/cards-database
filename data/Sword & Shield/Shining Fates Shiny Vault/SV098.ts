@@ -69,9 +69,15 @@ const card: Card = {
 		en: "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it."
 	},
 
-	thirdParty: {
-		cardmarket: 539878
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539878,
+				tcgplayer: 232486
+			}
+		},
+	],
 }
 
 export default card

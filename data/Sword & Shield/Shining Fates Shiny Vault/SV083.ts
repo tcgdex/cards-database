@@ -59,9 +59,15 @@ const card: Card = {
 		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
 	},
 
-	thirdParty: {
-		cardmarket: 539803
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539803,
+				tcgplayer: 232464
+			}
+		},
+	],
 }
 
 export default card

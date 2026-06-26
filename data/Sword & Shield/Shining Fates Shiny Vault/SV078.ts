@@ -78,9 +78,15 @@ const card: Card = {
 		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
 	},
 
-	thirdParty: {
-		cardmarket: 539778
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539778,
+				tcgplayer: 232454
+			}
+		},
+	],
 }
 
 export default card

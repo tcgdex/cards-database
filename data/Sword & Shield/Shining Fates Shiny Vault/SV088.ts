@@ -83,9 +83,15 @@ const card: Card = {
 		en: "Living in mud with a high iron content has given it a strong steel body."
 	},
 
-	thirdParty: {
-		cardmarket: 539828
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539828,
+				tcgplayer: 232472
+			}
+		},
+	],
 }
 
 export default card

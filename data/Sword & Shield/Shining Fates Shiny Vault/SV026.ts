@@ -74,9 +74,15 @@ const card: Card = {
 		en: "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms."
 	},
 
-	thirdParty: {
-		cardmarket: 539518
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539518,
+				tcgplayer: 232377
+			}
+		},
+	],
 }
 
 export default card

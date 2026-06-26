@@ -76,9 +76,15 @@ const card: Card = {
 		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute."
 	},
 
-	thirdParty: {
-		cardmarket: 539758
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539758,
+				tcgplayer: 232447
+			}
+		},
+	],
 }
 
 export default card

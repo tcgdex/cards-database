@@ -81,9 +81,15 @@ const card: Card = {
 		en: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful."
 	},
 
-	thirdParty: {
-		cardmarket: 539753
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539753,
+				tcgplayer: 232445
+			}
+		},
+	],
 }
 
 export default card

@@ -88,9 +88,15 @@ const card: Card = {
 		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
 	},
 
-	thirdParty: {
-		cardmarket: 539633
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539633,
+				tcgplayer: 232412
+			}
+		},
+	],
 }
 
 export default card

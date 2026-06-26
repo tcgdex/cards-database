@@ -78,9 +78,15 @@ const card: Card = {
 		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
 	},
 
-	thirdParty: {
-		cardmarket: 539898
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539898,
+				tcgplayer: 232491
+			}
+		},
+	],
 }
 
 export default card

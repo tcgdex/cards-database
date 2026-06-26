@@ -79,9 +79,15 @@ const card: Card = {
 		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
 	},
 
-	thirdParty: {
-		cardmarket: 539823
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539823,
+				tcgplayer: 232471
+			}
+		},
+	],
 }
 
 export default card

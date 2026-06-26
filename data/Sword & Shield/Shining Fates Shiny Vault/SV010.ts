@@ -67,9 +67,15 @@ const card: Card = {
 		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 539093
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539438,
+				tcgplayer: 232356
+			}
+		},
+	],
 }
 
 export default card

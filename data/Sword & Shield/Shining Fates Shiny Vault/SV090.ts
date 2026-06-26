@@ -52,9 +52,15 @@ const card: Card = {
 		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
 	},
 
-	thirdParty: {
-		cardmarket: 539268
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539838,
+				tcgplayer: 232474
+			}
+		},
+	],
 }
 
 export default card

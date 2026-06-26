@@ -73,9 +73,15 @@ const card: Card = {
 		en: "Its unique style of coiling allows it to blast sand out of its sand sac more efficiently."
 	},
 
-	thirdParty: {
-		cardmarket: 539743
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539743,
+				tcgplayer: 232442
+			}
+		},
+	],
 }
 
 export default card

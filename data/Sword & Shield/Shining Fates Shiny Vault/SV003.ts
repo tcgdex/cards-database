@@ -83,9 +83,15 @@ const card: Card = {
 		en: "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye's shots never miss."
 	},
 
-	thirdParty: {
-		cardmarket: 539063
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539403,
+				tcgplayer: 232345
+			}
+		},
+	],
 }
 
 export default card

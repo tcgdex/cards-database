@@ -60,9 +60,15 @@ const card: Card = {
 		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
 	},
 
-	thirdParty: {
-		cardmarket: 539628
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539628,
+				tcgplayer: 232411
+			}
+		},
+	],
 }
 
 export default card

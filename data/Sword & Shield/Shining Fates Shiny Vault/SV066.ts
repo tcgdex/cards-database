@@ -81,9 +81,15 @@ const card: Card = {
 		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
 	},
 
-	thirdParty: {
-		cardmarket: 539718
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539718,
+				tcgplayer: 232436
+			}
+		},
+	],
 }
 
 export default card

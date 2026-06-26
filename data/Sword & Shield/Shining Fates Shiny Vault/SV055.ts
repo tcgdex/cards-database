@@ -86,9 +86,15 @@ const card: Card = {
 		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
 	},
 
-	thirdParty: {
-		cardmarket: 539663
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539663,
+				tcgplayer: 232420
+			}
+		},
+	],
 }
 
 export default card

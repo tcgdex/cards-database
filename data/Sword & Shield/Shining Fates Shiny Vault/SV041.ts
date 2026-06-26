@@ -59,9 +59,15 @@ const card: Card = {
 		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
 	},
 
-	thirdParty: {
-		cardmarket: 539593
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539593,
+				tcgplayer: 232399
+			}
+		},
+	],
 }
 
 export default card

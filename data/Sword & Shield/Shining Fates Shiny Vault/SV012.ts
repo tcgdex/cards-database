@@ -55,9 +55,15 @@ const card: Card = {
 		en: "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more."
 	},
 
-	thirdParty: {
-		cardmarket: 539448
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539448,
+				tcgplayer: 232359
+			}
+		},
+	],
 }
 
 export default card

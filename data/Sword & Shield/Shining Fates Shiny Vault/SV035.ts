@@ -78,9 +78,15 @@ const card: Card = {
 		en: "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold."
 	},
 
-	thirdParty: {
-		cardmarket: 539563
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539563,
+				tcgplayer: 232390
+			}
+		},
+	],
 }
 
 export default card

@@ -56,9 +56,15 @@ const card: Card = {
 		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
 	},
 
-	thirdParty: {
-		cardmarket: 539643
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539643,
+				tcgplayer: 232413
+			}
+		},
+	],
 }
 
 export default card

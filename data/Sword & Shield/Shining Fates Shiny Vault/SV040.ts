@@ -82,9 +82,15 @@ const card: Card = {
 		en: "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
 	},
 
-	thirdParty: {
-		cardmarket: 539588
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539588,
+				tcgplayer: 232397
+			}
+		},
+	],
 }
 
 export default card

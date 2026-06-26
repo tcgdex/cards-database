@@ -55,9 +55,15 @@ const card: Card = {
 		en: "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide."
 	},
 
-	thirdParty: {
-		cardmarket: 539738
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539738,
+				tcgplayer: 232441
+			}
+		},
+	],
 }
 
 export default card

@@ -74,9 +74,15 @@ const card: Card = {
 		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
 	},
 
-	thirdParty: {
-		cardmarket: 539288
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539888,
+				tcgplayer: 232488
+			}
+		},
+	],
 }
 
 export default card

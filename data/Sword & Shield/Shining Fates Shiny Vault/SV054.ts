@@ -72,9 +72,15 @@ const card: Card = {
 		en: "Via the protrusion on its head, it senses other creatures' emotions. If you don't have a calm disposition, it will never warm up to you."
 	},
 
-	thirdParty: {
-		cardmarket: 539658
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539658,
+				tcgplayer: 232417
+			}
+		},
+	],
 }
 
 export default card

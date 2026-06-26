@@ -59,9 +59,15 @@ const card: Card = {
 		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
 	},
 
-	thirdParty: {
-		cardmarket: 539153
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539528,
+				tcgplayer: 232379
+			}
+		},
+	],
 }
 
 export default card

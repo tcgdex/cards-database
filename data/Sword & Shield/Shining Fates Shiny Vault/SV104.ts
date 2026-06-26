@@ -82,9 +82,15 @@ const card: Card = {
 		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
 	},
 
-	thirdParty: {
-		cardmarket: 539908
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539908,
+				tcgplayer: 232493
+			}
+		},
+	],
 }
 
 export default card

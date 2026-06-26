@@ -82,9 +82,15 @@ const card: Card = {
 		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
 	},
 
-	thirdParty: {
-		cardmarket: 539163
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539538,
+				tcgplayer: 232383
+			}
+		},
+	],
 }
 
 export default card

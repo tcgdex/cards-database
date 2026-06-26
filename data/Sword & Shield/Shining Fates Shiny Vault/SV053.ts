@@ -88,9 +88,15 @@ const card: Card = {
 		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
 	},
 
-	thirdParty: {
-		cardmarket: 539653
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539653,
+				tcgplayer: 232416
+			}
+		},
+	],
 }
 
 export default card

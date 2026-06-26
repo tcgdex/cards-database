@@ -74,9 +74,15 @@ const card: Card = {
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 539273
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539978,
+				tcgplayer: 232513
+			}
+		},
+	],
 }
 
 export default card

@@ -88,9 +88,15 @@ const card: Card = {
 		en: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water."
 	},
 
-	thirdParty: {
-		cardmarket: 539843
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539843,
+				tcgplayer: 232476
+			}
+		},
+	],
 }
 
 export default card

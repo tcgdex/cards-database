@@ -88,9 +88,15 @@ const card: Card = {
 		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
 	},
 
-	thirdParty: {
-		cardmarket: 539868
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539868,
+				tcgplayer: 232483
+			}
+		},
+	],
 }
 
 export default card

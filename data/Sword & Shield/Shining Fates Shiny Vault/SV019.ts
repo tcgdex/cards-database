@@ -81,9 +81,15 @@ const card: Card = {
 		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies."
 	},
 
-	thirdParty: {
-		cardmarket: 539483
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539483,
+				tcgplayer: 232368
+			}
+		},
+	],
 }
 
 export default card

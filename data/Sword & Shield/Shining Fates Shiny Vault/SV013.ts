@@ -83,9 +83,15 @@ const card: Card = {
 		en: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns."
 	},
 
-	thirdParty: {
-		cardmarket: 539453
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539453,
+				tcgplayer: 232360
+			}
+		},
+	],
 }
 
 export default card

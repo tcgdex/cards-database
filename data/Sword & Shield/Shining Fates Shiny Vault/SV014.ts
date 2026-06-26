@@ -74,9 +74,15 @@ const card: Card = {
 		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on."
 	},
 
-	thirdParty: {
-		cardmarket: 539458
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539458,
+				tcgplayer: 232361
+			}
+		},
+	],
 }
 
 export default card

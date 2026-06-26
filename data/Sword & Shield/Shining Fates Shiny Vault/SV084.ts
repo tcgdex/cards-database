@@ -73,9 +73,15 @@ const card: Card = {
 		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
 	},
 
-	thirdParty: {
-		cardmarket: 539808
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539808,
+				tcgplayer: 232465
+			}
+		},
+	],
 }
 
 export default card

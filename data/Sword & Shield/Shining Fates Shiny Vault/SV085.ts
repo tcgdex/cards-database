@@ -83,9 +83,15 @@ const card: Card = {
 		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp."
 	},
 
-	thirdParty: {
-		cardmarket: 539813
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539813,
+				tcgplayer: 232466
+			}
+		},
+	],
 }
 
 export default card

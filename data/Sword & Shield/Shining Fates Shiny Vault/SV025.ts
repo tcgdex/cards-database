@@ -47,9 +47,15 @@ const card: Card = {
 		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won't be able to resist weeping."
 	},
 
-	thirdParty: {
-		cardmarket: 539513
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539513,
+				tcgplayer: 232375
+			}
+		},
+	],
 }
 
 export default card

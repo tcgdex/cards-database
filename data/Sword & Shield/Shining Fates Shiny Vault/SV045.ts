@@ -82,9 +82,15 @@ const card: Card = {
 		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources."
 	},
 
-	thirdParty: {
-		cardmarket: 539638
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539638,
+				tcgplayer: 232404
+			}
+		},
+	],
 }
 
 export default card

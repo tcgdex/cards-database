@@ -74,9 +74,15 @@ const card: Card = {
 		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
 	},
 
-	thirdParty: {
-		cardmarket: 539088
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539418,
+				tcgplayer: 232350
+			}
+		},
+	],
 }
 
 export default card

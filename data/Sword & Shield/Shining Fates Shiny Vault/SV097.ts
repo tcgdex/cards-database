@@ -56,9 +56,15 @@ const card: Card = {
 		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
 	},
 
-	thirdParty: {
-		cardmarket: 539873
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539873,
+				tcgplayer: 232485
+			}
+		},
+	],
 }
 
 export default card

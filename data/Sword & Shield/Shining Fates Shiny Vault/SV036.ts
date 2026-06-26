@@ -74,9 +74,15 @@ const card: Card = {
 		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
 	},
 
-	thirdParty: {
-		cardmarket: 539568
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539568,
+				tcgplayer: 232391
+			}
+		},
+	],
 }
 
 export default card

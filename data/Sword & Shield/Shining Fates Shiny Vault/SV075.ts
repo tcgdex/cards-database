@@ -68,9 +68,15 @@ const card: Card = {
 		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
 	},
 
-	thirdParty: {
-		cardmarket: 539763
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539763,
+				tcgplayer: 232449
+			}
+		},
+	],
 }
 
 export default card

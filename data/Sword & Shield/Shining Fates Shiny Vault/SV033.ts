@@ -55,9 +55,15 @@ const card: Card = {
 		en: "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps."
 	},
 
-	thirdParty: {
-		cardmarket: 539168
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539553,
+				tcgplayer: 232387
+			}
+		},
+	],
 }
 
 export default card

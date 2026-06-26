@@ -73,9 +73,15 @@ const card: Card = {
 		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
 	},
 
-	thirdParty: {
-		cardmarket: 539548
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539548,
+				tcgplayer: 232385
+			}
+		},
+	],
 }
 
 export default card

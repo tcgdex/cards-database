@@ -61,9 +61,15 @@ const card: Card = {
 		en: "This Pokémon will look into your eyes and read the contents of your heart. If it finds evil there, it promptly hides away."
 	},
 
-	thirdParty: {
-		cardmarket: 539618
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539618,
+				tcgplayer: 232408
+			}
+		},
+	],
 }
 
 export default card

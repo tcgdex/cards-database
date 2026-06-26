@@ -87,9 +87,15 @@ const card: Card = {
 		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
 	},
 
-	thirdParty: {
-		cardmarket: 539668
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539668,
+				tcgplayer: 232421
+			}
+		},
+	],
 }
 
 export default card

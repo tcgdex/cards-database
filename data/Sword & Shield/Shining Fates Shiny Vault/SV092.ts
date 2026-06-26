@@ -73,9 +73,15 @@ const card: Card = {
 		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
-	thirdParty: {
-		cardmarket: 539848
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539848,
+				tcgplayer: 232477
+			}
+		},
+	],
 }
 
 export default card

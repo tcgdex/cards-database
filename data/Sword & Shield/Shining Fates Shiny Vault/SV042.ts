@@ -81,9 +81,15 @@ const card: Card = {
 		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity."
 	},
 
-	thirdParty: {
-		cardmarket: 539598
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539598,
+				tcgplayer: 232400
+			}
+		},
+	],
 }
 
 export default card

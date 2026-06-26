@@ -67,9 +67,15 @@ const card: Card = {
 		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier."
 	},
 
-	thirdParty: {
-		cardmarket: 539488
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539488,
+				tcgplayer: 232369
+			}
+		},
+	],
 }
 
 export default card

@@ -55,9 +55,15 @@ const card: Card = {
 		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
 	},
 
-	thirdParty: {
-		cardmarket: 539228
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539768,
+				tcgplayer: 232451
+			}
+		},
+	],
 }
 
 export default card

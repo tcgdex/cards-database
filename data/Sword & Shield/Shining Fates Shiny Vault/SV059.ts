@@ -81,9 +81,15 @@ const card: Card = {
 		en: "These intelligent Pokémon touch horns with each other to share information between them."
 	},
 
-	thirdParty: {
-		cardmarket: 539218
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539683,
+				tcgplayer: 232425
+			}
+		},
+	],
 }
 
 export default card

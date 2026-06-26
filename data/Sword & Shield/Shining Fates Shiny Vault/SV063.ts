@@ -68,9 +68,15 @@ const card: Card = {
 		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
 	},
 
-	thirdParty: {
-		cardmarket: 539703
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539703,
+				tcgplayer: 232431
+			}
+		},
+	],
 }
 
 export default card

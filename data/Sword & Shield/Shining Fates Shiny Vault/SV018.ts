@@ -59,9 +59,15 @@ const card: Card = {
 		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
 	},
 
-	thirdParty: {
-		cardmarket: 539478
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539478,
+				tcgplayer: 232366
+			}
+		},
+	],
 }
 
 export default card

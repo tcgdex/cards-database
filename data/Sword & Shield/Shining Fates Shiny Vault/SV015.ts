@@ -56,9 +56,15 @@ const card: Card = {
 		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
 	},
 
-	thirdParty: {
-		cardmarket: 539463
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539463,
+				tcgplayer: 232362
+			}
+		},
+	],
 }
 
 export default card

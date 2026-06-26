@@ -61,9 +61,15 @@ const card: Card = {
 		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
 	},
 
-	thirdParty: {
-		cardmarket: 539688
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539688,
+				tcgplayer: 232426
+			}
+		},
+	],
 }
 
 export default card

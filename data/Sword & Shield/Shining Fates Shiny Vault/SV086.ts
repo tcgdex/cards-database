@@ -74,9 +74,15 @@ const card: Card = {
 		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
 	},
 
-	thirdParty: {
-		cardmarket: 539818
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539818,
+				tcgplayer: 232469
+			}
+		},
+	],
 }
 
 export default card

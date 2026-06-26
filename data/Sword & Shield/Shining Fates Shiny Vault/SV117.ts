@@ -57,9 +57,15 @@ const card: Card = {
 	regulationMark: "D",
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 539973
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539973,
+				tcgplayer: 232511
+			}
+		},
+	],
 }
 
 export default card

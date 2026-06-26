@@ -52,9 +52,15 @@ const card: Card = {
 		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
 	},
 
-	thirdParty: {
-		cardmarket: 539058
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539398,
+				tcgplayer: 232344
+			}
+		},
+	],
 }
 
 export default card

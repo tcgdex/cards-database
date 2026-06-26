@@ -67,9 +67,15 @@ const card: Card = {
 		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
 	},
 
-	thirdParty: {
-		cardmarket: 539673
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539673,
+				tcgplayer: 232422
+			}
+		},
+	],
 }
 
 export default card

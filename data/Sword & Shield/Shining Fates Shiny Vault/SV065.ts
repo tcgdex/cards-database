@@ -56,9 +56,15 @@ const card: Card = {
 		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
 	},
 
-	thirdParty: {
-		cardmarket: 539713
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539713,
+				tcgplayer: 232435
+			}
+		},
+	],
 }
 
 export default card

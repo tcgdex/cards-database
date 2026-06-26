@@ -73,9 +73,15 @@ const card: Card = {
 		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
 	},
 
-	thirdParty: {
-		cardmarket: 539783
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539783,
+				tcgplayer: 232456
+			}
+		},
+	],
 }
 
 export default card

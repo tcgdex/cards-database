@@ -78,9 +78,15 @@ const card: Card = {
 		en: "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities."
 	},
 
-	thirdParty: {
-		cardmarket: 539193
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539578,
+				tcgplayer: 232393
+			}
+		},
+	],
 }
 
 export default card

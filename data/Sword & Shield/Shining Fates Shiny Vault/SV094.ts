@@ -83,9 +83,15 @@ const card: Card = {
 		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff."
 	},
 
-	thirdParty: {
-		cardmarket: 539858
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539858,
+				tcgplayer: 232480
+			}
+		},
+	],
 }
 
 export default card

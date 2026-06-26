@@ -83,9 +83,15 @@ const card: Card = {
 		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
 	},
 
-	thirdParty: {
-		cardmarket: 539493
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539493,
+				tcgplayer: 232370
+			}
+		},
+	],
 }
 
 export default card

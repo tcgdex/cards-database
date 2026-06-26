@@ -76,9 +76,15 @@ const card: Card = {
 		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle."
 	},
 
-	thirdParty: {
-		cardmarket: 539853
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539853,
+				tcgplayer: 232479
+			}
+		},
+	],
 }
 
 export default card

@@ -73,9 +73,15 @@ const card: Card = {
 		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
 	},
 
-	thirdParty: {
-		cardmarket: 539263
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539798,
+				tcgplayer: 232462
+			}
+		},
+	],
 }
 
 export default card

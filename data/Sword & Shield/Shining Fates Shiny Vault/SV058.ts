@@ -81,9 +81,15 @@ const card: Card = {
 		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
 	},
 
-	thirdParty: {
-		cardmarket: 539343
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539678,
+				tcgplayer: 232423
+			}
+		},
+	],
 }
 
 export default card

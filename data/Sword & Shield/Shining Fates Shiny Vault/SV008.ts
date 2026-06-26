@@ -72,9 +72,15 @@ const card: Card = {
 		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution."
 	},
 
-	thirdParty: {
-		cardmarket: 539428
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539428,
+				tcgplayer: 232353
+			}
+		},
+	],
 }
 
 export default card

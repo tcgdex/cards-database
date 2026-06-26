@@ -56,9 +56,15 @@ const card: Card = {
 		en: "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines."
 	},
 
-	thirdParty: {
-		cardmarket: 539603
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539603,
+				tcgplayer: 232401
+			}
+		},
+	],
 }
 
 export default card

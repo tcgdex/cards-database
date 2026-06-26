@@ -77,9 +77,15 @@ const card: Card = {
 		en: "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks."
 	},
 
-	thirdParty: {
-		cardmarket: 539053
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539393,
+				tcgplayer: 232343
+			}
+		},
+	],
 }
 
 export default card

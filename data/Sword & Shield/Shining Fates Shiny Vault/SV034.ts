@@ -74,9 +74,15 @@ const card: Card = {
 		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
 	},
 
-	thirdParty: {
-		cardmarket: 539173
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539558,
+				tcgplayer: 232388
+			}
+		},
+	],
 }
 
 export default card

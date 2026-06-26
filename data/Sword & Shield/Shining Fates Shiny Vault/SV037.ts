@@ -82,9 +82,15 @@ const card: Card = {
 		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
 	},
 
-	thirdParty: {
-		cardmarket: 539573
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539573,
+				tcgplayer: 232521
+			}
+		},
+	],
 }
 
 export default card

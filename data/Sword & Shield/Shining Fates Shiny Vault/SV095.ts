@@ -52,9 +52,15 @@ const card: Card = {
 		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
 	},
 
-	thirdParty: {
-		cardmarket: 539863
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539863,
+				tcgplayer: 232482
+			}
+		},
+	],
 }
 
 export default card

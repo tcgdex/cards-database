@@ -83,9 +83,15 @@ const card: Card = {
 		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
 	},
 
-	thirdParty: {
-		cardmarket: 539788
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539788,
+				tcgplayer: 232457
+			}
+		},
+	],
 }
 
 export default card

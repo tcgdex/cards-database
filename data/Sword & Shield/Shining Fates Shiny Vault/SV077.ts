@@ -82,9 +82,15 @@ const card: Card = {
 		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
 	},
 
-	thirdParty: {
-		cardmarket: 539233
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539773,
+				tcgplayer: 232452
+			}
+		},
+	],
 }
 
 export default card

@@ -77,9 +77,15 @@ const card: Card = {
 		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
 	},
 
-	thirdParty: {
-		cardmarket: 539693
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539693,
+				tcgplayer: 232428
+			}
+		},
+	],
 }
 
 export default card
