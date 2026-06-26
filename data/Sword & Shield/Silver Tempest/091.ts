@@ -53,21 +53,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
 	},
 
-	thirdParty: {
-		cardmarket: 682138,
-		tcgplayer: 451745
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682138,
+				tcgplayer: 451745
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682138,
+				tcgplayer: 451745
+			}
+		},
+	],
 }
 
 export default card

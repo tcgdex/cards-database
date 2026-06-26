@@ -89,21 +89,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its muttered curses can cause awful headaches or terrifying visions that torment others.",
 	},
 
-	thirdParty: {
-		cardmarket: 682111,
-		tcgplayer: 451718
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682111,
+				tcgplayer: 451718
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682111,
+				tcgplayer: 451718
+			}
+		},
+	],
 }
 
 export default card

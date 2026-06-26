@@ -63,21 +63,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
 	},
 
-	thirdParty: {
-		cardmarket: 682045,
-		tcgplayer: 451626
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682045,
+				tcgplayer: 451626
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682045,
+				tcgplayer: 451626
+			}
+		},
+	],
 }
 
 export default card

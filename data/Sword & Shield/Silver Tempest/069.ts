@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
 	},
 
-	thirdParty: {
-		cardmarket: 682116,
-		tcgplayer: 451723
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682116,
+				tcgplayer: 451723
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682116,
+				tcgplayer: 451723
+			}
+		},
+	],
 }
 
 export default card

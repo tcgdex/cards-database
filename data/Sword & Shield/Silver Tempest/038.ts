@@ -85,21 +85,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
 	},
 
-	thirdParty: {
-		cardmarket: 682080,
-		tcgplayer: 451673
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682080,
+				tcgplayer: 451673
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682080,
+				tcgplayer: 451673
+			}
+		},
+	],
 }
 
 export default card

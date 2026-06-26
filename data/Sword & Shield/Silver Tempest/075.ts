@@ -70,21 +70,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
 	},
 
-	thirdParty: {
-		cardmarket: 682122,
-		tcgplayer: 451729
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682122,
+				tcgplayer: 451729
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682122,
+				tcgplayer: 451729
+			}
+		},
+	],
 }
 
 export default card

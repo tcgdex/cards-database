@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
 	},
 
-	thirdParty: {
-		cardmarket: 682099,
-		tcgplayer: 451707
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682099,
+				tcgplayer: 451707
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682099,
+				tcgplayer: 451707
+			}
+		},
+	],
 }
 
 export default card

@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
 	},
 
-	thirdParty: {
-		cardmarket: 682152,
-		tcgplayer: 451759
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682152,
+				tcgplayer: 451759
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682152,
+				tcgplayer: 451759
+			}
+		},
+	],
 }
 
 export default card

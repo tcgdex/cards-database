@@ -50,21 +50,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
 	},
 
-	thirdParty: {
-		cardmarket: 682126,
-		tcgplayer: 451733
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682126,
+				tcgplayer: 451733
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682126,
+				tcgplayer: 451733
+			}
+		},
+	],
 }
 
 export default card

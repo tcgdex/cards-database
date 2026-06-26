@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
-	thirdParty: {
-		cardmarket: 682115,
-		tcgplayer: 451722
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682115,
+				tcgplayer: 451722
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682115,
+				tcgplayer: 451722
+			}
+		},
+	],
 }
 
 export default card

@@ -80,21 +80,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
 	},
 
-	thirdParty: {
-		cardmarket: 682127,
-		tcgplayer: 451734
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682127,
+				tcgplayer: 451734
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682127,
+				tcgplayer: 451734
+			}
+		},
+	],
 }
 
 export default card

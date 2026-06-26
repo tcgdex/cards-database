@@ -80,21 +80,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
 	},
 
-	thirdParty: {
-		cardmarket: 682108,
-		tcgplayer: 451715
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682108,
+				tcgplayer: 451715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682108,
+				tcgplayer: 451715
+			}
+		},
+	],
 }
 
 export default card

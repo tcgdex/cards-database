@@ -51,21 +51,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 682163,
-		tcgplayer: 451770
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682163,
+				tcgplayer: 451770
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682163,
+				tcgplayer: 451770
+			}
+		},
+	],
 }
 
 export default card

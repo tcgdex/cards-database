@@ -44,21 +44,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
 	},
 
-	thirdParty: {
-		cardmarket: 682150,
-		tcgplayer: 451757
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682150,
+				tcgplayer: 451757
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682150,
+				tcgplayer: 451757
+			}
+		},
+	],
 }
 
 export default card

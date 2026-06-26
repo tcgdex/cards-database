@@ -85,21 +85,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
 	},
 
-	thirdParty: {
-		cardmarket: 682061,
-		tcgplayer: 451651
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682061,
+				tcgplayer: 451651
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682061,
+				tcgplayer: 451651
+			}
+		},
+	],
 }
 
 export default card

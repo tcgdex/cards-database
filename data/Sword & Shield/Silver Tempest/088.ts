@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
 	},
 
-	thirdParty: {
-		cardmarket: 682135,
-		tcgplayer: 451742
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682135,
+				tcgplayer: 451742
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682135,
+				tcgplayer: 451742
+			}
+		},
+	],
 }
 
 export default card

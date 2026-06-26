@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has a body of ice that won't melt, even with fire. It can instantly freeze moisture in the atmosphere.",
 	},
 
-	thirdParty: {
-		cardmarket: 682087,
-		tcgplayer: 451679
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682087,
+				tcgplayer: 451679
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682087,
+				tcgplayer: 451679
+			}
+		},
+	],
 }
 
 export default card

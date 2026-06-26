@@ -70,21 +70,48 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It's a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
 	},
 
-	thirdParty: {
-		cardmarket: 682178,
-		tcgplayer: 451784
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 696138
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682178,
+				tcgplayer: 451784
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 742041
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 884419
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682178,
+				tcgplayer: 451784
+			}
+		},
+	],
 }
 
 export default card

@@ -91,21 +91,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
 	},
 
-	thirdParty: {
-		cardmarket: 682125,
-		tcgplayer: 451732
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682125,
+				tcgplayer: 451732
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682125,
+				tcgplayer: 451732
+			}
+		},
+	],
 }
 
 export default card

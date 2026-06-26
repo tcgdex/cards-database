@@ -64,21 +64,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
 	},
 
-	thirdParty: {
-		cardmarket: 682081,
-		tcgplayer: 451674
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682081,
+				tcgplayer: 451674
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682081,
+				tcgplayer: 451674
+			}
+		},
+	],
 }
 
 export default card

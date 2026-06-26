@@ -51,21 +51,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
 	},
 
-	thirdParty: {
-		cardmarket: 682188,
-		tcgplayer: 451791
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682188,
+				tcgplayer: 451791
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682188,
+				tcgplayer: 451791
+			}
+		},
+	],
 }
 
 export default card

@@ -47,21 +47,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
 	},
 
-	thirdParty: {
-		cardmarket: 682176,
-		tcgplayer: 451782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682176,
+				tcgplayer: 451782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682176,
+				tcgplayer: 451782
+			}
+		},
+	],
 }
 
 export default card

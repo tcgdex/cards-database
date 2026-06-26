@@ -59,21 +59,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its cottony wings are full of air, making them light and fluffy to the touch. Swablu takes diligent care of its wings.",
 	},
 
-	thirdParty: {
-		cardmarket: 682189,
-		tcgplayer: 451792
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682189,
+				tcgplayer: 451792
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682189,
+				tcgplayer: 451792
+			}
+		},
+	],
 }
 
 export default card

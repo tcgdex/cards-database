@@ -75,21 +75,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "A legend tells of this Pokémon working together with Cobalion and Terrakion to protect the Pokémon of the Unova region.",
 	},
 
-	thirdParty: {
-		cardmarket: 682055,
-		tcgplayer: 451642
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682055,
+				tcgplayer: 451642
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682055,
+				tcgplayer: 451642
+			}
+		},
+	],
 }
 
 export default card

@@ -64,21 +64,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
 	},
 
-	thirdParty: {
-		cardmarket: 682092,
-		tcgplayer: 451687
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682092,
+				tcgplayer: 451687
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682092,
+				tcgplayer: 451687
+			}
+		},
+	],
 }
 
 export default card

@@ -63,21 +63,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Krokorok has specialized eyes that enable it to see in the dark. This ability lets Krokorok hunt in the dead of night without getting lost.",
 	},
 
-	thirdParty: {
-		cardmarket: 682159,
-		tcgplayer: 451766
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682159,
+				tcgplayer: 451766
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682159,
+				tcgplayer: 451766
+			}
+		},
+	],
 }
 
 export default card

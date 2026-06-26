@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It launches water bubbles with its legs, drowning prey within the bubbles. This Pokémon can then take its time to savor its meal.",
 	},
 
-	thirdParty: {
-		cardmarket: 682095,
-		tcgplayer: 451696
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682095,
+				tcgplayer: 451696
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682095,
+				tcgplayer: 451696
+			}
+		},
+	],
 }
 
 export default card

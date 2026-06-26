@@ -57,21 +57,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
 	},
 
-	thirdParty: {
-		cardmarket: 682098,
-		tcgplayer: 451705
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682098,
+				tcgplayer: 451705
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682098,
+				tcgplayer: 451705
+			}
+		},
+	],
 }
 
 export default card

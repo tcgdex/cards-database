@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries.",
 	},
 
-	thirdParty: {
-		cardmarket: 682157,
-		tcgplayer: 451764
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682157,
+				tcgplayer: 451764
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682157,
+				tcgplayer: 451764
+			}
+		},
+	],
 }
 
 export default card
