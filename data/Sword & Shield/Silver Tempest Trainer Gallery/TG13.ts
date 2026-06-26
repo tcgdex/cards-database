@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [497],
@@ -65,16 +65,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682046
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682277,
+				tcgplayer: 452029
+			}
+		},
+	],
 }
 
 export default card

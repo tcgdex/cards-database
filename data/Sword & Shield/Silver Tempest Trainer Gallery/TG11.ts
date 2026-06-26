@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [334],
@@ -80,20 +80,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "As it flies in a calm and relaxed manner, Altaria performs a humming song that would enrapture any audience.",
 	},
 
-	thirdParty: {
-		cardmarket: 682190
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682275,
+				tcgplayer: 452027
+			}
+		},
+	],
 }
 
 export default card

@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [766],
@@ -73,20 +73,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives.",
 	},
 
-	thirdParty: {
-		cardmarket: 682272
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682272,
+				tcgplayer: 452022
+			}
+		},
+	],
 }
 
 export default card

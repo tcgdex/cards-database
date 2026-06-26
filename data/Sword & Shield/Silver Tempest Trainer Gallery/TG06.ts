@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [687],
@@ -69,20 +69,20 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
 	},
 
-	thirdParty: {
-		cardmarket: 682270
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682270,
+				tcgplayer: 452020
+			}
+		},
+	],
 }
 
 export default card
