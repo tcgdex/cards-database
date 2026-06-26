@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Lost Origin"
+import Set from "../Lost Origin Trainer Gallery"
 
 const card: Card = {
 	dexId: [25],
@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pikachu VMAX"
 	},
 
-	rarity: "Ultra Rare",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],
@@ -57,15 +57,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674235
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674244,
+				tcgplayer: 284302
+			}
+		},
+	],
 }
 
 export default card
