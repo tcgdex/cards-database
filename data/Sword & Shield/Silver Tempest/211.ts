@@ -74,6 +74,7 @@ const card: Card = {
 	variants: [
 		{
 			type: 'holo',
+			foil: 'gold',
 			thirdParty: {
 				cardmarket: 682260,
 				tcgplayer: 452009

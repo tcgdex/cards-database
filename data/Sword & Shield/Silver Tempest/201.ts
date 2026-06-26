@@ -60,6 +60,7 @@ const card: Card = {
 	variants: [
 		{
 			type: 'holo',
+			foil: 'rainbow',
 			thirdParty: {
 				cardmarket: 682249,
 				tcgplayer: 451994
