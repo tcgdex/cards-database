@@ -5,12 +5,12 @@ const swsh45sv: Set = {
 	id: "swsh4.5sv",
 
 	name: {
-		en: "Shining Fates: Shiny Vault",
-		fr: "Destinées Radieuses : Coffre Étincelant",
-		es: "Destinos Brillantes: Tesoro Brillante",
-		it: "Destino Splendente: Tesoro Lucente",
-		de: "Glänzendes Schicksal: Glitzer-Tresor",
-		pt: "Destinos Brilhantes: Cofre Brilhante"
+		en: "Shining Fates Shiny Vault",
+		fr: "Destinées Radieuses Coffre Étincelant",
+		es: "Destinos Brillantes Tesoro Brillante",
+		it: "Destino Splendente Tesoro Lucente",
+		de: "Glänzendes Schicksal Glitzer-Tresor",
+		pt: "Destinos Brilhantes Cofre Brilhante"
 	},
 
 	tcgOnline: 'SHF',
