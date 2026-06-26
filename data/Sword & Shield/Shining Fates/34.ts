@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "One boy's invention led to the development of many different machines that take advantage of Rotom's unique capabilities."
 	},
 
-	thirdParty: {
-		cardmarket: 539193,
-		tcgplayer: 232467
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539193,
+				tcgplayer: 232467
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539193,
+				tcgplayer: 232467
+			}
+		},
+	],
 }
 
 export default card

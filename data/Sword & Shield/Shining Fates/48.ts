@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
 	},
 
-	thirdParty: {
-		cardmarket: 539263,
-		tcgplayer: 232522
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539263,
+				tcgplayer: 232522
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539263,
+				tcgplayer: 232522
+			}
+		},
+	],
 }
 
 export default card
