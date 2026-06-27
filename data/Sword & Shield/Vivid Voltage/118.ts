@@ -99,12 +99,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -112,10 +106,22 @@ const card: Card = {
 		en: "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner."
 	},
 
-	thirdParty: {
-		cardmarket: 512300,
-		tcgplayer: 226572
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512300,
+				tcgplayer: 226572
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512300,
+				tcgplayer: 226572
+			}
+		},
+	],
 }
 
 export default card

@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "It's very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land."
 	},
 
-	thirdParty: {
-		cardmarket: 511920,
-		tcgplayer: 226552
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511920,
+				tcgplayer: 226552
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511920,
+				tcgplayer: 226552
+			}
+		},
+	],
 }
 
 export default card

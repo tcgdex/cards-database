@@ -89,12 +89,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -102,10 +96,29 @@ const card: Card = {
 		en: "With jaws that can shear through steel rods, this highly aggressive Pokémon chomps down on its unfortunate prey."
 	},
 
-	thirdParty: {
-		cardmarket: 511615,
-		tcgplayer: 226424
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511615,
+				tcgplayer: 226424
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cracked-ice',
+			thirdParty: {
+				cardmarket: 547886
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511615,
+				tcgplayer: 226424
+			}
+		},
+	],
 }
 
 export default card

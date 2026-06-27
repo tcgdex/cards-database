@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
 	},
 
-	thirdParty: {
-		cardmarket: 511820,
-		tcgplayer: 226488
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511820,
+				tcgplayer: 226488
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511820,
+				tcgplayer: 226488
+			}
+		},
+	],
 }
 
 export default card

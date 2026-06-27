@@ -77,12 +77,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -90,10 +84,22 @@ const card: Card = {
 		en: "Born when all of Zygarde's cells have been gathered together, it uses force to neutralize those who harm the ecosystem."
 	},
 
-	thirdParty: {
-		cardmarket: 511885,
-		tcgplayer: 226532
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511885,
+				tcgplayer: 226532
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511885,
+				tcgplayer: 226532
+			}
+		},
+	],
 }
 
 export default card

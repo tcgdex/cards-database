@@ -84,12 +84,6 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
 	},
 
-	thirdParty: {
-		cardmarket: 511435,
-		tcgplayer: 226362
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511435,
+				tcgplayer: 226362
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511435,
+				tcgplayer: 226362
+			}
+		},
+	],
 }
 
 export default card

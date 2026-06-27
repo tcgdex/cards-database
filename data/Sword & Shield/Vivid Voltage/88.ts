@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
 	},
 
-	thirdParty: {
-		cardmarket: 511860,
-		tcgplayer: 226521
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511860,
+				tcgplayer: 226521
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511860,
+				tcgplayer: 226521
+			}
+		},
+	],
 }
 
 export default card

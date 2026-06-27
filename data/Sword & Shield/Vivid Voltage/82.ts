@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -97,10 +91,15 @@ const card: Card = {
 		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 511830,
-		tcgplayer: 226490
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511830,
+				tcgplayer: 226490
+			}
+		},
+	],
 }
 
 export default card
