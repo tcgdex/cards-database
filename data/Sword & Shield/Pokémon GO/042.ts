@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Rattikarl"
 	},
 
+	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,

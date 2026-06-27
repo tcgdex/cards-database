@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Garados"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,

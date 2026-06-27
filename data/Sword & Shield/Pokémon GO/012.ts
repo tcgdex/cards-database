@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lavados"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

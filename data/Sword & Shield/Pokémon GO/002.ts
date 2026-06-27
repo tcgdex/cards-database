@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bisaknosp"
 	},
 
+	illustrator: "zig",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

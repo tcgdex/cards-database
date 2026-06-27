@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Rattfratz"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

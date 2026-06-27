@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schiggy"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

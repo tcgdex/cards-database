@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chaneira"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

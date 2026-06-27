@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Feelinara"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
