@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fermicula"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

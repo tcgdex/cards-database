@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Metagross"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,

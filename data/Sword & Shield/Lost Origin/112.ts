@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Webarak"
 	},
 
+	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dragoran"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,

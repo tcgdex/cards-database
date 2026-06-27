@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Frida"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

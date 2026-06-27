@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Serpiroyal VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 270,

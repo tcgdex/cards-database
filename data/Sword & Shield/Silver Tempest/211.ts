@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lugia VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,

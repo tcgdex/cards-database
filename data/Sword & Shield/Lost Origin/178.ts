@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Cupidos V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,

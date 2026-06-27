@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Manguspektor"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

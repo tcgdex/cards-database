@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wald-Siegelstein"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

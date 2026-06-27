@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wassili"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

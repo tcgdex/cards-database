@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Servol"
 	},
 
+	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

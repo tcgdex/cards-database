@@ -13,6 +13,7 @@ const card: Card = {
 		de: "ArceusPhone"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Uncommon",
 	category: "Trainer",
 

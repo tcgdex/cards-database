@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sankabuh"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

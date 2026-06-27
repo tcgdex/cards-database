@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Anorith"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

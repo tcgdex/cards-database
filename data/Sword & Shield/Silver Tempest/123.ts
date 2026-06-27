@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikk"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

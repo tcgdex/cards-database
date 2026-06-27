@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikdiklak"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,

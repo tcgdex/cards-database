@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Phanpy"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

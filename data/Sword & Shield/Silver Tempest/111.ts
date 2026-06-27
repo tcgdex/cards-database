@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ganovil"
 	},
 
+	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schneppke"
 	},
 
+	illustrator: "otumami",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

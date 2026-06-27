@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shaymin"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

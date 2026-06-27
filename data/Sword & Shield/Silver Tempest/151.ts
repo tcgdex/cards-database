@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Brian"
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 

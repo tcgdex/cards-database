@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Folipurba VSTAR"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 260,

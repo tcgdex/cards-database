@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alpollo"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

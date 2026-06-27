@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Porygon2"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

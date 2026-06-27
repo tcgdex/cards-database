@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kimono-Trägerin"
 	},
 
+	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
 

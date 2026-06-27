@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gallopa"
 	},
 
+	illustrator: "Megumi Higuchi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,

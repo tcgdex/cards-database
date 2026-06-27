@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pyroleo"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

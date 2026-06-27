@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Silvanas Vitalität"
 	},
 
+	illustrator: "Yoriyuki Ikegami",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

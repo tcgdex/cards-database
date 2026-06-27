@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flunkifer VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 260,

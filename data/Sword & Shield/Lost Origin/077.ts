@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Iscalar"
 	},
 
+	illustrator: "miki kudo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

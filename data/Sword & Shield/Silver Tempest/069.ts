@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Guardevoir"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

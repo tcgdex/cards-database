@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Altaria"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

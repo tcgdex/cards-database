@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Washakwil"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

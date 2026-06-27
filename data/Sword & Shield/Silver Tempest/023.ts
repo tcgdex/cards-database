@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Victini"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,

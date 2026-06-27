@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Viridium"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

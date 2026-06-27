@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Metang"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Quartettstein"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 

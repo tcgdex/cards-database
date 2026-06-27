@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fuegro"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,

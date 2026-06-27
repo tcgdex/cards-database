@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energie-Umschalter"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 

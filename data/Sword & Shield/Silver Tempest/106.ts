@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramurx"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

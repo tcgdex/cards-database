@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dartignis"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

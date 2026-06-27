@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Golbat"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

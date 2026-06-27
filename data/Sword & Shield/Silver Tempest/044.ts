@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relicanth"
 	},
 
+	illustrator: "SATOSHI NAKAI",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

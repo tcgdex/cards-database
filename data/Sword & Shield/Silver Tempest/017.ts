@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vulpix"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

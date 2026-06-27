@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Serpiroyal V"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,

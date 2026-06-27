@@ -14,6 +14,7 @@ const card: Card = {
 		de: "eF-eM"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

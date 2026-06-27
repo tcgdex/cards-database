@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hyperball"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Uncommon",
 	category: "Trainer",
 

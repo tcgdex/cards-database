@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Arbeiterin"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

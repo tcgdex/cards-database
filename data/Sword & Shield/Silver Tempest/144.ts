@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Haspiror"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

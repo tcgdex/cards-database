@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zwollock"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Aggrostella"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

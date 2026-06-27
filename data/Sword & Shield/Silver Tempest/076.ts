@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Monozyto"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

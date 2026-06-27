@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Susuki"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Uncommon",
 	category: "Trainer",
 

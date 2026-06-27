@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Roy"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

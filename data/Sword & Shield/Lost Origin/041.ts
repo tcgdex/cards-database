@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lumineon"
 	},
 
+	illustrator: "zig",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

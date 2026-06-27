@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tarnpignon"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Curelei"
 	},
 
+	illustrator: "Yano Keiji",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,

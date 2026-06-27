@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Ergreifendes Aroma"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 

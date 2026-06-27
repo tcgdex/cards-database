@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flamiau"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

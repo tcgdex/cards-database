@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Traunfugil"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
