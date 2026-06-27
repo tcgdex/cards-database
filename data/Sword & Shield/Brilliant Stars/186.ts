@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hyperball"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

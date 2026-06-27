@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flamara"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

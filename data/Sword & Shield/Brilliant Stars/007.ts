@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chelcarain"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

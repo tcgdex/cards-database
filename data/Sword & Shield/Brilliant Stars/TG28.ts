@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Fokussierter-Stil-Mastrich"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zwirrlicht"
 	},
 
+	illustrator: "SATOSHI NAKAI",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

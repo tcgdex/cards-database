@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Topfhelm"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 

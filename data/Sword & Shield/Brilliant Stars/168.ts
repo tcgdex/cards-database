@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Cherens Obhut"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

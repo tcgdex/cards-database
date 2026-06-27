@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Tafelwasserpack"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Nachtara VMAX"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 310,

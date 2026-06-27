@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elektek"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

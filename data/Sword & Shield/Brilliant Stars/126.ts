@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Boreos"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

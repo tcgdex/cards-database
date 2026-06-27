@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikdiklak"
 	},
 
+	illustrator: "Megumi Higuchi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Arceus V"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
