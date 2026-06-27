@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Achromas' Experiment"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

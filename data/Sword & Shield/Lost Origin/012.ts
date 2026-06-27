@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Blanas"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schaloko"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

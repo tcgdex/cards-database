@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu VMAX"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 310,

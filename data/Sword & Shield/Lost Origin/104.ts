@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wie-Shu"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
