@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gaunux"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kliklak"
 	},
 
+	illustrator: "SATOSHI NAKAI",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Krarmor V"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,

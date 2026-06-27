@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Icognito V"
 	},
 
+	illustrator: "Toshinao Aoki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 180,

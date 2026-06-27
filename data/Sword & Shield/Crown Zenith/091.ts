@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gladiantri"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

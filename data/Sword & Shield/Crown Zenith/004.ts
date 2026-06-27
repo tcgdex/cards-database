@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tangela"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

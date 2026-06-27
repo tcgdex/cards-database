@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Amoroso V"
 	},
 
+	illustrator: "Saki Hayashiro",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,

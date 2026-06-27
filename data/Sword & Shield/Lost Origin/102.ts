@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gastrodon"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

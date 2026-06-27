@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Sinnoh"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

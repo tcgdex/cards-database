@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bithora"
 	},
 
+	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

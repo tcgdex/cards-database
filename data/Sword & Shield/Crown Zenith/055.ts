@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zeraora VSTAR"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 270,

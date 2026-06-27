@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Coronospa"
 	},
 
+	illustrator: "Nurikabe",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,

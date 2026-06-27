@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kyurem V"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

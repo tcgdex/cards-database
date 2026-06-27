@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Absol"
 	},
 
+	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,

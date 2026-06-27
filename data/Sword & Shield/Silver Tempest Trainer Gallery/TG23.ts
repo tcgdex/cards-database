@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Galar"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Full Art Trainer",
 	category: "Trainer",
 

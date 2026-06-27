@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Parasek"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

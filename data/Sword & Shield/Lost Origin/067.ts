@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pantimos"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

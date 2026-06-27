@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fennexis"
 	},
 
+	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

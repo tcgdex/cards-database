@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zeraora VMAX"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,

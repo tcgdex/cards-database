@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Farbeagle"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,

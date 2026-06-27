@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bluzuk"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

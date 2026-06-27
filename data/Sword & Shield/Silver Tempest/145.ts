@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schlapor"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

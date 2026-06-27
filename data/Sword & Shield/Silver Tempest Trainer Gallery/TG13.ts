@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Serpiroyal V"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Miezunder"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Guardevoir"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,

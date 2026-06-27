@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Roserade"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

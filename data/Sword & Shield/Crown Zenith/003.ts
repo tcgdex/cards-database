@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Blubella"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

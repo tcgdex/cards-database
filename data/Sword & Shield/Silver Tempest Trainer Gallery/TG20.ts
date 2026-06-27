@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rayquaza VMAX"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,

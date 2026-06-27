@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fennexis V"
 	},
 
+	illustrator: "PLANETA Yamashita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Altaria"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,

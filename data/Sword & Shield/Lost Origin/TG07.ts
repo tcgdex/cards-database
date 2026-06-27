@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Banette"
 	},
 
+	illustrator: "Tomomi Kaneko",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 80,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Arenatrainer"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

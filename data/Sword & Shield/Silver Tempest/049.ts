@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

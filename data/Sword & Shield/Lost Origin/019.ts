@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Keradar"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wuffels"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
