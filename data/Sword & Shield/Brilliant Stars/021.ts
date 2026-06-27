@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lavados"
 	},
 
+	illustrator: "otumami",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kapoera"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

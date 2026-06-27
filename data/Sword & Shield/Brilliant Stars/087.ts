@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Snibunna"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

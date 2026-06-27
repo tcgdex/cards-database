@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shaymin V"
 	},
 
+	illustrator: "Satoshi Shirai",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 190,

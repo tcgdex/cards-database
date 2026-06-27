@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kikugi"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,

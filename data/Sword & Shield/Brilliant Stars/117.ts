@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Staralili"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

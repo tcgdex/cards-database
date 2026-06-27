@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sleimok"
 	},
 
+	illustrator: "Scav",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

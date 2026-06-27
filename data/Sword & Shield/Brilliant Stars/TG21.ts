@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fließender-Angriff-Wulaosu VMAX"
 	},
 
+	illustrator: "Scav",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 330,

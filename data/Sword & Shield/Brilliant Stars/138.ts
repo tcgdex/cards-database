@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Cynthias Ehrgeiz"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Manaphy"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,

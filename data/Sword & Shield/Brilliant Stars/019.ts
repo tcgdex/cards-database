@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Magmar"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

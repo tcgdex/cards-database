@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elfun V"
 	},
 
+	illustrator: "Saki Hayashiro",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 190,

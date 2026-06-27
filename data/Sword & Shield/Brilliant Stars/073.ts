@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Nasgnet"
 	},
 
+	illustrator: "miki kudo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,

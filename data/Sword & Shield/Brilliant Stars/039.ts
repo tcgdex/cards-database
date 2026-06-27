@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bojelin"
 	},
 
+	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
