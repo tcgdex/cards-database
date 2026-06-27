@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kabu"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

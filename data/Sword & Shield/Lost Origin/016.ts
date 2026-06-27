@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Paragoni"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

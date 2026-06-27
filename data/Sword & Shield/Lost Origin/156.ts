@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Schadenspumpe"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 

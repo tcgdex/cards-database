@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Seeper"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

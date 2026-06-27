@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Lady"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

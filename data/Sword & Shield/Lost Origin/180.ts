@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Aerodactyl V"
 	},
 
+	illustrator: "Nurikabe",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
