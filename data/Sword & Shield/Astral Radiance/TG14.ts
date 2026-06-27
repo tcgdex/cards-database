@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schimmelreiter-Coronospa V"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,

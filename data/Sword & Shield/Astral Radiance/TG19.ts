@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Zapdos V"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,

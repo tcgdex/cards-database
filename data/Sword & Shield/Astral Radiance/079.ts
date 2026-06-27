@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hippopotas"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

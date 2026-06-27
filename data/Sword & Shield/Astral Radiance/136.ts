@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Neutralisierendes Parfüm"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 

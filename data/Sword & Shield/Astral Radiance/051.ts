@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regieleki"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mogelbaum"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Mel"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

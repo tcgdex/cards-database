@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shnurgarst"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

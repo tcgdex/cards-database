@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Tornupto"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,

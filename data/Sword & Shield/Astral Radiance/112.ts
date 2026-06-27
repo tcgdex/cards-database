@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bronzong"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Entoron"
 	},
 
+	illustrator: "otumami",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

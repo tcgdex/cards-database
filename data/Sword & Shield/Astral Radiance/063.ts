@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Driftlon"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

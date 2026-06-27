@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bronzong"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,
