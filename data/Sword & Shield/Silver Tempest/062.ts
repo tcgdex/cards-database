@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rossana"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

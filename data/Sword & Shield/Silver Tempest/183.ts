@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regidrago V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wablu"
 	},
 
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zirpeise V"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 180,

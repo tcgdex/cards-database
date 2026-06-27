@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Schwerthold & Schildrich"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Full Art Trainer",
 	category: "Trainer",
 

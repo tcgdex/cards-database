@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Duraludon VMAX"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 330,

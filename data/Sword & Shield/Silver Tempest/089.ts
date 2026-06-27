@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Katapuldra"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
