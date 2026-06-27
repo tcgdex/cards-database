@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shnebedeck"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

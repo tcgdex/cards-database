@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Maritellit"
 	},
 
+	illustrator: "yuu",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,

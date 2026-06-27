@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schlurplek"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

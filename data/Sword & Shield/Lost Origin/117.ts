@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kryppuk"
 	},
 
+	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 60,

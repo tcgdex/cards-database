@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elevoltek"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

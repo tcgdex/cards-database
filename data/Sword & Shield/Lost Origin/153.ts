@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hinatsu"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Trainer",
 

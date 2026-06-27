@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Myrapla"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

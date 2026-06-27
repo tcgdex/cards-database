@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rihorn"
 	},
 
+	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

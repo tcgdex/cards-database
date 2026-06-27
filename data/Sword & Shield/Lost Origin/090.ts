@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rizeros"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

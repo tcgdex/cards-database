@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ariados"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

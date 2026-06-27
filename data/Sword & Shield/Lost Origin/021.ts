@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schneckmag"
 	},
 
+	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

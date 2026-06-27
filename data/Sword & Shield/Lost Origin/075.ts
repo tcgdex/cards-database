@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Zorua"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Zoroark V"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bronzel"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

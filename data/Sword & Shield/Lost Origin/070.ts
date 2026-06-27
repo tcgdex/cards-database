@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zobiris"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 80,

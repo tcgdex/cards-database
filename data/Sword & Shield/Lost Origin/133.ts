@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui Viscargot"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

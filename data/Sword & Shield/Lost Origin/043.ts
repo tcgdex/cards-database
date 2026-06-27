@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rexblisar"
 	},
 
+	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

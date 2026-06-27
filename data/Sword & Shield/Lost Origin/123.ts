@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Hisui-Snieboss"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 130,

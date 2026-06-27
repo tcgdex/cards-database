@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Stahlos"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 170,

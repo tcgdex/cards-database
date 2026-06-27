@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Finneon"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

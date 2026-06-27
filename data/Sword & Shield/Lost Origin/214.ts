@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kiste des Unheils"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

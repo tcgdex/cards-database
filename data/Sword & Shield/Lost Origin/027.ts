@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fennexis V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,

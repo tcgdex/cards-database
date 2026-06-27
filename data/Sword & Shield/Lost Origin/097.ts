@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Makuhita"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Leufeo"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

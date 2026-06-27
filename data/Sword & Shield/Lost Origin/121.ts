@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Iscalar"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

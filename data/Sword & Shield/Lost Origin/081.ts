@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Phantoross"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rossana"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,

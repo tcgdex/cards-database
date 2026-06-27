@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Papella"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Finsterpflaster"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ignivor"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

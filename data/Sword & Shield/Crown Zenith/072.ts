@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pam-Pam"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

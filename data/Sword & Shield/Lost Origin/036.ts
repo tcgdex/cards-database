@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Seemon"
 	},
 
+	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

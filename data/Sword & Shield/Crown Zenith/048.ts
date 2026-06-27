@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zapplalek"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

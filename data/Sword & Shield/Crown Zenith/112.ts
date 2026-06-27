@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Plaudagei"
 	},
 
+	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

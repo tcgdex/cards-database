@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Thanathora"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,

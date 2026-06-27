@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relicanth"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

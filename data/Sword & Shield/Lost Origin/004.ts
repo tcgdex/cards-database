@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Paras"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

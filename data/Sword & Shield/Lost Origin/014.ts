@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Roselia"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

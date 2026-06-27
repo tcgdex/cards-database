@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Swaroness"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

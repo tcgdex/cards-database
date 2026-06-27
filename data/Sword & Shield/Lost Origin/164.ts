@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Banditenschwestern"
 	},
 
+	illustrator: "Souchirou Gunjima",
 	rarity: "Uncommon",
 	category: "Trainer",
 

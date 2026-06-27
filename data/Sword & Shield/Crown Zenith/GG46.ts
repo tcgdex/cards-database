@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Deoxys VSTAR"
 	},
 
+	illustrator: "DOM",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 270,

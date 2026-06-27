@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Polaross"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,

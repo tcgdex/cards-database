@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Panekon"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
