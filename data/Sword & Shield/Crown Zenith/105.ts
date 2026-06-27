@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Endynalos"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 170,

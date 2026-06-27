@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Georok"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

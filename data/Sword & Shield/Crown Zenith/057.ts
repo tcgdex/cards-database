@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Owei"
 	},
 
+	illustrator: "zig",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

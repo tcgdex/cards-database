@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Pokémon-Fänger"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 

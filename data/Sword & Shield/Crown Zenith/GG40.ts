@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glaziola VSTAR"
 	},
 
+	illustrator: "Gemi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 260,

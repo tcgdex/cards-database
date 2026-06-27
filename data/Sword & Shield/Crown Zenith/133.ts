@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hop"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

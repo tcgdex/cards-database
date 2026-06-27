@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pandagro"
 	},
 
+	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

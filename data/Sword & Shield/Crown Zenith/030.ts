@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Pantimos"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Felizia"
 	},
 
+	illustrator: "Toshinao Aoki",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
