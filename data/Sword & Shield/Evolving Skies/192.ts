@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Dragonite V",
@@ -76,10 +70,15 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 574250,
-		tcgplayer: 246758
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574250,
+				tcgplayer: 246758
+			}
+		},
+	],
 }
 
 export default card

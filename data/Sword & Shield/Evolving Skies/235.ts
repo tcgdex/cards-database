@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lightning Energy",
@@ -24,10 +18,16 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 574293,
-		tcgplayer: 246810
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574293,
+				tcgplayer: 246810
+			}
+		},
+	],
 }
 
 export default card

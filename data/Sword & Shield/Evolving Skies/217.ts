@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Rayquaza VMAX",
@@ -70,10 +64,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574275,
-		tcgplayer: 246731
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 574275,
+				tcgplayer: 246731
+			}
+		},
+	],
 }
 
 export default card

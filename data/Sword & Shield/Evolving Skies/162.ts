@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Switching Cups",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Ryo Ueda",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574220,
-		tcgplayer: 246787
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574220,
+				tcgplayer: 246787
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574220,
+				tcgplayer: 246787
+			}
+		},
+	],
 }
 
 export default card

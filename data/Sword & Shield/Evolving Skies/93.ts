@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Galarian Moltres",
@@ -86,10 +80,22 @@ const card: Card = {
 	dexId: [146],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574141,
-		tcgplayer: 246889
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574141,
+				tcgplayer: 246889
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574141,
+				tcgplayer: 246889
+			}
+		},
+	],
 }
 
 export default card

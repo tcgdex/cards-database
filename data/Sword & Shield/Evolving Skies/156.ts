@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Rubber Gloves",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Toyste Beach",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574214,
-		tcgplayer: 246782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574214,
+				tcgplayer: 246782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574214,
+				tcgplayer: 246782
+			}
+		},
+	],
 }
 
 export default card

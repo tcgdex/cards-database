@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Umbreon VMAX",
@@ -82,10 +76,15 @@ const card: Card = {
 	dexId: [197],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574143,
-		tcgplayer: 246720
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574143,
+				tcgplayer: 246720
+			}
+		},
+	],
 }
 
 export default card

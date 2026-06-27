@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zweilous",
@@ -71,10 +65,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574162,
-		tcgplayer: 246912
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574162,
+				tcgplayer: 246912
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574162,
+				tcgplayer: 246912
+			}
+		},
+	],
 }
 
 export default card

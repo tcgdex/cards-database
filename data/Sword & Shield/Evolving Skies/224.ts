@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Raihan",
@@ -36,10 +30,16 @@ const card: Card = {
 	illustrator: "kirisAki",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574282,
-		tcgplayer: 246798
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 574282,
+				tcgplayer: 246798
+			}
+		},
+	],
 }
 
 export default card

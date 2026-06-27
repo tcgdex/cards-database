@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Florges",
@@ -95,10 +89,22 @@ const card: Card = {
 	dexId: [671],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574121,
-		tcgplayer: 246855
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574121,
+				tcgplayer: 246855
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574121,
+				tcgplayer: 246855
+			}
+		},
+	],
 }
 
 export default card
