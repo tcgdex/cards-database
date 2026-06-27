@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flauschling"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

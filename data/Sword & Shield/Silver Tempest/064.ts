@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Traunmagil"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

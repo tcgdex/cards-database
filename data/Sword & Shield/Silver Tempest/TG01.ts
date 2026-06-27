@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rutena"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 90,

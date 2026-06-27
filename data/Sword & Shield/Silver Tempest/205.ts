@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kimono-Trägerin"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Blättriger Tarnponcho"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

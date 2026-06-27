@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Notfall-Gelee"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 

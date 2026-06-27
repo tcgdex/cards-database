@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meditie"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

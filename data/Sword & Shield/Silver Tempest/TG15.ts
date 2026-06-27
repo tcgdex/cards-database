@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lohgock VMAX"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,
