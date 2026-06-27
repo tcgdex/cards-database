@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Togepi"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

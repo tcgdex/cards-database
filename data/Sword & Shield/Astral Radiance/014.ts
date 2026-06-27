@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shaymin"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,

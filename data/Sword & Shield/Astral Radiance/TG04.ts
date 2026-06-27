@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mottineva"
 	},
 
+	illustrator: "aoki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

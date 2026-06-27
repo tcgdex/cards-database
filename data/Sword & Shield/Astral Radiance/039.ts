@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ur-Palkia V"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,

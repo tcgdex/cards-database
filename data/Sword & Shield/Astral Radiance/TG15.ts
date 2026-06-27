@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schimmelreiter-Coronospa VMAX"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mantax"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

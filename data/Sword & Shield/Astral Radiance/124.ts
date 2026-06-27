@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ursaluna"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,
