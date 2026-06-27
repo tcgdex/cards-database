@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "AYUMI ODASHIMA",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582970,
-		tcgplayer: 253107
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582970,
+				tcgplayer: 253107
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582970,
+				tcgplayer: 253107
+			}
+		},
+	],
 }
 
 export default card

@@ -29,10 +29,16 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 583036,
-		tcgplayer: 253279
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 583036,
+				tcgplayer: 253279
+			}
+		},
+	],
 }
 
 export default card

@@ -29,10 +29,16 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 583032,
-		tcgplayer: 253276
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 583032,
+				tcgplayer: 253276
+			}
+		},
+	],
 }
 
 export default card

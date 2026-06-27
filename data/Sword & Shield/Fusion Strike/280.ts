@@ -80,10 +80,16 @@ const card: Card = {
 		damage: 50
 	}],
 
-	thirdParty: {
-		cardmarket: 583041,
-		tcgplayer: 253284
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 583041,
+				tcgplayer: 253284
+			}
+		},
+	],
 }
 
 export default card

@@ -61,17 +61,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582180,
-		tcgplayer: 253172
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582180,
+				tcgplayer: 253172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582180,
+				tcgplayer: 253172
+			}
+		},
+	],
 }
 
 export default card

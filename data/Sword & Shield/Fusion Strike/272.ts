@@ -85,10 +85,16 @@ const card: Card = {
 		}
 	}],
 
-	thirdParty: {
-		cardmarket: 583026,
-		tcgplayer: 253270
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 583026,
+				tcgplayer: 253270
+			}
+		},
+	],
 }
 
 export default card
