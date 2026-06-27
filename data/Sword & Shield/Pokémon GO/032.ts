@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Natu"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

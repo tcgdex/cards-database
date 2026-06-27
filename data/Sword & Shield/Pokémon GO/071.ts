@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Kokowei V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 240,

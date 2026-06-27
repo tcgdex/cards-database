@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glurak"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,

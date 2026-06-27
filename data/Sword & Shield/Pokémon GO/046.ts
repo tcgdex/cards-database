@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Melmetal"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,

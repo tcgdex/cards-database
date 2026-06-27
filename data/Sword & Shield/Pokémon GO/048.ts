@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Melmetal VMAX"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,

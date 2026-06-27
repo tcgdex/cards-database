@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Turtok"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 150,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Larvitar"
 	},
 
+	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
