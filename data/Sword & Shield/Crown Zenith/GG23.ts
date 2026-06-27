@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dummisel"
 	},
 
+	illustrator: "Kurata So",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 60,

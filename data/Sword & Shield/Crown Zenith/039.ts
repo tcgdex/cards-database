@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sheinux"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

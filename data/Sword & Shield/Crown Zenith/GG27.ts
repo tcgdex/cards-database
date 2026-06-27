@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wablu"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 50,

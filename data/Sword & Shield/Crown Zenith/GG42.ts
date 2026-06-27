@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zeraora VMAX"
 	},
 
+	illustrator: "aoki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,

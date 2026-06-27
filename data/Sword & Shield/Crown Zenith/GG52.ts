@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Admurai VSTAR"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 270,

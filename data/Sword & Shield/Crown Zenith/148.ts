@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Hisui"
 	},
 
+	illustrator: "Kinu Nishimura",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

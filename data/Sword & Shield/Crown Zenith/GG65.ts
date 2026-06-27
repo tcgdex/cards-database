@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Roy"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

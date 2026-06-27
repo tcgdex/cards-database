@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wolly"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

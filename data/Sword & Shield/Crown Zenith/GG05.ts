@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lapras"
 	},
 
+	illustrator: "zig",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

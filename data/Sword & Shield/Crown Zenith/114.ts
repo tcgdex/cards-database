@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regigigas VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 300,
