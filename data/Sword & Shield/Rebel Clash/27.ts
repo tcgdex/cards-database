@@ -73,12 +73,6 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
 	},
 
-	thirdParty: {
-		cardmarket: 457588,
-		tcgplayer: 213103
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457588,
+				tcgplayer: 213103
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457588,
+				tcgplayer: 213103
+			}
+		},
+	],
 }
 
 export default card

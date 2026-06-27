@@ -56,12 +56,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar."
 	},
 
-	thirdParty: {
-		cardmarket: 457443,
-		tcgplayer: 213080
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457443,
+				tcgplayer: 213080
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457443,
+				tcgplayer: 213080
+			}
+		},
+	],
 }
 
 export default card

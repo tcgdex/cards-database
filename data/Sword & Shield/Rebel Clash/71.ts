@@ -66,19 +66,18 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 456478,
-		tcgplayer: 213156
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456478,
+				tcgplayer: 213156
+			}
+		},
+	],
 }
 
 export default card

@@ -80,20 +80,19 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 458293,
-		tcgplayer: 213199
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 458293,
+				tcgplayer: 213199
+			}
+		},
+	],
 }
 
 export default card

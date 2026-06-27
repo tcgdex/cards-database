@@ -62,12 +62,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -75,10 +69,22 @@ const card: Card = {
 		en: "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
 	},
 
-	thirdParty: {
-		cardmarket: 457798,
-		tcgplayer: 213162
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457798,
+				tcgplayer: 213162
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457798,
+				tcgplayer: 213162
+			}
+		},
+	],
 }
 
 export default card

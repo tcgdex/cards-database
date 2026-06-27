@@ -82,20 +82,19 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 458258,
-		tcgplayer: 213102
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 458258,
+				tcgplayer: 213102
+			}
+		},
+	],
 }
 
 export default card

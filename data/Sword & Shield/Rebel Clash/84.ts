@@ -94,12 +94,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently."
 	},
 
-	thirdParty: {
-		cardmarket: 457838,
-		tcgplayer: 213170
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457838,
+				tcgplayer: 213170
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457838,
+				tcgplayer: 213170
+			}
+		},
+	],
 }
 
 export default card

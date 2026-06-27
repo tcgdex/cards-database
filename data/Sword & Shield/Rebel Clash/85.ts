@@ -92,12 +92,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "It emits psychic power strong enough to cause headaches as a deterrent to the approach of others."
 	},
 
-	thirdParty: {
-		cardmarket: 457843,
-		tcgplayer: 213171
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457843,
+				tcgplayer: 213171
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457843,
+				tcgplayer: 213171
+			}
+		},
+	],
 }
 
 export default card

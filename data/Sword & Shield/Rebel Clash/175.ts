@@ -81,20 +81,19 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 458248,
-		tcgplayer: 213088
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 458248,
+				tcgplayer: 213088
+			}
+		},
+	],
 }
 
 export default card

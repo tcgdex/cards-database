@@ -89,12 +89,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 453298,
-		tcgplayer: 213237
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 453298,
+				tcgplayer: 213237
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 453298,
+				tcgplayer: 213237
+			}
+		},
+	],
 }
 
 export default card

@@ -79,20 +79,26 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 456448,
-		tcgplayer: 213136
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456448,
+				tcgplayer: 213136
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 672383
+			}
+		},
+	],
 }
 
 export default card
