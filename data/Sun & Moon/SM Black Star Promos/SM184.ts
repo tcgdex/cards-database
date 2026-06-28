@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,

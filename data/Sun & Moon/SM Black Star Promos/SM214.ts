@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mewtu"
 	},
 
-	illustrator: undefined,
+	illustrator: "kawayoo",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

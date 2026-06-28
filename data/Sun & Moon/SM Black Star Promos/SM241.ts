@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Nachtara & Darkrai GX"
 	},
 
+	illustrator: "so-taro",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,

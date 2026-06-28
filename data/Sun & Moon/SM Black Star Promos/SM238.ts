@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glaziola"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
