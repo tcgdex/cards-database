@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Psiana & Deoxys GX"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,

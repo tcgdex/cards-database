@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Tapu Lele",
 		de: "Kapu-Fala"
 	},
-	illustrator: "Mizue",
+	illustrator: "HYOGONOSUKE",
 	rarity: "Promo",
 	category: "Pokemon",
 

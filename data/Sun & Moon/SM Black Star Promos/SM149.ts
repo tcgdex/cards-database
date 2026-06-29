@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Suicune",
 		de: "Suicune"
 	},
-	illustrator: "Anesaki Dynamic",
+	illustrator: "Kouki Saitou",
 	rarity: "Promo",
 	category: "Pokemon",
 

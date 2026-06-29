@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Folipurba"
 	},
 
+	illustrator: "chibi",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,

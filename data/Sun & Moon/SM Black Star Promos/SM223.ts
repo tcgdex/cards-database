@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Terrakium"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
