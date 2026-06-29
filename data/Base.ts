@@ -11,7 +11,14 @@ const base: Serie = {
 		nl: "Basis",
 		pl: "Diament i Perla"
 	},
-	id: "base"
+	id: "base",
+
+	related: [
+		{
+			type: "translation",
+			seriesPath: "data-asia/PMCG.ts"
+		}
+	]
 }
 
 export default base
