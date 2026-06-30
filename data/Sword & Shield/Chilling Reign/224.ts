@@ -72,12 +72,6 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	illustrator: "Saki Hayashiro",
@@ -88,10 +82,16 @@ const card: Card = {
 
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 567332,
-		tcgplayer: 241875
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 567332,
+				tcgplayer: 241875
+			}
+		},
+	],
 }
 
 export default card

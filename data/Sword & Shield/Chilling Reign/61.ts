@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole."
 	},
 
-	thirdParty: {
-		cardmarket: 567169,
-		tcgplayer: 241722
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567169,
+				tcgplayer: 241722
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567169,
+				tcgplayer: 241722
+			}
+		},
+	],
 }
 
 export default card

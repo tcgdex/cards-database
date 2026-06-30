@@ -62,12 +62,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -75,10 +69,29 @@ const card: Card = {
 		en: "It has a generous habit of sharing its food with people and Pokémon, so it's always scrounging around for more food."
 	},
 
-	thirdParty: {
-		cardmarket: 567112,
-		tcgplayer: 241685
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567112,
+				tcgplayer: 241685
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 672376
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567112,
+				tcgplayer: 241685
+			}
+		},
+	],
 }
 
 export default card
