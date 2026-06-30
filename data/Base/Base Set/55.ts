@@ -81,6 +81,10 @@ const card: Card = {
 			subtype: "1999-2000-copyright",
 		}
 	],
+
+  thirdParty: {
+		tcgplayer: 42399
+	}
 }
 
 export default card
