@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They're said to be on the verge of extinction."
 	},
 
-	thirdParty: {
-		cardmarket: 483379,
-		tcgplayer: 219401
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483379,
+				tcgplayer: 219401
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483379,
+				tcgplayer: 219401
+			}
+		},
+	],
 }
 
 export default card

@@ -98,12 +98,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -111,10 +105,22 @@ const card: Card = {
 		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
 	},
 
-	thirdParty: {
-		cardmarket: 483294,
-		tcgplayer: 219470
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483294,
+				tcgplayer: 219470
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483294,
+				tcgplayer: 219470
+			}
+		},
+	],
 }
 
 export default card

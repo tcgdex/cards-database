@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
 	},
 
-	thirdParty: {
-		cardmarket: 483364,
-		tcgplayer: 219493
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483364,
+				tcgplayer: 219493
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483364,
+				tcgplayer: 219493
+			}
+		},
+	],
 }
 
 export default card

@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
 	},
 
-	thirdParty: {
-		cardmarket: 483274,
-		tcgplayer: 219464
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483274,
+				tcgplayer: 219464
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483274,
+				tcgplayer: 219464
+			}
+		},
+	],
 }
 
 export default card

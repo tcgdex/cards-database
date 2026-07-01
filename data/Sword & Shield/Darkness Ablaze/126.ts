@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply."
 	},
 
-	thirdParty: {
-		cardmarket: 483509,
-		tcgplayer: 219386
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483509,
+				tcgplayer: 219386
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483509,
+				tcgplayer: 219386
+			}
+		},
+	],
 }
 
 export default card
