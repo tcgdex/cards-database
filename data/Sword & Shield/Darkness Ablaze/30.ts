@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "According to legends, it was hatched from a flaming cocoon to save people and Pokémon that were suffering from the cold."
 	},
 
-	thirdParty: {
-		cardmarket: 483024,
-		tcgplayer: 219244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483024,
+				tcgplayer: 219244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483024,
+				tcgplayer: 219244
+			}
+		},
+	],
 }
 
 export default card

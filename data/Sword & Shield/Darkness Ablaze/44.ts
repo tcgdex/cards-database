@@ -95,12 +95,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -108,10 +102,29 @@ const card: Card = {
 		en: "On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later."
 	},
 
-	thirdParty: {
-		cardmarket: 483014,
-		tcgplayer: 219345
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483099,
+				tcgplayer: 219345
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cracked-ice',
+			thirdParty: {
+				cardmarket: 547931
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483099,
+				tcgplayer: 219345
+			}
+		},
+	],
 }
 
 export default card

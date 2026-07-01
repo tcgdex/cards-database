@@ -53,12 +53,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -66,10 +60,22 @@ const card: Card = {
 		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
 	},
 
-	thirdParty: {
-		cardmarket: 483229,
-		tcgplayer: 219445
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483229,
+				tcgplayer: 219445
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483229,
+				tcgplayer: 219445
+			}
+		},
+	],
 }
 
 export default card

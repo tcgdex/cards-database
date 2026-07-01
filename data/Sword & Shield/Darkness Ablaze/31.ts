@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 483029,
-		tcgplayer: 219245
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483029,
+				tcgplayer: 219245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483029,
+				tcgplayer: 219245
+			}
+		},
+	],
 }
 
 export default card
