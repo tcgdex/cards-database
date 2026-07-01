@@ -89,12 +89,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting."
 	},
 
-	thirdParty: {
-		cardmarket: 511745,
-		tcgplayer: 226469
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511745,
+				tcgplayer: 226469
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511745,
+				tcgplayer: 226469
+			}
+		},
+	],
 }
 
 export default card

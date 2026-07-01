@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "It's exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience."
 	},
 
-	thirdParty: {
-		cardmarket: 511870,
-		tcgplayer: 226526
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511870,
+				tcgplayer: 226526
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511870,
+				tcgplayer: 226526
+			}
+		},
+	],
 }
 
 export default card

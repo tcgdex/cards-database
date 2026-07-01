@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing."
 	},
 
-	thirdParty: {
-		cardmarket: 511585,
-		tcgplayer: 226412
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511585,
+				tcgplayer: 226412
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511585,
+				tcgplayer: 226412
+			}
+		},
+	],
 }
 
 export default card

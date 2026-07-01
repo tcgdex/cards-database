@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
 	},
 
-	thirdParty: {
-		cardmarket: 511555,
-		tcgplayer: 226398
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511555,
+				tcgplayer: 226398
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511555,
+				tcgplayer: 226398
+			}
+		},
+	],
 }
 
 export default card

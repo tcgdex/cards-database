@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
 	},
 
-	thirdParty: {
-		cardmarket: 511625,
-		tcgplayer: 226426
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511625,
+				tcgplayer: 226426
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511625,
+				tcgplayer: 226426
+			}
+		},
+	],
 }
 
 export default card
