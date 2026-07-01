@@ -5,12 +5,23 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		fr: "Ordres du Boss (Lysandre)",
-		en: "Boss's Orders (Lysandre)",
+		en: "Boss's Orders",
+		fr: "Ordres du Boss",
 		es: "Órdenes de Jefes",
 		it: "Ordini del Capo",
 		pt: "Ordem da Chefia",
 		de: "Befehl vom Boss"
+	},
+
+	description: {
+		en: "Boss's Orders (Lysandre)",
+		fr: "Ordres du Boss (Lysandre)",
+		es: "Órdenes de Jefes (Lysson)",
+		'es-mx': "Órdenes de Jefes (Lysandre)",
+		it: "Ordini del Capo (Elisio)",
+		pt: "Ordem da Chefia (Lysandre)",
+		'pt-br': "Ordem da Chefia (Lysandre)",
+		de: "Befehl vom Boss (Flordelis)"
 	},
 
 	illustrator: "Ryuta Fuse",

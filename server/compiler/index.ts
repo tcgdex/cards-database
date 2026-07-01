@@ -1,8 +1,10 @@
 /* eslint-disable max-statements */
-import { existsSync, promises as fs } from 'fs'
+import { promises as fs } from 'fs'
 import { SupportedLanguages } from '../../interfaces'
 import { FileFunction } from './compilerInterfaces'
 import { fetchRemoteFile, loadLastEdits } from './utils/util'
+import { enhanceTrainerLegality, getCards } from './utils/cardUtil'
+import { Card as CardSingle } from '../../meta/definitions/api'
 
 const LANGS: Array<SupportedLanguages> = [
 	'en', 'fr', 'es', 'es-mx', 'it', 'pt', 'pt-br', 'pt-pt', 'de', 'nl', 'pl', 'ru',
@@ -54,7 +56,14 @@ const DIST_FOLDER = './generated'
 
 			// Run the function
 			console.log('      ', 'Compiling', lang, file)
-			const item = await fn(lang)
+			let item = await fn(lang)
+
+			// Post-process Trainer legality after compilation but before writing JSON
+			if (file === 'cards.ts' && Array.isArray(item)) {
+				console.log('      ', 'Post-processing Trainer legality', lang)
+				const originalCards = await getCards(lang)
+				item = enhanceTrainerLegality(item as Array<CardSingle>, originalCards)
+			}
 
 			// Write to file
 			await fs.writeFile(`${folder}/${file.replace('.ts', '')}.json`, JSON.stringify(
