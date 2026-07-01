@@ -9,14 +9,14 @@ const card: Card = {
 		en: "Eevee on the Ball"
 	},
 
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "None",
 	category: "Pokemon",
 
 	description: {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
