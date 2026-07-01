@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Trasla"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

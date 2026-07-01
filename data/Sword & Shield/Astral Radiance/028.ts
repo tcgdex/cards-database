@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Enton"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

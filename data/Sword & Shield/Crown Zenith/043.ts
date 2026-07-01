@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Luxtra"
 	},
 
+	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

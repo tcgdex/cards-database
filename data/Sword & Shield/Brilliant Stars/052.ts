@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pachirisu"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

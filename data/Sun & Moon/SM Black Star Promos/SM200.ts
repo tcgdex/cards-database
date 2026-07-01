@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Snubbull"
 	},
 
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

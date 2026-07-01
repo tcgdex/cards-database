@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heiteira V"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 250,

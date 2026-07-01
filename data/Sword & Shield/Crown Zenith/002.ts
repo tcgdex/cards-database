@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Duflor"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

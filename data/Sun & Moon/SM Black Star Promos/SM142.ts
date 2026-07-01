@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Kyurem",
 		de: "Kyurem"
 	},
-	illustrator: "TOKIYA",
+	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",
 	category: "Pokemon",
 

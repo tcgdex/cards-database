@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heatran VMAX"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 330,

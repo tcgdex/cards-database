@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Belila"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Uncommon",
 	category: "Trainer",
 

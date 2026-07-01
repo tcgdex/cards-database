@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Achromas' Experiment"
 	},
 
+	illustrator: "kantaro",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

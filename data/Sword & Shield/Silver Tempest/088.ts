@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Phandra"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

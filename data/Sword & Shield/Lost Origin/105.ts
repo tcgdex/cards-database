@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Demeteros"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

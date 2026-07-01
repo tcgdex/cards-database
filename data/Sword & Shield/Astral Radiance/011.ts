@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wadribie"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

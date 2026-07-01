@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zytomega"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

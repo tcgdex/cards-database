@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Navitaub"
 	},
 
+	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

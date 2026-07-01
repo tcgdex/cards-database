@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Emolga"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

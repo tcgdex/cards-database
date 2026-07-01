@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 70,

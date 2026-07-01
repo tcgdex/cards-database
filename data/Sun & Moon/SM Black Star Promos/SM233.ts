@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Evoli GX"
 	},
 
+	illustrator: "Q-rais",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,

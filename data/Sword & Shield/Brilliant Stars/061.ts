@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zwirrklop"
 	},
 
+	illustrator: "miki kudo",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

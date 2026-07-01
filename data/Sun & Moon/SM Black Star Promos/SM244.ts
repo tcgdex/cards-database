@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Griffel"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

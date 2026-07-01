@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zacian V"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

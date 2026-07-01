@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hokumil"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heatran V"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,

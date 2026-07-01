@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Psiau"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

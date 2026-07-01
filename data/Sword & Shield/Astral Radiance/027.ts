@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Heatran"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 160,

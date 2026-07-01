@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rossana"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,

@@ -13,6 +13,7 @@ const card: Card = {
 	},
 
 	hp: 60,
+	types: ["Fire"],
 
 	stage: "Basic",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rappenreiter-Coronospa VMAX"
 	},
 
+	illustrator: "chibi",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,

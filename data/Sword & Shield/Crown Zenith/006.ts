@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sichlor"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

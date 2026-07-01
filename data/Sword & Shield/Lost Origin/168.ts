@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Werkzeugkasten"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 

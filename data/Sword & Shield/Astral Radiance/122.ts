@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Teddiursa"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

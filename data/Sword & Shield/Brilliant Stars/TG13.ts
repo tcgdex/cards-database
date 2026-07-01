@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bellektro V"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,

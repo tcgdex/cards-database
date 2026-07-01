@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relaxo"
 	},
 
+	illustrator: "0313",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,

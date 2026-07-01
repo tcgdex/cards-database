@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kleptifux"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

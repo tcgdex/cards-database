@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Enton"
 	},
 
-	illustrator: undefined,
+	illustrator: "Framestore",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

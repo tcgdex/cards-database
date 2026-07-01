@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Raichu GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

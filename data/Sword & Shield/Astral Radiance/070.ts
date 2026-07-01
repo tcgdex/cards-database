@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Fukano"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

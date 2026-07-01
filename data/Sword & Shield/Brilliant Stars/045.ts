@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Raichu V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,

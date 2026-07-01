@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Schmetterhammer"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Uncommon",
 	category: "Trainer",
 

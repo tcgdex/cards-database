@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lin-Fu"
 	},
 
+	illustrator: "yuu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

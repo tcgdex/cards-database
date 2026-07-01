@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Plaudagei"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

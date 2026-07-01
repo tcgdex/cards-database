@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Lunala GX",
 		de: "Lunala GX"
 	},
-	illustrator: "PLANETA",
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 

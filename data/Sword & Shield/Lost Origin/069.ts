@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Guardevoir"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 130,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Britzigel"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

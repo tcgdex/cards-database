@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mimigma V"
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 160,

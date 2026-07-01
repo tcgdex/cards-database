@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Necrozma"
 	},
 
-	illustrator: undefined,
+	illustrator: "Hasuno",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

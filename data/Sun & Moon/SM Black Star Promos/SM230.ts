@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glurak & Rutena GX"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,

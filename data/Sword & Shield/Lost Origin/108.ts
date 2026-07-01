@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rocara"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

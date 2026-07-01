@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bidiza"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

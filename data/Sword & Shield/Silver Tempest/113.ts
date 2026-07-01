@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rabigator"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,

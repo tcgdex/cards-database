@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Hutsassa"
 	},
 
-	illustrator: undefined,
+	illustrator: "MAHOU",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

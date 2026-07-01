@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Aranestro"
 	},
 
+	illustrator: "DOM",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,

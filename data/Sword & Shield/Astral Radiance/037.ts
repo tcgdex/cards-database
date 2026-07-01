@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regice"
 	},
 
+	illustrator: "aoki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

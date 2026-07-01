@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Olangaar"
 	},
 
+	illustrator: "DOM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,

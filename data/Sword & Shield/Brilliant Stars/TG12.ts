@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kommandutan"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

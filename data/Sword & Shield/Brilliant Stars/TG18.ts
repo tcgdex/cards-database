@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fokussierter-Angriff-Wulaosu V"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

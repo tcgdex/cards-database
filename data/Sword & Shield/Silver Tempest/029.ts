@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fiaro"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

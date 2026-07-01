@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Giratina V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

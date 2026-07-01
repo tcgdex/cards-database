@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zeraora"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

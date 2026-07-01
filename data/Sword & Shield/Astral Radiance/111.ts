@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bronzel"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

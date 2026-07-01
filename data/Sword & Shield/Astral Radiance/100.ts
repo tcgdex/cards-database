@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Admurai"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,

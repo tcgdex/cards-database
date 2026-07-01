@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energie-Zugewinn"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 

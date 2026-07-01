@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ramoth"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

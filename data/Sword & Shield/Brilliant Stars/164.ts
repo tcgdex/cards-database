@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Libelldra V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
