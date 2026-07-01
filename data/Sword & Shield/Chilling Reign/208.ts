@@ -75,12 +75,6 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "Ryota Murayama",
@@ -96,10 +90,16 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567316,
-		tcgplayer: 241790
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 567316,
+				tcgplayer: 241790
+			}
+		},
+	],
 }
 
 export default card

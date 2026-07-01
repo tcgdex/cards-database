@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
 	},
 
-	thirdParty: {
-		cardmarket: 567099,
-		tcgplayer: 241668
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567099,
+				tcgplayer: 241668
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567099,
+				tcgplayer: 241668
+			}
+		},
+	],
 }
 
 export default card

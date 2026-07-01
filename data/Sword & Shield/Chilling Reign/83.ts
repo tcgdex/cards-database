@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "Never touch its shadowlike body, or you'll be shown the horrific memories behind the picture carved into it."
 	},
 
-	thirdParty: {
-		cardmarket: 567191,
-		tcgplayer: 241750
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567191,
+				tcgplayer: 241750
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567191,
+				tcgplayer: 241750
+			}
+		},
+	],
 }
 
 export default card

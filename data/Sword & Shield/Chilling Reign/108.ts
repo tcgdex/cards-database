@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves."
 	},
 
-	thirdParty: {
-		cardmarket: 567216,
-		tcgplayer: 241783
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567216,
+				tcgplayer: 241783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567216,
+				tcgplayer: 241783
+			}
+		},
+	],
 }
 
 export default card

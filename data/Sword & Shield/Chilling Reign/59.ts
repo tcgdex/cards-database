@@ -50,12 +50,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -63,10 +57,22 @@ const card: Card = {
 		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
 	},
 
-	thirdParty: {
-		cardmarket: 567167,
-		tcgplayer: 241720
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567167,
+				tcgplayer: 241720
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567167,
+				tcgplayer: 241720
+			}
+		},
+	],
 }
 
 export default card
