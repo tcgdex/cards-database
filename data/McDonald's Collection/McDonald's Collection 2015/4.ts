@@ -34,7 +34,7 @@ const card: Card = {
 		},
 	],
 
-	illustrator: "Tomokazu Kamiya",
+	illustrator: "Tomokazu Komiya",
 
 	variants: [
 		{
