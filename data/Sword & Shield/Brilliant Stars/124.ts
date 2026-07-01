@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Picochilla"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

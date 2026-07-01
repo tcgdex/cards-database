@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Jirachi V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 180,

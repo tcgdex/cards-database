@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Panpyro"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Roxanas Backup"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Uncommon",
 	category: "Trainer",
 

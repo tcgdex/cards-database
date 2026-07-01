@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Blitza"
 	},
 
+	illustrator: "DOM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,

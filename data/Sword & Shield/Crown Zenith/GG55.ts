@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regigigas VSTAR"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 300,

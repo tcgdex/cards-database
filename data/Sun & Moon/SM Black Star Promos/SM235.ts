@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

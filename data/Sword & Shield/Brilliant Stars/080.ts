@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Jiutesto"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,

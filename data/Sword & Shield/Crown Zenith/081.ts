@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Algitt"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

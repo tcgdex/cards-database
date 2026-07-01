@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Fehlschlagschutz"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Uncommon",
 	category: "Trainer",
 

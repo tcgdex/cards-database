@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Webarak"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

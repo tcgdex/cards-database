@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kokowei"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

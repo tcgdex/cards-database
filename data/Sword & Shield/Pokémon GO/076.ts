@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dragoran V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 230,

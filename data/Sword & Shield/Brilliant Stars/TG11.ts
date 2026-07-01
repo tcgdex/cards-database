@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Evoli"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,

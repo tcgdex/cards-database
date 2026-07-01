@@ -10,7 +10,7 @@ const card: Card = {
 		pt: "Raikou",
 		de: "Raikou"
 	},
-	illustrator: "Kagemaru Himeno",
+	illustrator: "nagimiso",
 	rarity: "Promo",
 	category: "Pokemon",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Camaub"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

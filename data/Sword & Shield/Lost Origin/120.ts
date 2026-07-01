@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Darkrai"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

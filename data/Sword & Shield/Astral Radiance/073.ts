@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Machomei VMAX"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,

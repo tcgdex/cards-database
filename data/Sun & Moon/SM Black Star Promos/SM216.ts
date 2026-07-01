@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Porygon-Z GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "PLANETA Tsuji",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

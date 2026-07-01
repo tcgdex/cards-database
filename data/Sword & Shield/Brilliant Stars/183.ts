@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Lavados V"
 	},
 
+	illustrator: "akyCG Works",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 220,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Raichu"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

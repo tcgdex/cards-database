@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Akkup"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 90,

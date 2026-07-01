@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Darkrai V"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,

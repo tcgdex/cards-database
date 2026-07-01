@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Porygon"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Charmian"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

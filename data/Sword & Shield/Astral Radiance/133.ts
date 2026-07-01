@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kommandutan V"
 	},
 
+	illustrator: "Uta",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,

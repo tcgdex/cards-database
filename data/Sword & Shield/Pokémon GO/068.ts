@@ -13,6 +13,7 @@ const card: Card = {
 		de: "PokéStop"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 

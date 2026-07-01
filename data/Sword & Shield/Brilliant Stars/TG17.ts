@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mimigma VMAX"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 300,

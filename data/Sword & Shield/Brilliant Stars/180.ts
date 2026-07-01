@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Roxanas Backup"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

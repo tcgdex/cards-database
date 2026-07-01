@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sharfax"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,

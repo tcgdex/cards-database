@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Giflor"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,

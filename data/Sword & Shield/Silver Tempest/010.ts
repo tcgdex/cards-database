@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Dressella"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

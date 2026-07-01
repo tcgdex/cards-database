@@ -16,6 +16,7 @@ const card: Card = {
 	stage: "Basic",
 
 	hp: 70,
+	types: ["Water"],
 
 	attacks: [{
 		cost: [

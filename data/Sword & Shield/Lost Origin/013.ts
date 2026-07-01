@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tengulist"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,

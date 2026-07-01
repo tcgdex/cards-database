@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Feelinara V"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,

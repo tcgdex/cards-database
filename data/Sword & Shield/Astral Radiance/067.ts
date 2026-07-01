@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tobutz"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,

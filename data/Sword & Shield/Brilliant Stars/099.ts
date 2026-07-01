@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Voluminas"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Delion"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

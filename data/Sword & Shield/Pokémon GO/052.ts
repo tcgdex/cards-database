@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heiteira"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 200,

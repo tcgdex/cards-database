@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Jurob"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

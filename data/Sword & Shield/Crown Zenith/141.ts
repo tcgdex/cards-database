@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Sonderbonbon"
 	},
 
+	illustrator: "Yoshinobu Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
 

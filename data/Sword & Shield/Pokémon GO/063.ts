@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fasasnob"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

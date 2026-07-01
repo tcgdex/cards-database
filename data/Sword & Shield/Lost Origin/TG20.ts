@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Iksbat V"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 180,

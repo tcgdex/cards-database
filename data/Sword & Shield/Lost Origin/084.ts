@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Arkani"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,

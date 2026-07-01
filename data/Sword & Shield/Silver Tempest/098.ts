@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Resladero"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

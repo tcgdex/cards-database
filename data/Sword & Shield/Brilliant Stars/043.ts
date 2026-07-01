@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Siberio"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

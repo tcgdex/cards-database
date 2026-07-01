@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Luxio"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,

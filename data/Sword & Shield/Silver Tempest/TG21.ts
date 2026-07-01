@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Duraludon VMAX"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,

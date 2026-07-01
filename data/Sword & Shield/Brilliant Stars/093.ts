@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pelzebub"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schillok"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

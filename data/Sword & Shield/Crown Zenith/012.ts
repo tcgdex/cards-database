@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Venuflibis"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

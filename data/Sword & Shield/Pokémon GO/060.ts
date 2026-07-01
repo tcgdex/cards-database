@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bidifas"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

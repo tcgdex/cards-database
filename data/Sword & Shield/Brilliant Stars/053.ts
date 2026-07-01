@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Piepi"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

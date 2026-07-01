@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sichlor"
 	},
 
+	illustrator: "Uta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

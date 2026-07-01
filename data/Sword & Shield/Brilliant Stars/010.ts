@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Burmadame"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zygarde"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Garados GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

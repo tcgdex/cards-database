@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Traumato"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

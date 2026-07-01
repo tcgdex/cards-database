@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Befehl vom Boss"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Luxtra V"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
