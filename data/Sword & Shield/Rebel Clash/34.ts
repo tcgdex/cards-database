@@ -81,12 +81,6 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
 	},
 
-	thirdParty: {
-		cardmarket: 457628,
-		tcgplayer: 213110
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457628,
+				tcgplayer: 213110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457628,
+				tcgplayer: 213110
+			}
+		},
+	],
 }
 
 export default card

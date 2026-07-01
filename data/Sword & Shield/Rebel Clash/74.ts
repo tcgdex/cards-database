@@ -71,12 +71,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon."
 	},
 
-	thirdParty: {
-		cardmarket: 457788,
-		tcgplayer: 213160
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457788,
+				tcgplayer: 213160
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457788,
+				tcgplayer: 213160
+			}
+		},
+	],
 }
 
 export default card

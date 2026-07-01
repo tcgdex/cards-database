@@ -79,12 +79,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -92,10 +86,22 @@ const card: Card = {
 		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier."
 	},
 
-	thirdParty: {
-		cardmarket: 456433,
-		tcgplayer: 213115
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 456433,
+				tcgplayer: 213115
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 456433,
+				tcgplayer: 213115
+			}
+		},
+	],
 }
 
 export default card

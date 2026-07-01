@@ -49,12 +49,6 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -62,10 +56,22 @@ const card: Card = {
 		en: "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash."
 	},
 
-	thirdParty: {
-		cardmarket: 457968,
-		tcgplayer: 213204
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457968,
+				tcgplayer: 213204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457968,
+				tcgplayer: 213204
+			}
+		},
+	],
 }
 
 export default card

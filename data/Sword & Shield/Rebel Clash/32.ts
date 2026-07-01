@@ -87,12 +87,6 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "This Pokémon appears just before someone passes away, so it's feared as an emissary of death."
 	},
 
-	thirdParty: {
-		cardmarket: 457618,
-		tcgplayer: 213108
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457618,
+				tcgplayer: 213108
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457618,
+				tcgplayer: 213108
+			}
+		},
+	],
 }
 
 export default card

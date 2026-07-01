@@ -86,12 +86,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries."
 	},
 
-	thirdParty: {
-		cardmarket: 457818,
-		tcgplayer: 213166
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457818,
+				tcgplayer: 213166
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457818,
+				tcgplayer: 213166
+			}
+		},
+	],
 }
 
 export default card

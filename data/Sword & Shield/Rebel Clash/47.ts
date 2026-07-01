@@ -56,12 +56,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
 	},
 
-	thirdParty: {
-		cardmarket: 457678,
-		tcgplayer: 213126
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457678,
+				tcgplayer: 213126
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457678,
+				tcgplayer: 213126
+			}
+		},
+	],
 }
 
 export default card

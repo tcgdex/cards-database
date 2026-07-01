@@ -69,12 +69,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 
 	dexId: [10],
 
-	thirdParty: {
-		cardmarket: 457383,
-		tcgplayer: 213071
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457383,
+				tcgplayer: 213071
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457383,
+				tcgplayer: 213071
+			}
+		},
+	],
 }
 
 export default card

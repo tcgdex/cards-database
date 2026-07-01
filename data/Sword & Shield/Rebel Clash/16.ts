@@ -49,12 +49,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -62,10 +56,22 @@ const card: Card = {
 		en: "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches."
 	},
 
-	thirdParty: {
-		cardmarket: 457473,
-		tcgplayer: 213086
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457473,
+				tcgplayer: 213086
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457473,
+				tcgplayer: 213086
+			}
+		},
+	],
 }
 
 export default card

@@ -78,12 +78,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move."
 	},
 
-	thirdParty: {
-		cardmarket: 458138,
-		tcgplayer: 213248
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458138,
+				tcgplayer: 213248
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458138,
+				tcgplayer: 213248
+			}
+		},
+	],
 }
 
 export default card

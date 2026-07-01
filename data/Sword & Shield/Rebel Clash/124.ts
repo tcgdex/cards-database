@@ -82,12 +82,6 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "When it gets down on all fours as if to beg for forgiveness, it's trying to lure opponents in so that it can stab them with its spear-like hair."
 	},
 
-	thirdParty: {
-		cardmarket: 458018,
-		tcgplayer: 213220
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458018,
+				tcgplayer: 213220
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458018,
+				tcgplayer: 213220
+			}
+		},
+	],
 }
 
 export default card

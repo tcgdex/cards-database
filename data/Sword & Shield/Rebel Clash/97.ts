@@ -56,12 +56,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper."
 	},
 
-	thirdParty: {
-		cardmarket: 457898,
-		tcgplayer: 213185
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457898,
+				tcgplayer: 213185
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457898,
+				tcgplayer: 213185
+			}
+		},
+	],
 }
 
 export default card
