@@ -82,21 +82,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
 	},
 
-	thirdParty: {
-		cardmarket: 682109,
-		tcgplayer: 451716
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682109,
+				tcgplayer: 451716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682109,
+				tcgplayer: 451716
+			}
+		},
+	],
 }
 
 export default card

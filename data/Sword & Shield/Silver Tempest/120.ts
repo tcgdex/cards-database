@@ -80,21 +80,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
 	},
 
-	thirdParty: {
-		cardmarket: 682167,
-		tcgplayer: 450292
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682167,
+				tcgplayer: 450292
+			}
+		},
+	],
 }
 
 export default card

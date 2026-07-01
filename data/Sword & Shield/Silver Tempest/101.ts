@@ -67,21 +67,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
 	},
 
-	thirdParty: {
-		cardmarket: 682148,
-		tcgplayer: 451755
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682148,
+				tcgplayer: 451755
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682148,
+				tcgplayer: 451755
+			}
+		},
+	],
 }
 
 export default card

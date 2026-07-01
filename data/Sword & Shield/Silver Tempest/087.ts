@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
 	},
 
-	thirdParty: {
-		cardmarket: 682134,
-		tcgplayer: 451741
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682134,
+				tcgplayer: 451741
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682134,
+				tcgplayer: 451741
+			}
+		},
+	],
 }
 
 export default card

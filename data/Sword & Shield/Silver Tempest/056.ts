@@ -67,21 +67,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
 	},
 
-	thirdParty: {
-		cardmarket: 682103,
-		tcgplayer: 451712
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682103,
+				tcgplayer: 451712
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682103,
+				tcgplayer: 451712
+			}
+		},
+	],
 }
 
 export default card
