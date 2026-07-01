@@ -3,12 +3,12 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Hawlucha EX",
-		fr: "Brutalibré EX",
-		es: "Hawlucha EX",
-		it: "Hawlucha EX",
-		pt: "Hawlucha EX",
-		de: "Resladero EX"
+		en: "Hawlucha-EX",
+		fr: "Brutalibré-EX",
+		es: "Hawlucha-EX",
+		it: "Hawlucha-EX",
+		pt: "Hawlucha-EX",
+		de: "Resladero-EX"
 	},
 
 	illustrator: "5ban Graphics",
