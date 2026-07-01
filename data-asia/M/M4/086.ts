@@ -1,0 +1,54 @@
+import { Card } from "../../../interfaces";
+import Set from "../M4";
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		ja: "ケロマツ",
+	},
+
+	illustrator: "Susumu Maeya",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+
+	description: {
+		ja: "繊細な 泡で 体を 包み 肌を 守る。 のんきに 見せかけ 抜け目なく 周囲を うかがう。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				ja: "もってくる",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の山札を1枚引く。",
+			},
+		},
+		{
+			name: {
+				ja: "みずでっぽう",
+			},
+			damage: 10,
+			cost: ["Water"],
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+	variants: [{ type: "holo" }],
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Illustration rare",
+	dexId: [656],
+
+	thirdParty: {
+		cardmarket: 876919
+	}
+};
+
+export default card;

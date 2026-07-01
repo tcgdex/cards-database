@@ -1,4 +1,5 @@
 export const jpSetTranslationsMap = new Map<string, string>([
+  ['M4', 'Ninja Spinner'],
   ['M3', 'Nihil Zero'],
   ['MC', 'Starter Decks 100 Battle Collection'],
   ['MP1', 'Starter Decks 100 Battle Collection CoroCiao ver.'],
