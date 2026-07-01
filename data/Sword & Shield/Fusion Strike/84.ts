@@ -55,17 +55,30 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582218,
-		tcgplayer: 253238
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582218,
+				tcgplayer: 253238
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 740470
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582218,
+				tcgplayer: 253238
+			}
+		},
+	],
 }
 
 export default card

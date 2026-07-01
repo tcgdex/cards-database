@@ -28,17 +28,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	illustrator: "Ryuta Fuse",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582971,
-		tcgplayer: 253110
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582971,
+				tcgplayer: 253110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582971,
+				tcgplayer: 253110
+			}
+		},
+	],
 }
 
 export default card
