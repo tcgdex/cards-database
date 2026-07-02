@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Swaroness"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674057,
-		tcgplayer: 283921
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674057,
+				tcgplayer: 283921
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674057,
+				tcgplayer: 283921
+			}
+		},
+	],
 }
 
 export default card

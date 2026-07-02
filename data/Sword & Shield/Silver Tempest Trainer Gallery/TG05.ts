@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [282],
@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Guardevoir"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -76,20 +77,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
 	},
 
-	thirdParty: {
-		cardmarket: 682116
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682269,
+				tcgplayer: 452019
+			}
+		},
+	],
 }
 
 export default card

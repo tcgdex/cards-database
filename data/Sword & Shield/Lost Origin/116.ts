@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vipitis"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -47,16 +48,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674129,
-		tcgplayer: 284015
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674129,
+				tcgplayer: 284015
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674129,
+				tcgplayer: 284015
+			}
+		},
+	],
 }
 
 export default card

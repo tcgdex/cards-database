@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Togedemaru"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -59,21 +60,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
 	},
 
-	thirdParty: {
-		cardmarket: 682174,
-		tcgplayer: 451780
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682174,
+				tcgplayer: 451780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682174,
+				tcgplayer: 451780
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Folipurba VSTAR"
 	},
 
+	illustrator: "PLANETA Hiiragi",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 260,

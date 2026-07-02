@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dragonir"
 	},
 
+	illustrator: "Shinya Komatsu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -70,21 +71,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
 	},
 
-	thirdParty: {
-		cardmarket: 682177,
-		tcgplayer: 451783
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682177,
+				tcgplayer: 451783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682177,
+				tcgplayer: 451783
+			}
+		},
+	],
 }
 
 export default card

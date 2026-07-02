@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Emolga"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -64,21 +65,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
 	},
 
-	thirdParty: {
-		cardmarket: 682101,
-		tcgplayer: 451710
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682101,
+				tcgplayer: 451710
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682101,
+				tcgplayer: 451710
+			}
+		},
+	],
 }
 
 export default card

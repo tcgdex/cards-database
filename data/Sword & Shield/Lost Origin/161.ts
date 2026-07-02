@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Nirgendwo City"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674170,
-		tcgplayer: 284093
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674170,
+				tcgplayer: 284093
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674170,
+				tcgplayer: 284093
+			}
+		},
+	],
 }
 
 export default card

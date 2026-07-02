@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Piondragi V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -70,16 +71,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674131,
-		tcgplayer: 284018
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674131,
+				tcgplayer: 284018
+			}
+		},
+	],
 }
 
 export default card

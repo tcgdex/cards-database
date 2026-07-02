@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Servol"
 	},
 
+	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -70,21 +71,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "These intelligent Pokémon touch horns with each other to share information between them.",
 	},
 
-	thirdParty: {
-		cardmarket: 682133,
-		tcgplayer: 451740
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682133,
+				tcgplayer: 451740
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682133,
+				tcgplayer: 451740
+			}
+		},
+	],
 }
 
 export default card

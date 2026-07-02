@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "It can learn and speak human words. If they gather, they all learn the same saying."
 	},
 
-	thirdParty: {
-		cardmarket: 512405,
-		tcgplayer: 226595
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512405,
+				tcgplayer: 226595
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512405,
+				tcgplayer: 226595
+			}
+		},
+	],
 }
 
 export default card

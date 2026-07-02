@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Trekkingschuhe"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
 

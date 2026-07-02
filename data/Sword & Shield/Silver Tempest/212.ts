@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energie-Umschalter"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -27,17 +28,17 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682261,
-		tcgplayer: 452010
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 682261,
+				tcgplayer: 452010
+			}
+		},
+	],
 }
 
 export default card

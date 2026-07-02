@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kingler V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Luft-Siegelstein"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

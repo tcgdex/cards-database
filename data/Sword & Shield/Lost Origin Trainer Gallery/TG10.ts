@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relaxo"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,

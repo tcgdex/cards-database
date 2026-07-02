@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Curelei"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -60,16 +61,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674092,
-		tcgplayer: 283960
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674092,
+				tcgplayer: 283960
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674092,
+				tcgplayer: 283960
+			}
+		},
+	],
 }
 
 export default card

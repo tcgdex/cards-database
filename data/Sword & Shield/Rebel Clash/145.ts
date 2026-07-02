@@ -98,12 +98,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -111,10 +105,22 @@ const card: Card = {
 		en: "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed."
 	},
 
-	thirdParty: {
-		cardmarket: 458123,
-		tcgplayer: 213245
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458123,
+				tcgplayer: 213245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458123,
+				tcgplayer: 213245
+			}
+		},
+	],
 }
 
 export default card

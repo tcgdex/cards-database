@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relaxo"
 	},
 
+	illustrator: "0313",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -69,16 +70,23 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670829,
-		tcgplayer: 284068
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674153,
+				tcgplayer: 284068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674153,
+				tcgplayer: 284068
+			}
+		},
+	],
 }
 
 export default card

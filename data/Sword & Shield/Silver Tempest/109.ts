@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glibunkel"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -44,21 +45,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It makes frightening noises with its poison-filled cheek sacs. When opponents flinch, Croagunk hits them with a poison jab.",
 	},
 
-	thirdParty: {
-		cardmarket: 682156,
-		tcgplayer: 451763
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682156,
+				tcgplayer: 451763
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682156,
+				tcgplayer: 451763
+			}
+		},
+	],
 }
 
 export default card

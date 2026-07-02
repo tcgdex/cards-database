@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kyogre V"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,

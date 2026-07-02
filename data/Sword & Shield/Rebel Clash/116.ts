@@ -78,12 +78,6 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago."
 	},
 
-	thirdParty: {
-		cardmarket: 457988,
-		tcgplayer: 213208
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457988,
+				tcgplayer: 213208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457988,
+				tcgplayer: 213208
+			}
+		},
+	],
 }
 
 export default card

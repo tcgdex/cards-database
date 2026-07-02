@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Mauzinger V"
 	},
 
+	illustrator: "PLANETA Yamashita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674189,
-		tcgplayer: 284134
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674189,
+				tcgplayer: 284134
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relicanth"
 	},
 
+	illustrator: "SATOSHI NAKAI",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -73,21 +74,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
 	},
 
-	thirdParty: {
-		cardmarket: 682090,
-		tcgplayer: 451684
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682090,
+				tcgplayer: 451684
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682090,
+				tcgplayer: 451684
+			}
+		},
+	],
 }
 
 export default card

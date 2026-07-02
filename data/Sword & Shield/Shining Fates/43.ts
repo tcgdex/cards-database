@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
 	},
 
-	thirdParty: {
-		cardmarket: 539238,
-		tcgplayer: 232509
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539238,
+				tcgplayer: 232509
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539238,
+				tcgplayer: 232509
+			}
+		},
+	],
 }
 
 export default card

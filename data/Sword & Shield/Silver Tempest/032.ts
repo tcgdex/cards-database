@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fuegro"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -83,21 +84,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When its fighting spirit is set alight, the flames around its waist become especially intense.",
 	},
 
-	thirdParty: {
-		cardmarket: 682074,
-		tcgplayer: 451663
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682074,
+				tcgplayer: 451663
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682074,
+				tcgplayer: 451663
+			}
+		},
+	],
 }
 
 export default card

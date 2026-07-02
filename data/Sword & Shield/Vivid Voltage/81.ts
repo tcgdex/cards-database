@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
 	},
 
-	thirdParty: {
-		cardmarket: 511825,
-		tcgplayer: 226489
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511825,
+				tcgplayer: 226489
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511825,
+				tcgplayer: 226489
+			}
+		},
+	],
 }
 
 export default card

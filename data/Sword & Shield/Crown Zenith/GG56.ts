@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Zoroark VSTAR"
 	},
 
+	illustrator: "SIE NANAHARA",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 270,

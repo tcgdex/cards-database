@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Moterpel"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

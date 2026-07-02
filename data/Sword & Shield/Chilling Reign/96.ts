@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason."
 	},
 
-	thirdParty: {
-		cardmarket: 567204,
-		tcgplayer: 241765
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567204,
+				tcgplayer: 241765
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567204,
+				tcgplayer: 241765
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zirpurze"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

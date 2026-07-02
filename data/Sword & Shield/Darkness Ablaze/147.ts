@@ -100,12 +100,6 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -113,10 +107,22 @@ const card: Card = {
 		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings."
 	},
 
-	thirdParty: {
-		cardmarket: 483614,
-		tcgplayer: 219355
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483614,
+				tcgplayer: 219355
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483614,
+				tcgplayer: 219355
+			}
+		},
+	],
 }
 
 export default card

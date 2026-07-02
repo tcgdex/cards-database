@@ -89,12 +89,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
 	},
 
-	thirdParty: {
-		cardmarket: 453303,
-		tcgplayer: 213240
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 453303,
+				tcgplayer: 213240
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 453303,
+				tcgplayer: 213240
+			}
+		},
+	],
 }
 
 export default card

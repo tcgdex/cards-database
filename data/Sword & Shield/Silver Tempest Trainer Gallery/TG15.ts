@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [257],
@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lohgock VMAX"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 320,
@@ -85,16 +86,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682279
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682279,
+				tcgplayer: 452031
+			}
+		},
+	],
 }
 
 export default card

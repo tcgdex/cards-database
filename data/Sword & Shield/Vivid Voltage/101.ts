@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful."
 	},
 
-	thirdParty: {
-		cardmarket: 511925,
-		tcgplayer: 226553
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511925,
+				tcgplayer: 226553
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511925,
+				tcgplayer: 226553
+			}
+		},
+	],
 }
 
 export default card

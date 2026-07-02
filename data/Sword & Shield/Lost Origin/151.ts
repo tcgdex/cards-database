@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schlaraffel"
 	},
 
+	illustrator: "sui",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -77,16 +78,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674160,
-		tcgplayer: 284079
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674160,
+				tcgplayer: 284079
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674160,
+				tcgplayer: 284079
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rutena"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -76,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
 	},
 
-	thirdParty: {
-		cardmarket: 682067,
-		tcgplayer: 451657
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682067,
+				tcgplayer: 451657
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682067,
+				tcgplayer: 451657
+			}
+		},
+	],
 }
 
 export default card

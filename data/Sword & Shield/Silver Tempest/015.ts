@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Brigaron V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,
@@ -76,17 +77,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682056,
-		tcgplayer: 451643
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682056,
+				tcgplayer: 451643
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gallopa"
 	},
 
+	illustrator: "Megumi Higuchi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -76,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
 	},
 
-	thirdParty: {
-		cardmarket: 682063,
-		tcgplayer: 451653
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682063,
+				tcgplayer: 451653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682063,
+				tcgplayer: 451653
+			}
+		},
+	],
 }
 
 export default card

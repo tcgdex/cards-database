@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Hinatsu"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,16 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674210,
-		tcgplayer: 284159
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 674210,
+				tcgplayer: 284159
+			}
+		},
+	],
 }
 
 export default card

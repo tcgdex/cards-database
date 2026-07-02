@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Siegfried"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682240,
-		tcgplayer: 451840
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682240,
+				tcgplayer: 451840
+			}
+		},
+	],
 }
 
 export default card

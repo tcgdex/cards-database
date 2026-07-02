@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bronzong"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674139,
-		tcgplayer: 284042
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674139,
+				tcgplayer: 284042
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674139,
+				tcgplayer: 284042
+			}
+		},
+	],
 }
 
 export default card

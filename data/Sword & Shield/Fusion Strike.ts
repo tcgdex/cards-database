@@ -1,7 +1,7 @@
 import { Set } from '../../interfaces'
 import serie from '../Sword & Shield'
 
-const set: Set = {
+const swsh8: Set = {
 	id: "swsh8",
 
 	name: {
@@ -33,4 +33,4 @@ const set: Set = {
 	}
 }
 
-export default set
+export default swsh8

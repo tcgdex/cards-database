@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Geronimatz"
 	},
 
+	illustrator: "Eri Yamaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

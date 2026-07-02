@@ -89,12 +89,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
 	},
 
-	thirdParty: {
-		cardmarket: 457923,
-		tcgplayer: 213190
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457923,
+				tcgplayer: 213190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457923,
+				tcgplayer: 213190
+			}
+		},
+	],
 }
 
 export default card

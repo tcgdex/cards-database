@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Distmar"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674175,
-		tcgplayer: 284100
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674175,
+				tcgplayer: 284100
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674175,
+				tcgplayer: 284100
+			}
+		},
+	],
 }
 
 export default card

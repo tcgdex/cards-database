@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Lamina"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,16 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674212,
-		tcgplayer: 284161
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 674212,
+				tcgplayer: 284161
+			}
+		},
+	],
 }
 
 export default card

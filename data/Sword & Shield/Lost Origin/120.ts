@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Darkrai"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -69,16 +70,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674133,
-		tcgplayer: 284025
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674133,
+				tcgplayer: 284025
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674133,
+				tcgplayer: 284025
+			}
+		},
+	],
 }
 
 export default card

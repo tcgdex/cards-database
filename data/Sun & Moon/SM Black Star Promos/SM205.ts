@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Terrakium"
 	},
 
-	illustrator: undefined,
+	illustrator: "Shin Nagasawa",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

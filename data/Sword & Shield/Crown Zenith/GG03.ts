@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Magbrant"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

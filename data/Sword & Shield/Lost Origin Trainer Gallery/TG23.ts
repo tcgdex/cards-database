@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Entdeckung der Abenteurerin"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

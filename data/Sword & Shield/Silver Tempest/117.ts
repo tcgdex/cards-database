@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tanhel"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -70,21 +71,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.",
 	},
 
-	thirdParty: {
-		cardmarket: 682164,
-		tcgplayer: 451771
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682164,
+				tcgplayer: 451771
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682164,
+				tcgplayer: 451771
+			}
+		},
+	],
 }
 
 export default card

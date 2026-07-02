@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fukano"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -57,21 +58,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
 	},
 
-	thirdParty: {
-		cardmarket: 682060,
-		tcgplayer: 451650
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682060,
+				tcgplayer: 451650
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682060,
+				tcgplayer: 451650
+			}
+		},
+	],
 }
 
 export default card

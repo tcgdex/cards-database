@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Roserade"
 	},
 
+	illustrator: "0313",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674026,
-		tcgplayer: 283882
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674026,
+				tcgplayer: 283882
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674026,
+				tcgplayer: 283882
+			}
+		},
+	],
 }
 
 export default card

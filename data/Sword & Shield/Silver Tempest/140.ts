@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ho-Oh V"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,
@@ -82,17 +83,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682187,
-		tcgplayer: 451790
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682187,
+				tcgplayer: 451790
+			}
+		},
+	],
 }
 
 export default card

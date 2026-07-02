@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kommandutan V"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,

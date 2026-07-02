@@ -61,12 +61,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -74,10 +68,22 @@ const card: Card = {
 		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
 	},
 
-	thirdParty: {
-		cardmarket: 482934,
-		tcgplayer: 219092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482934,
+				tcgplayer: 219092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482934,
+				tcgplayer: 219092
+			}
+		},
+	],
 }
 
 export default card

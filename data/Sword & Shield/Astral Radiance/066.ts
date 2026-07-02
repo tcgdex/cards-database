@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vesprit"
 	},
 
+	illustrator: "zig",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kyurem VMAX"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
@@ -79,16 +80,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674059,
-		tcgplayer: 283923
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674059,
+				tcgplayer: 283923
+			}
+		},
+	],
 }
 
 export default card

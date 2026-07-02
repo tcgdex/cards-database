@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramshef"
 	},
 
+	illustrator: "aoki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -89,21 +90,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
 	},
 
-	thirdParty: {
-		cardmarket: 682154,
-		tcgplayer: 451761
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682154,
+				tcgplayer: 451761
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682154,
+				tcgplayer: 451761
+			}
+		},
+	],
 }
 
 export default card

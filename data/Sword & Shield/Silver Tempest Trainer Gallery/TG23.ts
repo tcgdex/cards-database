@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	set: Set,
@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Galar"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Full Art Trainer",
 	category: "Trainer",
 
@@ -28,16 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682287
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682287,
+				tcgplayer: 452039
+			}
+		},
+	],
 }
 
 export default card

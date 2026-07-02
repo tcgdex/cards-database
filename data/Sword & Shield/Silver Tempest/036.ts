@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Arktos"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -66,21 +67,34 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
 	},
 
-	thirdParty: {
-		cardmarket: 682078,
-		tcgplayer: 451669
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682078,
+				tcgplayer: 451669
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 874538
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682078,
+				tcgplayer: 451669
+			}
+		},
+	],
 }
 
 export default card

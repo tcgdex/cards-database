@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Riolu"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 60,

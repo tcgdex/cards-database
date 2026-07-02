@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants."
 	},
 
-	thirdParty: {
-		cardmarket: 512430,
-		tcgplayer: 226602
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512430,
+				tcgplayer: 226602
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512430,
+				tcgplayer: 226602
+			}
+		},
+	],
 }
 
 export default card

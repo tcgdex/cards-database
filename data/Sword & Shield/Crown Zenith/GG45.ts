@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Deoxys VMAX"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 330,

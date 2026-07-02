@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hypno"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -80,21 +81,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
 	},
 
-	thirdParty: {
-		cardmarket: 682108,
-		tcgplayer: 451715
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682108,
+				tcgplayer: 451715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682108,
+				tcgplayer: 451715
+			}
+		},
+	],
 }
 
 export default card

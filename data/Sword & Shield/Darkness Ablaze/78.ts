@@ -61,12 +61,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -74,10 +68,22 @@ const card: Card = {
 		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
 	},
 
-	thirdParty: {
-		cardmarket: 483269,
-		tcgplayer: 219462
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483269,
+				tcgplayer: 219462
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483269,
+				tcgplayer: 219462
+			}
+		},
+	],
 }
 
 export default card

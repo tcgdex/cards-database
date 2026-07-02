@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Riffex"
 	},
 
+	illustrator: "Nelnal",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Lavados V"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

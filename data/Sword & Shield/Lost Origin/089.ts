@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rihorn"
 	},
 
+	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -47,16 +48,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674102,
-		tcgplayer: 283976
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674102,
+				tcgplayer: 283976
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674102,
+				tcgplayer: 283976
+			}
+		},
+	],
 }
 
 export default card

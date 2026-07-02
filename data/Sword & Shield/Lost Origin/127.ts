@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Flunschlik"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -60,16 +61,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674140,
-		tcgplayer: 284044
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674140,
+				tcgplayer: 284044
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674140,
+				tcgplayer: 284044
+			}
+		},
+	],
 }
 
 export default card

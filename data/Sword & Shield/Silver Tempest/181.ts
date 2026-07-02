@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Skuntank V"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -74,17 +75,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682228,
-		tcgplayer: 451829
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682228,
+				tcgplayer: 451829
+			}
+		},
+	],
 }
 
 export default card

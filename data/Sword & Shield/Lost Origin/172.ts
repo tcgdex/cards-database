@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Lektrobal V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670823,
-		tcgplayer: 284110
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670823,
+				tcgplayer: 284110
+			}
+		},
+	],
 }
 
 export default card

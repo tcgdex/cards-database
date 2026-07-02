@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Yanma"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

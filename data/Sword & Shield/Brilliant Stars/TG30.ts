@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fließender-Angriff-Wulaosu VMAX"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 330,

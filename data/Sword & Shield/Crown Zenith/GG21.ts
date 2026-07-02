@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui Viscogon"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,

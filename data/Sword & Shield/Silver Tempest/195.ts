@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Arbeiterin"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682243,
-		tcgplayer: 451843
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682243,
+				tcgplayer: 451843
+			}
+		},
+	],
 }
 
 export default card

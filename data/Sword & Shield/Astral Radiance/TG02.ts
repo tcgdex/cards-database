@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Drapfel"
 	},
 
+	illustrator: "Misaki Hashimoto",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 80,

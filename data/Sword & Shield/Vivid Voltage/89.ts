@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "The same rocks that form its body have been found in ground layers around the world."
 	},
 
-	thirdParty: {
-		cardmarket: 511865,
-		tcgplayer: 226522
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511865,
+				tcgplayer: 226522
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511865,
+				tcgplayer: 226522
+			}
+		},
+	],
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wahlgürtel"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 

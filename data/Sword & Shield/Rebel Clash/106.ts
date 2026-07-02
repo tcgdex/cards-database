@@ -76,12 +76,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region."
 	},
 
-	thirdParty: {
-		cardmarket: 457943,
-		tcgplayer: 213194
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457943,
+				tcgplayer: 213194
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457943,
+				tcgplayer: 213194
+			}
+		},
+	],
 }
 
 export default card

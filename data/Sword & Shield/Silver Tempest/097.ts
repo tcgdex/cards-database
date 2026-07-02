@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Terrakium"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -53,21 +54,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 682144,
-		tcgplayer: 451751
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682144,
+				tcgplayer: 451751
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682144,
+				tcgplayer: 451751
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Victini"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -66,21 +67,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
 	},
 
-	thirdParty: {
-		cardmarket: 682064,
-		tcgplayer: 451654
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682064,
+				tcgplayer: 451654
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682064,
+				tcgplayer: 451654
+			}
+		},
+	],
 }
 
 export default card

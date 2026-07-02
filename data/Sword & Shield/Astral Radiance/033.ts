@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mamutel"
 	},
 
+	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 180,

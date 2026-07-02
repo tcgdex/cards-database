@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Seedraking"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670811,
-		tcgplayer: 283911
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670811,
+				tcgplayer: 283911
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 670811,
+				tcgplayer: 283911
+			}
+		},
+	],
 }
 
 export default card

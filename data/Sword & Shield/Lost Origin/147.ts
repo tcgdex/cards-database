@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Zoroark VSTAR"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 270,
@@ -58,16 +59,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670819,
-		tcgplayer: 282256
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670819,
+				tcgplayer: 282256
+			}
+		},
+	],
 }
 
 export default card

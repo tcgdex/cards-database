@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Skaraborn"
 	},
 
+	illustrator: "aoki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,

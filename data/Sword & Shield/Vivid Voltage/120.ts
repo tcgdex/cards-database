@@ -100,12 +100,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -113,10 +107,22 @@ const card: Card = {
 		en: "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey."
 	},
 
-	thirdParty: {
-		cardmarket: 512310,
-		tcgplayer: 226574
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512310,
+				tcgplayer: 226574
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512310,
+				tcgplayer: 226574
+			}
+		},
+	],
 }
 
 export default card

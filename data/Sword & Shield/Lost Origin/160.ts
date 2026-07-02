@@ -13,6 +13,7 @@ const card: Card = {
 		de: "See der Stärke"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674168,
-		tcgplayer: 284092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674168,
+				tcgplayer: 284092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674168,
+				tcgplayer: 284092
+			}
+		},
+	],
 }
 
 export default card

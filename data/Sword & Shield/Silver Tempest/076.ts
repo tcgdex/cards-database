@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Monozyto"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -50,21 +51,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
 	},
 
-	thirdParty: {
-		cardmarket: 682123,
-		tcgplayer: 451730
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682123,
+				tcgplayer: 451730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682123,
+				tcgplayer: 451730
+			}
+		},
+	],
 }
 
 export default card

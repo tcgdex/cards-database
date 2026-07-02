@@ -55,12 +55,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -68,10 +62,15 @@ const card: Card = {
 		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
 	},
 
-	thirdParty: {
-		cardmarket: 539253,
-		tcgplayer: 232519
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539253,
+				tcgplayer: 232519
+			}
+		},
+	],
 }
 
 export default card

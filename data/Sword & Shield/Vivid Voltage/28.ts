@@ -89,12 +89,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
 	},
 
-	thirdParty: {
-		cardmarket: 511560,
-		tcgplayer: 226399
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511560,
+				tcgplayer: 226399
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511560,
+				tcgplayer: 226399
+			}
+		},
+	],
 }
 
 export default card

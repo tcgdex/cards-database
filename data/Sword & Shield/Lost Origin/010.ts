@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pudox"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -68,16 +69,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674021,
-		tcgplayer: 283874
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674021,
+				tcgplayer: 283874
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674021,
+				tcgplayer: 283874
+			}
+		},
+	],
 }
 
 export default card

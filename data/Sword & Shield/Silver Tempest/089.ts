@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Katapuldra"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -80,21 +81,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
 	},
 
-	thirdParty: {
-		cardmarket: 682136,
-		tcgplayer: 451743
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682136,
+				tcgplayer: 451743
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682136,
+				tcgplayer: 451743
+			}
+		},
+	],
 }
 
 export default card

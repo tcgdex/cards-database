@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lanturn",
@@ -85,10 +79,22 @@ const card: Card = {
 	dexId: [171],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574077,
-		tcgplayer: 246893
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574077,
+				tcgplayer: 246893
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574077,
+				tcgplayer: 246893
+			}
+		},
+	],
 }
 
 export default card

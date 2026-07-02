@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Omot"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -76,21 +77,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
 	},
 
-	thirdParty: {
-		cardmarket: 682041,
-		tcgplayer: 451621
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682041,
+				tcgplayer: 451621
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682041,
+				tcgplayer: 451621
+			}
+		},
+	],
 }
 
 export default card

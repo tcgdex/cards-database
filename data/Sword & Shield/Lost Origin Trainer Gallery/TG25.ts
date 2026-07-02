@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Küchenchef"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

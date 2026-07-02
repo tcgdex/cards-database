@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Grillchita VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 260,

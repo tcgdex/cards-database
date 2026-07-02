@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Manaphy"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,

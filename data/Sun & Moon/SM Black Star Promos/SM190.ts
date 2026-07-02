@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meisterdetektiv Pikachu"
 	},
 
+	illustrator: "Framestore",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,

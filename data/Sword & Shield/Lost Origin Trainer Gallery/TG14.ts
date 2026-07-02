@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Infernopod V"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,

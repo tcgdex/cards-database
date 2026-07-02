@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Taiso"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

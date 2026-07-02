@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [303],
@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flunkifer V"
 	},
 
+	illustrator: "saino misaki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
@@ -76,16 +77,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682117
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682281,
+				tcgplayer: 450295
+			}
+		},
+	],
 }
 
 export default card

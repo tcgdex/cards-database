@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Humanolith"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -67,16 +68,23 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674124,
-		tcgplayer: 284006
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674124,
+				tcgplayer: 284006
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674124,
+				tcgplayer: 284006
+			}
+		},
+	],
 }
 
 export default card

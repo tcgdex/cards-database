@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bamelin"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

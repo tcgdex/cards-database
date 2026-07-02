@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
 	},
 
-	thirdParty: {
-		cardmarket: 483619,
-		tcgplayer: 219357
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483619,
+				tcgplayer: 219357
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483619,
+				tcgplayer: 219357
+			}
+		},
+	],
 }
 
 export default card

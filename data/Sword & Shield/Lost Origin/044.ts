@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Barschuft"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -45,16 +46,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674054,
-		tcgplayer: 283918
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674054,
+				tcgplayer: 283918
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674054,
+				tcgplayer: 283918
+			}
+		},
+	],
 }
 
 export default card

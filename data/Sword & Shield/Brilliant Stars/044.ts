@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kubuin"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

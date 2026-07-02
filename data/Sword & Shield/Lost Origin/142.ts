@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Porygon-Z"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -68,16 +69,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674152,
-		tcgplayer: 284066
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674152,
+				tcgplayer: 284066
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674152,
+				tcgplayer: 284066
+			}
+		},
+	],
 }
 
 export default card

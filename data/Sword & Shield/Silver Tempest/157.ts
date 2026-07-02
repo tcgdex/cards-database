@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kimono-Trägerin"
 	},
 
+	illustrator: "Yusuke Ohmura",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682204,
-		tcgplayer: 451805
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682204,
+				tcgplayer: 451805
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682204,
+				tcgplayer: 451805
+			}
+		},
+	],
 }
 
 export default card

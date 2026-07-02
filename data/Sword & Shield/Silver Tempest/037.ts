@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wailmer"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -66,21 +67,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
 	},
 
-	thirdParty: {
-		cardmarket: 682079,
-		tcgplayer: 451671
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682079,
+				tcgplayer: 451671
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682079,
+				tcgplayer: 451671
+			}
+		},
+	],
 }
 
 export default card

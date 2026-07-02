@@ -62,12 +62,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -75,10 +69,22 @@ const card: Card = {
 		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons."
 	},
 
-	thirdParty: {
-		cardmarket: 567091,
-		tcgplayer: 241660
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567091,
+				tcgplayer: 241660
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567091,
+				tcgplayer: 241660
+			}
+		},
+	],
 }
 
 export default card

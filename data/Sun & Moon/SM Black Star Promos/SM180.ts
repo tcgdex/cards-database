@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Muramura"
 	},
 
+	illustrator: "Hiroki Asanuma",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola Vulpix-VSTAR"
 	},
 
+	illustrator: "PLANETA Hiiragi",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 240,
@@ -84,17 +85,17 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682245,
-		tcgplayer: 451987
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 682245,
+				tcgplayer: 451987
+			}
+		},
+	],
 }
 
 export default card

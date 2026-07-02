@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Panikmaske"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,16 +29,23 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674173,
-		tcgplayer: 284097
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674173,
+				tcgplayer: 284097
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674173,
+				tcgplayer: 284097
+			}
+		},
+	],
 }
 
 export default card

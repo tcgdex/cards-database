@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bähmon"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

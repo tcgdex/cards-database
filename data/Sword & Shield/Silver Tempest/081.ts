@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Psiau"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -63,21 +64,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Though Espurr's expression never changes, behind that blank stare is an intense struggle to contain its devastating psychic power.",
 	},
 
-	thirdParty: {
-		cardmarket: 682128,
-		tcgplayer: 451735
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682128,
+				tcgplayer: 451735
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682128,
+				tcgplayer: 451735
+			}
+		},
+	],
 }
 
 export default card

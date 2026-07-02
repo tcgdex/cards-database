@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meditalis"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -91,21 +92,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
 	},
 
-	thirdParty: {
-		cardmarket: 682120,
-		tcgplayer: 451727
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682120,
+				tcgplayer: 451727
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682120,
+				tcgplayer: 451727
+			}
+		},
+	],
 }
 
 export default card

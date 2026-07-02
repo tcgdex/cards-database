@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 60,

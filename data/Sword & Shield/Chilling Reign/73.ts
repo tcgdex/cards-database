@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch."
 	},
 
-	thirdParty: {
-		cardmarket: 567181,
-		tcgplayer: 241734
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567181,
+				tcgplayer: 241734
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567181,
+				tcgplayer: 241734
+			}
+		},
+	],
 }
 
 export default card

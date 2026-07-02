@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	set: Set,
@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Richter"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Full Art Trainer",
 	category: "Trainer",
 
@@ -27,16 +28,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682289
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682289,
+				tcgplayer: 452042
+			}
+		},
+	],
 }
 
 export default card

@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [242],
@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heiteira V"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 250,
@@ -76,16 +77,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682286
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682286,
+				tcgplayer: 452037
+			}
+		},
+	],
 }
 
 export default card

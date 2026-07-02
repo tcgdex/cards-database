@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Reshiram V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -74,17 +75,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682065,
-		tcgplayer: 451655
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682065,
+				tcgplayer: 451655
+			}
+		},
+	],
 }
 
 export default card

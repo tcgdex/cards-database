@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vulpix"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -53,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
 	},
 
-	thirdParty: {
-		cardmarket: 682058,
-		tcgplayer: 451646
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682058,
+				tcgplayer: 451646
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682058,
+				tcgplayer: 451646
+			}
+		},
+	],
 }
 
 export default card

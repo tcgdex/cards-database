@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sonnkern"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -44,21 +45,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
 	},
 
-	thirdParty: {
-		cardmarket: 682044,
-		tcgplayer: 451625
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682044,
+				tcgplayer: 451625
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682044,
+				tcgplayer: 451625
+			}
+		},
+	],
 }
 
 export default card

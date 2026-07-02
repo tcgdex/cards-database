@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regidrago"
 	},
 
+	illustrator: "DOM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,

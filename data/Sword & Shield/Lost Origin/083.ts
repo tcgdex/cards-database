@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Fukano"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -43,16 +44,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674096,
-		tcgplayer: 283967
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674096,
+				tcgplayer: 283967
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674096,
+				tcgplayer: 283967
+			}
+		},
+	],
 }
 
 export default card

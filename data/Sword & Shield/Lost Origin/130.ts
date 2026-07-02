@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Giratina V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670816,
-		tcgplayer: 284050
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670816,
+				tcgplayer: 284050
+			}
+		},
+	],
 }
 
 export default card

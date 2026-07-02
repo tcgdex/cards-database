@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Arbeiterin"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682214,
-		tcgplayer: 451815
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682214,
+				tcgplayer: 451815
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682214,
+				tcgplayer: 451815
+			}
+		},
+	],
 }
 
 export default card

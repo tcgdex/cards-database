@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Copycat",
@@ -35,10 +29,22 @@ const card: Card = {
 	trainerType: "Supporter",
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 574201,
-		tcgplayer: 246768
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574201,
+				tcgplayer: 246768
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574201,
+				tcgplayer: 246768
+			}
+		},
+	],
 }
 
 export default card

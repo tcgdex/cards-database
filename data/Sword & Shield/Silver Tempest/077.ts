@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mitodos"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
@@ -69,21 +70,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
 	},
 
-	thirdParty: {
-		cardmarket: 682124,
-		tcgplayer: 451731
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682124,
+				tcgplayer: 451731
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682124,
+				tcgplayer: 451731
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Relicanth"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -58,16 +59,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674113,
-		tcgplayer: 283994
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674113,
+				tcgplayer: 283994
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674113,
+				tcgplayer: 283994
+			}
+		},
+	],
 }
 
 export default card

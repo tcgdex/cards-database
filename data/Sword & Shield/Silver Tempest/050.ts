@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Raichu"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -76,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
 	},
 
-	thirdParty: {
-		cardmarket: 682097,
-		tcgplayer: 451704
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682097,
+				tcgplayer: 451704
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682097,
+				tcgplayer: 451704
+			}
+		},
+	],
 }
 
 export default card

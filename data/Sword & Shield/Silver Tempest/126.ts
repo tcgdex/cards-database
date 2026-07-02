@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kobalium"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -81,21 +82,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon appears in a legend alongside Terrakion and Virizion, fighting against humans in defense of the Unova region's Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 682173,
-		tcgplayer: 451779
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682173,
+				tcgplayer: 451779
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682173,
+				tcgplayer: 451779
+			}
+		},
+	],
 }
 
 export default card

@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -99,10 +93,16 @@ const card: Card = {
 		en: "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit."
 	},
 
-	thirdParty: {
-		cardmarket: 483879,
-		tcgplayer: 219323
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 483879,
+				tcgplayer: 219323
+			}
+		},
+	],
 }
 
 export default card

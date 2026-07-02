@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pumpkaboo",
@@ -82,10 +76,22 @@ const card: Card = {
 	dexId: [710],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574124,
-		tcgplayer: 246857
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574124,
+				tcgplayer: 246857
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574124,
+				tcgplayer: 246857
+			}
+		},
+	],
 }
 
 export default card

@@ -100,12 +100,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -113,10 +107,22 @@ const card: Card = {
 		en: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water."
 	},
 
-	thirdParty: {
-		cardmarket: 483539,
-		tcgplayer: 219396
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483539,
+				tcgplayer: 219396
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483539,
+				tcgplayer: 219396
+			}
+		},
+	],
 }
 
 export default card

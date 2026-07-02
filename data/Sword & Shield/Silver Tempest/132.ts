@@ -14,6 +14,7 @@ const card: Card = {
 		de: "eF-eM"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -51,21 +52,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.",
 	},
 
-	thirdParty: {
-		cardmarket: 682179,
-		tcgplayer: 451785
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682179,
+				tcgplayer: 451785
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682179,
+				tcgplayer: 451785
+			}
+		},
+	],
 }
 
 export default card

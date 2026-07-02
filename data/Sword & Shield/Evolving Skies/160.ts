@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Spirit Mask",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574218,
-		tcgplayer: 246784
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574218,
+				tcgplayer: 246784
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574218,
+				tcgplayer: 246784
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sabbaione"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -76,21 +77,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
 	},
 
-	thirdParty: {
-		cardmarket: 682131,
-		tcgplayer: 451738
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682131,
+				tcgplayer: 451738
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682131,
+				tcgplayer: 451738
+			}
+		},
+	],
 }
 
 export default card

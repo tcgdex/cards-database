@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lugia V"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -80,17 +81,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682234,
-		tcgplayer: 451834
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682234,
+				tcgplayer: 451834
+			}
+		},
+	],
 }
 
 export default card

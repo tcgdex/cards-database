@@ -52,12 +52,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -65,10 +59,22 @@ const card: Card = {
 		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
 	},
 
-	thirdParty: {
-		cardmarket: 483299,
-		tcgplayer: 219471
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483299,
+				tcgplayer: 219471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483299,
+				tcgplayer: 219471
+			}
+		},
+	],
 }
 
 export default card

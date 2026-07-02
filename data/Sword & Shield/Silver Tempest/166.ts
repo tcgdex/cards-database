@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wassili"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682213,
-		tcgplayer: 451814
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682213,
+				tcgplayer: 451814
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682213,
+				tcgplayer: 451814
+			}
+		},
+	],
 }
 
 export default card

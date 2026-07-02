@@ -65,12 +65,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events."
 	},
 
-	thirdParty: {
-		cardmarket: 567178,
-		tcgplayer: 241731
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567178,
+				tcgplayer: 241731
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567178,
+				tcgplayer: 241731
+			}
+		},
+	],
 }
 
 export default card

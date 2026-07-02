@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galagladi V"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

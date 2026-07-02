@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui Viscogon-VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 270,
@@ -58,16 +59,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674208,
-		tcgplayer: 284157
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 674208,
+				tcgplayer: 284157
+			}
+		},
+	],
 }
 
 export default card

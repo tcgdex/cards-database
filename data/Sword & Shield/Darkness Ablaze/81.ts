@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
 	},
 
-	thirdParty: {
-		cardmarket: 483284,
-		tcgplayer: 219467
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483284,
+				tcgplayer: 219467
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483284,
+				tcgplayer: 219467
+			}
+		},
+	],
 }
 
 export default card

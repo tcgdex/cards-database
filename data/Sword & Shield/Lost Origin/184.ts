@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Mauzinger V"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674190,
-		tcgplayer: 284135
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674190,
+				tcgplayer: 284135
+			}
+		},
+	],
 }
 
 export default card

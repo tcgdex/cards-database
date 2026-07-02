@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Paragoni"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -38,16 +39,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674027,
-		tcgplayer: 283883
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674027,
+				tcgplayer: 283883
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674027,
+				tcgplayer: 283883
+			}
+		},
+	],
 }
 
 export default card

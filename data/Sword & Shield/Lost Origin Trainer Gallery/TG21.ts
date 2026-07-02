@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Endynalos V"
 	},
 
+	illustrator: "kodama",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,

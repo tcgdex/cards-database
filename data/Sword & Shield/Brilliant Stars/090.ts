@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Felilou"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

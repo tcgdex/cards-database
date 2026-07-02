@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Arktilas"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,

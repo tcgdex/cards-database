@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Toyste Beach",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582979,
-		tcgplayer: 253123
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582979,
+				tcgplayer: 253123
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582979,
+				tcgplayer: 253123
+			}
+		},
+	],
 }
 
 export default card

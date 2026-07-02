@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Baldorfish"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,

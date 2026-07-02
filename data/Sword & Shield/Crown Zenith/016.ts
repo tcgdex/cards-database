@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zarude"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

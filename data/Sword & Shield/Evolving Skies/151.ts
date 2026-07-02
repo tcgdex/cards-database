@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Moon & Sun Badge",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Studio Bora Inc.",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574209,
-		tcgplayer: 246776
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574209,
+				tcgplayer: 246776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574209,
+				tcgplayer: 246776
+			}
+		},
+	],
 }
 
 export default card

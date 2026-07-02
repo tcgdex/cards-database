@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elfun VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 250,

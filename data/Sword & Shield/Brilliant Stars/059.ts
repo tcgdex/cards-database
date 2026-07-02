@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lepumentas"
 	},
 
+	illustrator: "Kazuma Koda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

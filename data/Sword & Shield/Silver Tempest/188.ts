@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Brian"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682236,
-		tcgplayer: 451836
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682236,
+				tcgplayer: 451836
+			}
+		},
+	],
 }
 
 export default card

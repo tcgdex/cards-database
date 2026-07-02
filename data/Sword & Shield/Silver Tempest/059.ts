@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Simsala"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -81,21 +82,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
 	},
 
-	thirdParty: {
-		cardmarket: 682106,
-		tcgplayer: 451394
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682106,
+				tcgplayer: 451394
+			}
+		},
+	],
 }
 
 export default card

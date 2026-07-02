@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [124],
@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rossana"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -81,20 +82,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
 	},
 
-	thirdParty: {
-		cardmarket: 682109
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682268,
+				tcgplayer: 452018
+			}
+		},
+	],
 }
 
 export default card

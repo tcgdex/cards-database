@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lapras"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,

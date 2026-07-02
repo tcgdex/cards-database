@@ -9,14 +9,14 @@ const card: Card = {
 		en: "Scorbunny on the Ball"
 	},
 
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "None",
 	category: "Pokemon",
 
 	description: {
 		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",

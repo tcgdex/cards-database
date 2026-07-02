@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Serena"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682241,
-		tcgplayer: 451841
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682241,
+				tcgplayer: 451841
+			}
+		},
+	],
 }
 
 export default card

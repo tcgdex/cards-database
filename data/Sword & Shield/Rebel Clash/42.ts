@@ -91,12 +91,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
 	},
 
-	thirdParty: {
-		cardmarket: 457653,
-		tcgplayer: 213120
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457653,
+				tcgplayer: 213120
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457653,
+				tcgplayer: 213120
+			}
+		},
+	],
 }
 
 export default card

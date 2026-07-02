@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mogelbaum"
 	},
 
-	illustrator: undefined,
+	illustrator: "Akira Komayama",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

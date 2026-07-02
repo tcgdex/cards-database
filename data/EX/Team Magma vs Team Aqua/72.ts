@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Doppelter Ball"
 	},
 
-	illustrator: "Big Mama\" Tagawa\"",
+	illustrator: "\"Big Mama\" Tagawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

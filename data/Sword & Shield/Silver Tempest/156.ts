@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wald-Siegelstein"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -28,17 +29,16 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682203,
-		tcgplayer: 451804
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682203,
+				tcgplayer: 451804
+			}
+		},
+	],
 }
 
 export default card

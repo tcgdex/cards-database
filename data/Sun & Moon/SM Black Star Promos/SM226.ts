@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glurak"
 	},
 
+	illustrator: "2019 Pikachu Project",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,

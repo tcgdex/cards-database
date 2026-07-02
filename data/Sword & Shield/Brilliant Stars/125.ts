@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chillabell"
 	},
 
+	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

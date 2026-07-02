@@ -88,12 +88,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -101,10 +95,22 @@ const card: Card = {
 		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them."
 	},
 
-	thirdParty: {
-		cardmarket: 457753,
-		tcgplayer: 213147
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457753,
+				tcgplayer: 213147
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457753,
+				tcgplayer: 213147
+			}
+		},
+	],
 }
 
 export default card

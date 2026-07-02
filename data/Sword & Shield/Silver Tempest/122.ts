@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tentantel"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
@@ -73,21 +74,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
 	},
 
-	thirdParty: {
-		cardmarket: 682169,
-		tcgplayer: 451775
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682169,
+				tcgplayer: 451775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682169,
+				tcgplayer: 451775
+			}
+		},
+	],
 }
 
 export default card

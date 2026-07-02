@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Giratina VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -78,16 +79,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 670816,
-		tcgplayer: 284156
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 670816,
+				tcgplayer: 284156
+			}
+		},
+	],
 }
 
 export default card

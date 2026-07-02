@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ariados"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674126,
-		tcgplayer: 284009
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674126,
+				tcgplayer: 284009
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674126,
+				tcgplayer: 284009
+			}
+		},
+	],
 }
 
 export default card

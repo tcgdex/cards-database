@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sonnfel"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

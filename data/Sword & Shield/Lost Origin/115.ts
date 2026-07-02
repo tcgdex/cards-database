@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramshef"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674128,
-		tcgplayer: 284013
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674128,
+				tcgplayer: 284013
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674128,
+				tcgplayer: 284013
+			}
+		},
+	],
 }
 
 export default card

@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,29 @@ const card: Card = {
 		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions."
 	},
 
-	thirdParty: {
-		cardmarket: 567206,
-		tcgplayer: 241769
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567206,
+				tcgplayer: 241769
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 752310
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567206,
+				tcgplayer: 241769
+			}
+		},
+	],
 }
 
 export default card

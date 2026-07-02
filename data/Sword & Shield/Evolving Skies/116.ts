@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Kyurem",
@@ -59,10 +53,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574164,
-		tcgplayer: 246914
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574164,
+				tcgplayer: 246914
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574164,
+				tcgplayer: 246914
+			}
+		},
+	],
 }
 
 export default card

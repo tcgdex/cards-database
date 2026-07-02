@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Fließender-Stil-Mastrich"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 

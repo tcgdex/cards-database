@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
 	},
 
-	thirdParty: {
-		cardmarket: 511895,
-		tcgplayer: 226537
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511895,
+				tcgplayer: 226537
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511895,
+				tcgplayer: 226537
+			}
+		},
+	],
 }
 
 export default card

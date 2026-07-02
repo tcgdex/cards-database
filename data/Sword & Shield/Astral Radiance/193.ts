@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Tornupto VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 260,

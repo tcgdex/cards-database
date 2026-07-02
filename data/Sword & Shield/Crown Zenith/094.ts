@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zacian"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,

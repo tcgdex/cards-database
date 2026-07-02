@@ -80,12 +80,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
 	},
 
-	thirdParty: {
-		cardmarket: 483424,
-		tcgplayer: 219422
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483424,
+				tcgplayer: 219422
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483424,
+				tcgplayer: 219422
+			}
+		},
+	],
 }
 
 export default card

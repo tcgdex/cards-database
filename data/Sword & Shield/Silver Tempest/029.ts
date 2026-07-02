@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fiaro"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -83,21 +84,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Talonflame mainly preys upon other bird Pokémon. To intimidate opponents, it sends embers spewing from gaps between its feathers.",
 	},
 
-	thirdParty: {
-		cardmarket: 682071,
-		tcgplayer: 451660
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682071,
+				tcgplayer: 451660
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682071,
+				tcgplayer: 451660
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zygarde"
 	},
 
+	illustrator: "Misa Tsutsui",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -60,21 +61,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Born when around 10% of Zygarde's cells have been gathered from all over, this form is skilled in close-range combat.",
 	},
 
-	thirdParty: {
-		cardmarket: 682181,
-		tcgplayer: 451787
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682181,
+				tcgplayer: 451787
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682181,
+				tcgplayer: 451787
+			}
+		},
+	],
 }
 
 export default card

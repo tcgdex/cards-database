@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival."
 	},
 
-	thirdParty: {
-		cardmarket: 567210,
-		tcgplayer: 241776
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567210,
+				tcgplayer: 241776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567210,
+				tcgplayer: 241776
+			}
+		},
+	],
 }
 
 export default card

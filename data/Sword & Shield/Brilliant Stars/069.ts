@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mimigma VMAX"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 300,

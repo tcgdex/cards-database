@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flunkifer V"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -76,17 +77,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682225,
-		tcgplayer: 451826
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682225,
+				tcgplayer: 451826
+			}
+		},
+	],
 }
 
 export default card

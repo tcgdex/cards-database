@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Icognito V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 180,
@@ -80,17 +81,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682223,
-		tcgplayer: 451824
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682223,
+				tcgplayer: 451824
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dragoran V"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 230,

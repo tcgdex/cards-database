@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Garstella"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -51,21 +52,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The first symptom of its sting is numbness. The next is an itching sensation so intense that it's impossible to resist the urge to claw at your skin.",
 	},
 
-	thirdParty: {
-		cardmarket: 682161,
-		tcgplayer: 451768
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682161,
+				tcgplayer: 451768
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682161,
+				tcgplayer: 451768
+			}
+		},
+	],
 }
 
 export default card

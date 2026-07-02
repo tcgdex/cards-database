@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikdiklak"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -82,21 +83,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 682172,
-		tcgplayer: 451778
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682172,
+				tcgplayer: 451778
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682172,
+				tcgplayer: 451778
+			}
+		},
+	],
 }
 
 export default card

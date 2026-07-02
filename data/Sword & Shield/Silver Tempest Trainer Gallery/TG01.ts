@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [654],
@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rutena"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -76,20 +77,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
 	},
 
-	thirdParty: {
-		cardmarket: 682067
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682265,
+				tcgplayer: 452015
+			}
+		},
+	],
 }
 
 export default card
