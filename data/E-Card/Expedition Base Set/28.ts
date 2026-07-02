@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Tornupto"
 	},
 
-	illustrator: "K.  Hoshiba",
+	illustrator: "K. Hoshiba",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,

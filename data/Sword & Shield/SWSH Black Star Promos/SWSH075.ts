@@ -4,7 +4,7 @@ import Set from "../SWSH Black Star Promos"
 const card: Card = {
 	dexId: [6],
 	set: Set,
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 
 	name: {
 		en: "Special Delivery Charizard"

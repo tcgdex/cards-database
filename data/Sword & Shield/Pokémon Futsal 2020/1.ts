@@ -9,14 +9,14 @@ const card: Card = {
 		en: "Pikachu on the Ball"
 	},
 
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "None",
 	category: "Pokemon",
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",

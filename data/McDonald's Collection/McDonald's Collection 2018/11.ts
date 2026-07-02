@@ -49,7 +49,7 @@ const card: Card = {
 
 	retreat: 2,
 
-	illustrator: "Shibuzoh",
+	illustrator: "Shibuzoh.",
 
 	variants: [
 		{
