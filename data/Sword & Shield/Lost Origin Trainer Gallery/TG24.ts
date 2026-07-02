@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Lost Origin"
+import Set from "../Lost Origin Trainer Gallery"
 
 const card: Card = {
 	set: Set,
@@ -29,15 +29,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674241
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674241,
+				tcgplayer: 284297
+			}
+		},
+	],
 }
 
 export default card
