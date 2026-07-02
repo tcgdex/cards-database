@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Galarian Articuno",
@@ -90,10 +84,22 @@ const card: Card = {
 	dexId: [144],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574111,
-		tcgplayer: 246837
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574111,
+				tcgplayer: 246837
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574111,
+				tcgplayer: 246837
+			}
+		},
+	],
 }
 
 export default card

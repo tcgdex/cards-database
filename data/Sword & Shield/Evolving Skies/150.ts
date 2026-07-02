@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lucky Ice Pop",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "inose yukie",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574208,
-		tcgplayer: 246775
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574208,
+				tcgplayer: 246775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574208,
+				tcgplayer: 246775
+			}
+		},
+	],
 }
 
 export default card

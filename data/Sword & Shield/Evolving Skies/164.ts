@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zinnia's Resolve",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574222,
-		tcgplayer: 246789
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574222,
+				tcgplayer: 246789
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574222,
+				tcgplayer: 246789
+			}
+		},
+	],
 }
 
 export default card

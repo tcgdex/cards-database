@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Tentacool",
@@ -55,10 +49,22 @@ const card: Card = {
 	dexId: [72],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574050,
-		tcgplayer: 246819
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574050,
+				tcgplayer: 246819
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574050,
+				tcgplayer: 246819
+			}
+		},
+	],
 }
 
 export default card
