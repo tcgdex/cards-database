@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
 
-	thirdParty: {
-		cardmarket: 539078,
-		tcgplayer: 232381
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539078,
+				tcgplayer: 232381
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539078,
+				tcgplayer: 232381
+			}
+		},
+	],
 }
 
 export default card
