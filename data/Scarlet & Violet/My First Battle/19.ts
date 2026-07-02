@@ -37,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	illustrator: "Shibuzoh",
+	illustrator: "Shibuzoh.",
 }
 
 export default card

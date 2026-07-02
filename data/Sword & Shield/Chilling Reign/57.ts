@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
 	},
 
-	thirdParty: {
-		cardmarket: 567137,
-		tcgplayer: 241716
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567137,
+				tcgplayer: 241716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567137,
+				tcgplayer: 241716
+			}
+		},
+	],
 }
 
 export default card

@@ -88,12 +88,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -101,10 +95,22 @@ const card: Card = {
 		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
 	},
 
-	thirdParty: {
-		cardmarket: 483604,
-		tcgplayer: 219352
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483604,
+				tcgplayer: 219352
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483604,
+				tcgplayer: 219352
+			}
+		},
+	],
 }
 
 export default card

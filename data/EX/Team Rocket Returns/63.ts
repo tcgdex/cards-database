@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Larvitar"
 	},
 
-	illustrator: "Midroi Harada",
+	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -62,7 +62,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
 	thirdParty: {

@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves."
 	},
 
-	thirdParty: {
-		cardmarket: 511750,
-		tcgplayer: 226470
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511750,
+				tcgplayer: 226470
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511750,
+				tcgplayer: 226470
+			}
+		},
+	],
 }
 
 export default card

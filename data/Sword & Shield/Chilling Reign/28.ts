@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
 	},
 
-	thirdParty: {
-		cardmarket: 567108,
-		tcgplayer: 241681
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567108,
+				tcgplayer: 241681
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567108,
+				tcgplayer: 241681
+			}
+		},
+	],
 }
 
 export default card

@@ -47,12 +47,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -60,10 +54,22 @@ const card: Card = {
 		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
 	},
 
-	thirdParty: {
-		cardmarket: 567179,
-		tcgplayer: 241732
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567179,
+				tcgplayer: 241732
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567179,
+				tcgplayer: 241732
+			}
+		},
+	],
 }
 
 export default card

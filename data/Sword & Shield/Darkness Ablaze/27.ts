@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
 	},
 
-	thirdParty: {
-		cardmarket: 483009,
-		tcgplayer: 219240
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483009,
+				tcgplayer: 219240
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483009,
+				tcgplayer: 219240
+			}
+		},
+	],
 }
 
 export default card

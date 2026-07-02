@@ -95,12 +95,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -108,10 +102,22 @@ const card: Card = {
 		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
 	},
 
-	thirdParty: {
-		cardmarket: 483144,
-		tcgplayer: 219384
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483144,
+				tcgplayer: 219384
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483144,
+				tcgplayer: 219384
+			}
+		},
+	],
 }
 
 export default card

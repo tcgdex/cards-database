@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [350],
@@ -84,20 +84,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
 	},
 
-	thirdParty: {
-		cardmarket: 682082
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682266,
+				tcgplayer: 452016
+			}
+		},
+	],
 }
 
 export default card

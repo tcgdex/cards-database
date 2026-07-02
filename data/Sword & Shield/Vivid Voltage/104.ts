@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork."
 	},
 
-	thirdParty: {
-		cardmarket: 511940,
-		tcgplayer: 226556
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511940,
+				tcgplayer: 226556
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511940,
+				tcgplayer: 226556
+			}
+		},
+	],
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Galarian Zapdos",
@@ -86,10 +80,22 @@ const card: Card = {
 	dexId: [145],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574130,
-		tcgplayer: 246875
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574130,
+				tcgplayer: 246875
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574130,
+				tcgplayer: 246875
+			}
+		},
+	],
 }
 
 export default card

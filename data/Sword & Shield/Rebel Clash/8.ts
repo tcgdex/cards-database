@@ -89,12 +89,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed."
 	},
 
-	thirdParty: {
-		cardmarket: 457433,
-		tcgplayer: 213078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457433,
+				tcgplayer: 213078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457433,
+				tcgplayer: 213078
+			}
+		},
+	],
 }
 
 export default card

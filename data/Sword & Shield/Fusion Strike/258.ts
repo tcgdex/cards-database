@@ -29,17 +29,16 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Sanosuke Sakuma",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582995,
-		tcgplayer: 253159
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582995,
+				tcgplayer: 253159
+			}
+		},
+	],
 }
 
 export default card

@@ -55,21 +55,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Fletchinder launches embers into the den of its prey. When the prey comes leaping out, Fletchinder's sharp talons finish it off.",
 	},
 
-	thirdParty: {
-		cardmarket: 682070,
-		tcgplayer: 451659
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682070,
+				tcgplayer: 451659
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682070,
+				tcgplayer: 451659
+			}
+		},
+	],
 }
 
 export default card

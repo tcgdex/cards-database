@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Welsar"
 	},
 
-	illustrator: "Tomokazu",
+	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,

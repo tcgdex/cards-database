@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Gourgeist",
@@ -78,10 +72,22 @@ const card: Card = {
 	dexId: [711],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574125,
-		tcgplayer: 246860
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574125,
+				tcgplayer: 246860
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574125,
+				tcgplayer: 246860
+			}
+		},
+	],
 }
 
 export default card

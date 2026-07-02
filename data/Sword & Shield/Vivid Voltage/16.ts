@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back."
 	},
 
-	thirdParty: {
-		cardmarket: 511500,
-		tcgplayer: 226380
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511500,
+				tcgplayer: 226380
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511500,
+				tcgplayer: 226380
+			}
+		},
+	],
 }
 
 export default card

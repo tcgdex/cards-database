@@ -75,7 +75,7 @@ const card: Card = {
 		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
 	},
 
-	illustrator: "Ryoto Muriyama",
+	illustrator: "Ryota Murayama",
 	variants: [
 		{
 			type: 'holo',

@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
 	},
 
-	thirdParty: {
-		cardmarket: 511890,
-		tcgplayer: 226534
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511890,
+				tcgplayer: 226534
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511890,
+				tcgplayer: 226534
+			}
+		},
+	],
 }
 
 export default card

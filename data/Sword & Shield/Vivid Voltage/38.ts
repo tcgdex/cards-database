@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "Apparently the itch of its teething impels it to snap its jaws at anything in front of it."
 	},
 
-	thirdParty: {
-		cardmarket: 511610,
-		tcgplayer: 226423
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511610,
+				tcgplayer: 226423
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511610,
+				tcgplayer: 226423
+			}
+		},
+	],
 }
 
 export default card

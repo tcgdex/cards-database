@@ -81,12 +81,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily."
 	},
 
-	thirdParty: {
-		cardmarket: 458083,
-		tcgplayer: 213236
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 458083,
+				tcgplayer: 213236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458083,
+				tcgplayer: 213236
+			}
+		},
+	],
 }
 
 export default card

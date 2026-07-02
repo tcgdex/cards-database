@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it."
 	},
 
-	thirdParty: {
-		cardmarket: 567234,
-		tcgplayer: 241808
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567234,
+				tcgplayer: 241808
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567234,
+				tcgplayer: 241808
+			}
+		},
+	],
 }
 
 export default card

@@ -80,12 +80,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
 	},
 
-	thirdParty: {
-		cardmarket: 457703,
-		tcgplayer: 213134
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457703,
+				tcgplayer: 213134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457703,
+				tcgplayer: 213134
+			}
+		},
+	],
 }
 
 export default card

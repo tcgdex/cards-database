@@ -98,12 +98,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -111,10 +105,22 @@ const card: Card = {
 		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
 	},
 
-	thirdParty: {
-		cardmarket: 483249,
-		tcgplayer: 219451
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483249,
+				tcgplayer: 219451
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483249,
+				tcgplayer: 219451
+			}
+		},
+	],
 }
 
 export default card

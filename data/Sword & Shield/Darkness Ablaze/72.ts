@@ -89,12 +89,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon."
 	},
 
-	thirdParty: {
-		cardmarket: 483239,
-		tcgplayer: 219447
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483239,
+				tcgplayer: 219447
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483239,
+				tcgplayer: 219447
+			}
+		},
+	],
 }
 
 export default card

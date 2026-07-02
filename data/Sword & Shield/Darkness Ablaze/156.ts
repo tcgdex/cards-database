@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -105,10 +99,29 @@ const card: Card = {
 		en: "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe."
 	},
 
-	thirdParty: {
-		cardmarket: 483659,
-		tcgplayer: 219371
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483659,
+				tcgplayer: 219371
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 547951
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483659,
+				tcgplayer: 219371
+			}
+		},
+	],
 }
 
 export default card

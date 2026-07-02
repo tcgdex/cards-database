@@ -67,21 +67,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
 	},
 
-	thirdParty: {
-		cardmarket: 682093,
-		tcgplayer: 451690
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682093,
+				tcgplayer: 451690
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682093,
+				tcgplayer: 451690
+			}
+		},
+	],
 }
 
 export default card

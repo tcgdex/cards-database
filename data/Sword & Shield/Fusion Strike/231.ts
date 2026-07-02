@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "Studio Bora Inc.",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582967,
-		tcgplayer: 253103
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582967,
+				tcgplayer: 253103
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582967,
+				tcgplayer: 253103
+			}
+		},
+	],
 }
 
 export default card

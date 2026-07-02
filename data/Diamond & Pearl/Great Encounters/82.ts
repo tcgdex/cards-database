@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Flegmon"
 	},
 
-	illustrator: "Saya　Tsuruta",
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

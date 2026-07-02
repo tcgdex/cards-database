@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "It may look spindly, but its neck muscles are heavy-duty. It can peck at a tree 16 times per second!"
 	},
 
-	thirdParty: {
-		cardmarket: 512425,
-		tcgplayer: 226601
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512425,
+				tcgplayer: 226601
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512425,
+				tcgplayer: 226601
+			}
+		},
+	],
 }
 
 export default card

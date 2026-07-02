@@ -91,12 +91,6 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey."
 	},
 
-	thirdParty: {
-		cardmarket: 457608,
-		tcgplayer: 213106
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457608,
+				tcgplayer: 213106
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457608,
+				tcgplayer: 213106
+			}
+		},
+	],
 }
 
 export default card

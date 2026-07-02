@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment."
 	},
 
-	thirdParty: {
-		cardmarket: 512360,
-		tcgplayer: 226586
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512360,
+				tcgplayer: 226586
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512360,
+				tcgplayer: 226586
+			}
+		},
+	],
 }
 
 export default card

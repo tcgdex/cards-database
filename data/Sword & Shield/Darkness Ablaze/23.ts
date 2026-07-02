@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
 	},
 
-	thirdParty: {
-		cardmarket: 482989,
-		tcgplayer: 219236
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482989,
+				tcgplayer: 219236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482989,
+				tcgplayer: 219236
+			}
+		},
+	],
 }
 
 export default card

@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
 	},
 
-	thirdParty: {
-		cardmarket: 682062,
-		tcgplayer: 451652
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682062,
+				tcgplayer: 451652
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682062,
+				tcgplayer: 451652
+			}
+		},
+	],
 }
 
 export default card

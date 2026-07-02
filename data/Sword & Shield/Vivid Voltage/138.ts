@@ -68,12 +68,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -81,10 +75,15 @@ const card: Card = {
 		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
 	},
 
-	thirdParty: {
-		cardmarket: 512400,
-		tcgplayer: 226594
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 512400,
+				tcgplayer: 226594
+			}
+		},
+	],
 }
 
 export default card

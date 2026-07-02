@@ -73,12 +73,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
 	},
 
-	thirdParty: {
-		cardmarket: 458128,
-		tcgplayer: 213246
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458128,
+				tcgplayer: 213246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458128,
+				tcgplayer: 213246
+			}
+		},
+	],
 }
 
 export default card

@@ -91,12 +91,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
 	},
 
-	thirdParty: {
-		cardmarket: 457673,
-		tcgplayer: 213125
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457673,
+				tcgplayer: 213125
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457673,
+				tcgplayer: 213125
+			}
+		},
+	],
 }
 
 export default card
