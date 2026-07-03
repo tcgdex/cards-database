@@ -80,12 +80,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
 	},
 
-	thirdParty: {
-		cardmarket: 545351,
-		tcgplayer: 234200
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545351,
+				tcgplayer: 234200
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545351,
+				tcgplayer: 234200
+			}
+		},
+	],
 }
 
 export default card

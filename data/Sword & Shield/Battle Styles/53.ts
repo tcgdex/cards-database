@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph."
 	},
 
-	thirdParty: {
-		cardmarket: 545376,
-		tcgplayer: 234211
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545376,
+				tcgplayer: 234211
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545376,
+				tcgplayer: 234211
+			}
+		},
+	],
 }
 
 export default card

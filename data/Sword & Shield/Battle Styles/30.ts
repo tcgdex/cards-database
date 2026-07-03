@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
 	},
 
-	thirdParty: {
-		cardmarket: 545096,
-		tcgplayer: 234140
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545096,
+				tcgplayer: 234140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545096,
+				tcgplayer: 234140
+			}
+		},
+	],
 }
 
 export default card

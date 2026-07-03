@@ -80,12 +80,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "Packs of them follow travelers through the desert until the travelers can no longer move."
 	},
 
-	thirdParty: {
-		cardmarket: 544921,
-		tcgplayer: 234041
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544921,
+				tcgplayer: 234041
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544921,
+				tcgplayer: 234041
+			}
+		},
+	],
 }
 
 export default card

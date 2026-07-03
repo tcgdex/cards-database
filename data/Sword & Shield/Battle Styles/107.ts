@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him."
 	},
 
-	thirdParty: {
-		cardmarket: 545616,
-		tcgplayer: 234167
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545616,
+				tcgplayer: 234167
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545616,
+				tcgplayer: 234167
+			}
+		},
+	],
 }
 
 export default card

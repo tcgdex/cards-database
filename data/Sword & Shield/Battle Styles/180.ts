@@ -27,20 +27,20 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	illustrator: "Toyste Beach",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 546691,
-		tcgplayer: 234105
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 546691,
+				tcgplayer: 234105
+			}
+		},
+	],
 }
 
 export default card

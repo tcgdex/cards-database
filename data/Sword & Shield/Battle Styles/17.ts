@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings."
 	},
 
-	thirdParty: {
-		cardmarket: 544991,
-		tcgplayer: 234085
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544991,
+				tcgplayer: 234085
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544991,
+				tcgplayer: 234085
+			}
+		},
+	],
 }
 
 export default card

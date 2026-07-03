@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
 	},
 
-	thirdParty: {
-		cardmarket: 545526,
-		tcgplayer: 234260
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545526,
+				tcgplayer: 234260
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545526,
+				tcgplayer: 234260
+			}
+		},
+	],
 }
 
 export default card

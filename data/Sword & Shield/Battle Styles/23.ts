@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,29 @@ const card: Card = {
 		en: "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
 	},
 
-	thirdParty: {
-		cardmarket: 545021,
-		tcgplayer: 234124
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545021,
+				tcgplayer: 234124
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 562455
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545021,
+				tcgplayer: 234124
+			}
+		},
+	],
 }
 
 export default card

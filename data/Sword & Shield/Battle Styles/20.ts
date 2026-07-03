@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "It is said that when it roars, a volcano erupts somewhere around the globe."
 	},
 
-	thirdParty: {
-		cardmarket: 545006,
-		tcgplayer: 234098
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545006,
+				tcgplayer: 234098
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545006,
+				tcgplayer: 234098
+			}
+		},
+	],
 }
 
 export default card

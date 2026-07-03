@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
 	},
 
-	thirdParty: {
-		cardmarket: 545346,
-		tcgplayer: 234198
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545346,
+				tcgplayer: 234198
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545346,
+				tcgplayer: 234198
+			}
+		},
+	],
 }
 
 export default card

@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging."
 	},
 
-	thirdParty: {
-		cardmarket: 545451,
-		tcgplayer: 234243
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545451,
+				tcgplayer: 234243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545451,
+				tcgplayer: 234243
+			}
+		},
+	],
 }
 
 export default card

@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
 	},
 
-	thirdParty: {
-		cardmarket: 545461,
-		tcgplayer: 234245
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545461,
+				tcgplayer: 234245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545461,
+				tcgplayer: 234245
+			}
+		},
+	],
 }
 
 export default card
