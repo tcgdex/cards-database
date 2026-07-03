@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
 	},
 
-	thirdParty: {
-		cardmarket: 608523,
-		tcgplayer: 263789
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608523,
+				tcgplayer: 263789
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608523,
+				tcgplayer: 263789
+			}
+		},
+	],
 }
 
 export default card

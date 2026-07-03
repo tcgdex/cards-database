@@ -61,21 +61,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
 	},
 
-	thirdParty: {
-		cardmarket: 608664,
-		tcgplayer: 263843
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608664,
+				tcgplayer: 263843
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608664,
+				tcgplayer: 263843
+			}
+		},
+	],
 }
 
 export default card

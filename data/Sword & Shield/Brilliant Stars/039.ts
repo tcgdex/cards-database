@@ -75,21 +75,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.",
 	},
 
-	thirdParty: {
-		cardmarket: 608489,
-		tcgplayer: 263738
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608489,
+				tcgplayer: 263738
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608489,
+				tcgplayer: 263738
+			}
+		},
+	],
 }
 
 export default card

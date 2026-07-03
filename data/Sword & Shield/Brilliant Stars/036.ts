@@ -55,21 +55,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
 	},
 
-	thirdParty: {
-		cardmarket: 608486,
-		tcgplayer: 263735
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608486,
+				tcgplayer: 263735
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608486,
+				tcgplayer: 263735
+			}
+		},
+	],
 }
 
 export default card

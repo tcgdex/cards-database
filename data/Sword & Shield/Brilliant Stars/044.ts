@@ -65,21 +65,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The hair on its head connects to the surface of its brain. When this Pokémon has something on its mind, its hair chills the air around it.",
 	},
 
-	thirdParty: {
-		cardmarket: 608494,
-		tcgplayer: 263745
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608494,
+				tcgplayer: 263745
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608494,
+				tcgplayer: 263745
+			}
+		},
+	],
 }
 
 export default card

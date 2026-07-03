@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
 	},
 
-	thirdParty: {
-		cardmarket: 608452,
-		tcgplayer: 263703
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608452,
+				tcgplayer: 263703
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608452,
+				tcgplayer: 263703
+			}
+		},
+	],
 }
 
 export default card

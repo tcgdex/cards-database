@@ -54,20 +54,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Since Dedenne can't generate as much electricity on its own, it steals electricity from outlets or other electric Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 608517
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608739,
+				tcgplayer: 263783
+			}
+		},
+	],
 }
 
 export default card

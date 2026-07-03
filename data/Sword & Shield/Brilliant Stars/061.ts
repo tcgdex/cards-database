@@ -70,21 +70,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
 	},
 
-	thirdParty: {
-		cardmarket: 608511,
-		tcgplayer: 263777
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608511,
+				tcgplayer: 263777
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608511,
+				tcgplayer: 263777
+			}
+		},
+	],
 }
 
 export default card

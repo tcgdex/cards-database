@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "A rough customer that wildly flails its giant claws. It is said to be extremely hard to raise.",
 	},
 
-	thirdParty: {
-		cardmarket: 608483,
-		tcgplayer: 263732
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608483,
+				tcgplayer: 263732
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608483,
+				tcgplayer: 263732
+			}
+		},
+	],
 }
 
 export default card

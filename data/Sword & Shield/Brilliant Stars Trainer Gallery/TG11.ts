@@ -65,20 +65,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
 	},
 
-	thirdParty: {
-		cardmarket: 608743
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608743,
+				tcgplayer: 264218
+			}
+		},
+	],
 }
 
 export default card

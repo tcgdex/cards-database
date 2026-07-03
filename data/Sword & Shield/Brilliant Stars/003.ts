@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
 	},
 
-	thirdParty: {
-		cardmarket: 608427,
-		tcgplayer: 263580
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608427,
+				tcgplayer: 263580
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608427,
+				tcgplayer: 263580
+			}
+		},
+	],
 }
 
 export default card

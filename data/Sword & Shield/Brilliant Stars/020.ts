@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
 	},
 
-	thirdParty: {
-		cardmarket: 608470,
-		tcgplayer: 263708
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608470,
+				tcgplayer: 263708
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608470,
+				tcgplayer: 263708
+			}
+		},
+	],
 }
 
 export default card

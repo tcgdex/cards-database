@@ -77,20 +77,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.",
 	},
 
-	thirdParty: {
-		cardmarket: 608734
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608734,
+				tcgplayer: 264211
+			}
+		},
+	],
 }
 
 export default card

@@ -49,21 +49,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
 	},
 
-	thirdParty: {
-		cardmarket: 608654,
-		tcgplayer: 263828
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608654,
+				tcgplayer: 263828
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608654,
+				tcgplayer: 263828
+			}
+		},
+	],
 }
 
 export default card

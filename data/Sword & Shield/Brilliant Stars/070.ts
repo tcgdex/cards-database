@@ -65,21 +65,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "They say that any patisserie visited by Milcery is guaranteed success and good fortune.",
 	},
 
-	thirdParty: {
-		cardmarket: 608520,
-		tcgplayer: 263786
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608520,
+				tcgplayer: 263786
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608520,
+				tcgplayer: 263786
+			}
+		},
+	],
 }
 
 export default card

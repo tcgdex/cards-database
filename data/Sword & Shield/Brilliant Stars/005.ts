@@ -67,21 +67,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius.",
 	},
 
-	thirdParty: {
-		cardmarket: 608429,
-		tcgplayer: 263585
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608429,
+				tcgplayer: 263585
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608429,
+				tcgplayer: 263585
+			}
+		},
+	],
 }
 
 export default card

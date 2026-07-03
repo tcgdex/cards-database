@@ -77,20 +77,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
 	},
 
-	thirdParty: {
-		cardmarket: 608736
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608736,
+				tcgplayer: 264213
+			}
+		},
+	],
 }
 
 export default card
