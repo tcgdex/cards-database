@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives."
 	},
 
-	thirdParty: {
-		cardmarket: 567196,
-		tcgplayer: 241755
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567196,
+				tcgplayer: 241755
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567196,
+				tcgplayer: 241755
+			}
+		},
+	],
 }
 
 export default card

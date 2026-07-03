@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bollterus"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,

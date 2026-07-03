@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Duraludon V",
@@ -67,10 +61,15 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 574256,
-		tcgplayer: 246750
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574256,
+				tcgplayer: 246750
+			}
+		},
+	],
 }
 
 export default card

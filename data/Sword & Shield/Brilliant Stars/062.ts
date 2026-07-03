@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zwirrfinst"
 	},
 
+	illustrator: "otumami",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hydreigon",
@@ -80,10 +74,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574163,
-		tcgplayer: 246913
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574163,
+				tcgplayer: 246913
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574163,
+				tcgplayer: 246913
+			}
+		},
+	],
 }
 
 export default card

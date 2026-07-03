@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Scharfes Gewürzcurry"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 

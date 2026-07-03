@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "After a woman met her end on a snowy mountain, her regrets lingered on. From them, this Pokémon was born. Its favorite food is frozen souls.",
 	},
 
-	thirdParty: {
-		cardmarket: 682089,
-		tcgplayer: 451683
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682089,
+				tcgplayer: 451683
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682089,
+				tcgplayer: 451683
+			}
+		},
+	],
 }
 
 export default card

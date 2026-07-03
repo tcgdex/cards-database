@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Bagon",
@@ -62,10 +56,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574155,
-		tcgplayer: 246907
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574155,
+				tcgplayer: 246907
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574155,
+				tcgplayer: 246907
+			}
+		},
+	],
 }
 
 export default card

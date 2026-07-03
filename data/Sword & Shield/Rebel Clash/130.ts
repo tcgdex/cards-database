@@ -90,12 +90,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -103,10 +97,22 @@ const card: Card = {
 		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell."
 	},
 
-	thirdParty: {
-		cardmarket: 458048,
-		tcgplayer: 213226
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458048,
+				tcgplayer: 213226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458048,
+				tcgplayer: 213226
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Feelinara VMAX"
 	},
 
+	illustrator: "sui",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 310,

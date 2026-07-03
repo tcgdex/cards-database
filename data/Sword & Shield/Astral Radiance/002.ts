@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui Voltobal"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

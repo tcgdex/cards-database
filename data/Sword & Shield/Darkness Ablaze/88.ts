@@ -96,12 +96,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -109,10 +103,22 @@ const card: Card = {
 		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
 	},
 
-	thirdParty: {
-		cardmarket: 483319,
-		tcgplayer: 219477
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483319,
+				tcgplayer: 219477
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483319,
+				tcgplayer: 219477
+			}
+		},
+	],
 }
 
 export default card

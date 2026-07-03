@@ -91,12 +91,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs."
 	},
 
-	thirdParty: {
-		cardmarket: 457933,
-		tcgplayer: 213192
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457933,
+				tcgplayer: 213192
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457933,
+				tcgplayer: 213192
+			}
+		},
+	],
 }
 
 export default card

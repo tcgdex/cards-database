@@ -62,12 +62,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -75,10 +69,22 @@ const card: Card = {
 		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
 	},
 
-	thirdParty: {
-		cardmarket: 457823,
-		tcgplayer: 213167
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457823,
+				tcgplayer: 213167
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457823,
+				tcgplayer: 213167
+			}
+		},
+	],
 }
 
 export default card

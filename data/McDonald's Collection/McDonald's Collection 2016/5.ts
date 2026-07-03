@@ -13,6 +13,7 @@ const card: Card = {
 	},
 
 	hp: 60,
+	types: ["Water"],
 
 	stage: "Basic",
 

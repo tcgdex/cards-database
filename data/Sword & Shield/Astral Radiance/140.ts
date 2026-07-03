@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energielotterie"
 	},
 
+	illustrator: "ORBITALLINK Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 

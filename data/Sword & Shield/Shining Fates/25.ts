@@ -63,12 +63,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -76,10 +70,22 @@ const card: Card = {
 		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
 	},
 
-	thirdParty: {
-		cardmarket: 539148,
-		tcgplayer: 232427
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539148,
+				tcgplayer: 232427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539148,
+				tcgplayer: 232427
+			}
+		},
+	],
 }
 
 export default card

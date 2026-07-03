@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns."
 	},
 
-	thirdParty: {
-		cardmarket: 511510,
-		tcgplayer: 226382
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511510,
+				tcgplayer: 226382
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511510,
+				tcgplayer: 226382
+			}
+		},
+	],
 }
 
 export default card

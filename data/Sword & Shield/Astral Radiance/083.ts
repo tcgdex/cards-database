@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Silvarro V"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,

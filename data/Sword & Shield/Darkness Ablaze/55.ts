@@ -52,12 +52,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -65,10 +59,22 @@ const card: Card = {
 		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
 	},
 
-	thirdParty: {
-		cardmarket: 483149,
-		tcgplayer: 219387
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483149,
+				tcgplayer: 219387
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483149,
+				tcgplayer: 219387
+			}
+		},
+	],
 }
 
 export default card

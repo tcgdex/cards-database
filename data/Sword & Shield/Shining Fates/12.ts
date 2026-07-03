@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers."
 	},
 
-	thirdParty: {
-		cardmarket: 539083,
-		tcgplayer: 232386
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539083,
+				tcgplayer: 232386
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539083,
+				tcgplayer: 232386
+			}
+		},
+	],
 }
 
 export default card

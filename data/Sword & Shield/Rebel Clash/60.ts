@@ -56,12 +56,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -69,10 +63,22 @@ const card: Card = {
 		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
 	},
 
-	thirdParty: {
-		cardmarket: 457733,
-		tcgplayer: 213141
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457733,
+				tcgplayer: 213141
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457733,
+				tcgplayer: 213141
+			}
+		},
+	],
 }
 
 export default card

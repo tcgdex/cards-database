@@ -72,12 +72,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
 	},
 
-	thirdParty: {
-		cardmarket: 457883,
-		tcgplayer: 213182
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457883,
+				tcgplayer: 213182
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457883,
+				tcgplayer: 213182
+			}
+		},
+	],
 }
 
 export default card

@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch."
 	},
 
-	thirdParty: {
-		cardmarket: 567109,
-		tcgplayer: 241682
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567109,
+				tcgplayer: 241682
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567109,
+				tcgplayer: 241682
+			}
+		},
+	],
 }
 
 export default card

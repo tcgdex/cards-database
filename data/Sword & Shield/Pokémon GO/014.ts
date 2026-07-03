@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Camerupt"
 	},
 
+	illustrator: "yuu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,

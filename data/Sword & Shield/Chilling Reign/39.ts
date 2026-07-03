@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
 	},
 
-	thirdParty: {
-		cardmarket: 567119,
-		tcgplayer: 241692
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567119,
+				tcgplayer: 241692
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567119,
+				tcgplayer: 241692
+			}
+		},
+	],
 }
 
 export default card

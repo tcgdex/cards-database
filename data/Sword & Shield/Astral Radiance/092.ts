@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Sniebel"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,

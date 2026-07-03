@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Trombork & Zwirrfinst GX"
 	},
 
-	illustrator: undefined,
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,

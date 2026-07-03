@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness."
 	},
 
-	thirdParty: {
-		cardmarket: 482949,
-		tcgplayer: 219228
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482949,
+				tcgplayer: 219228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482949,
+				tcgplayer: 219228
+			}
+		},
+	],
 }
 
 export default card

@@ -90,12 +90,6 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -103,10 +97,22 @@ const card: Card = {
 		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders."
 	},
 
-	thirdParty: {
-		cardmarket: 458053,
-		tcgplayer: 213227
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458053,
+				tcgplayer: 213227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458053,
+				tcgplayer: 213227
+			}
+		},
+	],
 }
 
 export default card

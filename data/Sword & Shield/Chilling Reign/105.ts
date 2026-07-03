@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
 	},
 
-	thirdParty: {
-		cardmarket: 567213,
-		tcgplayer: 241780
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567213,
+				tcgplayer: 241780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567213,
+				tcgplayer: 241780
+			}
+		},
+	],
 }
 
 export default card

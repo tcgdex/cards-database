@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 539093,
-		tcgplayer: 232392
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539093,
+				tcgplayer: 232392
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539093,
+				tcgplayer: 232392
+			}
+		},
+	],
 }
 
 export default card

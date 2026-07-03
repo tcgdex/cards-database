@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Sandamer GX"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

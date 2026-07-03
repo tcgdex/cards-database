@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Traunmagil"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,

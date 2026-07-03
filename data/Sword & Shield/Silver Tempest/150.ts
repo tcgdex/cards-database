@@ -51,21 +51,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its melodious cries are actually warnings. Fletchling will mercilessly peck at anything that enters its territory.",
 	},
 
-	thirdParty: {
-		cardmarket: 682197,
-		tcgplayer: 451799
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682197,
+				tcgplayer: 451799
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682197,
+				tcgplayer: 451799
+			}
+		},
+	],
 }
 
 export default card

@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
 	},
 
-	thirdParty: {
-		cardmarket: 511495,
-		tcgplayer: 226379
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511495,
+				tcgplayer: 226379
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511495,
+				tcgplayer: 226379
+			}
+		},
+	],
 }
 
 export default card

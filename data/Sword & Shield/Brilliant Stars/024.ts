@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Panflam"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,

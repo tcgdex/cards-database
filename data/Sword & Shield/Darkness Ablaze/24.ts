@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings."
 	},
 
-	thirdParty: {
-		cardmarket: 482994,
-		tcgplayer: 219237
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 482994,
+				tcgplayer: 219237
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482994,
+				tcgplayer: 219237
+			}
+		},
+	],
 }
 
 export default card

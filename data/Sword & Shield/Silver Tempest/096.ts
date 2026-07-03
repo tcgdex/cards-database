@@ -75,21 +75,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "After evolution, this Pokémon emerged onto land. Its lower body has become stronger, and blows from its tail are devastating.",
 	},
 
-	thirdParty: {
-		cardmarket: 682143,
-		tcgplayer: 451750
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682143,
+				tcgplayer: 451750
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682143,
+				tcgplayer: 451750
+			}
+		},
+	],
 }
 
 export default card

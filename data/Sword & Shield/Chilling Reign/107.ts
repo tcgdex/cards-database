@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails."
 	},
 
-	thirdParty: {
-		cardmarket: 567214,
-		tcgplayer: 241782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567214,
+				tcgplayer: 241782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567214,
+				tcgplayer: 241782
+			}
+		},
+	],
 }
 
 export default card

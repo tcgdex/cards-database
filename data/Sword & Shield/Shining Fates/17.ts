@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,15 @@ const card: Card = {
 		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
 	},
 
-	thirdParty: {
-		cardmarket: 539108,
-		tcgplayer: 232402
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539108,
+				tcgplayer: 232402
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sterndu"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,

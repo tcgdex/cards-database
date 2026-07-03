@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Mutige Spitzhacke"
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Uncommon",
 	category: "Trainer",
 

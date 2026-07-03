@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Silvanas Vitalität"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Uncommon",
 	category: "Trainer",
 

@@ -82,17 +82,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582991,
-		tcgplayer: 253155
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582991,
+				tcgplayer: 253155
+			}
+		},
+	],
 }
 
 export default card

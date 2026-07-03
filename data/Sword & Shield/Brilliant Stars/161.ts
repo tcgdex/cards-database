@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramshef V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,

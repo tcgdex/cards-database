@@ -88,12 +88,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -101,10 +95,36 @@ const card: Card = {
 		en: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns."
 	},
 
-	thirdParty: {
-		cardmarket: 456413,
-		tcgplayer: 213095
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456413,
+				tcgplayer: 213095
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 550346
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 569896
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 456413,
+				tcgplayer: 213095
+			}
+		},
+	],
 }
 
 export default card

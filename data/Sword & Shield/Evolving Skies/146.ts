@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Dream Ball",
@@ -36,10 +30,22 @@ const card: Card = {
 	illustrator: "Ryo Ueda",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574204,
-		tcgplayer: 246771
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574204,
+				tcgplayer: 246771
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574204,
+				tcgplayer: 246771
+			}
+		},
+	],
 }
 
 export default card

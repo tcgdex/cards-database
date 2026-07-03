@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon is known as the Bully of the Sands. Krookodile's mighty jaws can bite through heavy plates of iron with almost no effort at all.",
 	},
 
-	thirdParty: {
-		cardmarket: 682160,
-		tcgplayer: 451767
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682160,
+				tcgplayer: 451767
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682160,
+				tcgplayer: 451767
+			}
+		},
+	],
 }
 
 export default card

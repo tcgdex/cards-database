@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped."
 	},
 
-	thirdParty: {
-		cardmarket: 567096,
-		tcgplayer: 241665
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567096,
+				tcgplayer: 241665
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567096,
+				tcgplayer: 241665
+			}
+		},
+	],
 }
 
 export default card

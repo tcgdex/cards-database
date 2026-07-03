@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pupitar"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,

@@ -68,12 +68,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -81,10 +75,22 @@ const card: Card = {
 		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches."
 	},
 
-	thirdParty: {
-		cardmarket: 483329,
-		tcgplayer: 219481
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483329,
+				tcgplayer: 219481
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483329,
+				tcgplayer: 219481
+			}
+		},
+	],
 }
 
 export default card

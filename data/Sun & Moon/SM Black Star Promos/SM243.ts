@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regigigas"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,

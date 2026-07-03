@@ -87,12 +87,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
 	},
 
-	thirdParty: {
-		cardmarket: 457868,
-		tcgplayer: 213176
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457868,
+				tcgplayer: 213176
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457868,
+				tcgplayer: 213176
+			}
+		},
+	],
 }
 
 export default card

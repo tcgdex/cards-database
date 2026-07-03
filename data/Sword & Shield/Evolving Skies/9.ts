@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Petilil",
@@ -55,10 +49,22 @@ const card: Card = {
 	dexId: [548],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574033,
-		tcgplayer: 246823
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574033,
+				tcgplayer: 246823
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574033,
+				tcgplayer: 246823
+			}
+		},
+	],
 }
 
 export default card

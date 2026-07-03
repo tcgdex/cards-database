@@ -93,12 +93,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -106,10 +100,22 @@ const card: Card = {
 		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
 	},
 
-	thirdParty: {
-		cardmarket: 511715,
-		tcgplayer: 226457
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511715,
+				tcgplayer: 226457
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511715,
+				tcgplayer: 226457
+			}
+		},
+	],
 }
 
 export default card

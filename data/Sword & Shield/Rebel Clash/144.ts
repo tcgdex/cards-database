@@ -84,12 +84,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "It can fly moderately quickly. No matter how far it travels, it can always find its way back to its master and its nest."
 	},
 
-	thirdParty: {
-		cardmarket: 458108,
-		tcgplayer: 213244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458108,
+				tcgplayer: 213244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458108,
+				tcgplayer: 213244
+			}
+		},
+	],
 }
 
 export default card

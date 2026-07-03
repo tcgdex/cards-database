@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Xatu"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,

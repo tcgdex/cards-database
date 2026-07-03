@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Entei",
@@ -85,10 +79,22 @@ const card: Card = {
 	dexId: [244],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574043,
-		tcgplayer: 246835
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574043,
+				tcgplayer: 246835
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574043,
+				tcgplayer: 246835
+			}
+		},
+	],
 }
 
 export default card

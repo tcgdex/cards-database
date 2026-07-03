@@ -235,6 +235,7 @@
 		"champion": "campione",
 		"master-ball-league": "lega-master-ball",
 		"ultra-ball-league": "lega-ultra-ball",
+		"poke-ball-league": "lega-poke-ball",
 		"asia-promo": "asia-promo",
 		"judge": "giudice",
 		"international-championship-europe": "campionato-internazionale-europa",
@@ -253,7 +254,8 @@
 		"tournament-collection": "tournament-collection",
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
-		"asia-2023-24": "asia-2023-24"
+		"asia-2023-24": "asia-2023-24",
+		"thank-you" : "thank-you"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",

@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon."
 	},
 
-	thirdParty: {
-		cardmarket: 483404,
-		tcgplayer: 219409
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483404,
+				tcgplayer: 219409
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483404,
+				tcgplayer: 219409
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Burmadame"
 	},
 
+	illustrator: "Lee HyunJung",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,

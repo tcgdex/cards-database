@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kingler VMAX"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
