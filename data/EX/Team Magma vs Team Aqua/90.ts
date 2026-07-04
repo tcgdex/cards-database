@@ -93,7 +93,7 @@ const card: Card = {
 		},
 	],
 
-
+	
 	retreat: 2,
 
 	thirdParty: {
