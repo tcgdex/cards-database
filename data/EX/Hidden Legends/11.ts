@@ -100,7 +100,7 @@ const card: Card = {
 			foil: "energy",
 		},
 		{
-			type: "normal",
+			type: "holo",
 		}
 	]
 }

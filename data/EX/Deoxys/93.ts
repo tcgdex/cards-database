@@ -28,6 +28,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
 		}
 	]
 }

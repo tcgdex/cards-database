@@ -31,7 +31,7 @@ const card: Card = {
 			stamp: ["set-logo"]
 		},
 		{
-			type: "holo",
+			type: "normal",
 		},
 		{
 			type: "normal",

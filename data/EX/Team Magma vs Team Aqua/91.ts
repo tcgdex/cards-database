@@ -71,7 +71,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
 	thirdParty: {
@@ -81,10 +81,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
+			type: "holo",
 		}
 	]
 }

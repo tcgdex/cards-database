@@ -85,11 +85,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "holo"
 		}
 	]
 }
