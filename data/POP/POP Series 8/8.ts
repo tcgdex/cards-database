@@ -77,15 +77,12 @@ const card: Card = {
 
 	retreat: 0,
 
-	variants: [
-		{
-			type: "holo",
-			foil: "cracked-ice"
-		},
-		{
-			type: "normal",
-		}
-	],
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 
 	thirdParty: {
 		cardmarket: 278409,

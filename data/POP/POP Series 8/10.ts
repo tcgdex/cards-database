@@ -17,11 +17,12 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: [
-		{
-			type: "normal",
-		}
-	],
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
 
 	thirdParty: {
 		cardmarket: 278411,

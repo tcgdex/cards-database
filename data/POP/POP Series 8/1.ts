@@ -69,15 +69,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	variants: [
-		{
-			type: "holo",
-			foil: "cosmos"
-		},
-		{
-			type: "normal",
-		}
-	],
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 
 	thirdParty: {
 		cardmarket: 278402,
