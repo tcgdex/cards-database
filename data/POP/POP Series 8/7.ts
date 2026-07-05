@@ -74,12 +74,15 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "reverse",
+			foil: "cracked-ice"
+		},
+		{
+			type: "normal",
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 278408,
