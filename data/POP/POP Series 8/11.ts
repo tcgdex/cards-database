@@ -17,12 +17,11 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: "normal",
+		}
+	]
 }
 
 export default card
