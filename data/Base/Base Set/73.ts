@@ -20,6 +20,9 @@ const card: Card = {
 		de: "Dein Gegner mischt die Karten seiner Hand in seinen Stapel und zieht sieben neue Karten",
 		it: "Il tuo avversario rimette le carte che ha in mano nel proprio mazzo, le mischia e poi pesca 7 carte."
 	},
+  thirdParty: {
+		tcgplayer: 86271
+	},
 	variants: [
 		{
 			type: "normal",
@@ -39,10 +42,6 @@ const card: Card = {
 			subtype: "1999-2000-copyright",
 		}
 	],
-
-  thirdParty: {
-		tcgplayer: 86271
-	}
 }
 
 export default card

@@ -25,7 +25,6 @@ const card: Card = {
 		cardmarket: 273772,
     tcgplayer: 108648
 	},
-  
 	variants: [
 		{
 			type: "normal",
