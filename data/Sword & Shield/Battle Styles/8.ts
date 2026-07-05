@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "The faint scent that emanates from its full blossom entices bug Pokémon to it."
 	},
 
-	thirdParty: {
-		cardmarket: 544936,
-		tcgplayer: 234054
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 544936,
+				tcgplayer: 234054
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544936,
+				tcgplayer: 234054
+			}
+		},
+	],
 }
 
 export default card

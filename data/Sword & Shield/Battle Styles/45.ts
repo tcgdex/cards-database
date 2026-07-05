@@ -81,12 +81,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
 	},
 
-	thirdParty: {
-		cardmarket: 545336,
-		tcgplayer: 234195
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545336,
+				tcgplayer: 234195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545336,
+				tcgplayer: 234195
+			}
+		},
+	],
 }
 
 export default card

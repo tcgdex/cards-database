@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it."
 	},
 
-	thirdParty: {
-		cardmarket: 545501,
-		tcgplayer: 234254
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545501,
+				tcgplayer: 234254
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545501,
+				tcgplayer: 234254
+			}
+		},
+	],
 }
 
 export default card

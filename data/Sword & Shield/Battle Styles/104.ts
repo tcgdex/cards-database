@@ -77,12 +77,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -90,10 +84,22 @@ const card: Card = {
 		en: "Violent conflicts erupt between Bisharp and Fraxure over places where sharpening stones can be found."
 	},
 
-	thirdParty: {
-		cardmarket: 545601,
-		tcgplayer: 234193
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545601,
+				tcgplayer: 234193
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545601,
+				tcgplayer: 234193
+			}
+		},
+	],
 }
 
 export default card

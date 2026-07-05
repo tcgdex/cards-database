@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them."
 	},
 
-	thirdParty: {
-		cardmarket: 545326,
-		tcgplayer: 234189
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545326,
+				tcgplayer: 234189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545326,
+				tcgplayer: 234189
+			}
+		},
+	],
 }
 
 export default card

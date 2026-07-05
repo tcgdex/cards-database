@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 544976,
-		tcgplayer: 234078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544976,
+				tcgplayer: 234078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544976,
+				tcgplayer: 234078
+			}
+		},
+	],
 }
 
 export default card

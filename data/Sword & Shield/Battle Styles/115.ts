@@ -54,12 +54,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -67,10 +61,22 @@ const card: Card = {
 		en: "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
 	},
 
-	thirdParty: {
-		cardmarket: 545671,
-		tcgplayer: 234157
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545671,
+				tcgplayer: 234157
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545671,
+				tcgplayer: 234157
+			}
+		},
+	],
 }
 
 export default card

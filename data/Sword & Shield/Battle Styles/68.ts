@@ -63,12 +63,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -76,10 +70,22 @@ const card: Card = {
 		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
 	},
 
-	thirdParty: {
-		cardmarket: 545456,
-		tcgplayer: 234244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545456,
+				tcgplayer: 234244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545456,
+				tcgplayer: 234244
+			}
+		},
+	],
 }
 
 export default card
