@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It flutters around at night and steals honey from the Combee hive.",
 	},
 
-	thirdParty: {
-		cardmarket: 608435,
-		tcgplayer: 263605
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608435,
+				tcgplayer: 263605
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608435,
+				tcgplayer: 263605
+			}
+		},
+	],
 }
 
 export default card

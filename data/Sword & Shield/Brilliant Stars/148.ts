@@ -29,17 +29,23 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608694,
-		tcgplayer: 263868
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608694,
+				tcgplayer: 263868
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608694,
+				tcgplayer: 263868
+			}
+		},
+	],
 }
 
 export default card

@@ -75,21 +75,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
 	},
 
-	thirdParty: {
-		cardmarket: 608537,
-		tcgplayer: 263803
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608537,
+				tcgplayer: 263803
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608537,
+				tcgplayer: 263803
+			}
+		},
+	],
 }
 
 export default card

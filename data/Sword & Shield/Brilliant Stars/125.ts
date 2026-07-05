@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
 	},
 
-	thirdParty: {
-		cardmarket: 608671,
-		tcgplayer: 263848
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608671,
+				tcgplayer: 263848
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608671,
+				tcgplayer: 263848
+			}
+		},
+	],
 }
 
 export default card

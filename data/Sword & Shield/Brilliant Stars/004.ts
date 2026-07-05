@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
 	},
 
-	thirdParty: {
-		cardmarket: 608428,
-		tcgplayer: 263583
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608428,
+				tcgplayer: 263583
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608428,
+				tcgplayer: 263583
+			}
+		},
+	],
 }
 
 export default card

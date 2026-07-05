@@ -65,21 +65,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
 	},
 
-	thirdParty: {
-		cardmarket: 608670,
-		tcgplayer: 263847
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608670,
+				tcgplayer: 263847
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608670,
+				tcgplayer: 263847
+			}
+		},
+	],
 }
 
 export default card

@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
 	},
 
-	thirdParty: {
-		cardmarket: 608432,
-		tcgplayer: 263597
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608432,
+				tcgplayer: 263597
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608432,
+				tcgplayer: 263597
+			}
+		},
+	],
 }
 
 export default card

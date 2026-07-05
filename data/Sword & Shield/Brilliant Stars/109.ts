@@ -80,21 +80,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Garchomp makes its home in volcanic mountains. It flies through the sky as fast as a jet airplane, hunting down as much prey as it can.",
 	},
 
-	thirdParty: {
-		cardmarket: 608655,
-		tcgplayer: 263829
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608655,
+				tcgplayer: 263829
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608655,
+				tcgplayer: 263829
+			}
+		},
+	],
 }
 
 export default card

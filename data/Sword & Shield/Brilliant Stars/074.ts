@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
 	},
 
-	thirdParty: {
-		cardmarket: 608524,
-		tcgplayer: 263790
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608524,
+				tcgplayer: 263790
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608524,
+				tcgplayer: 263790
+			}
+		},
+	],
 }
 
 export default card

@@ -84,21 +84,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The amount of electrical energy this Pokémon produces is proportional to the rate of its pulse. The voltage jumps while Electivire is battling.",
 	},
 
-	thirdParty: {
-		cardmarket: 608497,
-		tcgplayer: 263751
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608497,
+				tcgplayer: 263751
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608497,
+				tcgplayer: 263751
+			}
+		},
+	],
 }
 
 export default card

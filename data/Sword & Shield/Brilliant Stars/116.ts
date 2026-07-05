@@ -74,21 +74,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its form changes depending on the weather. The rougher conditions get, the rougher Castform's disposition!",
 	},
 
-	thirdParty: {
-		cardmarket: 608662,
-		tcgplayer: 263839
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608662,
+				tcgplayer: 263839
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608662,
+				tcgplayer: 263839
+			}
+		},
+	],
 }
 
 export default card

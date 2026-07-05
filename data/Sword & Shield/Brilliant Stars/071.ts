@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
 	},
 
-	thirdParty: {
-		cardmarket: 608521,
-		tcgplayer: 263787
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608521,
+				tcgplayer: 263787
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608521,
+				tcgplayer: 263787
+			}
+		},
+	],
 }
 
 export default card

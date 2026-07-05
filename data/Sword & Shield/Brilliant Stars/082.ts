@@ -58,21 +58,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
 	},
 
-	thirdParty: {
-		cardmarket: 608532,
-		tcgplayer: 263798
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608532,
+				tcgplayer: 263798
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608532,
+				tcgplayer: 263798
+			}
+		},
+	],
 }
 
 export default card

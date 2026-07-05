@@ -90,21 +90,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
 	},
 
-	thirdParty: {
-		cardmarket: 608645,
-		tcgplayer: 263818
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608645,
+				tcgplayer: 263818
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608645,
+				tcgplayer: 263818
+			}
+		},
+	],
 }
 
 export default card

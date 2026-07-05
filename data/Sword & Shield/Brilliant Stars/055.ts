@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
 	},
 
-	thirdParty: {
-		cardmarket: 608505,
-		tcgplayer: 263771
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608505,
+				tcgplayer: 263771
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608505,
+				tcgplayer: 263771
+			}
+		},
+	],
 }
 
 export default card

@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
 	},
 
-	thirdParty: {
-		cardmarket: 608434,
-		tcgplayer: 263793
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608527,
+				tcgplayer: 263793
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608527,
+				tcgplayer: 263793
+			}
+		},
+	],
 }
 
 export default card

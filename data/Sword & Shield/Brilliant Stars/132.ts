@@ -29,17 +29,37 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608678,
-		tcgplayer: 263855
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608678,
+				tcgplayer: 263855
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 660946
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 716227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608678,
+				tcgplayer: 263855
+			}
+		},
+	],
 }
 
 export default card

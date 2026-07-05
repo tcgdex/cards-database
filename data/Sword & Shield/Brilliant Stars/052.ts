@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 608502,
-		tcgplayer: 263758
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608502,
+				tcgplayer: 263758
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608502,
+				tcgplayer: 263758
+			}
+		},
+	],
 }
 
 export default card

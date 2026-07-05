@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said.",
 	},
 
-	thirdParty: {
-		cardmarket: 608510,
-		tcgplayer: 263776
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608510,
+				tcgplayer: 263776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608510,
+				tcgplayer: 263776
+			}
+		},
+	],
 }
 
 export default card
