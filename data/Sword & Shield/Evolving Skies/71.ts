@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Flabébé",
@@ -63,9 +57,22 @@ const card: Card = {
 	dexId: [669],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574119
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574119,
+				tcgplayer: 246849
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574119,
+				tcgplayer: 246849
+			}
+		},
+	],
 }
 
 export default card

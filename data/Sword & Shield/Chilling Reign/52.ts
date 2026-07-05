@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked."
 	},
 
-	thirdParty: {
-		cardmarket: 567132,
-		tcgplayer: 241709
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567132,
+				tcgplayer: 241709
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567132,
+				tcgplayer: 241709
+			}
+		},
+	],
 }
 
 export default card

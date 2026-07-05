@@ -56,19 +56,18 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 539213,
-		tcgplayer: 232478
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539213,
+				tcgplayer: 232478
+			}
+		},
+	],
 }
 
 export default card

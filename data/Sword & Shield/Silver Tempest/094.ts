@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
 	},
 
-	thirdParty: {
-		cardmarket: 682141,
-		tcgplayer: 451748
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682141,
+				tcgplayer: 451748
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682141,
+				tcgplayer: 451748
+			}
+		},
+	],
 }
 
 export default card

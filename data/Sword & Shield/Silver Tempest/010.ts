@@ -73,21 +73,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
 	},
 
-	thirdParty: {
-		cardmarket: 682049,
-		tcgplayer: 451630
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682049,
+				tcgplayer: 451630
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682049,
+				tcgplayer: 451630
+			}
+		},
+	],
 }
 
 export default card

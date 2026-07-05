@@ -42,12 +42,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -55,10 +49,22 @@ const card: Card = {
 		en: "It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat."
 	},
 
-	thirdParty: {
-		cardmarket: 567106,
-		tcgplayer: 241679
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567106,
+				tcgplayer: 241679
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567106,
+				tcgplayer: 241679
+			}
+		},
+	],
 }
 
 export default card

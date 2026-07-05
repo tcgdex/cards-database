@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
 	},
 
-	thirdParty: {
-		cardmarket: 482904,
-		tcgplayer: 219074
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482904,
+				tcgplayer: 219074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482904,
+				tcgplayer: 219074
+			}
+		},
+	],
 }
 
 export default card

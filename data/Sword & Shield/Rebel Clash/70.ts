@@ -81,20 +81,27 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 456468,
-		tcgplayer: 213154
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456468,
+				tcgplayer: 213154
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 819399
+			}
+		},
+	],
 }
 
 export default card

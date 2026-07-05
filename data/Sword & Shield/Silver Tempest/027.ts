@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
 	},
 
-	thirdParty: {
-		cardmarket: 682068,
-		tcgplayer: 451658
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682068,
+				tcgplayer: 451658
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682068,
+				tcgplayer: 451658
+			}
+		},
+	],
 }
 
 export default card

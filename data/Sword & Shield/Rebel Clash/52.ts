@@ -49,12 +49,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -62,10 +56,22 @@ const card: Card = {
 		en: "If it sees any movement around it, this Pokémon charges for it straightaway, leading with its sharply pointed jaw. It's very proud of that jaw."
 	},
 
-	thirdParty: {
-		cardmarket: 457698,
-		tcgplayer: 213133
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457698,
+				tcgplayer: 213133
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457698,
+				tcgplayer: 213133
+			}
+		},
+	],
 }
 
 export default card

@@ -70,16 +70,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674061,
-		tcgplayer: 283925
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674061,
+				tcgplayer: 283925
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 740471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674061,
+				tcgplayer: 283925
+			}
+		},
+	],
 }
 
 export default card

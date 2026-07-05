@@ -94,12 +94,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "It will do anything to win, taking advantage of every opening and finishing opponents off with the small claws on its front legs."
 	},
 
-	thirdParty: {
-		cardmarket: 482964,
-		tcgplayer: 219231
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 482964,
+				tcgplayer: 219231
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482964,
+				tcgplayer: 219231
+			}
+		},
+	],
 }
 
 export default card

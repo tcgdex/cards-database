@@ -82,12 +82,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws."
 	},
 
-	thirdParty: {
-		cardmarket: 457758,
-		tcgplayer: 213148
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457758,
+				tcgplayer: 213148
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457758,
+				tcgplayer: 213148
+			}
+		},
+	],
 }
 
 export default card

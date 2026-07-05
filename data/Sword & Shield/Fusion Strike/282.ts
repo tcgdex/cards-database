@@ -29,10 +29,16 @@ const card: Card = {
 	regulationMark: "D",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 583046,
-		tcgplayer: 253286
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 583046,
+				tcgplayer: 253286
+			}
+		},
+	],
 }
 
 export default card

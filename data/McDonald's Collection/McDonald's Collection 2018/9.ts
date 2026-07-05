@@ -46,7 +46,7 @@ const card: Card = {
 
 	retreat: 2,
 
-	illustrator: "Naoya Kimura",
+	illustrator: "Naoyo Kimura",
 
 	variants: [
 		{

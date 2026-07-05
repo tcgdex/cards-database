@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
 	},
 
-	thirdParty: {
-		cardmarket: 483524,
-		tcgplayer: 219391
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483524,
+				tcgplayer: 219391
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483524,
+				tcgplayer: 219391
+			}
+		},
+	],
 }
 
 export default card

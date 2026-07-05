@@ -55,12 +55,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -68,10 +62,22 @@ const card: Card = {
 		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
 	},
 
-	thirdParty: {
-		cardmarket: 457638,
-		tcgplayer: 213117
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457638,
+				tcgplayer: 213117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457638,
+				tcgplayer: 213117
+			}
+		},
+	],
 }
 
 export default card

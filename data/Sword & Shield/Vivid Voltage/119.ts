@@ -89,12 +89,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -102,10 +96,15 @@ const card: Card = {
 		en: "Once every 1,000 years, the singing of a pure voice will rouse this Pokémon from its near-perpetual slumber. It wakes for only seven days."
 	},
 
-	thirdParty: {
-		cardmarket: 512305,
-		tcgplayer: 226573
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 512305,
+				tcgplayer: 226573
+			}
+		},
+	],
 }
 
 export default card

@@ -64,12 +64,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -77,10 +71,22 @@ const card: Card = {
 		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is."
 	},
 
-	thirdParty: {
-		cardmarket: 567230,
-		tcgplayer: 241801
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567230,
+				tcgplayer: 241801
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567230,
+				tcgplayer: 241801
+			}
+		},
+	],
 }
 
 export default card

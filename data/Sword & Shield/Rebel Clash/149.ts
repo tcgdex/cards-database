@@ -74,12 +74,6 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -87,10 +81,22 @@ const card: Card = {
 		en: "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation."
 	},
 
-	thirdParty: {
-		cardmarket: 458143,
-		tcgplayer: 213249
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458143,
+				tcgplayer: 213249
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458143,
+				tcgplayer: 213249
+			}
+		},
+	],
 }
 
 export default card

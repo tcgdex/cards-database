@@ -94,12 +94,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
 	},
 
-	thirdParty: {
-		cardmarket: 483489,
-		tcgplayer: 219380
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483489,
+				tcgplayer: 219380
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483489,
+				tcgplayer: 219380
+			}
+		},
+	],
 }
 
 export default card

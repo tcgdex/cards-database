@@ -48,12 +48,6 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -61,10 +55,22 @@ const card: Card = {
 		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
 	},
 
-	thirdParty: {
-		cardmarket: 457938,
-		tcgplayer: 213193
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457938,
+				tcgplayer: 213193
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457938,
+				tcgplayer: 213193
+			}
+		},
+	],
 }
 
 export default card

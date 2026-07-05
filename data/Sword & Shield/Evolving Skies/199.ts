@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Aroma Lady",
@@ -36,10 +30,15 @@ const card: Card = {
 	illustrator: "En Morikura",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574257,
-		tcgplayer: 246791
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574257,
+				tcgplayer: 246791
+			}
+		},
+	],
 }
 
 export default card

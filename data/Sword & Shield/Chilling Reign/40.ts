@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "Although it's called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini."
 	},
 
-	thirdParty: {
-		cardmarket: 567120,
-		tcgplayer: 241693
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567120,
+				tcgplayer: 241693
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567120,
+				tcgplayer: 241693
+			}
+		},
+	],
 }
 
 export default card

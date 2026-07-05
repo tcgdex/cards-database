@@ -55,12 +55,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -68,10 +62,22 @@ const card: Card = {
 		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below."
 	},
 
-	thirdParty: {
-		cardmarket: 457663,
-		tcgplayer: 213123
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457663,
+				tcgplayer: 213123
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457663,
+				tcgplayer: 213123
+			}
+		},
+	],
 }
 
 export default card

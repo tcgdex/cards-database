@@ -94,12 +94,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -107,10 +101,22 @@ const card: Card = {
 		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time."
 	},
 
-	thirdParty: {
-		cardmarket: 457803,
-		tcgplayer: 213163
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457803,
+				tcgplayer: 213163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457803,
+				tcgplayer: 213163
+			}
+		},
+	],
 }
 
 export default card

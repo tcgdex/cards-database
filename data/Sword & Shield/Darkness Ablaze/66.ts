@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
 	},
 
-	thirdParty: {
-		cardmarket: 483209,
-		tcgplayer: 219434
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483209,
+				tcgplayer: 219434
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483209,
+				tcgplayer: 219434
+			}
+		},
+	],
 }
 
 export default card

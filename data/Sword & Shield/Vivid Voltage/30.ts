@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -97,10 +91,22 @@ const card: Card = {
 		en: "When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours."
 	},
 
-	thirdParty: {
-		cardmarket: 511570,
-		tcgplayer: 226405
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511570,
+				tcgplayer: 226405
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511570,
+				tcgplayer: 226405
+			}
+		},
+	],
 }
 
 export default card

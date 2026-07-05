@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "There's a theory that inside Golurk is a perpetual motion machine that produces limitless energy, but this belief hasn't been proven."
 	},
 
-	thirdParty: {
-		cardmarket: 567174,
-		tcgplayer: 241727
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567174,
+				tcgplayer: 241727
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567174,
+				tcgplayer: 241727
+			}
+		},
+	],
 }
 
 export default card

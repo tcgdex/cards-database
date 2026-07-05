@@ -74,12 +74,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -87,10 +81,22 @@ const card: Card = {
 		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
 	},
 
-	thirdParty: {
-		cardmarket: 483564,
-		tcgplayer: 219334
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483564,
+				tcgplayer: 219334
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483564,
+				tcgplayer: 219334
+			}
+		},
+	],
 }
 
 export default card

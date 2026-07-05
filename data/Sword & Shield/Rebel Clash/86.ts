@@ -71,12 +71,6 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "This Pokémon was born from sweet-smelling particles in the air. Its body is made of cream."
 	},
 
-	thirdParty: {
-		cardmarket: 457848,
-		tcgplayer: 213172
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457848,
+				tcgplayer: 213172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457848,
+				tcgplayer: 213172
+			}
+		},
+	],
 }
 
 export default card

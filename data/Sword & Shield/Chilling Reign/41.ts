@@ -71,12 +71,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -84,10 +78,22 @@ const card: Card = {
 		en: "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged."
 	},
 
-	thirdParty: {
-		cardmarket: 567121,
-		tcgplayer: 241694
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567121,
+				tcgplayer: 241694
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567121,
+				tcgplayer: 241694
+			}
+		},
+	],
 }
 
 export default card

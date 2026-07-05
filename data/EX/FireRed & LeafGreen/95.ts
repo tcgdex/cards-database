@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Pokéball"
 	},
 
-	illustrator: "K Hoshiba",
+	illustrator: "K. Hoshiba",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

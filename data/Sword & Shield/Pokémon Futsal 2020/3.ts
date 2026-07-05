@@ -9,14 +9,14 @@ const card: Card = {
 		en: "Grookey on the Ball"
 	},
 
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "None",
 	category: "Pokemon",
 
 	description: {
 		en: "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",

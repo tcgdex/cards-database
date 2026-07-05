@@ -74,16 +74,44 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670814,
-		tcgplayer: 283957
-	}
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 674366
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670814,
+				tcgplayer: 283957
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 742040
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 884418
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 670814,
+				tcgplayer: 283957
+			}
+		},
+	],
 }
 
 export default card

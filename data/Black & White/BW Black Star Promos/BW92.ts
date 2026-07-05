@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Espeon",
 		fr: "Mentali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 

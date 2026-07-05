@@ -82,12 +82,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
 	},
 
-	thirdParty: {
-		cardmarket: 457743,
-		tcgplayer: 213143
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457743,
+				tcgplayer: 213143
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457743,
+				tcgplayer: 213143
+			}
+		},
+	],
 }
 
 export default card

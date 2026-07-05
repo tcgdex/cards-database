@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
 	},
 
-	thirdParty: {
-		cardmarket: 511430,
-		tcgplayer: 226361
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511430,
+				tcgplayer: 226361
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511430,
+				tcgplayer: 226361
+			}
+		},
+	],
 }
 
 export default card

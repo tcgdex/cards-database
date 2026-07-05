@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Yorkleff"
 	},
 
-	illustrator: "Mosakazu Fukuda",
+	illustrator: "Masakazu Fukuda",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",

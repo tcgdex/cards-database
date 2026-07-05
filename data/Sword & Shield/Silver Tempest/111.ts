@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The desert gets cold at night, so when the sun sets, this Pokémon burrows deep into the sand and sleeps until sunrise.",
 	},
 
-	thirdParty: {
-		cardmarket: 682158,
-		tcgplayer: 451765
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682158,
+				tcgplayer: 451765
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682158,
+				tcgplayer: 451765
+			}
+		},
+	],
 }
 
 export default card

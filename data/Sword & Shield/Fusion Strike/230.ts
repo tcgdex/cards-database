@@ -29,17 +29,23 @@ const card: Card = {
 	regulationMark: "E",
 	illustrator: "inose yukie",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582966,
-		tcgplayer: 253101
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582966,
+				tcgplayer: 253101
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582966,
+				tcgplayer: 253101
+			}
+		},
+	],
 }
 
 export default card

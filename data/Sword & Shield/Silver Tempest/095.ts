@@ -64,21 +64,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws.",
 	},
 
-	thirdParty: {
-		cardmarket: 682142,
-		tcgplayer: 451749
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682142,
+				tcgplayer: 451749
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682142,
+				tcgplayer: 451749
+			}
+		},
+	],
 }
 
 export default card

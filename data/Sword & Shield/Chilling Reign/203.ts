@@ -72,12 +72,6 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "Oswaldo KATO",
@@ -93,10 +87,15 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567311,
-		tcgplayer: 241703
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567311,
+				tcgplayer: 241703
+			}
+		},
+	],
 }
 
 export default card

@@ -80,12 +80,6 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -93,10 +87,22 @@ const card: Card = {
 		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
 	},
 
-	thirdParty: {
-		cardmarket: 457738,
-		tcgplayer: 213142
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457738,
+				tcgplayer: 213142
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457738,
+				tcgplayer: 213142
+			}
+		},
+	],
 }
 
 export default card

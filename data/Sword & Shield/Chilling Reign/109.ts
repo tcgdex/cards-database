@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
 	},
 
-	thirdParty: {
-		cardmarket: 567217,
-		tcgplayer: 241784
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567217,
+				tcgplayer: 241784
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567217,
+				tcgplayer: 241784
+			}
+		},
+	],
 }
 
 export default card

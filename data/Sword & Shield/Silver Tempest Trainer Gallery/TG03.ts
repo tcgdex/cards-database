@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Silver Tempest"
+import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [180],
@@ -77,20 +77,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches.",
 	},
 
-	thirdParty: {
-		cardmarket: 682267
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682267,
+				tcgplayer: 452017
+			}
+		},
+	],
 }
 
 export default card

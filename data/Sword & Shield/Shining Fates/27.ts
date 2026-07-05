@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
 	},
 
-	thirdParty: {
-		cardmarket: 539158,
-		tcgplayer: 232433
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539158,
+				tcgplayer: 232433
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539158,
+				tcgplayer: 232433
+			}
+		},
+	],
 }
 
 export default card

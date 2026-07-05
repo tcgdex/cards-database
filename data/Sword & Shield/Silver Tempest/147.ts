@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It needs a running start to take off. If Archeops wants to fly, it first needs to run nearly 25 mph, building speed over a course of about 2.5 miles.",
 	},
 
-	thirdParty: {
-		cardmarket: 682194,
-		tcgplayer: 450294
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682194,
+				tcgplayer: 450294
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682194,
+				tcgplayer: 450294
+			}
+		},
+	],
 }
 
 export default card

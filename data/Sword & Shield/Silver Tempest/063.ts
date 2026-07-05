@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn't deal well with folks who aren't easily frightened.",
 	},
 
-	thirdParty: {
-		cardmarket: 682110,
-		tcgplayer: 451717
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682110,
+				tcgplayer: 451717
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682110,
+				tcgplayer: 451717
+			}
+		},
+	],
 }
 
 export default card

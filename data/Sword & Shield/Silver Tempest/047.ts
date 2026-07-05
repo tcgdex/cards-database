@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It forms a water bubble at the rear of its body and then covers its head with it. Meeting another Dewpider means comparing water-bubble sizes.",
 	},
 
-	thirdParty: {
-		cardmarket: 682094,
-		tcgplayer: 451694
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682094,
+				tcgplayer: 451694
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682094,
+				tcgplayer: 451694
+			}
+		},
+	],
 }
 
 export default card

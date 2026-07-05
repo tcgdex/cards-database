@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "It has phenomenal power. It will mercilessly crush anyone or anything that bullies small Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 511880,
-		tcgplayer: 226531
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511880,
+				tcgplayer: 226531
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511880,
+				tcgplayer: 226531
+			}
+		},
+	],
 }
 
 export default card

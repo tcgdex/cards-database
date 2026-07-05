@@ -77,12 +77,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -90,10 +84,22 @@ const card: Card = {
 		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
 	},
 
-	thirdParty: {
-		cardmarket: 511970,
-		tcgplayer: 226563
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511970,
+				tcgplayer: 226563
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511970,
+				tcgplayer: 226563
+			}
+		},
+	],
 }
 
 export default card

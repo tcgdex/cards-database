@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Deino",
@@ -70,10 +64,22 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574161,
-		tcgplayer: 246911
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574161,
+				tcgplayer: 246911
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574161,
+				tcgplayer: 246911
+			}
+		},
+	],
 }
 
 export default card

@@ -72,12 +72,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit's rebirth as this Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 457463,
-		tcgplayer: 213084
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457463,
+				tcgplayer: 213084
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457463,
+				tcgplayer: 213084
+			}
+		},
+	],
 }
 
 export default card

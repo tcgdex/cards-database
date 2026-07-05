@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Full Face Guard",
@@ -36,10 +30,16 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574289,
-		tcgplayer: 246806
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574289,
+				tcgplayer: 246806
+			}
+		},
+	],
 }
 
 export default card

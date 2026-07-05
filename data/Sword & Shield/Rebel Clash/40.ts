@@ -87,12 +87,6 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets."
 	},
 
-	thirdParty: {
-		cardmarket: 457643,
-		tcgplayer: 213118
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457643,
+				tcgplayer: 213118
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457643,
+				tcgplayer: 213118
+			}
+		},
+	],
 }
 
 export default card

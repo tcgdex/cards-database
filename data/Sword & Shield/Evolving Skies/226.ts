@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Froslass",
@@ -79,10 +73,16 @@ const card: Card = {
 		en: "It spits out cold air of nearly -60 degrees Fahrenheit to freeze its quarry. It brings frozen prey back to its lair and neatly lines them up.",
 	},
 
-	thirdParty: {
-		cardmarket: 574284,
-		tcgplayer: 246801
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574284,
+				tcgplayer: 246801
+			}
+		},
+	],
 }
 
 export default card

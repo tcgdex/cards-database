@@ -92,19 +92,18 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 456523,
-		tcgplayer: 213234
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456523,
+				tcgplayer: 213234
+			}
+		},
+	],
 }
 
 export default card

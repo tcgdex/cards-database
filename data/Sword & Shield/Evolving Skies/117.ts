@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Noivern V",
@@ -75,10 +69,15 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 574165,
-		tcgplayer: 246742
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574165,
+				tcgplayer: 246742
+			}
+		},
+	],
 }
 
 export default card

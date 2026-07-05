@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -91,10 +85,16 @@ const card: Card = {
 		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
 	},
 
-	thirdParty: {
-		cardmarket: 457308,
-		tcgplayer: 213288
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 457308,
+				tcgplayer: 213288
+			}
+		},
+	],
 }
 
 export default card

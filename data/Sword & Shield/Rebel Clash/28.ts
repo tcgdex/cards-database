@@ -82,12 +82,6 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people."
 	},
 
-	thirdParty: {
-		cardmarket: 457593,
-		tcgplayer: 213104
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457593,
+				tcgplayer: 213104
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457593,
+				tcgplayer: 213104
+			}
+		},
+	],
 }
 
 export default card

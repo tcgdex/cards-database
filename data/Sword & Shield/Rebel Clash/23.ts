@@ -81,12 +81,6 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -94,10 +88,22 @@ const card: Card = {
 		en: "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on."
 	},
 
-	thirdParty: {
-		cardmarket: 456418,
-		tcgplayer: 213098
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456418,
+				tcgplayer: 213098
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 456418,
+				tcgplayer: 213098
+			}
+		},
+	],
 }
 
 export default card
