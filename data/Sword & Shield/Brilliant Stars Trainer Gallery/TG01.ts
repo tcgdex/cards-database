@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Brilliant Stars"
+import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
 	dexId: [136],
