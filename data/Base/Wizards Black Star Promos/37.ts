@@ -74,6 +74,10 @@ const card: Card = {
 		fr: "Il lance des coups de pieds tournant. S'il tournoie assez vite, il peut s'enfoncer dans le sol."
 	},
 
+	thirdParty: {
+		tcgplayer: 86112
+	},
+
 	variants: [
 		{
 			type: "normal",

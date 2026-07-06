@@ -67,6 +67,10 @@ const card: Card = {
 		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. Certains croient qu'il existe un lien entre les hiéroglyphes et eux."
 	},
 
+	thirdParty: {
+		tcgplayer: 90215
+	},
+
 	variants: [
 		{
 			type: "normal",

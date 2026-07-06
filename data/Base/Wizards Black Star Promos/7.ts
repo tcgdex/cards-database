@@ -68,6 +68,11 @@ const card: Card = {
 	description: {
 		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
+
+	thirdParty: {
+		tcgplayer: 86309
+	},
+
 	variants: [
 		{
 			type: "normal",

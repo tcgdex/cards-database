@@ -73,6 +73,10 @@ const card: Card = {
 		fr: "En apprenant à voler, Pikachu a surpassé sa faiblesse contre le Pokémon Combat."
 	},
 
+	thirdParty: {
+		tcgplayer: 85534
+	},
+
 	variants: [
 		{
 			type: "normal",

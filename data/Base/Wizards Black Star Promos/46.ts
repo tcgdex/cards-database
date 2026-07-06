@@ -61,6 +61,11 @@ const card: Card = {
 	description: {
 		en: "Normally found near power plants, it can wander away and cause major blackouts in cities.",
 	},
+
+	thirdParty: {
+		tcgplayer: 85111
+	},
+
 	variants: [
 		{
 			type: "normal",

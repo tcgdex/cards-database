@@ -52,6 +52,9 @@ const card: Card = {
 	],
 	retreat: 2,
 
+	thirdParty: {
+		tcgplayer: 86120
+	},
 
 	variants: [
 		{
@@ -59,7 +62,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["pokemon-center-ny"]
+			stamp: ["pokemon-center-ny"],
 		}
 	]
 }

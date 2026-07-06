@@ -69,6 +69,10 @@ const card: Card = {
 		fr: "Ce Pokémon violent, jamais vu auparavant, est le fruit de nombreuses années d'expériences génétiques."
 	},
 
+	thirdParty: {
+		tcgplayer: 87414
+	},
+	
 	variants: [
 		{
 			type: "normal",

@@ -55,6 +55,11 @@ const card: Card = {
 	description: {
 		en: "With ninja-like agility and speed, it can create the illusion that there is more than one.",
 	},
+
+	thirdParty: {
+		tcgplayer: 88993
+	},
+
 	variants: [
 		{
 			type: "normal",

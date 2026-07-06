@@ -62,6 +62,10 @@ const card: Card = {
 		fr: "À l'âge adulte, il a tendance à laisser ses camarades imprimer leurs empreintes sur son dos."
 	},
 
+	thirdParty: {
+		tcgplayer: 89353
+	},
+
 	variants: [
 		{
 			type: "normal",

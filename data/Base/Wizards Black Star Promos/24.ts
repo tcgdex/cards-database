@@ -56,6 +56,10 @@ const card: Card = {
 		fr: "Votre anniversaire : _________________________________________"
 	},
 
+	thirdParty: {
+		tcgplayer: 90784
+	},
+
 	variants: [
 		{
 			type: "holo",
