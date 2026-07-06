@@ -62,7 +62,7 @@ const card: Card = {
 		it: "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
 	},
 
-  thirdParty: {
+	thirdParty: {
 		tcgplayer: 42399
 	},
 	variants: [
