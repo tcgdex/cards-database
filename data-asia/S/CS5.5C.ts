@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../S'
 
 const set: Set = {
-	id: 'CS5.5C',
+	id: 'cs5.5C',
 	name: {
 		'zh-cn': '暗影夺辉',
 	},
