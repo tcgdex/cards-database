@@ -55,13 +55,12 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		tcgplayer: 88862
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88862
+			},
 		}
 	]
 }

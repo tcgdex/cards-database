@@ -61,13 +61,12 @@ const card: Card = {
 		en: "Volcanoes erupt when it barks. Unable to restrain its extreme power, it races headlong around the land.",
 	},
 
-	thirdParty: {
-		tcgplayer: 85270
-	},
-
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85270
+			},
 		}
 	]
 }

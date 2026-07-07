@@ -71,21 +71,17 @@ const card: Card = {
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils attirent tellement d'électricité qu'ils peuvent provoquer des coups de foudre."
 	},
 
-	thirdParty: {
-		tcgplayer: 88066
-	},
-
 	variants: [
-		{
-			type: "normal",
-		},
 		{
 			type: "normal",
 			stamp: ["1st-movie-inverted"]
 		},
 		{
 			type: "normal",
-			stamp: ["1st-movie"]
+			stamp: ["1st-movie"],
+			thirdParty: {
+				tcgplayer: 88066
+			},
 		},
 		{
 			type: "normal",

@@ -71,13 +71,12 @@ const card: Card = {
 		fr: "Il adore mordre et tirer les cheveux des gens par surprise, rien que pour voir leur expression horrifiée."
 	},
 
-	thirdParty: {
-		tcgplayer: 87503
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87503
+			},
 		}
 	]
 }

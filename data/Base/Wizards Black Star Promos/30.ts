@@ -70,13 +70,12 @@ const card: Card = {
 		fr: "Même si ce n'est qu'un poussin, il utilise un poison pour repousser ses ennemis quand il se sent menacé."
 	},
 
-	thirdParty: {
-		tcgplayer: 89928
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89928
+			},
 		}
 	]
 }

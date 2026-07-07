@@ -61,17 +61,20 @@ const card: Card = {
 		en: "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
 	},
 
-	thirdParty: {
-		tcgplayer: 85074
-	},
-
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 85074
+			},
 		},
 		{
 			type: "normal",
+			stamp: ["jr-stamp-rally"],
+			thirdParty: {
+				tcgplayer: 618732
+			},
 		}
 	]
 }

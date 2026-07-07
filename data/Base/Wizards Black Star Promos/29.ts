@@ -57,13 +57,12 @@ const card: Card = {
 		fr: "L'extrémité de sa queue, qui contient une huile plus légère que l'eau, lui permet de nager sans couler."
 	},
 
-	thirdParty: {
-		tcgplayer: 87211
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87211
+			},
 		}
 	]
 }

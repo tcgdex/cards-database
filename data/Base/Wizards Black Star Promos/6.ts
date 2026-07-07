@@ -78,13 +78,12 @@ const card: Card = {
 		fr: "Un Pokémon légendaire réputé pour sa beauté. Il galope si vite qu'il semble voler."
 	},
 
-	thirdParty: {
-		tcgplayer: 83578
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83578
+			},
 		},
 	]
 }

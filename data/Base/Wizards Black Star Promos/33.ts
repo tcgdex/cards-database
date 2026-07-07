@@ -84,13 +84,12 @@ const card: Card = {
 		fr: "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement."
 	},
 
-	thirdParty: {
-		tcgplayer: 88960
-	},
-
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88960
+			},
 		}
 	]
 }

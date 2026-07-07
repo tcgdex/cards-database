@@ -55,13 +55,12 @@ const card: Card = {
 		en: "This Pokémon is more active at night. It likes bright, shiny things and cannot resist taking them and adding them to its collection.",
 	},
 
-	thirdParty: {
-		tcgplayer: 89851
-	},
-	
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89851
+			},
 		}
 	]
 }

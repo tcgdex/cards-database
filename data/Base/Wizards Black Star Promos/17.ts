@@ -67,14 +67,13 @@ const card: Card = {
 		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
 	},
 
-	thirdParty: {
-		tcgplayer: 84638
-	},
-
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 84638
+			},
 		},
 		{
 			type: "holo",

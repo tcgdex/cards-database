@@ -56,13 +56,12 @@ const card: Card = {
 		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
 	},
 
-	thirdParty: {
-		tcgplayer: 87309
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87309
+			},
 		},
 	]
 }

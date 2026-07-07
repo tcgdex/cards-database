@@ -59,13 +59,12 @@ const card: Card = {
 		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
 	},
 
-	thirdParty: {
-		tcgplayer: 87397
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87397
+			},
 		}
 	]
 }

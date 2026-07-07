@@ -71,21 +71,17 @@ const card: Card = {
 		fr: "Un Pokémon sauvage au mauvais caractère. Capable de reconnaître les couleurs et apprécie la couleur rouge."
 	},
 
-	thirdParty: {
-		tcgplayer: 85107
-	},
-	
 	variants: [
-		{
-			type: "normal",
-		},
 		{
 			type: "normal",
 			stamp: ["1st-movie-inverted"]
 		},
 		{
 			type: "normal",
-			stamp: ["1st-movie"]
+			stamp: ["1st-movie"],
+			thirdParty: {
+				tcgplayer: 85107
+			},
 		}
 	]
 }

@@ -60,17 +60,19 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		tcgplayer: 88575
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88575
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pokemon-center-ny"]
+			stamp: ["pokemon-center-ny"],
+			thirdParty: {
+				tcgplayer: 244347
+			},
 		}
 	]
 }

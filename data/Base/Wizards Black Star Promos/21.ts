@@ -58,13 +58,12 @@ const card: Card = {
 		fr: "Les flammes des ailes de ce Pokémon légendaire brûlent d'un feu si ardent qu'elles permettent de voir la nuit comme en plein jour."
 	},
 
-	thirdParty: {
-		tcgplayer: 87557
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87557
+			},
 		},
 		{
 			type: "normal",

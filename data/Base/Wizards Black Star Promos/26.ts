@@ -69,10 +69,6 @@ const card: Card = {
 		fr: "Il utilise sa queue sensible pour explorer son environnement et réagit violemment si on l'attrape par la queue."
 	},
 
-	thirdParty: {
-		tcgplayer: 88068
-	},
-
 	variants: [
 		{
 			type: "normal",
@@ -80,6 +76,9 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88068
+			},
 		}
 	]
 }

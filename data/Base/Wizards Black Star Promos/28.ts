@@ -54,10 +54,6 @@ const card: Card = {
 		fr: "L'été, on aperçoit souvent des bandes de Pikachu surfant sur les vagues."
 	},
 
-	thirdParty: {
-		tcgplayer: 89643
-	},
-
 	variants: [
 		{
 			type: "normal",
@@ -65,6 +61,9 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89643
+			},
 		}
 	]
 }

@@ -45,14 +45,13 @@ const card: Card = {
 	],
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84143
-	},
-
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pokemon-4-ever"]
+			stamp: ["pokemon-4-ever"],
+			thirdParty: {
+				tcgplayer: 84143
+			},
 		}
 	]
 }

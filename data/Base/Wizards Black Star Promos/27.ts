@@ -61,10 +61,6 @@ const card: Card = {
 		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
 	},
 
-	thirdParty: {
-		tcgplayer: 88069
-	},
-
 	variants: [
 		{
 			type: "normal",
@@ -72,6 +68,9 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88069
+			},
 		}
 	]
 }

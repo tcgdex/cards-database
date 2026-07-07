@@ -46,13 +46,12 @@ const card: Card = {
 		fr: "À cause de son étrange forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
 	},
 
-	thirdParty: {
-		tcgplayer: 84363
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84363
+			},
 		}
 	]
 }

@@ -70,13 +70,12 @@ const card: Card = {
 		fr: "Alors qu'il trompe ses ennemis avec son air niais, ce Pokémon rusé utilise des pouvoirs psychokinésiques."
 	},
 
-	thirdParty: {
-		tcgplayer: 88429
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88429
+			},
 		}
 	]
 }

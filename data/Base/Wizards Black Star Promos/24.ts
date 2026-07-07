@@ -56,10 +56,6 @@ const card: Card = {
 		fr: "Votre anniversaire : _________________________________________"
 	},
 
-	thirdParty: {
-		tcgplayer: 90784
-	},
-
 	variants: [
 		{
 			type: "holo",
@@ -67,7 +63,10 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 90784
+			},
 		}
 	]
 }
