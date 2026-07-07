@@ -74,20 +74,24 @@ const card: Card = {
 
 	retreat: 1,
 
+
 	variants: [
 		{
-			type: "reverse",
-			foil: "cracked-ice"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278408,
+				tcgplayer: 84100
+			}
 		},
 		{
-			type: "normal",
-		}
+			type: "reverse",
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 278408,
+				tcgplayer: 84100
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 278408,
-		tcgplayer: 84100
-	}
 }
 
 export default card

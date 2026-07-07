@@ -17,16 +17,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
+
 	variants: [
 		{
 			type: "normal",
-		}
+			thirdParty: {
+				cardmarket: 278410,
+				tcgplayer: 87752
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 278410,
-		tcgplayer: 87752
-	}
 }
 
 export default card
