@@ -53,10 +53,15 @@ const card: Card = {
 	retreat: 0,
 	suffix: "SP",
 
-	variants: {
-		normal: false,
-		reverse: false
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576788,
+				tcgplayer: 250335
+			}
+		},
+	],
 }
 
 export default card

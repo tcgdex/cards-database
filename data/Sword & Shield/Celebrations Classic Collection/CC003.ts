@@ -40,18 +40,20 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	description: {
 		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 	},
 
-	thirdParty: {
-		cardmarket: 576773
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576773,
+				tcgplayer: 250321
+			}
+		},
+	],
 }
 
 export default card
