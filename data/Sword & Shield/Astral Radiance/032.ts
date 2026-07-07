@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
 	},
 
-	thirdParty: {
-		cardmarket: 658540,
-		tcgplayer: 272232
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658540,
+				tcgplayer: 272232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658540,
+				tcgplayer: 272232
+			}
+		},
+	],
 }
 
 export default card

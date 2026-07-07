@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [282],
@@ -86,20 +86,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
 	},
 
-	thirdParty: {
-		cardmarket: 658882
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658882,
+				tcgplayer: 272476
+			}
+		},
+	],
 }
 
 export default card

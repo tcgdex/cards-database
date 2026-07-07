@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [230],
@@ -86,20 +86,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It stores energy by sleeping at underwater depths at which no other life forms can survive.",
 	},
 
-	thirdParty: {
-		cardmarket: 658880
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658880,
+				tcgplayer: 272474
+			}
+		},
+	],
 }
 
 export default card

@@ -61,21 +61,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
 	},
 
-	thirdParty: {
-		cardmarket: 658779,
-		tcgplayer: 272349
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658779,
+				tcgplayer: 272349
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658779,
+				tcgplayer: 272349
+			}
+		},
+	],
 }
 
 export default card

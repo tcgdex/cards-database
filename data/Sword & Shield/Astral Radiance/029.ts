@@ -75,21 +75,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
 	},
 
-	thirdParty: {
-		cardmarket: 658534,
-		tcgplayer: 272229
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658534,
+				tcgplayer: 272229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658534,
+				tcgplayer: 272229
+			}
+		},
+	],
 }
 
 export default card

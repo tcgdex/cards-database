@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
 	},
 
-	thirdParty: {
-		cardmarket: 658546,
-		tcgplayer: 272238
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658546,
+				tcgplayer: 272238
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658546,
+				tcgplayer: 272238
+			}
+		},
+	],
 }
 
 export default card

@@ -64,21 +64,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
 	},
 
-	thirdParty: {
-		cardmarket: 658580,
-		tcgplayer: 272242
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658580,
+				tcgplayer: 272242
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658580,
+				tcgplayer: 272242
+			}
+		},
+	],
 }
 
 export default card

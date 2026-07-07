@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [163],
@@ -73,20 +73,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
 	},
 
-	thirdParty: {
-		cardmarket: 658781
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658889,
+				tcgplayer: 272483
+			}
+		},
+	],
 }
 
 export default card

@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [262],
@@ -86,20 +86,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
 	},
 
-	thirdParty: {
-		cardmarket: 658740
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658886,
+				tcgplayer: 272480
+			}
+		},
+	],
 }
 
 export default card

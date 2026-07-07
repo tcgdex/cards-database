@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 658688,
-		tcgplayer: 272281
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658688,
+				tcgplayer: 272281
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658688,
+				tcgplayer: 272281
+			}
+		},
+	],
 }
 
 export default card

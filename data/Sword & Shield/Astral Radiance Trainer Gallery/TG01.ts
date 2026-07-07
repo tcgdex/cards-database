@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [460],
@@ -77,20 +77,20 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The Pokémon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions.",
 	},
 
-	thirdParty: {
-		cardmarket: 658878
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658878,
+				tcgplayer: 272472
+			}
+		},
+	],
 }
 
 export default card

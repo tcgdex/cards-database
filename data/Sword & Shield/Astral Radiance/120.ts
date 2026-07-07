@@ -73,21 +73,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
 	},
 
-	thirdParty: {
-		cardmarket: 658781,
-		tcgplayer: 272355
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658781,
+				tcgplayer: 272355
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658781,
+				tcgplayer: 272355
+			}
+		},
+	],
 }
 
 export default card

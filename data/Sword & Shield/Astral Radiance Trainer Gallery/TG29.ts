@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [898],
@@ -14,8 +14,8 @@ const card: Card = {
 		de: "Schimmelreiter-Coronospa VMAX"
 	},
 
-	illustrator: "Hitoshi Ariga",
-	rarity: "Ultra Rare",
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],
@@ -86,16 +86,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658892
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 272501
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 658906
+			}
+		},
+	],
 }
 
 export default card

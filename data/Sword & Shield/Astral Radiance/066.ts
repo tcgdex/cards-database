@@ -73,21 +73,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
 	},
 
-	thirdParty: {
-		cardmarket: 658643,
-		tcgplayer: 272267
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658643,
+				tcgplayer: 272267
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658643,
+				tcgplayer: 272267
+			}
+		},
+	],
 }
 
 export default card

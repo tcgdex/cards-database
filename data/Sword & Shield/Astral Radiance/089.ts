@@ -52,21 +52,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
 	},
 
-	thirdParty: {
-		cardmarket: 658709,
-		tcgplayer: 272290
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658710,
+				tcgplayer: 272290
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658710,
+				tcgplayer: 272290
+			}
+		},
+	],
 }
 
 export default card
