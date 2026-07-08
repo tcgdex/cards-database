@@ -5,7 +5,7 @@ const set: Set = {
 	id: "miscp",
 
 	name: {
-		en: "Misc Promos",
+		en: "Unnumbered Promos",
 	},
 
 	serie: serie,
@@ -14,7 +14,7 @@ const set: Set = {
 		official: 1
 	},
 
-	releaseDate: "1999-12-01",
+	releaseDate: "1996-01-01",
 }
 
 export default set
