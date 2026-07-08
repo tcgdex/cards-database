@@ -43,11 +43,13 @@ const card: Card = {
 		// error version 1
 		{
 			type: 'holo',
+			foil: 'speckled',
 			subtype: 'nintedo-error',
 		},
 		// corrected version 1
 		{
 			type: 'holo',
+			foil: 'speckled',
 			thirdParty: {
 				tcgplayer: 108589,
 			},
@@ -61,11 +63,13 @@ const card: Card = {
 		// japanese 2019 reprint
 		{
 			type: 'holo',
+			foil: 'speckled',
 			subtype: '2019-copyright',
 		},
 		// korean 2020 reprint
 		{
 			type: 'holo',
+			foil: 'speckled',
 			subtype: '2020-copyright',
 		},
 	],
