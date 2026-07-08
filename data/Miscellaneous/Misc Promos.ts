@@ -1,5 +1,5 @@
 import { Set } from '../../interfaces'
-import serie from '../Mega Evolution'
+import serie from '../Miscellaneous'
 
 const set: Set = {
 	id: "miscp",
@@ -14,7 +14,7 @@ const set: Set = {
 		official: 0
 	},
 
-	releaseDate: "2025-09-26",
+	releaseDate: "1999-12-01",
 
 	abbreviations: {
 		official: "MEP"
