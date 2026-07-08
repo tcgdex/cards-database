@@ -254,7 +254,8 @@
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
-		"thank-you" : "thank-you"
+		"thank-you" : "thank-you",
+		"jr-stamp-rally": "jr-stamp-rally"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
@@ -274,6 +275,7 @@
 		"japanese-back": "Verso japonês",
 		"no-e-reader": "Sem e-Reader",
 		"rarity-error": "Erro de raridade",
-		"cosmos": "cosmos"
+		"cosmos": "cosmos",
+		"glossy": "lustrosa"
 	}
 }
