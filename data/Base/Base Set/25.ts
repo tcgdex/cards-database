@@ -77,15 +77,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273720,
+				tcgplayer: 42366
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107022
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107022
+			}
 		},
 		{
 			type: "normal",
@@ -105,11 +115,6 @@ const card: Card = {
 		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
 		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds.",
 		it: "Conserva energia termica nel suo corpo. Nuota ad una velocità costante di 8 nodi anche in acque estremamente fredde. LIV 42 N.87"
-	},
-
-	thirdParty: {
-		cardmarket: 273720,
-		tcgplayer: 42366
 	}
 }
 

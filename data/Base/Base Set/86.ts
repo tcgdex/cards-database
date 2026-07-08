@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scegli un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua Panchina. (Se la Panchina del tuo avversario è già completa, non puoi giocare Poké Flauto.)",
 	},
 
-	thirdParty: {
-		cardmarket: 273781,
-		tcgplayer: 108647
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273781,
+				tcgplayer: 108647
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107083
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107083
+			},
 		},
 		{
 			type: "normal",

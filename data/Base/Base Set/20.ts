@@ -81,15 +81,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273715,
+				tcgplayer: 42361
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107015
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107015
+			}
 		},
 		{
 			type: "normal",
@@ -101,11 +111,6 @@ const card: Card = {
 		en: "Normally found near power plants, it can wander away and cause major blackouts in cities.",
 		fr: "Vivant dans les centrales, il provoque des pannes de courant en s'aventurant en ville.",
 		it: "Si trova in genere vicino a centrali elettriche, ma può allontanarsi e causare gravissimi blackout nelle città. LIV 35 N.125"
-	},
-
-	thirdParty: {
-		cardmarket: 273715,
-		tcgplayer: 42361
 	}
 }
 

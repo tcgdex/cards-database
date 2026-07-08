@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scegli una carta Energia assegnata a uno dei Pokémon del tuo avversario e scartala."
 	},
 
-	thirdParty: {
-		cardmarket: 273787,
-		tcgplayer: 42436
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273787,
+				tcgplayer: 42436
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107089
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107089
+			},
 		},
 		{
 			type: "normal",
