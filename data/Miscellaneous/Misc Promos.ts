@@ -5,7 +5,7 @@ const set: Set = {
 	id: "miscp",
 
 	name: {
-		en: "Unnumbered Promos",
+		en: "Misc Promos",
 	},
 
 	serie: serie,

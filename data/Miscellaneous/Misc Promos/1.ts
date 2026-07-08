@@ -45,6 +45,9 @@ const card: Card = {
 			type: 'holo',
 			foil: 'speckled',
 			subtype: 'nintedo-error',
+			thirdParty: {
+				tcgplayer: 674624,
+			},
 		},
 		// corrected version 1
 		{
