@@ -59,7 +59,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 159115
+			},
 		},
 		{
 			type: "holo",

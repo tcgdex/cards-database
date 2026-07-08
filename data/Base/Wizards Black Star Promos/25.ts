@@ -76,7 +76,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 161749
+			},
 		},
 		{
 			type: "normal",

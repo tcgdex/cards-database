@@ -85,7 +85,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 161752
+			},
 		}
 	]
 }
