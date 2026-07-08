@@ -55,15 +55,13 @@ const card: Card = {
 		// version 2
 		{
 			type: 'holo',
+			foil: 'cosmos',
 			subtype: '1995-1998-copyright',
 		},
 		// japanese 2019 reprint
 		{
 			type: 'holo',
 			subtype: '2019-copyright',
-			thirdParty: {
-				tcgplayer: 482427,
-			},
 		},
 		// korean 2020 reprint
 		{
