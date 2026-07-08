@@ -11,18 +11,10 @@ const set: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 0
+		official: 1
 	},
 
 	releaseDate: "1999-12-01",
-
-	abbreviations: {
-		official: "MEP"
-	},
-
-	thirdParty: {
-		cardmarket: 1
-	}
 }
 
 export default set
