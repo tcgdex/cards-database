@@ -137,7 +137,7 @@
 		"quickball": "Bola Rápida",
 		"duskball": "Bola Crepúsculo",
 		"team-rocket": "Team Rocket",
-    "rainbow": "Rainbow",
+		"rainbow": "Rainbow",
 		"speckled": "Pintalgado"
 	},
 	"variantStamp": {
@@ -181,9 +181,9 @@
 		"regional-championships": "regional-championships",
 		"stadium-challenge": "stadium-challenge",
 		"10th-anniversary": "10th-anniversary",
-		"wizard-world-philadelphia" : "wizard-world-philadelphia",
-		"wizard-world-chicago" : "wizard-world-chicago",
-		"comic-con" : "comic-con",
+		"wizard-world-philadelphia": "wizard-world-philadelphia",
+		"wizard-world-chicago": "wizard-world-chicago",
+		"comic-con": "comic-con",
 		"nintendo-world": "nintendo-world",
 		"gen-con": "gen-con",
 		"akira-miyazaki": "akira-miyazaki",
@@ -224,7 +224,7 @@
 		"player-rewards-program": "player-rewards-program",
 		"igor-costa": "igor-costa",
 		"zachary-bokhari": "zachary-bokhari",
-		"shuto-itagaki" : "shuto-itagaki",
+		"shuto-itagaki": "shuto-itagaki",
 		"gamestop": "GameStop",
 		"eb-games": "EB Games",
 		"horizons": "horizons",
@@ -249,13 +249,13 @@
 		"charmander": "charmander",
 		"pokeball": "pokeball",
 		"mcdonalds": "mcdonalds",
-    	"pokemon-together": "pokemon-together",
+		"pokemon-together": "pokemon-together",
 		"rain-city": "rain-city",
 		"tournament-collection": "tournament-collection",
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
-		"thank-you" : "thank-you"
+		"thank-you": "thank-you"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
