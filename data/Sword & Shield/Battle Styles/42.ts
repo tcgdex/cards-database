@@ -60,12 +60,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -73,10 +67,22 @@ const card: Card = {
 		en: "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
 	},
 
-	thirdParty: {
-		cardmarket: 545321,
-		tcgplayer: 234185
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545321,
+				tcgplayer: 234185
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545321,
+				tcgplayer: 234185
+			}
+		},
+	],
 }
 
 export default card

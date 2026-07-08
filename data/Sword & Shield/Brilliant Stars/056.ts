@@ -73,21 +73,34 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 608506,
-		tcgplayer: 263772
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608506,
+				tcgplayer: 263772
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608506,
+				tcgplayer: 263772
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 610906
+			}
+		},
+	],
 }
 
 export default card

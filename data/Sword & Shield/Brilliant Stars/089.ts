@@ -72,21 +72,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Exactly 108 spirits gathered to become this Pokémon. Apparently there are some ill-natured spirits in the mix.",
 	},
 
-	thirdParty: {
-		cardmarket: 608539,
-		tcgplayer: 263806
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608539,
+				tcgplayer: 263806
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608539,
+				tcgplayer: 263806
+			}
+		},
+	],
 }
 
 export default card

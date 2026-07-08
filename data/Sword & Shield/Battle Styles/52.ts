@@ -64,12 +64,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -77,10 +71,22 @@ const card: Card = {
 		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity."
 	},
 
-	thirdParty: {
-		cardmarket: 545371,
-		tcgplayer: 234209
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545371,
+				tcgplayer: 234209
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545371,
+				tcgplayer: 234209
+			}
+		},
+	],
 }
 
 export default card

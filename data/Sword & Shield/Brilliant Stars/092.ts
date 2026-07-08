@@ -65,21 +65,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy.",
 	},
 
-	thirdParty: {
-		cardmarket: 608638,
-		tcgplayer: 263810
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608638,
+				tcgplayer: 263810
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608638,
+				tcgplayer: 263810
+			}
+		},
+	],
 }
 
 export default card

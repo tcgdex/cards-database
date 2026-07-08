@@ -71,21 +71,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
 	},
 
-	thirdParty: {
-		cardmarket: 608658,
-		tcgplayer: 263833
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608658,
+				tcgplayer: 263833
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608658,
+				tcgplayer: 263833
+			}
+		},
+	],
 }
 
 export default card

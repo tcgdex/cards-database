@@ -72,12 +72,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -85,10 +79,22 @@ const card: Card = {
 		en: "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly."
 	},
 
-	thirdParty: {
-		cardmarket: 545176,
-		tcgplayer: 234166
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545176,
+				tcgplayer: 234166
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545176,
+				tcgplayer: 234166
+			}
+		},
+	],
 }
 
 export default card

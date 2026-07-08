@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid."
 	},
 
-	thirdParty: {
-		cardmarket: 544906,
-		tcgplayer: 234037
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544906,
+				tcgplayer: 234037
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544906,
+				tcgplayer: 234037
+			}
+		},
+	],
 }
 
 export default card

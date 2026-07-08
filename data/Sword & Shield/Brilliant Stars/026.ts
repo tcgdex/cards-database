@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
 	},
 
-	thirdParty: {
-		cardmarket: 608476,
-		tcgplayer: 263725
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608476,
+				tcgplayer: 263725
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608476,
+				tcgplayer: 263725
+			}
+		},
+	],
 }
 
 export default card

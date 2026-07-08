@@ -73,21 +73,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
 	},
 
-	thirdParty: {
-		cardmarket: 608672,
-		tcgplayer: 263849
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608672,
+				tcgplayer: 263849
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608672,
+				tcgplayer: 263849
+			}
+		},
+	],
 }
 
 export default card

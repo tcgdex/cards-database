@@ -59,12 +59,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -72,10 +66,22 @@ const card: Card = {
 		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 
-	thirdParty: {
-		cardmarket: 545386,
-		tcgplayer: 234221
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545386,
+				tcgplayer: 234221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545386,
+				tcgplayer: 234221
+			}
+		},
+	],
 }
 
 export default card

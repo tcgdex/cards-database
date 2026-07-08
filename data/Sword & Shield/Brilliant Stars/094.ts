@@ -75,21 +75,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
 	},
 
-	thirdParty: {
-		cardmarket: 608640,
-		tcgplayer: 263812
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608640,
+				tcgplayer: 263812
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608640,
+				tcgplayer: 263812
+			}
+		},
+	],
 }
 
 export default card

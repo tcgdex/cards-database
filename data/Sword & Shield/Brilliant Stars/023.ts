@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
 	},
 
-	thirdParty: {
-		cardmarket: 608473,
-		tcgplayer: 263716
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608473,
+				tcgplayer: 263716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608473,
+				tcgplayer: 263716
+			}
+		},
+	],
 }
 
 export default card

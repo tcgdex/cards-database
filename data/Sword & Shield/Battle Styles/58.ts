@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
 	},
 
-	thirdParty: {
-		cardmarket: 545401,
-		tcgplayer: 234230
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545401,
+				tcgplayer: 234230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545401,
+				tcgplayer: 234230
+			}
+		},
+	],
 }
 
 export default card

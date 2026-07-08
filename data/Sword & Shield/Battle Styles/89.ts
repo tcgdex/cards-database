@@ -62,12 +62,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -75,10 +69,22 @@ const card: Card = {
 		en: "Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies."
 	},
 
-	thirdParty: {
-		cardmarket: 545536,
-		tcgplayer: 234199
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545536,
+				tcgplayer: 234199
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545536,
+				tcgplayer: 234199
+			}
+		},
+	],
 }
 
 export default card

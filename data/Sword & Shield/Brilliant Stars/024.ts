@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
 	},
 
-	thirdParty: {
-		cardmarket: 608474,
-		tcgplayer: 263723
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608474,
+				tcgplayer: 263723
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608474,
+				tcgplayer: 263723
+			}
+		},
+	],
 }
 
 export default card

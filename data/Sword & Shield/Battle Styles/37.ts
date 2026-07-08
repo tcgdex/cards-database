@@ -73,12 +73,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -86,10 +80,22 @@ const card: Card = {
 		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
 	},
 
-	thirdParty: {
-		cardmarket: 527640,
-		tcgplayer: 234172
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 527640,
+				tcgplayer: 234172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 527640,
+				tcgplayer: 234172
+			}
+		},
+	],
 }
 
 export default card

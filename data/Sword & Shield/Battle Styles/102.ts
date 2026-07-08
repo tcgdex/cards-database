@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body."
 	},
 
-	thirdParty: {
-		cardmarket: 545591,
-		tcgplayer: 234181
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545591,
+				tcgplayer: 234181
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545591,
+				tcgplayer: 234181
+			}
+		},
+	],
 }
 
 export default card

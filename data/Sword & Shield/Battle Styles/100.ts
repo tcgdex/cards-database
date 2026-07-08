@@ -77,12 +77,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -90,10 +84,22 @@ const card: Card = {
 		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
 	},
 
-	thirdParty: {
-		cardmarket: 545581,
-		tcgplayer: 234186
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545581,
+				tcgplayer: 234186
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545581,
+				tcgplayer: 234186
+			}
+		},
+	],
 }
 
 export default card

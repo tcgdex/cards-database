@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
 	},
 
-	thirdParty: {
-		cardmarket: 608481,
-		tcgplayer: 263730
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608481,
+				tcgplayer: 263730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608481,
+				tcgplayer: 263730
+			}
+		},
+	],
 }
 
 export default card

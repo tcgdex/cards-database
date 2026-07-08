@@ -51,12 +51,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -64,10 +58,22 @@ const card: Card = {
 		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
 	},
 
-	thirdParty: {
-		cardmarket: 545101,
-		tcgplayer: 234154
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545101,
+				tcgplayer: 234154
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545101,
+				tcgplayer: 234154
+			}
+		},
+	],
 }
 
 export default card
