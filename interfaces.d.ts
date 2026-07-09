@@ -14,6 +14,11 @@ export interface Serie {
 	 * Serie Energy cards
 	 */
 	energies?: Array<Types>
+
+	related?: Array<{
+		type: 'translation'
+		seriesPath: string
+	}>
 }
 
 export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
@@ -171,6 +176,11 @@ export interface Set {
 		tcgplayer?: number
 		cardtrader?: number
 	}
+
+	related?: Array<{
+		type: 'translation'
+		setPath: string
+	}>
 }
 
 export interface Card {
@@ -409,6 +419,11 @@ export interface Card {
 		cardmarket?: number
 		cardtrader?: number
 	}
+
+	related?: Array<{
+		type: 'translation' | 'reprint' | 'original'
+		cardPath: string
+	}>
 }
 
 /**

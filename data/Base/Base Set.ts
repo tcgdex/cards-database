@@ -31,7 +31,14 @@ const base1: Set = {
 	thirdParty: {
 		cardmarket: 1523,
 		tcgplayer: 604
-	}
+	},
+
+	related: [
+		{
+			type: "translation",
+			setPath: "data-asia/PMCG/PMCG1.ts"
+		}
+	]
 }
 
 export default base1
