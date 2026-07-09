@@ -3,11 +3,10 @@ import Set from "../Miscellaneous Promos"
 
 const card: Card = {
 	name: {
-		en: "Mew",
-		ja: "ミュウ"
+		// Ancient Mew
+		ja: "エンシェントミュウ"
 	},
-	illustrator: "",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -24,7 +23,6 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyche",
 				ja: "サイケ",
 			},
 			damage: "40",
@@ -40,45 +38,41 @@ const card: Card = {
 	retreat: 2,
 
 	variants: [
-		// error version 1
+		// japanese version 1 (error)
 		{
 			type: 'holo',
 			foil: 'speckled',
 			subtype: 'nintedo-error',
 			thirdParty: {
-				tcgplayer: 674624,
+				tcgplayer: 674624
 			},
 		},
-		// corrected version 1
-		{
-			type: 'holo',
-			foil: 'speckled',
-			thirdParty: {
-				tcgplayer: 108589,
-			},
-		},
-		// version 2
+		// japanese version 2 (cosmos)
 		{
 			type: 'holo',
 			foil: 'cosmos',
-			subtype: '1995-1998-copyright',
+			subtype: '1995-1998-copyright'
+		},
+		// japanese version 1 (corrected)
+		{
+			type: 'holo',
+			foil: 'speckled',
 		},
 		// japanese 2019 reprint
 		{
 			type: 'holo',
 			foil: 'speckled',
-			subtype: '2019-copyright',
+			subtype: '2019-copyright'
 		},
 		// korean 2020 reprint
 		{
 			type: 'holo',
 			foil: 'speckled',
-			subtype: '2020-copyright',
+			subtype: '2020-copyright'
 		},
 	],
 
 	description: {
-		en: "New Species. Little God or Evil?",
 		ja: '新種. 小さい神か悪魔'
 	},
 }
