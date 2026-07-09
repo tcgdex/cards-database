@@ -77,7 +77,10 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["winner"],
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 211445
+			},
 		}
 	]
 }

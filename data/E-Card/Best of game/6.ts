@@ -66,7 +66,10 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["winner"],
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 180262
+			},
 		}
 	]
 }
