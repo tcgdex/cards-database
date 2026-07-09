@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from "../Misc Promos"
+import Set from "../Miscellaneous Promos"
 
 const card: Card = {
 	name: {
