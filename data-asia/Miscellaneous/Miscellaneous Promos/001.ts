@@ -41,7 +41,7 @@ const card: Card = {
 		// japanese version 1 (error)
 		{
 			type: 'holo',
-			foil: 'speckled',
+			foil: 'glitter',
 			subtype: 'nintedo-error',
 			thirdParty: {
 				tcgplayer: 674624
@@ -56,18 +56,18 @@ const card: Card = {
 		// japanese version 1 (corrected)
 		{
 			type: 'holo',
-			foil: 'speckled',
+			foil: 'glitter',
 		},
 		// japanese 2019 reprint
 		{
 			type: 'holo',
-			foil: 'speckled',
+			foil: 'glitter',
 			subtype: '2019-copyright'
 		},
 		// korean 2020 reprint
 		{
 			type: 'holo',
-			foil: 'speckled',
+			foil: 'glitter',
 			subtype: '2020-copyright'
 		},
 	],
