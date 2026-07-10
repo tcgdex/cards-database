@@ -10,8 +10,8 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",		
-  hp: 70,
+	category: "Pokemon",
+	hp: 70,
 	dexId: [150],
 
 	stage: "Basic",
@@ -60,7 +60,10 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: "cosmos",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 167080
+			},
 		},
 		{
 			type: "reverse",
