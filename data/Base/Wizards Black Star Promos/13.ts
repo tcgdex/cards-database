@@ -63,9 +63,13 @@ const card: Card = {
 	description: {
 		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90311
+			},
 		}
 	]
 }

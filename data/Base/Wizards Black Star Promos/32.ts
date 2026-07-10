@@ -65,6 +65,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89353
+			},
 		}
 	]
 }

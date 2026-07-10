@@ -60,13 +60,20 @@ const card: Card = {
 	description: {
 		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
 	},
+
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"]
+			stamp: ["pikachu-tail"],
+			thirdParty: {
+				tcgplayer: 161747
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88069
+			},
 		}
 	]
 }
