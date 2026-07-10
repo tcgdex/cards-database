@@ -255,7 +255,9 @@
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
-		"thank-you": "thank-you"
+		"thank-you": "thank-you",
+		"jr-stamp-rally": "jr-stamp-rally",
+		"grey-star": "grey-star"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",
@@ -276,6 +278,7 @@
 		"no-e-reader": "Senza e-Reader",
 		"rarity-error": "Errore rarità",
 		"cosmos": "cosmos",
+		"glossy": "patinato",
 		"shadowless-red-cheek": "guancia rossa senza ombre"
 	}
 }

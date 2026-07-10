@@ -62,9 +62,13 @@ const card: Card = {
 	description: {
 		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87416
+			},
 		}
 	]
 }
