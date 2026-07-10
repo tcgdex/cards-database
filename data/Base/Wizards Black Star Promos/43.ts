@@ -67,9 +67,13 @@ const card: Card = {
 	description: {
 		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
 	},
+
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86961
+			},
 		}
 	]
 }

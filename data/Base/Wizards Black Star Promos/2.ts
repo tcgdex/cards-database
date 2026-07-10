@@ -74,14 +74,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
 			stamp: ["1st-movie-inverted"]
 		},
 		{
 			type: "normal",
-			stamp: ["1st-movie"]
+			stamp: ["1st-movie"],
+			thirdParty: {
+				tcgplayer: 85107
+			},
 		}
 	]
 }

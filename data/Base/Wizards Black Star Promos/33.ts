@@ -87,6 +87,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88960
+			},
 		}
 	]
 }

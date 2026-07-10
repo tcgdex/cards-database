@@ -255,7 +255,9 @@
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
-		"thank-you": "thank-you"
+		"thank-you" : "thank-you",
+		"jr-stamp-rally": "jr-stamp-rally",
+		"grey-star": "estrela cinza"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",
@@ -276,6 +278,7 @@
 		"no-e-reader": "Sem e-Reader",
 		"rarity-error": "Erro de raridade",
 		"cosmos": "cosmos",
+		"glossy": "lustrosa",
 		"2019-copyright": "Copyright 2019 ",
 		"2020-copyright": "Copyright 2020 ",
 		"nintedo-error": "Erro de Nintedo",
