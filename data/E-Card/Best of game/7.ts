@@ -10,8 +10,8 @@ const card: Card = {
 
 	illustrator: "Shin-ichi Yoshida",
 	rarity: "None",
-	category: "Pokemon",		
-  	hp: 70,  
+	category: "Pokemon",
+	hp: 70,
 	dexId: [3],
 	stage: "Stage2",
 
@@ -36,24 +36,28 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 275417,
-		tcgplayer: 84666
-	},
-
 	variants: [
 		{
 			type: "normal",
-		},
-		{
-			type: "normal",
-			stamp: ["winner"]
+			thirdParty: {
+				cardmarket: 275417,
+				tcgplayer: 84666
+			},
 		},
 		{
 			type: "normal",
 			stamp: ["winner"],
-			size: "jumbo"
+			thirdParty: {
+				tcgplayer: 167077
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["winner"],
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 211424
+			},
 		}
 	]
 }
