@@ -92,21 +92,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
 	},
 
-	thirdParty: {
-		cardmarket: 658636,
-		tcgplayer: 272263
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658636,
+				tcgplayer: 272263
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658636,
+				tcgplayer: 272263
+			}
+		},
+	],
 }
 
 export default card

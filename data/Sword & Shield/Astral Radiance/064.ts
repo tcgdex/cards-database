@@ -70,21 +70,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
 	},
 
-	thirdParty: {
-		cardmarket: 658639,
-		tcgplayer: 272265
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658639,
+				tcgplayer: 272265
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658639,
+				tcgplayer: 272265
+			}
+		},
+	],
 }
 
 export default card

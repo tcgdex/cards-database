@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [841],
@@ -86,20 +86,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
 	},
 
-	thirdParty: {
-		cardmarket: 658879
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658879,
+				tcgplayer: 272473
+			}
+		},
+	],
 }
 
 export default card

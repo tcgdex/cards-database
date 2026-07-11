@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [898],
@@ -92,16 +92,22 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658895
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 272502
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 658907
+			}
+		},
+	],
 }
 
 export default card

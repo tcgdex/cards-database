@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Makes its home in swamps with murky water. The poor visibility hides this Pokémon from predators, and the slime on its body makes grasping it difficult.",
 	},
 
-	thirdParty: {
-		cardmarket: 658543,
-		tcgplayer: 272235
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658543,
+				tcgplayer: 272235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658543,
+				tcgplayer: 272235
+			}
+		},
+	],
 }
 
 export default card

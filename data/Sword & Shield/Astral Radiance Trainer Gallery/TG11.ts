@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [437],
@@ -83,20 +83,20 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Many scientists suspect that this Pokémon originated outside the Galar region, based on the patterns on its body.",
 	},
 
-	thirdParty: {
-		cardmarket: 658773
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658888,
+				tcgplayer: 272482
+			}
+		},
+	],
 }
 
 export default card

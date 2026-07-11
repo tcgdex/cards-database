@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
 	},
 
-	thirdParty: {
-		cardmarket: 658755,
-		tcgplayer: 272301
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658755,
+				tcgplayer: 272301
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658755,
+				tcgplayer: 272301
+			}
+		},
+	],
 }
 
 export default card

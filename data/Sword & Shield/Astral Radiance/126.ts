@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Miltank produces highly nutritious milk, so it's been supporting the lives of people and other Pokémon since ancient times.",
 	},
 
-	thirdParty: {
-		cardmarket: 658787,
-		tcgplayer: 272363
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658787,
+				tcgplayer: 272363
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658787,
+				tcgplayer: 272363
+			}
+		},
+	],
 }
 
 export default card

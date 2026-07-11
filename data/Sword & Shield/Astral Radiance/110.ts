@@ -92,21 +92,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon is from roughly 100 million years ago. Its terrifyingly tough face is harder than steel.",
 	},
 
-	thirdParty: {
-		cardmarket: 658771,
-		tcgplayer: 272325
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658771,
+				tcgplayer: 272325
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658771,
+				tcgplayer: 272325
+			}
+		},
+	],
 }
 
 export default card

@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
 	},
 
-	thirdParty: {
-		cardmarket: 658521,
-		tcgplayer: 272222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658521,
+				tcgplayer: 272222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658521,
+				tcgplayer: 272222
+			}
+		},
+	],
 }
 
 export default card

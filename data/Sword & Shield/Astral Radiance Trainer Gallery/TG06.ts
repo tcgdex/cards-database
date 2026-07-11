@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Astral Radiance"
+import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [899],
@@ -92,20 +92,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
 	},
 
-	thirdParty: {
-		cardmarket: 658651
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658883,
+				tcgplayer: 272477
+			}
+		},
+	],
 }
 
 export default card

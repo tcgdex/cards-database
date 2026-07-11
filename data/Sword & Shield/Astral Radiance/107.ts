@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being.",
 	},
 
-	thirdParty: {
-		cardmarket: 658768,
-		tcgplayer: 272310
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658768,
+				tcgplayer: 272310
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658768,
+				tcgplayer: 272310
+			}
+		},
+	],
 }
 
 export default card

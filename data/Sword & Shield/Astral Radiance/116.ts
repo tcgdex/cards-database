@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It's accompanied by a large retinue of Pawniard. Bisharp keeps a keen eye on its minions, ensuring none of them even think of double-crossing it.",
 	},
 
-	thirdParty: {
-		cardmarket: 658777,
-		tcgplayer: 272345
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658777,
+				tcgplayer: 272345
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658777,
+				tcgplayer: 272345
+			}
+		},
+	],
 }
 
 export default card
