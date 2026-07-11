@@ -4,6 +4,7 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
+		// Goldeen
 		ja: "ゴールデン",
 	},
 
@@ -28,6 +29,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576621
+			},
 		},
 	],
 };

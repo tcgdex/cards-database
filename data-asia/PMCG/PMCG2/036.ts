@@ -4,6 +4,7 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
+		// Meowth
 		ja: "meowth",
 	},
 
@@ -32,6 +33,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576628
+			},
 		},
 	],
 };

@@ -4,6 +4,7 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
+		// Victreebel
 		ja: "Victreebel",
 	},
 

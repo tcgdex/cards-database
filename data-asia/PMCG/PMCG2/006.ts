@@ -4,6 +4,7 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
+		// Exeggcute
 		ja: "exeggcute",
 	},
 
@@ -42,6 +43,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576617
+			},
 		},
 	],
 };

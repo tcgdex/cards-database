@@ -4,6 +4,7 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
+		// Seaking
 		ja: "航海",
 	},
 
@@ -36,6 +37,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576646
+			},
 		},
 	],
 };
