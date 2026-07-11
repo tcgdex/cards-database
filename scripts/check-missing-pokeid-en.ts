@@ -6,8 +6,8 @@
   then add the dexid (if missing) or update the id to correct it
 
   Usage:
-    bun run scripts/check-missing-pokeid.ts --dry-run    # Preview changes without modifying files
-    bun run scripts/check-missing-pokeid.ts --apply      # Apply changes to files
+    bun run scripts/check-missing-pokeid-en.ts --dry-run    # Preview changes without modifying files
+    bun run scripts/check-missing-pokeid-en.ts --apply      # Apply changes to files
 */
 
 import { glob } from 'glob'
