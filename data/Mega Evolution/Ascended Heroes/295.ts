@@ -26,6 +26,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
+	dexId: [149],
 	hp: 370,
 	types: ["Dragon"],
 	stage: "Stage2",

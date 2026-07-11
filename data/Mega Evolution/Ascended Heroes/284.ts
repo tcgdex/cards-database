@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "danciao",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [94],
 	hp: 350,
 	types: ["Darkness"],
 	stage: "Stage2",

@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [701],
 	hp: 250,
 	types: ["Fighting"],
 	stage: "Basic",

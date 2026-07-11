@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "akagi",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [378],
 	hp: 230,
 	types: ["Water"],
 	stage: "Basic",

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kurata So",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [837],
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Basic",

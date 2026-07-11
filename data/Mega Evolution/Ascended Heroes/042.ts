@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Felicia Chen",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [159],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",

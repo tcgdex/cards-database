@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [479],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",

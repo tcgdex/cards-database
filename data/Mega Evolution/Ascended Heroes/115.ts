@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Minato",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [674],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",

@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1016],
 	hp: 210,
 	types: ["Darkness"],
 	stage: "Basic",
