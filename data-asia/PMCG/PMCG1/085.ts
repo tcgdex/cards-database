@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Maintenance
 		ja: "メンテナンス",
 	},
 
@@ -13,6 +14,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575649
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577076
+			},
 		},
 	],
 };

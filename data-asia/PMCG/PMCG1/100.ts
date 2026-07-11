@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Lightning Energy
 		ja: "稲妻エネルギー",
 	},
 
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 577169
+			},
 		},
 	],
 };

@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Pokémon Trader
 		ja: "ポケモントレーダー",
 	},
 
@@ -13,6 +14,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575630
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577057
+			},
 		},
 	],
 };

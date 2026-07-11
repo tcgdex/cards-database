@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Imposter Professor Oak
 		ja: "詐欺師オーク教授",
 	},
 
@@ -13,6 +14,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575625
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577052
+			},
 		},
 	],
 };

@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Clefairy
 		ja: "クリーフ",
 	},
 
@@ -42,6 +43,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575605
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 577032
+			},
 		},
 	],
 };

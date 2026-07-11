@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Scoop Up
 		ja: "すくい上げます",
 	},
 
@@ -13,7 +14,10 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-		},
+			thirdParty: {
+				tcgplayer: 575631
+			},
+		}
 	],
 };
 

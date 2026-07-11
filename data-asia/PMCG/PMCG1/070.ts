@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Energy Removal
 		ja: "エネルギー除去",
 	},
 
@@ -13,6 +14,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575577
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 577004
+			},
 		},
 	],
 };

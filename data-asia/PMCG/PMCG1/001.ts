@@ -4,8 +4,8 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// bulbasaur
-		ja: "ブルバサウルス",
+		// Bulbasaur
+		ja: "フシギダネ",
 	},
 
 	rarity: "Common",

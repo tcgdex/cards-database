@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Dragonair
 		ja: "ドラゴンエア",
 	},
 
@@ -42,6 +43,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575621
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 577048
+			},
 		},
 	],
 };

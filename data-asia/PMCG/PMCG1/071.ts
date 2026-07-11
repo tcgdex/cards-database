@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// Potion
 		ja: "ポーション",
 	},
 
@@ -13,6 +14,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575590
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 577017
+			},
 		},
 	],
 };
