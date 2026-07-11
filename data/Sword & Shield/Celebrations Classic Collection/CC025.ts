@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Celebrations'
+import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	dexId: [786],
@@ -61,14 +61,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
-	thirdParty: {
-		cardmarket: 576795
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576795,
+				tcgplayer: 250342
+			}
+		},
+	],
 }
 
 export default card

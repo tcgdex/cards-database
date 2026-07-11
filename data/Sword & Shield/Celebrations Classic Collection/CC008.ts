@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Celebrations'
+import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	set: Set,
@@ -47,14 +47,16 @@ const card: Card = {
 		en: "Your Birthdate: ______________________________"
 	},
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
 
-	thirdParty: {
-		cardmarket: 576778
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576778,
+				tcgplayer: 250325
+			}
+		},
+	],
 }
 
 export default card

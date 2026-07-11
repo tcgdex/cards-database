@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Celebrations'
+import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	dexId: [129],
@@ -54,14 +54,16 @@ const card: Card = {
 		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions, but never more than seven feet."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
-	thirdParty: {
-		cardmarket: 576780
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576780,
+				tcgplayer: 250327
+			}
+		},
+	],
 }
 
 export default card

@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Celebrations'
+import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	dexId: [173],
@@ -39,14 +39,16 @@ const card: Card = {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
 	},
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
 
-	thirdParty: {
-		cardmarket: 576779
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576779,
+				tcgplayer: 250326
+			}
+		},
+	],
 }
 
 export default card

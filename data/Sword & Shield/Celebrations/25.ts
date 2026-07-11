@@ -79,8 +79,6 @@ const card: Card = {
 	variants: [
 		{
 			type: 'holo',
-			foil: 'gold',
-			stamp: ['25th-celebration'],
 			thirdParty: {
 				cardmarket: 576770,
 				tcgplayer: 250295

@@ -1,5 +1,5 @@
 import { Card } from '../../../interfaces'
-import Set from '../Celebrations'
+import Set from '../Celebrations Classic Collection'
 
 const card: Card = {
 	set: Set,
@@ -19,14 +19,16 @@ const card: Card = {
 		fr: "Votre adversaire mélange sa main avec son deck, puis pioche 7 cartes."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
-	thirdParty: {
-		cardmarket: 576774
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576774,
+				tcgplayer: 250322
+			}
+		},
+	],
 }
 
 export default card
