@@ -137,7 +137,8 @@
 		"quickball": "Bola Rápida",
 		"duskball": "Bola Crepúsculo",
 		"team-rocket": "Team Rocket",
-		"rainbow": "Rainbow"
+		"rainbow": "Rainbow",
+		"glitter": "Cintilante"
 	},
 	"variantStamp": {
 		"1st-edition": "1ª Edição",
@@ -278,6 +279,10 @@
 		"rarity-error": "Erro de raridade",
 		"cosmos": "cosmos",
 		"glossy": "lustrosa",
-		"shadowless-red-cheek": "bochecha vermelha sem sombras"
+		"shadowless-red-cheek": "bochecha vermelha sem sombras",
+		"2019-copyright": "Copyright 2019 ",
+		"2020-copyright": "Copyright 2020 ",
+		"nintedo-error": "Erro de Nintedo",
+		"1995-1998-copyright": "Copyright 1995-1998"
 	}
 }

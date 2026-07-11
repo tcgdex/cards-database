@@ -137,7 +137,8 @@
 		"quickball": "Rapide Ball",
 		"duskball": "Sombre Ball",
 		"team-rocket": "Team Rocket",
-		"rainbow": "Rainbow"
+		"rainbow": "Rainbow",
+		"glitter": "Scintillant"
 	},
 	"variantStamp": {
 		"1st-edition": "1re Édition",
@@ -279,6 +280,10 @@
 		"cosmos": "cosmos",
 		"blue border": "bordure bleue",
 		"glossy": "brillante",
-		"shadowless-red-cheek": "Sans ombre aux joues rouges"
+		"shadowless-red-cheek": "Sans ombre aux joues rouges",
+		"2019-copyright": "Copyright 2019",
+		"2020-copyright": "Copyright 2020",
+		"nintedo-error": "Erreur Nintedo",
+		"1995-1998-copyright": "Copyright 1995-1998"
 	}
 }
