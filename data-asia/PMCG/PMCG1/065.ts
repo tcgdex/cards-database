@@ -4,7 +4,8 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ドラチーニ",
+		// dratini
+		ja: "ミニリュウ",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,7 @@ const card: Card = {
 	hp: 40,
 	types: ["Colorless"],
 	stage: "Basic",
+	illustrator: "Ken Sugimori",
 
 	attacks: [
 		{
@@ -29,7 +31,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575637
+			}
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577064
+			},
+		}
 	],
 };
 

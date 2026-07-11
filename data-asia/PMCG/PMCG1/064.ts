@@ -4,6 +4,7 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
+		// porygon
 		ja: "ポリゴン",
 	},
 
@@ -13,6 +14,7 @@ const card: Card = {
 	hp: 30,
 	types: ["Colorless"],
 	stage: "Basic",
+	illustrator: "Tomooki Imakuni",
 
 	attacks: [
 		{
@@ -42,7 +44,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575656
+			}
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577083
+			}
+		}
 	],
 };
 

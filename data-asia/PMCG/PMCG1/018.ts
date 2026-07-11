@@ -4,7 +4,8 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "うなり声",
+		// growlithe
+		ja: "ガーディ",
 	},
 
 	rarity: "Uncommon",
@@ -29,7 +30,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575640
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577067
+			},
+		}
 	],
 };
 

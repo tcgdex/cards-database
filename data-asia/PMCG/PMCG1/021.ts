@@ -4,7 +4,8 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "カリザード",
+		// charizard
+		ja: "リザードン",
 	},
 
 	rarity: "Holo Rare",
@@ -43,7 +44,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575604
+			},
 		},
+		{
+			type: "holo",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577031
+			},
+		}
 	],
 };
 
