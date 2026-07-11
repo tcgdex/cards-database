@@ -204,6 +204,38 @@ The `x-extensible-enum` extension requires Mustache template overrides in `opena
 
 ---
 
+## The schema as a public API contract
+
+Publishing `@tcgdex/schema` to npm as a standalone package is not just an internal codegen input — it becomes a first-class dependency for anyone building against the TCGdex API without a first-party SDK. This is a distinct benefit from the SDK integration, worth calling out separately.
+
+### Concrete third-party use cases
+
+- **Devs hand-rolling `fetch` calls** get typed responses without pulling the full `@tcgdex/sdk` runtime — `npm i @tcgdex/schema` gives them `Card`, `Set`, `Serie` interfaces plus optional runtime validators
+- **Alternative and community SDKs** (framework-specific wrappers, forks, non-JS ports in TS) build on the same contract instead of reinventing the type surface
+- **Backend services** proxying or caching TCGdex data can validate responses at their boundary before serving them onward
+- **UI teams** import enum lists as runtime constants for form-builders — rarity filters, language pickers, category dropdowns — instead of hardcoding lists that go stale on every new set release
+- **Documentation and tooling projects** use `dist/openapi.json` directly as a dependency (swagger-ui, redoc, Stoplight Elements — no scraping the server's YAML)
+
+Folded into `cards-database` (rather than published as a standalone package), none of this is really consumable — asking third parties to `npm i @tcgdex/cards-database` for a frontend is a non-starter. As its own package, `@tcgdex/schema` earns its keep independently of the SDK regeneration story.
+
+### Query authoring
+
+TCGdex has a rich query surface — 33 endpoints, filter/sort/pagination on every list, dozens of filterable fields. Currently, consumers writing queries have to read the docs and hope. With `@tcgdex/schema` as a dependency:
+
+- **Field discovery via autocomplete** — the query field list *is* the `Card` schema; IDEs surface it as the user types
+- **Enum values as runtime constants** — `import { Enums } from '@tcgdex/schema'`; `Enums.RARITIES` is the array. Rarity filter UIs stop hardcoding stale lists.
+- **Compile-time validation of filter values** — `filter('rarity', 'Rare')` type-checks; `filter('rarity', 'super-rare')` errors before the request fires
+- **Typed responses** — the result is `Card[]`, autocomplete flows through into consumer code, no `any` at the API boundary
+- **Interactive query playground** — anyone can point swagger-ui / redoc / Stoplight at `dist/openapi.json` and get a live query builder without touching the tcgdex codebase
+
+Basically: raises the API's ergonomics for query authors from "read the docs and hope" to "TS tells you what's valid as you type." For a filter/sort/paginate API with the surface TCGdex has, that DX gain is substantial.
+
+### Precedent
+
+Publishing a types/schema package separately from the full SDK is a well-established pattern — Stripe's `@stripe/stripe-js`, AWS's `@aws-sdk/types`, Anthropic's SDK-independent types packages, and many others. Consumers who want the contract without the runtime are a normal audience for any public API.
+
+---
+
 ## OpenAPI
 
 The server currently maintains a hand-written `server/public/v2/openapi.yaml` (1705 lines, OpenAPI 3.1.0), served via swagger-ui at `/v2/openapi`. The apis.guru listing is unofficial (2.0.0, stale).
@@ -226,6 +258,76 @@ const doc = {
 ```
 
 The schemas drop in directly because TypeBox schemas are JSON Schema — no conversion step. Path/operation definitions still need to be maintained separately (they describe routing, not data shapes), but the `components/schemas` section — the largest and most drift-prone part — is now generated.
+
+---
+
+## Considered alternatives
+
+Two alternatives came up in discussion. Both are compatible with the RFC's core diagnosis (the SDK shouldn't be the source of truth) — the disagreement is only about *where* the truth should live and *what tooling* expresses it.
+
+### Alternative A: `interfaces.d.ts` as SoT via `typescript-json-schema`
+
+Rather than authoring TypeBox schemas in a new `schema/` package, treat `interfaces.d.ts` (the file contributors already edit) as the source of truth, and derive JSON Schema from the existing TypeScript types using [`typescript-json-schema`](https://github.com/YousefED/typescript-json-schema) (or the sibling `ts-json-schema-generator`).
+
+Dependency direction flips from what this RFC proposes:
+
+```
+Current RFC:  schema (authored, owns enums + shapes)
+                 ├─→ cards-database/server
+                 └─→ SDKs
+
+Alternative A: cards-database/interfaces.d.ts (input SoT)
+                     ↓
+                schema/output.d.ts (plain TS, imports shared enums, adds output-only fields)
+                     ↓ typescript-json-schema
+                JSON Schema → OpenAPI → SDKs
+```
+
+**Compelling:**
+
+- Follows the actual data flow — contributors → compiler → server → clients — rather than layering schema alongside cards-database
+- Enum drift risk killed entirely: one file, one set of values, `Exclude<>` / `Extract<>` for narrowing
+- Already recognisable to contributors — no new DSL, plain TypeScript throughout
+- The SDK stops being a truth source and becomes what it should be: a wrapper
+
+**Tradeoffs:**
+
+- **Loses free runtime validation.** TypeBox schemas *are* validators (`TypeCompiler.Compile`). `typescript-json-schema` produces JSON Schema but no runtime `.Check()` — validation would require a separate step (e.g. ajv). Not a blocker if consumers trust the server's response shape.
+- **Vendor extensions get more awkward.** TypeBox lets `x-extensible-enum` be a schema option. `typescript-json-schema` carries it as a JSDoc `@` annotation, which is ordering-sensitive and depends on the tool honoring it. SDK codegen becomes "author schema + author JSDoc" instead of "author schema."
+- **Draft mismatch.** `typescript-json-schema` defaults to JSON Schema draft-7; OpenAPI 3.1 uses draft 2020-12. Fixable via config but one more thing to get right.
+- **Extra build step.** TypeBox schemas evaluate at import — no compile phase. `typescript-json-schema` runs a TS compiler pass, which adds cold-start time and a moving piece to CI.
+- **Type expressiveness ceiling.** Template literals (like `ISODate` in `interfaces.d.ts`), conditional types, and complex mapped types don't always survive the conversion cleanly. TypeBox has explicit primitives for these; `typescript-json-schema` sometimes forces simplification of the input TS.
+- **Output shape still requires separate authoring.** The server adds `pricing`, `updated`, and `variants_detailed` at request time in `loadCard()`. These fields don't exist in `interfaces.d.ts` and shouldn't (contributors don't write pricing data). So a separate `output.d.ts` is still authored either way; the alternative moves the authoring from TypeBox schemas to plain TS interfaces, but doesn't eliminate the work.
+
+**Verdict:** genuinely worth considering. The RFC's core claims — silent drift, output isn't a SoT today, OpenAPI can be generated — hold under either approach. The choice is really about authoring ergonomics (TypeBox DSL vs plain TS with JSDoc), tooling weight (one tool vs two), and whether runtime validation is worth free schema-language cost.
+
+### Alternative B: Shared enum lists only (a hybrid)
+
+Regardless of which side authors the shapes, the enum *value lists* can live in one file that both sides import. `interfaces.d.ts` (or a new `enums.ts`) becomes the canonical list of rarities, stages, suffixes, Pokemon types, etc.; `@tcgdex/schema` (whether TypeBox or plain TS) imports the same values.
+
+```ts
+// shared file
+export const RARITIES = ['Common', 'Uncommon', ...] as const
+
+// interfaces.d.ts uses RARITIES for input
+// @tcgdex/schema uses RARITIES for output
+```
+
+**What this captures:** the biggest drift risk in practice is enum values — new rarities get added to `interfaces.d.ts` when a set drops, and the SDK type stays as bare `string`. Sharing the enum arrays eliminates that risk regardless of which side owns the shapes.
+
+**What this preserves:** two distinct shape authorings, because input ≠ output (localization, augmentation). Contributors keep their input file; the schema keeps its output file; neither side has to know about the other beyond the shared enum imports.
+
+This hybrid is compatible with the RFC as proposed — it can be adopted as a follow-up regardless of whether the schema is TypeBox-authored or `typescript-json-schema`-derived. Low-cost, high-value.
+
+### Why the RFC still proposes TypeBox + peer package
+
+The current proposal preserves three things Alternative A gives up:
+
+1. **Free runtime validation** — TypeBox schemas double as validators. For downstream consumers who *do* want to validate (backend proxies, cached-response verifiers, defensive JS SDKs), this is a real benefit.
+2. **Vendor extensions as first-class schema options** — `x-extensible-enum` on `OpenEnum(RARITIES)` is more ergonomic and less tool-dependent than JSDoc annotations.
+3. **Independent versioning of the type contract** — a peer package can version separately from card data. A schema change ships without waiting for a set release; a set release ships without touching the schema.
+
+But the alternative is a legitimate reading of the same diagnosis, and the RFC does not consider it settled. If maintainers prefer the derivation-from-input approach, the POC can be rebuilt on `typescript-json-schema` — the RFC's structural claims all still hold.
 
 ---
 
@@ -336,3 +438,6 @@ No. The JS SDK uses it as a devDependency for `implements` type checking. The sc
 
 **What about the Card generic (`Card<SetType>`)?**  
 It's vestigial. `Card<SetType extends SetResume = SetResume>` is never instantiated with a non-default argument anywhere in the server or SDK. The schema models `set` as concrete `SetResume`. The generic can be preserved for backwards compatibility in the SDK class if needed, but the schema doesn't encode it.
+
+**Why publish `@tcgdex/schema` as its own npm package instead of folding it into cards-database or the SDK?**  
+Three reasons: (1) different concerns and release cadences — schema changes when the type contract changes; card data changes when a new set drops. Coupling them forces artificial version bumps. (2) Third-party consumability — anyone building against the TCGdex API without the first-party SDK can `npm i @tcgdex/schema` for types + validators + enum constants. Folded into cards-database, `npm i @tcgdex/cards-database` for a frontend is a non-starter. (3) The pattern is well-established (Stripe, AWS, Anthropic all ship types packages independently of full SDKs). See [The schema as a public API contract](#the-schema-as-a-public-api-contract) for the full case.
