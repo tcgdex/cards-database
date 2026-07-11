@@ -150,7 +150,7 @@ function applyFix(filePath: string, dexIds: number[]) {
 		const lineStart = content.lastIndexOf('\n', categoryMatch.index) + 1
 		const indent = content.slice(lineStart, categoryMatch.index).match(/^\s*/)?.[0] || '\t'
 
-		content = content.slice(0, insertPos) + '\n' + buildLine(indent) + content.slice(insertPos)
+		content = content.slice(0, insertPos) + buildLine(indent) + content.slice(insertPos)
 	}
 
 	fs.writeFileSync(filePath, content)
