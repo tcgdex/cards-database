@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
 	},
 
-	thirdParty: {
-		cardmarket: 658500,
-		tcgplayer: 272209
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658500,
+				tcgplayer: 272209
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658500,
+				tcgplayer: 272209
+			}
+		},
+	],
 }
 
 export default card

@@ -72,21 +72,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
 	},
 
-	thirdParty: {
-		cardmarket: 658600,
-		tcgplayer: 272252
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658600,
+				tcgplayer: 272252
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658600,
+				tcgplayer: 272252
+			}
+		},
+	],
 }
 
 export default card

@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Bewitches humans with its helical tail and piercing gaze. Its hidden claws are quite sharp as well, making this Pokémon an exceedingly tricky opponent if antagonized.",
 	},
 
-	thirdParty: {
-		cardmarket: 658788,
-		tcgplayer: 272364
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658788,
+				tcgplayer: 272364
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658788,
+				tcgplayer: 272364
+			}
+		},
+	],
 }
 
 export default card

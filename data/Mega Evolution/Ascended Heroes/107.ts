@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [377],
 	hp: 230,
 	types: ["Fighting"],
 	stage: "Basic",

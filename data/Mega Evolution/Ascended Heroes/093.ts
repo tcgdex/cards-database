@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [684],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",

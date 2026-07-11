@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [983],
 	hp: 170,
 	types: ["Metal"],
 	stage: "Stage2",

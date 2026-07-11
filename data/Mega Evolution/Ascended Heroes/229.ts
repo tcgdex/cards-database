@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Takeshi Nakamura",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [695],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Stage1",

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Julie Hang",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [5],
 	hp: 100,
 	types: ["Fire"],
 	stage: "Stage1",

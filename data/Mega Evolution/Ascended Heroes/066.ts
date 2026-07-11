@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [738],
 	hp: 160,
 	types: ["Lightning"],
 	stage: "Stage2",

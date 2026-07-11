@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Uninori",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [461],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",

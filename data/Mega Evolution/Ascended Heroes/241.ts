@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [308],
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",

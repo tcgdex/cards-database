@@ -140,6 +140,7 @@
 		"team-rocket": "Team Rocket",
 		"rainbow": "Rainbow",
 		"glitter": "Luccichio"
+		"rainbow": "Rainbow"
 	},
 	"variantStamp": {
 		"1st-edition": "1a Edizione",
@@ -256,6 +257,7 @@
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
+		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "grey-star"
 	},
@@ -282,6 +284,7 @@
 		"2019-copyright": "Copyright 2019 ",
 		"2020-copyright": "Copyright 2020 ",
 		"nintedo-error": "Errore Nintedo",
-		"1995-1998-copyright": "Copyright 1995-1998"
+		"1995-1998-copyright": "Copyright 1995-1998",
+		"shadowless-red-cheek": "guancia rossa senza ombre"
 	}
 }

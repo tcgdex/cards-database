@@ -54,21 +54,20 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
 	},
 
-	thirdParty: {
-		cardmarket: 658531,
-		tcgplayer: 272227
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658531,
+				tcgplayer: 272227
+			}
+		},
+	],
 }
 
 export default card

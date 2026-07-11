@@ -54,21 +54,34 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its strangely shaped antlers have the power to bewitch those who see them. Medicine made by grinding up the black orbs from fallen antlers is an effective treatment for insomnia.",
 	},
 
-	thirdParty: {
-		cardmarket: 658786,
-		tcgplayer: 272362
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658786,
+				tcgplayer: 272362
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 740472
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658786,
+				tcgplayer: 272362
+			}
+		},
+	],
 }
 
 export default card

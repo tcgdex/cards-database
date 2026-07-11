@@ -65,21 +65,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The members of the trio spend all their time together. Each one has a slightly different taste in nectar.",
 	},
 
-	thirdParty: {
-		cardmarket: 658503,
-		tcgplayer: 272211
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658503,
+				tcgplayer: 272211
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658503,
+				tcgplayer: 272211
+			}
+		},
+	],
 }
 
 export default card

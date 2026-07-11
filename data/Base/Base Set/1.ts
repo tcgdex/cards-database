@@ -87,15 +87,25 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273696,
+				tcgplayer: 42346
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 106996
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 106996
+			}
 		},
 		{
 			type: "holo",
@@ -108,11 +118,6 @@ const card: Card = {
 		fr: "Son super cerveau peut effectuer des opérations plus rapidement qu'un super ordinateur. Il a un Q.I. de 5000.",
 		it: "Il suo cervello è più potente di un supercomputer. Dicono che abbia un quoziente di intelligenza di 5.000. LIV 42 N.65"
 	},
-
-	thirdParty: {
-		cardmarket: 273696,
-		tcgplayer: 42346
-	}
 }
 
 export default card

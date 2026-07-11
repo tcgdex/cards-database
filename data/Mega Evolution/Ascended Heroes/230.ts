@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tonji Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [738],
 	hp: 160,
 	types: ["Lightning"],
 	stage: "Stage2",

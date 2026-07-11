@@ -2,7 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../SM trainer Kit (Lycanroc)'
 
 const card: Card = {
-	dexId: [251],
+	dexId: [10],
 	set: Set,
 
 	name: {

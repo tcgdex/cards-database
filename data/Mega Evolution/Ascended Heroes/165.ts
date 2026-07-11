@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoko Hishida",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [300],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "REND",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [54],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",

@@ -74,21 +74,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.",
 	},
 
-	thirdParty: {
-		cardmarket: 658743,
-		tcgplayer: 272298
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658743,
+				tcgplayer: 272298
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658743,
+				tcgplayer: 272298
+			}
+		},
+	],
 }
 
 export default card

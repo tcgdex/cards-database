@@ -256,13 +256,9 @@
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
-<<<<<<< HEAD
-		"thank-you": "thank-you"
-=======
 		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "grauer stern"
->>>>>>> master
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
@@ -284,6 +280,7 @@
 		"rarity-error": "Seltenheitsfehler",
 		"cosmos": "cosmos",
 		"glossy": "Hochglanz",
+		"shadowless-red-cheek": "schattenlose rote Wange",
 		"2019-copyright": "Copyright 2019",
 		"2020-copyright": "Copyright 2020",
 		"nintedo-error": "Nintedo-Fehler",

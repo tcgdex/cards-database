@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scegli un Pokémon nella Panchina del tuo avversario e scambialo con il suo Pokémon Attivo."
 	},
 
-	thirdParty: {
-		cardmarket: 273788,
-		tcgplayer: 42437
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273788,
+				tcgplayer: 42437
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107090
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107090
+			},
 		},
 		{
 			type: "normal",

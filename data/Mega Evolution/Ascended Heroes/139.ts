@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Ultimateinudog",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [630],
 	hp: 260,
 	types: ["Darkness"],
 	stage: "Stage1",

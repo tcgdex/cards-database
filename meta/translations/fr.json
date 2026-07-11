@@ -137,8 +137,12 @@
 		"quickball": "Rapide Ball",
 		"duskball": "Sombre Ball",
 		"team-rocket": "Team Rocket",
+<<<<<<< HEAD
 		"rainbow": "Rainbow",
 		"glitter": "Scintillant"
+=======
+		"rainbow": "Rainbow"
+>>>>>>> master
 	},
 	"variantStamp": {
 		"1st-edition": "1re Édition",
@@ -255,13 +259,9 @@
 		"worlds-2024": "worlds-2024",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
-<<<<<<< HEAD
-		"thank-you": "thank-you"
-=======
 		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "étoile grise"
->>>>>>> master
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
@@ -284,6 +284,7 @@
 		"cosmos": "cosmos",
 		"blue border": "bordure bleue",
 		"glossy": "brillante",
+		"shadowless-red-cheek": "Sans ombre aux joues rouges",
 		"2019-copyright": "Copyright 2019",
 		"2020-copyright": "Copyright 2020",
 		"nintedo-error": "Erreur Nintedo",

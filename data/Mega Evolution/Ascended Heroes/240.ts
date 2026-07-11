@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "osare",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [237],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Basic",
