@@ -21,27 +21,30 @@ const card: Card = {
 		it: "Scegli uno dei tuoi Pokémon in gioco e riprendi in mano la carta del suo Pokémon Base. (Scarta tutte le altre carte assegnate a quel Pokémon Base.)"
 	},
 
-	thirdParty: {
-		cardmarket: 273773,
-		tcgplayer: 42423
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273773,
+				tcgplayer: 42423
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660138
+			}
 		}
 	],
 }

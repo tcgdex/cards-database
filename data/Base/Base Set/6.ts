@@ -92,20 +92,27 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			subtype: "unlimited",
-		},
-		{
-			type: "holo",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "holo",
-			subtype: "shadowless",
-		},
-		{
-			type: "holo",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "holo",
+			subtype: "unlimited"
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273701,
+				tcgplayer: 42404
+			}
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660222
+			}
 		}
 	],
 
@@ -116,10 +123,6 @@ const card: Card = {
 		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città. LIV 41 N.130"
 	},
 
-	thirdParty: {
-		cardmarket: 273701,
-		tcgplayer: 42404
-	}
 }
 
 export default card

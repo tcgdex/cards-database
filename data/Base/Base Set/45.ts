@@ -63,27 +63,30 @@ const card: Card = {
 		it: "La punta dei suoi piedini è costituita da ventose che gli consentono di arrampicarsi senza fatica su muri e pendenze. LIV 13 N.10"
 	},
 
-	thirdParty: {
-		cardmarket: 273740,
-		tcgplayer: 42388
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273740,
+				tcgplayer: 42388
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660183
+			}
 		}
 	],
 }

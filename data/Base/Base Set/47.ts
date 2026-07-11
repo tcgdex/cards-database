@@ -78,27 +78,30 @@ const card: Card = {
 		it: "Vive sotto terra, dove sopravvive mangiando le radici di varie piante. Ogni tanto risale in superficie. LIV 8 N.50"
 	},
 
-	thirdParty: {
-		cardmarket: 273742,
-		tcgplayer: 42390
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273742,
+				tcgplayer: 42390
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660181
+			}
 		}
 	],
 }

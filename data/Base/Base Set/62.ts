@@ -71,27 +71,30 @@ const card: Card = {
 		it: "Vive in tane sotterranee in località aride, lontano da fonti d'acqua. Riappare solo quando è alla ricerca di cibo. LIV 12, N.27"
 	},
 
-	thirdParty: {
-		cardmarket: 273757,
-		tcgplayer: 42407
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273757,
+				tcgplayer: 42407
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660165
+			}
 		}
 	],
 }

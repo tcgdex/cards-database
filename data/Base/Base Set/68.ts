@@ -64,27 +64,30 @@ const card: Card = {
 		it: "Alla nascita aveva solo una coda, ma con il passare del tempo la coda si è aperta a ventaglio. LIV 11 N.37"
 	},
 
-	thirdParty: {
-		cardmarket: 273763,
-		tcgplayer: 42413
-	},
 	variants: [
 		{
 			type: "normal",
-			subtype: "unlimited",
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-			stamp: ["1st-edition"]
-		},
-		{
-			type: "normal",
-			subtype: "shadowless",
-		},
-		{
-			type: "normal",
 			subtype: "1999-2000-copyright",
+		},
+		{
+			type: "normal",
+			subtype: "unlimited"
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273763,
+				tcgplayer: 42413
+			}
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 660159
+			}
 		}
 	],
 }
