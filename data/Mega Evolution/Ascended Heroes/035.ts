@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Taiga Kasai",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [758],
 	hp: 120,
 	types: ["Fire"],
 	stage: "Stage1",

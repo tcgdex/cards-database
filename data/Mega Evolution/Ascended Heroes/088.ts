@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "satoma",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [281],
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",

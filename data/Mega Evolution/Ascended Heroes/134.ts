@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Shimaris Yukichi",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [559],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",

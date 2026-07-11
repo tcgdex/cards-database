@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Iori Suzuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [26],
 	hp: 130,
 	types: ["Lightning"],
 	stage: "Stage1",

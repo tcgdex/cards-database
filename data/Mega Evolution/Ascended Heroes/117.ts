@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Eri Kamei",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [703],
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Basic",

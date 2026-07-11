@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [885],
 	hp: 70,
 	types: ["Dragon"],
 	stage: "Basic",

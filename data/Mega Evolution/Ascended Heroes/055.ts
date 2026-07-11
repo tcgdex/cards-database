@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "kamonabe",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [25],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Wintr Wandr",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [361],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",

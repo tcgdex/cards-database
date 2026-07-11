@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1024],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Basic",

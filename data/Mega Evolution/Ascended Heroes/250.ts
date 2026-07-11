@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yukihiro Tada",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [479],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",

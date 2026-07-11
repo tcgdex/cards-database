@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [785],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
