@@ -138,7 +138,12 @@
 		"quickball": "Velox Ball",
 		"duskball": "Scuro Ball",
 		"team-rocket": "Team Rocket",
+<<<<<<< HEAD
 		"rainbow": "Rainbow"
+=======
+		"rainbow": "Rainbow",
+		"glitter": "Luccichio"
+>>>>>>> master
 	},
 	"variantStamp": {
 		"1st-edition": "1a Edizione",
@@ -279,6 +284,11 @@
 		"rarity-error": "Errore rarità",
 		"cosmos": "cosmos",
 		"glossy": "patinato",
+		"2019-copyright": "Copyright 2019 ",
+		"2020-copyright": "Copyright 2020 ",
+		"nintedo-error": "Errore Nintedo",
+		"1995-1998-copyright": "Copyright 1995-1998",
+		"shadowless-red-cheek": "guancia rossa senza ombre",
 		"no-rarity": "Senza rarità"
 	}
 }

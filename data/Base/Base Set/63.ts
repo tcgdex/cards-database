@@ -82,23 +82,29 @@ const card: Card = {
 		it: "Dopo la nascita, il suo dorso si gonfia e si indurisce in un guscio. Sprizza potenti schizzi di schiuma dalla bocca. LIV 8 N.7"
 	},
 
-	thirdParty: {
-		cardmarket: 273758,
-		tcgplayer: 42408
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273758,
+				tcgplayer: 42408
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107060
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107060
+			},
 		},
 		{
 			type: "normal",

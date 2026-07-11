@@ -82,21 +82,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.",
 	},
 
-	thirdParty: {
-		cardmarket: 658692,
-		tcgplayer: 272283
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658692,
+				tcgplayer: 272283
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658692,
+				tcgplayer: 272283
+			}
+		},
+	],
 }
 
 export default card

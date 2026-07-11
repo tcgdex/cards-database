@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Apios",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [838],
 	hp: 110,
 	types: ["Fighting"],
 	stage: "Stage1",

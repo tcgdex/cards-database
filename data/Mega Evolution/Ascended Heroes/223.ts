@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoshimi Miyoshi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [322],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",

@@ -85,23 +85,29 @@ const card: Card = {
 		it: "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64"
 	},
 
-	thirdParty: {
-		cardmarket: 273727,
-		tcgplayer: 42374
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273727,
+				tcgplayer: 42374
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107029
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107029
+			},
 		},
 		{
 			type: "normal",

@@ -54,21 +54,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Flies noiselessly on delicate wings. It has mastered the art of deftly launching dagger-sharp feathers from those same wings.",
 	},
 
-	thirdParty: {
-		cardmarket: 658516,
-		tcgplayer: 272219
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658516,
+				tcgplayer: 272219
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658516,
+				tcgplayer: 272219
+			}
+		},
+	],
 }
 
 export default card

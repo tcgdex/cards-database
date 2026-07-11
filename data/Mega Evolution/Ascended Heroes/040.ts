@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [55],
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",

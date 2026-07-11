@@ -84,21 +84,27 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
 	},
 
-	thirdParty: {
-		cardmarket: 658785,
-		tcgplayer: 272361
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658785,
+				tcgplayer: 272361
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658785,
+				tcgplayer: 272361
+			}
+		},
+	],
 }
 
 export default card

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Natsumi Miyanose",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [715],
 	hp: 120,
 	types: ["Dragon"],
 	stage: "Stage1",

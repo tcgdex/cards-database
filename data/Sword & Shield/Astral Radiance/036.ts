@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
 	},
 
-	thirdParty: {
-		cardmarket: 658544,
-		tcgplayer: 272236
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658544,
+				tcgplayer: 272236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658544,
+				tcgplayer: 272236
+			}
+		},
+	],
 }
 
 export default card

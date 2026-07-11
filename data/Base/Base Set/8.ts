@@ -27,7 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
-		it: "Machoke"	
+		it: "Machoke"
 	},
 
 	stage: "Stage2",
@@ -89,6 +89,9 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273703
+			}
 		},
 		{
 			type: "holo",
@@ -104,11 +107,6 @@ const card: Card = {
 			subtype: "1999-2000-copyright",
 		}
 	],
-
-
-	thirdParty: {
-		cardmarket: 273703
-	}
 }
 
 export default card

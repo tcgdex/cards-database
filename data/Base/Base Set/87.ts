@@ -21,22 +21,29 @@ const card: Card = {
 		it: "Guarda un massimo di 5 carte in cima al tuo mazzo e rimettile nell'ordine che vuoi."
 	},
 
-	thirdParty: {
-		cardmarket: 273782
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273782,
+				tcgplayer: 108645
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107084
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107084
+			},
 		},
 		{
 			type: "normal",

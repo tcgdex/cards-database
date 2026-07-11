@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "toriyufu",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [379],
 	hp: 230,
 	types: ["Metal"],
 	stage: "Basic",

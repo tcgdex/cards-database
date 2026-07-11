@@ -73,8 +73,9 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: {
-		reverse: false,
-		normal: false
+		reverse: true,
+		normal: true,
+		holo: true,
 	},
 
 	illustrator: "Kouki Saitou",

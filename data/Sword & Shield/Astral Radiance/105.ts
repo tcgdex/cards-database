@@ -71,21 +71,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "A bizarre Pokémon with but a single eye embedded in an iron sphere. I suspect this creature levitates due to the magnetism it emits from its arms, which resemble horseshoe-shaped magnets.",
 	},
 
-	thirdParty: {
-		cardmarket: 658766,
-		tcgplayer: 272306
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658766,
+				tcgplayer: 272306
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658766,
+				tcgplayer: 272306
+			}
+		},
+	],
 }
 
 export default card

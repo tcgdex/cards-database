@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scarta 2 delle altre carte che hai in mano e sostituiscile con una carta Addestramento presa dalla tua pila degli scarti."
 	},
 
-	thirdParty: {
-		cardmarket: 273769,
-		tcgplayer: 42420
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273769,
+				tcgplayer: 42420
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107072
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107072
+			},
 		},
 		{
 			type: "normal",

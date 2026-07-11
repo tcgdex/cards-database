@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Aliya Chen",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [499],
 	hp: 110,
 	types: ["Fire"],
 	stage: "Stage1",

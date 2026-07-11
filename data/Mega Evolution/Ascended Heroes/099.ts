@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1015],
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Basic",

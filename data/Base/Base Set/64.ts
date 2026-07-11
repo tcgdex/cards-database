@@ -90,23 +90,29 @@ const card: Card = {
 		it: "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121"
 	},
 
-	thirdParty: {
-		cardmarket: 273759,
-		tcgplayer: 42409
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273759,
+				tcgplayer: 42409
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107061
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107061
+			},
 		},
 		{
 			type: "normal",

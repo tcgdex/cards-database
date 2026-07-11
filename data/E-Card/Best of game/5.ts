@@ -10,8 +10,8 @@ const card: Card = {
 
 	illustrator: "Katsura Tabata",
 	rarity: "None",
-	category: "Pokemon",		
-  hp: 60,
+	category: "Pokemon",
+	hp: 60,
 	dexId: [215],
 
 	stage: "Basic",
@@ -57,10 +57,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88793
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 107877
+			},
 		},
 		{
 			type: "normal",

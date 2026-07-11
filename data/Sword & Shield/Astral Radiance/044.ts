@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
 	},
 
-	thirdParty: {
-		cardmarket: 658583,
-		tcgplayer: 272244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658583,
+				tcgplayer: 272244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658583,
+				tcgplayer: 272244
+			}
+		},
+	],
 }
 
 export default card

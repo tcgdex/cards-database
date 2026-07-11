@@ -78,23 +78,29 @@ const card: Card = {
 		it: "Addormenta i suoi nemici e poi mangia i loro sogni. A volte si sente male dopo aver mangiato dei brutti sogni. LIV 12 N.96",
 	},
 
-	thirdParty: {
-		cardmarket: 273744,
-		tcgplayer: 42392
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273744,
+				tcgplayer: 42392
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107046
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107046
+			},
 		},
 		{
 			type: "normal",

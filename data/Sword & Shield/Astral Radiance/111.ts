@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Floats using a mysterious energy. The pattern engraved upon its back is held as sacred and can sometimes be found in imagery from ancient cemeteries and other such timeworn places.",
 	},
 
-	thirdParty: {
-		cardmarket: 658772,
-		tcgplayer: 272332
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658772,
+				tcgplayer: 272332
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658772,
+				tcgplayer: 272332
+			}
+		},
+	],
 }
 
 export default card

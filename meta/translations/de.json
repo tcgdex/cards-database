@@ -138,7 +138,8 @@
 		"quickball": "Flottball",
 		"duskball": "Finsterball",
 		"team-rocket": "Team Rocket",
-		"rainbow": "Rainbow"
+		"rainbow": "Rainbow",
+		"glitter": "Glitzer"
 	},
 	"variantStamp": {
 		"1st-edition": "1. Auflage",
@@ -279,6 +280,11 @@
 		"rarity-error": "Seltenheitsfehler",
 		"cosmos": "cosmos",
 		"glossy": "Hochglanz",
+		"shadowless-red-cheek": "schattenlose rote Wange",
+		"2019-copyright": "Copyright 2019",
+		"2020-copyright": "Copyright 2020",
+		"nintedo-error": "Nintedo-Fehler",
+		"1995-1998-copyright": "Copyright 1995-1998",
 		"no-rarity": "Ohne Seltenheit"
 	}
 }

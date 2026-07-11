@@ -10,8 +10,8 @@ const card: Card = {
 
 	illustrator: "Ken Sugimori",
 	rarity: "None",
-	category: "Pokemon",		
-  hp: 60,
+	category: "Pokemon",
+	hp: 60,
 
 	dexId: [107],
 
@@ -49,7 +49,10 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: "cosmos",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 167079
+			},
 		},
 		{
 			type: "reverse",
