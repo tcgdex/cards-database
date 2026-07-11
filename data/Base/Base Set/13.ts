@@ -71,7 +71,7 @@ const card: Card = {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
 				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
 				de: "Sind auf dem verteidigenden Pokémon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
-				it: "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."	
+				it: "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."
 			},
 			damage: 40,
 
@@ -97,27 +97,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273708,
+				tcgplayer: 42353
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 107007,
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				cardmarket: 107007,
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273708,
-		tcgplayer: 42353
-	}
+	]
 }
 
 export default card

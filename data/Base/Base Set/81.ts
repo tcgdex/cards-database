@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scambia una delle altre carte che hai in mano con un massimo di 2 carte Energia base dalla tua pila degli scarti.",
 	},
 
-	thirdParty: {
-		cardmarket: 273776,
-		tcgplayer: 42427
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273776,
+				tcgplayer: 42427
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107078
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107078
+			},
 		},
 		{
 			type: "normal",

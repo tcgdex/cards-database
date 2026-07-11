@@ -85,23 +85,29 @@ const card: Card = {
 		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
 	},
 
-	thirdParty: {
-		cardmarket: 273737,
-		tcgplayer: 42385
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273737,
+				tcgplayer: 42385
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107039
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107039
+			},
 		},
 		{
 			type: "normal",

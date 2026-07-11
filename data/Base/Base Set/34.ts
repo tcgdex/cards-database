@@ -93,23 +93,29 @@ const card: Card = {
 		it: "Il suo corpo è talmente muscoloso che è costretto ad indossare una cintura salva-energia per regolare i suoi movimenti. LIV 40 N.67"
 	},
 
-	thirdParty: {
-		cardmarket: 273729,
-		tcgplayer: 42376
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273729,
+				tcgplayer: 42376
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107031
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107031
+			},
 		},
 		{
 			type: "normal",

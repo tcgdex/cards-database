@@ -21,22 +21,29 @@ const card: Card = {
 		it: "Togli tutti i segnalini danno da tutti i tuoi Pokémon e poi scarta tutte le carte Energia assegnate a quei Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 273780
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273780,
+				tcgplayer: 108646
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107082
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107082
+			},
 		},
 		{
 			type: "normal",

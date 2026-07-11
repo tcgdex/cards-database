@@ -93,15 +93,25 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273701,
+				tcgplayer: 42404
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107000
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107000
+			}
 		},
 		{
 			type: "holo",
@@ -114,11 +124,6 @@ const card: Card = {
 		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
 		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante.",
 		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città. LIV 41 N.130"
-	},
-
-	thirdParty: {
-		cardmarket: 273701,
-		tcgplayer: 42404
 	}
 }
 
