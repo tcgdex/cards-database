@@ -4,6 +4,7 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
+		// Golbat
 		ja: "ゴルバット",
 	},
 
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575698
+			},
 		},
 	],
 };

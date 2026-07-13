@@ -4,7 +4,8 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サンドスラッシュ",
+		// Sandslash
+		ja: "サンドパン",
 	},
 
 	rarity: "Uncommon",
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575707
+			},
 		},
 	],
 };

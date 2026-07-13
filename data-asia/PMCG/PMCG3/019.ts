@@ -4,6 +4,7 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
+		// Kingler
 		ja: "キングラー",
 	},
 
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575702
+			},
 		},
 	],
 };

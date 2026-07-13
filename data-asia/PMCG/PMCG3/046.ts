@@ -4,6 +4,7 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
+		// Mysterious Fossil
 		ja: "神秘的な化石",
 	},
 
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575671
+			},
 		},
 	],
 };

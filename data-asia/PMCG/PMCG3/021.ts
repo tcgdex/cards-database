@@ -4,7 +4,8 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Omastar",
+		// Omastar
+		ja: "オムスター",
 	},
 
 	rarity: "Uncommon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575705
+			},
 		},
 	],
 };
