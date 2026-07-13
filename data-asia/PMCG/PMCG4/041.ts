@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークプライムエーパー",
+		// Dark Primeape
+		ja: "わるいオコリザル",
 	},
 
 	rarity: "Uncommon",
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575769
+			},
 		},
 	],
 };

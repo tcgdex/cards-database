@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チャレンジ！",
+		// Challenge!
+		ja: "たたきつけろ!挑戦状",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575758
+			},
 		},
 	],
 };

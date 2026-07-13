@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Koffing",
+		// Koffing
+		ja: "ドガース",
 	},
 
 	rarity: "Common",
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575725
+			},
 		},
 	],
 };

@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "これがチームロケットが来ます！",
+		// Here Comes Team Rocket!
+		ja: "ロケット団参上!",
 	},
 
 	rarity: "Secret Rare",
@@ -14,6 +15,12 @@ const card: Card = {
 		{
 			type: "holo",
 		},
+				{
+						type: "normal",
+						thirdParty: {
+								tcgplayer: 575757
+						},
+				}
 	],
 };
 

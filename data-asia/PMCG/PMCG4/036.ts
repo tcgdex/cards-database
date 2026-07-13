@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いスローブロ",
+		// Dark Slowbro
+		ja: "わるいヤドラン",
 	},
 
 	rarity: "Holo Rare",

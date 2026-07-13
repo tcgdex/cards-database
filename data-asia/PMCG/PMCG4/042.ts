@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "暗いマチョーク",
+		// Dark Machoke
+		ja: "わるいゴーリキー",
 	},
 
 	rarity: "Uncommon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575767
+			},
 		},
 	],
 };

@@ -4,6 +4,7 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
+		// Ponyta
 		ja: "ポニータ",
 	},
 
@@ -32,6 +33,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575732
+			},
 		},
 	],
 };

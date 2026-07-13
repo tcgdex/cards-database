@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "詐欺師オークの復ven",
+		// Imposter Oak's Revenge
+		ja: "にせオーキドの逆襲",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575773
+			},
 		},
 	],
 };

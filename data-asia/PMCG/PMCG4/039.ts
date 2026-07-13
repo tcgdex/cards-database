@@ -4,6 +4,7 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
+		// Mankey
 		ja: "マンキー",
 	},
 
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575729
+			},
 		},
 	],
 };

@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Psyduck",
+		// Psyduck
+		ja: "コダック",
 	},
 
 	rarity: "Common",
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575734
+			},
 		},
 	],
 };

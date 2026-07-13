@@ -4,6 +4,7 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
+		// Porygon
 		ja: "ポリゴン",
 	},
 
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575775
+			},
 		},
 	],
 };

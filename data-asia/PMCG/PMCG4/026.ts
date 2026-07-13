@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マグナイト",
+		// Magnemite
+		ja: "コイル",
 	},
 
 	rarity: "Common",
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575728
+			},
 		},
 	],
 };

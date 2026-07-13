@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "掘り",
+		// Digger
+		ja: "バトル場は穴だらけ!",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575772
+			},
 		},
 	],
 };

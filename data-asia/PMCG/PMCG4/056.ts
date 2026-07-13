@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "GOOPガス攻撃",
+		// Goop Gas Attack
+		ja: "まきちらせ!ベトベトガス",
 	},
 
 	rarity: "Common",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575723
+			},
 		},
 	],
 };

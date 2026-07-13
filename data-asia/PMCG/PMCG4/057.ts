@@ -4,7 +4,8 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "毎晩のごみ走り",
+		// Nightly Garbage Run
+		ja: "夜の廃品回収",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575774
+			},
 		},
 	],
 };
