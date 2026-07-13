@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックの砂利",
+		// Brock's Graveler
+		ja: "タケシのゴローン",
 	},
 
 	rarity: "Uncommon",
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576756
+			},
 		},
 	],
 };

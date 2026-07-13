@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスティの願い",
+		// Misty's Wish
+		ja: "カスミのわがまま",
 	},
 
 	rarity: "Rare",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576832
+			},
 		},
 	],
 };

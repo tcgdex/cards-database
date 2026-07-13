@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Misty's Horsea（LV.10）",
+		// Misty's Horsea
+		ja: "カスミのタッツー",
 	},
 
 	rarity: "Common",
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576820
+			},
 		},
 	],
 };

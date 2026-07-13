@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックの保護",
+		// Brock's Protection
+		ja: "タケシの保護",
 	},
 
 	rarity: "Rare",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576762
+			},
 		},
 	],
 };

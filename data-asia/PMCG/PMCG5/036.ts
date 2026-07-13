@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Surge's Pikachu中t",
+		// Lt. Surge's Pikachu
+		ja: "マチスのピカチュウ",
 	},
 
 	rarity: "Common",
@@ -31,6 +32,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576807
+			},
 		},
 	],
 };

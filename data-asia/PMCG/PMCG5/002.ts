@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカの奇妙な（lv.15）",
+		// Erika's Oddish
+		ja: "エリカのナゾノクサ",
 	},
 
 	rarity: "Common",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576791
+			},
 		},
 	],
 };

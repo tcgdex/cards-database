@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのオニックス",
+		// Brock's Onix
+		ja: "タケシのイワーク",
 	},
 
 	rarity: "Common",
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576760
+			},
 		},
 	],
 };

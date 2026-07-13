@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのサンドリュー",
+		// Brock's Sandshrew
+		ja: "タケシサンド",
 	},
 
 	rarity: "Common",
@@ -32,6 +33,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576765
+			},
 		},
 	],
 };

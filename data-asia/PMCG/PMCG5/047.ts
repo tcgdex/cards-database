@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのジオドード（LV.13）",
+		// Brock's Geodude
+		ja: "タケシのイシツブテ",
 	},
 
 	rarity: "Common",
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576752
+			},
 		},
 	],
 };

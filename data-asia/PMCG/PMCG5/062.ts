@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Surge's Eevee中t",
+		// Lt. Surge's Eevee
+		ja: "マチスのイーブイ",
 	},
 
 	rarity: "Uncommon",
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576800
+			},
 		},
 	],
 };

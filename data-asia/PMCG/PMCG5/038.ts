@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Surge's Voltorb中t",
+		// Lt. Surge's Voltorb
+		ja: "マチスのビリリダマ",
 	},
 
 	rarity: "Common",
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576813
+			},
 		},
 	],
 };

@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ミスティのゴルダック",
+		// Misty's Golduck
+		ja: "カスミのゴルダック",
 	},
 
 	rarity: "Holo Rare",

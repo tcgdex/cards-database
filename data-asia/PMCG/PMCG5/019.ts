@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブロックのニネタール",
+		// Brock's Ninetales
+		ja: "タケシのキュウコン",
 	},
 
 	rarity: "Holo Rare",

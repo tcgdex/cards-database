@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エリカのブルバサウルス",
+		// Erika's Bulbasaur
+		ja: "エリカのフシギダネ",
 	},
 
 	rarity: "Uncommon",
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576778
+			},
 		},
 	],
 };

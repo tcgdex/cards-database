@@ -4,7 +4,8 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "慈善",
+		// Charity
+		ja: "お上品攻撃",
 	},
 
 	rarity: "Rare",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576774
+			},
 		},
 	],
 };
