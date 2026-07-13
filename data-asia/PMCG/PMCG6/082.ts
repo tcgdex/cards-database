@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレインのクイズ3",
+		// Blaine's Quiz #3
+		ja: "カツラのクイズ その3",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575367
+			},
 		},
 	],
 };

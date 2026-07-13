@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サブリナのマイムさん",
+		// Sabrina's Mr. Mime
+		ja: "ナツメのバリヤード",
 	},
 
 	rarity: "Common",
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575321
+			},
 		},
 	],
 };

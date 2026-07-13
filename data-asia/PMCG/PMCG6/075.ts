@@ -4,6 +4,7 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
+		// _'s Chansey
 		ja: "_____のチャンシー",
 	},
 
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575362
+			},
 		},
 	],
 };

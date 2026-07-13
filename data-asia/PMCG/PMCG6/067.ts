@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガのピッジー（u）",
+		// Koga's Pidgey
+		ja: "キョウのポッポ",
 	},
 
 	rarity: "Uncommon",
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575380
+			},
 		},
 	],
 };

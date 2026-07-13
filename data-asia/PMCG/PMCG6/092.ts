@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットの地雷原ジム",
+		// Rocket's Minefield Gym
+		ja: "ロケット団の爆発ジム",
 	},
 
 	rarity: "Uncommon",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575383
+			},
 		},
 	],
 };

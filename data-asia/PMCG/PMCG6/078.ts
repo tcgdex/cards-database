@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サブリナの視線",
+		// Sabrina's Gaze
+		ja: "ナツメの眼",
 	},
 
 	rarity: "Common",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575320
+			},
 		},
 	],
 };

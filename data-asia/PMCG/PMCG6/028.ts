@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレインのポニータ",
+		// Blaine's Ponyta
+		ja: "カツラのポニータ",
 	},
 
 	rarity: "Common",
@@ -32,6 +33,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575302
+			},
 		},
 	],
 };

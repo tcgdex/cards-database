@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガのズバット",
+		// Koga's Zubat
+		ja: "キョウのズバット",
 	},
 
 	rarity: "Common",
@@ -30,6 +31,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575317
+			},
 		},
 	],
 };

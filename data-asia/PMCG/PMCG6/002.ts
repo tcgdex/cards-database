@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガのエカン",
+		// Koga's Ekans
+		ja: "キョウのアーボ",
 	},
 
 	rarity: "Common",
@@ -32,6 +33,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575311
+			},
 		},
 	],
 };

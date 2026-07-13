@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレインのラピダッシュ",
+		// Blaine's Rapidash
+		ja: "カツラのギャロップ",
 	},
 
 	rarity: "Uncommon",
@@ -37,6 +38,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575368
+			},
 		},
 	],
 };

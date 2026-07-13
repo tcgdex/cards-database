@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョバンニのペルシャ語",
+		// Giovanni's Persian
+		ja: "サカキのペルシアン",
 	},
 
 	rarity: "Holo Rare",

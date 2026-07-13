@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Sabrina's Haunter",
+		// Sabrina's Haunter
+		ja: "ナツメのゴースト",
 	},
 
 	rarity: "Uncommon",
@@ -30,6 +31,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575387
+			},
 		},
 	],
 };

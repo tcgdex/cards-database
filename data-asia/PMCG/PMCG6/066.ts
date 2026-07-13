@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サブリナのポリゴン",
+		// Sabrina's Porygon
+		ja: "ナツメのポリゴン",
 	},
 
 	rarity: "Common",
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575322
+			},
 		},
 	],
 };

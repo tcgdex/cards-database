@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレインのアルカニン",
+		// Blaine's Arcanine
+		ja: "カツラのウインディ",
 	},
 
 	rarity: "Holo Rare",

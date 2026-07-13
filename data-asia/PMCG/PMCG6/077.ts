@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゴミ交換",
+		// Trash Exchange
+		ja: "トラッシュ交換",
 	},
 
 	rarity: "Common",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575327
+			},
 		},
 	],
 };

@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガのタンゲラ",
+		// Koga's Tangela
+		ja: "キョウのモンジャラ",
 	},
 
 	rarity: "Common",
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575315
+			},
 		},
 	],
 };

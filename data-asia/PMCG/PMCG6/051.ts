@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "サブリナの催眠",
+		// Sabrina's Hypno
+		ja: "ナツメのスリーパー",
 	},
 
 	rarity: "Uncommon",
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575388
+			},
 		},
 	],
 };

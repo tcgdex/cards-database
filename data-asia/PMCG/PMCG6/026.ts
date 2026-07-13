@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "BlaineのVulpix",
+		// Blaine's Vulpix
+		ja: "カツラのロコン",
 	},
 
 	rarity: "Common",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575305
+			},
 		},
 	],
 };

@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョバンニのニドリーノ",
+		// Giovanni's Nidorino
+		ja: "サカキのニドリーノ",
 	},
 
 	rarity: "Uncommon",
@@ -31,6 +32,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575375
+			},
 		},
 	],
 };

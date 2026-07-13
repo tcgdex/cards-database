@@ -4,7 +4,8 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのスノーラックス",
+		// Rocket's Snorlax
+		ja: "R団のカビゴン",
 	},
 
 	rarity: "Rare",
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575356
+			},
 		},
 	],
 };
