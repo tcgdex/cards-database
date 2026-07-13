@@ -421,13 +421,14 @@ But the alternative is a legitimate reading of the same diagnosis, and the RFC d
 - Validates against live API
 - **No changes to server or SDK**
 
-### Stage 2: SDK Adoption
+### Stage 2: SDK + Docs Adoption
 
 - `@tcgdex/schema` published to npm
 - JS SDK adds `implements` constraints
 - Ghost properties (`pricing`, `updated`) declared on Card class
 - Closed enum unions flow through to SDK consumers
-- **Non-breaking** — tighter types are backwards-compatible
+- **Docs site** repoints its OpenAPI renderer at the generated `dist/openapi.json` instead of the hand-maintained `server/public/v2/openapi.yaml` (see [Documentation site](#documentation-site))
+- Tighter SDK types may be *source-breaking* for consumers narrowing on bare `string` — see [implementation follow-ups](./docus/implementation-followups.md)
 
 ### Stage 3: V3 Breaking Changes
 
