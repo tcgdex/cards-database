@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Poké Ball
-		ja: "ポークボール",
+		ja: "モンスターボール",
 	},
 
 	rarity: "Common",
