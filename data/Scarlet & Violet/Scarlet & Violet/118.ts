@@ -67,15 +67,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",

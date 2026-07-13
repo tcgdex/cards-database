@@ -88,15 +88,15 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	illustrator: "Anesaki Dynamic",
 

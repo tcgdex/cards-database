@@ -54,15 +54,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "normal",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "normal",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",

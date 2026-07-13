@@ -54,15 +54,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "reverse",
-      size: "standard"
-    },
-    {
-      type: "normal",
-      size: "standard"
-    }
-  ],
+		{
+			type: "reverse",
+			size: "standard"
+		},
+		{
+			type: "normal",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",

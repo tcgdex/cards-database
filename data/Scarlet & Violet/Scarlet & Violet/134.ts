@@ -74,15 +74,15 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 
 	variants: [
-    {
-      type: "reverse",
-      size: "standard"
-    },
-    {
-      type: "holo",
-      size: "standard"
-    }
-  ],
+		{
+			type: "reverse",
+			size: "standard"
+		},
+		{
+			type: "holo",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",

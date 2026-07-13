@@ -67,15 +67,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "normal",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "normal",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",

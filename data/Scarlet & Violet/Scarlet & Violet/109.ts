@@ -82,15 +82,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",

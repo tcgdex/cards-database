@@ -54,15 +54,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "normal",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "normal",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "It never skips its daily yoga training. It heightens its inner strength through meditation.",

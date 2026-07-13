@@ -59,15 +59,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "normal",
-      size: "standard"
-    },
-    {
-      type: "reverse",
-      size: "standard"
-    }
-  ],
+		{
+			type: "normal",
+			size: "standard"
+		},
+		{
+			type: "reverse",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",

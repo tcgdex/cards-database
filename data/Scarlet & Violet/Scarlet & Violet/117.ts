@@ -82,15 +82,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "reverse",
-      size: "standard"
-    },
-    {
-      type: "normal",
-      size: "standard"
-    }
-  ],
+		{
+			type: "reverse",
+			size: "standard"
+		},
+		{
+			type: "normal",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",

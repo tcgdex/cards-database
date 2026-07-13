@@ -82,15 +82,15 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "reverse",
-      size: "standard"
-    },
-    {
-      type: "normal",
-      size: "standard"
-    }
-  ],
+		{
+			type: "reverse",
+			size: "standard"
+		},
+		{
+			type: "normal",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",

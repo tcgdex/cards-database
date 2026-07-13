@@ -29,15 +29,15 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: [
-    {
-      type: "reverse",
-      size: "standard"
-    },
-    {
-      type: "normal",
-      size: "standard"
-    }
-  ],
+		{
+			type: "reverse",
+			size: "standard"
+		},
+		{
+			type: "normal",
+			size: "standard"
+		}
+	],
 
 	illustrator: "OKACHEKE",
 

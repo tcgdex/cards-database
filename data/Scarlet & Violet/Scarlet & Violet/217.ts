@@ -67,11 +67,11 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		}
+	],
 
 	illustrator: "Mina Nakai",
 

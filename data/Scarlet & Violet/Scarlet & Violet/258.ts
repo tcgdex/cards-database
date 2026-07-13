@@ -19,11 +19,11 @@ const card: Card = {
 	types: ["Fighting"],
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		}
+	],
 
 	thirdParty: {
         cardmarket: 702554,

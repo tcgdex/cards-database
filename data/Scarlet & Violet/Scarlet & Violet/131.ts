@@ -81,11 +81,11 @@ const card: Card = {
 	}],
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		}
+	],
 
 	description: {
 		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",

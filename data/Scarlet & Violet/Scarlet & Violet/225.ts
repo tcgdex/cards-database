@@ -73,11 +73,11 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: [
-    {
-      type: "holo",
-      size: "standard"
-    }
-  ],
+		{
+			type: "holo",
+			size: "standard"
+		}
+	],
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
