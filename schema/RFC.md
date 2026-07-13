@@ -91,6 +91,26 @@ The output contract — the shapes clients receive from the API:
 | `Serie` | Full serie (extends SerieResume, adds sets) |
 | `Variants` | The four boolean variant flags |
 
+### Language coverage
+
+Consumers in any language can build against the schema. Two distribution channels:
+
+- **JS/TS consumers** install `@tcgdex/schema` from npm — types, runtime validators, and enum constants ready to import
+- **All other languages** consume `openapi.json` from the GitHub Release — feed it to `openapi-generator`, `quicktype`, Microsoft `Kiota`, Apple `swift-openapi-generator`, `datamodel-code-generator` (Pydantic), or any of the ~50+ tools that target OpenAPI 3.1 as an IDL
+
+| Language | Toolchain examples |
+|---|---|
+| Python | `openapi-generator`, `datamodel-code-generator` (Pydantic) |
+| Java / Kotlin | `openapi-generator`, `Kiota` |
+| Go | `openapi-generator`, `oapi-codegen` |
+| Rust | `openapi-generator`, `progenitor` |
+| Swift | `openapi-generator`, `swift-openapi-generator` (Apple official) |
+| C# / .NET | `openapi-generator`, `NSwag`, `Kiota` |
+| Ruby, PHP, Dart, Elixir, Scala, Perl, Haskell, R, Julia … | `openapi-generator` |
+| Any language | `quicktype`, `Speakeasy`, `Fern` |
+
+The schema package is authored in TypeScript, but the contract it publishes (`openapi.json`) is language-agnostic. Adding a new SDK target means writing one CI workflow (see [`docus/workflows/sdk-regenerate.yml`](./docus/workflows/sdk-regenerate.yml)), not hand-authoring types.
+
 ### Open vs. Closed Enums
 
 Not all enums grow at the same rate. The schema distinguishes:
@@ -258,6 +278,66 @@ const doc = {
 ```
 
 The schemas drop in directly because TypeBox schemas are JSON Schema — no conversion step. Path/operation definitions still need to be maintained separately (they describe routing, not data shapes), but the `components/schemas` section — the largest and most drift-prone part — is now generated.
+
+---
+
+## Documentation site
+
+Docs drift is the same root cause as type drift: hand-maintained documentation of shapes that live somewhere else. Every reported "the docs say X but the API returns Y" bug is the same failure mode this RFC diagnoses for SDK types, just downstream of a different consumer.
+
+Once `dist/openapi.json` exists as a first-class artifact, it becomes the source of truth for reference documentation the same way it does for SDKs. Any mainstream OpenAPI renderer consumes it directly:
+
+- **Redoc** — single-page reference, embeddable as `<redoc spec-url="openapi.json">`
+- **Swagger UI** — already what `tcgdex.dev` serves at `/v2/openapi`; would consume the generated file instead of the hand-maintained YAML
+- **Stoplight Elements** — modern web components, embeddable in an existing site
+- **Mintlify, Fern, Bump.sh, Scalar** — hosted docs platforms with rich UX, all consume OpenAPI directly
+
+### What stops drifting
+
+Comparing the categories of "wrong docs" reports to what schema-driven reference eliminates:
+
+| Doc bug class | Currently possible? | After schema adoption? |
+|---|---|---|
+| "Docs list field X but API returns Y" | Yes | No — reference *is* the schema |
+| "Field typed `string` in docs but `number` in reality" | Yes | No |
+| "Rarity 'X' isn't in the docs list" | Yes | No — `x-extensible-enum` carries through |
+| "Endpoint returns 429 but docs don't mention it" | Yes | No — error responses are modelled |
+| "Filter param name typo" | Yes | No — params live in the schema |
+| "Example response is stale" | Yes | Partially — see below |
+
+### What still needs hand-authoring
+
+Prose material — getting-started tutorials, "how pagination works" explainers, filter syntax examples, migration guides between API versions — stays hand-written. But that's a **bounded surface** that changes rarely. The volatile, drift-prone parts are exactly the parts the schema owns.
+
+The docs site becomes a two-layer structure, matching the pattern used by Stripe, Anthropic, GitHub, and every modern API docs site:
+
+- **Reference (auto)** — endpoints, schemas, enums, error shapes, request/response examples → rendered from `openapi.json`
+- **Guides (hand)** — tutorials, concepts, migration guides → prose, with links into the auto-generated reference
+
+Prose can still be wrong, but it can't lie about field types — the reference is right there next to it.
+
+### Live example responses
+
+`build/validate-live.ts` currently validates a live card against the schema. A two-line extension makes it dump the validated card as an OpenAPI `example` on the response:
+
+```ts
+// after C.Check(data) passes:
+const responseExample = { summary: 'Live Charizard', value: data }
+// injected into openapi.json under paths['/cards/{cardId}'].get.responses['200'].content['application/json'].examples
+```
+
+Docs then show a **real API response** as the example, not a hand-typed placeholder that goes stale on the next set release. Runs in CI on every schema build; examples update automatically alongside the schema.
+
+### Migration path
+
+The docs site adoption is Stage 2 work — non-breaking, independent of SDK adoption:
+
+1. Point the existing swagger-ui at the generated `openapi.json` instead of the hand-maintained YAML
+2. Optionally add a richer renderer (Redoc / Stoplight / Mintlify) for the reference layer
+3. Deprecate `server/public/v2/openapi.yaml` once parity is confirmed
+4. Prose guides live wherever they live today — untouched
+
+No content is lost; the drift-prone reference layer just stops being hand-maintained.
 
 ---
 
