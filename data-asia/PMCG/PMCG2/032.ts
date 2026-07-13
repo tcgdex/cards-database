@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Marowak
-		ja: "マロワク",
+		ja: "ガラガラ",
 	},
 
 	rarity: "Uncommon",

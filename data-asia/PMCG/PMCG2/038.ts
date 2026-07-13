@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Fearow
-		ja: "恐れて",
+		ja: "オニドリル",
 	},
 
 	rarity: "Uncommon",

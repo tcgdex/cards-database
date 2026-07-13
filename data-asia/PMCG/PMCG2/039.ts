@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Persian
-		ja: "ペルシャ語",
+		ja: "ペルシアン",
 	},
 
 	rarity: "Uncommon",

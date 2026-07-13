@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Electrode
-		ja: "電極",
+		ja: "マルマイン",
 	},
 
 	rarity: "Holo Rare",

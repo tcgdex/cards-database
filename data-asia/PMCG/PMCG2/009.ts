@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Gloom
-		ja: "暗闇",
+		ja: "クサイハナ",
 	},
 
 	rarity: "Uncommon",

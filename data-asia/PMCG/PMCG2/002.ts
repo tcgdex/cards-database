@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Oddish
-		ja: "奇妙な",
+		ja: "ナゾノクサ",
 	},
 
 	rarity: "Common",

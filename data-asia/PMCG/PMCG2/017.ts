@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Scyther
-		ja: "スキスター",
+		ja: "ストライク",
 	},
 
 	rarity: "Holo Rare",

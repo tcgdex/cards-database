@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Primeape
-		ja: "プライム",
+		ja: "オコリザル",
 	},
 
 	rarity: "Uncommon",

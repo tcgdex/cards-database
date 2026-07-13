@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Butterfree
-		ja: "蝶",
+		ja: "バタフリー",
 	},
 
 	rarity: "Uncommon",

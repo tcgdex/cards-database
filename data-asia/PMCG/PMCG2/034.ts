@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Spearow
-		ja: "槍",
+		ja: "オニスズメ",
 	},
 
 	rarity: "Common",
