@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Pokémon Breeder
-		ja: "ポケモンブリーダー",
+		ja: "ポケモン育て屋さん",
 	},
 
 	rarity: "Rare",

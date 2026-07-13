@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Dragonair
-		ja: "ドラゴンエア",
+		ja: "ハクリュー",
 	},
 
 	rarity: "Rare",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Computer Search
-		ja: "コンピューター検索",
+		ja: "パソコン通信",
 	},
 
 	rarity: "Rare",

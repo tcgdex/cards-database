@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Lightning Energy
-		ja: "稲妻エネルギー",
+		ja: "基本雷エネルギー",
 	},
 
 	rarity: "Common",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Double Colorless Energy
-		ja: "二重の無色のエネルギー",
+		ja: "ダブル無色エネルギー",
 	},
 
 	rarity: "Uncommon",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Gust of Wind
-		ja: "風の突風",
+		ja: "突風",
 	},
 
 	rarity: "Common",

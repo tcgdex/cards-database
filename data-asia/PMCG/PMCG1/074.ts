@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Bill
-		ja: "請求書",
+		ja: "マサキ",
 	},
 
 	rarity: "Common",

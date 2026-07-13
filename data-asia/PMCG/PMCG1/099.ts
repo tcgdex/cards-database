@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Water Energy
-		ja: "水エネルギー",
+		ja: "基本水エネルギー",
 	},
 
 	rarity: "Common",

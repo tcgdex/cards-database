@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Grass Energy
-		ja: "草のエネルギー",
+		ja: "基本草エネルギー",
 	},
 
 	rarity: "Common",

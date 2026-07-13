@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Metapod
-		ja: "メタポッド",
+		ja: "トランセル",
 	},
 
 	rarity: "Common",

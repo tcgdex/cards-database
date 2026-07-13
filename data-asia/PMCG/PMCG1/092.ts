@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Scoop Up
-		ja: "すくい上げます",
+		ja: "ポケモン回収",
 	},
 
 	rarity: "Rare",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Fire Energy
-		ja: "火エネルギー",
+		ja: "基本炎エネルギー",
 	},
 
 	rarity: "Common",

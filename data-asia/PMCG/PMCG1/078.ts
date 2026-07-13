@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Revive
-		ja: "復活します",
+		ja: "げんきのかけら",
 	},
 
 	rarity: "Uncommon",

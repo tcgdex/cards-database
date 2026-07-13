@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Professor Oak
-		ja: "オーク教授",
+		ja: "オーキドはかせ",
 	},
 
 	rarity: "Uncommon",

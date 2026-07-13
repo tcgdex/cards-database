@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Item Finder
-		ja: "アイテムファインダー",
+		ja: "ダウジングマシーン",
 	},
 
 	rarity: "Rare",

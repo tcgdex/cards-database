@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Devolution Spray
-		ja: "デボルブスプレー",
+		ja: "退化スプレー",
 	},
 
 	rarity: "Rare",

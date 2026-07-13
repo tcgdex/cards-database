@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Pokédex
-		ja: "pokedex",
+		ja: "ポケモン図鑑",
 	},
 
 	rarity: "Uncommon",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Pokémon Flute
-		ja: "ポケモンフルート",
+		ja: "ポケモンの笛",
 	},
 
 	rarity: "Uncommon",

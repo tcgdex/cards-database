@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Psychic Energy
-		ja: "サイキックエネルギー",
+		ja: "基本超エネルギー",
 	},
 
 	rarity: "Common",

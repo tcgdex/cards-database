@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Pokémon Trader
-		ja: "ポケモントレーダー",
+		ja: "ポケモン交換おじさん",
 	},
 
 	rarity: "Rare",

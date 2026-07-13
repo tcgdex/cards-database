@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Switch
-		ja: "スイッチ",
+		ja: "ポケモンいれかえ",
 	},
 
 	rarity: "Common",

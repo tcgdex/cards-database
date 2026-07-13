@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Full Heal
-		ja: "フルヒール",
+		ja: "なんでもなおし",
 	},
 
 	rarity: "Uncommon",
