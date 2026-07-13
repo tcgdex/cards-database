@@ -1,9 +1,9 @@
 import { objectSize } from '@dzeio/object-util'
-import Queue from '@dzeio/queue'
 import { glob } from 'glob'
 import { exec, spawn } from 'node:child_process'
+import { createInterface } from 'node:readline'
 import { writeFileSync } from 'node:fs'
-import { Card, Languages, Set, SupportedLanguages } from '../../../interfaces'
+import type { Card, Languages, Set as CardSet, SupportedLanguages } from '../../../interfaces'
 import * as legals from '../../../meta/legals'
 interface fileCacheInterface {
 	[key: string]: any
@@ -75,7 +75,7 @@ export function cardIsLegal(type: 'standard' | 'expanded', card: Card, localId: 
  * @param set the set to check
  * @returns {boolean} if the set is currently in the legal type
  */
-export function setIsLegal(type: 'standard' | 'expanded', set: Set): boolean {
+export function setIsLegal(type: 'standard' | 'expanded', set: CardSet): boolean {
 	const legal = legals[type]
 	if (
 		legal.includes.series.includes(set.serie.id) ||
@@ -132,43 +132,62 @@ function runCommand(command: string, useSpawn = true): Promise<string> {
 const lastEditsCache: Record<string, string> = {}
 export async function loadLastEdits() {
 	console.log('Loading Git File Tree...')
-	const firstCommand = 'git ls-tree -r --name-only HEAD ../data'
-	const files = (await runCommand(firstCommand)).split('\n')
-	const secondCommand = 'git ls-tree -r --name-only HEAD ../data-asia'
-	files.push(...(await runCommand(secondCommand)).split('\n'))
-	console.log('Loaded files tree', files.length, 'files')
-	console.log('Loading their last edit time')
-	let processed = 0
-	const concurrent = process.platform === 'win32' ? 10 : 1000
-	const queue = new Queue(concurrent, 10)
-	queue.start()
+	const fileCommand = 'git -c core.quotepath=false ls-tree -r --name-only HEAD ../data ../data-asia'
+	const files = (await runCommand(fileCommand))
+		.split('\n')
+		.map(f => f.trim())
+		.filter(f => f.length > 0)
+		.map(f => f.replace(/^\.\.\//, ''))
 
-	for await (let file of files) {
-		file = file.replace(/"/g, '').replace("\\303\\251", "é")
-		await queue.add(runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false).then((res) => {
-			lastEditsCache[file] = res
-		})
-		.catch(() => {
-			console.warn('could not load file', file, 'hope it does not break everything else lol')
-		})
-		.finally(() => {
-			processed++
-			if (processed % 1000 === 0) {
-				console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
-			}
-		}))
-		// try {
-		// 	// don't really know why but it does not correctly execute the command when using Spawn
-		// 	lastEditsCache[file] = await runCommand(`git log -1 --pretty="format:%cd" --date=iso-strict "${file}"`, false)
-		// } catch {
-		// 	console.warn('could not load file', file, 'hope it does not break everything else lol')
-		// }
-		// processed++
-		// if (processed % 1000 === 0) {
-		// 	console.log('loaded', processed, 'out of', files.length, 'files', `(${(processed / files.length * 100).toFixed(0)}%)`)
-		// }
+	const remainingFiles = new Set<string>()
+	for (const file of files) {
+		remainingFiles.add(file)
 	}
-	await queue.waitEnd()
+
+	console.log('Loaded files tree', remainingFiles.size, 'files')
+	console.log('Loading their last edit time')
+
+	const logProcess = spawn('git', [
+		'-c', 'core.quotepath=false',
+		'log',
+		'--name-only',
+		'--format=COMMIT_DATE:%cI',
+		'../data',
+		'../data-asia'
+	])
+
+	const rl = createInterface({
+		input: logProcess.stdout,
+		crlfDelay: Infinity
+	})
+
+	let currentDate = new Date().toISOString()
+	let loadedCount = 0
+	const totalFiles = remainingFiles.size
+
+	for await (const line of rl) {
+		if (line.startsWith('COMMIT_DATE:')) {
+			currentDate = line.substring('COMMIT_DATE:'.length).trim()
+		} else if (line.trim().length > 0) {
+			const file = line.trim()
+			if (remainingFiles.has(file)) {
+				lastEditsCache["../" + file] = currentDate
+				remainingFiles.delete(file)
+				loadedCount++
+
+				if (loadedCount % 1000 === 0) {
+					console.log('loaded', loadedCount, 'out of', totalFiles, 'files', `(${(loadedCount / totalFiles * 100).toFixed(0)}%)`)
+				}
+
+				if (remainingFiles.size === 0) {
+					logProcess.kill()
+					break
+				}
+			}
+		}
+	}
+	logProcess.kill()
+
 	console.log('done loading files', objectSize(lastEditsCache))
 }
 
