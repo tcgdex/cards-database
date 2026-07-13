@@ -81,9 +81,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+    {
+      type: "normal",
+      size: "standard"
+    },
+    {
+      type: "reverse",
+      size: "standard"
+    }
+  ],
 
 	description: {
 		en: "It's thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",

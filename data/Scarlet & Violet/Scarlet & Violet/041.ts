@@ -82,13 +82,15 @@ const card: Card = {
 	regulationMark: "G",
 
 	variants: [
-		{
-			type: 'reverse'
-		},
-		{
-			type: 'holo'
-		},
-	],
+    {
+      type: "reverse",
+      size: "standard"
+    },
+    {
+      type: "holo",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "AKIRA EGAWA",
 

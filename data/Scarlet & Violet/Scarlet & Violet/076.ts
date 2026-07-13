@@ -81,10 +81,16 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+    {
+      type: "reverse",
+      size: "standard"
+    },
+    {
+      type: "holo",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "Mizue",
 

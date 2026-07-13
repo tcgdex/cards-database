@@ -79,10 +79,12 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+    {
+      type: "holo",
+      size: "standard"
+    }
+  ],
 
 	suffix: "ex",
 	illustrator: "PLANETA Hiiragi",

@@ -64,10 +64,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+    {
+      type: "reverse",
+      size: "standard"
+    },
+    {
+      type: "holo",
+      size: "standard"
+    }
+  ],
 
 	description: {
 		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",

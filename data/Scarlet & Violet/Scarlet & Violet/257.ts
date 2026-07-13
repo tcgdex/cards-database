@@ -18,10 +18,12 @@ const card: Card = {
 	energyType: "Normal",
 	types: ["Lightning"],
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+    {
+      type: "holo",
+      size: "standard"
+    }
+  ],
 
 	thirdParty: {
         cardmarket: 702553,

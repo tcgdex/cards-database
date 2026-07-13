@@ -28,9 +28,16 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+    {
+      type: "normal",
+      size: "standard"
+    },
+    {
+      type: "reverse",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "Oswaldo KATO",
 

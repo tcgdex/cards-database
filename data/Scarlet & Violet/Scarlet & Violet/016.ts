@@ -64,9 +64,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+    {
+      type: "reverse",
+      size: "standard"
+    },
+    {
+      type: "normal",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "Tika Matsuno",
 

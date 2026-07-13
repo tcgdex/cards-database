@@ -70,9 +70,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+    {
+      type: "normal",
+      size: "standard"
+    },
+    {
+      type: "reverse",
+      size: "standard"
+    }
+  ],
 
 	description: {
 		en: "It will expand its body as much as it can and then contract itself, blasting out sand with enough force to wash away a dump truck.",

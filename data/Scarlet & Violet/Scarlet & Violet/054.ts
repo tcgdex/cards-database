@@ -72,10 +72,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+    {
+      type: "reverse",
+      size: "standard"
+    },
+    {
+      type: "holo",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "Kouki Saitou",
 

@@ -28,9 +28,16 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+    {
+      type: "reverse",
+      size: "standard"
+    },
+    {
+      type: "normal",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "GIDORA",
 

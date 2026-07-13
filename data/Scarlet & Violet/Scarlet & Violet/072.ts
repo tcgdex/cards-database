@@ -79,9 +79,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+    {
+      type: "normal",
+      size: "standard"
+    },
+    {
+      type: "reverse",
+      size: "standard"
+    }
+  ],
 
 	illustrator: "Atsushi Furusawa",
 
