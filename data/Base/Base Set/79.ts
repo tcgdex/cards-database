@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scarta una carta Energia assegnata a uno dei tuoi Pokémon per scartare fino a 2 carte Energia assegnate a uno dei Pokémon del tuo avversario. Scarta quelle carte Energia.",
 	},
 
-	thirdParty: {
-		cardmarket: 273774,
-		tcgplayer: 42424
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273774,
+				tcgplayer: 42424
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107076
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107076
+			},
 		},
 		{
 			type: "normal",

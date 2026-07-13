@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [154],
 	hp: 360,
 	types: ["Grass"],
 	stage: "Stage2",

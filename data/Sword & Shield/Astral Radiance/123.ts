@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
 	},
 
-	thirdParty: {
-		cardmarket: 658784,
-		tcgplayer: 272360
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658784,
+				tcgplayer: 272360
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658784,
+				tcgplayer: 272360
+			}
+		},
+	],
 }
 
 export default card

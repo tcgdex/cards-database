@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [307],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",

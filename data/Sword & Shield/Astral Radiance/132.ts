@@ -90,21 +90,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
 	},
 
-	thirdParty: {
-		cardmarket: 658793,
-		tcgplayer: 272373
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658793,
+				tcgplayer: 272373
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658793,
+				tcgplayer: 272373
+			}
+		},
+	],
 }
 
 export default card

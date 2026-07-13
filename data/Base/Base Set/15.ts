@@ -89,15 +89,25 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273710,
+				tcgplayer: 42355
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107010
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107010
+			}
 		},
 		{
 			type: "holo",
@@ -105,11 +115,6 @@ const card: Card = {
 		}
 	],
 
-
-	thirdParty: {
-		cardmarket: 273710,
-		tcgplayer: 42355
-	}
 }
 
 export default card

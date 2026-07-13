@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "DOM",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [719],
 	hp: 270,
 	types: ["Psychic"],
 	stage: "Basic",

@@ -63,21 +63,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
 	},
 
-	thirdParty: {
-		cardmarket: 658582,
-		tcgplayer: 272243
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658582,
+				tcgplayer: 272243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658582,
+				tcgplayer: 272243
+			}
+		},
+	],
 }
 
 export default card

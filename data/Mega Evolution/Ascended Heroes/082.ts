@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Narano",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [468],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage2",

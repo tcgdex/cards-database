@@ -51,21 +51,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It conceals itself in darkness, sending chills up travelers' spines with its childlike weeping. As it observes the frightened travelers with glee, the red orbs upon its chest let off an eerie light.",
 	},
 
-	thirdParty: {
-		cardmarket: 658625,
-		tcgplayer: 272259
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658625,
+				tcgplayer: 272259
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658625,
+				tcgplayer: 272259
+			}
+		},
+	],
 }
 
 export default card

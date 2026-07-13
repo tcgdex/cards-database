@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tomomi Ozaki",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [153],
 	hp: 100,
 	types: ["Grass"],
 	stage: "Stage1",

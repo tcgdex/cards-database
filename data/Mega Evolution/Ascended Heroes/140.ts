@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "takashi shiraishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [675],
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Stage1",

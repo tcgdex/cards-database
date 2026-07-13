@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Izucch",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [872],
 	hp: 50,
 	types: ["Water"],
 	stage: "Basic",

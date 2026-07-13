@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [887],
 	hp: 320,
 	types: ["Dragon"],
 	stage: "Stage2",

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tomowaka",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [264],
 	hp: 90,
 	types: ["Darkness"],
 	stage: "Stage1",

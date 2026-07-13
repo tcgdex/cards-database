@@ -67,21 +67,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
 	},
 
-	thirdParty: {
-		cardmarket: 658617,
-		tcgplayer: 272256
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658617,
+				tcgplayer: 272256
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658617,
+				tcgplayer: 272256
+			}
+		},
+	],
 }
 
 export default card

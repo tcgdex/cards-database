@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Tends to prefer people with a chipper disposition to those who are gloomy, but it has shown no discrimination with regard to age or gender. Needs more research.",
 	},
 
-	thirdParty: {
-		cardmarket: 658630,
-		tcgplayer: 272261
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658630,
+				tcgplayer: 272261
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658630,
+				tcgplayer: 272261
+			}
+		},
+	],
 }
 
 export default card

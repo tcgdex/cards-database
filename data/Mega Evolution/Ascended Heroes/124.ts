@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Rianti Hidayat",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [93],
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",

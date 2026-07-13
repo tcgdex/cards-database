@@ -80,23 +80,29 @@ const card: Card = {
 		it: "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme. LIV 24 N.126"
 	},
 
-	thirdParty: {
-		cardmarket: 273731,
-		tcgplayer: 42378
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273731,
+				tcgplayer: 42378
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107033
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107033
+			},
 		},
 		{
 			type: "normal",

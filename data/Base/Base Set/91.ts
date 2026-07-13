@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Pesca 2 carte."
 	},
 
-	thirdParty: {
-		cardmarket: 273786,
-		tcgplayer: 42435
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273786,
+				tcgplayer: 42435
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107088
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107088
+			},
 		},
 		{
 			type: "normal",

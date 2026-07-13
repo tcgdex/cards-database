@@ -60,21 +60,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its chick-like looks belie its hotheadedness. It challenges its parents at every opportunity, desperate to prove its strength.",
 	},
 
-	thirdParty: {
-		cardmarket: 658792,
-		tcgplayer: 272372
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658792,
+				tcgplayer: 272372
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658792,
+				tcgplayer: 272372
+			}
+		},
+	],
 }
 
 export default card

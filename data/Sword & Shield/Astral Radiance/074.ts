@@ -76,21 +76,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Though it pretends to be a tree, it fails to fool even children. To the touch, its body feels more like rock than tree bark. Sudowoodo's extreme aversion to water merits special note.",
 	},
 
-	thirdParty: {
-		cardmarket: 658669,
-		tcgplayer: 272275
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658669,
+				tcgplayer: 272275
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658669,
+				tcgplayer: 272275
+			}
+		},
+	],
 }
 
 export default card

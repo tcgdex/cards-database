@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tetsu Kayama",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [618],
 	hp: 110,
 	types: ["Lightning"],
 	stage: "Basic",

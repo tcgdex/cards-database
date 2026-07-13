@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
 	},
 
-	thirdParty: {
-		cardmarket: 658725,
-		tcgplayer: 272294
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658725,
+				tcgplayer: 272294
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658725,
+				tcgplayer: 272294
+			}
+		},
+	],
 }
 
 export default card

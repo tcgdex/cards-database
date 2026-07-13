@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [383],
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Basic",

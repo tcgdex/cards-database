@@ -1,0 +1,74 @@
+import { Card } from '../../../interfaces'
+import Set from '../Celebrations Classic Collection'
+
+const card: Card = {
+	dexId: [9],
+	set: Set,
+
+	name: {
+		en: "Blastoise",
+		fr: "Tortank",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Classic Collection",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Water"],
+	stage: "Stage2",
+
+	attacks: [
+		{
+			name: {
+				en: "Hydro Pump",
+				fr: "Hydrocanon",
+			},
+			effect: {
+				en: "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Eau attachée à Tortank en plus du coût en Énergie de cette attaque. Les Énergies Eau supplémentaires après la seconde ne comptent pas.",
+			},
+			damage: "40+",
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+			],
+		},
+	],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: ""
+	}],
+
+	retreat: 3,
+
+	description: {
+		en: "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles."
+	},
+
+	abilities: [{
+		type: "Pokemon Power",
+
+		name: {
+			en: "Rain Dance"
+		},
+
+		effect: {
+			en: "As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed."
+		}
+	}],
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576771,
+				tcgplayer: 250319
+			}
+		},
+	],
+}
+
+export default card

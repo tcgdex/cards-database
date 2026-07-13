@@ -67,21 +67,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "This Pokémon has an unparalleled horn. Heracross itself demonstrates tremendous power—it's capable of throwing several people trained in the traditional arts of war at once.",
 	},
 
-	thirdParty: {
-		cardmarket: 658499,
-		tcgplayer: 272208
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658499,
+				tcgplayer: 272208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658499,
+				tcgplayer: 272208
+			}
+		},
+	],
 }
 
 export default card

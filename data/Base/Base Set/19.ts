@@ -93,15 +93,25 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273714,
+				tcgplayer: 42359
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107014
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107014
+			}
 		},
 		{
 			type: "normal",
@@ -113,11 +123,6 @@ const card: Card = {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur.",
 		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51"
-	},
-
-	thirdParty: {
-		cardmarket: 273714,
-		tcgplayer: 42359
 	}
 }
 

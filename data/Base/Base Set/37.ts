@@ -88,23 +88,29 @@ const card: Card = {
 		it: "Pokémon aggressivo che attacca con rapidità. Il corno sulla sua testa secerne un potente veleno. LIV 25 N.33"
 	},
 
-	thirdParty: {
-		cardmarket: 273732,
-		tcgplayer: 42379
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273732,
+				tcgplayer: 42379
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107034
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107034
+			},
 		},
 		{
 			type: "normal",
