@@ -20,6 +20,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			subtype: "no-rarity",
 			thirdParty: {
 				tcgplayer: 577006
 			},

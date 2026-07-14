@@ -49,6 +49,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
+			subtype: "no-rarity",
 			thirdParty: {
 				tcgplayer: 577032
 			},

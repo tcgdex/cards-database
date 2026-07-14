@@ -18,6 +18,10 @@ const card: Card = {
 				tcgplayer: 577172
 			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+		}
 	],
 };
 
