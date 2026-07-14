@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Mysterious Fossil
-		ja: "神秘的な化石",
+		ja: "なにかの化石",
 	},
 
 	rarity: "Common",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Mr. Fuji
-		ja: "富士通り",
+		ja: "フジろうじん",
 	},
 
 	rarity: "Uncommon",

@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Energy Search
-		ja: "エネルギー検索",
+		ja: "エネルギー転送",
 	},
 
 	rarity: "Common",
