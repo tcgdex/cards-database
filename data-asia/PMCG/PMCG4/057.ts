@@ -8,7 +8,7 @@ const card: Card = {
 		ja: "夜の廃品回収",
 	},
 
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Trainer",
 
 	variants: [

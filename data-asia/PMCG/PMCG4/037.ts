@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Dark Hypno
-		ja: "わるいスリーパ",
+		ja: "わるいスリーパー",
 	},
 
 	rarity: "Holo Rare",
@@ -39,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575749
+			},
 		},
 	],
 };

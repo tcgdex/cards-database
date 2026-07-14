@@ -8,7 +8,7 @@ const card: Card = {
 		ja: "バトル場は穴だらけ!",
 	},
 
-	rarity: "Uncommon",
+	rarity: "Common",
 	category: "Trainer",
 
 	variants: [

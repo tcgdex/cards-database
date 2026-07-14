@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Dark Dragonite
-		ja: "わるいカイリュ",
+		ja: "わるいカイリュー",
 	},
 
 	rarity: "Holo Rare",
@@ -44,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575745
+			},
 		},
 	],
 };
