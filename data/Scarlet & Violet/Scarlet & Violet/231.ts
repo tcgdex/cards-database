@@ -77,8 +77,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
-			size: "standard"
+			type: "holo"
 		}
 	],
 
