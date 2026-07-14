@@ -81,9 +81,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	description: {
 		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",

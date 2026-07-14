@@ -66,9 +66,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	description: {
 		en: "They communicate with one another using their auras. They are able to run all through the night.",

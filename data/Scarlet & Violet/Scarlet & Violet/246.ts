@@ -75,10 +75,11 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	suffix: "ex",
 	illustrator: "Pani Kobayashi",

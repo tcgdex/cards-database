@@ -81,10 +81,11 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	suffix: "ex",
 	illustrator: "PLANETA Tsuji",
