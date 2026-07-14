@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Bellsprout
 		ja: "エリカのマダツボミ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

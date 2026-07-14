@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Poliwag
 		ja: "カスミのニョロモ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

@@ -7,7 +7,7 @@ const card: Card = {
 		// Misty
 		ja: "カスミ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

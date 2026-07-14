@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Victreebel
 		ja: "エリカのウツボット",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

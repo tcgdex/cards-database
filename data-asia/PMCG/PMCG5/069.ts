@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Tears
 		ja: "カスミのなみだ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Trainer",

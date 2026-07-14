@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Training Method
 		ja: "タケシの育て方",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

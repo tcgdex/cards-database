@@ -7,7 +7,7 @@ const card: Card = {
 		// Rocket's Moltres
 		ja: "R団のファイヤー",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [146],

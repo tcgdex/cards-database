@@ -7,7 +7,7 @@ const card: Card = {
 		// Cerulean City Gym
 		ja: "ハナダシティジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

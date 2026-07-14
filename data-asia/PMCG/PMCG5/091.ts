@@ -7,7 +7,7 @@ const card: Card = {
 		// Resistance Gym
 		ja: "抵抗力低下ジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 

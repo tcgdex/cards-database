@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Onix
 		ja: "タケシのイワーク",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

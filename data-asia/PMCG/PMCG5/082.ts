@@ -7,7 +7,7 @@ const card: Card = {
 		// Good Manners
 		ja: "礼儀作法",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 

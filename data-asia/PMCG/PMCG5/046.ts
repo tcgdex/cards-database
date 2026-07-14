@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Geodude
 		ja: "タケシのイシツブテ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

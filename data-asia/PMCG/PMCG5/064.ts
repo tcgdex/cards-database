@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Fearow
 		ja: "マチスのオニドリル",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -41,6 +42,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576802
+			},
 		},
 	],
 };

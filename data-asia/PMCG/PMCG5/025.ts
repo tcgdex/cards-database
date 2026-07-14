@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Horsea
 		ja: "カスミのタッツー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

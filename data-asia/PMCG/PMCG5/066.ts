@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Dragonair
 		ja: "エリカのハクリュー",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576782
+			},
 		},
 	],
 };

@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Goldeen
 		ja: "カスミのトサキント",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

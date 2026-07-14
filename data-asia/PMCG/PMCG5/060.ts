@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Clefairy
 		ja: "エリカのピッピ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

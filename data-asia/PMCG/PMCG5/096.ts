@@ -7,7 +7,7 @@ const card: Card = {
 		// The Rocket's Trap
 		ja: "ロケット団のワナ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Trainer",
 

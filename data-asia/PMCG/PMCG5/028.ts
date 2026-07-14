@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Magikarp
 		ja: "カスミのコイキング",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

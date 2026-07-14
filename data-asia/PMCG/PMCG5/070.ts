@@ -7,7 +7,7 @@ const card: Card = {
 		// Narrow Gym
 		ja: "せまいジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 

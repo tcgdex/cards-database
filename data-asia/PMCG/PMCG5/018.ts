@@ -7,8 +7,9 @@ const card: Card = {
 		// Brock's Vulpix
 		ja: "タケシのロコン",
 	},
+	illustrator: "Ken Sugimori",
 
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [37],
 	hp: 40,

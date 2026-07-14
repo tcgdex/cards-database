@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Treaty
 		ja: "マチスの交渉",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Zubat
 		ja: "タケシのズバット",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

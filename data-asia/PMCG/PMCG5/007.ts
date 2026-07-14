@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Bulbasaur
 		ja: "エリカのフシギダネ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

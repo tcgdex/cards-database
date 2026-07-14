@@ -7,7 +7,7 @@ const card: Card = {
 		// Brock
 		ja: "タケシ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

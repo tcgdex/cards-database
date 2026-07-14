@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Oddish
 		ja: "エリカのナゾノクサ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

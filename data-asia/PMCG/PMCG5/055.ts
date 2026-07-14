@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Rhydon
 		ja: "タケシのサイドン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -44,6 +45,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576763
+			},
 		},
 	],
 };

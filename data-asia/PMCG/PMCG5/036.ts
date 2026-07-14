@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Pikachu
 		ja: "マチスのピカチュウ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

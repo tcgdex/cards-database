@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Exeggcute
 		ja: "エリカのタマタマ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Tentacool
 		ja: "カスミのメノクラゲ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Mankey
 		ja: "タケシのマンキー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

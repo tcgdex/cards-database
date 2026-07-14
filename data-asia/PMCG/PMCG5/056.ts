@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Rattata
 		ja: "マチスのコラッタ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

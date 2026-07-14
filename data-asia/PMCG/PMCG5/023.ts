@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Seel
 		ja: "カスミのパウワウ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

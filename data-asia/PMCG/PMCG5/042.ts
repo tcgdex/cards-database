@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Jolteon
 		ja: "マチスのサンダース",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

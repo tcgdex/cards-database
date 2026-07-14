@@ -7,7 +7,7 @@ const card: Card = {
 		// Celadon City Gym
 		ja: "タマムシシティジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

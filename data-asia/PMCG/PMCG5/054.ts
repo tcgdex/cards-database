@@ -7,7 +7,7 @@ const card: Card = {
 		// Rocket's Hitmonchan
 		ja: "R団のエビワラー",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [107],

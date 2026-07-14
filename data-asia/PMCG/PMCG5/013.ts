@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Exeggutor
 		ja: "エリカのナッシー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

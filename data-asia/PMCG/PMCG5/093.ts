@@ -7,7 +7,7 @@ const card: Card = {
 		// Lt. Surge's Secret Plan
 		ja: "マチスの秘策",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

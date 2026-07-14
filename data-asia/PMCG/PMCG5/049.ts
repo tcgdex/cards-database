@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Rhyhorn
 		ja: "タケシのサイホーン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

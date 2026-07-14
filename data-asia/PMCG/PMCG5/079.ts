@@ -7,7 +7,7 @@ const card: Card = {
 		// Pewter City Gym
 		ja: "ニビシティジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

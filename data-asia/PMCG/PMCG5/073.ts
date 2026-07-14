@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Perfume
 		ja: "エリカの香水",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

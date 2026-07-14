@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Jigglypuff
 		ja: "エリカのプリン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

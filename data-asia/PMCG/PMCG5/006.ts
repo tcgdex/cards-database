@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Tangela
 		ja: "エリカのモンジャラ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

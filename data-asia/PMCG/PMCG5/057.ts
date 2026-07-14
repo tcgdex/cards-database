@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Spearow
 		ja: "マチスのオニスズメ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

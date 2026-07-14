@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Dewgong
 		ja: "カスミのジュゴン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

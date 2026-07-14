@@ -7,7 +7,7 @@ const card: Card = {
 		// Rocket's Scyther
 		ja: "R団のストライク",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [123],

@@ -7,7 +7,7 @@ const card: Card = {
 		// Recall
 		ja: "思い出させる",
 	},
-
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Trainer",
 

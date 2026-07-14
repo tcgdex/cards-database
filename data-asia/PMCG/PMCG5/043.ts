@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Sandshrew
 		ja: "タケシサンド",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

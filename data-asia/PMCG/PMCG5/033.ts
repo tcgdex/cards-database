@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Tentacruel
 		ja: "カスミのドククラゲ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576831
+			},
 		},
 	],
 };

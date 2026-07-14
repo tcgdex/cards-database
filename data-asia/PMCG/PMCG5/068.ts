@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Duel
 		ja: "カスミの勝負",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Trainer",

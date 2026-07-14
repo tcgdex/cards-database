@@ -7,7 +7,7 @@ const card: Card = {
 		// Charity
 		ja: "お上品攻撃",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

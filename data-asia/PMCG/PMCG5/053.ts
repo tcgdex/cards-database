@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Golem
 		ja: "タケシのゴローニャ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

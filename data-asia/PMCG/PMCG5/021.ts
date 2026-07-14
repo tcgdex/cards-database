@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Psyduck
 		ja: "カスミのコダック",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

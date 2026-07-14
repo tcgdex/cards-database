@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Eevee
 		ja: "マチスのイーブイ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Graveler
 		ja: "タケシのゴローン",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,7 +7,7 @@ const card: Card = {
 		// Vermilion City Gym
 		ja: "クチバシティジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

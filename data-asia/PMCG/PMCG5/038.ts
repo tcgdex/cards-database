@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Voltorb
 		ja: "マチスのビリリダマ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

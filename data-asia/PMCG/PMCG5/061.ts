@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Lickitung
 		ja: "タケシのベロリンガ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Dratini
 		ja: "エリカのミニリュウ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

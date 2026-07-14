@@ -7,7 +7,7 @@ const card: Card = {
 		// Misty's Wish
 		ja: "カスミのわがまま",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

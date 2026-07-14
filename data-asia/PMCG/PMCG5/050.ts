@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Sandslash
 		ja: "タケシのサンドパン",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Magnemite
 		ja: "マチスのコイル",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,7 +7,7 @@ const card: Card = {
 		// Chaos Gym
 		ja: "錯乱ジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 

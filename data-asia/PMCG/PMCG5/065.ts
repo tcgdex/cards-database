@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Clefable
 		ja: "エリカのピクシー",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576780
+			},
 		},
 	],
 };

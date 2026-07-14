@@ -7,7 +7,7 @@ const card: Card = {
 		// Brock's Protection
 		ja: "タケシの保護",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

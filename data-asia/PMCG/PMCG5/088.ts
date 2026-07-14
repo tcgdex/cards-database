@@ -7,7 +7,7 @@ const card: Card = {
 		// Secret Mission
 		ja: "スパイ作戦",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 

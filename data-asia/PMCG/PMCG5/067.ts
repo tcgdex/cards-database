@@ -7,7 +7,7 @@ const card: Card = {
 		// Energy Flow
 		ja: "エネルギーサーキュレート",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 

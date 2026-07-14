@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Golbat
 		ja: "タケシのゴルバット",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

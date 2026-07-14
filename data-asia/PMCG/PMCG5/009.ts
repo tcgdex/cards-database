@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Gloom
 		ja: "エリカのクサイハナ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

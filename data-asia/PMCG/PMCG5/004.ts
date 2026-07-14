@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Paras
 		ja: "エリカのパラス",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

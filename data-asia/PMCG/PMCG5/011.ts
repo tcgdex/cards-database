@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Weepinbell
 		ja: "エリカのウツドン",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

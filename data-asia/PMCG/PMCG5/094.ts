@@ -7,7 +7,7 @@ const card: Card = {
 		// No Removal Gym
 		ja: "リムーブ禁止ジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 

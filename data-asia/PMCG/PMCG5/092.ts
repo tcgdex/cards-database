@@ -7,7 +7,7 @@ const card: Card = {
 		// Lt. Surge
 		ja: "マチス",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

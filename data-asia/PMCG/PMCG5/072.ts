@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Maids
 		ja: "エリカのお付き",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

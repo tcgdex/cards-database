@@ -7,7 +7,7 @@ const card: Card = {
 		// Erika
 		ja: "エリカ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

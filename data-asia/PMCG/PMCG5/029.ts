@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Poliwhirl
 		ja: "カスミのニョロゾ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

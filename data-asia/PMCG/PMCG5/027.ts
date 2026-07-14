@@ -7,6 +7,7 @@ const card: Card = {
 		// Misty's Staryu
 		ja: "カスミのヒトデマン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

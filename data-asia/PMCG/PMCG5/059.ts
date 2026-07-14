@@ -7,6 +7,7 @@ const card: Card = {
 		// Lt. Surge's Raticate
 		ja: "マチスのラッタ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

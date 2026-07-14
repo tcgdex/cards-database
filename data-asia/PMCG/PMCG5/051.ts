@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Primeape
 		ja: "タケシのオコリザル",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

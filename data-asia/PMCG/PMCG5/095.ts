@@ -7,7 +7,7 @@ const card: Card = {
 		// The Rocket's Training Gym
 		ja: "ロケット団の特訓ジム",
 	},
-
+	illustrator: "Kenji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 
