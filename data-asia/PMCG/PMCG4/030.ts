@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "わるいレアコイル",
 	},
 
+	illustrator: "Miki Tanaka",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [82],

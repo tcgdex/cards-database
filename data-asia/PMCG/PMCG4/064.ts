@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "なんでもなおし配合エネルギー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
 

@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "わるいアーボック",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [24],

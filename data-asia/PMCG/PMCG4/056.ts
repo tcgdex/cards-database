@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "まきちらせ!ベトベトガス",
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Trainer",
 

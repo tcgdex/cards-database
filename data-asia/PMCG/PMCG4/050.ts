@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ポリゴン",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [137],

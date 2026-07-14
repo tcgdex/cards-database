@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "にせオーキドの逆襲",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 

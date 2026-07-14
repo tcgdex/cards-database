@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "夜の廃品回収",
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Trainer",
 

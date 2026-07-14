@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ねむれ!ねむれ!",
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Trainer",
 

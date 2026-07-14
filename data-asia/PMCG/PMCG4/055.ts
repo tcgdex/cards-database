@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "バトル場は穴だらけ!",
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Trainer",
 

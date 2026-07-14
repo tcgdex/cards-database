@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "わるいリザードン",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [6],

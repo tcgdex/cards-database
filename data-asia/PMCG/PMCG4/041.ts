@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "わるいオコリザル",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [57],

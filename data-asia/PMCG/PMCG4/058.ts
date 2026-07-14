@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "たたきつけろ!挑戦状",
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Trainer",
 

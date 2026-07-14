@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "わるいマタドガス",
 	},
 
+	illustrator: "Shin-ichi Yoshida",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [110],
