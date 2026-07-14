@@ -7,7 +7,7 @@ const card: Card = {
 		// Giovanni
 		ja: "サカキ",
 	},
-	illustrator: "Keiji Kinebuchi",
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
