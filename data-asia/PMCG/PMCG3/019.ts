@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "キングラー",
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [99],

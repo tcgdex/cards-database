@@ -5,9 +5,10 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Horsea
-		ja: "タッツー",
+		ja: "タッツ",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [116],

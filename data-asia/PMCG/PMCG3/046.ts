@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "なにかの化石",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 

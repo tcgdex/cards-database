@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "エネルギー転送",
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Common",
 	category: "Trainer",
 

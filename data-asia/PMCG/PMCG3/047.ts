@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "リサイクル",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 

@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "フリーザー",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [144],
