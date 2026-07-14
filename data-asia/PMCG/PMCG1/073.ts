@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ポケモンいれかえ",
 	},
 
+	illustrator: "Hideaki Hakozaki",
 	rarity: "Common",
 	category: "Trainer",
 

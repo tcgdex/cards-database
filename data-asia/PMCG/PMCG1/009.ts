@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "コクーン",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [14],

@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "マサキ",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Trainer",
 

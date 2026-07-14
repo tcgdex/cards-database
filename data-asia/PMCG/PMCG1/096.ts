@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ダブル無色エネルギー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Energy",
 

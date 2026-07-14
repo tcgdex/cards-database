@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ポケモンの笛",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

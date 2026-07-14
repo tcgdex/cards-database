@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "スターミー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [121],

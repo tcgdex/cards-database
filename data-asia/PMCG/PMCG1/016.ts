@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ポニータ",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [77],

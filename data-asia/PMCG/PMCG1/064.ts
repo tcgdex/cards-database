@@ -8,13 +8,13 @@ const card: Card = {
 		ja: "ポリゴン",
 	},
 
+	illustrator: "Tomoaki Imakuni",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [137],
 	hp: 30,
 	types: ["Colorless"],
 	stage: "Basic",
-	illustrator: "Tomooki Imakuni",
 
 	attacks: [
 		{

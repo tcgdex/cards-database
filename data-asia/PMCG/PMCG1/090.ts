@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "パソコン通信",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Trainer",
 

@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "基本炎エネルギー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
 

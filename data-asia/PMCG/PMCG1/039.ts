@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "レアコイル",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [82],

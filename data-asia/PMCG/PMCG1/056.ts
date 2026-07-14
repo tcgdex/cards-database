@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ダグトリオ",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Pokemon",
 	dexId: [51],

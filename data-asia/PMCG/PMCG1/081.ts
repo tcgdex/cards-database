@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "プラスパワー",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 

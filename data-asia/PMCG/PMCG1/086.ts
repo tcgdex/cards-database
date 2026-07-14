@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "退化スプレー",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Trainer",
 

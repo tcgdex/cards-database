@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ピッピ人形",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 	dexId: [35],

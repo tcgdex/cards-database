@@ -8,13 +8,13 @@ const card: Card = {
 		ja: "ミニリュウ",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [147],
 	hp: 40,
 	types: ["Colorless"],
 	stage: "Basic",
-	illustrator: "Ken Sugimori",
 
 	attacks: [
 		{

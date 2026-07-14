@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ポケモン回収",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 

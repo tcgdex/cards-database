@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "きずぐすり",
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Common",
 	category: "Trainer",
 

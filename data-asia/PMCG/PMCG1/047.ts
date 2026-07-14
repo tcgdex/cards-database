@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ゴースト",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [93],

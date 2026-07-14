@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ポケモンセンター",
 	},
 
+	illustrator: '"Big Mama" Tagawa',
 	rarity: "Uncommon",
 	category: "Trainer",
 

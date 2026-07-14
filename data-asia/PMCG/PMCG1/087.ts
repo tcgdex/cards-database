@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ダウジングマシーン",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 

@@ -5,9 +5,10 @@ const card: Card = {
 	set: Set,
 	name: {
 		// Nidoran ♂
-		ja: "ニドランm",
+		ja: "ニドラン♂",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [32],

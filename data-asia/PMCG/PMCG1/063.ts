@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "カモネギ",
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [83],
