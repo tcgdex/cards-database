@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Magikarp
 		ja: "サカキのコイキング",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

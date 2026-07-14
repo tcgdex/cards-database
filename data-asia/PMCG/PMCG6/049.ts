@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Gastly
 		ja: "ナツメのゴース",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

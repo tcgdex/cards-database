@@ -7,7 +7,7 @@ const card: Card = {
 		// Koga
 		ja: "キョウ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

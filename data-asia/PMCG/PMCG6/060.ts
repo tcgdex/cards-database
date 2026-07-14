@@ -7,6 +7,7 @@ const card: Card = {
 		// Brock's Dugtrio
 		ja: "タケシのダグトリオ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

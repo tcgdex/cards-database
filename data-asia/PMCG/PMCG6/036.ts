@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Psyduck
 		ja: "ナツメのコダック",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

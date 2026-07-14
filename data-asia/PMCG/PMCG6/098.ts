@@ -7,7 +7,7 @@ const card: Card = {
 		// Sabrina
 		ja: "ナツメ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 

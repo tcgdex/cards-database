@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Charmeleon
 		ja: "カツラのリザード",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

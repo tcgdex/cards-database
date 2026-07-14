@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Abra
 		ja: "ナツメのケーシィ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

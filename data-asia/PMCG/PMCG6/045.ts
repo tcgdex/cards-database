@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Drowzee
 		ja: "ナツメのスリープ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

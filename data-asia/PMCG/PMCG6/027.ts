@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Growlithe
 		ja: "カツラのガーディ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

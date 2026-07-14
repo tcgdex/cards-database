@@ -7,8 +7,9 @@ const card: Card = {
 		// Imakuni?'s Doduo
 		ja: "イマクニ？のドードー",
 	},
+	illustrator: "Tomoaki Imakuni",
 
-	rarity: "Hyper Rare",
+	rarity: "Hyper rare",
 	category: "Pokemon",
 	dexId: [84],
 	hp: 50,

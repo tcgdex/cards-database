@@ -7,7 +7,7 @@ const card: Card = {
 		// Trash Exchange
 		ja: "トラッシュ交換",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 

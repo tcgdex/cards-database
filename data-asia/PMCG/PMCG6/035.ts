@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Moltres
 		ja: "カツラのファイヤー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -33,6 +34,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575331
+			},
 		},
 	],
 };

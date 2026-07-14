@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Charmander
 		ja: "カツラのヒトカゲ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

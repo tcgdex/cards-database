@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Last Resort
 		ja: "サカキの切り札",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Trainer",

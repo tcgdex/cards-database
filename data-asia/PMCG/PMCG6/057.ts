@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Machop
 		ja: "サカキのワンリキー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

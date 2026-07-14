@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Kangaskhan
 		ja: "カツラのガルーラ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,7 +7,7 @@ const card: Card = {
 		// Tickling Machine
 		ja: "くすぐりマシーン",
 	},
-
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Trainer",
 

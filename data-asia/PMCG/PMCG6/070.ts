@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Pidgeotto
 		ja: "キョウのピジョン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

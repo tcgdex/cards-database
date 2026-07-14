@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Porygon
 		ja: "ナツメのポリゴン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

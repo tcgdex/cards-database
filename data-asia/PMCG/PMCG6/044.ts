@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Slowpoke
 		ja: "ナツメのヤドン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

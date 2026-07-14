@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Kadabra
 		ja: "ナツメのユンゲラー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

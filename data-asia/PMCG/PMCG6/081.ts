@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Last Resort
 		ja: "カツラの奥の手",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

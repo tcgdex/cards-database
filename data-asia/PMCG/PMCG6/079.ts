@@ -7,7 +7,7 @@ const card: Card = {
 		// Transparent Walls
 		ja: "見えない壁",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 

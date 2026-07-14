@@ -7,7 +7,7 @@ const card: Card = {
 		// Cinnabar City Gym
 		ja: "グレンタウンジム",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

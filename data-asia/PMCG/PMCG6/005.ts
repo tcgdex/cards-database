@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Zubat
 		ja: "キョウのズバット",
 	},
+	illustrator: "575381",
 
 	rarity: "Common",
 	category: "Pokemon",

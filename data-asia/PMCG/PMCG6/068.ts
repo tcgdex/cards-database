@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Meowth
 		ja: "サカキのニャース",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Pinsir
 		ja: "サカキのカイロス",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

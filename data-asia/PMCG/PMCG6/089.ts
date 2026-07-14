@@ -7,7 +7,7 @@ const card: Card = {
 		// Minion of Team Rocket
 		ja: "ロケット団員",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 

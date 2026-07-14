@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Muk
 		ja: "キョウのベトベトン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

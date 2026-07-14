@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Hypno
 		ja: "ナツメのスリーパー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

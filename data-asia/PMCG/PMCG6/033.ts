@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Ninetales
 		ja: "カツラのキュウコン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

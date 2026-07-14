@@ -7,6 +7,7 @@ const card: Card = {
 		// Erika's Ivysaur
 		ja: "エリカのフシギソウ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

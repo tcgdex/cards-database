@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Ditto
 		ja: "キョウのメタモン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -40,6 +41,12 @@ const card: Card = {
 		{
 			type: "normal",
 		},
+				{
+						type: "holo",
+						thirdParty: {
+								tcgplayer: 575352
+						},
+				}
 	],
 };
 

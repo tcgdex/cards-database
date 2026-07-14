@@ -7,7 +7,7 @@ const card: Card = {
 		// Viridian City Gym
 		ja: "トキワシティジム",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Rare",
 	category: "Trainer",
 

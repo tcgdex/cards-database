@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Psychic Control
 		ja: "ナツメのサイキックコントロール",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

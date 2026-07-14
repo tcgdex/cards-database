@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Mr. Mime
 		ja: "ナツメのバリヤード",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

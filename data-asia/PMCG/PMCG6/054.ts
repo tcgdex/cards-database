@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Gengar
 		ja: "ナツメのゲンガー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575343
+			},
 		},
 	],
 };

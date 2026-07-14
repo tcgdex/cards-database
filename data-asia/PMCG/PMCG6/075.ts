@@ -7,6 +7,7 @@ const card: Card = {
 		// _'s Chansey
 		ja: "_____のチャンシー",
 	},
+	illustrator: "Kagemaru Himeno",
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",

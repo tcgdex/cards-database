@@ -7,7 +7,7 @@ const card: Card = {
 		// Saffron City Gym
 		ja: "ヤマブキシティジム",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

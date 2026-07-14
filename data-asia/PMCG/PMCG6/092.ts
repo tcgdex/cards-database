@@ -7,6 +7,7 @@ const card: Card = {
 		// Rocket's Minefield Gym
 		ja: "ロケット団の爆発ジム",
 	},
+	illustrator: "Keiji Kinebuchi",
 
 	rarity: "Uncommon",
 	category: "Trainer",

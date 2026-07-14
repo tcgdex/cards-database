@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Ekans
 		ja: "キョウのアーボ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

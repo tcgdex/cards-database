@@ -7,6 +7,7 @@ const card: Card = {
 		// Rocket's Mewtwo
 		ja: "R団のミュウツー",
 	},
+	illustrator: "Shin-ichi Yoshida",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575340
+			},
 		},
 	],
 };

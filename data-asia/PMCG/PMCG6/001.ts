@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Weedle
 		ja: "キョウのビードル",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

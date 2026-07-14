@@ -7,7 +7,7 @@ const card: Card = {
 		// Warp Point
 		ja: "ワープポイント",
 	},
-
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 

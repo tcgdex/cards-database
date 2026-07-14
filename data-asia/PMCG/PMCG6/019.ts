@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Arbok
 		ja: "キョウのアーボック",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

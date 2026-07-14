@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Tangela
 		ja: "キョウのモンジャラ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Common",
 	category: "Pokemon",

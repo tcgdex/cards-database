@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Venomoth
 		ja: "ナツメのモルフォン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

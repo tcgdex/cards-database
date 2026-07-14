@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Golbat
 		ja: "キョウのゴルバット",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

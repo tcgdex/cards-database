@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Jynx
 		ja: "ナツメのルージュラ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

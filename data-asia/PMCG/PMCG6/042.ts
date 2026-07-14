@@ -7,6 +7,7 @@ const card: Card = {
 		// Rocket's Zapdos
 		ja: "R団のサンダー",
 	},
+	illustrator: "Shin-ichi Yoshida",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575341
+			},
 		},
 	],
 };

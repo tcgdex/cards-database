@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Golduck
 		ja: "ナツメのゴルダック",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Pokemon",

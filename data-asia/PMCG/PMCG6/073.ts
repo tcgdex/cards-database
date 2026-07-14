@@ -7,6 +7,7 @@ const card: Card = {
 		// Rocket's Snorlax
 		ja: "R団のカビゴン",
 	},
+	illustrator: "Shin-ichi Yoshida",
 
 	rarity: "Rare",
 	category: "Pokemon",

@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Quiz #3
 		ja: "カツラのクイズ その3",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

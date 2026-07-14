@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Gaze
 		ja: "ナツメの眼",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Trainer",

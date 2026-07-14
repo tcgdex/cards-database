@@ -7,7 +7,7 @@ const card: Card = {
 		// Blaine's Magmar
 		ja: "カツラのブーバー",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [126],

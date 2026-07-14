@@ -7,6 +7,7 @@ const card: Card = {
 		// Rocket's Secret Experiment
 		ja: "ロケット団の実験",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

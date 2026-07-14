@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Haunter
 		ja: "ナツメのゴースト",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

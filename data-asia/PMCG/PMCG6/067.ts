@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Pidgey
 		ja: "キョウのポッポ",
 	},
+	illustrator: "Atsuko Nishida",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

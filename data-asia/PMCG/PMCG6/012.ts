@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Nidorina
 		ja: "サカキのニドリーナ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

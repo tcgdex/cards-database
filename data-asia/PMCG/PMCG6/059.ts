@@ -7,6 +7,7 @@ const card: Card = {
 		// Giovanni's Machoke
 		ja: "サカキのゴーリキー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

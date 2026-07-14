@@ -7,7 +7,7 @@ const card: Card = {
 		// Blaine's Mankey
 		ja: "カツラのマンキー",
 	},
-
+	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [56],

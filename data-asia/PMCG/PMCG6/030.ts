@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Rapidash
 		ja: "カツラのギャロップ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

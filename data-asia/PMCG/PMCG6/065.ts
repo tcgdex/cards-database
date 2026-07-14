@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Tauros
 		ja: "カツラのケンタロス",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

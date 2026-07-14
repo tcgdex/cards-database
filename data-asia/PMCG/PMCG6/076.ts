@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Gamble
 		ja: "カツラのギャンブル",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Trainer",

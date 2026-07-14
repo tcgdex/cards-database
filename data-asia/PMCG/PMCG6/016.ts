@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Weezing
 		ja: "キョウのマタドガス",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

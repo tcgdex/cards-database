@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Arcanine
 		ja: "カツラのウインディ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575329
+			},
 		},
 	],
 };

@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Grimer
 		ja: "キョウのベトベター",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

@@ -7,13 +7,16 @@ const card: Card = {
 		// Giovanni
 		ja: "サカキ",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575333
+			},
 		},
 	],
 };

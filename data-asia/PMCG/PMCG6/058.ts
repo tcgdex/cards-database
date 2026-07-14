@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Rhyhorn
 		ja: "カツラのサイホーン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

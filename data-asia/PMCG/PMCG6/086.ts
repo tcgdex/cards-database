@@ -7,7 +7,7 @@ const card: Card = {
 		// Fuchsia City Gym
 		ja: "セキチクシティジム",
 	},
-
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 

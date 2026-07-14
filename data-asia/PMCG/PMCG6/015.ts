@@ -7,6 +7,7 @@ const card: Card = {
 		// Koga's Koffing
 		ja: "キョウのドガース",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Pokemon",

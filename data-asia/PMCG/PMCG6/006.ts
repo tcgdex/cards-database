@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's Venonat
 		ja: "ナツメのコンパン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

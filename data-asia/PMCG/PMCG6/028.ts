@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Ponyta
 		ja: "カツラのポニータ",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

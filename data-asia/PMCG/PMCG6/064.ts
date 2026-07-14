@@ -7,6 +7,7 @@ const card: Card = {
 		// Blaine's Doduo
 		ja: "カツラのドードー",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",

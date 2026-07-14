@@ -7,6 +7,7 @@ const card: Card = {
 		// Sabrina's ESP
 		ja: "ナツメのESP",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Uncommon",
 	category: "Trainer",

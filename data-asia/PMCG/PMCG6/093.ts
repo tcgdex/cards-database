@@ -7,7 +7,7 @@ const card: Card = {
 		// Blaine
 		ja: "カツラ",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 
