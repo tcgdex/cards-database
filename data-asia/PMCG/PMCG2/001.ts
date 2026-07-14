@@ -1,4 +1,4 @@
-import {Card} from "../../../interfaces"
+import { Card } from "../../../interfaces"
 import Set from "../PMCG2"
 
 const card: Card = {
@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ニドラン♀",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [29],
@@ -40,7 +41,7 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants : [
+	variants: [
 		{
 			type: "normal",
 			thirdParty: {

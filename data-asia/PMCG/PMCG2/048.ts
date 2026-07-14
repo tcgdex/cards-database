@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "モンスターボール",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 

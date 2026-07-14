@@ -8,6 +8,7 @@ const card: Card = {
 		ja: "ベロリンガ",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [108],
