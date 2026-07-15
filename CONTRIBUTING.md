@@ -258,7 +258,10 @@ The documentation is updated in the Documentation repository at <https://github.
 
 ### Coding Guidelines
 
-Install the plugin `.editorconfig` in your dev environment if it's not already done and thats it !
+The project uses `.editorconfig` files to help keep code style and formatting aligned across IDE's. 
+
+> [!NOTE]
+> Some IDE's (Like VSCode) do not support `.editorconfig` files out of the box and might require you to install an extension or plugin. You can check their [website](https://editorconfig.org/) for compatibility.
 
 for those who don't want to install it, the basics are these:
 - Indent using the <xkb>tab</xkb> (`\t`) character
