@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Good Manners
 		ja: "礼儀作法",
 	},
 	illustrator: "Ken Sugimori",

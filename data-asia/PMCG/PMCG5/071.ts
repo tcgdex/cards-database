@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Recall
 		ja: "思い出させる",
 	},
 	illustrator: "Sumiyoshi Kizuki",

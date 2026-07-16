@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Brock's Rhyhorn
 		ja: "タケシのサイホーン",
 	},
 	illustrator: "Ken Sugimori",

@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Erika's Dratini
 		ja: "エリカのミニリュウ",
 	},
 	illustrator: "Ken Sugimori",

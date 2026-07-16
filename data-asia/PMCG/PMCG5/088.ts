@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Secret Mission
 		ja: "スパイ作戦",
 	},
 	illustrator: "Ken Sugimori",

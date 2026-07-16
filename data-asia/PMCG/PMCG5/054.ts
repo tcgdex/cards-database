@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Rocket's Hitmonchan
 		ja: "R団のエビワラー",
 	},
 	illustrator: "Ken Sugimori",

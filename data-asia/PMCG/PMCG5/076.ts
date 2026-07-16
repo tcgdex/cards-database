@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Vermilion City Gym
 		ja: "クチバシティジム",
 	},
 	illustrator: "Kenji Kinebuchi",

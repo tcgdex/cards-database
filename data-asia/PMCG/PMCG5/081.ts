@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Lt. Surge's Treaty
 		ja: "マチスの交渉",
 	},
 	illustrator: "Ken Sugimori",

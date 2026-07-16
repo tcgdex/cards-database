@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Misty's Magikarp
 		ja: "カスミのコイキング",
 	},
 	illustrator: "Ken Sugimori",

@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Lt. Surge's Secret Plan
 		ja: "マチスの秘策",
 	},
 	illustrator: "Ken Sugimori",

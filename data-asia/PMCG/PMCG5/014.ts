@@ -4,7 +4,6 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		// Erika's Vileplume
 		ja: "エリカのラフレシア",
 	},
 	illustrator: "Ken Sugimori",
