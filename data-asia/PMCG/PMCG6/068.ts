@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Giovanni's Meowth
 		ja: "サカキのニャース",
 	},
 	illustrator: "Atsuko Nishida",

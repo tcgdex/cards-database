@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Transparent Walls
 		ja: "見えない壁",
 	},
 	illustrator: "Keiji Kinebuchi",

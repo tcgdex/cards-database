@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Rocket's Mewtwo
 		ja: "R団のミュウツー",
 	},
 	illustrator: "Shin-ichi Yoshida",

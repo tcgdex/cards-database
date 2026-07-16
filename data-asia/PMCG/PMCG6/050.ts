@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Sabrina's Haunter
 		ja: "ナツメのゴースト",
 	},
 	illustrator: "Atsuko Nishida",

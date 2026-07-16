@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Rocket's Snorlax
 		ja: "R団のカビゴン",
 	},
 	illustrator: "Shin-ichi Yoshida",

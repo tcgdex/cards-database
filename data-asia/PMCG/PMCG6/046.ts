@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Sabrina's Mr. Mime
 		ja: "ナツメのバリヤード",
 	},
 	illustrator: "Ken Sugimori",

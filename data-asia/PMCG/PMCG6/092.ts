@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Rocket's Minefield Gym
 		ja: "ロケット団の爆発ジム",
 	},
 	illustrator: "Keiji Kinebuchi",

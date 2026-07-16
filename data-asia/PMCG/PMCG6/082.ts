@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Blaine's Quiz #3
 		ja: "カツラのクイズ その3",
 	},
 	illustrator: "Ken Sugimori",

@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Giovanni's Nidoking
 		ja: "サカキのニドキング",
 	},
 	illustrator: "Ken Sugimori",

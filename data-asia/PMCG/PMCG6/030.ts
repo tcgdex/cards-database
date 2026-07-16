@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Blaine's Rapidash
 		ja: "カツラのギャロップ",
 	},
 	illustrator: "Ken Sugimori",

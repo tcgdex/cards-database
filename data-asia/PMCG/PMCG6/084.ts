@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Tickling Machine
 		ja: "くすぐりマシーン",
 	},
 	illustrator: "Sumiyoshi Kizuki",

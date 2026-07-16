@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Erika's Venusaur
 		ja: "エリカのフシギバナ",
 	},
 	illustrator: "Ken Sugimori",

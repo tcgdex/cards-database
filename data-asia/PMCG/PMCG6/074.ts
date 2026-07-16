@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Imakuni?'s Doduo
 		ja: "イマクニ？のドードー",
 	},
 	illustrator: "Tomoaki Imakuni",

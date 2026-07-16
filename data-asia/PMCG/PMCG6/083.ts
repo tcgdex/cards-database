@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Koga's Ninja Trick
 		ja: "キョウ秘伝, 変わり身の術",
 	},
 	illustrator: "Sumiyoshi Kizuki",

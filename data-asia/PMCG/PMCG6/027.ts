@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Blaine's Growlithe
 		ja: "カツラのガーディ",
 	},
 	illustrator: "Atsuko Nishida",

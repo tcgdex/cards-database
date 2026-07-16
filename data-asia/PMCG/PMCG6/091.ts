@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Rocket's Secret Experiment
 		ja: "ロケット団の実験",
 	},
 	illustrator: "Ken Sugimori",

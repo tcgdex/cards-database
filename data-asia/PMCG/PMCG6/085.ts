@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Cinnabar City Gym
 		ja: "グレンタウンジム",
 	},
 	illustrator: "Keiji Kinebuchi",

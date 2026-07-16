@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Trash Exchange
 		ja: "トラッシュ交換",
 	},
 	illustrator: "Keiji Kinebuchi",

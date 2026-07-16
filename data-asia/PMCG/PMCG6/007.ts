@@ -4,7 +4,6 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		// Koga's Grimer
 		ja: "キョウのベトベター",
 	},
 	illustrator: "Ken Sugimori",
