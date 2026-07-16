@@ -4,7 +4,6 @@ import Set from "../PMCG3"
 const card: Card = {
 	set: Set,
 	name: {
-		// Grimer
 		ja: "ベトベター",
 	},
 
