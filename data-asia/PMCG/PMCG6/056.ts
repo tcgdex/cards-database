@@ -4,9 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレインのマンキー",
+		ja: "カツラのマンキー",
 	},
-
+	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [56],
