@@ -4,7 +4,6 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		// Here Comes Team Rocket!
 		ja: "ロケット団参上!",
 	},
 

@@ -4,7 +4,6 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		// Full Heal Energy
 		ja: "なんでもなおし配合エネルギー",
 	},
 

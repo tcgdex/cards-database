@@ -4,7 +4,6 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		// Nightly Garbage Run
 		ja: "夜の廃品回収",
 	},
 
