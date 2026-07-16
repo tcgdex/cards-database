@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "レシラム&リザードンGX",
 	},
 
-	illustrator: "",
+	illustrator: "aky CG Works",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fire"],

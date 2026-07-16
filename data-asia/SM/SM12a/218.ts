@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "トゲピー&ピィ&ププリンGX",
 	},
 
-	illustrator: "",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Fairy"],

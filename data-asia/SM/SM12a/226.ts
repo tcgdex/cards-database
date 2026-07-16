@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ファイヤー&サンダー&フリーザーGX",
 	},
 
-	illustrator: "",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],

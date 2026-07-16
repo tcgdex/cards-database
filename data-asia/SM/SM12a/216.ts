@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "マニューラGX",
 	},
 
-	illustrator: "",
+	illustrator: "aky CG Works",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Darkness"],

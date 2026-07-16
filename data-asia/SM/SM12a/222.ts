@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ミュウツー&ミュウGX",
 	},
 
-	illustrator: "",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],

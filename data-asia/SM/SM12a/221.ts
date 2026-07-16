@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ピカチュウ&ゼクロムGX",
 	},
 
-	illustrator: "",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Lightning"],

@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ルカリオ&メルメタルGX",
 	},
 
-	illustrator: "",
+	illustrator: "sadaji",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Metal"],

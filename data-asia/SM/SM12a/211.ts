@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ヨワシGX",
 	},
 
-	illustrator: "",
+	illustrator: "sadaji",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],

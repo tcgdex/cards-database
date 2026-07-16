@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ゲッコウガ&ゾロアークGX",
 	},
 
-	illustrator: "",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Darkness"],

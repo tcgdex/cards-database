@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ブラッキー&ダークライGX",
 	},
 
-	illustrator: "",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
