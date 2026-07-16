@@ -4,10 +4,11 @@ import Set from "../PMCG5"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Brock's Vulpix（LV.10）",
+		ja: "タケシのロコン",
 	},
+	illustrator: "Ken Sugimori",
 
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [37],
 	hp: 40,
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576769
+			},
 		},
 	],
 };
