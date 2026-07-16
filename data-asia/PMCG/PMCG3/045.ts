@@ -7,12 +7,16 @@ const card: Card = {
 		ja: "ギャンブラー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575665
+			},
 		},
 	],
 };
