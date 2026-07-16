@@ -4,9 +4,10 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダークプライムエーパー",
+		ja: "わるいオコリザル",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [57],
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575769
+			},
 		},
 	],
 };
