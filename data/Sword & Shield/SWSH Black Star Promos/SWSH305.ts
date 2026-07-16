@@ -42,7 +42,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		ja: "水を圧縮して手裏剣を作り出す。高速回転させて飛ばすと金属も真っ二つ。"
+		en: "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal into two.",
 	},
 
 	variants: [
