@@ -2,19 +2,19 @@ import { Card } from "../../../interfaces"
 import Set from "../SWSH Black Star Promos"
 
 const card: Card = {
-	dexId: [658],
 	set: Set,
-	illustrator: "Taiga Kasai",
 
 	name: {
 		en: "Greninja",
 	},
 
+	illustrator: "Taiga Kasai",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Water"],
 	stage: "Stage2",
+	dexId: [658],
 
 	attacks: [{
 		cost: ["Water", "Colorless", "Colorless"],
