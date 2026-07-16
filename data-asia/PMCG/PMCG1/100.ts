@@ -4,7 +4,6 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// Lightning Energy
 		ja: "基本雷エネルギー",
 	},
 

@@ -4,7 +4,6 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// Imposter Professor Oak
 		ja: "詐欺師オーク教授",
 	},
 

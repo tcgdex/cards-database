@@ -4,7 +4,6 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// Grass Energy
 		ja: "基本草エネルギー",
 	},
 

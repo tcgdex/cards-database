@@ -4,7 +4,6 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// Fire Energy
 		ja: "基本炎エネルギー",
 	},
 

@@ -4,7 +4,6 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// Pokémon Breeder
 		ja: "ポケモン育て屋さん",
 	},
 

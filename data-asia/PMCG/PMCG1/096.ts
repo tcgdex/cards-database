@@ -4,7 +4,6 @@ import Set from "../PMCG1"
 const card: Card = {
 	set: Set,
 	name: {
-		// Double Colorless Energy
 		ja: "ダブル無色エネルギー",
 	},
 
