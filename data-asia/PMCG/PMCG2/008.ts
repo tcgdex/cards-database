@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ニドリーナ",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [30],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576632
+			},
 		},
 	],
 };
