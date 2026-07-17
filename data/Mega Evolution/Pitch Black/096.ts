@@ -28,7 +28,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Vigorous Cutter"
+			en: "Vigorous Cutter",
+			de: "Rasante Schneide"
 		},
 
 		cost: ["Grass"],
@@ -36,7 +37,8 @@ const card: Card = {
 		damage: "60+",
 
 		effect: {
-			en: "If this Pokémon recovered any HP this turn, this attack does 200 more damage."
+			en: "If this Pokémon recovered any HP this turn, this attack does 200 more damage.",
+			de: "Wenn dieses Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 200 Schadenspunkte mehr zu."
 		}
 	}, {
 		name: {
@@ -48,7 +50,8 @@ const card: Card = {
 		damage: 140,
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes 50 less damage from attacks.",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 

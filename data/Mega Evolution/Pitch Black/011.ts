@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
+		de: "Im Kampf erreichen seine Flammen Temperaturen von bis zu 1000 ℃. Es hat eine Vorliebe für Beeren mit hohem Fettgehalt."
+	},
+
 	name: {
 		en: "Charcadet",
 		fr: "Charbambin",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Best Punch"
+			en: "Best Punch",
+			de: "Bester Schlag"
 		},
 
 		cost: ["Fire"],
@@ -30,7 +36,8 @@ const card: Card = {
 		damage: 40,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 		}
 	}],
 

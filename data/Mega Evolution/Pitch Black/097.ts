@@ -28,7 +28,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Surf"
+			en: "Surf",
+			de: "Surfer"
 		},
 
 		cost: ["Water", "Water", "Water"],
@@ -36,7 +37,8 @@ const card: Card = {
 		damage: 120
 	}, {
 		name: {
-			en: "Falling Down"
+			en: "Falling Down",
+			de: "Hinfallen"
 		},
 
 		cost: ["Water", "Water", "Water", "Water", "Water"],
@@ -44,7 +46,8 @@ const card: Card = {
 		damage: 270,
 
 		effect: {
-			en: "This Pokémon is now Asleep"
+			en: "This Pokémon is now Asleep",
+			de: "Dieses Pokémon schläft jetzt."
 		}
 	}],
 

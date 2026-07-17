@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The final factor needed to release this Pokémon's true power was a strong bond with a Trainer it trusts.",
+		de: "Der entscheidende Faktor, durch den es seine wahren Kräfte freisetzen kann, ist die enge Bindung zu einem Trainer, dem es vertraut."
+	},
+
 	name: {
 		en: "Silvally",
 		fr: "Silvallié",
@@ -29,17 +34,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Call a Buddy"
+			en: "Call a Buddy",
+			de: "Kumpelruf"
 		},
 
 		effect: {
-			en: "Once during your turn (before your attack), if you have 0 cards in your hand, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then shuffle your deck."
+			en: "Once during your turn (before your attack), if you have 0 cards in your hand, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then shuffle your deck.",
+			de: "Einmal während deines Zuges, wenn du keine Karten auf deiner Hand hast, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Air Slash"
+			en: "Air Slash",
+			de: "Luftschnitt"
 		},
 
 		cost: ["Colorless"],
@@ -47,7 +55,8 @@ const card: Card = {
 		damage: 130,
 
 		effect: {
-			en: "Discard 1 Energy from this Pokémon."
+			en: "Discard 1 Energy from this Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		}
 	}],
 

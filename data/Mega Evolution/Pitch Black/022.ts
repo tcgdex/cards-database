@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This hero of the ocean swims at a speed of 50 knots and saves drowning people and Pokémon."
+	},
+
 	name: {
 		en: "Palafin",
 		fr: "Superdofin",

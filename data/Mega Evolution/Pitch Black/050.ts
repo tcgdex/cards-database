@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Watching from the sky, they attack weakened prey on the ground. They have a habit of decorating themselves with bones."
+	},
+
 	name: {
 		en: "Mandibuzz",
 		fr: "Vaututrice",

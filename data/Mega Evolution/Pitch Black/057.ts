@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense."
+	},
+
 	name: {
 		en: "Maschiff",
 		fr: "Grondogue",

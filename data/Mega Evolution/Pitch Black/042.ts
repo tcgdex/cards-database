@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+		de: "Auch wenn es guter Stimmung ist, kann es wegen einer Kleinigkeit plötzlich ausrasten und ist daher gefürchtet."
+	},
+
 	name: {
 		en: "Mankey",
 		fr: "Férosinge",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Low Sweep"
+			en: "Low Sweep",
+			de: "Fußkick"
 		},
 
 		cost: ["Colorless"],

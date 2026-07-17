@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try to help.",
+		de: "Das Wohlergehen seiner Freunde ist ihm sehr wichtig. Wenn sein Trainer schlechte Laune hat, versucht es, ihn mit einem Tänzchen aufzuheitern."
+	},
+
 	name: {
 		en: "Brionne",
 		fr: "Otarlette",
@@ -27,7 +32,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice"
+			en: "Hyper Voice",
+			de: "Schallwelle"
 		},
 
 		cost: ["Water"],

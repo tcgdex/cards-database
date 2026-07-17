@@ -23,7 +23,10 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Dusk Raid"
+			en: "Dusk Raid",
+			es: "Incursión Crepuscular",
+			'es-mx': "Redada Crepuscular",
+			de: "Finsterer Überfall"
 		},
 
 		cost: ["Darkness", "Darkness"],
@@ -31,17 +34,26 @@ const card: Card = {
 		damage: "110+",
 
 		effect: {
-			en: "If any of your Benched Pokémon have any damage counters on them, this attack does 110 more damage."
+			en: "If any of your Benched Pokémon have any damage counters on them, this attack does 110 more damage.",
+			es: "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 110 puntos de daño más.",
+			'es-mx': "Si tus Pokémon en Banca tienen algún contador de daño sobre ellos, este ataque hace 110 puntos de daño más.",
+			de: "Wenn auf den Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 110 Schadenspunkte mehr zu."
 		}
 	}, {
 		name: {
-			en: "Abyss Eye"
+			en: "Abyss Eye",
+			es: "Ojo Abismal",
+			'es-mx': "Ojo Abismal",
+			de: "Abgrundauge"
 		},
 
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is affected by any Special Condition, it is now Knocked Out."
+			en: "If your opponent's Active Pokémon is affected by any Special Condition, it is now Knocked Out.",
+			es: "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, queda Fuera de Combate.",
+			'es-mx': "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, queda Fuera de Combate.",
+			de: "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, ist es kampfunfähig."
 		}
 	}],
 

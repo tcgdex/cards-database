@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning."
+	},
+
 	name: {
 		en: "Miraidon",
 		fr: "Miraidon",

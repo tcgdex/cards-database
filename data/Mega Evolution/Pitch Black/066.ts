@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Pikipek has strong muscles in its neck, so it won't hurt itself even if it violently shakes its head."
+	},
+
 	name: {
 		en: "Pikipek",
 		fr: "Picassaut",

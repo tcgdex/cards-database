@@ -28,7 +28,9 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shellnado Spin"
+			en: "Shellnado Spin",
+			es: "Giro Caparazón",
+			'es-mx': "Tornado Acorazado"
 		},
 
 		cost: ["Psychic", "Psychic", "Psychic"],
@@ -36,7 +38,9 @@ const card: Card = {
 		damage: 180,
 
 		effect: {
-			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), place 12 damage counters on the attacking Pokémon"
+			en: "During your opponent's next turn, if this Pokémon is damaged by an attack (even if this Pokémon is Knocked Out), place 12 damage counters on the attacking Pokémon",
+			es: "Durante el próximo turno de tu rival, si este Pokémon resulta dañado por un ataque (incluso si queda Fuera de Combate), pon 12 contadores de daño en el Pokémon Atacante.",
+			'es-mx': "Durante el próximo turno de tu rival, si este Pokémon recibe daño de un ataque (incluso si queda Fuera de Combate), pon 12 contadores de daño en el Pokémon Atacante."
 		}
 	}],
 

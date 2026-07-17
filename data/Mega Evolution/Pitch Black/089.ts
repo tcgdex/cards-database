@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It discharges electricity from its mane. The Pokémon creates a thundercloud overhead from which to drop lightning bolts."
+	},
+
 	name: {
 		en: "Manectric",
 		fr: "Élecsprint",

@@ -23,7 +23,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Thunderous Fist"
+			en: "Thunderous Fist",
+			de: "Donnerfäuste"
 		},
 
 		cost: ["Lightning"],
@@ -31,11 +32,13 @@ const card: Card = {
 		damage: "60x",
 
 		effect: {
-			en: "This attack does 60 damage for each Lightning Energy attached to this Pokémon."
+			en: "This attack does 60 damage for each Lightning Energy attached to this Pokémon.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {L}-Energie 60 Schadenspunkte zu."
 		}
 	}, {
 		name: {
-			en: "Zepto Turn"
+			en: "Zepto Turn",
+			de: "Zepto-Drehung"
 		},
 
 		cost: ["Lightning", "Lightning", "Lightning"],
@@ -43,7 +46,8 @@ const card: Card = {
 		damage: 150,
 
 		effect: {
-			en: "Switch this Pokémon with one of your Benched Pokémon."
+			en: "Switch this Pokémon with one of your Benched Pokémon.",
+			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 		}
 	}],
 

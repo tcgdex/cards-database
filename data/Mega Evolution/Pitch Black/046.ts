@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "By spinning its body, it can dig straight through the ground at a speed of 30 mph."
+	},
+
 	name: {
 		en: "Drilbur",
 		fr: "Rototaupe",

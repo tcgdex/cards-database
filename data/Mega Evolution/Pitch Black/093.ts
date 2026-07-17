@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Bastiodon live in herds. When assaulted by enemies, they line up side by side and use their hard faces to block attacks."
+	},
+
 	name: {
 		en: "Bastiodon",
 		fr: "Bastiodon",

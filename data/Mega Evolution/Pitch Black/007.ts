@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+		de: "Es lebt in vulkanischen Höhlen. Mit seinen kreuzförmigen Klauen kann es sogar an der Decke laufen."
+	},
+
 	name: {
 		en: "Heatran",
 		fr: "Heatran",
@@ -22,17 +27,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Singe"
+			en: "Singe",
+			de: "Versengung"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned"
+			en: "Your opponent's Active Pokémon is now Burned",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt."
 		}
 	}, {
 		name: {
-			en: "Lava Wall"
+			en: "Lava Wall",
+			de: "Lavawand"
 		},
 
 		cost: ["Fire", "Fire", "Colorless"],
@@ -40,7 +48,8 @@ const card: Card = {
 		damage: 120,
 
 		effect: {
-			en: "During your next turn, this Pokémon will receive no damage from attacks by your opponent's Burned Pokémon"
+			en: "During your next turn, this Pokémon will receive no damage from attacks by your opponent's Burned Pokémon",
+			de: "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von verbrannten Pokémon zugefügt wird."
 		}
 	}],
 

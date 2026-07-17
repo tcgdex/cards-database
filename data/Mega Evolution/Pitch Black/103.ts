@@ -28,7 +28,10 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Undermine"
+			en: "Undermine",
+			es: "Horadar",
+			'es-mx': "Minería",
+			de: "Untergraben"
 		},
 
 		cost: ["Metal", "Metal"],
@@ -36,11 +39,17 @@ const card: Card = {
 		damage: 90,
 
 		effect: {
-			en: "Discard the top 2 cards of your opponent's deck"
+			en: "Discard the top 2 cards of your opponent's deck",
+			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
+			'es-mx': "Descarta las primeras 2 cartas del mazo de tu rival.",
+			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		name: {
-			en: "Maximum Drilling"
+			en: "Maximum Drilling",
+			es: "Perforación Total",
+			'es-mx': "Taladrado Total",
+			de: "Maximalbohrer"
 		},
 
 		cost: ["Metal", "Metal"],
@@ -48,7 +57,10 @@ const card: Card = {
 		damage: "200+",
 
 		effect: {
-			en: "If you have at least 2 extra Energy attached to this Pokémon, this attack does 130 more damage"
+			en: "If you have at least 2 extra Energy attached to this Pokémon, this attack does 130 more damage",
+			es: "Si este Pokémon tiene por lo menos 2 Energías adicionales unidas (además de las del coste de este ataque), este ataque hace 130 puntos de daño más.",
+			'es-mx': "Si este Pokémon tiene al menos 2 Energías adicionales unidas (además de las del costo de este ataque), este ataque hace 130 puntos de daño más.",
+			de: "Wenn an dieses Pokémon mindestens 2 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 130 Schadenspunkte mehr zu."
 		}
 	}],
 

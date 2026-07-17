@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests."
+	},
+
 	name: {
 		en: "Bronzong",
 		fr: "Archéodong",

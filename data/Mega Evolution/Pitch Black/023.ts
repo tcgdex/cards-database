@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It stores static electricity in its fur for discharging. This Pokémon's whole body gives off sparks if a storm approaches."
+	},
+
 	name: {
 		en: "Electrike",
 		fr: "Dynavolt",

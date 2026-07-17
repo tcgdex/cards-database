@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns."
+	},
+
 	name: {
 		en: "Litwick",
 		fr: "Funécire",
@@ -22,7 +26,9 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			en: "Will-O-Wisp",
+			es: "Fuego Fatuo",
+			'es-mx': "Fuego Fatuo"
 		},
 
 		cost: ["Psychic"],

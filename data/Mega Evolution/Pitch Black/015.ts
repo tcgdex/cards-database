@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
+		de: "Es prustet Meerwasser aus den Nasenlöchern, die über seinen Augen liegen. Außerdem frisst es täglich eine Tonne Lusardin."
+	},
+
 	name: {
 		en: "Wailmer",
 		fr: "Wailmer",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			de: "Aquaknarre"
 		},
 
 		cost: ["Water", "Water"],
@@ -30,7 +36,8 @@ const card: Card = {
 		damage: 40
 	}, {
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			de: "Wellenplatscher"
 		},
 
 		cost: ["Water", "Water", "Water"],

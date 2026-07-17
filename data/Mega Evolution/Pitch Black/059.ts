@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
+		de: "Der Neid, der sich in Krummjuwelen sammelte, die viel Streit heraufbeschworen, hüllte sich in Feuer und wurde zu diesem Pokémon."
+	},
+
 	name: {
 		en: "Chi-Yu",
 		fr: "Yuyu",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Whirling Envy"
+			en: "Whirling Envy",
+			de: "Wirbelnder Neid"
 		},
 
 		cost: ["Darkness"],
@@ -30,7 +36,8 @@ const card: Card = {
 		damage: "20+",
 
 		effect: {
-			en: "If this Pokémon has 2 or more damage counters on it, this attack does 90 more damage. Don't apply Weakness for this attack's damage."
+			en: "If this Pokémon has 2 or more damage counters on it, this attack does 90 more damage. Don't apply Weakness for this attack's damage.",
+			de: "Wenn auf diesem Pokémon 2 oder mehr Schadensmarken liegen, fügt diese Attacke 90 Schadenspunkte mehr zu. Der Schaden dieser Attacke wird durch Schwäche nicht verändert."
 		}
 	}],
 

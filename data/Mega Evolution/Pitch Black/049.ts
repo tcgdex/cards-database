@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases."
+	},
+
 	name: {
 		en: "Vullaby",
 		fr: "Vostourno",

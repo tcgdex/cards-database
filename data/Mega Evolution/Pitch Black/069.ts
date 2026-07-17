@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It was modeled after a mighty Pokémon of myth. The mask placed upon it limits its power in order to keep it under control.",
+		de: "Typ:Null ist eine künstliche Nachbildung eines Pokémon aus einer alten Sage. Die Maske dient dazu, seine Kräfte unter Kontrolle zu halten."
+	},
+
 	name: {
 		en: "Type: Null",
 		fr: "Type:0",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Power Edge"
+			en: "Power Edge",
+			de: "Kraftklinge"
 		},
 
 		cost: ["Colorless", "Colorless"],

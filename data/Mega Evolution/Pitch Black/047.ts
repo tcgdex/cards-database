@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists."
+	},
+
 	name: {
 		en: "Koraidon",
 		fr: "Koraidon",

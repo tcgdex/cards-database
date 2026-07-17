@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+		de: "Mit dem entzündlichen Gas in seinem Körper erzeugt es Hitze. Die gelben Stellen an seinem Bauch werden besonders heiß."
+	},
+
 	name: {
 		en: "Sizzlipede",
 		fr: "Grillepattes",
@@ -22,17 +27,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Controlled Burn"
+			en: "Controlled Burn",
+			de: "Brandrodung"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Discard the top card from your opponent's deck"
+			en: "Discard the top card from your opponent's deck",
+			de: "Lege die oberste Karte des Decks deines Gegners auf seinen Ablagestapel."
 		}
 	}, {
 		name: {
-			en: "Bug Out"
+			en: "Bug Out",
+			de: "Käferkomplott"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -40,7 +48,8 @@ const card: Card = {
 		damage: "50x",
 
 		effect: {
-			en: "Reveal the bottom 7 cards of your deck. This attack does 50 damage for each Pokémon with the Bug Panic move. Shuffle the Pokémon cards back into your deck and discard the other cards."
+			en: "Reveal the bottom 7 cards of your deck. This attack does 50 damage for each Pokémon with the Bug Panic move. Shuffle the Pokémon cards back into your deck and discard the other cards.",
+			de: "Zeige deinem Gegner die untersten 7 Karten deines Decks, und diese Attacke fügt für jedes Pokémon, das du dort findest und das die Attacke Käferkomplott hat, 50 Schadenspunkte zu. Mische anschließend alle gezeigten Pokémon zurück in dein Deck. Lege die anderen Karten auf deinen Ablagestapel."
 		}
 	}],
 

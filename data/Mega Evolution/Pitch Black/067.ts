@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "When it encounters foes, it launches the many seeds stored in its beak in a radial burst.",
+		de: "Trifft es auf Feinde, feuert es eine Salve Samen, die es in seinem Schnabel angesammelt hat, auf sie ab."
+	},
+
 	name: {
 		en: "Trumbeak",
 		fr: "Piclairon",
@@ -27,7 +32,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fly"
+			en: "Fly",
+			de: "Fliegen"
 		},
 
 		cost: ["Colorless"],
@@ -35,7 +41,8 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn."
+			en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
 		}
 	}],
 

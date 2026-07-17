@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief."
+	},
+
 	name: {
 		en: "Spiritomb",
 		fr: "Spiritomb",

@@ -18,7 +18,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	effect: {
-		en: "While attached to a Pokémon, this card provides 1 Lightning Energy. Attacks used by the Lightning Pokémon this card is attached to deal 20 more damage to your opponent's Active Pokémon."
+		en: "While attached to a Pokémon, this card provides 1 Lightning Energy. Attacks used by the Lightning Pokémon this card is attached to deal 20 more damage to your opponent's Active Pokémon.",
+		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {L}-Energie.\n\nDie eingesetzten Attacken des {L}-Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
 	variants: [

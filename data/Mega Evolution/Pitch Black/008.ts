@@ -28,17 +28,20 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Trick Portal"
+			en: "Trick Portal",
+			de: "Trickportal"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Look at the top 9 cards of your deck. You may choose any number of Pokemon you find there and put them onto your Bench. Shuffle the other cards back into your deck."
+			en: "Look at the top 9 cards of your deck. You may choose any number of Pokemon you find there and put them onto your Bench. Shuffle the other cards back into your deck.",
+			de: "Schau dir die obersten 9 Karten deines Decks an. Du kannst beliebig viele Pokémon, die du dort findest, auf deine Bank legen. Mische die anderen Karten zurück in dein Deck."
 		}
 	}, {
 		name: {
-			en: "Eerie Glow"
+			en: "Eerie Glow",
+			de: "Gruselglühen"
 		},
 
 		cost: ["Fire", "Colorless", "Colorless"],
@@ -46,7 +49,8 @@ const card: Card = {
 		damage: 200,
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned and Confused."
+			en: "Your opponent's Active Pokémon is now Burned and Confused.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
 		}
 	}],
 

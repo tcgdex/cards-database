@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "An attached Shellder won't let go because of the tasty flavor that oozes out of Slowbro's tail.",
+		de: "Das Muschas an seiner Rute lässt nicht locker, da ein leckerer Geschmack aus dieser strömt."
+	},
+
 	name: {
 		en: "Slowbro",
 		fr: "Flagadoss",
@@ -27,7 +32,10 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "All Out"
+			en: "All Out",
+			es: "A por Todas",
+			'es-mx': "Sin Más",
+			de: "Aufs Ganze gehen"
 		},
 
 		cost: ["Psychic"],
@@ -35,11 +43,17 @@ const card: Card = {
 		damage: "50+",
 
 		effect: {
-			en: "If you have no cards in your hand, this attack does 160 more damage."
+			en: "If you have no cards in your hand, this attack does 160 more damage.",
+			es: "Si no tienes ninguna carta en tu mano, este ataque hace 160 puntos de daño más.",
+			'es-mx': "Si no tienes ninguna carta en tu mano, este ataque hace 160 puntos de daño más.",
+			de: "Wenn du keine Karten auf deiner Hand hast, fügt diese Attacke 160 Schadenspunkte mehr zu."
 		}
 	}, {
 		name: {
-			en: "Zen Headbutt"
+			en: "Zen Headbutt",
+			es: "Cabezazo Zen",
+			'es-mx': "Cabezazo Zen",
+			de: "Zen-Kopfstoß"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],

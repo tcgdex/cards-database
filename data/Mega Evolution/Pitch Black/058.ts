@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family."
+	},
+
 	name: {
 		en: "Mabosstiff",
 		fr: "Dogrino",

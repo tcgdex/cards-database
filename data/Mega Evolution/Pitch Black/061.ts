@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This Pokémon lived in primeval jungles. It's thought that Shieldon had few enemies thanks to its sturdy face.",
+		de: "Man nimmt an, dass es dank seines gepanzerten Gesichts kaum Feinde hatte. Es lebte vor Urzeiten im Dschungel."
+	},
+
 	name: {
 		en: "Shieldon",
 		fr: "Dinoclier",
@@ -27,7 +32,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Smithereen Smash"
+			en: "Smithereen Smash",
+			de: "Splitterschlag"
 		},
 
 		cost: ["Metal", "Colorless"],
@@ -35,7 +41,8 @@ const card: Card = {
 		damage: 50,
 
 		effect: {
-			en: "Discard 1 Energy from your opponent's Active Pokémon."
+			en: "Discard 1 Energy from your opponent's Active Pokémon.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 

@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer.",
+		de: "Seine Brust-, Rücken- und Schwanzflossen bewegen sich anmutig. Daher nennt man es den „Wassertänzer\"."
+	},
+
 	name: {
 		en: "Goldeen",
 		fr: "Poissirène",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce"
+			en: "Pierce",
+			de: "Durchbohren"
 		},
 
 		cost: ["Colorless", "Colorless"],

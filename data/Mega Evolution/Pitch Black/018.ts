@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The balloons it inflates with its nose grow larger and larger as it practices day by day.",
+		de: "Dank seines täglichen Trainings gelingt es ihm, mit seiner Nase immer größere Blasen zu erzeugen."
+	},
+
 	name: {
 		en: "Popplio",
 		fr: "Otaquin",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			en: "Pound",
+			de: "Klaps"
 		},
 
 		cost: ["Water"],

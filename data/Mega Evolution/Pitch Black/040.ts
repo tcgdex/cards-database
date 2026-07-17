@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "By slipping into the shadow of a martial arts master and copying their movements, this Pokémon learned the ultimate techniques.",
+		de: "Es schlüpfte in den Schatten eines Meisters des Faustkampfes und imitierte dessen Bewegungen. So lernte es ultimative Geheimtechniken."
+	},
+
 	name: {
 		en: "Marshadow",
 		fr: "Marshadow",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shadowy Knot"
+			en: "Shadowy Knot",
+			de: "Schattenknoten"
 		},
 
 		cost: ["Psychic"],
@@ -30,7 +36,8 @@ const card: Card = {
 		damage: "30x",
 
 		effect: {
-			en: "This attack does 30 damage for each Energy in your opponent's Active Pokémon's Retreat Cost."
+			en: "This attack does 30 damage for each Energy in your opponent's Active Pokémon's Retreat Cost.",
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte zu."
 		}
 	}],
 

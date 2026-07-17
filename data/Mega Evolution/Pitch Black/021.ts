@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole."
+	},
+
 	name: {
 		en: "Finizen",
 		fr: "Dofin",

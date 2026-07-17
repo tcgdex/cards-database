@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Many Trainers give their Fomantis their own flowerpots so they can sunbathe in peace and quiet.",
+		de: "Viele Trainer geben Imantis einen eigenen Blumentopf, damit es ungestört sonnenbaden kann."
+	},
+
 	name: {
 		en: "Fomantis",
 		fr: "Mimantis",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Reckless Charge"
+			en: "Reckless Charge",
+			de: "Waghalsiger Sturmangriff"
 		},
 
 		cost: ["Grass"],
@@ -30,7 +36,8 @@ const card: Card = {
 		damage: 30,
 
 		effect: {
-			en: "This Pokémon also does 10 damage to itself"
+			en: "This Pokémon also does 10 damage to itself",
+			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		}
 	}],
 

@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
+		de: "Dank seiner steinharten Schuppen und mit Fett gefüllten Schwimmblasen kann es dem Wasserdruck der Tiefsee standhalten."
+	},
+
 	name: {
 		en: "Relicanth",
 		fr: "Relicanth",
@@ -22,7 +27,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fossil Beatdown"
+			en: "Fossil Beatdown",
+			de: "Fossile Abreibung"
 		},
 
 		cost: ["Colorless"],
@@ -30,7 +36,8 @@ const card: Card = {
 		damage: "10+",
 
 		effect: {
-			en: "This attack does 30 more damage for each of your Benched Pokémon with \"Antique\" in its name."
+			en: "This attack does 30 more damage for each of your Benched Pokémon with \"Antique\" in its name.",
+			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, bei dem „Antikes\" oder „Antiker\" zum Namen gehört, 30 Schadenspunkte mehr zu."
 		}
 	}],
 

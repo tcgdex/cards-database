@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Also known as a songstress, it is a sight to behold on moonlit nights when it sings in front of the colony it leads."
+	},
+
 	name: {
 		en: "Primarina",
 		fr: "Oratoria",

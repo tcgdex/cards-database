@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing."
+	},
+
 	name: {
 		en: "Jynx",
 		fr: "Lippoutou",

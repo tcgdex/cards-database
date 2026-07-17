@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants."
+	},
+
 	name: {
 		en: "Malamar",
 		fr: "Sepiatroce",

@@ -19,7 +19,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	effect: {
-		en: "Draw a card for each of your opponent's Mega Evolution Pokémon ex in play."
+		en: "Draw a card for each of your opponent's Mega Evolution Pokémon ex in play.",
+		de: "Ziehe 1 Karte für jedes Mega-Entwicklungs-Pokémon-ex deines Gegners im Spiel.\n\nDu kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	variants: [

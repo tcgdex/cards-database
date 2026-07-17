@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It drains foes' will to fight by flashing light at them. It then takes the opportunity to hide itself away."
+	},
+
 	name: {
 		en: "Inkay",
 		fr: "Sepiatop",

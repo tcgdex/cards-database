@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Lampent appears at the moment of death and promptly absorbs the spirit as it leaves the body."
+	},
+
 	name: {
 		en: "Lampent",
 		fr: "Mélancolux",
@@ -27,13 +31,17 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Spreading Light"
+			en: "Spreading Light",
+			es: "Dispersión Lumínica",
+			'es-mx': "Luz Expansiva"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "Put up to 3 Lampent from your deck onto your Bench, then shuffle your deck."
+			en: "Put up to 3 Lampent from your deck onto your Bench, then shuffle your deck.",
+			es: "Busca en tu baraja hasta 3 Lampent y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'es-mx': "Busca en tu mazo hasta 3 Lampent y ponlos en tu Banca. Después, baraja tu mazo."
 		}
 	}],
 

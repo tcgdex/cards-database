@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+		de: "Im Herbst legt es an Gewicht zu und erscheint in prächtigen Farben, um so einen Partner anzulocken."
+	},
+
 	name: {
 		en: "Seaking",
 		fr: "Poissoroy",
@@ -27,13 +32,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hydro Jet"
+			en: "Hydro Jet",
+			de: "Hydrostrahl"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your Benched Pokémon for each Water Energy attached to this Pokémon"
+			en: "This attack does 30 damage to 1 of your Benched Pokémon for each Water Energy attached to this Pokémon",
+			de: "Diese Attacke fügt 1 Pokémon deines Gegners für jede an dieses Pokémon angelegte {W}-Energie 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}],
 

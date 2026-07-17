@@ -4,6 +4,10 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "They are found in ancient tombs. The patterns on their backs are said to be imbued with mysterious power."
+	},
+
 	name: {
 		en: "Bronzor",
 		fr: "Archéomire",

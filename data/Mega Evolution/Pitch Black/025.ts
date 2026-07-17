@@ -4,6 +4,11 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "As it digests fallen leaves, it generates and stores electricity, which it can discharge from the tips of its jaws.",
+		de: "Gefressenes Laub verwandelt Akkup während der Verdauung in Strom, den es speichert. Über die Spitzen an seinem Kiefer entlädt es ihn dann."
+	},
+
 	name: {
 		en: "Charjabug",
 		fr: "Chrysapile",
@@ -27,7 +32,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Vise Grip"
+			en: "Vise Grip",
+			de: "Klammer"
 		},
 
 		cost: ["Lightning"],
@@ -35,7 +41,8 @@ const card: Card = {
 		damage: 30
 	}, {
 		name: {
-			en: "Ram"
+			en: "Ram",
+			de: "Ramme"
 		},
 
 		cost: ["Lightning", "Lightning"],

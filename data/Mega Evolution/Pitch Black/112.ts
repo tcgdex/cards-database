@@ -19,7 +19,8 @@ const card: Card = {
 	regulationMark: "J",
 
 	effect: {
-		en: "You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn. Discard 1 Energy from 1 of your opponent's Pokémon."
+		en: "You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn. Discard 1 Energy from 1 of your opponent's Pokémon.",
+		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\n\nLege 1 Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel.\n\nDu kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	variants: [
