@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Dinoclier",
 		es: "Shieldon",
 		'es-mx': "Shieldon",
-		de: "Schilterus"
+		de: "Schilterus",
+		it: "Shieldon",
+		pt: "Shieldon"
 	},
 
 	illustrator: "Kurata So",
@@ -27,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Smithereen Smash"
+			en: "Smithereen Smash",
+			fr: "Pulvérisation",
+			es: "Machaque",
+			'es-mx': "Aplastamiento Total",
+			de: "Splitterschlag",
+			it: "Frammentazione",
+			pt: "Pancada Estilhaçante"
 		},
 
 		cost: ["Metal", "Colorless"],
@@ -35,7 +43,13 @@ const card: Card = {
 		damage: 50,
 
 		effect: {
-			en: "Discard 1 Energy from your opponent's Active Pokémon."
+			en: "Discard an Energy from your opponent's Active Pokémon.",
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			es: "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			'es-mx': "Descarta 1 Energía del Pokémon Activo de tu rival.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta un'Energia dal Pokémon attivo del tuo avversario.",
+			pt: "Descarte uma Energia do Pokémon Ativo do seu oponente."
 		}
 	}],
 

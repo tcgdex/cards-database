@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Charbambin",
 		es: "Charcadet",
 		'es-mx': "Charcadet",
-		de: "Knarbon"
+		de: "Knarbon",
+		it: "Charcadet",
+		pt: "Charcadet"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Best Punch"
+			en: "Best Punch",
+			fr: "Coup de Poing Ultime",
+			es: "Mejor Puñetazo",
+			'es-mx': "Puño Supremo",
+			de: "Bester Schlag",
+			it: "Migliorpugno",
+			pt: "Soco Absoluto"
 		},
 
 		cost: ["Fire"],
@@ -30,7 +38,13 @@ const card: Card = {
 		damage: 40,
 
 		effect: {
-			en: "Flip a coin. If tails, this attack does nothing."
+			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
+			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
 		}
 	}],
 

@@ -9,10 +9,12 @@ const card: Card = {
 		fr: "Dofin",
 		es: "Finizen",
 		'es-mx': "Finizen",
-		de: "Normifin"
+		de: "Normifin",
+		it: "Finizen",
+		pt: "Finizen"
 	},
 
-	illustrator: "Yukiko baba",
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [963],
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Draining Fin"
+			en: "Draining Fin",
+			fr: "Aileron Siphon",
+			es: "Aleta Drenaje",
+			'es-mx': "Aleta Drenadora",
+			de: "Diebesflosse",
+			it: "Assorbipinna",
+			pt: "Barbatana Drenante"
 		},
 
 		cost: ["Water", "Water"],
@@ -30,7 +38,13 @@ const card: Card = {
 		damage: 20,
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon"
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soignez 20 dégâts de ce Pokémon.",
+			es: "Cura 20 puntos de daño a este Pokémon.",
+			'es-mx': "Cura 20 puntos de daño a este Pokémon.",
+			de: "Heile 20 Schadenspunkte bei diesem Pokémon.",
+			it: "Cura questo Pokémon da 20 danni.",
+			pt: "Cure 20 pontos de dano deste Pokémon."
 		}
 	}],
 

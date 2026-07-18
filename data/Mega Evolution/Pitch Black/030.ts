@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Flagadoss",
 		es: "Slowbro",
 		'es-mx': "Slowbro",
-		de: "Lahmus"
+		de: "Lahmus",
+		it: "Slowbro",
+		pt: "Slowbro"
 	},
 
 	illustrator: "CHORISO",
@@ -27,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "All Out"
+			en: "All Out",
+			fr: "À Fond",
+			es: "A por Todas",
+			'es-mx': "Sin Más",
+			de: "Aufs Ganze gehen",
+			it: "A Tutta Forza",
+			pt: "Esgotado"
 		},
 
 		cost: ["Psychic"],
@@ -35,11 +43,23 @@ const card: Card = {
 		damage: "50+",
 
 		effect: {
-			en: "If you have no cards in your hand, this attack does 160 more damage."
+			en: "If you have no cards in your hand, this attack does 160 more damage.",
+			fr: "Si vous n'avez aucune carte dans votre main, cette attaque inflige 160 dégâts supplémentaires.",
+			es: "Si no tienes ninguna carta en tu mano, este ataque hace 160 puntos de daño más.",
+			'es-mx': "Si no tienes ninguna carta en tu mano, este ataque hace 160 puntos de daño más.",
+			de: "Wenn du keine Karten auf deiner Hand hast, fügt diese Attacke 160 Schadenspunkte mehr zu.",
+			it: "Se non hai carte in mano, questo attacco infligge 160 danni in più.",
+			pt: "Se você não tiver cartas na sua mão, este ataque causará 160 pontos de dano a mais."
 		}
 	}, {
 		name: {
-			en: "Zen Headbutt"
+			en: "Zen Headbutt",
+			fr: "Psykoud'Boul",
+			es: "Cabezazo Zen",
+			'es-mx': "Cabezazo Zen",
+			de: "Zen-Kopfstoß",
+			it: "Cozzata Zen",
+			pt: "Cabeçada Zen"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"],

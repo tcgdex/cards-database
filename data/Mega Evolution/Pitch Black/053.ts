@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Goupilou",
 		es: "Nickit",
 		'es-mx': "Nickit",
-		de: "Kleptifux"
+		de: "Kleptifux",
+		it: "Nickit",
+		pt: "Nickit"
 	},
 
 	illustrator: "Krgc",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gnaw"
+			en: "Gnaw",
+			fr: "Ronge",
+			es: "Roer",
+			'es-mx': "Mordisquear",
+			de: "Nagen",
+			it: "Rosicchiamento",
+			pt: "Roída"
 		},
 
 		cost: ["Darkness"],
@@ -30,7 +38,13 @@ const card: Card = {
 		damage: 10
 	}, {
 		name: {
-			en: "Rear Kick"
+			en: "Rear Kick",
+			fr: "Ruade",
+			es: "Patada Trasera",
+			'es-mx': "Patada Trasera",
+			de: "Rückwärtskick",
+			it: "Retrocalcio",
+			pt: "Chute Traseiro"
 		},
 
 		cost: ["Darkness", "Colorless"],

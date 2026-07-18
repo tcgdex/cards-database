@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Poissirène",
 		es: "Goldeen",
 		'es-mx': "Goldeen",
-		de: "Goldini"
+		de: "Goldini",
+		it: "Goldeen",
+		pt: "Goldeen"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce"
+			en: "Pierce",
+			fr: "Transpercement",
+			es: "Perforar",
+			'es-mx': "Perforar",
+			de: "Durchbohren",
+			it: "Perforare",
+			pt: "Perfurar"
 		},
 
 		cost: ["Colorless", "Colorless"],

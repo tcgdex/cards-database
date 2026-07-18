@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Dynavolt",
 		es: "Electrike",
 		'es-mx': "Electrike",
-		de: "Frizelbliz"
+		de: "Frizelbliz",
+		it: "Electrike",
+		pt: "Electrike"
 	},
 
 	illustrator: "Dsuke",
@@ -22,17 +24,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte",
+			es: "Coleccionar",
+			'es-mx': "Recolectar",
+			de: "Sammeln",
+			it: "Tassa",
+			pt: "Coleta"
 		},
 
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Draw a card"
+			en: "Draw a card.",
+			fr: "Piochez une carte.",
+			es: "Roba 1 carta.",
+			'es-mx': "Roba 1 carta.",
+			de: "Ziehe 1 Karte.",
+			it: "Pesca una carta.",
+			pt: "Compre uma carta."
 		}
 	}, {
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge",
+			es: "Placaje",
+			'es-mx': "Tacleada",
+			de: "Tackle",
+			it: "Azione",
+			pt: "Investida"
 		},
 
 		cost: ["Lightning", "Lightning"],

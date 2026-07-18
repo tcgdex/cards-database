@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Funécire",
 		es: "Litwick",
 		'es-mx': "Litwick",
-		de: "Lichtel"
+		de: "Lichtel",
+		it: "Litwick",
+		pt: "Litwick"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			en: "Will-O-Wisp",
+			fr: "Feu Follet",
+			es: "Fuego Fatuo",
+			'es-mx': "Fuego Fatuo",
+			de: "Irrlicht",
+			it: "Fuocofatuo",
+			pt: "Fogo Fátuo"
 		},
 
 		cost: ["Psychic"],

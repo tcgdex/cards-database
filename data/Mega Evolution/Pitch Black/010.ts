@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Scolocendre",
 		es: "Centiskorch",
 		'es-mx': "Centiskorch",
-		de: "Infernopod"
+		de: "Infernopod",
+		it: "Centiskorch",
+		pt: "Centiskorch"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -27,17 +29,35 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Controlled Burn"
+			en: "Controlled Burn",
+			fr: "Feu Contrôlé",
+			es: "Fuego Controlado",
+			'es-mx': "Quema Controlada",
+			de: "Brandrodung",
+			it: "Incendio Preventivo",
+			pt: "Fogo Controlado"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "Discard the top 2 cards from your opponent's deck"
+			en: "Discard the top 2 cards of your opponent's deck.",
+			fr: "Défaussez les 2 cartes du dessus du deck de votre adversaire.",
+			es: "Descarta las 2 primeras cartas de la baraja de tu rival.",
+			'es-mx': "Descarta las primeras 2 cartas del mazo de tu rival.",
+			de: "Lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel.",
+			it: "Scarta le prime due carte del mazzo del tuo avversario.",
+			pt: "Descarte as 2 cartas de cima do baralho do seu oponente."
 		}
 	}, {
 		name: {
-			en: "Heat Tackle"
+			en: "Heat Tackle",
+			fr: "Charge Énergétique",
+			es: "Placaje Ardiente",
+			'es-mx': "Tacleada Ígnea",
+			de: "Hitze-Tackle",
+			it: "Calorazione",
+			pt: "Golpe de Colisão Aquecido"
 		},
 
 		cost: ["Fire", "Colorless", "Colorless", "Colorless"],
@@ -45,7 +65,13 @@ const card: Card = {
 		damage: 160,
 
 		effect: {
-			en: "This Pokémon also does 30 damage to itself"
+			en: "This Pokémon also does 30 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 30 dégâts.",
+			es: "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			de: "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			it: "Questo Pokémon infligge anche 30 danni a se stesso.",
+			pt: "Este Pokémon também causa 30 pontos de dano a si mesmo."
 		}
 	}],
 

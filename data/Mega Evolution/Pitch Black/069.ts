@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Type:0",
 		es: "Código Cero",
 		'es-mx': "Código Cero",
-		de: "Typ:Null"
+		de: "Typ:Null",
+		it: "Tipo Zero",
+		pt: "Tipo Nulo"
 	},
 
 	illustrator: "Ligton",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Power Edge"
+			en: "Power Edge",
+			fr: "Lame Redoutable",
+			es: "Filo Poderoso",
+			'es-mx': "Filo Poderoso",
+			de: "Kraftklinge",
+			it: "Colpotente",
+			pt: "Gume Poderoso"
 		},
 
 		cost: ["Colorless", "Colorless"],

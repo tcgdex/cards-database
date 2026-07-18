@@ -7,9 +7,12 @@ const card: Card = {
 	name: {
 		en: "Dark Bell",
 		fr: "Cloche Ténébreuse",
-		es: "Campana Oscura",
+		es: "Campanilla Oscuridad",
 		'es-mx': "Campanilla Oscuridad",
-		de: "Düsterglocke"
+		de: "Düsterglocke",
+		'es-mx': "Campana Oscura",
+		it: "Campanella Oscura",
+		pt: "Sino Sombrio"
 	},
 
 	illustrator: "Toyste Beach",
@@ -19,7 +22,13 @@ const card: Card = {
 	regulationMark: "J",
 
 	effect: {
-		en: "Both Active Pokémon (except any Darkness type Pokémon) are now Confused."
+		en: "Both Active non-{D} Pokémon are now Confused.",
+		fr: "Les deux Pokémon non-{D} Actifs sont maintenant Confus.",
+		es: "Cualquier Pokémon Activo que no sea de tipo {D} pasa a estar Confundido.",
+		'es-mx': "Cualquier Pokémon Activo que no sea de tipo {D} ahora está Confundido.",
+		de: "Jedes Aktive Pokémon, das kein {D}-Pokémon ist, ist jetzt verwirrt.",
+		it: "Entrambi i Pokémon attivi non di tipo {D} vengono confusi.",
+		pt: "Qualquer Pokémon Ativo que não seja de tipo {D} agora está Confuso."
 	},
 
 	variants: [
