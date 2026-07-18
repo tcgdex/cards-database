@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Colossinge",
 		es: "Primeape",
 		'es-mx': "Primeape",
-		de: "Rasaff"
+		de: "Rasaff",
+		it: "Primeape",
+		pt: "Primeape"
 	},
 
 	illustrator: "GOSSAN",
@@ -27,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Corkscrew Punch"
+			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon",
+			es: "Puño Tirabuzón",
+			'es-mx': "Puño Sacacorchos",
+			de: "Korkenzieherhieb",
+			it: "Pugno Rotante",
+			pt: "Soco Saca-rolha"
 		},
 
 		cost: ["Colorless", "Colorless"],

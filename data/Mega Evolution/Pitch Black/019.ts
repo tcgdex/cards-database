@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Otarlette",
 		es: "Brionne",
 		'es-mx': "Brionne",
-		de: "Marikeck"
+		de: "Marikeck",
+		it: "Brionne",
+		pt: "Brionne"
 	},
 
 	illustrator: "MINAMINAMI Take",
@@ -27,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice"
+			en: "Hyper Voice",
+			fr: "Mégaphone",
+			es: "Vozarrón",
+			'es-mx': "Hipervoz",
+			de: "Schallwelle",
+			it: "Granvoce",
+			pt: "Hipervoz"
 		},
 
 		cost: ["Water"],

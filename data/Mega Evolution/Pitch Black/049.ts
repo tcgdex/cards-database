@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Vostourno",
 		es: "Vullaby",
 		'es-mx': "Vullaby",
-		de: "Skallyk"
+		de: "Skallyk",
+		it: "Vullaby",
+		pt: "Vullaby"
 	},
 
 	illustrator: "Shiburingaru",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Flap"
+			en: "Flap",
+			fr: "Battement",
+			es: "Aleteo",
+			'es-mx': "Aleteo",
+			de: "Flattern",
+			it: "Alabattito",
+			pt: "Asa"
 		},
 
 		cost: ["Darkness"],
@@ -30,7 +38,13 @@ const card: Card = {
 		damage: 10
 	}, {
 		name: {
-			en: "Gust"
+			en: "Gust",
+			fr: "Tornade",
+			es: "Tornado",
+			'es-mx': "Ráfaga de Aire",
+			de: "Windstoß",
+			it: "Raffica",
+			pt: "Lufada de Vento"
 		},
 
 		cost: ["Darkness", "Colorless"],

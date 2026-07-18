@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Férosinge",
 		es: "Mankey",
 		'es-mx': "Mankey",
-		de: "Menki"
+		de: "Menki",
+		it: "Mankey",
+		pt: "Mankey"
 	},
 
 	illustrator: "Yuka Morii",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Low Sweep"
+			en: "Low Kick",
+			fr: "Balayage",
+			es: "Patada Baja",
+			'es-mx': "Patada Baja",
+			de: "Fußkick",
+			it: "Colpo Basso",
+			pt: "Rasteira"
 		},
 
 		cost: ["Colorless"],

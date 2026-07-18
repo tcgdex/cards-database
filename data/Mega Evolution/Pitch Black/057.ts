@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Grondogue",
 		es: "Maschiff",
 		'es-mx': "Maschiff",
-		de: "Mobtiff"
+		de: "Mobtiff",
+		it: "Maschiff",
+		pt: "Maschiff"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure",
+			es: "Mordisco",
+			'es-mx': "Mordida",
+			de: "Biss",
+			it: "Morso",
+			pt: "Mordida"
 		},
 
 		cost: ["Darkness", "Darkness"],

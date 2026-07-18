@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Chrysapile",
 		es: "Charjabug",
 		'es-mx': "Charjabug",
-		de: "Akkup"
+		de: "Akkup",
+		it: "Charjabug",
+		pt: "Charjabug"
 	},
 
 	illustrator: "Kazuhisa Uragami",
@@ -27,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Vise Grip"
+			en: "Vise Grip",
+			fr: "Force Poigne",
+			es: "Agarre",
+			'es-mx': "Fuerza de Garra",
+			de: "Klammer",
+			it: "Presa",
+			pt: "Agarramento Compressor"
 		},
 
 		cost: ["Lightning"],
@@ -35,7 +43,13 @@ const card: Card = {
 		damage: 30
 	}, {
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision",
+			es: "Apisonar",
+			'es-mx': "Colisión",
+			de: "Ramme",
+			it: "Carica",
+			pt: "Aríete"
 		},
 
 		cost: ["Lightning", "Lightning"],

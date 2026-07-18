@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Wailmer",
 		es: "Wailmer",
 		'es-mx': "Wailmer",
-		de: "Wailmer"
+		de: "Wailmer",
+		it: "Wailmer",
+		pt: "Wailmer"
 	},
 
 	illustrator: "Asako Ito",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Gun"
+			en: "Water Gun",
+			fr: "Pistolet à O",
+			es: "Pistola Agua",
+			'es-mx': "Chorro de Agua",
+			de: "Aquaknarre",
+			it: "Pistolacqua",
+			pt: "Revólver d'Água"
 		},
 
 		cost: ["Water", "Water"],
@@ -30,7 +38,13 @@ const card: Card = {
 		damage: 40
 	}, {
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague",
+			es: "Chapoteo Ondulante",
+			'es-mx': "Acuasalpicadura",
+			de: "Wellenplatscher",
+			it: "Schizzi d'Onda",
+			pt: "Onda Borrifante"
 		},
 
 		cost: ["Water", "Water", "Water"],

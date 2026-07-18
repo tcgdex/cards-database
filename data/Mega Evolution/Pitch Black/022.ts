@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Superdofin",
 		es: "Palafin",
 		'es-mx': "Palafin",
-		de: "Delfinator"
+		de: "Delfinator",
+		it: "Palafin",
+		pt: "Palafin"
 	},
 
 	illustrator: "satoma",
@@ -27,7 +29,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Knuckle Justice"
+			en: "Knuckle Justice",
+			fr: "Poing Justice",
+			es: "Nudillo Justiciero",
+			'es-mx': "Nudillos Justicieros",
+			de: "Faustrecht",
+			it: "Pugno della Giustizia",
+			pt: "Punho da Justiça"
 		},
 
 		cost: ["Water", "Water"],
@@ -35,7 +43,13 @@ const card: Card = {
 		damage: "80+",
 
 		effect: {
-			en: "If your opponent has exactly 1 Prize card remaining, this attack does 200 more damage"
+			en: "If your opponent has exactly 1 Prize card remaining, this attack does 200 more damage.",
+			fr: "S'il reste exactement une carte Récompense à votre adversaire, cette attaque inflige 200 dégâts supplémentaires.",
+			es: "Si a tu rival le queda exactamente una carta de Premio, este ataque hace 200 puntos de daño más.",
+			'es-mx': "Si a tu rival le queda exactamente 1 carta de Premio, este ataque hace 200 puntos de daño más.",
+			de: "Wenn dein Gegner genau 1 verbleibende Preiskarte hat, fügt diese Attacke 200 Schadenspunkte mehr zu.",
+			it: "Se il tuo avversario ha esattamente una carta Premio rimanente, questo attacco infligge 200 danni in più.",
+			pt: "Se o seu oponente tiver exatamente 1 carta de Prêmio restante, este ataque causará 200 pontos de dano a mais."
 		}
 	}],
 

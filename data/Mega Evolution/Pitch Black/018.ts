@@ -9,7 +9,9 @@ const card: Card = {
 		fr: "Otaquin",
 		es: "Popplio",
 		'es-mx': "Popplio",
-		de: "Robball"
+		de: "Robball",
+		it: "Popplio",
+		pt: "Popplio"
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -22,7 +24,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face",
+			es: "Destructor",
+			'es-mx': "Destructor",
+			de: "Klaps",
+			it: "Botta",
+			pt: "Pancada"
 		},
 
 		cost: ["Water"],
