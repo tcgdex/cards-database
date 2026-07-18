@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Hippowdon"
 	},
 
+	evolveFrom: {
+		en: "Hippopotas",
+		fr: "Hippopotas",
+		es: "Hippopotas",
+		'es-mx': "Hippopotas",
+		de: "Hippopotas",
+		it: "Hippopotas",
+		pt: "Hippopotas",
+	},
+
 	illustrator: "Souichirou Gunjima",
 	rarity: "Uncommon",
 	category: "Pokemon",
