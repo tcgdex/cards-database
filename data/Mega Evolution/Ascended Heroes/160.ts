@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Dragapult ex"
 	},
 
+	evolveFrom: {
+		en: "Drakloak",
+		fr: "Dispareptil",
+		es: "Drakloak",
+		'es-mx': "Drakloak",
+		de: "Phandra",
+		it: "Drakloak",
+		pt: "Drakloak",
+	},
+
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",

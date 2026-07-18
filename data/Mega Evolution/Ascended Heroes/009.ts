@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Bayleef"
 	},
 
+	evolveFrom: {
+		en: "Chikorita",
+		fr: "Germignon",
+		es: "Chikorita",
+		'es-mx': "Chikorita",
+		de: "Endivie",
+		it: "Chikorita",
+		pt: "Chikorita",
+	},
+
 	illustrator: "Tomomi Ozaki",
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Dragonair"
 	},
 
+	evolveFrom: {
+		en: "Dratini",
+		fr: "Minidraco",
+		es: "Dratini",
+		'es-mx': "Dratini",
+		de: "Dratini",
+		it: "Dratini",
+		pt: "Dratini",
+	},
+
 	illustrator: "Gemi",
 	rarity: "Uncommon",
 	category: "Pokemon",
