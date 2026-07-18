@@ -13,6 +13,15 @@ const card: Card = {
 		pt: "Drifblim"
 	},
 
+	evolveFrom: {
+		en: "Drifloon",
+		fr: "Baudrive",
+		de: "Driftlon",
+		it: "Drifloon",
+		es: "Drifloon",
+		pt: "Drifloon",
+	},
+
 	illustrator: "Shimaris Yukichi",
 	rarity: "Promo",
 	category: "Pokemon",
