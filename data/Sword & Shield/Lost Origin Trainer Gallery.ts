@@ -1,8 +1,8 @@
 import { Set } from '../../interfaces'
 import serie from '../Sword & Shield'
 
-const swsh115tg: Set = {
-	id: "swsh11.5tg",
+const swsh11tg: Set = {
+	id: "swsh11tg",
 
 	name: {
 		en: "Lost Origin Trainer Gallery",
@@ -27,4 +27,4 @@ const swsh115tg: Set = {
 	}
 }
 
-export default swsh115tg
+export default swsh11tg
