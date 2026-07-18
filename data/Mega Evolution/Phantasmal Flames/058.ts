@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Honchkrow"
 	},
 
+	evolveFrom: {
+		en: "Murkrow",
+		fr: "Cornèbre",
+		es: "Murkrow",
+		'es-mx': "Murkrow",
+		de: "Kramurx",
+		it: "Murkrow",
+		pt: "Murkrow",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Lombre"
 	},
 
+	evolveFrom: {
+		en: "Lotad",
+		fr: "Nénupiot",
+		es: "Lotad",
+		'es-mx': "Lotad",
+		de: "Loturzel",
+		it: "Lotad",
+		pt: "Lotad",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

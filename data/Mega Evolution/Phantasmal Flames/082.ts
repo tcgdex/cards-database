@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Linoone"
 	},
 
+	evolveFrom: {
+		en: "Zigzagoon",
+		fr: "Zigzaton",
+		es: "Zigzagoon",
+		'es-mx': "Zigzagoon",
+		de: "Zigzachs",
+		it: "Zigzagoon",
+		pt: "Zigzagoon",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

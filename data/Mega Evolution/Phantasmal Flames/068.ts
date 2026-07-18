@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Toxtricity"
 	},
 
+	evolveFrom: {
+		en: "Toxel",
+		fr: "Toxizap",
+		es: "Toxel",
+		'es-mx': "Toxel",
+		de: "Toxel",
+		it: "Toxel",
+		pt: "Toxel",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 
