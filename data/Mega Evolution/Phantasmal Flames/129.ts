@@ -30,7 +30,7 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	illustrator: "Yuu Nishida",
+	illustrator: "Atsushi Furusawa",
 	variants: [
 		{
 			type: 'holo',
