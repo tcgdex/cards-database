@@ -75,7 +75,7 @@ const card: Card = {
 		en: "As it scatters toxic sweat and emits electricity, a melody that sounds like it came from a guitar reverberates through the surrounding area.",
 	},
 
-	illustrator: "DOM",
+	illustrator: "Terada Tera",
 	variants: [
 		{
 			type: 'holo',
