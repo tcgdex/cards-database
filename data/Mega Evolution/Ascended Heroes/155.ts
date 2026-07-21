@@ -87,6 +87,22 @@ const card: Card = {
 		}
 	},
 	{
+		type: "normal",
+		stamp: ["pokemon-center"],
+		thirdParty: {
+			cardmarket: 894179,
+			tcgplayer: 704446
+		}
+	},
+	{
+		type: "holo",
+		stamp: ["pokemon-center"],
+		thirdParty: {
+			cardmarket: 894178,
+			tcgplayer: 704447
+		}
+	},
+	{
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
