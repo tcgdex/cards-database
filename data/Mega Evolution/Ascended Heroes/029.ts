@@ -77,7 +77,7 @@ const card: Card = {
 	},
 	{
 		type: "reverse",
-		foil: "cosomos",
+		foil: "cosmos",
 		thirdParty: {
 			cardmarket: 878075,
 			tcgplayer: 681895
