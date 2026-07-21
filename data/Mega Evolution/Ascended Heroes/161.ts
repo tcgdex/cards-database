@@ -94,7 +94,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870387,
+			cardmarket: 870388,
 			tcgplayer: 677118
 		}
 	},
@@ -102,7 +102,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870388,
+			cardmarket: 870387,
 			tcgplayer: 676978
 		}
 	},

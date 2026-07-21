@@ -91,7 +91,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870381,
+			cardmarket: 870382,
 			tcgplayer: 676975
 		}
 	},
@@ -99,7 +99,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870382,
+			cardmarket: 870381,
 			tcgplayer: 677115
 		}
 	},
