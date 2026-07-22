@@ -19,6 +19,9 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fighting"],
+	stage: "Stage1",
+	dexId: [448],
+
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
@@ -27,8 +30,6 @@ const card: Card = {
 		es: "Riolu",
 		pt: "Riolu"
 	},
-	stage: "Stage1",
-	dexId: [448],
 
 	attacks: [{
 		cost: ["Fighting"],

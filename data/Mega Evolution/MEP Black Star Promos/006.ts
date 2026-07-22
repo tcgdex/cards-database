@@ -21,6 +21,15 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [426],
 
+	evolveFrom: {
+		en: "Drifloon",
+		fr: "Baudrive",
+		es: "Drifloon",
+		it: "Drifloon",
+		pt: "Drifloon",
+		de: "Driftlon"
+	},
+
 	attacks: [{
 		cost: ["Psychic"],
 
@@ -68,9 +77,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
 	variants: [
 		{
 			type: "holo",
+			foil: "cosmos",
 			thirdParty: {
 				cardmarket: 851052,
 				tcgplayer: 656256

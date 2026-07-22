@@ -19,6 +19,9 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 360,
 	types: ["Psychic"],
+	stage: "Stage2",
+	dexId: [282],
+
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
@@ -27,8 +30,6 @@ const card: Card = {
 		es: "Kirlia",
 		pt: "Kirlia"
 	},
-	stage: "Stage2",
-	dexId: [282],
 
 	attacks: [{
 		cost: ["Psychic"],
@@ -80,6 +81,11 @@ const card: Card = {
 	weaknesses: [{
 		type: "Darkness",
 		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
 	}],
 
 	variants: [

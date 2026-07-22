@@ -22,6 +22,16 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [65],
 
+	evolveFrom: {
+		en: "Kadabra",
+		fr: "Kadabra",
+		de: "Kadabra",
+		it: "Kadabra",
+		es: "Kadabra",
+		pt: "Kadabra",
+		'es-mx': "Kadabra"
+	},
+
 	abilities: [{
 		type: "Ability",
 
@@ -73,19 +83,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
 	variants: [
 		{
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 851047
+				cardmarket: 851047,
+				tcgplayer: 654597
 			}
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 851048
+				cardmarket: 851048,
+				tcgplayer: 656385
 			}
 		},
 	],

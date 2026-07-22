@@ -14,11 +14,23 @@ const card: Card = {
 		pt: "Flygon"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
+	dexId: [330],
+
+	evolveFrom: {
+		en: "Vibrava",
+		fr: "Vibraninf",
+		es: "Vibrava",
+		it: "Vibrava",
+		pt: "Vibrava",
+		de: "Vibrava"
+		'es-mx': "Vibrava",
+	},
 
 	abilities: [{
 		type: "Ability",
@@ -63,21 +75,26 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	illustrator: "Oswaldo KATO",
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
 
     variants: [
     	{
     		type: "holo",
     		stamp: ["set-logo"],
     		thirdParty: {
-    			cardmarket: 857396
+    			cardmarket: 857396,
+    			tcgplayer: 663191
     		}
     	},
     	{
     		type: "holo",
     		stamp: ["set-logo","staff"],
     		thirdParty: {
-    			cardmarket: 859016
+    			cardmarket: 859016,
+    			tcgplayer: 663192
     		}
     	},
     ],
