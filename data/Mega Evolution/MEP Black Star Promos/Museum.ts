@@ -20,23 +20,11 @@ const card: Card = {
 		cost: ["Lightning", "Lightning", "Lightning"],
 
 		name: {
-			en: "Thunderbolt",
-			fr: "Tonnerre",
-			es: "Rayo",
-			'es-mx': "Atactrueno",
-			de: "Donnerblitz",
-			it: "Fulmine",
-			pt: "Relâmpago"
+			en: "Thunderbolt"
 		},
 
 		effect: {
-			en: "Discard all Energy from this Pokémon.",
-			fr: "Défaussez toutes les Énergies de ce Pokémon.",
-			es: "Descarta todas las Energías de este Pokémon.",
-			'es-mx': "Descarta todas las Energías de este Pokémon.",
-			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
-			it: "Scarta tutte le Energie da questo Pokémon.",
-			pt: "Descarte todas as Energias deste Pokémon."
+			en: "Discard all Energy from this Pokémon."
 		},
 
 		damage: 100
@@ -44,11 +32,11 @@ const card: Card = {
        	cost: ["Colorless"],
 
        	name: {
-       		en: "The Best Collection!",
+       		en: "The Best Collection!"
        	},
 
 		effect: {
-			en: "Search your Pokémon TCG Collection for a Pokémon, reveal it, and put it into your hand.",
+			en: "Search your Pokémon TCG Collection for a Pokémon, reveal it, and put it into your hand."
 		}
    	}],
 
