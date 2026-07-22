@@ -52,14 +52,14 @@ const card: Card = {
 		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
 	},
 
-	thirdParty: {
-		cardmarket: 274023,
-		tcgplayer: 42551
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274023,
+				tcgplayer: 42551
+			}
 		}
 	]
 }
