@@ -19,20 +19,24 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei 'Kopf' suche eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 273922,
-		tcgplayer: 44463
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273922,
+				tcgplayer: 44463
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273922,
+				tcgplayer: 44463
+			}
 		},
 		{
 			type: "normal",
