@@ -32,6 +32,10 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["ace-trainer"]
+			thirdParty: {
+            	cardmarket: 850977,
+            	tcgplayer: 681244
+            }
 		},
 	],
 }

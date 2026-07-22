@@ -12,14 +12,6 @@ const card: Card = {
 		it: "Mega Emboar-ex",
 		pt: "Mega Emboar ex"
 	},
-	evolveFrom: {
-		en: "Pignite",
-		de: "Ferkokel",
-		es: "Pignite",
-		fr: "Grotichon",
-		it: "Pignite",
-		pt: "Pignite",
-	},
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
@@ -29,6 +21,15 @@ const card: Card = {
 	types: ["Fire"],
 	stage: "Stage2",
 	dexId: [500],
+
+	evolveFrom: {
+		en: "Pignite",
+		de: "Ferkokel",
+		es: "Pignite",
+		fr: "Grotichon",
+		it: "Pignite",
+		pt: "Pignite",
+	},
 
 	attacks: [{
 		cost: ["Fire", "Fire", "Colorless"],
@@ -71,9 +72,13 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			size: "jumbo"
-		},
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 873720,
+        		tcgplayer: 692116
+        	}
+        },
 	],
 }
 

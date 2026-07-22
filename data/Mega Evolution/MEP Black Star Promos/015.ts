@@ -14,12 +14,14 @@ const card: Card = {
 		pt: "Zacian"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [888],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Basic",
+	dexId: [888],
 
 	attacks: [{
 		cost: ["Psychic", "Colorless"],
@@ -49,21 +51,27 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-	illustrator: "Shiburingaru",
+
+	weaknesses: [{
+		type: "Metal",
+		value: "x2"
+	}],
 
     variants: [
     	{
     		type: "holo",
     		stamp: ["set-logo"],
     		thirdParty: {
-    			cardmarket: 857393
+    			cardmarket: 857393,
+    			tcgplayer: 663189
     		}
     	},
     	{
     		type: "holo",
     		stamp: ["set-logo","staff"],
     		thirdParty: {
-    			cardmarket: 859015
+    			cardmarket: 859015,
+    			tcgplayer: 663190
     		}
     	},
     ],

@@ -98,14 +98,16 @@ const card: Card = {
 			type: 'holo',
 			stamp: ['set-logo'],
 			thirdParty: {
-				cardmarket: 877543
+				cardmarket: 877543,
+				tcgplayer: 685494
 			}
 		},
 		{
 			type: 'holo',
 			stamp: ['set-logo', 'staff'],
 			thirdParty: {
-				cardmarket: 879303
+				cardmarket: 879303,
+				tcgplayer: 685498
 			}
 		},
 	],

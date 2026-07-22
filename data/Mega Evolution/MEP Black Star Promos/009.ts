@@ -32,6 +32,16 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [65],
 
+	evolveFrom: {
+		en: "Kadabra",
+		fr: "Kadabra",
+		de: "Kadabra",
+		it: "Kadabra",
+		es: "Kadabra",
+		pt: "Kadabra",
+		'es-mx': "Kadabra"
+	},
+
 	abilities: [{
 		type: "Ability",
 
@@ -82,6 +92,16 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
 
 	variants: [
 		{

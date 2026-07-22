@@ -46,9 +46,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Metal",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
+			foil: "cosmos",
 			thirdParty: {
 				cardmarket: 859021,
 				tcgplayer: 664051
