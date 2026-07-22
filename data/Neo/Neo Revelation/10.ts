@@ -89,18 +89,22 @@ const card: Card = {
 		fr: "Trois Magneti sont reliés par une puissante force magnétique. Vous risquez d'avoir mal aux oreilles si vous approchez de trop près."
 	},
 
-	thirdParty: {
-		cardmarket: 274596,
-		tcgplayer: 87092
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274596,
+				tcgplayer: 87092
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274596,
+				tcgplayer: 87092
+			}
 		}
 	]
 }
