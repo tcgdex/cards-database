@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte."
 	},
 
-	thirdParty: {
-		cardmarket: 273838,
-		tcgplayer: 45144
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273838,
+				tcgplayer: 45144
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273838,
+				tcgplayer: 45144
+			}
 		}
 	],
 }

@@ -90,18 +90,22 @@ const card: Card = {
 		fr: "L'os qu'il tient dans sa main est une arme. Il peut le lancer avec adresse pour assommer sa proie."
 	},
 
-	thirdParty: {
-		cardmarket: 273836,
-		tcgplayer: 45142
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273836,
+				tcgplayer: 45142
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273836,
+				tcgplayer: 45142
+			}
 		}
 	],
 }
