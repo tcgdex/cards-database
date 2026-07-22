@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Si vous vous laissez ensorceler par l'élégance de ses coups de pieds, vous risquez de vous faire perforer."
 	},
 
-	thirdParty: {
-		cardmarket: 274514,
-		tcgplayer: 86110
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274514,
+				tcgplayer: 86110
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274514,
+				tcgplayer: 86110
+			}
 		}
 	]
 }
