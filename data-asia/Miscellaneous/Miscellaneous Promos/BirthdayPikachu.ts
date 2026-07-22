@@ -59,10 +59,6 @@ const card: Card = {
 
   retreat: 1,
 
-  description: {
-    ja: "雷、氷、炎とそれぞれの属性の頂点にたつと言われる伝説の鳥ポケモンだ。"
-  },
-
   variants: [
     {
       type: 'normal',
