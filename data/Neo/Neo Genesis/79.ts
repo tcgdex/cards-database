@@ -66,18 +66,22 @@ const card: Card = {
 		fr: "Il frotte sa truffe sur le sol pour trouver et déterrer sa nourriture. Il découvre parfois des sources d'eau chaude."
 	},
 
-	thirdParty: {
-		cardmarket: 274479,
-		tcgplayer: 89698
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274479,
+				tcgplayer: 89698
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274479,
+				tcgplayer: 89698
+			}
 		}
 	]
 }

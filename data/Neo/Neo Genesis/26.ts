@@ -80,18 +80,22 @@ const card: Card = {
 		fr: "Sa queue est si puissante qu'il peut s'en servir pour attraper une branche d'arbre et se suspendre en l'air."
 	},
 
-	thirdParty: {
-		cardmarket: 274426,
-		tcgplayer: 83485
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274426,
+				tcgplayer: 83485
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274426,
+				tcgplayer: 83485
+			}
 		}
 	]
 }
