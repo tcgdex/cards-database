@@ -45,6 +45,7 @@ const card: Card = {
     {
       type: 'normal',
       size: 'jumbo',
+      stamp: ['pokemon-xd-gale-of-darkness'],
       thirdParty: {
         tcgplayer: 617391
       }
