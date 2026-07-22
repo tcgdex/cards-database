@@ -78,18 +78,22 @@ const card: Card = {
 		fr: "Quand la nuit tombe, les hurlements sinistres de ce Pokémon retentissent dans le silence tandis qu'il chasse sur son territoire."
 	},
 
-	thirdParty: {
-		cardmarket: 274695,
-		tcgplayer: 86219
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274695,
+				tcgplayer: 86219
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274695,
+				tcgplayer: 86219
+			}
 		}
 	]
 }

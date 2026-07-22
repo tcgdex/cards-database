@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Rien ne peut lui échapper une fois dans ses tentacules, qu'il utilise pour se défendre, mais aussi pour se nourrir."
 	},
 
-	thirdParty: {
-		cardmarket: 274671,
-		tcgplayer: 84635
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274671,
+				tcgplayer: 84635
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274671,
+				tcgplayer: 84635
+			}
 		}
 	]
 }

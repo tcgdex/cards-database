@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Il se déplace si vite qu'il est invisible à l'oeil nu. Même quand il est immobile, son camouflage lui permet de ne pas être vu."
 	},
 
-	thirdParty: {
-		cardmarket: 274707,
-		tcgplayer: 88995
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274707,
+				tcgplayer: 88995
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274707,
+				tcgplayer: 88995
+			}
 		}
 	]
 }

@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée."
 	},
 
-	thirdParty: {
-		cardmarket: 274716,
-		tcgplayer: 85342
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274716,
+				tcgplayer: 85342
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274716,
+				tcgplayer: 85342
+			}
 		}
 	]
 }
