@@ -1,0 +1,21 @@
+{
+  "name": "@tcgdex/schema",
+  "version": "0.0.0-demo",
+  "private": true,
+  "type": "module",
+  "description": "DEMO: schema-driven output types for V3, modeled on the current V2 shape",
+  "scripts": {
+    "emit:dts": "tsx build/emit-dts.ts",
+    "emit:openapi": "tsx build/emit-openapi.ts",
+    "validate:live": "tsx build/validate-live.ts",
+    "demo": "npm run emit:dts && npm run emit:openapi && npm run validate:live"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "0.32.34"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^15.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
