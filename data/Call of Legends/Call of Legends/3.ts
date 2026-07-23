@@ -52,14 +52,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {

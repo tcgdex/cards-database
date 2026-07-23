@@ -73,14 +73,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 4,
 
 	description: {

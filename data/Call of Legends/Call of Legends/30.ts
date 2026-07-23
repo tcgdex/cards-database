@@ -74,7 +74,6 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	retreat: 0,
 	resistances: [
 		{
@@ -82,7 +81,6 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.",
 	},

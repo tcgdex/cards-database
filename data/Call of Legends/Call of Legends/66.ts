@@ -66,14 +66,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {

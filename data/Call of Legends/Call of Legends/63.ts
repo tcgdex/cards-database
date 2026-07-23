@@ -45,14 +45,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {

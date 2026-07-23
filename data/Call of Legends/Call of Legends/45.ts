@@ -69,7 +69,6 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	retreat: 0,
 	resistances: [
 		{
@@ -77,7 +76,6 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
 	},

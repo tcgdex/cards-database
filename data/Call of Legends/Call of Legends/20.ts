@@ -52,14 +52,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
