@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		414,
-	],
+	dexId: [414],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -66,31 +64,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It loves the honey of flowers and steals honey collected by COMBEE."
 	},
 
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87581,
+				cardmarket: 278037
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87581,
+				cardmarket: 278037
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278037,
-		tcgplayer: 87581
-	}
 }
 
 export default card
