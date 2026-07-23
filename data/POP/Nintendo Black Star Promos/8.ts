@@ -58,13 +58,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-	
+
 	variants: [
 		{
-			type: 'holo',
-			stamp: ['pop-tournament'],
+			type: 'reverse',
 			thirdParty: {
-				tcgplayer: 90036
+				tcgplayer: 89948
 			}
 		}
 	]

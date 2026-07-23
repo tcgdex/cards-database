@@ -32,13 +32,18 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
 	variants: [
 		{
-			type: 'reverse',
+			type: 'normal',
+			stamp: ['winner'],
 			thirdParty: {
-				tcgplayer: 89948
+				tcgplayer: 84399
 			}
+		},
+		{
+			type: 'normal',
+			stamp: ['winner'],
+			size: 'jumbo',
 		}
 	]
 }
