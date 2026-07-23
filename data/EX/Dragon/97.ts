@@ -88,6 +88,13 @@ const card: Card = {
 				cardmarket: 275974
 			},
 		},
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477429,
+			},
+		},
 	],
 
 }
