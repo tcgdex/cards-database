@@ -67,7 +67,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 4,
@@ -93,7 +93,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["staff"],
+			stamp: [""],
 			thirdParty: {
 				tcgplayer: 213021,
 				cardmarket: 279676
