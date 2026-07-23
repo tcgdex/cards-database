@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Each players pays  less to retreat his or her  and  Pokémon.",
 	},
 
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",

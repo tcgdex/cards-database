@@ -93,7 +93,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: [""],
+			stamp: ["pre-release"],
 			thirdParty: {
 				tcgplayer: 239090,
 				cardmarket: 275909

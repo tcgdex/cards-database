@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Choose 1 of your Pokémon in play (excluding Pokémon-ex). Return that Pokémon and all cards attached to it to your hand.",
 	},
 
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",
