@@ -11,6 +11,13 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	trainerType: "Technical Machine",
+
+	effect: {
+		en: "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.",
+		fr: "Attachez cette carte à 1 des Pokémon que vous avez en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de ses attaques. À la fin de votre tour, défaussez Machine multi-technique 01."
+	},
+
 	attacks: [
 		{
 			cost: [
@@ -20,32 +27,11 @@ const card: Card = {
 				en: "Paralyzing Gaze",
 			},
 			effect: {
-				en: "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.",
+				en: "The Defending Pokémon is now Paralyzed.",
 			},
 		},
 	],
-	trainerType: "Technical Machine",
 
-	attacks: [{
-		name: {
-			en: "Paralyzing Gaze",
-			fr: "Regard paralysant"
-		},
-
-		effect: {
-			en: "The Defending Pokémon is now Paralyzed.",
-			fr: "Le Pokémon Défenseur est maintenant Paralysé."
-		},
-
-		cost: ["Colorless"]
-	}],
-
-	effect: {
-		en: "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card’s attack instead of its own. At the end of your turn, discard Multi Technical Machine 01.",
-		fr: "Attachez cette carte à 1 des Pokémon que vous avez en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de ses attaques. À la fin de votre tour, défaussez Machine multi-technique 01."
-	},
-
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",
