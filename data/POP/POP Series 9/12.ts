@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		427,
-	],
+	dexId: [427],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -50,7 +48,7 @@ const card: Card = {
 				fr: "Boul'Armure"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Buneary by attacks during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Buneary by attacks during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à Laporeille lors du prochain tour de votre adversaire."
 			},
 
@@ -63,7 +61,6 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
 		fr: "Il dresse les oreilles quand il sent le danger. Il dort la tête dans sa fourrure pendant les nuits froides."
@@ -71,17 +68,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84042,
+				cardmarket: 278563
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278563,
-		tcgplayer: 84042
-	}
 }
 
 export default card

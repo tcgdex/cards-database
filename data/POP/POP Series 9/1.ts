@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		445,
-	],
+	dexId: [445],
 
 	hp: 130,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien."
 			},
 
-			damage: 80
+			damage: 80,
 		},
 		{
 			cost: [
@@ -58,7 +56,7 @@ const card: Card = {
 				fr: "Jet Sword"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Défaussez deux Énergies attachées à Carchacrok. Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 100,
@@ -72,7 +70,6 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 0,
 
 	description: {
@@ -80,17 +77,16 @@ const card: Card = {
 		fr: "Il vole à la vitesse d'un avion à réaction et ne lâche jamais sa proie."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85622,
+				cardmarket: 278552
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278552,
-		tcgplayer: 85622
-	}
 }
 
 export default card
