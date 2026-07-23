@@ -58,11 +58,16 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
-
-
-
-
+	
+	variants: [
+		{
+			type: 'holo',
+			stamp: ['pop-tournament'],
+			thirdParty: {
+				tcgplayer: 90036
+			}
+		}
+	]
 }
 
 export default card
