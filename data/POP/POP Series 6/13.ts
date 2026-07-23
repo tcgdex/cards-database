@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		420,
-	],
+	dexId: [420],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -63,31 +61,28 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84260,
+				cardmarket: 277898
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277898,
-		tcgplayer: 84260
-	}
 }
 
 export default card

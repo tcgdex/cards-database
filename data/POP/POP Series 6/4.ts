@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		417,
-	],
+	dexId: [417],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -62,31 +60,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It makes fur balls that crackle with static electricity. It stores them with berries in tree holes."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87898,
+				cardmarket: 277889
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87898,
+				cardmarket: 277889
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277889,
-		tcgplayer: 87898
-	}
 }
 
 export default card
