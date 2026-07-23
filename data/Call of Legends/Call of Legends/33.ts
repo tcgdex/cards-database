@@ -88,15 +88,20 @@ const card: Card = {
 			type: "reverse",
 			thirdParty: {
 				tcgplayer: 89392,
-				cardmarket: 279676
 			},
 		},
 		{
 			type: "normal",
-			stamp: [""],
+			stamp: ["call-of-legends"],
 			thirdParty: {
 				tcgplayer: 213021,
-				cardmarket: 279676
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 213021,
 			},
 		},
 	],
