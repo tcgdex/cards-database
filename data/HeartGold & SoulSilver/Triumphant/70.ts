@@ -3,7 +3,7 @@ import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
+		en: "Nidoran ♂",
 		fr: "Nidoran♂",
 		de: "Nidoran m"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		32,
-	],
+	dexId: [32],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Giftpheromone"
 			},
 			effect: {
-				en: "If Nidoran♀ is on your Bench, the Defending Pokémon is now Poisoned.",
+				en: "If Nidoran ♀ is on your Bench, the Defending Pokémon is now Poisoned.",
 				fr: "Si Nidoran♀ est sur votre Banc, le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Wenn sich Nidoran♀ auf deiner Bank befindet, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
@@ -62,22 +60,30 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87729,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87729,
+			},
+		},
+	],
+
 }
 
 export default card

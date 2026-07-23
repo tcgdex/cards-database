@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		78,
-	],
+	dexId: [78],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Flammengeist"
 			},
 			effect: {
-				en: "Rapidash can’t be Confused.",
+				en: "Rapidash can't be Confused.",
 				fr: "Galopa ne peut pas être Confus.",
 				de: "Gallopa kann nicht verwirrt werden."
 			},
@@ -59,7 +57,7 @@ const card: Card = {
 				de: "Feuerring"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Burned and can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon is now Burned and can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé et ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon ist jetzt verbrannt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -71,27 +69,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88587,
+				cardmarket: 279538
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88587,
+				cardmarket: 279538
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279538,
-		tcgplayer: 88587
-	}
 }
 
 export default card

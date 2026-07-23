@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		337,
-	],
+	dexId: [337],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Finale"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent’s). (Don’t apply Weakness and Resistance for Benched Pokémon.) Lunatone does 60 damage to itself.",
+				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Lunatone does 60 damage to itself.",
 				fr: "Cette attaque inflige 10 dégâts à chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).(N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) Seleroc s’inflige 60 dégâts.",
 				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Lunastein fügt sich selbst 60 Schadenspunkte zu."
 			},
@@ -62,27 +60,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86928,
+				cardmarket: 279555
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86928,
+				cardmarket: 279555
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279555,
-		tcgplayer: 86928
-	}
 }
 
 export default card

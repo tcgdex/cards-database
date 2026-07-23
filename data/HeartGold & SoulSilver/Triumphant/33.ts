@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -63,34 +61,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85117,
+				cardmarket: 279563
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85117,
+				cardmarket: 279563
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279563,
-		tcgplayer: 85117
-	}
 }
 
 export default card

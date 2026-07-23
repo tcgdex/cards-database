@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		321,
-	],
+	dexId: [321],
 
 	hp: 180,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -73,27 +71,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
 		en: "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90461,
+				cardmarket: 279561
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90461,
+				cardmarket: 279561
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279561,
-		tcgplayer: 90461
-	}
 }
 
 export default card

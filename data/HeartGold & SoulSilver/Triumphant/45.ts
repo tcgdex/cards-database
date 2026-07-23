@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		30,
-	],
+	dexId: [30],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -68,27 +66,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87738,
+				cardmarket: 279575
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87738,
+				cardmarket: 279575
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279575,
-		tcgplayer: 87738
-	}
 }
 
 export default card

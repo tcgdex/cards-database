@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		334,
-	],
+	dexId: [334],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -72,34 +70,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 0,
 
 	description: {
 		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83518,
+				cardmarket: 279532
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83518,
+				cardmarket: 279532
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279532,
-		tcgplayer: 83518
-	}
 }
 
 export default card

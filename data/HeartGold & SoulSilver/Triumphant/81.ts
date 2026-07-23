@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		48,
-	],
+	dexId: [48],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Blutsauger"
 			},
 			effect: {
-				en: "Remove from Venomat the number of damage counters equal to the damage you did to the Definding Pokémon.",
+				en: "Remove from Venonat the number of damage counters equal to the damage you did to the Defending Pokémon.",
 				fr: "Retirez à Mimitoss un nombre de marqueurs de dégât équivalant aux dégâts que vous avez infligés au Pokémon Défenseur.",
 				de: "Entferne Schadensmarken von Bluzuk entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
 			},
@@ -63,27 +61,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90309,
+				cardmarket: 279611
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90309,
+				cardmarket: 279611
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279611,
-		tcgplayer: 90309
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		333,
-	],
+	dexId: [333],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -48,34 +46,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Its wings bring cottony clouds to mind. It grooms with springwater and loves to sit on heads."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89660,
+				cardmarket: 279608
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89660,
+				cardmarket: 279608
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279608,
-		tcgplayer: 89660
-	}
 }
 
 export default card

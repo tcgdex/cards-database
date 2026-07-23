@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		251,
-	],
+	dexId: [251],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Seher"
 			},
 			effect: {
-				en: "Look at the top 5 cards of either player’s deck and put them back on top of that player’s deck in any order.",
+				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
 				fr: "Regardez les 5 cartes du dessus d’un deck (le vôtre ou celui de votre adversaire) et replacez-les au-dessus du même deck dans n’importe quel ordre.",
 				de: "Schau dir die obersten 5 Karten eines Decks an und lege sie danach in beliebiger Reihenfolge wieder auf das Deck des Spielers zurück."
 			},
@@ -65,27 +63,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared."
 	},
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84147,
+				cardmarket: 279533
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84147,
+				cardmarket: 279533
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 276387,
+				cardmarket: 279533
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279533,
-		tcgplayer: 84147
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		314,
-	],
+	dexId: [314],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -56,7 +54,7 @@ const card: Card = {
 				fr: "Lancez une pièce pour chacun de vos Muciole en jeu. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf für jedes Volbeat, das du im Spiel hast, eine Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -64,27 +62,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86268,
+				cardmarket: 279594
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86268,
+				cardmarket: 279594
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279594,
-		tcgplayer: 86268
-	}
 }
 
 export default card

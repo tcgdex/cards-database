@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		462,
-	],
+	dexId: [462],
 
 	hp: 140,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Magnet-Zieher"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand. This power can’t be used if Magnezone is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may draw cards until you have 6 cards in your hand. This power can't be used if Magnezone is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher jusqu’à ce que vous ayez 6 cartes en main. Ce Poké-Power ne peut pas être utilisé si Magnézone est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du so viele Karten ziehen, bis du 6 Karten auf der Hand hast. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
 			},
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Placez autant de cartes Énergie attachées à vos Pokémon que vous le souhaitez dans la Zone Perdue. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez ainsi placées dans la Zone Perdue.",
 				de: "Lege beliebig viele Energiekarten, die an deinen Pokémon angelegt sind, ins Nirgendwo. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl aller so ins Nirgendwo gelegten Energiekarten zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -70,31 +68,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 	suffix: "Prime",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87118,
+				cardmarket: 279626
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279626,
-		tcgplayer: 87118
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		451,
-	],
+	dexId: [451],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -49,27 +47,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89276,
+				cardmarket: 279606
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89276,
+				cardmarket: 279606
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279606,
-		tcgplayer: 89276
-	}
 }
 
 export default card
