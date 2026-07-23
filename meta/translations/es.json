@@ -205,6 +205,8 @@
 		"semi-finalist": "semi-finalist",
 		"top-sixteen": "top-sixteen",
 		"top-thirty-two": "top-thirty-two",
+		"worlds-2004": "worlds-2004",
+		"worlds-2005": "worlds-2005",
 		"worlds-2008": "worlds-2008",
 		"worlds-2009": "worlds-2009",
 		"countdown-calendar": "countdown-calendar",
@@ -258,7 +260,8 @@
 		"asia-2023-24": "asia-2023-24",
 		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
-		"grey-star": "estrella gris"
+		"grey-star": "estrella gris",
+		"pop-tournament": "pop-tournament"
 	},
 	"variantSubtype": {
 		"shadowless": "sin sombra",
