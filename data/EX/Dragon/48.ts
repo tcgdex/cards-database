@@ -84,11 +84,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-
 	retreat: 2,
 
 	variants: [

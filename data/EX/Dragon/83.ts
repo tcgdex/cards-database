@@ -11,8 +11,8 @@ const card: Card = {
 	illustrator: "Katsura Tabata",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: 'Tool',
 	set: Set,
-	trainerType: "Pokémon Tool",
 
 	effect: {
 		en: "Attach Buffer Piece to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. Damage done to the Pokémon Buffer Piece is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance). At the end of your opponent's turn after you played Buffer Piece, discard Buffer Piece.",
@@ -20,7 +20,6 @@ const card: Card = {
 		de: "Damage done to the Pokémon Buffer Piece is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance). At the end of your opponent's turn after you played Buffer Piece, discard Buffer Piece."
 	},
 
-	retreat: 0,
 	variants: [
 		{
 			type: "normal",

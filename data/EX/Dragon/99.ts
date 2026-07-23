@@ -69,11 +69,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-
 	retreat: 1,
 
 

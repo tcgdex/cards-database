@@ -51,7 +51,7 @@ const card: Card = {
 				de: "Breaking Impact"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Colorless Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)"",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Colorless Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Énergie  de son Coût de retraite (après application des effets sur le Coût de retraite). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
 				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each  Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
@@ -62,11 +62,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-
 	retreat: 1,
 
 	variants: [

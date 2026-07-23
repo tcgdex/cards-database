@@ -71,11 +71,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-
 	retreat: 2,
 
 	variants: [
@@ -94,8 +92,8 @@ const card: Card = {
 			},
 		},
 		{
-			type: "holo",
-			stamp: ["pre-release"],
+			type: "normal",
+			stamp: [""],
 			thirdParty: {
 				tcgplayer: 239090,
 				cardmarket: 275909

@@ -34,7 +34,7 @@ const card: Card = {
 				de: "Freundesruf"
 			},
 			effect: {
-				en: "Search your deck for Grass Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward."",
+				en: "Search your deck for Grass Basic Pokémon and put as many of them as you like onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck des Pokémon de base  et placez-en autant que vous le voulez sur votre Banc. Ensuite, mélangez votre deck.",
 				de: "Durchsuche dein Deck nach -Basis-Pokémon-Karten und lege beliebig viele von ihnen auf deine Bank. Mische dein Deck danach."
 			},
@@ -62,11 +62,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-
 	retreat: 1,
 
 	variants: [
