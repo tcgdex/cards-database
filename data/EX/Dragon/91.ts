@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 160,
 
+	stage: "Basic",
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -87,16 +86,17 @@ const card: Card = {
 
 	retreat: 5,
 
-	thirdParty: {
-		tcgplayer: 85831,
-		cardmarket: 275968
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85831,
+				cardmarket: 275968
+			},
+		},
+	],
+
 }
 
 export default card

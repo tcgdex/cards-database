@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		82,
-	],
+	dexId: [82],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon (Magneton inclus).",
 				de: "Fügt für jede Energie, die an allen deinen Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -84,10 +82,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87100,
-		cardmarket: 275894
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87100,
+				cardmarket: 275894
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87100,
+				cardmarket: 275894
+			},
+		},
+	],
+
 }
 
 export default card

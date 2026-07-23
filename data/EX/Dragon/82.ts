@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
-	trainerType: "Tool",
+	trainerType: "Pokémon Tool",
 
 	effect: {
 		en: "Attach Balloon Berry to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. When the Pokémon Balloon Berry is attached to retreats, discard Balloon Berry instead of discarding Energy cards.",
@@ -20,10 +20,24 @@ const card: Card = {
 		de: "When the Pokémon Balloon Berry is attached to retreats, discard Balloon Berry instead of discarding Energy cards."
 	},
 
-	thirdParty: {
-		tcgplayer: 83708,
-		cardmarket: 275959
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83708,
+				cardmarket: 275959
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83708,
+				cardmarket: 275959
+			},
+		},
+	],
+
 }
 
 export default card

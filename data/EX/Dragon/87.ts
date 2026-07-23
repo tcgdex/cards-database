@@ -20,10 +20,24 @@ const card: Card = {
 		de: "Choose 1 of your Pokémon in play (excluding Pokémon-ex). Return that Pokémon and all cards attached to it to your hand.",
 	},
 
-	thirdParty: {
-		tcgplayer: 87585,
-		cardmarket: 275964
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87585,
+				cardmarket: 275964
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87585,
+				cardmarket: 275964
+			},
+		},
+	],
+
 }
 
 export default card

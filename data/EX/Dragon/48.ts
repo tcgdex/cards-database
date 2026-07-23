@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		340,
-	],
+	dexId: [340],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Submerge"
 			},
 			effect: {
-				en: "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by opponent's attacks.",
+				en: "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by your opponent's attacks.",
 				fr: "Tant que Barbicha est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques de votre adversaire.",
 				de: "As long as Whiscash is on your Bench, prevent all damage done to Whiscash by opponent's attacks."
 			},
@@ -93,10 +91,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 90574,
-		cardmarket: 275925
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90574,
+				cardmarket: 275925
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90574,
+				cardmarket: 275925
+			},
+		},
+	],
+
 }
 
 export default card

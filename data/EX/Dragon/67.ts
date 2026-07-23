@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		290,
-	],
+	dexId: [290],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -69,10 +67,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275944,
-		tcgplayer: 87757
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87757,
+				cardmarket: 275944
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87757,
+				cardmarket: 275944
+			},
+		},
+	],
+
 }
 
 export default card

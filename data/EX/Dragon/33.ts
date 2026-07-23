@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		116,
-	],
+	dexId: [116],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts pour chaque marqueur de dégât sur Hypotrempe.",
 				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff für jede Schadensmarke auf Seeper 10 Schadenspunkte zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -72,10 +70,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86188,
-		cardmarket: 275910
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86188,
+				cardmarket: 275910
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86188,
+				cardmarket: 275910
+			},
+		},
+	],
+
 }
 
 export default card

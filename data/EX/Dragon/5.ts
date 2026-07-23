@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hisao Nakamura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 120,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -83,19 +81,24 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		tcgplayer: 85826,
-		cardmarket: 275882
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85826,
+				cardmarket: 275882
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85826,
+				cardmarket: 275882
+			},
+		},
+	],
+
 }
 
 export default card

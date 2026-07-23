@@ -20,10 +20,24 @@ const card: Card = {
 		de: "Draw 3 cards. Then discard any 1 card from your hand.",
 	},
 
-	thirdParty: {
-		tcgplayer: 90083,
-		cardmarket: 275965
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90083,
+				cardmarket: 275965
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90083,
+				cardmarket: 275965
+			},
+		},
+	],
+
 }
 
 export default card
