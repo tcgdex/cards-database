@@ -57,6 +57,22 @@ const card: Card = {
 	],
 	retreat: 1,
 
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 88067
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['10th-anniversary'],
+			thirdParty: {
+				tcgplayer: 187219
+			}
+		}
+	]
+
 }
 
 export default card
