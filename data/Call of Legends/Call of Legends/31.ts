@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		227,
-	],
+	dexId: [227],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -79,10 +77,23 @@ const card: Card = {
 		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
 	},
 
-	thirdParty: {
-		cardmarket: 279674,
-		tcgplayer: 89243
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89243,
+				cardmarket: 279674
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89243,
+				cardmarket: 279674
+			},
+		},
+	],
+
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		383,
-	],
+	dexId: [383],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -61,10 +59,23 @@ const card: Card = {
 		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
 	},
 
-	thirdParty: {
-		cardmarket: 279643,
-		tcgplayer: 85925
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85925,
+				cardmarket: 279643
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85925,
+				cardmarket: 279643
+			},
+		},
+	],
+
 }
 
 export default card

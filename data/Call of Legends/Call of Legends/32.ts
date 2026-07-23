@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		199,
-	],
+	dexId: [199],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -80,10 +78,23 @@ const card: Card = {
 		en: "It has incredible intellect and intuition. Whatever the situation, it remains calm and collected.",
 	},
 
-	thirdParty: {
-		cardmarket: 279675,
-		tcgplayer: 89319
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89319,
+				cardmarket: 279675
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89319,
+				cardmarket: 279675
+			},
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		232,
-	],
+	dexId: [232],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -67,7 +65,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "70x",
+			damage: "70×",
 
 		},
 	],
@@ -92,10 +90,23 @@ const card: Card = {
 		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",
 	},
 
-	thirdParty: {
-		cardmarket: 279685,
-		tcgplayer: 84879
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84879,
+				cardmarket: 279685
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84879,
+				cardmarket: 279685
+			},
+		},
+	],
+
 }
 
 export default card

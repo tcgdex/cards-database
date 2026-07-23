@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		106,
-	],
+	dexId: [106],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -69,10 +67,23 @@ const card: Card = {
 		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
 	},
 
-	thirdParty: {
-		cardmarket: 279701,
-		tcgplayer: 86108
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86108,
+				cardmarket: 279701
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86108,
+				cardmarket: 279701
+			},
+		},
+	],
+
 }
 
 export default card

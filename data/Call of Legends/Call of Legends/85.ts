@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Regardez les 5 cartes du dessus de votre deck. Choisissez-en 2 et ajoutez-les à votre main. Défaussez les autres cartes.",
 	},
 
-	thirdParty: {
-		cardmarket: 279728,
-		tcgplayer: 88894
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88894,
+				cardmarket: 279728
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88894,
+				cardmarket: 279728
+			},
+		},
+	],
+
 }
 
 export default card

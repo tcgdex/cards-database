@@ -15,10 +15,20 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 279733,
-		tcgplayer: 90525
-	}
+	types: [
+		"Water"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90525,
+				cardmarket: 279733
+			},
+		},
+	],
+
 }
 
 export default card

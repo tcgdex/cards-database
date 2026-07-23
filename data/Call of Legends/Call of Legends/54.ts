@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		35,
-	],
+	dexId: [35],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Komprimator"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Clefairy by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn ,any damage done to Clefairy by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques durant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Piepi durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -70,10 +68,23 @@ const card: Card = {
 		en: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair.",
 	},
 
-	thirdParty: {
-		cardmarket: 279697,
-		tcgplayer: 84359
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84359,
+				cardmarket: 279697
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84359,
+				cardmarket: 279697
+			},
+		},
+	],
+
 }
 
 export default card

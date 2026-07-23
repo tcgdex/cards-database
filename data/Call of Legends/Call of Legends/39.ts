@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Schwerttanz"
 			},
 			effect: {
-				en: "During your next turn, Zangoose's Lost Claw attack's base damage is 60.",
+				en: "During your next turn, Zangoose's Lost Claw attack's base damage is 80.",
 				fr: "Pendant votre prochain tour, la Griffe perdue de Mangriff inflige 60 dégâts de base.",
 				de: "In deinem nächsten Zug beträgt der Grundschaden von Sengos Nirgendwo-Klaue 60 Schadenspunkte."
 			},
@@ -76,10 +74,23 @@ const card: Card = {
 		en: "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.",
 	},
 
-	thirdParty: {
-		cardmarket: 279682,
-		tcgplayer: 90708
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90708,
+				cardmarket: 279682
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90708,
+				cardmarket: 279682
+			},
+		},
+	],
+
 }
 
 export default card

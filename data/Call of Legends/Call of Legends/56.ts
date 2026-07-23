@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -68,10 +66,23 @@ const card: Card = {
 		en: "It has the ability to alter the composition of its body to suit its surrounding environment.",
 	},
 
-	thirdParty: {
-		cardmarket: 279699,
-		tcgplayer: 85089
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85089,
+				cardmarket: 279699
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85089,
+				cardmarket: 279699
+			},
+		},
+	],
+
 }
 
 export default card

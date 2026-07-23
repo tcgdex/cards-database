@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Cherchez une carte Évolution dans votre deck, montrez-la à votre adversaire, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
 	},
 
-	thirdParty: {
-		cardmarket: 279725,
-		tcgplayer: 88394
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88394,
+				cardmarket: 279725
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88394,
+				cardmarket: 279725
+			},
+		},
+	],
+
 }
 
 export default card

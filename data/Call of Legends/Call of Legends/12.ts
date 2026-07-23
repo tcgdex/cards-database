@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		382,
-	],
+	dexId: [382],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -60,10 +58,23 @@ const card: Card = {
 		en: "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
 	},
 
-	thirdParty: {
-		cardmarket: 279638,
-		tcgplayer: 86550
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86550,
+				cardmarket: 279638
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86550,
+				cardmarket: 279638
+			},
+		},
+	],
+
 }
 
 export default card

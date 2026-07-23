@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		79,
-	],
+	dexId: [79],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
+				en: "Whismy Tackle",
 				fr: "Charge bizarre",
 				de: "Launischer Tackle"
 			},
@@ -58,10 +56,23 @@ const card: Card = {
 		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
 	},
 
-	thirdParty: {
-		cardmarket: 279713,
-		tcgplayer: 89334
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89334,
+				cardmarket: 279713
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89334,
+				cardmarket: 279713
+			},
+		},
+	],
+
 }
 
 export default card

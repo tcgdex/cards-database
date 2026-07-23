@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		197,
-	],
+	dexId: [197],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Mondscheinfänge"
 			},
 			effect: {
-				en: "During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pokémon that has any Poké-Powers or Poké-Bodies.",
+				en: "During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pokémon than has any Poké-Powers or Poké-Bodies.",
 				fr: "Pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques (y compris les dégâts) infligés à Noctali par un Pokémon de votre adversaire possédant des Poké-Powers ou des Poké-Bodies.",
 				de: "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nachtara von gegnerischen Pokémon, die mindestens 1 Poké-Power oder Poké-Body haben, zugefügt würden."
 			},
@@ -88,10 +86,23 @@ const card: Card = {
 		en: "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
 	},
 
-	thirdParty: {
-		cardmarket: 279665,
-		tcgplayer: 90147
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90147,
+				cardmarket: 279665
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90147,
+				cardmarket: 279665
+			},
+		},
+	],
+
 }
 
 export default card

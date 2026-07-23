@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Regardez les 8 cartes du dessus de votre deck. Choisissez autant de cartes Énergie que vous le souhaitez, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez les autres cartes avec votre deck.",
 	},
 
-	thirdParty: {
-		cardmarket: 279722,
-		tcgplayer: 86287
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86287,
+				cardmarket: 279722
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86287,
+				cardmarket: 279722
+			},
+		},
+	],
+
 }
 
 export default card

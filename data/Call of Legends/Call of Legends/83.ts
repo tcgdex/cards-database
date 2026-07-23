@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
 	},
 
-	thirdParty: {
-		cardmarket: 279726,
-		tcgplayer: 88401
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88401,
+				cardmarket: 279726
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88401,
+				cardmarket: 279726
+			},
+		},
+	],
+
 }
 
 export default card

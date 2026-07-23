@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -80,10 +78,23 @@ const card: Card = {
 		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
 	},
 
-	thirdParty: {
-		cardmarket: 279647,
-		tcgplayer: 85324
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85324,
+				cardmarket: 279647
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85324,
+				cardmarket: 279647
+			},
+		},
+	],
+
 }
 
 export default card

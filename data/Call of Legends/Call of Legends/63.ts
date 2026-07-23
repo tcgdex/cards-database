@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		179,
-	],
+	dexId: [179],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -61,10 +59,23 @@ const card: Card = {
 		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
 	},
 
-	thirdParty: {
-		cardmarket: 279706,
-		tcgplayer: 87207
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87207,
+				cardmarket: 279706
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87207,
+				cardmarket: 279706
+			},
+		},
+	],
+
 }
 
 export default card

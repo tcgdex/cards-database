@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		122,
-	],
+	dexId: [122],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -57,7 +55,7 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -75,10 +73,23 @@ const card: Card = {
 		en: "Its fingertips emit a peculiar force field that hardens air to create an actual wall.",
 	},
 
-	thirdParty: {
-		cardmarket: 279672,
-		tcgplayer: 87594
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87594,
+				cardmarket: 279672
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87594,
+				cardmarket: 279672
+			},
+		},
+	],
+
 }
 
 export default card

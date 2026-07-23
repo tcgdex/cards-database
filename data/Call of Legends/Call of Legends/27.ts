@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		154,
-	],
+	dexId: [154],
 
 	hp: 130,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -89,10 +87,23 @@ const card: Card = {
 		en: "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
 	},
 
-	thirdParty: {
-		cardmarket: 279670,
-		tcgplayer: 87296
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87296,
+				cardmarket: 279670
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87296,
+				cardmarket: 279670
+			},
+		},
+	],
+
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		36,
-	],
+	dexId: [36],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				de: "Feenmacht"
 			},
 			effect: {
-				en: "Return 1 of your Pokémon and all cards attached to it to your hand.",
+				en: "Return 1 of your Pokémon and all cards attached to it in your hand.",
 				fr: "Reprenez un de vos Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
 				de: "Nimm 1 deiner Pokémon und alle an es angelegten Karten auf deine Hand zurück."
 			},
@@ -77,10 +75,23 @@ const card: Card = {
 		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
 	},
 
-	thirdParty: {
-		cardmarket: 279644,
-		tcgplayer: 84348
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84348,
+				cardmarket: 279644
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84348,
+				cardmarket: 279644
+			},
+		},
+	],
+
 }
 
 export default card

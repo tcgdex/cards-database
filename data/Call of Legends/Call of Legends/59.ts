@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		228,
-	],
+	dexId: [228],
 
 	hp: 50,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -65,10 +63,23 @@ const card: Card = {
 		en: "To corner prey, they check each other's location using barks that only they can understand.",
 	},
 
-	thirdParty: {
-		cardmarket: 279702,
-		tcgplayer: 86232
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86232,
+				cardmarket: 279702
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86232,
+				cardmarket: 279702
+			},
+		},
+	],
+
 }
 
 export default card

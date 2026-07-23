@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
 	},
 
-	thirdParty: {
-		cardmarket: 279720,
-		tcgplayer: 84428
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84428,
+				cardmarket: 279720
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84428,
+				cardmarket: 279720
+			},
+		},
+	],
+
 }
 
 export default card

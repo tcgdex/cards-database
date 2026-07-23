@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		249,
-	],
+	dexId: [249],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -83,10 +81,23 @@ const card: Card = {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
 	},
 
-	thirdParty: {
-		cardmarket: 279637,
-		tcgplayer: 86910
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86910,
+				cardmarket: 279637
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86910,
+				cardmarket: 279637
+			},
+		},
+	],
+
 }
 
 export default card

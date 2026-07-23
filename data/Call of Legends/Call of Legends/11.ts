@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		385,
-	],
+	dexId: [385],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -73,10 +71,23 @@ const card: Card = {
 		en: "Generations have believed that any wish written on a note on its head will come true when it awakens.",
 	},
 
-	thirdParty: {
-		cardmarket: 279654,
-		tcgplayer: 86331
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86331,
+				cardmarket: 279654
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86331,
+				cardmarket: 279654
+			},
+		},
+	],
+
 }
 
 export default card

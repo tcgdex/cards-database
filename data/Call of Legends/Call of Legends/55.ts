@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		155,
-	],
+	dexId: [155],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -58,10 +56,23 @@ const card: Card = {
 		en: "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
 	},
 
-	thirdParty: {
-		cardmarket: 279698,
-		tcgplayer: 84553
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84553,
+				cardmarket: 279698
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84553,
+				cardmarket: 279698
+			},
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [157],
 
 	hp: 130,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -79,10 +77,23 @@ const card: Card = {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
 	},
 
-	thirdParty: {
-		cardmarket: 279678,
-		tcgplayer: 90109
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90109,
+				cardmarket: 279678
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90109,
+				cardmarket: 279678
+			},
+		},
+	],
+
 }
 
 export default card

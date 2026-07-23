@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		447,
-	],
+	dexId: [447],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -58,10 +56,23 @@ const card: Card = {
 		en: "They communicate with one another using their auras. They are able to run all through the night.",
 	},
 
-	thirdParty: {
-		cardmarket: 279693,
-		tcgplayer: 88758
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88758,
+				cardmarket: 279693
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88758,
+				cardmarket: 279693
+			},
+		},
+	],
+
 }
 
 export default card

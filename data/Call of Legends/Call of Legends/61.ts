@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		129,
-	],
+	dexId: [129],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -54,10 +52,23 @@ const card: Card = {
 		en: "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump.",
 	},
 
-	thirdParty: {
-		cardmarket: 279704,
-		tcgplayer: 87035
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87035,
+				cardmarket: 279704
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87035,
+				cardmarket: 279704
+			},
+		},
+	],
+
 }
 
 export default card

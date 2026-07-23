@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		465,
-	],
+	dexId: [465],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -41,11 +39,11 @@ const card: Card = {
 				de: "Zermahlen"
 			},
 			effect: {
-				en: "Does 20 damage times the amount of Energy attached to Tangrowth.",
+				en: "Does 20 damage times the number of Energy attached to Tangrowth.",
 				fr: "Cette attaque inflige 20 dégâts multipliés par le nombre d’Énergies attachées à Bouldeneu.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Tangoloss angelegten Energien zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -89,10 +87,23 @@ const card: Card = {
 		en: "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
 	},
 
-	thirdParty: {
-		cardmarket: 279677,
-		tcgplayer: 89754
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89754,
+				cardmarket: 279677
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89754,
+				cardmarket: 279677
+			},
+		},
+	],
+
 }
 
 export default card

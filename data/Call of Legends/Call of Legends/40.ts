@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		153,
-	],
+	dexId: [153],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -81,10 +79,23 @@ const card: Card = {
 		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
 	},
 
-	thirdParty: {
-		cardmarket: 279683,
-		tcgplayer: 83749
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83749,
+				cardmarket: 279683
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83749,
+				cardmarket: 279683
+			},
+		},
+	],
+
 }
 
 export default card

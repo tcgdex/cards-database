@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "TOKIYA",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Bratblick"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may discard a Fire Energy from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie . Dans ce cas, piochez 3 cartes. Ce pouvoir ne peut pas être utilisé si Feunard est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten. Diese Poké-Power kann nicht benutzt werden, wenn Vulnona von einem Speziellen Zustand betroffen ist."
 			},
@@ -77,10 +75,23 @@ const card: Card = {
 		en: "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years.",
 	},
 
-	thirdParty: {
-		cardmarket: 279660,
-		tcgplayer: 87777
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87777,
+				cardmarket: 279660
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87777,
+				cardmarket: 279660
+			},
+		},
+	],
+
 }
 
 export default card

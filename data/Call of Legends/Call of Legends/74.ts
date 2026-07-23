@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		158,
-	],
+	dexId: [158],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -60,10 +58,23 @@ const card: Card = {
 		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
 	},
 
-	thirdParty: {
-		cardmarket: 279717,
-		tcgplayer: 90003
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90003,
+				cardmarket: 279717
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90003,
+				cardmarket: 279717
+			},
+		},
+	],
+
 }
 
 export default card

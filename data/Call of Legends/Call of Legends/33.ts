@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -79,10 +77,31 @@ const card: Card = {
 		en: "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground.",
 	},
 
-	thirdParty: {
-		cardmarket: 279676,
-		tcgplayer: 89392
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89392,
+				cardmarket: 279676
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89392,
+				cardmarket: 279676
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 213021,
+				cardmarket: 279676
+			},
+		},
+	],
+
 }
 
 export default card

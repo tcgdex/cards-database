@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		109,
-	],
+	dexId: [109],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -72,10 +70,23 @@ const card: Card = {
 		en: "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.",
 	},
 
-	thirdParty: {
-		cardmarket: 279703,
-		tcgplayer: 86499
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86499,
+				cardmarket: 279703
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86499,
+				cardmarket: 279703
+			},
+		},
+	],
+
 }
 
 export default card
