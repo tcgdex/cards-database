@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		324,
-	],
+	dexId: [324],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Amnésie"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.",
+				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez une des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
 			},
 
@@ -65,10 +63,16 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 277424,
-		tcgplayer: 89967
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89967,
+				cardmarket: 277424
+			},
+		},
+	],
+
 }
 
 export default card
