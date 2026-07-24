@@ -54,10 +54,18 @@ const card: Card = {
 		}
 	},
 	{
+		type: "holo",
+		stamp: ["pokemon-center"],
+		thirdParty: {
+			cardmarket: 894128,
+			tcgplayer: 704413
+		}
+	},
+	{
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870369,
+			cardmarket: 870370,
 			tcgplayer: 676969
 		}
 	},
@@ -65,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870370,
+			cardmarket: 870369,
 			tcgplayer: 677109
 		}
 	},

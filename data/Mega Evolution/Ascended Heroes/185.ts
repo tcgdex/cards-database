@@ -46,6 +46,14 @@ const card: Card = {
 			tcgplayer: 675997
 		}
 	},
+	{
+		type: "holo",
+		stamp: ["pokemon-center"],
+		thirdParty: {
+			cardmarket: 894203,
+			tcgplayer: 704401
+		}
+	},
 ],
 }
 
