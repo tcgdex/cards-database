@@ -42,6 +42,37 @@ function variantLabel(variant) {
   ].filter(Boolean).join(" · ");
 }
 
+function normalizeRecords(records, artifactName) {
+  const normalized = new Map();
+  for (const record of records) {
+    const key = `${record.entityType}|${record.sourceId}|${record.language}`;
+    const existing = normalized.get(key);
+    if (!existing) {
+      normalized.set(key, record);
+      continue;
+    }
+    if (JSON.stringify(existing.payload) === JSON.stringify(record.payload)) continue;
+
+    if (record.entityType === "variant") {
+      const existingComparable = { ...existing.payload, tcgplayerProductId: null };
+      const incomingComparable = { ...record.payload, tcgplayerProductId: null };
+      if (JSON.stringify(existingComparable) === JSON.stringify(incomingComparable)) {
+        normalized.set(key, {
+          ...existing,
+          payload: {
+            ...existing.payload,
+            tcgplayerProductId: existing.payload.tcgplayerProductId ?? record.payload.tcgplayerProductId ?? null,
+          },
+        });
+        continue;
+      }
+    }
+
+    throw new Error(`Conflicting duplicate record ${key} in ${artifactName}`);
+  }
+  return [...normalized.values()];
+}
+
 for (const language of LANGUAGES) {
   const languageSets = JSON.parse(await readFile(join(generatedDir, language, "sets.json"), "utf8"));
   const languageCards = JSON.parse(await readFile(join(generatedDir, language, "cards.json"), "utf8"));
@@ -138,10 +169,14 @@ async function writeArtifact(name, records) {
   };
 }
 
+const coreRecords = normalizeRecords([...sets.values(), ...cards.values()], "core");
+for (const language of LANGUAGES) {
+  localized.set(language, normalizeRecords(localized.get(language), language));
+}
 const files = [];
-files.push(await writeArtifact("core", [...sets.values(), ...cards.values()]));
+files.push(await writeArtifact("core", coreRecords));
 for (const language of LANGUAGES) files.push(await writeArtifact(language, localized.get(language)));
-const allRecords = [...sets.values(), ...cards.values(), ...LANGUAGES.flatMap((language) => localized.get(language))];
+const allRecords = [...coreRecords, ...LANGUAGES.flatMap((language) => localized.get(language))];
 const counts = Object.fromEntries(["set","set_localization","card","card_localization","variant"].map((entityType) => [
   entityType,
   allRecords.filter((record) => record.entityType === entityType).length,
@@ -169,4 +204,3 @@ const manifest = {
 };
 await writeFile(join(outputDir, "manifest.json"), JSON.stringify(manifest, null, 2));
 console.log(JSON.stringify({ outputDir, sourceSha, counts, files: files.length }));
-
