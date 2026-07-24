@@ -4,7 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Mystery Plate α",
-		de: "Geheimnis-Schild (Alpha)"
+		de: "Geheimnis-Schild α"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -28,7 +28,7 @@ const card: Card = {
 
 	effect: {
 		en: "Attach this card to 1 of your Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Mystery Plate α.",
-		de: "Lege diese Karte an 1 deiner Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges das Geheimnis-Schild (Alpha) auf deinen Ablagestapel."
+		de: "Lege diese Karte an 1 deiner Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges das Geheimnis-Schild α auf deinen Ablagestapel."
 	},
 
 	variants: [

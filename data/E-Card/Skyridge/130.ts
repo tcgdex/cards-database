@@ -30,7 +30,7 @@ const card: Card = {
 
 	effect: {
 		en: "Attach this card to 1 of your Evolved Fire, Water, or Psychic Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Miracle Sphere β.",
-		de: "Lege diese Karte an 1 deiner entwickelten -, - oder  Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges die Wunder-Sphäre (Beta) auf deinen Ablagestapel."
+		de: "Lege diese Karte an 1 deiner entwickelten -, - oder  Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seines eigenen verwenden. Lege am Ende deines Zuges die Wunder-Sphäre β auf deinen Ablagestapel."
 	},
 
 	variants: [
