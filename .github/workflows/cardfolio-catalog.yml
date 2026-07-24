@@ -43,7 +43,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download latest --pattern manifest.json --dir previous-catalog 2>/dev/null || true
+          gh release download latest --repo "${{ github.repository }}" --pattern manifest.json --dir previous-catalog 2>/dev/null || true
           if [ -f previous-catalog/manifest.json ]; then
             TCGDEX_SOURCE_SHA="$(git rev-parse HEAD)" node .cardfolio/build-tcgdex-artifacts.mjs server/generated catalog-artifacts previous-catalog/manifest.json
           else
@@ -56,13 +56,12 @@ jobs:
         run: |
           short_sha="$(git rev-parse --short=12 HEAD)"
           tag="catalog-${short_sha}"
-          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "Cardfolio catalog ${short_sha}" --notes "Validated TCGdex catalog from $(git rev-parse HEAD)"
-          gh release upload "$tag" catalog-artifacts/*.gz catalog-artifacts/manifest.json --clobber
+          gh release view "$tag" --repo "${{ github.repository }}" >/dev/null 2>&1 || gh release create "$tag" --repo "${{ github.repository }}" --title "Cardfolio catalog ${short_sha}" --notes "Validated TCGdex catalog from $(git rev-parse HEAD)"
+          gh release upload "$tag" --repo "${{ github.repository }}" catalog-artifacts/*.gz catalog-artifacts/manifest.json --clobber
 
       - name: Move latest catalog tag
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-          gh release create latest catalog-artifacts/*.gz catalog-artifacts/manifest.json --title "Latest validated Cardfolio catalog" --notes "Automatically promoted after validation."
-
+          gh release delete latest --repo "${{ github.repository }}" --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest --repo "${{ github.repository }}" catalog-artifacts/*.gz catalog-artifacts/manifest.json --title "Latest validated Cardfolio catalog" --notes "Automatically promoted after validation."
