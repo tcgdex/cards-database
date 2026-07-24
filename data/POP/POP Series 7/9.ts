@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		234,
-	],
+	dexId: [234],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -47,7 +45,7 @@ const card: Card = {
 				fr: "Corne qui fait peur"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn’t an Evolved Pokémon, that Pokémon is now Confused.",
+				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is now Confused.",
 				fr: "Si le Pokémon Défenseur n'est pas un Pokémon Évolué, il est maintenant Confus."
 			},
 			damage: 20,
@@ -61,24 +59,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
 		en: "Staring at its antlers creates an odd sensation as if one were being drawn into their centers."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89505,
+				cardmarket: 278041
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86467,
+				cardmarket: 278041
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278041,
-		tcgplayer: 89505
-	}
 }
 
 export default card

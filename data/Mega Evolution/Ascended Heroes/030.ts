@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Pignite"
 	},
 
+	evolveFrom: {
+		en: "Tepig",
+		fr: "Gruikui",
+		es: "Tepig",
+		'es-mx': "Tepig",
+		de: "Floink",
+		it: "Tepig",
+		pt: "Tepig",
+	},
+
 	illustrator: "Aliya Chen",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -73,7 +83,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870185,
+			cardmarket: 870186,
 			tcgplayer: 676877
 		}
 	},
@@ -81,7 +91,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870186,
+			cardmarket: 870185,
 			tcgplayer: 677017
 		}
 	},

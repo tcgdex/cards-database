@@ -87,18 +87,22 @@ const card: Card = {
 		fr: "Son corps est protégé par une coquille dure comme l'acier. Ce que cache l'armure reste un mystère complet."
 	},
 
-	thirdParty: {
-		cardmarket: 274513,
-		tcgplayer: 85542
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274513,
+				tcgplayer: 85542
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274513,
+				tcgplayer: 85542
+			}
 		}
 	]
 }

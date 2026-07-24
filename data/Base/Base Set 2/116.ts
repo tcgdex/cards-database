@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Discard your hand, then draw 7 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 274039,
-		tcgplayer: 42560
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274039,
+				tcgplayer: 42560
+			}
 		}
 	]
 }

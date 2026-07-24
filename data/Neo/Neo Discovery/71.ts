@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Quand il marche sur le sol, il recouvre son corps d'un film visqueux et empoisonné."
 	},
 
-	thirdParty: {
-		cardmarket: 274582,
-		tcgplayer: 90631
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274582,
+				tcgplayer: 90631
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274582,
+				tcgplayer: 90631
+			}
 		}
 	]
 }

@@ -84,18 +84,22 @@ const card: Card = {
 		fr: "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène."
 	},
 
-	thirdParty: {
-		cardmarket: 273809,
-		tcgplayer: 106990
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273809,
+				tcgplayer: 106990
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273809,
+				tcgplayer: 106990
+			}
 		}
 	],
 }

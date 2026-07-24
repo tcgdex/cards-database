@@ -63,14 +63,14 @@ const card: Card = {
 		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
 	},
 
-	thirdParty: {
-		cardmarket: 273973,
-		tcgplayer: 42513
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273973,
+				tcgplayer: 42513
+			}
 		}
 	]
 }

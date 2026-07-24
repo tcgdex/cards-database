@@ -55,18 +55,22 @@ const card: Card = {
 		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
 	},
 
-	thirdParty: {
-		cardmarket: 274727,
-		tcgplayer: 87194
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274727,
+				tcgplayer: 87194
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274727,
+				tcgplayer: 87194
+			}
 		}
 	]
 }

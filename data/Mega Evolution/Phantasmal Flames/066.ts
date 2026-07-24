@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Krookodile"
 	},
 
+	evolveFrom: {
+		en: "Krokorok",
+		fr: "Escroco",
+		es: "Krokorok",
+		'es-mx': "Krokorok",
+		de: "Rokkaiman",
+		it: "Krokorok",
+		pt: "Krokorok",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

@@ -80,18 +80,22 @@ const card: Card = {
 		fr: "Il emmagasine des quantités énormes de courant électrique sous pression pouvant exploser."
 	},
 
-	thirdParty: {
-		cardmarket: 273799,
-		tcgplayer: 45128
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273799,
+				tcgplayer: 45128
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273799,
+				tcgplayer: 45128
+			}
 		},
 		{
 			type: "holo",

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Granbull"
 	},
 
+	evolveFrom: {
+		en: "Snubbull",
+		fr: "Snubbull",
+		es: "Snubbull",
+		'es-mx': "Snubbull",
+		de: "Snubbull",
+		it: "Snubbull",
+		pt: "Snubbull",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

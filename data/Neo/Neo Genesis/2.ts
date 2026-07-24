@@ -80,18 +80,22 @@ const card: Card = {
 		fr: "Lorsqu'il écoute attentivement sans bouger, il peut deviner ce qui se cache dans les rivières les plus sauvages et tumultueuses."
 	},
 
-	thirdParty: {
-		cardmarket: 274402,
-		tcgplayer: 83678
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274402,
+				tcgplayer: 83678
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274402,
+				tcgplayer: 83678
+			}
 		}
 	]
 }

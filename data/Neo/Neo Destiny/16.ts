@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Du kannst maximal 1 Wunder-Energie in deinem Deck haben. Lege Wunder-Energie an eines deiner Schimmernden oder Hellen Pokémon an. Lege am Ende deines Zuges Wunder-Energie auf deinen Ablagestapel. Solange Wunder-Energie im Spiel ist, zählt Wunder-Energie als jeder Energietyp, erzeugt aber 2 Energie gleichzeitig."
 	},
 
-	thirdParty: {
-		cardmarket: 274668,
-		tcgplayer: 87496
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274668,
+				tcgplayer: 87496
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274668,
+				tcgplayer: 87496
+			}
 		}
 	]
 }

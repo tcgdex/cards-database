@@ -14,6 +14,16 @@ const card: Card = {
 		'es-mx': "Alakazam"
 	},
 
+	evolveFrom: {
+		en: "Kadabra",
+		fr: "Kadabra",
+		de: "Kadabra",
+		it: "Kadabra",
+		es: "Kadabra",
+		pt: "Kadabra",
+		'es-mx': "Kadabra",
+	},
+
 	illustrator: "cochi8i",
 	rarity: "Promo",
 	category: "Pokemon",

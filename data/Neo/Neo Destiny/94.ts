@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Look at your opponent´s Prize card. You may have your opponent shuffle them into his or her deck. If you do, your opponent takes that many cards from the top of his or her deck and sets them aside as his or her new Prize cards (without looking at them)."
 	},
 
-	thirdParty: {
-		cardmarket: 274746,
-		tcgplayer: 86272
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274746,
+				tcgplayer: 86272
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274746,
+				tcgplayer: 86272
+			}
 		}
 	]
 }

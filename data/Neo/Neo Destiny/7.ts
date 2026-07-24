@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Les flammes qu'il crache sont en fait un poison qu'il sécrète et qui s'enflamme au contact de l'air."
 	},
 
-	thirdParty: {
-		cardmarket: 274659,
-		tcgplayer: 84610
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274659,
+				tcgplayer: 84610
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274659,
+				tcgplayer: 84610
+			}
 		}
 	]
 }

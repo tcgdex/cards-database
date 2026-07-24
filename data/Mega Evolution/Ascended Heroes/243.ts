@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mightyena"
 	},
 
+	evolveFrom: {
+		en: "Poochyena",
+		fr: "Medhyèna",
+		es: "Poochyena",
+		'es-mx': "Poochyena",
+		de: "Fiffyen",
+		it: "Poochyena",
+		pt: "Poochyena",
+	},
+
 	illustrator: "Yano Keiji",
 	rarity: "Illustration rare",
 	category: "Pokemon",

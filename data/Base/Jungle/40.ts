@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "La corne de la femelle grandit lentement. Elle préfère attaquer avec ses griffes et sa gueule."
 	},
 
-	thirdParty: {
-		cardmarket: 273837,
-		tcgplayer: 45143
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273837,
+				tcgplayer: 45143
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273837,
+				tcgplayer: 45143
+			}
 		}
 	],
 }

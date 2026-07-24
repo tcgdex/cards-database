@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Luxio"
 	},
 
+	evolveFrom: {
+		en: "Shinx",
+		fr: "Lixy",
+		es: "Shinx",
+		'es-mx': "Shinx",
+		de: "Sheinux",
+		it: "Shinx",
+		pt: "Shinx",
+	},
+
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",

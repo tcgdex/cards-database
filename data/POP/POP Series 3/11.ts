@@ -13,23 +13,22 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Each Grass and Lightning Pokémon in play (both yours and your opponent’s) gets +10 HP.",
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each Grass and Lightning Pokémon in play (both yours and your opponent's) gets +10 HP.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque Pokémon  et  en jeu (les vôtres et ceux de votre adversaire) obtient 10 PV de plus."
 	},
 
 	trainerType: "Stadium",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86847,
+				cardmarket: 277459
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277459,
-		tcgplayer: 86847
-	}
 }
 
 export default card

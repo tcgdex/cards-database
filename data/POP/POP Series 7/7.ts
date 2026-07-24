@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		180,
-	],
+	dexId: [180],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -70,31 +68,28 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85480,
+				cardmarket: 278039
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278039,
-		tcgplayer: 85480
-	}
 }
 
 export default card

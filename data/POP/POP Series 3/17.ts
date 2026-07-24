@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Ultra Rare",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		250,
-	],
+	dexId: [250],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "Aile dorée"
 			},
 			effect: {
-				en: "If Ho-Oh ex would be Knocked Out by damage from an opponent’s attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like.",
+				en: "If Ho-Oh ex would be Knocked Out by damage from an opponent's attack, you may move up to 2 Energy attached to Ho-Oh ex to your Pokémon in any way you like.",
 				fr: "Si Ho-Oh ex doit être mis K.O par les dégâts d'une attaque de votre adversaire, vous pouvez déplacer jusqu'à 2 Énergies attachées à Ho-Oh ex sur vos Pokémon, de la façon que vous voulez."
 			},
 		},
@@ -60,24 +58,30 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water"
+			type: "Water",
+			value: "x2"
 		},
 	],
-
 	suffix: "EX",
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86129,
+				cardmarket: 277465
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 97809,
+				cardmarket: 277465
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277465,
-		tcgplayer: 86129
-	}
 }
 
 export default card

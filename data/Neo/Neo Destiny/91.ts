@@ -60,18 +60,22 @@ const card: Card = {
 		fr: "Tandis qu'il vieillit, sa queue blanche change de couleur et se sépare en six. Il émane de son corps une faible chaleur."
 	},
 
-	thirdParty: {
-		cardmarket: 274743,
-		tcgplayer: 90433
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274743,
+				tcgplayer: 90433
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274743,
+				tcgplayer: 90433
+			}
 		}
 	]
 }

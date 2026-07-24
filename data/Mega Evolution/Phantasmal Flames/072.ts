@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Bronzong"
 	},
 
+	evolveFrom: {
+		en: "Bronzor",
+		fr: "Archéomire",
+		es: "Bronzor",
+		'es-mx': "Bronzor",
+		de: "Bronzel",
+		it: "Bronzor",
+		pt: "Bronzor",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Détection"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Zangoose during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Zangoose during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Mangriff lors du prochain tour de votre adversaire."
 			},
 
@@ -57,22 +55,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting"
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90709,
+				cardmarket: 277497
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90709,
+				cardmarket: 277497
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277497
-	}
 }
 
 export default card

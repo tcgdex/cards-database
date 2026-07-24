@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Drapion"
 	},
 
+	evolveFrom: {
+		en: "Skorupi",
+		fr: "Rapion",
+		es: "Skorupi",
+		'es-mx': "Skorupi",
+		de: "Pionskora",
+		it: "Skorupi",
+		pt: "Skorupi",
+	},
+
 	illustrator: "Nelnal",
 	rarity: "Uncommon",
 	category: "Pokemon",

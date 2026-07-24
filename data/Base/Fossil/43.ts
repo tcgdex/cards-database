@@ -81,20 +81,24 @@ const card: Card = {
 		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
 	},
 
-	thirdParty: {
-		cardmarket: 273904,
-		tcgplayer: 44445
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273904,
+				tcgplayer: 44445
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273904,
+				tcgplayer: 44445
+			}
 		},
 		{
 			type: "normal",

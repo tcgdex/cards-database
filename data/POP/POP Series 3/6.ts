@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -52,7 +50,7 @@ const card: Card = {
 				fr: "Pistolet à O"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack’s Energy cost. You can’t add more than 40 damage in this way.",
+				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon."
 			},
 			damage: "30+",
@@ -62,23 +60,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning"
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90283,
+				cardmarket: 277454
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90283,
+				cardmarket: 277454
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277454,
-		tcgplayer: 90283
-	}
 }
 
 export default card

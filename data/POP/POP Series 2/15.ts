@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		231,
-	],
+	dexId: [231],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -63,13 +61,18 @@ const card: Card = {
 			type: "Grass"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277446,
-		tcgplayer: 88000
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88000,
+				cardmarket: 277446
+			},
+		},
+	],
+
 }
 
 export default card

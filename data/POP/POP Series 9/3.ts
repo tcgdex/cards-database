@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -59,11 +57,11 @@ const card: Card = {
 			},
 
 			effect: {
-				en: "If Raichu evolved from Pikachu during this turn, this attack’s base damage is 100 instead of 60.",
+				en: "If Raichu evolved from Pikachu during this turn, this attack's base damage is 100 instead of 60.",
 				fr: "Si Raichu évolue d'un Pokémon lors de ce tour, les dégâts de base de cette attaque sont de 100 au lieu de 60."
 			},
 
-			damage: 60
+			damage: 60,
 		},
 	],
 
@@ -73,31 +71,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88514,
+				cardmarket: 278554
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88514,
+				cardmarket: 278554
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278554,
-		tcgplayer: 88514
-	}
 }
 
 export default card

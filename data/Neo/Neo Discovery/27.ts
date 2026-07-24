@@ -85,18 +85,22 @@ const card: Card = {
 		fr: "Quand trois d'entre eux se retrouvent, ils chantent d'une voix tonitruante qui ressemble à des beuglements."
 	},
 
-	thirdParty: {
-		cardmarket: 274519,
-		tcgplayer: 88249
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274519,
+				tcgplayer: 88249
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274519,
+				tcgplayer: 88249
+			}
 		}
 	]
 }

@@ -19,17 +19,20 @@ const card: Card = {
 		de: "Your opponent may search his or her deck for 1 Basic Pokémon card and put it into his or her Bench. Then, you may search your deck for 1 Basic Pokémon card and put it onto your Bench. Then, each player shuffles his or her deck. (A player can't do any of this if his or her Bench is full.)"
 	},
 
-	thirdParty: {
-		cardmarket: 274502
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274502
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274502
+			}
 		}
 	]
 }

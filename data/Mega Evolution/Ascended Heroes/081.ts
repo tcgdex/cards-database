@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Togetic"
 	},
 
+	evolveFrom: {
+		en: "Togepi",
+		fr: "Togepi",
+		es: "Togepi",
+		'es-mx': "Togepi",
+		de: "Togepi",
+		it: "Togepi",
+		pt: "Togepi",
+	},
+
 	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
@@ -73,7 +83,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870261,
+			cardmarket: 870262,
 			tcgplayer: 676915
 		}
 	},
@@ -81,7 +91,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870262,
+			cardmarket: 870261,
 			tcgplayer: 677055
 		}
 	},

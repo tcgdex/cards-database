@@ -56,18 +56,22 @@ const card: Card = {
 		fr: "Il sait particulièrement bien viser. L'eau qu'il projette peut frapper une proie en mouvement à plus de 100 mètres."
 	},
 
-	thirdParty: {
-		cardmarket: 274636,
-		tcgplayer: 88692
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274636,
+				tcgplayer: 88692
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274636,
+				tcgplayer: 88692
+			}
 		}
 	]
 }

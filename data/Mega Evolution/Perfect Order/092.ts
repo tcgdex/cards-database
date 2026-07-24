@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Aurorus"
 	},
 
+	evolveFrom: {
+		en: "Amaura",
+		fr: "Amagara",
+		es: "Amaura",
+		'es-mx': "Amaura",
+		de: "Amarino",
+		it: "Amaura",
+		pt: "Amaura",
+	},
+
 	illustrator: "Masa",
 	rarity: "Illustration rare",
 	category: "Pokemon",

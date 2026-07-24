@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Flip a coin. if tails, do 10 damage to your Active Pokémon. If heads, your opponent flip a coin. If tails, your opponent does 10 damage to his or her Active Pokémon. If heads, you flip a coin. Keep doing this until a player gets tails."
 	},
 
-	thirdParty: {
-		cardmarket: 274128,
-		tcgplayer: 84815
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274128,
+				tcgplayer: 84815
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274128,
+				tcgplayer: 84815
+			}
 		}
 	]
 }

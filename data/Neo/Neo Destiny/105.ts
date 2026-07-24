@@ -19,18 +19,22 @@ const card: Card = {
 		de: "You can´t play this card if you have 5 or more cards in your hand (including this one). Draw cards until you have exactly 4 cards in your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 274757,
-		tcgplayer: 87123
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274757,
+				tcgplayer: 87123
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274757,
+				tcgplayer: 87123
+			}
 		}
 	]
 }

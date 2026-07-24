@@ -77,18 +77,22 @@ const card: Card = {
 		fr: "Il vit à la cime des arbres. Quand il saute de branche en branche, il utilise habilement sa queue pour assurer son équilibre."
 	},
 
-	thirdParty: {
-		cardmarket: 274627,
-		tcgplayer: 83486
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274627,
+				tcgplayer: 83486
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274627,
+				tcgplayer: 83486
+			}
 		}
 	]
 }

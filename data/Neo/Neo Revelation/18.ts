@@ -69,18 +69,22 @@ const card: Card = {
 		fr: "D'après la légende, son corps luirait de sept couleurs. Un arc-en-ciel apparaît toujours dans son sillage."
 	},
 
-	thirdParty: {
-		cardmarket: 274593,
-		tcgplayer: 86119
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86119
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86119
+			}
 		}
 	]
 }

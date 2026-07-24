@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 274498,
-		tcgplayer: 89634
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274498,
+				tcgplayer: 89634
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274498,
+				tcgplayer: 89634
+			}
 		}
 	]
 }

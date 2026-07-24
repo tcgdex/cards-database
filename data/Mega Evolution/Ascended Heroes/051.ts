@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vanilluxe do N"
 	},
 
+	evolveFrom: {
+		en: "N's Vanillish",
+		fr: "Sorboul de N",
+		es: "Vanillish de N",
+		'es-mx': "Vanillish de N",
+		de: "Ns Gelatroppo",
+		it: "Vanillish di N",
+		pt: "Vanillish do N",
+	},
+
 	illustrator: "imoniii",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -90,7 +100,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870217,
+			cardmarket: 870218,
 			tcgplayer: 676893
 		}
 	},
@@ -98,7 +108,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870218,
+			cardmarket: 870217,
 			tcgplayer: 677033
 		}
 	},

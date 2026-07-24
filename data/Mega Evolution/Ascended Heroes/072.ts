@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Kilowattrel da Kissera"
 	},
 
+	evolveFrom: {
+		en: "Iono's Wattrel",
+		fr: "Zapétrel de Mashynn",
+		es: "Wattrel de e-Nigma",
+		'es-mx': "Wattrel de e-Nigma",
+		de: "Enigmaras Voltrel",
+		it: "Wattrel di Kissara",
+		pt: "Wattrel da Kissera",
+	},
+
 	illustrator: "chibi",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -92,7 +102,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870249,
+			cardmarket: 870250,
 			tcgplayer: 676909
 		}
 	},
@@ -100,7 +110,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870250,
+			cardmarket: 870249,
 			tcgplayer: 677049
 		}
 	},

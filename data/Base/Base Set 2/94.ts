@@ -71,14 +71,14 @@ const card: Card = {
 		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
 	},
 
-	thirdParty: {
-		cardmarket: 274017,
-		tcgplayer: 42545
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274017,
+				tcgplayer: 42545
+			}
 		}
 	]
 }

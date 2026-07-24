@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Ceruledge"
 	},
 
+	evolveFrom: {
+		en: "Charcadet",
+		fr: "Charbambin",
+		es: "Charcadet",
+		'es-mx': "Charcadet",
+		de: "Knarbon",
+		it: "Charcadet",
+		pt: "Charcadet",
+	},
+
 	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [937],

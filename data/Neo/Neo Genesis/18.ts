@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
 	},
 
-	thirdParty: {
-		cardmarket: 274417,
-		tcgplayer: 90099
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274417,
+				tcgplayer: 90099
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274417,
+				tcgplayer: 90099
+			}
 		}
 	]
 }

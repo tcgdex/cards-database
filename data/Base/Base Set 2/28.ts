@@ -78,14 +78,14 @@ const card: Card = {
 		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
 	},
 
-	thirdParty: {
-		cardmarket: 273951,
-		tcgplayer: 42500
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273951,
+				tcgplayer: 42500
+			}
 		}
 	]
 }

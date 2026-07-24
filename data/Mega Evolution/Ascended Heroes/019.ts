@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Spidops da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Tarountula",
+		fr: "Tissenboule de la Team Rocket",
+		es: "Tarountula del Team Rocket",
+		'es-mx': "Tarountula del Equipo Rocket",
+		de: "Team Rockets Tarundel",
+		it: "Tarountula del Team Rocket",
+		pt: "Tarountula da Equipe Rocket",
+	},
+
 	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -96,7 +106,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870167,
+			cardmarket: 870168,
 			tcgplayer: 677008
 		}
 	},
@@ -104,7 +114,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870168,
+			cardmarket: 870167,
 			tcgplayer: 676868
 		}
 	},

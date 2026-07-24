@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Staravia do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Starly",
+		fr: "Étourmi d'Okuba",
+		es: "Starly de Laureano",
+		'es-mx': "Starly de Laureano",
+		de: "Aokis Staralili",
+		it: "Starly di Ubaldo",
+		pt: "Starly do Lauro",
+	},
+
 	illustrator: "Fujimoto Gold",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -82,7 +92,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870397,
+			cardmarket: 870398,
 			tcgplayer: 676983
 		}
 	},
@@ -90,7 +100,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870398,
+			cardmarket: 870397,
 			tcgplayer: 677123
 		}
 	},

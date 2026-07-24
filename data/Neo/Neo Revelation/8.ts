@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Quand ils entendent ses hurlements sinistres, les autres Pokémon ont un frisson dans le dos et ils retournent au nid."
 	},
 
-	thirdParty: {
-		cardmarket: 274594,
-		tcgplayer: 86198
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274594,
+				tcgplayer: 86198
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274594,
+				tcgplayer: 86198
+			}
 		}
 	]
 }

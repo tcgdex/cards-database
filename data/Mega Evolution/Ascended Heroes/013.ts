@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Beautifly"
 	},
 
+	evolveFrom: {
+		en: "Silcoon",
+		fr: "Armulys",
+		es: "Silcoon",
+		'es-mx': "Silcoon",
+		de: "Schaloko",
+		it: "Silcoon",
+		pt: "Silcoon",
+	},
+
 	illustrator: "Narumi Sato",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -97,7 +107,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "loveball",
 			thirdParty: {
-				cardmarket: 870155,
+				cardmarket: 870156,
 				tcgplayer: 676862
 			}
 		},
@@ -105,7 +115,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "energy",
 			thirdParty: {
-				cardmarket: 870156,
+				cardmarket: 870155,
 				tcgplayer: 677002
 			}
 		},

@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Il chasse sa proie silencieusement dans les salles obscures."
 	},
 
-	thirdParty: {
-		cardmarket: 274688,
-		tcgplayer: 84609
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274688,
+				tcgplayer: 84609
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274688,
+				tcgplayer: 84609
+			}
 		}
 	]
 }

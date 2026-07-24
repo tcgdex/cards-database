@@ -92,6 +92,20 @@ const card: Card = {
 				tcgplayer: 693495
 			}
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 886460,
+				tcgplayer: 693495
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 886460,
+				tcgplayer: 693495
+			}
+		},
 	],
 }
 

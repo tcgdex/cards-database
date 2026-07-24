@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		198,
-	],
+	dexId: [198],
 
 	hp: 60,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "Insomnie"
 			},
 			effect: {
-				en: "Murkrow can’t be Asleep.",
+				en: "Murkrow can't be Asleep.",
 				fr: "Cornèbre ne peut pas être Endormi."
 			},
 		},
@@ -49,7 +47,7 @@ const card: Card = {
 				fr: "Feinte"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
 				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet."
 			},
 
@@ -71,10 +69,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277422,
-		tcgplayer: 87650
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87650,
+				cardmarket: 277422
+			},
+		},
+	],
+
 }
 
 export default card

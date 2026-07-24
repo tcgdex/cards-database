@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois."
 	},
 
-	thirdParty: {
-		cardmarket: 274466,
-		tcgplayer: 87213
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274466,
+				tcgplayer: 87213
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274466,
+				tcgplayer: 87213
+			}
 		}
 	]
 }

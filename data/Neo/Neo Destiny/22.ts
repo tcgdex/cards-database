@@ -85,18 +85,22 @@ const card: Card = {
 		fr: "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants."
 	},
 
-	thirdParty: {
-		cardmarket: 274674,
-		tcgplayer: 86737
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274674,
+				tcgplayer: 86737
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274674,
+				tcgplayer: 86737
+			}
 		}
 	]
 }

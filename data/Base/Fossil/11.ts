@@ -85,20 +85,24 @@ const card: Card = {
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille."
 	},
 
-	thirdParty: {
-		cardmarket: 273872,
-		tcgplayer: 44420
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273872,
+				tcgplayer: 44420
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273872,
+				tcgplayer: 44420
+			}
 		},
 	]
 }

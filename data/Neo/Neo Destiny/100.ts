@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Once during each player's turn, that player may flip a coin. If heads, the player draws a card."
 	},
 
-	thirdParty: {
-		cardmarket: 274752,
-		tcgplayer: 86893
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274752,
+				tcgplayer: 86893
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274752,
+				tcgplayer: 86893
+			}
 		}
 	]
 }

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		425,
-	],
+	dexId: [425],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -49,7 +47,7 @@ const card: Card = {
 				fr: "Vent Mauvais"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and can’t retreat during your opponent’s next turn.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et ne peut pas battre en retraite lors du prochain tour de votre adversaire."
 			},
 			damage: 10,
@@ -63,31 +61,28 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84954,
+				cardmarket: 277891
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277891,
-		tcgplayer: 84954
-	}
 }
 
 export default card
