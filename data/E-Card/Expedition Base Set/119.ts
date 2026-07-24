@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Darkness Cube 01",
+		en: "Mareep",
 		fr: "Wattouat",
 		de: "Voltilamm"
 	},
 
-	illustrator: ""Big Mama" Tagawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: 'Sumiyoshi Kizuki"Big Mama" Tagawa',
+	rarity: "Common",
+	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		179,
-	],
+	dexId: [179],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Plunder",
+				en: "Thundershock",
 				fr: "Éclair",
 				de: "Donnerschock"
 			},
 			effect: {
-				en: "Attach this card to 1 of your Darkness Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Darkness Cube 01.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -48,7 +46,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -64,7 +62,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87196,
+				cardmarket: 274994
+			},
+		},
 	],
 }
 

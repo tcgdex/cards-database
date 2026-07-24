@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
+		en: "Jynx",
 		fr: "Lippoutou",
 		de: "Rossana"
 	},
 
-	illustrator: "Yuka Morii",
-	rarity: "Common",
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [187],
+	dexId: [124],
 
-	hp: 40,
+	hp: 60,
 
 	types: [
-		"Grass"
+		"Water"
 	],
 
 	abilities: [
@@ -41,16 +41,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Careless Tackle",
+				en: "Ice Punch",
 				fr: "Poinglace",
 				de: "Ice Punch"
 			},
 			effect: {
-				en: "Hoppip does 10 damage to itself.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 		{
@@ -82,7 +82,7 @@ const card: Card = {
 	],,
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Metal",
 			value: "x2"
 		},
 	],
@@ -99,7 +99,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86374,
+				cardmarket: 274958
+			},
+		},
 	],
 }
 

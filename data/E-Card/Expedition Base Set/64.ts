@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
+		en: "Typhlosion",
 		fr: "Typhlosion",
 		de: "Tornupto"
 	},
 
-	illustrator: "Yukiko Baba",
-	rarity: "Uncommon",
+	illustrator: "Hiroaki Ito",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [100],
+	dexId: [157],
 
-	hp: 50,
+	hp: 100,
 
 	types: [
-		"Lightning"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Feurisson"
 	},
 
-	stage: "Basic",
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -34,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				en: "Quick Attack",
 				fr: "Vive-attaque",
 				de: "Ruckzuckhieb"
 			},
@@ -43,7 +43,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -53,27 +53,27 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundershock",
+				en: "Thermal Blast",
 				fr: "Rafale thermique",
 				de: "Wärmewelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire, s'il en possède. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu, falls vorhanden. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
-			damage: 20,
+			damage: 40,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Water",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 90101,
+				cardmarket: 274903
+			},
+		},
 	],
 }
 

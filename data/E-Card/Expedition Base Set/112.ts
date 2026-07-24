@@ -3,19 +3,19 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tangela",
+		en: "Hoppip",
 		fr: "Granivol",
 		de: "Hoppspross"
 	},
 
-	illustrator: "Tomokazu Komiya",
+	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [114],
+	dexId: [187],
 
-	hp: 60,
+	hp: 40,
 
 	types: [
 		"Grass"
@@ -63,7 +63,7 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
 	variants: [

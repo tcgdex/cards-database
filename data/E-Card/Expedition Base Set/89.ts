@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Larvitar",
+		en: "Poliwhirl",
 		fr: "Têtarte",
 		de: "Quaputzi"
 	},
 
-	illustrator: "Naoyo Kimura",
-	rarity: "Common",
+	illustrator: "Yuka Morii",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [246],
+	dexId: [61],
 
-	hp: 40,
+	hp: 70,
 
 	types: [
-		"Fighting"
+		"Water"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Ptitard"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mountain Eater",
+				en: "Punch",
 				fr: "Koud'poing",
 				de: "Hieb"
 			},
@@ -50,23 +50,23 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rising Lunge",
+				en: "Bubblebeam",
 				fr: "Bulles d'O",
 				de: "Blubbstrahl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf'ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: "10+",
+			damage: 30,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Lightning",
 			value: "x2"
 		},
 	],
@@ -83,7 +83,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88264,
+				cardmarket: 274964
+			},
+		},
 	],
 }
 

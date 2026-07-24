@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Energy Switch",
+		en: "Marill",
 		fr: "Marill",
 		de: "Marill"
 	},
 
-	illustrator: "Mikio Menjo",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Satoshi Ohta",
+	rarity: "Common",
+	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		183,
-	],
+	dexId: [183],
 
-	hp: 60,
+	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Blubber"
 			},
 			effect: {
-				en: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -78,7 +76,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87215,
+				cardmarket: 274995
+			},
+		},
 	],
 }
 

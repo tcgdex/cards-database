@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Quagsire",
+		en: "Venusaur",
 		fr: "Florizarre",
 		de: "Bisaflor"
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	illustrator: "Shin-ichi Yoshikawa",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [195],
+	dexId: [3],
 
-	hp: 80,
+	hp: 100,
 
 	types: [
-		"Water"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Herbizarre"
 	},
 
-	stage: "Stage1",
+	stage: "Stage2",
 
 	abilities: [
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Ernteprämie"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), If you attach an Energy card from your hand to your Active Pokémon as part of your turn, you may attach an additional Energy card to that Pokémon at the same time. This power can't be used if Venusaur is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if you attach an Energy card to your Active Pokémon as part of your turn, you may attach an additional Energy card to that Pokémon at the same time. This power can't be used if Venusaur is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie de votre main à votre Pokémon Actif en tant qu'action de votre tour, vous pouvez attacher une carte Énergie supplémentaire à ce Pokémon. Ce pouvoir ne peut pas être utilisé si Florizarre est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls du als Bestandteil deines Zuges eine Energiekarte aus deiner Hand an dein Aktives Pokémon angelegt hast, gleichzeitig eine zusätzliche Energiekarte an dieses Pokémon anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Bisaflor von einem Speziellen Zustand betroffen ist."
 			},
@@ -53,23 +53,23 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
+				en: "Body Slam",
 				fr: "Plaquage",
 				de: "Bodyslam"
 			},
 			effect: {
-				en: "This attack does 20 damage plus 10 more damage for each Water Energy attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: "20+",
+			damage: 40,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
+			type: "Fire",
 			value: "x2"
 		},
 	],
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 90314,
+				cardmarket: 274905
+			},
+		},
 	],
 }
 

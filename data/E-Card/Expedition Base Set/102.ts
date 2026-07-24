@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
+		en: "Corsola",
 		fr: "Corayon",
 		de: "Corasonn"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [77],
+	dexId: [222],
 
-	hp: 40,
+	hp: 60,
 
 	types: [
-		"Fire"
+		"Water"
 	],
 
 	stage: "Basic",
@@ -35,7 +35,7 @@ const card: Card = {
 				de: "Tackle"
 			},
 
-			damage: 10,
+			damage: 20,
 
 		},
 		{
@@ -45,27 +45,27 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
+				en: "Spike Cannon",
 				fr: "Picanon",
 				de: "Dornkanone"
 			},
 			effect: {
-				en: "Discard a Fire Energy card attached to Ponyta.",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: 30,
+			damage: "20×",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Grass",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -78,7 +78,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84438,
+				cardmarket: 274977
+			},
+		},
 	],
 }
 

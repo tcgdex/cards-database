@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Warp Energy",
+		en: "Power Charge",
 		fr: "Charge d'intensité",
 		de: "Energieaufladung"
 	},
 
-	illustrator: "Shin-ichi Yoshikawa",
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
-	category: "Energy",
+	category: "Trainer",
 	set: Set,
 
 	effect: {
@@ -29,7 +29,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88353,
+				cardmarket: 275022
+			},
+		},
 	],
 }
 

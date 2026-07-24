@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Crystal Energy",
+		en: "Pokémon Reversal",
 		fr: "Inversion de Pokémon",
 		de: "Pokémon-Umkehrung"
 	},
 
 	illustrator: undefined,
 	rarity: "Uncommon",
-	category: "Energy",
+	category: "Trainer",
 	set: Set,
 
 	effect: {
@@ -24,11 +24,16 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 275021
+				tcgplayer: 88238,
 			},
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				cardmarket: 275021
+				tcgplayer: 88238,
+			},
+		},
 	],
 }
 

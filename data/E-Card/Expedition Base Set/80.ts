@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
+		en: "Haunter",
 		fr: "Spectrum",
 		de: "Alpollo"
 	},
 
 	illustrator: "Yukiko Baba",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [58],
+	dexId: [93],
 
-	hp: 50,
+	hp: 70,
 
 	types: [
-		"Fire"
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Fantominus"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Roar",
+				en: "Nightmare",
 				fr: "Cauchemar",
 				de: "Nightmare"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches the Defending Pokémon with it.",
+				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "The Defending Pokémon is now Asleep."
 			},
@@ -54,24 +54,24 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Firebreathing",
+				en: "Dream Eater",
 				fr: "Dévorêve",
 				de: "Dream Eater"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
+				en: "If the Defending Pokémon isn't Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque ne fait rien.",
 				de: "If the Defending Pokémon isn't Asleep, this attack does nothing."
 			},
 
-			damage: "10+",
+			damage: 50,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Darkness",
 			value: "x2"
 		},
 	],
@@ -94,7 +94,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86024,
+				cardmarket: 274955
+			},
+		},
 	],
 }
 

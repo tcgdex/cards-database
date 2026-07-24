@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
+		en: "Strength Charm",
 		fr: "Fétiche de force",
 		de: "Stärkeamulett"
 	},
 
-	illustrator: "Hironobu Yoshida",
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
-	category: "Pokemon",
+	category: "Trainer",
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -18,7 +18,7 @@ const card: Card = {
 				en: "Crystal Type",
 			},
 			effect: {
-				en: "Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn.",
+				en: "Attach Strength Charm to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. Whenever an attack from the Pokémon that Strength Charm is attached to does damage (after applying Weakness and Resistance), the attack does 10 more damage. At the end of your turn in which this happens, discard Strength Charm.",
 			},
 		},
 	],,
@@ -65,6 +65,7 @@ const card: Card = {
 	],
 	hp: 100,
 	dexId: [34],
+	trainerType: "Tool",
 	set: Set,
 
 	effect: {
@@ -83,7 +84,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 89577,
+				cardmarket: 275025
+			},
+		},
 	],
 	retreat: 3,
 }

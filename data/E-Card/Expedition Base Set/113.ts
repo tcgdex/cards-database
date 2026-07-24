@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
+		en: "Houndour",
 		fr: "Malosse",
 		de: "Hunduster"
 	},
 
-	illustrator: "Hajime Kusajima",
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [72],
+	dexId: [228],
 
 	hp: 50,
 
 	types: [
-		"Water"
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sting",
+				en: "Bite",
 				fr: "Morsure",
 				de: "Biss"
 			},
@@ -41,7 +41,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Fighting",
 			value: "x2"
 		},
 	],
@@ -64,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86223,
+				cardmarket: 274988
+			},
+		},
 	],
 }
 

@@ -3,14 +3,15 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Darkness Energy",
+		en: "Mary's Impulse",
 		fr: "Impulsion de Lula",
 		de: "Mary's Impulse*"
 	},
 
-	illustrator: "Milky Isobe",
-	rarity: "Rare",
-	category: "Energy",
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -29,7 +30,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87242,
+				cardmarket: 275017
+			},
+		},
 	],
 	types: [
 		"Darkness"

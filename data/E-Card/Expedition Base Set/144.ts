@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Rainbow Energy",
+		en: "Multi Technical Machine 01",
 		fr: "Machine multi-technique 01",
 		de: "Vielzweckmaschine 01"
 	},
 
-	illustrator: "Takumi Akabane"Big Mama\" Tagawa",
-	rarity: "Rare",
-	category: "Energy",
+	illustrator: ""Big Mama" Tagawa"Big Mama\" Tagawa",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	effect: {
@@ -22,10 +22,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Paralyzing Gaze",
 				de: "Lähmender Blick",
 				fr: "Regard paralysant",
 			},
 			effect: {
+				en: "The Defending Pokémon is now Paralyzed.",
 				de: "Das Verteidigende Pokémon ist jetzt gelähmt.",
 				fr: "Le Pokémon Défenseur est maintenant Paralysé.",
 			},
@@ -45,7 +47,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87635,
+				cardmarket: 275019
+			},
+		},
 	],
 }
 

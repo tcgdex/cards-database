@@ -3,7 +3,7 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Paras",
+		en: "Chikorita",
 		fr: "Germignon",
 		de: "Endivie"
 	},
@@ -13,9 +13,9 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [46],
+	dexId: [152],
 
-	hp: 50,
+	hp: 40,
 
 	types: [
 		"Grass"
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spore",
+				en: "Hypnotic Gaze",
 				fr: "Regard hypnotique",
 				de: "Hypnotischer Blick"
 			},
@@ -46,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spore Evolution",
+				en: "Double Scratch",
 				fr: "Double griffe",
 				de: "Doppelkratzer"
 			},
 			effect: {
-				en: "Search your deck for a card that evolves from Paras. Attach it to Paras. This counts as evolving Paras. Shuffle your deck afterward.",
+				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -85,7 +85,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84274,
+				cardmarket: 274974
+			},
+		},
 	],
 }
 

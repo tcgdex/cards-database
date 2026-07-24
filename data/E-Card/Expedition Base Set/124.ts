@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Grass Cube 01",
+		en: "Pikachu",
 		fr: "Pikachu",
 		de: "Pikachu"
 	},
 
-	illustrator: ""Big Mama" Tagawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Atsuko Nishida"Big Mama" Tagawa",
+	rarity: "Common",
+	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Poison",
+				en: "Lightning Tail",
 				fr: "Queue-éclair",
 				de: "Blitzschwanz"
 			},
 			effect: {
-				en: "Attach this card to 1 of your Grass Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Grass Cube 01.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -61,7 +59,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -77,7 +75,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88076,
+				cardmarket: 274999
+			},
+		},
 	],
 }
 

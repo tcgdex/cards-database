@@ -3,25 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
+		en: "Magby",
 		fr: "Magby",
 		de: "Magby"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
-	rarity: "Uncommon",
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [81],
+	dexId: [240],
 
-	hp: 40,
+	hp: 30,
 
 	types: [
-		"Metal"
+		"Fire"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
 	resistances: [
 		{
@@ -41,12 +41,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Attract",
+				en: "Energy Catch",
 				fr: "Attrape-énergie",
 				de: "Energieschnapper"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
+				en: "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
 				de: "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
 			},
@@ -66,7 +66,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87002,
+				cardmarket: 274892
+			},
+		},
 	],
 }
 

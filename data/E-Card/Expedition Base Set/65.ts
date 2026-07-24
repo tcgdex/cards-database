@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Weepinbell",
+		en: "Typhlosion",
 		fr: "Typhlosion",
 		de: "Tornupto"
 	},
 
-	illustrator: "Miki Tanaka",
-	rarity: "Uncommon",
+	illustrator: "K. Hoshiba",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [70],
+	dexId: [157],
 
-	hp: 70,
+	hp: 100,
 
 	types: [
-		"Grass"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Feurisson"
 	},
 
-	stage: "Stage1",
+	stage: "Stage2",
 
 	abilities: [
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Aufheizen"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), You may count the total number of Energy cards attached to all of your Pokémon and all of your opponent's Pokémon. If your opponent has more total energy cards attached, you may search your deck for 1 Fire Energy card and attach it to one of your Benched Pokémon, if any. Shuffle your deck afterward. This power can't be used if Typhlosion is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may count the total number of Energy cards attached to all of your Pokémon and all of your opponent's Pokémon. If your opponent has more total Energy cards attached, you may search your deck for 1 Fire Energy card and attach it to 1 of your Benched Pokémon, if any. Shuffle your deck afterward. This power can't be used if Typhlosion is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez compter le nombre total de cartes Énergie attachées à tous vos Pokémon et à tous ceux de votre adversaire. Si au total, votre adversaire a plus de cartes Énergie attachées que vous, vous pouvez chercher dans votre deck 1 carte Énergie  et l'attacher à l'un des Pokémon de votre Banc, si vous en possédez. Mélangez ensuite votre deck. Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du zählen, wie viele Energiekarten an alle deine Pokémon angelegt sind und wie viele an alle Pokémon deines Gegners. Wenn an die Pokémon deines Gegners mehr Energiekarten angelegt sind, kannst du dein Deck nach 1 -Energiekarte durchsuchen und diese, falls du Pokémon auf deiner Bank hast, an 1 dieser Pokémon anlegen. Mische dein Deck danach. Diese Fähigkeit kann nicht verwendet werden, falls Tornupto von einem Speziellen Zustand betroffen ist."
 			},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Growth",
+				en: "Super Singe",
 				fr: "Ça sent le roussi !",
 				de: "Super-Versengung"
 			},
 			effect: {
-				en: "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
 			},
@@ -69,11 +69,11 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Water",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 90102,
+				cardmarket: 274903
+			},
+		},
 	],
 }
 

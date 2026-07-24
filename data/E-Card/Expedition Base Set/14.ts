@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Houndoom",
+		en: "Golem",
 		fr: "Grolem",
 		de: "Geowaz"
 	},
 
-	illustrator: "Naoyo Kimura",
-	rarity: "Rare",
+	illustrator: "Aya Kusube",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [229],
+	dexId: [76],
 
-	hp: 80,
+	hp: 100,
 
 	types: [
-		"Fire"
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Gravalanch"
 	},
 
-	stage: "Stage1",
+	stage: "Stage2",
 
 	abilities: [
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Rock Body"
 			},
 			effect: {
-				en: "All Damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance.)"
 			},
@@ -53,16 +53,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smokescreen",
+				en: "Rock Tumble",
 				fr: "Roule-pierre",
 				de: "Rock Tumble"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
 				de: "Don't apply Resistance."
 			},
-			damage: 10,
+			damage: 60,
 
 		},
 	],
@@ -73,7 +73,7 @@ const card: Card = {
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 4,
 
 
 	variants: [
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 85821,
+				cardmarket: 274889
+			},
+		},
 	],
 }
 

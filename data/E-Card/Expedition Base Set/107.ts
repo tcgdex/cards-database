@@ -3,19 +3,19 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Sentret",
+		en: "Dratini",
 		fr: "Minidraco",
 		de: "Dratini"
 	},
 
-	illustrator: "Hizuki Misono",
+	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [161],
+	dexId: [147],
 
-	hp: 50,
+	hp: 40,
 
 	types: [
 		"Colorless"
@@ -37,18 +37,18 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Spy",
+				en: "Dragon Smash",
 				fr: "Coup du dragon",
 				de: "Drachenschmetterschlag"
 			},
 
 			effect: {
-				en: "Look at the top 3 cards of your opponent's deck. Put them back in the same order.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 40
+			damage: 40,
 		},
 	],
 
@@ -64,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84931,
+				cardmarket: 274982
+			},
+		},
 	],
 }
 

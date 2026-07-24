@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Spinarak",
+		en: "Rapidash",
 		fr: "Galopa",
 		de: "Gallopa"
 	},
 
-	illustrator: "Masako Yamashita",
-	rarity: "Uncommon",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [167],
+	dexId: [78],
 
-	hp: 50,
+	hp: 70,
 
 	types: [
-		"Grass"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Ponyta"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
+				en: "Overrun",
 				fr: "Dépassement",
 				de: "Überrennen"
 			},
@@ -44,7 +44,7 @@ const card: Card = {
 				fr: "Si votre adversaire a des Pokémon sur son Banc, lancez une pièce. Si c'est face, choisissez-en un et cette attaque lui inflige 10 dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wirf eine Münze. Wähle bei \"Kopf\" 1 von diesen, und dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
-			damage: 10,
+			damage: 20,
 
 		},
 		{
@@ -54,19 +54,19 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gooey Thread",
+				en: "Flame Tail",
 				fr: "Queue de flammes",
 				de: "Flammenschweif"
 			},
 
-			damage: 20,
+			damage: 40,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Water",
 			value: "x2"
 		},
 	],
@@ -80,9 +80,13 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88580,
+				cardmarket: 274901
+			},
+		},
 	],
-	retreat: 1,
+	retreat: 0,
 }
 
 export default card

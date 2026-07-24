@@ -3,19 +3,19 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
+		en: "Kingler",
 		fr: "Krabboss",
 		de: "Kingler"
 	},
 
-	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Uncommon",
+	illustrator: "Shin-ichi Yoshida",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [55],
+	dexId: [99],
 
-	hp: 70,
+	hp: 80,
 
 	types: [
 		"Water"
@@ -34,7 +34,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Slash",
+				en: "Bubble",
 				fr: "Écume",
 				de: "Blubber"
 			},
@@ -43,7 +43,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 		{
@@ -54,18 +54,18 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Distortion Beam",
+				en: "Giant Claw",
 				fr: "Pince géante",
 				de: "Riesenklaue"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 30,
+			damage: 70,
 		},
 	],
 
@@ -75,7 +75,7 @@ const card: Card = {
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -88,7 +88,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86455,
+				cardmarket: 274890
+			},
+		},
 	],
 }
 

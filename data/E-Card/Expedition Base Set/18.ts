@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
+		en: "Meganium",
 		fr: "Meganium",
 		de: "Meganie"
 	},
 
-	illustrator: "Hisao Nakamura",
-	rarity: "Rare",
+	illustrator: "Hajime Kusajima",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [124],
+	dexId: [154],
 
-	hp: 60,
+	hp: 100,
 
 	types: [
-		"Psychic"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Macronium"
 	},
 
-	stage: "Basic",
+	stage: "Stage2",
 
 	abilities: [
 		{
@@ -53,23 +53,23 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate",
+				en: "Poisonpowder",
 				fr: "Poudre toxik",
 				de: "Giftpuder"
 			},
 			effect: {
-				en: "This attack does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
-			damage: "10+",
+			damage: 40,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fire",
 			value: "x2"
 		},
 	],
@@ -92,7 +92,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87288,
+				cardmarket: 274893
+			},
+		},
 	],
 }
 

@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
+		en: "Dragonite",
 		fr: "Dracolosse",
 		de: "Dragoran"
 	},
 
-	illustrator: "Kyoko Umemoto",
+	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [45],
+	dexId: [149],
 
 	hp: 100,
 
 	types: [
-		"Grass"
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Rückenwind"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), if Dragonite is on your Bench, you may reduce your Active Pokémon's Retreat cost to 0.",
+				en: "Once during your turn (before your attack), if Dragonite is on your Bench, you may reduce your Active Pokémon's Retreat Cost to 0.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Dracolosse est sur votre Banc, vous pouvez réduire le Coût de Retraite de votre Pokémon Actif à 0.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Dragoran auf deiner Bank ist, die Rückzugskosten deines Aktiven Pokémon auf 0 reduzieren."
 			},
@@ -58,16 +58,16 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Poison Scent",
+				en: "Dragon Tail",
 				fr: "Queue de dragon",
 				de: "Drachenschwanz"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned and Confused. If tails, the Defending Pokémon is now Poisoned and Asleep.",
+				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -84,7 +84,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84912,
+				cardmarket: 274884
+			},
+		},
 	],
 }
 

@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
+		en: "Quilava",
 		fr: "Feurisson",
 		de: "Igelavar"
 	},
 
-	illustrator: "Hajime Kusajima",
-	rarity: "Common",
+	illustrator: "Asuka Iwashita",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [81],
+	dexId: [156],
 
-	hp: 50,
+	hp: 70,
 
 	types: [
-		"Lightning"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -46,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnetic Bomb",
+				en: "Super Singe",
 				fr: "Ça sent le roussi !",
 				de: "Super-Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, Magnemite does 10 damage to itself.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
-			damage: "20+",
+			damage: 20,
 
 		},
 		{
@@ -77,7 +77,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Water",
 			value: "x2"
 		},
 	],
@@ -94,7 +94,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88483,
+				cardmarket: 274966
+			},
+		},
 	],
 }
 

@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Octillery",
+		en: "Rapidash",
 		fr: "Galopa",
 		de: "Gallopa"
 	},
 
-	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [224],
+	dexId: [78],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Water"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -46,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smokescreen",
+				en: "Overrun",
 				fr: "Dépassement",
 				de: "Überennen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, lancez une pièce. Si c'est face, choisissez-en un et cette attaque lui inflige 10 dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Falls dein gegner mindestens ein Pokémon auf der Bank hat, wirf eine Münze. Wähle bei \"Kopf\" 1 von diesen, und dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei dem Pokémon auf der Bank nicht an)"
 			},
-			damage: 40,
+			damage: 20,
 
 		},
 		{
@@ -77,7 +77,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Water",
 			value: "x2"
 		},
 	],
@@ -91,9 +91,13 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88576,
+				cardmarket: 274901
+			},
+		},
 	],
-	retreat: 2,
+	retreat: 0,
 }
 
 export default card

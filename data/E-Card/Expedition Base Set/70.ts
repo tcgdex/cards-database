@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
+		en: "Weezing",
 		fr: "Smogogo",
 		de: "Smogmog"
 	},
 
-	illustrator: "Yuka Morii",
-	rarity: "Common",
+	illustrator: "Hajime Kusajima",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [170],
+	dexId: [110],
 
-	hp: 50,
+	hp: 80,
 
 	types: [
-		"Water"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Smogo"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Float",
+				en: "Foul Gas",
 				fr: "Gaz infect",
 				de: "Foul Gas"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Chinchou.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
 			},
@@ -53,7 +53,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
+				en: "Misfire",
 				fr: "Raté",
 				de: "Misfire"
 			},
@@ -62,18 +62,18 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo.",
 				de: "Flip a coin. If tails, put 6 damage counters on Weezing."
 			},
-			damage: 20,
+			damage: 60,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 90559,
+				cardmarket: 274907
+			},
+		},
 	],
 }
 

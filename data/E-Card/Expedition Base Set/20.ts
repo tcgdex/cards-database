@@ -3,25 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
+		en: "Mewtwo",
 		fr: "Mewtwo",
 		de: "Mewtu"
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	illustrator: "Kimiya Masago",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [171],
+	dexId: [150],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Water"
+		"Psychic"
 	],
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Ball",
+				en: "Hypnosis",
 				fr: "Hypnose",
 				de: "Hypnose"
 			},
@@ -47,27 +47,27 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Conduction",
+				en: "Psychic",
 				fr: "Psyko",
 				de: "Psycho"
 			},
 			effect: {
-				en: "Discard all Lightning Energy cards attached to Lanturn. Flip a number of coins equal to the number of Lightning Energy cards you discarded. This attack does 30 damage plus 40 more damage for each heads.",
+				en: "This attack does 20 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte plus zusätzlich 10 Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energiekarte zu."
 			},
-			damage: "30+",
+			damage: "20+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -80,7 +80,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87418,
+				cardmarket: 274895
+			},
+		},
 	],
 }
 

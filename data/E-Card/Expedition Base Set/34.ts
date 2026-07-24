@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Slowking",
+		en: "Ampharos",
 		fr: "Pharamp",
 		de: "Ampharos"
 	},
 
-	illustrator: "Aya Kusube",
+	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [199],
+	dexId: [181],
 
-	hp: 80,
+	hp: 100,
 
 	types: [
-		"Psychic"
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Lainergie"
 	},
 
-	stage: "Stage1",
+	stage: "Stage2",
 
 	abilities: [
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Energieverknüpfung"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), you make take one basic Energy cards attached to one of your Benched Pokémon and attach it to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), you may take a basic Energy card attached to 1 of your Benched Pokémon and attach it to your Active Pokémon. This power can't be used if Ampharos is affected by a Special Condition.",
 				fr: "Aussi souvent que vous le désirez pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie de base attachée à l'un des Pokémon de votre Banc et l'attacher à votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Pharamp est affecté par un État spécial.",
 				de: "Du darft in deinem Zug so oft, wie du willst (vor deinem Angriff), eine Basis-Energiekarte, die an 1 deiner Pokémon auf der Bank angelegt ist, nehmen und an dein Aktives Pokémon anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Ampharos von einem Speziellen Zustand betroffen ist."
 			},
@@ -54,28 +54,28 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Bursting Hand",
+				en: "Lightning Strike",
 				fr: "Frap'éclair",
 				de: "Blitzschlag"
 			},
 
 			effect: {
-				en: "Look at your opponent's hand. This attack does 10 damage times the number of Energy cards there.",
+				en: "You may discard all Lightning Energy cards attached to Ampharos. If you do, this attack's base damage is 80 instead of 40.",
 				fr: "Vous pouvez vous défausser de toutes les cartes Énergie  attachées à Pharamp. Si vous faites ainsi, cette attaque inflige 80 dégâts de base au lieu de 40.",
 				de: "Du kannst alle -Energiekarten, die an Ampharos angelegt sind, auf deinen Ablagestapel legen. Falls du dies tust, ist der Basisschaden dieses Angriffs 80 anstatt 40."
 			},
 
-			damage: "10×",
+			damage: 40,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fighting",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -88,7 +88,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 83539,
+				cardmarket: 274877
+			},
+		},
 	],
 }
 

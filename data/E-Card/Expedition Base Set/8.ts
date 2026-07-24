@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
+		en: "Cloyster",
 		fr: "Crustabri",
 		de: "Austos"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	illustrator: "Kyoko Umemoto",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [101],
+	dexId: [91],
 
-	hp: 70,
+	hp: 80,
 
 	types: [
-		"Lightning"
+		"Water"
 	],
 
 	evolveFrom: {
@@ -46,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Swift",
+				en: "Lick",
 				fr: "Léchouille",
 				de: "Schlecker"
 			},
 			effect: {
-				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 30,
+			damage: 10,
 
 		},
 		{
@@ -74,18 +74,18 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Metal",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -98,7 +98,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84370,
+				cardmarket: 274883
+			},
+		},
 	],
 }
 

@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Sudowoodo",
+		en: "Blastoise",
 		fr: "Tortank",
 		de: "Turtok"
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Hiromichi Sugiyama",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [185],
+	dexId: [9],
 
-	hp: 60,
+	hp: 100,
 
 	types: [
-		"Fighting"
+		"Water"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Carabaffe"
 	},
 
-	stage: "Basic",
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -34,12 +34,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Copy",
+				en: "Bubble",
 				fr: "Écume",
 				de: "Blubber"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -53,23 +53,23 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Draw",
+				en: "Double Cannon",
 				fr: "Double canon",
 				de: "Doppel-Kanone"
 			},
 			effect: {
-				en: "Search your deck for a basic Energy card and attach it to Sudowoodo. Shuffle your deck afterward.",
+				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Lightning",
 			value: "x2"
 		},
 	],
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 83889,
+				cardmarket: 274879
+			},
+		},
 	],
 }
 

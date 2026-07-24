@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
+		en: "Kadabra",
 		fr: "Kadabra",
 		de: "Kadabra"
 	},
 
-	illustrator: "Hisao Nakamura",
-	rarity: "Common",
+	illustrator: "Hajime Kusajima",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [116],
+	dexId: [64],
 
-	hp: 40,
+	hp: 70,
 
 	types: [
-		"Water"
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Abra"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bubble",
+				en: "Energy Recall",
 				fr: "Rappel d'énergie",
 				de: "Energierückgewinnung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Attach 2 basic Energy cards from your discard pile to Kadabra (1 if you have only 1).",
 				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à Kadabra (1 seule si vous n'en avez qu'une).",
 				de: "Lege 2 Basis-Energiekarten aus deinem Ablagestapel an Kadabra an (1, wenn du nur 1 hast)."
 			},
@@ -67,7 +67,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
@@ -84,7 +84,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86406,
+				cardmarket: 274959
+			},
+		},
 	],
 }
 

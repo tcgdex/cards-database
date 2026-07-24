@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Scyther",
+		en: "Ninetales",
 		fr: "Feunard",
 		de: "Vulnona"
 	},
 
-	illustrator: "Hisao Nakamura",
-	rarity: "Uncommon",
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [123],
+	dexId: [38],
 
-	hp: 60,
+	hp: 80,
 
 	types: [
-		"Grass"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Goupix"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Turn",
+				en: "Mislead",
 				fr: "Tromperie",
 				de: "Mislead"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
 			},
@@ -53,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cross-Cut",
+				en: "Ethereal Flame",
 				fr: "Flamme éthérée",
 				de: "Ethereal Flame"
 			},
 			effect: {
-				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage.",
+				en: "Discard all Fire Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way.",
 				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
 				de: "Discard all  Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way."
 			},
@@ -69,7 +69,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Water",
 			value: "x2"
 		},
 	],
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87766,
+				cardmarket: 274896
+			},
+		},
 	],
 }
 

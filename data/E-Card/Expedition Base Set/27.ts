@@ -3,25 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Parasect",
+		en: "Skarmory",
 		fr: "Airmure",
 		de: "Panzaeron"
 	},
 
-	illustrator: "Masako Yamashita",
-	rarity: "Rare",
+	illustrator: "Kimiya Masago",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [47],
+	dexId: [227],
 
-	hp: 70,
+	hp: 60,
 
 	types: [
-		"Grass"
+		"Metal"
 	],
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Inducer",
+				en: "Steel Beak",
 				fr: "Bec d'acier",
 				de: "Stahlschnabel"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
@@ -50,18 +50,18 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Rapture Pollen",
+				en: "Air Cutter",
 				fr: "Taille-air",
 				de: "Luftschneider"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, remove 2 damage counters from Parasect.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 20,
+			damage: 50,
 		},
 	],
 
@@ -77,7 +77,7 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -90,7 +90,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 89234,
+				cardmarket: 274902
+			},
+		},
 	],
 }
 

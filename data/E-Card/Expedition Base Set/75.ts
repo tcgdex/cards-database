@@ -3,19 +3,19 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Eevee",
+		en: "Dragonair",
 		fr: "Draco",
 		de: "Dragonir"
 	},
 
-	illustrator: "Midori Harada",
-	rarity: "Common",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [133],
+	dexId: [148],
 
-	hp: 50,
+	hp: 70,
 
 	types: [
 		"Colorless"
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Minidraco"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	weaknesses: [
 		{
@@ -41,21 +41,21 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Charge Up",
+				en: "Spiral Wave",
 				fr: "Onde spirale",
 				de: "Spiralwelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward.",
+				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf eine Münze, bis du das erste Mal \"Zahl\" wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
 
-	retreat: 1,
+	retreat: 2,
 
 	variants: [
 		{
@@ -67,7 +67,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84898,
+				cardmarket: 274950
+			},
+		},
 	],
 }
 

@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
+		en: "Tyranitar",
 		fr: "Tyranocif",
 		de: "Despotar"
 	},
 
-	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	illustrator: "Kimiya Masago",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [57],
+	dexId: [248],
 
-	hp: 80,
+	hp: 120,
 
 	types: [
-		"Fighting"
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Ymphect"
 	},
 
-	stage: "Stage1",
+	stage: "Stage2",
 
 	abilities: [
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Finstere Aura"
 			},
 			effect: {
-				en: "All Energy attached to Tyranitar is Dark instead of its usual type.",
+				en: "All Energy attached to Tyranitar is Darkness Energy instead of its usual type.",
 				fr: "Toutes les cartes Énergie attachées à Tyranocif sont d'Énergie  au lieu de leur type habituel.",
 				de: "Alle Energie, die an Despotar angelegt ist, ist anstatt ihrem normalen Typ -Energie."
 			},
@@ -53,23 +53,23 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Karate Chop",
+				en: "Stamp",
 				fr: "Piaffement",
 				de: "Trampeln"
 			},
 			effect: {
-				en: "Damage from this attack is reduced by 10 for each damage counter on Primeape.",
+				en: "Flip a coin. If heads, this attack does 50 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire, s'il en possède. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 10 weitere Schadenspunkte zu und außerdem jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte, falls vorhanden. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
-			damage: "40-",
+			damage: "50+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fighting",
 			value: "x2"
 		},
 	],
@@ -79,7 +79,7 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-	retreat: 1,
+	retreat: 4,
 
 
 	variants: [
@@ -92,7 +92,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 90115,
+				cardmarket: 274904
+			},
+		},
 	],
 }
 

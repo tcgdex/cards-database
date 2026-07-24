@@ -3,19 +3,19 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bellossom",
+		en: "Butterfree",
 		fr: "Papilusion",
 		de: "Smettbo"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [182],
+	dexId: [12],
 
-	hp: 90,
+	hp: 80,
 
 	types: [
 		"Grass"
@@ -32,12 +32,12 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Flower Supplement",
+				en: "Miraculous Powder",
 				fr: "Poudre miraculeuse",
 				de: "Miraculous Powder"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, attach 1 basic Energy card from your hand to 1 of your Benched Pokémon. This power can't be used if Bellossom is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may remove all Special Conditions from your Active Pokémon. This power can't be used if Butterfree is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez annuler tous les États spéciaux sur votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Papilusion est affecté par un État spécial.",
 				de: "Once during your turn (before your attack), you may remove all Special Conditions from your Active Pokémon. This power can't be used if Butterfree is affected by a Special Condition."
 			},
@@ -52,21 +52,21 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knife Leaf",
+				en: "Spiral Drain",
 				fr: "Sangsue spirale",
 				de: "Spiral Drain"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip a coin. If heads, remove 2 damage counters from Butterfree.",
 				fr: "Lancez une pièce. Si c'est face, retirez 2 marqueurs de dégâts sur Papilusion.",
 				de: "Flip a coin. If heads, remove 2 damage counters from Butterfree."
 			},
-			damage: "30×",
+			damage: 40,
 
 		},
 	],
 
-	retreat: 2,
+	retreat: 0,
 	resistances: [
 		{
 			type: "Water",
@@ -89,7 +89,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84059,
+				cardmarket: 274880
+			},
+		},
 	],
 }
 

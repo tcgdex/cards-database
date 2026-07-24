@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Espeon",
+		en: "Fearow",
 		fr: "Rapasdepic",
 		de: "Ibitak"
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [196],
+	dexId: [22],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Psychic"
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -46,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Damage Blast",
+				en: "Clutch",
 				fr: "Serre",
 				de: "Greifer"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of damage counters on the Defending Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
-			damage: "30+",
+			damage: 20,
 
 		},
 		{
@@ -77,13 +77,13 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Wirkung."
 			},
 
-			damage: 50
+			damage: 50,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Lightning",
 			value: "x2"
 		},
 	],
@@ -94,7 +94,6 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
 	variants: [
 		{
 			type: "holo",
@@ -105,7 +104,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 85392,
+				cardmarket: 274886
+			},
+		},
 	],
 }
 

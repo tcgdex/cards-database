@@ -3,14 +3,15 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Boost Energy",
+		en: "Pokémon Nurse",
 		fr: "Infirmière Pokémon",
 		de: "Pokémon-Krankenschwester"
 	},
 
-	illustrator: "Shin-ichi Yoshikawa",
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
-	category: "Energy",
+	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -24,12 +25,14 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 275020
+				tcgplayer: 88229,
 			},
 		},
 		{
 			type: "reverse",
 			thirdParty: {
 				cardmarket: 275020
+				tcgplayer: 88229,
 			},
 		},
 		{

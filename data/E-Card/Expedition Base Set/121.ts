@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Fighting Cube 01",
+		en: "Meowth",
 		fr: "Miaouss",
 		de: "Mauzi"
 	},
 
-	illustrator: ""Big Mama" Tagawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Hironobu Yoshida"Big Mama" Tagawa",
+	rarity: "Common",
+	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		52,
-	],
+	dexId: [52],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Violent Rage",
+				en: "Double Scratch",
 				fr: "Double griffe",
 				de: "Double Scratch"
 			},
 			effect: {
-				en: "Attach this card to 1 of your Fighting Pokémon in play. That Pokémon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
@@ -66,7 +64,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -82,7 +80,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87315,
+				cardmarket: 274996
+			},
+		},
 	],
 }
 

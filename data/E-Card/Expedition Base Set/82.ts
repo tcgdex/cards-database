@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Hitmontop",
+		en: "Ivysaur",
 		fr: "Herbizarre",
 		de: "Bisaknosp"
 	},
 
-	illustrator: "Tomokazu Komiya",
-	rarity: "Common",
+	illustrator: "Miki Tanaka",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [237],
+	dexId: [2],
 
-	hp: 60,
+	hp: 80,
 
 	types: [
-		"Fighting"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Bulbizarre"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,16 +35,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
+				en: "Sleep Seed",
 				fr: "Graine dodo",
 				de: "Schlafsamen"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
-			damage: "20×",
+			damage: 20,
 
 		},
 		{
@@ -54,19 +54,19 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Spin",
+				en: "Vine Whip",
 				fr: "Fouet lianes",
 				de: "Rankenhieb"
 			},
 
-			damage: "20×",
+			damage: 40,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fire",
 			value: "x2"
 		},
 	],
@@ -83,7 +83,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86296,
+				cardmarket: 274957
+			},
+		},
 	],
 }
 

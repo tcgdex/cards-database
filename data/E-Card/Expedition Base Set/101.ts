@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pinsir",
+		en: "Clefairy",
 		fr: "Mélofée",
 		de: "Piepi"
 	},
 
-	illustrator: "Toshinao Aoki",
+	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [127],
+	dexId: [35],
 
-	hp: 60,
+	hp: 50,
 
 	types: [
-		"Grass"
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Grab",
+				en: "Shining Fingers",
 				fr: "Doigts brillants",
 				de: "Leuchtender Finger"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.",
+				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
@@ -45,19 +45,19 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Slice",
+				en: "Slap",
 				fr: "Beigne",
 				de: "Ohrfeige"
 			},
 
-			damage: 90,
+			damage: 10,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Fighting",
 			value: "x2"
 		},
 	],
@@ -74,7 +74,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84353,
+				cardmarket: 274976
+			},
+		},
 	],
 }
 

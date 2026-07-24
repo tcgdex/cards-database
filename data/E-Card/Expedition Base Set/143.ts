@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Metal Energy",
+		en: "Master Ball",
 		fr: "Master ball",
 		de: "Meisterball"
 	},
 
-	illustrator: "Milky Isobe",
-	rarity: "Rare",
-	category: "Energy",
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	effect: {
@@ -29,7 +29,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87252,
+				cardmarket: 275018
+			},
+		},
 	],
 	types: [
 		"Metal"

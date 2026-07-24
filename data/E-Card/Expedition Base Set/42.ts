@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Victreebel",
+		en: "Cloyster",
 		fr: "Crustabri",
 		de: "Austos"
 	},
 
-	illustrator: "Miki Tanaka",
+	illustrator: "Kyoko Umemoto",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [71],
+	dexId: [91],
 
-	hp: 90,
+	hp: 80,
 
 	types: [
-		"Grass"
+		"Water"
 	],
 
 	evolveFrom: {
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -46,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Corrosive Acid",
+				en: "Lick",
 				fr: "Léchouille",
 				de: "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 40,
+			damage: 10,
 
 		},
 		{
@@ -74,14 +74,14 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Metal",
 			value: "x2"
 		},
 	],
@@ -98,7 +98,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84372,
+				cardmarket: 274883
+			},
+		},
 	],
 }
 

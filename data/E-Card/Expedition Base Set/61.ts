@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Smoochum",
+		en: "Raichu",
 		fr: "Raichu",
 		de: "Raichu"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Uncommon",
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [238],
+	dexId: [26],
 
-	hp: 30,
+	hp: 80,
 
 	types: [
-		"Psychic"
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Pikachu"
 	},
 
-	stage: "Baby",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,16 +34,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Kiss",
+				en: "Plasma",
 				fr: "Plasma",
 				de: "Plasma"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads.",
+				en: "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Raichu.",
 				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Raichu.",
 				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei 'Kopf' 1 davon an Raichu an."
 			},
-			damage: "10×",
+			damage: 10,
 
 		},
 		{
@@ -58,7 +58,7 @@ const card: Card = {
 				de: "Schock-Blitz"
 			},
 			effect: {
-				en: "Discard all L Energy cards attached to Raichu or this attack does nothing.",
+				en: "Discard all Lightning Energy cards attached to Raichu or this attack does nothing.",
 				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Raichu ou cette attaque ne fait rien.",
 				de: "Lege alle an Raichu angelegten -Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkung."
 			},
@@ -70,7 +70,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88505,
+				cardmarket: 274900
+			},
+		},
 	],
 }
 

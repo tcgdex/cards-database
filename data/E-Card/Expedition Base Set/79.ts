@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
+		en: "Graveler",
 		fr: "Gravalanch",
 		de: "Georok"
 	},
 
-	illustrator: "Keiji Kinebuchi",
-	rarity: "Common",
+	illustrator: "Aya Kusube",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [88],
+	dexId: [75],
 
-	hp: 50,
+	hp: 80,
 
 	types: [
-		"Grass"
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Racaillou"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Sludge",
+				en: "Rock Hurl",
 				fr: "Lance-pierre",
 				de: "Steinschleuderer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
 				de: "Wende Resistenz nicht an."
 			},
@@ -59,7 +59,7 @@ const card: Card = {
 				de: "Steinhagel"
 			},
 			effect: {
-				en: "Chose 2 of your opponent's Pokémon (1 if he or she has only 1). This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for those Pokémon.",
+				en: "Choose 2 of your opponent's Benched Pokémon (1 if he or she has only 1). This attack does 10 damage to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 2 des Pokémon du Banc de votre adversaire (1 seul s'il n'en a qu'un). Cette attaque inflige 10 dégâts à chacun de ces Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Bestimme 2 der Pokémon auf der Bank deines Gegners (1, wenn er nur 1 hat). Dieser Angriff fügt jedem dieser Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -70,11 +70,11 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Water",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 3,
 
 
 	variants: [
@@ -87,7 +87,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 85888,
+				cardmarket: 274954
+			},
+		},
 	],
 }
 

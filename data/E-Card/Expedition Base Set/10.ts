@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Entei",
+		en: "Dugtrio",
 		fr: "Triopikeur",
 		de: "Digdri"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	illustrator: "Masako Yamashita",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [244],
+	dexId: [51],
 
 	hp: 70,
 
 	types: [
-		"Fire"
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -45,12 +45,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Burning Fang",
+				en: "Mud Slap",
 				fr: "Coud'boue",
 				de: "Mud Slap"
 			},
 
-			damage: 40,
+			damage: 20,
 
 		},
 		{
@@ -65,7 +65,7 @@ const card: Card = {
 				de: "Magnitude"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)",
+				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
@@ -76,7 +76,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Grass",
 			value: "x2"
 		},
 	],
@@ -99,7 +99,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84996,
+				cardmarket: 274885
+			},
+		},
 	],
 }
 

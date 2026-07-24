@@ -3,25 +3,23 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Forest Guardian",
+		en: "Pidgey",
 		fr: "Roucool",
 		de: "Taubsi"
 	},
 
-	illustrator: "Ken Sugimori",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
 	trainerType: "Supporter",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,11 +49,11 @@ const card: Card = {
 				de: "Zornschläge"
 			},
 			effect: {
-				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your deck. Then, look at the top 7 cards of your deck. Choose 1 of those cards and put it into your hand. Shuffle the rest into your deck afterward.",
+				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -63,10 +61,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -86,7 +83,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88047,
+				cardmarket: 274998
+			},
+		},
 	],
 }
 

@@ -3,25 +3,23 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Memory Berry",
+		en: "Rattata",
 		fr: "Rattata",
 		de: "Rattfratz"
 	},
 
-	illustrator: "Shin-ichi Yoshikawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Yuka Morii",
+	rarity: "Common",
+	category: "Pokemon",
 	trainerType: "Tool",
 	set: Set,
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Ruckzuckhieb"
 			},
 			effect: {
-				en: "Attach Memory Berry to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. The Pokémon this card is attached to can use any attack from its Basic Pokémon card or any Evolution card from which the Pokémon evolved. (You still have to pay for that attack's Energy cost.) Discard this card at the end of any turn the Pokémon attacks.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
@@ -49,7 +47,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -65,7 +63,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88614,
+				cardmarket: 275003
+			},
+		},
 	],
 }
 

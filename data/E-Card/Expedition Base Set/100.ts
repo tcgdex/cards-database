@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Phanpy",
+		en: "Chikorita",
 		fr: "Germignon",
 		de: "Endivie"
 	},
 
-	illustrator: "Naoyo Kimura",
+	illustrator: "Motofumi Fujiwara",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [231],
+	dexId: [152],
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Fighting"
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flail",
+				en: "Razor Leaf",
 				fr: "Tranch'herbe",
 				de: "Rasierblatt"
 			},
 
-			damage: "10×",
+			damage: 10,
 
 		},
 		{
@@ -43,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				en: "Sleep Powder",
 				fr: "Poudre dodo",
 				de: "Schlafpuder"
 			},
@@ -52,20 +52,20 @@ const card: Card = {
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
+			type: "Fire",
 			value: "x2"
 		},
 	],
 	resistances: [
 		{
-			type: "Lightning",
+			type: "Water",
 			value: "-30"
 		},
 	],
@@ -82,7 +82,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84275,
+				cardmarket: 274974
+			},
+		},
 	],
 }
 

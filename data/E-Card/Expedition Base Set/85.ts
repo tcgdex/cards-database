@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Horsea",
+		en: "Machoke",
 		fr: "Machopeur",
 		de: "Maschock"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	illustrator: "Shin-ichi Yoshida",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [116],
+	dexId: [67],
 
-	hp: 50,
+	hp: 80,
 
 	types: [
-		"Water"
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Machoc"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Reverse Thrust",
+				en: "Punch",
 				fr: "Koud'poing",
 				de: "Hieb"
 			},
@@ -62,7 +62,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
@@ -79,7 +79,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86977,
+				cardmarket: 274960
+			},
+		},
 	],
 }
 

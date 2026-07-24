@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Gloom",
+		en: "Golem",
 		fr: "Grolem",
 		de: "Geowaz"
 	},
 
-	illustrator: "Kyoko Umemoto",
-	rarity: "Uncommon",
+	illustrator: "Aya Kusube",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [44],
+	dexId: [76],
 
-	hp: 70,
+	hp: 100,
 
 	types: [
-		"Grass"
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -26,18 +26,18 @@ const card: Card = {
 		fr: "Gravalanch"
 	},
 
-	stage: "Stage1",
+	stage: "Stage2",
 
 	abilities: [
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Enervating Pollen",
+				en: "Rock Body",
 				fr: "Corps roc",
 				de: "Rock Body"
 			},
 			effect: {
-				en: "As long as Gloom is in play, Resistance on each player's Active Pokémon only reduces damage by 10.",
+				en: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance.)"
 			},
@@ -53,27 +53,27 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Sap",
+				en: "Rock Tumble",
 				fr: "Roule-pierre",
 				de: "Rock Tumble"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Gloom are now Asleep (after doing damage).",
+				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
 				de: "Don't apply Resistance."
 			},
-			damage: 20,
+			damage: 60,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Water",
 			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 4,
 
 
 	variants: [
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 85824,
+				cardmarket: 274889
+			},
+		},
 	],
 }
 

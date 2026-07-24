@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime",
+		en: "Bulbasaur",
 		fr: "Bulbizarre",
 		de: "Bisasam"
 	},
 
-	illustrator: "Yukiko Baba",
+	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [122],
+	dexId: [1],
 
-	hp: 50,
+	hp: 40,
 
 	types: [
-		"Psychic"
+		"Grass"
 	],
 
 	abilities: [
@@ -40,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Shock",
+				en: "Sleep Seed",
 				fr: "Graine dodo",
 				de: "Schlafsamen"
 			},
 			effect: {
-				en: "Don't apply Weakness and Resistance.",
+				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
@@ -69,7 +69,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Fire",
 			value: "x2"
 		},
 	],
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84027,
+				cardmarket: 274969
+			},
+		},
 	],
 }
 

@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Lanturn",
+		en: "Ninetales",
 		fr: "Feunard",
 		de: "Vulnona"
 	},
 
-	illustrator: "Yuka Morii",
-	rarity: "Rare",
+	illustrator: "Atsuko Nishida",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [171],
+	dexId: [38],
 
 	hp: 80,
 
 	types: [
-		"Lightning"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -46,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electric Tackle",
+				en: "Mislead",
 				fr: "Tromperie",
 				de: "Mislead"
 			},
 			effect: {
-				en: "This attack does 20 damage plus 10 damage for each Lightning Energy attached to Lanturn. Flip a coin. If tails, Lanturn does 10 damage to itself for each Lightning Energy attached to it.",
+				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
 			},
@@ -69,7 +69,7 @@ const card: Card = {
 				de: "Ethereal Flame"
 			},
 			effect: {
-				en: "Discard all R Energy cards attached to Ninetales. This attack does 30 damage plus 10 more damage for each cards discarded this way.",
+				en: "Discard all Fire Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way.",
 				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
 				de: "Discard all  Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way."
 			},
@@ -80,7 +80,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Water",
 			value: "x2"
 		},
 	],
@@ -97,7 +97,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87765,
+				cardmarket: 274896
+			},
+		},
 	],
 }
 

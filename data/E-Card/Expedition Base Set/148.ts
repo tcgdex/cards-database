@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Kingdra",
+		en: "Professor Elm's Training Method",
 		fr: "Méthode d'entraînement du professeur Orme",
 		de: "Professor Linds Trainingsmethoden"
 	},
 
-	illustrator: "Mikio Menjo",
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
-	category: "Pokemon",
+	category: "Trainer",
 	abilities: [
 		{
 			type: "Poke-BODY",
@@ -18,7 +18,7 @@ const card: Card = {
 				en: "Crystal Type",
 			},
 			effect: {
-				en: "Whenever you attach a Water, Lightning, or Psychic basic Energy card from your hand to Kingdra, Kingdra's type (color) becomes the same as that Energy card type until the end of the turn.",
+				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 			},
 		},
 	],,
@@ -65,6 +65,7 @@ const card: Card = {
 	],
 	hp: 110,
 	dexId: [230],
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {

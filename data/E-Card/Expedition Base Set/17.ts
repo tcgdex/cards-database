@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Jumpluff",
+		en: "Magby",
 		fr: "Magby",
 		de: "Magby"
 	},
 
-	illustrator: "Yuka Morii",
-	rarity: "Rare",
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [189],
+	dexId: [240],
 
-	hp: 70,
+	hp: 30,
 
 	types: [
-		"Grass"
+		"Fire"
 	],
 
 	abilities: [
@@ -32,7 +32,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Stage2",
+	stage: "Baby",
 
 	resistances: [
 		{
@@ -52,12 +52,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Cotton Punch",
+				en: "Energy Catch",
 				fr: "Attrape-énergie",
 				de: "Energieschnapper"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 times the number of heads.",
+				en: "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
 				de: "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
 			},
@@ -65,7 +65,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0,
+	retreat: 1,
 
 	variants: [
 		{
@@ -77,7 +77,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87000,
+				cardmarket: 274892
+			},
+		},
 	],
 }
 

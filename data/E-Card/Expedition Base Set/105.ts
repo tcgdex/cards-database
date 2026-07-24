@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Remoraid",
+		en: "Cyndaquil",
 		fr: "Héricendre",
 		de: "Feurigel"
 	},
 
-	illustrator: "Mitsuhiro Arita",
+	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [223],
+	dexId: [155],
 
 	hp: 50,
 
 	types: [
-		"Water"
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splatter",
+				en: "Tackle",
 				fr: "Charge",
 				de: "Tackle"
 			},
@@ -48,7 +48,7 @@ const card: Card = {
 				de: "Glut"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Cyndaquil.",
+				en: "Discard a Fire Energy card attached to Cyndaquil.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Héricendre.",
 				de: "Lege 1 an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
 			},
@@ -59,7 +59,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Water",
 			value: "x2"
 		},
 	],
@@ -76,7 +76,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84548,
+				cardmarket: 274979
+			},
+		},
 	],
 }
 

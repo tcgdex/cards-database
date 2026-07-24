@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Psychic Cube 01",
+		en: "Squirtle",
 		fr: "Carapuce",
 		de: "Schiggy"
 	},
 
-	illustrator: ""Big Mama" Tagawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Kyoko Umemoto"Big Mama" Tagawa",
+	rarity: "Common",
+	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		7,
-	],
+	dexId: [7],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psy Confuse",
+				en: "Headbutt",
 				fr: "Coup d'boule",
 				de: "Headbutt"
 			},
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Bubblebeam"
 			},
 			effect: {
-				en: "Attach this card to 1 of your Psychic Pokémon in play. That Pokémon may us this card's attack instead of its own. At the end of your turn, discard Psychic Cube 01.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -78,7 +76,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 89487,
+				cardmarket: 275006
+			},
+		},
 	],
 }
 

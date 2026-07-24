@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Metal Cube 01",
+		en: "Shellder",
 		fr: "Kokiyas",
 		de: "Muschas"
 	},
 
-	illustrator: ""Big Mama" Tagawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Sumiyoshi Kizuki"Big Mama" Tagawa",
+	rarity: "Common",
+	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		90,
-	],
+	dexId: [90],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Metal Reversal",
+				en: "Irongrip",
 				fr: "Poigne de fer",
 				de: "Eisener Griff"
 			},
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Schlecker"
 			},
 			effect: {
-				en: "Attach this card to 1 of your Metal Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Metal Cube 01.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -78,7 +76,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 89136,
+				cardmarket: 275004
+			},
+		},
 	],
 }
 

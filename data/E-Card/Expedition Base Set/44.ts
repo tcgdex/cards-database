@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
+		en: "Dugtrio",
 		fr: "Triopikeur",
 		de: "Digdri"
 	},
 
-	illustrator: "Hajime Kusajima",
+	illustrator: "Masako Yamashita",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [145],
+	dexId: [51],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Lightning"
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -45,12 +45,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Plasma",
+				en: "Mud Slap",
 				fr: "Coud'boue",
 				de: "Mud Slap"
 			},
 
-			damage: 10,
+			damage: 20,
 
 		},
 		{
@@ -60,33 +60,33 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Storm",
+				en: "Magnitude",
 				fr: "Ampleur",
 				de: "Magnitude"
 			},
 			effect: {
-				en: "Flip a coin. If tails, put 2 damage counters on Zapdos.",
+				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
-			damage: 60,
+			damage: 40,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Grass",
 			value: "x2"
 		},
 	],
 	resistances: [
 		{
-			type: "Fighting",
+			type: "Lightning",
 			value: "-30"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
 	variants: [
@@ -99,7 +99,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84998,
+				cardmarket: 274885
+			},
+		},
 	],
 }
 

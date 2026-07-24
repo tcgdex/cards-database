@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
+		en: "Gloom",
 		fr: "Ortide",
 		de: "Duflor"
 	},
 
-	illustrator: "Miki Tanaka",
-	rarity: "Common",
+	illustrator: "Yuichi Sawayama",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [118],
+	dexId: [44],
 
-	hp: 40,
+	hp: 70,
 
 	types: [
-		"Water"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Mystherbe"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -35,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Knock Away",
+				en: "Razor Leaf",
 				fr: "Tranch'herbe",
 				de: "Rasierblatt"
 			},
 
-			damage: "10+",
+			damage: 20,
 
 		},
 		{
@@ -66,7 +66,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
@@ -83,7 +83,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 85781,
+				cardmarket: 274953
+			},
+		},
 	],
 }
 

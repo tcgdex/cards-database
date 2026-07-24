@@ -3,25 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
+		en: "Mew",
 		fr: "Mew",
 		de: "Mew"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Uncommon",
+	illustrator: "Hajime Kusajima",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [33],
+	dexId: [151],
 
-	hp: 70,
+	hp: 50,
 
 	types: [
-		"Grass"
+		"Psychic"
 	],
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -30,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Horn",
+				en: "Super Psywave",
 				fr: "Super vague psy",
 				de: "Super-Psywelle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Choose 1 of your opponent's Pokémon. Count the number of Energy cards attached to that Pokémon. Put that many damage counters on the Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Comptez le nombre de cartes Énergie attachées à ce Pokémon. Placez autant de marqueurs de dégâts sur ce Pokémon.",
 				de: "Wähle 1 der Pokémon deines Gegners. Zähle die Anzahl an Energiekarten, die an dieses Pokémon angelegt sind. Lege so viele Schadensmarken auf das Pokémon."
 			},
@@ -62,7 +62,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87398,
+				cardmarket: 274894
+			},
+		},
 	],
 }
 

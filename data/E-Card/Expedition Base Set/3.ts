@@ -3,17 +3,17 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ariados",
+		en: "Arbok",
 		fr: "Arbok",
 		de: "Arbok"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	illustrator: "Kyoko Umemoto",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [168],
+	dexId: [24],
 
 	hp: 70,
 
@@ -45,12 +45,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Spider Force",
+				en: "Poison Spray",
 				fr: "Jet-venin",
 				de: "Poison Spray"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the Defending Pokémon is now Paralyzed.",
+				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "The Defending Pokémon is now Poisoned."
 			}
@@ -77,11 +77,11 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
-	retreat: 0,
+	retreat: 1,
 
 
 	variants: [
@@ -94,7 +94,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 83566,
+				cardmarket: 274878
+			},
+		},
 	],
 }
 

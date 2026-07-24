@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Togepi",
+		en: "Koffing",
 		fr: "Smogo",
 		de: "Smogon"
 	},
 
-	illustrator: "Miki Tanaka",
+	illustrator: "Hajime Kusajima",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [175],
+	dexId: [109],
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Colorless"
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Minor Errand-Running",
+				en: "Ram",
 				fr: "Collision",
 				de: "Ramme"
 			},
@@ -42,7 +42,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Pound",
+				en: "Confusion Gas",
 				fr: "Confu-gaz",
 				de: "Verwirrgas"
 			},
@@ -57,7 +57,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
@@ -74,7 +74,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86492,
+				cardmarket: 274989
+			},
+		},
 	],
 }
 

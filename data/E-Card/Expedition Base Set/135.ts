@@ -3,25 +3,23 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Time Shard",
+		en: "Totodile",
 		fr: "Kaiminus",
 		de: "Karnimani"
 	},
 
-	illustrator: "Shin-ichi Yoshikawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Aimi Tomita",
+	rarity: "Common",
+	category: "Pokemon",
 	trainerType: "Tool",
 	set: Set,
 
-	dexId: [
-		158,
-	],
+	dexId: [158],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Lähmender Blick"
 			},
 			effect: {
-				en: "Attach Time Shard to 1 of your Pokémon that doesn't already have a Pokémon Tool card attached to it. If that Pokémon is Knocked Out, discard this card. If the Pokémon this card is attached to is Knocked Out by damage from the Defending Pokémon's attack during your opponent's turn, you may return up to 2 basic Energy cards attached to that Pokémon to your hand.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -78,7 +76,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 89995,
+				cardmarket: 275009
+			},
+		},
 	],
 }
 

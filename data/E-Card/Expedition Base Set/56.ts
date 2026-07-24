@@ -3,25 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pupitar",
+		en: "Mewtwo",
 		fr: "Mewtwo",
 		de: "Mewtu"
 	},
 
-	illustrator: "Naoyo Kimura",
-	rarity: "Uncommon",
+	illustrator: "Kimiya Masago",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [247],
+	dexId: [150],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Fighting"
+		"Psychic"
 	],
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -29,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
+				en: "Hypnosis",
 				fr: "Hypnose",
 				de: "Hypnose"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Pupitar does 10 damage to itself.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
 				de: "Wirf eine Münze. Bei 'Kopf' schläft das Verteidigende Pokémon jetzt."
 			},
@@ -63,11 +63,11 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Psychic",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -80,7 +80,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87420,
+				cardmarket: 274894
+			},
+		},
 	],
 }
 

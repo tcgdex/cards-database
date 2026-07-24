@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Chinchou",
+		en: "Bayleef",
 		fr: "Macronium",
 		de: "Lorblatt"
 	},
 
-	illustrator: "Hisao Nakamura",
-	rarity: "Common",
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [170],
+	dexId: [153],
 
-	hp: 50,
+	hp: 70,
 
 	types: [
-		"Lightning"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Germignon"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -34,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jolt",
+				en: "Mysterious Powder",
 				fr: "Poudre mystérieuse",
 				de: "Mysteriöses Puder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
 			},
@@ -51,19 +51,19 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Confuse Ray",
+				en: "Razor Leaf",
 				fr: "Tranch'herbe",
 				de: "Rasierblatt"
 			},
 
-			damage: 10,
+			damage: 30,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "x2"
 		},
 	],
@@ -86,7 +86,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 83745,
+				cardmarket: 274946
+			},
+		},
 	],
 }
 

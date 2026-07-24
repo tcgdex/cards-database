@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magneton",
+		en: "Pichu",
 		fr: "Pichu",
 		de: "Pichu"
 	},
 
-	illustrator: "Hikaru Koike",
-	rarity: "Rare",
+	illustrator: "Atsuko Nishida",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [82],
+	dexId: [172],
 
-	hp: 70,
+	hp: 30,
 
 	types: [
-		"Metal"
+		"Lightning"
 	],
 
 	abilities: [
@@ -32,7 +32,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Stage1",
+	stage: "Baby",
 
 	resistances: [
 		{
@@ -52,12 +52,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Steel Wave",
+				en: "Energy Patch",
 				fr: "Rajout d'énergie",
 				de: "Energieflicken"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Benched Pokémon that are the same type (color) as the Defending Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
 				fr: "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
 				de: "Nimm eine Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, und lege sie an ein anderes deiner Pokémon an."
 			},
@@ -65,7 +65,7 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
 	variants: [
 		{
@@ -77,7 +77,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 88013,
+				cardmarket: 274897
+			},
+		},
 	],
 }
 

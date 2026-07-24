@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
+		en: "Larvitar",
 		fr: "Embrylex",
 		de: "Larvitar"
 	},
 
-	illustrator: "Keiko Fukuyama",
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [37],
+	dexId: [246],
 
 	hp: 50,
 
 	types: [
-		"Fire"
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Collect Fire",
+				en: "Bite",
 				fr: "Morsure",
 				de: "Biss"
 			},
@@ -72,7 +72,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 86635,
+				cardmarket: 274991
+			},
+		},
 	],
 }
 

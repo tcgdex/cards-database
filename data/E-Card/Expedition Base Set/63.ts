@@ -3,25 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tyrogue",
+		en: "Skarmory",
 		fr: "Airmure",
 		de: "Panzaeron"
 	},
 
-	illustrator: "Tomokazu Komiya",
-	rarity: "Uncommon",
+	illustrator: "Kimiya Masago",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [236],
+	dexId: [227],
 
-	hp: 30,
+	hp: 60,
 
 	types: [
-		"Fighting"
+		"Metal"
 	],
 
-	stage: "Baby",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -30,16 +30,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Punch",
+				en: "Steel Beak",
 				fr: "Bec d'acier",
 				de: "Stahlschnabel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "20+",
 
 		},
 		{
@@ -61,24 +61,23 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 50
+			damage: 50,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -91,7 +90,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 89235,
+				cardmarket: 274902
+			},
+		},
 	],
 }
 

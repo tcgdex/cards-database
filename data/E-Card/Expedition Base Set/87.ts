@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Houndour",
+		en: "Metapod",
 		fr: "Chrysacier",
 		de: "Safcon"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	illustrator: "Yuichi Sawayama",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [228],
+	dexId: [11],
 
-	hp: 50,
+	hp: 60,
 
 	types: [
-		"Darkness"
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Chenipan"
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Exoskelett"
 			},
 			effect: {
-				en: "All damage done to Metapod is reduced by 20 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Metapod is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Chrysacier sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Aller Schaden, der Safcon von Angriffen zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -50,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Feint Attack",
+				en: "Rollout",
 				fr: "Roulade",
 				de: "Walzer"
 			},
@@ -68,11 +68,11 @@ const card: Card = {
 	],,
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
 	variants: [
@@ -85,7 +85,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87388,
+				cardmarket: 274962
+			},
+		},
 	],
 }
 

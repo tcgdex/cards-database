@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Smeargle",
+		en: "Gastly",
 		fr: "Fantominus",
 		de: "Nebulak"
 	},
 
-	illustrator: "Miki Tanaka",
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [235],
+	dexId: [92],
 
-	hp: 60,
+	hp: 40,
 
 	types: [
-		"Colorless"
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,12 +29,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Paint Trick",
+				en: "Bad Dream",
 				fr: "Mauvais rêve",
 				de: "Bad Dream"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. Then, choose 1 of your Benched Pokémon and switch Smeargle with it.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused."
 			},
@@ -44,7 +44,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Darkness",
 			value: "x2"
 		},
 	],
@@ -67,7 +67,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 85649,
+				cardmarket: 274984
+			},
+		},
 	],
 }
 

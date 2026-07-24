@@ -3,22 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Togetic",
+		en: "Charizard",
 		fr: "Dracaufeu",
 		de: "Glurak"
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [176],
+	dexId: [6],
 
-	hp: 60,
+	hp: 100,
 
 	types: [
-		"Colorless"
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 		},
 	],,
-	stage: "Stage1",
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -46,18 +46,18 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Mini-Metronome",
+				en: "Tail Smash",
 				fr: "Éclate-queue",
 				de: "Schwanzschmetterer"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else required in order to use that attack.) (No matter what type the Defending Pokémon is, Togetic is still Colorless.) Togetic performs that attack.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 40
+			damage: 40,
 		},
 		{
 			cost: [
@@ -71,7 +71,7 @@ const card: Card = {
 				de: "Flammenwurf"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Charizard.",
+				en: "Discard 1 Fire Energy card attached to Charizard.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
 				de: "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
 			},
@@ -88,11 +88,11 @@ const card: Card = {
 	],,
 	weaknesses: [
 		{
-			type: "Lightning",
+			type: "Water",
 			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 	variants: [
 		{
@@ -104,7 +104,11 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 84184,
+				cardmarket: 274881
+			},
+		},
 	],
 }
 
