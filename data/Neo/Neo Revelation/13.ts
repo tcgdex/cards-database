@@ -77,18 +77,22 @@ const card: Card = {
 		fr: "Les nuages gorgés de pluie qui l'accompagnent lui permettent de lancer des éclairs à volonté. On raconte qu'il est issu de la foudre."
 	},
 
-	thirdParty: {
-		cardmarket: 274599,
-		tcgplayer: 88529
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274599,
+				tcgplayer: 88529
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274599,
+				tcgplayer: 88529
+			}
 		}
 	]
 }

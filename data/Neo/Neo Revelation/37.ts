@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "À l'aide de sa corne, il perce des trous dans les rochers situés au fond des rivières, afin d'y faire un nid pour éviter que ses œufs soient emportés par le courant."
 	},
 
-	thirdParty: {
-		cardmarket: 274623,
-		tcgplayer: 89022
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274623,
+				tcgplayer: 89022
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274623,
+				tcgplayer: 89022
+			}
 		}
 	]
 }
