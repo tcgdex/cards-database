@@ -83,20 +83,24 @@ const card: Card = {
 		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
 	},
 
-	thirdParty: {
-		cardmarket: 273897,
-		tcgplayer: 44438
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273897,
+				tcgplayer: 44438
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273897,
+				tcgplayer: 44438
+			}
 		},
 		{
 			type: "normal",
