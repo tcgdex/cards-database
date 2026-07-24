@@ -11,26 +11,30 @@ const card: Card = {
 	illustrator: "Midori Harada",
 	rarity: "Rare",
 	category: "Trainer",
+	trainerType: "Stadium",
 	set: Set,
 
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), if that player's Bench isn't full, that player flips a coin. If heads, that player shows his or her opponent a basic Energy card from his or her hand. Then, that player searches his or her deck for a Basic Pokémon card of the same type (color) as the revealed Energy card and puts it onto his or her Bench. The player shuffles his or her deck afterward.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -vous de cette carte si une autre carte Stade arrive en jeu.",
-		de: "Once during each player´s turn (before attacking), if that player´s Bench isn´t full, that player flips a coin. If heads, that player shows hi or her opponent a basic Energy card from his or her hand. Then, that player searches his or her deck for a Basic Pokémon card of the same type (color) as the revealed Energy card and puts it onto his or her Bench. The player shuffle his or her deck afterward.",
-	},
-
-	thirdParty: {
-		cardmarket: 275194,
-		tcgplayer: 83563
+		de: "Once during each player´s turn (before attacking), if that player´s Bench isn´t full, that player flips a coin. If heads, that player shows hi or her opponent a basic Energy card from his or her hand. Then, that player searches his or her deck for a Basic Pokémon card of the same type (color) as the revealed Energy card and puts it onto his or her Bench. The player shuffle his or her deck afterward."
 	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83563,
+				cardmarket: 275194
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 83563,
+				cardmarket: 275194
+			}
+		},
 	]
 }
 

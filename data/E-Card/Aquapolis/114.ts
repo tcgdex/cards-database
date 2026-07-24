@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		175,
-	],
+	dexId: [175],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Kleine Besorgung"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, search your deck for a basic Energy card. Show those cards to your opponent and then put them into your hand. Shuffle your deck afterward.",
+				en: "Flip 2 coins. For each heads, search your deck for a basic Energy card. Show those cards to your opponent, and then put them into your hand. Shuffle your deck afterward.",
 				fr: "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck une carte Énergie de base. Montrez ces cartes à votre adversaire avant de les ajouter à votre main. Mélangez ensuite votre deck.",
 				de: "Wirf 2 Münzen. Durchsuche jedesmal, wenn du \"Kopf\" geworfen hast, dein Deck nach einer Basis-Energiekarte. Zeige diese Karten deinem Gegner und nimm sie dann auf deine Hand. Mische dein Deck danach."
 			},
@@ -60,24 +58,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275190,
-		tcgplayer: 89931
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89931,
+				cardmarket: 275190
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89931,
+				cardmarket: 275190
+			}
+		},
 	]
 }
 

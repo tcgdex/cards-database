@@ -22,31 +22,36 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Splatter",
 				de: "Verspritzer",
-				fr: "Crépitement",
+				fr: "Crépitement"
 			},
 			effect: {
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness or Resistance.",
 				de: "Wähle 1 der Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an.",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance.",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance."
 			},
 			cost: [
 				"Water",
-			],
+			]
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275216,
-		tcgplayer: 90500
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90500,
+				cardmarket: 275216
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 90500,
+				cardmarket: 275216
+			}
+		},
 	]
 }
 

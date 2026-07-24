@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		249,
-	],
+	dexId: [249],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Fire, Water, or Psychic basic Energy card from your hand to Lugia, Lugia's type (color) becomes the same as that as that Energy card type until the end of the turn.",
-				fr: "À chaque fois que vous attachez une carte Énergie de base , , ou  de votre main à Lugia, le type de Lugia (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
+				en: "Whenever you attach a Fire, Water, or Psychic basic Energy card from your hand to Lugia, Lugia's type (color) becomes the same as that Energy card type until the end of the turn.",
+				fr: "À chaque fois que vous attachez une carte Énergie de base , ou  de votre main à Lugia, le type de Lugia (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
 				de: "Immer wenn du eine -, - oder -Energiekarte aus deiner Hand an Lugia anlegst, wird Lugias Typ (Farbe) bis zum Ende des Zuges derselbe Typ wie diese Energiekarte."
-			},
+			}
 		},
 	],
 
@@ -57,7 +55,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Energiekarten, die an das Verteidigende Pokémon angelegt sind, zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -85,21 +83,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275225,
-		tcgplayer: 86905
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
+			thirdParty: {
+				tcgplayer: 86905,
+				cardmarket: 275225
+			}
+		},
 	]
 }
 

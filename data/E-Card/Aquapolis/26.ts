@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		224,
-	],
+	dexId: [224],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Octillery is your Active Pokémon, whenever the Defending Pokémon retreats, discard all Energy cards attached to the Defending Pokémon when it goes to the Bench.",
 				fr: "Tant que Octillery est votre Pokémon Actif, à chaque fois que le Pokémon Défenseur bat en retraite, obligez votre adversaire à se défausser de toutes les cartes Énergie attachées au Pokémon Défenseur quand il est envoyé sur le Banc.",
 				de: "Wenn sich das Verteidigende Pokémon zurückzieht, während Octillery dein Aktives Pokémon ist, lege alle an das Verteidigende Pokémon angelegten Energiekarten auf den Ablagestapel, wenn es auf die Bank geht."
-			},
+			}
 		},
 	],
 
@@ -71,24 +69,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275044,
-		tcgplayer: 87829
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87829,
+				cardmarket: 275044
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87829,
+				cardmarket: 275044
+			}
+		},
 	]
 }
 

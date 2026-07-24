@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Rauchwolke"
 			},
 			effect: {
-				en: "If the defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wenn das Verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
@@ -60,7 +58,7 @@ const card: Card = {
 				de: "Wegbrennen"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Energy cards attached to Houndoom.",
+				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Houndoom.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez-vous de toutes les cartes Énergie  attachée à Démolosse.",
 				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Hundemon angelegten -Energiekarten auf deinen Ablagestapel."
 			},
@@ -72,24 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275050,
-		tcgplayer: 86202
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86202,
+				cardmarket: 275050
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86202,
+				cardmarket: 275050
+			}
+		},
 	]
 }
 

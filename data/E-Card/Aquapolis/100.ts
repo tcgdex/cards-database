@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		231,
-	],
+	dexId: [231],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,11 +34,11 @@ const card: Card = {
 				de: "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Phanpy.",
+				en: "This attack does 10 damage times the number of damage counters on Phanpy.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Phanpy zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -62,10 +60,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -75,18 +72,21 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275175,
-		tcgplayer: 87998
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87998,
+				cardmarket: 275175
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87998,
+				cardmarket: 275175
+			}
+		},
 	]
 }
 
