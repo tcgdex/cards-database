@@ -78,18 +78,22 @@ const card: Card = {
 		fr: "Il chasse les insectes dans les hautes herbes. Ses petites ailes lui permettent de voler très vite."
 	},
 
-	thirdParty: {
-		cardmarket: 273859,
-		tcgplayer: 45165
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273859,
+				tcgplayer: 45165
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273859,
+				tcgplayer: 45165
+			}
 		}
 	],
 }
