@@ -3,7 +3,7 @@ import Set from '../Skyridge'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♀",
+		en: "Nidoran ♀",
 		de: "Nidoran W"
 	},
 	illustrator: "Masako Yamashita",
@@ -11,12 +11,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		29,
-	],
+	dexId: [29],
 	hp: 50,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -43,7 +41,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -52,11 +50,17 @@ const card: Card = {
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87716,
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87716,
+			},
+		},
+	],
 }
 
 export default card

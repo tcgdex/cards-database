@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		250,
-	],
+	dexId: [250],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				de: "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Fire, Water, or Lightning basic Energy card from your hand to Ho-oh, Ho-oh's type (color) becomes the same as that type of energy until the end of the turn.",
+				en: "Whenever you attach a Fire, Water, or Lightning basic Energy card from your hand to Ho-oh, Ho-oh's type (color) becomes the same as that type of Energy until the end of the turn.",
 				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Ho-oh anlegst, ändert sich Ho-ohs Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			},
 		},
@@ -75,25 +73,36 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 362907,
-		tcgplayer: 86121
-	},
-
 	variants: [
 		{
 			type: 'holo',
+			thirdParty: {
+				tcgplayer: 86121,
+				cardmarket: 362907
+			},
 		},
 		{
 			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86121,
+				cardmarket: 362907
+			},
+		},
+		{
+			type: 'holo',
+			foil: 'cracked-ice',
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 210854
+			}
 		}
-	]
+	],
 }
 
 export default card

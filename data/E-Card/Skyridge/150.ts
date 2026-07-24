@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		141,
-	],
+	dexId: [141],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Water, Lightning, or Fighting basic Energy card from your hand to Kabutops, Kabutop's type (color) becomes the same as that type of energy until the end of the turn.",
+				en: "Whenever you attach a Water, Lightning, or Fighting basic Energy card from your hand to Kabutops, Kabutops's type (color) becomes the same as that type of Energy until the end of the turn.",
 				de: "Immer wenn du eine  -,  -oder eine  - Basis Energiekarte aus deiner Hand an Kabutops anlegst, ändert sich Kabutops'Typ (Farbe) bis zum Ende des Zuges zum gleichen Typ wie diese Energie."
 			},
 		},
@@ -75,7 +73,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -83,25 +81,36 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275272,
-		tcgplayer: 86396
-	},
-
 	variants: [
 		{
 			type: 'holo',
+			thirdParty: {
+				tcgplayer: 86396,
+				cardmarket: 275272
+			},
 		},
 		{
 			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86396,
+				cardmarket: 275272
+			},
+		},
+		{
+			type: 'holo',
+			foil: 'cracked-ice',
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 210853
+			}
 		}
-	]
+	],
 }
 
 export default card

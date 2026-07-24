@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				de: "Herumlümmeln"
 			},
 			effect: {
-				en: "Once during your turn (before you attack) if Snorlax is your Active Pokémon, you may remove 1 damage counter from Snorlax. Snorlax is now Asleep. This power can't be used if Snorlax is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Snorlax is your Active Pokémon, you may remove 1 damage counter from Snorlax. Snorlax is now Asleep. This power can't be used if Snorlax is affected by a Special Condition.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Relaxo dein aktives Pokémon ist, 1 Schadensmarke von Relaxo entfernen. Relaxo schläft jetzt. Diese Fähigkeit kann nicht verwendet werden, falls Relaxo von einem speziellen Zustand betroffen ist."
 			},
 		},
@@ -53,7 +51,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
 				de: "Wirf eine Münze, bis du \"Zahl\" wirfst. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -61,25 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275358,
-		tcgplayer: 89387
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89387,
+				cardmarket: 275358
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89387,
+				cardmarket: 275358
+			},
+		},
+	],
 }
 
 export default card

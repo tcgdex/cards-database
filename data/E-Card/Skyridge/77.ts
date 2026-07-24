@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		226,
-	],
+	dexId: [226],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Flossenknaller"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -51,7 +49,7 @@ const card: Card = {
 				de: "Wassersonar"
 			},
 			effect: {
-				en: "Don't apply Weakness and Resistance.",
+				en: "Don't apply Resistance.",
 				de: "Wende keine Resistenz an."
 			},
 			damage: 30,
@@ -62,10 +60,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -75,19 +72,22 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275335,
-		tcgplayer: 87181
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87181,
+				cardmarket: 275335
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87181,
+				cardmarket: 275335
+			},
+		},
+	],
 }
 
 export default card

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		214,
-	],
+	dexId: [214],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -55,32 +53,35 @@ const card: Card = {
 				de: "Liegen auf Skaraborn 4 oder mehr Schadensmarken, beträgt der Basisschaden dieses Angriffs 50 anstatt 30."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275322,
-		tcgplayer: 86061
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86061,
+				cardmarket: 275322
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86061,
+				cardmarket: 275322
+			},
+		},
+	],
 }
 
 export default card

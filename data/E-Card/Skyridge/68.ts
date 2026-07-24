@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		39,
-	],
+	dexId: [39],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Nickerchen"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Jigglypuff",
+				en: "Remove 1 damage counter from Jigglypuff.",
 				de: "Entferne eine Schadensmarke von Pummeluff."
 			},
 
@@ -60,25 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275326,
-		tcgplayer: 86313
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86313,
+				cardmarket: 275326
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86313,
+				cardmarket: 275326
+			},
+		},
+	],
 }
 
 export default card

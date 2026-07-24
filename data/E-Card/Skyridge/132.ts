@@ -10,6 +10,7 @@ const card: Card = {
 	illustrator: "Midori Harada",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Stadium",
 	set: Set,
 
 	effect: {
@@ -17,19 +18,32 @@ const card: Card = {
 		de: "Immer wenn ein Spieler versucht, in seinem Zug ein Pokémon zurückzuziehen, wirft dieser Spieler eine Münze. Bei \"Kopf\" zieht der Spieler das Pokémon zurück (und legt die Energiekarte ganz normal auf den Ablagestapel). Bei \"Zahl\" kann sich dieses Pokémon in diesem nicht zurückziehen (der Spieler legt keine Energiekarte auf den Ablagestapel)."
 	},
 
-	thirdParty: {
-		cardmarket: 275390,
-		tcgplayer: 87500
-	},
+	attacks: [
+		{
+			// name intentionally left blank
+			name: {},
+			effect: {
+				en: 'Whenever a player tries to retreat a Pokémon during his or her turn, that player flips a coin. If heads, that player retreats that Pokémon (and discards Energy normally). If tails, that Pokémon can\'t retreat this turn (the player doesn\'t discard any Energy).'
+			}
+		}
+	],
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87500,
+				cardmarket: 275390
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87500,
+				cardmarket: 275390
+			},
+		},
+	],
 }
 
 export default card

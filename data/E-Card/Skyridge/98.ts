@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		218,
-	],
+	dexId: [218],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -46,7 +44,7 @@ const card: Card = {
 				de: "Glühendheiße Lava"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Slugma in order to use this attack. The Defending Pokémon is now Burned.",
+				en: "Discard a Fire Energy card attached to Slugma in order to use this attack. The Defending Pokémon is now Burned.",
 				de: "Lege eine an Schneckmag angelegte -Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Das verteidigende Pokémon ist jetzt verbrannt."
 			},
 
@@ -56,25 +54,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275356,
-		tcgplayer: 89338
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89338,
+				cardmarket: 275356
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89338,
+				cardmarket: 275356
+			},
+		},
+	],
 }
 
 export default card

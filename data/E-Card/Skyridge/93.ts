@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		28,
-	],
+	dexId: [28],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -59,7 +57,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads. If you get at least 1 heads, the Defending Pokémon is now Poisoned.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Wenn du dabei mindestens 1 \"Kopf\" erzielst, ist das verteidigende Pokémon jetzt vergiftet."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -67,10 +65,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -80,19 +77,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275351,
-		tcgplayer: 88931
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88931,
+				cardmarket: 275351
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88931,
+				cardmarket: 275351
+			},
+		},
+	],
 }
 
 export default card

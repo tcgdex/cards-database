@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		205,
-	],
+	dexId: [205],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads. If both coins are heads, switch Forretress with 1 of your Benched Pokémon.",
 				de: "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Zeigen beide Münzen \"Kopf\", tausche Forstellka mit 1 der Pokémon auf deiner Bank aus."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Streubombe"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pokémon. For each tails, do 10 damage to each of your own Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)",
+				en: "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pokémon. For each tails, do 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				de: "Wirf 2 Münzen. Füge für jeden geworfenen \"Kopf\" jedem Pokémon auf der generischen Bank 10 Schadenspunkte zu. Füge für jede geworfene \"Zahl\" jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
 			},
 			damage: 40,
@@ -67,10 +65,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
@@ -80,19 +77,22 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275251,
-		tcgplayer: 85544
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85544,
+				cardmarket: 275251
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85544,
+				cardmarket: 275251
+			},
+		},
+	],
 }
 
 export default card

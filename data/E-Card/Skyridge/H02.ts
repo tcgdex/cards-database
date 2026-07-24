@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Energy Recharge"
 			},
 			effect: {
-				en: "When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic energy card from your discard pile and attach it to Arcanine.",
+				en: "When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine.",
 				de: "When your play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine."
 			},
 		},
@@ -69,7 +67,7 @@ const card: Card = {
 				de: "White Flames"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Arcanine.",
+				en: "Discard all Fire Energy cards attached to Arcanine.",
 				de: "Discard all  Energy cards attached to Arcanine."
 			},
 			damage: 70,
@@ -80,22 +78,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275261,
-		tcgplayer: 83574
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83574,
+				cardmarket: 275261
+			},
+		},
+	],
 }
 
 export default card

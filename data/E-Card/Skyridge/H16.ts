@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		219,
-	],
+	dexId: [219],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Ausbruch"
 			},
 			effect: {
-				en: "Each player discards the top card of his or her deck. This attack does 20 damage plus 20 more damage for each Energy card discarded in this way.",
+				en: "Each player discard the top card of his or her deck. This attack does 20 damage plus 20 more damage for each Fire Energy card discarded in this way.",
 				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgelegte -Energiekarte zu."
 			},
 			damage: "20+",
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Feuerstrom"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pokémon, this attack does 10 damage to each of them. (Don't apply Weakness or Resistance for Benched Pokémon.)",
+				en: "Discard a Fire Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pokémon, this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				de: "Lege eine an Magcargo angelegte -Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Wenn dein Gegner über Pokémon auf der Bank verfügt, fügt dieser Angriff jedem von ihnen 10 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
 			},
 			damage: 60,
@@ -68,22 +66,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275276,
-		tcgplayer: 87008
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87008,
+				cardmarket: 275276
+			},
+		},
+	],
 }
 
 export default card

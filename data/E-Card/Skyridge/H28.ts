@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		121,
-	],
+	dexId: [121],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -38,10 +36,10 @@ const card: Card = {
 				de: "Energieausbruch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage times the number of Energy cards attached to Starmie and the Defending Pokémon.",
+				en: "Flip a coin. If heads, this attack does 10 damage times the number of Energy attached to Starmie and the Defending Pokémon.",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte mal der Anzahl an Energiekarten, die an Starmie und das Verteidigende Pokémon angelegt sind, zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -66,22 +64,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275288,
-		tcgplayer: 89528
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89528,
+				cardmarket: 275288
+			},
+		},
+	],
 }
 
 export default card
