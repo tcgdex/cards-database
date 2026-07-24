@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		221,
-	],
+	dexId: [221],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -69,22 +67,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275301,
-		tcgplayer: 88112
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88112,
+				cardmarket: 275301
+			},
+		},
+	],
 }
 
 export default card

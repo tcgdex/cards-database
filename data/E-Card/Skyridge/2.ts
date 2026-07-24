@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		65,
-	],
+	dexId: [65],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Energy Jump"
 			},
 			effect: {
-				en: "Once during your turn (before you attack) you may move an energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition.",
 				de: "Once during your turn (before your attack), you may move an Energy card from 1 of your Pokémon to another of your Pokémon. This power can't be used if Alakazam is affected by a Special Condition."
 			},
 		},
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Psychic"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 10 more damage for each energy card attached to the Defending Pokémon.",
+				en: "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 				de: "This attack does 30 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
 			damage: "30+",
@@ -65,25 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275238,
-		tcgplayer: 83499
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83499,
+				cardmarket: 275238
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83499,
+				cardmarket: 275238
+			},
+		},
+	],
 }
 
 export default card

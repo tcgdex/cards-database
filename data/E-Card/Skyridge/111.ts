@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		49,
-	],
+	dexId: [49],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -61,30 +59,33 @@ const card: Card = {
 				de: "Wirf eine Münze. Wähle bei \"Kopf\" einen speziellen Zustand (Schlaf, verbrannt, verwirrt, gelähmt oder vergiftet). Das verteidigende Pokémon ist jetzt von diesem Spezielen Zustand betroffen."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275369,
-		tcgplayer: 90300
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90300,
+				cardmarket: 275369
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90300,
+				cardmarket: 275369
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card

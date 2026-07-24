@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		86,
-	],
+	dexId: [86],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -61,25 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275353,
-		tcgplayer: 89051
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89051,
+				cardmarket: 275353
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89051,
+				cardmarket: 275353
+			},
+		},
+	],
 }
 
 export default card

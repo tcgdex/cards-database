@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		30,
-	],
+	dexId: [30],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -59,32 +57,35 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275341,
-		tcgplayer: 87734
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87734,
+				cardmarket: 275341
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87734,
+				cardmarket: 275341
+			},
+		},
+	],
 }
 
 export default card

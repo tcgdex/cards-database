@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -47,7 +45,7 @@ const card: Card = {
 				de: "Bodycheck"
 			},
 			effect: {
-				en: "Eevee does 10 damage to itself",
+				en: "Eevee does 10 damage to itself.",
 				de: "Evoli fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
@@ -58,25 +56,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275312,
-		tcgplayer: 85077
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85077,
+				cardmarket: 275312
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85077,
+				cardmarket: 275312
+			},
+		},
+	],
 }
 
 export default card

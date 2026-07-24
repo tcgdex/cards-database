@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		203,
-	],
+	dexId: [203],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -55,32 +53,35 @@ const card: Card = {
 				de: "Liegen an Girafarig und am verteidigenden Pokémon nicht die gleiche Anzahl an Energiekarten an, beträgt der Basis-Schaden dieses Angriffs 10 anstatt 40."
 			},
 
-			damage: 40
+			damage: 40,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275316,
-		tcgplayer: 85727
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85727,
+				cardmarket: 275316
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85727,
+				cardmarket: 275316
+			},
+		},
+	],
 }
 
 export default card

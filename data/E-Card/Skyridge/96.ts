@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		213,
-	],
+	dexId: [213],
 
 	hp: 30,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				de: "Vasenkörper"
 			},
 			effect: {
-				en: "All damage done to Shuckle is reduced by 20 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Shuckle is reduced by 20 (after applying Weakness and Resistance).",
 				de: "Jeder Schaden, der Pottrott durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
@@ -60,25 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275354,
-		tcgplayer: 89189
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89189,
+				cardmarket: 275354
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89189,
+				cardmarket: 275354
+			},
+		},
+	],
 }
 
 export default card

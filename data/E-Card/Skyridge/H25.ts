@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Zzzapp!"
 			},
 			effect: {
-				en: "This attack does 20 damage to each Pokémon with a Poké",
+				en: "This attack does 20 damage to each Pokémon with a Poké-Body or Poké-Power (yours and your opponent's). (Don't apply Weakness or Resistance.)",
 				de: "Dieser Angriff fügt jedem Pokémon mit einem Poké-Body oder einer Poké-Power 20 Schadenspunkte zu (deinen und den gegnerischen Pokémon). (Wende keine Schwäche oder Resistenz an.)"
 			},
 
@@ -66,22 +64,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275285,
-		tcgplayer: 88502
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88502,
+				cardmarket: 275285
+			},
+		},
+	],
 }
 
 export default card

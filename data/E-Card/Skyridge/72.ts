@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		165,
-	],
+	dexId: [165],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Tränende Augen"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Ledyba is reduced by 20.",
+				en: "During your opponent's next turn, any damage done to Ledyba by attacks is reduced by 20.",
 				de: "Jeder Schaden, der Ledyba im nächsten Zug deines Gegners durch Angriffe zugefügt wird, wird um 20 reduziert."
 			},
 
@@ -51,7 +49,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -59,10 +57,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,19 +69,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275330,
-		tcgplayer: 86701
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86701,
+				cardmarket: 275330
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86701,
+				cardmarket: 275330
+			},
+		},
+	],
 }
 
 export default card

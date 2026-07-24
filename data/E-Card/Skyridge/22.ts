@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		31,
-	],
+	dexId: [31],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Evolutions-Helfer"
 			},
 			effect: {
-				en: "Once during your turn (before you attack) if Nidoqueen is on your bench, you may search your deck for a card that evolves from your Active Pokémon and attach it to your Active Pokémon. (this counts as evolving that Pokémon) Shuffle your deck afterward.",
+				en: "Once during your turn (before your attack), if Nidoqueen is on your Bench, you may search your deck for a card that evolves from your Active Pokémon and attach it to your Active Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Nidoqueen auf deiner Bank ist, dein Deck nach einer Karte durchsuchen, die sich aus deinem aktiven Pokémon entwickelt, und sie an dein aktives Pokémon anlegen. (Dies zählt als Entwickeln dieses Pokémon.) Mische dein Deck danach."
 			},
 		},
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Doppelkralle"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu."
 			},
 			damage: "30+",
@@ -65,25 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275231,
-		tcgplayer: 87704
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87704,
+				cardmarket: 275231
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87704,
+				cardmarket: 275231
+			},
+		},
+	],
 }
 
 export default card

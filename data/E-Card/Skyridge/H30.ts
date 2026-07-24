@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		197,
-	],
+	dexId: [197],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -64,10 +62,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -77,16 +74,15 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275290,
-		tcgplayer: 90140
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90140,
+				cardmarket: 275290
+			},
+		},
+	],
 }
 
 export default card

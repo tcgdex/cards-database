@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		227,
-	],
+	dexId: [227],
 
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -62,10 +60,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
@@ -75,19 +72,22 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275355,
-		tcgplayer: 89236
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89236,
+				cardmarket: 275355
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89236,
+				cardmarket: 275355
+			},
+		},
+	],
 }
 
 export default card

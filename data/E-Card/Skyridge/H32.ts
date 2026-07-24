@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		178,
-	],
+	dexId: [178],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -65,22 +63,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275293,
-		tcgplayer: 90658
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90658,
+				cardmarket: 275293
+			},
+		},
+	],
 }
 
 export default card

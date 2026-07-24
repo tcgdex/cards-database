@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		209,
-	],
+	dexId: [209],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Grimasse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't Retreat.",
+				en: "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't attack or retreat.",
 				de: "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zugs weder angreifen noch sich zurückziehen."
 			},
 
@@ -57,25 +55,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275359,
-		tcgplayer: 89413
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89413,
+				cardmarket: 275359
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89413,
+				cardmarket: 275359
+			},
+		},
+	],
 }
 
 export default card

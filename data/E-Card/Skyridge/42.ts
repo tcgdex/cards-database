@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		53,
-	],
+	dexId: [53],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Überraschungsschlitzer"
 			},
 			effect: {
-				en: "Flip a coin. If heads look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
+				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. You opponent shuffles that card into his or her deck.",
 				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Karte auf der Hand deines Gegners an. Wenn er darunter mindestens eine Trainerkarte hat, wähle eine davon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 			damage: 20,
@@ -61,30 +59,33 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Ausiwrkungen."
 			},
 
-			damage: 50
+			damage: 50,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275300,
-		tcgplayer: 87982
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87982,
+				cardmarket: 275300
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87982,
+				cardmarket: 275300
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card

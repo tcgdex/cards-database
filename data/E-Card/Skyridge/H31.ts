@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self Healing",
+				en: "Self-healing",
 				de: "Selbstheilung"
 			},
 			effect: {
@@ -81,22 +79,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275252,
-		tcgplayer: 90280
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90280,
+				cardmarket: 275252
+			},
+		},
+	],
 }
 
 export default card

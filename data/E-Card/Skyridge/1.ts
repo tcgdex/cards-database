@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		142,
-	],
+	dexId: [142],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Stage1",
@@ -32,7 +30,7 @@ const card: Card = {
 				de: "Ancient Wind"
 			},
 			effect: {
-				en: "Once during your turn (before you attack) if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition.",
 				de: "Once during your turn (before your attack), if Aerodactyl is your Active Pokémon, you may ignore all Poké-Bodies until the end of your turn. This power can't be used if Aerodactyl is affected by a Special Condition."
 			},
 		},
@@ -60,25 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275259,
-		tcgplayer: 83465
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83465,
+				cardmarket: 275259
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83465,
+				cardmarket: 275259
+			},
+		},
+	],
 }
 
 export default card

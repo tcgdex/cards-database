@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		204,
-	],
+	dexId: [204],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -40,32 +38,35 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 20
+			damage: 20,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275343,
-		tcgplayer: 88124
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88124,
+				cardmarket: 275343
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88124,
+				cardmarket: 275343
+			},
+		},
+	],
 }
 
 export default card

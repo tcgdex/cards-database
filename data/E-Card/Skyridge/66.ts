@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		228,
-	],
+	dexId: [228],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "This attack does 10 damage times the number of damage counters on Houndour.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Hunduster zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -49,7 +47,7 @@ const card: Card = {
 				de: "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Energy card attached to Houndour.",
+				en: "Flip a coin. If tails, discard a Fire Energy card attached to Houndour.",
 				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Hunduster angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 20,
@@ -60,25 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275324,
-		tcgplayer: 86220
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86220,
+				cardmarket: 275324
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86220,
+				cardmarket: 275324
+			},
+		},
+	],
 }
 
 export default card

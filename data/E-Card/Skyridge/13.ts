@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self Healing",
+				en: "Self-healing",
 				de: "Selbstheilung"
 			},
 			effect: {
@@ -80,23 +78,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275239,
-		tcgplayer: 86338
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86338,
+				cardmarket: 275239
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86338,
+				cardmarket: 275239
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card

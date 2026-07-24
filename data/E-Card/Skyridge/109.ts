@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		216,
-	],
+	dexId: [216],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 20
+			damage: 20,
 		},
 		{
 			cost: [
@@ -63,25 +61,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275367,
-		tcgplayer: 89856
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89856,
+				cardmarket: 275367
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89856,
+				cardmarket: 275367
+			},
+		},
+	],
 }
 
 export default card

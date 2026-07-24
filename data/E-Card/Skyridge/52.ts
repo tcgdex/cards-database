@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [51],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Tunnelbau"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done by attacks to Dugtrio during your opponent's next turn. (any other effects of attacks still happen.)",
+				en: "Flip a coin. If heads, prevent all damage done by attacks to Dugtrio during your opponent's next turn. (Any other effects of attacks still happen.)",
 				de: "Wirf eine Münze. Verhindere bei \"Kopf\" allen Schaden, der Digdri während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 			damage: 20,
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Vergraben"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness or Resistance. (any other effects that would happen after applying Weakness and Resistance still happen.)",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness or Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				de: "Wähle 1 der Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. Wende keine Schwäche oder Resistenz an. (Alle anderen Auswirkungen von Angriffen, die nach der Anwendung von Schwäche und Resistenz stattfinden, finden immer noch statt.)"
 			}
 		},
@@ -65,10 +63,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -78,19 +75,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275310,
-		tcgplayer: 84999
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84999,
+				cardmarket: 275310
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84999,
+				cardmarket: 275310
+			},
+		},
+	],
 }
 
 export default card

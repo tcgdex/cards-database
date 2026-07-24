@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		42,
-	],
+	dexId: [42],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Stärke durch Überzahl"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 10 more damage for each Zubat, Golbat, and Crobat on your bench.",
+				en: "This attack does 30 damage plus 10 more damage for each Zubat, Golbat, and Crobat on your Bench.",
 				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Zubat, Golbat bzw. Iksbat, das auf deiner Bank ist, zu."
 			},
 			damage: "30+",
@@ -66,25 +64,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275318,
-		tcgplayer: 85792
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85792,
+				cardmarket: 275318
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85792,
+				cardmarket: 275318
+			},
+		},
+	],
 }
 
 export default card
