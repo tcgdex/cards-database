@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		417,
-	],
+	dexId: [417],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -64,14 +62,12 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
@@ -79,17 +75,16 @@ const card: Card = {
 		fr: "Les poches de ses joues produisent de l'électricité et sa queue envoie des éclairs. Il vit dans les arbres."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87902,
+				cardmarket: 278561
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278561,
-		tcgplayer: 87902
-	}
 }
 
 export default card
