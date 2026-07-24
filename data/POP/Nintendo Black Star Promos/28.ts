@@ -11,18 +11,16 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
-
 	trainerType: "Stadium",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84163
+			}
+		}
+	]
 
 }
 
