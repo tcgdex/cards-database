@@ -59,18 +59,22 @@ const card: Card = {
 		fr: "Il est très timide et il est souvent sur la défensive. Quand il se sent menacé, il se protège avec les flammes de son dos."
 	},
 
-	thirdParty: {
-		cardmarket: 274713,
-		tcgplayer: 84546
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274713,
+				tcgplayer: 84546
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274713,
+				tcgplayer: 84546
+			}
 		}
 	]
 }

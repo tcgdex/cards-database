@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei 'Kopf' schläft dein Aktives Pokémon nicht mehr und ist nicht länger verwirrt, gelähmt oder vergiftet. Entferne zwei Schadensmarken von deinem aktiven Pokémon. Hat es weniger als zwei Schadensmarken, entferne alle."
 	},
 
-	thirdParty: {
-		cardmarket: 274756,
-		tcgplayer: 86039
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274756,
+				tcgplayer: 86039
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274756,
+				tcgplayer: 86039
+			}
 		}
 	]
 }

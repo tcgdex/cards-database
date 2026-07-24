@@ -86,18 +86,22 @@ const card: Card = {
 		fr: "Il se défend en battant des ailes à toute vitesse, libérant une poudre empoisonnée dans les airs."
 	},
 
-	thirdParty: {
-		cardmarket: 274705,
-		tcgplayer: 86752
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274705,
+				tcgplayer: 86752
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274705,
+				tcgplayer: 86752
+			}
 		}
 	]
 }
