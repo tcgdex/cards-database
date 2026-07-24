@@ -57,18 +57,22 @@ const card: Card = {
 		fr: "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique."
 	},
 
-	thirdParty: {
-		cardmarket: 274631,
-		tcgplayer: 85801
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274631,
+				tcgplayer: 85801
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274631,
+				tcgplayer: 85801
+			}
 		}
 	]
 }

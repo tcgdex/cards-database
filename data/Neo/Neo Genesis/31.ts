@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "S'il perd un croc, un nouveau poussera pour le remplacer. Il y a toujours 48 crocs dans sa bouche."
 	},
 
-	thirdParty: {
-		cardmarket: 274431,
-		tcgplayer: 84495
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84495
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84495
+			}
 		}
 	]
 }

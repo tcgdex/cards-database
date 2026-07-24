@@ -19,18 +19,22 @@ const card: Card = {
 		fr: "Attachez Énergie multicolore à 1 de vos Pokémon. Lorsqu'elle est en jeu, Énergie multicolore compte comme n'importe quel type de carte Énergie de base mais ne fournit qu'une seule Énergie à la fois. (Ne compte pas pour une carte Énergie lorsqu'elle n'est pas en jeu). Lorsque vous attachez cette carte à 1 de vos Pokémon depuis votre main, elle inflige 10 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance).",
 	},
 
-	thirdParty: {
-		cardmarket: 274070,
-		tcgplayer: 88550
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274070,
+				tcgplayer: 88550
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274070,
+				tcgplayer: 88550
+			}
 		}
 	]
 }

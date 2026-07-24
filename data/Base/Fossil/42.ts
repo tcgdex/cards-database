@@ -84,20 +84,24 @@ const card: Card = {
 		fr: "Il peut nager à l'envers en agitant ses petites nageoires pectorales."
 	},
 
-	thirdParty: {
-		cardmarket: 273903,
-		tcgplayer: 44444
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273903,
+				tcgplayer: 44444
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273903,
+				tcgplayer: 44444
+			}
 		},
 		{
 			type: "normal",

@@ -19,20 +19,24 @@ const card: Card = {
 		de: "Wähle ein Pokémon auf deiner Bank. Mische es und alle darauf abgelegten Karten in den Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 273919,
-		tcgplayer: 44460
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273919,
+				tcgplayer: 44460
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273919,
+				tcgplayer: 44460
+			}
 		},
 		{
 			type: "normal",

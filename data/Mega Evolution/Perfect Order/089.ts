@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Spewpa"
 	},
 
+	evolveFrom: {
+		en: "Scatterbug",
+		fr: "Lépidonille",
+		es: "Scatterbug",
+		'es-mx': "Scatterbug",
+		de: "Purmel",
+		it: "Scatterbug",
+		pt: "Scatterbug",
+	},
+
 	illustrator: "kamonabe",
 	rarity: "Illustration rare",
 	category: "Pokemon",

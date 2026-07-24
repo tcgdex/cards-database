@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		248,
-	],
+	dexId: [248],
 
 	hp: 150,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Écrasement sévère"
 			},
 			effect: {
-				en: "Discard 2 basic Energy cards attached to Tyranitar ex or this attack does nothing.",
+				en: "Discard 2 Basic Energy cards attached to Tyranitar ex or this attack does nothing.",
 				fr: "Défaussez 2 cartes Énergie de base attachées à Tyranocif ex ou cette attaque est sans effet."
 			},
 			damage: 80,
@@ -81,10 +79,23 @@ const card: Card = {
 	suffix: "EX",
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 277431,
-		tcgplayer: 90124
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 97807,
+				cardmarket: 277431
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90124,
+				cardmarket: 277431
+			},
+		},
+	],
+
 }
 
 export default card

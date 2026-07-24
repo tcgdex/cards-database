@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Meowstic"
 	},
 
+	evolveFrom: {
+		en: "Espurr",
+		fr: "Psystigri",
+		es: "Espurr",
+		'es-mx': "Espurr",
+		de: "Psiau",
+		it: "Espurr",
+		pt: "Espurr",
+	},
+
 	illustrator: "Kannnu",
 	rarity: "Uncommon",
 	category: "Pokemon",

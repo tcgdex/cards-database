@@ -69,14 +69,14 @@ const card: Card = {
 		fr: "De nombreuses personnes le trouvent mignon et essaient de l'attraper. Leur seule récompense est de se brûler sur sa queue."
 	},
 
-	thirdParty: {
-		cardmarket: 274103,
-		tcgplayer: 84204
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274103,
+				tcgplayer: 84204
+			}
 		},
 		{
 			type: "normal",
@@ -84,7 +84,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274103,
+				tcgplayer: 84204
+			}
 		}
 	]
 }

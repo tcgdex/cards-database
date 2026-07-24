@@ -19,17 +19,20 @@ const card: Card = {
 		de: "Put an Evoloution card from your hand face down in front of you. Your opponent guesses whether it is a Pokémon card with Light in its name, a Pokémon card with Dark in its name, or neither one. Flip the card over. If your opponent guessed right, he or she draw 3 cards. If your oppnent guessed wrong, you draw 3 cards. Either way, return the card to your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 274754
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274754
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274754
+			}
 		}
 	]
 }

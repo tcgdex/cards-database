@@ -79,20 +79,24 @@ const card: Card = {
 		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
 	},
 
-	thirdParty: {
-		cardmarket: 273905,
-		tcgplayer: 44446
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
 		},
 		{
 			type: "normal",

@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Each Pokémon in play with Dark in its name (even your opponent's) gets + 20 HP."
 	},
 
-	thirdParty: {
-		cardmarket: 274649,
-		tcgplayer: 88770
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274649,
+				tcgplayer: 88770
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274649,
+				tcgplayer: 88770
+			}
 		}
 	]
 }

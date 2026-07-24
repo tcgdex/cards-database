@@ -67,18 +67,22 @@ const card: Card = {
 		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
 	},
 
-	thirdParty: {
-		cardmarket: 273853,
-		tcgplayer: 45159
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273853,
+				tcgplayer: 45159
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273853,
+				tcgplayer: 45159
+			}
 		},
 		{
 			type: "normal",

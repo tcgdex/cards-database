@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Staravia do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Starly",
+		fr: "Étourmi d'Okuba",
+		es: "Starly de Laureano",
+		'es-mx': "Starly de Laureano",
+		de: "Aokis Staralili",
+		it: "Starly di Ubaldo",
+		pt: "Starly do Lauro",
+	},
+
 	illustrator: "Fujimoto Gold",
 	rarity: "Uncommon",
 	category: "Pokemon",

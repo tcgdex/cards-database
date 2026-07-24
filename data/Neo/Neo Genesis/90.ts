@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Your opponent may choose 5 Basic Pokémon, Evolution, and/or basic Energy cards in his or her discard pile. (If your opponent doesn't have that many, he or she chooses all or none of them.) If your opponent chooses any cards, he or she shuffles them into his or her deck. Either way, you may do the same, and you can't play any more Trainer cards this turn."
 	},
 
-	thirdParty: {
-		cardmarket: 274490,
-		tcgplayer: 89918
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274490,
+				tcgplayer: 89918
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274490,
+				tcgplayer: 89918
+			}
 		}
 	]
 }

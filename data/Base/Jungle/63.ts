@@ -77,18 +77,22 @@ const card: Card = {
 		fr: "Il vit à l'ombre des grands arbres où il mange des insectes. Il est attiré par la lumière."
 	},
 
-	thirdParty: {
-		cardmarket: 273860,
-		tcgplayer: 45166
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273860,
+				tcgplayer: 45166
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273860,
+				tcgplayer: 45166
+			}
 		}
 	],
 }

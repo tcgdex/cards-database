@@ -78,18 +78,22 @@ const card: Card = {
 		fr: "Il dresse sa queue pour observer les alentours. Parfois les éclairs frappent sa queue quand elle est en l'air."
 	},
 
-	thirdParty: {
-		cardmarket: 274470,
-		tcgplayer: 88072
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274470,
+				tcgplayer: 88072
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274470,
+				tcgplayer: 88072
+			}
 		}
 	]
 }

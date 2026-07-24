@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		9,
-	],
+	dexId: [9],
 
 	hp: 120,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -58,7 +56,7 @@ const card: Card = {
 				fr: "Lance roquette"
 			},
 			effect: {
-				en: "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent’s next turn.",
+				en: "Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Blastoise by attacks during your opponent's next turn.",
 				fr: "Tortank s'inflige 10 dégâts. Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Tortank par des attaques lors du prochain tour de votre adversaire."
 			},
 			damage: 60,
@@ -68,23 +66,30 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning"
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83891,
+				cardmarket: 277449
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83891,
+				cardmarket: 277449
+			},
 		},
 	],
 
-	retreat: 2,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277449,
-		tcgplayer: 83891
-	}
 }
 
 export default card

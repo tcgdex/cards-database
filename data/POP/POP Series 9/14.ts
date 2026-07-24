@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		443,
-	],
+	dexId: [443],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -48,7 +46,6 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "Its nests is small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
 		fr: "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
@@ -56,17 +53,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85700,
+				cardmarket: 278565
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278565,
-		tcgplayer: 85700
-	}
 }
 
 export default card

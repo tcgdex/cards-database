@@ -1,5 +1,5 @@
 export type SupportedLanguages =
-// inter languages
+	// inter languages
 	'en' | 'fr' | 'es' | 'es-mx' | 'it' | 'pt' | 'pt-br' | 'pt-pt' | 'de' | 'nl' | 'pl' | 'ru' |
 	// Asian languages
 	'ja' | 'ko' | 'zh-tw' | 'id' | 'th' | 'zh-cn'
@@ -16,7 +16,7 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
-export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
+export type VariantType = 'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
 export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
 	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
 	| 'pokemon-4-ever' | 'pokemon-center-ny' | 'pokemon-center-yokohama' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
@@ -26,16 +26,16 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
 	| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
 	| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
-	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
+	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2004' | 'worlds-2005' | 'worlds-2007' | 'finalist'
 	| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
 	| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
 	| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
 	| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "poke-ball-league" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
+	| 'illustration-contest-2022' | 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "poke-ball-league" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
 	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection'
-	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pokemon-xd-gale-of-darkness' | 'legendary-pokemon'
+	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'pokemon-xd-gale-of-darkness' | 'legendary-pokemon'
 
 export interface variant_detailed {
 	/**
@@ -52,10 +52,10 @@ export interface variant_detailed {
 	 * and the Unlimited version of the set had no shadow.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
-		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
-		| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-		| 'cosmos' | 'blue-border' | 'glossy' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error' 
-		| '1995-1998-copyright' | 'no-rarity'
+	| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
+	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
+	| 'cosmos' | 'blue-border' | 'glossy' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error'
+	| '1995-1998-copyright' | 'no-rarity'
 
 	/**
 	 * define the size of the card
@@ -228,19 +228,19 @@ export interface Card {
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
 	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
-			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
-			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
-			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
-			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
-			// Black White rare
-			| 'Black White Rare'
-			| 'Mega Hyper Rare'
-			// Japanese Character Rares (since SM11b Dream League)
-			| 'Character Rare' | 'Character Super Rare'
-			// Pokémon TCG Pocket Rarities
-			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
-			| 'Promo'
+	'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
+	'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
+	'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
+	'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
+	'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+	// Black White rare
+	| 'Black White Rare'
+	| 'Mega Hyper Rare'
+	// Japanese Character Rares (since SM11b Dream League)
+	| 'Character Rare' | 'Character Super Rare'
+	// Pokémon TCG Pocket Rarities
+	| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
+	| 'Promo'
 
 	/**
 	 * Card Category
@@ -395,17 +395,17 @@ export interface Card {
 
 	// Trainer Only
 	trainerType?: 'Supporter' | // https://www.tcgdex.net/database/ex/ex7/83
-		'Item' | // https://www.tcgdex.net/database/ex/ex7/89
-		'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
-		'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
-		'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
-		'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
-		'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
-		'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
+	'Item' | // https://www.tcgdex.net/database/ex/ex7/89
+	'Stadium' | // https://www.tcgdex.net/database/ex/ex7/87
+	'Tool' | // https://www.tcgdex.net/database/neo/neo1/93
+	'Ace Spec' | // https://www.tcgdex.net/database/bw/bw7/139
+	'Technical Machine' | // https://www.tcgdex.net/database/ecard/ecard1/144
+	'Goldenrod Game Corner' | // https://www.tcgdex.net/database/neo/neo1/83
+	'Rocket\'s Secret Machine' // https://www.tcgdex.net/database/ex/ex7/84
 
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
-		'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
 
 	thirdParty?: {
 		tcgplayer?: number

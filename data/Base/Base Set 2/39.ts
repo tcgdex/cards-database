@@ -68,14 +68,14 @@ const card: Card = {
 		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
 	},
 
-	thirdParty: {
-		cardmarket: 273962,
-		tcgplayer: 42478
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273962,
+				tcgplayer: 42478
+			}
 		}
 	]
 }

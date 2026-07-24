@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Archaludon"
 	},
 
+	evolveFrom: {
+		en: "Duraludon",
+		fr: "Duralugon",
+		es: "Duraludon",
+		'es-mx': "Duraludon",
+		de: "Duraludon",
+		it: "Duraludon",
+		pt: "Duraludon",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

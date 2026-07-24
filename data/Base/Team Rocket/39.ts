@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Certaines personnes disent que les Kadabra sont responsables de bon nombre des mystérieux événements rapportés par les médias."
 	},
 
-	thirdParty: {
-		cardmarket: 274092,
-		tcgplayer: 84618
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274092,
+				tcgplayer: 84618
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274092,
+				tcgplayer: 84618
+			}
 		}
 	]
 }

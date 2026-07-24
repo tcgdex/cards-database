@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		396,
-	],
+	dexId: [396],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -61,31 +59,28 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "They flock in great numbers. Though small, they flap their wings with great power."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89521,
+				cardmarket: 277901
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277901,
-		tcgplayer: 89521
-	}
 }
 
 export default card

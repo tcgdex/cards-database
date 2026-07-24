@@ -53,9 +53,18 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 145343
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos'
+		}
+	]
 
 }
 

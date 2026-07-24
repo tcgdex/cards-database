@@ -87,18 +87,22 @@ const card: Card = {
 		fr: "Ses ailes géantes lui permettent de planer si longtemps qu'il ne se pose que très rarement."
 	},
 
-	thirdParty: {
-		cardmarket: 273833,
-		tcgplayer: 45139
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273833,
+				tcgplayer: 45139
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273833,
+				tcgplayer: 45139
+			}
 		}
 	],
 }

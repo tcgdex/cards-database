@@ -58,18 +58,22 @@ const card: Card = {
 		fr: "Pour cacher sa queue noire, il vit discrètement dans l'obscurité. Il n'attaque jamais le premier."
 	},
 
-	thirdParty: {
-		cardmarket: 274527,
-		tcgplayer: 90612
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274527,
+				tcgplayer: 90612
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274527,
+				tcgplayer: 90612
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Charmeleon"
 	},
 
+	evolveFrom: {
+		en: "Charmander",
+		fr: "Salamèche",
+		es: "Charmander",
+		'es-mx': "Charmander",
+		de: "Glumanda",
+		it: "Charmander",
+		pt: "Charmander",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

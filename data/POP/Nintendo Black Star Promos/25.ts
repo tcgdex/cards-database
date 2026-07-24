@@ -78,7 +78,21 @@ const card: Card = {
 		},
 	],
 
-
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85523
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['winner'],
+			thirdParty: {
+				tcgplayer: 228158
+			}
+		},
+	]
 
 
 }

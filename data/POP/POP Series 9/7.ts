@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		453,
-	],
+	dexId: [453],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Sabotage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent’s hand without looking and discard it.",
+				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Lancez une pièce. Si c'est face, choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la."
 			},
 
@@ -63,7 +61,6 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
@@ -71,17 +68,16 @@ const card: Card = {
 		fr: "Il émet un gargouillis étrange en gonflant ses glandes de poison pour intimider l'ennemi."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84476,
+				cardmarket: 278558
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278558,
-		tcgplayer: 84476
-	}
 }
 
 export default card

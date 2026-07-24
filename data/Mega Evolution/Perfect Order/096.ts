@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Probopass"
 	},
 
+	evolveFrom: {
+		en: "Nosepass",
+		fr: "Tarinor",
+		es: "Nosepass",
+		'es-mx': "Nosepass",
+		de: "Nasgnet",
+		it: "Nosepass",
+		pt: "Nosepass",
+	},
+
 	illustrator: "Kinu Nishimura",
 	rarity: "Illustration rare",
 	category: "Pokemon",

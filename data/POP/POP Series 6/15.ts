@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		393,
-	],
+	dexId: [393],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -41,7 +39,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
+				en: "Water Spash",
 				fr: "Éclaboussure"
 			},
 			effect: {
@@ -59,24 +57,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88143,
+				cardmarket: 277900
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88143,
+				cardmarket: 277900
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277900,
-		tcgplayer: 88143
-	}
 }
 
 export default card
