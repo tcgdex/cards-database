@@ -49,7 +49,7 @@ const card: Card = {
 			type: "Fire",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [

@@ -48,7 +48,7 @@ const card: Card = {
 			type: "Psychic",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Water",

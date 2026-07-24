@@ -37,16 +37,32 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477371,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 477372,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
-		}
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 477373,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				tcgplayer: 477503,
+			},
+		},
 	],
 }
 

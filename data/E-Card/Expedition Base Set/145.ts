@@ -24,20 +24,23 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 275020
+				cardmarket: 275020,
 				tcgplayer: 88229,
 			},
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 275020
+				cardmarket: 275020,
 				tcgplayer: 88229,
 			},
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477414
+			}
 		}
 	],
 }

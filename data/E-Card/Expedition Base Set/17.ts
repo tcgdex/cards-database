@@ -31,7 +31,7 @@ const card: Card = {
 				en: "During your opponent's turn, if Jumpluff would be damaged or affected by an opponent's attack and it already has at least 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack (including damage).",
 			},
 		},
-	],,
+	],
 	stage: "Baby",
 
 	resistances: [
@@ -39,13 +39,13 @@ const card: Card = {
 			type: "Water",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [

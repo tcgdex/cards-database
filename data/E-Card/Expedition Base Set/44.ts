@@ -36,7 +36,7 @@ const card: Card = {
 				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

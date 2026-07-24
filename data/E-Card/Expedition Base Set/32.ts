@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Scizor can't be Poisoned.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

@@ -97,6 +97,13 @@ const card: Card = {
 				cardmarket: 274904
 			},
 		},
+		{
+			type: "reverse",
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 210846,
+			},
+		},
 	],
 }
 

@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Energie-Absauger 2"
 	},
 
-	illustrator: "Keiji Kinebuchi"Big Mama" Tagawa",
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
@@ -47,7 +47,7 @@ const card: Card = {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness or Resistance.",
 			},
 		},
-	],,
+	],
 }
 
 export default card

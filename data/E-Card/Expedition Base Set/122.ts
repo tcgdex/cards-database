@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Myrapla"
 	},
 
-	illustrator: "Masako Yamashita"Big Mama" Tagawa",
+	illustrator: 'Masako Yamashita',
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

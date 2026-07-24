@@ -72,7 +72,7 @@ const card: Card = {
 			type: "Lightning",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Lightning",

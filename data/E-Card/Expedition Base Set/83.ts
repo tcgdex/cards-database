@@ -31,7 +31,7 @@ const card: Card = {
 				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
 			},
 		},
-	],,
+	],
 	stage: "Basic",
 
 	attacks: [
@@ -79,7 +79,7 @@ const card: Card = {
 			type: "Water",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Metal",

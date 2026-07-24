@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Schiggy"
 	},
 
-	illustrator: "Kyoko Umemoto"Big Mama" Tagawa",
+	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. This Power can't be used if Victreebel is affected by a Special Condition.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

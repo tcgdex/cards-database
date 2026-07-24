@@ -36,7 +36,7 @@ const card: Card = {
 				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

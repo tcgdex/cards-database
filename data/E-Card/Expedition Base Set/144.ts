@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Vielzweckmaschine 01"
 	},
 
-	illustrator: ""Big Mama" Tagawa"Big Mama\" Tagawa",
+	illustrator: '"Big Mama" Tagawa',
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

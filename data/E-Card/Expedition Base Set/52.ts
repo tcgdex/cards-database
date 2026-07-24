@@ -28,13 +28,13 @@ const card: Card = {
 			type: "Grass",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [

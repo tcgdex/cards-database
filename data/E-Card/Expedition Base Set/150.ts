@@ -21,13 +21,13 @@ const card: Card = {
 				en: "Attach Strength Charm to 1 of your Pokémon that doesn't have a Pokémon Tool attached to it. Whenever an attack from the Pokémon that Strength Charm is attached to does damage (after applying Weakness and Resistance), the attack does 10 more damage. At the end of your turn in which this happens, discard Strength Charm.",
 			},
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Grass",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [
@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			damage: 50,
 		},
-	],,
+	],
 	stage: "Stage2",
 	types: [
 		"Colorless"

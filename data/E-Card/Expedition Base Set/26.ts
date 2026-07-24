@@ -36,7 +36,7 @@ const card: Card = {
 				en: "As long as Octillery is your Active Pokémon, whenever the Defending Pokémon retreats, discard all Energy cards attached to the Defending Pokémon when it goes to the Bench.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

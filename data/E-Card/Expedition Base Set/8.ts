@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

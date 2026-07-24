@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Baldorfish"
 	},
 
-	illustrator: "Toshinao Aoki"Big Mama" Tagawa",
+	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

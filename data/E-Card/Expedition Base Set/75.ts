@@ -33,7 +33,7 @@ const card: Card = {
 			type: "Fighting",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [

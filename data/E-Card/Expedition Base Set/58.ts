@@ -28,7 +28,7 @@ const card: Card = {
 			type: "Lightning",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [

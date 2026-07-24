@@ -21,13 +21,13 @@ const card: Card = {
 				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 			},
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Lightning",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [
@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			damage: 60,
 		},
-	],,
+	],
 	stage: "Stage2",
 	types: [
 		"Colorless"
@@ -91,15 +91,24 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477418,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 477420,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 477419,
+			},
 		}
 	],
 	retreat: 3,

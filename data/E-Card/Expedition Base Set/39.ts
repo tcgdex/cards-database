@@ -36,7 +36,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), discard a basic Energy card attached to 1 of your Pokémon. Then, choose a basic Energy card from your discard pile and attach it to that Pokémon. This power can't be used if Togetic is affected by a Special Condition.",
 			},
 		},
-	],,
+	],
 	stage: "Stage2",
 
 	attacks: [
@@ -85,7 +85,7 @@ const card: Card = {
 			type: "Fighting",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Water",

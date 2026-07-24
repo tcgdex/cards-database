@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Mauzi"
 	},
 
-	illustrator: "Hironobu Yoshida"Big Mama" Tagawa",
+	illustrator: 'Hironobu Yoshida',
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

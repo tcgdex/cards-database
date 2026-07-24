@@ -31,7 +31,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition.",
 			},
 		},
-	],,
+	],
 	stage: "Baby",
 
 	resistances: [
@@ -39,13 +39,13 @@ const card: Card = {
 			type: "Grass",
 			value: "-30"
 		},
-	],,
+	],
 	weaknesses: [
 		{
 			type: "Fire",
 			value: "x2"
 		},
-	],,
+	],
 	attacks: [
 		{
 			cost: [

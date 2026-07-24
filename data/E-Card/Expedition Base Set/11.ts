@@ -36,7 +36,7 @@ const card: Card = {
 				en: "As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can't be used if Espeon is affected by a Special Condition.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

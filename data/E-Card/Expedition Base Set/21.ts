@@ -36,7 +36,7 @@ const card: Card = {
 				en: "You may use this power once during each of your turns (before your attack). All Lightning Energy attached to your Active Pokémon becomes Water Energy for the rest of the turn. (This effect ends if your Active Pokémon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition.",
 			},
 		},
-	],,
+	],
 	stage: "Stage1",
 
 	attacks: [

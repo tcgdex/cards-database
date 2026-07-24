@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Muschas"
 	},
 
-	illustrator: "Sumiyoshi Kizuki"Big Mama" Tagawa",
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

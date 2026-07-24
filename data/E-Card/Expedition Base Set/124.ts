@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	illustrator: "Atsuko Nishida"Big Mama" Tagawa",
+	illustrator: 'Atsuko Nishida',
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
