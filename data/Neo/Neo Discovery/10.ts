@@ -94,18 +94,22 @@ const card: Card = {
 		fr: "Il brandit ses pinces décorées d'yeux pour effrayer ses ennemis, qui ont l'impression qu'il a trois têtes."
 	},
 
-	thirdParty: {
-		cardmarket: 274521,
-		tcgplayer: 88956
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274521,
+				tcgplayer: 88956
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274521,
+				tcgplayer: 88956
+			}
 		}
 	]
 }

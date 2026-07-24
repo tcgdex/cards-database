@@ -61,18 +61,22 @@ const card: Card = {
 		fr: "Il aime faire épaissir sa carapace en y ajoutant des couches d'écorce. Le poids supplémentaire ne le dérange pas."
 	},
 
-	thirdParty: {
-		cardmarket: 274572,
-		tcgplayer: 88122
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274572,
+				tcgplayer: 88122
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274572,
+				tcgplayer: 88122
+			}
 		}
 	]
 }
