@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		199,
-	],
+	dexId: [199],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Regardez la main de votre adversaire. Cette attaque inflige 10 dégâts multipliés par le nombre de cartes Énergie qui s'y trouvent.",
 				de: "Schau dir die Karten auf der Hand deines Gegners an. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl Energiekarten, die er auf der Hand hat, zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -72,21 +70,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275106,
-		tcgplayer: 89312
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 89312,
+				cardmarket: 275106
+			}
+		},
 	]
 }
 

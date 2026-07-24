@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		168,
-	],
+	dexId: [168],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Poke-BODY",
 			name: {
 				en: "Gluey Slime",
 				fr: "Bave gluante",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
 				fr: "Tant que Migalos est en jeu, chaque joueur doit payer un  supplémentaire pour faire battre en retraite son Pokémon Actif. Bave gluante ne peut pas obliger un joueur à payer plus qu'un  supplémentaire pour faire battre en retraite un Pokémon, même s'il y a plus d'un Migalos en jeu.",
 				de: "As long as Ariados is in play, each player must pay an additional  to retreat his or her Active Pokémon. Gluey Slime can´t make a player pay more than an additional  to retreat a Pokémon, even if there is more than 1 Ariados in play."
-			},
+			}
 		},
 	],
 
@@ -70,23 +68,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275072,
-		tcgplayer: 83613
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83613,
+				cardmarket: 275072
+			}
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83613,
+				cardmarket: 275072
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card

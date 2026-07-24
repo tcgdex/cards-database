@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 100,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -72,21 +70,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275073,
-		tcgplayer: 83537
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 83537,
+				cardmarket: 275073
+			}
+		},
 	]
 }
 

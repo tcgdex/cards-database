@@ -22,32 +22,37 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Metal Reversal",
 				de: "Metall-Umkehrung",
-				fr: "Inversion métal",
+				fr: "Inversion métal"
 			},
 			damage: 10,
 			effect: {
+				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon.",
 				de: "Bevor Schaden zugefügt wird, kannst du 1 der Pokémon auf der Bank deines Gegners wählen und es mit dem Verteidigenden Pokémon austauschen.",
-				fr: "Avant d'infliger les dégâts, vous pouvez choisir un des Pokémon du Banc de votre adversaire et l'échanger contre le Pokémon Défenseur.",
+				fr: "Avant d'infliger les dégâts, vous pouvez choisir un des Pokémon du Banc de votre adversaire et l'échanger contre le Pokémon Défenseur."
 			},
 			cost: [
 				"Metal",
-			],
+			]
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275205,
-		tcgplayer: 87348
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87348,
+				cardmarket: 275205
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87348,
+				cardmarket: 275205
+			}
+		},
 	]
 }
 

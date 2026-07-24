@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		199,
-	],
+	dexId: [199],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Regardez la main de votre adversaire. Cette attaque inflige 10 dégâts multipliés par le nombre de cartes Énergie qui s'y trouvent.",
 				de: "Schau dir die Karten auf der Hand deines Gegners an. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl Energiekarten, die er auf der Hand hat, zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -72,24 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275047,
-		tcgplayer: 89313
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89313,
+				cardmarket: 275047
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89313,
+				cardmarket: 275047
+			}
+		},
 	]
 }
 

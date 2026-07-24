@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Feuer-Würfel 01"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
+	illustrator: '"Big Mama" Tagawa"',
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
@@ -22,31 +22,36 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Singe",
 				de: "Versengung",
-				fr: "Roussir",
+				fr: "Roussir"
 			},
 			effect: {
+				en: "The Defending Pokémon is now Burned.",
 				de: "Das Verteidigende Pokémon ist jetzt verbrannt.",
-				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				fr: "Le Pokémon Défenseur est maintenant Brûlé."
 			},
 			cost: [
 				"Fire",
-			],
+			]
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275198,
-		tcgplayer: 85451
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85451,
+				cardmarket: 275198
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85451,
+				cardmarket: 275198
+			}
+		},
 	]
 }
 

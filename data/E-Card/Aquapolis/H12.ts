@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		97,
-	],
+	dexId: [97],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you may make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Hypnomade est votre Pokémon Actif, vous pouvez faire que le Pokémon Défenseur soit Endormi. Ce pouvoir ne peut pas être utilisé si Hypnomade est affecté par un État spécial.",
 				de: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -71,21 +69,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275088,
-		tcgplayer: 86248
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 86248,
+				cardmarket: 275088
+			}
+		},
 	]
 }
 

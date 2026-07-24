@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		34,
-	],
+	dexId: [34],
 
 	hp: 110,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Nidoking est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, placez un marqueur de dégâts sur chacun des Pokémon du Banc de votre adversaire. Ce pouvoir ne peut pas être utilisé si Nidoking est affecté par un État spécial.",
 				de: "Once during your turn (before your attack), if Nidoking is your Active Pokémon, you may flip a coin. If heads, put a damage counter on each of your opponent's Benched Pokémon. This power can't be used if Nidoking is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -72,10 +70,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -85,18 +82,21 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275043,
-		tcgplayer: 87693
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87693,
+				cardmarket: 275043
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87693,
+				cardmarket: 275043
+			}
+		},
 	]
 }
 

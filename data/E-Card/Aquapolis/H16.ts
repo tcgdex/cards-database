@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hikaru Koike",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		82,
-	],
+	dexId: [82],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Magneton est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, choisissez deux des Pokémon de votre adversaire avec des cartes Énergie attachées à eux. Choisissez une des cartes Énergie attachée à chacun de ces Pokémon et échangez-les entre les Pokémon. Ce pouvoir ne peut pas être utilisé si Magneton est affecté par un État spécial.",
 				de: "Once during your turn (before your attack), if Magneton is your Active Pokémon, you may flip a coin. If heads, choose 2 of your opponent's Pokémon that have Energy cards attached to them. Choose 1 of the Energy cards attached to each of those Pokémon and switch them between the Pokémon. This power can't be used if Magneton is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -71,10 +69,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
@@ -84,15 +81,14 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275094,
-		tcgplayer: 87094
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 87094,
+				cardmarket: 275094
+			}
+		},
 	]
 }
 

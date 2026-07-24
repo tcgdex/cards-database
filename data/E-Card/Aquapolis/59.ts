@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		119,
-	],
+	dexId: [119],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,11 +40,11 @@ const card: Card = {
 				de: "Dreschflegel"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Seaking.",
+				en: "This attack does 10 damage times the number of damage counters on Seaking.",
 				fr: "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Poissoroy.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Golking zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -73,24 +71,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275132,
-		tcgplayer: 89024
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89024,
+				cardmarket: 275132
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89024,
+				cardmarket: 275132
+			}
+		},
 	]
 }
 

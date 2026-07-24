@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		97,
-	],
+	dexId: [97],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Sleep Pendulum"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you may use this power. The Defending Pokémon is now Asleep. This power can't be used if Hypno is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you may make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Hypnomade est votre Pokémon Actif, vous pouvez faire que le Pokémon Défenseur soit Endormi. Ce pouvoir ne peut pas être utilisé si Hypnomade est affecté par un État spécial.",
 				de: "Once during your turn (before your attack), if Hypno is your Active Pokémon, you make the Defending Pokémon Asleep. This power can't be used if Hypno is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -59,7 +57,7 @@ const card: Card = {
 				de: "Spiral Aura"
 			},
 			effect: {
-				en: "Unless this attack Knocks Out the Defending Pokémon, if your opponent has any Benched Pokémon you may choose 1 of them and switch it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				en: "If the Defending Pokémon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
 				fr: "Si le Pokémon Défenseur n'est pas mis K.O. par les dégâts de cette attaque, vous pouvez choisir un des Pokémon du Banc de votre adversaire et l'échanger avec le Pokémon Défenseur.",
 				de: "If the Defending Pokémon isn't Knocked Out by the damage from this attack, you may choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it."
 			},
@@ -71,24 +69,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275053,
-		tcgplayer: 86249
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86249,
+				cardmarket: 275053
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86249,
+				cardmarket: 275053
+			}
+		},
 	]
 }
 

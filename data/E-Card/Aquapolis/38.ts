@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		73,
-	],
+	dexId: [73],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), as long as the number of Energy cards attached to the Defending Pokémon is less than the number of Energy cards attached to your Active Pokémon, you may choose an Energy card, if any, in your opponent's discard pile and attach it to the Defending Pokémon. This power can't be used if Tentacruel is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), tant que le nombre de cartes Énergie attachées au Pokémon Défenseur est inférieur au nombre de cartes Énergie attachées à votre Pokémon Actif, vous pouvez choisir une carte Énergie dans la pile de défausse de votre adversaire, s'il en a, et l'attacher au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tentacruel est affecté par un État spécial.",
 				de: "Once during your turn (before your attack), as long as the number of Energy cards attached to the Defending Pokémon is less than the number of Energy cards attached to your Active Pokémon, you may choose an Energy card, if any, in your opponent's discard pile and attach it to the Defending Pokémon. This power can't be used if Tentacruel is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -72,23 +70,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275061,
-		tcgplayer: 89872
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89872,
+				cardmarket: 275061
+			}
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89872,
+				cardmarket: 275061
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card

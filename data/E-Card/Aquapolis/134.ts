@@ -19,18 +19,21 @@ const card: Card = {
 		de: "Flip 2 coins. If both are heads, discard all Energy cards attached to the Defending Pokémon. If both are tails, discard all Energy cards attached to your Active Pokémon. If 1 is heads and 1 is tails, this card does nothing."
 	},
 
-	thirdParty: {
-		cardmarket: 275210,
-		tcgplayer: 89627
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89627,
+				cardmarket: 275210
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89627,
+				cardmarket: 275210
+			}
+		},
 	]
 }
 

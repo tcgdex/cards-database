@@ -22,32 +22,37 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Violent Rage",
 				de: "Rasende Wut",
-				fr: "Rage violente",
+				fr: "Rage violente"
 			},
-			damage: "10x",
+			damage: "10×",
 			effect: {
+				en: "Flip a number of coins equal to the number of damage counters on this Pokémon. This attack does 10 damage times the number of heads.",
 				de: "Wirf so viele Münzen, wie Schadensmarken auf diesem Pokémon liegen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu.",
-				fr: "Lancez un nombre de pièces égal au nombre de marqueurs de dégâts sur ce Pokémon. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				fr: "Lancez un nombre de pièces égal au nombre de marqueurs de dégâts sur ce Pokémon. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
 			},
 			cost: [
 				"Fighting",
-			],
+			]
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275197,
-		tcgplayer: 85432
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85432,
+				cardmarket: 275197
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85432,
+				cardmarket: 275197
+			}
+		},
 	]
 }
 

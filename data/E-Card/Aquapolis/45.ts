@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		69,
-	],
+	dexId: [69],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Klecks"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Bellsprout, if any.",
+				en: "Remove 1 damage counter from Bellsprout.",
 				fr: "Retirez un marqueur de dégâts sur Chétiflor.",
 				de: "Entferne eine Schadensmarke von Knofensa."
 			},
@@ -49,24 +47,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275117,
-		tcgplayer: 83804
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83804,
+				cardmarket: 275117
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 83804,
+				cardmarket: 275117
+			}
+		},
 	]
 }
 

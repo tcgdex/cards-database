@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Energy Return"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may return an Energy card attached to 1 of your Pokémon to your hand. This power can't be used if Espeon is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can't be used if Espeon is affected by a Special Condition.",
 				fr: "Aussi souvent que vous le désirez pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie attachée à l'un de vos Pokémon et la renvoyer dans votre main. Ce pouvoir ne peut pas être utilisé si Mentali est affecté par un État spécial.",
 				de: "As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can't be used if Espeon is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -71,23 +69,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275064,
-		tcgplayer: 85318
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85318,
+				cardmarket: 275064
+			}
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85318,
+				cardmarket: 275064
+			}
+		},
+		{
+			type: 'reverse',
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 210849,
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card

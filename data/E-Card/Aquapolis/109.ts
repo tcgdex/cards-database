@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		235,
-	],
+	dexId: [235],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -48,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doubleslap",
+				en: "Doublslap",
 				fr: "Torgnoles",
 				de: "Doubleslap"
 			},
@@ -57,7 +55,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -65,24 +63,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275185,
-		tcgplayer: 89352
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89352,
+				cardmarket: 275185
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89352,
+				cardmarket: 275185
+			}
+		},
 	]
 }
 

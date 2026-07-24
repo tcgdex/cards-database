@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		70,
-	],
+	dexId: [70],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Growth"
 			},
 			effect: {
-				en: "Attach up to 2 Energy cards from your hand to Weepinbell.",
+				en: "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
 				fr: "Si c'est face, vous pouvez attacher jusqu'à 2 cartes Énergies  de votre main à Boustiflor.",
 				de: "Attach up to 2  Energy cards from your hand to Weepinbell."
 			},
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -70,24 +68,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275138,
-		tcgplayer: 90551
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90551,
+				cardmarket: 275138
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 90551,
+				cardmarket: 275138
+			}
+		},
 	]
 }
 
