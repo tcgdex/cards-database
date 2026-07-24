@@ -75,9 +75,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           short_sha="$(git rev-parse --short=12 upstream/master)"
-          tag="catalog-${short_sha}"
-          gh release view "$tag" --repo "${{ github.repository }}" >/dev/null 2>&1 || gh release create "$tag" --repo "${{ github.repository }}" --title "Cardfolio catalog ${short_sha}" --notes "Validated TCGdex catalog from $(git rev-parse upstream/master)"
-          gh release upload "$tag" --repo "${{ github.repository }}" catalog-artifacts/*.gz catalog-artifacts/manifest.json --clobber
+          artifact_sha="$(sha256sum catalog-artifacts/*.gz | sha256sum | cut -c1-12)"
+          tag="catalog-${short_sha}-${artifact_sha}"
+          if ! gh release view "$tag" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release create "$tag" --repo "${{ github.repository }}" --title "Cardfolio catalog ${short_sha} (${artifact_sha})" --notes "Validated TCGdex catalog from $(git rev-parse upstream/master)"
+            gh release upload "$tag" --repo "${{ github.repository }}" catalog-artifacts/*.gz catalog-artifacts/manifest.json
+          fi
 
       - name: Move latest catalog tag
         if: steps.catalog.outputs.changed == 'true'
