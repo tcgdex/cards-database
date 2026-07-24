@@ -9,16 +9,18 @@ const card: Card = {
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Holo Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [452],
+	dexId: [
+		452,
+	],
 
 	hp: 100,
 
 	types: [
-		"Darkness"
+		"Darkness",
 	],
 
 	evolveFrom: {
@@ -69,38 +71,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
 	description: {
 		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation."
 	},
 
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				tcgplayer: 84924,
-				cardmarket: 279534
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 84924,
-				cardmarket: 279534
-			},
-		},
-	],
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279534,
+		tcgplayer: 84924
+	}
 }
 
 export default card

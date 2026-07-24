@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [51],
+	dexId: [
+		51,
+	],
 
 	hp: 80,
 
 	types: [
-		"Fighting"
+		"Fighting",
 	],
 
 	evolveFrom: {
@@ -66,38 +68,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 0,
 
 	description: {
 		en: "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 85004,
-				cardmarket: 279549
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 85004,
-				cardmarket: 279549
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279549,
+		tcgplayer: 85004
+	}
 }
 
 export default card

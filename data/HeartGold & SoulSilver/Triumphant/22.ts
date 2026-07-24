@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [55],
+	dexId: [
+		55,
+	],
 
 	hp: 90,
 
 	types: [
-		"Water"
+		"Water",
 	],
 
 	evolveFrom: {
@@ -68,32 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 85817,
-				cardmarket: 279552
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 85817,
-				cardmarket: 279552
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279552,
+		tcgplayer: 85817
+	}
 }
 
 export default card

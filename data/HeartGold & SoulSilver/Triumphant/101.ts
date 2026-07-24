@@ -8,17 +8,17 @@ const card: Card = {
 		de: "Palkia & Dialga LEGENDE"
 	},
 
-	illustrator: "Shinji Higuchi + Sachiko Eba",
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
 	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [483, 484],
+	dexId: [484, 483],
 	hp: 160,
 
 	types: [
 		"Water",
-		"Metal"
+		"Metal",
 	],
 
 	suffix: "Legend",
@@ -55,25 +55,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "x2"
+			value: "×2",
 		},
 		{
 			type: "Fire",
-			value: "x2"
+			value: "×2",
 		},
 	],
-	retreat: 3,
+	retreat: 0,
 
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				tcgplayer: 87914,
-				cardmarket: 279631
-			},
-		},
-	],
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279631
+	}
 }
 
 export default card

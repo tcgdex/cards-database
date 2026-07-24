@@ -9,16 +9,18 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Holo Rare",
+	rarity: "Rare Holo",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [34],
+	dexId: [
+		34,
+	],
 
 	hp: 140,
 
 	types: [
-		"Fighting"
+		"Fighting",
 	],
 
 	evolveFrom: {
@@ -70,45 +72,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
 	description: {
 		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
 	},
 
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				tcgplayer: 87699,
-				cardmarket: 279536
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 87699,
-				cardmarket: 279536
-			},
-		},
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 125072,
-				cardmarket: 279536
-			},
-		},
-	],
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279536,
+		tcgplayer: 87699
+	}
 }
 
 export default card

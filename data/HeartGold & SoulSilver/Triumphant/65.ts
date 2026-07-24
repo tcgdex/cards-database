@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [401],
+	dexId: [
+		401,
+	],
 
 	hp: 50,
 
 	types: [
-		"Grass"
+		"Grass",
 	],
 
 	stage: "Basic",
@@ -43,32 +45,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "When its antennae hit each other, it sounds like the music of a xylophone."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 86530,
-				cardmarket: 279595
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 86530,
-				cardmarket: 279595
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279595,
+		tcgplayer: 86530
+	}
 }
 
 export default card

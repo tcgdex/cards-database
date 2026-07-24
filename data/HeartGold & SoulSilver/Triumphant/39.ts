@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [370],
+	dexId: [
+		370,
+	],
 
 	hp: 60,
 
 	types: [
-		"Water"
+		"Water",
 	],
 
 	stage: "Basic",
@@ -62,32 +64,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 86938,
-				cardmarket: 279569
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 86938,
-				cardmarket: 279569
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279569,
+		tcgplayer: 86938
+	}
 }
 
 export default card

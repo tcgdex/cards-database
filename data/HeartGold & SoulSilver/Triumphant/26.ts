@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [68],
+	dexId: [
+		68,
+	],
 
 	hp: 130,
 
 	types: [
-		"Fighting"
+		"Fighting",
 	],
 
 	evolveFrom: {
@@ -70,32 +72,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 2,
 
 	description: {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 86967,
-				cardmarket: 279556
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 86967,
-				cardmarket: 279556
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279556,
+		tcgplayer: 86967
+	}
 }
 
 export default card

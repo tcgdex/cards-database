@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [193],
+	dexId: [
+		193,
+	],
 
 	hp: 50,
 
 	types: [
-		"Grass"
+		"Grass",
 	],
 
 	stage: "Basic",
@@ -32,7 +34,7 @@ const card: Card = {
 				de: "Freiflug"
 			},
 			effect: {
-				en: "If Yanma has no Energy attached to it, Yanma's Retreat Cost is 0.",
+				en: "If Yanma has no Energy attached to it, Yanma’s Retreat Cost is 0.",
 				fr: "Si aucune carte Énergie n’est attachée à Yanma, son Coût de retraite est de 0.",
 				de: "Wenn keine Energie an Yanma angelegt ist, hat Yanma Rückzugskosten von 0."
 			},
@@ -59,38 +61,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 90688,
-				cardmarket: 279614
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 90688,
-				cardmarket: 279614
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279614,
+		tcgplayer: 90688
+	}
 }
 
 export default card

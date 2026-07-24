@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [233],
+	dexId: [
+		233,
+	],
 
 	hp: 80,
 
 	types: [
-		"Colorless"
+		"Colorless",
 	],
 
 	evolveFrom: {
@@ -60,7 +62,7 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20×",
+			damage: "20x",
 
 		},
 	],
@@ -68,32 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "x2"
+			value: "×2"
 		},
 	],
-	retreat: 2,
+
+	retreat: 1,
 
 	description: {
 		en: "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 88327,
-				cardmarket: 279579
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 88327,
-				cardmarket: 279579
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279579,
+		tcgplayer: 88327
+	}
 }
 
 export default card

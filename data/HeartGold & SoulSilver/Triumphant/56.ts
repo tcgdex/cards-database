@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [304],
+	dexId: [
+		304,
+	],
 
 	hp: 60,
 
 	types: [
-		"Metal"
+		"Metal",
 	],
 
 	stage: "Basic",
@@ -60,38 +62,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 2,
 
 	description: {
 		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 83639,
-				cardmarket: 279586
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 83639,
-				cardmarket: 279586
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279586,
+		tcgplayer: 83639
+	}
 }
 
 export default card

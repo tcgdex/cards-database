@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [31],
+	dexId: [
+		31,
+	],
 
 	hp: 130,
 
 	types: [
-		"Psychic"
+		"Psychic",
 	],
 
 	evolveFrom: {
@@ -70,32 +72,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 2,
 
 	description: {
 		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 87710,
-				cardmarket: 279558
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 87710,
-				cardmarket: 279558
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: false,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279558,
+		tcgplayer: 87710
+	}
 }
 
 export default card

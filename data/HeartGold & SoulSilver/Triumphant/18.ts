@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [149],
+	dexId: [
+		149,
+	],
 
 	hp: 140,
 
 	types: [
-		"Colorless"
+		"Colorless",
 	],
 
 	evolveFrom: {
@@ -73,38 +75,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+
 	retreat: 4,
 
 	description: {
 		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 84914,
-				cardmarket: 279548
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 84914,
-				cardmarket: 279548
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279548,
+		tcgplayer: 84914
+	}
 }
 
 export default card

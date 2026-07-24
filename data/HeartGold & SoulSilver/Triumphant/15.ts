@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [437],
+	dexId: [
+		437,
+	],
 
 	hp: 90,
 
 	types: [
-		"Metal"
+		"Metal",
 	],
 
 	evolveFrom: {
@@ -68,38 +70,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+
 	retreat: 3,
 
 	description: {
 		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 83997,
-				cardmarket: 279545
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 83997,
-				cardmarket: 279545
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279545,
+		tcgplayer: 83997
+	}
 }
 
 export default card

@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [318],
+	dexId: [
+		318,
+	],
 
 	hp: 50,
 
 	types: [
-		"Darkness"
+		"Darkness",
 	],
 
 	stage: "Basic",
@@ -34,7 +36,7 @@ const card: Card = {
 				de: "Energiefokus"
 			},
 			effect: {
-				en: "During your next turn, Carvanha's Bite attack's base damage is 40.",
+				en: "During your next turn, Carvanha’s Bite attack’s base damage is 40.",
 				fr: "Pendant votre prochain tour, l’attaque Morsure de Carvanha inflige 40 dégâts de base.",
 				de: "In deinem nächsten Zug beträgt der Grundschaden von Kanivanhas Biss 40 Schadenspunkte."
 			},
@@ -58,32 +60,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 84116,
-				cardmarket: 279589
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 84116,
-				cardmarket: 279589
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279589,
+		tcgplayer: 84116
+	}
 }
 
 export default card

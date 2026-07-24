@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [100],
+	dexId: [
+		100,
+	],
 
 	hp: 40,
 
 	types: [
-		"Lightning"
+		"Lightning",
 	],
 
 	stage: "Basic",
@@ -46,38 +48,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 90422,
-				cardmarket: 279613
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 90422,
-				cardmarket: 279613
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279613,
+		tcgplayer: 90422
+	}
 }
 
 export default card

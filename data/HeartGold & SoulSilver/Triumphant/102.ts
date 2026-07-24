@@ -8,15 +8,15 @@ const card: Card = {
 		de: "Palkia & Dialga LEGENDE"
 	},
 
-	illustrator: "Shinji Higuchi + Sachiko Eba",
+	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣+江場左知子",
 	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [483, 484],
+	dexId: [484, 483],
 	types: [
 		"Water",
-		"Metal"
+		"Metal",
 	],
 
 	suffix: "Legend",
@@ -34,7 +34,7 @@ const card: Card = {
 				de: 'Plötzliche Tilgung'
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. Put that Pokémon and all cards attached to it back to your opponent's hand.",
+				en: "Choose 1 of your opponent’s Benched Pokémon. Put that Pokémon and all cards attached to it back into your opponent’s hand.",
 				fr: "Choisissez l’un des Pokémon de Banc de votre adversaire. Remettez ce Pokémon et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
 				de: 'Wähle 1 Pokémon auf der Bank deines Gegners. Dein Gegner nimmt das gewählte Pokémon und alle an es angelegten Karten auf seine Hand zurück.  '
 			},
@@ -63,28 +63,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "x2"
+			value: "×2"
 		},
 		{
 			type: "Fire",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 3,
 	stage: "Basic",
 
+	variants: {
+		normal: false,
+		reverse: false,
+		holo: true,
+		firstEdition: false
+	},
+
 	hp: 160,
 
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				tcgplayer: 87913,
-				cardmarket: 279631
-			},
-		},
-	],
-
+	thirdParty: {
+		cardmarket: 279631
+	}
 }
 
 export default card

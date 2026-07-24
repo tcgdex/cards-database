@@ -13,12 +13,14 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [402],
+	dexId: [
+		402,
+	],
 
 	hp: 80,
 
 	types: [
-		"Grass"
+		"Grass",
 	],
 
 	evolveFrom: {
@@ -71,32 +73,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "x2"
+			value: "×2"
 		},
 	],
+
 	retreat: 1,
 
 	description: {
 		en: "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
 	},
 
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 86534,
-				cardmarket: 279554
-			},
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 86534,
-				cardmarket: 279554
-			},
-		},
-	],
+	variants: {
+		normal: true,
+		reverse: true,
+		holo: false,
+		firstEdition: false
+	},
 
+	thirdParty: {
+		cardmarket: 279554,
+		tcgplayer: 86534
+	}
 }
 
 export default card
