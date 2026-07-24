@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		92,
-	],
+	dexId: [92],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Heimlichtuerei"
 			},
 			effect: {
-				en: "Put 1 damage counter on 1 of your opponent’s Pokémon.",
+				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Placez un marqueur de dégât sur l’un des Pokémon de votre adversaire.",
 				de: "Lege 1 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
@@ -47,34 +45,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85656,
+				cardmarket: 279593
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85656,
+				cardmarket: 279593
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279593,
-		tcgplayer: 85656
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -55,34 +53,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
 		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86583,
+				cardmarket: 279567
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86583,
+				cardmarket: 279567
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279567,
-		tcgplayer: 86583
-	}
 }
 
 export default card

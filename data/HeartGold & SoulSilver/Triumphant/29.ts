@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		18,
-	],
+	dexId: [18],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				de: "Gegenwind"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the attack cost of each of the Defending Pokémon’s attacks is ColorlessColorless more.",
+				en: "During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is ColorlessColorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, le coût de chaque attaque du Pokémon Défenseur est augmenté de ColorlessColorless.",
 				de: "Während des nächsten Zuges deines Gegners kosten die Angriffe des Verteidigenden Pokémon  mehr."
 			},
@@ -73,34 +71,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 0,
 
 	description: {
 		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88034,
+				cardmarket: 279559
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88034,
+				cardmarket: 279559
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279559,
-		tcgplayer: 88034
-	}
 }
 
 export default card

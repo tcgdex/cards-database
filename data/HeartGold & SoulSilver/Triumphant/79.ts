@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		220,
-	],
+	dexId: [220],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -58,27 +56,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89705,
+				cardmarket: 279609
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89705,
+				cardmarket: 279609
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279609,
-		tcgplayer: 89705
-	}
 }
 
 export default card

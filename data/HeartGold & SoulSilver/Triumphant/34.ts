@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		101,
-	],
+	dexId: [101],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -68,34 +66,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85159,
+				cardmarket: 279564
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85159,
+				cardmarket: 279564
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279564,
-		tcgplayer: 85159
-	}
 }
 
 export default card

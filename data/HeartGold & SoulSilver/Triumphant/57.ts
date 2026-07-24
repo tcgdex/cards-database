@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		69,
-	],
+	dexId: [69],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Einladender Duft"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
+				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
 				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegeners aus."
 			},
@@ -64,27 +62,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83810,
+				cardmarket: 279587
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83810,
+				cardmarket: 279587
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279587,
-		tcgplayer: 83810
-	}
 }
 
 export default card

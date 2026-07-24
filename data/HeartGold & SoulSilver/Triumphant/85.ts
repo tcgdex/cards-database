@@ -15,25 +15,31 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous pouvez utiliser cette carte uniquement s’il vous reste plus de cartes Récompense que votre adversaire. Pendant ce tour, chaque attaque de votre Pokémon Actif inflige 40 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
-		en: "You may use this card only if you have more Prize cards left than your opponent. During this turn, each of your Active Pokémon’s attacks does 40 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance).",
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. You may use this card only if you have more Prize cards left than your opponent. During this turn, each of your Active Pokémon's attacks does 40 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 		de: "Du darfst diese Karte nur spielen, wenn du mehr Preise übrig hast als dein Gegner. Während dieses Zuges fügt jeder Angriff deines Aktiven Pokémon den Aktiven Pokémon des Gegners 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
-
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279615,
-		tcgplayer: 83850
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83850,
+				cardmarket: 279615
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83850,
+				cardmarket: 279615
+			},
+		},
+	],
+
 }
 
 export default card

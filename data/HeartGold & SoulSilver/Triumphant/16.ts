@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		455,
-	],
+	dexId: [455],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Speichelköder"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
+				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
 				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Festkleben und Einsaugen"
 			},
 			effect: {
-				en: "Remove 3 damage counters from Carnivine. The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "Remove 3 damage counters from Carnivine. The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Retirez 3 marqueurs de dégât à Vortente. Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Entferne 3 Schadensmarken von Venuflibis. Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -66,34 +64,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84105,
+				cardmarket: 279546
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84105,
+				cardmarket: 279546
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279546,
-		tcgplayer: 84105
-	}
 }
 
 export default card

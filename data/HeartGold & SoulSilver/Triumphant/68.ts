@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -65,34 +63,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87085,
+				cardmarket: 279598
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87085,
+				cardmarket: 279598
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279598,
-		tcgplayer: 87085
-	}
 }
 
 export default card

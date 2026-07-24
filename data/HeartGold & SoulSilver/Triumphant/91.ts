@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		359,
-	],
+	dexId: [359],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Tückische Klauen"
 			},
 			effect: {
-				en: "Choose 1 Pokémon from your hand and put it in the Lost Zone. (If you can’t put a Pokémon in the Lost Zone, this attack does nothing.)",
+				en: "Choose 1 Pokémon from your hand and put it in the Lost Zone. (If you can't put a Pokémon in the Lost Zone, this attack does nothing.)",
 				fr: "Choisissez un Pokémon dans votre main et placez-le dans la Zone Perdue. (Si vous ne pouvez pas, cette attaque ne fait rien.)",
 				de: "Wähle 1 Pokémon-Karte von deiner Hand und lege sie ins Nirgendwo. (Wenn du keine Pokémon-Karte ins Nirgendwo legen kannst, hat dieser Angriff keine Auswirkung.)"
 			},
@@ -65,31 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 	suffix: "Prime",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83454,
+				cardmarket: 279621
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279621,
-		tcgplayer: 83454
-	}
 }
 
 export default card

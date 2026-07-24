@@ -3,7 +3,7 @@ import Set from '../Triumphant'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♀",
+		en: "Nidoran ♀",
 		fr: "Nidoran♀",
 		de: "Nidoran w"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		29,
-	],
+	dexId: [29],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -57,7 +55,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -65,22 +63,30 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87720,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87720,
+			},
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		137,
-	],
+	dexId: [137],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -61,27 +59,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "A manmade Pokémon that came about as a result of research. It is programmed with only basic motions."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88312,
+				cardmarket: 279603
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88312,
+				cardmarket: 279603
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279603,
-		tcgplayer: 88312
-	}
 }
 
 export default card

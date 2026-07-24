@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		201,
-	],
+	dexId: [201],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -60,27 +58,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90165,
+				cardmarket: 279581
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90165,
+				cardmarket: 279581
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279581,
-		tcgplayer: 90165
-	}
 }
 
 export default card

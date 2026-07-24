@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		132,
-	],
+	dexId: [132],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -61,27 +59,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84844,
+				cardmarket: 279547
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84844,
+				cardmarket: 279547
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279547,
-		tcgplayer: 84844
-	}
 }
 
 export default card

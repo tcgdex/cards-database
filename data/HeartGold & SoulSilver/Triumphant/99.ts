@@ -8,17 +8,17 @@ const card: Card = {
 		de: "Darkrai & Cresselia LEGENDE"
 	},
 
-	illustrator: "Shinji Higuchi + Noriko Takaya/樋口真嗣+高屋法子",
-	rarity: "Ultra Rare",
+	illustrator: "Shinji Higuchi + Noriko Takaya",
+	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [491, 488],
+	dexId: [488, 491],
 	hp: 150,
 
 	types: [
 		"Darkness",
-		"Psychic",
+		"Psychic"
 	],
 
 	suffix: "Legend",
@@ -56,29 +56,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2",
+			value: "x2"
 		},
 		{
 			type: "Psychic",
-			value: "×2",
+			value: "x2"
 		},
 	],
-	retreat: 0,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	retreat: 2,
 
 	effect: {
 		en: "[2DD] Lost Crisis (100) Choose 2 Energy attached to Darkrai and Cresselia LEGEND and put them in the Lost Zone. If any of your opponent’s Pokémon would be Knocked Out by damage from the attack, put that Pokémon and all cards attached to it in the Lost Zone instead of discarding it."
 	},
 
-	thirdParty: {
-		cardmarket: 279629
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84705,
+				cardmarket: 279629
+			},
+		},
+	],
+
 }
 
 export default card
