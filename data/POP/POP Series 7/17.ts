@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		327,
-	],
+	dexId: [327],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -62,24 +60,22 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
 		en: "No two SPINDA have the same pattern of spots. Its tottering step fouls the aim of foes."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89462,
+				cardmarket: 278049
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278049,
-		tcgplayer: 89462
-	}
 }
 
 export default card

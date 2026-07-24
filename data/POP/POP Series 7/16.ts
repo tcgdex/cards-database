@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		161,
-	],
+	dexId: [161],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -59,24 +57,22 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "It has a very nervous nature. It stands up high on its tail so it can scan wide areas."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89067,
+				cardmarket: 278048
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278048,
-		tcgplayer: 89067
-	}
 }
 
 export default card
