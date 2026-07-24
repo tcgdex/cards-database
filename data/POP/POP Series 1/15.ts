@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		277,
-	],
+	dexId: [277],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				fr: "Puissance"
 			},
 			effect: {
-				en: "During your next turn, base damage of Swellow’s Agility is 70 instead of 30.",
+				en: "During your next turn, base damage of Swellow's Agility is 70 instead of 30.",
 				fr: "Lors de votre prochain tour, la base des dégâts d'Hâte d'Heledelle est de 70 au lieu de 30."
 			},
 
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Hâte"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Heledelle lors du prochain tour de votre adversaire."
 			},
 			damage: 30,
@@ -77,10 +75,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277429,
-		tcgplayer: 89690
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89690,
+				cardmarket: 277429
+			},
+		},
+	],
+
 }
 
 export default card
