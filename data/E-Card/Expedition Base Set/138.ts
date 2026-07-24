@@ -11,6 +11,7 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -19,31 +20,50 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck. Zähle dann die Anzahl an Karten auf der Hand deines Gegners und ziehe so viele Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275013,
-		tcgplayer: 84423
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84423,
+				cardmarket: 275013
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84423,
+				cardmarket: 275013
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477371,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 477372,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
-		}
-	]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 477373,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				tcgplayer: 477503,
+			},
+		},
+	],
 }
 
 export default card

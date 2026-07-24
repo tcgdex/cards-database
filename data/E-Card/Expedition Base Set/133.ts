@@ -11,16 +11,15 @@ const card: Card = {
 	illustrator: "Yuichi Sawayama",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Supporter",
 	set: Set,
 
-	dexId: [
-		128,
-	],
+	dexId: [128],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -44,7 +43,7 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 		{
 			cost: [
@@ -57,7 +56,7 @@ const card: Card = {
 				de: "Bodycheck"
 			},
 			effect: {
-				en: "Tauros does 20 Damage to itself.",
+				en: "Tauros does 20 damage to itself.",
 				fr: "Tauros s'inflige 20 dégâts.",
 				de: "Tauros fügt sich selber 20 Schadenspunkte zu."
 			},
@@ -69,25 +68,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275008,
-		tcgplayer: 89760
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89760,
+				cardmarket: 275008
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89760,
+				cardmarket: 275008
+			},
+		},
+	],
 }
 
 export default card

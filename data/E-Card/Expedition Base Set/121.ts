@@ -8,19 +8,17 @@ const card: Card = {
 		de: "Mauzi"
 	},
 
-	illustrator: "Hironobu Yoshida",
+	illustrator: 'Hironobu Yoshida',
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		52,
-	],
+	dexId: [52],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -66,25 +64,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274996,
-		tcgplayer: 87315
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87315,
+				cardmarket: 274996
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87315,
+				cardmarket: 274996
+			},
+		},
+	],
 }
 
 export default card

@@ -13,16 +13,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [124],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Lightweight",
+			},
+			effect: {
+				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
+			},
+		},
+	],
 	stage: "Basic",
 
 	attacks: [
@@ -65,28 +74,37 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Water",
+			value: "-30"
+		},
+	],
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274958,
-		tcgplayer: 86374
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86374,
+				cardmarket: 274958
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86374,
+				cardmarket: 274958
+			},
+		},
+	],
 }
 
 export default card

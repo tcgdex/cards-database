@@ -11,6 +11,7 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -19,19 +20,25 @@ const card: Card = {
 		de: "Flip a coin until you get tails. For each heads, draw 2 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 275017,
-		tcgplayer: 87242
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87242,
+				cardmarket: 275017
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87242,
+				cardmarket: 275017
+			},
+		},
+	],
+	types: [
+		"Darkness"
+	],
 }
 
 export default card

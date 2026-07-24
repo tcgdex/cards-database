@@ -11,16 +11,15 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Tool",
 	set: Set,
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -48,25 +47,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275003,
-		tcgplayer: 88614
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88614,
+				cardmarket: 275003
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88614,
+				cardmarket: 275003
+			},
+		},
+	],
 }
 
 export default card

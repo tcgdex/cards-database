@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		91,
-	],
+	dexId: [91],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Kokiyas"
 	},
 
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Super Dynamo",
+			},
+			effect: {
+				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
+			},
+		},
+	],
 	stage: "Stage1",
 
 	attacks: [
@@ -65,7 +74,7 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -73,25 +82,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274883,
-		tcgplayer: 84370
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84370,
+				cardmarket: 274883
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84370,
+				cardmarket: 274883
+			},
+		},
+	],
 }
 
 export default card

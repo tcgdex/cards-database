@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [3],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Egelsamen"
 			},
 			effect: {
-				en: "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Venusaur, is it has any.",
+				en: "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Venusaur, if it has any.",
 				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Florizarre, s'il en possède.",
 				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne eine Schadensmarke von Bisaflor, falls es mindestens eine hat."
 			},
@@ -55,7 +53,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
+				en: "Fury Strikes",
 				fr: "Attaques furieuses",
 				de: "Zornschläge"
 			},
@@ -64,7 +62,7 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -72,25 +70,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274905,
-		tcgplayer: 90315
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90315,
+				cardmarket: 274905
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90315,
+				cardmarket: 274905
+			},
+		},
+	],
 }
 
 export default card

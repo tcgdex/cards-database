@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Rock Body"
 			},
 			effect: {
-				en: "All Damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance.)"
 			},
@@ -72,25 +70,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 4,
 
 
-	thirdParty: {
-		cardmarket: 274889,
-		tcgplayer: 85824
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85824,
+				cardmarket: 274889
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85824,
+				cardmarket: 274889
+			},
+		},
+	],
 }
 
 export default card

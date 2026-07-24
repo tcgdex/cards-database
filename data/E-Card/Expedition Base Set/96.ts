@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		10,
-	],
+	dexId: [10],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -45,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Entangling Thread",
+				en: "Entagling Thread",
 				fr: "Piège-fil",
 				de: "Einwickelfaden"
 			},
@@ -62,25 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274971,
-		tcgplayer: 84135
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84135,
+				cardmarket: 274971
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84135,
+				cardmarket: 274971
+			},
+		},
+	],
 }
 
 export default card

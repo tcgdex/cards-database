@@ -11,6 +11,7 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -19,22 +20,29 @@ const card: Card = {
 		de: "Entferne alle Schadensmarken von einem deiner Pokémon. Lege dann alle an es angelegten Energiekarten auf deinen Ablagestapel.",
 	},
 
-	thirdParty: {
-		cardmarket: 275020
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275020,
+				tcgplayer: 88229,
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275020,
+				tcgplayer: 88229,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477414
+			}
 		}
-	]
+	],
 }
 
 export default card

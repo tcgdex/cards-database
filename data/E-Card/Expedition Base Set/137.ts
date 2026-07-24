@@ -11,6 +11,7 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -19,19 +20,22 @@ const card: Card = {
 		de: "Falls du mindestens eine Karte auf deiner Hand hast, mische 1 davon in dein Deck und ziehe dann 3 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275012,
-		tcgplayer: 83837
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83837,
+				cardmarket: 275012
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83837,
+				cardmarket: 275012
+			},
+		},
+	],
 }
 
 export default card

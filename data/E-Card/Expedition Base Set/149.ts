@@ -11,6 +11,60 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Crystal Type",
+			},
+			effect: {
+				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+			},
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Fire",
+			],
+			name: {
+				en: "Psychic",
+			},
+			effect: {
+				en: "This attack does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
+			},
+			damage: "10×",
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				en: "Steam Blast",
+			},
+			effect: {
+				en: "Discard an Energy card attached to Lugia.",
+			},
+			damage: 50,
+		},
+	],
+	stage: "Basic",
+	types: [
+		"Colorless"
+	],
+	hp: 80,
+	dexId: [249],
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -19,23 +73,27 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275024,
-		tcgplayer: 88402
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"]
 		}
-	]
+	],
+	retreat: 3,
 }
 
 export default card

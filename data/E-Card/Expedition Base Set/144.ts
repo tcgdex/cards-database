@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Vielzweckmaschine 01"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
+	illustrator: '"Big Mama" Tagawa',
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
@@ -22,10 +22,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Paralyzing Gaze",
 				de: "Lähmender Blick",
 				fr: "Regard paralysant",
 			},
 			effect: {
+				en: "The Defending Pokémon is now Paralyzed.",
 				de: "Das Verteidigende Pokémon ist jetzt gelähmt.",
 				fr: "Le Pokémon Défenseur est maintenant Paralysé.",
 			},
@@ -35,19 +37,22 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275019,
-		tcgplayer: 87635
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87635,
+				cardmarket: 275019
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87635,
+				cardmarket: 275019
+			},
+		},
+	],
 }
 
 export default card

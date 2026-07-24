@@ -15,19 +15,25 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275040,
-		tcgplayer: 90505
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90505,
+				cardmarket: 275040
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90505,
+				cardmarket: 275040
+			},
+		},
+	],
+	types: [
+		"Water"
+	],
 }
 
 export default card
