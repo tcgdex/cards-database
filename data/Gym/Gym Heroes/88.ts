@@ -47,7 +47,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87543,
+			},
 		},
 		{
 			type: "normal",
@@ -57,7 +60,7 @@ const card: Card = {
 				cardmarket: 274224
 			}
 		}
-	]
+	],
 }
 
 export default card

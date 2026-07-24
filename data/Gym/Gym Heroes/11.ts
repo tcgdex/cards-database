@@ -64,7 +64,10 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88773,
+			},
 		},
 		{
 			type: "holo",
@@ -79,11 +82,10 @@ const card: Card = {
 			stamp: ["winner"],
 			size: "jumbo",
 			thirdParty: {
-				tcgplayer: 88773,
-				cardmarket: 274147
+				tcgplayer: 211506
 			}
 		}
-	]
+	],
 }
 
 export default card

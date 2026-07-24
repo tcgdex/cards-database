@@ -16,7 +16,10 @@ const card: Card = {
 	},
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89897,
+			},
 		},
 		{
 			type: "holo",
@@ -26,7 +29,7 @@ const card: Card = {
 				cardmarket: 274155
 			}
 		}
-	]
+	],
 }
 
 export default card

@@ -57,7 +57,10 @@ const card: Card = {
 	],
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87532,
+			},
 		},
 		{
 			type: "normal",
