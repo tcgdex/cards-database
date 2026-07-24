@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		331,
-	],
+	dexId: [331],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Jet de Sable"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 			damage: 10,
@@ -47,13 +45,18 @@ const card: Card = {
 			type: "Fire"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277444,
-		tcgplayer: 84072
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84072,
+				cardmarket: 277444
+			},
+		},
+	],
+
 }
 
 export default card
