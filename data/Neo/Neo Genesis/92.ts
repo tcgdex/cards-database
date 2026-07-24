@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Choose 1 of your opponent's face-down Prizes. Guess wheter it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card face up (and leave it face up). If you guessed right, draw 2 cards."
 	},
 
-	thirdParty: {
-		cardmarket: 274492,
-		tcgplayer: 84098
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274492,
+				tcgplayer: 84098
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274492,
+				tcgplayer: 84098
+			}
 		}
 	]
 }
