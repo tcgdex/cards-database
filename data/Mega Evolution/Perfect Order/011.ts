@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Dartrix"
 	},
 
+	evolveFrom: {
+		en: "Rowlet",
+		fr: "Brindibou",
+		es: "Rowlet",
+		'es-mx': "Rowlet",
+		de: "Bauz",
+		it: "Rowlet",
+		pt: "Rowlet",
+	},
+
 	illustrator: "aspara",
 	rarity: "Common",
 	category: "Pokemon",

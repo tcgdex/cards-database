@@ -86,18 +86,22 @@ const card: Card = {
 		fr: "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer."
 	},
 
-	thirdParty: {
-		cardmarket: 274601,
-		tcgplayer: 83466
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274601,
+				tcgplayer: 83466
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274601,
+				tcgplayer: 83466
+			}
 		}
 	]
 }

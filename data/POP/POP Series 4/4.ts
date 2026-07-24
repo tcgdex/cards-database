@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		151,
-	],
+	dexId: [151],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "Barrière réactive"
 			},
 			effect: {
-				en: "As long as Mew has any React Energy cards attached to it, prevent all effects, excluding damage, done to Mew by attacks from your opponent’s Pokémon.",
+				en: "As long as Mew has any React Energy cards attached to it, prevent all effects, excluding damage, done to Mew by attacks from your opponent's Pokémon.",
 				fr: "Tant que Mew possède des cartes Énergie réaction, prévenez tous les effets, dégâts exclus, infligés à Mew par des attaques de Pokémon de votre adversaire."
 			},
 		},
@@ -59,23 +57,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87401,
+				cardmarket: 277469
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87401,
+				cardmarket: 277469
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277469,
-		tcgplayer: 87401
-	}
 }
 
 export default card

@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Ses muscles surpuissants lui permettent de se déplacer très vite et ce, malgré sa forte corpulence."
 	},
 
-	thirdParty: {
-		cardmarket: 274657,
-		tcgplayer: 84594
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274657,
+				tcgplayer: 84594
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274657,
+				tcgplayer: 84594
+			}
 		}
 	]
 }

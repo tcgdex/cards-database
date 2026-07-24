@@ -86,18 +86,22 @@ const card: Card = {
 		fr: "Il peut boire jusqu'à 5 litres de sang d'un seul coup. S'il en boit trop, il devient trop lourd et a du mal à voler."
 	},
 
-	thirdParty: {
-		cardmarket: 274615,
-		tcgplayer: 85790
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274615,
+				tcgplayer: 85790
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274615,
+				tcgplayer: 85790
+			}
 		}
 	]
 }

@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Tyrunt"
 	},
 
+	evolveFrom: {
+		en: "Antique Jaw Fossil",
+		fr: "Fossile Mâchoire Ancien",
+		es: "Fósil Mandíbula Antiguo",
+		'es-mx': "Fósil Mandíbula Antiguo",
+		de: "Antikes Kieferfossil",
+		it: "Vecchio Fossilmascella",
+		pt: "Fóssil de Mandíbula Arcaico",
+	},
+
 	illustrator: "Tomomi Kaneko",
 	rarity: "Common",
 	category: "Pokemon",

@@ -67,18 +67,22 @@ const card: Card = {
 		fr: "Il se fraie un chemin dans les herbes avec ses cisailles, trop rapidement pour qu'un être humain puisse le suivre."
 	},
 
-	thirdParty: {
-		cardmarket: 274557,
-		tcgplayer: 88994
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274557,
+				tcgplayer: 88994
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274557,
+				tcgplayer: 88994
+			}
 		}
 	]
 }

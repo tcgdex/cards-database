@@ -70,18 +70,22 @@ const card: Card = {
 		fr: "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi."
 	},
 
-	thirdParty: {
-		cardmarket: 274759,
-		tcgplayer: 89163
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274759,
+				tcgplayer: 89163
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274759,
+				tcgplayer: 89163
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Carkol"
 	},
 
+	evolveFrom: {
+		en: "Rolycoly",
+		fr: "Charbi",
+		es: "Rolycoly",
+		'es-mx': "Rolycoly",
+		de: "Klonkett",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+	},
+
 	illustrator: "Apios",
 	rarity: "Common",
 	category: "Pokemon",

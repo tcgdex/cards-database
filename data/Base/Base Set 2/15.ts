@@ -74,14 +74,14 @@ const card: Card = {
 		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
 	},
 
-	thirdParty: {
-		cardmarket: 273938,
-		tcgplayer: 42459
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273938,
+				tcgplayer: 42459
+			}
 		}
 	]
 }

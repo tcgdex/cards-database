@@ -72,14 +72,14 @@ const card: Card = {
 		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 	},
 
-	thirdParty: {
-		cardmarket: 273929,
-		tcgplayer: 42483
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273929,
+				tcgplayer: 42483
+			}
 		}
 	]
 }

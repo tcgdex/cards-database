@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Shuffle 2 of the other cards from your hand into your deck in order to draw a card.",
 	},
 
-	thirdParty: {
-		cardmarket: 274035,
-		tcgplayer: 42558
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274035,
+				tcgplayer: 42558
+			}
 		}
 	]
 }

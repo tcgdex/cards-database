@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Garchomp ex da Cíntia"
 	},
 
+	evolveFrom: {
+		en: "Cynthia's Gabite",
+		fr: "Carmache de Cynthia",
+		es: "Gabite de Cintia",
+		'es-mx': "Gabite de Cynthia",
+		de: "Cynthias Knarksel",
+		it: "Gabite di Camilla",
+		pt: "Gabite da Cíntia",
+	},
+
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",

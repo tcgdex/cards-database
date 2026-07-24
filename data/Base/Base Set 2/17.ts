@@ -69,14 +69,14 @@ const card: Card = {
 		en: "With ninja-like agility and speed, it can create the illusion that there is more than one of it.",
 	},
 
-	thirdParty: {
-		cardmarket: 273940,
-		tcgplayer: 42461
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273940,
+				tcgplayer: 42461
+			}
 		}
 	]
 }

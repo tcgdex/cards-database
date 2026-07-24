@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur."
 	},
 
-	thirdParty: {
-		cardmarket: 274701,
-		tcgplayer: 86745
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274701,
+				tcgplayer: 86745
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274701,
+				tcgplayer: 86745
+			}
 		}
 	]
 }

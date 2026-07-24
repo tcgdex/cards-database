@@ -78,18 +78,22 @@ const card: Card = {
 		fr: "La belle fourrure qui recouvre son corps peut sentir les courants aériens et prédire les actions de son ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 274512,
-		tcgplayer: 85316
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274512,
+				tcgplayer: 85316
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274512,
+				tcgplayer: 85316
+			}
 		}
 	]
 

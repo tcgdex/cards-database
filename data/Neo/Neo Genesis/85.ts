@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Flip a coin. If heads, shuffle up to 2 Energy cards from your discard pile into your deck."
 	},
 
-	thirdParty: {
-		cardmarket: 274485,
-		tcgplayer: 85210
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274485,
+				tcgplayer: 85210
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274485,
+				tcgplayer: 85210
+			}
 		}
 	]
 }

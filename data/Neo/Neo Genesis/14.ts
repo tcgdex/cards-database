@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Un jour qu'il fut mordu à la tête, des toxines pénétrèrent dans le cerveau de Ramoloss en libérant un pouvoir extraordinaire."
 	},
 
-	thirdParty: {
-		cardmarket: 274414,
-		tcgplayer: 89311
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274414,
+				tcgplayer: 89311
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274414,
+				tcgplayer: 89311
+			}
 		}
 	]
 }

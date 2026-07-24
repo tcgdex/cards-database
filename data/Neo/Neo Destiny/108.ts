@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Ce Pokémon antique utilise ses griffes acérées pour trancher ses proies et récupérer leur sang."
 	},
 
-	thirdParty: {
-		cardmarket: 274760,
-		tcgplayer: 89165
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274760,
+				tcgplayer: 89165
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274760,
+				tcgplayer: 89165
+			}
 		}
 	]
 }

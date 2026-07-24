@@ -86,18 +86,22 @@ const card: Card = {
 		fr: "Une fois qu'il est sous le vent, il contrôle précisément ses spores cotonneuses pour flotter, même autour du monde."
 	},
 
-	thirdParty: {
-		cardmarket: 274407,
-		tcgplayer: 86361
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274407,
+				tcgplayer: 86361
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274407,
+				tcgplayer: 86361
+			}
 		}
 	]
 }

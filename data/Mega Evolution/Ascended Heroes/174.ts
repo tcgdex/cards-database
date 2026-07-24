@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Braviary do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Rufflet",
+		fr: "Furaiglon d'Okuba",
+		es: "Rufflet de Laureano",
+		'es-mx': "Rufflet de Laureano",
+		de: "Aokis Geronimatz",
+		it: "Rufflet di Ubaldo",
+		pt: "Rufflet do Lauro",
+	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Pokemon",

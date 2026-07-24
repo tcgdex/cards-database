@@ -8,9 +8,8 @@ const card: Card = {
 		en: "Shadowy Darkness Energy",
 		fr: "Énergie Darkness Sombre",
 		es: "Energía Darkness Sombría",
-		'es-mx': "Energía Sombría",
-		de: "Schattige Darkness-Energie",
 		'es-mx': "Energía Darkness Sombría",
+		de: "Schattige Darkness-Energie",
 		it: "Energia Darkness Ombrosa",
 		pt: "Energia Darkness Sombria"
 	},

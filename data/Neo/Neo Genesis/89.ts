@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Trade 2 of the other cards in your hand for 4 basic Energy cards from your discard pile. If you have fewer than 4 basic Energy cards there, take all of them."
 	},
 
-	thirdParty: {
-		cardmarket: 274489,
-		tcgplayer: 89628
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274489,
+				tcgplayer: 89628
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274489,
+				tcgplayer: 89628
+			}
 		}
 	]
 }

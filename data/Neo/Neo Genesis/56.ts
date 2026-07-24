@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Il demeure habituellement courbé en avant. S'il est en colère ou surpris, il lance des flammes depuis son dos."
 	},
 
-	thirdParty: {
-		cardmarket: 274456,
-		tcgplayer: 84543
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274456,
+				tcgplayer: 84543
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274456,
+				tcgplayer: 84543
+			}
 		}
 	]
 }

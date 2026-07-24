@@ -63,14 +63,14 @@ const card: Card = {
 		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
 	},
 
-	thirdParty: {
-		cardmarket: 273931,
-		tcgplayer: 42496
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273931,
+				tcgplayer: 42496
+			}
 		}
 	]
 }

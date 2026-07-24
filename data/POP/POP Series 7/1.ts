@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 130,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -55,7 +53,7 @@ const card: Card = {
 				fr: "Groupe d'éclairs"
 			},
 			effect: {
-				en: "You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent’s Benched Pokémon that has any Energy cards attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "You may discard all Lightning Energy attached to Ampharos. If you do, this attack does 20 damage to each of your opponent's Benched Pokémon that has any Energy cards attached to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Vous pouvez défausser toutes les Énergies  attachées à Pharamp. Cette attaque inflige alors 20 dégâts à chacun des Pokémon de Banc de votre adversaire possédant des cartes Énergie. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 70,
@@ -69,31 +67,35 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light."
 	},
 
 	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83542,
+				cardmarket: 278033
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83542,
+				cardmarket: 278033
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278033,
-		tcgplayer: 83542
-	}
 }
 
 export default card

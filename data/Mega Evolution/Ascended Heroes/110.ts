@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Gabite da Cíntia"
 	},
 
+	evolveFrom: {
+		en: "Cynthia's Gible",
+		fr: "Griknot de Cynthia",
+		es: "Gible de Cintia",
+		'es-mx': "Gible de Cynthia",
+		de: "Cynthias Kaumalat",
+		it: "Gible di Camilla",
+		pt: "Gible da Cíntia",
+	},
+
 	illustrator: "Taira Akitsu",
 	rarity: "Uncommon",
 	category: "Pokemon",

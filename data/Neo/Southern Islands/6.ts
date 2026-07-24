@@ -61,14 +61,14 @@ const card: Card = {
 	description: {
 		en: "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
 	},
-	thirdParty: {
-		cardmarket: 275636,
-		tcgplayer: 46480
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275636,
+				tcgplayer: 46480
+			}
 		}
 	]
 }

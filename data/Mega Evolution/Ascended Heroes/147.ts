@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Bisharp"
 	},
 
+	evolveFrom: {
+		en: "Pawniard",
+		fr: "Scalpion",
+		es: "Pawniard",
+		'es-mx': "Pawniard",
+		de: "Gladiantri",
+		it: "Pawniard",
+		pt: "Pawniard",
+	},
+
 	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",

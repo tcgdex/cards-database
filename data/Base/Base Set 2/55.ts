@@ -69,14 +69,14 @@ const card: Card = {
 		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 	},
 
-	thirdParty: {
-		cardmarket: 273978,
-		tcgplayer: 42518
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273978,
+				tcgplayer: 42518
+			}
 		}
 	]
 }

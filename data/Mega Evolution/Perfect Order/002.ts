@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Ariados"
 	},
 
+	evolveFrom: {
+		en: "Spinarak",
+		fr: "Mimigal",
+		es: "Spinarak",
+		'es-mx': "Spinarak",
+		de: "Webarak",
+		it: "Spinarak",
+		pt: "Spinarak",
+	},
+
 	illustrator: "svlt",
 	rarity: "Common",
 	category: "Pokemon",

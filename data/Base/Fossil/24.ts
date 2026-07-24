@@ -81,20 +81,24 @@ const card: Card = {
 		fr: "Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie."
 	},
 
-	thirdParty: {
-		cardmarket: 273870,
-		tcgplayer: 44432
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273870,
+				tcgplayer: 44432
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273870,
+				tcgplayer: 44432
+			}
 		},
 		{
 			type: "normal",

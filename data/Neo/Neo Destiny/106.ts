@@ -78,18 +78,22 @@ const card: Card = {
 		fr: "Il est adoré comme un dieu de la forêt. Il n'apparaît que dans des forêts anciennes et paisibles."
 	},
 
-	thirdParty: {
-		cardmarket: 274758,
-		tcgplayer: 89162
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274758,
+				tcgplayer: 89162
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274758,
+				tcgplayer: 89162
+			}
 		}
 	]
 }

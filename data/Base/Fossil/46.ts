@@ -76,20 +76,24 @@ const card: Card = {
 		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
 	},
 
-	thirdParty: {
-		cardmarket: 273907,
-		tcgplayer: 44448
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273907,
+				tcgplayer: 44448
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273907,
+				tcgplayer: 44448
+			}
 		},
 		{
 			type: "normal",

@@ -74,18 +74,22 @@ const card: Card = {
 		fr: "De nature amicale, il se met très vite en colère s'il n'obtient pas ce qu'il veut."
 	},
 
-	thirdParty: {
-		cardmarket: 274114,
-		tcgplayer: 87170
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274114,
+				tcgplayer: 87170
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274114,
+				tcgplayer: 87170
+			}
 		}
 	]
 }

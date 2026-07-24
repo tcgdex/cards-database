@@ -8,9 +8,8 @@ const card: Card = {
 		en: "Voltaic Lightning Energy",
 		fr: "Énergie Lightning Voltaïque",
 		es: "Energía Lightning Voltaica",
-		'es-mx': "Energía Voltaica",
-		de: "Voltaische Lightning-Energie",
 		'es-mx': "Energía Lightning Voltaica",
+		de: "Voltaische Lightning-Energie",
 		it: "Energia Lightning Voltaica",
 		pt: "Energia Lightning Voltaica"
 	},

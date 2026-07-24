@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Piloswine"
 	},
 
+	evolveFrom: {
+		en: "Swinub",
+		fr: "Marcacrin",
+		es: "Swinub",
+		'es-mx': "Swinub",
+		de: "Quiekel",
+		it: "Swinub",
+		pt: "Swinub",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 
