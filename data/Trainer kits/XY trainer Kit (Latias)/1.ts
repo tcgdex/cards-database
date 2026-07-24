@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grass Energy",
+		en: "Bagon",
 		fr: "Énergie Plante",
 		es: "Energía Planta",
 		it: "Energia Erba",
@@ -13,13 +13,48 @@ const card: Card = {
 		de: "Pflanzen-Energie"
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
-	category: "Energy",
+	category: "Pokemon",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 98318
-	}
+	hp: 40,
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Headbutt"
+			},
+			damage: 10
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				en: "Flare"
+			},
+			damage: 20
+		},
+	],
+	stage: "Basic",
+	types: [
+		"Colorless"
+	],
+	dexId: [371],
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83694
+			}
+		},
+	],
+
 }
 
 export default card

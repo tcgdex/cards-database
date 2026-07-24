@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grass Energy",
+		en: "Combusken",
 		fr: "Énergie Plante",
 		es: "Energía Planta",
 		it: "Energia Erba",
@@ -13,13 +13,57 @@ const card: Card = {
 		de: "Pflanzen-Energie"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
-	category: "Energy",
+	category: "Pokemon",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 98319
-	}
+	hp: 70,
+	weaknesses: [
+		{
+			type: "Water",
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				en: "Flare"
+			},
+			damage: 20
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Double Kick"
+			},
+			effect: {
+				en: "Flip 2 coins. This attack does 40 damage times the number of heads."
+			},
+			damage: "40x"
+		},
+	],
+	stage: "Stage1",
+	types: [
+		"Fire"
+	],
+	dexId: [256],
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84403
+			}
+		},
+	],
+
 }
 
 export default card

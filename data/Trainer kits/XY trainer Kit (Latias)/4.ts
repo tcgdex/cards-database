@@ -2,11 +2,11 @@ import { Card } from '../../../interfaces'
 import Set from '../XY trainer Kit (Latias)'
 
 const card: Card = {
-	dexId: [661],
+	dexId: [380],
 	set: Set,
 
 	name: {
-		en: "Fletchling",
+		en: "Latias",
 		fr: "Passerouge",
 		es: "Fletchling",
 		it: "Fletchling",
@@ -14,8 +14,8 @@ const card: Card = {
 		de: "Dartiri"
 	},
 
-	illustrator: "Kyoko Umemoto",
-	rarity: "None",
+	illustrator: "Nakaoka",
+	rarity: "Rare",
 	category: "Pokemon",
 
 	description: {
@@ -24,6 +24,11 @@ const card: Card = {
 
 	stage: "Basic",
 
+	weaknesses: [
+		{
+			type: "Psychic",
+		},
+	],
 	attacks: [{
 		name: {
 			en: "Peck",
@@ -45,23 +50,26 @@ const card: Card = {
 		}
 	}],
 
-	hp: 50,
-	types: ["Colorless"],
+	hp: 70,
+	types: [
+		"Colorless"
+	],
 	retreat: 1,
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
 
 	resistances: [{
 		type: "Fighting",
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 98329
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86650
+			}
+		},
+	],
+
 }
 
 export default card

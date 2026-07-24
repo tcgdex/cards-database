@@ -2,11 +2,11 @@ import { Card } from '../../../interfaces'
 import Set from '../XY trainer Kit (Latias)'
 
 const card: Card = {
-	dexId: [271],
+	dexId: [300],
 	set: Set,
 
 	name: {
-		en: "Lombre",
+		en: "Skitty",
 		fr: "Lombre",
 		es: "Lombre",
 		it: "Lombre",
@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Lombrero"
 	},
 
-	rarity: "Uncommon",
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
 	category: "Pokemon",
-	hp: 80,
-	types: ["Grass"],
+	hp: 50,
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Lotad",
@@ -28,17 +31,52 @@ const card: Card = {
 		de: "Loturzel"
 	},
 
-	stage: "Stage1",
-	retreat: 2,
+	weaknesses: [
+		{
+			type: "Fighting",
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Tackle"
+			},
+			damage: 10
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Lunge"
+			},
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing."
+			},
+			damage: 30
+		},
+	],
+	stage: "Basic",
+	retreat: 1,
 
 	weaknesses: [{
 		type: "Fire",
-		value: "×2"
+		value: "x2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 98330
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89263
+			}
+		},
+	],
+
 }
 
 export default card

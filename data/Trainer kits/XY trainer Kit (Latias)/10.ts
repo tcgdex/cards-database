@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psychic Energy",
+		en: "Fire Energy",
 		fr: "Énergie Psy",
 		es: "Energía Psíquica",
 		it: "Energia Psico",
@@ -17,9 +17,18 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 98325
-	}
+	types: [
+		"Fire"
+	],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85457
+			}
+		},
+	],
+
 }
 
 export default card

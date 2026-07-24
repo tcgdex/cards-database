@@ -2,11 +2,11 @@ import { Card } from '../../../interfaces'
 import Set from '../XY trainer Kit (Latias)'
 
 const card: Card = {
-	dexId: [252],
+	dexId: [255],
 	set: Set,
 
 	name: {
-		en: "Treecko",
+		en: "Torchic",
 		fr: "Arcko",
 		es: "Treecko",
 		it: "Treecko",
@@ -14,21 +14,45 @@ const card: Card = {
 		de: "Geckarbor"
 	},
 
+	illustrator: "Hironobu Yoshida",
 	rarity: "Common",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Grass"],
+	hp: 50,
+	types: [
+		"Fire"
+	],
+	weaknesses: [
+		{
+			type: "Water",
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				en: "Firebreathing"
+			},
+			effect: {
+				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage."
+			},
+			damage: "20+"
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89954
+			}
+		},
+	],
 
-	thirdParty: {
-		tcgplayer: 98331
-	}
 }
 
 export default card

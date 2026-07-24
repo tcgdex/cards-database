@@ -5,7 +5,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psychic Energy",
+		en: "Potion",
 		fr: "Énergie Psy",
 		es: "Energía Psíquica",
 		it: "Energia Psico",
@@ -13,13 +13,24 @@ const card: Card = {
 		de: "Psycho-Energie"
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
-	category: "Energy",
+	category: "Trainer",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 98323
-	}
+	effect: {
+		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
+	},
+	trainerType: "Item",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88335
+			}
+		},
+	],
+
 }
 
 export default card
