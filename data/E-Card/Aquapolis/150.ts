@@ -30,10 +30,14 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Crystal Type"
+				en: "Crystal Type",
+				fr: "Type de cristal",
+				de: "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn."
+				en: "Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn.",
+				fr: "À chaque fois que vous attachez une carte Énergie de base , ou  de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
+				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Nidoking anlegst, ändert sich Nidokings Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			}
 		},
 	],
@@ -88,21 +92,6 @@ const card: Card = {
 		},
 	],
 	retreat: 3,
-
-
-	abilities: [{
-		name: {
-			fr: "Type de cristal",
-			de: "Kristall-Typ"
-		},
-
-		effect: {
-			fr: "À chaque fois que vous attachez une carte Énergie de base , ou  de votre main à Nidoking, le type de Nidoking (sa couleur) devient identique au type de carte Énergie jusqu'à la fin du tour.",
-			de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Nidoking anlegst, ändert sich Nidokings Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
-		},
-
-		type: "Poke-BODY"
-	}],
 
 	variants: [
 		{
