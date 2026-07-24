@@ -1,0 +1,68 @@
+name: Publish Cardfolio catalog artifact
+
+on:
+  schedule:
+    - cron: "12 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cardfolio-catalog-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge current upstream default branch
+        run: |
+          git remote add upstream https://github.com/tcgdex/cards-database.git
+          git fetch upstream master
+          git merge --no-edit upstream/master
+          git push origin HEAD:master
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.2.22"
+
+      - name: Compile TCGdex
+        run: |
+          bun install --frozen-lockfile
+          cd server
+          bun install --frozen-lockfile
+          bun run compile
+
+      - name: Build validated artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download latest --pattern manifest.json --dir previous-catalog 2>/dev/null || true
+          if [ -f previous-catalog/manifest.json ]; then
+            TCGDEX_SOURCE_SHA="$(git rev-parse HEAD)" node .cardfolio/build-tcgdex-artifacts.mjs server/generated catalog-artifacts previous-catalog/manifest.json
+          else
+            TCGDEX_SOURCE_SHA="$(git rev-parse HEAD)" node .cardfolio/build-tcgdex-artifacts.mjs server/generated catalog-artifacts
+          fi
+
+      - name: Publish immutable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          short_sha="$(git rev-parse --short=12 HEAD)"
+          tag="catalog-${short_sha}"
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "Cardfolio catalog ${short_sha}" --notes "Validated TCGdex catalog from $(git rev-parse HEAD)"
+          gh release upload "$tag" catalog-artifacts/*.gz catalog-artifacts/manifest.json --clobber
+
+      - name: Move latest catalog tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create latest catalog-artifacts/*.gz catalog-artifacts/manifest.json --title "Latest validated Cardfolio catalog" --notes "Automatically promoted after validation."
+
