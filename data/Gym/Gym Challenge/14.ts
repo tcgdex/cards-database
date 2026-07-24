@@ -3,22 +3,20 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Mewtwo",
+		en: "Rocket's Mewtwo"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		150,
-	],
+	dexId: [150],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Juxtapose",
+				en: "Juxtapose"
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch the number of damage counters on Rocket's Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It's okay if 1 of the Pokémon has no damage counters on it.)",
+				en: "Flip a coin. If heads, switch the number of damage counters on Rocket's Mewtwo with the number of damage counters on the Defending Pokémon (even if it would Knock Out either Pokémon). (It's okay if 1 of the Pokémon has no damage counters on it.)"
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnoblast",
+				en: "Hypnoblast"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 
@@ -58,7 +56,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyburn",
+				en: "Psyburn"
 			},
 
 			damage: 60,
@@ -69,31 +67,36 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274282,
-		tcgplayer: 88777
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88777,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88777,
+				cardmarket: 274282
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["winner"],
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 211507
+			}
 		}
-	]
+	],
 }
 
 export default card

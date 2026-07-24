@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gastly",
+		en: "Sabrina's Gastly"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		92,
-	],
+	dexId: [92],
 
 	hp: 40,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Gaseous Form",
+				en: "Gaseous Form"
 			},
 			effect: {
-				en: "Sabrina's Gastly gets +10 HP for each Psychic Energy card attached to it. This power works even if Sabrina's Gastly is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Sabrina's Gastly gets +10 HP for each Psychic Energy card attached to it. This power works even if Sabrina's Gastly is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -42,7 +40,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Suffocating Gas",
+				en: "Suffocating Gas"
 			},
 
 			damage: 30,
@@ -59,20 +57,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274288,
-		tcgplayer: 88872
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88872,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88872,
+				cardmarket: 274288
+			}
 		},
-	]
+	],
 }
 
 export default card
