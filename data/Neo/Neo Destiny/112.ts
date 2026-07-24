@@ -71,18 +71,22 @@ const card: Card = {
 		fr: "Si un Onix vit au moins 100 ans, sa peau durcit et devient peu à peu plus dure que le diamant."
 	},
 
-	thirdParty: {
-		cardmarket: 274764,
-		tcgplayer: 89170
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274764,
+				tcgplayer: 89170
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274764,
+				tcgplayer: 89170
+			}
 		}
 	]
 }

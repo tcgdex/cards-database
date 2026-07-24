@@ -72,14 +72,14 @@ const card: Card = {
 		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
 	},
 
-	thirdParty: {
-		cardmarket: 273977,
-		tcgplayer: 42517
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273977,
+				tcgplayer: 42517
+			}
 		}
 	]
 }

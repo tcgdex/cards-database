@@ -69,14 +69,14 @@ const card: Card = {
 		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 	},
 
-	thirdParty: {
-		cardmarket: 273986,
-		tcgplayer: 42526
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273986,
+				tcgplayer: 42526
+			}
 		},
 		{
 			type: "normal",

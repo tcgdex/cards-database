@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 274043,
-		tcgplayer: 42562
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274043,
+				tcgplayer: 42562
+			}
 		}
 	]
 }

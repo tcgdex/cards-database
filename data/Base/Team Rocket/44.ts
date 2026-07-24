@@ -77,18 +77,22 @@ const card: Card = {
 		fr: "C'est un Pokémon sauvage et indomptable. Lorsqu'il galope, on dirait une comète traversant les cieux."
 	},
 
-	thirdParty: {
-		cardmarket: 274097,
-		tcgplayer: 84648
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274097,
+				tcgplayer: 84648
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274097,
+				tcgplayer: 84648
+			}
 		}
 	]
 }

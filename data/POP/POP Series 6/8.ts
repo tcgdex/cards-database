@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		447,
-	],
+	dexId: [447],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -48,24 +46,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88752,
+				cardmarket: 277893
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88752,
+				cardmarket: 277893
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277893,
-		tcgplayer: 88752
-	}
 }
 
 export default card

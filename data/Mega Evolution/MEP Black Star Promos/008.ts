@@ -13,6 +13,15 @@ const card: Card = {
 		pt: "Golduck"
 	},
 
+	evolveFrom: {
+		en: "Psyduck",
+		fr: "Psykokwak",
+		de: "Enton",
+		it: "Psyduck",
+		es: "Psyduck",
+		pt: "Psyduck",
+	},
+
 	illustrator: "Jiro Sasumo",
 	rarity: "Promo",
 	category: "Pokemon",

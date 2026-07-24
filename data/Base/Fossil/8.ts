@@ -82,20 +82,24 @@ const card: Card = {
 		fr: "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion."
 	},
 
-	thirdParty: {
-		cardmarket: 273869,
-		tcgplayer: 106524
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273869,
+				tcgplayer: 106524
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273869,
+				tcgplayer: 106524
+			}
 		},
 	]
 }

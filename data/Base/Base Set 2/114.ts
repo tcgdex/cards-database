@@ -15,13 +15,13 @@ const card: Card = {
 		en: "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 274037
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274037
+			}
 		}
 	]
 }

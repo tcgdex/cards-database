@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		475,
-	],
+	dexId: [475],
 
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -70,24 +68,29 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	description: {
 		en: "A master of courtesy and swordsmanship, it fights using extending swords on it elbows."
 	},
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85605,
+				cardmarket: 278034
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85605,
+				cardmarket: 278034
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278034,
-		tcgplayer: 85605
-	}
 }
 
 export default card

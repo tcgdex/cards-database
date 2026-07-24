@@ -1,70 +1,74 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV2a"
+import { Card } from "../../../interfaces";
+import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
 		ja: "ルージュラex",
 		'zh-tw': "迷唇姐ex",
 		th: "รูจูลาex",
-		id: "Jynx ex"
+		id: "Jynx ex",
 	},
 
 	illustrator: "Ayaka Yoshida",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Water"],
+
 	stage: "Basic",
-	suffix: "EX",
 
-	attacks: [{
-		cost: ["Water", "Colorless", "Colorless"],
-
-		name: {
-			ja: "ズッキュンキッス",
-			'zh-tw': "動心之吻",
-			th: "จุ๊บโดนใจ",
-			id: "Ciuman Meluluhkan"
+	attacks: [
+		{
+			name: {
+				ja: "ズッキュンキッス",
+				'zh-tw': "動心之吻",
+				th: "จุ๊บโดนใจ",
+				id: "Ciuman Meluluhkan",
+			},
+			cost: ["Water", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンがねむりなら、そのポケモンをきぜつさせる。",
+				'zh-tw': "若對手的戰鬥寶可夢【睡眠】，則將那隻寶可夢【昏厥】。",
+				th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ] จะทำให้โปเกมอนนั้น[หมดสภาพ]",
+				id: "Jika Pokémon Bertarung lawan mengalami kondisi Tidur, Pokémon tersebut KO.",
+			},
 		},
-
-		effect: {
-			ja: "相手のバトルポケモンがねむりなら、そのポケモンをきぜつさせる。",
-			'zh-tw': "若對手的戰鬥寶可夢【睡眠】，則將那隻寶可夢【昏厥】。",
-			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ] จะทำให้โปเกมอนนั้น[หมดสภาพ]",
-			id: "Jika Pokémon Bertarung lawan mengalami kondisi Tidur, Pokémon tersebut KO."
-		}
-	}, {
-		cost: ["Water", "Water", "Water"],
-
-		name: {
-			ja: "こごえるかぜ",
-			'zh-tw': "冰凍之風",
-			th: "สายลมเยือกแข็ง",
-			id: "Angin Dingin"
+		{
+			name: {
+				ja: "こごえるかぜ",
+				'zh-tw': "冰凍之風",
+				th: "สายลมเยือกแข็ง",
+				id: "Angin Dingin",
+			},
+			damage: 120,
+			cost: ["Water", "Water", "Water"],
+			effect: {
+				ja: "相手のバトルポケモンをねむりにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+				th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
+				id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
+			},
 		},
+	],
 
-		damage: 120,
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
 
-		effect: {
-			ja: "相手のバトルポケモンをねむりにする。",
-			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
-			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
-			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
-		}
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 719646,
+			},
+		},
+	],
 
 	retreat: 2,
 	regulationMark: "G",
+	rarity: "Ultra Rare",
+	dexId: [124],
 
-	thirdParty: {
-		cardmarket: 719577
-	}
-}
+	suffix: "EX",
+};
 
-export default card
+export default card;

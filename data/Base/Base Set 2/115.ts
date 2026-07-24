@@ -15,13 +15,13 @@ const card: Card = {
 		en: "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
 	},
 
-	thirdParty: {
-		cardmarket: 274038
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274038
+			}
 		}
 	]
 }

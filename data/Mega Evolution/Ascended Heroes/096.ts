@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Trevenant do Lupo"
 	},
 
+	evolveFrom: {
+		en: "Hop's Phantump",
+		fr: "Brocélôme de Nabil",
+		es: "Phantump de Paul",
+		'es-mx': "Phantump de Paul",
+		de: "Hops Paragoni",
+		it: "Phantump di Hop",
+		pt: "Phantump do Lupo",
+	},
+
 	illustrator: "matazo",
 	rarity: "Rare",
 	category: "Pokemon",

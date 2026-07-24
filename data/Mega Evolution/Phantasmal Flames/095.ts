@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Ludicolo"
 	},
 
+	evolveFrom: {
+		en: "Lombre",
+		fr: "Lombre",
+		es: "Lombre",
+		'es-mx': "Lombre",
+		de: "Lombrero",
+		it: "Lombre",
+		pt: "Lombre",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 

@@ -53,14 +53,14 @@ const card: Card = {
 		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
 	},
 
-	thirdParty: {
-		cardmarket: 274022,
-		tcgplayer: 42550
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274022,
+				tcgplayer: 42550
+			}
 		}
 	]
 }

@@ -88,18 +88,22 @@ const card: Card = {
 		fr: "Il serre précautionneusement son œuf pour ne pas le casser quand il bouge. Cependant, il reste assez rapide pour disparaître en un clin d'œil."
 	},
 
-	thirdParty: {
-		cardmarket: 274683,
-		tcgplayer: 84170
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274683,
+				tcgplayer: 84170
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274683,
+				tcgplayer: 84170
+			}
 		}
 	]
 }

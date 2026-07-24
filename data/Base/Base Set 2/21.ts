@@ -77,14 +77,14 @@ const card: Card = {
 		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
 	},
 
-	thirdParty: {
-		cardmarket: 273944,
-		tcgplayer: 42466
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273944,
+				tcgplayer: 42466
+			}
 		}
 	]
 }

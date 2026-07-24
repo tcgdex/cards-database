@@ -69,14 +69,14 @@ const card: Card = {
 		en: "If interrupted while miming, it will slap around the enemy with its broad hands.",
 	},
 
-	thirdParty: {
-		cardmarket: 273950,
-		tcgplayer: 42499
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273950,
+				tcgplayer: 42499
+			}
 		}
 	]
 }

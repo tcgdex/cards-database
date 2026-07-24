@@ -48,14 +48,14 @@ const card: Card = {
 	description: {
 		en: "This Pokémon's body is covered by fine hairs that can be seen only under a microscope.",
 	},
-	thirdParty: {
-		cardmarket: 275631,
-		tcgplayer: 46466
-	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275631,
+				tcgplayer: 46466
+			}
 		}
 	]
 }

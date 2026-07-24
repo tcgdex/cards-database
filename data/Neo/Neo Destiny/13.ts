@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Il replie ses longues oreilles quand il nage pour éviter que l'eau y entre."
 	},
 
-	thirdParty: {
-		cardmarket: 274665,
-		tcgplayer: 86735
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274665,
+				tcgplayer: 86735
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274665,
+				tcgplayer: 86735
+			}
 		}
 	]
 }

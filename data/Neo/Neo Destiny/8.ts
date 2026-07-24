@@ -89,18 +89,22 @@ const card: Card = {
 		fr: "Les progrès de la technologie lui ont permis d'évoluer. Parfois, il affiche un comportement qui n'a pas été inclus dans sa programmation."
 	},
 
-	thirdParty: {
-		cardmarket: 274660,
-		tcgplayer: 84640
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274660,
+				tcgplayer: 84640
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274660,
+				tcgplayer: 84640
+			}
 		}
 	]
 }

@@ -71,14 +71,14 @@ const card: Card = {
 		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 	},
 
-	thirdParty: {
-		cardmarket: 273958,
-		tcgplayer: 42474
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273958,
+				tcgplayer: 42474
+			}
 		}
 	]
 }

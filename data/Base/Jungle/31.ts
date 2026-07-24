@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
 	},
 
-	thirdParty: {
-		cardmarket: 273812,
-		tcgplayer: 106993
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273812,
+				tcgplayer: 106993
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273812,
+				tcgplayer: 106993
+			}
 		}
 	],
 }

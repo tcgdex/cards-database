@@ -69,14 +69,14 @@ const card: Card = {
 		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
 	},
 
-	thirdParty: {
-		cardmarket: 273955,
-		tcgplayer: 42504
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273955,
+				tcgplayer: 42504
+			}
 		}
 	]
 }

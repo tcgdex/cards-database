@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		249,
-	],
+	dexId: [249],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -55,29 +53,35 @@ const card: Card = {
 				fr: "Avant d'infliger des dégâts, vous pouvez lancer une pièce. Si c'est face, cette attaque inflige 60 dégâts. Si c'est pile, cette attaque ne fait rien."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+	
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86907,
+				cardmarket: 277484
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86907,
+				cardmarket: 277484
+			},
 		},
 	],
 
-	retreat: 2,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277484,
-		tcgplayer: 86907
-	}
 }
 
 export default card

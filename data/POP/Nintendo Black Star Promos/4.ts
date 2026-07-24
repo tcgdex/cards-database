@@ -72,9 +72,21 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: 'normal',
+			size: 'standard',
+			stamp: ['winner'],
+			thirdParty: {
+				tcgplayer: 85934
+			}
+		},
+		{
+			type: 'normal',
+			size: 'jumbo',
+			stamp: ['winner']
+		}
+	]
 }
 
 export default card

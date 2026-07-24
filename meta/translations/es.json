@@ -205,6 +205,8 @@
 		"semi-finalist": "semi-finalist",
 		"top-sixteen": "top-sixteen",
 		"top-thirty-two": "top-thirty-two",
+		"worlds-2004": "worlds-2004",
+		"worlds-2005": "worlds-2005",
 		"worlds-2008": "worlds-2008",
 		"worlds-2009": "worlds-2009",
 		"countdown-calendar": "countdown-calendar",
@@ -229,6 +231,7 @@
 		"gamestop": "GameStop",
 		"eb-games": "EB Games",
 		"horizons": "horizons",
+		"illustration-contest-2022": "illustration-contest-2022",
 		"illustration-contest-2024": "illustration-contest-2024",
 		"worlds-2025": "worlds-2025",
 		"top-eight": "top-eight",
@@ -260,7 +263,8 @@
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "estrella gris",
 		"scrye": "scrye",
-		"inquest-gamer": "inquest-gamer"
+		"inquest-gamer": "inquest-gamer",
+		"pop-tournament": "pop-tournament"
 	},
 	"variantSubtype": {
 		"shadowless": "sin sombra",

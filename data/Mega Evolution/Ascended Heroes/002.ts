@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Gloom da Érica"
 	},
 
+	evolveFrom: {
+		en: "Erika's Oddish",
+		fr: "Mystherbe d'Erika",
+		es: "Oddish de Erika",
+		'es-mx': "Oddish de Erika",
+		de: "Erikas Myrapla",
+		it: "Oddish di Erika",
+		pt: "Oddish da Érica",
+	},
+
 	illustrator: "MARINA Chikazawa",
 	rarity: "Uncommon",
 	category: "Pokemon",

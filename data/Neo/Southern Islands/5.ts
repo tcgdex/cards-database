@@ -66,14 +66,14 @@ const card: Card = {
 	description: {
 		en: "A sure sign spring is on its way is when the seed on this Pokémon's back flowers.",
 	},
-	thirdParty: {
-		cardmarket: 275635,
-		tcgplayer: 46479
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275635,
+				tcgplayer: 46479
+			}
 		}
 	]
 }

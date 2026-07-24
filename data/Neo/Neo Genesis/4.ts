@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Lorsqu'il mord avec ses puissantes mâchoires, il secoue la tête et déchire sauvagement ses victimes en morceaux."
 	},
 
-	thirdParty: {
-		cardmarket: 274404,
-		tcgplayer: 85412
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274404,
+				tcgplayer: 85412
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274404,
+				tcgplayer: 85412
+			}
 		}
 	]
 }

@@ -84,18 +84,22 @@ const card: Card = {
 		fr: "En analysant les courants aériens, il peut prédire le temps ou la prochaine action de son ennemi."
 	},
 
-	thirdParty: {
-		cardmarket: 274512,
-		tcgplayer: 85320
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274512,
+				tcgplayer: 85320
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274512,
+				tcgplayer: 85320
+			}
 		}
 	]
 }

@@ -75,14 +75,14 @@ const card: Card = {
 		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
 	},
 
-	thirdParty: {
-		cardmarket: 273937,
-		tcgplayer: 42458
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273937,
+				tcgplayer: 42458
+			}
 		}
 	]
 }

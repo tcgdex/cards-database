@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "On dit que chacune de ses neuf queues renferme un pouvoir magique différent."
 	},
 
-	thirdParty: {
-		cardmarket: 274702,
-		tcgplayer: 86746
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274702,
+				tcgplayer: 86746
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274702,
+				tcgplayer: 86746
+			}
 		}
 	]
 }

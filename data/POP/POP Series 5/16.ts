@@ -3,23 +3,21 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Espeon ☆",
+		en: "Espeon ★",
 		fr: "Mentali ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Ultra Rare",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "« Rayon violet »"
 			},
 			effect: {
-				en: "Once during your turn, when you put Espeon ☆ from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent’s) is now Confused.",
+				en: "Once during your turn, when you put Espeon Star from your hand onto your Bench, you may use this power. Each Active Pokémon (both yours and your opponent's) is now Confused.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Mentali ☆ de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Chaque Pokémon Actif (les vôtres et ceux de votre adversaire) est maintenant Confus."
 			},
 		},
@@ -60,18 +58,21 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85329,
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	}
 }
 
 export default card

@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Attach Berry to 1 of your Pokémon that doesn´t have a Pokémon Tool attached to it. At any time between turns, if there are at least 2 damage counters on the Pokémon Berry is attached to, you may remove 2 of them and discard Berry. At the start of each turn, if there at least 2 damage counters on the Pokémon Berry is attached to, remove 2 of them and discard Berry."
 	},
 
-	thirdParty: {
-		cardmarket: 274499,
-		tcgplayer: 83812
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274499,
+				tcgplayer: 83812
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274499,
+				tcgplayer: 83812
+			}
 		}
 	]
 }

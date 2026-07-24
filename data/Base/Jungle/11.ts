@@ -89,18 +89,22 @@ const card: Card = {
 		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant."
 	},
 
-	thirdParty: {
-		cardmarket: 273808,
-		tcgplayer: 45122
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273808,
+				tcgplayer: 45122
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273808,
+				tcgplayer: 45122
+			}
 		},
 		{
 			type: "holo",

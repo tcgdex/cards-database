@@ -75,20 +75,24 @@ const card: Card = {
 		fr: "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy."
 	},
 
-	thirdParty: {
-		cardmarket: 273914,
-		tcgplayer: 44455
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273914,
+				tcgplayer: 44455
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273914,
+				tcgplayer: 44455
+			}
 		},
 		{
 			type: "normal",

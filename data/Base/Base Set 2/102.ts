@@ -15,13 +15,13 @@ const card: Card = {
 		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 274025
-	},
 	
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274025
+			}
 		}
 	]
 }

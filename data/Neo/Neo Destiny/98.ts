@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Choose an Energy card in your hand, show it to your opponent, and shuffle it into your deck. Then flip a coin. If heads, search your deck for up to 3 basic Energy cards. Show them to your opponent, and put them into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 274750,
-		tcgplayer: 85208
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274750,
+				tcgplayer: 85208
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274750,
+				tcgplayer: 85208
+			}
 		}
 	]
 }

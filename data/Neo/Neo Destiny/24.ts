@@ -87,18 +87,22 @@ const card: Card = {
 		fr: "Le nombre de taches sur son dos augmente ou diminue en fonction du nombre d'étoiles visibles dans le ciel nocturne."
 	},
 
-	thirdParty: {
-		cardmarket: 274676,
-		tcgplayer: 86743
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274676,
+				tcgplayer: 86743
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274676,
+				tcgplayer: 86743
+			}
 		}
 	]
 }
