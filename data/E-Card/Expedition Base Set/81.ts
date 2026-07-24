@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee",
+		en: "Hitmonchan",
 		fr: "Kicklee",
 		de: "Kicklee"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Uncommon",
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		106,
-	],
+	dexId: [107],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
+				en: "Rush",
 				fr: "Coud'pattes",
 				de: "Smash Kick"
 			},
 
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -46,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stretch Kick",
+				en: "Smash Punch",
 				fr: "Allonge",
 				de: "Stretch Kick"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, chose 1 of them and this attack does 30 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 30 dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 30 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			}
@@ -62,25 +60,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274956,
-		tcgplayer: 86104
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86104,
+				cardmarket: 274956
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

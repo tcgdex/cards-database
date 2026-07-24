@@ -3,14 +3,18 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Poliwag",
+		en: "Healing Berry",
 		fr: "Ptitard",
 		de: "Quapsel"
 	},
 
-	illustrator: "Yuka Morii",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: "Shin-ichi Yoshikawa",
+	rarity: "Uncommon",
+	category: "Trainer",
+	effect: {
+		en: "Attach Healing Berry to 1 of your Pokémon that doesn't already have a Pokémon Tool card attached to it. If that Pokémon is Knocked Out, discard this card. At the end of any turn, if the Pokémon this card is attached to has 20 HP or less, remove 3 damage counters from that Pokémon and discard this card.",
+	},
+	trainerType: "Tool",
 	set: Set,
 
 	dexId: [
@@ -64,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275000,
-		tcgplayer: 88256
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88256,
+				cardmarket: 275000
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

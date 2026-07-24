@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
+		en: "Doduo",
 		fr: "Reptincel",
 		de: "Glutexo"
 	},
 
-	illustrator: "Tomokazu Komiya",
-	rarity: "Uncommon",
+	illustrator: "Yukiko Baba",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		5,
-	],
+	dexId: [84],
 
-	hp: 80,
+	hp: 40,
 
 	types: [
-		"Fire",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Salamèche"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -37,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Scratch",
+				en: "Super Speed",
 				fr: "Double griffe",
 				de: "Doppelkratzer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Doduo.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
@@ -56,7 +54,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				en: "Rear Kick",
 				fr: "Lance-flammes",
 				de: "Flammenwurf"
 			},
@@ -65,33 +63,38 @@ const card: Card = {
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Reptincel.",
 				de: "Lege 1 an Glutexo angelegte -Energiekarte auf deinen Ablagestapel."
 			},
-			damage: 50,
+			damage: 20,
 
 		},
 	],
 
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274948,
-		tcgplayer: 84224
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84224,
+				cardmarket: 274948
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

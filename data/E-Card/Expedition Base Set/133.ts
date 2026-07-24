@@ -3,14 +3,15 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tauros",
+		en: "Seer",
 		fr: "Tauros",
 		de: "Tauros"
 	},
 
-	illustrator: "Yuichi Sawayama",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	dexId: [
@@ -39,7 +40,7 @@ const card: Card = {
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Look at the top 6 cards of your deck. Take all Basic Energy cards you find there, show them to your opponent, and then put them into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
@@ -75,19 +76,18 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275008,
-		tcgplayer: 89760
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89760,
+				cardmarket: 275008
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

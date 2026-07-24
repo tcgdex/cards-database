@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
+		en: "Smoochum",
 		fr: "Raichu",
 		de: "Raichu"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [238],
 
-	hp: 80,
+	hp: 30,
 
 	types: [
-		"Lightning",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Pikachu"
 	},
 
-	stage: "Stage1",
+	stage: "Baby",
 
 	attacks: [
 		{
@@ -36,16 +34,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Plasma",
+				en: "Energy Kiss",
 				fr: "Plasma",
 				de: "Plasma"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, flip a coin. If heads, attach one of them to Raichu.",
+				en: "Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads.",
 				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Raichu.",
 				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei 'Kopf' 1 davon an Raichu an."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -78,19 +76,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274900,
-		tcgplayer: 88505
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88505,
+				cardmarket: 274900
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

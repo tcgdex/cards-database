@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
+		en: "Aipom",
 		fr: "Florizarre",
 		de: "Bisaflor"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [190],
 
-	hp: 100,
+	hp: 50,
 
 	types: [
-		"Grass",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Herbizarre"
 	},
 
-	stage: "Stage2",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -36,12 +34,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
+				en: "Stretch Tail",
 				fr: "Vampigraine",
 				de: "Egelsamen"
 			},
 			effect: {
-				en: "If this attack damages the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Venusaur, is it has any.",
+				en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégâts de Florizarre, s'il en possède.",
 				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne eine Schadensmarke von Bisaflor, falls es mindestens eine hat."
 			},
@@ -55,42 +53,41 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Swipes",
+				en: "Skedaddle",
 				fr: "Attaques furieuses",
 				de: "Zornschläge"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				en: "Return Aipom and all basic Energy cards attached to it to your hand. If you have no Benched Pokémon, this attack does nothing.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "30x",
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274905,
-		tcgplayer: 90315
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90315,
+				cardmarket: 274905
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

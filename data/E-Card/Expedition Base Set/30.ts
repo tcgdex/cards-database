@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
+		en: "Quagsire",
 		fr: "Florizarre",
 		de: "Bisaflor"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [195],
 
-	hp: 100,
+	hp: 80,
 
 	types: [
-		"Grass",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Herbizarre"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -55,42 +53,41 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
+				en: "Water Gun",
 				fr: "Plaquage",
 				de: "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "This attack does 20 damage plus 10 more damage for each Water Energy attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 40,
+			damage: "20+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Grass",
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274905,
-		tcgplayer: 90314
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90314,
+				cardmarket: 274905
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

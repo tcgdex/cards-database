@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pokémon Reversal",
+		en: "Crystal Energy",
 		fr: "Inversion de Pokémon",
 		de: "Pokémon-Umkehrung"
 	},
 
 	illustrator: undefined,
 	rarity: "Uncommon",
-	category: "Trainer",
+	category: "Energy",
 	set: Set,
 
 	effect: {
@@ -19,18 +19,17 @@ const card: Card = {
 		de: "Wähle eines der Pokémon auf der Bank deines Gegners. Wirf eine Münze. Tausche bei 'Kopf' dieses Pokémon mit dem Verteidigenden Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 275021
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275021
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
+		en: "Zapdos",
 		fr: "Triopikeur",
 		de: "Digdri"
 	},
 
-	illustrator: "Masako Yamashita",
+	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [145],
 
-	hp: 70,
+	hp: 80,
 
 	types: [
-		"Fighting",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,18 @@ const card: Card = {
 		fr: "Taupiqueur"
 	},
 
-	stage: "Stage1",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Anti-Lightning",
+			},
+			effect: {
+				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
+			},
+		},
+	],,
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -36,12 +45,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
+				en: "Plasma",
 				fr: "Coud'boue",
 				de: "Mud Slap"
 			},
 
-			damage: 20,
+			damage: 10,
 
 		},
 		{
@@ -51,49 +60,47 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnitude",
+				en: "Lightning Storm",
 				fr: "Ampleur",
 				de: "Magnitude"
 			},
 			effect: {
-				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)",
+				en: "Flip a coin. If tails, put 2 damage counters on Zapdos.",
 				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
-			damage: 40,
+			damage: 60,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
-			type: "Lightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274885,
-		tcgplayer: 84998
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84998,
+				cardmarket: 274885
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

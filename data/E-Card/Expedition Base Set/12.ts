@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
+		en: "Exeggutor",
 		fr: "Aligatueur",
 		de: "Impergator"
 	},
 
-	illustrator: "Mitsuhiro Arita",
+	illustrator: "Yukiko Baba",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		160,
-	],
+	dexId: [103],
 
-	hp: 120,
+	hp: 80,
 
 	types: [
-		"Water",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Crocrodil"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -56,43 +54,42 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Rending Jaws",
+				en: "Super Eggsplosion",
 				fr: "Coud'mâchoire",
 				de: "Rending Jaws"
 			},
 
 			effect: {
-				en: "If there are no damage counters on the Defending Pokémon, this attack's base damage is 40 instead of 70.",
+				en: "Discard any number of Energy cards attached to any of your Pokémon. Flip a number of coins equal to the number of Energy cards discarded this way. This attack does 40 damage times the number of heads.",
 				fr: "S'il n'y a aucun marqueur de dégâts sur le Pokémon Défenseur, cette attaque inflige 40 dégâts de base au lieu de 70.",
 				de: "If there are now damage counters on the Defending Pokémon, this attack's base damage is 40 instead of 70."
 			},
 
-			damage: 70
+			damage: "40×",
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-	retreat: 3,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274887,
-		tcgplayer: 85414
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85414,
+				cardmarket: 274887
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

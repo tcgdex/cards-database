@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Qwilfish",
+		en: "Lightning Cube 01",
 		fr: "Qwilfish",
 		de: "Baldorfish"
 	},
 
-	illustrator: "Toshinao Aoki",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: ""Big Mama" Tagawa",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	dexId: [
@@ -32,16 +32,16 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Stun Needle",
+				en: "Discharge",
 				fr: "Dard etourdissant",
 				de: "Betäubungsnadel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Attach this card to 1 of your Lightning Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Lightning Cube 01.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 20,
+			damage: "40×",
 
 		},
 	],
@@ -55,19 +55,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275002,
-		tcgplayer: 88491
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88491,
+				cardmarket: 275002
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

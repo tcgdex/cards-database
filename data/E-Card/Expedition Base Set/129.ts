@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Shellder",
+		en: "Metal Cube 01",
 		fr: "Kokiyas",
 		de: "Muschas"
 	},
 
-	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: ""Big Mama" Tagawa",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	dexId: [
@@ -31,7 +31,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Irongrip",
+				en: "Metal Reversal",
 				fr: "Poigne de fer",
 				de: "Eisener Griff"
 			},
@@ -50,7 +50,7 @@ const card: Card = {
 				de: "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Attach this card to 1 of your Metal Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Metal Cube 01.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -68,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275004,
-		tcgplayer: 89136
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89136,
+				cardmarket: 275004
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

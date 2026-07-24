@@ -3,14 +3,68 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Strength Charm",
+		en: "Nidoking",
 		fr: "Fétiche de force",
 		de: "Stärkeamulett"
 	},
 
-	illustrator: "Keiji Kinebuchi",
+	illustrator: "Hironobu Yoshida",
 	rarity: "Uncommon",
-	category: "Trainer",
+	category: "Pokemon",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Crystal Type",
+			},
+			effect: {
+				en: "Whenever you attach a Grass, Lightning, or Fire basic Energy card from your hand to Nidoking, Nidoking's type (color) becomes the same as that Energy card type until the end of the turn.",
+			},
+		},
+	],,
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],,
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				en: "Poison Horn",
+			},
+			effect: {
+				en: "The Defending Pokémon is now Poisoned.",
+			},
+			damage: 20,
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				en: "Rolling Thunder",
+			},
+			effect: {
+				en: "Flip a coin, If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness or Resistance for Benched Pokémon.)",
+			},
+			damage: 50,
+		},
+	],,
+	stage: "Stage2",
+	types: [
+		"Colorless"
+	],
+	hp: 100,
+	dexId: [34],
 	set: Set,
 
 	effect: {
@@ -19,19 +73,19 @@ const card: Card = {
 		de: "Falls das Pokémon, an das das Stärke-Amulett angelegt ist, mit einem Angriff Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), fügt der Angriff 10 weitere Schadenspunkte zu. Lege am Ende des Zuges, in dem dies geschieht, das Stärke-Amulett auf den Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275025,
-		tcgplayer: 89577
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89577,
+				cardmarket: 275025
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
+	retreat: 3,
 }
 
 export default card

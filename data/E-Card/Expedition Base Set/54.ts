@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
+		en: "Marowak",
 		fr: "Meganium",
 		de: "Meganie"
 	},
 
-	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		154,
-	],
+	dexId: [105],
 
-	hp: 100,
+	hp: 70,
 
 	types: [
-		"Grass",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Macronium"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -55,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poisonpowder",
+				en: "Triple Bone",
 				fr: "Poudre toxik",
 				de: "Giftpuder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				en: "Choose 1 of your opponent's Benched Pokémon. Flip 3 coins. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
@@ -71,33 +69,31 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Grass",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
-			type: "Water",
+			type: "Lightning",
 			value: "-30"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274893,
-		tcgplayer: 87290
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87290,
+				cardmarket: 274893
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

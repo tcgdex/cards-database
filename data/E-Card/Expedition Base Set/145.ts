@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pokémon Nurse",
+		en: "Boost Energy",
 		fr: "Infirmière Pokémon",
 		de: "Pokémon-Krankenschwester"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",
-	category: "Trainer",
+	category: "Energy",
 	set: Set,
 
 	effect: {
@@ -19,22 +19,24 @@ const card: Card = {
 		de: "Entferne alle Schadensmarken von einem deiner Pokémon. Lege dann alle an es angelegten Energiekarten auf deinen Ablagestapel.",
 	},
 
-	thirdParty: {
-		cardmarket: 275020
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275020
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275020
+			},
 		},
 		{
 			type: "normal",
 			stamp: ["chris-fulop"]
 		}
-	]
+	],
 }
 
 export default card

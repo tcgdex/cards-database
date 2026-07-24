@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Hoppip",
+		en: "Tangela",
 		fr: "Granivol",
 		de: "Hoppspross"
 	},
 
-	illustrator: "Toshinao Aoki",
+	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		187,
-	],
+	dexId: [114],
 
-	hp: 40,
+	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -56,36 +54,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-30"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274987,
-		tcgplayer: 86179
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86179,
+				cardmarket: 274987
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86179,
+				cardmarket: 274987
+			},
 		},
 		{
 			type: "normal",
 			subtype: "japanese-back"
 		}
-	]
+	],
 }
 
 export default card

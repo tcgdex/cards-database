@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Goldeen",
+		en: "Spinarak",
 		fr: "Poissirène",
 		de: "Goldini"
 	},
 
-	illustrator: "Masako Yamashita",
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		118,
-	],
+	dexId: [167],
 
-	hp: 50,
+	hp: 40,
 
 	types: [
-		"Water",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Splash",
+				en: "Sharp Stinger",
 				fr: "Trempette",
 				de: "Platscher"
 			},
@@ -43,26 +41,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274986,
-		tcgplayer: 85805
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85805,
+				cardmarket: 274986
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

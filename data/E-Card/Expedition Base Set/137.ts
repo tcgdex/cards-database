@@ -3,7 +3,7 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bill's Maintenance",
+		en: "Traveling Salesman",
 		fr: "Entretien de Léo",
 		de: "Bills Wartung"
 	},
@@ -11,27 +11,27 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
-		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. If you have any cards in your hand, shuffle 1 of them into your deck, then draw 3 cards.",
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for up to 2 Technical Machine and/or Pokémon Tool cards, show them to your opponent, and then put them into your hand. Shuffle your deck afterward.",
 		fr: "Si vous avez des cartes dans votre main, mélangez-en une à votre deck et piochez ensuite 3 cartes.",
 		de: "Falls du mindestens eine Karte auf deiner Hand hast, mische 1 davon in dein Deck und ziehe dann 3 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275012,
-		tcgplayer: 83837
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83837,
+				cardmarket: 275012
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

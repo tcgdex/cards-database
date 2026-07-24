@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Multi Technical Machine 01",
+		en: "Rainbow Energy",
 		fr: "Machine multi-technique 01",
 		de: "Vielzweckmaschine 01"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Takumi Akabane"Big Mama\" Tagawa",
+	rarity: "Rare",
+	category: "Energy",
 	set: Set,
 
 	effect: {
@@ -35,19 +35,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275019,
-		tcgplayer: 87635
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87635,
+				cardmarket: 275019
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

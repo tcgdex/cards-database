@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
+		en: "Rapidash",
 		fr: "Raflésia",
 		de: "Giflor"
 	},
 
-	illustrator: "Miki Tanaka",
+	illustrator: "Kouki Saitou",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		45,
-	],
+	dexId: [78],
 
-	hp: 90,
+	hp: 70,
 
 	types: [
-		"Grass",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Ortide"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -53,42 +51,41 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Petal Dance",
+				en: "Agility",
 				fr: "Danse-fleur",
 				de: "Blättertanz"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Vileplume is now Confused.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Raflésia est maintenant Confus.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Giflor ist jetzt verwirrt."
 			},
-			damage: "30x",
+			damage: 10,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Water",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 0,
 
 
-	thirdParty: {
-		cardmarket: 274906,
-		tcgplayer: 90376
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90376,
+				cardmarket: 274906
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

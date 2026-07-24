@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
+		en: "Flaaffy",
 		fr: "Aligatueur",
 		de: "Impergator"
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	illustrator: "Shin-ichi Yoshida",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		160,
-	],
+	dexId: [180],
 
-	hp: 120,
+	hp: 80,
 
 	types: [
-		"Water",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Crocrodil"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -56,43 +54,42 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Rending Jaws",
+				en: "Thundershock",
 				fr: "Coud'mâchoire",
 				de: "Rending Jaws"
 			},
 
 			effect: {
-				en: "If there are no damage counters on the Defending Pokémon, this attack's base damage is 40 instead of 70.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "S'il n'y a aucun marqueur de dégâts sur le Pokémon Défenseur, cette attaque inflige 40 dégâts de base au lieu de 70.",
 				de: "If there are now damage counters on the Defending Pokémon, this attack's base damage is 40 instead of 70."
 			},
 
-			damage: 70
+			damage: 10,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 3,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274887,
-		tcgplayer: 85416
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85416,
+				cardmarket: 274887
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

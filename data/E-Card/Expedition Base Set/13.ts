@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Gengar",
+		en: "Exeggutor",
 		fr: "Ectoplasma",
 		de: "Gengar"
 	},
 
-	illustrator: "Yukiko Baba",
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [103],
 
-	hp: 90,
+	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Spectrum"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -54,27 +52,26 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hide in Shadows",
+				en: "Big Eggsplosion",
 				fr: "Cache-ombre",
 				de: "Im Schatten verstecken"
 			},
 			effect: {
-				en: "Switch Gengar with one of your Benched Pokémon.",
+				en: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
 				fr: "Échangez Ectoplasma contre l'un des Pokémon de votre Banc, si vous en avez.",
 				de: "Tausche Gengar mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
 			},
-			damage: 40,
+			damage: "20×",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Darkness",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -84,19 +81,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274888,
-		tcgplayer: 85671
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85671,
+				cardmarket: 274888
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Mary's Impulse",
+		en: "Darkness Energy",
 		fr: "Impulsion de Lula",
 		de: "Mary's Impulse*"
 	},
 
-	illustrator: "Ken Sugimori",
-	rarity: "Uncommon",
-	category: "Trainer",
+	illustrator: "Milky Isobe",
+	rarity: "Rare",
+	category: "Energy",
 	set: Set,
 
 	effect: {
@@ -19,19 +19,21 @@ const card: Card = {
 		de: "Flip a coin until you get tails. For each heads, draw 2 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 275017,
-		tcgplayer: 87242
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87242,
+				cardmarket: 275017
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
+	types: [
+		"Darkness"
+	],
 }
 
 export default card

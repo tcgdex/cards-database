@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Vileplume",
+		en: "Chansey",
 		fr: "Raflésia",
 		de: "Giflor"
 	},
 
-	illustrator: "Miki Tanaka",
-	rarity: "Rare",
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		45,
-	],
+	dexId: [113],
 
-	hp: 90,
+	hp: 100,
 
 	types: [
-		"Grass",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Ortide"
 	},
 
-	stage: "Stage2",
+	stage: "Basic",
 
 	abilities: [
 		{
@@ -53,7 +51,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Petal Dance",
+				en: "Rollout",
 				fr: "Danse-fleur",
 				de: "Blättertanz"
 			},
@@ -62,33 +60,32 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces. Raflésia est maintenant Confus.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu. Giflor ist jetzt verwirrt."
 			},
-			damage: "30x",
+			damage: 10,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274906,
-		tcgplayer: 90379
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90379,
+				cardmarket: 274906
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

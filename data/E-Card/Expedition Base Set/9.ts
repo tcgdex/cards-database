@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Dragonite",
+		en: "Elekid",
 		fr: "Dracolosse",
 		de: "Dragoran"
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Hikaru Koike",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		149,
-	],
+	dexId: [239],
 
-	hp: 100,
+	hp: 30,
 
 	types: [
-		"Colorless",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Draco"
 	},
 
-	stage: "Stage2",
+	stage: "Baby",
 
 	abilities: [
 		{
@@ -54,12 +52,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Dragon Tail",
+				en: "Energy Kick",
 				fr: "Queue de dragon",
 				de: "Drachenschwanz"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
+				en: "Flip a coin. If heads, choose an Energy card attached to the Defending Pokémon. Your opponent moves that card to 1 of his or her other Pokémon. (If your opponent has no Benched Pokémon, this attack does nothing.)",
 				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
@@ -68,21 +66,20 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2,
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274884,
-		tcgplayer: 84910
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84910,
+				cardmarket: 274884
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Chansey",
+		en: "Cubone",
 		fr: "Leveinard",
 		de: "Chaneira"
 	},
 
-	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Uncommon",
+	illustrator: "Midori Harada",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		113,
-	],
+	dexId: [104],
 
-	hp: 90,
+	hp: 40,
 
 	types: [
-		"Colorless",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -32,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bind Wound",
+				en: "Teary Eyes",
 				fr: "Pansement",
 				de: "Wunden verbinden"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove 2 damage counters from 1 of your Pokémon (1 if it has only 1).",
+				en: "During your opponent's next turn, any damage done to Cubone by attacks is reduced by 20.",
 				fr: "Lancez une pièce. Si c'est face, retirez 2 marqueurs de dégâts d'un de vos Pokémon (1 seul s'il n'en a qu'un).",
 				de: "Wirf eine Münze. Entferne bei 'Kopf' 2 Schadensmarken von 1 deiner Pokémon (1, wenn es nur 1 hat)."
 			},
@@ -51,7 +49,7 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Dogpile",
+				en: "Tackle",
 				fr: "Empilage",
 				de: "Hundehaufen"
 			},
@@ -62,32 +60,37 @@ const card: Card = {
 				de: "Zähle die Anzahl der Pokémon auf deiner Bank. Dieser Angriff fügt 10mal diese Zahl dem Verteidigenden Pokémon an Schaden zu, und Chaneira fügt sich selber 10mal diese Zahl an Schaden zu."
 			},
 
-			damage: "10x"
+			damage: 10,
 		},
 	],
 
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Grass",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274947,
-		tcgplayer: 84172
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84172,
+				cardmarket: 274947
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

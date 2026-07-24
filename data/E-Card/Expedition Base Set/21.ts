@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
+		en: "Lanturn",
 		fr: "Feunard",
 		de: "Vulnona"
 	},
 
-	illustrator: "Atsuko Nishida",
+	illustrator: "Yuka Morii",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [171],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Goupix"
 	},
 
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Ion Coating",
+			},
+			effect: {
+				en: "You may use this power once during each of your turns (before your attack). All Lightning Energy attached to your Active Pokémon becomes Water Energy for the rest of the turn. (This effect ends if your Active Pokémon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition.",
+			},
+		},
+	],,
 	stage: "Stage1",
 
 	attacks: [
@@ -37,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mislead",
+				en: "Electric Tackle",
 				fr: "Tromperie",
 				de: "Mislead"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
+				en: "This attack does 20 damage plus 10 damage for each Lightning Energy attached to Lanturn. Flip a coin. If tails, Lanturn does 10 damage to itself for each Lightning Energy attached to it.",
 				fr: "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
 			},
@@ -71,26 +80,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274896,
-		tcgplayer: 87765
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87765,
+				cardmarket: 274896
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

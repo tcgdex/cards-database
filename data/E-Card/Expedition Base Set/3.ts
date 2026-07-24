@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Arbok",
+		en: "Ariados",
 		fr: "Arbok",
 		de: "Arbok"
 	},
 
-	illustrator: "Kyoko Umemoto",
+	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		24,
-	],
+	dexId: [168],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Abo"
 	},
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Gluey Slime",
+			},
+			effect: {
+				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
+			},
+		},
+	],,
 	stage: "Stage1",
 
 	attacks: [
@@ -36,12 +45,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Spray",
+				en: "Spider Force",
 				fr: "Jet-venin",
 				de: "Poison Spray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage. If tails, this attack does 20 damage and the Defending Pokémon is now Paralyzed.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "The Defending Pokémon is now Poisoned."
 			}
@@ -68,26 +77,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 0,
 
 
-	thirdParty: {
-		cardmarket: 274878,
-		tcgplayer: 83566
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83566,
+				cardmarket: 274878
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

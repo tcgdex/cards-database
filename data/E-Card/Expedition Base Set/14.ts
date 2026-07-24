@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Golem",
+		en: "Houndoom",
 		fr: "Grolem",
 		de: "Geowaz"
 	},
 
-	illustrator: "Aya Kusube",
+	illustrator: "Naoyo Kimura",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [229],
 
-	hp: 100,
+	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Gravalanch"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -55,16 +53,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Tumble",
+				en: "Smokescreen",
 				fr: "Roule-pierre",
 				de: "Rock Tumble"
 			},
 			effect: {
-				en: "Don't apply Resistance.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "N'appliquez pas la Résistance.",
 				de: "Don't apply Resistance."
 			},
-			damage: 60,
+			damage: 10,
 
 		},
 	],
@@ -72,25 +70,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-	retreat: 4,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274889,
-		tcgplayer: 85821
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85821,
+				cardmarket: 274889
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
+		en: "Bellsprout",
 		fr: "Florizarre",
 		de: "Bisaflor"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	illustrator: "Keiko Fukuyama",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [69],
 
-	hp: 100,
+	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Herbizarre"
 	},
 
-	stage: "Stage2",
+	stage: "Basic",
 
 	abilities: [
 		{
@@ -55,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
+				en: "Poison Vine",
 				fr: "Plaquage",
 				de: "Bodyslam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -71,26 +69,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274905,
-		tcgplayer: 90316
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90316,
+				cardmarket: 274905
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

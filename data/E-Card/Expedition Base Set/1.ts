@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Alakazam",
+		en: "Ampharos",
 		fr: "Alakazam",
 		de: "Simsala"
 	},
 
-	illustrator: "Hajime Kusajima",
+	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		65,
-	],
+	dexId: [181],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -55,43 +53,49 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Syncroblast",
+				en: "Thundershock",
 				fr: "Syncroblast",
 				de: "Synchronexplosion"
 			},
 
 			effect: {
-				en: "If Alakazam and the Defending Pokémon don't have the same number of Energy cards on them, this attack's base damage is 20 instead of 80.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Si Alakazam et le Pokémon Défenseur n'ont pas le même nombre de cartes Énergie attachées à eux, cette attaque inflige 20 dégâts de base au lieu de 80.",
 				de: "Wenn an Simsala und das Verteidigende Pokémon nicht dieselbe Anzahl von Energiekarten angelegt ist, ist der Basisschaden dieses Angriffs 20 anstatt 80."
 			},
 
-			damage: 80
+			damage: 20,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274876,
-		tcgplayer: 83497
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83497,
+				cardmarket: 274876
+			},
 		},
 		{
 			type: "reverse",
+		},
+		{
+			type: "reverse",
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 180715,
+			}
 		}
-	]
+	],
 }
 
 export default card

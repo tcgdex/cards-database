@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Oddish",
+		en: "Fire Cube 01",
 		fr: "Mystherbe",
 		de: "Myrapla"
 	},
 
-	illustrator: "Masako Yamashita",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: ""Big Mama" Tagawa",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	dexId: [
@@ -31,7 +31,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Singe",
 				fr: "Charge",
 				de: "Tackle"
 			},
@@ -50,7 +50,7 @@ const card: Card = {
 				de: "Schlafsamen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "Attach this card to 1 of your Fire Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Fire Cube 01.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
@@ -68,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274997,
-		tcgplayer: 87840
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87840,
+				cardmarket: 274997
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

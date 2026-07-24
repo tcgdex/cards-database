@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Weezing",
+		en: "Scizor",
 		fr: "Smogogo",
 		de: "Smogmog"
 	},
 
-	illustrator: "Hajime Kusajima",
+	illustrator: "Hisao Nakamura",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [212],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Smogo"
 	},
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Poison Resistance",
+			},
+			effect: {
+				en: "Scizor can't be Poisoned.",
+			},
+		},
+	],,
 	stage: "Stage1",
 
 	attacks: [
@@ -37,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Foul Gas",
+				en: "Snatch",
 				fr: "Gaz infect",
 				de: "Foul Gas"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.",
+				en: "Before doing damage, you may choose 1 of your opponent's Benched Pokémon with no damage counters on it and switch the Defending Pokémon with it.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
 			},
@@ -55,42 +64,41 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Misfire",
+				en: "Heavy Metal",
 				fr: "Raté",
 				de: "Misfire"
 			},
 			effect: {
-				en: "Flip a coin. If tails, put 6 damage counters on Weezing.",
+				en: "Flip a number of coins equal to the amount of Metal Energy attached to Scizor. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce. Si c'est face, placez 6 marqueurs de dégâts sur Smogogo.",
 				de: "Flip a coin. If tails, put 6 damage counters on Weezing."
 			},
-			damage: 60,
+			damage: "30+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274907,
-		tcgplayer: 90557
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90557,
+				cardmarket: 274907
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

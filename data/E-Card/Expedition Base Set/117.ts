@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Machop",
+		en: "Wooper",
 		fr: "Machoc",
 		de: "Machollo"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
+	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [194],
 
-	hp: 50,
+	hp: 40,
 
 	types: [
-		"Fighting",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Punch",
+				en: "Bubble",
 				fr: "Koud'poing",
 				de: "Hieb"
 			},
@@ -45,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Chop",
+				en: "Wave Splash",
 				fr: "Double coup",
 				de: "Doppelschlag"
 			},
@@ -54,33 +52,32 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274992,
-		tcgplayer: 86991
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86991,
+				cardmarket: 274992
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

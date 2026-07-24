@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Totodile",
+		en: "Super Energy Removal 2",
 		fr: "Kaiminus",
 		de: "Karnimani"
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	dexId: [
@@ -50,7 +50,7 @@ const card: Card = {
 				de: "Doppelkratzer"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 2 coins. If both are heads, discard all Energy cards attached to the Defending Pokémon. If both are tails, discard all Energy cards attached to your Active Pokémon. If 1 is heads and 1 is tails, this card does nothing.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
@@ -68,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275009,
-		tcgplayer: 89994
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89994,
+				cardmarket: 275009
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

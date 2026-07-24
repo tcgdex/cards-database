@@ -3,14 +3,15 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Vulpix",
+		en: "Town Volunteers",
 		fr: "Goupix",
 		de: "Vulpix"
 	},
 
-	illustrator: "Yuka Morii",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	dexId: [
@@ -36,7 +37,7 @@ const card: Card = {
 				de: "Schweifwedeln"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Take 5 Baby Pokémon, Basic Pokémon, Evolution, and/or basic Energy cards from your discard pile and then show them to your opponent. Shuffle them into your deck.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
@@ -67,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275011,
-		tcgplayer: 90436
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90436,
+				cardmarket: 275011
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

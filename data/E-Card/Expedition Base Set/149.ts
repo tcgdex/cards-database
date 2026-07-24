@@ -3,14 +3,67 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Professor Oak's Research",
+		en: "Lugia",
 		fr: "Recherches du professeur Chen",
 		de: "Professor Eichs Nachforschunge"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
-	category: "Trainer",
+	category: "Pokemon",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Crystal Type",
+			},
+			effect: {
+				en: "Whenever you attach a Fire, Water, or Psychic basic Energy card from your hand to Lugia, Lugia's type (color) becomes the same as that Energy card type until the end of the turn.",
+			},
+		},
+	],,
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],,
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Fire",
+			],
+			name: {
+				en: "Psychic",
+			},
+			effect: {
+				en: "This attack does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
+			},
+			damage: "10×",
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				en: "Steam Blast",
+			},
+			effect: {
+				en: "Discard an Energy card attached to Lugia.",
+			},
+			damage: 50,
+		},
+	],,
+	stage: "Basic",
+	types: [
+		"Colorless"
+	],
+	hp: 80,
+	dexId: [249],
 	set: Set,
 
 	effect: {
@@ -19,23 +72,27 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275024,
-		tcgplayer: 88402
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"]
 		}
-	]
+	],
+	retreat: 3,
 }
 
 export default card

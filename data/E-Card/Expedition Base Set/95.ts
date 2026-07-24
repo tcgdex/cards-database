@@ -3,26 +3,35 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
+		en: "Mr. Mime",
 		fr: "Bulbizarre",
 		de: "Bisasam"
 	},
 
-	illustrator: "Tomokazu Komiya",
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [122],
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Grass",
+		"Psychic"
 	],
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Energy Barrier",
+			},
+			effect: {
+				en: "If Mr. Mime would be damaged by an attack, reduce that damage by 10 for each basic Energy card attached to Mr. Mime. The maximum amount of damage that can be reduced by Energy Barrier is 20.",
+			},
+		},
+	],,
 	stage: "Basic",
 
 	attacks: [
@@ -31,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Seed",
+				en: "Mind Shock",
 				fr: "Graine dodo",
 				de: "Schlafsamen"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "Don't apply Weakness and Resistance.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
@@ -60,26 +69,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274969,
-		tcgplayer: 84027
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84027,
+				cardmarket: 274969
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

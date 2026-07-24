@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Diglett",
+		en: "Scyther",
 		fr: "Taupiqueur",
 		de: "Digda"
 	},
 
-	illustrator: "Masako Yamashita",
+	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		50,
-	],
+	dexId: [123],
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Fighting",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Headbutt",
+				en: "Slash",
 				fr: "Coud'boule furieux",
 				de: "Wilder Kopfstoß"
 			},
@@ -40,40 +38,38 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: 10,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
-			type: "Lightning",
+			type: "Fighting",
 			value: "-30"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274981,
-		tcgplayer: 84820
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84820,
+				cardmarket: 274981
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

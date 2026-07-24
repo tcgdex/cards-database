@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
+		en: "Miltank",
 		fr: "Bulbizarre",
 		de: "Bisasam"
 	},
 
-	illustrator: "Sachi Matoba",
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [241],
 
-	hp: 50,
+	hp: 60,
 
 	types: [
-		"Grass",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Tackle"
 			},
 
-			damage: 10,
+			damage: 20,
 
 		},
 		{
@@ -46,43 +44,42 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Seed",
+				en: "Continuous Tumble",
 				fr: "Graine poison",
 				de: "Giftsamen"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
-			damage: 10
+			damage: "20×",
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274969,
-		tcgplayer: 84026
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84026,
+				cardmarket: 274969
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

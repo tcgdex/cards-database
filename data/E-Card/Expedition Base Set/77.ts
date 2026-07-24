@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Flaaffy",
+		en: "Exeggcute",
 		fr: "Lainergie",
 		de: "Waaty"
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Uncommon",
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		180,
-	],
+	dexId: [102],
 
-	hp: 80,
+	hp: 50,
 
 	types: [
-		"Lightning",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Wattouat"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -37,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
+				en: "Continuous Eggsplosion",
 				fr: "Coup d'boule",
 				de: "Kopfnuss"
 			},
 
-			damage: 20,
+			damage: "10×",
 
 		},
 		{
@@ -52,12 +50,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder Jolt",
+				en: "Energy Support",
 				fr: "Secousse tonnerre",
 				de: "Donnerrüttler"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Flaaffy does 20 damage to itself.",
+				en: "Flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Benched Pokémon. Shuffe your deck afterward.",
 				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 20 dégâts.",
 				de: "Wirf eine Münze. Bei 'Zahl' fügt sich Waaty selber 20 Schadenspunkte zu."
 			},
@@ -68,26 +66,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274952,
-		tcgplayer: 85475
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85475,
+				cardmarket: 274952
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

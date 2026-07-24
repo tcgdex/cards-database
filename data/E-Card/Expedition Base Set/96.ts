@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Caterpie",
+		en: "Nidoran ♂",
 		fr: "Chenipan",
 		de: "Raupy"
 	},
 
-	illustrator: "Miki Tanaka",
+	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		10,
-	],
+	dexId: [32],
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
+				en: "Poison Horn",
 				fr: "Coup d'boule",
 				de: "Kopfnuss"
 			},
@@ -45,7 +43,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Entangling Thread",
+				en: "Scratch",
 				fr: "Piège-fil",
 				de: "Einwickelfaden"
 			},
@@ -54,33 +52,32 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 10,
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274971,
-		tcgplayer: 84135
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84135,
+				cardmarket: 274971
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,14 +3,68 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Professor Elm's Training Method",
+		en: "Kingdra",
 		fr: "Méthode d'entraînement du professeur Orme",
 		de: "Professor Linds Trainingsmethoden"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Mikio Menjo",
 	rarity: "Uncommon",
-	category: "Trainer",
+	category: "Pokemon",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Crystal Type",
+			},
+			effect: {
+				en: "Whenever you attach a Water, Lightning, or Psychic basic Energy card from your hand to Kingdra, Kingdra's type (color) becomes the same as that Energy card type until the end of the turn.",
+			},
+		},
+	],,
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],,
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Lightning",
+			],
+			name: {
+				en: "Aquabomb",
+			},
+			effect: {
+				en: "Kindra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack.)",
+			},
+			damage: 40,
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				en: "Dual Burn",
+			},
+			effect: {
+				en: "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra.",
+			},
+			damage: 60,
+		},
+	],,
+	stage: "Stage2",
+	types: [
+		"Colorless"
+	],
+	hp: 110,
+	dexId: [230],
 	set: Set,
 
 	effect: {
@@ -19,17 +73,20 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Entwicklungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 275023,
-		tcgplayer: 88389
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88389,
+				cardmarket: 275023
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88389,
+				cardmarket: 275023
+			},
 		},
 		{
 			type: "normal",
@@ -43,7 +100,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"]
 		}
-	]
+	],
+	retreat: 3,
 }
 
 export default card

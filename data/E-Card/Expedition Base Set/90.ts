@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pupitar",
+		en: "Lickitung",
 		fr: "Ymphect",
 		de: "Pupitar"
 	},
 
-	illustrator: "Yukiko Baba",
-	rarity: "Uncommon",
+	illustrator: "Yuka Morii",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		247,
-	],
+	dexId: [108],
 
-	hp: 70,
+	hp: 80,
 
 	types: [
-		"Fighting",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Embrylex"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -36,7 +34,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Headbutt",
+				en: "Long Tongue",
 				fr: "Coup d'boule",
 				de: "Kopfnuss"
 			},
@@ -48,26 +46,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274965,
-		tcgplayer: 88447
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88447,
+				cardmarket: 274965
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

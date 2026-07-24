@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
+		en: "Seaking",
 		fr: "Roucarnage",
 		de: "Tauboss"
 	},
 
-	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		18,
-	],
+	dexId: [119],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Colorless",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Roucoups"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -54,16 +52,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sharp Beak",
+				en: "Flail",
 				fr: "Bec-aiguisé",
 				de: "Scharfschnabel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
+				en: "This attack does 10 damage times the number of damage counters on Seaking.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
-			damage: "20+",
+			damage: "10×",
 
 		},
 	],
@@ -71,10 +69,10 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
+	retreat: 1,
 	resistances: [
 		{
 			type: "Fighting",
@@ -82,19 +80,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274898,
-		tcgplayer: 88029
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88029,
+				cardmarket: 274898
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

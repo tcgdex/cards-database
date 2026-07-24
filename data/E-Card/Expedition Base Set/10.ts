@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Dugtrio",
+		en: "Entei",
 		fr: "Triopikeur",
 		de: "Digdri"
 	},
 
-	illustrator: "Masako Yamashita",
+	illustrator: "Atsuko Nishida",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [244],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,18 @@ const card: Card = {
 		fr: "Taupiqueur"
 	},
 
-	stage: "Stage1",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Pure Body",
+			},
+			effect: {
+				en: "To attach a Fire Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the Fire Energy, and then discard an Energy from Entei.)",
+			},
+		},
+	],,
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -36,12 +45,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mud Slap",
+				en: "Burning Fang",
 				fr: "Coud'boue",
 				de: "Mud Slap"
 			},
 
-			damage: 20,
+			damage: 40,
 
 		},
 		{
@@ -67,11 +76,10 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Water",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -81,19 +89,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274885,
-		tcgplayer: 84996
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84996,
+				cardmarket: 274885
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

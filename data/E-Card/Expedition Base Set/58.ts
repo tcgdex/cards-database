@@ -3,35 +3,39 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Pichu",
+		en: "Seadra",
 		fr: "Pichu",
 		de: "Pichu"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [117],
 
-	hp: 30,
+	hp: 70,
 
 	types: [
-		"Lightning",
+		"Water"
 	],
 
-	stage: "Basic",
+	stage: "Stage1",
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],,
 	attacks: [
 		{
 			cost: [
 				"Lightning",
 			],
 			name: {
-				en: "Energy Patch",
+				en: "Wave Splash",
 				fr: "Rajout d'énergie",
 				de: "Energieflicken"
 			},
@@ -46,23 +50,26 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274897,
-		tcgplayer: 88015
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88015,
+				cardmarket: 274897
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88015,
+				cardmarket: 274897
+			},
 		},
 		{
 			type: "normal",
 			subtype: "japanese-back"
 		}
-	]
+	],
 }
 
 export default card

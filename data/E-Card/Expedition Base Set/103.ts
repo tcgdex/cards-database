@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cubone",
+		en: "Porygon",
 		fr: "Osselait",
 		de: "Tragosso"
 	},
 
-	illustrator: "Tomokazu Komiya",
+	illustrator: "Masako Yamashita",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		104,
-	],
+	dexId: [137],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beat",
+				en: "Data Sort",
 				fr: "Pichenette",
 				de: "Verprügler"
 			},
@@ -46,7 +44,7 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Bone Smash",
+				en: "Peck",
 				fr: "Éclate-os",
 				de: "Knochenzertrümmerer"
 			},
@@ -57,17 +55,16 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 30
+			damage: 10,
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Grass",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -77,19 +74,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274978,
-		tcgplayer: 84529
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84529,
+				cardmarket: 274978
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

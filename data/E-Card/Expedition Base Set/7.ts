@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Clefable",
+		en: "Donphan",
 		fr: "Mélodelfe",
 		de: "Pixi"
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		36,
-	],
+	dexId: [232],
 
-	hp: 70,
+	hp: 80,
 
 	types: [
-		"Colorless",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -53,42 +51,47 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Doubleslap",
+				en: "Earthquake",
 				fr: "Torgnoles",
 				de: "Duplexhieb"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: 30,
 
 		},
 	],
 
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Grass",
+			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274882,
-		tcgplayer: 84342
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84342,
+				cardmarket: 274882
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

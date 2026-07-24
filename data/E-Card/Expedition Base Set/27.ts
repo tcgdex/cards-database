@@ -3,27 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
+		en: "Parasect",
 		fr: "Airmure",
 		de: "Panzaeron"
 	},
 
-	illustrator: "Kimiya Masago",
+	illustrator: "Masako Yamashita",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		227,
-	],
+	dexId: [47],
 
-	hp: 60,
+	hp: 70,
 
 	types: [
-		"Metal",
+		"Grass"
 	],
 
-	stage: "Basic",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -32,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Beak",
+				en: "Sleep Inducer",
 				fr: "Bec d'acier",
 				de: "Stahlschnabel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
@@ -52,50 +50,48 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Air Cutter",
+				en: "Rapture Pollen",
 				fr: "Taille-air",
 				de: "Luftschneider"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, remove 2 damage counters from Parasect.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 50
+			damage: 20,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274902,
-		tcgplayer: 89234
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 89234,
+				cardmarket: 274902
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

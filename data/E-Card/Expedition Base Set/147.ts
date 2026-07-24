@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Power Charge",
+		en: "Warp Energy",
 		fr: "Charge d'intensité",
 		de: "Energieaufladung"
 	},
 
-	illustrator: "Keiji Kinebuchi",
+	illustrator: "Shin-ichi Yoshikawa",
 	rarity: "Uncommon",
-	category: "Trainer",
+	category: "Energy",
 	set: Set,
 
 	effect: {
@@ -19,19 +19,18 @@ const card: Card = {
 		de: "Wirf eine Münze. Mische bei 'Kopf' 2 Energiekarten aus deinem Ablagestapel in dein Deck (1, wenn du nur 1 hast)."
 	},
 
-	thirdParty: {
-		cardmarket: 275022,
-		tcgplayer: 88353
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88353,
+				cardmarket: 275022
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

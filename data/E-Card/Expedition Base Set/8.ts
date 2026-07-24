@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cloyster",
+		en: "Electrode",
 		fr: "Crustabri",
 		de: "Austos"
 	},
 
-	illustrator: "Kyoko Umemoto",
+	illustrator: "Shin-ichi Yoshida",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		91,
-	],
+	dexId: [101],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Water",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Kokiyas"
 	},
 
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Super Dynamo",
+			},
+			effect: {
+				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
+			},
+		},
+	],,
 	stage: "Stage1",
 
 	attacks: [
@@ -37,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
+				en: "Swift",
 				fr: "Léchouille",
 				de: "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 10,
+			damage: 30,
 
 		},
 		{
@@ -72,26 +81,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Metal",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274883,
-		tcgplayer: 84370
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84370,
+				cardmarket: 274883
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

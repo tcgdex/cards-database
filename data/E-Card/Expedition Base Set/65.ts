@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Typhlosion",
+		en: "Weepinbell",
 		fr: "Typhlosion",
 		de: "Tornupto"
 	},
 
-	illustrator: "K. Hoshiba",
-	rarity: "Rare",
+	illustrator: "Miki Tanaka",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [70],
 
-	hp: 100,
+	hp: 70,
 
 	types: [
-		"Fire",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Feurisson"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -55,12 +53,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Singe",
+				en: "Growth",
 				fr: "Ça sent le roussi !",
 				de: "Super-Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				en: "Attach up to 2 Grass Energy cards from your hand to Weepinbell.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
 			},
@@ -71,26 +69,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274903,
-		tcgplayer: 90102
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90102,
+				cardmarket: 274903
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

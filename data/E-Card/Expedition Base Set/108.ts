@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ekans",
+		en: "Slowpoke",
 		fr: "Abo",
 		de: "Rettan"
 	},
 
-	illustrator: "Kyoko Umemoto",
+	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		23,
-	],
+	dexId: [79],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -32,13 +30,13 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Poison Sting",
+				en: "Fishing Tail",
 				fr: "Dard-venin",
 				de: "Poison Sting"
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Search your discard pile for a Baby Pokémon, Basic Pokémon, Evolution card, or basic Energy card, show it to your opponent, and then put it into your hand.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
@@ -49,26 +47,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274983,
-		tcgplayer: 85101
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85101,
+				cardmarket: 274983
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

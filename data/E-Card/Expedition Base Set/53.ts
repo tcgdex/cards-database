@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Meganium",
+		en: "Marill",
 		fr: "Meganium",
 		de: "Meganie"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	illustrator: "Yukiko Baba",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		154,
-	],
+	dexId: [183],
 
-	hp: 100,
+	hp: 50,
 
 	types: [
-		"Grass",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Macronium"
 	},
 
-	stage: "Stage2",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -36,7 +34,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
+				en: "Headbutt",
 				fr: "Poudre dodo",
 				de: "Schlafpuder"
 			},
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
 				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
-			damage: 20,
+			damage: 10,
 
 		},
 		{
@@ -55,45 +53,43 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solarbeam",
+				en: "Sleepy Ball",
 				fr: "Lance-soleil",
 				de: "Solarstrahl"
 			},
 
-			damage: 50,
+			damage: 10,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-30"
 		},
 	],
-	retreat: 3,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274893,
-		tcgplayer: 87289
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87289,
+				cardmarket: 274893
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

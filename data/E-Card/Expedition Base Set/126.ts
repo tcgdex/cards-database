@@ -3,14 +3,15 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
+		en: "Juggler",
 		fr: "Ponyta",
 		de: "Ponita"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	dexId: [
@@ -36,7 +37,7 @@ const card: Card = {
 				de: "Versengung"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard up to 2 basic Energy cards from your hand. If you discarded 1 basic Energy card, draw 3 cards. If you discarded 2 basic Energy cards, draw 5 cards.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
 			},
@@ -67,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275001,
-		tcgplayer: 88284
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88284,
+				cardmarket: 275001
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

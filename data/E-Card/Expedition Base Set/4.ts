@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Blastoise",
+		en: "Azumarill",
 		fr: "Tortank",
 		de: "Turtok"
 	},
 
-	illustrator: "Kimiya Masago",
+	illustrator: "Kagemaru Himeno",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		9,
-	],
+	dexId: [184],
 
-	hp: 100,
+	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -28,18 +26,18 @@ const card: Card = {
 		fr: "Carabaffe"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Jet Stream",
+				en: "Bubble Turn",
 				fr: "Force courant",
 				de: "Jet Stream"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), if Blastoise is your Active Pokémon, you may flip a coin. If heads, discard an Energy card attached to Blastoise, if any. Then, if there are any Energy cards attached to the Defending Pokémon, choose one of them and discard it. This power can't be used if Blastoise is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Tortank est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, défaussez-vous d'une carte Énergie attachée à Tortank, s'il en possède une. Ensuite, s'il y a des cartes Énergie attachées au Pokémon Défenseur, choisissez-en une et obligez votre adversaire à s'en défausser. Ce pouvoir ne peut pas être utilisé si Tortank est affecté par un État spécial.",
 				de: "Once during your turn (before you attack), if Blastoise is your Active Pokémon, you may flip a coin. If heads, discard an Energy card attached to Blastoise. Then, if there any Energy cards attached to the Defending Pokémon, choose 1 of them and discard it. This power can't be used if Blaistoise is affected by a Special Condition."
 			},
@@ -54,16 +52,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Energy Cannon",
+				en: "Aqua Sonic",
 				fr: "Canon à énergie",
 				de: "Energy Cannon"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "Don't apply Resistance.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Tortank en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
 				de: "Does 40 damage plus 10 more damage for each Energy attached to Blastoise but not used to pay for this attack's energy cost. You can't add more then 20 damage in this way."
 			},
-			damage: "40+",
+			damage: 40,
 
 		},
 	],
@@ -71,25 +69,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274879,
-		tcgplayer: 83888
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83888,
+				cardmarket: 274879
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

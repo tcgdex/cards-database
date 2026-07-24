@@ -3,27 +3,25 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Skarmory",
+		en: "Tyrogue",
 		fr: "Airmure",
 		de: "Panzaeron"
 	},
 
-	illustrator: "Kimiya Masago",
-	rarity: "Rare",
+	illustrator: "Tomokazu Komiya",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		227,
-	],
+	dexId: [236],
 
-	hp: 60,
+	hp: 30,
 
 	types: [
-		"Metal",
+		"Fighting"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
 	attacks: [
 		{
@@ -32,16 +30,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Steel Beak",
+				en: "Energy Punch",
 				fr: "Bec d'acier",
 				de: "Stahlschnabel"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
+				en: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
-			damage: "20+",
+			damage: 10,
 
 		},
 		{
@@ -80,22 +78,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274902,
-		tcgplayer: 89235
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89235,
+				cardmarket: 274902
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

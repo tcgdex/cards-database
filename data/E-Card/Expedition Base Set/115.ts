@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Krabby",
+		en: "Voltorb",
 		fr: "Krabby",
 		de: "Krabby"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		98,
-	],
+	dexId: [100],
 
-	hp: 50,
+	hp: 40,
 
 	types: [
-		"Water",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -32,38 +30,37 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Crabhammer",
+				en: "Swift",
 				fr: "Pince-masse",
 				de: "Krabbhammer"
 			},
 
-			damage: 30,
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274990,
-		tcgplayer: 86523
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86523,
+				cardmarket: 274990
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

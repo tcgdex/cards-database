@@ -3,26 +3,35 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
+		en: "Hoppip",
 		fr: "Lippoutou",
 		de: "Rossana"
 	},
 
-	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Uncommon",
+	illustrator: "Yuka Morii",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [187],
 
-	hp: 60,
+	hp: 40,
 
 	types: [
-		"Water",
+		"Grass"
 	],
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Lightweight",
+			},
+			effect: {
+				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
+			},
+		},
+	],,
 	stage: "Basic",
 
 	attacks: [
@@ -32,16 +41,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Punch",
+				en: "Careless Tackle",
 				fr: "Poinglace",
 				de: "Ice Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Hoppip does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
-			damage: 10,
+			damage: 20,
 
 		},
 		{
@@ -65,28 +74,33 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Water",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Metal",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274958,
-		tcgplayer: 86374
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86374,
+				cardmarket: 274958
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

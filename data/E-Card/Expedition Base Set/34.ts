@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ampharos",
+		en: "Slowking",
 		fr: "Pharamp",
 		de: "Ampharos"
 	},
 
-	illustrator: "Atsuko Nishida",
+	illustrator: "Aya Kusube",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [199],
 
-	hp: 100,
+	hp: 80,
 
 	types: [
-		"Lightning",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Lainergie"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -56,43 +54,42 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Lightning Strike",
+				en: "Bursting Hand",
 				fr: "Frap'éclair",
 				de: "Blitzschlag"
 			},
 
 			effect: {
-				en: "You may discard all Energy cards attached to Ampharos. If you do, this attack's base damage is 80 instead of 40.",
+				en: "Look at your opponent's hand. This attack does 10 damage times the number of Energy cards there.",
 				fr: "Vous pouvez vous défausser de toutes les cartes Énergie  attachées à Pharamp. Si vous faites ainsi, cette attaque inflige 80 dégâts de base au lieu de 40.",
 				de: "Du kannst alle -Energiekarten, die an Ampharos angelegt sind, auf deinen Ablagestapel legen. Falls du dies tust, ist der Basisschaden dieses Angriffs 80 anstatt 40."
 			},
 
-			damage: 40
+			damage: "10×",
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274877,
-		tcgplayer: 83539
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83539,
+				cardmarket: 274877
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

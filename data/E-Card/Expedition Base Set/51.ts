@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
+		en: "Growlithe",
 		fr: "Mackogneur",
 		de: "Machomei"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	illustrator: "Kyoko Umemoto",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [58],
 
-	hp: 120,
+	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Machopeur"
 	},
 
-	stage: "Stage2",
+	stage: "Basic",
 
 	abilities: [
 		{
@@ -55,42 +53,41 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Iron Fist",
+				en: "Ember",
 				fr: "Poing de fer",
 				de: "Iron Fist"
 			},
 			effect: {
-				en: "Count the number of Pokémon you have in play with damage counters on them. Flip a coin. If heads, this attack does 50 damage plus 10 more damage for each of those Pokémon.",
+				en: "Discard a Fire Energy card attached to Growlithe.",
 				fr: "Comptez le nombre de vos Pokémon en jeu ayant des marqueurs de dégâts. Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chacun de ces Pokémon.",
 				de: "Count the number of Pokémon you have in play with damage counters on them. Flip a coin. If heads, this attack does 50 damage plus 10 more damage for each of those Pokémon."
 			},
-			damage: "50+",
+			damage: 30,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Water",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274891,
-		tcgplayer: 86962
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86962,
+				cardmarket: 274891
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

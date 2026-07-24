@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cloyster",
+		en: "Victreebel",
 		fr: "Crustabri",
 		de: "Austos"
 	},
 
-	illustrator: "Kyoko Umemoto",
+	illustrator: "Miki Tanaka",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		91,
-	],
+	dexId: [71],
 
-	hp: 80,
+	hp: 90,
 
 	types: [
-		"Water",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,18 @@ const card: Card = {
 		fr: "Kokiyas"
 	},
 
-	stage: "Stage1",
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Fragrance Trap",
+			},
+			effect: {
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. This Power can't be used if Victreebel is affected by a Special Condition.",
+			},
+		},
+	],,
+	stage: "Stage2",
 
 	attacks: [
 		{
@@ -37,16 +46,16 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lick",
+				en: "Corrosive Acid",
 				fr: "Léchouille",
 				de: "Schlecker"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 10,
+			damage: 40,
 
 		},
 		{
@@ -72,26 +81,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Metal",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274883,
-		tcgplayer: 84372
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84372,
+				cardmarket: 274883
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

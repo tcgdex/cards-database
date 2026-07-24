@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
+		en: "Houndour",
 		fr: "Chrysacier",
 		de: "Safcon"
 	},
 
-	illustrator: "Yuichi Sawayama",
-	rarity: "Uncommon",
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		11,
-	],
+	dexId: [228],
 
-	hp: 60,
+	hp: 50,
 
 	types: [
-		"Grass",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Chenipan"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	abilities: [
 		{
@@ -52,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				en: "Feint Attack",
 				fr: "Roulade",
 				de: "Walzer"
 			},
@@ -62,28 +60,33 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Fire",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274962,
-		tcgplayer: 87388
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87388,
+				cardmarket: 274962
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

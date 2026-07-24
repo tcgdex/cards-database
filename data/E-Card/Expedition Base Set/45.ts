@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
+		en: "Bellsprout",
 		fr: "Rapasdepic",
 		de: "Ibitak"
 	},
 
-	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	illustrator: "Masako Yamashita",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		22,
-	],
+	dexId: [69],
 
-	hp: 70,
+	hp: 50,
 
 	types: [
-		"Colorless",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Piafabec"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -37,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
+				en: "Blot",
 				fr: "Serre",
 				de: "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during you opponent's next turn.",
+				en: "Remove 1 damage counter from Bellsprout.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -74,11 +72,11 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-
+	retreat: 1,
 	resistances: [
 		{
 			type: "Fighting",
@@ -86,19 +84,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274886,
-		tcgplayer: 85396
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85396,
+				cardmarket: 274886
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

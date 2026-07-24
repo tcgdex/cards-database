@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Kingler",
+		en: "Houndoom",
 		fr: "Krabboss",
 		de: "Kingler"
 	},
 
-	illustrator: "Shin-ichi Yoshida",
+	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		99,
-	],
+	dexId: [229],
 
-	hp: 80,
+	hp: 70,
 
 	types: [
-		"Water",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -36,16 +34,16 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
+				en: "Fireworks",
 				fr: "Écume",
 				de: "Blubber"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If tails, discard a Fire Energy card attached to Houndoom.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: 10,
+			damage: 30,
 
 		},
 		{
@@ -56,43 +54,48 @@ const card: Card = {
 			],
 
 			name: {
-				en: "Giant Claw",
+				en: "Dark Impact",
 				fr: "Pince géante",
 				de: "Riesenklaue"
 			},
 
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "The Defending Pokémon can't use any Poké-Powers until the end of your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 70
+			damage: 40,
 		},
 	],
 
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274890,
-		tcgplayer: 86453
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86453,
+				cardmarket: 274890
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

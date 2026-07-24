@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Tyranitar",
+		en: "Primeape",
 		fr: "Tyranocif",
 		de: "Despotar"
 	},
 
-	illustrator: "Kimiya Masago",
+	illustrator: "Tomokazu Komiya",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		248,
-	],
+	dexId: [57],
 
-	hp: 120,
+	hp: 80,
 
 	types: [
-		"Darkness",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Ymphect"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	abilities: [
 		{
@@ -55,49 +53,47 @@ const card: Card = {
 				"Darkness",
 			],
 			name: {
-				en: "Stamp",
+				en: "Karate Chop",
 				fr: "Piaffement",
 				de: "Trampeln"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Damage from this attack is reduced by 10 for each damage counter on Primeape.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire, s'il en possède. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 50 Schadenspunkte plus 10 weitere Schadenspunkte zu und außerdem jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte, falls vorhanden. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
-			damage: "30+",
+			damage: "40-",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-30"
 		},
 	],
-	retreat: 4,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274904,
-		tcgplayer: 90115
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90115,
+				cardmarket: 274904
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

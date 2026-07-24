@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Magmar",
+		en: "Houndour",
 		fr: "Magmar",
 		de: "Magmar"
 	},
 
-	illustrator: "Miki Tanaka",
-	rarity: "Uncommon",
+	illustrator: "Midori Harada",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		126,
-	],
+	dexId: [228],
 
-	hp: 60,
+	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flaming Punch",
+				en: "Singe",
 				fr: "Poing de flammes",
 				de: "Flaming Punch"
 			},
@@ -51,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
+				en: "Flare",
 				fr: "Mania",
 				de: "Thrash"
 			},
@@ -60,7 +58,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Magmar s'inflige 10 dégâts.",
 				de: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Magmar does 10 damage to itself."
 			},
-			damage: "30+",
+			damage: 20,
 
 		},
 	],
@@ -68,25 +66,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274961,
-		tcgplayer: 87044
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87044,
+				cardmarket: 274961
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
+		en: "Scyther",
 		fr: "Feunard",
 		de: "Vulnona"
 	},
 
-	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	illustrator: "Hisao Nakamura",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [123],
 
-	hp: 80,
+	hp: 60,
 
 	types: [
-		"Fire",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Goupix"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -37,12 +35,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mislead",
+				en: "Quick Turn",
 				fr: "Tromperie",
 				de: "Mislead"
 			},
 			effect: {
-				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
 				de: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
 			},
@@ -55,42 +53,41 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ethereal Flame",
+				en: "Cross-Cut",
 				fr: "Flamme éthérée",
 				de: "Ethereal Flame"
 			},
 			effect: {
-				en: "Discard all R Energy cards attached to Ninetales. This attack does 30 damage plus 10 more damage for each cards discarded this way.",
+				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 20 damage plus 20 more damage.",
 				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
 				de: "Discard all  Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way."
 			},
-			damage: "30+",
+			damage: "20+",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274896,
-		tcgplayer: 87766
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87766,
+				cardmarket: 274896
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

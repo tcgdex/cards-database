@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Cyndaquil",
+		en: "Psyduck",
 		fr: "Héricendre",
 		de: "Feurigel"
 	},
 
-	illustrator: "Sachi Matoba",
+	illustrator: "Keiko Fukuyama",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		155,
-	],
+	dexId: [54],
 
-	hp: 40,
+	hp: 50,
 
 	types: [
-		"Fire",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Singe",
+				en: "Headbutt",
 				fr: "Roussir",
 				de: "Singe"
 			},
@@ -48,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				en: "Scratch",
 				fr: "Vive-attaque",
 				de: "Quick Attack"
 			},
@@ -57,33 +55,32 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
 				de: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
 			},
-			damage: "10+",
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274979,
-		tcgplayer: 84547
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84547,
+				cardmarket: 274979
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

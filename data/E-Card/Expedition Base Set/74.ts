@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Croconaw",
+		en: "Drowzee",
 		fr: "Crocrodil",
 		de: "Tyracroc"
 	},
 
-	illustrator: "Kagemaru Himeno",
-	rarity: "Uncommon",
+	illustrator: "Hisao Nakamura",
+	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		159,
-	],
+	dexId: [96],
 
-	hp: 80,
+	hp: 50,
 
 	types: [
-		"Water",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Kaiminus"
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -37,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Sleep Inducer",
 				fr: "Charge",
 				de: "Tackle"
 			},
@@ -52,7 +50,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
+				en: "Tackle",
 				fr: "Bélier",
 				de: "Bodycheck"
 			},
@@ -61,33 +59,32 @@ const card: Card = {
 				fr: "Crocrodil s'inflige 10 dégâts.",
 				de: "Tyracroc fügt sich selber 10 Schadenspunkte zu."
 			},
-			damage: 40,
+			damage: 20,
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Lightning",
-			value: "×2"
+			type: "Psychic",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274949,
-		tcgplayer: 84497
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84497,
+				cardmarket: 274949
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

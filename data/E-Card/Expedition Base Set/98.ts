@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
+		en: "Onix",
 		fr: "Salamèche",
 		de: "Glumanda"
 	},
 
-	illustrator: "Yuichi Sawayama",
+	illustrator: "Hajime Kusajima",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		4,
-	],
+	dexId: [95],
 
-	hp: 50,
+	hp: 60,
 
 	types: [
-		"Fire",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw",
+				en: "Crush",
 				fr: "Rogne",
 				de: "Nagen"
 			},
 
-			damage: 10,
+			damage: "20×",
 
 		},
 		{
@@ -62,25 +60,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-	retreat: 1,
+	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274972,
-		tcgplayer: 84207
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84207,
+				cardmarket: 274972
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Feraligatr",
+		en: "Dodrio",
 		fr: "Aligatueur",
 		de: "Impergator"
 	},
 
-	illustrator: "Hiromichi Sugiyama",
-	rarity: "Rare",
+	illustrator: "Yukiko Baba",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		160,
-	],
+	dexId: [85],
 
-	hp: 100,
+	hp: 70,
 
 	types: [
-		"Water",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Crocrodil"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -36,12 +34,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				en: "Tri Attack",
 				fr: "Tranche",
 				de: "Slash"
 			},
 
-			damage: 20,
+			damage: "10×",
 
 		},
 		{
@@ -51,12 +49,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Claw",
+				en: "Peck Attack",
 				fr: "Combo-griffe",
 				de: "Double Claw"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				en: "Flip 2 coins. If 1 of them is heads, this attack does 20 damage. If both are heads, this attack does 50 damage. If both are tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
 				de: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
 			},
@@ -65,28 +63,33 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-	retreat: 2,
+	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274887,
-		tcgplayer: 85415
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85415,
+				cardmarket: 274887
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

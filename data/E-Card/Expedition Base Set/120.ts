@@ -3,14 +3,14 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Marill",
+		en: "Energy Switch",
 		fr: "Marill",
 		de: "Marill"
 	},
 
-	illustrator: "Satoshi Ohta",
-	rarity: "Common",
-	category: "Pokemon",
+	illustrator: "Mikio Menjo",
+	rarity: "Uncommon",
+	category: "Trainer",
 	set: Set,
 
 	dexId: [
@@ -36,7 +36,7 @@ const card: Card = {
 				de: "Blubber"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
 			},
@@ -68,19 +68,18 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274995,
-		tcgplayer: 87215
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87215,
+				cardmarket: 274995
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

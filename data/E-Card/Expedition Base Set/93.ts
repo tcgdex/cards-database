@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Abra",
+		en: "Mareep",
 		fr: "Abra",
 		de: "Abra"
 	},
 
-	illustrator: "Hajime Kusajima",
+	illustrator: "Hizuki Misono",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		63,
-	],
+	dexId: [179],
 
 	hp: 40,
 
 	types: [
-		"Psychic",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				en: "Charge",
 				fr: "Griffe",
 				de: "Kratzer"
 			},
@@ -44,7 +42,7 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Confuse Ray",
+				en: "Tail Slap",
 				fr: "Onde folie",
 				de: "Konfustrahl"
 			},
@@ -59,26 +57,25 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274968,
-		tcgplayer: 83447
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83447,
+				cardmarket: 274968
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card

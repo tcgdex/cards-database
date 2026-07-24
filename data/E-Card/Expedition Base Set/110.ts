@@ -3,24 +3,22 @@ import Set from '../Expedition Base Set'
 
 const card: Card = {
 	name: {
-		en: "Geodude",
+		en: "Sneasel",
 		fr: "Racaillou",
 		de: "Kleinstein"
 	},
 
-	illustrator: "Aya Kusube",
+	illustrator: "Midori Harada",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		74,
-	],
+	dexId: [215],
 
-	hp: 50,
+	hp: 60,
 
 	types: [
-		"Fighting",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Hurl",
+				en: "Rob",
 				fr: "Lance-pierre",
 				de: "Steinschleuderer"
 			},
 			effect: {
-				en: "Don't apply Resistance.",
+				en: "Look at your opponent's hand. Choose all Technical Machine and Pokémon Tool cards there and put them into his or her deck. Your opponent shuffles the deck afterward.",
 				fr: "N'appliquez pas la Résistance.",
 				de: "Wende Resistenz nicht an."
 			},
@@ -45,28 +43,33 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],,
 	weaknesses: [
 		{
-			type: "Water",
-			value: "×2"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274985,
-		tcgplayer: 85686
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85686,
+				cardmarket: 274985
+			},
 		},
 		{
 			type: "reverse",
 		}
-	]
+	],
 }
 
 export default card
