@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Weepinbell da Érica"
 	},
 
+	evolveFrom: {
+		en: "Erika's Bellsprout",
+		fr: "Chétiflor d'Erika",
+		es: "Bellsprout de Erika",
+		'es-mx': "Bellsprout de Erika",
+		de: "Erikas Knofensa",
+		it: "Bellsprout di Erika",
+		pt: "Bellsprout da Érica",
+	},
+
 	illustrator: "LINNE",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -86,7 +96,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 870141,
+				cardmarket: 870142,
 				tcgplayer: 676855
 			}
 		},
@@ -94,7 +104,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "energy",
 			thirdParty: {
-				cardmarket: 870142,
+				cardmarket: 870141,
 				tcgplayer: 676995
 			}
 		},

@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Weavile"
 	},
 
+	evolveFrom: {
+		en: "Sneasel",
+		fr: "Farfuret",
+		es: "Sneasel",
+		'es-mx': "Sneasel",
+		de: "Sniebel",
+		it: "Sneasel",
+		pt: "Sneasel",
+	},
+
 	illustrator: "Uninori",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [461],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",

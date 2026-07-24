@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Krgc",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [215],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
@@ -86,7 +87,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870207,
+			cardmarket: 870208,
 			tcgplayer: 676888
 		}
 	},
@@ -94,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870208,
+			cardmarket: 870207,
 			tcgplayer: 677028
 		}
 	},

@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	description: {
 		en: "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they've hardly been seen at all.",
 	},
 
-	thirdParty: {
-		cardmarket: 658623,
-		tcgplayer: 272258
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658623,
+				tcgplayer: 272258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658623,
+				tcgplayer: 272258
+			}
+		},
+	],
 }
 
 export default card

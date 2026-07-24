@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ポニータ",
 	},
 
+	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [77],
@@ -32,6 +33,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575732
+			},
 		},
 	],
 };

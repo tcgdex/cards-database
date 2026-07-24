@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Obstagoon de Galar"
 	},
 
+	evolveFrom: {
+		en: "Galarian Linoone",
+		fr: "Linéon de Galar",
+		es: "Linoone de Galar",
+		'es-mx': "Linoone de Galar",
+		de: "Galar-Geradaks",
+		it: "Linoone di Galar",
+		pt: "Linoone de Galar",
+	},
+
 	illustrator: "Krgc",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [862],
 	hp: 170,
 	types: ["Darkness"],
 	stage: "Stage2",

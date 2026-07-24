@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [684],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -58,7 +59,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870281,
+			cardmarket: 870282,
 			tcgplayer: 676925
 		}
 	},
@@ -66,7 +67,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870282,
+			cardmarket: 870281,
 			tcgplayer: 677065
 		}
 	},

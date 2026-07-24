@@ -88,23 +88,29 @@ const card: Card = {
 		it: "Per la sua abilità di passare attraverso i muri, si dice che venga da un'altra dimensione."
 	},
 
-	thirdParty: {
-		cardmarket: 273724,
-		tcgplayer: 42370
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273724,
+				tcgplayer: 42370
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107026
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107026
+			},
 		},
 		{
 			type: "normal",

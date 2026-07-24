@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Silcoon"
 	},
 
+	evolveFrom: {
+		en: "Wurmple",
+		fr: "Chenipotte",
+		es: "Wurmple",
+		'es-mx': "Wurmple",
+		de: "Waumpel",
+		it: "Wurmple",
+		pt: "Wurmple",
+	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [266],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
@@ -86,7 +97,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "loveball",
 			thirdParty: {
-				cardmarket: 870153,
+				cardmarket: 870154,
 				tcgplayer: 676861
 			}
 		},
@@ -94,7 +105,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "energy",
 			thirdParty: {
-				cardmarket: 870154,
+				cardmarket: 870153,
 				tcgplayer: 677001
 			}
 		},

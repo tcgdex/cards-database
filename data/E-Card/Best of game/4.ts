@@ -10,8 +10,8 @@ const card: Card = {
 
 	illustrator: "K. Hoshiba",
 	rarity: "None",
-	category: "Pokemon",		
-  hp: 60,
+	category: "Pokemon",
+	hp: 60,
 
 	dexId: [212],
 
@@ -58,10 +58,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88786
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 167081
+			},
 		},
 		{
 			type: "normal",

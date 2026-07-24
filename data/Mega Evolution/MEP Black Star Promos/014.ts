@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
-	rarity: "Promo",
+  rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fire"],

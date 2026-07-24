@@ -83,11 +83,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse"
 		},
 		{
-			type: 'holo'
-		},
+			type: "holo"
+		}
 	],
 
 	illustrator: "Shinji Kanda",

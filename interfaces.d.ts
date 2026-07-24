@@ -26,16 +26,16 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
 	| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
 	| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
-	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
+	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2004' | 'worlds-2005' | 'worlds-2007' | 'finalist'
 	| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
 	| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
 	| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
 	| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-	| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "poke-ball-league" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
+	| 'illustration-contest-2022' | 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "poke-ball-league" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
 	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection'
-	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star'
+	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament'
 
 export interface variant_detailed {
 	/**
@@ -54,7 +54,8 @@ export interface variant_detailed {
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 		| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 		| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-		| 'cosmos' | 'blue-border' | 'glossy'
+		| 'cosmos' | 'blue-border' | 'glossy' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error' 
+		| '1995-1998-copyright' | 'no-rarity'
 
 	/**
 	 * define the size of the card
@@ -87,7 +88,7 @@ export interface variant_detailed {
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
 	 */
 	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'rainbow'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'rainbow' | 'glitter'
 
 	/**
 	 * list of languages for which this variant is available
@@ -235,6 +236,8 @@ export interface Card {
 			// Black White rare
 			| 'Black White Rare'
 			| 'Mega Hyper Rare'
+			// Japanese Character Rares (since SM11b Dream League)
+			| 'Character Rare' | 'Character Super Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo'

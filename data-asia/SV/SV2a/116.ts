@@ -1,20 +1,17 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV2a"
+import { Card } from "../../../interfaces";
+import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
 		ja: "タッツー",
 		'zh-tw': "墨海馬",
 		th: "ทัททู",
-		id: "Horsea"
+		id: "Horsea",
 	},
 
 	illustrator: "aspara",
-	rarity: "Common",
 	category: "Pokemon",
-	dexId: [116],
 	hp: 60,
 	types: ["Water"],
 
@@ -22,46 +19,64 @@ const card: Card = {
 		ja: "水中を 踊るように 泳いで 渦を つくる。 仲間と 渦の 大きさを 競って 遊ぶ。",
 		'zh-tw': "會在水中跳舞似地游動來製造漩渦。玩耍時會和夥伴 比賽誰做出的漩渦比較大。",
 		th: "ว่ายน้ำราวกับเต้นระบำอยู่ในน้ำทำให้เกิดน้ำวน จะแข่งกับพวกพ้องสร้างน้ำวนขนาดใหญ่เล่นกัน",
-		id: "Horsea berenang bagaikan menari di dalam air dan membuat pusaran. Mereka bermain dengan bertanding siapa yang membuat pusaran paling besar."
+		id: "Horsea berenang bagaikan menari di dalam air dan membuat pusaran. Mereka bermain dengan bertanding siapa yang membuat pusaran paling besar.",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Water"],
-
-		name: {
-			ja: "みずかけ",
-			'zh-tw': "潑水",
-			th: "สาดน้ำ",
-			id: "Guyuran Air"
+	attacks: [
+		{
+			name: {
+				ja: "みずかけ",
+				'zh-tw': "潑水",
+				th: "สาดน้ำ",
+				id: "Guyuran Air",
+			},
+			damage: 10,
+			cost: ["Water"],
 		},
-
-		damage: 10
-	}, {
-		cost: ["Water", "Colorless", "Colorless"],
-
-		name: {
-			ja: "するどいひれ",
-			'zh-tw': "銳利鰭",
-			th: "ครีบแหลมคม",
-			id: "Sirip Tajam"
+		{
+			name: {
+				ja: "するどいひれ",
+				'zh-tw': "銳利鰭",
+				th: "ครีบแหลมคม",
+				id: "Sirip Tajam",
+			},
+			damage: 40,
+			cost: ["Water", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 40
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719569,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837458,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837459,
+			},
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "G",
+	rarity: "Common",
+	dexId: [116],
+};
 
-	thirdParty: {
-		cardmarket: 719569
-	}
-}
-
-export default card
+export default card;

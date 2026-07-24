@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "BlaineのVulpix",
+		ja: "カツラのロコン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Common",
 	category: "Pokemon",
@@ -19,6 +20,7 @@ const card: Card = {
 			name: {
 				ja: "自然の癒し",
 			},
+			type: "Pokemon Power",
 			effect: {
 				ja: "ターン中に（攻撃の前）</em> </em>、BlaineのVulpixから1つのダメージカウンターを削除できます。 BlaineのVulpixが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
 			},
@@ -42,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575305
+			},
 		},
 	],
 };

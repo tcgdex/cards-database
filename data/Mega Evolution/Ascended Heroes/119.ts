@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Carkol"
 	},
 
+	evolveFrom: {
+		en: "Rolycoly",
+		fr: "Charbi",
+		es: "Rolycoly",
+		'es-mx': "Rolycoly",
+		de: "Klonkett",
+		it: "Rolycoly",
+		pt: "Rolycoly",
+	},
+
 	illustrator: "Apios",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [838],
 	hp: 110,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -86,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870323,
+			cardmarket: 870324,
 			tcgplayer: 676946
 		}
 	},
@@ -94,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870324,
+			cardmarket: 870323,
 			tcgplayer: 677086
 		}
 	},

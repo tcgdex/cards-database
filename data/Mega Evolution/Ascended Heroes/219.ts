@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Beautifly"
 	},
 
+	evolveFrom: {
+		en: "Silcoon",
+		fr: "Armulys",
+		es: "Silcoon",
+		'es-mx': "Silcoon",
+		de: "Schaloko",
+		it: "Silcoon",
+		pt: "Silcoon",
+	},
+
 	illustrator: "Mori Yuu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [267],
 	hp: 130,
 	types: ["Grass"],
 	stage: "Stage2",

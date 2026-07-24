@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "osare",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [263],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -62,7 +63,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870341,
+			cardmarket: 870342,
 			tcgplayer: 676955
 		}
 	},
@@ -70,7 +71,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870342,
+			cardmarket: 870341,
 			tcgplayer: 677095
 		}
 	},

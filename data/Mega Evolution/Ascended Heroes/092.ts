@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "mingo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [479],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -100,7 +101,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870279,
+			cardmarket: 870280,
 			tcgplayer: 676924
 		}
 	},
@@ -108,7 +109,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870280,
+			cardmarket: 870279,
 			tcgplayer: 677064
 		}
 	},

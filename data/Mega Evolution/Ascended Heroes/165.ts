@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoko Hishida",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [300],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -62,7 +63,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870391,
+			cardmarket: 870392,
 			tcgplayer: 676980
 		}
 	},
@@ -70,7 +71,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870392,
+			cardmarket: 870391,
 			tcgplayer: 677120
 		}
 	},

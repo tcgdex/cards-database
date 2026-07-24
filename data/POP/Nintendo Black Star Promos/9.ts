@@ -32,11 +32,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
-
-
-
-
-
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['winner'],
+			thirdParty: {
+				tcgplayer: 84399
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['winner'],
+			size: 'jumbo',
+		}
+	]
 }
 
 export default card

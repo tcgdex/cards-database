@@ -78,14 +78,14 @@ const card: Card = {
 		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
 	},
 
-	thirdParty: {
-		cardmarket: 273953,
-		tcgplayer: 42502
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273953,
+				tcgplayer: 42502
+			}
 		}
 	]
 }

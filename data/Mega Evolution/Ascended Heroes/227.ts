@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Dsuke",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [361],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",

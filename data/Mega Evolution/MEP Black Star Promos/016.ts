@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
-	rarity: "Promo",
+  rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
@@ -29,7 +29,7 @@ const card: Card = {
 		it: "Vibrava",
 		pt: "Vibrava",
 		de: "Vibrava"
-		'es-mx': "Vibrava",
+		'es-mx': "Vibrava"
 	},
 
 	abilities: [{

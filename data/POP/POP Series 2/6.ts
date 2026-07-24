@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [3],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -41,7 +39,7 @@ const card: Card = {
 				fr: "« Grand rayon solaire »"
 			},
 			effect: {
-				en: "Does 20 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 20,
@@ -59,7 +57,7 @@ const card: Card = {
 				fr: "« Herbe forte »"
 			},
 			effect: {
-				en: "Venusaur can’t use Hard Plant during your next turn.",
+				en: "Venusaur can't use Hard Plant during your next turn.",
 				fr: "Florizarre ne peut pas utiliser Herbe forte lors de votre prochain tour."
 			},
 			damage: 80,
@@ -72,20 +70,25 @@ const card: Card = {
 			type: "Fire"
 		},
 	],
-
 	retreat: 3,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90317,
+				cardmarket: 277437
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90317,
+				cardmarket: 277437
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277437,
-		tcgplayer: 90317
-	}
 }
 
 export default card

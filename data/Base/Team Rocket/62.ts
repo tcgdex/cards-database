@@ -66,18 +66,22 @@ const card: Card = {
 		fr: "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\"."
 	},
 
-	thirdParty: {
-		cardmarket: 274115,
-		tcgplayer: 87313
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274115,
+				tcgplayer: 87313
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274115,
+				tcgplayer: 87313
+			}
 		}
 	]
 }

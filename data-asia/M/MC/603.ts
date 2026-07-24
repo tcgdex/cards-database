@@ -1,0 +1,50 @@
+import { Card } from "../../../interfaces";
+import Set from "../MC";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "チラーミィ",
+	},
+
+	illustrator: "Ayako Ozaki",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		ja: "尻尾で お互いの 体を なでて あいさつ。 尻尾の 手入れを 欠かさず いつも きれいにしている。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "スイープビンタ" },
+			damage: "20×",
+			cost: ["Colorless"],
+			effect: {
+				ja: "コインを2回投げ、オモテの数×20ダメージ。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 863905,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "None",
+	dexId: [572],
+};
+
+export default card;

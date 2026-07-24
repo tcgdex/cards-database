@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [720],
 	hp: 120,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -94,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870357,
+			cardmarket: 870358,
 			tcgplayer: 676963
 		}
 	},
@@ -102,7 +103,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870358,
+			cardmarket: 870357,
 			tcgplayer: 677103
 		}
 	},

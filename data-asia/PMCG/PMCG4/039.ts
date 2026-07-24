@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "マンキー",
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [56],
@@ -39,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575729
+			},
 		},
 	],
 };

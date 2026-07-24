@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "ゴルバット",
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [42],
@@ -38,6 +39,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575698
+			},
 		},
 	],
 };

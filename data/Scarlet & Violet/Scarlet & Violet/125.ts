@@ -76,10 +76,11 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	description: {
 		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",

@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Bisharp"
 	},
 
+	evolveFrom: {
+		en: "Pawniard",
+		fr: "Scalpion",
+		es: "Pawniard",
+		'es-mx': "Pawniard",
+		de: "Gladiantri",
+		it: "Pawniard",
+		pt: "Pawniard",
+	},
+
 	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [625],
 	hp: 120,
 	types: ["Metal"],
 	stage: "Stage1",
@@ -78,7 +89,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870365,
+			cardmarket: 870366,
 			tcgplayer: 676967
 		}
 	},
@@ -86,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870366,
+			cardmarket: 870365,
 			tcgplayer: 677107
 		}
 	},

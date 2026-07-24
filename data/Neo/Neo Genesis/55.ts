@@ -75,18 +75,22 @@ const card: Card = {
 		fr: "Il lance des arcs électriques positifs et négatifs entre ses antennes et électrocute ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274455,
-		tcgplayer: 84300
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274455,
+				tcgplayer: 84300
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274455,
+				tcgplayer: 84300
+			}
 		}
 	]
 }

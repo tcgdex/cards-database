@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1024],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -84,7 +85,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870413,
+			cardmarket: 870414,
 			tcgplayer: 676991
 		}
 	},
@@ -92,7 +93,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870414,
+			cardmarket: 870413,
 			tcgplayer: 677131
 		}
 	},

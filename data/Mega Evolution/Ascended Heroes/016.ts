@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoriyuki Ikegami",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [406],
 	hp: 30,
 	types: ["Grass"],
 	stage: "Basic",
@@ -70,7 +71,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "friendball",
 			thirdParty: {
-				cardmarket: 870161,
+				cardmarket: 870162,
 				tcgplayer: 676865
 			}
 		},
@@ -78,7 +79,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "energy",
 			thirdParty: {
-				cardmarket: 870162,
+				cardmarket: 870161,
 				tcgplayer: 677005
 			}
 		},

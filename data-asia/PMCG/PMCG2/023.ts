@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Vaporeon",
+		ja: "シャワーズ",
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [134],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576650
+			},
 		},
 	],
 };

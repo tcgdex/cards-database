@@ -26,6 +26,7 @@ const card: Card = {
 	illustrator: "Teeziro",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [478],
 	hp: 310,
 	types: ["Water"],
 	stage: "Stage1",

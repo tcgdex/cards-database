@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [244],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Basic",
@@ -72,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870177,
+			cardmarket: 870178,
 			tcgplayer: 676873
 		}
 	},
@@ -80,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870178,
+			cardmarket: 870177,
 			tcgplayer: 677013
 		}
 	},

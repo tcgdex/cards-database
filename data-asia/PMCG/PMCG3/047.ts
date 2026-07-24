@@ -7,12 +7,16 @@ const card: Card = {
 		ja: "リサイクル",
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575674
+			},
 		},
 	],
 };

@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Slurpuff"
 	},
 
+	evolveFrom: {
+		en: "Swirlix",
+		fr: "Sucroquin",
+		es: "Swirlix",
+		'es-mx': "Swirlix",
+		de: "Flauschling",
+		it: "Swirlix",
+		pt: "Swirlix",
+	},
+
 	illustrator: "Yoshimoto Yoshimon",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [685],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Stage1",

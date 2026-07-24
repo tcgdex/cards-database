@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Togekiss"
 	},
 
+	evolveFrom: {
+		en: "Togetic",
+		fr: "Togetic",
+		es: "Togetic",
+		'es-mx': "Togetic",
+		de: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+	},
+
 	illustrator: "Narano",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [468],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage2",
@@ -86,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870263,
+			cardmarket: 870264,
 			tcgplayer: 676916
 		}
 	},
@@ -94,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870264,
+			cardmarket: 870263,
 			tcgplayer: 677056
 		}
 	},

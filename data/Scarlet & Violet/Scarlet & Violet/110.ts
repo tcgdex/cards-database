@@ -53,9 +53,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	description: {
 		en: "It never skips its daily yoga training. It heightens its inner strength through meditation.",

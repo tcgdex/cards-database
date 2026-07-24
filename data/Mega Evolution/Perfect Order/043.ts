@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Barbaracle"
 	},
 
+	evolveFrom: {
+		en: "Binacle",
+		fr: "Opermine",
+		es: "Binacle",
+		'es-mx': "Binacle",
+		de: "Bithora",
+		it: "Binacle",
+		pt: "Binacle",
+	},
+
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Uncommon",
 	category: "Pokemon",

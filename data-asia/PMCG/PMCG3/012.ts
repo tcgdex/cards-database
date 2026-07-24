@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "シェルダー",
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [90],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575675
+			},
 		},
 	],
 };

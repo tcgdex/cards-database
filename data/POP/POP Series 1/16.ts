@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		348,
-	],
+	dexId: [348],
 
 	hp: 160,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -58,7 +56,7 @@ const card: Card = {
 				fr: "Griffes supersoniques"
 			},
 			effect: {
-				en: "This attack’s damage is not affected by Resistance.",
+				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
 			},
 			damage: 80,
@@ -78,10 +76,23 @@ const card: Card = {
 	suffix: "EX",
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 277430,
-		tcgplayer: 83623
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83623,
+				cardmarket: 277430
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 97806,
+				cardmarket: 277430
+			},
+		},
+	],
+
 }
 
 export default card

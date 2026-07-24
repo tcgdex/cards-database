@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "CHORISO",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [303],
 	hp: 90,
 	types: ["Metal"],
 	stage: "Basic",
@@ -90,7 +91,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870361,
+			cardmarket: 870362,
 			tcgplayer: 676965
 		}
 	},
@@ -98,7 +99,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870362,
+			cardmarket: 870361,
 			tcgplayer: 677105
 		}
 	},

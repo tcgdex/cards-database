@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vileplume"
 	},
 
+	evolveFrom: {
+		en: "Gloom",
+		fr: "Ortide",
+		es: "Gloom",
+		'es-mx': "Gloom",
+		de: "Duflor",
+		it: "Gloom",
+		pt: "Gloom",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Jerky",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [602],
 	hp: 40,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -70,7 +71,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870229,
+			cardmarket: 870230,
 			tcgplayer: 676899
 		}
 	},
@@ -78,7 +79,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870230,
+			cardmarket: 870229,
 			tcgplayer: 677039
 		}
 	},

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kariya",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [152],
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
@@ -84,7 +85,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "friendball",
 			thirdParty: {
-				cardmarket: 870147,
+				cardmarket: 870148,
 				tcgplayer: 676858
 			}
 		},
@@ -92,8 +93,16 @@ const card: Card = {
 			type: "reverse",
 			foil: "energy",
 			thirdParty: {
-				cardmarket: 870148,
+				cardmarket: 870147,
 				tcgplayer: 676998
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 878074,
+				tcgplayer: 680709
 			}
 		},
 	],

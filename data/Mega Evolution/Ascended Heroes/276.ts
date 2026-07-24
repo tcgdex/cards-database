@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "booota",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [25],
 	hp: 200,
 	types: ["Lightning"],
 	stage: "Basic",

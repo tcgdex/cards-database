@@ -68,14 +68,14 @@ const card: Card = {
 	description: {
 		en: "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
 	},
-	thirdParty: {
-		cardmarket: 275644,
-		tcgplayer: 46471
-	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275644,
+				tcgplayer: 46471
+			}
 		}
 	]
 }

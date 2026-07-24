@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Charjabug"
 	},
 
+	evolveFrom: {
+		en: "Grubbin",
+		fr: "Larvibule",
+		es: "Grubbin",
+		'es-mx': "Grubbin",
+		de: "Mabula",
+		it: "Grubbin",
+		pt: "Grubbin",
+	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [737],
 	hp: 100,
 	types: ["Lightning"],
 	stage: "Stage1",
@@ -62,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870239,
+			cardmarket: 870240,
 			tcgplayer: 676904
 		}
 	},
@@ -70,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870240,
+			cardmarket: 870239,
 			tcgplayer: 677044
 		}
 	},

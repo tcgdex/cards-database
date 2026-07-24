@@ -4,9 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブレインのマグマー",
+		ja: "カツラのブーバー",
 	},
-
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [126],
@@ -40,6 +40,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575366
+			},
 		},
 	],
 };

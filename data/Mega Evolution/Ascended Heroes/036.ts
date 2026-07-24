@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Cona Nitanda",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [813],
 	hp: 70,
 	types: ["Fire"],
 	stage: "Basic",
@@ -72,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870195,
+			cardmarket: 870196,
 			tcgplayer: 676882
 		}
 	},
@@ -80,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870196,
+			cardmarket: 870195,
 			tcgplayer: 677022
 		}
 	},

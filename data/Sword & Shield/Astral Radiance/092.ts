@@ -58,21 +58,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
 	},
 
-	thirdParty: {
-		cardmarket: 658720,
-		tcgplayer: 272293
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658720,
+				tcgplayer: 272293
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658720,
+				tcgplayer: 272293
+			}
+		},
+	],
 }
 
 export default card

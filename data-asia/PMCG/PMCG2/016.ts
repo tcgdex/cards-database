@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Victreebel",
+		ja: "ウツボット",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [71],
@@ -42,6 +43,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576653
+			},
 		},
 	],
 };

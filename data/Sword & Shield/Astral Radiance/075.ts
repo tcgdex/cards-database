@@ -74,21 +74,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
 	},
 
-	thirdParty: {
-		cardmarket: 658671,
-		tcgplayer: 272276
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658671,
+				tcgplayer: 272276
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658671,
+				tcgplayer: 272276
+			}
+		},
+	],
 }
 
 export default card

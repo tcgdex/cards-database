@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットのスノーラックス",
+		ja: "R団のカビゴン",
 	},
+	illustrator: "Shin-ichi Yoshida",
 
 	rarity: "Rare",
 	category: "Pokemon",
@@ -43,6 +44,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575356
+			},
 		},
 	],
 };

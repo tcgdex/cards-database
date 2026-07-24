@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Medicham"
 	},
 
+	evolveFrom: {
+		en: "Meditite",
+		fr: "Méditikka",
+		es: "Meditite",
+		'es-mx': "Meditite",
+		de: "Meditie",
+		it: "Meditite",
+		pt: "Meditite",
+	},
+
 	illustrator: "GIDORA",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [308],
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -68,7 +79,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870303,
+			cardmarket: 870304,
 			tcgplayer: 676936
 		}
 	},
@@ -76,7 +87,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870304,
+			cardmarket: 870303,
 			tcgplayer: 677076
 		}
 	},

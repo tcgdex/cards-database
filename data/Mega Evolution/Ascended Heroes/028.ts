@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Camerupt"
 	},
 
+	evolveFrom: {
+		en: "Numel",
+		fr: "Chamallot",
+		es: "Numel",
+		'es-mx': "Numel",
+		de: "Camaub",
+		it: "Numel",
+		pt: "Numel",
+	},
+
 	illustrator: "Minahamu",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [323],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -96,7 +107,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870181,
+			cardmarket: 870182,
 			tcgplayer: 676875
 		}
 	},
@@ -104,7 +115,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870182,
+			cardmarket: 870181,
 			tcgplayer: 677015
 		}
 	},

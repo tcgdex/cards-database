@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Staraptor do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Staravia",
+		fr: "Étourvol d'Okuba",
+		es: "Staravia de Laureano",
+		'es-mx': "Staravia de Laureano",
+		de: "Aokis Staravia",
+		it: "Staravia di Ubaldo",
+		pt: "Staravia do Lauro",
+	},
+
 	illustrator: "Po-Suzuki",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -102,7 +112,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870399,
+			cardmarket: 870400,
 			tcgplayer: 676984
 		}
 	},
@@ -110,7 +120,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870400,
+			cardmarket: 870399,
 			tcgplayer: 677124
 		}
 	},

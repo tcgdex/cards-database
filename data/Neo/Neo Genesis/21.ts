@@ -90,18 +90,22 @@ const card: Card = {
 		fr: "Il possède des défenses aiguisées et une peau épaisse. Ses charges sont suffisamment puissantes pour abattre une maison."
 	},
 
-	thirdParty: {
-		cardmarket: 274421,
-		tcgplayer: 84872
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274421,
+				tcgplayer: 84872
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274421,
+				tcgplayer: 84872
+			}
 		}
 	]
 }

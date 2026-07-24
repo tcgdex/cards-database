@@ -71,9 +71,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	description: {
 		en: "It was formed by uniting 108 spirits. It has been bound to the Odd Keystone to keep it from doing any mischief.",

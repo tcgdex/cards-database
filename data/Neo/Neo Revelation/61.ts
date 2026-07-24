@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Once during each player's turn, he or she may flip a coin. If heads, that player removes 2 damage counters from his or her Active Pokémon (1 if it only has 1)."
 	},
 
-	thirdParty: {
-		cardmarket: 274647,
-		tcgplayer: 86041
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274647,
+				tcgplayer: 86041
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274647,
+				tcgplayer: 86041
+			}
 		}
 	]
 }

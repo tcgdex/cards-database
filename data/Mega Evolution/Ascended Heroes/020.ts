@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Orca",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [4],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
@@ -72,6 +73,14 @@ const card: Card = {
 		thirdParty: {
 			cardmarket: 870169,
 			tcgplayer: 677009
+		}
+	},
+	{
+		type: "holo",
+		foil: "cosmos",
+		thirdParty: {
+			cardmarket: 870111,
+			tcgplayer: 677398
 		}
 	},
 ],

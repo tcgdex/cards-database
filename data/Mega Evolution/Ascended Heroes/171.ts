@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [479],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -102,7 +103,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870401,
+			cardmarket: 870402,
 			tcgplayer: 676985
 		}
 	},
@@ -110,7 +111,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870402,
+			cardmarket: 870401,
 			tcgplayer: 677125
 		}
 	},

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Dewgong"
 	},
 
+	evolveFrom: {
+		en: "Seel",
+		fr: "Otaria",
+		es: "Seel",
+		'es-mx': "Seel",
+		de: "Jurob",
+		it: "Seel",
+		pt: "Seel",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 
@@ -85,7 +95,7 @@ const card: Card = {
 		en: "It sleeps under shallow ocean waters during the day, then looks for food at night when it's colder.",
 	},
 
-	illustrator: "Taira Akitsu",
+	illustrator: "satoma",
 	variants: [
 		{
 			type: 'holo',

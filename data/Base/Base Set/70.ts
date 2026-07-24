@@ -22,23 +22,29 @@ const card: Card = {
 		it: "Gioca questa carta come se fosse un Pokémon Base. Mentre è in gioco, Clefairy Doll conta come un Pokémon (non come una carta Addestramento). Clefairy Doll non ha attacchi, non può ritirarsi e non può essere Addormentato, Confuso, Paralizzato o Avvelenato. Se Clefairy Doll viene messo K.O., non conta come un Pokémon messo K.O. In qualsiasi momento durante il tuo turno, prima di attaccare, puoi scartare Clefairy Doll."
 	},
 
-	thirdParty: {
-		cardmarket: 273765,
-		tcgplayer: 42416
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273765,
+				tcgplayer: 42416
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107067
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107067
+			},
 		},
 		{
 			type: "normal",

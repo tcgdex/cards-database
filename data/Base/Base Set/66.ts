@@ -86,23 +86,29 @@ const card: Card = {
 
 	},
 
-	thirdParty: {
-		cardmarket: 273761,
-		tcgplayer: 42411
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273761,
+				tcgplayer: 42411
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107063
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107063
+			},
 		},
 		{
 			type: "normal",

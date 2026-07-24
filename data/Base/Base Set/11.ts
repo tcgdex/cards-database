@@ -96,27 +96,31 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273706,
+				tcgplayer: 42351
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107006
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107006
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273706,
-		tcgplayer: 42351
-	}
+	]
 }
 
 export default card

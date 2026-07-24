@@ -89,15 +89,25 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273707,
+				tcgplayer: 42352
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107008
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107008
+			}
 		},
 		{
 			type: "holo",
@@ -110,11 +120,6 @@ const card: Card = {
 		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
 		fr: "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.",
 		it: "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38"
-	},
-
-	thirdParty: {
-		cardmarket: 273707,
-		tcgplayer: 42352
 	}
 }
 

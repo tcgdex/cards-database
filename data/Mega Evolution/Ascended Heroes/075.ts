@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Clefable"
 	},
 
+	evolveFrom: {
+		en: "Clefairy",
+		fr: "Mélofée",
+		es: "Clefairy",
+		'es-mx': "Clefairy",
+		de: "Piepi",
+		it: "Clefairy",
+		pt: "Clefairy",
+	},
+
 	illustrator: "satoma",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [36],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -84,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870253,
+			cardmarket: 870254,
 			tcgplayer: 676911
 		}
 	},
@@ -92,7 +103,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870254,
+			cardmarket: 870253,
 			tcgplayer: 677051
 		}
 	},

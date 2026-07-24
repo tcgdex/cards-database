@@ -45,21 +45,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Lives on mountains blanketed in perennial snow. It freezes water vapor in the air to make the ice helmet that it dons for defense.",
 	},
 
-	thirdParty: {
-		cardmarket: 658588,
-		tcgplayer: 272247
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658588,
+				tcgplayer: 272247
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658588,
+				tcgplayer: 272247
+			}
+		},
+	],
 }
 
 export default card

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [785],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -94,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870243,
+			cardmarket: 870244,
 			tcgplayer: 676906
 		}
 	},
@@ -102,7 +103,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870244,
+			cardmarket: 870243,
 			tcgplayer: 677046
 		}
 	},

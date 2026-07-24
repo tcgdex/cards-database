@@ -81,9 +81,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	description: {
 		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",

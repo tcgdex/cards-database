@@ -83,21 +83,27 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Some believe it to be a deity that summons rain clouds. When angered, it lets out a warning cry that rings out like the tolling of a bell.",
 	},
 
-	thirdParty: {
-		cardmarket: 658773,
-		tcgplayer: 272337
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658773,
+				tcgplayer: 272337
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658773,
+				tcgplayer: 272337
+			}
+		},
+	],
 }
 
 export default card

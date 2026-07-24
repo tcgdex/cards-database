@@ -50,14 +50,14 @@ const card: Card = {
 		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
 	},
 
-	thirdParty: {
-		cardmarket: 274018,
-		tcgplayer: 42546
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274018,
+				tcgplayer: 42546
+			}
 		}
 	]
 }

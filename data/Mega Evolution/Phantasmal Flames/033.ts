@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Pawmo"
 	},
 
+	evolveFrom: {
+		en: "Pawmi",
+		fr: "Pohm",
+		es: "Pawmi",
+		'es-mx': "Pawmi",
+		de: "Pamo",
+		it: "Pawmi",
+		pt: "Pawmi",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

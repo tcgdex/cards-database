@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Luxray"
 	},
 
+	evolveFrom: {
+		en: "Luxio",
+		fr: "Luxio",
+		es: "Luxio",
+		'es-mx': "Luxio",
+		de: "Luxio",
+		it: "Luxio",
+		pt: "Luxio",
+	},
+
 	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",

@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Amaura"
 	},
 
+	evolveFrom: {
+		en: "Antique Sail Fossil",
+		fr: "Fossile Nageoire Ancien",
+		es: "Fósil Aleta Antiguo",
+		'es-mx': "Fósil Aleta Antiguo",
+		de: "Antikes Flossenfossil",
+		it: "Vecchio Fossilpinna",
+		pt: "Fóssil de Vela Arcaico",
+	},
+
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
 	category: "Pokemon",

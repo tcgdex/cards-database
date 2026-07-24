@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Coalossal"
 	},
 
+	evolveFrom: {
+		en: "Carkol",
+		fr: "Wagomine",
+		es: "Carkol",
+		'es-mx': "Carkol",
+		de: "Wagong",
+		it: "Carkol",
+		pt: "Carkol",
+	},
+
 	illustrator: "Nisota Niso",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [839],
 	hp: 180,
 	types: ["Fighting"],
 	stage: "Stage2",
@@ -94,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870325,
+			cardmarket: 870326,
 			tcgplayer: 676947
 		}
 	},
@@ -102,7 +113,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870326,
+			cardmarket: 870325,
 			tcgplayer: 677087
 		}
 	},

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		222,
-	],
+	dexId: [222],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -60,24 +58,22 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
 		en: "Many live in the clean seas of the south. They apparently can’t live in polluted waters."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84442,
+				cardmarket: 278045
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278045,
-		tcgplayer: 84442
-	}
 }
 
 export default card

@@ -79,7 +79,7 @@ const card: Card = {
 		en: "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
 	},
 
-	illustrator: "Bun Toujo",
+	illustrator: "Orca",
 	variants: [
 		{
 			type: 'holo',

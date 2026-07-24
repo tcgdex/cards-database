@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Banette"
 	},
 
+	evolveFrom: {
+		en: "Shuppet",
+		fr: "Polichombr",
+		es: "Shuppet",
+		'es-mx': "Shuppet",
+		de: "Shuppet",
+		it: "Shuppet",
+		pt: "Shuppet",
+	},
+
 	illustrator: "YASHIRO Nanaco",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [354],
 	hp: 90,
 	types: ["Psychic"],
 	stage: "Stage1",

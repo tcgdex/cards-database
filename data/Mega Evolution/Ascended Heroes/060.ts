@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Eelektrik"
 	},
 
+	evolveFrom: {
+		en: "Tynamo",
+		fr: "Anchwatt",
+		es: "Tynamo",
+		'es-mx': "Tynamo",
+		de: "Zapplardin",
+		it: "Tynamo",
+		pt: "Tynamo",
+	},
+
 	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [603],
 	hp: 90,
 	types: ["Lightning"],
 	stage: "Stage1",
@@ -86,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870231,
+			cardmarket: 870232,
 			tcgplayer: 676900
 		}
 	},
@@ -94,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870232,
+			cardmarket: 870231,
 			tcgplayer: 677040
 		}
 	},

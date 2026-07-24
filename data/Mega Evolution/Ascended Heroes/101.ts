@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Dugtrio da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Diglett",
+		fr: "Taupiqueur de la Team Rocket",
+		es: "Diglett del Team Rocket",
+		'es-mx': "Diglett del Equipo Rocket",
+		de: "Team Rockets Digda",
+		it: "Diglett del Team Rocket",
+		pt: "Diglett da Equipe Rocket",
+	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -86,7 +96,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870297,
+			cardmarket: 870298,
 			tcgplayer: 677073
 		}
 	},
@@ -94,7 +104,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870298,
+			cardmarket: 870297,
 			tcgplayer: 676933
 		}
 	},

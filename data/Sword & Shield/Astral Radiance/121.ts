@@ -92,21 +92,27 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
 	},
 
-	thirdParty: {
-		cardmarket: 658782,
-		tcgplayer: 272356
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658782,
+				tcgplayer: 272356
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658782,
+				tcgplayer: 272356
+			}
+		},
+	],
 }
 
 export default card

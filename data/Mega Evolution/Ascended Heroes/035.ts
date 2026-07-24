@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Salazzle"
 	},
 
+	evolveFrom: {
+		en: "Salandit",
+		fr: "Tritox",
+		es: "Salandit",
+		'es-mx': "Salandit",
+		de: "Molunk",
+		it: "Salandit",
+		pt: "Salandit",
+	},
+
 	illustrator: "Taiga Kasai",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [758],
 	hp: 120,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -94,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870193,
+			cardmarket: 870194,
 			tcgplayer: 676881
 		}
 	},
@@ -102,7 +113,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870194,
+			cardmarket: 870193,
 			tcgplayer: 677021
 		}
 	},

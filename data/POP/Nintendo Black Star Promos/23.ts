@@ -62,9 +62,15 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['stadium-challenge'],
+			thirdParty: {
+				tcgplayer: 87374
+			}
+		}
+	]
 }
 
 export default card

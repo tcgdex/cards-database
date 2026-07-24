@@ -14,6 +14,16 @@ const card: Card = {
 		'es-mx': "Inteleon"
 	},
 
+	evolveFrom: {
+		en: "Drizzile",
+		fr: "Arrozard",
+		de: "Phlegleon",
+		it: "Drizzile",
+		es: "Drizzile",
+		pt: "Drizzile",
+		'es-mx': "Drizzile",
+	},
+
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Promo",
 	category: "Pokemon",

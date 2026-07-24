@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "スターミー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Pokemon",
 	dexId: [121],
@@ -42,7 +43,17 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575594
+			},
 		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577021
+			}
+		}
 	],
 };
 

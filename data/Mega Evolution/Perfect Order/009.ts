@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Vivillon"
 	},
 
+	evolveFrom: {
+		en: "Spewpa",
+		fr: "Pérégrain",
+		es: "Spewpa",
+		'es-mx': "Spewpa",
+		de: "Puponcho",
+		it: "Spewpa",
+		pt: "Spewpa",
+	},
+
 	illustrator: "mingo",
 	rarity: "Uncommon",
 	category: "Pokemon",

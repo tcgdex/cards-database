@@ -84,21 +84,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Cells similar to those of plants have been found in its fur. Its hard tail can fell a large tree with one stroke, and the tail's sharpness exceeds even that of a sword crafted by a master.",
 	},
 
-	thirdParty: {
-		cardmarket: 658506,
-		tcgplayer: 272213
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658506,
+				tcgplayer: 272213
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658506,
+				tcgplayer: 272213
+			}
+		},
+	],
 }
 
 export default card

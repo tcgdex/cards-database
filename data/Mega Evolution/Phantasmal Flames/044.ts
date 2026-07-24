@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Alcremie"
 	},
 
+	evolveFrom: {
+		en: "Milcery",
+		fr: "Crèmy",
+		es: "Milcery",
+		'es-mx': "Milcery",
+		de: "Hokumil",
+		it: "Milcery",
+		pt: "Milcery",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

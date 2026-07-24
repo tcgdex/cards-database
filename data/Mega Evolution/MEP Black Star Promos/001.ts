@@ -14,6 +14,16 @@ const card: Card = {
 		'es-mx': "Meganium"
 	},
 
+	evolveFrom: {
+		en: "Bayleef",
+		fr: "Macronium",
+		de: "Lorblatt",
+		it: "Bayleef",
+		es: "Bayleef",
+		pt: "Bayleef",
+		'es-mx': "Bayleef",
+	},
+
 	illustrator: "Uninori",
 	rarity: "Promo",
 	category: "Pokemon",

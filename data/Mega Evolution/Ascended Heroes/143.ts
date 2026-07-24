@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "IKEDA Saki",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1025],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -96,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870359,
+			cardmarket: 870360,
 			tcgplayer: 676964
 		}
 	},
@@ -104,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870360,
+			cardmarket: 870359,
 			tcgplayer: 677104
 		}
 	},

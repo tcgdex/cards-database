@@ -77,21 +77,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "Its lancelike spikes and savage temperament have earned it the nickname \"sea fiend.\" It slurps up poison to nourish itself.",
 	},
 
-	thirdParty: {
-		cardmarket: 658714,
-		tcgplayer: 272292
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658718,
+				tcgplayer: 272292
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658718,
+				tcgplayer: 272292
+			}
+		},
+	],
 }
 
 export default card

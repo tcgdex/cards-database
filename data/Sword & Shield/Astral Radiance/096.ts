@@ -86,21 +86,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	description: {
 		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
 	},
 
-	thirdParty: {
-		cardmarket: 658740,
-		tcgplayer: 272297
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658740,
+				tcgplayer: 272297
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658740,
+				tcgplayer: 272297
+			}
+		},
+	],
 }
 
 export default card

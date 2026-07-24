@@ -59,23 +59,29 @@ const card: Card = {
 		it: "Difende con tenacia il suo territorio. Abbaia e morde per cacciare gli intrusi che osano avvicinarsi. LIV 18 N.58"
 	},
 
-	thirdParty: {
-		cardmarket: 273723,
-		tcgplayer: 42369
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273723,
+				tcgplayer: 42369
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107025
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107025
+			},
 		},
 		{
 			type: "normal",

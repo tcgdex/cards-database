@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Scav",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [780],
 	hp: 130,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -86,7 +87,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870409,
+			cardmarket: 870410,
 			tcgplayer: 676989
 		}
 	},
@@ -94,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870410,
+			cardmarket: 870409,
 			tcgplayer: 677129
 		}
 	},

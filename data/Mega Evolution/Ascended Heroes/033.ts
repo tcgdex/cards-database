@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Darmanitan do N"
 	},
 
+	evolveFrom: {
+		en: "N's Darumaka",
+		fr: "Darumarond de N",
+		es: "Darumaka de N",
+		'es-mx': "Darumaka de N",
+		de: "Ns Flampion",
+		it: "Darumaka di N",
+		pt: "Darumaka do N",
+	},
+
 	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -96,7 +106,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870189,
+			cardmarket: 870190,
 			tcgplayer: 676879
 		}
 	},
@@ -104,7 +114,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870190,
+			cardmarket: 870189,
 			tcgplayer: 677019
 		}
 	},

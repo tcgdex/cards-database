@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Togekiss"
 	},
 
+	evolveFrom: {
+		en: "Togetic",
+		fr: "Togetic",
+		es: "Togetic",
+		'es-mx': "Togetic",
+		de: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+	},
+
 	illustrator: "satoma",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [468],
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Stage2",

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [694],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -62,7 +63,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870235,
+			cardmarket: 870236,
 			tcgplayer: 676902
 		}
 	},
@@ -70,7 +71,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870236,
+			cardmarket: 870235,
 			tcgplayer: 677042
 		}
 	},

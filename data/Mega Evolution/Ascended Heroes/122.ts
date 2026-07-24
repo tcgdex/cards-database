@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1014],
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -86,7 +87,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870327,
+			cardmarket: 870328,
 			tcgplayer: 676948
 		}
 	},
@@ -94,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870328,
+			cardmarket: 870327,
 			tcgplayer: 677088
 		}
 	},

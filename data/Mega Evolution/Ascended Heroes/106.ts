@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Whisker",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [338],
 	hp: 110,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -72,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870307,
+			cardmarket: 870308,
 			tcgplayer: 676938
 		}
 	},
@@ -80,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870308,
+			cardmarket: 870307,
 			tcgplayer: 677078
 		}
 	},

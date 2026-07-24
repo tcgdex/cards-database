@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [353],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -68,7 +69,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870275,
+			cardmarket: 870276,
 			tcgplayer: 676922
 		}
 	},
@@ -76,7 +77,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870276,
+			cardmarket: 870275,
 			tcgplayer: 677062
 		}
 	},

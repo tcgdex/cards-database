@@ -58,23 +58,29 @@ const card: Card = {
 		it: "Si trova generalmente nelle centrali elettriche. Facilmente confondibile per una Poké Ball, ha fulminato molte persone. LIV 10 N.100"
 	},
 
-	thirdParty: {
-		cardmarket: 273762,
-		tcgplayer: 42412
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273762,
+				tcgplayer: 42412
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107064
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107064
+			},
 		},
 		{
 			type: "normal",

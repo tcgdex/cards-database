@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Vikavolt"
 	},
 
+	evolveFrom: {
+		en: "Charjabug",
+		fr: "Chrysapile",
+		es: "Charjabug",
+		'es-mx': "Charjabug",
+		de: "Akkup",
+		it: "Charjabug",
+		pt: "Charjabug",
+	},
+
 	illustrator: "Tonji Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [738],
 	hp: 160,
 	types: ["Lightning"],
 	stage: "Stage2",

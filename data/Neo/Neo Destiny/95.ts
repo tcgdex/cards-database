@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order."
 	},
 
-	thirdParty: {
-		cardmarket: 274747,
-		tcgplayer: 88497
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274747,
+				tcgplayer: 88497
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274747,
+				tcgplayer: 88497
+			}
 		}
 	]
 }

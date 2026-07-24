@@ -114,6 +114,10 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["yuka-furusawa"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuta-komatsuda"]
 		}
 	]
 }

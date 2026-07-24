@@ -69,20 +69,24 @@ const card: Card = {
 		fr: "Flottant au bord des côtes, les pêcheurs se font souvent arroser d'acide quand ils en accrochent un."
 	},
 
-	thirdParty: {
-		cardmarket: 273917,
-		tcgplayer: 44458
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273917,
+				tcgplayer: 44458
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273917,
+				tcgplayer: 44458
+			}
 		},
 		{
 			type: "normal",

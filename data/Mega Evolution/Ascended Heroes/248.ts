@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Drakloak"
 	},
 
+	evolveFrom: {
+		en: "Dreepy",
+		fr: "Fantyrm",
+		es: "Dreepy",
+		'es-mx': "Dreepy",
+		de: "Grolldra",
+		it: "Dreepy",
+		pt: "Dreepy",
+	},
+
 	illustrator: "Jerky",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [886],
 	hp: 90,
 	types: ["Dragon"],
 	stage: "Stage1",

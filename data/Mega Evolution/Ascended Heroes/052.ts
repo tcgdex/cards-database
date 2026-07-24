@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Izucch",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [872],
 	hp: 50,
 	types: ["Water"],
 	stage: "Basic",
@@ -62,7 +63,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870219,
+			cardmarket: 870220,
 			tcgplayer: 676894
 		}
 	},
@@ -70,7 +71,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870220,
+			cardmarket: 870219,
 			tcgplayer: 677034
 		}
 	},

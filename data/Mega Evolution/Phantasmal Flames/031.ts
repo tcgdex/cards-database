@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Boltund"
 	},
 
+	evolveFrom: {
+		en: "Yamper",
+		fr: "Voltoutou",
+		es: "Yamper",
+		'es-mx': "Yamper",
+		de: "Voldi",
+		it: "Yamper",
+		pt: "Yamper",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

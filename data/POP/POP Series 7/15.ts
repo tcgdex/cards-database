@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		280,
-	],
+	dexId: [280],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -59,24 +57,22 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88562,
+				cardmarket: 278047
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278047,
-		tcgplayer: 88562
-	}
 }
 
 export default card

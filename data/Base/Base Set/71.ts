@@ -21,23 +21,29 @@ const card: Card = {
 		it: "Scarta 2 delle altre carte che hai in mano, cerca nel tuo mazzo una carta a scelta e pescala. Poi rimischia le carte del mazzo."
 	},
 
-	thirdParty: {
-		cardmarket: 273766,
-		tcgplayer: 42417
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273766,
+				tcgplayer: 42417
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107068
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107068
+			},
 		},
 		{
 			type: "normal",

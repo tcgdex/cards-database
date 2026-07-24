@@ -63,14 +63,14 @@ const card: Card = {
 		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
 	},
 
-	thirdParty: {
-		cardmarket: 274007,
-		tcgplayer: 42535
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274007,
+				tcgplayer: 42535
+			}
 		}
 	]
 }
