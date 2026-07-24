@@ -58,6 +58,11 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",

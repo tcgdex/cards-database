@@ -20,6 +20,9 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fighting"],
+	stage: "Stage1",
+	dexId: [448],
+
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
@@ -29,8 +32,6 @@ const card: Card = {
 		pt: "Riolu",
 		'es-mx': "Riolu"
 	},
-	stage: "Stage1",
-	dexId: [448],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -85,6 +86,11 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
@@ -97,7 +103,8 @@ const card: Card = {
 			type: "holo",
 			size: "jumbo",
 			thirdParty: {
-				cardmarket: 858147
+				cardmarket: 858147,
+				tcgplayer: 663178
 			}
 		},
 	],

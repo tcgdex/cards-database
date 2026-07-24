@@ -51,7 +51,10 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "J",
 
-	
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
 
 	variants: [
 		{

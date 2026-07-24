@@ -12,14 +12,6 @@ const card: Card = {
 		it: "Mega Feraligatr-ex",
 		pt: "Mega Feraligatr ex"
 	},
-	evolveFrom: {
-		en: "Croconaw",
-		de: "Tyracroc",
-		es: "Croconaw",
-		fr: "Crocrodil",
-		it: "Croconaw",
-		pt: "Croconaw",
-	},
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
@@ -29,6 +21,15 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Stage2",
 	dexId: [160],
+
+	evolveFrom: {
+		en: "Croconaw",
+		de: "Tyracroc",
+		es: "Croconaw",
+		fr: "Crocrodil",
+		it: "Croconaw",
+		pt: "Croconaw",
+	},
 
 	attacks: [{
 		cost: ["Water", "Water", "Colorless"],
@@ -71,9 +72,13 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			size: "jumbo"
-		},
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 873722,
+        		tcgplayer: 692117
+        	}
+        },
 	],
 }
 

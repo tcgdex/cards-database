@@ -12,14 +12,6 @@ const card: Card = {
 		it: "Mega Meganium-ex",
 		pt: "Mega Meganium ex"
 	},
-	evolveFrom: {
-		en: "Bayleef",
-		de: "Lorblatt",
-		es: "Bayleef",
-		fr: "Macronium",
-		it: "Bayleef",
-		pt: "Bayleef",
-	},
 
 	suffix: "ex",
 	illustrator: "5ban Graphics",
@@ -29,6 +21,15 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Stage2",
 	dexId: [154],
+
+	evolveFrom: {
+		en: "Bayleef",
+		de: "Lorblatt",
+		es: "Bayleef",
+		fr: "Macronium",
+		it: "Bayleef",
+		pt: "Bayleef",
+	},
 
 	attacks: [{
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -71,9 +72,13 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			size: "jumbo"
-		},
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 873718,
+        		tcgplayer: 692115
+        	}
+        },
 	],
 }
 

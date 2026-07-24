@@ -32,6 +32,16 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [818],
 
+	evolveFrom: {
+		en: "Drizzile",
+		fr: "Arrozard",
+		de: "Phlegleon",
+		it: "Drizzile",
+		es: "Drizzile",
+		pt: "Drizzile",
+		'es-mx': "Drizzile"
+	},
+
 	attacks: [{
 		cost: ["Water"],
 
@@ -83,19 +93,26 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Lightning",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 851045
+				cardmarket: 851045,
+				tcgplayer: 654596
 			}
 		},
 		{
 			type: "holo",
 			stamp: ["set-logo","staff"],
 			thirdParty: {
-				cardmarket: 851046
+				cardmarket: 851046,
+				tcgplayer: 656802
 			}
 		},
 	],

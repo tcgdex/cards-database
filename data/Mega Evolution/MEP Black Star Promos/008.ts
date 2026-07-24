@@ -30,6 +30,15 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [55],
 
+	evolveFrom: {
+		en: "Psyduck",
+		fr: "Psykokwak",
+		es: "Psyduck",
+		it: "Psyduck",
+		pt: "Psyduck",
+		de: "Enton"
+	},
+
 	abilities: [{
 		type: "Ability",
 
@@ -78,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "x2"
+	}],
 
 	variants: [
 		{

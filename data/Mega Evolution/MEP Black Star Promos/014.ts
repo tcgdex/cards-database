@@ -14,22 +14,23 @@ const card: Card = {
 		pt: "Ceruledge"
 	},
 
-	evolveFrom: {
+	illustrator: "Anesaki Dynamic",
+  rarity: "Promo",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Fire"],
+	stage: "Stage1",
+	dexId: [937],
+
+  evolveFrom: {
 		en: "Charcadet",
 		fr: "Charbambin",
 		es: "Charcadet",
 		'es-mx': "Charcadet",
 		de: "Knarbon",
 		it: "Charcadet",
-		pt: "Charcadet",
-	},
-
-	rarity: "Promo",
-	category: "Pokemon",
-	dexId: [937],
-	hp: 140,
-	types: ["Fire"],
-	stage: "Stage1",
+		pt: "Charcadet"
+  },
 
 	attacks: [{
 		cost: ["Fire"],
@@ -56,25 +57,30 @@ const card: Card = {
 
 		damage: 220
     }],
-    
-	illustrator: "Anesaki Dynamic",
 
 	retreat: 2,
     regulationMark: "I",
+
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
 
     variants: [
     	{
     		type: "holo",
     		stamp: ["set-logo"],
     		thirdParty: {
-    			cardmarket: 857390
+    			cardmarket: 857390,
+    			tcgplayer: 663187
     		}
     	},
     	{
     		type: "holo",
     		stamp: ["set-logo","staff"],
     		thirdParty: {
-    			cardmarket: 859014
+    			cardmarket: 859014,
+    			tcgplayer: 663188
     		}
     	},
     ],

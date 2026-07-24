@@ -70,9 +70,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 888506,
+				tcgplayer: 694694
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 889722,
+				tcgplayer: 694695
+			}
+		},
+	],
 }
 
 export default card

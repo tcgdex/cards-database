@@ -97,9 +97,24 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 884756,
+				tcgplayer: 694686
+
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 884757,
+				tcgplayer: 694687
+
+			}
+		},
+	],
 }
 
 export default card
