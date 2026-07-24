@@ -95,7 +95,7 @@ const card: Card = {
 		en: "It sleeps under shallow ocean waters during the day, then looks for food at night when it's colder.",
 	},
 
-	illustrator: "Taira Akitsu",
+	illustrator: "satoma",
 	variants: [
 		{
 			type: 'holo',
