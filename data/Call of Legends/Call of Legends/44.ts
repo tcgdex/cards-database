@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		136,
-	],
+	dexId: [136],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -68,7 +66,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -78,10 +76,23 @@ const card: Card = {
 		en: "It stores some of the air it inhales in its internal flame pouch, which heats it to over 3,000 degrees Fahrenheit.",
 	},
 
-	thirdParty: {
-		cardmarket: 279687,
-		tcgplayer: 85499
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85499,
+				cardmarket: 279687
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85499,
+				cardmarket: 279687
+			},
+		},
+	],
+
 }
 
 export default card

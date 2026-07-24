@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		205,
-	],
+	dexId: [205],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				de: "Spiegelsalve"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
@@ -65,7 +63,7 @@ const card: Card = {
 				fr: "Inflige 30 dégâts multipliés par le nombre de et de Foretress que vous avez en jeu. Cette attaque inflige 30 dégâts à chacun de vos Pomdepik et Foretress en jeu.",
 				de: "Dieser Angriff fügt 30 Schadenspunkte für jedes Tannza und Forstellka, das du im Spiel hast, zu. Dieser Angriff fügt jedem Tannza und Forstellka, das du im Spiel hast, 30 Schadenspunkte zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -73,10 +71,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -90,10 +87,23 @@ const card: Card = {
 		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
 	},
 
-	thirdParty: {
-		cardmarket: 279648,
-		tcgplayer: 85553
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85553,
+				cardmarket: 279648
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85553,
+				cardmarket: 279648
+			},
+		},
+	],
+
 }
 
 export default card

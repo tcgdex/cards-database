@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [110],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -70,7 +68,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
@@ -80,10 +78,23 @@ const card: Card = {
 		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
 	},
 
-	thirdParty: {
-		cardmarket: 279681,
-		tcgplayer: 90565
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90565,
+				cardmarket: 279681
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90565,
+				cardmarket: 279681
+			},
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		236,
-	],
+	dexId: [236],
 
 	hp: 30,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -63,10 +61,24 @@ const card: Card = {
 		en: "Even though it is small, it can't be ignored because it will slug any handy target without warning.",
 	},
 
-	thirdParty: {
-		cardmarket: 279679,
-		tcgplayer: 90132
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90132,
+				cardmarket: 279679
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90132,
+				cardmarket: 279679
+			},
+		},
+	],
+
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuri Umemura",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		382,
-	],
+	dexId: [382],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -50,19 +48,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
 		en: "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon.",
 	},
 
-	thirdParty: {
-		cardmarket: 279655
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86551,
+				cardmarket: 279655
+			},
+		},
+	],
+
 }
 
 export default card

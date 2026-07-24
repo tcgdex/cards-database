@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Noriko Hotta",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		384,
-	],
+	dexId: [384],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,26 +49,31 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it.",
 	},
 
-	thirdParty: {
-		cardmarket: 279663
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88629,
+				cardmarket: 279663
+			},
+		},
+	],
+
 }
 
 export default card

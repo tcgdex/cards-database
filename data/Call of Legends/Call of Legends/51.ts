@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		336,
-	],
+	dexId: [336],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -65,20 +63,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
 	},
 
-	thirdParty: {
-		cardmarket: 279694,
-		tcgplayer: 89088
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89088,
+				cardmarket: 279694
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89088,
+				cardmarket: 279694
+			},
+		},
+	],
+
 }
 
 export default card

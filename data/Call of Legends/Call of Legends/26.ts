@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		210,
-	],
+	dexId: [210],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -74,7 +72,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
@@ -84,10 +82,23 @@ const card: Card = {
 		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
 	},
 
-	thirdParty: {
-		cardmarket: 279669,
-		tcgplayer: 85866
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85866,
+				cardmarket: 279669
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85866,
+				cardmarket: 279669
+			},
+		},
+	],
+
 }
 
 export default card

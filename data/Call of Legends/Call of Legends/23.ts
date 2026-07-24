@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 120,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -72,10 +70,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
@@ -89,10 +86,23 @@ const card: Card = {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
 	},
 
-	thirdParty: {
-		cardmarket: 279666,
-		tcgplayer: 83546
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83546,
+				cardmarket: 279666
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83546,
+				cardmarket: 279666
+			},
+		},
+	],
+
 }
 
 export default card

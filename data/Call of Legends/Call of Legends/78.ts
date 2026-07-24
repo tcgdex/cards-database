@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Lancez 2 pièces. Pour chaque côté face, cherchez un Pokémon de base dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Dans ce cas, mélangez ensuite votre deck.",
 	},
 
-	thirdParty: {
-		cardmarket: 279721,
-		tcgplayer: 84989
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84989,
+				cardmarket: 279721
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84989,
+				cardmarket: 279721
+			},
+		},
+	],
+
 }
 
 export default card

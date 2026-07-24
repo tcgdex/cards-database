@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		114,
-	],
+	dexId: [114],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -66,27 +64,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
 	},
 
-	thirdParty: {
-		cardmarket: 279715,
-		tcgplayer: 89748
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89748,
+				cardmarket: 279715
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89748,
+				cardmarket: 279715
+			},
+		},
+	],
+
 }
 
 export default card

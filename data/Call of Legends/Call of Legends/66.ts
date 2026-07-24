@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		231,
-	],
+	dexId: [231],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Ultra-thick Skin",
+				en: "Ultra-Thick Skin",
 				fr: "Peau ultra-épaisse",
 				de: "Ultradicke Haut"
 			},
 			effect: {
-				en: "As long as Phanpy has any Energy attached to it, any damage done to Phanpy by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				en: "As long as Phanpy has Energy attached to it, any damage done to Phanpy by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tant que Phanpy possède au moins une Énergie, les dégâts infligés à Phanpy par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Solange mindestens 1 Energie an Phanpy angelegt ist, wird Schaden, der Phanpy durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -65,27 +63,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
 	},
 
-	thirdParty: {
-		cardmarket: 279709,
-		tcgplayer: 88004
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88004,
+				cardmarket: 279709
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88004,
+				cardmarket: 279709
+			},
+		},
+	],
+
 }
 
 export default card

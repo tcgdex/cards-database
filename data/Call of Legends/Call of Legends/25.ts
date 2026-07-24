@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		160,
-	],
+	dexId: [160],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -70,7 +68,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
@@ -80,10 +78,23 @@ const card: Card = {
 		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
 	},
 
-	thirdParty: {
-		cardmarket: 279668,
-		tcgplayer: 85422
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85422,
+				cardmarket: 279668
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85422,
+				cardmarket: 279668
+			},
+		},
+	],
+
 }
 
 export default card

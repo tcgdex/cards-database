@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Noriko Hotta",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		417,
-	],
+	dexId: [417],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -65,27 +63,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It's one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
 	},
 
-	thirdParty: {
-		cardmarket: 279661,
-		tcgplayer: 87904
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87904,
+				cardmarket: 279661
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87904,
+				cardmarket: 279661
+			},
+		},
+	],
+
 }
 
 export default card

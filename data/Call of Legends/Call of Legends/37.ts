@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		217,
-	],
+	dexId: [217],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -68,7 +66,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
@@ -78,10 +76,23 @@ const card: Card = {
 		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground.",
 	},
 
-	thirdParty: {
-		cardmarket: 279680,
-		tcgplayer: 90256
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90256,
+				cardmarket: 279680
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90256,
+				cardmarket: 279680
+			},
+		},
+	],
+
 }
 
 export default card

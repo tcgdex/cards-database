@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		159,
-	],
+	dexId: [159],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -69,7 +67,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
@@ -79,10 +77,23 @@ const card: Card = {
 		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
 	},
 
-	thirdParty: {
-		cardmarket: 279684,
-		tcgplayer: 84503
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84503,
+				cardmarket: 279684
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84503,
+				cardmarket: 279684
+			},
+		},
+	],
+
 }
 
 export default card

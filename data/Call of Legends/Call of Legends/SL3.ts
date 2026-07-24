@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuri Umemura",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		244,
-	],
+	dexId: [244],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Turbotempo"
 			},
 			effect: {
-				en: "Entei's Retreat Cost is Colorless less for each Fire Energy attached to Entei.",
+				en: "Entei's Retreat Cost is Colorless Energy less for each Fire Energy attached to Entei.",
 				fr: "Le Coût de retraite de Entei est Colorless de moins pour chaque Énergie Fire attachée à Entei.",
 				de: "Die Rückzugskosten von Entei verringern sich für jede an Entei angelegte -Energie um ."
 			},
@@ -66,19 +64,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
 	},
 
-	thirdParty: {
-		cardmarket: 279641
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85274,
+				cardmarket: 279641
+			},
+		},
+	],
+
 }
 
 export default card

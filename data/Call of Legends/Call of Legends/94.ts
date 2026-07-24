@@ -15,10 +15,20 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 279729,
-		tcgplayer: 84678
-	}
+	types: [
+		"Darkness"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84678,
+				cardmarket: 279729
+			},
+		},
+	],
+
 }
 
 export default card

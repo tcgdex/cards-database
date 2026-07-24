@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		386,
-	],
+	dexId: [386],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -50,20 +48,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
 	},
 
-	thirdParty: {
-		cardmarket: 279639,
-		tcgplayer: 84757
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84757,
+				cardmarket: 279639
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84757,
+				cardmarket: 279639
+			},
+		},
+	],
+
 }
 
 export default card
