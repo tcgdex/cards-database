@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Electabuzz",
+		en: "Lt. Surge's Electabuzz"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Elekid",
+		en: "Elekid"
 	},
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Charge",
+				en: "Charge"
 			},
 			effect: {
-				en: "Take up to 2 Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz",
+				en: "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
 			},
 
 		},
@@ -46,10 +44,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Electric Current",
+				en: "Electric Current"
 			},
 			effect: {
-				en: "Take 1 Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card.",
+				en: "Take 1 Lightning Energy card attached to Lt. Surge's Electabuzz and attach it to 1 of your Benched Pokémon. If you have no Benched Pokémon, discard that Energy card."
 			},
 			damage: 20,
 
@@ -59,16 +57,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274142,
-		tcgplayer: 86852
-	},
 
 	variants: [
 		{
@@ -76,7 +69,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86852,
+				cardmarket: 274142
+			}
 		}
 	]
 }

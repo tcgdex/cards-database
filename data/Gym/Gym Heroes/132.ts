@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Water Energy",
+		en: "Water Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,19 +13,21 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274268,
-		tcgplayer: 90503
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 90503,
+				cardmarket: 274268
+			}
 		}
+	],
+	types: [
+		"Water"
 	]
 }
 

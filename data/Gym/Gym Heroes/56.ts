@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Starmie",
+		en: "Misty's Starmie"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		121,
-	],
+	dexId: [121],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Staryu",
+		en: "Staryu"
 	},
 
 	stage: "Stage1",
@@ -33,12 +31,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
+				en: "Water Gun"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each W Energy attached to Misty's Starmie but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "Does 10 damage plus 10 more damage for each Water Energy attached to Misty's Starmie but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -48,10 +46,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubblebeam",
+				en: "Bubblebeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -61,16 +59,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274192,
-		tcgplayer: 87546
-	},
 
 	variants: [
 		{
@@ -78,7 +71,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87546,
+				cardmarket: 274192
+			}
 		}
 	]
 }

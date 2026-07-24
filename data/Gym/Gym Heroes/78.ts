@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Oddish",
+		en: "Erika's Oddish"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		43,
-	],
+	dexId: [43],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Blot",
+				en: "Blot"
 			},
 			effect: {
-				en: "If there are any damage counters on Erika's Oddish, remove 1 of them.",
+				en: "If there are any damage counters on Erika's Oddish, remove 1 of them."
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sporadic Sponging",
+				en: "Sporadic Sponging"
 			},
 			effect: {
-				en: "If Erika's Oddish has any damage counters on it, flip a coin. If heads, remove 1 of those damage counters.",
+				en: "If Erika's Oddish has any damage counters on it, flip a coin. If heads, remove 1 of those damage counters."
 			},
 			damage: 20,
 
@@ -55,16 +53,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85303
-	},
 
 	variants: [
 		{
@@ -72,7 +65,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85303,
+				cardmarket: 274152
+			}
 		}
 	]
 }

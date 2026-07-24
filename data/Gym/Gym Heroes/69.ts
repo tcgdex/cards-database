@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Onix",
+		en: "Brock's Onix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		95,
-	],
+	dexId: [95],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bellow",
+				en: "Bellow"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 
 		},
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
+				en: "Rock Throw"
 			},
 
 			damage: 30,
@@ -54,16 +52,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
-
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83975
-	},
 
 	variants: [
 		{
@@ -71,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83975,
+				cardmarket: 274151
+			}
 		}
 	]
 }

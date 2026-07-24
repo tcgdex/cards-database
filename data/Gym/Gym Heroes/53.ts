@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Poliwhirl",
+		en: "Misty's Poliwhirl"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		61,
-	],
+	dexId: [61],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Poliwag",
+		en: "Poliwag"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rapids",
+				en: "Rapids"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it.",
+				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
 			},
 			damage: 20,
 
@@ -49,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Punch",
+				en: "Water Punch"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Misty's Poliwhirl. This attack does 30 damage plus 10 damage for each heads.",
+				en: "Flip a number of coins equal to the number of Water Energy attached to Misty's Poliwhirl. This attack does 30 damage plus 10 damage for each heads."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -62,16 +60,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274189,
-		tcgplayer: 87537
-	},
 
 	variants: [
 		{
@@ -79,7 +72,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87537,
+				cardmarket: 274189
+			}
 		}
 	]
 }

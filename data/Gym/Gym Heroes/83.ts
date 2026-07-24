@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Spearow",
+		en: "Lt. Surge's Spearow"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		21,
-	],
+	dexId: [21],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
+				en: "Whirlwind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 10,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wind",
+				en: "Razor Wind"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -55,31 +53,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274153,
-		tcgplayer: 86869
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86869,
+				cardmarket: 274153
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

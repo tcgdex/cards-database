@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Magnemite",
+		en: "Lt. Surge's Magnemite"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 30,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Removal Pulse",
+				en: "Removal Pulse"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it.",
+				en: "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
 			},
 			damage: 10,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Confusion Pulse",
+				en: "Confusion Pulse"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -56,24 +54,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274186,
-		tcgplayer: 86856
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86856,
+				cardmarket: 274186
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

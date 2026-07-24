@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Magmar",
+		en: "Blaine's Magmar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		126,
-	],
+	dexId: [126],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Magby",
+		en: "Magby"
 	},
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Firebreathing",
+				en: "Firebreathing"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -48,10 +46,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Lava Burst",
+				en: "Lava Burst"
 			},
 			effect: {
-				en: "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Energy card you discarded in this way.",
+				en: "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Fire Energy card you discarded in this way."
 			},
 
 		},
@@ -60,16 +58,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274173,
-		tcgplayer: 83873
-	},
 
 	variants: [
 		{
@@ -77,7 +70,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83873,
+				cardmarket: 274173
+			}
 		}
 	]
 }

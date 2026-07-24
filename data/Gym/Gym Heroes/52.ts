@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Spearow",
+		en: "Lt. Surge's Spearow"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		21,
-	],
+	dexId: [21],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
+				en: "Drill Peck"
 			},
 
 			damage: 20,
@@ -40,31 +38,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274188,
-		tcgplayer: 86868
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86868,
+				cardmarket: 274188
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

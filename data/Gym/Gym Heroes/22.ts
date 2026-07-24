@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Rhyhorn",
+		en: "Brock's Rhyhorn"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Toss",
+				en: "Horn Toss"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 20,
 
@@ -45,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
+				en: "Take Down"
 			},
 			effect: {
-				en: "Brock's Rhyhorn does 10 damage to itself.",
+				en: "Brock's Rhyhorn does 10 damage to itself."
 			},
 			damage: 40,
 
@@ -58,10 +56,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -71,18 +68,17 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274158,
-		tcgplayer: 83979
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83979,
+				cardmarket: 274158
+			}
 		}
 	]
 }

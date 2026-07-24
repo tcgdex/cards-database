@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Mankey",
+		en: "Brock's Mankey"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fidget",
+				en: "Fidget"
 			},
 			effect: {
-				en: "Shuffle your deck.",
+				en: "Shuffle your deck."
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
+				en: "Karate Chop"
 			},
 			effect: {
-				en: "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey.",
+				en: "Does 40 damage minus 10 damage for each damage counter on Brock's Mankey."
 			},
 
 		},
@@ -54,24 +52,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83972
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83972,
+				cardmarket: 274151
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Oddish",
+		en: "Erika's Oddish"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		43,
-	],
+	dexId: [43],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Photosynthesis",
+				en: "Photosynthesis"
 			},
 			effect: {
-				en: "All Energy cards attached to Erika's Oddish provide Grass Energy instead of their usual type. This power works even while Erika's Oddish is Asleep, Confused, or Paralyzed.",
-			},
+				en: "All Energy cards attached to Erika's Oddish provide Grass Energy instead of their usual type. This power works even while Erika's Oddish is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -42,10 +40,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
+				en: "Poisonpowder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -54,16 +52,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274183,
-		tcgplayer: 85301
-	},
 
 	variants: [
 		{
@@ -71,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85301,
+				cardmarket: 274183
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Pewter City Gym",
+		en: "Pewter City Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,22 +12,22 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Don't apply Resistance to any attacks made by Pokémon with Brock in their names.",
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Don't apply Resistance to any attacks made by Pokémon with Brock in their names."
 	},
-	thirdParty: {
-		cardmarket: 274251,
-		tcgplayer: 87994
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87994,
+				cardmarket: 274251
+			}
 		}
-	]
+	],
+	trainerType: "Stadium"
 }
 
 export default card

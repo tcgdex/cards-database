@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty",
+		en: "Misty"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,20 +12,19 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), and if the attacking Pokémon has Misty in its name, the attack does 20 more damage to the Defending Pokémon.",
+		en: "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokémon (after applying Weakness and Resistance), and if the attacking Pokémon has Misty in its name, the attack does 20 more damage to the Defending Pokémon."
 	},
-	thirdParty: {
-		cardmarket: 274154,
-		tcgplayer: 87524
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87524,
+				cardmarket: 274154
+			}
 		}
 	]
 }

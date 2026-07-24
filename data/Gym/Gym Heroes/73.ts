@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Vulpix",
+		en: "Brock's Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame",
+				en: "Flame"
 			},
 
 			damage: 20,
@@ -41,12 +39,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				en: "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -54,16 +52,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274209,
-		tcgplayer: 83987
-	},
 
 	variants: [
 		{
@@ -71,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83987,
+				cardmarket: 274209
+			}
 		}
 	]
 }

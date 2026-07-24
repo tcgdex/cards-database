@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Vulpix",
+		en: "Blaine's Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Natural Healing",
+				en: "Natural Healing"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 1 damage counter from Blaine's Vulpix. This power can't be used if Blaine's Vulpix is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Once during your turn (before your attack), you may remove 1 damage counter from Blaine's Vulpix. This power can't be used if Blaine's Vulpix is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Fan",
+				en: "Tail Fan"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 			damage: 20,
 
@@ -56,16 +54,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274201,
-		tcgplayer: 83885
-	},
 
 	variants: [
 		{
@@ -73,7 +66,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83885,
+				cardmarket: 274201
+			}
 		}
 	]
 }

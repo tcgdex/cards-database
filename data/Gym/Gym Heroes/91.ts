@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Abra",
+		en: "Sabrina's Abra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		63,
-	],
+	dexId: [63],
 
 	hp: 40,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Loop",
+				en: "Energy Loop"
 			},
 			effect: {
-				en: "Return a Energy card attached to Sabrina's Abra to your hand in order to use this attack.",
+				en: "Return a Psychic Energy card attached to Sabrina's Abra to your hand in order to use this attack."
 			},
 			damage: 20,
 
@@ -42,24 +40,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274227,
-		tcgplayer: 88863
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88863,
+				cardmarket: 274227
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

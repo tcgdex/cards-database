@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Mankey",
+		en: "Brock's Mankey"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Taunt",
+				en: "Taunt"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
 			},
 
 		},
@@ -41,7 +39,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Light Kick",
+				en: "Light Kick"
 			},
 
 			damage: 10,
@@ -52,24 +50,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274203,
-		tcgplayer: 83971
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83971,
+				cardmarket: 274203
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

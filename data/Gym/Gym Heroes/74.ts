@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Zubat",
+		en: "Brock's Zubat"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		41,
-	],
+	dexId: [41],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
+				en: "Wing Attack"
 			},
 
 			damage: 10,
@@ -41,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Fang",
+				en: "Poison Fang"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -53,31 +51,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83989
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83989,
+				cardmarket: 274151
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Jynx",
+		en: "Sabrina's Jynx"
 	},
 
-	illustrator: "Atsuko Nishida",
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [124],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Smoochum",
+		en: "Smoochum"
 	},
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Good Night",
+				en: "Good Night"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -47,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Good Morning",
+				en: "Good Morning"
 			},
 			effect: {
-				en: "If the Defending Pokémon was Asleep, it is no longer Asleep.",
+				en: "If the Defending Pokémon was Asleep, it is no longer Asleep."
 			},
 			damage: 20,
 
@@ -60,16 +58,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274195,
-		tcgplayer: 88881
-	},
 
 	variants: [
 		{
@@ -77,7 +70,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88881,
+				cardmarket: 274195
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seaking",
+		en: "Misty's Seaking"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		119,
-	],
+	dexId: [119],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Goldeen",
+		en: "Goldeen"
 	},
 
 	stage: "Stage1",
@@ -33,7 +31,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Attack",
+				en: "Horn Attack"
 			},
 
 			damage: 10,
@@ -45,10 +43,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Mud Splash",
+				en: "Mud Splash"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -58,16 +56,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274191,
-		tcgplayer: 87542
-	},
 
 	variants: [
 		{
@@ -75,7 +68,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87542,
+				cardmarket: 274191
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock",
+		en: "Brock"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,20 +12,19 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
+		en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it."
 	},
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83960
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83960,
+				cardmarket: 274151
+			}
 		}
 	]
 }

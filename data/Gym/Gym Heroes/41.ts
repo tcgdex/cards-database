@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Lickitung",
+		en: "Brock's Lickitung"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		108,
-	],
+	dexId: [108],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -30,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tongue Slap",
+				en: "Tongue Slap"
 			},
 
 			damage: 20,
@@ -43,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slam",
+				en: "Slam"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 	],
@@ -56,10 +54,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -69,18 +66,17 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274177,
-		tcgplayer: 83970
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83970,
+				cardmarket: 274177
+			}
 		}
 	]
 }

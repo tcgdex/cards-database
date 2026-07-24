@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Raichu",
+		en: "Lt. Surge's Raichu"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
+		en: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Mega Punch",
+				en: "Mega Punch"
 			},
 
 			damage: 30,
@@ -48,10 +46,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
+				en: "Thunderbolt"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack.",
+				en: "Discard all Energy cards attached to Lt. Surge's Raichu in order to use this attack."
 			},
 			damage: 100,
 
@@ -61,16 +59,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274164,
-		tcgplayer: 86862
-	},
 
 	variants: [
 		{
@@ -78,7 +71,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86862,
+				cardmarket: 274164
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Rhyhorn",
+		en: "Brock's Rhyhorn"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Tackle",
+				en: "Drill Tackle"
 			},
 			effect: {
-				en: "Flip 2 coins. If 1 or both of them are tails, this attack does nothing.",
+				en: "Flip 2 coins. If 1 or both of them are tails, this attack does nothing."
 			},
 
 		},
@@ -42,10 +40,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -55,18 +52,17 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83980
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83980,
+				cardmarket: 274151
+			}
 		}
 	]
 }

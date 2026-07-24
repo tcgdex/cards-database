@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Sandshrew",
+		en: "Brock's Sandshrew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		27,
-	],
+	dexId: [27],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Defense Curl",
+				en: "Defense Curl"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Brock's Sandshrew during your opponent's next turn. (Any other effects of attacks still happen.)",
+				en: "Flip a coin. If heads, prevent all damage done to Brock's Sandshrew during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -42,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rolling Attack",
+				en: "Rolling Attack"
 			},
 
 			damage: 20,
@@ -53,10 +51,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -66,18 +63,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274207,
-		tcgplayer: 83981
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83981,
+				cardmarket: 274207
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Bellsprout",
+		en: "Erika's Bellsprout"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		69,
-	],
+	dexId: [69],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Careless Tackle",
+				en: "Careless Tackle"
 			},
 			effect: {
-				en: "Erika's Bellsprout does 10 damage to itself.",
+				en: "Erika's Bellsprout does 10 damage to itself."
 			},
 			damage: 20,
 
@@ -42,16 +40,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85285
-	},
 
 	variants: [
 		{
@@ -59,7 +52,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85285,
+				cardmarket: 274152
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Psyduck",
+		en: "Misty's Psyduck"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		54,
-	],
+	dexId: [54],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				en: "Scratch"
 			},
 
 			damage: 10,
@@ -40,10 +38,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Call for Friend",
+				en: "Call for Friend"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may search your deck for a Basic Pokémon with Misty in its name and put it onto your Bench. (You can't use this attack if your Bench is full.) Shuffle your deck afterward.",
+				en: "Flip a coin. If heads, you may search your deck for a Basic Pokémon with Misty in its name and put it onto your Bench. (You can't use this attack if your Bench is full.) Shuffle your deck afterward."
 			},
 
 		},
@@ -52,16 +50,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274190,
-		tcgplayer: 87539
-	},
 
 	variants: [
 		{
@@ -69,11 +62,19 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		},
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87539,
+				cardmarket: 274190
+			}
+		},28
 		{
 			type: "normal",
 			stamp: ["wotc"],
+			thirdParty: {
+				tcgplayer: 87539,
+				cardmarket: 274190
+			}
 		}
 	]
 }

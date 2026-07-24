@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Cerulean City Gym",
+		en: "Cerulean City Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,22 +12,22 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless less to retreat his or her Pokémon if it has Misty in its name.",
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless less to retreat his or her Pokémon if it has Misty in its name."
 	},
-	thirdParty: {
-		cardmarket: 274244,
-		tcgplayer: 84157
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 84157,
+				cardmarket: 274244
+			}
 		}
-	]
+	],
+	trainerType: "Stadium"
 }
 
 export default card

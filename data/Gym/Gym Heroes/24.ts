@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Zubat",
+		en: "Brock's Zubat"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		41,
-	],
+	dexId: [41],
 
 	hp: 30,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Alert",
+				en: "Alert"
 			},
 			effect: {
-				en: "Draw a card. Then, switch Brock's Zubat with 1 of your Benched Pokémon. You can't use this attack if your Bench is empty.",
+				en: "Draw a card. Then, switch Brock's Zubat with 1 of your Benched Pokémon. You can't use this attack if your Bench is empty."
 			},
 
 		},
@@ -42,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
+				en: "Wing Attack"
 			},
 
 			damage: 20,
@@ -53,31 +51,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274160,
-		tcgplayer: 83988
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83988,
+				cardmarket: 274160
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Raticate",
+		en: "Lt. Surge's Raticate"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		20,
-	],
+	dexId: [20],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		en: "Rattata"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Fang",
+				en: "Super Fang"
 			},
 			effect: {
-				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).",
+				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
 			},
 
 		},
@@ -45,10 +43,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -58,18 +55,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274187,
-		tcgplayer: 86863
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86863,
+				cardmarket: 274187
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Kangaskhan",
+		en: "Blaine's Kangaskhan"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		115,
-	],
+	dexId: [115],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Child's Punch",
+				en: "Child's Punch"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -43,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "One-Two Punch",
+				en: "One-Two Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage.",
+				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -56,10 +54,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -69,18 +66,17 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274172,
-		tcgplayer: 83871
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83871,
+				cardmarket: 274172
+			}
 		}
 	]
 }

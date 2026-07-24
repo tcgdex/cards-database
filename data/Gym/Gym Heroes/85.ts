@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Goldeen",
+		en: "Misty's Goldeen"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		118,
-	],
+	dexId: [118],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
+				en: "Fury Attack"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -42,10 +40,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Supersonic",
+				en: "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -54,16 +52,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274154,
-		tcgplayer: 87529
-	},
 
 	variants: [
 		{
@@ -71,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87529,
+				cardmarket: 274154
+			}
 		}
 	]
 }

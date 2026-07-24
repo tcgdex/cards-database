@@ -3,39 +3,37 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Tentacruel",
+		en: "Misty's Tentacruel"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		73,
-	],
+	dexId: [73],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Tentacool",
+		en: "Tentacool"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Flee",
+				en: "Flee"
 			},
 			effect: {
-				en: "If an attack does damage to Misty's Tentacruel while it's your Active Pokémon, you may switch it with 1 of your Benched Pokémon, which prevents all other effects of that attack on Misty's Tentacruel. This power can't be used if Misty's Tentacruel is already Asleep, Confused, or Paralyzed.",
-			},
+				en: "If an attack does damage to Misty's Tentacruel while it's your Active Pokémon, you may switch it with 1 of your Benched Pokémon, which prevents all other effects of that attack on Misty's Tentacruel. This power can't be used if Misty's Tentacruel is already Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jellyfish Poison",
+				en: "Jellyfish Poison"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -60,24 +58,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274146,
-		tcgplayer: 87552
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87552,
+				cardmarket: 274146
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

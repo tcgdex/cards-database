@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Exeggcute",
+		en: "Erika's Exeggcute"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		102,
-	],
+	dexId: [102],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Deflector",
+				en: "Deflector"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever Erika's Exeggcute takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)",
+				en: "During your opponent's next turn, whenever Erika's Exeggcute takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Egg Bomb",
+				en: "Egg Bomb"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing to the Defending Pokémon and Erika's Exeggcute does 20 damage to itself.",
+				en: "Flip a coin. If tails, this attack does nothing to the Defending Pokémon and Erika's Exeggcute does 20 damage to itself."
 			},
 
 		},
@@ -54,16 +52,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274179,
-		tcgplayer: 85292
-	},
 
 	variants: [
 		{
@@ -71,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85292,
+				cardmarket: 274179
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Dratini",
+		en: "Erika's Dratini"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		147,
-	],
+	dexId: [147],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Strange Barrier",
+				en: "Strange Barrier"
 			},
 			effect: {
-				en: "Whenever an attack by a Basic Pokémon (including your own) does 20 or more damage to Erika's Dratini (after applying Weakness and Resistance), reduce that damage to 10. (Any other effects of attacks still happen.) This power stops working while Erika's Dratini is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Whenever an attack by a Basic Pokémon (including your own) does 20 or more damage to Erika's Dratini (after applying Weakness and Resistance), reduce that damage to 10. (Any other effects of attacks still happen.) This power stops working while Erika's Dratini is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -42,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tail Strike",
+				en: "Tail Strike"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -61,18 +59,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274178,
-		tcgplayer: 85291
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85291,
+				cardmarket: 274178
+			}
 		}
 	]
 }

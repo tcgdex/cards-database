@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seel",
+		en: "Misty's Seel"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		86,
-	],
+	dexId: [86],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -30,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
+				en: "Aurora Beam"
 			},
 
 			damage: 20,
@@ -41,16 +39,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274224,
-		tcgplayer: 87543
-	},
 
 	variants: [
 		{
@@ -58,7 +51,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87543,
+				cardmarket: 274224
+			}
 		}
 	]
 }

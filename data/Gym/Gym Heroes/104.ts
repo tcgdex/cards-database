@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "The Rocket's Training Gym",
+		en: "The Rocket's Training Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,22 +12,22 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless more to retreat his or her Active Pokémon.",
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless more to retreat his or her Active Pokémon."
 	},
-	thirdParty: {
-		cardmarket: 274240,
-		tcgplayer: 89896
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 89896,
+				cardmarket: 274240
+			}
 		}
-	]
+	],
+	trainerType: "Stadium"
 }
 
 export default card

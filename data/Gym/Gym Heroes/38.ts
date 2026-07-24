@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Geodude",
+		en: "Brock's Geodude"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		74,
-	],
+	dexId: [74],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 10,
@@ -41,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lucky Shot",
+				en: "Lucky Shot"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon and flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) This attack can't be used if your opponent has no Benched Pokémon.",
+				en: "Choose 1 of your opponent's Benched Pokémon and flip a coin. If heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) This attack can't be used if your opponent has no Benched Pokémon."
 			},
 
 		},
@@ -53,16 +51,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274174,
-		tcgplayer: 83963
-	},
 
 	variants: [
 		{
@@ -70,7 +63,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83963,
+				cardmarket: 274174
+			}
 		}
 	]
 }

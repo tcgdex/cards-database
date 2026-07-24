@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Scyther",
+		en: "Rocket's Scyther"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		123,
-	],
+	dexId: [123],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Shadow Images",
+				en: "Shadow Images"
 			},
 			effect: {
-				en: "Whenever Rocket's Scyther is attacked, your opponent flips a coin. If tails, that attack does no damage to Rocket's Scyther. (Any other effects of the attack still happen.) This effect lasts until Rocket's Scyther takes damage (or is Benched or is evolved).",
+				en: "Whenever Rocket's Scyther is attacked, your opponent flips a coin. If tails, that attack does no damage to Rocket's Scyther. (Any other effects of the attack still happen.) This effect lasts until Rocket's Scyther takes damage (or is Benched or is evolved)."
 			},
 
 		},
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blinding Scythe",
+				en: "Blinding Scythe"
 			},
 
 			damage: 40,
@@ -54,10 +52,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -67,18 +64,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274149,
-		tcgplayer: 88788
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88788,
+				cardmarket: 274149
+			}
 		}
 	]
 }

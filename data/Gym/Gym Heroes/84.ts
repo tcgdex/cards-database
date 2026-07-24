@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Voltorb",
+		en: "Lt. Surge's Voltorb"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		100,
-	],
+	dexId: [100],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spin Ball",
+				en: "Spin Ball"
 			},
 			effect: {
-				en: "Flip 1 coin. This attack does 20 damage times the number of heads.",
+				en: "Flip 1 coin. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 		{
@@ -43,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Spin",
+				en: "Double Spin"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],
@@ -56,16 +54,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274220,
-		tcgplayer: 86871
-	},
 
 	variants: [
 		{
@@ -73,7 +66,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86871,
+				cardmarket: 274220
+			}
 		}
 	]
 }

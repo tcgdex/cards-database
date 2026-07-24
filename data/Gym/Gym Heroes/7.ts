@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Fearow",
+		en: "Lt. Surge's Fearow"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		22,
-	],
+	dexId: [22],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Spearow",
+		en: "Spearow"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Repeating Drill",
+				en: "Repeating Drill"
 			},
 			effect: {
-				en: "Flip 5 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 5 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clutch",
+				en: "Clutch"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 30,
 
@@ -62,31 +60,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274143,
-		tcgplayer: 86854
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86854,
+				cardmarket: 274143
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Onix",
+		en: "Brock's Onix"
 	},
 
 	illustrator: "Benimaru Itoh",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		95,
-	],
+	dexId: [95],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Bind",
+				en: "Bind"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -45,10 +43,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Tunneling",
+				en: "Tunneling"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose up to 2 of them. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Onix can't attack during your next turn.",
+				en: "If your opponent has any Benched Pokémon, choose up to 2 of them. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Onix can't attack during your next turn."
 			},
 			damage: 20,
 
@@ -58,16 +56,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274157,
-		tcgplayer: 83974
-	},
 
 	variants: [
 		{
@@ -75,7 +68,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83974,
+				cardmarket: 274157
+			}
 		}
 	]
 }

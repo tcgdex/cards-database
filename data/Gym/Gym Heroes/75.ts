@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Bellsprout",
+		en: "Erika's Bellsprout"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		69,
-	],
+	dexId: [69],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Vine",
+				en: "Poison Vine"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -42,7 +40,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Whip",
+				en: "Vine Whip"
 			},
 
 			damage: 30,
@@ -53,16 +51,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274211,
-		tcgplayer: 85284
-	},
 
 	variants: [
 		{
@@ -70,7 +63,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85284,
+				cardmarket: 274211
+			}
 		}
 	]
 }

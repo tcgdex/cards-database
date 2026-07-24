@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Geodude",
+		en: "Brock's Geodude"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		74,
-	],
+	dexId: [74],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Call for Friend",
+				en: "Call for Friend"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may search your deck for a Basic Pokémon card with Brock in its name and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				en: "Flip a coin. If heads, you may search your deck for a Basic Pokémon card with Brock in its name and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hook Shot",
+				en: "Hook Shot"
 			},
 			effect: {
-				en: "Don't apply Resistance for this attack. (Any other effects that would happen after applying Resistance still happen.)",
+				en: "Don't apply Resistance for this attack. (Any other effects that would happen after applying Resistance still happen.)"
 			},
 			damage: 20,
 
@@ -55,16 +53,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83964
-	},
 
 	variants: [
 		{
@@ -72,7 +65,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83964,
+				cardmarket: 274151
+			}
 		}
 	]
 }

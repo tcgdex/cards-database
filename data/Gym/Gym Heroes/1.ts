@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Moltres",
+		en: "Blaine's Moltres"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		146,
-	],
+	dexId: [146],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Phoenix Flame",
+				en: "Phoenix Flame"
 			},
 			effect: {
-				en: "Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage).",
+				en: "Flip a coin. If tails, shuffle Blaine's Moltres and all cards attached to it into your deck (after doing damage)."
 			},
 			damage: 90,
 
@@ -52,18 +50,17 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274137,
-		tcgplayer: 83875
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83875,
+				cardmarket: 274137
+			}
 		}
 	]
 }

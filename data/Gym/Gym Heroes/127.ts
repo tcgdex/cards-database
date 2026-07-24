@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Fighting Energy",
+		en: "Fighting Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,19 +13,21 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274263,
-		tcgplayer: 85435
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85435,
+				cardmarket: 274263
+			}
 		}
+	],
+	types: [
+		"Fighting"
 	]
 }
 

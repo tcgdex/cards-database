@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Sandslash",
+		en: "Brock's Sandslash"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		28,
-	],
+	dexId: [28],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Sandshrew",
+		en: "Sandshrew"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Needles",
+				en: "Needles"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
 			},
 
 		},
@@ -47,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sandstorm",
+				en: "Sandstorm"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 20,
 
@@ -60,10 +58,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -73,18 +70,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274159,
-		tcgplayer: 83983
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83983,
+				cardmarket: 274159
+			}
 		}
 	]
 }

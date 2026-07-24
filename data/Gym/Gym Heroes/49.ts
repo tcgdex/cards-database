@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Weepinbell",
+		en: "Erika's Weepinbell"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		70,
-	],
+	dexId: [70],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
+		en: "Bellsprout"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleep Poison",
+				en: "Sleep Poison"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep and Poisoned.",
+				en: "The Defending Pokémon is now Asleep and Poisoned."
 			},
 			damage: 10,
 
@@ -49,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
+				en: "Vine Whip"
 			},
 
 			damage: 40,
@@ -60,16 +58,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85311
-	},
 
 	variants: [
 		{
@@ -77,7 +70,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85311,
+				cardmarket: 274152
+			}
 		}
 	]
 }

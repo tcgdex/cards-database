@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Mr. Mime",
+		en: "Sabrina's Mr. Mime"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		122,
-	],
+	dexId: [122],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Mime Jr.",
+		en: "Mime Jr."
 	},
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Sleight of Hand",
+				en: "Sleight of Hand"
 			},
 			effect: {
-				en: "Choose up to 3 cards from your hand and put them on top of your deck. Then search your deck for that many basic Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward.",
+				en: "Choose up to 3 cards from your hand and put them on top of your deck. Then search your deck for that many basic Energy cards. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -46,7 +44,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slap",
+				en: "Slap"
 			},
 
 			damage: 20,
@@ -57,16 +55,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274230,
-		tcgplayer: 88884
-	},
 
 	variants: [
 		{
@@ -74,7 +67,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88884,
+				cardmarket: 274230
+			}
 		}
 	]
 }

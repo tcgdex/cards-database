@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Horsea",
+		en: "Misty's Horsea"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		116,
-	],
+	dexId: [116],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 10,
@@ -41,10 +39,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Smokescreen",
+				en: "Smokescreen"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 20,
 
@@ -54,24 +52,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274222,
-		tcgplayer: 87532
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87532,
+				cardmarket: 274222
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

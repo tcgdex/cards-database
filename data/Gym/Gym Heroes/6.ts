@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Electabuzz",
+		en: "Lt. Surge's Electabuzz"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Elekid",
+		en: "Elekid"
 	},
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Charge",
+				en: "Charge"
 			},
 			effect: {
-				en: "Take up to 2 Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz",
+				en: "Take up to 2 Lightning Energy cards from your discard pile and attach them to Lt. Surge's Electabuzz."
 			},
 
 		},
@@ -45,12 +43,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Discharge",
+				en: "Discharge"
 			},
 			effect: {
-				en: "Discard all Energy cards attach to Lt. Surge's Electabuzz in order to use this attack. Flip a number of coins equal to the number of Energy cards you discarded. This attack does 30 damage times the number of heads.",
+				en: "Discard all Lightning Energy cards attached to Lt. Surge's Electabuzz in order to use this attack. Flip a number of coins equal to the number of Lightning Energy cards you discarded. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 	],
@@ -58,16 +56,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274142,
-		tcgplayer: 86851
-	},
 
 	variants: [
 		{
@@ -75,7 +68,11 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86851,
+				cardmarket: 274142
+			}
 		}
 	]
 }

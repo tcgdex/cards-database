@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Venomoth",
+		en: "Sabrina's Venomoth"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		49,
-	],
+	dexId: [49],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Venonat",
+		en: "Venonat"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Healing Pollen",
+				en: "Healing Pollen"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them.",
+				en: "Flip 3 coins. For each heads, remove 1 damage counter from each of your Pokémon. If a Pokémon has fewer damage counters than the number of heads, remove all of them."
 			},
 
 		},
@@ -45,10 +43,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Sonic Distortion",
+				en: "Sonic Distortion"
 			},
 			effect: {
-				en: "Flip 2 coins. If 1 or both of them are heads, the Defending Pokémon is now Confused.",
+				en: "Flip 2 coins. If 1 or both of them are heads, the Defending Pokémon is now Confused."
 			},
 			damage: 10,
 
@@ -58,31 +56,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274170,
-		tcgplayer: 88890
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88890,
+				cardmarket: 274170
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

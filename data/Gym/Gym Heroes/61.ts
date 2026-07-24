@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Charmander",
+		en: "Blaine's Charmander"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		4,
-	],
+	dexId: [4],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Kindle",
+				en: "Kindle"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Blaine's Charmander in order to use this attack. If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				en: "Discard 1 Energy card attached to Blaine's Charmander in order to use this attack. If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 10,
 
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				en: "Slash"
 			},
 
 			damage: 20,
@@ -54,16 +52,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274197,
-		tcgplayer: 83862
-	},
 
 	variants: [
 		{
@@ -71,7 +64,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83862,
+				cardmarket: 274197
+			}
 		}
 	]
 }

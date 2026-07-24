@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Shellder",
+		en: "Misty's Shellder"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		90,
-	],
+	dexId: [90],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 10,
@@ -41,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Clamp",
+				en: "Clamp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage)."
 			},
 
 		},
@@ -53,16 +51,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274225,
-		tcgplayer: 87545
-	},
 
 	variants: [
 		{
@@ -70,7 +63,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87545,
+				cardmarket: 274225
+			}
 		}
 	]
 }

@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Hitmonchan",
+		en: "Rocket's Hitmonchan"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Tyrogue",
+		en: "Tyrogue"
 	},
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Crosscounter",
+				en: "Crosscounter"
 			},
 			effect: {
-				en: "If an attack does damage to Rocket's Hitmonchan during your opponent's next turn (even if Rocket's Hitmonchan is Knocked Out), flip a coin. If heads, Rocket's Hitmonchan attacks your opponent's Active Pokémon for double that amount of damage. (If Rocket's Hitmonchan takes 20 damage, it does 40 damage to that Pokémon.)",
+				en: "If an attack does damage to Rocket's Hitmonchan during your opponent's next turn (even if Rocket's Hitmonchan is Knocked Out), flip a coin. If heads, Rocket's Hitmonchan attacks your opponent's Active Pokémon for double that amount of damage. (If Rocket's Hitmonchan takes 20 damage, it does 40 damage to that Pokémon.)"
 			},
 
 		},
@@ -47,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Magnum Punch",
+				en: "Magnum Punch"
 			},
 
 			damage: 50,
@@ -58,16 +56,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274147,
-		tcgplayer: 88773
-	},
 
 	variants: [
 		{
@@ -75,12 +68,20 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88773,
+				cardmarket: 274147
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["winner"],
-			size: "jumbo"
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 88773,
+				cardmarket: 274147
+			}
 		}
 	]
 }

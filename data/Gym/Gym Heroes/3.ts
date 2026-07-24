@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Clefable",
+		en: "Erika's Clefable"
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		36,
-	],
+	dexId: [36],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Clefairy",
+		en: "Clefairy"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fairy Power",
+				en: "Fairy Power"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand.",
+				en: "Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand."
 			},
 
 		},
@@ -47,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Moon Impact",
+				en: "Moon Impact"
 			},
 
 			damage: 30,
@@ -58,10 +56,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -71,18 +68,17 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274139,
-		tcgplayer: 85287
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85287,
+				cardmarket: 274139
+			}
 		}
 	]
 }

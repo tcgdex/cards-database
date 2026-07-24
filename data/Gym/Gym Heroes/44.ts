@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Exeggutor",
+		en: "Erika's Exeggutor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		103,
-	],
+	dexId: [103],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
+		en: "Exeggcute"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psychic Exchange",
+				en: "Psychic Exchange"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck, then draw 5 cards.",
+				en: "Shuffle your hand into your deck, then draw 5 cards."
 			},
 
 		},
@@ -47,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
+				en: "Stomp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage.",
+				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -60,16 +58,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274180,
-		tcgplayer: 85294
-	},
 
 	variants: [
 		{
@@ -77,7 +70,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85294,
+				cardmarket: 274180
+			}
 		}
 	]
 }

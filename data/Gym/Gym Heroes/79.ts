@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Tangela",
+		en: "Erika's Tangela"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		114,
-	],
+	dexId: [114],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Vine Slap",
+				en: "Vine Slap"
 			},
 
 			damage: 10,
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stretch Vine",
+				en: "Stretch Vine"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -55,16 +53,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274215,
-		tcgplayer: 85306
-	},
 
 	variants: [
 		{
@@ -72,7 +65,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85306,
+				cardmarket: 274215
+			}
 		}
 	]
 }

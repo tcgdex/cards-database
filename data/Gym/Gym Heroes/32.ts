@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Tentacool",
+		en: "Misty's Tentacool"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		72,
-	],
+	dexId: [72],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mysterious Light",
+				en: "Mysterious Light"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Jellyfish Pod",
+				en: "Jellyfish Pod"
 			},
 			effect: {
-				en: "Search your deck for any number of Pokémon named Tentacool, Tentacruel, Misty's Tentacool, or Misty's Tentacruel. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward.",
+				en: "Search your deck for any number of Pokémon named Tentacool, Tentacruel, Misty's Tentacool, and/or Misty's Tentacruel. Show those cards to your opponent, then put them into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -54,24 +52,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274168,
-		tcgplayer: 87550
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87550,
+				cardmarket: 274168
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

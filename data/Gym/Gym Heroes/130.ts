@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lightning Energy",
+		en: "Lightning Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,18 +13,17 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274266,
-		tcgplayer: 86757
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86757,
+				cardmarket: 274266
+			}
 		}
 	]
 }

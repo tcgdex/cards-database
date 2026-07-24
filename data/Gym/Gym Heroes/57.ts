@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Tentacool",
+		en: "Misty's Tentacool"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		72,
-	],
+	dexId: [72],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Crystal Beam",
+				en: "Crystal Beam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't attach Energy cards to the Defending Pokémon during his or her next turn.",
+				en: "Flip a coin. If heads, your opponent can't attach Energy cards to the Defending Pokémon during his or her next turn."
 			},
 			damage: 20,
 
@@ -43,16 +41,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274154,
-		tcgplayer: 87551
-	},
 
 	variants: [
 		{
@@ -60,7 +53,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87551,
+				cardmarket: 274154
+			}
 		}
 	]
 }

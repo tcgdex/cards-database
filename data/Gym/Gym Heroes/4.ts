@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Dragonair",
+		en: "Erika's Dragonair"
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		148,
-	],
+	dexId: [148],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Dratini",
+		en: "Dratini"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Blizzard",
+				en: "Blizzard"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -51,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Away",
+				en: "Take Away"
 			},
 			effect: {
-				en: "Shuffle Erika's Dragonair and all cards attached to it into your deck. Then, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck.",
+				en: "Shuffle Erika's Dragonair and all cards attached to it into your deck. Then, your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck."
 			},
 
 		},
@@ -69,18 +67,17 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274140,
-		tcgplayer: 85290
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85290,
+				cardmarket: 274140
+			}
 		}
 	]
 }

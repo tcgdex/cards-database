@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Drowzee",
+		en: "Sabrina's Drowzee"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		96,
-	],
+	dexId: [96],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Suggestion",
+				en: "Suggestion"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
+				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
 			},
 
 		},
@@ -42,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Headbutt",
+				en: "Headbutt"
 			},
 
 			damage: 20,
@@ -53,16 +51,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274228,
-		tcgplayer: 88867
-	},
 
 	variants: [
 		{
@@ -70,7 +63,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88867,
+				cardmarket: 274228
+			}
 		}
 	]
 }

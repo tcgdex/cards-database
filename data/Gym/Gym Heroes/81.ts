@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Pikachu",
+		en: "Lt. Surge's Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Pichu",
+		en: "Pichu"
 	},
 
 	stage: "Basic",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Charge",
+				en: "Charge"
 			},
 			effect: {
-				en: "Take 1 Energy card from your discard pile and attach it to Lt. Surge's Pikachu.",
+				en: "Take 1 Lightning Energy card from your discard pile and attach it to Lt. Surge's Pikachu."
 			},
 
 		},
@@ -46,10 +44,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Lightning Tail",
+				en: "Lightning Tail"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -59,16 +57,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274217,
-		tcgplayer: 86859
-	},
 
 	variants: [
 		{
@@ -76,7 +69,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86859,
+				cardmarket: 274217
+			}
 		}
 	]
 }

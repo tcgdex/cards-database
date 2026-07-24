@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Graveler",
+		en: "Brock's Graveler"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		75,
-	],
+	dexId: [75],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Geodude",
+		en: "Geodude"
 	},
 
 	stage: "Stage1",
@@ -35,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Toss",
+				en: "Rock Toss"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],
@@ -48,16 +46,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274176,
-		tcgplayer: 83969
-	},
 
 	variants: [
 		{
@@ -65,7 +58,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83969,
+				cardmarket: 274176
+			}
 		}
 	]
 }

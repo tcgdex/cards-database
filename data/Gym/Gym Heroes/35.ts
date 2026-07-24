@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Growlithe",
+		en: "Blaine's Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Shake",
+				en: "Shake"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 10,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fire Tackle",
+				en: "Fire Tackle"
 			},
 			effect: {
-				en: "Blaine's Growlithe does 10 damage to itself.",
+				en: "Blaine's Growlithe does 10 damage to itself."
 			},
 			damage: 30,
 
@@ -56,16 +54,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274171,
-		tcgplayer: 83868
-	},
 
 	variants: [
 		{
@@ -73,7 +66,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83868,
+				cardmarket: 274171
+			}
 		}
 	]
 }

@@ -3,39 +3,37 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Cloyster",
+		en: "Misty's Cloyster"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		91,
-	],
+	dexId: [91],
 
-	hp: 60,
+	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Shellder",
+		en: "Shellder"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Shell Armor",
+				en: "Shell Armor"
 			},
 			effect: {
-				en: "You may reduce all damage done by attacks to Misty's Cloyster by 10 (after applying Weakness and Resistance). (Any other effects of attacks still happen.) This power can't be used if Misty's Cloyster is Asleep, Confused, or Paralyzed.",
-			},
+				en: "You may reduce all damage done by attacks to Misty's Cloyster by 10 (after applying Weakness and Resistance). (Any other effects of attacks still happen). This power can't be used if Misty's Cloyster is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -47,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Triple Cannon",
+				en: "Triple Cannon"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],
@@ -60,16 +58,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274165,
-		tcgplayer: 87525
-	},
 
 	variants: [
 		{
@@ -77,7 +70,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87525,
+				cardmarket: 274165
+			}
 		}
 	]
 }

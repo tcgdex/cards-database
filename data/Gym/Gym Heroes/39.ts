@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Golbat",
+		en: "Brock's Golbat"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		42,
-	],
+	dexId: [42],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Zubat",
+		en: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -33,7 +31,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dive",
+				en: "Dive"
 			},
 
 			damage: 20,
@@ -46,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Dive",
+				en: "Spiral Dive"
 			},
 			effect: {
-				en: "Does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance.",
+				en: "Does 10 damage to each of your opponent's Pokémon. Don't apply Weakness and Resistance."
 			},
 			damage: 10,
 
@@ -59,10 +57,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -72,18 +69,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274175,
-		tcgplayer: 83966
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83966,
+				cardmarket: 274175
+			}
 		}
 	]
 }

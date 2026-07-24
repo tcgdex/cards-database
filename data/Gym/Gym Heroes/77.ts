@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Exeggcute",
+		en: "Erika's Exeggcute"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		102,
-	],
+	dexId: [102],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Eggsplosion",
+				en: "Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads.",
+				en: "Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -43,12 +41,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psychic",
+				en: "Psychic"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
+				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -56,16 +54,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85293
-	},
 
 	variants: [
 		{
@@ -73,7 +66,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85293,
+				cardmarket: 274152
+			}
 		}
 	]
 }

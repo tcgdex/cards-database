@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
+		en: "Fire Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,19 +13,21 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274264,
-		tcgplayer: 85454
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85454,
+				cardmarket: 274264
+			}
 		}
+	],
+	types: [
+		"Fire"
 	]
 }
 

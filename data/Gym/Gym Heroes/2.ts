@@ -3,39 +3,37 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Rhydon",
+		en: "Brock's Rhydon"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		112,
-	],
+	dexId: [112],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Rhyhorn",
+		en: "Rhyhorn"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Bench Guard",
+				en: "Bench Guard"
 			},
 			effect: {
-				en: "As long as Brock's Rhydon is Benched, whenever 1 of your Benched Pokémon is damaged, you may do 10 of that damage to Brock's Rhydon instead. (If more than 1 of your Benched Pokémon is damaged at the same time, you may use this power once for each of them.)",
-			},
+				en: "As long as Brock's Rhydon is Benched, whenever 1 of your Benched Pokémon is damaged, you may do 10 of that damage to Brock's Rhydon instead. (If more than 1 of your Benched Pokémon is damaged at the same time, you may use this power once for each of them.)"
+			}
 		},
 	],
 
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lariat",
+				en: "Lariat"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -60,10 +58,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -73,18 +70,17 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274138,
-		tcgplayer: 83978
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83978,
+				cardmarket: 274138
+			}
 		}
 	]
 }

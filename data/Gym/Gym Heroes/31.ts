@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Poliwrath",
+		en: "Misty's Poliwrath"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		62,
-	],
+	dexId: [62],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Poliwhirl",
+		en: "Poliwhirl"
 	},
 
 	stage: "Stage2",
@@ -36,10 +34,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Ring",
+				en: "Water Ring"
 			},
 			effect: {
-				en: "Does 10 damage to each Pokémon that isn't on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to each Pokémon that isn't Water on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -49,16 +47,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
-
-	thirdParty: {
-		cardmarket: 274167,
-		tcgplayer: 87538
-	},
 
 	variants: [
 		{
@@ -66,7 +59,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87538,
+				cardmarket: 274167
+			}
 		}
 	]
 }

@@ -3,39 +3,37 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Victreebel",
+		en: "Erika's Victreebel"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		71,
-	],
+	dexId: [71],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Weepinbell",
+		en: "Weepinbell"
 	},
 
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Fragrance Trap",
+				en: "Fragrance Trap"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon. This power can't be used if Erika's Victreebel is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon. This power can't be used if Erika's Victreebel is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -47,7 +45,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Razor Leaf",
+				en: "Razor Leaf"
 			},
 
 			damage: 50,
@@ -58,16 +56,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
-
-	thirdParty: {
-		cardmarket: 274162,
-		tcgplayer: 85308
-	},
 
 	variants: [
 		{
@@ -75,7 +68,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85308,
+				cardmarket: 274162
+			}
 		}
 	]
 }

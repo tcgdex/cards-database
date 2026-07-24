@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gastly",
+		en: "Sabrina's Gastly"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		92,
-	],
+	dexId: [92],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spook",
+				en: "Spook"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -49,18 +47,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274229,
-		tcgplayer: 88870
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88870,
+				cardmarket: 274229
+			}
 		}
 	]
 }

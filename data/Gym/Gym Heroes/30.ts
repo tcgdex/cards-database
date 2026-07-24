@@ -3,22 +3,20 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Goldeen",
+		en: "Misty's Goldeen"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		118,
-	],
+	dexId: [118],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Horn Hazard",
+				en: "Horn Hazard"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -41,24 +39,23 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274166,
-		tcgplayer: 87528
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87528,
+				cardmarket: 274166
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

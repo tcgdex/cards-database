@@ -3,29 +3,28 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika",
+		en: "Erika"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Trainer",
 	set: Set,
 
 	effect: {
-		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards.",
+		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
 	},
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85281
-	},
-
 	variants: [
 		{
 			type: "holo"
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85281,
+				cardmarket: 274152
+			}
 		}
 	]
 }

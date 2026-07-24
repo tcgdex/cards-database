@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Growlithe",
+		en: "Blaine's Growlithe"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Blaze",
+				en: "Blaze"
 			},
 			effect: {
-				en: "Does 10 damage to each Pokémon on your opponent's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to each Grass Pokémon on your opponent's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -43,16 +41,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274171,
-		tcgplayer: 83869
-	},
 
 	variants: [
 		{
@@ -60,7 +53,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83869,
+				cardmarket: 274171
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Sandshrew",
+		en: "Brock's Sandshrew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		27,
-	],
+	dexId: [27],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand Pit",
+				en: "Sand Pit"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -43,10 +41,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -56,18 +53,17 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274151,
-		tcgplayer: 83982
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83982,
+				cardmarket: 274151
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Tauros",
+		en: "Blaine's Tauros"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		128,
-	],
+	dexId: [128],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "3-Pronged Tail",
+				en: "3-Pronged Tail"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -44,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Full Speed Charge",
+				en: "Full Speed Charge"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number tails to Blaine's Tauros.",
+				en: "Flip 4 coins. This attack does 20 damage times the number of heads to the Defending Pokémon and 20 damage times the number of tails to Blaine's Tauros."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],
@@ -57,10 +55,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -70,18 +67,17 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274200,
-		tcgplayer: 83884
-	},
-
 	variants: [
 		{
 			type: "normal"
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83884,
+				cardmarket: 274200
+			}
 		}
 	]
 }

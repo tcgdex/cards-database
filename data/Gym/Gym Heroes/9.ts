@@ -3,26 +3,24 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Seadra",
+		en: "Misty's Seadra"
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		117,
-	],
+	dexId: [117],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Horsea",
+		en: "Horsea"
 	},
 
 	stage: "Stage1",
@@ -33,7 +31,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Tail Snap",
+				en: "Tail Snap"
 			},
 
 			damage: 20,
@@ -46,12 +44,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Knockout Needle",
+				en: "Knockout Needle"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, this attack does 30 damage plus 60 more damage. If 1 or both of them are tails, this attack does 30 damage.",
+				en: "Flip 2 coins. If both of them are heads, this attack does 30 damage plus 60 more damage. If 1 or both of them are tails, this attack does 30 damage."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -59,16 +57,11 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
-
-	thirdParty: {
-		cardmarket: 274145,
-		tcgplayer: 87541
-	},
 
 	variants: [
 		{
@@ -76,11 +69,19 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87541,
+				cardmarket: 274145
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["pre-release"],
+			thirdParty: {
+				tcgplayer: 87541,
+				cardmarket: 274145
+			}
 		}
 	]
 }
