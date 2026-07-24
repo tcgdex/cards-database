@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "De plus en plus de gens tentent leur chance au jackpot quotidiennement pour essayer de gagner un Porygon."
 	},
 
-	thirdParty: {
-		cardmarket: 274101,
-		tcgplayer: 88304
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274101,
+				tcgplayer: 88304
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274101,
+				tcgplayer: 88304
+			}
 		}
 	]
 }

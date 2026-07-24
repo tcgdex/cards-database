@@ -75,18 +75,22 @@ const card: Card = {
 		fr: "Il se téléporte hors du danger, rendant sa capture difficile."
 	},
 
-	thirdParty: {
-		cardmarket: 274102,
-		tcgplayer: 83445
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274102,
+				tcgplayer: 83445
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274102,
+				tcgplayer: 83445
+			}
 		}
 	]
 }

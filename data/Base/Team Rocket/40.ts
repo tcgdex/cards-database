@@ -85,18 +85,22 @@ const card: Card = {
 		fr: "Bien que d'un naturel paisible et amical, le nombre d'incidents mettant en cause des Machopeur cruels va grandissant."
 	},
 
-	thirdParty: {
-		cardmarket: 274093,
-		tcgplayer: 84621
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274093,
+				tcgplayer: 84621
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274093,
+				tcgplayer: 84621
+			}
 		}
 	]
 }

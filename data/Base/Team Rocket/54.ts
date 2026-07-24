@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Il n'a pas vraiment la cote auprès des filles en raison de son mauvais caractère. On le surprend souvent maugréant tout seul à voix basse."
 	},
 
-	thirdParty: {
-		cardmarket: 274107,
-		tcgplayer: 84969
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274107,
+				tcgplayer: 84969
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274107,
+				tcgplayer: 84969
+			}
 		}
 	]
 }

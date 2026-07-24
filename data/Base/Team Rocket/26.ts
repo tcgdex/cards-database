@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles."
 	},
 
-	thirdParty: {
-		cardmarket: 274062,
-		tcgplayer: 84614
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274062,
+				tcgplayer: 84614
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274062,
+				tcgplayer: 84614
+			}
 		}
 	]
 }
