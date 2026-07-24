@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Choose 1 of your evolved Pokémon. Take the highest Stage Evolution card from that Pokémon and put it into your hand. (You can't evolve a Pokémon the turn you devolve it.)"
 	},
 
-	thirdParty: {
-		cardmarket: 274584,
-		tcgplayer: 86245
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274584,
+				tcgplayer: 86245
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274584,
+				tcgplayer: 86245
+			}
 		}
 	]
 }

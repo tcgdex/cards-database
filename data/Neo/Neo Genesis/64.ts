@@ -67,18 +67,22 @@ const card: Card = {
 		fr: "Nageant librement en pleine mer, il peut s'envoler hors de l'eau et par-dessus les vagues s'il prend suffisamment de vitesse."
 	},
 
-	thirdParty: {
-		cardmarket: 274464,
-		tcgplayer: 87179
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274464,
+				tcgplayer: 87179
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274464,
+				tcgplayer: 87179
+			}
 		}
 	]
 }

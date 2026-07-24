@@ -59,14 +59,14 @@ const card: Card = {
 		en: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
 	},
 
-	thirdParty: {
-		cardmarket: 274014,
-		tcgplayer: 42542
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274014,
+				tcgplayer: 42542
+			}
 		}
 	]
 }

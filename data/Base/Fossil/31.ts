@@ -83,20 +83,24 @@ const card: Card = {
 		fr: "Les motifs féroces peints sur son corps changent selon son environnement."
 	},
 
-	thirdParty: {
-		cardmarket: 273892,
-		tcgplayer: 44433
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273892,
+				tcgplayer: 44433
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273892,
+				tcgplayer: 44433
+			}
 		},
 		{
 			type: "normal",

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Lokix"
 	},
 
+	evolveFrom: {
+		en: "Nymble",
+		fr: "Lilliterelle",
+		es: "Nymble",
+		'es-mx': "Nymble",
+		de: "Micrick",
+		it: "Nymble",
+		pt: "Nymble",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

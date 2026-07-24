@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -35,7 +33,7 @@ const card: Card = {
 				fr: "Étincelle"
 			},
 			effect: {
-				en: "Does 10 damage to 2 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 10,
@@ -49,27 +47,39 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88087,
+				cardmarket: 277894
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88087,
+				cardmarket: 277894
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["pokemon-day"],
+			thirdParty: {
+				tcgplayer: 276377,
+				cardmarket: 277894
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277894,
-		tcgplayer: 88087
-	}
 }
 
 export default card

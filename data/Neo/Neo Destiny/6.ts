@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Il absorbe la chaleur de l'air autour de lui. Si vous avez soudain très froid, c'est qu'un Ectoplasma vient d'apparaître."
 	},
 
-	thirdParty: {
-		cardmarket: 274658,
-		tcgplayer: 84599
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274658,
+				tcgplayer: 84599
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274658,
+				tcgplayer: 84599
+			}
 		}
 	]
 }

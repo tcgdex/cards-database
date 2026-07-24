@@ -66,14 +66,14 @@ const card: Card = {
 		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 	},
 
-	thirdParty: {
-		cardmarket: 273933,
-		tcgplayer: 42445
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273933,
+				tcgplayer: 42445
+			}
 		}
 	]
 }

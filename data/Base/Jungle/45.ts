@@ -89,18 +89,22 @@ const card: Card = {
 		fr: "Son épiderme très épais lui permet de survivre dans un environnement de plus de 3600 degrés."
 	},
 
-	thirdParty: {
-		cardmarket: 273842,
-		tcgplayer: 45148
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273842,
+				tcgplayer: 45148
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273842,
+				tcgplayer: 45148
+			}
 		}
 	],
 }

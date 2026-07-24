@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Brambleghast"
 	},
 
+	evolveFrom: {
+		en: "Bramblin",
+		fr: "Virovent",
+		es: "Bramblin",
+		'es-mx': "Bramblin",
+		de: "Weherba",
+		it: "Bramblin",
+		pt: "Bramblin",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

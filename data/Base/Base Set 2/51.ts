@@ -66,14 +66,14 @@ const card: Card = {
 		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 	},
 
-	thirdParty: {
-		cardmarket: 273974,
-		tcgplayer: 42514
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273974,
+				tcgplayer: 42514
+			}
 		}
 	]
 }

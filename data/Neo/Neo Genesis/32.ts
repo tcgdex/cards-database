@@ -80,18 +80,22 @@ const card: Card = {
 		fr: "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera."
 	},
 
-	thirdParty: {
-		cardmarket: 274431,
-		tcgplayer: 84496
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84496
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274431,
+				tcgplayer: 84496
+			}
 		}
 	]
 }

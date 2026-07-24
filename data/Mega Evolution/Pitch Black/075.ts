@@ -8,9 +8,8 @@ const card: Card = {
 		en: "Dark Bell",
 		fr: "Cloche Ténébreuse",
 		es: "Campanilla Oscuridad",
-		'es-mx': "Campanilla Oscuridad",
-		de: "Düsterglocke",
 		'es-mx': "Campana Oscura",
+		de: "Düsterglocke",
 		it: "Campanella Oscura",
 		pt: "Sino Sombrio"
 	},

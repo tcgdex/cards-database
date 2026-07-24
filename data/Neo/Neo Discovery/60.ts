@@ -75,18 +75,22 @@ const card: Card = {
 		fr: "Un ancien fossile ramené à la vie, ce Pokémon utilise l'air conservé dans sa carapace pour plonger dans l'eau et refaire surface."
 	},
 
-	thirdParty: {
-		cardmarket: 274571,
-		tcgplayer: 87856
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274571,
+				tcgplayer: 87856
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274571,
+				tcgplayer: 87856
+			}
 		}
 	]
 }

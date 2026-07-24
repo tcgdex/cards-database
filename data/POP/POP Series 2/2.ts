@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		18,
-	],
+	dexId: [18],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -37,7 +35,7 @@ const card: Card = {
 				fr: "Badelaile"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can’t be used if Pidgeot is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Pidgeot is your Active Pokémon, you may shuffle 1 of your Benched Pokémon and all cards attached to it into your deck. This power can't be used if Pidgeot is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Roucarnage est votre Pokémon Actif, vous pouvez mélanger un des Pokémon de votre Banc et toutes les cartes qui lui sont attachées à votre deck. Ce pouvoir ne peut être utilisé si Roucarnage est affecté par un État spécial."
 			},
 		},
@@ -68,27 +66,31 @@ const card: Card = {
 			type: "Lightning"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88032,
+				cardmarket: 277433
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88032,
+				cardmarket: 277433
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277433,
-		tcgplayer: 88032
-	}
 }
 
 export default card

@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Parce qu'il stocke trop d'électricité, il développe des plaques où sa laine ne pousse plus."
 	},
 
-	thirdParty: {
-		cardmarket: 274434,
-		tcgplayer: 85474
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274434,
+				tcgplayer: 85474
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274434,
+				tcgplayer: 85474
+			}
 		}
 	]
 }

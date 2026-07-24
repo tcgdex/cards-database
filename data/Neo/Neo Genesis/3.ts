@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
 	},
 
-	thirdParty: {
-		cardmarket: 274403,
-		tcgplayer: 83795
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274403,
+				tcgplayer: 83795
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274403,
+				tcgplayer: 83795
+			}
 		}
 	]
 }

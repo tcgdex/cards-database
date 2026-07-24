@@ -62,18 +62,22 @@ const card: Card = {
 		fr: "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir."
 	},
 
-	thirdParty: {
-		cardmarket: 274568,
-		tcgplayer: 86632
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274568,
+				tcgplayer: 86632
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274568,
+				tcgplayer: 86632
+			}
 		}
 	]
 }

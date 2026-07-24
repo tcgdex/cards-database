@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Probopass"
 	},
 
+	evolveFrom: {
+		en: "Nosepass",
+		fr: "Tarinor",
+		es: "Nosepass",
+		'es-mx': "Nosepass",
+		de: "Nasgnet",
+		it: "Nosepass",
+		pt: "Nosepass",
+	},
+
 	illustrator: "Nurikabe",
 	rarity: "Common",
 	category: "Pokemon",

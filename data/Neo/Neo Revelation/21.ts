@@ -86,18 +86,22 @@ const card: Card = {
 		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
 	},
 
-	thirdParty: {
-		cardmarket: 274607,
-		tcgplayer: 88500
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274607,
+				tcgplayer: 88500
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274607,
+				tcgplayer: 88500
+			}
 		}
 	]
 }

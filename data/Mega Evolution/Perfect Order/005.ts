@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Servine"
 	},
 
+	evolveFrom: {
+		en: "Snivy",
+		fr: "Vipélierre",
+		es: "Snivy",
+		'es-mx': "Snivy",
+		de: "Serpifeu",
+		it: "Snivy",
+		pt: "Snivy",
+	},
+
 	illustrator: "Kurata So",
 	rarity: "Common",
 	category: "Pokemon",

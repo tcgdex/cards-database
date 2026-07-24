@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		381,
-	],
+	dexId: [381],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -66,14 +64,12 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
 		fr: "Un Pokémon très intelligent. Il peut voler plus vite qu'un avion à réaction en repliant ses ailes."
@@ -81,17 +77,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86666,
+				cardmarket: 278036
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86666,
+				cardmarket: 278036
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278036,
-		tcgplayer: 86666
-	}
 }
 
 export default card

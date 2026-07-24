@@ -85,17 +85,20 @@ const card: Card = {
 		fr: "Ces Pokémon sont attirés par les émissions électriques et ils suivent souvent les gens qui se servent de Pokéquipement."
 	},
 
-	thirdParty: {
-		cardmarket: 274518
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274518
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274518
+			}
 		}
 	]
 }

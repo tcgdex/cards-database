@@ -48,13 +48,13 @@ const card: Card = {
 		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
 	},
 
-	thirdParty: {
-		cardmarket: 274006
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274006
+			}
 		}
 	]
 }

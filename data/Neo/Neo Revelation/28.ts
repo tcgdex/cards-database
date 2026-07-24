@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Son épaisse toison stocke l'électricité. Sa peau caoutchouteuse le sauve de l'électrocution."
 	},
 
-	thirdParty: {
-		cardmarket: 274614,
-		tcgplayer: 85473
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274614,
+				tcgplayer: 85473
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274614,
+				tcgplayer: 85473
+			}
 		}
 	]
 }

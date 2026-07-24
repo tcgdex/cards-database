@@ -74,18 +74,22 @@ const card: Card = {
 		fr: "La rumeur prétend que si un nombre suffisant de Magneti et de Magneton se rassemblent, ils peuvent créer une puissante barrière magnétique."
 	},
 
-	thirdParty: {
-		cardmarket: 274113,
-		tcgplayer: 87068
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274113,
+				tcgplayer: 87068
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274113,
+				tcgplayer: 87068
+			}
 		}
 	]
 }

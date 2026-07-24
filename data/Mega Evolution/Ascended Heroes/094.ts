@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Slurpuff"
 	},
 
+	evolveFrom: {
+		en: "Swirlix",
+		fr: "Sucroquin",
+		es: "Swirlix",
+		'es-mx': "Swirlix",
+		de: "Flauschling",
+		it: "Swirlix",
+		pt: "Swirlix",
+	},
+
 	illustrator: "Natsumi Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",

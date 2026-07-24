@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Dugtrio da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Diglett",
+		fr: "Taupiqueur de la Team Rocket",
+		es: "Diglett del Team Rocket",
+		'es-mx': "Diglett del Equipo Rocket",
+		de: "Team Rockets Digda",
+		it: "Diglett del Team Rocket",
+		pt: "Diglett da Equipe Rocket",
+	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Uncommon",
 	category: "Pokemon",

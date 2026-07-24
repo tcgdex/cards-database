@@ -49,18 +49,22 @@ const card: Card = {
 		fr: "Il remue toujours la tête d'avant en arrière comme s'il essayait de faire des bisous."
 	},
 
-	thirdParty: {
-		cardmarket: 274640,
-		tcgplayer: 89359
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274640,
+				tcgplayer: 89359
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274640,
+				tcgplayer: 89359
+			}
 		}
 	]
 }

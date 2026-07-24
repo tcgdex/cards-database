@@ -74,20 +74,24 @@ const card: Card = {
 		fr: "Un Pokémon mystérieux. Certains pensent qu'il vient d'une autre dimension, d'autres croient qu'il est formé de brouillard."
 	},
 
-	thirdParty: {
-		cardmarket: 273894,
-		tcgplayer: 44435
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273894,
+				tcgplayer: 44435
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273894,
+				tcgplayer: 44435
+			}
 		},
 		{
 			type: "normal",

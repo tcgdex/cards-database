@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Silcoon"
 	},
 
+	evolveFrom: {
+		en: "Wurmple",
+		fr: "Chenipotte",
+		es: "Wurmple",
+		'es-mx': "Wurmple",
+		de: "Waumpel",
+		it: "Wurmple",
+		pt: "Wurmple",
+	},
+
 	illustrator: "Eri Yamaki",
 	rarity: "Common",
 	category: "Pokemon",

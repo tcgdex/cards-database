@@ -78,14 +78,14 @@ const card: Card = {
 		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
 	},
 
-	thirdParty: {
-		cardmarket: 273975,
-		tcgplayer: 42515
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273975,
+				tcgplayer: 42515
+			}
 		}
 	]
 }
