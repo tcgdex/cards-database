@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		333,
-	],
+	dexId: [333],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -65,24 +63,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275952,
-		tcgplayer: 89653
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89653,
+				cardmarket: 275952
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89653,
+				cardmarket: 275952
+			},
+		},
+	],
+
 }
 
 export default card

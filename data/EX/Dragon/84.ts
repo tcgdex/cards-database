@@ -20,10 +20,23 @@ const card: Card = {
 		de: "Durchsuche deinen Ablagestapel nach Basis-Energiekarten. Wähle entweder 1 Basis Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand oder wähle 3 Basis Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck."
 	},
 
-	thirdParty: {
-		tcgplayer: 85216,
-		cardmarket: 275961
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85216,
+				cardmarket: 275961
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85216,
+				cardmarket: 275961
+			},
+		},
+	],
+
 }
 
 export default card

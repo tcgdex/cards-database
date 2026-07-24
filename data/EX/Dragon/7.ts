@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		312,
-	],
+	dexId: [312],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -80,32 +78,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87481,
-		cardmarket: 275884
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87481,
+				cardmarket: 275884
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87481,
+				cardmarket: 275884
+			},
+		},
+	],
+
 }
 export default card

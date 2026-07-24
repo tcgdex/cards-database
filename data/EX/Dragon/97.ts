@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		384,
-	],
+	dexId: [384],
 
 	hp: 100,
 
+	stage: "Basic",
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	suffix: "ex",
@@ -57,7 +56,7 @@ const card: Card = {
 				fr: "Défaussez soit toutes les Énergies  soit toutes les Énergies  attachées à Rayquaza ex. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergie  ou  défaussées.",
 				de: "Discard either all  Energy or all  Energy attached to Rayquaza ex. This attack does 40 damage times the amount of  or  Energy discarded."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -65,10 +64,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -79,24 +77,26 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 88642,
-		cardmarket: 275974
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88642,
+				cardmarket: 275974
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
-		}
-	]
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477429,
+			},
+		},
+	],
+
 }
 
 export default card
