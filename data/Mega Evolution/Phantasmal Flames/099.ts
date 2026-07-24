@@ -61,7 +61,7 @@ const card: Card = {
 		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
 	},
 
-	illustrator: "Ayako Ozaki",
+	illustrator: "tono",
 	variants: [
 		{
 			type: 'holo',

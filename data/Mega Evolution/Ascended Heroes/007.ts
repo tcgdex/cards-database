@@ -96,7 +96,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "pokeball",
 			thirdParty: {
-				cardmarket: 870146,
+				cardmarket: 870145,
 				tcgplayer: 676857
 			}
 		},
@@ -104,8 +104,16 @@ const card: Card = {
 			type: "reverse",
 			foil: "energy",
 			thirdParty: {
-				cardmarket: 870145,
+				cardmarket: 870146,
 				tcgplayer: 676997
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 870106,
+				tcgplayer: 679249
 			}
 		},
 	],
