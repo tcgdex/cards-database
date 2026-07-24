@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Empoleon ex"
 	},
 
+	evolveFrom: {
+		en: "Prinplup",
+		fr: "Prinplouf",
+		es: "Prinplup",
+		'es-mx': "Prinplup",
+		de: "Pliprin",
+		it: "Prinplup",
+		pt: "Prinplup",
+	},
+
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

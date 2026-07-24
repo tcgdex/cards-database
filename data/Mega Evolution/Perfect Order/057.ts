@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Doublade"
 	},
 
+	evolveFrom: {
+		en: "Honedge",
+		fr: "Monorpale",
+		es: "Honedge",
+		'es-mx': "Honedge",
+		de: "Gramokles",
+		it: "Honedge",
+		pt: "Honedge",
+	},
+
 	illustrator: "Kamome Shirahama",
 	rarity: "Common",
 	category: "Pokemon",

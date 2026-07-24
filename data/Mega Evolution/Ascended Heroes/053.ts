@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Frosmoth"
 	},
 
+	evolveFrom: {
+		en: "Snom",
+		fr: "Frissonille",
+		es: "Snom",
+		'es-mx': "Snom",
+		de: "Snomnom",
+		it: "Snom",
+		pt: "Snom",
+	},
+
 	illustrator: "cochi8i",
 	rarity: "Uncommon",
 	category: "Pokemon",

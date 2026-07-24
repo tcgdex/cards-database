@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mega Gardevoir ex"
 	},
 
+	evolveFrom: {
+		en: "Kirlia",
+		fr: "Kirlia",
+		es: "Kirlia",
+		'es-mx': "Kirlia",
+		de: "Kirlia",
+		it: "Kirlia",
+		pt: "Kirlia",
+	},
+
 	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Double rare",

@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Aromatisse"
 	},
 
+	evolveFrom: {
+		en: "Spritzee",
+		fr: "Fluvetin",
+		es: "Spritzee",
+		'es-mx': "Spritzee",
+		de: "Parfi",
+		it: "Spritzee",
+		pt: "Spritzee",
+	},
+
 	illustrator: "Mori Yuu",
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Prinplup"
 	},
 
+	evolveFrom: {
+		en: "Piplup",
+		fr: "Tiplouf",
+		es: "Piplup",
+		'es-mx': "Piplup",
+		de: "Plinfa",
+		it: "Piplup",
+		pt: "Piplup",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

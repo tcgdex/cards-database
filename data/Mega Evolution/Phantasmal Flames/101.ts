@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Flygon"
 	},
 
+	evolveFrom: {
+		en: "Vibrava",
+		fr: "Vibraninf",
+		es: "Vibrava",
+		'es-mx': "Vibrava",
+		de: "Vibrava",
+		it: "Vibrava",
+		pt: "Vibrava",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 

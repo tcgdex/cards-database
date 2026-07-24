@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Raticate"
 	},
 
+	evolveFrom: {
+		en: "Rattata",
+		fr: "Rattata",
+		es: "Rattata",
+		'es-mx': "Rattata",
+		de: "Rattfratz",
+		it: "Rattata",
+		pt: "Rattata",
+	},
+
 	illustrator: "Mina Nakai",
 	rarity: "Illustration rare",
 	category: "Pokemon",
