@@ -85,18 +85,22 @@ const card: Card = {
 		fr: "Il peut accumuler suffisamment de chaleur pour atteindre des températures de 1600 degrés."
 	},
 
-	thirdParty: {
-		cardmarket: 273800,
-		tcgplayer: 45129
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273800,
+				tcgplayer: 45129
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273800,
+				tcgplayer: 45129
+			}
 		},
 		{
 			type: "holo",

@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Souvent pris pour des œufs, ils attaquent en groupe comme un essaim."
 	},
 
-	thirdParty: {
-		cardmarket: 273849,
-		tcgplayer: 45155
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273849,
+				tcgplayer: 45155
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273849,
+				tcgplayer: 45155
+			}
 		}
 	],
 }

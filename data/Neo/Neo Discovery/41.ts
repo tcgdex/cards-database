@@ -64,18 +64,22 @@ const card: Card = {
 		fr: "Même si c'est un cocon, il peut bouger un peu. Il peut allonger ses pointes empoisonnées s'il est attrapé."
 	},
 
-	thirdParty: {
-		cardmarket: 274552,
-		tcgplayer: 86408
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274552,
+				tcgplayer: 86408
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274552,
+				tcgplayer: 86408
+			}
 		}
 	]
 }

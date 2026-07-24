@@ -60,18 +60,22 @@ const card: Card = {
 		fr: "Lorsque Celebi disparaît dans les profondeurs de la forêt, on raconte qu'il laisse derrière lui un œuf qu'il a rapporté du futur."
 	},
 
-	thirdParty: {
-		cardmarket: 274589,
-		tcgplayer: 84142
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274589,
+				tcgplayer: 84142
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274589,
+				tcgplayer: 84142
+			}
 		}
 	]
 }

@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Quand il vole, il émet des ondes ultrasoniques pour déterminer ce qui l'entoure."
 	},
 
-	thirdParty: {
-		cardmarket: 274645,
-		tcgplayer: 90766
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274645,
+				tcgplayer: 90766
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274645,
+				tcgplayer: 90766
+			}
 		}
 	]
 }

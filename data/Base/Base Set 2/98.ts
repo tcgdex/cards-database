@@ -50,14 +50,14 @@ const card: Card = {
 		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
 	},
 
-	thirdParty: {
-		cardmarket: 274021,
-		tcgplayer: 42549
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274021,
+				tcgplayer: 42549
+			}
 		}
 	]
 }

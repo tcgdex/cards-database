@@ -80,18 +80,22 @@ const card: Card = {
 		fr: "On ne sait pas grand chose sur ce Pokémon rare et unique, car très peu ont été capturés."
 	},
 
-	thirdParty: {
-		cardmarket: 274108,
-		tcgplayer: 85078
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274108,
+				tcgplayer: 85078
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274108,
+				tcgplayer: 85078
+			}
 		}
 	]
 }

@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines."
 	},
 
-	thirdParty: {
-		cardmarket: 274118,
-		tcgplayer: 88431
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274118,
+				tcgplayer: 88431
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274118,
+				tcgplayer: 88431
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Wigglytuff"
 	},
 
+	evolveFrom: {
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		'es-mx': "Jigglypuff",
+		de: "Pummeluff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 

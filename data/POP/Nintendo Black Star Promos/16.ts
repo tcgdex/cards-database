@@ -20,7 +20,6 @@ const card: Card = {
 
 	stage: "Basic",
 
-
 	attacks: [
 		{
 			cost: [
@@ -59,10 +58,19 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
-
-
+	
+	variants: [
+		{
+			type: 'normal',
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				tcgplayer: 153317
+			}
+		}
+	]
 }
 
 export default card

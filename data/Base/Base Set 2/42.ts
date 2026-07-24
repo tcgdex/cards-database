@@ -51,14 +51,14 @@ const card: Card = {
 		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
 	},
 
-	thirdParty: {
-		cardmarket: 273965,
-		tcgplayer: 42505
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273965,
+				tcgplayer: 42505
+			}
 		}
 	]
 }

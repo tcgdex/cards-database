@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		330,
-	],
+	dexId: [330],
 
 	hp: 120,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -69,7 +67,7 @@ const card: Card = {
 				fr: "Bac à sable"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
 			},
 			damage: 70,
@@ -79,23 +77,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water"
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85524,
+				cardmarket: 277468
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85524,
+				cardmarket: 277468
+			},
 		},
 	],
 
-	retreat: 2,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277468,
-		tcgplayer: 85524
-	}
 }
 
 export default card

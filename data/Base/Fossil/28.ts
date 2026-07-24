@@ -84,20 +84,24 @@ const card: Card = {
 		fr: "Il est recouvert d'une épaisse couche toxique. Il laisse une trace empoisonnée."
 	},
 
-	thirdParty: {
-		cardmarket: 273874,
-		tcgplayer: 106530
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273874,
+				tcgplayer: 106530
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273874,
+				tcgplayer: 106530
+			}
 		},
 		{
 			type: "normal",

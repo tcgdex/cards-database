@@ -66,14 +66,14 @@ const card: Card = {
 		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 	},
 
-	thirdParty: {
-		cardmarket: 273983,
-		tcgplayer: 42523
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273983,
+				tcgplayer: 42523
+			}
 		}
 	]
 }

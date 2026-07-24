@@ -18,17 +18,16 @@ const card: Card = {
 		fr: "Énergie codée ne peut être attachée qu'à un Pokémon Évolué (Pokémon-ex exclus). Énergie codée fournit une Énergie . Lorsqu'elle est en jeu, s'il vous reste plus de cartes Récompense que votre adversaire, Énergie codée fournit tous les types d'Énergie mais seulement 3 de n'importe quelle combinaison à la fois. Si le Pokémon auquel Énergie codée est attachée n'est pas un Pokémon Évolué (ou un Pokémon qui évolue en Pokémon-ex), défaussez-la."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88988,
+				cardmarket: 277475
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277475,
-		tcgplayer: 88988
-	}
 }
 
 export default card

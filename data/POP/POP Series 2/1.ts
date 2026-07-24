@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		244,
-	],
+	dexId: [244],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 				fr: "Danseflamme"
 			},
 			effect: {
-				en: "Discard 2 basic Energy cards attached to Entei or this attack does nothing.",
+				en: "Discard 2 Basic Energy cards attached to Entei or this attack does nothing.",
 				fr: "Défaussez 2 cartes Énergie de base attachées à Entei ou cette attaque est sans effet."
 			},
 			damage: 50,
@@ -62,23 +60,28 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water"
+			type: "Water",
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85271,
+				cardmarket: 277432
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85271,
+				cardmarket: 277432
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277432,
-		tcgplayer: 85271
-	}
 }
 
 export default card

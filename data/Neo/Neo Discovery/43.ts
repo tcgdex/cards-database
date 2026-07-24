@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Apparemment, il a brisé la coquille de Kokiyas avec ses crocs acérés et il a mangé ce qui était à l'intérieur."
 	},
 
-	thirdParty: {
-		cardmarket: 274554,
-		tcgplayer: 87866
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274554,
+				tcgplayer: 87866
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274554,
+				tcgplayer: 87866
+			}
 		}
 	]
 }

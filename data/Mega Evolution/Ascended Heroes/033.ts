@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Darmanitan do N"
 	},
 
+	evolveFrom: {
+		en: "N's Darumaka",
+		fr: "Darumarond de N",
+		es: "Darumaka de N",
+		'es-mx': "Darumaka de N",
+		de: "Ns Flampion",
+		it: "Darumaka di N",
+		pt: "Darumaka do N",
+	},
+
 	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Pokemon",

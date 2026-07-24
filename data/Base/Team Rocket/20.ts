@@ -84,18 +84,22 @@ const card: Card = {
 		fr: "Un Pokémon agressif qui s'attaque à tout ce qu'il voit."
 	},
 
-	thirdParty: {
-		cardmarket: 274056,
-		tcgplayer: 84570
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274056,
+				tcgplayer: 84570
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274056,
+				tcgplayer: 84570
+			}
 		}
 	]
 }

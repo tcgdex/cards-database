@@ -61,7 +61,21 @@ const card: Card = {
 	],
 
 
-
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83784
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['winner'],
+			thirdParty: {
+				tcgplayer: 154789
+			}
+		}
+	]
 
 }
 

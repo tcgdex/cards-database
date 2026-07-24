@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		251,
-	],
+	dexId: [251],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -49,7 +47,7 @@ const card: Card = {
 				fr: "Bouclier psychique"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent’s Pokémon-ex during your opponent’s next turn.",
+				en: "Prevent all effects of attacks, including damage, done to Celebi ex by your opponent's Pokémon-ex during your opponent's next turn.",
 				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Celebi ex par le Pokémon-ex de votre adversaire lors du prochain tour de votre adversaire."
 			},
 			damage: 30,
@@ -62,14 +60,26 @@ const card: Card = {
 			type: "Psychic"
 		},
 	],
-
 	suffix: "EX",
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277448,
-		tcgplayer: 84151
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84151,
+				cardmarket: 277448
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 97808,
+				cardmarket: 277448
+			},
+		},
+	],
+
 }
 
 export default card

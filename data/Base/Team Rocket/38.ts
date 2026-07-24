@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps."
 	},
 
-	thirdParty: {
-		cardmarket: 274091,
-		tcgplayer: 84617
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274091,
+				tcgplayer: 84617
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274091,
+				tcgplayer: 84617
+			}
 		}
 	]
 }

@@ -69,18 +69,22 @@ const card: Card = {
 		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
 	},
 
-	thirdParty: {
-		cardmarket: 274725,
-		tcgplayer: 86988
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274725,
+				tcgplayer: 86988
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274725,
+				tcgplayer: 86988
+			}
 		}
 	]
 }

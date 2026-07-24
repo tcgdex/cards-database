@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Il devient rapidement déprimé s'il n'est pas près de personnes au grand cœur. Il peut flotter dans les airs sans bouger ses ailes."
 	},
 
-	thirdParty: {
-		cardmarket: 274667,
-		tcgplayer: 86750
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274667,
+				tcgplayer: 86750
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274667,
+				tcgplayer: 86750
+			}
 		}
 	]
 }

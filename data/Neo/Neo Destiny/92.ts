@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Each player pays  more to retreat a Baby Pokémon or Basic Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 274744,
-		tcgplayer: 83990
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274744,
+				tcgplayer: 83990
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274744,
+				tcgplayer: 83990
+			}
 		}
 	]
 }

@@ -80,18 +80,22 @@ const card: Card = {
 		fr: "Il vole droit sur le visage de sa cible, et s'accroche ensuite à sa victime effrayée pour lui injecter du poison."
 	},
 
-	thirdParty: {
-		cardmarket: 274459,
-		tcgplayer: 85764
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274459,
+				tcgplayer: 85764
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274459,
+				tcgplayer: 85764
+			}
 		}
 	]
 }
