@@ -67,6 +67,23 @@ function normalizeRecords(records, artifactName) {
         continue;
       }
     }
+    if (record.entityType === "set_localization") {
+      const existingComparable = { ...existing.payload, name: null, alternateNames: null };
+      const incomingComparable = { ...record.payload, name: null, alternateNames: null };
+      if (JSON.stringify(existingComparable) === JSON.stringify(incomingComparable)) {
+        const alternateNames = Array.from(new Set([
+          ...(existing.payload.alternateNames ?? []),
+          existing.payload.name,
+          ...(record.payload.alternateNames ?? []),
+          record.payload.name,
+        ].filter(Boolean)));
+        normalized.set(key, {
+          ...record,
+          payload: { ...record.payload, alternateNames },
+        });
+        continue;
+      }
+    }
 
     throw new Error(`Conflicting duplicate record ${key} in ${artifactName}`);
   }
