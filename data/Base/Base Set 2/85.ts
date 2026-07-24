@@ -64,14 +64,14 @@ const card: Card = {
 		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
 	},
 
-	thirdParty: {
-		cardmarket: 274008,
-		tcgplayer: 42536
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274008,
+				tcgplayer: 42536
+			}
 		}
 	]
 }
