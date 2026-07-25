@@ -35,6 +35,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 279618,
 				tcgplayer: 89046
 			}
 		},
@@ -42,6 +43,7 @@ const card: Card = {
 			type: "reverse",
 			stamp: ['player-rewards-program'],
 			thirdParty: {
+				cardmarket: 279618,
 				tcgplayer: 213025
 			}
 		},
