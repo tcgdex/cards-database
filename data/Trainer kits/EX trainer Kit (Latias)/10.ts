@@ -7,16 +7,26 @@ const card: Card = {
 		fr: "Énergie Feu"
 	},
 
-	illustrator: "",
 	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 85457
-	}
+	types: [
+		"Fire"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275771,
+				tcgplayer: 85457
+			}
+		},
+	],
+
 }
 
 export default card
