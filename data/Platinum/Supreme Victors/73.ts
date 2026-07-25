@@ -80,7 +80,7 @@ const card: Card = {
 		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap."
 	},
 
-	retreat: 0
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",

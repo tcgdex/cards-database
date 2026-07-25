@@ -70,7 +70,7 @@ const card: Card = {
 		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases."
 	},
 
-	retreat: 0
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",

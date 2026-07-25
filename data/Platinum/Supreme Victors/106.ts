@@ -84,7 +84,6 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: 'league',
-			stamp: ['championship'],
 			thirdParty: {
 				tcgplayer: 164209
 			}
@@ -92,7 +91,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			foil: 'league',
-			stamp: ['championship', 'staff'],
+			stamp: ['staff'],
 			thirdParty: {
 				tcgplayer: 164210
 			}

@@ -78,7 +78,7 @@ const card: Card = {
 		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph."
 	},
 
-	retreat: 0
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
