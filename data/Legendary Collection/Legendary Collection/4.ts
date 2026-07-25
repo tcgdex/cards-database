@@ -80,6 +80,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 274769,
 				tcgplayer: 84569
 			}
 		},
@@ -94,10 +95,12 @@ const card: Card = {
 			type: "reverse",
 			size: 'jumbo',
 			thirdParty: {
+				cardmarket: 274769,
 				tcgplayer: 210842
 			}
 		},
-	]
+	],
+
 }
 
 export default card
