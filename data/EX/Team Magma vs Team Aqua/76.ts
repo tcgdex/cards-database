@@ -20,10 +20,6 @@ const card: Card = {
 		de: "[Lege Team Aqua Gürtel an eines deiner Pokémon mit \"Aqua's\" im Namen an] Zu jedem Zeitpunkt zwischen den Zügen darfst du, falls das mit Team Aqua Gürtel ausgerüstete Pokémon dein aktives Pokémon ist, darfst du eine Karte aus deinem Deck suchen, die sich aus dieser Karte entwickelt und lege sie auf das Pokémon. (Dies zählt als entwickeln des Pokémons.) Mische dein Deck danach, dann lege Team Aqua Gürtel ab."
 	},
 
-	thirdParty: {
-		cardmarket: 276053,
-		tcgplayer: 89769
-	},
 
 	variants: [
 		{

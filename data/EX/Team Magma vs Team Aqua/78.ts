@@ -20,10 +20,6 @@ const card: Card = {
 		de: "Each Pokémon that does not have Team Aqua in its name pays  more to retreat."
 	},
 
-	thirdParty: {
-		cardmarket: 276055,
-		tcgplayer: 89771
-	},
 
 	variants: [
 		{

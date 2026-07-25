@@ -20,10 +20,6 @@ const card: Card = {
 		de: "Discard any 1 Pokémon from your hand. Then draw 3 cards. If you discarded a Pokémon with Team Aqua in its name, draw 4 cards instead."
 	},
 
-	thirdParty: {
-		cardmarket: 276046,
-		tcgplayer: 89772
-	},
 
 	variants: [
 		{

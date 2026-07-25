@@ -20,10 +20,6 @@ const card: Card = {
 		de: "Seach your deck for up to 2 in any combinaton of Basic Pokémon with Team Aqua in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 276054,
-		tcgplayer: 89770
-	},
 
 	variants: [
 		{

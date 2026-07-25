@@ -20,10 +20,6 @@ const card: Card = {
 		de: "Discard any 1 Pokémon from your hand. Then draw 3 cards. If your discarded a Pokémon with Team Magma in its name, draw 4 cards instead."
 	},
 
-	thirdParty: {
-		cardmarket: 276047,
-		tcgplayer: 89816
-	},
 
 	variants: [
 		{
