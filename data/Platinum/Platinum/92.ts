@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		353,
-	],
+	dexId: [353],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+		en: "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live."
 	},
 
-	thirdParty: {
-		cardmarket: 278513,
-		tcgplayer: 89201
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89201,
+				cardmarket: 278513
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278513,
+				tcgplayer: 89201
+			}
 		}
-	]
+	],
+
 }
 
 export default card

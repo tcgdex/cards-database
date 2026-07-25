@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -83,22 +81,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga's heart beats.",
+		en: "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga's heart beats."
 	},
 
-	thirdParty: {
-		cardmarket: 278426,
-		tcgplayer: 84802
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84802,
+				cardmarket: 278426
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278426,
+				tcgplayer: 84802
+			}
 		}
-	]
+	],
+
 }
 
 export default card

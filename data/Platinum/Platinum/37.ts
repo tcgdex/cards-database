@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		484,
-	],
+	dexId: [484],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -75,22 +73,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A legendary Pokémon of Sinnoh. It is said that space becomes more stable with PALKIA's every breath.",
+		en: "A legendary Pokémon of Sinnoh. It is said that space becomes more stable with PALKIA's every breath."
 	},
 
-	thirdParty: {
-		cardmarket: 278433,
-		tcgplayer: 87910
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87910,
+				cardmarket: 278433
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278433,
+				tcgplayer: 87910
+			}
 		}
-	]
+	],
+
 }
 
 export default card

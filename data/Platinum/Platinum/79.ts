@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		131,
-	],
+	dexId: [131],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Lokhlass",
 				de: "Does 10 damage times the amount of Energy attached to Lapras."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -74,22 +72,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech.",
+		en: "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
 	},
 
-	thirdParty: {
-		cardmarket: 278500,
-		tcgplayer: 86619
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86619,
+				cardmarket: 278500
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278500,
+				tcgplayer: 86619
+			}
 		}
-	]
+	],
+
 }
 
 export default card

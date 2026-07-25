@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		113,
-	],
+	dexId: [113],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people."
 	},
 
-	thirdParty: {
-		cardmarket: 278490,
-		tcgplayer: 84176
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84176,
+				cardmarket: 278490
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278490,
+				tcgplayer: 84176
+			}
 		}
-	]
+	],
+
 }
 
 export default card

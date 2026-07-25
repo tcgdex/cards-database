@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		262,
-	],
+	dexId: [262],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Poochyena",
-		fr: "Medhyena",
+		fr: "Medhyena"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Mightyena is affected by a Special Condition, ignore all Energy necessary to use Mightyena's attacks.",
 				fr: "Si Grahyena est affecté par un État Spécial, ignorez toutes les Énergies nécessaires pour utiliser les attaques de Grahyena.",
 				de: "If Mightyena is affected by a Special Condition, ignore all Energy nessesary to use Mightyena's attacks."
-			},
+			}
 		},
 	],
 
@@ -100,19 +98,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278475,
-		tcgplayer: 87448
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87448,
+				cardmarket: 278475
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278475,
+				tcgplayer: 87448
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

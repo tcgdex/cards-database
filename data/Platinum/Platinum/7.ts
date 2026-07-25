@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yusuke Ishikawa",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -82,31 +80,44 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278428,
-		tcgplayer: 84810
-	},
-
-	variants:[
-		{
-			type:"holo"
-		},
-		{
-			type:"reverse"
+	variants: [		{
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 84810,
+				cardmarket: 278428
+			}
 		},
 		{
 			type:"reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 278428,
+				tcgplayer: 84810
+			}
+		},
+		{
+			type:"reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 278428,
+				tcgplayer: 178008
+			}
 		},
 		{
 			type:"holo",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479894
+			}
 		},
 		{
 			type:"holo",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480026
+			}
 		},
-	]
+	],
+
 }
 
 export default card

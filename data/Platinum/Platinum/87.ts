@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		54,
-	],
+	dexId: [54],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -69,22 +67,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers.",
+		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers."
 	},
 
-	thirdParty: {
-		cardmarket: 278508,
-		tcgplayer: 88439
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88439,
+				cardmarket: 278508
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278508,
+				tcgplayer: 88439
+			}
 		}
-	]
+	],
+
 }
 
 export default card

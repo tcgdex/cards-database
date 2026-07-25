@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		410,
-	],
+	dexId: [410],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Armor Fossil",
-		fr: "Fossile armure",
+		fr: "Fossile armure"
 	},
 
 	stage: "Stage1",
@@ -84,22 +82,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is outstandingly armored. As a result, it can eat grass and berries without having to fight.",
+		en: "It is outstandingly armored. As a result, it can eat grass and berries without having to fight."
 	},
 
-	thirdParty: {
-		cardmarket: 278483,
-		tcgplayer: 89151
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89151,
+				cardmarket: 278483
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278483,
+				tcgplayer: 89151
+			}
 		}
-	]
+	],
+
 }
 
 export default card

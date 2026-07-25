@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Zangoose can't be affected by any Special Conditions.",
 				fr: "Mangriff ne peut pas être affecté par des États Spéciaux.",
 				de: "Zangoose can't be affected by any Special Conditions."
-			},
+			}
 		},
 	],
 
@@ -88,23 +86,29 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278487,
-		tcgplayer: 90707
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90707,
+				cardmarket: 278487
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278487,
+				tcgplayer: 90707
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				tcgplayer: 479986
+			}
 		}
-	]
+	],
+
 }
 
 export default card
