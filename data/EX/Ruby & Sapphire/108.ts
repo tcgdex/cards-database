@@ -15,31 +15,56 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275756,
-		tcgplayer: 85458
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275756,
+				tcgplayer: 85458
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275756,
+				tcgplayer: 85458
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125124
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 176626
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				tcgplayer: 477617
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477384
+			}
 		}
-	]
+	],
+
+	types: [
+		"Fire"
+	],
+	retreat: 0
 }
 
 export default card
