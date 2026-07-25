@@ -85,7 +85,7 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	retreat: 0
+	retreat: 0,
 	variants: [
 		{
 			type: "holo",

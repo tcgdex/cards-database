@@ -62,7 +62,7 @@ const card: Card = {
 			value: "x2"
 		},
 	],
-	retreat: 0
+	retreat: 0,
 	variants: [
 		{
 			type: "holo",
