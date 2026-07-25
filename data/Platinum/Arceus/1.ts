@@ -98,6 +98,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 278873,
 				tcgplayer: 84191
 			}
 		},
@@ -105,10 +106,12 @@ const card: Card = {
 			type: "reverse",
 			foil: "cracked-ice",
 			thirdParty: {
+				cardmarket: 278873,
 				tcgplayer: 153234
 			}
 		},
-	]
+	],
+
 }
 
 export default card
