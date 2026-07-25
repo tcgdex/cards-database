@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [66],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -73,17 +71,23 @@ const card: Card = {
 		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86998,
+				cardmarket: 279597
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279597,
+				tcgplayer: 86998
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279597,
-		tcgplayer: 86998
-	}
 }
 
 export default card
