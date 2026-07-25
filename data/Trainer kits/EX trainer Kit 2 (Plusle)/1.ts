@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	attacks: [{
@@ -49,15 +49,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 83786
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277193,
+				tcgplayer: 83786
+			}
+		},
+	],
+
 }
 
 export default card

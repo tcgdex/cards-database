@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Hisao Nakamura",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Stage1",
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -59,15 +59,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 87376
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277188,
+				tcgplayer: 87376
+			}
+		},
+	],
+
 }
 
 export default card

@@ -8,15 +8,22 @@ const card: Card = {
 	},
 
 	illustrator: "",
-	rarity: "None",
+	rarity: "Common",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 86763
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86763
+			}
+		},
+	],
+
 }
 
 export default card

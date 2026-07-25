@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Hiroki Fuchino",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	attacks: [{
@@ -51,15 +51,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 85136
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277182,
+				tcgplayer: 85136
+			}
+		},
+	],
+
 }
 
 export default card
