@@ -28,23 +28,41 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275865,
+				tcgplayer: 88589
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88589
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

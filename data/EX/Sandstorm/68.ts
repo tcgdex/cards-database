@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		183,
-	],
+	dexId: [183],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -41,7 +39,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face. Dès que c'est face, le Pokémon Défenseur est Paralysé.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. Wenn mindestens eine der Münzen 'Kopf' zeigt, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -54,7 +52,7 @@ const card: Card = {
 	],
 
 	
-	retreat: 0,
+	retreat: 1,
 
 	thirdParty: {
 		cardmarket: 275845,
@@ -64,11 +62,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275845,
+				tcgplayer: 87214
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87214
+			}
 		},
-	]
+	],
+
 }
 
 export default card

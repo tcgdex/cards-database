@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		141,
-	],
+	dexId: [141],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -36,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyrdocutter",
+				en: "Hydrocutter",
 				fr: "Hydro-lame",
 				de: "Hydrocutter"
 			},
@@ -45,7 +44,7 @@ const card: Card = {
 				fr: "Lancez autant de pièces qu'il y a de cartes Énergie attachées à Kabutops ex. Cette attaque inflige 40 dégâts multipliés par le nombre de face. Vous ne pouvez pas lancer plus de trois pièces.",
 				de: "Flip a number of coins equal to the amout of Enegry attached to Kabutops ex. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 		{
@@ -61,7 +60,7 @@ const card: Card = {
 				de: "Spiral Drain"
 			},
 			effect: {
-				en: "Remove 2 damage counters from Kabutops ex (remove 1 if there is only 1).",
+				en: "Remove 2 damage counter from Kabutops ex (remove 1 if there is only 1).",
 				fr: "Retirez à Kabutops deux marqueurs de dégât (ou un s'il n'y en a qu'un).",
 				de: "Remove 2 damage counters from Kabutops ex (remove 1 if there is only 1)."
 			},
@@ -84,14 +83,13 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275874,
-		tcgplayer: 86402
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86402,
+				cardmarket: 275874
+			}
 		},
 	]
 }

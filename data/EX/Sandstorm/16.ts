@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -60,7 +58,7 @@ const card: Card = {
 				de: "Energy Crush"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
+				en: "Does 20 more damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée aux Pokémon de votre adversaire.",
 				de: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon."
 			},
@@ -87,15 +85,26 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275793,
+				tcgplayer: 85319
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85319
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		356,
-	],
+	dexId: [356],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -93,11 +91,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275781,
+				tcgplayer: 85024
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85024
+			}
 		},
-	]
+	],
+
 }
 
 export default card

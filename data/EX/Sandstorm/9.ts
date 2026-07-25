@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		303,
-	],
+	dexId: [303],
 
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -80,11 +78,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275786,
+				tcgplayer: 87257
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87257
+			}
 		},
-	]
+	],
+
 }
 
 export default card

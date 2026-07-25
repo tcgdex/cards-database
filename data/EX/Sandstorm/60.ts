@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		206,
-	],
+	dexId: [206],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -79,35 +77,61 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 85008
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85008
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+
 }
 
 export default card

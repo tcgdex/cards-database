@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		270,
-	],
+	dexId: [270],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "At any time between turns, remove 1 damage counter from Lotad.",
 				fr: "N'importe quand entre deux tours, retirez à Nenupiot un marqueur de dégât.",
 				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Loturzel."
-			},
+			}
 		},
 	],
 
@@ -75,15 +73,26 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275843,
+				tcgplayer: 86831
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86831
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
-	]
+	],
+
 }
 
 export default card

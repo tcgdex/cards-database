@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		202,
-	],
+	dexId: [202],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex.",
 				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Qulbutoké par le Pokémon-ex de votre adversaire.",
 				de: "Prevent all effects of attacks, including damage, done to Wobbuffet by your opponent's Pokémon-ex."
-			},
+			}
 		},
 	],
 
@@ -81,19 +79,33 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275803,
+				tcgplayer: 90613
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90613
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+
 }
 
 export default card

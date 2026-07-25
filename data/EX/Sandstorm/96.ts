@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		282,
-	],
+	dexId: [282],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -61,11 +60,11 @@ const card: Card = {
 				de: "Psystorm"
 			},
 			effect: {
-				en: "Does 10 damage times the total amount of Energy attached to all Pokemon in play.",
+				en: "Does 10 damage times the total amount of Energy attached to all Pokémon in play.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées à tous les Pokémon en jeu.",
 				de: "Does 10 damage times the total number of Energy attached to all Pokémon in play."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -92,12 +91,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275873,
+				tcgplayer: 85641
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+
 }
 
 export default card

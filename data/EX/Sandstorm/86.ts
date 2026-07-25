@@ -28,15 +28,27 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275863,
+				tcgplayer: 84887
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84887
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -13,16 +13,40 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		313,
-	],
+	dexId: [313],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Toxic Vibration"
+			},
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
+			}
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				en: "Pester"
+			},
+			effect: {
+				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
+			},
+			damage: "20+"
+		},
+	],
 	stage: "Basic",
 
 	abilities: [
@@ -37,7 +61,7 @@ const card: Card = {
 				en: "As long as Illumise is in play, Volbeat's Retreat Cost is 0.",
 				fr: "Tant que Lumivole est en jeu, le Coût de retraite de Muciole est de 0.",
 				de: "As long as Illumise is in play, Volbeat's Retreat Cost is 0."
-			},
+			}
 		},
 	],
 
@@ -49,7 +73,7 @@ const card: Card = {
 	],
 
 	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep.",
+		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
 	},
 
 	attacks: [{
@@ -91,11 +115,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275830,
+				tcgplayer: 90396
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90396
+			}
 		},
-	]
+	],
+
 }
 
 export default card
