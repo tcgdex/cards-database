@@ -100,7 +100,7 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
 			thirdParty: {
 				cardmarket: 275651,
 			},
