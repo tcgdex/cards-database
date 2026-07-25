@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Énergie Électrique"
 	},
 
-	rarity: "Common",
+	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",

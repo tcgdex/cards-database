@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Keiji Kinebuchi",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 

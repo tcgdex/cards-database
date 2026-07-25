@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Koizumi",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 80,
