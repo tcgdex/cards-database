@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 	
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
+		en: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -80,7 +78,7 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
 	},
 
 	thirdParty: {
@@ -88,20 +86,31 @@ const card: Card = {
 		tcgplayer: 88516
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88516
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88516
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				tcgplayer: 221178
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release","staff"]
+			stamp: ["pre-release","staff"],
+			thirdParty: {
+				tcgplayer: 221179
+			}
 		}
 	]
 }

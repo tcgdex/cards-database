@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		372,
-	],
+	dexId: [372],
 	
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Bagon",
+		en: "Bagon"
 	},
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 				de: "Zähneknirschen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Shelgon by attacks during your opponent's next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn.",
 				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Draschel im nächsten Zug deines Gegners durch Angriffe zugefügt würde."
 			},
 
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
-	},
-
-	thirdParty: {
-		cardmarket: 278920,
-		tcgplayer: 89129
+		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89129,
+				cardmarket: 278920
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278920,
+				tcgplayer: 89129
+			}
+		},
+	],
+
 }
 
 export default card
