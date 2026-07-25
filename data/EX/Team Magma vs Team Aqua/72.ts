@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Doppelter Ball"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
+	illustrator: ""Big Mama" Tagawa"Big Mama\" Tagawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
@@ -28,11 +28,21 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275849,
+				tcgplayer: 84985
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275849,
+				tcgplayer: 84985
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

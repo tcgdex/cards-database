@@ -28,15 +28,28 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275862,
+				tcgplayer: 90478
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275862,
+				tcgplayer: 90478
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 477461
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

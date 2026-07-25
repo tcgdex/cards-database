@@ -3,7 +3,7 @@ import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Magma's Technical Machine 01",
+		en: "Team Magma Technical Machine 01",
 		fr: "Machine Technique 01 de Team Magma",
 		de: "Team Magma Technische Maschine"
 	},
@@ -23,11 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Crushing Magma",
 				de: "Crushing Magma",
 				fr: "Magma écrasant"
 			},
 			damage: 10,
 			effect: {
+				en: "Choose an Energy card attached to the Defending Pokémon and put that card at the bottom of your opponent's deck.",
 				de: "Choose Energy card attached to the Defending Pokémon and put that card at the bottom of your opponent´s deck.",
 				fr: "Choisissez une carte Énergie attachée au Pokémon Défenseur et placez-la à la fin du deck de votre adversaire."
 			},
@@ -40,11 +42,21 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275861,
+				tcgplayer: 89817
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275861,
+				tcgplayer: 89817
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Ikuji",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		365,
-	],
+	dexId: [365],
 
 	hp: 120,
 
 	types: [
 		"Water",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage2",
@@ -88,11 +86,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275783,
+				tcgplayer: 89803
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275783,
+				tcgplayer: 89803
+			}
+		},
+	],
+
 }
 
 export default card

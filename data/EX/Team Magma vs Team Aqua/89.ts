@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		257,
-	],
+	dexId: [257],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	suffix: "ex",
@@ -87,12 +86,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275866,
+				tcgplayer: 83912
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477368
+			}
 		}
-	]
+	],
+
 }
 
 export default card

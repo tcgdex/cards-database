@@ -28,15 +28,28 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275857,
+				tcgplayer: 89812
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275857,
+				tcgplayer: 89812
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 477446
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

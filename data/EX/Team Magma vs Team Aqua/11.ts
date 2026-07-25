@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "T. Honda",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		112,
-	],
+	dexId: [112],
 
 	hp: 90,
 
 	types: [
 		"Fighting",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -84,11 +82,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275788,
+				tcgplayer: 89840
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275788,
+				tcgplayer: 89840
+			}
+		},
+	],
+
 }
 
 export default card
