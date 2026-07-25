@@ -86,6 +86,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 278640,
 				tcgplayer: 86414
 			}
 		},
@@ -96,7 +97,8 @@ const card: Card = {
 				tcgplayer: 479906
 			}
 		}
-	]
+	],
+
 }
 
 export default card
