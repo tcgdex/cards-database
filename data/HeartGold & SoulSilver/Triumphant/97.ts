@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		151,
-	],
+	dexId: [151],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Nirgendwo-Verbindung"
 			},
 			effect: {
-				en: "Mew can use the attacks of all of the Pokémon in the Lost Zone (both yours and your opponent’s). (You still need the necessary Energy to use each attack.)",
+				en: "Mew can use the attacks of all Pokémon in the Lost Zone (both yours and your opponent's). (You still need the necessary Energy to use each attack.)",
 				fr: "Mew peut utiliser les attaques de tous les Pokémon dans la Zone Perdue (les vôtres et ceux de votre adversaire). (Vous devrez néanmoins avoir suffisamment d’Énergie pour utiliser chaque attaque.)",
 				de: "Mew kann die Angriffe aller Pokémon im Nirgendwo (deiner und der deines Gegners) einsetzen. (Die für den jeweiligen Angriff notwendige Energie ist trotzdem erforderlich.)"
-			},
+			}
 		},
 	],
 
@@ -69,13 +67,6 @@ const card: Card = {
 
 	retreat: 0,
 	suffix: "Prime",
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	thirdParty: {
 		cardmarket: 279627,

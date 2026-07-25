@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		401,
-	],
+	dexId: [401],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -53,13 +51,6 @@ const card: Card = {
 
 	description: {
 		en: "When its antennae hit each other, it sounds like the music of a xylophone."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

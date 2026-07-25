@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		126,
-	],
+	dexId: [126],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Chaque joueur défausse la carte du dessus de son deck. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie ainsi défaussées.",
 				de: "Jeder Spieler legt die oberste Karte seines Decks auf seinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl aller so abgelegten Energiekarten zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -71,13 +69,6 @@ const card: Card = {
 
 	description: {
 		en: "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

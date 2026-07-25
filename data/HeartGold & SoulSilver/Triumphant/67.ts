@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [66],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -71,13 +69,6 @@ const card: Card = {
 
 	description: {
 		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

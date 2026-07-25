@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		17,
-	],
+	dexId: [17],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Pidgey",
-		fr: "Roucool",
+		fr: "Roucool"
 	},
 
 	stage: "Stage1",
@@ -84,13 +82,6 @@ const card: Card = {
 
 	description: {
 		en: "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

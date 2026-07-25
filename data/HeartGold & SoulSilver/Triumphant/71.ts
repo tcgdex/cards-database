@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -75,13 +73,6 @@ const card: Card = {
 
 	description: {
 		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

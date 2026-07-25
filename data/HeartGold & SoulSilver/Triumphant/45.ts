@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		30,
-	],
+	dexId: [30],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidoran♀",
-		fr: "Nidoran♀",
+		fr: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -76,13 +74,6 @@ const card: Card = {
 
 	description: {
 		en: "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

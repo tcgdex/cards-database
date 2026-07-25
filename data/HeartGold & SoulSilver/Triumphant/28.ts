@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		31,
-	],
+	dexId: [31],
 
 	hp: 130,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidorina",
-		fr: "Nidorina",
+		fr: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -80,13 +78,6 @@ const card: Card = {
 
 	description: {
 		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
-	},
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

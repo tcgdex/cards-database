@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -66,13 +64,6 @@ const card: Card = {
 
 	description: {
 		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
-	},
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

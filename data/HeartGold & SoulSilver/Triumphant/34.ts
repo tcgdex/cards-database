@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		101,
-	],
+	dexId: [101],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Voltorb",
-		fr: "Voltorbe",
+		fr: "Voltorbe"
 	},
 
 	stage: "Stage1",
@@ -83,13 +81,6 @@ const card: Card = {
 
 	description: {
 		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

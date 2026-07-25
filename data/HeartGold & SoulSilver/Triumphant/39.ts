@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		370,
-	],
+	dexId: [370],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -72,13 +70,6 @@ const card: Card = {
 
 	description: {
 		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

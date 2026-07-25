@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		437,
-	],
+	dexId: [437],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Bronzor",
-		fr: "Archeomire",
+		fr: "Archeomire"
 	},
 
 	stage: "Stage1",
@@ -85,13 +83,6 @@ const card: Card = {
 
 	description: {
 		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

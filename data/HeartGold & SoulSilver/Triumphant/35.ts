@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Gastly",
-		fr: "Fantominus",
+		fr: "Fantominus"
 	},
 
 	stage: "Stage1",
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Heimlichtuerei"
 			},
 			effect: {
-				en: "Put 2 damage counters on 1 of your opponent’s Pokémon.",
+				en: "Put 2 damage counters on 1 of your opponent's Pokémon.",
 				fr: "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire.",
 				de: "Lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
@@ -84,13 +82,6 @@ const card: Card = {
 
 	description: {
 		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

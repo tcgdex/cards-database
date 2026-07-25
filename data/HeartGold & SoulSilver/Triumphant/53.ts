@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		70,
-	],
+	dexId: [70],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Bellsprout",
-		fr: "Chetiflor",
+		fr: "Chetiflor"
 	},
 
 	stage: "Stage1",
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Ziel korrodieren"
 			},
 			effect: {
-				en: "Filp a coin. If heads, look at your opponent’s hand, choose 1 card, and discard it.",
+				en: "Flip a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.",
 				fr: "Lancez une pièce. Si c’est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
 				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Handkarten deines Gegners an, wähle 1 davon und lege sie auf seinen Ablagestapel."
 			},
@@ -78,13 +76,6 @@ const card: Card = {
 
 	description: {
 		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

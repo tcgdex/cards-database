@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		201,
-	],
+	dexId: [201],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Unown from your hand onto your Bench, remove all Special Conditions from your Active Pokémon.",
 				fr: "Une seule fois pendant votre tour, lorsque vous placez Zarbi de votre main sur votre Banc, retirez tous les États Spéciaux à votre Pokémon Actif.",
 				de: "Einmal während deines Zuges kannst du, wenn du Icognito von deiner Hand auf deine Bank legst, alle Speziellen Zustände von deinem Aktiven Pokémon entfernen."
-			},
+			}
 		},
 	],
 
@@ -68,13 +66,6 @@ const card: Card = {
 
 	description: {
 		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

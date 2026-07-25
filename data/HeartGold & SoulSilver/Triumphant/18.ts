@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		149,
-	],
+	dexId: [149],
 
 	hp: 140,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Dragonair",
-		fr: "Draco",
+		fr: "Draco"
 	},
 
 	stage: "Stage2",
@@ -90,13 +88,6 @@ const card: Card = {
 
 	description: {
 		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

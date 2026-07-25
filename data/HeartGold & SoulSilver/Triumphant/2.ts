@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		334,
-	],
+	dexId: [334],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Swablu",
-		fr: "Tylton",
+		fr: "Tylton"
 	},
 
 	stage: "Stage1",
@@ -87,13 +85,6 @@ const card: Card = {
 
 	description: {
 		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
-	},
-
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
 	},
 
 	thirdParty: {

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		82,
-	],
+	dexId: [82],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magneti"
 	},
 
 	stage: "Stage1",
@@ -59,7 +57,7 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -82,13 +80,6 @@ const card: Card = {
 
 	description: {
 		en: "The Magnemite are united by a magnetism so powerful, it dries all moisture in its vicinity."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

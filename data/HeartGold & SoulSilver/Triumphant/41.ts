@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		240,
-	],
+	dexId: [240],
 
 	hp: 30,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Niedliches Schlafgesicht"
 			},
 			effect: {
-				en: "As long as Magby is Asleep, prevent all damage done to Magby by attacks.",
+				en: "As long as Magby is Asleep, prevents all damage done to Magby by attacks.",
 				fr: "Tant que Magby est Endormi, empêchez tous les dégâts qui lui sont infligés par des attaques.",
 				de: "Solange Magby schläft, verhindere allen Schaden, der Magby durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -62,13 +60,6 @@ const card: Card = {
 
 	description: {
 		en: "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don’t underestimate it."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

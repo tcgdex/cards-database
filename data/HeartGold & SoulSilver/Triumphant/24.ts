@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		402,
-	],
+	dexId: [402],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Kricketot",
-		fr: "Crikzik",
+		fr: "Crikzik"
 	},
 
 	stage: "Stage1",
@@ -81,13 +79,6 @@ const card: Card = {
 
 	description: {
 		en: "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

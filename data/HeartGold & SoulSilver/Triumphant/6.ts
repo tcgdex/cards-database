@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		34,
-	],
+	dexId: [34],
 
 	hp: 140,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Nidorino",
-		fr: "Nidorino",
+		fr: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Nidoking gets +20 HP for each Nidoqueen you have in play.",
 				fr: "Nidoking reçoit +20 PV pour chacun de vos Nidoqueen en jeu.",
 				de: "Nidoking erhält +20 KP für jedes deiner Nidoqueen im Spiel."
-			},
+			}
 		},
 	],
 
@@ -87,13 +85,6 @@ const card: Card = {
 
 	description: {
 		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
-	},
-
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
 	},
 
 	thirdParty: {

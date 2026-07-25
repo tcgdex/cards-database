@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		100,
-	],
+	dexId: [100],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -63,13 +61,6 @@ const card: Card = {
 
 	description: {
 		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

@@ -21,18 +21,12 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279530
 	}
+	retreat: 0
 }
 
 export default card

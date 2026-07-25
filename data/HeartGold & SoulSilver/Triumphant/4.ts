@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		452,
-	],
+	dexId: [452],
 
 	hp: 100,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Skorupi",
-		fr: "Rapion",
+		fr: "Rapion"
 	},
 
 	stage: "Stage1",
@@ -86,13 +84,6 @@ const card: Card = {
 
 	description: {
 		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation."
-	},
-
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
 	},
 
 	thirdParty: {

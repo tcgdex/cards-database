@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid",
+		fr: "Galekid"
 	},
 
 	stage: "Stage1",
@@ -70,13 +68,6 @@ const card: Card = {
 
 	description: {
 		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur",
+		fr: "Machopeur"
 	},
 
 	stage: "Stage2",
@@ -80,13 +78,6 @@ const card: Card = {
 
 	description: {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
-	},
-
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
 	},
 
 	thirdParty: {
