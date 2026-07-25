@@ -72,10 +72,6 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275778,
-		tcgplayer: 83619
-	},
 
 	variants: [
 		{
@@ -95,7 +91,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["pre-release"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 282797
 			}
 		},
 	],

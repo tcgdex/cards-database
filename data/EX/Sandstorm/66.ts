@@ -65,10 +65,6 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275843,
-		tcgplayer: 86831
-	},
 
 	variants: [
 		{
@@ -88,7 +84,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477547
 			}
 		},
 	],

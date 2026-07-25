@@ -20,10 +20,6 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Karte, die sich aus deinem Aktiven Pokémon entwickelt (wähle 1, falls 2 vorhanden sind) und lege sie auf dein Aktives Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.) Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 275866,
-		tcgplayer: 90464
-	},
 
 	variants: [
 		{
@@ -43,14 +39,14 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125148
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477459
 			}
 		}
 	],

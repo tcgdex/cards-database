@@ -32,7 +32,7 @@ const card: Card = {
 				de: "Lunar Eclipse"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Solrock is in play, you may use this power. Until the end of your turn, Lunatone's type is Darkness. This power can't be used if Lunatone is affected by a Special Condition."",
+				en: "Once during your turn (before your attack), if Solrock is in play, you may use this power. Until the end of your turn, Lunatone's type is Darkness. This power can't be used if Lunatone is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Solaroc est en jeu, vous pouvez utiliser ce pouvoir. Jusqu'à la fin de votre tour, Seleroc est . Ce pouvoir ne peut pas être utilisé si Seleroc est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), if Solrock is in play, you may use this power. Until the end of your turn, Lunatone's type is . This power can't be used if Lunatone is affected by a Special Condition."
 			}
@@ -82,10 +82,6 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275785,
-		tcgplayer: 86923
-	},
 
 	variants: [
 		{

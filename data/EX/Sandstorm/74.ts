@@ -69,10 +69,6 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275851,
-		tcgplayer: 88553
-	},
 
 	variants: [
 		{
@@ -92,14 +88,14 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125136
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477425
 			}
 		}
 	],

@@ -65,10 +65,6 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275846,
-		tcgplayer: 87682
-	},
 
 	variants: [
 		{
@@ -88,7 +84,7 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125152
 			}
 		},
 	],

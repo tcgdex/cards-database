@@ -20,10 +20,6 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach bis zu 3 verschiedenen Basis-Pokémon (außer Baby-Pokémon), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 275864,
-		tcgplayer: 86597
-	},
 
 	variants: [
 		{

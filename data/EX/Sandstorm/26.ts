@@ -71,10 +71,6 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275803,
-		tcgplayer: 90613
-	},
 
 	variants: [
 		{
@@ -94,14 +90,14 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477464
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["curran-hill"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477597
 			}
 		}
 	],

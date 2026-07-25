@@ -69,10 +69,6 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275837,
-		tcgplayer: 85008
-	},
 
 	variants: [
 		{
@@ -92,42 +88,42 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125154
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477380
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477381
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477382
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["takashi-yoneda"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477517
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477518
 			}
 		}
 	],
