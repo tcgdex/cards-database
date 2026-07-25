@@ -23,7 +23,7 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Pokémon Power",
+			type: "Pokemon Power",
 			name: {
 				en: "Kabuto Armor"
 			},
