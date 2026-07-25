@@ -20,33 +20,6 @@ const card: Card = {
 	types: [
 		"Grass"
 	],
-
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				en: "Toxic Vibration"
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
-			}
-		},
-		{
-			cost: [
-				"Grass",
-				"Colorless",
-			],
-			name: {
-				en: "Pester"
-			},
-			effect: {
-				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
-			},
-			damage: "20+"
-		},
-	],
 	stage: "Basic",
 
 	abilities: [
@@ -80,11 +53,13 @@ const card: Card = {
 		cost: ["Colorless"],
 
 		name: {
+			en: "Toxic Vibration",
 			fr: "Vibration toxik",
 			de: "Toxic Vibration"
 		},
 
 		effect: {
+			en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep.",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, le Pokémon Défenseur est maintenant Endormi.",
 			de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Asleep."
 		}
@@ -92,11 +67,13 @@ const card: Card = {
 		cost: ["Grass", "Colorless"],
 
 		name: {
+			en: "Pester",
 			fr: "Abattre",
 			de: "Pester"
 		},
 
 		effect: {
+			en: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage.",
 			fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 40 dégâts.",
 			de: "If the Defending Pokémon is affected by a Special Condition, this attack does 20 damage plus 20 more damage."
 		},
@@ -104,7 +81,7 @@ const card: Card = {
 		damage: 20
 	}],
 
-	
+
 	retreat: 1,
 
 
