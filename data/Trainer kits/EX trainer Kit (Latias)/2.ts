@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Stage1",
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -54,15 +54,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84403
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84403
+			}
+		},
+	],
+
 }
 
 export default card

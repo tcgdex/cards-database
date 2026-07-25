@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Stage1",
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -55,15 +55,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84737
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84737
+			}
+		},
+	],
+
 }
 
 export default card

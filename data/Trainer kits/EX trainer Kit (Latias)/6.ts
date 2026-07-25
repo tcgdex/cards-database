@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -48,15 +48,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89263
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89263
+			}
+		},
+	],
+
 }
 
 export default card

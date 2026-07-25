@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Hironobu Yoshida",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	attacks: [{
@@ -39,15 +39,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89954
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89954
+			}
+		},
+	],
+
 }
 
 export default card

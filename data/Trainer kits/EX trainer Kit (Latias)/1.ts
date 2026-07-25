@@ -11,41 +11,48 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
-	attacks: [{
-		cost: [
-			"Colorless",
-		],
-		name: {
-			en: "Headbutt",
-			fr: "Coup d'boule"
-		},
-		damage: 10
-	}, {
-		cost: [
-			"Fire",
-			"Colorless"
-		],
-		name: {
-			en: "Flare",
-			fr: "Enflammer"
-		},
-		damage: 20
-	}],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Headbutt",
+				fr: "Coup d'boule"
+			},
+			damage: 10
+		}, {
+			cost: [
+				"Fire",
+				"Colorless"
+			],
+			name: {
+				en: "Flare",
+				fr: "Enflammer"
+			},
+			damage: 20
+		}],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 83694
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83694
+			}
+		},
+	],
+
 }
 
 export default card

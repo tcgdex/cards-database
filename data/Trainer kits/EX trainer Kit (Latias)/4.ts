@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Nakaoka",
-	rarity: "None",
+	rarity: "Rare",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -49,15 +49,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86650
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86650
+			}
+		},
+	],
+
 }
 
 export default card

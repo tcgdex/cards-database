@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	attacks: [{
@@ -48,15 +48,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87808
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87808
+			}
+		},
+	],
+
 }
 
 export default card
