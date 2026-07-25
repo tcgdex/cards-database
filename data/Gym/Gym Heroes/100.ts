@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika",
+		en: "Erika"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,22 +12,24 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards.",
+		en: "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
 	},
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85282
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85282,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85282,
+				cardmarket: 274152
+			}
 		}
-	]
+	],
 }
 
 export default card

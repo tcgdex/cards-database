@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Electrode",
+		en: "Lt. Surge's Electrode"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,31 +11,29 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		101,
-	],
+	dexId: [101],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
+		en: "Voltorb"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Shock Blast",
+				en: "Shock Blast"
 			},
 			effect: {
-				en: "If Lt. Surge's Electrode is your Active Pokémon and gets damaged (even if it's Knocked Out), flip a coin. If tails, this power does 20 damage to each Active Pokémon. This power works even if Lt. Surge's Electrode is already Asleep, Confused, or Paralyzed when it takes damage.",
-			},
+				en: "If Lt. Surge's Electrode is your Active Pokémon and gets damaged (even if it's Knocked Out), flip a coin. If tails, this power does 20 damage to each Active Pokémon. This power works even if Lt. Surge's Electrode is already Asleep, Confused, or Paralyzed when it takes damage."
+			}
 		},
 	],
 
@@ -47,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Power Ball",
+				en: "Power Ball"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 30 damage plus 10 more damage for each heads.",
+				en: "Flip 3 coins. This attack does 30 damage plus 10 more damage for each heads."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -60,26 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274320,
-		tcgplayer: 86853
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86853,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86853,
+				cardmarket: 274320
+			}
 		},
-	]
+	],
 }
 
 export default card

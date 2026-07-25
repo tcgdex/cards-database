@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Voltorb",
+		en: "Voltorb"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		100,
-	],
+	dexId: [100],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 10,
@@ -47,22 +45,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
-	},
-
-	thirdParty: {
-		cardmarket: 274862,
-		tcgplayer: 90410
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274862,
+				tcgplayer: 90410
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90410,
+				cardmarket: 274862
+			}
 		}
-	]
+	],
+
 }
 
 export default card

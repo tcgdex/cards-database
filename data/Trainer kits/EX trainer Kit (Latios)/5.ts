@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -55,15 +55,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87103
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275762,
+				tcgplayer: 87103
+			}
+		},
+	],
+
 }
 
 export default card

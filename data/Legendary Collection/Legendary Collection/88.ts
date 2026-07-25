@@ -3,22 +3,20 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Psyduck",
+		en: "Psyduck"
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		54,
-	],
+	dexId: [54],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dizziness",
+				en: "Dizziness"
 			},
 			effect: {
-				en: "Draw a card.",
+				en: "Draw a card."
 			},
 
 		},
@@ -42,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
+				en: "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way.",
+				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Psyduck but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -62,22 +60,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It is often seen holding its head in its paws, as if it were suffering from a headache.",
-	},
-
-	thirdParty: {
-		cardmarket: 274853,
-		tcgplayer: 88434
+		en: "It is often seen holding its head in its paws, as if it were suffering from a headache."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274853,
+				tcgplayer: 88434
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88434,
+				cardmarket: 274853
+			}
 		}
-	]
+	],
+
 }
 
 export default card

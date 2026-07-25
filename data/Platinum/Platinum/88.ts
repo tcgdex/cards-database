@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		432,
-	],
+	dexId: [432],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Poor Sleep"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage and Purugly is now Asleep.",
+				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage and Purugly G is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires et Chaffreux  est maintenant Endormi.",
 				de: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage and Purugly G is now Asleep."
 			},
@@ -75,19 +73,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278509,
-		tcgplayer: 88466
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88466,
+				cardmarket: 278509
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278509,
+				tcgplayer: 88466
+			}
 		}
-	]
+	],
+
 }
 
 export default card

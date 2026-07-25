@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		427,
-	],
+	dexId: [427],
 	
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,22 +49,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
-	},
-
-	thirdParty: {
-		cardmarket: 278927,
-		tcgplayer: 84044
+		en: "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84044,
+				cardmarket: 278927
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278927,
+				tcgplayer: 84044
+			}
+		},
+	],
+
 }
 
 export default card

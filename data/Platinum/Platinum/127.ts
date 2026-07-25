@@ -3,7 +3,7 @@ import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Shaymin",
+		en: "Shaymin LV.X",
 		fr: "Shaymin",
 		de: "Shaymin"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "LEVEL-UP",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If any of your Grass Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, each of Shaymin's attacks does 60 more damage to the Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Si les dégâts d'une attaque de votre adversaire a mis K.O 1 de vos Pokémon Grass lors de son tour précédent, chacune des attaques de Shaymin inflige 60 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
 				de: "If any of your  Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, each of Shaymin's attacks does 60 more damage to the Active Pokémon (before applying Weakness and Resistance)."
-			},
+			}
 		},
 	],
 
@@ -76,16 +74,16 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278547,
-		tcgplayer: 89115
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 89115,
+				cardmarket: 278547
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

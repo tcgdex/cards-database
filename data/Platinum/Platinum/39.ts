@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		389,
-	],
+	dexId: [389],
 
 	hp: 140,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Grotle",
-		fr: "Boskara",
+		fr: "Boskara"
 	},
 
 	stage: "Stage2",
@@ -82,22 +80,26 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there.",
+		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there."
 	},
 
-	thirdParty: {
-		cardmarket: 278460,
-		tcgplayer: 89986
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89986,
+				cardmarket: 278460
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278460,
+				tcgplayer: 89986
+			}
 		}
-	]
+	],
+
 }
 
 export default card

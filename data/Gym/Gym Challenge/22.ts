@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Dugtrio",
+		en: "Brock's Dugtrio"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [51],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Diglett",
+		en: "Diglett"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Lie Low",
+				en: "Lie Low"
 			},
 			effect: {
-				en: "All damage done to Brock's Dugtrio during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
+				en: "All damage done to Brock's Dugtrio during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
 			},
 
 		},
@@ -47,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Earthdrill",
+				en: "Earthdrill"
 			},
 			effect: {
-				en: "This attack can't be used unless Brock's Dugtrio used its Lie Low attack last turn.",
+				en: "This attack can't be used unless Brock's Dugtrio used its Lie Low attack last turn."
 			},
 
 		},
@@ -59,10 +57,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -72,20 +69,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274290,
-		tcgplayer: 83962
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83962,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83962,
+				cardmarket: 274290
+			}
 		},
-	]
+	],
 }
 
 export default card

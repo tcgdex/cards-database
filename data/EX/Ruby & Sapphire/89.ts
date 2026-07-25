@@ -17,26 +17,34 @@ const card: Card = {
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw cards from your deck until you have 6 cards in your hand.",
 		fr: "Piochez des cartes dans votre deck jusqu'à ce que vous ayez six cartes en main.",
-		de: "Ziehe so lange Karten von deinem Deck, bis du 6 Karten auf deiner Hand hast.",
+		de: "Ziehe so lange Karten von deinem Deck, bis du 6 Karten auf deiner Hand hast."
 	},
 
-	thirdParty: {
-		cardmarket: 275737,
-		tcgplayer: 88381
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275737,
+				tcgplayer: 88381
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275737,
+				tcgplayer: 88381
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125122
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

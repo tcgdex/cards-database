@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		288,
-	],
+	dexId: [288],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Slakoth",
-		fr: "Parecool",
+		fr: "Parecool"
 	},
 
 	stage: "Stage1",
@@ -79,22 +77,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment.",
+		en: "Its heart beats at a tenfold tempo, so it cannot sit still even for a moment."
 	},
 
-	thirdParty: {
-		cardmarket: 278485,
-		tcgplayer: 90371
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90371,
+				cardmarket: 278485
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278485,
+				tcgplayer: 90371
+			}
 		}
-	]
+	],
+
 }
 
 export default card

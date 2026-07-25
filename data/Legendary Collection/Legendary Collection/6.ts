@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Persian",
+		en: "Dark Persian"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		53,
-	],
+	dexId: [53],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Meowth",
+		en: "Meowth"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fascinate",
+				en: "Fascinate"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon.",
+				en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with the Defending Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
 			},
 
 		},
@@ -46,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Poison Claws",
+				en: "Poison Claws"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -70,22 +68,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
-	},
-
-	thirdParty: {
-		cardmarket: 274771,
-		tcgplayer: 84637
+		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274771,
+				tcgplayer: 84637
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84637,
+				cardmarket: 274771
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

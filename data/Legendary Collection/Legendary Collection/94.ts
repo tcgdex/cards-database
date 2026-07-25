@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Spearow",
+		en: "Spearow"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		21,
-	],
+	dexId: [21],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Peck",
+				en: "Peck"
 			},
 
 			damage: 10,
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Move",
+				en: "Mirror Move"
 			},
 			effect: {
-				en: "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon.",
+				en: "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
 			},
 
 		},
@@ -66,22 +64,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
-	},
-
-	thirdParty: {
-		cardmarket: 274859,
-		tcgplayer: 89437
+		en: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274859,
+				tcgplayer: 89437
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89437,
+				cardmarket: 274859
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

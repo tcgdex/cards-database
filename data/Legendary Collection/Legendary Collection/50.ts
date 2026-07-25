@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Kakuna",
+		en: "Kakuna"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		14,
-	],
+	dexId: [14],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Weedle",
+		en: "Weedle"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stiffen",
+				en: "Stiffen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)",
+				en: "Flip a coin. If heads, prevent all damage done to Kakuna during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -47,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
+				en: "Poisonpowder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -66,22 +64,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.",
-	},
-
-	thirdParty: {
-		cardmarket: 274815,
-		tcgplayer: 86409
+		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274815,
+				tcgplayer: 86409
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86409,
+				cardmarket: 274815
+			}
 		}
-	]
+	],
+
 }
 
 export default card

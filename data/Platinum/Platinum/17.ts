@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Makoto Imai",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		461,
-	],
+	dexId: [461],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -76,19 +74,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278438,
-		tcgplayer: 90536
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 90536,
+				cardmarket: 278438
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278438,
+				tcgplayer: 90536
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -3,31 +3,33 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni",
+		en: "Giovanni"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Trainer",
 	set: Set,
 
 	effect: {
-		en: "Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into.",
+		en: "Choose 1 of your Pokémon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokémon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokémon it evolves into."
 	},
-	thirdParty: {
-		cardmarket: 274286,
-		tcgplayer: 85708
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85708,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85708,
+				cardmarket: 274286
+			}
 		},
-	]
+	],
 }
 
 export default card

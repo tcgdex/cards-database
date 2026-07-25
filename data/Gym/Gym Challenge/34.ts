@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Graveler",
+		en: "Brock's Graveler"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		75,
-	],
+	dexId: [75],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Geodude",
+		en: "Geodude"
 	},
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 20,
@@ -47,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Detonate",
+				en: "Detonate"
 			},
 			effect: {
-				en: "Does 10 damage to each Pokémon on each player's bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Graveler does 50 damage to itself. If there is a Stadium card in play, discard it.",
+				en: "Does 10 damage to each Pokémon on each player's bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Graveler does 50 damage to itself. If there is a Stadium card in play, discard it."
 			},
 			damage: 50,
 
@@ -60,26 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274302,
-		tcgplayer: 83968
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83968,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83968,
+				cardmarket: 274302
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -80,22 +78,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant."
 	},
 
-	thirdParty: {
-		cardmarket: 278435,
-		tcgplayer: 89108
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 89108,
+				cardmarket: 278435
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278435,
+				tcgplayer: 89108
+			}
 		}
-	]
+	],
+
 }
 
 export default card

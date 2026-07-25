@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		267,
-	],
+	dexId: [267],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Silcoon",
-		fr: "Armulys",
+		fr: "Armulys"
 	},
 
 	stage: "Stage2",
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Silver Scale"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Resistance, this attack's base damage is 60 instead of 30.",
+				en: "If the Defending Pokémon has any Resistance, this attack's base damage is 60 damage instead of 30.",
 				fr: "Si le Pokémon Défenseur possède une Résistance, les dégâts de base de cette attaque sont de 60 au lieu de 30.",
 				de: "If the Defending Pokémon has any Resistance, this attack's base damage is 60 instead of 30."
 			},
@@ -82,22 +80,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+		en: "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen."
 	},
 
-	thirdParty: {
-		cardmarket: 278442,
-		tcgplayer: 83759
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 83759,
+				cardmarket: 278442
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278442,
+				tcgplayer: 83759
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Meowth",
+		en: "Meowth"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		52,
-	],
+	dexId: [52],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pay Day",
+				en: "Pay Day"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card.",
+				en: "Flip a coin. If heads, draw a card."
 			},
 			damage: 10,
 
@@ -57,22 +55,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
-	},
-
-	thirdParty: {
-		cardmarket: 274818,
-		tcgplayer: 87311
+		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274818,
+				tcgplayer: 87311
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87311,
+				cardmarket: 274818
+			}
 		}
-	]
+	],
+
 }
 
 export default card

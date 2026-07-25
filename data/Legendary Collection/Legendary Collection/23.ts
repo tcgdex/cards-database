@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Exeggutor",
+		en: "Exeggutor"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		103,
-	],
+	dexId: [103],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Exeggcute",
+		en: "Exeggcute"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Teleport",
+				en: "Teleport"
 			},
 			effect: {
-				en: "Switch Exeggutor with 1 of your Benched Pokémon.",
+				en: "Switch Exeggutor with 1 of your Benched Pokémon."
 			},
 
 		},
@@ -45,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Big Eggsplosion",
+				en: "Big Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
+				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
@@ -65,22 +63,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
-	},
-
-	thirdParty: {
-		cardmarket: 274788,
-		tcgplayer: 85357
+		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274788,
+				tcgplayer: 85357
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85357,
+				cardmarket: 274788
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Jynx",
+		en: "Sabrina's Jynx"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [124],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Helping Hand",
+				en: "Helping Hand"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards.",
+				en: "Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards."
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hug",
+				en: "Hug"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 20,
 
@@ -55,26 +53,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274325,
-		tcgplayer: 88880
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88880,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88880,
+				cardmarket: 274325
+			}
 		},
-	]
+	],
 }
 
 export default card

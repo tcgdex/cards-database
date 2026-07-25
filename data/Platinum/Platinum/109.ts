@@ -21,27 +21,37 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 278530,
-		tcgplayer: 86822
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86822,
+				cardmarket: 278530
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278530,
+				tcgplayer: 86822
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				tcgplayer: 479909
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 480069
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

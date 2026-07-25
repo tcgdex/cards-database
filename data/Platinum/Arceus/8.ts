@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		373,
-	],
+	dexId: [373],
 	
 	hp: 140,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Shelgon",
+		en: "Shelgon"
 	},
 
 	stage: "Stage2",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If that card isn't a basic Energy card, discard it. This power can't be used if Salamence is affected by a Special Condition.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du die oberste Karte deines Decks aufdecken. Wenn diese Karte eine Basis-Energiekarte ist, lege sie an 1 deiner Pokémon an. Wenn diese Karte keine Basis-Energiekarte ist, lege sie auf deinen Ablagestapel. Diese Poké-Power kann nicht benutzt werden, wenn Brutalanda von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -93,19 +91,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278880,
-		tcgplayer: 88899
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88899,
+				cardmarket: 278880
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278880,
+				tcgplayer: 88899
+			}
+		},
+	],
+
 }
 
 export default card

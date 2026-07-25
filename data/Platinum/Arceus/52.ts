@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		371,
-	],
+	dexId: [371],
 	
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -65,22 +63,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
-	},
-
-	thirdParty: {
-		cardmarket: 278870,
-		tcgplayer: 83699
+		en: "Dreaming of one day flying, it practices by leaping off cliffs every day."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83699,
+				cardmarket: 278870
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278870,
+				tcgplayer: 83699
+			}
+		},
+	],
+
 }
 
 export default card
