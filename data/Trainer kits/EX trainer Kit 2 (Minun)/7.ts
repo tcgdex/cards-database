@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 

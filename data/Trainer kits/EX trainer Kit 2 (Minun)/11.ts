@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "",
-	rarity: "Common",
+	rarity: "None",
 	category: "Energy",
 
 	set: Set,

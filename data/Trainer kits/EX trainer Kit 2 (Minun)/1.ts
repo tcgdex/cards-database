@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Uncommon",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Stage1",
 
