@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hiroki Fuchino",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 50,

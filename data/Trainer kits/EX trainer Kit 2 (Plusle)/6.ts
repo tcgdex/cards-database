@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Katsura Tabata",
-	rarity: "Rare",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 60,

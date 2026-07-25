@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kai Ishikawa",
-	rarity: "Common",
+	rarity: "None",
 	category: "Trainer",
 	set: Set,
 
