@@ -96,7 +96,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477388
 			}
 		}
 	],
