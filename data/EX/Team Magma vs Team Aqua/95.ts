@@ -88,7 +88,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477439
 			}
 		}
 	],

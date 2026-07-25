@@ -32,7 +32,7 @@ const card: Card = {
 				de: "Dark Lift"
 			},
 			effect: {
-				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."",
+				en: "If Team Aqua's Carvanha has any Darkness Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0.",
 				fr: "Si Carvanha de Team Aqua possède des Énergies , son coût de retraite est de 0.",
 				de: "If Team Aqua's Carvanha has any  Energy attached to it, the Retreat Cost for Team Aqua's Carvanha is 0."
 			}

@@ -35,7 +35,7 @@ const card: Card = {
 				de: "Dark Bind"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed."",
+				en: "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.",
 				fr: "Vous pouvez défausser une carte Énergie  attachée à Cacturne de Team Aqua. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "You may discard a  Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed."
 			},
