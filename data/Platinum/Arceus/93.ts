@@ -21,25 +21,17 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Aqua Reaction"
+				en: "Aqua Reaction",
+				de: "Aqua-Reaktion"
 			},
 			effect: {
-				en: "When you attach a Water Energy card from your hand to Helix Fossil (excluding effects of attacks or Poké-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward."
+				en: "When you attach a Water Energy card from your hand to Helix Fossil (excluding effects of attacks or Poké-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward.",
+				de: "Wenn du 1 -Energiekarte von deiner Hand an Helixfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Helixfossil entwickelt, und lege diese auf Helixfossil (dies zählt als Entwickeln von Helixfossil). Mische dein Deck danach."
 			}
 		},
 	],
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Aqua-Reaktion"
-		},
-
-		effect: {
-			de: "Wenn du 1 -Energiekarte von deiner Hand an Helixfossil anlegst (ausgenommen durch Effekte von Angriffen oder Poké-Powern), durchsuche dein Deck nach einer Karte, die sich aus Helixfossil entwickelt, und lege diese auf Helixfossil (dies zählt als Entwickeln von Helixfossil). Mische dein Deck danach."
-		}
-	}],
 	hp: 50,
 
 	variants: [

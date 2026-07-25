@@ -17,26 +17,17 @@ const card: Card = {
 		de: "Spiele Altbernstein wie ein -Basis-Pokémon. (Altbernstein zählt gleichzeitig als Trainerkarte, aber wenn Altbernstein kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Altbernstein kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Altbernstein auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Hard Amber"
-			},
-			effect: {
-				en: "As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent's)."
-			}
-		},
-	],
 	trainerType: "Item",
 
 	abilities: [{
 		type: 'Poke-BODY',
 		name: {
+			en: "Hard Amber",
 			de: "Gehärteter Bernstein"
 		},
 
 		effect: {
+			en: "As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent's).",
 			de: "Solange sich Altbernstein auf deiner Bank befindet, verhindere allen Schaden, der Altbernstein durch Angriffe von Pokémon (deinen oder denen deines Gegners) zugefügt würde."
 		}
 	}],
