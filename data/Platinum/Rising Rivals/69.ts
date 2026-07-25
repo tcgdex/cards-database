@@ -85,8 +85,9 @@ const card: Card = {
 			}
 		},
 		{
+			// TPCi Annual Distributors Meeting 2009
 			type: "normal",
-			stamp: [""]
+			stamp: ["chicago-2009"]
 		},
 	]
 }
