@@ -3,7 +3,7 @@ import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Giratina",
+		en: "Giratina LV.X",
 		fr: "Giratina",
 		de: "Giratina"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		487,
-	],
+	dexId: [487],
 
 	hp: 130,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "LEVEL-UP",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Whenever your opponent's Pokémon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pokémon can't attack.) You can't use more than 1 Invisible Tentacles Poké-Body each turn.",
 				fr: "Lorsqu'1 des Pokémon de votre adversaire essaye d'attaquer, votre adversaire défausse 1 carte de sa main. ( Si votre adversaire ne peut pas défausser de carte, le Pokémon de votre adversaire ne peut pas attaquer.) Vous ne pouvez pas utiliser plus d'1 Poké-Body Tentacules invisibles par tour.",
 				de: "Whenever your opponent's Pokémon tries to attack, your opponent discards 1 card from his or her hand. (If your opponent can't discard 1 card, your opponent's Pokémon can't attack.) You can't use more than 1 Invisible Tentacles Poké-Body each turn."
-			},
+			}
 		},
 	],
 
@@ -79,14 +77,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278545,
-		tcgplayer: 85742
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 85742,
+				cardmarket: 278545
+			}
 		}
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Dialga G",
+		en: "Dialga G LV.X",
 		fr: "Dialga ",
 		de: "Dialga G"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 120,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "LEVEL-UP",
@@ -38,7 +36,7 @@ const card: Card = {
 				en: "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies.",
 				fr: "Chaque Pokémon (les vôtres et ceux de votre adversaire) (Pokémon SP exclus) ne peut pas utiliser de Poké-Bodies.",
 				de: "Each Pokémon (both yours and your opponent's) (excluding Pokémon SP) can't use any Poké-Bodies."
-			},
+			}
 		},
 	],
 
@@ -81,22 +79,26 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278543,
-		tcgplayer: 84811
-	},
-
-	variants:[
-		{
-			type:"holo"
+	variants: [		{
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 84811,
+				cardmarket: 278543
+			}
 		},
 		{
 			type:"holo",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479895
+			}
 		},
 		{
 			type:"holo",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480027
+			}
 		}
 	]
 }

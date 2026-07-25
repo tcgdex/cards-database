@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		415,
-	],
+	dexId: [415],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -77,20 +75,22 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
+		en: "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN."
 	},
 
-	thirdParty: {
-		cardmarket: 278492,
-		tcgplayer: 84395
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84395,
+				cardmarket: 278492
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				tcgplayer: 84395
+			}
 		}
 	]
 }

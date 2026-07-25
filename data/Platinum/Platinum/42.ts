@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		332,
-	],
+	dexId: [332],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Cacnea",
-		fr: "Cacnea",
+		fr: "Cacnea"
 	},
 
 	stage: "Stage1",
@@ -78,20 +76,22 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
+		en: "It becomes active at night, seeking prey that is exhausted from the day's desert heat."
 	},
 
-	thirdParty: {
-		cardmarket: 278463,
-		tcgplayer: 84081
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84081,
+				cardmarket: 278463
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				tcgplayer: 84081
+			}
 		}
 	]
 }
