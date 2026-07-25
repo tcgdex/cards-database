@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		258,
-	],
+	dexId: [258],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -60,21 +58,32 @@ const card: Card = {
 		tcgplayer: 87605
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87605
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87605
+			}
 		},
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	]
 }

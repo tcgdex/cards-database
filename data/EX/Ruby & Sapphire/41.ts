@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		259,
-	],
+	dexId: [259],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Innere Kraft"
 			},
 			effect: {
-				en: "When you attach a Water Energy from your hand to Marshtomp, remove all Special Conditions from Marshtomp.",
+				en: "When you attach a Water Energy card from your hand to Marshtomp, remove all Special Conditions from Marshtomp.",
 				fr: "Lorsque vous attachez une carte Énergie  de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
 				de: "Wenn du eine -Energiekarte an Moorabbel anlegst, verlieren alle Speziellen Zustände auf Moorabbel ihre Wirkung."
-			},
+			}
 		},
 	],
 
@@ -85,9 +83,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87233
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87233
+			}
 		},
 	]
 }

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		288,
-	],
+	dexId: [288],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -46,7 +44,7 @@ const card: Card = {
 				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -88,9 +86,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90366
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90366
+			}
 		},
 	]
 }

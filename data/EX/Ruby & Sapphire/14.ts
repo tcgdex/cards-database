@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		321,
-	],
+	dexId: [321],
 
 	hp: 120,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -87,9 +85,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90457
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90457
+			}
 		},
 	]
 }

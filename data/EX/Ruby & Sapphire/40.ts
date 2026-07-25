@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		259,
-	],
+	dexId: [259],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -83,9 +81,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87232
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87232
+			}
 		},
 	]
 }

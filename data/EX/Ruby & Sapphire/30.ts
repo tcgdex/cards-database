@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		309,
-	],
+	dexId: [309],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Charge"
 			},
 			effect: {
-				en: "Attach a Lightning Energy from your discard pile to Electrike.",
+				en: "Attach a Lightning Energy card from your discard pile to Electrike.",
 				fr: "Attachez une carte Énergie  de votre pile de défausse à Dynavolt.",
 				de: "Attack a  Energy card from your discard pile to Electrike."
 			},
@@ -87,9 +85,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85128
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85128
+			}
 		},
 	]
 }

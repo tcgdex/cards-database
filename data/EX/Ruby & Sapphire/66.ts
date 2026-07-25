@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		280,
-	],
+	dexId: [280],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -63,9 +61,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88554
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88554
+			}
 		},
 	]
 }

@@ -20,26 +20,44 @@ const card: Card = {
 		tcgplayer: 90506
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90506
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90506
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	types: [
+		"Water"
+	],
+	retreat: 0
 }
 
 export default card

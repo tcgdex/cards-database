@@ -20,30 +20,51 @@ const card: Card = {
 		tcgplayer: 88418
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88418
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88418
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	types: [
+		"Psychic"
+	],
+	retreat: 0
 }
 
 export default card

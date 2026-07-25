@@ -20,26 +20,44 @@ const card: Card = {
 		tcgplayer: 85458
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85458
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85458
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	types: [
+		"Fire"
+	],
+	retreat: 0
 }
 
 export default card

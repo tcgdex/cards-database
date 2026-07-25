@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		260,
-	],
+	dexId: [260],
 
 	hp: 110,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to your Active Pokémon. This power can't be used if Swampert is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à votre Pokémon Actif. Ce pouvoir ne peut être utilisé si Laggron est affecté par un État Spécial.",
 				de: "Während deines Zuges (vor deinem Angriff) kannst du einmal eine  -Energiekarte von deiner Hand an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht verwendet werden, falls Sumpex von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -87,9 +85,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 89675
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89675
+			}
 		},
 	]
 }

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		286,
-	],
+	dexId: [286],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Battle Blast"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.\"",
+				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom."",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
 				de: "Does 40 damage plus 10 more damage for each  Energy card attached to Breloom."
 			},
@@ -84,9 +82,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83953
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83953
+			}
 		},
 	]
 }

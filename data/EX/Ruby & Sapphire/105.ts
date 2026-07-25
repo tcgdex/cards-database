@@ -20,26 +20,44 @@ const card: Card = {
 		tcgplayer: 85438
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85438
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85438
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	types: [
+		"Fighting"
+	],
+	retreat: 0
 }
 
 export default card

@@ -25,22 +25,34 @@ const card: Card = {
 		tcgplayer: 88330
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88330
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88330
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

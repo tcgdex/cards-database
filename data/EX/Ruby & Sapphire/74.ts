@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		255,
-	],
+	dexId: [255],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -59,21 +57,32 @@ const card: Card = {
 		tcgplayer: 89950
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89950
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89950
+			}
 		},
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	]
 }

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -89,9 +87,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84087
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84087
+			}
 		},
 	]
 }

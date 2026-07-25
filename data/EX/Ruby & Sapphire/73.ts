@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		255,
-	],
+	dexId: [255],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -74,16 +72,24 @@ const card: Card = {
 		tcgplayer: 89949
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89949
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89949
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	]
 }

@@ -27,11 +27,18 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88182
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88182
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

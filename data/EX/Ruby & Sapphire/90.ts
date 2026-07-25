@@ -25,18 +25,27 @@ const card: Card = {
 		tcgplayer: 85237
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85237
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85237
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

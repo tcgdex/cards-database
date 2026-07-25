@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		304,
-	],
+	dexId: [304],
 
 	hp: 50,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
 				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -84,9 +82,15 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83628
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83628
+			}
 		},
 	]
 }

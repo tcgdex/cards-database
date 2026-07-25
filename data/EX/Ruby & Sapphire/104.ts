@@ -20,22 +20,37 @@ const card: Card = {
 		tcgplayer: 85874
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85874
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85874
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
-	]
+	],
+	types: [
+		"Grass"
+	],
+	retreat: 0
 }
 
 export default card
