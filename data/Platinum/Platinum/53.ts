@@ -94,7 +94,7 @@ const card: Card = {
 			type:"normal",
 			stamp: ["pre-release"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 187215
 			}
 		},
 		{

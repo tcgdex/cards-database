@@ -24,7 +24,7 @@ const card: Card = {
 	variants: [		{
 			type:"normal",
 			thirdParty: {
-				cardmarket: 278535
+				cardmarket: 278535,
 				tcgplayer: 88203
 			}
 		},
@@ -38,7 +38,7 @@ const card: Card = {
 			type:"normal",
 			stamp: ["jason-martinez"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 479940
 			}
 		}
 	],
