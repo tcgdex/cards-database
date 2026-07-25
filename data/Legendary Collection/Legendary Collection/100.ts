@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Full Heal Energy",
+		en: "Full Heal Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,22 +13,27 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		en: "If you play this card from your hand, the Pokémon you attach it to is no longer affected by a Special Condition. Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)",
-	},
-
-	thirdParty: {
-		cardmarket: 274865,
-		tcgplayer: 85585
+		en: "If you play this card from your hand, the Pokémon you attach it to is no longer affected by a Special Condition. Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)"
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274865,
+				tcgplayer: 85585
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85585,
+				cardmarket: 274865
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

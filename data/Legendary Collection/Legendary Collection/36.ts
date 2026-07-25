@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Arcanine",
+		en: "Arcanine"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
+		en: "Growlithe"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				en: "Flamethrower"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Arcanine in order to use this attack.",
+				en: "Discard 1 Fire Energy card attached to Arcanine or this attack does nothing."
 			},
 			damage: 50,
 
@@ -51,10 +49,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
+				en: "Take Down"
 			},
 			effect: {
-				en: "Arcanine does 30 damage to itself.",
+				en: "Arcanine does 30 damage to itself."
 			},
 			damage: 80,
 
@@ -71,22 +69,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
-	},
-
-	thirdParty: {
-		cardmarket: 274801,
-		tcgplayer: 83581
+		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274801,
+				tcgplayer: 83581
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83581,
+				cardmarket: 274801
+			}
 		}
-	]
+	],
+
 }
 
 export default card

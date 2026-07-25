@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dratini",
+		en: "Dratini"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		147,
-	],
+	dexId: [147],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				en: "Pound"
 			},
 
 			damage: 10,
@@ -47,22 +45,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
-	},
-
-	thirdParty: {
-		cardmarket: 274837,
-		tcgplayer: 84930
+		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274837,
+				tcgplayer: 84930
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84930,
+				cardmarket: 274837
+			}
 		}
-	]
+	],
+
 }
 
 export default card

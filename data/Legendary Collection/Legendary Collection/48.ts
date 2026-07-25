@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Kabuto",
+		en: "Kabuto"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		140,
-	],
+	dexId: [140],
 
 	hp: 30,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Kabuto Armor",
+				en: "Kabuto Armor"
 			},
 			effect: {
-				en: "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack only does half the damage to Kabuto (rounded down to nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does only half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -41,7 +39,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				en: "Scratch"
 			},
 
 			damage: 10,
@@ -59,22 +57,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
-	},
-
-	thirdParty: {
-		cardmarket: 274813,
-		tcgplayer: 86381
+		en: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274813,
+				tcgplayer: 86381
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86381,
+				cardmarket: 274813
+			}
 		}
-	]
+	],
+
 }
 
 export default card

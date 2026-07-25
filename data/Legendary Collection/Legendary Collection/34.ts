@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pidgeotto",
+		en: "Pidgeotto"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		17,
-	],
+	dexId: [17],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Pidgey",
+		en: "Pidgey"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
+				en: "Whirlwind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 20,
 
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Move",
+				en: "Mirror Move"
 			},
 			effect: {
-				en: "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon.",
+				en: "If Pidgeotto was attacked last turn, do the final result of that attack on Pidgeotto to the Defending Pokémon."
 			},
 
 		},
@@ -75,22 +73,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
-	},
-
-	thirdParty: {
-		cardmarket: 274799,
-		tcgplayer: 88038
+		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274799,
+				tcgplayer: 88038
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88038,
+				cardmarket: 274799
+			}
 		}
-	]
+	],
+
 }
 
 export default card

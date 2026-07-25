@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Doduo",
+		en: "Doduo"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		84,
-	],
+	dexId: [84],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Fury Attack",
+				en: "Fury Attack"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 	],
@@ -54,22 +52,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
-	},
-
-	thirdParty: {
-		cardmarket: 274836,
-		tcgplayer: 84858
+		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274836,
+				tcgplayer: 84858
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84858,
+				cardmarket: 274836
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

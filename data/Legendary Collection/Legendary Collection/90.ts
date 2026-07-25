@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Rhyhorn",
+		en: "Rhyhorn"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Leer",
+				en: "Leer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)",
+				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn. (Benching either Pokémon ends this effect.)"
 			},
 
 		},
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
+				en: "Horn Attack"
 			},
 
 			damage: 30,
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
-	},
-
-	thirdParty: {
-		cardmarket: 274855,
-		tcgplayer: 88738
+		en: "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274855,
+				tcgplayer: 88738
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88738,
+				cardmarket: 274855
+			}
 		}
-	]
+	],
+
 }
 
 export default card
