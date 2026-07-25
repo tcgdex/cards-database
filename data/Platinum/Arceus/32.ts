@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		442,
-	],
+	dexId: [442],
 	
 	hp: 60,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Spiritomb is your Active Pokémon, each player can't play any Trainer cards from his or her hand.",
 				de: "Solange Kryppuk dein Aktives Pokémon ist, kann kein Spieler Trainerkarten von seiner Hand spielen."
-			},
+			}
 		},
 	],
 
@@ -79,20 +77,31 @@ const card: Card = {
 		tcgplayer: 89466
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89466
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89466
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			foil: "league",
+			thirdParty: {
+				tcgplayer: 164282
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 480112
+			}
 		}
 	]
 }

@@ -17,6 +17,17 @@ const card: Card = {
 		de: "Spiele Domfossil wie ein -Basis-Pokémon. (Domfossil zählt gleichzeitig als Trainerkarte, aber wenn Domfossil kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Domfossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Domfossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Rock Reaction"
+			},
+			effect: {
+				en: "When you attach a Fighting Energy card from your hand to Dome Fossil (excluding effects of attacks or Poké-Powers), search your deck for a card that evolves from Dome Fossil and put it onto Dome Fossil (this counts as evolving Dome Fossil). Shuffle your deck afterward."
+			}
+		},
+	],
 	trainerType: "Item",
 
 	abilities: [{
@@ -31,19 +42,22 @@ const card: Card = {
 	}],
 	hp: 50,
 
-	thirdParty: {
-		cardmarket: 278964,
-		tcgplayer: 84869
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84869,
+				cardmarket: 278964
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84869
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card

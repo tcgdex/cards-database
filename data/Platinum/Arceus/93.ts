@@ -17,6 +17,17 @@ const card: Card = {
 		de: "Spiele Helixfossil wie ein -Basis-Pokémon. (Helixfossil zählt gleichzeitig als Trainerkarte, aber wenn Helixfossil kampfunfähig wird, zählt es als kampfunfähiges Pokémon.) Helixfossil kann nicht von Speziellen Zuständen betroffen werden und sich nicht zurückziehen. In deinem Zug (vor deinem Angriff) kannst du Helixfossil auf deinen Ablagestapel legen. (Dies zählt nicht als kampfunfähig gemachtes Pokémon.)"
 	},
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Aqua Reaction"
+			},
+			effect: {
+				en: "When you attach a Water Energy card from your hand to Helix Fossil (excluding effects of attacks or Poké-Powers), search your deck for a card that evolves from Helix Fossil and put it onto Helix Fossil (this counts as evolving Helix Fossil). Shuffle your deck afterward."
+			}
+		},
+	],
 	trainerType: "Item",
 
 	abilities: [{
@@ -31,19 +42,22 @@ const card: Card = {
 	}],
 	hp: 50,
 
-	thirdParty: {
-		cardmarket: 278965,
-		tcgplayer: 86058
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86058,
+				cardmarket: 278965
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86058
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card
