@@ -11,14 +11,14 @@ const card: Card = {
 	},
 
 	illustrator: "Katsura Tabata",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	attacks: [{
@@ -52,7 +52,6 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
@@ -64,6 +63,16 @@ const card: Card = {
 	],
 
 	retreat: 1,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277203,
+				tcgplayer: 87486
+			}
+		},
+	],
+
 }
 
 export default card
