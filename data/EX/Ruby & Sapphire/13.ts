@@ -77,15 +77,12 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275661,
-		tcgplayer: 89675
-	},
 
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
+				cardmarket: 275661,
 				tcgplayer: 89675
 			}
 		},
@@ -95,7 +92,15 @@ const card: Card = {
 				tcgplayer: 89675
 			}
 		},
-	]
+		{
+			type: "normal",
+			stamp: ['reed-weichler'],
+			thirdParty: {
+				tcgplayer: 477438
+			}
+		},
+	],
+
 }
 
 export default card

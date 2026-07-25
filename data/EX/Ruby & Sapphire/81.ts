@@ -20,15 +20,12 @@ const card: Card = {
 		de: "Flip 3 coins. For each heads, put a basic Energy card from your discard pile into your hand. If you don't have that many basic Energy cards in your discard pile, put all of them into your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 275729,
-		tcgplayer: 85225
-	},
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275729,
 				tcgplayer: 85225
 			}
 		},
@@ -39,6 +36,7 @@ const card: Card = {
 			}
 		},
 	],
+
 	retreat: 0
 }
 

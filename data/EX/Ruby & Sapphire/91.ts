@@ -20,14 +20,11 @@ const card: Card = {
 		de: "Entferne 2 Schadensmarken von 1 deiner Pokémon (1 falls dieses nur 1 hat)."
 	},
 
-	thirdParty: {
-		cardmarket: 275739,
-		tcgplayer: 88330
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275739,
 				tcgplayer: 88330
 			}
 		},
@@ -41,17 +38,18 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125135
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477417
 			}
 		}
 	],
+
 	retreat: 0
 }
 

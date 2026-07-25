@@ -15,14 +15,11 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275752,
-		tcgplayer: 85874
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275752,
 				tcgplayer: 85874
 			}
 		},
@@ -36,17 +33,18 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 215767
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["professor-program"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 176627
 			}
 		}
 	],
+
 	types: [
 		"Grass"
 	],

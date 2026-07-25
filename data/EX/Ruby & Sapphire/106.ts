@@ -15,14 +15,12 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275754,
-		tcgplayer: 90506
-	},
 
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275754,
 				tcgplayer: 90506
 			}
 		},
@@ -36,24 +34,39 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125125
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["professor-program"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 176636
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				tcgplayer: 477979
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				tcgplayer: 477980
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477462
 			}
 		}
 	],
+
 	types: [
 		"Water"
 	],

@@ -69,15 +69,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275692,
-		tcgplayer: 89259
-	},
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275692,
 				tcgplayer: 89259
 			}
 		},
@@ -87,7 +84,22 @@ const card: Card = {
 				tcgplayer: 89259
 			}
 		},
-	]
+		{
+			type: "normal",
+			stamp: ['reed-weichler'],
+			thirdParty: {
+				tcgplayer: 477431
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477430
+			}
+		},
+	],
+
 }
 
 export default card

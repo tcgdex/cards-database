@@ -53,31 +53,29 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275703,
-		tcgplayer: 85803
-	},
 
-	variants: [		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 85803
-			}
-		},
-		{
-			type: "reverse",
-			thirdParty: {
-				tcgplayer: 85803
-			}
-		},
-		{
-			type: "normal",
-			subtype: "no-e-reader",
-			thirdParty: {
-				tcgplayer: 00000
-			}
+	variants: [{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 275703,
+			tcgplayer: 85803
 		}
-	]
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			tcgplayer: 85803
+		}
+	},
+	{
+		type: "normal",
+		subtype: "no-e-reader",
+		thirdParty: {
+			tcgplayer: 125116
+		}
+	}
+	],
+
 }
 
 export default card

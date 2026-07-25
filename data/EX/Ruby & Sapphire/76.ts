@@ -70,14 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 547266,
-		tcgplayer: 90033
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275724,
 				tcgplayer: 90033
 			}
 		},
@@ -92,17 +89,16 @@ const card: Card = {
 			size: "jumbo",
 			stamp: ["25th-celebration"],
 			thirdParty: {
-				tcgplayer: 00000
+				cardmarket: 547266,
+				tcgplayer: 231473
 			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"],
-			thirdParty: {
-				tcgplayer: 00000
-			}
+			stamp: ["reed-weichler"]
 		}
-	]
+	],
+
 }
 
 export default card

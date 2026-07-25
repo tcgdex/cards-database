@@ -15,14 +15,12 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275755,
-		tcgplayer: 88418
-	},
 
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275755,
 				tcgplayer: 88418
 			}
 		},
@@ -36,31 +34,39 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125150
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["professor-program"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 176636
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"],
+			thirdParty: {
+				tcgplayer: 477910
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477422
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477423
 			}
 		}
 	],
+
 	types: [
 		"Psychic"
 	],

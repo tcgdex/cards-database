@@ -20,15 +20,12 @@ const card: Card = {
 		fr: "Attachez Énergie Multicolore à un de vos Pokémon. Lorsqu'elle est en jeu, cette carte fournit tous les types d'Énergie. (Elle ne compte pas comme Énergie de base lorsqu'elle n'est pas en jeu). Lorsque vous attachez cette carte de votre main à un de vos Pokémon, placez un marqueur de dégât sur ce Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 275743,
-		tcgplayer: 88545
-	},
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275743,
 				tcgplayer: 88545
 			}
 		},
@@ -38,7 +35,15 @@ const card: Card = {
 				tcgplayer: 88545
 			}
 		},
+		{
+			type: "normal",
+			stamp: ['tsuguyoshi-yamato'],
+			thirdParty: {
+				tcgplayer: 477424
+			}
+		},
 	],
+
 	retreat: 0
 }
 

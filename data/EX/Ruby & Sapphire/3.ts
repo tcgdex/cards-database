@@ -76,14 +76,11 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275651,
-		tcgplayer: 83903
-	},
 
 	variants: [		{
 			type: "holo",
 			thirdParty: {
+				cardmarket: 275651,
 				tcgplayer: 83903
 			}
 		},
@@ -97,24 +94,22 @@ const card: Card = {
 			type: "holo",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125113
 			}
 		},
 		{
 			type: "reverse",
-			subtype: "no-e-reader",
-			thirdParty: {
-				tcgplayer: 00000
-			}
+			subtype: "no-e-reader"
 		},
 		{
 			type: "holo",
 			stamp: ["chris-fulop"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477367
 			}
 		}
-	]
+	],
+
 }
 
 export default card

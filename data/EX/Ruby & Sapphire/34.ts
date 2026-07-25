@@ -73,14 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275682,
-		tcgplayer: 86459
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275682,
 				tcgplayer: 86459
 			}
 		},
@@ -94,17 +91,18 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125137
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477391
 			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -15,14 +15,12 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275756,
-		tcgplayer: 85458
-	},
 
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275756,
 				tcgplayer: 85458
 			}
 		},
@@ -36,24 +34,32 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125124
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["professor-program"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 176626
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				tcgplayer: 477617
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477384
 			}
 		}
 	],
+
 	types: [
 		"Fire"
 	],

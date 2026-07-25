@@ -75,15 +75,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275676,
-		tcgplayer: 84401
-	},
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275676,
 				tcgplayer: 84401
 			}
 		},
@@ -93,7 +90,15 @@ const card: Card = {
 				tcgplayer: 84401
 			}
 		},
-	]
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477370
+			}
+		},
+	],
+
 }
 
 export default card

@@ -52,14 +52,11 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 547271,
-		tcgplayer: 89950
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275722,
 				tcgplayer: 89950
 			}
 		},
@@ -74,17 +71,18 @@ const card: Card = {
 			size: "jumbo",
 			stamp: ["25th-celebration"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 231471
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477355
 			}
 		}
-	]
+	],
+
 }
 
 export default card

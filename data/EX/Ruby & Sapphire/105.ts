@@ -15,14 +15,12 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275753,
-		tcgplayer: 85438
-	},
 
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275753,
 				tcgplayer: 85438
 			}
 		},
@@ -34,26 +32,34 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader",
+			stamp: ["professor-program"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 176625
 			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"],
+			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125151
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"],
+			thirdParty: {
+				tcgplayer: 477616
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477383
 			}
 		}
 	],
+
 	types: [
 		"Fighting"
 	],

@@ -20,14 +20,11 @@ const card: Card = {
 		de: "Tausche 1 deiner Aktiven Pokémon mit 1 der Pokémon auf deiner Bank aus."
 	},
 
-	thirdParty: {
-		cardmarket: 275740,
-		tcgplayer: 89709
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275740,
 				tcgplayer: 89709
 			}
 		},
@@ -41,38 +38,39 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 560537
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477442
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477440
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477441
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477443
 			}
 		}
 	],
+
 	retreat: 0
 }
 

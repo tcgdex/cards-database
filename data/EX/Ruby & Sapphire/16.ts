@@ -55,7 +55,7 @@ const card: Card = {
 				de: "Battle Blast"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom."",
+				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
 				de: "Does 40 damage plus 10 more damage for each  Energy card attached to Breloom."
 			},
@@ -74,15 +74,12 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275664,
-		tcgplayer: 83953
-	},
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275664,
 				tcgplayer: 83953
 			}
 		},
@@ -92,7 +89,8 @@ const card: Card = {
 				tcgplayer: 83953
 			}
 		},
-	]
+	],
+
 }
 
 export default card

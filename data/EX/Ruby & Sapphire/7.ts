@@ -74,14 +74,11 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275655,
-		tcgplayer: 85632
-	},
 
 	variants: [		{
 			type: "holo",
 			thirdParty: {
+				cardmarket: 275655,
 				tcgplayer: 85632
 			}
 		},
@@ -95,24 +92,22 @@ const card: Card = {
 			type: "holo",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125139
 			}
 		},
 		{
 			type: "reverse",
 			subtype: "no-e-reader",
-			thirdParty: {
-				tcgplayer: 00000
-			}
 		},
 		{
 			type: "holo",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 477386
 			}
 		}
-	]
+	],
+
 }
 
 export default card

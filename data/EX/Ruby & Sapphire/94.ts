@@ -20,14 +20,12 @@ const card: Card = {
 		fr: "Les dégâts infligés au Pokémon auquel Énergie Métal est attachée sont réduits de 10 (après application de la Faiblesse et de la Résistance). Ne tenez pas compte de cet effet si le Pokémon auquel Énergie Métal est attachée n'est pas Métal. Énergie Métal fournit une Énergie Métal (Elle ne compte pas comme Énergie de base)."
 	},
 
-	thirdParty: {
-		cardmarket: 275742,
-		tcgplayer: 87356
-	},
 
-	variants: [		{
+	variants: [
+		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275742,
 				tcgplayer: 87356
 			}
 		},
@@ -40,37 +38,31 @@ const card: Card = {
 		{
 			type: "holo",
 			foil: "cosmos",
-			thirdParty: {
-				tcgplayer: 00000
-			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"],
-			thirdParty: {
-				tcgplayer: 00000
-			}
+			stamp: ["tsuguyoshi-yamato"]
 		},
 		{
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 214286
 			}
 		},
 		{
 			type: "normal",
-			stamp: ["winner"],
-			thirdParty: {
-				tcgplayer: 00000
-			}
-		},
-		{
-			type: "normal",
-			stamp: ["winner"],
 			size: "jumbo",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 211497
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['winner'],
+			thirdParty: {
+				cardmarket: 280580,
+				tcgplayer: 236463
 			}
 		}
 	],

@@ -20,14 +20,11 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 275738,
-		tcgplayer: 85237
-	},
 
 	variants: [		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275738,
 				tcgplayer: 85237
 			}
 		},
@@ -41,10 +38,11 @@ const card: Card = {
 			type: "normal",
 			subtype: "no-e-reader",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125123
 			}
 		}
 	],
+
 	retreat: 0
 }
 
