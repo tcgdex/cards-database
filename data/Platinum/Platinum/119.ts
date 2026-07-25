@@ -24,36 +24,27 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Armor Stone"
+				en: "Armor Stone",
+				de: "Armor Stone"
 			},
 			effect: {
-				en: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
+				en: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
+				de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
 			}
 		},
 	],
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Armor Stone"
-		},
-
-		effect: {
-			de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
-		}
-	}],
-
 	variants: [
 		{
-			type:"normal",
+			type: "normal",
 			thirdParty: {
 				tcgplayer: 83626,
 				cardmarket: 278540
 			}
 		},
 		{
-			type:"reverse",
+			type: "reverse",
 			thirdParty: {
 				tcgplayer: 83626
 			}

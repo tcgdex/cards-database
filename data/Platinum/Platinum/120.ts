@@ -24,36 +24,27 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Skull Stone"
+				en: "Skull Stone",
+				de: "Skull Stone"
 			},
 			effect: {
-				en: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon."
+				en: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon.",
+				de: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon."
 			}
 		},
 	],
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Skull Stone"
-		},
-
-		effect: {
-			de: "During your opponent's turn, if Skull Fossil would be Knocked Out by damage from an opponent's attack, flip a coin until you get tails. For each heads, put 1 damage counter on the Attacking Pokémon."
-		}
-	}],
-
 	variants: [
 		{
-			type:"normal",
+			type: "normal",
 			thirdParty: {
 				tcgplayer: 89278,
 				cardmarket: 278541
 			}
 		},
 		{
-			type:"reverse",
+			type: "reverse",
 			thirdParty: {
 				tcgplayer: 89278
 			}
