@@ -31,7 +31,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "text-error"
+			subtype: "text-error",
 			thirdParty: {
 				tcgplayer: 88779,
 			},
