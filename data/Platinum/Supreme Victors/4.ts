@@ -4,20 +4,18 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Electivire FB",
-		fr: "Elekable ",
+		fr: "Elekable FB",
 		de: "Elevoltek FB"
 	},
 	illustrator: "Hironobu Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		466,
-	],
+	dexId: [466],
 	hp: 90,
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -63,7 +61,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -76,14 +74,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85125
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85125
+			}
+		},
+	],
 
 }
 

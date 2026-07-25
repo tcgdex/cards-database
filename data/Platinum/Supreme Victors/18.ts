@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 120,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Numel",
-		fr: "Chamallot",
+		fr: "Chamallot"
 	},
 
 	stage: "Stage1",
@@ -77,25 +75,28 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
-		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
-	},
-
-	thirdParty: {
-		cardmarket: 278709
+		en: "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84094,
+				cardmarket: 278709
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84094
+			}
+		},
+	],
+
 }
 
 export default card
