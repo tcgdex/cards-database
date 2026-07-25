@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Bastiodon",
+		en: "Bastiodon"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		411,
-	],
+	dexId: [411],
 
 	hp: 120,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
-		en: "Shieldon",
+		en: "Shieldon"
 	},
 
 	stage: "Stage2",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Strength",
+				en: "Strength"
 			},
 
 			damage: 40,
@@ -46,10 +44,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -59,13 +56,13 @@ const card: Card = {
 	retreat: 4,
 
 
-	thirdParty: {
-		cardmarket: 278855
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278855,
+				tcgplayer: 83737
+			},
 		}
 	]
 }

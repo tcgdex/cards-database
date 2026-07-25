@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		405,
-	],
+	dexId: [405],
 
 	hp: 120,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Luxio",
+		en: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -78,25 +76,33 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can see clearly through walls to track down its prey and seek its lost young.",
-	},
-
-	thirdParty: {
-		cardmarket: 278877,
-		tcgplayer: 86949
+		en: "It can see clearly through walls to track down its prey and seek its lost young."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86949,
+				cardmarket: 278877
+			}
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 125055
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 278877,
+				tcgplayer: 86949
+			}
 		},
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

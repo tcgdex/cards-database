@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix",
+		fr: "Goupix"
 	},
 
 	stage: "Stage1",
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Flame Bash"
 			},
 			effect: {
-				en: "Flip a coin until you get tails. Search your deck for a number of Fire Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward.",
+				en: "Flip a coin until you get tails. Search your deck for a number of basic Fire Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cherchez dans votre deck autant de cartes Énergie Fire que vous avez obtenu de faces et attachez-les à n'importe lequel de vos Pokémon de la façon que vous voulez. Ensuite, mélangez votre deck.",
 				de: "Flip a coin until you get tails. Search your deck for a number of  Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward."
 			},
@@ -73,22 +71,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years."
 	},
 
-	thirdParty: {
-		cardmarket: 278457,
-		tcgplayer: 87773
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87773,
+				cardmarket: 278457
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278457,
+				tcgplayer: 87773
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

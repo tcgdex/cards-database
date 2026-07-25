@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Grimer",
+		en: "Grimer"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		88,
-	],
+	dexId: [88],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nasty Goo",
+				en: "Nasty Goo"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -42,10 +40,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Minimize",
+				en: "Minimized"
 			},
 			effect: {
-				en: "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
 			},
 
 		},
@@ -61,22 +59,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
-	},
-
-	thirdParty: {
-		cardmarket: 274843,
-		tcgplayer: 85906
+		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274843,
+				tcgplayer: 85906
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85906,
+				cardmarket: 274843
+			}
 		}
-	]
+	],
+
 }
 
 export default card

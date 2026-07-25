@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		254,
-	],
+	dexId: [254],
 	
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Grovyle",
+		en: "Grovyle"
 	},
 
 	stage: "Stage2",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "When you attach a Grass Energy card from your hand to Sceptile, remove 2 damage counters from Sceptile.",
 				de: "Wenn du 1 -Energiekarte von deiner Hand an Gewaldro anlegst, entferne 2 Schadensmarken von Gewaldro."
-			},
+			}
 		},
 	],
 
@@ -55,7 +53,7 @@ const card: Card = {
 				en: "Does 20 damage times the amount of Grass Energy attached to Sceptile.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Gewaldro angelegten -Energien zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -94,19 +92,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278902,
-		tcgplayer: 88951
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88951,
+				cardmarket: 278902
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278902,
+				tcgplayer: 88951
+			}
+		},
+	],
+
 }
 
 export default card

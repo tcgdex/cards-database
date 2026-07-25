@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Seadra",
+		en: "Seadra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		117,
-	],
+	dexId: [117],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Horsea",
+		en: "Horsea"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
+				en: "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
+				en: "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra."
 			},
 			damage: 20,
 
@@ -69,22 +67,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail.",
-	},
-
-	thirdParty: {
-		cardmarket: 274828,
-		tcgplayer: 89011
+		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274828,
+				tcgplayer: 89011
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89011,
+				cardmarket: 274828
+			}
 		}
-	]
+	],
+
 }
 
 export default card

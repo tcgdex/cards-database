@@ -3,39 +3,37 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Muk",
+		en: "Muk"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		89,
-	],
+	dexId: [89],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Grimer",
+		en: "Grimer"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Toxic Gas",
+				en: "Toxic Gas"
 			},
 			effect: {
-				en: "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -47,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sludge",
+				en: "Sludge"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -66,22 +64,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
-	},
-
-	thirdParty: {
-		cardmarket: 274781,
-		tcgplayer: 87618
+		en: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274781,
+				tcgplayer: 87618
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87618,
+				cardmarket: 274781
+			}
 		}
-	]
+	],
+
 }
 
 export default card

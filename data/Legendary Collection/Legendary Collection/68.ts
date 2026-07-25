@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Bulbasaur",
+		en: "Bulbasaur"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [1],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
+				en: "Leech Seed"
 			},
 			effect: {
-				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
+				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur."
 			},
 			damage: 20,
 
@@ -50,22 +48,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
-	},
-
-	thirdParty: {
-		cardmarket: 274833,
-		tcgplayer: 84025
+		en: "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274833,
+				tcgplayer: 84025
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84025,
+				cardmarket: 274833
+			}
 		}
-	]
+	],
+
 }
 
 export default card

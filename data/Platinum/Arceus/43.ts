@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		404,
-	],
+	dexId: [404],
 	
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Shinx",
+		en: "Shinx"
 	},
 
 	stage: "Stage1",
@@ -55,7 +53,7 @@ const card: Card = {
 				en: "Discard all Lightning Energy attached to Luxio. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.",
 				de: "Entferne alle -Energien von Luxio und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -77,22 +75,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
-	},
-
-	thirdParty: {
-		cardmarket: 278915,
-		tcgplayer: 86942
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86942,
+				cardmarket: 278915
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278915,
+				tcgplayer: 86942
+			}
+		},
+	],
+
 }
 
 export default card

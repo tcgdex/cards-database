@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		333,
-	],
+	dexId: [333],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings."
 	},
 
-	thirdParty: {
-		cardmarket: 278421,
-		tcgplayer: 89658
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89658,
+				cardmarket: 278421
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278421,
+				tcgplayer: 89658
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

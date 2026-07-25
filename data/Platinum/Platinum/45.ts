@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		256,
-	],
+	dexId: [256],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Torchic",
-		fr: "Poussifeu",
+		fr: "Poussifeu"
 	},
 
 	stage: "Stage1",
@@ -76,22 +74,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes.",
+		en: "Its kicking mastery lets it loose 10 kicks per second. It emits sharp cries to intimidate foes."
 	},
 
-	thirdParty: {
-		cardmarket: 278466,
-		tcgplayer: 84412
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84412,
+				cardmarket: 278466
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278466,
+				tcgplayer: 84412
+			}
 		}
-	]
+	],
+
 }
 
 export default card

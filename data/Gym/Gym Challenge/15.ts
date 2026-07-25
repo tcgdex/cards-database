@@ -3,22 +3,20 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Rocket's Zapdos",
+		en: "Rocket's Zapdos"
 	},
 
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		145,
-	],
+	dexId: [145],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Plasma",
+				en: "Plasma"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos.",
+				en: "If there are any Lightning Energy cards in your discard pile, attach 1 of them to Rocket's Zapdos."
 			},
 			damage: 20,
 
@@ -45,10 +43,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electroburn",
+				en: "Electroburn"
 			},
 			effect: {
-				en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Energy cards attached to it.",
+				en: "Rocket's Zapdos does damage to itself equal to 10 times the number of Lightning Energy cards attached to it."
 			},
 			damage: 70,
 
@@ -64,20 +62,22 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274283,
-		tcgplayer: 88800
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88800,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88800,
+				cardmarket: 274283
+			}
 		},
-	]
+	],
 }
 
 export default card

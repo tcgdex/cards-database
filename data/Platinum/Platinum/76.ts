@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		440,
-	],
+	dexId: [440],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Leveinard de votre main sur Ptiravi (vous le faites ainsi évoluer) et retirer à Ptiravi tous ses marqueurs de dégât.",
 				de: "Once during your turn (before your attack), you may put Chansey from your hand onto Happiny (this counts as evolving Happiny) and remove all damage counters from Happiny."
-			},
+			}
 		},
 	],
 
@@ -68,22 +66,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble.",
+		en: "It likes to carry around a small rock. It may wander around others' feet and cause them to stumble."
 	},
 
-	thirdParty: {
-		cardmarket: 278497,
-		tcgplayer: 86008
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86008,
+				cardmarket: 278497
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278497,
+				tcgplayer: 86008
+			}
 		}
-	]
+	],
+
 }
 
 export default card

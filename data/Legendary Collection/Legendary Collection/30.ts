@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Moltres",
+		en: "Moltres"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		146,
-	],
+	dexId: [146],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Wildfire",
+				en: "Wildfire"
 			},
 			effect: {
-				en: "You may discard any number of R Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck.",
+				en: "You may discard any number of Fire Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck."
 			},
 
 		},
@@ -44,10 +42,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Dive Bomb",
+				en: "Dive Bomb"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -63,22 +61,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
-	},
-
-	thirdParty: {
-		cardmarket: 274795,
-		tcgplayer: 87560
+		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274795,
+				tcgplayer: 87560
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87560,
+				cardmarket: 274795
+			}
 		}
-	]
+	],
+
 }
 
 export default card

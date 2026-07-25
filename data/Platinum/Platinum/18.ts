@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		334,
-	],
+	dexId: [334],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Swablu",
-		fr: "Tylton",
+		fr: "Tylton"
 	},
 
 	stage: "Stage1",
@@ -101,19 +99,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278439,
-		tcgplayer: 83517
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 83517,
+				cardmarket: 278439
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278439,
+				tcgplayer: 83517
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		131,
-	],
+	dexId: [131],
 
 	hp: 110,
 
+	stage: "Basic",
 	types: [
-		"Water",
+		"Water"
 	],
 
 	suffix: "ex",
@@ -55,7 +54,7 @@ const card: Card = {
 				de: "Confuse Ray"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused",
+				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
 				de: "The Defending Pokémon is now Confused."
 			},
@@ -74,14 +73,13 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275747,
-		tcgplayer: 86626
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86626,
+				cardmarket: 275747
+			}
 		}
 	]
 }

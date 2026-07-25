@@ -3,7 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus LV. X",
+		en: "Arceus LV.X",
 		fr: "Arceus",
 		de: "Arceus"
 	},
@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		493,
-	],
+	dexId: [493],
 	
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "LEVEL-UP",
@@ -33,10 +31,10 @@ const card: Card = {
 				de: "Variabilität"
 			},
 			effect: {
-				en: "Arceus LV.X's type is the same type as its previous Level.",
+				en: "Arceus LV.X's type is the same as its previous Level.",
 				fr: "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
 				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -66,8 +64,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83603
+			}
+		},
 	]
 }
 

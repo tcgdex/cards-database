@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Vulpix",
+		en: "Blaine's Vulpix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				en: "Bite"
 			},
 
 			damage: 10,
@@ -40,10 +38,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Call Will-o'-the-wisp",
+				en: "Call Will-o'-the-wisp"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, if you have a Energy card in your discard pile, put it into your hand.",
+				en: "Flip 3 coins. For each heads, if you have a Fire Energy card in your discard pile, put it into your hand."
 			},
 
 		},
@@ -52,26 +50,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274334,
-		tcgplayer: 83886
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83886,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83886,
+				cardmarket: 274334
+			}
 		},
-	]
+	],
 }
 
 export default card

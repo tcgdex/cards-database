@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		401,
-	],
+	dexId: [401],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -69,22 +67,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
+		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound."
 	},
 
-	thirdParty: {
-		cardmarket: 278499,
-		tcgplayer: 86528
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86528,
+				cardmarket: 278499
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278499,
+				tcgplayer: 86528
+			}
 		}
-	]
+	],
+
 }
 
 export default card

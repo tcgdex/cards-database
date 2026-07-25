@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		428,
-	],
+	dexId: [428],
 	
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Buneary",
+		en: "Buneary"
 	},
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may discard an Energy card from your hand. If you do, remove 1 damage counter from each of your Pokémon. This power can't be used if Lopunny is affected by a Special Condition.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Energiekarte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 1 Schadensmarke von jedem deiner Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Schlapor von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -71,22 +69,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
-	},
-
-	thirdParty: {
-		cardmarket: 278893,
-		tcgplayer: 86827
+		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86827,
+				cardmarket: 278893
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278893,
+				tcgplayer: 86827
+			}
+		},
+	],
+
 }
 
 export default card

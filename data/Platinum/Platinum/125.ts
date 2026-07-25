@@ -3,7 +3,7 @@ import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Palkia G",
+		en: "Palkia G LV.X",
 		fr: "Palkia ",
 		de: "Palkia G"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		484,
-	],
+	dexId: [484],
 
 	hp: 120,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "LEVEL-UP",
@@ -35,10 +33,10 @@ const card: Card = {
 				de: "Lost Cyclone"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may use this power. Any player who has 4 or more Benched Pokémon chooses 3 of his or her Benched Pokémon. Put the other Benched Pokémon and all cards attached to them in the Lost Zone. (You choose your Pokémon first.) This power can't be used if Palkia is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may use this power. Any player who has 4 or more Benched Pokémon chooses 3 of his or her Benched Pokémon. Put the other Benched Pokémon and all cards attached to them in the Lost Zone. (You choose your Pokémon first.) This power can't be used it Palkia G is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Les joueurs possédant au moins 4 Pokémon de Banc choisissent 3 de leur Pokémon de Banc. Placez les autres Pokémon de Banc ainsi que toutes les cartes qui leur sont attachées dans la Zone Perdue. (Vous choisissez vos Pokémon en premier.) Ce pouvoir ne peut pas être utilisé si Palkia  est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may use this power. Any player who has 4 or more Benched Pokémon chooses 3 of his or her Benched Pokémon. Put the other Benched Pokémon and all cards attached to them in the Lost Zone. (You choose your Pokémon first.) This power can't be used if Palkia G is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Hydro Shot"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Palkia . Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Discard 2 Energy attached to Palkia G. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Défaussez 2 Énergies attachées à Palkia . Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 80 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 				de: "Discard 2 Energy attached to Palkia G. Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
@@ -73,14 +71,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278546,
-		tcgplayer: 87918
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 87918,
+				cardmarket: 278546
+			}
 		}
 	]
 }

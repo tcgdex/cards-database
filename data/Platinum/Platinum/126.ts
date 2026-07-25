@@ -3,7 +3,7 @@ import Set from '../Platinum'
 
 const card: Card = {
 	name: {
-		en: "Shaymin",
+		en: "Shaymin LV.X",
 		fr: "Shaymin",
 		de: "Shaymin"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "LEVEL-UP",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Each of your Grass Pokémon (excluding any Shaymin) gets +40 HP. You can't use more than 1 Thankfulness Poké-Body each turn.",
 				fr: "Chacun de vos Pokémon Grass (les Shaymin exclus) obtient 40 PV supplémentaires. Vous ne pouvez pas utiliser plus d'1 Poké-Body Gratitude par tour.",
 				de: "Each of your  Pokémon (excluding Shaymin) gets +40 HP. You can't use more than 1 Thankfulness Poké-Body each turn."
-			},
+			}
 		},
 	],
 
@@ -79,14 +77,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278547,
-		tcgplayer: 89114
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 89114,
+				cardmarket: 278547
+			}
 		}
 	]
 }

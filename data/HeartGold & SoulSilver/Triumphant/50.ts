@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		73,
-	],
+	dexId: [73],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Tentacool",
-		fr: "Tentacool",
+		fr: "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -82,17 +80,23 @@ const card: Card = {
 		en: "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89878,
+				cardmarket: 279580
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279580,
+				tcgplayer: 89878
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279580,
-		tcgplayer: 89878
-	}
 }
 
 export default card

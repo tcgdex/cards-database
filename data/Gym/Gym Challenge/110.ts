@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina",
+		en: "Sabrina"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,22 +12,24 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name.",
+		en: "Take all Energy cards attached to 1 of your Pokémon with Sabrina in its name and attach them to another 1 of your Pokémon with Sabrina in its name."
 	},
-	thirdParty: {
-		cardmarket: 274288,
-		tcgplayer: 88861
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88861,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88861,
+				cardmarket: 274288
+			}
 		},
-	]
+	],
 }
 
 export default card

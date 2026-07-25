@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		309,
-	],
+	dexId: [309],
 	
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -56,22 +54,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
-	},
-
-	thirdParty: {
-		cardmarket: 278934,
-		tcgplayer: 85143
+		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85143,
+				cardmarket: 278934
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278934,
+				tcgplayer: 85143
+			}
+		},
+	],
+
 }
 
 export default card

@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "TOKIYA",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		478,
-	],
+	dexId: [478],
 	
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Snorunt",
+		en: "Snorunt"
 	},
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn, when you play Froslass from your hand to evolve 1 of your Pokémon, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 				de: "Einmal während deines Zuges, wenn du Frosdedje von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dein Deck nach 1 belibigen Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach."
-			},
+			}
 		},
 	],
 
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Bodenfrost"
 			},
 			effect: {
-				en: "If there is any Stadium card in play, this attack does nothing.",
+				en: "If there is any Stadium Card in play, this attack does nothing.",
 				de: "Wenn sich eine Stadion-Karte im Spiel befindet, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
@@ -71,22 +69,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
-	},
-
-	thirdParty: {
-		cardmarket: 278874,
-		tcgplayer: 85573
+		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85573,
+				cardmarket: 278874
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278874,
+				tcgplayer: 85573
+			}
+		},
+	],
+
 }
 
 export default card

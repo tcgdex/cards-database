@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Heatran",
+		en: "Heatran"
 	},
 
 	illustrator: undefined,
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		485,
-	],
+	dexId: [485],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -32,12 +30,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Boiler",
+				en: "Heat Boiler"
 			},
 			effect: {
-				en: "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage.",
+				en: "If the Defending Pokémon is a Water Pokémon, this attack does 60 damage plus 40 more damage."
 			},
-			damage: 60,
+			damage: "60+",
 
 		},
 	],
@@ -45,17 +43,13 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 4,
 
 
-	thirdParty: {
-		cardmarket: 278845
-	},
-
-	variants:[
+	variants: [
 		{
 			type:"normal"
 		}

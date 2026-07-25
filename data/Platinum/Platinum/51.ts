@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		281,
-	],
+	dexId: [281],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Ralts",
-		fr: "Tarsal",
+		fr: "Tarsal"
 	},
 
 	stage: "Stage1",
@@ -76,26 +74,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
 	},
 
-	thirdParty: {
-		cardmarket: 278472,
-		tcgplayer: 86468
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86468,
+				cardmarket: 278472
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278472,
+				tcgplayer: 86468
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 480066
+			}
 		}
-	]
+	],
+
 }
 
 export default card
