@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		357,
-	],
+	dexId: [357],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -84,35 +82,41 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278626,
-		tcgplayer: 90060
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90060,
+				cardmarket: 278626
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90060
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				tcgplayer: 213009
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release","staff"]
+			stamp: ["pre-release", "staff"],
+			thirdParty: {
+				tcgplayer: 228597
+			}
 		}
 	]
 }

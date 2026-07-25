@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Infernape 4",
+		en: "Infernape E4",
 		fr: "Simiabraz  Niv. 55",
 		de: "Panferno 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		392,
-	],
+	dexId: [392],
 	hp: 90,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -60,19 +58,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86279
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86279
+			}
+		},
 	]
 }
 

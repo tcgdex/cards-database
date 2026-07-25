@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		449,
-	],
+	dexId: [449],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -70,32 +68,31 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
-	},
-
-	thirdParty: {
-		cardmarket: 278638,
-		tcgplayer: 86080
+		en: "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86080
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86080
+			}
+		},
 	]
 }
 

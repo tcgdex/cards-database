@@ -21,17 +21,19 @@ const card: Card = {
 
 	trainerType: "Stadium",
 
-	thirdParty: {
-		cardmarket: 278667
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88224
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88224
+			}
+		},
 	]
 }
 

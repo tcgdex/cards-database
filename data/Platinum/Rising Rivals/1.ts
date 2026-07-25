@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Arcanine has any Fire Energy attached to it, Arcanine has no Weakness.",
 				fr: "Tant qu'Arcanin possède de l'Énergie Fire, il ne possède pas de Faiblesse.",
 				de: "Solange an Arkani mindestens 1 -Energie angelegt ist, hat Arkani keine Schwäche."
-			},
+			}
 		},
 	],
 
@@ -92,21 +90,22 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278575,
-		tcgplayer: 83585
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83585,
+				cardmarket: 278575
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83585
+			}
+		},
 	]
 }
 

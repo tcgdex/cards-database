@@ -21,18 +21,23 @@ const card: Card = {
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 278674,
-		tcgplayer: 87365
-	},
-
+	types: [
+		"Metal"
+	],
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278674,
+				tcgplayer: 87365
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87365
+			}
+		},
 	]
 }
 

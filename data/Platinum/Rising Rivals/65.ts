@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Houndoom 4",
+		en: "Houndoom E4",
 		fr: "Demolosse  Niv. 52",
 		de: "Hundemon 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		229,
-	],
+	dexId: [229],
 	hp: 80,
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -65,7 +63,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -78,11 +76,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86214
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86214
+			}
+		},
 	]
 }
 

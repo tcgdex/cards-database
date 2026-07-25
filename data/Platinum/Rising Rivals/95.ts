@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Team Galactic's Invention G-107 Technical Machine",
+		en: "Team Galactic's Invention G-107 Technical Machine G",
 		fr: "Machine Technique  Invention G-107 de Team Galaxie",
 		de: "Team Galaktiks Erfindung G-107 Technische Maschine"
 	},
@@ -20,6 +20,21 @@ const card: Card = {
 		de: "Lege diese Karte an 1 deiner Pokémon SP im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstelle seiner eigenen Angriffe benutzen. Wenn das Pokémon, an das diese Karte angelegt ist, kein Pokémon SP mehr ist, lege diese Karte auf den Ablagestapel."
 	},
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Damage Porter"
+			},
+			effect: {
+				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage times the number of damage counters on the Pokémon this card is attached to to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			}
+		},
+	],
 	trainerType: "Technical Machine",
 
 	attacks: [{
@@ -34,17 +49,19 @@ const card: Card = {
 		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
-	thirdParty: {
-		cardmarket: 278669
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89808
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89808
+			}
+		},
 	]
 }
 

@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Drapion 4",
+		en: "Drapion E4",
 		fr: "Drascore  Niv. 53",
 		de: "Piondragi 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		452,
-	],
+	dexId: [452],
 	hp: 100,
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -75,11 +73,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84925
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84925
+			}
+		},
 	]
 }
 

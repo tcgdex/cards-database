@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -65,29 +63,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278605,
-		tcgplayer: 88527
-	},
-
+	retreat: 0
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88527
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88527
+			}
+		},
 	]
 }
 

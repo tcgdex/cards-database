@@ -21,25 +21,33 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 278666,
-		tcgplayer: 86891
-	},
-
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278666,
+				tcgplayer: 86891
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 86891
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 123189
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 480073
+			}
 		}
 	]
 }

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		405,
-	],
+	dexId: [405],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -64,46 +62,57 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278583,
-		tcgplayer: 86951
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86951
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86951
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479911
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				tcgplayer: 479912
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["mychael-bryan"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480076
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				tcgplayer: 480075
+			}
 		},
 	]
 }

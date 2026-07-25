@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		422,
-	],
+	dexId: [422],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -66,25 +64,25 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
-	},
-
-	thirdParty: {
-		cardmarket: 278653,
-		tcgplayer: 89143
+		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89143
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89143
+			}
+		},
 	]
 }
 

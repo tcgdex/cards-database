@@ -21,33 +21,47 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278670,
-		tcgplayer: 89809
-	},
-
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278670,
+				tcgplayer: 89809
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 89809
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				tcgplayer: 260886
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479962
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				tcgplayer: 479963
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480118
+			}
 		}
 	]
 }

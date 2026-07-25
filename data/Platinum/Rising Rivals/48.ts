@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Scizor 4",
+		en: "Scizor E4",
 		fr: "Cizayox  Niv. 49",
 		de: "Scherox 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		212,
-	],
+	dexId: [212],
 	hp: 80,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -60,19 +58,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88966
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88966
+			}
+		},
 	]
 }
 
