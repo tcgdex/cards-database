@@ -86,9 +86,6 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "energy-symbol-error"
-			thirdParty: {
-				tcgplayer: 83861,
-			},
 		}
 	],
 }
