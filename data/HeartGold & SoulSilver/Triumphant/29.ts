@@ -88,10 +88,22 @@ const card: Card = {
 		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed."
 	},
 
-	thirdParty: {
-		cardmarket: 279559,
-		tcgplayer: 88034
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88034,
+				cardmarket: 279559
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88034
+			}
+		},
+	],
+
 }
 
 export default card

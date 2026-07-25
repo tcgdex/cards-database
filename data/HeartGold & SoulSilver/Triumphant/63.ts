@@ -62,10 +62,22 @@ const card: Card = {
 		en: "Its body is made of gas. Despite lacking substance, it can envelop an opponent of any size and cause suffocation."
 	},
 
-	thirdParty: {
-		cardmarket: 279593,
-		tcgplayer: 85656
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85656,
+				cardmarket: 279593
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85656
+			}
+		},
+	],
+
 }
 
 export default card

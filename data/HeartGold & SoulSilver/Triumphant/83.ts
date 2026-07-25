@@ -63,10 +63,22 @@ const card: Card = {
 		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
 	},
 
-	thirdParty: {
-		cardmarket: 279613,
-		tcgplayer: 90422
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90422,
+				cardmarket: 279613
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90422
+			}
+		},
+	],
+
 }
 
 export default card

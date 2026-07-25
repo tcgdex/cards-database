@@ -75,10 +75,22 @@ const card: Card = {
 		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand."
 	},
 
-	thirdParty: {
-		cardmarket: 279601,
-		tcgplayer: 88051
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88051,
+				cardmarket: 279601
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88051
+			}
+		},
+	],
+
 }
 
 export default card

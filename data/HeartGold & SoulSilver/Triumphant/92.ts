@@ -71,10 +71,23 @@ const card: Card = {
 	retreat: 1,
 	suffix: "Prime",
 
-	thirdParty: {
-		cardmarket: 279533,
-		tcgplayer: 84148
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84148,
+				cardmarket: 279533
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['zachary-bokhari'],
+			thirdParty: {
+				tcgplayer: 480533
+			}
+		},
+	],
+
 }
 
 export default card

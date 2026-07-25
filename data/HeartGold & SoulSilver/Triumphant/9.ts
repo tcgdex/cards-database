@@ -72,10 +72,21 @@ const card: Card = {
 		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
 	},
 
-	thirdParty: {
-		cardmarket: 279539,
-		tcgplayer: 89430
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89430,
+				cardmarket: 279539
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89430
+			}
+		},
+	],
+
 }
 
 export default card

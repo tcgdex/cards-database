@@ -80,10 +80,22 @@ const card: Card = {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
 	},
 
-	thirdParty: {
-		cardmarket: 279556,
-		tcgplayer: 86967
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86967,
+				cardmarket: 279556
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86967
+			}
+		},
+	],
+
 }
 
 export default card

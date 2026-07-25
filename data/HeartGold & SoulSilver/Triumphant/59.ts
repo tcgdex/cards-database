@@ -68,10 +68,22 @@ const card: Card = {
 		en: "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
 	},
 
-	thirdParty: {
-		cardmarket: 279589,
-		tcgplayer: 84116
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84116,
+				cardmarket: 279589
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84116
+			}
+		},
+	],
+
 }
 
 export default card

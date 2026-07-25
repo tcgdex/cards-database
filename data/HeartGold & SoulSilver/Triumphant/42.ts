@@ -71,10 +71,22 @@ const card: Card = {
 		en: "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun."
 	},
 
-	thirdParty: {
-		cardmarket: 279572,
-		tcgplayer: 87051
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87051,
+				cardmarket: 279572
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87051
+			}
+		},
+	],
+
 }
 
 export default card

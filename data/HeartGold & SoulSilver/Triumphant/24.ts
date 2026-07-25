@@ -81,10 +81,22 @@ const card: Card = {
 		en: "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound."
 	},
 
-	thirdParty: {
-		cardmarket: 279554,
-		tcgplayer: 86534
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86534,
+				cardmarket: 279554
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86534
+			}
+		},
+	],
+
 }
 
 export default card

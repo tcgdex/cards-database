@@ -87,10 +87,21 @@ const card: Card = {
 		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
 	},
 
-	thirdParty: {
-		cardmarket: 279532,
-		tcgplayer: 83518
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83518,
+				cardmarket: 279532
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83518
+			}
+		},
+	],
+
 }
 
 export default card

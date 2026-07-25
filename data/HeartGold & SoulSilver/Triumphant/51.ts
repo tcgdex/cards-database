@@ -68,10 +68,22 @@ const card: Card = {
 		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
 	},
 
-	thirdParty: {
-		cardmarket: 279581,
-		tcgplayer: 90165
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90165,
+				cardmarket: 279581
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90165
+			}
+		},
+	],
+
 }
 
 export default card

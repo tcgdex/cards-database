@@ -90,10 +90,21 @@ const card: Card = {
 		en: "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory."
 	},
 
-	thirdParty: {
-		cardmarket: 279531,
-		tcgplayer: 83480
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83480,
+				cardmarket: 279531
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83480
+			}
+		},
+	],
+
 }
 
 export default card

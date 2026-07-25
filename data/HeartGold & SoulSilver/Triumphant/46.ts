@@ -77,10 +77,22 @@ const card: Card = {
 		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
 	},
 
-	thirdParty: {
-		cardmarket: 279576,
-		tcgplayer: 87747
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87747,
+				cardmarket: 279576
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87747
+			}
+		},
+	],
+
 }
 
 export default card

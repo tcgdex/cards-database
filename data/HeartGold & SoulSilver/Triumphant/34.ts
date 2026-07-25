@@ -83,10 +83,22 @@ const card: Card = {
 		en: "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
 	},
 
-	thirdParty: {
-		cardmarket: 279564,
-		tcgplayer: 85159
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85159,
+				cardmarket: 279564
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85159
+			}
+		},
+	],
+
 }
 
 export default card

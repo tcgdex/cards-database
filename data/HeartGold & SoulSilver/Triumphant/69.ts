@@ -73,6 +73,21 @@ const card: Card = {
 		en: "Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87720
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87720
+			}
+		},
+	],
+
 }
 
 export default card

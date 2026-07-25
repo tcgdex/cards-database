@@ -70,6 +70,21 @@ const card: Card = {
 		en: "It raises its big ears to check its surroundings. It will strike first if it senses any danger."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87729
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87729
+			}
+		},
+	],
+
 }
 
 export default card

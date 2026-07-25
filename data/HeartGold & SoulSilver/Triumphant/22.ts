@@ -78,10 +78,22 @@ const card: Card = {
 		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."
 	},
 
-	thirdParty: {
-		cardmarket: 279552,
-		tcgplayer: 85817
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85817,
+				cardmarket: 279552
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85817
+			}
+		},
+	],
+
 }
 
 export default card

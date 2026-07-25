@@ -78,10 +78,22 @@ const card: Card = {
 		en: "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey."
 	},
 
-	thirdParty: {
-		cardmarket: 279542,
-		tcgplayer: 90365
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90365,
+				cardmarket: 279542
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90365
+			}
+		},
+	],
+
 }
 
 export default card

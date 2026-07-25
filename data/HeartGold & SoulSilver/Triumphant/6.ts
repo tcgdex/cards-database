@@ -87,10 +87,35 @@ const card: Card = {
 		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
 	},
 
-	thirdParty: {
-		cardmarket: 279536,
-		tcgplayer: 87699
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87699,
+				cardmarket: 279536
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87699
+			}
+		},
+		{
+			type: "holo",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 125071
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125072,
+			}
+		},
+	],
+
 }
 
 export default card

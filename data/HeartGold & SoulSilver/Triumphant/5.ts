@@ -83,10 +83,34 @@ const card: Card = {
 		en: "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time."
 	},
 
-	thirdParty: {
-		cardmarket: 279535,
-		tcgplayer: 87140
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87140,
+				cardmarket: 279535
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87140
+			}
+		},
+		{
+			type: "holo",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 125068
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125072,
+			}
+		},
+	],
+
 }
 
 export default card

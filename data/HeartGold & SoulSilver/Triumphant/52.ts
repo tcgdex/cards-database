@@ -73,10 +73,22 @@ const card: Card = {
 		en: "It bounces playfully like a ball. The more seawater it swallows, the higher it bounces."
 	},
 
-	thirdParty: {
-		cardmarket: 279582,
-		tcgplayer: 90455
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90455,
+				cardmarket: 279582
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90455
+			}
+		},
+	],
+
 }
 
 export default card

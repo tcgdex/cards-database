@@ -66,10 +66,22 @@ const card: Card = {
 		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
 	},
 
-	thirdParty: {
-		cardmarket: 279602,
-		tcgplayer: 88292
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88292,
+				cardmarket: 279602
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88292
+			}
+		},
+	],
+
 }
 
 export default card

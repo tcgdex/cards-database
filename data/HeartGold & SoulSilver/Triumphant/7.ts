@@ -79,10 +79,21 @@ const card: Card = {
 		en: "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error…"
 	},
 
-	thirdParty: {
-		cardmarket: 279537,
-		tcgplayer: 88317
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88317,
+				cardmarket: 279537
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88317
+			}
+		},
+	],
+
 }
 
 export default card

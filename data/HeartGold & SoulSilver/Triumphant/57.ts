@@ -72,10 +72,22 @@ const card: Card = {
 		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
 	},
 
-	thirdParty: {
-		cardmarket: 279587,
-		tcgplayer: 83810
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83810,
+				cardmarket: 279587
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83810
+			}
+		},
+	],
+
 }
 
 export default card

@@ -23,11 +23,37 @@ const card: Card = {
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279619,
-		tcgplayer: 90086
-	}
-	retreat: 0
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90086,
+				cardmarket: 279619
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90086
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['ross-cawthorn'],
+			thirdParty: {
+				tcgplayer: 480511
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480512
+			}
+		},
+	],
+
 }
 
 export default card

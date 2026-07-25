@@ -68,10 +68,22 @@ const card: Card = {
 		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
 	},
 
-	thirdParty: {
-		cardmarket: 279585,
-		tcgplayer: 83493
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83493,
+				cardmarket: 279585
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83493
+			}
+		},
+	],
+
 }
 
 export default card

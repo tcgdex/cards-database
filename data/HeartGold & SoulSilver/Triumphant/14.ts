@@ -85,10 +85,22 @@ const card: Card = {
 		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
 	},
 
-	thirdParty: {
-		cardmarket: 279544,
-		tcgplayer: 83724
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83724,
+				cardmarket: 279544
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83724
+			}
+		},
+	],
+
 }
 
 export default card

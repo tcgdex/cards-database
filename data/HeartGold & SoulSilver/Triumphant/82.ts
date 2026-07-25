@@ -74,10 +74,22 @@ const card: Card = {
 		en: "It emits light from its tail to communicate. It loves the sweet aroma given off by Illumise."
 	},
 
-	thirdParty: {
-		cardmarket: 279612,
-		tcgplayer: 90400
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90400,
+				cardmarket: 279612
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90400
+			}
+		},
+	],
+
 }
 
 export default card

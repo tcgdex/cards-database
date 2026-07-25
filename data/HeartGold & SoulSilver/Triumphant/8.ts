@@ -79,10 +79,21 @@ const card: Card = {
 		en: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast."
 	},
 
-	thirdParty: {
-		cardmarket: 279538,
-		tcgplayer: 88587
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88587,
+				cardmarket: 279538
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88587
+			}
+		},
+	],
+
 }
 
 export default card

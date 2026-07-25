@@ -80,10 +80,36 @@ const card: Card = {
 		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
 	},
 
-	thirdParty: {
-		cardmarket: 279598,
-		tcgplayer: 87085
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87085,
+				cardmarket: 279598
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87085
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gustavo-wada'],
+			thirdParty: {
+				tcgplayer: 480419
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480420
+			}
+		},
+	],
+
 }
 
 export default card

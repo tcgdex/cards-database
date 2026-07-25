@@ -100,10 +100,23 @@ const card: Card = {
 	retreat: 0,
 	suffix: "Prime",
 
-	thirdParty: {
-		cardmarket: 279584,
-		tcgplayer: 90694
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90694,
+				cardmarket: 279584
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gustavo-wada'],
+			thirdParty: {
+				tcgplayer: 480526
+			}
+		},
+	],
+
 }
 
 export default card

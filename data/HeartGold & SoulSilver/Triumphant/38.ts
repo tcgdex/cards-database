@@ -79,10 +79,22 @@ const card: Card = {
 		en: "It has space in its throat to store saliva. It can also roll up its tongue and store it in the same spot."
 	},
 
-	thirdParty: {
-		cardmarket: 279568,
-		tcgplayer: 86714
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86714,
+				cardmarket: 279568
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86714
+			}
+		},
+	],
+
 }
 
 export default card

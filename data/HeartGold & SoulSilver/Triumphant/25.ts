@@ -70,10 +70,22 @@ const card: Card = {
 		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep."
 	},
 
-	thirdParty: {
-		cardmarket: 279555,
-		tcgplayer: 86928
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86928,
+				cardmarket: 279555
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86928
+			}
+		},
+	],
+
 }
 
 export default card

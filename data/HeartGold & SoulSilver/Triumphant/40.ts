@@ -76,10 +76,22 @@ const card: Card = {
 		en: "It always goes at its full power, but this very tough and durable Pokémon never gets tired."
 	},
 
-	thirdParty: {
-		cardmarket: 279570,
-		tcgplayer: 86984
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86984,
+				cardmarket: 279570
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86984
+			}
+		},
+	],
+
 }
 
 export default card

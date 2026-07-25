@@ -71,10 +71,22 @@ const card: Card = {
 		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger."
 	},
 
-	thirdParty: {
-		cardmarket: 279597,
-		tcgplayer: 86998
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86998,
+				cardmarket: 279597
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86998
+			}
+		},
+	],
+
 }
 
 export default card

@@ -80,10 +80,22 @@ const card: Card = {
 		en: "If it is sad or lonely, the skull it wears shakes and emits a plaintive and mournful sound."
 	},
 
-	thirdParty: {
-		cardmarket: 279590,
-		tcgplayer: 84535
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84535,
+				cardmarket: 279590
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84535
+			}
+		},
+	],
+
 }
 
 export default card

@@ -79,10 +79,22 @@ const card: Card = {
 		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles."
 	},
 
-	thirdParty: {
-		cardmarket: 279557,
-		tcgplayer: 87060
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87060,
+				cardmarket: 279557
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87060
+			}
+		},
+	],
+
 }
 
 export default card

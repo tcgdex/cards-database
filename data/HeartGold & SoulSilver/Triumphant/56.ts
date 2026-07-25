@@ -77,10 +77,22 @@ const card: Card = {
 		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
 	},
 
-	thirdParty: {
-		cardmarket: 279586,
-		tcgplayer: 83639
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83639,
+				cardmarket: 279586
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83639
+			}
+		},
+	],
+
 }
 
 export default card

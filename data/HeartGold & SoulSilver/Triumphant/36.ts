@@ -76,10 +76,22 @@ const card: Card = {
 		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
 	},
 
-	thirdParty: {
-		cardmarket: 279566,
-		tcgplayer: 86423
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86423,
+				cardmarket: 279566
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86423
+			}
+		},
+	],
+
 }
 
 export default card

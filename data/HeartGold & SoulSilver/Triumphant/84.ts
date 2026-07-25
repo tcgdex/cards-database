@@ -76,10 +76,29 @@ const card: Card = {
 		en: "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
 	},
 
-	thirdParty: {
-		cardmarket: 279614,
-		tcgplayer: 90688
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90688,
+				cardmarket: 279614
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90688
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gustavo-wada'],
+			thirdParty: {
+				tcgplayer: 480524
+			}
+		},
+	],
+
 }
 
 export default card

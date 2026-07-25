@@ -81,10 +81,22 @@ const card: Card = {
 		en: "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
 	},
 
-	thirdParty: {
-		cardmarket: 279561,
-		tcgplayer: 90461
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90461,
+				cardmarket: 279561
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90461
+			}
+		},
+	],
+
 }
 
 export default card

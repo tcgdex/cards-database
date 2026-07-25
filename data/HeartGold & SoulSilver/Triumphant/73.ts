@@ -69,10 +69,22 @@ const card: Card = {
 		en: "A manmade Pokémon that came about as a result of research. It is programmed with only basic motions."
 	},
 
-	thirdParty: {
-		cardmarket: 279603,
-		tcgplayer: 88312
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88312,
+				cardmarket: 279603
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88312
+			}
+		},
+	],
+
 }
 
 export default card

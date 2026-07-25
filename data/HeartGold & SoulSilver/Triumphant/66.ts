@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Its long tongue, slathered with a gooey saliva, sticks to anything, so it is very useful."
 	},
 
-	thirdParty: {
-		cardmarket: 279596,
-		tcgplayer: 86723
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86723,
+				cardmarket: 279596
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86723
+			}
+		},
+	],
+
 }
 
 export default card

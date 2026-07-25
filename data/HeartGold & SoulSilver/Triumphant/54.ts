@@ -87,10 +87,22 @@ const card: Card = {
 		en: "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight."
 	},
 
-	thirdParty: {
-		cardmarket: 279584,
-		tcgplayer: 90693
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90693,
+				cardmarket: 279584
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90693
+			}
+		},
+	],
+
 }
 
 export default card

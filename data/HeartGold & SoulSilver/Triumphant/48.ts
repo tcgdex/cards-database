@@ -79,10 +79,22 @@ const card: Card = {
 		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
 	},
 
-	thirdParty: {
-		cardmarket: 279578,
-		tcgplayer: 88120
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88120,
+				cardmarket: 279578
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88120
+			}
+		},
+	],
+
 }
 
 export default card

@@ -23,11 +23,79 @@ const card: Card = {
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279617,
-		tcgplayer: 86369
-	}
-	retreat: 0
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86369,
+				cardmarket: 279617
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86369
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['igor-costa'],
+			thirdParty: {
+				tcgplayer: 480570
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gustavo-wada'],
+			thirdParty: {
+				tcgplayer: 480411
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['christopher-kan'],
+			thirdParty: {
+				tcgplayer: 480412
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480414
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['shuto-itagaki'],
+			thirdParty: {
+				tcgplayer: 480571
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['chase-moloney'],
+			thirdParty: {
+				tcgplayer: 480569
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['zachary-bokhari'],
+			thirdParty: {
+				tcgplayer: 480568
+			}
+		},
+		{
+			type: "reverse",
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				tcgplayer: 119012
+			}
+		},
+	],
+
 }
 
 export default card

@@ -70,10 +70,22 @@ const card: Card = {
 		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
 	},
 
-	thirdParty: {
-		cardmarket: 279567,
-		tcgplayer: 86583
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86583,
+				cardmarket: 279567
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86583
+			}
+		},
+	],
+
 }
 
 export default card

@@ -55,10 +55,22 @@ const card: Card = {
 		en: "It has mystical powers but doesn’t recall that it has used them. That is why it always looks puzzled."
 	},
 
-	thirdParty: {
-		cardmarket: 279604,
-		tcgplayer: 88440
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88440,
+				cardmarket: 279604
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88440
+			}
+		},
+	],
+
 }
 
 export default card

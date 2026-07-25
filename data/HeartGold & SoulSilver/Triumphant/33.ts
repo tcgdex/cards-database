@@ -78,10 +78,22 @@ const card: Card = {
 		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
 	},
 
-	thirdParty: {
-		cardmarket: 279563,
-		tcgplayer: 85117
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85117,
+				cardmarket: 279563
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85117
+			}
+		},
+	],
+
 }
 
 export default card

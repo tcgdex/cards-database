@@ -78,10 +78,22 @@ const card: Card = {
 		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
 	},
 
-	thirdParty: {
-		cardmarket: 279583,
-		tcgplayer: 90555
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90555,
+				cardmarket: 279583
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90555
+			}
+		},
+	],
+
 }
 
 export default card

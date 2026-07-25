@@ -80,10 +80,22 @@ const card: Card = {
 		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
 	},
 
-	thirdParty: {
-		cardmarket: 279591,
-		tcgplayer: 84826
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84826,
+				cardmarket: 279591
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84826
+			}
+		},
+	],
+
 }
 
 export default card

@@ -57,10 +57,22 @@ const card: Card = {
 		en: "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison."
 	},
 
-	thirdParty: {
-		cardmarket: 279606,
-		tcgplayer: 89276
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89276,
+				cardmarket: 279606
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89276
+			}
+		},
+	],
+
 }
 
 export default card

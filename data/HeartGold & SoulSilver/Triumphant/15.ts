@@ -85,10 +85,22 @@ const card: Card = {
 		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
 	},
 
-	thirdParty: {
-		cardmarket: 279545,
-		tcgplayer: 83997
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83997,
+				cardmarket: 279545
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83997
+			}
+		},
+	],
+
 }
 
 export default card

@@ -90,10 +90,22 @@ const card: Card = {
 		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
 	},
 
-	thirdParty: {
-		cardmarket: 279548,
-		tcgplayer: 84914
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84914,
+				cardmarket: 279548
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84914
+			}
+		},
+	],
+
 }
 
 export default card

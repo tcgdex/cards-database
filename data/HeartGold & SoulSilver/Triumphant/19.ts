@@ -83,10 +83,22 @@ const card: Card = {
 		en: "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
 	},
 
-	thirdParty: {
-		cardmarket: 279549,
-		tcgplayer: 85004
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85004,
+				cardmarket: 279549
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85004
+			}
+		},
+	],
+
 }
 
 export default card

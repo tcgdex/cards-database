@@ -56,10 +56,22 @@ const card: Card = {
 		en: "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
 	},
 
-	thirdParty: {
-		cardmarket: 279610,
-		tcgplayer: 89869
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89869,
+				cardmarket: 279610
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89869
+			}
+		},
+	],
+
 }
 
 export default card

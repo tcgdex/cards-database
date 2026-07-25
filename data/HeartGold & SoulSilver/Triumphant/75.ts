@@ -78,10 +78,22 @@ const card: Card = {
 		en: "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night."
 	},
 
-	thirdParty: {
-		cardmarket: 279605,
-		tcgplayer: 89202
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89202,
+				cardmarket: 279605
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89202
+			}
+		},
+	],
+
 }
 
 export default card

@@ -62,10 +62,22 @@ const card: Card = {
 		en: "Even in the most vicious storm, this Pokémon plays happily if thunder rumbles in the sky."
 	},
 
-	thirdParty: {
-		cardmarket: 279551,
-		tcgplayer: 85172
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85172,
+				cardmarket: 279551
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85172
+			}
+		},
+	],
+
 }
 
 export default card

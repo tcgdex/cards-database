@@ -81,10 +81,22 @@ const card: Card = {
 		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey."
 	},
 
-	thirdParty: {
-		cardmarket: 279546,
-		tcgplayer: 84105
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84105,
+				cardmarket: 279546
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84105
+			}
+		},
+	],
+
 }
 
 export default card

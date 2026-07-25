@@ -55,10 +55,22 @@ const card: Card = {
 		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 
-	thirdParty: {
-		cardmarket: 279607,
-		tcgplayer: 89478
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89478,
+				cardmarket: 279607
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89478
+			}
+		},
+	],
+
 }
 
 export default card

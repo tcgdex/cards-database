@@ -69,10 +69,22 @@ const card: Card = {
 		en: "Its transformation ability is perfect. However, if made to laugh, it can’t maintain its disguise."
 	},
 
-	thirdParty: {
-		cardmarket: 279547,
-		tcgplayer: 84844
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84844,
+				cardmarket: 279547
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84844
+			}
+		},
+	],
+
 }
 
 export default card

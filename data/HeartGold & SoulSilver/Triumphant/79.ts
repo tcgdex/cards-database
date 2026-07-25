@@ -66,10 +66,22 @@ const card: Card = {
 		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
 	},
 
-	thirdParty: {
-		cardmarket: 279609,
-		tcgplayer: 89705
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89705,
+				cardmarket: 279609
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89705
+			}
+		},
+	],
+
 }
 
 export default card

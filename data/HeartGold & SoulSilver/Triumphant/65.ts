@@ -53,10 +53,22 @@ const card: Card = {
 		en: "When its antennae hit each other, it sounds like the music of a xylophone."
 	},
 
-	thirdParty: {
-		cardmarket: 279595,
-		tcgplayer: 86530
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86530,
+				cardmarket: 279595
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86530
+			}
+		},
+	],
+
 }
 
 export default card

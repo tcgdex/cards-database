@@ -86,10 +86,36 @@ const card: Card = {
 		en: "As its electric charge amplifies, blue sparks begin to crackle between its horns."
 	},
 
-	thirdParty: {
-		cardmarket: 279550,
-		tcgplayer: 85123
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85123,
+				cardmarket: 279550
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85123
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['set-logo'],
+			thirdParty: {
+				tcgplayer: 224195
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['staff', 'set-logo'],
+			thirdParty: {
+				tcgplayer: 224196
+			}
+		},
+	],
+
 }
 
 export default card

@@ -82,10 +82,36 @@ const card: Card = {
 		en: "The Magnemite are united by a magnetism so powerful, it dries all moisture in its vicinity."
 	},
 
-	thirdParty: {
-		cardmarket: 279573,
-		tcgplayer: 87110
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87110,
+				cardmarket: 279573
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87110
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gustavo-wada'],
+			thirdParty: {
+				tcgplayer: 480423
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480424
+			}
+		},
+	],
+
 }
 
 export default card

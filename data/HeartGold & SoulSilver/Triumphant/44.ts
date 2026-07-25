@@ -87,10 +87,22 @@ const card: Card = {
 		en: "It has been seen pounding boulders with the bone it carries in order to tap out messages to others."
 	},
 
-	thirdParty: {
-		cardmarket: 279574,
-		tcgplayer: 87228
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87228,
+				cardmarket: 279574
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87228
+			}
+		},
+	],
+
 }
 
 export default card

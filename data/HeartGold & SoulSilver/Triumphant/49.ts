@@ -78,10 +78,22 @@ const card: Card = {
 		en: "Further research enhanced its abilities. Sometimes, it may exhibit motions that were not programmed."
 	},
 
-	thirdParty: {
-		cardmarket: 279579,
-		tcgplayer: 88327
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88327,
+				cardmarket: 279579
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88327
+			}
+		},
+	],
+
 }
 
 export default card

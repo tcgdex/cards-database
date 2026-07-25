@@ -86,10 +86,21 @@ const card: Card = {
 		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation."
 	},
 
-	thirdParty: {
-		cardmarket: 279534,
-		tcgplayer: 84924
-	}
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84924,
+				cardmarket: 279534
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84924
+			}
+		},
+	],
+
 }
 
 export default card
