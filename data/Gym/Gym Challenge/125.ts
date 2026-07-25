@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Transparent Walls",
+		en: "Transparent Walls"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,22 +12,24 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Until the end of your opponent's next turn, prevent all damage from attacks done to your Benched Pokémon. (Any other effects of attacks still happen.)",
+		en: "Until the end of your opponent's next turn, prevent all damage from attacks done to your Benched Pokémon. (Any other effects of attacks still happen.)"
 	},
-	thirdParty: {
-		cardmarket: 274393,
-		tcgplayer: 90017
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90017,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 90017,
+				cardmarket: 274393
+			}
 		},
-	]
+	],
 }
 
 export default card

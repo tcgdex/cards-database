@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Beedrill",
+		en: "Koga's Beedrill"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
+		en: "Kakuna"
 	},
 
 	stage: "Stage2",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Nerve Poison",
+				en: "Nerve Poison"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned."
 			},
 			damage: 20,
 
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Needle",
+				en: "Hyper Needle"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Koga's Beedrill stays in play (even putting Koga's Beedrill on the Bench won't let you use it again).",
+				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Koga's Beedrill stays in play (even putting Koga's Beedrill on the Bench won't let you use it again)."
 			},
 
 		},
@@ -61,31 +59,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274277,
-		tcgplayer: 86505
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86505,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86505,
+				cardmarket: 274277
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card
