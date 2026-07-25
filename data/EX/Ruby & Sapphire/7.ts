@@ -85,6 +85,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 275655,
 				tcgplayer: 85632
 			}
 		},
@@ -98,6 +99,10 @@ const card: Card = {
 		{
 			type: "reverse",
 			subtype: "no-e-reader",
+			thirdParty: {
+				cardmarket: 275655,
+			},
+
 		},
 		{
 			type: "holo",

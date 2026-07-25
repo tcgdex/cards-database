@@ -31,6 +31,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 275741,
 				tcgplayer: 84683
 			}
 		},
@@ -59,6 +60,7 @@ const card: Card = {
 			}
 		}
 	],
+
 	types: [
 		"Darkness"
 	],

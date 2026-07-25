@@ -32,6 +32,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 275742,
 				tcgplayer: 87356
 			}
 		},
@@ -66,6 +67,7 @@ const card: Card = {
 			}
 		}
 	],
+
 	types: [
 		"Metal"
 	],
