@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Stage1",
 	hp: 70,

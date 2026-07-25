@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 40,

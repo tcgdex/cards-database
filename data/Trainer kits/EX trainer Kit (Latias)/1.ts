@@ -11,7 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Common",
+	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 40,

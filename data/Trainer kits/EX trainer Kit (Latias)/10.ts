@@ -7,8 +7,7 @@ const card: Card = {
 		fr: "Énergie Feu"
 	},
 
-	illustrator: "",
-	rarity: "Common",
+	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
