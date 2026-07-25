@@ -11,13 +11,13 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "None",
+	rarity: "Common",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	attacks: [{
@@ -44,7 +44,6 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
@@ -57,9 +56,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87076
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275758,
+				tcgplayer: 87076
+			}
+		},
+	],
+
 }
 
 export default card
