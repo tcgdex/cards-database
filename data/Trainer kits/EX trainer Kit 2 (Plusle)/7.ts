@@ -10,14 +10,14 @@ const card: Card = {
 		fr: "Spoink"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Kagemaru Himeno",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	attacks: [{
@@ -38,15 +38,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89475
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277191,
+				tcgplayer: 89475
+			}
+		},
+	],
+
 }
 
 export default card
