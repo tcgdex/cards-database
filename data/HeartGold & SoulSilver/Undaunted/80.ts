@@ -41,10 +41,6 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279333,
-		tcgplayer: 87366
-	},
 	types: [
 		"Metal"
 	],

@@ -36,10 +36,6 @@ const card: Card = {
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279326,
-		tcgplayer: 85212
-	},
 	retreat: 0
 }
 

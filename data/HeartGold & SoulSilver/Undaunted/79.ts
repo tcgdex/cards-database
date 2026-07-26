@@ -43,10 +43,6 @@ const card: Card = {
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279332,
-		tcgplayer: 84693
-	},
 	types: [
 		"Darkness"
 	],

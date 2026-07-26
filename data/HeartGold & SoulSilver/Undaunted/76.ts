@@ -40,9 +40,6 @@ const card: Card = {
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279329
-	},
 	retreat: 0
 }
 
