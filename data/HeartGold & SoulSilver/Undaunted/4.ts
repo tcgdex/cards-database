@@ -101,9 +101,6 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal"
-				},
-		{
 			type: "holo",
 			foil: "cracked-ice",
 			thirdParty: {

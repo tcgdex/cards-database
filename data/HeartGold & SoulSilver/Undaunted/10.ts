@@ -100,8 +100,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal"
-				},
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125045
+			}
+		},
 		{
 			type: "holo",
 			foil: "cracked-ice",

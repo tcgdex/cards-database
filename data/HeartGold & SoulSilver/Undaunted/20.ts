@@ -80,8 +80,12 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-				},
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279273,
+				tcgplayer: 88839
+			}
+		},
 		{
 			type: "reverse",
 			thirdParty: {

@@ -87,8 +87,12 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-				},
+			type: "normal",
+			thirdParty: {
+				cardmarket: 882914,
+				tcgplayer: 86680
+			}
+		},
 		{
 			type: "reverse",
 			thirdParty: {
@@ -105,7 +109,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release","staff"],
+			stamp: ["pre-release", "staff"],
 			thirdParty: {
 				tcgplayer: 228481
 			}
