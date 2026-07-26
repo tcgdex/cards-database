@@ -77,16 +77,13 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp : ["snowflake"],
-			languages: ["de"],
-			thirdParty: {
-				tcgplayer: 00000
-			}
+			languages: ["de"]
 		},
 		{
 			type: "normal",
 			stamp : ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480370
 			}
 		}
 	],

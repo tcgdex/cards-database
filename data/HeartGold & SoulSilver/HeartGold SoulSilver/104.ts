@@ -36,10 +36,17 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["ross-cawthorn"],
+			type: "holo",
+			stamp: ['player-rewards-program'],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 88548
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480466
 			}
 		},
 	],
@@ -49,7 +56,7 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 279076,
 		tcgplayer: 88548
-	}
+	},
 	retreat: 0
 }
 

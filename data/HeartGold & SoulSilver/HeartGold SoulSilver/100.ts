@@ -39,14 +39,14 @@ const card: Card = {
 			type: "reverse",
 			foil: "professor-program",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 123187
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480449
 			}
 		}
 	],

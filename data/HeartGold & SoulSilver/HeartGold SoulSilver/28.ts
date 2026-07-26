@@ -71,24 +71,38 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["ross-cawthorn"],
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 00000
+				cardmarket: 279000,
+				tcgplayer: 88022
+			}
+		},
+				{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279000,
+				tcgplayer: 88022
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["pre-release"],
+			stamp: ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480432
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["pre-release","staff"],
+			type: "holo",
+			stamp: ["pre-release"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 213013
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["pre-release", "staff"],
+			thirdParty: {
+				tcgplayer: 213014
 			}
 		}
 	],

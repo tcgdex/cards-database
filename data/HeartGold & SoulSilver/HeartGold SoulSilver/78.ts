@@ -88,16 +88,14 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 279050,
 				tcgplayer: 88095
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"],
-			thirdParty: {
-				tcgplayer: 00000
-			}
+			stamp: ["snowflake"],
+			languages: ["de"]
 		},
 	],
 

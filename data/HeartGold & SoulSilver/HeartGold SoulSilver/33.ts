@@ -75,7 +75,7 @@ const card: Card = {
 			type: "normal",
 			stamp : ["gustavo-wada"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480515
 			}
 		}
 	],

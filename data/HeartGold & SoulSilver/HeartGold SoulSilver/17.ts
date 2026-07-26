@@ -71,10 +71,17 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["david-cohen"],
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 00000
+				cardmarket: 278989,
+				tcgplayer: 84367
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"],
+			thirdParty: {
+				tcgplayer: 480361
 			}
 		}
 	],

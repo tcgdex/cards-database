@@ -72,10 +72,17 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["ross-cawthorn"],
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 00000
+				cardmarket: 279049,
+				tcgplayer: 88003
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480431
 			}
 		}
 	],

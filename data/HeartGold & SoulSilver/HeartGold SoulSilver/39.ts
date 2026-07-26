@@ -94,12 +94,16 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"],
+			type: "reverse",
+			foil: 'league',
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 177131
 			}
+		},
+		{
+			type: "normal",
+			stamp: ["snowflake"],
+			languages: ["de"],
 		},
 	],
 

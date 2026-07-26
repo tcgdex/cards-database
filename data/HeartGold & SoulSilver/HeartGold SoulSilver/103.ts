@@ -36,24 +36,31 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["michael-pramawat"],
+			type: "reverse",
+			foil: 'league',
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 137281
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuta-komatsuda"],
+			stamp: ["michael-pramawat"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480028
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"],
+			stamp: ["yuta-komatsuda"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480029
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480376
 			}
 		},
 	],

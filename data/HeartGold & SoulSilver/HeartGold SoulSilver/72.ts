@@ -61,12 +61,16 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"],
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 00000
+				cardmarket: 279044,
+				tcgplayer: 87032
 			}
+		},
+		{
+			type: "normal",
+			stamp: ["snowflake"],
+			languages: ["de"]
 		},
 	],
 

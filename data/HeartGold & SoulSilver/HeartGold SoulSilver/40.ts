@@ -104,6 +104,13 @@ const card: Card = {
 				tcgplayer: 84877
 			}
 		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 186826
+			}
+		},
 	],
 
 	thirdParty: {

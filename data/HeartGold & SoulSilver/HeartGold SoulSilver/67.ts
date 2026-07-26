@@ -72,10 +72,17 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["yuka-furusawa"],
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 00000
+				cardmarket: 279039,
+				tcgplayer: 86182
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480053
 			}
 		}
 	],
