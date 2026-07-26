@@ -1,56 +1,65 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "超能豔鴕"
+		ja: "モトトカゲex",
+		'zh-tw': "超能豔鴕",
 	},
 
-	illustrator: "Sanosuke Sakuma",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Psychic"],
+	hp: 210,
+	types: ["Colorless"],
 
-	description: {
-		'zh-tw': "會從大大的眼睛放出 精神力量讓對手無法動彈。 有別外表，性格非常粗暴。"
-	},
+	stage: "Basic",
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "極光增輝"
+	attacks: [
+		{
+			name: {
+				ja: "パワーラン",
+				'zh-tw': "極光增輝",
+			},
+			damage: 30,
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の山札から基本エネルギーを1枚選び、このポケモンにつける。そして山札を切る。",
+				'zh-tw': "將這隻寶可夢恢復「30」HP。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將這隻寶可夢恢復「30」HP。"
+		{
+			name: {
+				ja: "フルスロットル",
+				'zh-tw': "超念力",
+			},
+			damage: 180,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "超念力"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 691009,
+				tcgplayer: 587766,
+			},
 		},
+	],
 
-		damage: 60,
-		cost: ["Psychic", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [967],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
+	suffix: "EX",
+};
 
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
-	retreat: 0,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

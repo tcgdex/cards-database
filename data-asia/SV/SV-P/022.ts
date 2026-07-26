@@ -1,48 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "噗隆隆"
+		ja: "博士の研究",
+		'zh-tw': "噗隆隆",
 	},
 
-	illustrator: "Mina Nakai",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Metal"],
+	illustrator: "kirisAki",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "據說牠是神秘的毒寶可夢 鑽進了被放置在廢鐵工廠 的引擎裡而誕生的。"
+	effect: {
+		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "毒瓦斯"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 699719,
+				tcgplayer: 587779,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
-		},
+	trainerType: "Supporter",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		cost: ["Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;
