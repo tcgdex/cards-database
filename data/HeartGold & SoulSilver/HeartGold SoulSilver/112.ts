@@ -81,6 +81,7 @@ const card: Card = {
 		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
 	},
 
+	hp: 140,
 	variants: [
 		{
 			type: "holo",
@@ -88,9 +89,9 @@ const card: Card = {
 				cardmarket: 279083,
 				tcgplayer: 86132
 			}
-		}
+		},
 	],
-	hp: 140,
+
 }
 
 export default card

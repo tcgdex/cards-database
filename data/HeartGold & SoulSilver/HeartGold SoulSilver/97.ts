@@ -21,75 +21,88 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279069,
-				tcgplayer: 88217
+				tcgplayer: 88217,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 88217
+				tcgplayer: 88217,
+				cardmarket: 279069
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 220369,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["mychael-bryan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480093,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuta-komatsuda"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480094,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuka-furusawa"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480095,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["gustavo-wada"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480438,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480440,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480441,
+				cardmarket: 279069
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["david-cohen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480442,
+				cardmarket: 279069
 			}
-		}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279069
-	}
-	retreat: 0
 }
 
 export default card

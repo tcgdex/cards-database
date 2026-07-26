@@ -21,35 +21,34 @@ const card: Card = {
 
 	trainerType: "Item",
 
+	hp: 0,
+
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279071,
-				tcgplayer: 88236
+				tcgplayer: 88236,
+				cardmarket: 279071
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 88236
+				tcgplayer: 88236,
+				cardmarket: 279071
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"],
+			stamp: ["gustavo-wada"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480448,
+				cardmarket: 279071
 			}
-		}
+		},
 	],
 
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279071
-	}
-	retreat: 0
 }
 
 export default card

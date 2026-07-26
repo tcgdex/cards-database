@@ -104,7 +104,15 @@ const card: Card = {
 				tcgplayer: 84878
 			}
 		},
+		{
+			type: "normal",
+			stamp: ['ross-cawthorn'],
+			thirdParty: {
+				tcgplayer: 480374
+			}
+		},
 	],
+
 }
 
 export default card

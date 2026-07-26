@@ -14,6 +14,12 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
+	hp: 0,
+
+	types: [
+		"Darkness"
+	],
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
@@ -21,14 +27,9 @@ const card: Card = {
 				cardmarket: 279093,
 				tcgplayer: 84677
 			}
-		}
+		},
 	],
-	hp: 0,
 
-	types: [
-		"Darkness"
-	],
-	retreat: 0
 }
 
 export default card

@@ -14,21 +14,22 @@ const card: Card = {
 	set: Set,
 	energyType: "Normal",
 
+	hp: 0,
+
+	types: [
+		"Psychic"
+	],
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 279091,
 				tcgplayer: 88424
-			},
-		}
+			}
+		},
 	],
-	hp: 0,
 
-	types: [
-		"Psychic"
-	],
-	retreat: 0
 }
 
 export default card

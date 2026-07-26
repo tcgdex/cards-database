@@ -76,23 +76,27 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279030,
-				tcgplayer: 84177
+				tcgplayer: 84177,
+				cardmarket: 279030
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84177,
+				cardmarket: 279030
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"],
+			stamp: ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 480359
+				tcgplayer: 480359,
+				cardmarket: 279030
 			}
-		}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279030,
-		tcgplayer: 84177
-	}
 }
 
 export default card

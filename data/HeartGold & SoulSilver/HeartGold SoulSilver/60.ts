@@ -72,24 +72,19 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279032,
-				tcgplayer: 84358
+				tcgplayer: 84358,
+				cardmarket: 279032
 			}
 		},
 		{
-			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"],
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 84358,
+				cardmarket: 279032
 			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279032,
-		tcgplayer: 84358
-	}
 }
 
 export default card

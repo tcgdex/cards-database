@@ -21,11 +21,12 @@ const card: Card = {
 
 	trainerType: "Item",
 
+	hp: 0,
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279068,
 				tcgplayer: 88205
 			}
 		},
@@ -37,15 +38,13 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp : ["christopher-kan"],
+			stamp: ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480437
 			}
-		}
+		},
 	],
 
-	hp: 0
-	retreat: 0
 }
 
 export default card

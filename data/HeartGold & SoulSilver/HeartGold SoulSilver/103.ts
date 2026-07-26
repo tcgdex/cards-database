@@ -21,57 +21,54 @@ const card: Card = {
 
 	energyType: "Special",
 
+	hp: 0,
+
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 371574,
-				tcgplayer: 84883
+				tcgplayer: 84883,
+				cardmarket: 279075
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 84883
+				tcgplayer: 84883,
+				cardmarket: 279075
 			}
 		},
 		{
 			type: "reverse",
 			foil: 'league',
 			thirdParty: {
-				tcgplayer: 137281
+				tcgplayer: 137281,
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["michael-pramawat"],
 			thirdParty: {
-				tcgplayer: 480028
+				tcgplayer: 480028,
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
-				tcgplayer: 480029
+				tcgplayer: 480029,
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 480376
+				tcgplayer: 480376,
 			}
 		},
 	],
 
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279075,
-		tcgplayer: 84883
-	}
-	retreat: 0
 }
 
 export default card

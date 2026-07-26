@@ -66,51 +66,43 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279000,
-				tcgplayer: 88022
+				tcgplayer: 88022,
+				cardmarket: 279000
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 279000,
-				tcgplayer: 88022
+				tcgplayer: 88022,
+				cardmarket: 279000
 			}
 		},
-				{
-			type: "reverse",
+		{
+			type: "holo",
+			stamp: ['pre-release'],
 			thirdParty: {
-				cardmarket: 279000,
-				tcgplayer: 88022
+				tcgplayer: 213013,
+				cardmarket: 279000
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['staff', 'pre-release'],
+			thirdParty: {
+				tcgplayer: 213014,
+				cardmarket: 279000
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 480432
+				tcgplayer: 480432,
+				cardmarket: 279000
 			}
 		},
-		{
-			type: "holo",
-			stamp: ["pre-release"],
-			thirdParty: {
-				tcgplayer: 213013
-			}
-		},
-		{
-			type: "holo",
-			stamp: ["pre-release", "staff"],
-			thirdParty: {
-				tcgplayer: 213014
-			}
-		}
 	],
 
-	thirdParty: {
-		cardmarket: 279000,
-		tcgplayer: 88022
-	}
 }
 
 export default card

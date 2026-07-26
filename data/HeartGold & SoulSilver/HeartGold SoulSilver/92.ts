@@ -21,30 +21,34 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+	hp: 0,
+
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279064,
-				tcgplayer: 85472
+				tcgplayer: 85472,
+				cardmarket: 279064
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85472,
+				cardmarket: 279064
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["david-cohen"],
+			stamp: ["david-cohen"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480404,
+				cardmarket: 279064
 			}
-		}
+		},
 	],
 
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279064,
-		tcgplayer: 85472
-	}
-	retreat: 0
 }
 
 export default card

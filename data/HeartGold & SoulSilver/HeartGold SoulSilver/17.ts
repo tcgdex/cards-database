@@ -66,30 +66,27 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 278989,
-				tcgplayer: 84367
+				tcgplayer: 84367,
+				cardmarket: 278989
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 278989,
-				tcgplayer: 84367
+				tcgplayer: 84367,
+				cardmarket: 278989
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["david-cohen"],
 			thirdParty: {
-				tcgplayer: 480361
+				tcgplayer: 480361,
+				cardmarket: 278989
 			}
-		}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278989,
-		tcgplayer: 84367
-	}
 }
 
 export default card

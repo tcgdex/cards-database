@@ -67,23 +67,27 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279005,
-				tcgplayer: 90131
+				tcgplayer: 90131,
+				cardmarket: 279005
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90131,
+				cardmarket: 279005
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"],
+			stamp: ["gustavo-wada"],
 			thirdParty: {
-				tcgplayer: 480515
+				tcgplayer: 480515,
+				cardmarket: 279005
 			}
-		}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279005,
-		tcgplayer: 90131
-	}
 }
 
 export default card

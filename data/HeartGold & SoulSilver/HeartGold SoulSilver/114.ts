@@ -80,6 +80,7 @@ const card: Card = {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
 	},
 
+	hp: 130,
 	variants: [
 		{
 			type: "holo",
@@ -87,9 +88,9 @@ const card: Card = {
 				cardmarket: 279085,
 				tcgplayer: 86917
 			}
-		}
+		},
 	],
-	hp: 130,
+
 }
 
 export default card

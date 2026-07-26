@@ -67,30 +67,27 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279039,
-				tcgplayer: 86182
+				tcgplayer: 86182,
+				cardmarket: 279039
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 279039,
-				tcgplayer: 86182
+				tcgplayer: 86182,
+				cardmarket: 279039
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["yuka-furusawa"],
 			thirdParty: {
-				tcgplayer: 480053
+				tcgplayer: 480053,
+				cardmarket: 279039
 			}
-		}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279039,
-		tcgplayer: 86182
-	}
 }
 
 export default card

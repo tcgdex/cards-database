@@ -79,23 +79,27 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 278979,
-				tcgplayer: 87774
+				tcgplayer: 87774,
+				cardmarket: 278979
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87774,
+				cardmarket: 278979
 			}
 		},
 		{
 			type: "holo",
 			foil: "cracked-ice",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 264837,
+				cardmarket: 278979
 			}
-		}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278979,
-		tcgplayer: 87774
-	}
 }
 
 export default card

@@ -21,43 +21,40 @@ const card: Card = {
 
 	energyType: "Special",
 
+	hp: 0,
+
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279076,
-				tcgplayer: 88548
+				tcgplayer: 88548,
+				cardmarket: 279076
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 88548
+				tcgplayer: 88548,
+				cardmarket: 279076
 			}
 		},
 		{
 			type: "holo",
 			stamp: ['player-rewards-program'],
 			thirdParty: {
-				tcgplayer: 88548
+				tcgplayer: 193683,
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 480466
+				tcgplayer: 480466,
 			}
 		},
 	],
 
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279076,
-		tcgplayer: 88548
-	},
-	retreat: 0
 }
 
 export default card

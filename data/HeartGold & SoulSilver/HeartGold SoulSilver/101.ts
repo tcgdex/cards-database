@@ -21,6 +21,8 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+	hp: 0,
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
@@ -32,6 +34,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 279073,
 				tcgplayer: 88400
 			}
 		},
@@ -39,41 +42,39 @@ const card: Card = {
 			type: "reverse",
 			foil: "professor-program",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480613
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuta-komatsuda"],
+			stamp: ["yuta-komatsuda"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480099
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"],
+			stamp: ["gustavo-wada"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480455
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["christopher-kan"],
+			stamp: ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480458
 			}
 		},
 		{
 			type: "normal",
-			stamp : ["igor-costa"],
+			stamp: ["igor-costa"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 123185
 			}
 		},
 	],
 
-	hp: 0
-	retreat: 0
 }
 
 export default card

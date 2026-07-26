@@ -21,11 +21,12 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
+	hp: 0,
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279072,
 				tcgplayer: 88392
 			}
 		},
@@ -44,15 +45,13 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp : ["christopher-kan"],
+			stamp: ["christopher-kan"],
 			thirdParty: {
 				tcgplayer: 480449
 			}
-		}
+		},
 	],
 
-	hp: 0
-	retreat: 0
 }
 
 export default card
