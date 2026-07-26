@@ -60,6 +60,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746227,
+				tcgplayer: 567381,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577308,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "G"
 }

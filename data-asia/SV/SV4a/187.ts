@@ -21,6 +21,22 @@ const card: Card = {
 		id: "Kerusakan akibat serangan yang digunakan oleh Pokémon Stage 1 kedua pemain kepada Pokémon Bertarung lawan bertambah sejumlah 10."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746569,
+				tcgplayer: 567588,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577414,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "G"
 }
