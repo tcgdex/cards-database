@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードをつけているポケモンがバトル場にいるかぎり、おたがいのバトルポケモンのにげるためのエネルギーは、それぞれ1個ぶん多くなる。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779109,
+				tcgplayer: 567950,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H",
 	rarity: "Uncommon"

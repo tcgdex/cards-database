@@ -45,14 +45,20 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779070,
+				tcgplayer: 567911,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "H",
 	rarity: "Uncommon",
 	dexId: [620],
-
-	thirdParty: {
-		cardmarket: 779070
-	}
 }
 
 export default card

@@ -45,6 +45,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 778994,
+				tcgplayer: 567857,
+			},
+		},
+	],
+
 	retreat: 0,
 	regulationMark: "H",
 	rarity: "Rare",
@@ -65,10 +75,6 @@ const card: Card = {
 			'zh-cn': "在自己的回合，從手牌使出這張卡並完成進化時，可使用1次。選擇1隻對手備戰區剩餘HP為「90」以下的寶可夢，與戰鬥寶可夢互換。",
 		}
 	}],
-
-	thirdParty: {
-		cardmarket: 778994
-	}
 }
 
 export default card
