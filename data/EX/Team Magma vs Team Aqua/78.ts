@@ -40,6 +40,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["curran-hill"],
 			thirdParty: {
+				cardmarket: 871557,
 				tcgplayer: 477593
 			}
 		}

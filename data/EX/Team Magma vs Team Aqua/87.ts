@@ -40,6 +40,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
+				cardmarket: 871881,
 				tcgplayer: 477394
 			}
 		}

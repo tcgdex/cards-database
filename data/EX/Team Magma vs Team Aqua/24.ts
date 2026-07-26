@@ -68,7 +68,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
 
@@ -81,17 +81,18 @@ const card: Card = {
 			}
 		},
 		{
-			type: "normal",
-			stamp: ["pre-release"],
-			thirdParty: {
-				tcgplayer: 282798
-			}
-		},
-		{
 			type: "reverse",
 			thirdParty: {
 				cardmarket: 275801,
 				tcgplayer: 89774
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 881780,
+				tcgplayer: 282798
 			}
 		},
 	],

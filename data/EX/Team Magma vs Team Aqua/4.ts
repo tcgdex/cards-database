@@ -76,7 +76,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
 
@@ -99,6 +99,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["chris-fulop"],
 			thirdParty: {
+				cardmarket: 871807,
 				tcgplayer: 477445
 			}
 		}

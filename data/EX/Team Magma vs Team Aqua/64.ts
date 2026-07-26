@@ -63,7 +63,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
 
@@ -86,6 +86,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
+				cardmarket: 871832,
 				tcgplayer: 477452
 			}
 		}

@@ -69,7 +69,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
 
@@ -85,6 +85,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871825,
 				tcgplayer: 477437
 			}
 		}

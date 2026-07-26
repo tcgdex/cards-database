@@ -62,7 +62,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
 
