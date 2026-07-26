@@ -25,6 +25,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 279064,
 				tcgplayer: 85472
 			}
 		},
@@ -36,6 +37,7 @@ const card: Card = {
 			}
 		}
 	],
+
 	hp: 0,
 
 	thirdParty: {

@@ -68,10 +68,12 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 279025,
 				tcgplayer: 89536
 			}
 		}
 	],
+
 	thirdParty: {
 		cardmarket: 279025,
 		tcgplayer: 89536

@@ -85,16 +85,23 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 125038
+				tcgplayer: 90106
+			}
+		},
+		{
+			type: "holo",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 153262
 			}
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125038
 			}
 		}
 	],

@@ -16,15 +16,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-				}
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279088,
+				tcgplayer: 85464
+			}
+		}
 	],
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279088,
-		tcgplayer: 85464
-	}
 	types: [
 		"Fire"
 	],

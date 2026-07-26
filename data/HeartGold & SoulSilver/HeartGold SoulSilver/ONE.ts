@@ -23,15 +23,15 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-				}
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278972
+			}
+		}
 	],
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 278972
-	}
-	retreat: 0
+	retreat: 0,
 }
 
 export default card

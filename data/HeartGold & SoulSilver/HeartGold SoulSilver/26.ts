@@ -95,23 +95,26 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			thirdParty: {
-				tcgplayer: 125041
+				tcgplayer: 87293
+			}
+		},
+		{
+			type: "holo",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 153261
 			}
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125041
 			}
 		}
 	],
-	thirdParty: {
-		cardmarket: 278998,
-		tcgplayer: 87293
-	}
 }
 
 export default card
