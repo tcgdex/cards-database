@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "這張卡必須將自己的1張手牌丟棄才可使用。 從牌庫抽卡直到自己的手牌滿6張為止。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807681,
+				tcgplayer: 614945,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "I"
 }

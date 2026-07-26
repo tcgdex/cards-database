@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "數過自己的獎賞卡張數後，全部翻回反面並重洗，放回牌庫下方。然後，從牌庫上方抽出與放回張數相同數量的卡，作為獎賞卡放置。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807677,
+				tcgplayer: 614941,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "I"
 }

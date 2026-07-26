@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫選擇最多2張【基礎】寶可夢的「赫普的寶可夢」，放置於備戰區。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807678,
+				tcgplayer: 614942,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "I"
 }

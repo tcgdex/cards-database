@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，或者1張進化寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807683,
+				tcgplayer: 614947,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "I"
 }
