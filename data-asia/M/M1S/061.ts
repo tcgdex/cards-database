@@ -8,6 +8,16 @@ const card: Card = {
 	},
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840620,
+				tcgplayer: 647253,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	effect: {
 		ja: "おたがいの草ポケモン全員は、出したばかりの番（最初の自分の番をのぞく）でも草ポケモンに進化できる。"

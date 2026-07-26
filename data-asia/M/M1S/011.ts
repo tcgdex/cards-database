@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "オスの たてがみは 戦いになると 摂氏２０００度の 高温になる。 近寄るだけで 大火傷だ。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840557,
+				tcgplayer: 647265,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "シシコ"
 	},

@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "襟巻を広げて太陽光を浴びると大都会で使われる電気を1匹で発電する。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840591,
+				tcgplayer: 647283,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "エリキテル"
 	},

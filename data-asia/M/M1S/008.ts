@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "どんな攻撃でも避けてしまうと いわれるほど素早い ポケモン。甘い樹液が大好物。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840553,
+				tcgplayer: 647227,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ツチニン"
 	},

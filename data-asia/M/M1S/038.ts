@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "強力な超能力を操る。両手のスプーンはその力で作りだしたという。"
 	},
 	stage: "Stage2",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840597,
+				tcgplayer: 647233,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ユンゲラー"
 	},

@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "粘液まみれの長い舌を目にも留まらない速さで伸ばし獲物を見事に仕留めてみせる。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840573,
+				tcgplayer: 647209,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "メッソン"
 	},

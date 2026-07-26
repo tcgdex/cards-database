@@ -31,6 +31,16 @@ const card: Card = {
 		type: "Water",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840558,
+				tcgplayer: 647266,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Common",

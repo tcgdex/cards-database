@@ -11,6 +11,16 @@ const card: Card = {
 	hp: 350,
 	types: ["Water"],
 	stage: "MEGA",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840635,
+				tcgplayer: 647248,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ユキカブリ"
 	},

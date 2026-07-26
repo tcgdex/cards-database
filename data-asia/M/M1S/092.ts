@@ -11,6 +11,16 @@ const card: Card = {
 	hp: 360,
 	types: ["Psychic"],
 	stage: "Stage2",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840651,
+				tcgplayer: 647207,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "キルリア"
 	},

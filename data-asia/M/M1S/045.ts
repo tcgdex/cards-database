@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "相手を操るときの不思議なステップは昔外国で大流行したことがある。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840604,
+				tcgplayer: 647285,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "バネブー"
 	},

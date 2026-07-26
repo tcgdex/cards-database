@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "怪電波を発信しながら空を飛びまわり未知の電波を受信しているという。"
 	},
 	stage: "Stage2",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840584,
+				tcgplayer: 647280,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "レアコイル"
 	},

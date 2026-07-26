@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "目の特殊なレンズを使って相手の体温などを感知して急所を見抜き攻撃する。"
 	},
 	stage: "Stage2",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840628,
+				tcgplayer: 647211,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ジメレオン"
 	},

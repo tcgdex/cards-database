@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "攻撃的な性質。焼けた体も危険だが大きなキバも鋭いぞ。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840559,
+				tcgplayer: 647267,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ヤクデ"
 	},
