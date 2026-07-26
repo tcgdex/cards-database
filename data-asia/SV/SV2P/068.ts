@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 5 lembar. Jika Pokémon di Arena sendiri tidak mengenakan Energi 1 lembar pun, ambil kartu hingga jumlah Kartu Pegangan sendiri menjadi 7 lembar."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705301,
+				tcgplayer: 567825,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }
