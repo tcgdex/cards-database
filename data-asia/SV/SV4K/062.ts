@@ -22,6 +22,16 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 「고대」의 포켓몬은 최대 HP가 「+60」이 되고 그 포켓몬은 특수 상태가 되지 않으며 받고 있는 특수 상태는 모두 회복한다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741455,
+				tcgplayer: 565817,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

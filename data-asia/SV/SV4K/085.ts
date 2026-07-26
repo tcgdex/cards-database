@@ -19,6 +19,16 @@ const card: Card = {
 		ko: "이 카드는 상대의 이전 차례에 자신의 포켓몬이 기절하지 않으면 사용할 수 없다. 자신의 트래쉬에서 「기본 (불꽃) 에너지」를 1장 선택해서 자신의 포켓몬에게 붙인다. 그 뒤, 자신의 패가 6장이 되도록 덱을 뽑는다."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741505,
+				tcgplayer: 565840,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

@@ -22,6 +22,16 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 포켓몬은 이 카드에 적혀 있는 기술을 사용할 수 있다. (기술을 사용하기 위한 에너지는 필요하다.) 포켓몬에게 붙어 있는 이 카드는 자신의 차례의 마지막에 트래쉬한다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741453,
+				tcgplayer: 565816,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }
