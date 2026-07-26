@@ -49,14 +49,14 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			size: ['gustavo-wada'],
+			stamp: ['gustavo-wada'],
 			thirdParty: {
 				cardmarket: 868205,
 			}
 		},
 		{
 			type: "normal",
-			size: ['ross-cawthorn'],
+			stamp: ['ross-cawthorn'],
 			thirdParty: {
 				cardmarket: 868206,
 			}
