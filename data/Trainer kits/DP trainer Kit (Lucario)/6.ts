@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	attacks: [
@@ -41,15 +41,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	description: {
 		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
 	},
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88753
+			}
+		},
+	],
+
 }
 
 export default card
