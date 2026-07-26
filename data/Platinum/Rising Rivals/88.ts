@@ -40,6 +40,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsubasa-nakamura"],
 			thirdParty: {
+				cardmarket: 869030,
 				tcgplayer: 479852
 			}
 		},
@@ -47,6 +48,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868812,
 				tcgplayer: 479990
 			}
 		}

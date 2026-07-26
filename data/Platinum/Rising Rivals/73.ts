@@ -98,6 +98,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["jason-martinez"],
 			thirdParty:{
+				cardmarket: 868911,
 				tcgplayer: 479932
 			}
 		}

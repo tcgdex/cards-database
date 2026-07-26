@@ -69,6 +69,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 279324,
 				tcgplayer: 87719
 			}
 		},
@@ -82,6 +83,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["david-cohen"],
 			thirdParty:{
+				cardmarket: 868885,
 				tcgplayer: 479931
 			}
 		},
@@ -89,10 +91,12 @@ const card: Card = {
 			type: "normal",
 			stamp: ["jason-martinez"],
 			thirdParty: {
+				cardmarket: 868886,
 				tcgplayer: 479930
 			}
 		}
-	]
+	],
+
 }
 
 export default card

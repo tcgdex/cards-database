@@ -91,6 +91,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsubasa-nakamura"],
 			thirdParty: {
+				cardmarket: 868927,
 				tcgplayer: 479913
 			}
 		},
@@ -105,6 +106,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["stephen-silvestro"],
 			thirdParty: {
+				cardmarket: 868926,
 				tcgplayer: 479914
 			}
 		},
@@ -112,6 +114,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["mychael-bryan"],
 			thirdParty: {
+				cardmarket: 868704,
 				tcgplayer: 480077
 			}
 		},
@@ -119,6 +122,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868706,
 				tcgplayer: 480078
 			}
 		}

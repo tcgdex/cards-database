@@ -82,8 +82,8 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 83771,
 				cardmarket: 278589,
+				tcgplayer: 83771,
 			}
 		},
 		{
@@ -97,6 +97,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["stephen-silvestro"],
 			thirdParty: {
+				cardmarket: 868916,
 				tcgplayer: 479864
 			}
 		}

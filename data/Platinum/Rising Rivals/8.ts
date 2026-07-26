@@ -94,6 +94,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["tsubasa-nakamura"],
 			thirdParty:{
+				cardmarket: 868960,
 				tcgplayer: 479910
 			}
 		},
@@ -101,6 +102,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868751,
 				tcgplayer: 480072
 			}
 		},

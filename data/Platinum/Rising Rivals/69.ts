@@ -75,6 +75,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 279322,
 				tcgplayer: 87639
 			}
 		},
@@ -89,7 +90,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["chicago-2009"]
 		},
-	]
+	],
+
 }
 
 export default card

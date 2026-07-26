@@ -85,6 +85,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["david-cohen"],
 			thirdParty: {
+				cardmarket: 868872,
 				tcgplayer: 479899
 			}
 		}

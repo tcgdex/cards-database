@@ -40,7 +40,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			thirdParty: {
-				cardmarket: 278670,
+				cardmarket: 450413,
 				tcgplayer: 260886
 			}
 		},
@@ -48,6 +48,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsubasa-nakamura"],
 			thirdParty: {
+				cardmarket: 869028,
 				tcgplayer: 479962
 			}
 		},
@@ -55,6 +56,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["stephen-silvestro"],
 			thirdParty: {
+				cardmarket: 869027,
 				tcgplayer: 479963
 			}
 		},
@@ -62,6 +64,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868815,
 				tcgplayer: 480118
 			}
 		}

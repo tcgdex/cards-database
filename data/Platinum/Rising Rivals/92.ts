@@ -40,7 +40,7 @@ const card: Card = {
 			type: "reverse",
 			foil: 'league',
 			thirdParty: {
-				cardmarket: 278666,
+				cardmarket: 449863,
 				tcgplayer: 123189
 			}
 		},
@@ -48,6 +48,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-pramawat"],
 			thirdParty: {
+				cardmarket: 868767,
 				tcgplayer: 480073
 			}
 		}

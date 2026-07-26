@@ -32,7 +32,7 @@ const card: Card = {
 		{
 			type: "reverse",
 			thirdParty: {
-				cardmarket: 278676,
+				cardmarket: 450453,
 				tcgplayer: 90248
 			}
 		},
@@ -40,7 +40,6 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			thirdParty: {
-				cardmarket: 278676,
 				tcgplayer: 489693
 			}
 		},
@@ -48,6 +47,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["david-cohen"],
 			thirdParty: {
+				cardmarket: 869034,
 				tcgplayer: 479972
 			}
 		}

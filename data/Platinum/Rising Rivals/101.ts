@@ -40,6 +40,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsubasa-nakamura"],
 			thirdParty: {
+				cardmarket: 869040,
 				tcgplayer: 479954
 			}
 		}

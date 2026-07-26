@@ -77,12 +77,14 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardmarket: 279262,
 				tcgplayer: 86951
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 279262,
 				tcgplayer: 86951
 			}
 		},
@@ -90,6 +92,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["tsubasa-nakamura"],
 			thirdParty: {
+				cardmarket: 868924,
 				tcgplayer: 479911
 			}
 		},
@@ -97,6 +100,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["stephen-silvestro"],
 			thirdParty: {
+				cardmarket: 868923,
 				tcgplayer: 479912
 			}
 		},
@@ -104,6 +108,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868702,
 				tcgplayer: 480076
 			}
 		},
@@ -111,10 +116,12 @@ const card: Card = {
 			type: "holo",
 			stamp: ["mychael-bryan"],
 			thirdParty: {
+				cardmarket: 868700,
 				tcgplayer: 480075
 			}
 		},
-	]
+	],
+
 }
 
 export default card

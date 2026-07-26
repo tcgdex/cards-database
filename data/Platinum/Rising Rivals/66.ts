@@ -94,6 +94,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["stephen-silvestro"],
 			thirdParty: {
+				cardmarket: 868918,
 				tcgplayer: 479906
 			}
 		}
