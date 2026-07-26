@@ -3,19 +3,17 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Nidoran♂",
+		en: "Giovanni's Nidoran ♂"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		32,
-	],
+	dexId: [32],
 	hp: 40,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -27,12 +25,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
+				en: "Double Kick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -40,10 +38,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Retaliation",
+				en: "Retaliation"
 			},
 			effect: {
-				en: "You can't use this attack unless Giovanni's Nidoran M has 2 or more damage counters on it.",
+				en: "You can't use this attack unless Giovanni's Nidoran ♂ has 2 or more damage counters on it."
 			},
 			damage: 30,
 
@@ -52,7 +50,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -60,13 +58,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85721,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			thirdParty: {
+				tcgplayer: 85721
+			}
 		},
-	]
+	],
 }
 
 export default card

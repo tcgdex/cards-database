@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		270,
-	],
+	dexId: [270],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -71,22 +69,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim.",
+		en: "It looks like an aquatic plant and serves as a ferry to Pokémon that can't swim."
 	},
 
-	thirdParty: {
-		cardmarket: 278419,
-		tcgplayer: 86837
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86837,
+				cardmarket: 278419
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278419,
+				tcgplayer: 86837
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pidgey",
+		en: "Pidgey"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
+				en: "Whirlwind"
 			},
 			effect: {
-				en: "After damage dealing, opponent chooses 1 Benched Pokémon and switches it with defending Pokémon (only if opponent has Benched Pokémon).",
+				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 10,
 
@@ -57,22 +55,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
-	},
-
-	thirdParty: {
-		cardmarket: 274850,
-		tcgplayer: 88046
+		en: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274850,
+				tcgplayer: 88046
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88046,
+				cardmarket: 274850
+			}
 		}
-	]
+	],
+
 }
 
 export default card

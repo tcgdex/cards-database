@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		413,
-	],
+	dexId: [413],
 	
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Burmy Sandy Cloak",
+		en: "Burmy Sandy Cloak"
 	},
 
 	stage: "Stage1",
@@ -77,22 +75,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
-	},
-
-	thirdParty: {
-		cardmarket: 278922,
-		tcgplayer: 90644
+		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90644,
+				cardmarket: 278922
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278922,
+				tcgplayer: 90644
+			}
+		},
+	],
+
 }
 
 export default card

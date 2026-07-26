@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Growlithe",
+		en: "Growlithe"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -30,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flare",
+				en: "Flare"
 			},
 
 			damage: 20,
@@ -48,22 +46,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Very protective of its territory. It will bark and bite to repel intruders from its space.",
-	},
-
-	thirdParty: {
-		cardmarket: 274810,
-		tcgplayer: 85948
+		en: "Very protective of its territory. It will bark and bite to repel intruders from its space."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274810,
+				tcgplayer: 85948
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85948,
+				cardmarket: 274810
+			}
 		}
-	]
+	],
+
 }
 
 export default card

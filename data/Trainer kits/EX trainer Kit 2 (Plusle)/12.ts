@@ -7,16 +7,26 @@ const card: Card = {
 		fr: "Énergie Psy"
 	},
 
-	illustrator: "",
 	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 88420
-	}
+	types: [
+		"Psychic"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277184,
+				tcgplayer: 88420
+			}
+		},
+	],
+
 }
 
 export default card

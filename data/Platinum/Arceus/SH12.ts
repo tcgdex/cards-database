@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		403,
-	],
+	dexId: [403],
 	
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Shinx has any Energy attached to it, Shinx has no Weakness.",
 				de: "Solange an Sheinux mindestens 1 Energie angelegt ist, hat Sheinux keine Schwäche."
-			},
+			}
 		},
 	],
 
@@ -73,16 +71,16 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
-	},
-
-	thirdParty: {
-		cardmarket: 278872
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278872,
+				tcgplayer: 89178
+			}
 		}
 	]
 }

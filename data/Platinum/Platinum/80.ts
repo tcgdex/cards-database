@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		108,
-	],
+	dexId: [108],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -73,22 +71,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it extends its over-six-foot-long tongue, its tail quivers. There is a possibility they are connected.",
+		en: "When it extends its over-six-foot-long tongue, its tail quivers. There is a possibility they are connected."
 	},
 
-	thirdParty: {
-		cardmarket: 278501,
-		tcgplayer: 86722
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86722,
+				cardmarket: 278501
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278501,
+				tcgplayer: 86722
+			}
 		}
-	]
+	],
+
 }
 
 export default card

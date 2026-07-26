@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		289,
-	],
+	dexId: [289],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers.",
 				fr: "Tant que Monaflemit est votre Pokémon Actif, le Pokémon de votre adversaire ne peut utiliser de Poké-Powers.",
 				de: "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers."
-			},
+			}
 		},
 	],
 
@@ -79,19 +77,24 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275660,
-		tcgplayer: 89288
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275660,
+				tcgplayer: 89288
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275660,
+				tcgplayer: 89288
+			}
 		},
-	]
+	],
+
 }
 
 export default card

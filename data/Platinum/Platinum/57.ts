@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		89,
-	],
+	dexId: [89],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv",
+		fr: "Tadmorv"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Muk remains affected by any Special Conditions between turns, remove 2 damage counters from Muk.",
 				fr: "Au début du tour de chaque joueur, si Grotadmorv est affecté par un État Spécial, retirez-lui 2 marqueurs de dégât.",
 				de: "If Muk remains affected by any Special Condition between turns, remove 2 damage counters from Muk."
-			},
+			}
 		},
 	],
 
@@ -95,19 +93,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278478,
-		tcgplayer: 87624
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87624,
+				cardmarket: 278478
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278478,
+				tcgplayer: 87624
+			}
 		}
-	]
+	],
+
 }
 
 export default card

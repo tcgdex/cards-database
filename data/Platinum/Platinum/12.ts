@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yusuke Ishikawa",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		484,
-	],
+	dexId: [484],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 				de: "Splashing Turn"
 			},
 			effect: {
-				en: "You may switch Palkia with 1 of your Benched Pokémon.",
+				en: "You may switch Palkia G with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Palkia  avec 1 de vos Pokémon de Banc.",
 				de: "You may switch Palkia G with 1 of your Benched Pokémon."
 			},
@@ -75,19 +73,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278433,
-		tcgplayer: 87917
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 87917,
+				cardmarket: 278433
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278433,
+				tcgplayer: 87917
+			}
 		}
-	]
+	],
+
 }
 
 export default card

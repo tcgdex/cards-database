@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Machoke",
+		en: "Machoke"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		67,
-	],
+	dexId: [67],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Machop",
+		en: "Machop"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Karate Chop",
+				en: "Karate Chop"
 			},
 			effect: {
-				en: "Does 50 damage minus 10 for each damage counter on Machoke.",
+				en: "Does 50 damage minus 10 damage for each damage counter on Machoke."
 			},
 
 		},
@@ -50,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Submission",
+				en: "Submission"
 			},
 			effect: {
-				en: "Machoke does 20 damage to itself.",
+				en: "Machoke does 20 damage to itself."
 			},
 			damage: 60,
 
@@ -70,22 +68,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions.",
-	},
-
-	thirdParty: {
-		cardmarket: 274816,
-		tcgplayer: 86976
+		en: "Its muscular body is so powerful that it must wear a power-save belt to help regulate its motions."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274816,
+				tcgplayer: 86976
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86976,
+				cardmarket: 274816
+			}
 		}
-	]
+	],
+
 }
 
 export default card

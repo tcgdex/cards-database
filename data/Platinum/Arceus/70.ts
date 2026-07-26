@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		138,
-	],
+	dexId: [138],
 	
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Helix Fossil",
+		en: "Helix Fossil"
 	},
 
 	stage: "Stage1",
@@ -71,22 +69,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
-	},
-
-	thirdParty: {
-		cardmarket: 278942,
-		tcgplayer: 87861
+		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87861,
+				cardmarket: 278942
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278942,
+				tcgplayer: 87861
+			}
+		},
+	],
+
 }
 
 export default card

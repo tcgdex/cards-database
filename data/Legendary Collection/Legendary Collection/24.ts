@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Golem",
+		en: "Golem"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Graveler",
+		en: "Graveler"
 	},
 
 	stage: "Stage2",
@@ -36,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Avalanche",
+				en: "Avalanche"
 			},
 
 			damage: 60,
@@ -50,10 +48,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Selfdestruct",
+				en: "Selfdestruct"
 			},
 			effect: {
-				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself.",
+				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself."
 			},
 			damage: 100,
 
@@ -70,22 +68,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
-	},
-
-	thirdParty: {
-		cardmarket: 274789,
-		tcgplayer: 85822
+		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274789,
+				tcgplayer: 85822
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85822,
+				cardmarket: 274789
+			}
 		}
-	]
+	],
+
 }
 
 export default card

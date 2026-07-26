@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		75,
-	],
+	dexId: [75],
 	
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Geodude",
+		en: "Geodude"
 	},
 
 	stage: "Stage1",
@@ -78,22 +76,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
-	},
-
-	thirdParty: {
-		cardmarket: 278909,
-		tcgplayer: 85894
+		en: "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85894,
+				cardmarket: 278909
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278909,
+				tcgplayer: 85894
+			}
+		},
+	],
+
 }
 
 export default card

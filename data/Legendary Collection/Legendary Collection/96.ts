@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Tentacool",
+		en: "Tentacool"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		72,
-	],
+	dexId: [72],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Cowardice",
+				en: "Cowardice"
 			},
 			effect: {
-				en: "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is Asleep, Confused, or Paralyzed.",
-			},
+				en: "At any time during your turn (before your attack), you may return Tentacool to your hand. (Discard all cards attached to Tentacool.) This power can't be used the turn you put Tentacool into play or if Tentacool is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -41,7 +39,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Acid",
+				en: "Acid"
 			},
 
 			damage: 10,
@@ -57,22 +55,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid.",
-	},
-
-	thirdParty: {
-		cardmarket: 274861,
-		tcgplayer: 89864
+		en: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274861,
+				tcgplayer: 89864
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89864,
+				cardmarket: 274861
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

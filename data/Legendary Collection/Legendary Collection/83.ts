@@ -3,19 +3,17 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
+		en: "Nidoran ♂"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		32,
-	],
+	dexId: [32],
 	hp: 40,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -27,10 +25,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Horn Hazard",
+				en: "Horn Hazard"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -45,16 +43,22 @@ const card: Card = {
 
 
 	description: {
-		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
+		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87724
+			}
 		},
 		{
-			type: "normal"
-		}
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87724
+			}
+		},
 	]
 }
 

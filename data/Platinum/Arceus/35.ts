@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		5,
-	],
+	dexId: [5],
 	
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Charmander",
+		en: "Charmander"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 		{
@@ -71,22 +69,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
-	},
-
-	thirdParty: {
-		cardmarket: 278907,
-		tcgplayer: 84233
+		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84233,
+				cardmarket: 278907
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278907,
+				tcgplayer: 84233
+			}
+		},
+	],
+
 }
 
 export default card

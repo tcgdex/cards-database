@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidorino",
+		en: "Nidorino"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		33,
-	],
+	dexId: [33],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Nidoran♂",
+		en: "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -35,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
+				en: "Double Kick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -51,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Drill",
+				en: "Horn Drill"
 			},
 
 			damage: 50,
@@ -69,22 +67,26 @@ const card: Card = {
 
 
 	description: {
-		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
-	},
-
-	thirdParty: {
-		cardmarket: 274821,
-		tcgplayer: 87743
+		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274821,
+				tcgplayer: 87743
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87743,
+				cardmarket: 274821
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		310,
-	],
+	dexId: [310],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -86,19 +84,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275657,
-		tcgplayer: 87153
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275657,
+				tcgplayer: 87153
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275657,
+				tcgplayer: 87153
+			}
 		},
-	]
+	],
+
 }
 
 export default card

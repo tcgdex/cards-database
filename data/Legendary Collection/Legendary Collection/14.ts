@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Jolteon",
+		en: "Jolteon"
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Eevee",
+		en: "Eevee"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				en: "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -49,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pin Missile",
+				en: "Pin Missle"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 4 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
@@ -69,22 +67,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts.",
-	},
-
-	thirdParty: {
-		cardmarket: 274779,
-		tcgplayer: 86339
+		en: "It accumulates negative ions from the atmosphere to blast out 10,000-volt lightning bolts."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274779,
+				tcgplayer: 86339
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86339,
+				cardmarket: 274779
+			}
 		}
-	]
+	],
+
 }
 
 export default card

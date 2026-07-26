@@ -3,35 +3,33 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Drowzee",
+		en: "Drowzee"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		96,
-	],
+	dexId: [96],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Long Distance Hypnosis",
+				en: "Long-Distance Hypnosis"
 			},
 			effect: {
-				en: "Once during your turn (before your attack) you may flip a coin. If heads defender is now Asleep; if tails, your active Pokémon is now Asleep. The power can't be used if Drowzee is affected by a Special Condition.",
-			},
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -42,10 +40,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nightmare",
+				en: "Nightmare"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -62,22 +60,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice.",
-	},
-
-	thirdParty: {
-		cardmarket: 274838,
-		tcgplayer: 84970
+		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274838,
+				tcgplayer: 84970
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84970,
+				cardmarket: 274838
+			}
 		}
-	]
+	],
+
 }
 
 export default card

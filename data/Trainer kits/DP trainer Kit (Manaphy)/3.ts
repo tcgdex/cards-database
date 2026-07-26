@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	attacks: [
@@ -52,15 +52,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	description: {
 		en: "It swims elegantly by flittering its tail fin as if it were a dress. It has the look of a queen."
 	},
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278013,
+				tcgplayer: 85808
+			}
+		},
+	],
+
 }
 
 export default card

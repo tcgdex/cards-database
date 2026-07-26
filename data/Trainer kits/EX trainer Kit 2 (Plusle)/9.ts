@@ -17,9 +17,17 @@ const card: Card = {
 		fr: "Soignez 30 dégâts à 1 de vos Pokémon."
 	},
 
-	thirdParty: {
-		tcgplayer: 88339
-	}
+	trainerType: "Item",
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88339
+			}
+		},
+	],
+
 }
 
 export default card

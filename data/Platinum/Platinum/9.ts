@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		487,
-	],
+	dexId: [487],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Each player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first.)",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Giratina de votre main sur votre Banc, vous pouvez utiliser ce pouvoir. Chaque joueur mélange sa main à son deck et pioche jusqu'à 4 cartes. (Vous piochez vos cartes en premier.)",
 				de: "Once during your turn, when you put Giratina from your hand onto your Bench, you may use this power. Eac player shuffles his or her hand into his or her deck and draws up to 4 cards. (You draw your cards first.)"
-			},
+			}
 		},
 	],
 
@@ -79,19 +77,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278430,
-		tcgplayer: 85737
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 85737,
+				cardmarket: 278430
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278430,
+				tcgplayer: 85737
+			}
 		}
-	]
+	],
+
 }
 
 export default card

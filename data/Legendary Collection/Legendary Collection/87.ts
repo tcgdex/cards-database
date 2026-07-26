@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Ponyta",
+		en: "Ponyta"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -30,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Smash Kick",
+				en: "Smash Kick"
 			},
 
 			damage: 20,
@@ -42,7 +40,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Tail",
+				en: "Flame Tail"
 			},
 
 			damage: 30,
@@ -60,22 +58,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",
-	},
-
-	thirdParty: {
-		cardmarket: 274852,
-		tcgplayer: 88282
+		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274852,
+				tcgplayer: 88282
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88282,
+				cardmarket: 274852
+			}
 		}
-	]
+	],
+
 }
 
 export default card

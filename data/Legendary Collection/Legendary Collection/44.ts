@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Graveler",
+		en: "Graveler"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		75,
-	],
+	dexId: [75],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Geodude",
+		en: "Geodude"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Harden",
+				en: "Harden"
 			},
 			effect: {
-				en: "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
+				en: "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -48,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rock Throw",
+				en: "Rock Throw"
 			},
 
 			damage: 40,
@@ -66,22 +64,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
-	},
-
-	thirdParty: {
-		cardmarket: 274809,
-		tcgplayer: 85887
+		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274809,
+				tcgplayer: 85887
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85887,
+				cardmarket: 274809
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Primeape",
+		en: "Primeape"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		57,
-	],
+	dexId: [57],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Mankey",
+		en: "Mankey"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes",
+				en: "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 		{
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tantrum",
+				en: "Tantrum"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Primeape is now Confused (after doing damage).",
+				en: "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
 			},
 			damage: 50,
 
@@ -69,22 +67,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
-	},
-
-	thirdParty: {
-		cardmarket: 274824,
-		tcgplayer: 88361
+		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274824,
+				tcgplayer: 88361
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88361,
+				cardmarket: 274824
+			}
 		}
-	]
+	],
+
 }
 
 export default card
