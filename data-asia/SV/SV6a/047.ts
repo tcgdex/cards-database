@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "酋雷姆"
+		ja: "キュレム",
+		'zh-tw': "酋雷姆",
 	},
 
 	illustrator: "Shiburingaru",
@@ -14,34 +14,53 @@ const card: Card = {
 	types: ["Dragon"],
 
 	description: {
-		'zh-tw': "雖然擁有凌駕於萊希拉姆和 捷克羅姆之上的力量，但是那 力量已被極低溫冷氣封住了。"
+		ja: "レシラムと ゼクロムを 凌ぐほどの 力を もつが 極低温の 冷気で 封じられてしまっている。",
+		'zh-tw': "雖然擁有凌駕於萊希拉姆和 捷克羅姆之上的力量，但是那 力量已被極低溫冷氣封住了。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "‌‌[特性]反等離子"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "アンチプラズマ" },
+			effect: {
+				ja: "相手のトラッシュに、名前に「アクロマ」とつくカードがあるなら、このポケモンが「トライフロスト」を使うためのエネルギーは、[C]エネルギー1個になる。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若對手的棄牌區有‌名稱中有「‌阿克羅瑪」的卡，則這隻寶可夢使用「‌三重冰霜」所需的能量，改為1個【無】能量。"
-		}
-	}, {
-		name: {
-			'zh-tw': "三重冰霜"
+	attacks: [
+		{
+			name: {
+				ja: "トライフロスト",
+				'zh-tw': "‌‌[特性]反等離子",
+			},
+			cost: ["Water", "Water", "Metal", "Metal", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーをすべてトラッシュし、相手のポケモン3匹に、それぞれ110ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "若對手的棄牌區有‌名稱中有「‌阿克羅瑪」的卡，則這隻寶可夢使用「‌三重冰霜」所需的能量，改為1個【無】能量。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將這隻寶可夢身上附加的能量卡全部丟棄，對手的3隻寶可夢各受到110點傷害。[在備戰區不計算弱點・抵抗力。]"
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773796,
+				tcgplayer: 566298,
+			},
 		},
-
-		cost: ["Water", "Water", "Metal", "Metal", "Colorless"]
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "H",
-	rarity: "Uncommon"
-}
+	rarity: "Uncommon",
+	dexId: [646],
+};
 
-export default card
+export default card;
