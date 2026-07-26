@@ -99,7 +99,7 @@ const card: Card = {
 			foil: 'league',
 			thirdParty: {
 				tcgplayer: 177131,
-				cardmarket: 279011
+				cardmarket: 371563
 			}
 		},
 		{

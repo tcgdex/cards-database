@@ -82,7 +82,7 @@ const card: Card = {
 			stamp: ['pre-release'],
 			thirdParty: {
 				tcgplayer: 213013,
-				cardmarket: 279000
+				cardmarket: 882912
 			}
 		},
 		{
@@ -98,7 +98,7 @@ const card: Card = {
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
 				tcgplayer: 480432,
-				cardmarket: 279000
+				cardmarket: 868170
 			}
 		},
 	],

@@ -43,6 +43,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ['player-rewards-program'],
 			thirdParty: {
+				cardmarket: 450228,
 				tcgplayer: 193683,
 			}
 		},
@@ -50,6 +51,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
+				cardmarket: 868219,
 				tcgplayer: 480466,
 			}
 		},

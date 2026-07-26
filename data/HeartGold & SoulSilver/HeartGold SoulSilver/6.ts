@@ -105,7 +105,7 @@ const card: Card = {
 			stamp: ["yuka-furusawa"],
 			thirdParty: {
 				tcgplayer: 480062,
-				cardmarket: 278978
+				cardmarket: 868725
 			}
 		},
 	],

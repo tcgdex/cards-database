@@ -83,7 +83,7 @@ const card: Card = {
 			stamp: ["gustavo-wada"],
 			thirdParty: {
 				tcgplayer: 480515,
-				cardmarket: 279005
+				cardmarket: 868153
 			}
 		},
 	],

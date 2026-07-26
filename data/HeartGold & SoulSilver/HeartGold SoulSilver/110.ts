@@ -88,6 +88,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ['christopher-kan'],
 			thirdParty: {
+				cardmarket: 868132,
 				tcgplayer: 480514,
 			}
 		},

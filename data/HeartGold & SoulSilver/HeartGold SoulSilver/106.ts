@@ -84,6 +84,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ['ross-cawthorn'],
 			thirdParty: {
+				cardmarket: 868165,
 				tcgplayer: 480357,
 			}
 		},

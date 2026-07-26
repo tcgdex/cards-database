@@ -49,6 +49,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868811,
 				tcgplayer: 480099
 			}
 		},
@@ -56,6 +57,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["gustavo-wada"],
 			thirdParty: {
+				cardmarket: 868180,
 				tcgplayer: 480455
 			}
 		},
@@ -63,6 +65,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["christopher-kan"],
 			thirdParty: {
+				cardmarket: 868179,
 				tcgplayer: 480458
 			}
 		},
@@ -70,7 +73,43 @@ const card: Card = {
 			type: "normal",
 			stamp: ["igor-costa"],
 			thirdParty: {
+				cardmarket: 868011,
 				tcgplayer: 123185
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["chase-moloney"],
+			thirdParty: {
+				cardmarket: 868009
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				cardmarket: 868182
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 868181
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["shuto-itagaki"],
+			thirdParty: {
+				cardmarket: 868012,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["zachary-bokhari"],
+			thirdParty: {
+				cardmarket: 868013,
 			}
 		},
 	],

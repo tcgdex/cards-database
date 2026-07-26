@@ -43,7 +43,22 @@ const card: Card = {
 			type: "reverse",
 			foil: 'league',
 			thirdParty: {
+				cardmarket: 371572,
 				tcgplayer: 123191,
+			}
+		},
+		{
+			type: "normal",
+			size: ['gustavo-wada'],
+			thirdParty: {
+				cardmarket: 868205,
+			}
+		},
+		{
+			type: "normal",
+			size: ['ross-cawthorn'],
+			thirdParty: {
+				cardmarket: 868206,
 			}
 		},
 	],

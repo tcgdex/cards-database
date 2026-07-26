@@ -43,6 +43,7 @@ const card: Card = {
 			type: "reverse",
 			foil: 'league',
 			thirdParty: {
+				cardmarket: 371574,
 				tcgplayer: 137281,
 			}
 		},
@@ -50,6 +51,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-pramawat"],
 			thirdParty: {
+				cardmarket: 868816,
 				tcgplayer: 480028,
 			}
 		},
@@ -57,6 +59,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868817,
 				tcgplayer: 480029,
 			}
 		},
@@ -64,7 +67,36 @@ const card: Card = {
 			type: "normal",
 			stamp: ["ross-cawthorn"],
 			thirdParty: {
+				cardmarket: 868220,
 				tcgplayer: 480376,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["chase-moloney"],
+			thirdParty: {
+				cardmarket: 868073,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["igor-costa"],
+			thirdParty: {
+				cardmarket: 868074,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["shuto-itagaki"],
+			thirdParty: {
+				cardmarket: 868075,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["zachary-bokhari"],
+			thirdParty: {
+				cardmarket: 868077,
 			}
 		},
 	],

@@ -44,7 +44,7 @@ const card: Card = {
 			foil: 'league',
 			thirdParty: {
 				tcgplayer: 123184,
-				cardmarket: 279070
+				cardmarket: 450103
 			}
 		},
 		{
@@ -52,7 +52,7 @@ const card: Card = {
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
 				tcgplayer: 480096,
-				cardmarket: 279070
+				cardmarket: 868807
 			}
 		},
 		{
@@ -60,7 +60,7 @@ const card: Card = {
 			stamp: ["yuka-furusawa"],
 			thirdParty: {
 				tcgplayer: 480097,
-				cardmarket: 279070
+				cardmarket: 868808
 			}
 		},
 	],

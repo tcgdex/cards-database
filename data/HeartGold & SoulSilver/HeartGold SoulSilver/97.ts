@@ -42,63 +42,56 @@ const card: Card = {
 			foil: 'league',
 			thirdParty: {
 				tcgplayer: 220369,
-				cardmarket: 279069
+				cardmarket: 450098
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["mychael-bryan"],
 			thirdParty: {
-				tcgplayer: 480093,
-				cardmarket: 279069
+				tcgplayer: 480093
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuta-komatsuda"],
 			thirdParty: {
-				tcgplayer: 480094,
-				cardmarket: 279069
+				tcgplayer: 480094
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuka-furusawa"],
 			thirdParty: {
-				tcgplayer: 480095,
-				cardmarket: 279069
+				tcgplayer: 480095
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["gustavo-wada"],
 			thirdParty: {
-				tcgplayer: 480438,
-				cardmarket: 279069
+				tcgplayer: 480438
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 480440,
-				cardmarket: 279069
+				tcgplayer: 480440
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["ross-cawthorn"],
 			thirdParty: {
-				tcgplayer: 480441,
-				cardmarket: 279069
+				tcgplayer: 480441
 			}
 		},
 		{
 			type: "normal",
 			stamp : ["david-cohen"],
 			thirdParty: {
-				tcgplayer: 480442,
-				cardmarket: 279069
+				tcgplayer: 480442
 			}
 		},
 	],
