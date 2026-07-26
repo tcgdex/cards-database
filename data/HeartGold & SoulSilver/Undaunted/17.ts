@@ -92,8 +92,7 @@ const card: Card = {
 				cardmarket: 882914,
 				tcgplayer: 86680
 			}
-		},
-		{
+		}, {
 			type: "reverse",
 			thirdParty: {
 				cardmarket: 882914,
@@ -104,6 +103,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["pre-release"],
 			thirdParty: {
+				cardmarket: 882914,
 				tcgplayer: 221177
 			}
 		},
