@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		197,
-	],
+	dexId: [197],
 
 	hp: 100,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Wolkenverhangener Mond"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Umbreon is your Active Pokémon, you may flip a coin. If heads, return Umbreon and all cards attached to it to your hand. This power can’t be used if Umbreon is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if Umbreon is your Active Pokémon, you may flip a coin. If heads, return Umbreon and all cards attached to it to your hand. This power can't be used if Umbreon is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Noctali est votre Pokémon Actif, vous pouvez lancer une pièce. Si c’est face, reprenez Noctali dans votre main, ainsi que toutes les cartes qui lui sont attachées. Ce pouvoir ne peut pas être utilisé si Noctali est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Nachtara dein Aktives Pokémon ist, eine Münze werfen. Nimm bei \"Kopf\" Nachtara und alle an ihm angelegten Karten auf deine Hand zurück. Diese Poké-Power kann nicht benutzt werden, wenn Nachtara von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -87,14 +85,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279339,
+				tcgplayer: 90146
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 279263,
-		tcgplayer: 90146
-	}
 }
 
 export default card

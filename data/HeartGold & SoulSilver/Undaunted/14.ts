@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		297,
-	],
+	dexId: [297],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Makuhita",
-		fr: "Makuhita",
+		fr: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -84,9 +82,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279267,
+				tcgplayer: 86016
+			}
 		}
 	],
 

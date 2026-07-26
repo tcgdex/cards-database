@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		20,
-	],
+	dexId: [20],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Rattata",
-		fr: "Rattata",
+		fr: "Rattata"
 	},
 
 	stage: "Stage1",
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur le Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -83,9 +81,13 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279287,
+				tcgplayer: 88606
+			}
 		}
 	],
 

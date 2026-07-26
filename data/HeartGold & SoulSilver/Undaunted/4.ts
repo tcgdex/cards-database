@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		472,
-	],
+	dexId: [472],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Gligar",
-		fr: "Scorplane",
+		fr: "Scorplane"
 	},
 
 	stage: "Stage1",
@@ -91,20 +89,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85774
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85774
+			}
 		},
 		{
 			type: "normal"
-		},
+				},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279257,
 		tcgplayer: 85774

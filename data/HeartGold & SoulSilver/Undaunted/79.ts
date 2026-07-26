@@ -24,13 +24,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279332,
+				tcgplayer: 84693
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			foil: "league",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 	],
 
@@ -40,6 +47,10 @@ const card: Card = {
 		cardmarket: 279332,
 		tcgplayer: 84693
 	}
+	types: [
+		"Darkness"
+	],
+	retreat: 0
 }
 
 export default card
