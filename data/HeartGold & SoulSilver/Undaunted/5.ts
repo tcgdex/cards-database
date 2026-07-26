@@ -101,7 +101,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 153259
 			}
 		},
 	],

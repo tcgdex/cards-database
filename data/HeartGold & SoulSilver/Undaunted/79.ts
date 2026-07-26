@@ -36,7 +36,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 163857
 			}
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 279332,
 		tcgplayer: 84693
-	}
+	},
 	types: [
 		"Darkness"
 	],

@@ -36,7 +36,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 153266
 			}
 		},
 	],
@@ -44,7 +44,7 @@ const card: Card = {
 	thirdParty: {
 		cardmarket: 279333,
 		tcgplayer: 87366
-	}
+	},
 	types: [
 		"Metal"
 	],

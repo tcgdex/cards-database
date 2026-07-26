@@ -100,14 +100,14 @@ const card: Card = {
 			type: "normal",
 			stamp: ["pre-release"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 221177
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["pre-release","staff"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 228481
 			}
 		}
 	],

@@ -39,12 +39,12 @@ const card: Card = {
 			type: "normal",
 			stamp: ["christopher-kan"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480487
 			}
 		}
 	],
 
-	hp: 0
+	hp: 0,
 	retreat: 0
 }
 

@@ -88,7 +88,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["igor-costa"],
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 480632
 			}
 		}
 	],

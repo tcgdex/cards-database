@@ -107,7 +107,7 @@ const card: Card = {
 			type: "holo",
 			foil: "cracked-ice",
 			thirdParty: {
-				tcgplayer: 00000
+				tcgplayer: 125042
 			}
 		}
 	],

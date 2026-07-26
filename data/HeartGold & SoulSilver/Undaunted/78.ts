@@ -37,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	hp: 0
+	hp: 0,
 	retreat: 0
 }
 
