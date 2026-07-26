@@ -49,14 +49,20 @@ const card: Card = {
 		cost: ["Grass", "Fighting"]
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680214,
+				tcgplayer: 570133,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "F",
 	rarity: "Common",
 	dexId: [718],
-
-	thirdParty: {
-		cardmarket: 680214
-	}
 }
 
 export default card
