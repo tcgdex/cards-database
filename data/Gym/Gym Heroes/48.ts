@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Weepinbell",
+		en: "Erika's Weepinbell"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		70,
-	],
+	dexId: [70],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Bellsprout",
+		en: "Bellsprout"
 	},
 
 	stage: "Stage1",
@@ -33,7 +31,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Drool",
+				en: "Drool"
 			},
 
 			damage: 10,
@@ -45,10 +43,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Flytrap",
+				en: "Flytrap"
 			},
 			effect: {
-				en: "Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon. This attack can't be used if your opponent has no Benched Pokémon.",
+				en: "Before doing damage, choose 1 of your opponent's Benched Pokémon and switch it with his or her Active Pokémon. This attack can't be used if your opponent has no Benched Pokémon."
 			},
 			damage: 20,
 
@@ -58,26 +56,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274184,
-		tcgplayer: 85310
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85310,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85310,
+				cardmarket: 274184
+			}
 		}
-	]
+	],
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Rapidash",
+		en: "Rapidash"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		78,
-	],
+	dexId: [78],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
+		en: "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
+				en: "Stomp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
+				en: "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
 			},
 			damage: 30,
 
@@ -67,22 +65,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Very competitive, this Pokémon will chase anything that moves fast in the hope of racing it.",
-	},
-
-	thirdParty: {
-		cardmarket: 274825,
-		tcgplayer: 88579
+		en: "Very competitive, this Pokémon will chase anything that moves fast in the hope of racing it."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274825,
+				tcgplayer: 88579
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88579,
+				cardmarket: 274825
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

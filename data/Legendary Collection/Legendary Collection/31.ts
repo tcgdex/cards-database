@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidoking",
+		en: "Nidoking"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		34,
-	],
+	dexId: [34],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
+		en: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -35,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thrash",
+				en: "Thrash"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",
+				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -50,12 +48,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Toxic",
+				en: "Toxic"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
+				en: "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned)."
 			},
-			damage: 40,
+			damage: 20,
 
 		},
 	],
@@ -70,22 +68,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
-	},
-
-	thirdParty: {
-		cardmarket: 274796,
-		tcgplayer: 87694
+		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274796,
+				tcgplayer: 87694
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87694,
+				cardmarket: 274796
+			}
 		}
-	]
+	],
+
 }
 
 export default card

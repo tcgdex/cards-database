@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Onix",
+		en: "Onix"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		95,
-	],
+	dexId: [95],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Rock Throw",
+				en: "Rock Throw"
 			},
 
 			damage: 10,
@@ -41,10 +39,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Harden",
+				en: "Harden"
 			},
 			effect: {
-				en: "During opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
+				en: "During your opponent's next turn, whenever 30 or less damage is done to Onix (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -60,22 +58,26 @@ const card: Card = {
 
 
 	description: {
-		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black.",
-	},
-
-	thirdParty: {
-		cardmarket: 274849,
-		tcgplayer: 87877
+		en: "As it grows, the stone portions of its body harden to become similar to a diamond, though colored black."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274849,
+				tcgplayer: 87877
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87877,
+				cardmarket: 274849
+			}
 		}
-	]
+	],
+
 }
 
 export default card

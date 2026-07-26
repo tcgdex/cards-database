@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Kadabra",
+		en: "Sabrina's Kadabra"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		64,
-	],
+	dexId: [64],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Abra",
+		en: "Abra"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Life Drain",
+				en: "Life Drain"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10.",
+				en: "Flip a coin. If heads, put a number of damage counters on the Defending Pokémon so that its remaining HP are 10."
 			},
 
 		},
@@ -47,7 +45,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Psyshot",
+				en: "Psyshot"
 			},
 
 			damage: 30,
@@ -58,26 +56,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274326,
-		tcgplayer: 88882
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88882,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88882,
+				cardmarket: 274326
+			}
 		},
-	]
+	],
 }
 
 export default card

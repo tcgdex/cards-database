@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Exeggcute",
+		en: "Exeggcute"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		102,
-	],
+	dexId: [102],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Hypnosis",
+				en: "Hypnosis"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Leech Seed",
+				en: "Leech Seed"
 			},
 			effect: {
-				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.",
+				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute."
 			},
 			damage: 20,
 
@@ -62,7 +60,7 @@ const card: Card = {
 
 
 	description: {
-		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
 	},
 
 	thirdParty: {
@@ -70,16 +68,21 @@ const card: Card = {
 		tcgplayer: 85343
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
-		},
-		{
-			type: "reverse"
+			thirdParty: {
+				tcgplayer: 85343
+			}
 		},
 		{
 			type: "reverse",
-			subtype: "shifted-energy-cost"
+			thirdParty: {
+				tcgplayer: 85343
+			}
+		},
+		{
+			type: "reverse",
+			subtype: "shifted-energy-cost",
 		}
 	]
 }

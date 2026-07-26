@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Sandslash",
+		en: "Sandslash"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		28,
-	],
+	dexId: [28],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Sandshrew",
+		en: "Sandshrew"
 	},
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				en: "Slash"
 			},
 
 			damage: 20,
@@ -46,12 +44,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes",
+				en: "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: 20,
+			damage: "20×",
 
 		},
 	],
@@ -73,22 +71,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
-	},
-
-	thirdParty: {
-		cardmarket: 274827,
-		tcgplayer: 88930
+		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274827,
+				tcgplayer: 88930
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88930,
+				cardmarket: 274827
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Slowpoke",
+		en: "Slowpoke"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		79,
-	],
+	dexId: [79],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spacing Out",
+				en: "Spacing Out"
 			},
 			effect: {
-				en: "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it.",
+				en: "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
 			},
 
 		},
@@ -42,10 +40,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Scavenge",
+				en: "Scavenge"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand.",
+				en: "Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
 			},
 
 		},
@@ -61,22 +59,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
-	},
-
-	thirdParty: {
-		cardmarket: 274858,
-		tcgplayer: 89324
+		en: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274858,
+				tcgplayer: 89324
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89324,
+				cardmarket: 274858
+			}
 		}
-	]
+	],
+
 }
 
 export default card

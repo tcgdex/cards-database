@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		215,
-	],
+	dexId: [215],
 
 	hp: 80,
 
+	stage: "Basic",
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	suffix: "ex",
@@ -40,7 +39,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl Kopf zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -59,7 +58,7 @@ const card: Card = {
 				fr: "Lancez une pièce pour chaque Pokémon que vous avez en jeu (Farfuret Ex inclus). Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
 				de: "Wirf eine Münze für jedes deiner Pokémon (einschließlich dieses Pokémon). Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl Kopf zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -81,14 +80,13 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275751,
-		tcgplayer: 89374
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 89374,
+				cardmarket: 275751
+			}
 		}
 	]
 }

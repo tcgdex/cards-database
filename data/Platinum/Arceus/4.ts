@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		141,
-	],
+	dexId: [141],
 	
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Kabuto",
+		en: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -73,22 +71,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land.",
-	},
-
-	thirdParty: {
-		cardmarket: 278876,
-		tcgplayer: 86400
+		en: "It is thought that this Pokémon came onto land because its prey adapted to life on land."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86400,
+				cardmarket: 278876
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278876,
+				tcgplayer: 86400
+			}
+		},
+	],
+
 }
 
 export default card

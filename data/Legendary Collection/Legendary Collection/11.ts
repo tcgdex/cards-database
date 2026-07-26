@@ -3,39 +3,37 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Gengar",
+		en: "Gengar"
 	},
 
 	illustrator: "Keiji Kinebuchi",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [94],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Haunter",
+		en: "Haunter"
 	},
 
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Curse",
+				en: "Curse"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -47,10 +45,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Mind",
+				en: "Dark Mind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright.",
-	},
-
-	thirdParty: {
-		cardmarket: 274776,
-		tcgplayer: 85670
+		en: "Under a full moon, this Pokémon like to mimic the shadows of people and laugh at their fright."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274776,
+				tcgplayer: 85670
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85670,
+				cardmarket: 274776
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		455,
-	],
+	dexId: [455],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -77,22 +75,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
 	},
 
-	thirdParty: {
-		cardmarket: 278464,
-		tcgplayer: 84101
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84101,
+				cardmarket: 278464
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278464,
+				tcgplayer: 84101
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 	
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Gastly",
+		en: "Gastly"
 	},
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If Haunter is your Active Pokémon and is damaged by an opponent's attack (even if Haunter is Knocked Out), the Attacking Pokémon is now Poisoned.",
 				de: "Wenn Alpollo dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Alpollo dadurch kampfunfähig wird), ist das Angreifende Pokémon jetzt vergiftet."
-			},
+			}
 		},
 	],
 
@@ -77,22 +75,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
-	},
-
-	thirdParty: {
-		cardmarket: 278913,
-		tcgplayer: 86029
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86029,
+				cardmarket: 278913
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278913,
+				tcgplayer: 86029
+			}
+		},
+	],
+
 }
 
 export default card

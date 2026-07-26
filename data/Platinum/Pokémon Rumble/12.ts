@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Lucario",
+		en: "Lucario"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Riolu",
+		en: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Metal Claw",
+				en: "Metal Claw"
 			},
 
 			damage: 40,
@@ -49,7 +47,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pulse Blast",
+				en: "Pulse Blast"
 			},
 
 			damage: 80,
@@ -60,19 +58,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 278853
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278853,
+				tcgplayer: 86879
+			},
 		}
 	]
 }

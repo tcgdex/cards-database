@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Tauros",
+		en: "Tauros"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		128,
-	],
+	dexId: [128],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -30,12 +28,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stomp",
+				en: "Stomp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -45,12 +43,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rampage",
+				en: "Rampage"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage).",
+				en: "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage)."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -72,22 +70,26 @@ const card: Card = {
 
 
 	description: {
-		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
-	},
-
-	thirdParty: {
-		cardmarket: 274830,
-		tcgplayer: 89759
+		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274830,
+				tcgplayer: 89759
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89759,
+				cardmarket: 274830
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		92,
-	],
+	dexId: [92],
 	
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -75,22 +73,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
-	},
-
-	thirdParty: {
-		cardmarket: 278908,
-		tcgplayer: 85654
+		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85654,
+				cardmarket: 278908
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278908,
+				tcgplayer: 85654
+			}
+		},
+	],
+
 }
 
 export default card

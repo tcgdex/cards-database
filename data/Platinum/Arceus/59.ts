@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		4,
-	],
+	dexId: [4],
 	
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -64,22 +62,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
-	},
-
-	thirdParty: {
-		cardmarket: 278931,
-		tcgplayer: 84217
+		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84217,
+				cardmarket: 278931
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278931,
+				tcgplayer: 84217
+			}
+		},
+	],
+
 }
 
 export default card

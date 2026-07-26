@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Dewgong",
+		en: "Misty's Dewgong"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		87,
-	],
+	dexId: [87],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Seel",
+		en: "Seel"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ice Throw",
+				en: "Ice Throw"
 			},
 			effect: {
-				en: "If the Defending Pokémon is , this attack's base damage is doubled.",
+				en: "If the Defending Pokémon is Fighting, this attack's base damage is doubled."
 			},
 
 		},
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Take Down",
+				en: "Take Down"
 			},
 			effect: {
-				en: "Misty's Dewgong does 20 damage to itself.",
+				en: "Misty's Dewgong does 20 damage to itself."
 			},
 			damage: 60,
 
@@ -62,26 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274322,
-		tcgplayer: 87526
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87526,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87526,
+				cardmarket: 274322
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Electrode",
+		en: "Electrode"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		101,
-	],
+	dexId: [101],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Voltorb",
+		en: "Voltorb"
 	},
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 20,
@@ -47,10 +45,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Chain Lightning",
+				en: "Chain Lightning"
 			},
 			effect: {
-				en: "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own).",
+				en: "If the Defending Pokémon isn't Colorless, this attack does 10 damage to each Benched Pokémon of the same type as the Defending Pokémon (including your own). (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
-	},
-
-	thirdParty: {
-		cardmarket: 274787,
-		tcgplayer: 85151
+		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274787,
+				tcgplayer: 85151
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85151,
+				cardmarket: 274787
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Dialga de votre main sur votre Banc, vous pouvez chercher dans votre pile de défausse n'importe quelle combinaison de jusqu'à 3 Pokémon (Pokémon NIV.X exclus) et cartes Énergie de base. Montrez-les à votre adversaire et placez-les au dessus de votre deck dans n'importe quel ordre.",
 				de: "Once during your turn, when you put Dialga from your hand onto your Bench, you may search your discard pile for up to 3 in any combination of Pokémon (excluding Pokémon LV.X) and basic Energy cards. Show them to your opponent and put them on top of your deck in any order."
-			},
+			}
 		},
 	],
 
@@ -80,22 +78,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	},
 
-	thirdParty: {
-		cardmarket: 278426,
-		tcgplayer: 84804
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 84804,
+				cardmarket: 278426
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278426,
+				tcgplayer: 84804
+			}
 		}
-	]
+	],
+
 }
 
 export default card
