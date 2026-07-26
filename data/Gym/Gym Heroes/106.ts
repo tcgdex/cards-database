@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Brock's Training Method",
+		en: "Brock's Training Method"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,22 +12,24 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Search your deck for a Basic Pokémon or Evolution card with Brock in its name. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+		en: "Search your deck for a Basic Pokémon or Evolution card with Brock in its name. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
 	},
-	thirdParty: {
-		cardmarket: 274242,
-		tcgplayer: 83985
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83985,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83985,
+				cardmarket: 274242
+			}
 		}
-	]
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		206,
-	],
+	dexId: [206],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Spring Out"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
@@ -68,22 +66,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little."
 	},
 
-	thirdParty: {
-		cardmarket: 278494,
-		tcgplayer: 85011
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85011,
+				cardmarket: 278494
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278494,
+				tcgplayer: 85011
+			}
 		}
-	]
+	],
+
 }
 
 export default card

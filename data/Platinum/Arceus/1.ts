@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		6,
-	],
+	dexId: [6],
 	
 	hp: 140,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
+		en: "Charmeleon"
 	},
 
 	stage: "Stage2",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Each of Charizard's attacks does 10 more damage for each Fire Pokémon on your Bench to your opponent's Active Pokémon (before applying Weakness and Resistance).",
 				de: "Jeder Angriff von Glurak fügt den Aktiven Pokémon deines Gegners für jedes -Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
-			},
+			}
 		},
 	],
 
@@ -90,23 +88,30 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278873,
-		tcgplayer: 84191
-	},
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84191,
+				cardmarket: 278873
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278873,
+				tcgplayer: 84191
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 278873,
+				tcgplayer: 153234
+			}
+		},
+	],
 
-	variants: [
-		{
-			type: "holo"
-		},
-		{
-			type: "reverse",
-		},
-		{
-			type: "reverse",
-			foil: "cracked-ice"
-		},
-	]
 }
 
 export default card

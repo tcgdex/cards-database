@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Gyarados",
+		en: "Gyarados"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Magikarp",
+		en: "Magikarp"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Dragon Rage",
+				en: "Dragon Rage"
 			},
 
 			damage: 50,
@@ -49,10 +47,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubblebeam",
+				en: "Bubblebeam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 40,
 
@@ -76,22 +74,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
-	},
-
-	thirdParty: {
-		cardmarket: 274777,
-		tcgplayer: 85989
+		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274777,
+				tcgplayer: 85989
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85989,
+				cardmarket: 274777
+			}
 		}
-	]
+	],
+
 }
 
 export default card

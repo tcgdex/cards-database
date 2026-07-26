@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Kabutops",
+		en: "Kabutops"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		141,
-	],
+	dexId: [141],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Kabuto",
+		en: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sharp Sickle",
+				en: "Sharp Sickle"
 			},
 
 			damage: 30,
@@ -48,10 +46,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Absorb",
+				en: "Absorb"
 			},
 			effect: {
-				en: "Remove a number of damage counters from Kabutops equal to half the damage done to Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them.",
+				en: "Remove a number of damage counters from Kabutops equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them."
 			},
 			damage: 40,
 
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
-	},
-
-	thirdParty: {
-		cardmarket: 274792,
-		tcgplayer: 86395
+		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274792,
+				tcgplayer: 86395
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86395,
+				cardmarket: 274792
+			}
 		}
-	]
+	],
+
 }
 
 export default card

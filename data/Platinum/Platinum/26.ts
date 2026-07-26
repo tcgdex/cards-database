@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		395,
-	],
+	dexId: [395],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Prinplup",
-		fr: "Prinplouf",
+		fr: "Prinplouf"
 	},
 
 	stage: "Stage2",
@@ -79,22 +77,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe."
 	},
 
-	thirdParty: {
-		cardmarket: 278447,
-		tcgplayer: 85200
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85200,
+				cardmarket: 278447
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278447,
+				tcgplayer: 85200
+			}
 		}
-	]
+	],
+
 }
 
 export default card

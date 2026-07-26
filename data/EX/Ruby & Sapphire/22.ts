@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		319,
-	],
+	dexId: [319],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Sharpedo is your Active Pokémon and is damaged by an opponent's attack (even if Sharpedo is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
 				fr: "Si Sharpedo est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Sharpedo est mis K.O.), placez un marqueur de dégât sur le Pokémon Attaquant.",
 				de: "If Sharpedo is your Active Pokémon and is damaged by an opponent's attack (even if Sharpedo is Knocked Out), put 2 damage counters on the Attacking Pokémon"
-			},
+			}
 		},
 	],
 
@@ -78,19 +76,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275670,
-		tcgplayer: 89097
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275670,
+				tcgplayer: 89097
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275670,
+				tcgplayer: 89097
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Raticate",
+		en: "Lt. Surge's Raticate"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		20,
-	],
+	dexId: [20],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		en: "Rattata"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
+				en: "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, Lt. Surge's Raticate's Double",
+				en: "During your next turn, Lt. Surge's Raticate's Double-edge attack's damage (base damage and damage to itself) is doubled."
 			},
 
 		},
@@ -46,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
+				en: "Double-edge"
 			},
 			effect: {
-				en: "Lt. Surge's Raticate does 20 damage to itself.",
+				en: "Lt. Surge's Raticate does 20 damage to itself."
 			},
 			damage: 40,
 
@@ -59,10 +57,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -72,20 +69,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274321,
-		tcgplayer: 86864
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86864,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86864,
+				cardmarket: 274321
+			}
 		},
-	]
+	],
 }
 
 export default card

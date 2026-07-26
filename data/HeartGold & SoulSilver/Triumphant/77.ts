@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		325,
-	],
+	dexId: [325],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -57,17 +55,23 @@ const card: Card = {
 		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89478,
+				cardmarket: 279607
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279607,
+				tcgplayer: 89478
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279607,
-		tcgplayer: 89478
-	}
 }
 
 export default card

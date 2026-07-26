@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		257,
-	],
+	dexId: [257],
 
 	hp: 130,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu",
+		fr: "Galifeu"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may choose 1 of the Defending Pokémon. That Pokémon is now Burned. This power can't be used if Blaziken is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir 1 des Pokémon Défenseurs. Ce Pokémon est maintenant Brûlé. Ce pouvoir ne peut pas être utilisé si Brasegali est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may choose 1 of the Defending Pokémon. That Pokémon is now Burned. This power can't be used if Blaziken is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -95,19 +93,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278424,
-		tcgplayer: 83910
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 83910,
+				cardmarket: 278424
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278424,
+				tcgplayer: 83910
+			}
 		}
-	]
+	],
+
 }
 
 export default card

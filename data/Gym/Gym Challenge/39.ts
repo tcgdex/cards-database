@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Bulbasaur",
+		en: "Erika's Bulbasaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [1],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Seed",
+				en: "Sleep Seed"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Errand-Running",
+				en: "Errand-Running"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may search your deck for a Trainer card. Show it to your opponent and put it into your hand. Shuffle your deck afterward.",
+				en: "Flip a coin. If heads, you may search your deck for a Trainer card. Show it to your opponent and put it into your hand. Shuffle your deck afterward."
 			},
 
 		},
@@ -55,26 +53,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274307,
-		tcgplayer: 85286
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85286,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85286,
+				cardmarket: 274307
+			}
 		},
-	]
+	],
 }
 
 export default card

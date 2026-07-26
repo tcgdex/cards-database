@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Erika's Gloom",
+		en: "Erika's Gloom"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		44,
-	],
+	dexId: [44],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Oddish",
+		en: "Oddish"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Dream Dance",
+				en: "Dream Dance"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Erika's Gloom are now Asleep (after dealing damage).",
+				en: "Both the Defending Pokémon and Erika's Gloom are now Asleep (after doing damage)."
 			},
 			damage: 10,
 
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vile Smell",
+				en: "Vile Smell"
 			},
 			effect: {
-				en: "Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage).",
+				en: "Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage)."
 			},
 			damage: 30,
 
@@ -62,26 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274152,
-		tcgplayer: 85296
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85296,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85296,
+				cardmarket: 274152
+			}
 		}
-	]
+	],
 }
 
 export default card

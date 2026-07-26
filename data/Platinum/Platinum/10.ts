@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		487,
-	],
+	dexId: [487],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Over Slash"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon).",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
 				de: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
@@ -94,19 +92,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278430,
-		tcgplayer: 85736
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 85736,
+				cardmarket: 278430
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278430,
+				tcgplayer: 85736
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,39 +3,37 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Machamp",
+		en: "Machamp"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Machoke",
+		en: "Machoke"
 	},
 
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Strikes Back",
+				en: "Strikes Back"
 			},
 			effect: {
-				en: "Whenever your opponent's attack damages Machamp (even if Machamp is Knoced Out), this power does 10 damage to attacking Pokémon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is already Asleep, Confused, or Paralyzed when your opponent attacks.",
-			},
+				en: "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pokémon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is already affected by a Special Condition when your opponent attacks."
+			}
 		},
 	],
 
@@ -48,7 +46,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Seismic Toss",
+				en: "Seismic Toss"
 			},
 
 			damage: 60,
@@ -66,22 +64,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
-	},
-
-	thirdParty: {
-		cardmarket: 274780,
-		tcgplayer: 86957
+		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274780,
+				tcgplayer: 86957
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86957,
+				cardmarket: 274780
+			}
 		}
-	]
+	],
+
 }
 
 export default card

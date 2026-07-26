@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidoqueen",
+		en: "Nidoqueen"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		31,
-	],
+	dexId: [31],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
+		en: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Boyfriends",
+				en: "Boyfriends"
 			},
 			effect: {
-				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
+				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -50,7 +48,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Punch",
+				en: "Mega Punch"
 			},
 
 			damage: 50,
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
-	},
-
-	thirdParty: {
-		cardmarket: 274797,
-		tcgplayer: 87706
+		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274797,
+				tcgplayer: 87706
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87706,
+				cardmarket: 274797
+			}
 		}
-	]
+	],
+
 }
 
 export default card

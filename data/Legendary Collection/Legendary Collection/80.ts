@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Magnemite",
+		en: "Magnemite"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Wave",
+				en: "Thunder Wave"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Selfdestruct",
+				en: "Selfdestruct"
 			},
 			effect: {
-				en: "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself.",
+				en: "Does 10 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magnemite does 40 damage to itself."
 			},
 			damage: 40,
 
@@ -63,22 +61,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave.",
-	},
-
-	thirdParty: {
-		cardmarket: 274845,
-		tcgplayer: 87070
+		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274845,
+				tcgplayer: 87070
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87070,
+				cardmarket: 274845
+			}
 		}
-	]
+	],
+
 }
 
 export default card

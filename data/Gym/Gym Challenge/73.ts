@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Magikarp",
+		en: "Giovanni's Magikarp"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		129,
-	],
+	dexId: [129],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Ancestral Memory",
+				en: "Ancestral Memory"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Giovanni's Magikarp stays in play (even putting Giovanni's Magikarp on the Bench won't let you use it again).",
+				en: "Flip a coin. If tails, this attack does nothing. Either way, you can't use this attack again as long as Giovanni's Magikarp stays in play (even putting Giovanni's Magikarp on the Bench won't let you use it again)."
 			},
 
 		},
@@ -42,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flail Around",
+				en: "Flail Around"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],
@@ -55,26 +53,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274341,
-		tcgplayer: 85715
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85715,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85715,
+				cardmarket: 274341
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -85,7 +85,7 @@ const card: Card = {
 		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
 	},
 
-	illustrator: "Naoyo Kimura",
+	illustrator: "REND",
 	variants: [
 		{
 			type: 'holo',

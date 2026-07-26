@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Eevee",
+		en: "Lt. Surge's Eevee"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Surprise",
+				en: "Surprise"
 			},
 			effect: {
-				en: "Look at a random card from your opponent's hand. Your opponent shuffles that card into his or her deck.",
+				en: "Look at a random card from your opponent's hand. Your opponent shuffles that card into his or her deck."
 			},
 
 		},
@@ -42,7 +40,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				en: "Scratch"
 			},
 
 			damage: 20,
@@ -53,10 +51,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -66,20 +63,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274319,
-		tcgplayer: 86850
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86850,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86850,
+				cardmarket: 274319
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	attacks: [{
@@ -34,7 +34,6 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
@@ -47,9 +46,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 85131
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275767,
+				tcgplayer: 85131
+			}
+		},
+	],
+
 }
 
 export default card

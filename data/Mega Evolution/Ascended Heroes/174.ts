@@ -112,7 +112,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "pokeball",
 		thirdParty: {
-			cardmarket: 870405,
+			cardmarket: 870406,
 			tcgplayer: 676987
 		}
 	},
@@ -120,7 +120,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870406,
+			cardmarket: 870405,
 			tcgplayer: 677127
 		}
 	},

@@ -3,22 +3,20 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Machop",
+		en: "Machop"
 	},
 
-	illustrator: "Mitsuhiro Arita",
+	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [66],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -30,7 +28,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Punch",
+				en: "Punch"
 			},
 
 			damage: 20,
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Kick",
+				en: "Kick"
 			},
 
 			damage: 30,
@@ -61,22 +59,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It's said that not even pro wrestlers can take down a Machop.",
-	},
-
-	thirdParty: {
-		cardmarket: 274844,
-		tcgplayer: 86990
+		en: "It's said that not even pro wrestlers can take down a Machop."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274844,
+				tcgplayer: 86990
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86990,
+				cardmarket: 274844
+			}
 		}
-	]
+	],
+
 }
 
 export default card

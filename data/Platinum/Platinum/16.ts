@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		289,
-	],
+	dexId: [289],
 
 	hp: 150,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Vigoroth",
-		fr: "Vigoroth",
+		fr: "Vigoroth"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Slaking used any attacks during your last turn, Slaking can't attack.",
 				fr: "Si Monaflemit a utilisé des attaques lors de votre tour précédent, il ne peut pas attaquer.",
 				de: "If Slaking used any attacks during your last turn, Slaking can't attack."
-			},
+			}
 		},
 	],
 
@@ -79,22 +77,26 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back."
 	},
 
-	thirdParty: {
-		cardmarket: 278437,
-		tcgplayer: 89292
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 89292,
+				cardmarket: 278437
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278437,
+				tcgplayer: 89292
+			}
 		}
-	]
+	],
+
 }
 
 export default card

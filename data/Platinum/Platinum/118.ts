@@ -21,38 +21,58 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278539
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				cardmarket: 278539,
+				tcgplayer: 89807
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278539,
+				tcgplayer: 89807
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479959
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				tcgplayer: 479960
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				tcgplayer: 479961
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["mychael-bryan"]
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				tcgplayer: 480116
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480117
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

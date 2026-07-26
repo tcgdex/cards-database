@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Jolteon",
+		en: "Lt. Surge's Jolteon"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Eevee",
+		en: "Eevee"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "High Voltage",
+				en: "High Voltage"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn.",
+				en: "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
 			},
 			damage: 20,
 
@@ -49,12 +47,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunder Flare",
+				en: "Thunder Flare"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 damage times the number of damage counters on Lt. Surge's Jolteon, then flip a coin. If tails, Lt. Surge's Jolteon does 30 damage to itself.",
+				en: "Does 30 damage plus 10 damage times the number of damage counters on Lt. Surge's Jolteon, then flip a coin. If tails, Lt. Surge's Jolteon does 30 damage to itself."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -62,26 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274296,
-		tcgplayer: 86855
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86855,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86855,
+				cardmarket: 274296
+			}
 		},
-	]
+	],
 }
 
 export default card

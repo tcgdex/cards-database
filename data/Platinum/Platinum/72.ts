@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		50,
-	],
+	dexId: [50],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Dig Under"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
 				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance."
 			},
@@ -79,22 +77,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight.",
+		en: "A Pokémon that lives underground. Because of its dark habitat, it is repelled by bright sunlight."
 	},
 
-	thirdParty: {
-		cardmarket: 278493,
-		tcgplayer: 84824
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84824,
+				cardmarket: 278493
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278493,
+				tcgplayer: 84824
+			}
 		}
-	]
+	],
+
 }
 
 export default card

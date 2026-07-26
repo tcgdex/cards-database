@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Machop",
+		en: "Giovanni's Machop"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [66],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Chop",
+				en: "Chop"
 			},
 
 			damage: 10,
@@ -41,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Punch",
+				en: "Fury Punch"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Giovanni's Machop.",
+				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on Giovanni's Machop."
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],
@@ -54,26 +52,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274340,
-		tcgplayer: 85714
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85714,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85714,
+				cardmarket: 274340
+			}
 		},
-	]
+	],
 }
 
 export default card

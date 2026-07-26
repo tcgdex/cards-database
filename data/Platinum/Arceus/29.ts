@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		20,
-	],
+	dexId: [20],
 	
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		en: "Rattata"
 	},
 
 	stage: "Stage1",
@@ -68,22 +66,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
-	},
-
-	thirdParty: {
-		cardmarket: 278901,
-		tcgplayer: 88605
+		en: "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88605,
+				cardmarket: 278901
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278901,
+				tcgplayer: 88605
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

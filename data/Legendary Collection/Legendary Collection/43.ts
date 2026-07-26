@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Golduck",
+		en: "Golduck"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		55,
-	],
+	dexId: [55],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
+		en: "Psyduck"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Psyshock",
+				en: "Psyshock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hyper Beam",
+				en: "Hyper Beam"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 20,
 
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
-	},
-
-	thirdParty: {
-		cardmarket: 274808,
-		tcgplayer: 85812
+		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274808,
+				tcgplayer: 85812
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85812,
+				cardmarket: 274808
+			}
 		}
-	]
+	],
+
 }
 
 export default card

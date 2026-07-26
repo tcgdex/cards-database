@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		257,
-	],
+	dexId: [257],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -81,19 +79,24 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275663,
-		tcgplayer: 83904
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275663,
+				tcgplayer: 83904
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275663,
+				tcgplayer: 83904
+			}
 		},
-	]
+	],
+
 }
 
 export default card

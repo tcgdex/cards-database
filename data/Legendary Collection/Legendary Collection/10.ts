@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Flareon",
+		en: "Flareon"
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		136,
-	],
+	dexId: [136],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Eevee",
+		en: "Eevee"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				en: "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{
@@ -50,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				en: "Flamethrower"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Flareon in order to use this attack.",
+				en: "Discard 1 Fire Energy card attached to Flareon or this attack does nothing."
 			},
 			damage: 60,
 
@@ -70,22 +68,26 @@ const card: Card = {
 
 
 	description: {
-		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
-	},
-
-	thirdParty: {
-		cardmarket: 274775,
-		tcgplayer: 85492
+		en: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274775,
+				tcgplayer: 85492
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85492,
+				cardmarket: 274775
+			}
 		}
-	]
+	],
+
 }
 
 export default card

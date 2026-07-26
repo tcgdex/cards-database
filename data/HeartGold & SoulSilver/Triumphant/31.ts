@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		321,
-	],
+	dexId: [321],
 
 	hp: 180,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Wailmer",
-		fr: "Wailmer",
+		fr: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -83,17 +81,23 @@ const card: Card = {
 		en: "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90461,
+				cardmarket: 279561
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279561,
+				tcgplayer: 90461
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279561,
-		tcgplayer: 90461
-	}
 }
 
 export default card

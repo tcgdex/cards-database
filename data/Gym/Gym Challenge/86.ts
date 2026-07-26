@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Voltorb",
+		en: "Lt. Surge's Voltorb"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		100,
-	],
+	dexId: [100],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bouncing Ball",
+				en: "Bouncing Ball"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Lt. Surge's Voltorb does 10 damage to itself.",
+				en: "Flip a coin. If tails, Lt. Surge's Voltorb does 10 damage to itself."
 			},
 			damage: 30,
 
@@ -43,26 +41,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274354,
-		tcgplayer: 86872
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86872,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86872,
+				cardmarket: 274354
+			}
 		},
-	]
+	],
 }
 
 export default card

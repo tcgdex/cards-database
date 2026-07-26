@@ -21,39 +21,59 @@ const card: Card = {
 
 	trainerType: "Stadium",
 
-	thirdParty: {
-		cardmarket: 278525,
-		tcgplayer: 83991
-	},
-
-	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+	variants: [		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83991,
+				cardmarket: 278525
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 278525,
+				tcgplayer: 83991
+			}
+		},
+		{
+			type: "reverse",
+			foil: "player-reward",
+			thirdParty: {
+				cardmarket: 278525,
+				tcgplayer: 123188
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				tcgplayer: 479865
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				tcgplayer: 479866
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["mychael-bryan"]
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				tcgplayer: 480012
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["yuka-furusawa"]
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480013
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

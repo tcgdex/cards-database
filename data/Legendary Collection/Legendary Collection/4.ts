@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Blastoise",
+		en: "Dark Blastoise"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		9,
-	],
+	dexId: [9],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Wartortle",
+		en: "Wartortle"
 	},
 
 	stage: "Stage2",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Hydrocannon",
+				en: "Hydrocannon"
 			},
 			effect: {
-				en: "Does 30 damage plus 20 more damage for each W Energy attached to Dark Blastoise but not used to pay for this attack. You can't add more than 40 damage in this way.",
+				en: "Does 30 damage plus 20 more damage for each Water Energy attached to Dark Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rocket Tackle",
+				en: "Rocket Tackle"
 			},
 			effect: {
-				en: "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)",
+				en: "Dark Blastoise does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Dark Blastoise during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 			damage: 40,
 
@@ -69,25 +67,40 @@ const card: Card = {
 
 
 	description: {
-		en: "An aggressive Pokémon that tackles anything it sees.",
-	},
-
-	thirdParty: {
-		cardmarket: 274769,
-		tcgplayer: 84569
+		en: "An aggressive Pokémon that tackles anything it sees."
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 125088
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274769,
+				tcgplayer: 84569
+			}
 		},
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84569,
+				cardmarket: 274769
+			}
+		},
+		{
+			type: "reverse",
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 274769,
+				tcgplayer: 210842
+			}
+		},
+	],
+
 }
 
 export default card

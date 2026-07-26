@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		118,
-	],
+	dexId: [118],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueur de dégât sur Poissirène.",
 				de: "Dieser Angriff fügt für jede Schadensmarke auf Goldini 10 Schadenspunkte zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -55,23 +53,29 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275703,
-		tcgplayer: 85803
-	},
 
-	variants: [
-		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
-		},
-		{
-			type: "normal",
-			subtype: "no-e-reader"
+	variants: [{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 275703,
+			tcgplayer: 85803
 		}
-	]
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			tcgplayer: 85803
+		}
+	},
+	{
+		type: "normal",
+		subtype: "no-e-reader",
+		thirdParty: {
+			tcgplayer: 125116
+		}
+	}
+	],
+
 }
 
 export default card
