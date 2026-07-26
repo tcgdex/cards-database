@@ -91,6 +91,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871826,
 				tcgplayer: 477464
 			}
 		},
@@ -98,6 +99,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["curran-hill"],
 			thirdParty: {
+				cardmarket: 871513,
 				tcgplayer: 477597
 			}
 		}

@@ -47,6 +47,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871868,
 				tcgplayer: 477459
 			}
 		}

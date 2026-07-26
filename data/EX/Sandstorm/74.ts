@@ -96,6 +96,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
+				cardmarket: 871815,
 				tcgplayer: 477425
 			}
 		}

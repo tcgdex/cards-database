@@ -91,6 +91,7 @@ const card: Card = {
 			stamp: ["winner"],
 			size: "jumbo",
 			thirdParty: {
+				cardmarket: 362910,
 				tcgplayer: 362910
 			}
 		}

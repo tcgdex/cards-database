@@ -92,6 +92,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["pre-release"],
 			thirdParty: {
+				cardmarket: 881759,
 				tcgplayer: 282797
 			}
 		},

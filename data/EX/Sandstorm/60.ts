@@ -96,6 +96,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
+				cardmarket: 871809,
 				tcgplayer: 477380
 			}
 		},
@@ -103,6 +104,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871811,
 				tcgplayer: 477381
 			}
 		},
@@ -110,6 +112,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
+				cardmarket: 871810,
 				tcgplayer: 477382
 			}
 		},
@@ -117,6 +120,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["takashi-yoneda"],
 			thirdParty: {
+				cardmarket: 871534,
 				tcgplayer: 477517
 			}
 		},
@@ -124,6 +128,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
+				cardmarket: 871533,
 				tcgplayer: 477518
 			}
 		}
