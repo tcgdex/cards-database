@@ -22,6 +22,16 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 포켓몬이 상대의 포켓몬으로부터 기술의 데미지를 받아 기절했을 때 상대의 패에서 앞면을 보지 않고 1장 선택해서 트래쉬한다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741890,
+				tcgplayer: 566023,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

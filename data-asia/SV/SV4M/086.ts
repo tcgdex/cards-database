@@ -19,6 +19,16 @@ const card: Card = {
 		ko: "자신의 트래쉬에서 (초) 포켓몬과 「기본 (초) 에너지」를 합계 4장까지 선택해서 상대에게 보여주고 패로 가져온다."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741913,
+				tcgplayer: 566046,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

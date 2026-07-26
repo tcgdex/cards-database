@@ -19,6 +19,16 @@ const card: Card = {
 		ko: "자신의 덱을 2장 뽑는다. 자신의 트래쉬에서 기본 에너지를 1장 선택해서 상대에게 보여주고 패로 가져온다."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741912,
+				tcgplayer: 566045,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }
