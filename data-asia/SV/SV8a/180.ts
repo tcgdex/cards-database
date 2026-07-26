@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "雙方的所有身上附有能量卡的寶可夢不會陷入特殊狀態，並將受到的特殊狀態全部恢復。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803293,
+				tcgplayer: 602636,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602637,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "H"
 }

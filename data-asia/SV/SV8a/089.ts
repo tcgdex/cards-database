@@ -74,6 +74,29 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803202,
+				tcgplayer: 602473,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				tcgplayer: 604568,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602474,
+			},
+		},
+	],
+
 	retreat: 4,
 	regulationMark: "G"
 }
