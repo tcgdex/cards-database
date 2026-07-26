@@ -54,6 +54,7 @@ const card: Card = {
 			it: "Previeni tutti gli effetti delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon.",
 			pt: "Previna todos os efeitos das Habilidades dos Pokémon do seu oponente causados a este Pokémon."
 		}
+	}],
 
 	attacks: [{
 		cost: ["Psychic", "Psychic"],
