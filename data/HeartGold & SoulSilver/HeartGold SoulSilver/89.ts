@@ -15,7 +15,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu’une carte Supporter à chaque tour. Lorsque vous jouez cette carte, placez-la près de votre Pokémon actif. Une fois votre tour terminé, défaussez-vous de cette carte.",
-		en: "Draw 2 cards.",
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 2 cards.",
 		de: "Ziehe 2 Karten."
 	},
 
@@ -24,18 +24,21 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83832
+			}
 		}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279061,
 		tcgplayer: 83832
 	}
+	retreat: 0
 }
 
 export default card

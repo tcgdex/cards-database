@@ -3,7 +3,7 @@ import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Pokégear3.0",
+		en: "Pokégear 3.0",
 		fr: "Poké Gear3.0",
 		de: "Pokécom 3.0"
 	},
@@ -23,18 +23,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88205
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88205
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["christopher-kan"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	],
-
 	hp: 0
+	retreat: 0
 }
 
 export default card

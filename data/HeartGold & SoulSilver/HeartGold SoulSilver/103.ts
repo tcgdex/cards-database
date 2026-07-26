@@ -23,35 +23,46 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84883
+			}
 		},
 		{
 			type: "reverse",
-		},
-		{
-			type: "reverse",
-			foil: "league",
+			thirdParty: {
+				tcgplayer: 84883
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279075,
 		tcgplayer: 84883
 	}
+	retreat: 0
 }
 
 export default card

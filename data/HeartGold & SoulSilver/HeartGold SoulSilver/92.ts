@@ -15,7 +15,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Vous ne pouvez jouer qu’une carte Supporter à chaque tour. Lorsque vous jouez cette carte, placez-la près de votre Pokémon actif. Une fois votre tour terminé, défaussez-vous de cette carte.",
-		en: "Search your discard pile for 4 basic Energy cards, show them to your opponent, and put them into your hand.",
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your discard pile for 4 basic Energy cards, show them to your opponent, and put them into your hand.",
 		de: "Durchsuche deinen Ablagestapel nach 4 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
@@ -23,23 +23,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse",
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85472
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["david-cohen"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279064,
 		tcgplayer: 85472
 	}
+	retreat: 0
 }
 
 export default card

@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		36,
-	],
+	dexId: [36],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Clefairy",
-		fr: "Mélofée",
+		fr: "Mélofée"
 	},
 
 	stage: "Stage1",
@@ -80,12 +78,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84346
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 278975,
 		tcgplayer: 84346

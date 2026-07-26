@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		168,
-	],
+	dexId: [168],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Spinarak",
-		fr: "Mimigal",
+		fr: "Mimigal"
 	},
 
 	stage: "Stage1",
@@ -86,12 +84,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83618
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 278987,
 		tcgplayer: 83618

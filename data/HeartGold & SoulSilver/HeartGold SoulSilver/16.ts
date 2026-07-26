@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		12,
-	],
+	dexId: [12],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Metapod",
-		fr: "Chrysacier",
+		fr: "Chrysacier"
 	},
 
 	stage: "Stage2",
@@ -91,12 +89,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84067
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 278988,
 		tcgplayer: 84067

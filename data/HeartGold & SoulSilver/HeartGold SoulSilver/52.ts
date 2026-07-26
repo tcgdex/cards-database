@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		80,
-	],
+	dexId: [80],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -85,12 +83,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89307
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279024,
 		tcgplayer: 89307

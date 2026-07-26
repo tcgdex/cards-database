@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [110],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo",
+		fr: "Smogo"
 	},
 
 	stage: "Stage1",
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Super-Explosion"
 			},
 			effect: {
-				en: "Weezing does 90 damage to itself, and don’t apply Weakness to this damage.",
+				en: "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
 				fr: "Smogogo s’inflige 90 dégâts et n’appliquez pas la Faiblesse à ces dégâts.",
 				de: "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
 			},
@@ -83,12 +81,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90564
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279006,
 		tcgplayer: 90564

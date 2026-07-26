@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		113,
-	],
+	dexId: [113],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -76,17 +74,19 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse",
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84177
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"]
+			stamp : ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279030,
 		tcgplayer: 84177

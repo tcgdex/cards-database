@@ -15,7 +15,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, choisissez un Pokémon du Banc de votre adversaire et échangez-le avec son Pokémon actif.",
-		en: "Flip a coin. If heads, choose 1 of your opponent’s Benched Pokémon and switch it with your opponent’s Active Pokémon.",
+		en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon, and switch it with your opponent's Active Pokémon.",
 		de: "Wirf 1 Münze. Wähle bei \"Kopf\" 1 Pokémon auf der Bank deines Gegners und tausche es gegen das Aktive Pokémon deines Gegners aus."
 	},
 
@@ -23,26 +23,31 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88236
+			}
 		},
 		{
 			type: "reverse",
-		},
-		{
-			type: "reverse",
-			stamp: ["player-rewards-program"]
+			thirdParty: {
+				tcgplayer: 88236
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["gustavo-wada"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279071
 	}
+	retreat: 0
 }
 
 export default card

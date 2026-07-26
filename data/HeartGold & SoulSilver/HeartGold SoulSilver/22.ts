@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		210,
-	],
+	dexId: [210],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Snubbull",
-		fr: "Snubbull",
+		fr: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -87,12 +85,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85865
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 278994,
 		tcgplayer: 85865

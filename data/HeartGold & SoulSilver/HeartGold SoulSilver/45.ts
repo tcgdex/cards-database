@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		226,
-	],
+	dexId: [226],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Aquaschlag"
 			},
 			effect: {
-				en: "Mantine can’t attack during your next turn.",
+				en: "Mantine can't attack during your next turn.",
 				fr: "Demanta ne peut pas attaquer pendant votre prochain tour.",
 				de: "Mantax kann während deines nächsten Zuges nicht angreifen."
 			},
@@ -85,12 +83,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87184
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279017,
 		tcgplayer: 87184

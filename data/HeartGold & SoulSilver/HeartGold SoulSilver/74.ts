@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		183,
-	],
+	dexId: [183],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -75,18 +73,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse",
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87219
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["snowflake"],
-			languages: ["de"]
+			languages: ["de"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 	],
-
 	thirdParty: {
 		cardmarket: 279046,
 		tcgplayer: 87219

@@ -17,15 +17,18 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		}
+				}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279092,
 		tcgplayer: 85444
 	}
+	types: [
+		"Fighting"
+	],
+	retreat: 0
 }
 
 export default card

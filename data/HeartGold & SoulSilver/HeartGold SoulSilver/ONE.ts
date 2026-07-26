@@ -15,7 +15,7 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez la main de votre adversaire !",
-		en: "Look at your opponent’s hand!",
+		en: "Look at your opponent's hand!",
 		de: "Schau dir die Handkarten deines Gegners an!"
 	},
 
@@ -24,14 +24,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		}
+				}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 278972
 	}
+	retreat: 0
 }
 
 export default card

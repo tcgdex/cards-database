@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		154,
-	],
+	dexId: [154],
 
 	hp: 130,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Bayleef",
-		fr: "Macronium",
+		fr: "Macronium"
 	},
 
 	stage: "Stage2",
@@ -91,21 +89,25 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse",
-		},
-		{
-			type: "holo",
-			foil: "cracked-ice"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87293
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			thirdParty: {
+				tcgplayer: 125041
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 278998,
 		tcgplayer: 87293

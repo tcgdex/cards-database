@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		153,
-	],
+	dexId: [153],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Chikorita",
-		fr: "Germignon",
+		fr: "Germignon"
 	},
 
 	stage: "Stage1",
@@ -84,12 +82,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83748
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279007,
 		tcgplayer: 83748

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		27,
-	],
+	dexId: [27],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Einigler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à Sabelette par des attaques pendant le prochain tour de votre adversaire.",
 				de: "Wirf eine Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Sandan während des nächsten Zuges deines Gegners durch Angriff zugefügt werden."
 			},
@@ -80,12 +78,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88926
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 279051,
 		tcgplayer: 88926

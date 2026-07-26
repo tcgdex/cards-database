@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		184,
-	],
+	dexId: [184],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill",
+		fr: "Marill"
 	},
 
 	stage: "Stage1",
@@ -82,12 +80,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83685
+			}
 		}
 	],
-
 	thirdParty: {
 		cardmarket: 278974,
 		tcgplayer: 83685

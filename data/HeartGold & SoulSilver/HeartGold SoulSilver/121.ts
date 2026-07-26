@@ -17,15 +17,18 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		}
+				}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279093,
 		tcgplayer: 84677
 	}
+	types: [
+		"Darkness"
+	],
+	retreat: 0
 }
 
 export default card

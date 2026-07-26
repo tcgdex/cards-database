@@ -23,30 +23,38 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88220
+			}
 		},
 		{
 			type: "reverse",
-		},
-		{
-			type: "reverse",
-			stamp: ["player-rewards-program"]
+			thirdParty: {
+				tcgplayer: 88220
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 		{
 			type: "normal",
 			stamp : ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 00000
+			}
 		},
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279070
 	}
+	retreat: 0
 }
 
 export default card

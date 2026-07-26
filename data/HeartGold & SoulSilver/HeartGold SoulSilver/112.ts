@@ -13,12 +13,10 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		250,
-	],
+	dexId: [250],
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	suffix: "Legend",
@@ -32,10 +30,10 @@ const card: Card = {
 				de: "Heiliger Regenbogen"
 			},
 			effect: {
-				en: "All energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
+				en: "All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
 				fr: "Toute les énergies attachées au Ho-Oh LÉGENDAIRE sont de type Fire et non de leur type habituel.",
 				de: "Alle Energien, die an Ho-Oh-LEGENDE angelegt sind, liefern -Energie anstelle ihres normalen Typs."
-			},
+			}
 		},
 	],
 
@@ -86,9 +84,8 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
-		}
+				}
 	],
-
 	hp: 140,
 
 	thirdParty: {

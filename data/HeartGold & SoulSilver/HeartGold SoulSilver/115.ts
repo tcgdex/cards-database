@@ -17,15 +17,18 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal"
-		}
+				}
 	],
-
 	hp: 0,
 
 	thirdParty: {
 		cardmarket: 279087,
 		tcgplayer: 85879
 	}
+	types: [
+		"Grass"
+	],
+	retreat: 0
 }
 
 export default card
