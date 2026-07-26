@@ -15,12 +15,18 @@ const card: Card = {
 		ja: "自分の山札を上から7枚見て、その中からポケモンとトレーナーズを1枚ずつ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 788063,
+				tcgplayer: 579472,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	rarity: "None",
-
-	thirdParty: {
-		cardmarket: 787620
-	}
 }
 
 export default card

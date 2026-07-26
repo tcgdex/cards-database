@@ -48,14 +48,20 @@ const card: Card = {
 		cost: ["Psychic", "Metal", "Colorless"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 787602,
+				tcgplayer: 579424,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "H",
 	rarity: "Rare",
 	dexId: [483],
-
-	thirdParty: {
-		cardmarket: 787602
-	}
 }
 
 export default card
