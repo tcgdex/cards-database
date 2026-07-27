@@ -92,7 +92,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["call-of-legends"],
+			stamp: ["set-logo"],
 			thirdParty: {
 				cardmarket: 882916,
 				tcgplayer: 213021,
