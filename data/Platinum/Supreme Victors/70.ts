@@ -99,6 +99,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["pre-release"],
 			thirdParty: {
+				cardmarket: 882910,
 				tcgplayer: 164213
 			}
 		},

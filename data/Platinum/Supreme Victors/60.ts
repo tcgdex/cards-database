@@ -81,7 +81,7 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			foil: ["league"],
+			foil: 'league',
 			thirdParty: {
 				cardmarket: 449563,
 				tcgplayer: 262156
