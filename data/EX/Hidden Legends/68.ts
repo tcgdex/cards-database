@@ -84,14 +84,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["chris-fulop"],
 			thirdParty: {
 				tcgplayer: 477409,
-				cardmarket: 276142
+				cardmarket: 871805
 			}
 		},
-	],
-
+	]
 }
 
 export default card

@@ -37,84 +37,94 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["miska-saari"],
 			thirdParty: {
-				tcgplayer: 477968,
-				cardmarket: 276166
+				cardmarket: 869569,
+				tcgplayer: 477968
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate",
+			type: "normal",
+			stamp: ["hiroki-yano"],
 			thirdParty: {
-				tcgplayer: 477966,
-				cardmarket: 276166
+				cardmarket: 869567,
+				tcgplayer: 477966
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate2",
+			type: "normal",
+			stamp: ["jimmy-ballard"],
 			thirdParty: {
-				tcgplayer: 477967,
-				cardmarket: 276166
+				cardmarket: 869568,
+				tcgplayer: 477967
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate3",
+			type: "normal",
+			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
-				tcgplayer: 477434,
-				cardmarket: 276166
+				cardmarket: 871836,
+				tcgplayer: 477434
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate4",
+			type: "normal",
+			stamp: ["reed-weichler"],
 			thirdParty: {
-				tcgplayer: 477435,
-				cardmarket: 276166
+				cardmarket: 871835,
+				tcgplayer: 477435
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate5",
+			type: "normal",
+			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 477436,
-				cardmarket: 276166
+				cardmarket: 871834,
+				tcgplayer: 477436
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate6",
+			type: "normal",
+			stamp: ["chris-fulop"],
 			thirdParty: {
-				tcgplayer: 477433,
-				cardmarket: 276166
+				cardmarket: 871833,
+				tcgplayer: 477433
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate7",
+			type: "normal",
+			stamp: ["jeremy-maron"],
 			thirdParty: {
-				tcgplayer: 477589,
-				cardmarket: 276166
+				cardmarket: 871552,
+				tcgplayer: 477589
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate8",
+			type: "normal",
+			stamp: ["takashi-yoneda"],
 			thirdParty: {
-				tcgplayer: 477587,
-				cardmarket: 276166
+				cardmarket: 871554,
+				tcgplayer: 477587
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate9",
+			type: "normal",
+			stamp: ["curran-hill"],
 			thirdParty: {
-				tcgplayer: 477586,
-				cardmarket: 276166
+				cardmarket: 871551,
+				tcgplayer: 477586
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate10",
+			type: "normal",
+			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 477588,
-				cardmarket: 276166
+				cardmarket: 871553,
+				tcgplayer: 477588
 			}
 		},
-	],
-
+	]
 }
 
 export default card

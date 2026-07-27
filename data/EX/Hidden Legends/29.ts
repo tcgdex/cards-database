@@ -32,7 +32,7 @@ const card: Card = {
 				de: "Magnetic Call"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition."",
+				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez un Pokémon de base  dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Terhal est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a  Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition."
 			}
@@ -89,7 +89,7 @@ const card: Card = {
 			type: "reverse",
 			thirdParty: {
 				tcgplayer: 83782,
-				cardmarket: 280585
+				cardmarket: 276103
 			}
 		},
 		{
@@ -100,8 +100,7 @@ const card: Card = {
 				cardmarket: 280585
 			}
 		},
-	],
-
+	]
 }
 
 export default card

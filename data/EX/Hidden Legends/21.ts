@@ -93,8 +93,7 @@ const card: Card = {
 				cardmarket: 276095
 			}
 		},
-	],
-
+	]
 }
 
 export default card

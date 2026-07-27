@@ -55,7 +55,7 @@ const card: Card = {
 				de: "Dark Splash"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Darkness Pokémon in play."",
+				en: "Does 40 damage plus 10 more damage for each Darkness Pokémon in play.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon  en jeu.",
 				de: "Does 40 damage plus 10 more damage for each  Energy in play."
 			},
@@ -89,8 +89,7 @@ const card: Card = {
 				cardmarket: 276093
 			}
 		},
-	],
-
+	]
 }
 
 export default card

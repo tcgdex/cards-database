@@ -37,21 +37,22 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 477365,
-				cardmarket: 276161
+				cardmarket: 871857,
+				tcgplayer: 477365
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate",
+			type: "normal",
+			stamp: ["takashi-yoneda"],
 			thirdParty: {
-				tcgplayer: 477497,
-				cardmarket: 276161
+				cardmarket: 871578,
+				tcgplayer: 477497
 			}
 		},
-	],
-
+	]
 }
 
 export default card

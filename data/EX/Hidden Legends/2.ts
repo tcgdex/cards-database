@@ -37,7 +37,7 @@ const card: Card = {
 				de: "Primal Pull"
 			},
 			effect: {
-				en: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks."",
+				en: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.",
 				fr: "Tant que Kaorine est votre Pokémon Actif, le Pokémon Évolué de chaque joueur paye 1 Énergie  supplémentaire pour utiliser ses attaques.",
 				de: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays  more Energy to use its attacks."
 			}
@@ -89,8 +89,7 @@ const card: Card = {
 				cardmarket: 276076
 			}
 		},
-	],
-
+	]
 }
 
 export default card

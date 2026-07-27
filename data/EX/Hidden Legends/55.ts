@@ -21,19 +21,6 @@ const card: Card = {
 		"Grass"
 	],
 
-	attacks: [
-		{
-			cost: [
-				"Colorless",
-			],
-			name: {
-				en: "Poisonpowder"
-			},
-			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
-			}
-		},
-	],
 	stage: "Basic",
 
 	weaknesses: [
@@ -54,21 +41,26 @@ const card: Card = {
 		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 	},
 
-	attacks: [{
-		cost: ["Colorless"],
+	attacks: [
+		{
+			name: {
+				en: "Poisonpowder",
+				fr: "Poudre toxik",
+				de: "Poisonpowder"
+			},
 
-		name: {
-			fr: "Poudre toxik",
-			de: "Poisonpowder"
-		},
+			cost: ["Colorless"],
 
-		effect: {
-			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-			de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
+
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Flip a coin. If heads, the defending Pokémon is now Poisoned."
+			}
 		}
-	}],
+	],
 
-	
+
 	retreat: 1,
 
 	variants: [
@@ -86,8 +78,7 @@ const card: Card = {
 				cardmarket: 276129
 			}
 		},
-	],
-
+	]
 }
 
 export default card

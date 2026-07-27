@@ -88,14 +88,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["michael-gonzalez"],
 			thirdParty: {
 				tcgplayer: 477576,
-				cardmarket: 276144
+				cardmarket: 871531
 			}
 		},
-	],
-
+	]
 }
 
 export default card

@@ -75,20 +75,21 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			foil: 'cracked-ice',
 			thirdParty: {
 				tcgplayer: 88674,
 				cardmarket: 276172
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["jason-klaczynski"],
 			thirdParty: {
-				tcgplayer: 477917,
-				cardmarket: 276172
+				cardmarket: 869536,
+				tcgplayer: 477917
 			}
 		},
-	],
-
+	]
 }
 
 export default card

@@ -122,11 +122,25 @@ const card: Card = {
 			type: "normal",
 			stamp: ['national-championships', 'staff'],
 			thirdParty: {
-				tcgplayer: 265325,
+				tcgplayer: 265325
 			}
 		},
-	],
-
+		{
+			type: "normal",
+			stamp: ["national-championships"],
+			thirdParty: {
+				cardmarket: 449903,
+				tcgplayer: 251241
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["staff", "national-championships"],
+			thirdParty: {
+				tcgplayer: 265325
+			}
+		},
+	]
 }
 
 export default card

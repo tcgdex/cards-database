@@ -37,14 +37,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["curran-hill"],
 			thirdParty: {
-				tcgplayer: 477533,
-				cardmarket: 276163
+				cardmarket: 871541,
+				tcgplayer: 477533
 			}
 		},
-	],
-
+	]
 }
 
 export default card

@@ -53,31 +53,38 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["jimmy-ballard"],
 			thirdParty: {
+				cardmarket: 869585,
 				tcgplayer: 477598
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate",
+			type: "normal",
+			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871864,
 				tcgplayer: 477364
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate2",
+			type: "normal",
+			stamp: ["takashi-yoneda"],
 			thirdParty: {
+				cardmarket: 871575,
 				tcgplayer: 477495
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate3",
+			type: "normal",
+			stamp: ["michael-gonzalez"],
 			thirdParty: {
+				cardmarket: 871574,
 				tcgplayer: 477496
 			}
 		},
-	],
-
+	]
 }
 
 export default card

@@ -37,42 +37,46 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["miska-saari"],
 			thirdParty: {
-				tcgplayer: 477609,
-				cardmarket: 276162
+				cardmarket: 869588,
+				tcgplayer: 477609
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate",
+			type: "normal",
+			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
-				tcgplayer: 477378,
-				cardmarket: 276162
+				cardmarket: 871876,
+				tcgplayer: 477378
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate2",
+			type: "normal",
+			stamp: ["takashi-yoneda"],
 			thirdParty: {
-				tcgplayer: 477511,
-				cardmarket: 276162
+				cardmarket: 871568,
+				tcgplayer: 477511
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate3",
+			type: "normal",
+			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 477512,
-				cardmarket: 276162
+				cardmarket: 871567,
+				tcgplayer: 477512
 			}
 		},
 		{
-			type: "worldchampionshipdeckalternate4",
+			type: "normal",
+			stamp: ["jeremy-maron"],
 			thirdParty: {
-				tcgplayer: 477513,
-				cardmarket: 276162
+				cardmarket: 871566,
+				tcgplayer: 477513
 			}
 		},
-	],
-
+	]
 }
 
 export default card

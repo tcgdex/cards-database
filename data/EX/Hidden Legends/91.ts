@@ -37,14 +37,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["kevin-nguyen"],
 			thirdParty: {
-				tcgplayer: 477397,
-				cardmarket: 276165
+				cardmarket: 871861,
+				tcgplayer: 477397
 			}
 		},
-	],
-
+	]
 }
 
 export default card

@@ -81,14 +81,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "worldchampionshipdeck",
+			type: "normal",
+			stamp: ["jeremy-maron"],
 			thirdParty: {
 				tcgplayer: 477521,
-				cardmarket: 276135
+				cardmarket: 871523
 			}
 		},
-	],
-
+	]
 }
 
 export default card

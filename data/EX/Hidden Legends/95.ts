@@ -88,19 +88,19 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 4,
 
 	variants: [
 		{
 			type: "holo",
+			foil: 'cracked-ice',
 			thirdParty: {
 				tcgplayer: 87346,
 				cardmarket: 276169
 			}
 		},
-	],
-
+	]
 }
 
 export default card

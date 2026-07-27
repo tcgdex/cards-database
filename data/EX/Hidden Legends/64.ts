@@ -83,14 +83,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "leaguestamp",
+			type: "normal",
+			stamp: ["city-championships"],
 			thirdParty: {
 				tcgplayer: 209566,
-				cardmarket: 276138
+				cardmarket: 449913
 			}
 		},
-	],
-
+	]
 }
 
 export default card

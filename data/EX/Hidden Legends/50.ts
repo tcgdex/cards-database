@@ -93,14 +93,14 @@ const card: Card = {
 			}
 		},
 		{
-			type: "stamp",
+			type: "normal",
+			stamp: ['pre-release'],
 			thirdParty: {
 				tcgplayer: 220757,
 				cardmarket: 276124
 			}
 		},
-	],
-
+	]
 }
 
 export default card
