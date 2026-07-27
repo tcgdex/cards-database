@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10a"
+import { Card } from "../../../interfaces";
+import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "夢妖"
+		ja: "ムウマ",
+		'zh-tw': "夢妖",
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -14,36 +14,50 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "會藉由模仿人哭叫的聲音嚇唬大家來取樂。 不擅長應付膽大的對手。"
+		ja: "人が 泣き叫ぶ 声を 真似て みんなを おびえさせ 喜ぶ。 肝が 据わった 相手は 苦手。",
+		'zh-tw': "會藉由模仿人哭叫的聲音嚇唬大家來取樂。 不擅長應付膽大的對手。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "奇異之光"
+	attacks: [
+		{
+			name: {
+				ja: "あやしいひかり",
+				'zh-tw': "奇異之光",
+			},
+			damage: 10,
+			cost: ["Psychic"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【混亂】。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【混亂】。"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 656326,
+				tcgplayer: 570688,
+			},
 		},
-
-		damage: 10,
-		cost: ["Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577108,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [200],
+};
 
-export default card
+export default card;
