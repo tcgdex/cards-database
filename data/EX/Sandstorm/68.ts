@@ -51,7 +51,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
 
@@ -69,6 +69,10 @@ const card: Card = {
 				cardmarket: 275845,
 				tcgplayer: 87214
 			}
+		},
+		{
+			type: "reverse",
+			subtype: 'missing-retreat-cost',
 		},
 	],
 
