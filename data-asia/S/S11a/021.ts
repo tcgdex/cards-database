@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11a"
+import { Card } from "../../../interfaces";
+import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "焰后蜥"
+		ja: "エンニュート",
+		'zh-tw': "焰后蜥",
 	},
 
 	illustrator: "aoki",
@@ -14,42 +14,67 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "焰后蜥只有雌性。會釋放出費洛蒙氣體，讓雄性的夜盜火蜥為之著迷。"
+		ja: "エンニュートは メスしか いない。 フェロモンガスを 発生させて オスの ヤトウモリを 魅了する。",
+		'zh-tw': "焰后蜥只有雌性。會釋放出費洛蒙氣體，讓雄性的夜盜火蜥為之著迷。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "擺尾蠱惑"
+	attacks: [
+		{
+			name: {
+				ja: "しっぽでまどわす",
+				'zh-tw': "擺尾蠱惑",
+			},
+			damage: 20,
+			cost: ["Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをこんらんにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+		{
+			name: {
+				ja: "ほのおでこがす",
+				'zh-tw': "火焰灼燒",
+			},
+			damage: 60,
+			cost: ["Fire", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをやけどにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "火焰灼燒"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 673018,
+				tcgplayer: 570784,
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 570874,
+			},
 		},
+	],
 
-		damage: 60,
-		cost: ["Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ヤトウモリ",
+	},
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [758],
+};
 
-export default card
+export default card;

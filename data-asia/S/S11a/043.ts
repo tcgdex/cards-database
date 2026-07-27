@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11a"
+import { Card } from "../../../interfaces";
+import Set from "../S11a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "卡璞・蝶蝶"
+		ja: "カプ・テテフ",
+		'zh-tw': "卡璞・蝶蝶",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,42 +14,56 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "被稱為守護神，卻同時有著天真無邪與殘酷的性格，可說是大自然的化身。"
+		ja: "守り神と 呼ばれるが 無邪気で 残酷な 性質も 併せ持つ 自然の化身と いえる 存在。",
+		'zh-tw': "被稱為守護神，卻同時有著天真無邪與殘酷的性格，可說是大自然的化身。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "能量爆炸"
+	attacks: [
+		{
+			name: {
+				ja: "エネバースト",
+				'zh-tw': "能量爆炸",
+			},
+			damage: "20×",
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "おたがいのバトルポケモンについているエネルギーの数×20ダメージ。",
+				'zh-tw': "造成雙方的戰鬥寶可夢身上附加的能量的數量×20點傷害。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "造成雙方的戰鬥寶可夢身上附加的能量的數量×20點傷害。"
+		{
+			name: {
+				ja: "スパイラルドレイン",
+				'zh-tw': "螺旋吸取",
+			},
+			damage: 100,
+			cost: ["Psychic", "Psychic", "Colorless"],
+			effect: {
+				ja: "このポケモンのHPを「30」回復する。",
+				'zh-tw': "將這隻寶可夢恢復「30」HP。",
+			},
 		},
+	],
 
-		damage: "20×",
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "螺旋吸取"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 673041,
+				tcgplayer: 570806,
+			},
 		},
-
-		effect: {
-			'zh-tw': "將這隻寶可夢恢復「30」HP。"
-		},
-
-		damage: 100,
-		cost: ["Psychic", "Psychic", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Rare",
+	dexId: [786],
+};
 
-export default card
+export default card;
