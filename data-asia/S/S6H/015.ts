@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "炎兔兒"
+		ja: "ヒバニー",
+		'zh-tw': "炎兔兒",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "一旦做好了戰鬥的準備，牠鼻頭上和腳底的肉球就會散發出極度的高溫。"
+		ja: "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
+		'zh-tw': "一旦做好了戰鬥的準備，牠鼻頭上和腳底的肉球就會散發出極度的高溫。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "敲擊"
+	attacks: [
+		{
+			name: {
+				ja: "ずつき",
+				'zh-tw': "敲擊",
+			},
+			damage: 20,
+			cost: ["Fire"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560431,
+				tcgplayer: 569147,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [813],
+};
 
-export default card
+export default card;
