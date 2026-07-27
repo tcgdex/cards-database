@@ -1,50 +1,70 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "皮卡丘V"
+		ja: "ガラル タチフサグマ",
+		'zh-tw': "皮卡丘V",
 	},
 
-	illustrator: "PLANETA Tsuji",
+	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
-	hp: 190,
-	types: ["Lightning"],
-	stage: "Basic",
-	suffix: "V",
+	hp: 170,
+	types: ["Darkness"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "充電"
+	description: {
+		ja: "凄まじい 声量を もつ。 シャウトとともに 威嚇するさまは ブロッキングと 呼ばれている。",
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "バッドルーラー" },
+			effect: {
+				ja: "自分の番に1回使える。相手は相手自身の手札を、4枚になるようにトラッシュする。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇最多2張【雷】能量卡，附於這隻寶可夢身上。並且重洗牌庫。"
+	attacks: [
+		{
+			name: {
+				ja: "ナックルインパクト",
+				'zh-tw': "充電",
+			},
+			damage: 180,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "從自己的牌庫選擇最多2張【雷】能量卡，附於這隻寶可夢身上。並且重洗牌庫。",
+			},
 		},
+	],
 
-		cost: ["Lightning"]
-	}, {
-		name: {
-			'zh-tw': "十萬伏特"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 468294,
+				tcgplayer: 597293,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將這隻寶可夢身上附加的能量全部丟棄。"
-		},
+	evolveFrom: {
+		ja: "ガラル マッスグマ",
+	},
 
-		damage: 200,
-		cost: ["Lightning", "Lightning", "Colorless"]
-	}],
+	retreat: 2,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [862],
+};
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "D"
-}
-
-export default card
+export default card;

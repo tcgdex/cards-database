@@ -1,40 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "頑皮熊貓"
+		ja: "博士の研究",
+		'zh-tw': "頑皮熊貓",
 	},
 
-	illustrator: "Misa Tsutsui",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Fighting"],
+	illustrator: "Yusuke Kozaki",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "會模仿自己敬為頭領的流氓熊貓，向牠學習戰鬥 及捕捉獵物的方法。"
+	effect: {
+		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "劈打"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 569232,
+				tcgplayer: 597407,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Colorless", "Colorless"]
-	}],
+	trainerType: "Supporter",
+	regulationMark: "D",
+	rarity: "Promo",
+};
 
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

@@ -1,72 +1,72 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "洗翠 火爆獸V"
+		ja: "リーフィア",
+		'zh-tw': "洗翠 火爆獸V",
 	},
 
-	illustrator: "5ban Graphics",
+	illustrator: "OKACHEKE",
 	category: "Pokemon",
-	hp: 210,
-	types: ["Psychic"],
-	stage: "Basic",
-	suffix: "V",
+	hp: 110,
+	types: ["Grass"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "灼熱"
+	description: {
+		ja: "しっぽは 鋭く 刃のよう。 大木も 真っ二つに する 抜群の 切れ味を 誇る。",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				ja: "リーフガード",
+				'zh-tw': "灼熱",
+			},
+			damage: 30,
+			cost: ["Grass"],
+			effect: {
+				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
-		}
-	}, {
-		name: {
-			'zh-tw': "戰慄火焰"
+		{
+			name: {
+				ja: "くさむすび",
+				'zh-tw': "戰慄火焰",
+			},
+			damage: "50+",
+			cost: ["Grass", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+				'zh-tw': "在不看正面的情況下，從對手的手牌選擇1張，在看過那張卡正面後放回對手的牌庫並重洗。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在不看正面的情況下，從對手的手牌選擇1張，在看過那張卡正面後放回對手的牌庫並重洗。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 574583,
+				tcgplayer: 597399,
+			},
 		},
+	],
 
-		damage: 120,
-		cost: ["Psychic", "Psychic", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "灼熱"
-		},
+	evolveFrom: {
+		ja: "イーブイ",
+	},
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
-		}
-	}, {
-		name: {
-			'zh-tw': "戰慄火焰"
-		},
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [470],
+};
 
-		effect: {
-			'zh-tw': "在不看正面的情況下，從對手的手牌選擇1張，在看過那張卡正面後放回對手的牌庫並重洗。"
-		},
-
-		damage: 120,
-		cost: ["Psychic", "Psychic", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

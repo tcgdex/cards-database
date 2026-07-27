@@ -1,47 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "草苗龜"
+		ja: "ヒバニー",
+		'zh-tw': "草苗龜",
 	},
 
-	illustrator: "Narumi Sato",
+	illustrator: "kirisAki",
 	category: "Pokemon",
-	hp: 80,
-	types: ["Grass"],
+	hp: 60,
+	types: ["Fire"],
 
 	description: {
-		'zh-tw': "用全身進行光合作用，製造氧氣。當口渴的時候，頭上的葉子就會枯萎。"
+		ja: "戦う 準備が 整うと 鼻の 頭と 足の 裏の 肉球が 高熱を 発する。",
+		'zh-tw': "用全身進行光合作用，製造氧氣。當口渴的時候，頭上的葉子就會枯萎。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "咬住"
+	attacks: [
+		{
+			name: {
+				ja: "ひのこ",
+				'zh-tw': "咬住",
+			},
+			damage: 30,
+			cost: ["Fire"],
+			effect: {
+				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+			},
 		},
+	],
 
-		damage: 10,
-		cost: ["Grass"]
-	}, {
-		name: {
-			'zh-tw': "魯莽頭擊"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525335,
+				tcgplayer: 597331,
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Grass", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [813],
+};
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

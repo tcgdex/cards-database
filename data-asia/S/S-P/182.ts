@@ -1,47 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "妙蛙種子"
+		ja: "ウッウロボ",
+		'zh-tw': "妙蛙種子",
 	},
 
-	illustrator: "Shibuzoh.",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Grass"],
+	illustrator: "Ryo Ueda",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "從出生的時候開始背上就有一顆植物種子。 這顆種子會漸漸地長大。"
+	effect: {
+		ja: "このカードは、自分の手札からグッズを1枚トラッシュしなければ使えない。コインを1回投げオモテなら、自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "藤鞭"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 570877,
+				tcgplayer: 597380,
+			},
 		},
+	],
 
-		damage: 10,
-		cost: ["Grass"]
-	}, {
-		name: {
-			'zh-tw': "飛葉快刀"
-		},
+	trainerType: "Item",
+	regulationMark: "E",
+	rarity: "Promo",
+};
 
-		damage: 20,
-		cost: ["Grass", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

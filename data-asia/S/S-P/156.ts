@@ -1,22 +1,57 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "亞玄"
+		ja: "カビゴン",
+		'zh-tw': "亞玄",
 	},
 
-	illustrator: "AYUMI ODASHIMA",
-	category: "Trainer",
+	illustrator: "Yuya Oka",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Colorless"],
 
-	effect: {
-		'zh-tw': "將自己的牌庫上方5張卡翻到正面，請對手從其中選擇2張卡。自己將被選擇的卡丟棄，將剩餘卡加入手牌。"
+	description: {
+		ja: "頑丈な 胃袋は カビの 生えたものや 腐ったものを 食べても 壊れることはない。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "F"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "はりて" },
+			damage: 30,
+			cost: ["Colorless", "Colorless"],
+		},
+		{
+			name: { ja: "いちげきタックル" },
+			damage: 120,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "このポケモンにも30ダメージ。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 534097,
+				tcgplayer: 597354,
+			},
+		},
+	],
+
+	retreat: 4,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [143],
+};
+
+export default card;

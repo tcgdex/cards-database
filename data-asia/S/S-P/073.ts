@@ -1,22 +1,54 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "蜜葉"
+		ja: "イトマル",
+		'zh-tw': "蜜葉",
 	},
 
-	illustrator: "Ryuta Fuse",
-	category: "Trainer",
+	illustrator: "sowsow",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Darkness"],
 
-	effect: {
-		'zh-tw': "從自己的牌庫抽出與對手的備戰區的「寶可夢【V】」數量相同數量的卡。"
+	description: {
+		ja: "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "E"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ぶらさがる" },
+			damage: 10,
+			cost: ["Darkness"],
+		},
+		{
+			name: { ja: "チクチクさす" },
+			damage: 20,
+			cost: ["Darkness", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525095,
+				tcgplayer: 597284,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [167],
+};
+
+export default card;
