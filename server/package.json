@@ -5,6 +5,7 @@
 	"scripts": {
 		"compile": "bun compiler/index.ts",
 		"dev": "bun --watch src/index.ts",
+		"compile:definition": "openapi-typescript ../meta/definitions/openapi.yaml -o ./src/openapi.d.ts",
 		"validate": "tsgo --noEmit --project ./tsconfig.json",
 		"start": "bun src/index.ts"
 	},
@@ -31,7 +32,7 @@
 		"@types/swagger-ui-express": "^4.1.8",
 		"@typescript/native-preview": "^7.0.0-dev.20250805.1",
 		"glob": "^10.4.5",
-		"openapi-typescript": "^7.10.1",
+		"openapi-typescript": "^7.13.0",
 		"typescript": "^4.9.5"
 	}
 }
