@@ -93,6 +93,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
+				cardmarket: 871843,
 				tcgplayer: 477418,
 			},
 		},
@@ -100,6 +101,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["kevin-nguyen"],
 			thirdParty: {
+				cardmarket: 871844,
 				tcgplayer: 477420,
 			},
 		},
@@ -107,6 +109,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871845,
 				tcgplayer: 477419,
 			},
 		}

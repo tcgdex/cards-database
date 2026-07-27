@@ -39,6 +39,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
+				cardmarket: 871848,
 				tcgplayer: 477414
 			}
 		}

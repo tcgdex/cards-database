@@ -90,7 +90,10 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871867,
+			}
 		}
 	],
 	retreat: 3,

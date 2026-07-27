@@ -39,6 +39,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["chris-fulop"],
 			thirdParty: {
+				cardmarket: 871837,
 				tcgplayer: 477371,
 			},
 		},
@@ -46,6 +47,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tsuguyoshi-yamato"],
 			thirdParty: {
+				cardmarket: 871839,
 				tcgplayer: 477372,
 			},
 		},
@@ -53,6 +55,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["reed-weichler"],
 			thirdParty: {
+				cardmarket: 871838,
 				tcgplayer: 477373,
 			},
 		},
@@ -60,6 +63,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["takashi-yoneda"],
 			thirdParty: {
+				cardmarket: 871565,
 				tcgplayer: 477503,
 			},
 		},
