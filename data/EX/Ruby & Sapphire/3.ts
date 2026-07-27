@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		257,
-	],
+	dexId: [257],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may attach a Fire Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une Carte Énergie  de votre pile de défausse à un des Pokémon de votre Banc. Ce pouvoir ne peut être utilisé si Brasegali est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may attach a  Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Blaziken is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -78,31 +76,45 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275651,
-		tcgplayer: 83903
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275651,
+				tcgplayer: 83903
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275651,
+				tcgplayer: 83903
+			}
 		},
 		{
 			type: "holo",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125113
+			}
 		},
 		{
 			type: "reverse",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				cardmarket: 275651,
+			},
+
 		},
 		{
 			type: "holo",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				tcgplayer: 477367
+			}
 		}
-	]
+	],
+
 }
 
 export default card

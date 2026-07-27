@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Attach Magnifier to 1 of your Pokémon. At he end of your turn, discard Magnifier. If the Pokémon Magnifier is attached to attcks, don't apply Resistance for this attack."
 	},
 
-	thirdParty: {
-		cardmarket: 274753,
-		tcgplayer: 87122
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274753,
+				tcgplayer: 87122
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274753,
+				tcgplayer: 87122
+			}
 		}
 	]
 }

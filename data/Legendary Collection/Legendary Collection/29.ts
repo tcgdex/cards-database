@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
+		en: "Mewtwo"
 	},
 
 	illustrator: "Christopher Rush",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		150,
-	],
+	dexId: [150],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Energy Control",
+				en: "Energy Control"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent's Pokémon and attach it to another of your opponent's Pokémon of your choice.",
+				en: "Flip a coin. If heads, choose a basic Energy card attached to 1 of your opponent's Pokémon and attach it to another of your opponent's Pokémon of your choice."
 			},
 
 		},
@@ -43,10 +41,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Telekinesis",
+				en: "Telekinesis"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 			damage: 30,
 
@@ -63,22 +61,34 @@ const card: Card = {
 
 
 	description: {
-		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
-	},
-
-	thirdParty: {
-		cardmarket: 274794,
-		tcgplayer: 87419
+		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274794,
+				tcgplayer: 87419
+			}
 		},
 		{
-			type: "normal"
-		}
-	]
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87419,
+				cardmarket: 274794
+			}
+		},
+		{
+			type: "reverse",
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 274794,
+				tcgplayer: 210844
+			}
+		},
+	],
+
 }
 
 export default card

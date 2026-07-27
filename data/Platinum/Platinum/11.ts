@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		310,
-	],
+	dexId: [310],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Electrike",
-		fr: "Dynavolt",
+		fr: "Dynavolt"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Prevent all damage done to your Benched Pokémon (excluding any Manectric) by attacks.",
 				fr: "Prévenez tous les dégâts infligés par des attaques à vos Pokémon de Banc (Elecsprint exclus).",
 				de: "Prevent all damage done to your Benched Pokémon (excluding any Manectric) by attacks."
-			},
+			}
 		},
 	],
 
@@ -97,19 +95,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278432,
-		tcgplayer: 87162
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 87162,
+				cardmarket: 278432
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278432,
+				tcgplayer: 87162
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

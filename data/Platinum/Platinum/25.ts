@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		269,
-	],
+	dexId: [269],
 
 	hp: 130,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Cascoon",
-		fr: "Blindalys",
+		fr: "Blindalys"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Prevent all effects of attacks, including damage, done to Dustox by your opponent's Pokémon that is affected by 2 or more Special Conditions.",
 				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Papinox par des Pokémon de votre adversaire étant affectés par au moins 2 États Spéciaux.",
 				de: "Prevent all effects of attacks, including damage, done to Dustox by your opponent's Pokémon that is affected by 2 or more Special Conditions."
-			},
+			}
 		},
 	],
 
@@ -93,19 +91,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278446,
-		tcgplayer: 85058
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85058,
+				cardmarket: 278446
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278446,
+				tcgplayer: 85058
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

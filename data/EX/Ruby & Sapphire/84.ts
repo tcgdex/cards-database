@@ -20,19 +20,25 @@ const card: Card = {
 		de: "Wenn zu irgendeinem Zeitpunkt zwischen den Zügen das Pokémon, an dem die Prunusbeere angelegt ist, von einem Speziellen Zustand betroffen ist, verlieren alle Speziellen Zustände auf diesem Pokémon ihre Wirkung. Lege Prunusbeere danach auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275732,
-		tcgplayer: 86919
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275732,
+				tcgplayer: 86919
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275732,
+				tcgplayer: 86919
+			}
 		},
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

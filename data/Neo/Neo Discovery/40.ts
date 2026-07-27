@@ -46,18 +46,22 @@ const card: Card = {
 		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement — tout le temps, et dans toutes les directions."
 	},
 
-	thirdParty: {
-		cardmarket: 274551,
-		tcgplayer: 86257
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274551,
+				tcgplayer: 86257
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274551,
+				tcgplayer: 86257
+			}
 		}
 	]
 }

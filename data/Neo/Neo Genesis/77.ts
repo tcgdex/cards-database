@@ -73,18 +73,22 @@ const card: Card = {
 		fr: "Bien qu'il prétende être un arbre, il ressemble plus à un rock qu'à une plante."
 	},
 
-	thirdParty: {
-		cardmarket: 274477,
-		tcgplayer: 89592
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274477,
+				tcgplayer: 89592
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274477,
+				tcgplayer: 89592
+			}
 		}
 	]
 }

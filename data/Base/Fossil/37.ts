@@ -79,20 +79,24 @@ const card: Card = {
 		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
 	},
 
-	thirdParty: {
-		cardmarket: 273898,
-		tcgplayer: 44439
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
 		},
 		{
 			type: "normal",

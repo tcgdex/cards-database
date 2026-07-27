@@ -92,18 +92,22 @@ const card: Card = {
 		fr: "Il peut vaincre ses adversaires avec ses puissants dards empoisonnés. Parfois, il attaque avec le reste de l'essaim."
 	},
 
-	thirdParty: {
-		cardmarket: 274529,
-		tcgplayer: 83767
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274529,
+				tcgplayer: 83767
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274529,
+				tcgplayer: 83767
+			}
 		}
 	]
 }

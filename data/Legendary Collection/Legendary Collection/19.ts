@@ -3,22 +3,20 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Zapdos",
+		en: "Zapdos"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		145,
-	],
+	dexId: [145],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -32,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thunder",
+				en: "Thunder"
 			},
 			effect: {
-				en: "Flip a coin. If tails, Zapdos does 30 damage to itself.",
+				en: "Flip a coin. If tails, Zapdos does 30 damage to itself."
 			},
 			damage: 60,
 
@@ -48,10 +46,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thunderbolt",
+				en: "Thunderbolt"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Zapdos in order to use this attack.",
+				en: "Discard all Energy cards attached to Zapdos or this attack does nothing."
 			},
 			damage: 100,
 
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
-	},
-
-	thirdParty: {
-		cardmarket: 274784,
-		tcgplayer: 90712
+		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274784,
+				tcgplayer: 90712
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90712,
+				cardmarket: 274784
+			}
 		}
-	]
+	],
+
 }
 
 export default card

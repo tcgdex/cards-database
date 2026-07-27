@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vikavolt"
 	},
 
+	evolveFrom: {
+		en: "Charjabug",
+		fr: "Chrysapile",
+		es: "Charjabug",
+		'es-mx': "Charjabug",
+		de: "Akkup",
+		it: "Charjabug",
+		pt: "Charjabug",
+	},
+
 	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -87,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870241,
+			cardmarket: 870242,
 			tcgplayer: 676905
 		}
 	},
@@ -95,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870242,
+			cardmarket: 870241,
 			tcgplayer: 677045
 		}
 	},

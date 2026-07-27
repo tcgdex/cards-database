@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Salazzle"
 	},
 
+	evolveFrom: {
+		en: "Salandit",
+		fr: "Tritox",
+		es: "Salandit",
+		'es-mx': "Salandit",
+		de: "Molunk",
+		it: "Salandit",
+		pt: "Salandit",
+	},
+
 	illustrator: "Dsuke",
 	rarity: "Illustration rare",
 	category: "Pokemon",

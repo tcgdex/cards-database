@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Weedle",
+		en: "Weedle"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		13,
-	],
+	dexId: [13],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
+				en: "Poison Sting"
 			},
 			effect: {
-				en: "Flip a coin. If heads, Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 
@@ -49,22 +47,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
-	},
-
-	thirdParty: {
-		cardmarket: 274864,
-		tcgplayer: 90539
+		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274864,
+				tcgplayer: 90539
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90539,
+				cardmarket: 274864
+			}
 		}
-	]
+	],
+
 }
 
 export default card

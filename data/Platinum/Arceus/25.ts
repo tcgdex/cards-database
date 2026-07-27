@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [172],
 	
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Pikachu von deiner Hand auf Pichu legen (das zählt als Entwickeln von Pichu). Entferne alle Schadensmarken von Pichu."
-			},
+			}
 		},
 	],
 
@@ -70,22 +68,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
-	},
-
-	thirdParty: {
-		cardmarket: 278897,
-		tcgplayer: 88021
+		en: "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88021,
+				cardmarket: 278897
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278897,
+				tcgplayer: 88021
+			}
+		},
+	],
+
 }
 
 export default card

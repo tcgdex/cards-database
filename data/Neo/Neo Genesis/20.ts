@@ -49,18 +49,22 @@ const card: Card = {
 		fr: "En raison de sa forme en étoile, les gens pensent qu'il est arrivé ici sur un météore."
 	},
 
-	thirdParty: {
-		cardmarket: 274420,
-		tcgplayer: 84362
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274420,
+				tcgplayer: 84362
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274420,
+				tcgplayer: 84362
+			}
 		}
 	]
 }

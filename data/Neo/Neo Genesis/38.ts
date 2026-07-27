@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "La lumière qu'il produit est si brillante qu'elle atteint la surface de la mer depuis plus de 5 kilomètres de profondeur."
 	},
 
-	thirdParty: {
-		cardmarket: 274438,
-		tcgplayer: 86603
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274438,
+				tcgplayer: 86603
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274438,
+				tcgplayer: 86603
+			}
 		}
 	]
 }

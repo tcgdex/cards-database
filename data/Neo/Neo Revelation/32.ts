@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Il aveugle sa proie avec un flash de lumière intense, puis, une fois immobilisée, il l'avale d'un seul coup."
 	},
 
-	thirdParty: {
-		cardmarket: 274618,
-		tcgplayer: 86602
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274618,
+				tcgplayer: 86602
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274618,
+				tcgplayer: 86602
+			}
 		}
 	]
 }

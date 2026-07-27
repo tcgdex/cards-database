@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Noivern"
 	},
 
+	evolveFrom: {
+		en: "Noibat",
+		fr: "Sonistrelle",
+		es: "Noibat",
+		'es-mx': "Noibat",
+		de: "eF-eM",
+		it: "Noibat",
+		pt: "Noibat",
+	},
+
 	illustrator: "Natsumi Miyanose",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -91,7 +101,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870381,
+			cardmarket: 870382,
 			tcgplayer: 676975
 		}
 	},
@@ -99,7 +109,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870382,
+			cardmarket: 870381,
 			tcgplayer: 677115
 		}
 	},

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Haunter",
+		en: "Haunter"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,31 +11,29 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Gastly",
+		en: "Gastly"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Transparency",
+				en: "Transparency"
 			},
 			effect: {
-				en: "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is Asleep.",
-			},
+				en: "Whenever an attack does anything to Haunter, flip a coin. If heads, prevent all effects of that attack, including damage, done to Haunter. This power stops working while Haunter is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -46,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nightmare",
+				en: "Nightmare"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -64,22 +62,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
-	},
-
-	thirdParty: {
-		cardmarket: 274811,
-		tcgplayer: 86022
+		en: "Because of its ability to slip through block walls, it is said to be from another dimension."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274811,
+				tcgplayer: 86022
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86022,
+				cardmarket: 274811
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

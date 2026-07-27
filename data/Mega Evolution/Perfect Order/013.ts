@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Fletchinder"
 	},
 
+	evolveFrom: {
+		en: "Fletchling",
+		fr: "Passerouge",
+		es: "Fletchling",
+		'es-mx': "Fletchling",
+		de: "Dartiri",
+		it: "Fletchling",
+		pt: "Fletchling",
+	},
+
 	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",

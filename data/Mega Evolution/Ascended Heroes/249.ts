@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Staraptor do Lauro"
 	},
 
+	evolveFrom: {
+		en: "Larry's Staravia",
+		fr: "Étourvol d'Okuba",
+		es: "Staravia de Laureano",
+		'es-mx': "Staravia de Laureano",
+		de: "Aokis Staravia",
+		it: "Staravia di Ubaldo",
+		pt: "Staravia do Lauro",
+	},
+
 	illustrator: "kantaro",
 	rarity: "Illustration rare",
 	category: "Pokemon",

@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Starmie",
+		en: "Starmie"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		121,
-	],
+	dexId: [121],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Staryu",
+		en: "Staryu"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spiral Drain",
+				en: "Spiral Drain"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Starmie.",
+				en: "Remove 1 damage counter from Starmie."
 			},
 			damage: 50,
 
@@ -48,19 +46,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 278846
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278846,
+				tcgplayer: 87775
+			},
 		}
 	]
 }

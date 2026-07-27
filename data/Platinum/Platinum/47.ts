@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		169,
-	],
+	dexId: [169],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -35,10 +33,10 @@ const card: Card = {
 				de: "Flash Bite"
 			},
 			effect: {
-				en: "Once during your turn, when you put Crobat from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
+				en: "Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Nostenfert  de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
 				de: "One during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon."
-			},
+			}
 		},
 	],
 
@@ -76,43 +74,65 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278468,
-		tcgplayer: 84494
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84494,
+				cardmarket: 278468
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278468,
+				tcgplayer: 84494
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479874
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				tcgplayer: 479875
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				tcgplayer: 479876
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["mychael-bryan"]
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				tcgplayer: 480020
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480021
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["yuka-furusawa"]
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480022
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

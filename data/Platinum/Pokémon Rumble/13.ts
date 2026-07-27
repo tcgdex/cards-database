@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Skuntank",
+		en: "Skuntank"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		435,
-	],
+	dexId: [435],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
-		en: "Stunky",
+		en: "Stunky"
 	},
 
 	stage: "Stage1",
@@ -35,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
+				en: "Rage"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Skuntank.",
+				en: "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -48,10 +46,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -61,13 +58,13 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 278854
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278854,
+				tcgplayer: 89281
+			},
 		}
 	]
 }

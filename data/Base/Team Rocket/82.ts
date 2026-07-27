@@ -20,18 +20,22 @@ const card: Card = {
 		fr: "Si vous jouez cette carte depuis votre main, retirez 1 marqueur de dégâts du Pokémon auquel vous l'attachez, s'il en possède. Énergie potion fournit 1 énergie Incolore. (Ne compte pour une carte Énergie de base.)",
 	},
 
-	thirdParty: {
-		cardmarket: 274135,
-		tcgplayer: 88350
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274135,
+				tcgplayer: 88350
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274135,
+				tcgplayer: 88350
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Heliolisk"
 	},
 
+	evolveFrom: {
+		en: "Helioptile",
+		fr: "Galvaran",
+		es: "Helioptile",
+		'es-mx': "Helioptile",
+		de: "Eguana",
+		it: "Helioptile",
+		pt: "Helioptile",
+	},
+
 	illustrator: "Takeshi Nakamura",
 	rarity: "Illustration rare",
 	category: "Pokemon",

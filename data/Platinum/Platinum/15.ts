@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -77,22 +75,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude.",
+		en: "The flowers all over its body burst into bloom if it is lovingly hugged and senses gratitude."
 	},
 
-	thirdParty: {
-		cardmarket: 278435,
-		tcgplayer: 89107
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 89107,
+				cardmarket: 278435
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278435,
+				tcgplayer: 89107
+			}
 		}
-	]
+	],
+
 }
 
 export default card

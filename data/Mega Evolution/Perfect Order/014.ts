@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Talonflame"
 	},
 
+	evolveFrom: {
+		en: "Fletchinder",
+		fr: "Braisillon",
+		es: "Fletchinder",
+		'es-mx': "Fletchinder",
+		de: "Dartignis",
+		it: "Fletchinder",
+		pt: "Fletchinder",
+	},
+
 	illustrator: "Shinji Kanda",
 	rarity: "Uncommon",
 	category: "Pokemon",

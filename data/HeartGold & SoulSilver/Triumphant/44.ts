@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		105,
-	],
+	dexId: [105],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Cubone",
-		fr: "Osselait",
+		fr: "Osselait"
 	},
 
 	stage: "Stage1",
@@ -46,7 +44,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 60 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "60x",
+			damage: "60×",
 
 		},
 		{
@@ -89,17 +87,23 @@ const card: Card = {
 		en: "It has been seen pounding boulders with the bone it carries in order to tap out messages to others."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87228,
+				cardmarket: 279574
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279574,
+				tcgplayer: 87228
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279574,
-		tcgplayer: 87228
-	}
 }
 
 export default card

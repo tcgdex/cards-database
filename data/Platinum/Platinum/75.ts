@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		88,
-	],
+	dexId: [88],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -68,22 +66,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
+		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth."
 	},
 
-	thirdParty: {
-		cardmarket: 278496,
-		tcgplayer: 85912
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85912,
+				cardmarket: 278496
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278496,
+				tcgplayer: 85912
+			}
 		}
-	]
+	],
+
 }
 
 export default card

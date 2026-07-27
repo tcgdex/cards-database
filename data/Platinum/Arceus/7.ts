@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		476,
-	],
+	dexId: [476],
 	
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
-		en: "Nosepass",
+		en: "Nosepass"
 	},
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If you don't have a Supporter card in play, each of Probopass's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).",
 				de: "Wenn du keine Unterstützerkarte im Spiel hast, fügen alle Angriffe von Voluminas den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
-			},
+			}
 		},
 	],
 
@@ -94,19 +92,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278879,
-		tcgplayer: 88378
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88378,
+				cardmarket: 278879
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278879,
+				tcgplayer: 88378
+			}
+		},
+	],
+
 }
 
 export default card

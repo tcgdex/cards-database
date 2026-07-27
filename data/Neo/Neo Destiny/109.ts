@@ -78,18 +78,22 @@ const card: Card = {
 		fr: "Il utilise ses pouvoirs psychiques surdéveloppés pour vaincre ses ennemis avant qu'ils n'aient le temps de réfléchir."
 	},
 
-	thirdParty: {
-		cardmarket: 274761,
-		tcgplayer: 89167
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274761,
+				tcgplayer: 89167
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274761,
+				tcgplayer: 89167
+			}
 		}
 	]
 }

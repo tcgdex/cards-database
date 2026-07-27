@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		282,
-	],
+	dexId: [282],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may search your deck for a Psychic Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your deck afterward. This power can't be used if Gardevoir is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez choisir dans votre deck une carte Énergie  et l'attacher à un de vos Pokémon. Placez deux marqueurs de dégât sur ce Pokémon. Mélangez ensuite votre deck. Ce pouvoir ne peut être utilisé si Gardevoir est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may search your Deck for a  Energy card and attach it to 1 of your Pokémon. Put 2 damage counters on that Pokémon. Shuffle your Deck afterward. This power can't be used if Gardevoir is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -61,7 +59,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts pour chaque carte Énergie attachée à Gardevoir et au Pokémon Défenseur.",
 				de: "Does 10 damage times the total amount of Energy attached to Gardevoir and the Defending Pokémon."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -76,31 +74,45 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275655,
-		tcgplayer: 85632
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275655,
+				tcgplayer: 85632
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275655,
+				tcgplayer: 85632
+			}
 		},
 		{
 			type: "holo",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125139
+			}
 		},
 		{
 			type: "reverse",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				cardmarket: 275655,
+			},
+
 		},
 		{
 			type: "holo",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 477386
+			}
 		}
-	]
+	],
+
 }
 
 export default card

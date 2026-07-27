@@ -73,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870233,
+			cardmarket: 870234,
 			tcgplayer: 676901
 		}
 	},
@@ -81,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870234,
+			cardmarket: 870233,
 			tcgplayer: 677041
 		}
 	},

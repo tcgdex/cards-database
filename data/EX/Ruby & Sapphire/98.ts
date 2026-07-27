@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 90,
 
+	stage: "Basic",
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	suffix: "ex",
@@ -55,7 +54,7 @@ const card: Card = {
 				de: "Mächtiger Aufwärtshaken"
 			},
 			effect: {
-				en: "The attack's damage is not affected by Resistance.",
+				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
 				de: "Der Schaden dieses Angriff wird nicht durch die Resistenz des Verteidigenden Pokémon verringert."
 			},
@@ -74,14 +73,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275746,
-		tcgplayer: 86099
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86099,
+				cardmarket: 275746
+			}
 		}
 	]
 }

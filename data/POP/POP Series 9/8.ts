@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		444,
-	],
+	dexId: [444],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				fr: "Terrier"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Gabite by attacks during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carmache par des attaques lors du prochain tour de votre adversaire."
 			},
 
@@ -51,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Distorted Wave",
+				en: "Distored Wave",
 				fr: "Vague tordue"
 			},
 			effect: {
@@ -69,24 +67,22 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85598,
+				cardmarket: 278559
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278559,
-		tcgplayer: 85598
-	}
 }
 
 export default card

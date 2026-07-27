@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
 	},
 
-	thirdParty: {
-		cardmarket: 274030,
-		tcgplayer: 42556
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274030,
+				tcgplayer: 42556
+			}
 		}
 	]
 }

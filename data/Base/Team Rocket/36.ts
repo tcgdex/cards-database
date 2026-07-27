@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Son pollen sent si fort qu'il s'étourdit parfois lui-même."
 	},
 
-	thirdParty: {
-		cardmarket: 274089,
-		tcgplayer: 84600
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274089,
+				tcgplayer: 84600
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274089,
+				tcgplayer: 84600
+			}
 		}
 	]
 }

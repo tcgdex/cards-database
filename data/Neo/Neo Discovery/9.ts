@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Bien qu'excellent nageur qui utilise tous ses muscles, il vit sur la terre ferme."
 	},
 
-	thirdParty: {
-		cardmarket: 274520,
-		tcgplayer: 88269
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274520,
+				tcgplayer: 88269
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274520,
+				tcgplayer: 88269
+			}
 		}
 	]
 }

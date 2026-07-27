@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Serperior"
 	},
 
+	evolveFrom: {
+		en: "Servine",
+		fr: "Lianaja",
+		es: "Servine",
+		'es-mx': "Servine",
+		de: "Efoserp",
+		it: "Servine",
+		pt: "Servine",
+	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",

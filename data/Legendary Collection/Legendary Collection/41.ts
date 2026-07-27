@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dodrio",
+		en: "Dodrio"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,31 +11,29 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		85,
-	],
+	dexId: [85],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Doduo",
+		en: "Doduo"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Retreat Aid",
+				en: "Retreat Aid"
 			},
 			effect: {
-				en: "As long as Dodrio is Benched, pay 1 Colorless less to retreat your Active Pokémon.",
-			},
+				en: "As long as Dodrio is Benched, pay Colorless less to retreat your Active Pokémon."
+			}
 		},
 	],
 
@@ -47,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rage",
+				en: "Rage"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each damage counter on Dodrio.",
+				en: "Does 10 damage plus 10 more damage for each damage counter on Dodrio."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -72,22 +70,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
-	},
-
-	thirdParty: {
-		cardmarket: 274806,
-		tcgplayer: 84847
+		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274806,
+				tcgplayer: 84847
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84847,
+				cardmarket: 274806
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Exeggutor da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Exeggcute",
+		fr: "Noeunoeuf de la Team Rocket",
+		es: "Exeggcute del Team Rocket",
+		'es-mx': "Exeggcute del Equipo Rocket",
+		de: "Team Rockets Owei",
+		it: "Exeggcute del Team Rocket",
+		pt: "Exeggcute da Equipe Rocket",
+	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -100,7 +110,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870257,
+			cardmarket: 870258,
 			tcgplayer: 677053
 		}
 	},
@@ -108,7 +118,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870258,
+			cardmarket: 870257,
 			tcgplayer: 676913
 		}
 	},

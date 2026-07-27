@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Doté d'un esprit de compétition, il poursuit toute créature rapide pour faire la course."
 	},
 
-	thirdParty: {
-		cardmarket: 273841,
-		tcgplayer: 45147
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273841,
+				tcgplayer: 45147
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273841,
+				tcgplayer: 45147
+			}
 		}
 	],
 }

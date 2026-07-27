@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		287,
-	],
+	dexId: [287],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool.",
 				de: "Does 10 damage times the number of damage counters on Slakoth."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy."
 	},
 
-	thirdParty: {
-		cardmarket: 278516,
-		tcgplayer: 89299
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89299,
+				cardmarket: 278516
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278516,
+				tcgplayer: 89299
+			}
 		}
-	]
+	],
+
 }
 
 export default card

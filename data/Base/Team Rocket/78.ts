@@ -19,18 +19,22 @@ const card: Card = {
 		de: "All Pokémon Powers stop working until end of your opponent's next turn."
 	},
 
-	thirdParty: {
-		cardmarket: 274131,
-		tcgplayer: 85841
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274131,
+				tcgplayer: 85841
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274131,
+				tcgplayer: 85841
+			}
 		}
 	]
 }

@@ -8,22 +8,20 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		454,
-	],
+	dexId: [454],
 	
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Croagunk",
+		en: "Croagunk"
 	},
 
 	stage: "Stage1",
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency.",
-	},
-
-	thirdParty: {
-		cardmarket: 278883,
-		tcgplayer: 90009
+		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for more potency."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90009,
+				cardmarket: 278883
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278883,
+				tcgplayer: 90009
+			}
+		},
+	],
+
 }
 
 export default card

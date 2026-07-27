@@ -80,20 +80,24 @@ const card: Card = {
 		fr: "L'oiseau légendaire du feu. Une pluie de flammes surgit à chaque battement de ses ailes."
 	},
 
-	thirdParty: {
-		cardmarket: 273873,
-		tcgplayer: 44421
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273873,
+				tcgplayer: 44421
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273873,
+				tcgplayer: 44421
+			}
 		},
 	]
 }

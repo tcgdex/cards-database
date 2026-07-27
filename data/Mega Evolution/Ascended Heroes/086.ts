@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mismagius"
 	},
 
+	evolveFrom: {
+		en: "Misdreavus",
+		fr: "Feuforêve",
+		es: "Misdreavus",
+		'es-mx': "Misdreavus",
+		de: "Traunfugil",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+	},
+
 	illustrator: "nisimono",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -76,10 +86,18 @@ const card: Card = {
 		}
 	},
 	{
+		type: "holo",
+		stamp: ["pokemon-center"],
+		thirdParty: {
+			cardmarket: 894173,
+			tcgplayer: 704442
+		}
+	},
+	{
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870269,
+			cardmarket: 870270,
 			tcgplayer: 676919
 		}
 	},
@@ -87,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870270,
+			cardmarket: 870269,
 			tcgplayer: 677059
 		}
 	},

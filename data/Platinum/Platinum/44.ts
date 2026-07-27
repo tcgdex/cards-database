@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		268,
-	],
+	dexId: [268],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Wurmple",
-		fr: "Chenipotte",
+		fr: "Chenipotte"
 	},
 
 	stage: "Stage1",
@@ -75,22 +73,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
+		en: "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback."
 	},
 
-	thirdParty: {
-		cardmarket: 278465,
-		tcgplayer: 84122
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84122,
+				cardmarket: 278465
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278465,
+				tcgplayer: 84122
+			}
 		}
-	]
+	],
+
 }
 
 export default card

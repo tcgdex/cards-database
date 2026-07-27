@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Tyrantrum"
 	},
 
+	evolveFrom: {
+		en: "Tyrunt",
+		fr: "Ptyranidur",
+		es: "Tyrunt",
+		'es-mx': "Tyrunt",
+		de: "Balgoras",
+		it: "Tyrunt",
+		pt: "Tyrunt",
+	},
+
 	illustrator: "Dsuke",
 	rarity: "Rare",
 	category: "Pokemon",

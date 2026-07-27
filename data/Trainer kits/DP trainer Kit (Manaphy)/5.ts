@@ -10,7 +10,7 @@ const card: Card = {
 		fr: "Tiplouf"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Atsuko Nishida",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Basic",
@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	attacks: [
@@ -52,15 +52,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	description: {
 		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
 	},
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278017,
+				tcgplayer: 88144
+			}
+		},
+	],
+
 }
 
 export default card

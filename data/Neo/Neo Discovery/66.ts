@@ -52,18 +52,22 @@ const card: Card = {
 		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
 	},
 
-	thirdParty: {
-		cardmarket: 274577,
-		tcgplayer: 90128
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274577,
+				tcgplayer: 90128
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274577,
+				tcgplayer: 90128
+			}
 		}
 	]
 }

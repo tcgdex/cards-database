@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		266,
-	],
+	dexId: [266],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Wurmple",
-		fr: "Chenipotte",
+		fr: "Chenipotte"
 	},
 
 	stage: "Stage1",
@@ -75,22 +73,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+		en: "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution."
 	},
 
-	thirdParty: {
-		cardmarket: 278484,
-		tcgplayer: 89213
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89213,
+				cardmarket: 278484
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278484,
+				tcgplayer: 89213
+			}
 		}
-	]
+	],
+
 }
 
 export default card

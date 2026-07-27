@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
 	},
 
-	thirdParty: {
-		cardmarket: 274026,
-		tcgplayer: 42553
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274026,
+				tcgplayer: 42553
+			}
 		}
 	]
 }

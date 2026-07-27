@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		256,
-	],
+	dexId: [256],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
 				fr: "Lorsque vous attachez une carte Énergie  à Galifeu, retirez-lui tous ses États Spéciaux.",
 				de: "Wenn du eine -Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
-			},
+			}
 		},
 	],
 
@@ -77,19 +75,31 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275676,
-		tcgplayer: 84401
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275676,
+				tcgplayer: 84401
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275676,
+				tcgplayer: 84401
+			}
 		},
-	]
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477370
+			}
+		},
+	],
+
 }
 
 export default card

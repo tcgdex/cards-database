@@ -62,13 +62,13 @@ const card: Card = {
 		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
 	},
 
-	thirdParty: {
-		cardmarket: 274005
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274005
+			}
 		}
 	]
 }

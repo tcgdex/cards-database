@@ -71,18 +71,22 @@ const card: Card = {
 		fr: "Comme il ne sait pas encore très bien marcher avec ses pattes, il passe son temps à nager."
 	},
 
-	thirdParty: {
-		cardmarket: 274573,
-		tcgplayer: 88254
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274573,
+				tcgplayer: 88254
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274573,
+				tcgplayer: 88254
+			}
 		}
 	]
 }

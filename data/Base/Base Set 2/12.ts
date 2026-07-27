@@ -71,14 +71,14 @@ const card: Card = {
 		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 	},
 
-	thirdParty: {
-		cardmarket: 273935,
-		tcgplayer: 42453
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273935,
+				tcgplayer: 42453
+			}
 		}
 	]
 }

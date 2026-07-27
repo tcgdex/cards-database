@@ -73,18 +73,22 @@ const card: Card = {
 		fr: "Il ne dort jamais. Il doit bouger sans cesse sinon son corps de magma refroidirait et durcirait."
 	},
 
-	thirdParty: {
-		cardmarket: 274639,
-		tcgplayer: 89336
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274639,
+				tcgplayer: 89336
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274639,
+				tcgplayer: 89336
+			}
 		}
 	]
 }

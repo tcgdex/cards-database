@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		421,
-	],
+	dexId: [421],
 	
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Cherubi",
+		en: "Cherubi"
 	},
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If any of your Grass Pokémon or Fire Pokémon would be damaged by an attack, reduce that damage by 10 (after applying Weakness and Resistance).",
 				de: "Schaden, der deinen - oder -Pokémon durch Angriffe zugefügt würde, wird um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -78,22 +76,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
-	},
-
-	thirdParty: {
-		cardmarket: 278887,
-		tcgplayer: 84255
+		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84255,
+				cardmarket: 278887
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278887,
+				tcgplayer: 84255
+			}
+		},
+	],
+
 }
 
 export default card

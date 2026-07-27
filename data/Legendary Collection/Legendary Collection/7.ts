@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Raichu",
+		en: "Dark Raichu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
+		en: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Surprise Thunder",
+				en: "Surprise Thunder"
 			},
 			effect: {
-				en: "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon",
+				en: "Flip a coin. If heads, flip another coin. If the second coins is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -55,24 +53,35 @@ const card: Card = {
 
 
 	description: {
-		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone.",
+		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone."
 	},
 
-	thirdParty: {
-		cardmarket: 274772,
-		tcgplayer: 84646
-	},
-
-	variants: [
-		{
-			type: "normal",
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "holo"
+	variants: [{
+		type: "normal",
+		thirdParty: {
+			tcgplayer: 125089
 		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			tcgplayer: 84646
+		}
+	},
+	{
+		type: "holo",
+		thirdParty: {
+			tcgplayer: 84646,
+			cardmarket: 274772
+		}
+	},
+	{
+		type: "reverse",
+		size: 'jumbo',
+		thirdParty: {
+			tcgplayer: 210843
+		}
+	},
 	]
 }
 

@@ -73,18 +73,22 @@ const card: Card = {
 		fr: "Ses coups sont super rapides, mais il ne peut se battre que pendant trois minutes avant qu'il ne soit fatigué et qu'il ne soit obligé de se reposer."
 	},
 
-	thirdParty: {
-		cardmarket: 274721,
-		tcgplayer: 86090
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274721,
+				tcgplayer: 86090
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274721,
+				tcgplayer: 86090
+			}
 		}
 	]
 }

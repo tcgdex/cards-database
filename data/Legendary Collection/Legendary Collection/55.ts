@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidorina",
+		en: "Nidorina"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		30,
-	],
+	dexId: [30],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Nidoran♀",
+		en: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Supersonic",
+				en: "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -47,12 +45,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Kick",
+				en: "Double Kick"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting.",
-	},
-
-	thirdParty: {
-		cardmarket: 274820,
-		tcgplayer: 87733
+		en: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274820,
+				tcgplayer: 87733
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87733,
+				cardmarket: 274820
+			}
 		}
-	]
+	],
+
 }
 
 export default card

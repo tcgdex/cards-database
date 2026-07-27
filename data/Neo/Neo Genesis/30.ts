@@ -85,18 +85,22 @@ const card: Card = {
 		fr: "Le clair de lune qui est stocké dans les ailes qu'il porte sur son dos lui donne apparemment la possibilité de flotter dans les airs."
 	},
 
-	thirdParty: {
-		cardmarket: 274430,
-		tcgplayer: 84352
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274430,
+				tcgplayer: 84352
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274430,
+				tcgplayer: 84352
+			}
 		}
 	]
 }

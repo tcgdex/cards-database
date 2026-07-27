@@ -53,18 +53,22 @@ const card: Card = {
 		fr: "Sa queue ondule gracieusement comme un voile. On l'appelle: \"Reine des Océans\"."
 	},
 
-	thirdParty: {
-		cardmarket: 273850,
-		tcgplayer: 45156
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273850,
+				tcgplayer: 45156
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273850,
+				tcgplayer: 45156
+			}
 		}
 	],
 }

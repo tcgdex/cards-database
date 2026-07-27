@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		280,
-	],
+	dexId: [280],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Future Sight"
 			},
 			effect: {
-				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order.",
+				en: "Look at the top 5 cards in either player's deck and put them back on top of that player's deck in any order.",
 				fr: "Regardez les 5 cartes du dessus du deck de chaque joueur et replacez-les au dessus du deck de chaque joueur dans n'importe quel ordre.",
 				de: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order."
 			},
@@ -69,26 +67,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
 	},
 
-	thirdParty: {
-		cardmarket: 278510,
-		tcgplayer: 88563
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88563,
+				cardmarket: 278510
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278510,
+				tcgplayer: 88563
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 480101
+			}
 		}
-	]
+	],
+
 }
 
 export default card

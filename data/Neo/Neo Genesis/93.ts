@@ -19,18 +19,22 @@ const card: Card = {
 		de: "At any time between turns, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, you may remove 4 of them and discard Gold Berry. At the start of each turn, if there are at least 4 damage counters on the Pokémon Gold Berry is attached to, remove 4 of them and discard Gold Berry."
 	},
 
-	thirdParty: {
-		cardmarket: 274493,
-		tcgplayer: 85799
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274493,
+				tcgplayer: 85799
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274493,
+				tcgplayer: 85799
+			}
 		}
 	]
 }

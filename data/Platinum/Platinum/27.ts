@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		487,
-	],
+	dexId: [487],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Broken-space Blow"
 			},
 			effect: {
-				en: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them.",
+				en: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to in the Lost Zone instead of the discard pile.",
 				fr: "Si le Pokémon Défenseur est mis K.O par cette attaque, placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées dans la Zone Perdue au lieu de les défausser.",
 				de: "If the Defending Pokémon is Knocked Out by this attack, put the Defending Pokémon and all cards attached to it in the Lost Zone instead of discarding them."
 			},
@@ -82,22 +80,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery."
 	},
 
-	thirdParty: {
-		cardmarket: 278430,
-		tcgplayer: 85735
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85735,
+				cardmarket: 278430
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278430,
+				tcgplayer: 85735
+			}
 		}
-	]
+	],
+
 }
 
 export default card

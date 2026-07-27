@@ -77,7 +77,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870267,
+			cardmarket: 870268,
 			tcgplayer: 676918
 		}
 	},
@@ -85,7 +85,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870268,
+			cardmarket: 870267,
 			tcgplayer: 677058
 		}
 	},

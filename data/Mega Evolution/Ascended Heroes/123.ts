@@ -63,7 +63,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870110,
+			cardmarket: 870330,
 			tcgplayer: 676949
 		}
 	},
@@ -73,6 +73,14 @@ const card: Card = {
 		thirdParty: {
 			cardmarket: 870329,
 			tcgplayer: 677089
+		}
+	},
+	{
+		type: "holo",
+		foil: "cosmos",
+		thirdParty: {
+			cardmarket: 870110,
+			tcgplayer: 677399
 		}
 	},
 ],
