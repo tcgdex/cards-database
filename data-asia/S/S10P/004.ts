@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10P"
+import { Card } from "../../../interfaces";
+import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "圓法師"
+		ja: "コロボーシ",
+		'zh-tw': "圓法師",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -14,31 +14,44 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "觸角之間互相碰撞時， 會叮叮咚咚地奏出 如同木琴一般的音色。"
+		ja: "触角 同士が ぶつかると コロン コロンと 木琴に 似た 音色を 奏でる。",
+		'zh-tw': "觸角之間互相碰撞時， 會叮叮咚咚地奏出 如同木琴一般的音色。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "打滾"
+	attacks: [
+		{
+			name: {
+				ja: "ころばす",
+				'zh-tw': "打滾",
+			},
+			damage: "10+",
+			cost: ["Grass"],
+			effect: {
+				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 651063,
+				tcgplayer: 569847,
+			},
 		},
-
-		damage: "10+",
-		cost: ["Grass"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [401],
+};
 
-export default card
+export default card;

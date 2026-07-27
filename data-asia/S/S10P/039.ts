@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10P"
+import { Card } from "../../../interfaces";
+import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "洗翠 狙射樹梟"
+		ja: "ヒスイ ジュナイパー",
+		'zh-tw': "洗翠 狙射樹梟",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,40 +14,59 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "為抵抗洗翠的嚴寒氣候，羽毛的芯中含有空氣，因而能夠防寒。 由此可見環境會對進化產生影響。"
+		ja: "ヒスイの 極寒に 耐えるため 羽根の 芯に 空気を含み 防寒機能 有す。 環境が 進化に 影響すると 判明す。",
+		'zh-tw': "為抵抗洗翠的嚴寒氣候，羽毛的芯中含有空氣，因而能夠防寒。 由此可見環境會對進化產生影響。",
 	},
 
 	stage: "Stage2",
 
-	attacks: [{
-		name: {
-			'zh-tw': "深入鉤爪"
+	attacks: [
+		{
+			name: {
+				ja: "くいこむかぎづめ",
+				'zh-tw': "深入鉤爪",
+			},
+			damage: "30×",
+			cost: [],
+			effect: {
+				ja: "相手のバトルポケモンにのっているダメカンの数×30ダメージ。",
+				'zh-tw': "造成對手的戰鬥寶可夢身上放置的傷害指示物的數量×30點傷害。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "造成對手的戰鬥寶可夢身上放置的傷害指示物的數量×30點傷害。"
+		{
+			name: {
+				ja: "ダイレクトアロー",
+				'zh-tw': "筆直箭",
+			},
+			cost: ["Fighting", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のポケモン1匹に、80ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "對手的1隻寶可夢受到80點傷害。[在備戰區不計算弱點・抵抗力。]",
+			},
 		},
+	],
 
-		damage: "30×"
-	}, {
-		name: {
-			'zh-tw': "筆直箭"
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 651098,
+				tcgplayer: 569882,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "對手的1隻寶可夢受到80點傷害。[在備戰區不計算弱點・抵抗力。]"
-		},
-
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "フクスロー",
+	},
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Rare",
+	dexId: [724],
+};
 
-export default card
+export default card;

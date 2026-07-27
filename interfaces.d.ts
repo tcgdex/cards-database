@@ -236,6 +236,7 @@ export interface Card {
 			// Black White rare
 			| 'Black White Rare'
 			| 'Mega Hyper Rare'
+			| 'Triple Rare'
 			// Japanese Character Rares (since SM11b Dream League)
 			| 'Character Rare' | 'Character Super Rare'
 			// Pokémon TCG Pocket Rarities
