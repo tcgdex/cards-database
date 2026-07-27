@@ -86,10 +86,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-<<<<<<< HEAD
 			foil: 'cosmos',
-=======
->>>>>>> master
 			thirdParty: {
 				tcgplayer: 86652,
 				cardmarket: 278035
