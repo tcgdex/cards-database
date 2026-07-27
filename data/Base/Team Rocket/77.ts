@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Wähle bis zu drei basis-Pokémon-Karten, Evolutionskarten und/oder Basis-Energiekarten aus deinem Ablagestapel. Zeige sie deinem Gegner und mische sie in dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 274130,
-		tcgplayer: 87755
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274130,
+				tcgplayer: 87755
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274130,
+				tcgplayer: 87755
+			}
 		}
 	]
 }

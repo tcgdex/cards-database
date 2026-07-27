@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		428,
-	],
+	dexId: [428],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Pied Saute"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 20,
@@ -71,7 +69,6 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
@@ -79,17 +76,23 @@ const card: Card = {
 		fr: "Il est très coquet et n'oublie jamais de toiletter ses oreilles. Il avance en bonds énergiques."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86825,
+				cardmarket: 278560
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86825,
+				cardmarket: 278560
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278560,
-		tcgplayer: 86825
-	}
 }
 
 export default card

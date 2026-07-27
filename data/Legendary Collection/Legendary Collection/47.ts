@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Ivysaur",
+		en: "Ivysaur"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		2,
-	],
+	dexId: [2],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Bulbasaur",
+		en: "Bulbasaur"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Vine Whip",
+				en: "Vine Whip"
 			},
 
 			damage: 30,
@@ -48,12 +46,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poisonpowder",
+				en: "Poisonpowder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				en: "The Defending Pokémon is now Poisoned."
 			},
-			damage: 30,
+			damage: 20,
 
 		},
 	],
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.",
-	},
-
-	thirdParty: {
-		cardmarket: 274812,
-		tcgplayer: 86295
+		en: "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274812,
+				tcgplayer: 86295
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86295,
+				cardmarket: 274812
+			}
 		}
-	]
+	],
+
 }
 
 export default card

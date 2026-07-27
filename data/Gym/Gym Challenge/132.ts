@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Water Energy",
+		en: "Water Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,19 +13,24 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274400,
-		tcgplayer: 90504
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90504,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 90504,
+				cardmarket: 274400
+			}
 		},
+	],
+	types: [
+		"Water"
 	]
 }
 

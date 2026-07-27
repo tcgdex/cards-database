@@ -79,20 +79,24 @@ const card: Card = {
 		fr: "Il peut se glisser à travers les murs comme une créature d'une autre dimension."
 	},
 
-	thirdParty: {
-		cardmarket: 273867,
-		tcgplayer: 106522
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273867,
+				tcgplayer: 106522
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273867,
+				tcgplayer: 106522
+			}
 		},
 	]
 }

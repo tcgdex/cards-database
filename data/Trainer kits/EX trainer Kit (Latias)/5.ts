@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	attacks: [{
@@ -48,15 +48,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87808
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275773,
+				tcgplayer: 87808
+			}
+		},
+	],
+
 }
 
 export default card

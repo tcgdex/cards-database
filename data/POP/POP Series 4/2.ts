@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		386,
-	],
+	dexId: [386],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "Changement de forme"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can’t use more than 1 Form Change Poké-Power each turn.",
+				en: "Once during your turn (before your attack), you may search your deck for another Deoxys and switch it with Deoxys. (Any cards attached to Deoxys, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) If you do, put Deoxys on top of your deck. Shuffle your deck afterward. You can't use more than 1 Form Change Poké-Power each turn.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck une autre Deoxys et l'échanger avec Deoxys. (Toutes les autres cartes attachées à Deoxys, marqueurs de dégâts, États Spéciaux et autres effets se trouvent maintenant sur le nouveau Pokémon.) Placez alors Deoxys au-dessus de votre deck. Ensuite, mélangez votre deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Changement de forme par tour."
 			},
 		},
@@ -49,7 +47,7 @@ const card: Card = {
 				fr: "Laser de cristal"
 			},
 			effect: {
-				en: "During your next turn, Deoxys’s attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, Deoxys's attacks do 40 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Lors de votre prochain tour, les attaques de Deoxys infligent 40 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance)."
 			},
 			damage: 20,
@@ -59,22 +57,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84765,
+				cardmarket: 277467
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84765,
+				cardmarket: 277467
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277467
-	}
 }
 
 export default card

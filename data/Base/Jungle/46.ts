@@ -74,18 +74,22 @@ const card: Card = {
 		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
 	},
 
-	thirdParty: {
-		cardmarket: 273843,
-		tcgplayer: 45149
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273843,
+				tcgplayer: 45149
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273843,
+				tcgplayer: 45149
+			}
 		}
 	],
 }

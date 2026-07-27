@@ -20,32 +20,39 @@ const card: Card = {
 		de: "Play Armor Fossil as if it were a  Basic Pokémon. (Armor Fossil counts as a Trainer card as well, but if Armor Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Armor Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Armor Fossil from play. (This doesn't count as a Knocked Out Pokémon.)"
 	},
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Armor Stone",
+				de: "Armor Stone"
+			},
+			effect: {
+				en: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
+				de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
+			}
+		},
+	],
 	trainerType: "Item",
 
-	abilities: [{
-		type: 'Poke-BODY',
-		name: {
-			de: "Armor Stone"
-		},
-
-		effect: {
-			de: "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10."
-		}
-	}],
-
-	thirdParty: {
-		cardmarket: 278540,
-		tcgplayer: 83626
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83626,
+				cardmarket: 278540
+			}
 		},
 		{
-			type:"reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278540,
+				tcgplayer: 83626
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

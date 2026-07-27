@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		387,
-	],
+	dexId: [387],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The shell on its back is made of soil. On a very healthy TURTWIG, the shell should feel moist.",
+		en: "The shell on its back is made of soil. On a very healthy TURTWIG, the shell should feel moist."
 	},
 
-	thirdParty: {
-		cardmarket: 278522,
-		tcgplayer: 90077
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90077,
+				cardmarket: 278522
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278522,
+				tcgplayer: 90077
+			}
 		}
-	]
+	],
+
 }
 
 export default card

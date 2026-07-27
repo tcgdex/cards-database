@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Togekiss"
 	},
 
+	evolveFrom: {
+		en: "Togetic",
+		fr: "Togetic",
+		es: "Togetic",
+		'es-mx': "Togetic",
+		de: "Togetic",
+		it: "Togetic",
+		pt: "Togetic",
+	},
+
 	illustrator: "satoma",
 	rarity: "Illustration rare",
 	category: "Pokemon",

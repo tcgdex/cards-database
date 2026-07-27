@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Omastar",
+		en: "Omastar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		139,
-	],
+	dexId: [139],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Omanyte",
+		en: "Omanyte"
 	},
 
 	stage: "Stage2",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Gun",
+				en: "Water Gun"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Omastar but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -48,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Spike Cannon",
+				en: "Spike Cannon"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 	],
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey.",
-	},
-
-	thirdParty: {
-		cardmarket: 274823,
-		tcgplayer: 87867
+		en: "A prehistoric Pokémon that died out when its heavy shell made it impossible for it to catch prey."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274823,
+				tcgplayer: 87867
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87867,
+				cardmarket: 274823
+			}
 		}
-	]
+	],
+
 }
 
 export default card

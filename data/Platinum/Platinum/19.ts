@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		354,
-	],
+	dexId: [354],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Shuppet",
-		fr: "Polychombr",
+		fr: "Polychombr"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may discard as many cards as you like from your hand. If you do, put that many damage counters on Banette. This power can't be used if Banette is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez défausser de votre main autant de cartes que vous voulez. Vous pouvez alors placer autant de marqueurs de dégât sur Branette. Ce pouvoir ne peut pas être utilisé si Branette est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may discard as many cards as you like from your hand. I you do, put that many damage counters on Banette. This power can't be used if Banette is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -99,19 +97,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278440,
-		tcgplayer: 83723
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 83723,
+				cardmarket: 278440
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278440,
+				tcgplayer: 83723
+			}
 		}
-	]
+	],
+
 }
 
 export default card

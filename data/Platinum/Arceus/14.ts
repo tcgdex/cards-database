@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		437,
-	],
+	dexId: [437],
 	
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
-		en: "Bronzor",
+		en: "Bronzor"
 	},
 
 	stage: "Stage1",
@@ -80,22 +78,26 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
-	},
-
-	thirdParty: {
-		cardmarket: 278886,
-		tcgplayer: 83995
+		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83995,
+				cardmarket: 278886
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278886,
+				tcgplayer: 83995
+			}
+		},
+	],
+
 }
 
 export default card

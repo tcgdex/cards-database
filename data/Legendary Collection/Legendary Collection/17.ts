@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
+		en: "Ninetales"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
+		en: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lure",
+				en: "Lure"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
 			},
 
 		},
@@ -49,10 +47,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Blast",
+				en: "Fire Blast"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Ninetales in order to use this attack.",
+				en: "Discard 1 Fire Energy card attached to Ninetales or this attack does nothing."
 			},
 			damage: 80,
 
@@ -69,22 +67,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
-	},
-
-	thirdParty: {
-		cardmarket: 274782,
-		tcgplayer: 87764
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274782,
+				tcgplayer: 87764
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87764,
+				cardmarket: 274782
+			}
 		}
-	]
+	],
+
 }
 
 export default card

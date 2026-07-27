@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		380,
-	],
+	dexId: [380],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,7 +49,7 @@ const card: Card = {
 				fr: "Boule de brume"
 			},
 			effect: {
-				en: "Discard a Fire Energy and a Water Energy attached to Latias.",
+				en: "Discard a Fire and a Water Energy attached to Latias.",
 				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias."
 			},
 			damage: 80,
@@ -65,14 +63,12 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "Its body is covered with a down that can refract light in such a way that it becomes invisble.",
 		fr: "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible."
@@ -80,17 +76,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86652,
+				cardmarket: 278035
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86652,
+				cardmarket: 278035
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278035,
-		tcgplayer: 86652
-	}
 }
 
 export default card

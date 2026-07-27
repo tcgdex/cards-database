@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Bill",
+		en: "Bill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,22 +12,27 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Draw 2 cards.",
-	},
-
-	thirdParty: {
-		cardmarket: 274873,
-		tcgplayer: 83836
+		en: "Draw 2 cards."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274873,
+				tcgplayer: 83836
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83836,
+				cardmarket: 274873
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

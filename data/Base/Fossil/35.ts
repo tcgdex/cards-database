@@ -83,20 +83,24 @@ const card: Card = {
 		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa."
 	},
 
-	thirdParty: {
-		cardmarket: 273896,
-		tcgplayer: 44437
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273896,
+				tcgplayer: 44437
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273896,
+				tcgplayer: 44437
+			}
 		},
 		{
 			type: "normal",

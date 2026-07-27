@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Fearow",
+		en: "Fearow"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		22,
-	],
+	dexId: [22],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Spearow",
+		en: "Spearow"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Agility",
+				en: "Agility"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Fearow."
 			},
 			damage: 20,
 
@@ -51,7 +49,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Drill Peck",
+				en: "Drill Peck"
 			},
 
 			damage: 40,
@@ -74,22 +72,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
-	},
-
-	thirdParty: {
-		cardmarket: 274807,
-		tcgplayer: 85395
+		en: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274807,
+				tcgplayer: 85395
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85395,
+				cardmarket: 274807
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		306,
-	],
+	dexId: [306],
 
 	hp: 110,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts pour chaque marqueur de dégât sur Galeking.",
 				de: "Flip a coin. If heads, this attack does 10 damage times the numer of damage counters on Aggron"
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -81,7 +79,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de face.",
 				de: "Flip 2 coins. This attack does 70 damage times the numer of heads."
 			},
-			damage: "70x",
+			damage: "70×",
 
 		},
 	],
@@ -103,19 +101,24 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 275649,
-		tcgplayer: 83475
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275649,
+				tcgplayer: 83475
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275649,
+				tcgplayer: 83475
+			}
 		},
-	]
+	],
+
 }
 
 export default card

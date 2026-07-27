@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Drakloak"
 	},
 
+	evolveFrom: {
+		en: "Dreepy",
+		fr: "Fantyrm",
+		es: "Dreepy",
+		'es-mx': "Dreepy",
+		de: "Grolldra",
+		it: "Dreepy",
+		pt: "Dreepy",
+	},
+
 	illustrator: "cochi8i",
 	rarity: "Common",
 	category: "Pokemon",
@@ -81,7 +91,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "quickball",
 		thirdParty: {
-			cardmarket: 870385,
+			cardmarket: 870386,
 			tcgplayer: 676977
 		}
 	},
@@ -89,7 +99,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870386,
+			cardmarket: 870385,
 			tcgplayer: 677117
 		}
 	},

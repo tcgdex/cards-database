@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Fervor",
+		en: "Fervor"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,22 +12,24 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Show the top 3 cards of your deck to all players. Put any Fire Energy cards there into your hand and discard the rest.",
+		en: "Show the top 3 cards of your deck to all players. Put any Fire Energy cards there into your hand and discard the rest."
 	},
-	thirdParty: {
-		cardmarket: 274392,
-		tcgplayer: 85430
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85430,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85430,
+				cardmarket: 274392
+			}
 		},
-	]
+	],
 }
 
 export default card

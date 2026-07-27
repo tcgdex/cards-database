@@ -3,23 +3,21 @@ import Set from '../POP Series 5'
 
 const card: Card = {
 	name: {
-		en: "Umbreon ☆",
+		en: "Umbreon ★",
 		fr: "Noctali ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Ultra Rare",
+	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		197,
-	],
+	dexId: [197],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "Rayon Obscur"
 			},
 			effect: {
-				en: "Once during your turn, when you put Umbreon ☆ from your hand onto your Bench, you may choose 1 card from your opponent’s hand without looking and discard it.",
+				en: "Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Noctali ☆ de votre main sur votre Banc, vous pouvez choisir 1 carte de la main de votre adversaire sans regarder et la défausser."
 			},
 		},
@@ -49,7 +47,7 @@ const card: Card = {
 				fr: "Feinte"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon-là. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, Résistance, Poké-Powers, Poké-Bodies ou tout autre effet sur ce Pokémon-là."
 			},
 
@@ -58,25 +56,33 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting"
+			type: "Fighting",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90153,
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90153,
+			},
+		},
+	],
+
 }
 
 export default card

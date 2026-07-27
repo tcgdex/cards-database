@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		278,
-	],
+	dexId: [278],
 	
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -56,22 +54,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
-	},
-
-	thirdParty: {
-		cardmarket: 278952,
-		tcgplayer: 90611
+		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90611,
+				cardmarket: 278952
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278952,
+				tcgplayer: 90611
+			}
+		},
+	],
+
 }
 
 export default card

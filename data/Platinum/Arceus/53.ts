@@ -3,7 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
+		en: "Beedrill G",
 		de: "Bibor G"
 	},
 
@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 	
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Überfall"
 			},
 			effect: {
-				en: "If you played Beedrill from your hand during this turn, this attack's base damage is 40 instead of 10.",
+				en: "If you played Beedrill G from your hand during this turn, this attack's base damage is 40 instead of 10.",
 				de: "Wenn du Bibor G in diesem Zug aus deiner Hand gespielt hast, beträgt der Grundschaden dieses Angriffs 40 Schadenspunkte anstelle von 10 Schadenspunkten."
 			},
 			damage: 10,
@@ -54,7 +52,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -68,19 +66,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278925,
-		tcgplayer: 83776
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83776,
+				cardmarket: 278925
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278925,
+				tcgplayer: 83776
+			}
+		},
+	],
+
 }
 
 export default card

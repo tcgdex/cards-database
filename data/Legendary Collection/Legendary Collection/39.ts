@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Wartortle",
+		en: "Dark Wartortle"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		8,
-	],
+	dexId: [8],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Squirtle",
+		en: "Squirtle"
 	},
 
 	stage: "Stage1",
@@ -33,12 +31,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Doubleslap",
+				en: "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -47,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mirror Shell",
+				en: "Mirror Shell"
 			},
 			effect: {
-				en: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle attacks the Defending Pokémon for an equal amount of damage.",
+				en: "If an attack does damage to Dark Wartortle during your opponent's next turn (even if Dark Wartortle is Knocked Out), Dark Wartortle does an equal amount of damage to the Defending Pokémon."
 			},
 
 		},
@@ -66,22 +64,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often.",
-	},
-
-	thirdParty: {
-		cardmarket: 274804,
-		tcgplayer: 84669
+		en: "A Pokémon with a negative attitude, it hides in its shell whenever it's in a bad mood—which is often."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274804,
+				tcgplayer: 84669
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84669,
+				cardmarket: 274804
+			}
 		}
-	]
+	],
+
 }
 
 export default card

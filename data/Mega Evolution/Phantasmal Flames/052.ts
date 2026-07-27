@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vibrava"
 	},
 
+	evolveFrom: {
+		en: "Trapinch",
+		fr: "Kraknoix",
+		es: "Trapinch",
+		'es-mx': "Trapinch",
+		de: "Knacklion",
+		it: "Trapinch",
+		pt: "Trapinch",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

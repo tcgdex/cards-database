@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		486,
-	],
+	dexId: [486],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -65,10 +63,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
@@ -76,17 +73,23 @@ const card: Card = {
 		fr: "Une légende tenace veut que ce Pokémon ait traîné les continents en les attachant à des cordes."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88664,
+				cardmarket: 278555
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88664,
+				cardmarket: 278555
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278555,
-		tcgplayer: 88664
-	}
 }
 
 export default card

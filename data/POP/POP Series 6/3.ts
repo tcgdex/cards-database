@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		490,
-	],
+	dexId: [490],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -63,24 +61,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
 		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87144,
+				cardmarket: 277888
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87144,
+				cardmarket: 277888
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277888,
-		tcgplayer: 87144
-	}
 }
 
 export default card

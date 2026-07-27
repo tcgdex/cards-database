@@ -77,14 +77,14 @@ const card: Card = {
 		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
 	},
 
-	thirdParty: {
-		cardmarket: 273942,
-		tcgplayer: 42463
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273942,
+				tcgplayer: 42463
+			}
 		}
 	]
 }

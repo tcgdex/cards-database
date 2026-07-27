@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		en: "Pikachu"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Spark",
+				en: "Spark"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -50,22 +48,26 @@ const card: Card = {
 
 
 	description: {
-		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
-	},
-
-	thirdParty: {
-		cardmarket: 274851,
-		tcgplayer: 88075
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274851,
+				tcgplayer: 88075
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88075,
+				cardmarket: 274851
+			}
 		}
-	]
+	],
+
 }
 
 export default card

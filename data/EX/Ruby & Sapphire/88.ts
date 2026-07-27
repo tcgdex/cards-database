@@ -20,22 +20,31 @@ const card: Card = {
 		de: "Look at the top 3 cards of your deck, and choose a basic Pokémon, Evolution card, or Energy card. Show it to your opponent and put it into your hand. Put the 2 other cards back on top of your deck in any other."
 	},
 
-	thirdParty: {
-		cardmarket: 275736
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275736,
+				tcgplayer: 88243
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275736,
+				tcgplayer: 88243
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 131361
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

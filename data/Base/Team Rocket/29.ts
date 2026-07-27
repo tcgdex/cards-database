@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Sa principale volonté est qu'on le laisse tranquille, il en vient parfois à être manipulé par des gens sans scrupules."
 	},
 
-	thirdParty: {
-		cardmarket: 274065,
-		tcgplayer: 84655
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274065,
+				tcgplayer: 84655
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274065,
+				tcgplayer: 84655
+			}
 		}
 	]
 }

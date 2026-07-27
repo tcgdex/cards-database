@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Nidoking",
+		en: "Giovanni's Nidoking"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		34,
-	],
+	dexId: [34],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Nidorino",
+		en: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Intimidate",
+				en: "Intimidate"
 			},
 			effect: {
-				en: "If the Defending Pokémon's maximum HP is 50 or less, it can't attack Giovanni's Nidoking during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
+				en: "If the Defending Pokémon's maximum HP is 50 or less, it can't attack Giovanni's Nidoking during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
 			},
 
 		},
@@ -48,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tumbling Attack",
+				en: "Tumbling Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage.",
+				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
@@ -61,26 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274275,
-		tcgplayer: 85718
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85718,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85718,
+				cardmarket: 274275
+			}
 		},
-	]
+	],
 }
 
 export default card

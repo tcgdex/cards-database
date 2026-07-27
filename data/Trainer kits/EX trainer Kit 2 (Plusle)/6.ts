@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	attacks: [{
@@ -45,13 +45,12 @@ const card: Card = {
 			en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
 			fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
 		},
-		damage: 10,
+		damage: 10
 	}],
 
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
@@ -64,9 +63,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 88166
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 277192,
+				tcgplayer: 88166
+			}
+		},
+	],
+
 }
 
 export default card

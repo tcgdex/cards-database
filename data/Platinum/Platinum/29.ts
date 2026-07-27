@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		55,
-	],
+	dexId: [55],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak",
+		fr: "Psykokwak"
 	},
 
 	stage: "Stage1",
@@ -74,22 +72,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers."
 	},
 
-	thirdParty: {
-		cardmarket: 278450,
-		tcgplayer: 85816
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85816,
+				cardmarket: 278450
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278450,
+				tcgplayer: 85816
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

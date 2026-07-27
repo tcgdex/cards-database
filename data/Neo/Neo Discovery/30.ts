@@ -66,18 +66,22 @@ const card: Card = {
 		fr: "Un liquide spécial recouvre l'extrémité de sa queue. Il l'utilise comme peinture pour marquer son territoire."
 	},
 
-	thirdParty: {
-		cardmarket: 274522,
-		tcgplayer: 89351
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274522,
+				tcgplayer: 89351
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274522,
+				tcgplayer: 89351
+			}
 		}
 	]
 }

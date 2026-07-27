@@ -74,18 +74,22 @@ const card: Card = {
 		fr: "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture."
 	},
 
-	thirdParty: {
-		cardmarket: 274123,
-		tcgplayer: 90767
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274123,
+				tcgplayer: 90767
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274123,
+				tcgplayer: 90767
+			}
 		}
 	]
 }

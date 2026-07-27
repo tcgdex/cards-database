@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Haunter"
 	},
 
+	evolveFrom: {
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		'es-mx': "Gastly",
+		de: "Nebulak",
+		it: "Gastly",
+		pt: "Gastly",
+	},
+
 	illustrator: "Rianti Hidayat",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -63,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870331,
+			cardmarket: 870332,
 			tcgplayer: 676950
 		}
 	},
@@ -71,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870332,
+			cardmarket: 870331,
 			tcgplayer: 677090
 		}
 	},

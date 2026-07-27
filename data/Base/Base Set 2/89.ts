@@ -55,14 +55,14 @@ const card: Card = {
 		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
 	},
 
-	thirdParty: {
-		cardmarket: 274012,
-		tcgplayer: 42540
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274012,
+				tcgplayer: 42540
+			}
 		}
 	]
 }

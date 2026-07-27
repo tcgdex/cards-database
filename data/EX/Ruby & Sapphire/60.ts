@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		258,
-	],
+	dexId: [258],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -69,19 +67,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275708,
-		tcgplayer: 87606
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275708,
+				tcgplayer: 87606
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275708,
+				tcgplayer: 87606
+			}
 		},
-	]
+	],
+
 }
 
 export default card

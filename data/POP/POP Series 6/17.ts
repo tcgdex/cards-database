@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		387,
-	],
+	dexId: [387],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -55,31 +53,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
 	},
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90072,
+				cardmarket: 277902
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90072,
+				cardmarket: 277902
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277902,
-		tcgplayer: 90072
-	}
 }
 
 export default card

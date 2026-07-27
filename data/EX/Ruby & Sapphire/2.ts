@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		267,
-	],
+	dexId: [267],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon.",
 				fr: "Tant que Charmillon est en jeu, vous ne pouvez pas appliquer la Résistance aux Pokémon Actifs.",
 				de: "As long as Beautifly is in play, do not apply Resistance for all Active Pokémon."
-			},
+			}
 		},
 	],
 
@@ -92,22 +90,25 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 275650,
-		tcgplayer: 83755
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275650,
+				tcgplayer: 83755
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275650,
+				tcgplayer: 83755
+			}
 		},
-	]
+	],
+
 }
 
 export default card

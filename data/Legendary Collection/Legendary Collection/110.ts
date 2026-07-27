@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Potion",
+		en: "Potion"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,22 +12,27 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Remove up to 2 damage counters from 1 of your Pokémon.",
-	},
-
-	thirdParty: {
-		cardmarket: 274875,
-		tcgplayer: 88332
+		en: "Remove up to 2 damage counters from 1 of your Pokémon."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274875,
+				tcgplayer: 88332
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88332,
+				cardmarket: 274875
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

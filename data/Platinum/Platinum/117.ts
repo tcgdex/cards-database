@@ -21,27 +21,37 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278538,
-		tcgplayer: 89806
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89806,
+				cardmarket: 278538
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278538,
+				tcgplayer: 89806
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479958
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480115
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

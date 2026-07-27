@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Aegislash"
 	},
 
+	evolveFrom: {
+		en: "Doublade",
+		fr: "Dimoclès",
+		es: "Doublade",
+		'es-mx': "Doublade",
+		de: "Duokles",
+		it: "Doublade",
+		pt: "Doublade",
+	},
+
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",

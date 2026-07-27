@@ -1,21 +1,31 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV2a"
+import { Card } from "../../../interfaces";
+import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		ja: "ポケモンいれかえ"
+		ja: "ポケモンいれかえ",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。"
+		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
 	},
 
-	trainerType: "Item"
-}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 719662,
+			},
+		},
+	],
 
-export default card
+	trainerType: "Item",
+	regulationMark: "G",
+	rarity: "Mega Hyper Rare",
+};
+
+export default card;

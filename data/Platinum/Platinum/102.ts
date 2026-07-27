@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -70,22 +68,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails."
 	},
 
-	thirdParty: {
-		cardmarket: 278420,
-		tcgplayer: 90442
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90442,
+				cardmarket: 278420
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278420,
+				tcgplayer: 90442
+			}
 		}
-	]
+	],
+
 }
 
 export default card

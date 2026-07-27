@@ -70,14 +70,14 @@ const card: Card = {
 		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
 	},
 
-	thirdParty: {
-		cardmarket: 274000,
-		tcgplayer: 42529
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274000,
+				tcgplayer: 42529
+			}
 		}
 	]
 }

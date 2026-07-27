@@ -90,18 +90,22 @@ const card: Card = {
 		fr: "Quiconque mange une bouchée de l'œuf de Leuphorie devient tout de suite gentil avec tout le monde."
 	},
 
-	thirdParty: {
-		cardmarket: 274588,
-		tcgplayer: 83918
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274588,
+				tcgplayer: 83918
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274588,
+				tcgplayer: 83918
+			}
 		}
 	]
 }

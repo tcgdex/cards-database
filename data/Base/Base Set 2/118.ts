@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Draw 2 cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 274041,
-		tcgplayer: 42451
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274041,
+				tcgplayer: 42451
+			}
 		}
 	]
 }

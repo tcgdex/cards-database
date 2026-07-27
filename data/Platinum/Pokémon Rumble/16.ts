@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Bibarel",
+		en: "Bibarel"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		400,
-	],
+	dexId: [400],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Bidoof",
+		en: "Bidoof"
 	},
 
 	stage: "Stage1",
@@ -36,7 +34,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Rollout",
+				en: "Rollout"
 			},
 
 			damage: 50,
@@ -47,19 +45,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 278857
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278857,
+				tcgplayer: 83820
+			},
 		}
 	]
 }

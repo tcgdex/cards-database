@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [51],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Diglett",
-		fr: "Taupiqueur",
+		fr: "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -85,17 +83,23 @@ const card: Card = {
 		en: "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85004,
+				cardmarket: 279549
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279549,
+				tcgplayer: 85004
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279549,
-		tcgplayer: 85004
-	}
 }
 
 export default card

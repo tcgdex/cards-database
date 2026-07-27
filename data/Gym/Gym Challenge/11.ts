@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Raichu",
+		en: "Lt. Surge's Raichu"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Pikachu",
+		en: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Kerzap",
+				en: "Kerzap"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all Lightning Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -50,10 +48,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Thundertackle",
+				en: "Thundertackle"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Lt. Surge's Raichu does 20 damage to itself.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Lt. Surge's Raichu does 20 damage to itself."
 			},
 			damage: 40,
 
@@ -63,26 +61,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274279,
-		tcgplayer: 86861
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86861,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86861,
+				cardmarket: 274279
+			}
 		},
-	]
+	],
 }
 
 export default card

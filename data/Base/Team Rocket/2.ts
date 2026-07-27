@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
 	},
 
-	thirdParty: {
-		cardmarket: 274055,
-		tcgplayer: 84563
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 274055,
+				tcgplayer: 84563
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274055,
+				tcgplayer: 84563
+			}
 		}
 	]
 }

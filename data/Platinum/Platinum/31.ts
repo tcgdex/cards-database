@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		392,
-	],
+	dexId: [392],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Monferno",
-		fr: "Chimpenfeu",
+		fr: "Chimpenfeu"
 	},
 
 	stage: "Stage2",
@@ -41,11 +39,11 @@ const card: Card = {
 				de: "Rushing Flames"
 			},
 			effect: {
-				en: "Discard as many Fire Energy as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads.",
+				en: "Discard as many Fire Energy cards as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads.",
 				fr: "Défaussez autant d'Énergies Fire attachées à vos Pokémon en jeu que vous voulez. Lancez une pièce pour chaque carte Énergie défaussée. Cette attaque inflige 80 dégâts multipliés par le nombre de faces.",
 				de: "Discard as many  Energy as you like attached to your Pokémon in play. Flip a coin for each Energy card you discarded. This attack does 80 damage times the number of heads."
 			},
-			damage: "80x",
+			damage: "80×",
 
 		},
 		{
@@ -76,22 +74,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent.",
+		en: "It uses unique fighting moves with fires on its hands and feet. It will take on any opponent."
 	},
 
-	thirdParty: {
-		cardmarket: 278452,
-		tcgplayer: 86277
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86277,
+				cardmarket: 278452
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278452,
+				tcgplayer: 86277
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

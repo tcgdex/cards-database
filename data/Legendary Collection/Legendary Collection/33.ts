@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Pidgeot",
+		en: "Pidgeot"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		18,
-	],
+	dexId: [18],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Pidgeotto",
+		en: "Pidgeotto"
 	},
 
 	stage: "Stage2",
@@ -34,7 +32,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wing Attack",
+				en: "Wing Attack"
 			},
 
 			damage: 20,
@@ -47,10 +45,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane",
+				en: "Hurricane"
 			},
 			effect: {
-				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
+				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand."
 			},
 			damage: 30,
 
@@ -72,22 +70,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
-	},
-
-	thirdParty: {
-		cardmarket: 274798,
-		tcgplayer: 88028
+		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274798,
+				tcgplayer: 88028
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88028,
+				cardmarket: 274798
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Charmeleon",
+		en: "Charmeleon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		5,
-	],
+	dexId: [5],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Charmander",
+		en: "Charmander"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Slash",
+				en: "Slash"
 			},
 
 			damage: 30,
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flamethrower",
+				en: "Flamethrower"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
+				en: "Discard 1 Fire Energy card attached to Charmeleon or this attack does nothing."
 			},
 			damage: 50,
 
@@ -68,22 +66,26 @@ const card: Card = {
 
 
 	description: {
-		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
-	},
-
-	thirdParty: {
-		cardmarket: 274802,
-		tcgplayer: 84223
+		en: "When it swings its burning tail, it raises the temperature to unbearably high levels."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274802,
+				tcgplayer: 84223
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84223,
+				cardmarket: 274802
+			}
 		}
-	]
+	],
+
 }
 
 export default card

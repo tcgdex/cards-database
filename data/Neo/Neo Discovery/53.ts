@@ -59,18 +59,22 @@ const card: Card = {
 		fr: "Pour se protéger, une horrible puanteur émane de ses antennes pour repousser ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274564,
-		tcgplayer: 84133
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274564,
+				tcgplayer: 84133
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274564,
+				tcgplayer: 84133
+			}
 		}
 	]
 }

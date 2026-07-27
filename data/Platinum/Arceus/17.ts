@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [94],
 
 	hp: 120,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Haunter",
+		en: "Haunter"
 	},
 
 	stage: "Stage2",
@@ -78,22 +76,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.",
-	},
-
-	thirdParty: {
-		cardmarket: 278888,
-		tcgplayer: 85678
+		en: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85678,
+				cardmarket: 278888
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278888,
+				tcgplayer: 85678
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

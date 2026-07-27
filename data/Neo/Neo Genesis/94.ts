@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Lege Wunderbeere an ein Pokémon an, das keine Pokémon-Ausrüstung hat. Wenn zu irgendeinem Zeitpunkt zwischen den Zügen das Pokémon, an das du Wunderbeere angelegt hast, schläft, verwirrt, gelähmt oder vergiftet ist, kannst du alle diese Effekte von diesem Pokémon entfernen. Lege dann Wunderbeere ab. Wenn zu Beginn eines Zugs das Pokémon, an das du Wunderbeere angelegt hast, schläft, verwirrt, gelähmt oder ver´giftet ist, entferne alle diese Auswirkungen von diesem Pokémon und lege Wunderbeere ab."
 	},
 
-	thirdParty: {
-		cardmarket: 274494,
-		tcgplayer: 87495
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274494,
+				tcgplayer: 87495
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274494,
+				tcgplayer: 87495
+			}
 		}
 	]
 }

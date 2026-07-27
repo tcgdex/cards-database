@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		390,
-	],
+	dexId: [390],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,7 +63,6 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "Its fiery rear end is fueld by gas made in its belly. Even rain can’t extinguish the fire.",
 		fr: "La flamme de sa queue est alimentée par un gaz de son estomac. Même la pluie ne saurait l'éteindre."
@@ -73,17 +70,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84289,
+				cardmarket: 278564
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278564,
-		tcgplayer: 84289
-	}
 }
 
 export default card

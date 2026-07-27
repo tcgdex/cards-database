@@ -78,14 +78,14 @@ const card: Card = {
 		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
 	},
 
-	thirdParty: {
-		cardmarket: 273927,
-		tcgplayer: 42479
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273927,
+				tcgplayer: 42479
+			}
 		}
 	]
 }

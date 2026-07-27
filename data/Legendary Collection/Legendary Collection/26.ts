@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Jynx",
+		en: "Jynx"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [124],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,12 +27,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Doubleslap",
+				en: "Doubleslap"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -44,12 +42,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Meditate",
+				en: "Meditate"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -64,22 +62,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
-	},
-
-	thirdParty: {
-		cardmarket: 274791,
-		tcgplayer: 86371
+		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274791,
+				tcgplayer: 86371
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86371,
+				cardmarket: 274791
+			}
 		}
-	]
+	],
+
 }
 
 export default card

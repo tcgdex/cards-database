@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 130,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Flaaffy",
-		fr: "Lainergie",
+		fr: "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Each Pokémon that has any damage counters on it (both yours and your opponent's) can't use any Poké-Powers.",
 				fr: "Chaque Pokémon possédant des marqueurs de dégâts (les vôtres et ceux de votre adversaire) ne peut pas utiliser de Poké-Powers.",
 				de: "Pokémon (deine und die deines Gegners), auf denen mindestens 1 Schadensmarke liegt, können keine Poké-Power benutzen."
-			},
+			}
 		},
 	],
 
@@ -102,19 +100,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278422,
-		tcgplayer: 83543
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 83543,
+				cardmarket: 278422
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278422,
+				tcgplayer: 83543
+			}
 		}
-	]
+	],
+
 }
 
 export default card

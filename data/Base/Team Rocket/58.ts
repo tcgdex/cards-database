@@ -75,18 +75,22 @@ const card: Card = {
 		fr: "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout."
 	},
 
-	thirdParty: {
-		cardmarket: 274111,
-		tcgplayer: 86491
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274111,
+				tcgplayer: 86491
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274111,
+				tcgplayer: 86491
+			}
 		}
 	]
 }

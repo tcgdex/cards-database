@@ -19,18 +19,22 @@ const card: Card = {
 		de: "During your opponent´s turn, if the Pokémon Counterattack Claws is attached to is your Active Pokémon and an opponent´s attack damage it (even if it is Knocked Out), flip a coin. If heads, put 2 damage counters on the Defending Pokémon. Then, discard Counterattack Claws."
 	},
 
-	thirdParty: {
-		cardmarket: 274749,
-		tcgplayer: 84448
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274749,
+				tcgplayer: 84448
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274749,
+				tcgplayer: 84448
+			}
 		}
 	]
 }

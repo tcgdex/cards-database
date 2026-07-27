@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
+		en: "Rattata"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				en: "Bite"
 			},
 
 			damage: 20,
@@ -52,22 +50,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
-	},
-
-	thirdParty: {
-		cardmarket: 274854,
-		tcgplayer: 88612
+		en: "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274854,
+				tcgplayer: 88612
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88612,
+				cardmarket: 274854
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

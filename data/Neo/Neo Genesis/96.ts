@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck. Ziehe dann sieben Karten. Du kannst in diesem Zug keine weiteren Trainerkarten mehr spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 274496,
-		tcgplayer: 88388
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274496,
+				tcgplayer: 88388
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274496,
+				tcgplayer: 88388
+			}
 		}
 	]
 }

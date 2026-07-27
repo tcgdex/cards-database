@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Sandshrew",
+		en: "Sandshrew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		27,
-	],
+	dexId: [27],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Sand",
+				en: "Sand-attack"
 			},
 			effect: {
-				en: "If defender tries to attack during opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
 			},
 			damage: 10,
 
@@ -56,22 +54,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Burrow deep underground in arid locations far from water. It only emerges to hunt for food.",
-	},
-
-	thirdParty: {
-		cardmarket: 274856,
-		tcgplayer: 88920
+		en: "Burrow deep underground in arid locations far from water. It only emerges to hunt for food."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274856,
+				tcgplayer: 88920
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88920,
+				cardmarket: 274856
+			}
 		}
-	]
+	],
+
 }
 
 export default card

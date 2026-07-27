@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		179,
-	],
+	dexId: [179],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+		en: "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking."
 	},
 
-	thirdParty: {
-		cardmarket: 278503,
-		tcgplayer: 87203
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87203,
+				cardmarket: 278503
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278503,
+				tcgplayer: 87203
+			}
 		}
-	]
+	],
+
 }
 
 export default card

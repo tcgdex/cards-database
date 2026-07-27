@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Parfois, ces Pokémon sont devenus des fossiles en voulant se cacher au fond de l'océan."
 	},
 
-	thirdParty: {
-		cardmarket: 274567,
-		tcgplayer: 86383
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274567,
+				tcgplayer: 86383
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274567,
+				tcgplayer: 86383
+			}
 		}
 	]
 }

@@ -21,23 +21,31 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278533,
-		tcgplayer: 88178
-	},
-
-	variants:[
-		{
-			type:"normal"
-		},
-		{
-			type:"reverse"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88178,
+				cardmarket: 278533
+			}
 		},
 		{
 			type:"reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 278533,
+				tcgplayer: 88178
+			}
+		},
+		{
+			type:"reverse",
+			foil: "player-reward",
+			thirdParty: {
+				cardmarket: 278533,
+				tcgplayer: 123186
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

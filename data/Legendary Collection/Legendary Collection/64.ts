@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Snorlax",
+		en: "Snorlax"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Thick Skinned",
+				en: "Thick Skinned"
 			},
 			effect: {
-				en: "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
-			},
+				en: "Snorlax can't become Asleep, Confused, Paralyzed, Poisoned, or Burned. This power stops working while Snorlax is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -44,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Body Slam",
+				en: "Body Slam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -71,22 +69,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
-	},
-
-	thirdParty: {
-		cardmarket: 274829,
-		tcgplayer: 89386
+		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274829,
+				tcgplayer: 89386
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89386,
+				cardmarket: 274829
+			}
 		}
-	]
+	],
+
 }
 
 export default card

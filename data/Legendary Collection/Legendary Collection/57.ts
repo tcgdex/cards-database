@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Omanyte",
+		en: "Omanyte"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,27 +11,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		138,
-	],
+	dexId: [138],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Clairvoyance",
+				en: "Clairvoyance"
 			},
 			effect: {
-				en: "Your opponent plays with his or her hand face up. This power stops working while Omanyte is Asleep, Confused, or Paralyzed.",
-			},
+				en: "Your opponent plays with his or her hand face up. This power stops working while Omanyte is affected by a Special Condition."
+			}
 		},
 	],
 
@@ -41,12 +39,12 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Water Gun",
+				en: "Water Gun"
 			},
 			effect: {
-				en: "Does 10 damage plus 10 more damage for each Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -61,22 +59,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
-	},
-
-	thirdParty: {
-		cardmarket: 274822,
-		tcgplayer: 87855
+		en: "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274822,
+				tcgplayer: 87855
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87855,
+				cardmarket: 274822
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Tentacruel",
+		en: "Tentacruel"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		73,
-	],
+	dexId: [73],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Tentacool",
+		en: "Tentacool"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Supersonic",
+				en: "Supersonic"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Confused."
 			},
 
 		},
@@ -46,10 +44,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Jellyfish Sting",
+				en: "Jellyfish Sting"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Poisoned.",
+				en: "The Defending Pokémon is now Poisoned."
 			},
 			damage: 10,
 
@@ -64,22 +62,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "The tentacles are normally kept short. On hunts, the are extended to ensnare and immobilize prey.",
-	},
-
-	thirdParty: {
-		cardmarket: 274831,
-		tcgplayer: 89874
+		en: "The tentacles are normally kept short. On hunts, the are extended to ensnare and immobilize prey."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274831,
+				tcgplayer: 89874
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89874,
+				cardmarket: 274831
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

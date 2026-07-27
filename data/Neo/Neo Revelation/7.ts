@@ -106,18 +106,22 @@ const card: Card = {
 		fr: "Selon la légende, ce Pokémon traverse constamment le ciel, porté par ses magnifiques ailes aux couleurs de l'arc-en-ciel."
 	},
 
-	thirdParty: {
-		cardmarket: 274593,
-		tcgplayer: 86118
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86118
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86118
+			}
 		}
 	]
 }

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Rugissement"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés par des attaques au Pokémon Défenseur sont réduits de 20 (avant application de la Faiblesse et de la Résistance)."
 			},
 
@@ -64,14 +62,12 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
 		fr: "Si les poches électriques de ses joues crépitent, c'est qu'il est sur ses gardes."
@@ -79,17 +75,20 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88092,
+				cardmarket: 278566
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["pokemon-day"],
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278566,
-		tcgplayer: 88092
-	}
 }
 
 export default card

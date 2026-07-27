@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		310,
-	],
+	dexId: [310],
 	
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
-		en: "Electrike",
+		en: "Electrike"
 	},
 
 	stage: "Stage1",
@@ -79,22 +77,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
-	},
-
-	thirdParty: {
-		cardmarket: 278894,
-		tcgplayer: 87163
+		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87163,
+				cardmarket: 278894
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278894,
+				tcgplayer: 87163
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

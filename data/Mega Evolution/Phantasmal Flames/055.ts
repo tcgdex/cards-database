@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Haunter"
 	},
 
+	evolveFrom: {
+		en: "Gastly",
+		fr: "Fantominus",
+		es: "Gastly",
+		'es-mx': "Gastly",
+		de: "Nebulak",
+		it: "Gastly",
+		pt: "Gastly",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

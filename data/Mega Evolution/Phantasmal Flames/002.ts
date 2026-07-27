@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Gloom"
 	},
 
+	evolveFrom: {
+		en: "Oddish",
+		fr: "Mystherbe",
+		es: "Oddish",
+		'es-mx': "Oddish",
+		de: "Myrapla",
+		it: "Oddish",
+		pt: "Oddish",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

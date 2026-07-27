@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		316,
-	],
+	dexId: [316],
 	
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -64,22 +62,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
-	},
-
-	thirdParty: {
-		cardmarket: 278912,
-		tcgplayer: 85979
+		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85979,
+				cardmarket: 278912
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278912,
+				tcgplayer: 85979
+			}
+		},
+	],
+
 }
 
 export default card

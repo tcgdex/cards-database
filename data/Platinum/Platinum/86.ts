@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		261,
-	],
+	dexId: [261],
 
 	hp: 50,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted.",
+		en: "A Pokémon with persistent nature, it chases its prey until the prey becomes exhausted."
 	},
 
-	thirdParty: {
-		cardmarket: 278507,
-		tcgplayer: 88301
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88301,
+				cardmarket: 278507
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278507,
+				tcgplayer: 88301
+			}
 		}
-	]
+	],
+
 }
 
 export default card

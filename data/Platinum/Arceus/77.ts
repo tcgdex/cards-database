@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		114,
-	],
+	dexId: [114],
 	
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -75,22 +73,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
-	},
-
-	thirdParty: {
-		cardmarket: 278948,
-		tcgplayer: 89747
+		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89747,
+				cardmarket: 278948
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278948,
+				tcgplayer: 89747
+			}
+		},
+	],
+
 }
 
 export default card

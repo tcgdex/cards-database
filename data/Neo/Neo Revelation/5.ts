@@ -66,18 +66,22 @@ const card: Card = {
 		fr: "Il transporte des victuailles toute la journée. On raconte que des gens perdus ont été sauvés grâce à ses réserves de nourriture."
 	},
 
-	thirdParty: {
-		cardmarket: 274591,
-		tcgplayer: 84745
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274591,
+				tcgplayer: 84745
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274591,
+				tcgplayer: 84745
+			}
 		}
 	]
 }

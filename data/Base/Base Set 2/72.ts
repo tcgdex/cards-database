@@ -57,14 +57,14 @@ const card: Card = {
 		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
 	},
 
-	thirdParty: {
-		cardmarket: 273995,
-		tcgplayer: 42492
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273995,
+				tcgplayer: 42492
+			}
 		}
 	]
 }

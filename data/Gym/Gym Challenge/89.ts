@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Poliwag",
+		en: "Misty's Poliwag"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		60,
-	],
+	dexId: [60],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubbles",
+				en: "Bubbles"
 			},
 			effect: {
-				en: "Flip a coin. If tails, you can't use this attack during your next turn.",
+				en: "Flip a coin. If tails, you can't use this attack during your next turn."
 			},
 			damage: 20,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Amnesia",
+				en: "Amnesia"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
 			},
 
 		},
@@ -55,26 +53,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274357,
-		tcgplayer: 87536
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87536,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87536,
+				cardmarket: 274357
+			}
 		},
-	]
+	],
 }
 
 export default card
