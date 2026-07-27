@@ -1,12 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ガラル サンダー",
 		'zh-tw': "伽勒爾 閃電鳥",
-		ja: "ガラル サンダー"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -15,49 +14,58 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
+		ja: "ひと蹴りで ダンプカーを 粉々に する 脚力を もつ。 時速 ３００キロで 山を 駆けるという。",
 		'zh-tw': "擁有能夠一腳踢毀砂石車的強勁腳力。據說能以時速３００公里在山中奔跑。",
-		ja: "ひと蹴りで ダンプカーを 粉々に する 脚力を もつ。 時速 ３００キロで 山を 駆けるという。"
 	},
 
 	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "健腳充能",
-			ja: "けんきゃくチャージ"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "けんきゃくチャージ",
+				'zh-tw': "健腳充能",
+			},
+			effect: {
+				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札から[闘]エネルギーを2枚まで選び、このポケモンにつける。",
+				'zh-tw': "在自己的回合，當從手牌將這張卡放置於備戰區時，可使用1次。從自己的手牌選擇最多2張【鬥】能量卡，附於這隻寶可夢身上。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合，當從手牌將這張卡放置於備戰區時，可使用1次。從自己的手牌選擇最多2張【鬥】能量卡，附於這隻寶可夢身上。",
-			ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札からエネルギーを2枚まで選び、このポケモンにつける。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "閃踢",
-			ja: "ザッパーキック"
+	attacks: [
+		{
+			name: {
+				ja: "ザッパーキック",
+				'zh-tw': "閃踢",
+			},
+			damage: 70,
+			cost: ["Fighting", "Fighting", "Colorless"],
+			effect: {
+				ja: "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、相手のバトルポケモンをマヒにする。",
+				'zh-tw': "若希望，將這隻寶可夢身上附加的能量全部丟棄。這個情況下，將對手的戰鬥寶可夢【麻痺】。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若希望，將這隻寶可夢身上附加的能量全部丟棄。這個情況下，將對手的戰鬥寶可夢【麻痺】。",
-			ja: "のぞむなら、このポケモンについているエネルギーを、すべてトラッシュする。その場合、相手のバトルポケモンをマヒにする。"
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687750,
+				tcgplayer: 571726,
+			},
 		},
-
-		damage: 70,
-		cost: ["Fighting", "Fighting", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	],
 
 	retreat: 0,
 	regulationMark: "E",
-	dexId: [145]
-}
+	rarity: "Illustration rare",
+	dexId: [145],
+};
 
-export default card
+export default card;
