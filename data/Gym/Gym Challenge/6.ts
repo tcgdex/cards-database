@@ -3,39 +3,37 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Machamp",
+		en: "Giovanni's Machamp"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Machoke",
+		en: "Machoke"
 	},
 
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Fortitude",
+				en: "Fortitude"
 			},
 			effect: {
-				en: "If Giovanni's Machamp would be Knocked Out by an opponent's attack, flip a coin. If heads, Giovanni's Machamp is not Knocked Out and its remaining HP become 10 instead. This power can't be used if Giovanni's Machamp is already Asleep, Confused, or Paralyzed.",
-			},
+				en: "If Giovanni's Machamp would be Knocked Out by an opponent's attack, flip a coin. If heads, Giovanni's Machamp is not Knocked Out and its remaining HP become 10 instead. This power can't be used if Giovanni's Machamp is already Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -48,12 +46,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Hurricane Punch",
+				en: "Hurricane Punch"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip 4 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 	],
@@ -61,26 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274274,
-		tcgplayer: 85712
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85712,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85712,
+				cardmarket: 274274
+			}
 		},
-	]
+	],
 }
 
 export default card

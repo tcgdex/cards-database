@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "La nuit, la pointe de sa queue est visible à des kilomètres à la ronde, même pour les bateaux qui naviguent au large."
 	},
 
-	thirdParty: {
-		cardmarket: 274653,
-		tcgplayer: 84561
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274653,
+				tcgplayer: 84561
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274653,
+				tcgplayer: 84561
+			}
 		}
 	]
 }

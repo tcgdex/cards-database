@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -66,17 +64,16 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train.",
+		en: "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train."
 	},
 
-	thirdParty: {
-		cardmarket: 278550,
-		tcgplayer: 86094
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 86094,
+				cardmarket: 278550
+			}
 		}
 	]
 }

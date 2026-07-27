@@ -87,18 +87,22 @@ const card: Card = {
 		fr: "Il élabore des plans complexes avec ses trois cerveaux. Une de ses têtes reste toujours éveillée."
 	},
 
-	thirdParty: {
-		cardmarket: 273831,
-		tcgplayer: 45137
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273831,
+				tcgplayer: 45137
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273831,
+				tcgplayer: 45137
+			}
 		}
 	],
 }

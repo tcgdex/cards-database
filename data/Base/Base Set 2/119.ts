@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 	},
 
-	thirdParty: {
-		cardmarket: 274042,
-		tcgplayer: 42452
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274042,
+				tcgplayer: 42452
+			}
 		}
 	]
 }

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		487,
-	],
+	dexId: [487],
 
 	hp: 110,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -78,26 +76,32 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World."
 	},
 
-	thirdParty: {
-		cardmarket: 278430,
-		tcgplayer: 85734
-	},
-
-	variants: [
-		{
-			type: "normal"
+	variants: [		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85734,
+				cardmarket: 278430
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125078
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278430,
+				tcgplayer: 85734
+			}
 		}
-	]
+	],
+
 }
 
 export default card

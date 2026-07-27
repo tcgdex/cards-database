@@ -87,18 +87,22 @@ const card: Card = {
 		fr: "Son sens aiguisé de l'odorat détecte la moindre odeur, même celle de la nourriture quand elle est enfouie profondément."
 	},
 
-	thirdParty: {
-		cardmarket: 274673,
-		tcgplayer: 84663
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274673,
+				tcgplayer: 84663
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274673,
+				tcgplayer: 84663
+			}
 		}
 	]
 }

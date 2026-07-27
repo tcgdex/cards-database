@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		74,
-	],
+	dexId: [74],
 	
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -59,22 +57,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
-	},
-
-	thirdParty: {
-		cardmarket: 278937,
-		tcgplayer: 85693
+		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85693,
+				cardmarket: 278937
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278937,
+				tcgplayer: 85693
+			}
+		},
+	],
+
 }
 
 export default card

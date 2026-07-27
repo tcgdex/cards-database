@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		260,
-	],
+	dexId: [260],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Natürliche Heilung"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), when you attach a Water Energy from your hand to Swampert, remove 1 damage counter from Swampert.",
+				en: "Once during your turn (before your attack), when you attach a Water Energy card from your hand to Swampert, remove 1 damage counter from Swampert.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie  de votre main à Laggron, retirez-lui un marqueur de dégât.",
 				de: "Einmal in deinem Zug (vor deinem Angriff), wenn du eine -Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
-			},
+			}
 		},
 	],
 
@@ -90,19 +88,24 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275671,
-		tcgplayer: 89676
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275671,
+				tcgplayer: 89676
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275671,
+				tcgplayer: 89676
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		436,
-	],
+	dexId: [436],
 	
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
-	},
-
-	thirdParty: {
-		cardmarket: 278906,
-		tcgplayer: 84005
+		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84005,
+				cardmarket: 278906
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278906,
+				tcgplayer: 84005
+			}
+		},
+	],
+
 }
 
 export default card

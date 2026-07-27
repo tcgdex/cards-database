@@ -3,22 +3,20 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Mankey",
+		en: "Mankey"
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
-	hp: 30,
+	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mischief",
+				en: "Mischief"
 			},
 			effect: {
-				en: "Shuffle your opponent's deck.",
+				en: "Shuffle your opponent's deck."
 			},
 
 		},
@@ -42,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Anger",
+				en: "Anger"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more; if tails, this attack does 20 damage.",
+				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -60,22 +58,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Normally friendly, it quickly becomes angry if it doesn't get what it wants.",
-	},
-
-	thirdParty: {
-		cardmarket: 274846,
-		tcgplayer: 87171
+		en: "Normally friendly, it quickly becomes angry if it doesn't get what it wants."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274846,
+				tcgplayer: 87171
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87171,
+				cardmarket: 274846
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

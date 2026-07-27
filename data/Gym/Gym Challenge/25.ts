@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Arbok",
+		en: "Koga's Arbok"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		24,
-	],
+	dexId: [24],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Ekans",
+		en: "Ekans"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Buildup",
+				en: "Poison Buildup"
 			},
 			effect: {
-				en: "Koga's Arbok is now Poisoned.",
+				en: "Koga's Arbok is now Poisoned."
 			},
 
 		},
@@ -46,10 +44,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Powder",
+				en: "Poison Power"
 			},
 			effect: {
-				en: "If Koga's Arbok is Poisoned, this attack's base damage is 40 instead of 20 and the Defending Pokémon is now Poisoned.",
+				en: "If Koga's Arbok is Poisoned, this attack's base damage is 40 instead of 20 and the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -58,26 +56,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274293,
-		tcgplayer: 86504
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86504,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86504,
+				cardmarket: 274293
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Weavile"
 	},
 
+	evolveFrom: {
+		en: "Sneasel",
+		fr: "Farfuret",
+		es: "Sneasel",
+		'es-mx': "Sneasel",
+		de: "Sniebel",
+		it: "Sneasel",
+		pt: "Sneasel",
+	},
+
 	illustrator: "aspara",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -87,7 +97,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870209,
+			cardmarket: 870210,
 			tcgplayer: 676889
 		}
 	},
@@ -95,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870210,
+			cardmarket: 870209,
 			tcgplayer: 677029
 		}
 	},

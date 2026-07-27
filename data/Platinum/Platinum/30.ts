@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 110,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Dwindling Wave"
 			},
 			effect: {
-				en: "Does 100 damage minus 10 damage for each damage counter on Gyarados .",
+				en: "Does 100 damage minus 10 damage for each damage counter on Gyarados G.",
 				fr: "Inflige 100 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Leviator .",
 				de: "Does 100 damage minus 10 damage for each damage counter on Gyarados G."
 			},
@@ -76,19 +74,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278451,
-		tcgplayer: 86005
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86005,
+				cardmarket: 278451
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278451,
+				tcgplayer: 86005
+			}
 		}
-	]
+	],
+
 }
 
 export default card

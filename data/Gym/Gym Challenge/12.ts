@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Misty's Golduck",
+		en: "Misty's Golduck"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		55,
-	],
+	dexId: [55],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Psyduck",
+		en: "Psyduck"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Electro Beam",
+				en: "Electro Beam"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck.",
+				en: "Flip a coin. If tails, discard all Energy cards attached to Misty's Golduck."
 			},
 			damage: 40,
 
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Removal",
+				en: "Super Removal"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards.",
+				en: "Flip a coin. If heads, choose 1 Energy card attached to each of your opponent's Pokémon that has any Energy cards and discard those Energy cards."
 			},
 
 		},
@@ -60,26 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274280,
-		tcgplayer: 87530
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87530,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87530,
+				cardmarket: 274280
+			}
 		},
-	]
+	],
 }
 
 export default card

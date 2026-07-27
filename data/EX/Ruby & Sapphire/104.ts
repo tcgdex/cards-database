@@ -15,27 +15,41 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 275752,
-		tcgplayer: 85874
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275752,
+				tcgplayer: 85874
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275752,
+				tcgplayer: 85874
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 215767
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 176627
+			}
 		}
-	]
+	],
+
+	types: [
+		"Grass"
+	],
+	retreat: 0
 }
 
 export default card

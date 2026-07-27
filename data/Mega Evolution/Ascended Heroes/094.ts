@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Slurpuff"
 	},
 
+	evolveFrom: {
+		en: "Swirlix",
+		fr: "Sucroquin",
+		es: "Swirlix",
+		'es-mx': "Swirlix",
+		de: "Flauschling",
+		it: "Swirlix",
+		pt: "Swirlix",
+	},
+
 	illustrator: "Natsumi Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -77,7 +87,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "loveball",
 		thirdParty: {
-			cardmarket: 870283,
+			cardmarket: 870284,
 			tcgplayer: 676926
 		}
 	},
@@ -85,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870284,
+			cardmarket: 870283,
 			tcgplayer: 677066
 		}
 	},

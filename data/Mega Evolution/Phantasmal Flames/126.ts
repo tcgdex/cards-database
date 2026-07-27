@@ -81,7 +81,7 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	illustrator: "5ban Graphics",
+	illustrator: "Yoshimi Miyoshi",
 	variants: [
 		{
 			type: 'holo',

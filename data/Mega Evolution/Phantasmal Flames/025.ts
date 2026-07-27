@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mamoswine"
 	},
 
+	evolveFrom: {
+		en: "Piloswine",
+		fr: "Cochignon",
+		es: "Piloswine",
+		'es-mx': "Piloswine",
+		de: "Keifel",
+		it: "Piloswine",
+		pt: "Piloswine",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

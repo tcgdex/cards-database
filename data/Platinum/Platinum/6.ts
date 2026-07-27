@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Dialga is your Active Pokémon, your opponent can't play any Pokémon from his or her hand to evolve his or her Active Pokémon.",
 				fr: "Tant que Dialga est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer son Pokémon Actif.",
 				de: "As long as Dialga is your Active Pokémon, your opponent can't play any Pokémon from his or her hand to evolve his or her Active Pokémon."
-			},
+			}
 		},
 	],
 
@@ -81,22 +79,26 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
 	},
 
-	thirdParty: {
-		cardmarket: 278426,
-		tcgplayer: 84803
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 84803,
+				cardmarket: 278426
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278426,
+				tcgplayer: 84803
+			}
 		}
-	]
+	],
+
 }
 
 export default card

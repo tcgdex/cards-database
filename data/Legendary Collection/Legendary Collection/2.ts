@@ -3,22 +3,20 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Articuno",
+		en: "Articuno"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		144,
-	],
+	dexId: [144],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,10 +29,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Freeze Dry",
+				en: "Freeze Dry"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -47,10 +45,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Blizzard",
+				en: "Blizzard"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 50,
 
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
-	},
-
-	thirdParty: {
-		cardmarket: 274767,
-		tcgplayer: 83643
+		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274767,
+				tcgplayer: 83643
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83643,
+				cardmarket: 274767
+			}
 		}
-	]
+	],
+
 }
 
 export default card

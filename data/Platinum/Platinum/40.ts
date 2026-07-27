@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		454,
-	],
+	dexId: [454],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -35,10 +33,10 @@ const card: Card = {
 				de: "Anticipation"
 			},
 			effect: {
-				en: "Prevent all effects of attacks, excluding damage, done to Toxicroak .",
+				en: "Prevent all effects of attacks, excluding damage, done to Toxicroak G.",
 				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Coatox .",
 				de: "Prevent all effects of attacks, excluding damage, done to Toxicroak G."
-			},
+			}
 		},
 	],
 
@@ -72,23 +70,29 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278461,
-		tcgplayer: 90012
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90012,
+				cardmarket: 278461
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278461,
+				tcgplayer: 90012
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479964
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Butterfree",
+		en: "Butterfree"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		12,
-	],
+	dexId: [12],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Metapod",
+		en: "Metapod"
 	},
 
 	stage: "Stage2",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlwind",
+				en: "Whirlwind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)"
 			},
 			damage: 20,
 
@@ -50,10 +48,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Mega Drain",
+				en: "Mega Drain"
 			},
 			effect: {
-				en: "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10).",
+				en: "Remove a number of damage counters from Butterfree equal of half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Butterfree has fewer damage counters that that, remove all of them."
 			},
 			damage: 40,
 
@@ -75,22 +73,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
-	},
-
-	thirdParty: {
-		cardmarket: 274786,
-		tcgplayer: 84062
+		en: "In battle, it flaps its wings at high speed to release highly toxic dust into the air."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274786,
+				tcgplayer: 84062
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84062,
+				cardmarket: 274786
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

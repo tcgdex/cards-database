@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Squirtle",
+		en: "Squirtle"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		7,
-	],
+	dexId: [7],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Bubble",
+				en: "Bubble"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -43,10 +41,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Withdraw",
+				en: "Withdraw"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)",
+				en: "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -62,22 +60,26 @@ const card: Card = {
 
 
 	description: {
-		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
-	},
-
-	thirdParty: {
-		cardmarket: 274860,
-		tcgplayer: 89485
+		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274860,
+				tcgplayer: 89485
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89485,
+				cardmarket: 274860
+			}
 		}
-	]
+	],
+
 }
 
 export default card

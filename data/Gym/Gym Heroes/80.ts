@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Magnemite",
+		en: "Lt. Surge's Magnemite"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thundershock",
+				en: "Thundershock"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 10,
 
@@ -43,7 +41,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Tackle",
+				en: "Tackle"
 			},
 
 			damage: 20,
@@ -54,26 +52,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274153,
-		tcgplayer: 86857
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86857,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86857,
+				cardmarket: 274153
+			}
 		}
-	]
+	],
 }
 
 export default card

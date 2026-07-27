@@ -3,19 +3,17 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Nidoran♀",
+		en: "Giovanni's Nidoran ♀"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		29,
-	],
+	dexId: [29],
 	hp: 50,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -27,10 +25,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Horn Thrust",
+				en: "Horn Thrust"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -40,10 +38,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double-edge",
+				en: "Double-edge"
 			},
 			effect: {
-				en: "Giovanni's Nidoran F does 20 damage to itself.",
+				en: "Giovanni's Nidoran ♀ does 20 damage to itself."
 			},
 			damage: 30,
 
@@ -52,7 +50,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -60,13 +58,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85720,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			thirdParty: {
+				tcgplayer: 85720
+			}
 		},
-	]
+	],
 }
 
 export default card

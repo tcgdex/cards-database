@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Honchkrow da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Murkrow",
+		fr: "Cornèbre de la Team Rocket",
+		es: "Murkrow del Team Rocket",
+		'es-mx': "Murkrow del Equipo Rocket",
+		de: "Team Rockets Kramurx",
+		it: "Murkrow del Team Rocket",
+		pt: "Murkrow da Equipe Rocket",
+	},
+
 	illustrator: "hncl",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -92,7 +102,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870335,
+			cardmarket: 870336,
 			tcgplayer: 677092
 		}
 	},
@@ -100,7 +110,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "team-rocket",
 		thirdParty: {
-			cardmarket: 870336,
+			cardmarket: 870335,
 			tcgplayer: 676952
 		}
 	},

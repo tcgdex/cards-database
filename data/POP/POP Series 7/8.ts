@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		281,
-	],
+	dexId: [281],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -55,7 +53,7 @@ const card: Card = {
 				fr: "Télékinésie"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 40 damage to that Pokémon. This attack’s damage isn’t affected by Weakness or Resistance.",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
 			},
 
@@ -68,24 +66,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
 		en: "It is highly perceptive of its Trainer’s feelings. It dances when it is feeling happy."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86467,
+				cardmarket: 278040
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86467,
+				cardmarket: 278040
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278040,
-		tcgplayer: 86467
-	}
 }
 
 export default card

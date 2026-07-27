@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Cherrim",
+		en: "Cherrim"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		421,
-	],
+	dexId: [421],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Cherubi",
+		en: "Cherubi"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Solarbeam",
+				en: "Solarbeam"
 			},
 
 			damage: 60,
@@ -46,10 +44,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
@@ -59,13 +56,13 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 278843
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278843,
+				tcgplayer: 84256
+			}
 		}
 	]
 }

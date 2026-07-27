@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Erika's Venusaur",
+		en: "Erika's Venusaur"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [3],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Ivysaur",
+		en: "Ivysaur"
 	},
 
 	stage: "Stage2",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Growth",
+				en: "Growth"
 			},
 			effect: {
-				en: "Flip a coin. If heads, you may attach up to 2 Energy cards from your hand to Erika's Venusaur.",
+				en: "Flip a coin. If heads, you may attach up to 2 Grass Energy cards from your hand to Erika's Venusaur."
 			},
 
 		},
@@ -48,10 +46,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Wide Solarbeam",
+				en: "Wide Solarbeam"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she has only 1). This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she only has 1). This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -61,26 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274272,
-		tcgplayer: 85307
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85307,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85307,
+				cardmarket: 274272
+			}
 		},
-	]
+	],
 }
 
 export default card

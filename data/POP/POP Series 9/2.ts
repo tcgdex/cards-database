@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		490,
-	],
+	dexId: [490],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -48,7 +46,7 @@ const card: Card = {
 				fr: "Eau scintillante"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon.",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Remove from Manaphy the number of damage counters equal to the damage you did to that Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Ensuite, retirez à Manaphy autant de marqueurs de dégât que vous avez infligé de dégâts à ce Pokémon."
 			}
 
@@ -61,7 +59,6 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
@@ -69,17 +66,23 @@ const card: Card = {
 		fr: "Il est né avec le pouvoir incroyable de créer des liens avec n'importe quel Pokémon."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87147,
+				cardmarket: 278553
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87147,
+				cardmarket: 278553
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278553,
-		tcgplayer: 87147
-	}
 }
 
 export default card

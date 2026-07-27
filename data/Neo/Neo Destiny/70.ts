@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Il est né dans les profondeurs de la terre et il doit creuser pour sortir à l'air libre."
 	},
 
-	thirdParty: {
-		cardmarket: 274722,
-		tcgplayer: 86633
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274722,
+				tcgplayer: 86633
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274722,
+				tcgplayer: 86633
+			}
 		}
 	]
 }

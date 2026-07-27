@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Arcanine",
+		en: "Blaine's Arcanine"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Growlithe",
+		en: "Growlithe"
 	},
 
 	stage: "Stage1",
@@ -35,10 +33,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Heat Tackle",
+				en: "Heat Tackle"
 			},
 			effect: {
-				en: "Blaine's Arcanine does 10 damage to itself.",
+				en: "Blaine's Arcanine does 10 damage to itself."
 			},
 			damage: 40,
 
@@ -51,10 +49,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Firestorm",
+				en: "Firestorm"
 			},
 			effect: {
-				en: "Discard 3 Energy cards attached to Blaine's Arcanine in order to use this attack.",
+				en: "Discard 3 Fire Energy cards attached to Blaine's Arcanine in order to use this attack."
 			},
 			damage: 120,
 
@@ -64,26 +62,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274269,
-		tcgplayer: 83860
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83860,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83860,
+				cardmarket: 274269
+			}
 		},
-	]
+	],
 }
 
 export default card

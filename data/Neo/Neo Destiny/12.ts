@@ -84,18 +84,22 @@ const card: Card = {
 		fr: "Ce légendaire Pokémon chinois est facilement reconnaissable de par sa grande crinière."
 	},
 
-	thirdParty: {
-		cardmarket: 274664,
-		tcgplayer: 86734
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274664,
+				tcgplayer: 86734
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274664,
+				tcgplayer: 86734
+			}
 		}
 	]
 }

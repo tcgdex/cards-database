@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Dewgong"
 	},
 
+	evolveFrom: {
+		en: "Seel",
+		fr: "Otaria",
+		es: "Seel",
+		'es-mx': "Seel",
+		de: "Jurob",
+		it: "Seel",
+		pt: "Seel",
+	},
+
 	illustrator: "Yoshioka",
 	rarity: "Rare",
 	category: "Pokemon",

@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy",
+		en: "Psychic Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,19 +13,24 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274399,
-		tcgplayer: 88416
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88416,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88416,
+				cardmarket: 274399
+			}
 		},
+	],
+	types: [
+		"Psychic"
 	]
 }
 

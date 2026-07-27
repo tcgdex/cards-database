@@ -86,20 +86,24 @@ const card: Card = {
 		fr: "Une fois son adversaire mordu, il absorbera son énergie même s'il devient trop gros pour voler."
 	},
 
-	thirdParty: {
-		cardmarket: 273895,
-		tcgplayer: 44436
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273895,
+				tcgplayer: 44436
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273895,
+				tcgplayer: 44436
+			}
 		},
 		{
 			type: "normal",

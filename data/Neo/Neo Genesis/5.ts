@@ -80,18 +80,22 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-	thirdParty: {
-		cardmarket: 274404,
-		tcgplayer: 85413
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274404,
+				tcgplayer: 85413
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274404,
+				tcgplayer: 85413
+			}
 		}
 	]
 }

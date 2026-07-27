@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Brock's Primeape",
+		en: "Brock's Primeape"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,31 +11,29 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		57,
-	],
+	dexId: [57],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Mankey",
+		en: "Mankey"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Scram",
+				en: "Scram"
 			},
 			effect: {
-				en: "If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed.",
-			},
+				en: "If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed."
+			}
 		},
 	],
 
@@ -47,10 +45,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Mega Thrash",
+				en: "Mega Thrash"
 			},
 			effect: {
-				en: "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it.",
+				en: "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it."
 			},
 			damage: 60,
 
@@ -60,26 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274303,
-		tcgplayer: 83976
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83976,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83976,
+				cardmarket: 274303
+			}
 		},
-	]
+	],
 }
 
 export default card

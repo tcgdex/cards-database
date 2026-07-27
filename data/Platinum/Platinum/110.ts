@@ -21,23 +21,30 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	thirdParty: {
-		cardmarket: 278531,
-		tcgplayer: 87306
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87306,
+				cardmarket: 278531
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278531,
+				tcgplayer: 87306
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				tcgplayer: 479918
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

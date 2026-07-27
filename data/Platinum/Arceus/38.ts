@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		253,
-	],
+	dexId: [253],
 	
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Treecko",
+		en: "Treecko"
 	},
 
 	stage: "Stage1",
@@ -75,22 +73,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
-	},
-
-	thirdParty: {
-		cardmarket: 278910,
-		tcgplayer: 85943
+		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85943,
+				cardmarket: 278910
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278910,
+				tcgplayer: 85943
+			}
+		},
+	],
+
 }
 
 export default card

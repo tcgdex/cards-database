@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Charmeleon"
 	},
 
+	evolveFrom: {
+		en: "Charmander",
+		fr: "Salamèche",
+		es: "Charmander",
+		'es-mx': "Charmander",
+		de: "Glumanda",
+		it: "Charmander",
+		pt: "Charmander",
+	},
+
 	illustrator: "Julie Hang",
 	rarity: "Uncommon",
 	category: "Pokemon",
@@ -63,7 +73,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "friendball",
 		thirdParty: {
-			cardmarket: 870171,
+			cardmarket: 870172,
 			tcgplayer: 676870
 		}
 	},
@@ -71,7 +81,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870172,
+			cardmarket: 870171,
 			tcgplayer: 677010
 		}
 	},

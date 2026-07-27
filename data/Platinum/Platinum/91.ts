@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		447,
-	],
+	dexId: [447],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -67,30 +65,39 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves."
 	},
 
-	thirdParty: {
-		cardmarket: 278512,
-		tcgplayer: 88756
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88756,
+				cardmarket: 278512
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278512,
+				tcgplayer: 88756
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["comic-con"]
+			stamp: ["comic-con"],
+			thirdParty: {
+				tcgplayer: 238865
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["comic-con","staff"]
+			stamp: ["comic-con","staff"],
+			thirdParty: {
+				tcgplayer: 238866
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		200,
-	],
+	dexId: [200],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
+		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy."
 	},
 
-	thirdParty: {
-		cardmarket: 278504,
-		tcgplayer: 87509
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87509,
+				cardmarket: 278504
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278504,
+				tcgplayer: 87509
+			}
 		}
-	]
+	],
+
 }
 
 export default card

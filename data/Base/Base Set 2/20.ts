@@ -71,14 +71,14 @@ const card: Card = {
 		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 	},
 
-	thirdParty: {
-		cardmarket: 273943,
-		tcgplayer: 42465
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273943,
+				tcgplayer: 42465
+			}
 		}
 	]
 }

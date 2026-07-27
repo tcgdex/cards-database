@@ -3,39 +3,37 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Slowbro",
+		en: "Dark Slowbro"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		80,
-	],
+	dexId: [80],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Slowpoke",
+		en: "Slowpoke"
 	},
 
 	stage: "Stage1",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Reel In",
+				en: "Reel In"
 			},
 			effect: {
-				en: "When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand.",
-			},
+				en: "When you play Dark Slowbro from your hand, choose up to 3 Basic Pokémon and/or Evolution cards from your discard pile and put them into your hand."
+			}
 		},
 	],
 
@@ -46,10 +44,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Fickle Attack",
+				en: "Fickle Attack"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -65,22 +63,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people.",
-	},
-
-	thirdParty: {
-		cardmarket: 274773,
-		tcgplayer: 84653
+		en: "It loves nothing better than to be left alone, and so sometimes ends up being manipulated by unscrupulous people."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274773,
+				tcgplayer: 84653
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84653,
+				cardmarket: 274773
+			}
 		}
-	]
+	],
+
 }
 
 export default card

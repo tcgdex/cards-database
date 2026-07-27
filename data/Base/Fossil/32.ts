@@ -85,20 +85,24 @@ const card: Card = {
 		fr: "Lorsqu'il est attraqué, il projette ses cornes en rapides volées. Personne n'a jamais vu ses entrailles."
 	},
 
-	thirdParty: {
-		cardmarket: 273893,
-		tcgplayer: 44434
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273893,
+				tcgplayer: 44434
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273893,
+				tcgplayer: 44434
+			}
 		},
 		{
 			type: "normal",

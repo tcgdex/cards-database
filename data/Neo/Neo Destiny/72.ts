@@ -79,18 +79,22 @@ const card: Card = {
 		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
 	},
 
-	thirdParty: {
-		cardmarket: 274724,
-		tcgplayer: 86749
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274724,
+				tcgplayer: 86749
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274724,
+				tcgplayer: 86749
+			}
 		}
 	]
 }

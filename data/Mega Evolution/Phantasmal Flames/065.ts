@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Krokorok"
 	},
 
+	evolveFrom: {
+		en: "Sandile",
+		fr: "Mascaïman",
+		es: "Sandile",
+		'es-mx': "Sandile",
+		de: "Ganovil",
+		it: "Sandile",
+		pt: "Sandile",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 

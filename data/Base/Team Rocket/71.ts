@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Each player plays with his or her Prize cards face up for the rest of the game."
 	},
 
-	thirdParty: {
-		cardmarket: 274068,
-		tcgplayer: 86074
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274068,
+				tcgplayer: 86074
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274068,
+				tcgplayer: 86074
+			}
 		}
 	]
 }

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		33,
-	],
+	dexId: [33],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidoran♂",
-		fr: "Nidoran♂",
+		fr: "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -79,17 +77,23 @@ const card: Card = {
 		en: "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87747,
+				cardmarket: 279576
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279576,
+				tcgplayer: 87747
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279576,
-		tcgplayer: 87747
-	}
 }
 
 export default card

@@ -22,28 +22,35 @@ const card: Card = {
 	abilities: [{
 		type: 'Poke-BODY',
 		name: {
+			en: "Hard Amber",
 			de: "Gehärteter Bernstein"
 		},
 
 		effect: {
+			en: "As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent's).",
 			de: "Solange sich Altbernstein auf deiner Bank befindet, verhindere allen Schaden, der Altbernstein durch Angriffe von Pokémon (deinen oder denen deines Gegners) zugefügt würde."
 		}
 	}],
 	hp: 50,
 
-	thirdParty: {
-		cardmarket: 278961,
-		tcgplayer: 87849
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87849,
+				cardmarket: 278961
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278961,
+				tcgplayer: 87849
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

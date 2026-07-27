@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mega Charizard X ex"
 	},
 
+	evolveFrom: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		'es-mx': "Charmeleon",
+		de: "Glutexo",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+	},
+
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 
@@ -57,7 +67,7 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	illustrator: "takuyoa",
+	illustrator: "danciao",
 	variants: [
 		{
 			type: 'holo',

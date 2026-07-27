@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		443,
-	],
+	dexId: [443],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -41,7 +39,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 	],
 
@@ -51,20 +49,25 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85699,
+				cardmarket: 277892
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85699,
+				cardmarket: 277892
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277892,
-		tcgplayer: 85699
-	}
 }
 
 export default card

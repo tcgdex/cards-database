@@ -94,14 +94,14 @@ const card: Card = {
 	description: {
 		en: "This Pokémon attacks its prey with its eighty toxin-producing tentacles.",
 	},
-	thirdParty: {
-		cardmarket: 275640,
-		tcgplayer: 46467
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275640,
+				tcgplayer: 46467
+			}
 		}
 	]
 }

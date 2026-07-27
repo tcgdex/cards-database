@@ -55,18 +55,22 @@ const card: Card = {
 		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager."
 	},
 
-	thirdParty: {
-		cardmarket: 274122,
-		tcgplayer: 90409
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274122,
+				tcgplayer: 90409
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274122,
+				tcgplayer: 90409
+			}
 		}
 	]
 }

@@ -10,14 +10,14 @@ const card: Card = {
 		fr: "Groret"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Atsuko Nishida",
 	rarity: "None",
 	category: "Pokemon",
 	stage: "Stage1",
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -36,7 +36,7 @@ const card: Card = {
 		effect: {
 			en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
-		},
+		}
 	}, {
 		cost: [
 			"Psychic",
@@ -52,15 +52,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 85968
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277183,
+				tcgplayer: 85968
+			}
+		},
+	],
+
 }
 
 export default card

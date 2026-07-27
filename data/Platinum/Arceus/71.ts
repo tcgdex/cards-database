@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 	
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -72,22 +70,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
-	},
-
-	thirdParty: {
-		cardmarket: 278943,
-		tcgplayer: 88094
+		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88094,
+				cardmarket: 278943
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278943,
+				tcgplayer: 88094
+			}
+		},
+	],
+
 }
 
 export default card

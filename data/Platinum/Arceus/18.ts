@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		362,
-	],
+	dexId: [362],
 	
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Snorunt",
+		en: "Snorunt"
 	},
 
 	stage: "Stage1",
@@ -74,22 +72,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It prevents prey from escaping by instantaneously freezing moisture in the air.",
-	},
-
-	thirdParty: {
-		cardmarket: 278890,
-		tcgplayer: 85756
+		en: "It prevents prey from escaping by instantaneously freezing moisture in the air."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85756,
+				cardmarket: 278890
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278890,
+				tcgplayer: 85756
+			}
+		},
+	],
+
 }
 
 export default card

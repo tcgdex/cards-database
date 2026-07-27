@@ -2,16 +2,17 @@ name: Test the Data
 
 on:
   push:
-    branches: 
+    branches:
       - master
-  pull_request_target:
-    branches: 
+  pull_request:
+    branches:
       - "**"
 
 env:
   CI: true
 
 permissions: {}
+
 jobs:
   test:
     runs-on: ${{ matrix.os }}
@@ -22,13 +23,12 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       with:
-        ref: ${{ github.event.pull_request.head.sha }}
         persist-credentials: false
 
     - name: Setup BunJS
-      uses: oven-sh/setup-bun@v2
+      uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
 
     - name: Install deps
       run: |

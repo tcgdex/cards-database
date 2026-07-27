@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo",
+		en: "Mewtwo"
 	},
 
 	illustrator: undefined,
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		150,
-	],
+	dexId: [150],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Psy Bolt",
+				en: "Super Psy Bolt"
 			},
 
 			damage: 70,
@@ -42,19 +40,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 278850
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278850,
+				tcgplayer: 87423
+			},
 		}
 	]
 }

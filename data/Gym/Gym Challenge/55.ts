@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Haunter",
+		en: "Sabrina's Haunter"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Gastly",
+		en: "Gastly"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Nightmare",
+				en: "Nightmare"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 			damage: 20,
 
@@ -49,10 +47,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shadow Attack",
+				en: "Shadow Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 30 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Flip a coin. If heads, and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 30 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 
 		},
@@ -64,21 +62,23 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274323,
-		tcgplayer: 88877
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88877,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88877,
+				cardmarket: 274323
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

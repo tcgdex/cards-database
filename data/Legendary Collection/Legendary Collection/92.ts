@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Seel",
+		en: "Seel"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		86,
-	],
+	dexId: [86],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Headbutt",
+				en: "Headbutt"
 			},
 
 			damage: 10,
@@ -47,22 +45,26 @@ const card: Card = {
 
 
 	description: {
-		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
-	},
-
-	thirdParty: {
-		cardmarket: 274857,
-		tcgplayer: 89049
+		en: "The protruding horn on its head is very hard. This horn is used for bashing through thick ice."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274857,
+				tcgplayer: 89049
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89049,
+				cardmarket: 274857
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -19,20 +19,24 @@ const card: Card = {
 		de: "Search your deck for a basic Energy card, reveal it, and put it into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 273920,
-		tcgplayer: 44461
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273920,
+				tcgplayer: 44461
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273920,
+				tcgplayer: 44461
+			}
 		},
 		{
 			type: "normal",

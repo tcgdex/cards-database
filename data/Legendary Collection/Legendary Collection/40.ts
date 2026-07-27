@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dewgong",
+		en: "Dewgong"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		87,
-	],
+	dexId: [87],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Seel",
+		en: "Seel"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Aurora Beam",
+				en: "Aurora Beam"
 			},
 
 			damage: 50,
@@ -49,10 +47,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ice Beam",
+				en: "Ice Beam"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 30,
 
@@ -69,22 +67,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
-	},
-
-	thirdParty: {
-		cardmarket: 274805,
-		tcgplayer: 84788
+		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274805,
+				tcgplayer: 84788
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84788,
+				cardmarket: 274805
+			}
 		}
-	]
+	],
+
 }
 
 export default card

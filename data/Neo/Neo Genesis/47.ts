@@ -84,18 +84,22 @@ const card: Card = {
 		fr: "Prenez garde s'il vous tourne le dos pendant un combat : cela signifie qu'il va attaquer avec le feu de son dos."
 	},
 
-	thirdParty: {
-		cardmarket: 274446,
-		tcgplayer: 88481
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274446,
+				tcgplayer: 88481
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274446,
+				tcgplayer: 88481
+			}
 		}
 	]
 }

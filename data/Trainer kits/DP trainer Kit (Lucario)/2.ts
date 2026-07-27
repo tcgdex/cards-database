@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -63,22 +63,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "20+"
-		}
+			value: "+20"
+		},
 	],
 
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
-		}
+		},
 	],
 
 	description: {
 		en: "GRAVELER make their homes on sheer cliff faces by gouging out numerous horizontal holes."
 	},
 
-	retreat: 3
+	retreat: 3,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278012,
+				tcgplayer: 85893
+			}
+		},
+	],
+
 }
 
 export default card

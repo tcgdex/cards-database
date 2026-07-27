@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		269,
-	],
+	dexId: [269],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon.",
 				fr: "Prévenez tous les effets d'attaques, excepté les dégâts, infligés à Papinox par le Pokémon Attaquant.",
 				de: "Prevent all effects of attacks, except damage, done to Dustox by the Attacking Pokémon."
-			},
+			}
 		},
 	],
 
@@ -91,19 +89,24 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 275654,
-		tcgplayer: 85056
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275654,
+				tcgplayer: 85056
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275654,
+				tcgplayer: 85056
+			}
 		},
-	]
+	],
+
 }
 
 export default card

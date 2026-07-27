@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Son corps est tendre et mou dans sa carapace. Il reste immobile dans son cocon."
 	},
 
-	thirdParty: {
-		cardmarket: 274553,
-		tcgplayer: 87385
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274553,
+				tcgplayer: 87385
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274553,
+				tcgplayer: 87385
+			}
 		}
 	]
 }

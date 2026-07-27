@@ -71,18 +71,22 @@ const card: Card = {
 		fr: "Bien qu'il sache pêcher, il fait preuve de rès peu d'intelligence."
 	},
 
-	thirdParty: {
-		cardmarket: 274120,
-		tcgplayer: 89322
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274120,
+				tcgplayer: 89322
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274120,
+				tcgplayer: 89322
+			}
 		}
 	]
 }

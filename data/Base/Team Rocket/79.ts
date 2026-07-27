@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
 	},
 
-	thirdParty: {
-		cardmarket: 274132,
-		tcgplayer: 89301
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274132,
+				tcgplayer: 89301
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274132,
+				tcgplayer: 89301
+			}
 		}
 	]
 }

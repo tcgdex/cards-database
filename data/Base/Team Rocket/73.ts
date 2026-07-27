@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Evolutionskarte mit dem Zusatz 'Dunkles'. Zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 274126,
-		tcgplayer: 89894
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274126,
+				tcgplayer: 89894
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274126,
+				tcgplayer: 89894
+			}
 		}
 	]
 }

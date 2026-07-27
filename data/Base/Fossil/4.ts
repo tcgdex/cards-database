@@ -83,20 +83,24 @@ const card: Card = {
 		fr: "Un Pokémon marin extrêmement rare. On dit qu'il est aussi intelligent que l'homme."
 	},
 
-	thirdParty: {
-		cardmarket: 273865,
-		tcgplayer: 106520
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273865,
+				tcgplayer: 106520
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273865,
+				tcgplayer: 106520
+			}
 		},
 	]
 }

@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Metapod",
+		en: "Metapod"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		11,
-	],
+	dexId: [11],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Caterpie",
+		en: "Caterpie"
 	},
 
 	stage: "Stage1",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stiffen",
+				en: "Stiffen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
+				en: "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)"
 			},
 
 		},
@@ -47,10 +45,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Stun Spore",
+				en: "Stun Spore"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
 			},
 			damage: 20,
 
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
-	},
-
-	thirdParty: {
-		cardmarket: 274819,
-		tcgplayer: 87387
+		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274819,
+				tcgplayer: 87387
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87387,
+				cardmarket: 274819
+			}
 		}
-	]
+	],
+
 }
 
 export default card

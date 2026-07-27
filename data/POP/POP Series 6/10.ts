@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		397,
-	],
+	dexId: [397],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -56,7 +54,7 @@ const card: Card = {
 				fr: "Serre"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
 			},
 			damage: 20,
@@ -70,31 +68,28 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock."
 	},
 
 	retreat: 0,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89514,
+				cardmarket: 277895
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277895,
-		tcgplayer: 89514
-	}
 }
 
 export default card

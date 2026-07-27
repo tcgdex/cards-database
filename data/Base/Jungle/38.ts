@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Il peut projeter sa langue comme un caméléon. Tout contact avec elle provoque une irritation."
 	},
 
-	thirdParty: {
-		cardmarket: 273835,
-		tcgplayer: 45141
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273835,
+				tcgplayer: 45141
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273835,
+				tcgplayer: 45141
+			}
 		}
 	],
 }

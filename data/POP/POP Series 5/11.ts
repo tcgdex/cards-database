@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		52,
-	],
+	dexId: [52],
 
 	hp: 40,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Feinte"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 10 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur ce Pokémon."
 			},
 
@@ -43,22 +41,22 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting"
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87330,
+				cardmarket: 277493
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277493
-	}
 }
 
 export default card

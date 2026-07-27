@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Ask you opponent if he or she accepts your challenge. If your opponent declines (or if both Benched are full), draw 2 cards. if your opponent accepts, each of you searches your decks for any number of basic Pokémon cards and puts them face down onto your Benches. (A player can't do this if his or her Bench is full.) When you both have finished, shuffle your decks and turn thos card face up."
 	},
 
-	thirdParty: {
-		cardmarket: 274127,
-		tcgplayer: 84159
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274127,
+				tcgplayer: 84159
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274127,
+				tcgplayer: 84159
+			}
 		}
 	]
 }

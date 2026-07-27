@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Rhydon",
+		en: "Rhydon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		112,
-	],
+	dexId: [112],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
-		en: "Rhyhorn",
+		en: "Rhyhorn"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Horn Attack",
+				en: "Horn Attack"
 			},
 
 			damage: 30,
@@ -49,10 +47,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Ram",
+				en: "Ram"
 			},
 			effect: {
-				en: "Rhydon does 20 damage to itself. If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is knocked out.)",
+				en: "Rhydon does 20 damage to itself. Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is Knocked Out.)"
 			},
 			damage: 50,
 
@@ -76,22 +74,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.",
-	},
-
-	thirdParty: {
-		cardmarket: 274800,
-		tcgplayer: 88730
+		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274800,
+				tcgplayer: 88730
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88730,
+				cardmarket: 274800
+			}
 		}
-	]
+	],
+
 }
 
 export default card

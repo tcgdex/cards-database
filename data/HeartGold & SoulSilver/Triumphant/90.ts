@@ -21,19 +21,40 @@ const card: Card = {
 
 	energyType: "Special",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
-
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279620,
-		tcgplayer: 88701
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88701,
+				cardmarket: 279620
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279620,
+				tcgplayer: 88701
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['christopher-kan'],
+			thirdParty: {
+				tcgplayer: 480479
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480480
+			}
+		},
+	],
+
 }
 
 export default card

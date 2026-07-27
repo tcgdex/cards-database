@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [51],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Diglett",
-		fr: "Taupiqueur",
+		fr: "Taupiqueur"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire bat en retraite, placez 2 marqueurs de dégât sur ce Pokémon.",
 				de: "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon."
-			},
+			}
 		},
 	],
 
@@ -100,19 +98,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278445,
-		tcgplayer: 85003
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85003,
+				cardmarket: 278445
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278445,
+				tcgplayer: 85003
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

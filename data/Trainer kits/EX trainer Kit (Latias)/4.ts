@@ -17,7 +17,7 @@ const card: Card = {
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -49,15 +49,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86650
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275772,
+				tcgplayer: 86650
+			}
+		},
+	],
+
 }
 
 export default card

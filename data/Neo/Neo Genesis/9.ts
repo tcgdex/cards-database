@@ -68,18 +68,22 @@ const card: Card = {
 		fr: "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
 	},
 
-	thirdParty: {
-		cardmarket: 274409,
-		tcgplayer: 86903
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274409,
+				tcgplayer: 86903
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274409,
+				tcgplayer: 86903
+			}
 		}
 	]
 }

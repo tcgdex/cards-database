@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Ambipom"
 	},
 
+	evolveFrom: {
+		en: "Aipom",
+		fr: "Capumain",
+		es: "Aipom",
+		'es-mx': "Aipom",
+		de: "Griffel",
+		it: "Aipom",
+		pt: "Aipom",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 

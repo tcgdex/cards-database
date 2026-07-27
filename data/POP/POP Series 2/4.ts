@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		245,
-	],
+	dexId: [245],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				fr: "Voile miroir"
 			},
 			effect: {
-				en: "If Suicune is Burned or Poisoned by an opponent’s attack (even if Suicune is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).",
+				en: "If Suicune is Burned or Poisoned by an opponent's attack (even if Suicune is Knocked Out), the Attacking Pokémon is now affected by the same Special Conditions (1 if there is only 1).",
 				fr: "Si Suicune est Brûlé ou Empoisonné par une attaque de votre adversaire (même si Suicune est mis K.O.), le Pokémon Attaquant est maintenant affecté par les mêmes États Spéciaux (ou 1 s'il n'y en a qu'1)."
 			},
 		},
@@ -62,20 +60,25 @@ const card: Card = {
 			type: "Lightning"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89602,
+				cardmarket: 277435
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89602,
+				cardmarket: 277435
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277435,
-		tcgplayer: 89602
-	}
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		402,
-	],
+	dexId: [402],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Kricketot",
-		fr: "Crikzik",
+		fr: "Crikzik"
 	},
 
 	stage: "Stage1",
@@ -46,7 +44,7 @@ const card: Card = {
 				fr: "Inflige 20 dégâts multipliés par le nombre de Crikzik et Mélokrik dans votre pile de défausse.",
 				de: "Does 20 damage times the number of Kricketot and Kricketune in your discard pile."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -79,22 +77,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+		en: "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 278453,
-		tcgplayer: 86533
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86533,
+				cardmarket: 278453
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278453,
+				tcgplayer: 86533
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -3,19 +3,17 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♀",
+		en: "Nidoran ♀"
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		29,
-	],
+	dexId: [29],
 	hp: 60,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -27,12 +25,12 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Fury Swipes",
+				en: "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10×",
 
 		},
 		{
@@ -41,10 +39,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Call for Family",
+				en: "Call for Family"
 			},
 			effect: {
-				en: "Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				en: "Search your deck for a Basic Pokémon named Nidoran ♀ or Nidoran ♂ and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
 			},
 
 		},
@@ -59,16 +57,22 @@ const card: Card = {
 
 
 	description: {
-		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
+		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87715
+			}
 		},
 		{
-			type: "normal"
-		}
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87715
+			}
+		},
 	]
 }
 

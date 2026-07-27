@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mega Charizard Y ex"
 	},
 
+	evolveFrom: {
+		en: "Charmeleon",
+		fr: "Reptincel",
+		es: "Charmeleon",
+		'es-mx': "Charmeleon",
+		de: "Glutexo",
+		it: "Charmeleon",
+		pt: "Charmeleon",
+	},
+
 	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",

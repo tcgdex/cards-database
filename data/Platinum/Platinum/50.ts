@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Dark Slash"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy attached to Houndoom . If you do, this attack does 40 damage plus 20 more damage.",
+				en: "You may discard a Darkness Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage.",
 				fr: "Vous pouvez défausser une Énergie Darkness attachée à Demolosse . Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires.",
 				de: "You may discard a  Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage."
 			},
@@ -82,19 +80,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278471,
-		tcgplayer: 86215
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86215,
+				cardmarket: 278471
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278471,
+				tcgplayer: 86215
+			}
 		}
-	]
+	],
+
 }
 
 export default card

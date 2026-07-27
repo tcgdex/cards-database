@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Flip a coin. If heads, either search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pokémon. If you searched your deck, shuffle it. (You can't play this card if your Bench is full.)"
 	},
 
-	thirdParty: {
-		cardmarket: 274583,
-		tcgplayer: 85555
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274583,
+				tcgplayer: 85555
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274583,
+				tcgplayer: 85555
+			}
 		}
 	]
 }

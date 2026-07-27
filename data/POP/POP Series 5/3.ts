@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		151,
-	],
+	dexId: [151],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Copiage"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon’s attacks. Copy copies that attack. This attack does nothing if Mew doesn’t have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew performs that attack.",
+				en: "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Mew doesn't have the Energy necessary to use that attack. (You must still do anything else required for that attack.) Mew performs that attack.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Copiage copie cette attaque. Cette attaque est sans effet si Mew ne possède pas suffisamment d'Énergie pour utiliser cette attaque. (Vous devez toujours faire ce que l'attaque indique.) Mew utilise cette attaque."
 			},
 
@@ -57,22 +55,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87407,
+				cardmarket: 277485
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87407,
+				cardmarket: 277485
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277485
-	}
 }
 
 export default card

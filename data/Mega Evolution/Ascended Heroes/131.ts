@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Linoone de Galar"
 	},
 
+	evolveFrom: {
+		en: "Galarian Zigzagoon",
+		fr: "Zigzaton de Galar",
+		es: "Zigzagoon de Galar",
+		'es-mx': "Zigzagoon de Galar",
+		de: "Galar-Zigzachs",
+		it: "Zigzagoon di Galar",
+		pt: "Zigzagoon de Galar",
+	},
+
 	illustrator: "Tomowaka",
 	rarity: "Common",
 	category: "Pokemon",
@@ -77,7 +87,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "duskball",
 		thirdParty: {
-			cardmarket: 870343,
+			cardmarket: 870344,
 			tcgplayer: 676956
 		}
 	},
@@ -85,7 +95,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870344,
+			cardmarket: 870343,
 			tcgplayer: 677096
 		}
 	},

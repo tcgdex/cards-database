@@ -3,7 +3,7 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Ninetales",
+		en: "Ninetales"
 	},
 
 	illustrator: undefined,
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Vulpix",
+		en: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flame Tail",
+				en: "Flame Tail"
 			},
 
 			damage: 60,
@@ -46,17 +44,13 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 278844
-	},
-
-	variants:[
+	variants: [
 		{
 			type:"normal"
 		}
