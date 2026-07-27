@@ -93,6 +93,10 @@ const card: Card = {
 				cardmarket: 279709
 			},
 		},
+		{
+			type: "reverse",
+			subtype: 'phanphy-error'
+		},
 	],
 
 }

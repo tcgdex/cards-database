@@ -27,6 +27,13 @@ const card: Card = {
 				cardmarket: 279731
 			},
 		},
+		{
+			type: "holo",
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449588
+			},
+		},
 	],
 
 }

@@ -94,6 +94,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["call-of-legends"],
 			thirdParty: {
+				cardmarket: 882916,
 				tcgplayer: 213021,
 			},
 		},
