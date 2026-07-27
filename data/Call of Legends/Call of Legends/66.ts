@@ -94,6 +94,10 @@ const card: Card = {
 			},
 		},
 		{
+			type: "normal",
+			subtype: 'phanphy-error'
+		},
+		{
 			type: "reverse",
 			subtype: 'phanphy-error'
 		},
