@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Linoone de Galar"
 	},
 
+	evolveFrom: {
+		en: "Galarian Zigzagoon",
+		fr: "Zigzaton de Galar",
+		es: "Zigzagoon de Galar",
+		'es-mx': "Zigzagoon de Galar",
+		de: "Galar-Zigzachs",
+		it: "Zigzagoon di Galar",
+		pt: "Zigzagoon de Galar",
+	},
+
 	illustrator: "Tomowaka",
 	rarity: "Common",
 	category: "Pokemon",

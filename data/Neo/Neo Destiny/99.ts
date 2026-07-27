@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Once during each player´s turn (before attacking), that player may flip a coin. If heads, that player puts a basic Energy card from his or her discard pile into his or her hand."
 	},
 
-	thirdParty: {
-		cardmarket: 274751,
-		tcgplayer: 85251
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274751,
+				tcgplayer: 85251
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274751,
+				tcgplayer: 85251
+			}
 		}
 	]
 }

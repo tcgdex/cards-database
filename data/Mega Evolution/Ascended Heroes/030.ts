@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Pignite"
 	},
 
+	evolveFrom: {
+		en: "Tepig",
+		fr: "Gruikui",
+		es: "Tepig",
+		'es-mx': "Tepig",
+		de: "Floink",
+		it: "Tepig",
+		pt: "Tepig",
+	},
+
 	illustrator: "Aliya Chen",
 	rarity: "Uncommon",
 	category: "Pokemon",

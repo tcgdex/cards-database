@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Raboot"
 	},
 
+	evolveFrom: {
+		en: "Scorbunny",
+		fr: "Flambino",
+		es: "Scorbunny",
+		'es-mx': "Scorbunny",
+		de: "Hopplo",
+		it: "Scorbunny",
+		pt: "Scorbunny",
+	},
+
 	illustrator: "aspara",
 	rarity: "Common",
 	category: "Pokemon",

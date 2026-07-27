@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		361,
-	],
+	dexId: [361],
 	
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -67,22 +65,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
-	},
-
-	thirdParty: {
-		cardmarket: 278947,
-		tcgplayer: 89403
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89403,
+				cardmarket: 278947
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278947,
+				tcgplayer: 89403
+			}
+		},
+	],
+
 }
 
 export default card

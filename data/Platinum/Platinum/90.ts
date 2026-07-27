@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		223,
-	],
+	dexId: [223],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -69,22 +67,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea.",
+		en: "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea."
 	},
 
-	thirdParty: {
-		cardmarket: 278511,
-		tcgplayer: 88698
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88698,
+				cardmarket: 278511
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278511,
+				tcgplayer: 88698
+			}
 		}
-	]
+	],
+
 }
 
 export default card

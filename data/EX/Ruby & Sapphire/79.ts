@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		263,
-	],
+	dexId: [263],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez trois pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -55,19 +53,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275727,
-		tcgplayer: 90744
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275727,
+				tcgplayer: 90744
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275727,
+				tcgplayer: 90744
+			}
 		},
-	]
+	],
+
 }
 
 export default card

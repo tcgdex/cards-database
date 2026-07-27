@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Les Grotadmorv apparaissent sans prévenir, répandant de la gadoue partout. À chaque fois qu'ils apparaissent dans une cité, la panique s'ensuit."
 	},
 
-	thirdParty: {
-		cardmarket: 274094,
-		tcgplayer: 84630
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274094,
+				tcgplayer: 84630
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274094,
+				tcgplayer: 84630
+			}
 		}
 	]
 }

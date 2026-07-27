@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Giovanni's Nidoqueen",
+		en: "Giovanni's Nidoqueen"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		31,
-	],
+	dexId: [31],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Nidorina",
+		en: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mega Kick",
+				en: "Mega Kick"
 			},
 
 			damage: 40,
@@ -49,12 +47,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Love Lariat",
+				en: "Love Lariat"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 50 damage plus 50 more damage if you have at least 1 Giovanni's Nidoking on your Bench. If tails, this attack does nothing.",
+				en: "Flip a coin. If heads, this attack does 50 damage plus 50 more damage if you have at least 1 Giovanni's Nidoking on your Bench. If tails, this attack does nothing."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
@@ -62,26 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 274291,
-		tcgplayer: 85719
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85719,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85719,
+				cardmarket: 274291
+			}
 		},
-	]
+	],
 }
 
 export default card

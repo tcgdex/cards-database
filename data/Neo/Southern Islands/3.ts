@@ -68,14 +68,14 @@ const card: Card = {
 	description: {
 		en: "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
 	},
-	thirdParty: {
-		cardmarket: 275633,
-		tcgplayer: 46477
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275633,
+				tcgplayer: 46477
+			}
 		}
 	]
 }

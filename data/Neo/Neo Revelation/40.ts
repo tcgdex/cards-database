@@ -71,18 +71,22 @@ const card: Card = {
 		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
 	},
 
-	thirdParty: {
-		cardmarket: 274626,
-		tcgplayer: 90244
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274626,
+				tcgplayer: 90244
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274626,
+				tcgplayer: 90244
+			}
 		}
 	]
 }

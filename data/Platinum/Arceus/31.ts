@@ -12,18 +12,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		254,
-	],
+	dexId: [254],
 	
 	hp: 130,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Grovyle",
+		en: "Grovyle"
 	},
 
 	stage: "Stage2",
@@ -58,7 +56,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "70x",
+			damage: "70×",
 
 		},
 	],
@@ -80,22 +78,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
-	},
-
-	thirdParty: {
-		cardmarket: 278902,
-		tcgplayer: 88952
+		en: "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88952,
+				cardmarket: 278902
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278902,
+				tcgplayer: 88952
+			}
+		},
+	],
+
 }
 
 export default card

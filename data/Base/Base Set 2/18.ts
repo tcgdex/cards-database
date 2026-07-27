@@ -69,14 +69,14 @@ const card: Card = {
 		en: "This plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
 	},
 
-	thirdParty: {
-		cardmarket: 273941,
-		tcgplayer: 42462
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273941,
+				tcgplayer: 42462
+			}
 		}
 	]
 }

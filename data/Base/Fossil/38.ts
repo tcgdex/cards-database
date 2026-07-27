@@ -79,20 +79,24 @@ const card: Card = {
 		fr: "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante."
 	},
 
-	thirdParty: {
-		cardmarket: 273899,
-		tcgplayer: 44440
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273899,
+				tcgplayer: 44440
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273899,
+				tcgplayer: 44440
+			}
 		},
 		{
 			type: "normal",

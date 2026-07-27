@@ -76,18 +76,22 @@ const card: Card = {
 		fr: "Il se la coule douce au bord de l'eau. Si quelque chose mord sa queue, il ne le remarquera pas de la journée."
 	},
 
-	thirdParty: {
-		cardmarket: 274473,
-		tcgplayer: 89323
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274473,
+				tcgplayer: 89323
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274473,
+				tcgplayer: 89323
+			}
 		}
 	]
 }

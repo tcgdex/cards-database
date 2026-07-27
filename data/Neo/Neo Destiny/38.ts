@@ -90,18 +90,22 @@ const card: Card = {
 		fr: "Il est protégé par une solide carapace, mais il garde une grande mobilité... Une combinaison dangereuse."
 	},
 
-	thirdParty: {
-		cardmarket: 274690,
-		tcgplayer: 84642
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274690,
+				tcgplayer: 84642
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274690,
+				tcgplayer: 84642
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Delcatty"
 	},
 
+	evolveFrom: {
+		en: "Skitty",
+		fr: "Skitty",
+		es: "Skitty",
+		'es-mx': "Skitty",
+		de: "Eneco",
+		it: "Skitty",
+		pt: "Skitty",
+	},
+
 	illustrator: "buchi",
 	rarity: "Uncommon",
 	category: "Pokemon",

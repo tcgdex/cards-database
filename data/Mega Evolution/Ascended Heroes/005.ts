@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Weepinbell da Érica"
 	},
 
+	evolveFrom: {
+		en: "Erika's Bellsprout",
+		fr: "Chétiflor d'Erika",
+		es: "Bellsprout de Erika",
+		'es-mx': "Bellsprout de Erika",
+		de: "Erikas Knofensa",
+		it: "Bellsprout di Erika",
+		pt: "Bellsprout da Érica",
+	},
+
 	illustrator: "LINNE",
 	rarity: "Uncommon",
 	category: "Pokemon",

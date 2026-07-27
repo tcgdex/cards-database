@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Croconaw"
 	},
 
+	evolveFrom: {
+		en: "Totodile",
+		fr: "Kaiminus",
+		es: "Totodile",
+		'es-mx': "Totodile",
+		de: "Karnimani",
+		it: "Totodile",
+		pt: "Totodile",
+	},
+
 	illustrator: "Felicia Chen",
 	rarity: "Uncommon",
 	category: "Pokemon",

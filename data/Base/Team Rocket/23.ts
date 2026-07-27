@@ -88,18 +88,22 @@ const card: Card = {
 		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274059,
-		tcgplayer: 84589
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274059,
+				tcgplayer: 84589
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274059,
+				tcgplayer: 84589
+			}
 		}
 	]
 }

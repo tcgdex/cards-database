@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Kirlia"
 	},
 
+	evolveFrom: {
+		en: "Ralts",
+		fr: "Tarsal",
+		es: "Ralts",
+		'es-mx': "Ralts",
+		de: "Trasla",
+		it: "Ralts",
+		pt: "Ralts",
+	},
+
 	illustrator: "satoma",
 	rarity: "Common",
 	category: "Pokemon",

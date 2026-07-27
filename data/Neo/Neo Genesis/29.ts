@@ -82,18 +82,22 @@ const card: Card = {
 		fr: "Un parfum d'épices vient de son tour de cou. D'une certaine façon, cela vous donne envie de combattre."
 	},
 
-	thirdParty: {
-		cardmarket: 274428,
-		tcgplayer: 83744
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274428,
+				tcgplayer: 83744
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274428,
+				tcgplayer: 83744
+			}
 		}
 	]
 }

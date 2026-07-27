@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Diggersby"
 	},
 
+	evolveFrom: {
+		en: "Bunnelby",
+		fr: "Sapereau",
+		es: "Bunnelby",
+		'es-mx': "Bunnelby",
+		de: "Scoppel",
+		it: "Bunnelby",
+		pt: "Bunnelby",
+	},
+
 	illustrator: "Mousho",
 	rarity: "Uncommon",
 	category: "Pokemon",

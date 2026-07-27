@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Shuffle your deck, then reveal the top 3 cards of it. If at last 2 of those cards share the same name, put all of the ones with that name into your hand and shuffle the rest into your deck. If none of them do, shuffle all 3 into your deck."
 	},
 
-	thirdParty: {
-		cardmarket: 274483,
-		tcgplayer: 83573
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274483,
+				tcgplayer: 83573
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274483,
+				tcgplayer: 83573
+			}
 		}
 	]
 }

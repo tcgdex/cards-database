@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Exeggutor da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Exeggcute",
+		fr: "Noeunoeuf de la Team Rocket",
+		es: "Exeggcute del Team Rocket",
+		'es-mx': "Exeggcute del Equipo Rocket",
+		de: "Team Rockets Owei",
+		it: "Exeggcute del Team Rocket",
+		pt: "Exeggcute da Equipe Rocket",
+	},
+
 	illustrator: "Ryuta Fuse",
 	rarity: "Rare",
 	category: "Pokemon",

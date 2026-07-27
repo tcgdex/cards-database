@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Gengar",
+		en: "Sabrina's Gengar"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [94],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Haunter",
+		en: "Haunter"
 	},
 
 	stage: "Stage2",
@@ -34,10 +32,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Wave",
+				en: "Dark Wave"
 			},
 			effect: {
-				en: "All Pokémon Powers stop working until the end of your opponent's next turn.",
+				en: "All Pokémon Powers stop working until the end of your opponent's next turn."
 			},
 			damage: 20,
 
@@ -49,10 +47,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Shadow Bind",
+				en: "Shadow Bind"
 			},
 			effect: {
-				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn."
 			},
 			damage: 40,
 
@@ -68,20 +66,22 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274297,
-		tcgplayer: 88875
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88875,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88875,
+				cardmarket: 274297
+			}
 		},
-	]
+	],
 }
 
 export default card

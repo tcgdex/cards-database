@@ -85,18 +85,22 @@ const card: Card = {
 		fr: "Les ailes supplémentaires qui ornent ses pattes lui permettent de voler très vite, mais elles lui compliquent la vie quand il veut se percher."
 	},
 
-	thirdParty: {
-		cardmarket: 274654,
-		tcgplayer: 84576
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274654,
+				tcgplayer: 84576
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274654,
+				tcgplayer: 84576
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Kingambit"
 	},
 
+	evolveFrom: {
+		en: "Bisharp",
+		fr: "Scalproie",
+		es: "Bisharp",
+		'es-mx': "Bisharp",
+		de: "Caesurio",
+		it: "Bisharp",
+		pt: "Bisharp",
+	},
+
 	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",

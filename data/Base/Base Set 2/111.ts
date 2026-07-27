@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 	},
 
-	thirdParty: {
-		cardmarket: 274034,
-		tcgplayer: 42450
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274034,
+				tcgplayer: 42450
+			}
 		}
 	]
 }

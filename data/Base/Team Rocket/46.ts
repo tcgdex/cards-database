@@ -81,18 +81,22 @@ const card: Card = {
 		fr: "Il a très mauvais caractère et se cache dans sa carapace dès qu'il est de mauvaise humeur - ce qui est souvent le cas."
 	},
 
-	thirdParty: {
-		cardmarket: 274099,
-		tcgplayer: 84670
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274099,
+				tcgplayer: 84670
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274099,
+				tcgplayer: 84670
+			}
 		}
 	]
 }

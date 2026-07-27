@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Coalossal"
 	},
 
+	evolveFrom: {
+		en: "Carkol",
+		fr: "Wagomine",
+		es: "Carkol",
+		'es-mx': "Carkol",
+		de: "Wagong",
+		it: "Carkol",
+		pt: "Carkol",
+	},
+
 	illustrator: "Nisota Niso",
 	rarity: "Rare",
 	category: "Pokemon",

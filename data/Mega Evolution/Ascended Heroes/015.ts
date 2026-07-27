@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Dustox"
 	},
 
+	evolveFrom: {
+		en: "Cascoon",
+		fr: "Blindalys",
+		es: "Cascoon",
+		'es-mx': "Cascoon",
+		de: "Panekon",
+		it: "Cascoon",
+		pt: "Cascoon",
+	},
+
 	illustrator: "kamonabe",
 	rarity: "Uncommon",
 	category: "Pokemon",

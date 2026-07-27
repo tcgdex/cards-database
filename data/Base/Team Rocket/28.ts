@@ -83,18 +83,22 @@ const card: Card = {
 		fr: "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement."
 	},
 
-	thirdParty: {
-		cardmarket: 274064,
-		tcgplayer: 84625
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274064,
+				tcgplayer: 84625
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274064,
+				tcgplayer: 84625
+			}
 		}
 	]
 }

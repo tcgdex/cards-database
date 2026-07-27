@@ -72,18 +72,22 @@ const card: Card = {
 		fr: "Il est tout petit et sans défense. S'il est attaqué, il agite ses feuilles en espérant effrayer ses ennemis."
 	},
 
-	thirdParty: {
-		cardmarket: 274735,
-		tcgplayer: 89618
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274735,
+				tcgplayer: 89618
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274735,
+				tcgplayer: 89618
+			}
 		}
 	]
 }

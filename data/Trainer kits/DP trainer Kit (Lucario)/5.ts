@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	attacks: [
@@ -37,15 +37,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	description: {
 		en: "It hefts a GRAVELER repeatedly to strengthen its entire body. It uses every type of martial arts."
 	},
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278017,
+				tcgplayer: 86996
+			}
+		},
+	],
+
 }
 
 export default card

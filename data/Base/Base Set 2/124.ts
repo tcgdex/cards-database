@@ -16,14 +16,14 @@ const card: Card = {
 		en: "Provides {C}{C} energy. Doesn't count as a basic Energy card.",
 	},
 
-	thirdParty: {
-		cardmarket: 274047,
-		tcgplayer: 42454
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274047,
+				tcgplayer: 42454
+			}
 		}
 	]
 }

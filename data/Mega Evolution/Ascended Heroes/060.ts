@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Eelektrik"
 	},
 
+	evolveFrom: {
+		en: "Tynamo",
+		fr: "Anchwatt",
+		es: "Tynamo",
+		'es-mx': "Tynamo",
+		de: "Zapplardin",
+		it: "Tynamo",
+		pt: "Tynamo",
+	},
+
 	illustrator: "Jerky",
 	rarity: "Uncommon",
 	category: "Pokemon",

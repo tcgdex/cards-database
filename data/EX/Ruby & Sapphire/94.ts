@@ -17,24 +17,28 @@ const card: Card = {
 	effect: {
 		en: "Damage done by attacks to the Pokémon that Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). Ignore this effect if the Pokémon that Metal Energy is attached to isn't Metal. Metal Energy provides Metal Energy. (Doesn't count as a basic Energy card.)",
 		de: "Schaden, der dem Pokémon, an das Metall-Energie angelegt ist, durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Dieser Effekt wirkt nur, wenn die Metall-Energie an einem Pokémon vom Typ  angelegt ist. Metall-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)",
-		fr: "Les dégâts infligés au Pokémon auquel Énergie Métal est attachée sont réduits de 10 (après application de la Faiblesse et de la Résistance). Ne tenez pas compte de cet effet si le Pokémon auquel Énergie Métal est attachée n'est pas Métal. Énergie Métal fournit une Énergie Métal (Elle ne compte pas comme Énergie de base).",
+		fr: "Les dégâts infligés au Pokémon auquel Énergie Métal est attachée sont réduits de 10 (après application de la Faiblesse et de la Résistance). Ne tenez pas compte de cet effet si le Pokémon auquel Énergie Métal est attachée n'est pas Métal. Énergie Métal fournit une Énergie Métal (Elle ne compte pas comme Énergie de base)."
 	},
 
-	thirdParty: {
-		cardmarket: 275742,
-		tcgplayer: 87356
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275742,
+				tcgplayer: 87356
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275742,
+				tcgplayer: 87356
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
 		},
 		{
 			type: "normal",
@@ -42,18 +46,32 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 214286
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["winner"]
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 211497
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["winner"],
-			size: "jumbo"
+			type: "holo",
+			stamp: ['winner'],
+			thirdParty: {
+				cardmarket: 280580,
+				tcgplayer: 236463
+			}
 		}
-	]
+	],
+
+	types: [
+		"Metal"
+	],
+	retreat: 0
 }
 
 export default card

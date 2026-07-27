@@ -21,7 +21,6 @@ const card: Card = {
 
 	stage: "Basic",
 
-
 	attacks: [
 		{
 			cost: [
@@ -62,9 +61,14 @@ const card: Card = {
 		},
 	],
 
-
-
-
+	variants: [
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 90031
+			}
+		}
+	]
 }
 
 export default card

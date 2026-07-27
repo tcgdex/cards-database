@@ -82,20 +82,24 @@ const card: Card = {
 		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi."
 	},
 
-	thirdParty: {
-		cardmarket: 273866,
-		tcgplayer: 106521
-	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273866,
+				tcgplayer: 106521
+			}
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273866,
+				tcgplayer: 106521
+			}
 		},
 	]
 }

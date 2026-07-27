@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		264,
-	],
+	dexId: [264],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
 				de: "Flip a coin until you get tails. This attack does 40 damage times the number of heads."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -77,19 +75,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275686,
-		tcgplayer: 86803
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275686,
+				tcgplayer: 86803
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275686,
+				tcgplayer: 86803
+			}
 		},
-	]
+	],
+
 }
 
 export default card

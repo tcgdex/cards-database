@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Raichu"
 	},
 
+	evolveFrom: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		es: "Pikachu",
+		'es-mx': "Pikachu",
+		de: "Pikachu",
+		it: "Pikachu",
+		pt: "Pikachu",
+	},
+
 	illustrator: "Iori Suzuki",
 	rarity: "Uncommon",
 	category: "Pokemon",

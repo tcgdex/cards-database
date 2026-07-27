@@ -68,14 +68,14 @@ const card: Card = {
 		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 	},
 
-	thirdParty: {
-		cardmarket: 274019,
-		tcgplayer: 42547
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274019,
+				tcgplayer: 42547
+			}
 		}
 	]
 }

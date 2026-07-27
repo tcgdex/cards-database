@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Wenn das Pokémon, an das Ballonbeere angelegt ist, sich zurückzieht, lege Ballonbeere auf deinen Ablagestapel, anstatt Energiekarten abzulegen."
 	},
 
-	thirdParty: {
-		cardmarket: 274646,
-		tcgplayer: 83707
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274646,
+				tcgplayer: 83707
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274646,
+				tcgplayer: 83707
+			}
 		}
 	]
 }

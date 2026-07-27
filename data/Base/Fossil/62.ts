@@ -20,20 +20,24 @@ const card: Card = {
 		de: "Spiele Geheimnis-Fossil wie ein Pokémon. Während Geheimnis-Fossil im Spiel ist, zählt es als Pokémon (anstatt einer Trainerkarte). Geheimnis-Fossil hat keine Angriffe, kann nicht zurückziehen, und kann nicht schlafend, verwirrt, gelähmt oder vergiftet sein. Falls Gehemnis-Fossil kampfunfähig gemacht wird, zählt es nicht als kampfunfähig gemachtes Pokémon. (Lege es trotzdem ab.) jederzeit während deines Zuges vor deinem Angriff kannst du gehemnis-Fossil aus dem Spiel entfernen."
 	},
 
-	thirdParty: {
-		cardmarket: 273923,
-		tcgplayer: 44464
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273923,
+				tcgplayer: 44464
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273923,
+				tcgplayer: 44464
+			}
 		},
 		{
 			type: "normal",

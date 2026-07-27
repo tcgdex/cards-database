@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Camerupt"
 	},
 
+	evolveFrom: {
+		en: "Numel",
+		fr: "Chamallot",
+		es: "Numel",
+		'es-mx': "Numel",
+		de: "Camaub",
+		it: "Numel",
+		pt: "Numel",
+	},
+
 	illustrator: "Minahamu",
 	rarity: "Uncommon",
 	category: "Pokemon",

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Magcargo do Ethan"
 	},
 
+	evolveFrom: {
+		en: "Ethan's Slugma",
+		fr: "Limagma de Luth",
+		es: "Slugma de Eco",
+		'es-mx': "Slugma de Ethan",
+		de: "Klarins Schneckmag",
+		it: "Slugma di Armonio",
+		pt: "Slugma do Ethan",
+	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",

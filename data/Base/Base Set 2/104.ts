@@ -15,14 +15,14 @@ const card: Card = {
 		en: "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",
 	},
 
-	thirdParty: {
-		cardmarket: 274027,
-		tcgplayer: 42554
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274027,
+				tcgplayer: 42554
+			}
 		}
 	]
 }

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vanilluxe do N"
 	},
 
+	evolveFrom: {
+		en: "N's Vanillish",
+		fr: "Sorboul de N",
+		es: "Vanillish de N",
+		'es-mx': "Vanillish de N",
+		de: "Ns Gelatroppo",
+		it: "Vanillish di N",
+		pt: "Vanillish do N",
+	},
+
 	illustrator: "imoniii",
 	rarity: "Uncommon",
 	category: "Pokemon",

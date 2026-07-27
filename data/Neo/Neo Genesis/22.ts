@@ -46,18 +46,22 @@ const card: Card = {
 		fr: "Il fait des moulinets avec ses bras pour générer de l'électricité, mais il se fatigue vite, il ne se recharge donc pas beaucoup."
 	},
 
-	thirdParty: {
-		cardmarket: 274422,
-		tcgplayer: 85168
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274422,
+				tcgplayer: 85168
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274422,
+				tcgplayer: 85168
+			}
 		}
 	]
 }

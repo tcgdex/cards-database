@@ -67,18 +67,22 @@ const card: Card = {
 		fr: "Ce Pokémon est parfaitement adapté au milieu océanique. Il peut accumuler suffisamment de vitesse pour bondir hors de l'eau comme une baleine."
 	},
 
-	thirdParty: {
-		cardmarket: 274726,
-		tcgplayer: 87180
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274726,
+				tcgplayer: 87180
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274726,
+				tcgplayer: 87180
+			}
 		}
 	]
 }

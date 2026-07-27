@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Beedrill",
+		en: "Beedrill"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Kakuna",
+		en: "Kakuna"
 	},
 
 	stage: "Stage2",
@@ -35,12 +33,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Twineedle",
+				en: "Twineedle"
 			},
 			effect: {
-				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				en: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30×",
 
 		},
 		{
@@ -50,10 +48,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Poison Sting",
+				en: "Poison Sting"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 			},
 
 		},
@@ -74,22 +72,27 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
-	},
-
-	thirdParty: {
-		cardmarket: 274785,
-		tcgplayer: 83768
+		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274785,
+				tcgplayer: 83768
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83768,
+				cardmarket: 274785
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

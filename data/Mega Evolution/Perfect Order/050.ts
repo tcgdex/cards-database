@@ -16,6 +16,16 @@ const card: Card = {
 		pt: "Gengar"
 	},
 
+	evolveFrom: {
+		en: "Haunter",
+		fr: "Spectrum",
+		es: "Haunter",
+		'es-mx': "Haunter",
+		de: "Alpollo",
+		it: "Haunter",
+		pt: "Haunter",
+	},
+
 	illustrator: "Masako Tomii",
 	rarity: "Rare",
 	category: "Pokemon",

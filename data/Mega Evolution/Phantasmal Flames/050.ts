@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Gliscor"
 	},
 
+	evolveFrom: {
+		en: "Gligar",
+		fr: "Scorplane",
+		es: "Gligar",
+		'es-mx': "Gligar",
+		de: "Skorgla",
+		it: "Gligar",
+		pt: "Gligar",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 

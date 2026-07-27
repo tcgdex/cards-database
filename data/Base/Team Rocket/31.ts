@@ -86,18 +86,22 @@ const card: Card = {
 		fr: "Des chercheurs ont observé ces Pokémon se reproduisant dans des sites de traitement des déchets industriels."
 	},
 
-	thirdParty: {
-		cardmarket: 274067,
-		tcgplayer: 84672
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274067,
+				tcgplayer: 84672
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274067,
+				tcgplayer: 84672
+			}
 		}
 	]
 }

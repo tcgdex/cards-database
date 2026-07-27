@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Charjabug"
 	},
 
+	evolveFrom: {
+		en: "Grubbin",
+		fr: "Larvibule",
+		es: "Grubbin",
+		'es-mx': "Grubbin",
+		de: "Mabula",
+		it: "Grubbin",
+		pt: "Grubbin",
+	},
+
 	illustrator: "Misa Tsutsui",
 	rarity: "Common",
 	category: "Pokemon",

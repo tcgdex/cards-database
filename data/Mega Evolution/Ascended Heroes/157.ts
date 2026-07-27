@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Noivern"
 	},
 
+	evolveFrom: {
+		en: "Noibat",
+		fr: "Sonistrelle",
+		es: "Noibat",
+		'es-mx': "Noibat",
+		de: "eF-eM",
+		it: "Noibat",
+		pt: "Noibat",
+	},
+
 	illustrator: "Natsumi Miyanose",
 	rarity: "Uncommon",
 	category: "Pokemon",

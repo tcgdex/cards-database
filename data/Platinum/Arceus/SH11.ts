@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 	
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Ponyta has any Energy attached to it, Ponyta has no Weakness.",
 				de: "Solange an Ponita mindestens 1 Energie angelegt ist, hat Ponita keine Schwäche."
-			},
+			}
 		},
 	],
 
@@ -67,16 +65,16 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
-	},
-
-	thirdParty: {
-		cardmarket: 278869
+		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278869,
+				tcgplayer: 88291
+			}
 		}
 	]
 }

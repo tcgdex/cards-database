@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Pangoro"
 	},
 
+	evolveFrom: {
+		en: "Pancham",
+		fr: "Pandespiègle",
+		es: "Pancham",
+		'es-mx': "Pancham",
+		de: "Pam-Pam",
+		it: "Pancham",
+		pt: "Pancham",
+	},
+
 	illustrator: "takashi shiraishi",
 	rarity: "Uncommon",
 	category: "Pokemon",

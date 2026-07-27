@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Clefable"
 	},
 
+	evolveFrom: {
+		en: "Clefairy",
+		fr: "Mélofée",
+		es: "Clefairy",
+		'es-mx': "Clefairy",
+		de: "Piepi",
+		it: "Clefairy",
+		pt: "Clefairy",
+	},
+
 	illustrator: "satoma",
 	rarity: "Uncommon",
 	category: "Pokemon",

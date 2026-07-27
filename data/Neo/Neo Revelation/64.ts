@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Flip 2 coins. If both are heads, put a Baby Pokémon, Basic Pokémon, or Evolution card from your discard pile into your hand. If both are tails, put a Trainer card from your discard pile into your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 274650,
-		tcgplayer: 87851
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274650,
+				tcgplayer: 87851
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274650,
+				tcgplayer: 87851
+			}
 		}
 	]
 }

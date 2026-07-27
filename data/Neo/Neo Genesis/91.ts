@@ -19,18 +19,22 @@ const card: Card = {
 		de: "Flip a coin. If heads, draw 4 cards."
 	},
 
-	thirdParty: {
-		cardmarket: 274491,
-		tcgplayer: 83841
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274491,
+				tcgplayer: 83841
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274491,
+				tcgplayer: 83841
+			}
 		}
 	]
 }

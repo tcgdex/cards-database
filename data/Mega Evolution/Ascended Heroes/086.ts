@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Mismagius"
 	},
 
+	evolveFrom: {
+		en: "Misdreavus",
+		fr: "Feuforêve",
+		es: "Misdreavus",
+		'es-mx': "Misdreavus",
+		de: "Traunfugil",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+	},
+
 	illustrator: "nisimono",
 	rarity: "Rare",
 	category: "Pokemon",

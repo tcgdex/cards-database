@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Hypno",
+		en: "Hypno"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		97,
-	],
+	dexId: [97],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Drowzee",
+		en: "Drowzee"
 	},
 
 	stage: "Stage1",
@@ -33,10 +31,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Prophecy",
+				en: "Prophecy"
 			},
 			effect: {
-				en: "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
+				en: "Look at up to 3 cards from the top of either player's deck and rearrange them as you like."
 			},
 
 		},
@@ -47,10 +45,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Dark Mind",
+				en: "Dark Mind"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 30,
 
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
-	},
-
-	thirdParty: {
-		cardmarket: 274790,
-		tcgplayer: 86251
+		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274790,
+				tcgplayer: 86251
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86251,
+				cardmarket: 274790
+			}
 		}
-	]
+	],
+
 }
 
 export default card

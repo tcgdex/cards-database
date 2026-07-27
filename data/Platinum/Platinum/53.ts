@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Riolu",
-		fr: "Riolu",
+		fr: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -76,30 +74,40 @@ const card: Card = {
 	],
 
 	description: {
-		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away."
 	},
 
-	thirdParty: {
-		cardmarket: 278474,
-		tcgplayer: 86878
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86878,
+				cardmarket: 278474
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278474,
+				tcgplayer: 86878
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				tcgplayer: 187215
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["pre-release","staff"]
+			stamp: ["pre-release","staff"],
+			thirdParty: {
+				tcgplayer: 187216
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

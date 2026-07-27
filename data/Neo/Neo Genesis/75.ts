@@ -75,18 +75,22 @@ const card: Card = {
 		fr: "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable."
 	},
 
-	thirdParty: {
-		cardmarket: 274475,
-		tcgplayer: 89453
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274475,
+				tcgplayer: 89453
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274475,
+				tcgplayer: 89453
+			}
 		}
 	]
 }

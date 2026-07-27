@@ -15,13 +15,13 @@ const card: Card = {
 		en: "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.",
 	},
 
-	thirdParty: {
-		cardmarket: 274028
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274028
+			}
 		}
 	]
 }

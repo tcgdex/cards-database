@@ -15,13 +15,13 @@ const card: Card = {
 		en: "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 274044
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274044
+			}
 		}
 	]
 }

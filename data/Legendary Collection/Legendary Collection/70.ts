@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Charmander",
+		en: "Charmander"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		4,
-	],
+	dexId: [4],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,7 +27,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Scratch",
+				en: "Scratch"
 			},
 
 			damage: 10,
@@ -41,10 +39,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Ember",
+				en: "Ember"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Charmander in order to use this attack.",
+				en: "Discard 1 Fire Energy card attached to Charmander or this attack does nothing."
 			},
 			damage: 30,
 
@@ -61,22 +59,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
-	},
-
-	thirdParty: {
-		cardmarket: 274835,
-		tcgplayer: 84205
+		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274835,
+				tcgplayer: 84205
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84205,
+				cardmarket: 274835
+			}
 		}
-	]
+	],
+
 }
 
 export default card

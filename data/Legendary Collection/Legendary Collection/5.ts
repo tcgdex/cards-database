@@ -3,39 +3,37 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Dragonite",
+		en: "Dark Dragonite"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		149,
-	],
+	dexId: [149],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Dragonair",
+		en: "Dragonair"
 	},
 
 	stage: "Stage2",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
-				en: "Summon Minions",
+				en: "Summon Minions"
 			},
 			effect: {
-				en: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-			},
+				en: "When you play Dark Dragonite from your hand, search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+			}
 		},
 	],
 
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giant Tail",
+				en: "Giant Tail"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -67,22 +65,26 @@ const card: Card = {
 
 
 	description: {
-		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight.",
-	},
-
-	thirdParty: {
-		cardmarket: 274770,
-		tcgplayer: 84585
+		en: "Sometimes called \"The God of Destruction.\" Its wings are able to support it in spite of its massive weight."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274770,
+				tcgplayer: 84585
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84585,
+				cardmarket: 274770
+			}
 		}
-	]
+	],
+
 }
 
 export default card

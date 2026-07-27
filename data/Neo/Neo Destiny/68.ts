@@ -56,18 +56,22 @@ const card: Card = {
 		fr: "Il n'a peur de rien, pas même d'adversaires plus grands que lui."
 	},
 
-	thirdParty: {
-		cardmarket: 274720,
-		tcgplayer: 85952
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274720,
+				tcgplayer: 85952
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274720,
+				tcgplayer: 85952
+			}
 		}
 	]
 }

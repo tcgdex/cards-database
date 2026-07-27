@@ -3,7 +3,7 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Raticate",
+		en: "Raticate"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		20,
-	],
+	dexId: [20],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Rattata",
+		en: "Rattata"
 	},
 
 	stage: "Stage1",
@@ -33,7 +31,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				en: "Bite"
 			},
 
 			damage: 20,
@@ -46,10 +44,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Super Fang",
+				en: "Super Fang"
 			},
 			effect: {
-				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).",
+				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
 			},
 
 		},
@@ -72,22 +70,26 @@ const card: Card = {
 
 
 	description: {
-		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
-	},
-
-	thirdParty: {
-		cardmarket: 274826,
-		tcgplayer: 88601
+		en: "It uses its whiskers to maintain its balance. It seems to slow down if they are cut off."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274826,
+				tcgplayer: 88601
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88601,
+				cardmarket: 274826
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Cascoon"
 	},
 
+	evolveFrom: {
+		en: "Wurmple",
+		fr: "Chenipotte",
+		es: "Wurmple",
+		'es-mx': "Wurmple",
+		de: "Waumpel",
+		it: "Wurmple",
+		pt: "Wurmple",
+	},
+
 	illustrator: "Dsuke",
 	rarity: "Common",
 	category: "Pokemon",

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		493,
-	],
+	dexId: [493],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -57,16 +55,16 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
-	},
-
-	thirdParty: {
-		cardmarket: 278861
+		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278861,
+				tcgplayer: 83594
+			}
 		}
 	]
 }

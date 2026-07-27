@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		399,
-	],
+	dexId: [399],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				fr: "Amnésie"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.",
+				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
 			},
 
@@ -48,7 +46,7 @@ const card: Card = {
 				fr: "Farfouille"
 			},
 			effect: {
-				en: "Search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.",
+				en: "Search your discard pile for a Trainer card, show it to your opponent, an put it into your hand.",
 				fr: "Choisissez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
 			},
 
@@ -61,24 +59,22 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
 		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83826,
+				cardmarket: 277896
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277896,
-		tcgplayer: 83826
-	}
 }
 
 export default card

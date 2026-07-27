@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Drakloak"
 	},
 
+	evolveFrom: {
+		en: "Dreepy",
+		fr: "Fantyrm",
+		es: "Dreepy",
+		'es-mx': "Dreepy",
+		de: "Grolldra",
+		it: "Dreepy",
+		pt: "Dreepy",
+	},
+
 	illustrator: "cochi8i",
 	rarity: "Common",
 	category: "Pokemon",

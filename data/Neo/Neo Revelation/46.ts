@@ -74,18 +74,22 @@ const card: Card = {
 		fr: "Craint et détesté de tous, on raconte qu'il apporte le malheur à ceux qui l'aperçoivent la nuit."
 	},
 
-	thirdParty: {
-		cardmarket: 274632,
-		tcgplayer: 87647
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274632,
+				tcgplayer: 87647
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274632,
+				tcgplayer: 87647
+			}
 		}
 	]
 }

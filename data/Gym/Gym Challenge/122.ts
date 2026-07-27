@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Saffron City Gym",
+		en: "Saffron City Gym"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -12,22 +12,25 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "This card stays in play after being played. Discard this card if another Stadium card comes into play. As often as each player like during his or her turn (before attacking), that player may return 1 basic Energy card attached to 1 of his or her Pokémon with Sabrina in its name to his or her hand.",
+		en: "This card stays in play after being played. Discard this card if another Stadium card comes into play. As often as each player like during his or her turn (before attacking), that player may return 1 basic Energy card attached to 1 of his or her Pokémon with Sabrina in its name to his or her hand."
 	},
-	thirdParty: {
-		cardmarket: 274390,
-		tcgplayer: 88892
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88892,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88892,
+				cardmarket: 274390
+			}
 		},
-	]
+	],
+	trainerType: "Stadium"
 }
 
 export default card

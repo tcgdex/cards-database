@@ -15,14 +15,14 @@ const card: Card = {
 		en: "Remove up to 2 damage counters from 1 of your Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 274045,
-		tcgplayer: 42563
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274045,
+				tcgplayer: 42563
+			}
 		}
 	]
 }

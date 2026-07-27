@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Kilowattrel da Kissera"
 	},
 
+	evolveFrom: {
+		en: "Iono's Wattrel",
+		fr: "Zapétrel de Mashynn",
+		es: "Wattrel de e-Nigma",
+		'es-mx': "Wattrel de e-Nigma",
+		de: "Enigmaras Voltrel",
+		it: "Wattrel di Kissara",
+		pt: "Wattrel da Kissera",
+	},
+
 	illustrator: "chibi",
 	rarity: "Rare",
 	category: "Pokemon",

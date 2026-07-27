@@ -84,18 +84,22 @@ const card: Card = {
 		fr: "Il se charge d'électricité statique pour envoyer des décharges de 10000 volts."
 	},
 
-	thirdParty: {
-		cardmarket: 273801,
-		tcgplayer: 106982
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273801,
+				tcgplayer: 106982
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273801,
+				tcgplayer: 106982
+			}
 		}
 	],
 }
