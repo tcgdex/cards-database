@@ -68,25 +68,29 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 449563,
 				tcgplayer: 85628
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 85628
+				tcgplayer: 85628,
+				cardmarket: 449563,
 			}
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"],
+			foil: ["league"],
 			thirdParty: {
+				cardmarket: 449563,
 				tcgplayer: 262156
 			}
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships", "staff"],
+			foil: 'league',
+			stamp: ["staff"],
 			thirdParty: {
 				tcgplayer: 262158
 			}
@@ -95,6 +99,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868740,
 				tcgplayer: 480046
 			}
 		}

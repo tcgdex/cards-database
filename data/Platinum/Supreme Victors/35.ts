@@ -71,12 +71,14 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 278726,
 				tcgplayer: 87459
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 278726,
 				tcgplayer: 87459
 			}
 		},
@@ -97,6 +99,7 @@ const card: Card = {
 			type: "reverse",
 			foil: "league",
 			thirdParty: {
+				cardmarket: 371547,
 				tcgplayer: 153263
 			}
 		},

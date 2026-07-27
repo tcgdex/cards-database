@@ -40,7 +40,7 @@ const card: Card = {
 			type: "reverse",
 			foil: 'league',
 			thirdParty: {
-				cardmarket: 278827,
+				cardmarket: 449368,
 				tcgplayer: 123193
 			}
 		},

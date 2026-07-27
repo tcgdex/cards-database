@@ -88,6 +88,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-pramawat"],
 			thirdParty: {
+				cardmarket: 868680,
 				tcgplayer: 479998
 			}
 		}

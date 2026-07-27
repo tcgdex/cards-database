@@ -40,6 +40,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["mychael-bryan"],
 			thirdParty: {
+				cardmarket: 868805,
 				tcgplayer: 480127
 			}
 		}

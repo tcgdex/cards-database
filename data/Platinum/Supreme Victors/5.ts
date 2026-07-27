@@ -97,7 +97,7 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				tcgplayer: 85623,
-				cardmarket: 278696
+				cardmarket: 449568
 			}
 		},
 		{
@@ -116,14 +116,16 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships"],
+			foil: 'league',
 			thirdParty: {
+				cardmarket: 449568,
 				tcgplayer: 164206
 			}
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships", "staff"],
+			foil: 'league',
+			stamp: ["staff"],
 			thirdParty: {
 				tcgplayer: 164207
 			}

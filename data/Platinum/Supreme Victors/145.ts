@@ -66,6 +66,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardmarket: 278836,
 				tcgplayer: 85629
 			}
 		},
@@ -73,6 +74,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868738,
 				tcgplayer: 480047
 			}
 		}

@@ -80,19 +80,29 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 278747,
 				tcgplayer: 84920
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
+				cardmarket: 278747,
 				tcgplayer: 84920
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				cardmarket: 371548,
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["yuta-komatsuda"],
 			thirdParty: {
+				cardmarket: 868748,
 				tcgplayer: 480030
 			}
 		}
