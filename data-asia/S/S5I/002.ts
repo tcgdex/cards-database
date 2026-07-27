@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../S5I"
+import { Card } from "../../../interfaces";
+import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ノクタス",
 		'zh-tw': "夢歌仙人掌",
-		th: "น็อคทัส"
+		th: "น็อคทัส",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -15,46 +15,64 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
+		ja: "砂漠の 旅人の 後ろを 集団で つきまとい 疲れて 動けなく なるのを 待つのだ。",
 		'zh-tw': "會成群跟在沙漠中的旅人後方，等待對方因疲累而變得無法動彈。",
-		th: "จะเดินกันเป็นกลุ่มติดตามนักเดินทางในทะเลทรายอยู่ไม่ห่างเพื่อรอให้เหนื่อยจนขยับตัวไม่ไหว"
+		th: "จะเดินกันเป็นกลุ่มติดตามนักเดินทางในทะเลทรายอยู่ไม่ห่างเพื่อรอให้เหนื่อยจนขยับตัวไม่ไหว",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "拉扯",
-			th: "ดึง"
+	attacks: [
+		{
+			name: {
+				ja: "ひっぱる",
+				'zh-tw': "拉扯",
+				th: "ดึง",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+				'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
+				th: "เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว แล้วสลับกับโปเกมอนบนตำแหน่งต่อสู้",
+			},
 		},
-
-		effect: {
-			'zh-tw': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
-			th: "เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว แล้วสลับกับโปเกมอนบนตำแหน่งต่อสู้"
+		{
+			name: {
+				ja: "いがいがパンチ",
+				'zh-tw': "傲傲拳",
+				th: "หมัดครวญคราง",
+			},
+			damage: "60+",
+			cost: ["Grass", "Colorless"],
+			effect: {
+				ja: "このポケモンに[悪]エネルギーがついているなら、70ダメージ追加。",
+				'zh-tw': "若這隻寶可夢身上附有【惡】能量，則增加70點傷害。",
+				th: "ถ้าโปเกมอนนี้มีพลังงาน [ความมืด] ติดอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 70",
+			},
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "傲傲拳",
-			th: "หมัดครวญคราง"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 533232,
+				tcgplayer: 568950,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若這隻寶可夢身上附有【惡】能量，則增加70點傷害。",
-			th: "ถ้าโปเกมอนนี้มีพลังงาน [ความมืด] ติดอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 70"
-		},
-
-		damage: "60+",
-		cost: ["Grass", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "サボネア",
+	},
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [332],
+};
 
-export default card
+export default card;
