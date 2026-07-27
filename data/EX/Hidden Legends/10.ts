@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		308,
-	],
+	dexId: [308],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -80,20 +78,23 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276084,
-		tcgplayer: 87271
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87271,
+				cardmarket: 276084
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87271,
+				cardmarket: 276084
+			}
+		},
+	],
+
 }
 
 export default card

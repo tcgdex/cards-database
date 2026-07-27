@@ -13,21 +13,32 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		152,
-	],
+	dexId: [152],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Poisonpowder"
+			},
+			effect: {
+				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			}
+		},
+	],
 	stage: "Basic",
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "×2"
 		},
 	],
@@ -40,7 +51,7 @@ const card: Card = {
 	],
 
 	effect: {
-		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+		en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
 	},
 
 	attacks: [{
@@ -60,19 +71,23 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276129,
-		tcgplayer: 84276
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84276,
+				cardmarket: 276129
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84276,
+				cardmarket: 276129
+			}
+		},
+	],
+
 }
 
 export default card

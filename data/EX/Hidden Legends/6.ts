@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		295,
-	],
+	dexId: [295],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -111,20 +109,23 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276080,
-		tcgplayer: 85370
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85370,
+				cardmarket: 276080
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85370,
+				cardmarket: 276080
+			}
+		},
+	],
+
 }
 
 export default card

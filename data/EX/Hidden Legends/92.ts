@@ -17,63 +17,104 @@ const card: Card = {
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw a number of cards up to the number of your opponent's Pokémon in play. If you have more than 7 cards (including this one) in your hand, you can't play this card.",
 		fr: "Vous pouvez piocher autant de cartes que votre adversaire possède de Pokémon en jeu.",
-		de: "Draw a number of cards, up to the number of your opponent's Pokémon in play.\nIf you have more than 7 cards (including this one) in your hand, you can't play this card.",
+		de: "Draw a number of cards, up to the number of your opponent's Pokémon in play.\nIf you have more than 7 cards (including this one) in your hand, you can't play this card."
 	},
 
-	thirdParty: {
-		cardmarket: 276166,
-		tcgplayer: 89569
-	},
-
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89569,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89569,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["chris-fulop"]
+			type: "worldchampionshipdeck",
+			thirdParty: {
+				tcgplayer: 477968,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			type: "worldchampionshipdeckalternate",
+			thirdParty: {
+				tcgplayer: 477966,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["reed-weichler"]
+			type: "worldchampionshipdeckalternate2",
+			thirdParty: {
+				tcgplayer: 477967,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["kevin-nguyen"]
+			type: "worldchampionshipdeckalternate3",
+			thirdParty: {
+				tcgplayer: 477434,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["curran-hill"]
+			type: "worldchampionshipdeckalternate4",
+			thirdParty: {
+				tcgplayer: 477435,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["takashi-yoneda"]
+			type: "worldchampionshipdeckalternate5",
+			thirdParty: {
+				tcgplayer: 477436,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["michael-gonzalez"]
+			type: "worldchampionshipdeckalternate6",
+			thirdParty: {
+				tcgplayer: 477433,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["jeremy-maron"]
+			type: "worldchampionshipdeckalternate7",
+			thirdParty: {
+				tcgplayer: 477589,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["hiroki-yano"]
+			type: "worldchampionshipdeckalternate8",
+			thirdParty: {
+				tcgplayer: 477587,
+				cardmarket: 276166
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["jimmy-ballard"]
-		}
-	]
+			type: "worldchampionshipdeckalternate9",
+			thirdParty: {
+				tcgplayer: 477586,
+				cardmarket: 276166
+			}
+		},
+		{
+			type: "worldchampionshipdeckalternate10",
+			thirdParty: {
+				tcgplayer: 477588,
+				cardmarket: 276166
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [66],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -69,24 +67,30 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276138,
-		tcgplayer: 86992
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86992,
+				cardmarket: 276138
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86992,
+				cardmarket: 276138
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["city-championships"]
-		}
-	]
+			type: "leaguestamp",
+			thirdParty: {
+				tcgplayer: 209566,
+				cardmarket: 276138
+			}
+		},
+	],
+
 }
 
 export default card

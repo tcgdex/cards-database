@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 120,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon.",
 				fr: "Si votre adversaire a des Pokémon-ex en jeu, les attaques de Mackogneur infligent 30 dégâts supplémentaires au Pokémon Défenseur.",
 				de: "If your opponent has any Pokémon-ex in play, each of Machamp's attacks do 30 more damage to the Defending Pokémon."
-			},
+			}
 		},
 	],
 
@@ -97,28 +95,38 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276083,
-		tcgplayer: 86971
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86971,
+				cardmarket: 276083
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86971,
+				cardmarket: 276083
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["staff", "national-championships"]
+			stamp: ['national-championships'],
+			thirdParty: {
+				tcgplayer: 251241,
+				cardmarket: 449903
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["national-championships"]
-		}
-	]
+			stamp: ['national-championships', 'staff'],
+			thirdParty: {
+				tcgplayer: 265325,
+			}
+		},
+	],
+
 }
 
 export default card
