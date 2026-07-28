@@ -33,6 +33,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["shuto-itagaki"],
 			thirdParty: {
+				cardmarket: 868065,
 				tcgplayer: 480624
 			}
 		}

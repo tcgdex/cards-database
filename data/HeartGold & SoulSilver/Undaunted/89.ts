@@ -78,6 +78,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ['david-cohen'],
 			thirdParty: {
+				cardmarket: 868142,
 				tcgplayer: 480476
 			}
 		},
