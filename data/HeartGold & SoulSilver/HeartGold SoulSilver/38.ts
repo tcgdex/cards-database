@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		159,
-	],
+	dexId: [159],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Totodile",
-		fr: "Kaiminus",
+		fr: "Kaiminus"
 	},
 
 	stage: "Stage1",
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Mächtiger Biss"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -81,17 +79,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84500,
+				cardmarket: 279010
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84500,
+				cardmarket: 279010
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279010,
-		tcgplayer: 84500
-	}
 }
 
 export default card

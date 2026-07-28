@@ -18,19 +18,22 @@ const card: Card = {
 		de: "Diese Karte erzeugt -Energie. Du kannst diese Karte an dein Pokémon, an dem mindestens eine Basis-Energiekarte angelegt ist, anlegen. Wenn du diese Karte aus deiner Hand spielst und an 1 deiner Pokémon anlegst, bringe eine Basis-Energiekarte, die an dieses Pokémon angelegt ist, auf deine Hand zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 275400,
-		tcgplayer: 83947
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83947,
+				cardmarket: 275400
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83947,
+				cardmarket: 275400
+			},
+		},
+	],
 }
 
 export default card

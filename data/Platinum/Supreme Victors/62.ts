@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		2,
-	],
+	dexId: [2],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre",
+		fr: "Bulbizarre"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn, when you play Ivysaur from your hand to evolve 1 of your Pokémon, you may use this power. Your opponent's Active Pokémon is now Asleep.",
 				fr: "Une seule fois lors de votre tour, lorsque vous jouez Herbizarre de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez utiliser ce pouvoir. Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 				de: "Einmal während deines Zuges kannst du, wenn du Bisaknosp von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, diese Poké-Power benutzen. Das Aktive Pokémon deines Gegners schläft jetzt."
-			},
+			}
 		},
 	],
 
@@ -70,25 +68,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
-	},
-
-	thirdParty: {
-		cardmarket: 278753
+		en: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86303,
+				cardmarket: 278753
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278753,
+				tcgplayer: 86303
+			}
+		},
+	],
+
 }
 
 export default card

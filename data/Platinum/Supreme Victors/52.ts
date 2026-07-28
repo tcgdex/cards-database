@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		286,
-	],
+	dexId: [286],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Shroomish",
-		fr: "Balignon",
+		fr: "Balignon"
 	},
 
 	stage: "Stage1",
@@ -74,25 +72,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
-	},
-
-	thirdParty: {
-		cardmarket: 278743
+		en: "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83958,
+				cardmarket: 278743
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278743,
+				tcgplayer: 83958
+			}
+		},
+	],
+
 }
 
 export default card

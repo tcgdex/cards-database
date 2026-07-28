@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		400,
-	],
+	dexId: [400],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Bidoof",
-		fr: "Keunotor",
+		fr: "Keunotor"
 	},
 
 	stage: "Stage1",
@@ -72,25 +70,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
-		en: "A river dammed by Bibarel will never overflow its banks, which is appreciated by people nearby.",
-	},
-
-	thirdParty: {
-		cardmarket: 278742
+		en: "A river dammed by Bibarel will never overflow its banks, which is appreciated by people nearby."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83819,
+				cardmarket: 278742
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278742,
+				tcgplayer: 83819
+			}
+		},
+	],
+
 }
 
 export default card

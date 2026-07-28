@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		187,
-	],
+	dexId: [187],
 
 	hp: 30,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -67,21 +65,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86182,
+				cardmarket: 279039
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86182,
+				cardmarket: 279039
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuka-furusawa"],
-		}
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480053,
+				cardmarket: 279039
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279039,
-		tcgplayer: 86182
-	}
 }
 
 export default card

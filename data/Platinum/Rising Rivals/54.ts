@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Whiscash 4",
+		en: "Whiscash E4",
 		fr: "Barbicha  Niv. 50",
 		de: "Welsar 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		340,
-	],
+	dexId: [340],
 	hp: 80,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -64,7 +62,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -77,12 +75,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278628,
+				tcgplayer: 90578
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278628,
+				tcgplayer: 90578
+			}
+		},
+	],
+
 }
 
 export default card

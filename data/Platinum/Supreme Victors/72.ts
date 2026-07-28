@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		198,
-	],
+	dexId: [198],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -62,32 +60,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
-	},
-
-	thirdParty: {
-		cardmarket: 278763
+		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87654,
+				cardmarket: 278763
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278763,
+				tcgplayer: 87654
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		307,
-	],
+	dexId: [307],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
-	},
-
-	thirdParty: {
-		cardmarket: 278804
+		en: "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87285,
+				cardmarket: 278804
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278804,
+				tcgplayer: 87285
+			}
+		},
+	],
+
 }
 
 export default card

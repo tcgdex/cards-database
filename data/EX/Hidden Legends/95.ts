@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		376,
-	],
+	dexId: [376],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -66,7 +65,7 @@ const card: Card = {
 				fr: "Lors de votre prochain tour, Extra poing comète inflige 50 dégâts plus 50 dégâts supplémentaires.",
 				de: "During your next turn, Extra Comet Punch does 50 damage plus 50 more damage"
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
@@ -89,18 +88,18 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 276169,
-		tcgplayer: 87346
-	},
+	retreat: 4,
 
 	variants: [
 		{
 			type: "holo",
-		}
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 87346,
+				cardmarket: 276169
+			}
+		},
 	]
 }
 

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		74,
-	],
+	dexId: [74],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
-	},
-
-	thirdParty: {
-		cardmarket: 278796
+		en: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85692,
+				cardmarket: 278796
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278796,
+				tcgplayer: 85692
+			}
+		},
+	],
+
 }
 
 export default card

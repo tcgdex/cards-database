@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		376,
-	],
+	dexId: [376],
 
 	hp: 130,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Metang"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Each Pokémon in play (both yours and your opponent's) gets -20 HP. No more than 20 HP can be reduced by all Gravitation Poké-Bodies.",
 				fr: "Retirez 20 PV à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire). Les Poké-Bodies Gravitation ne peuvent pas retirer plus de 20 PV.",
 				de: "Jedes Pokémon im Spiel (deine und die deines Gegners) erhält -20 KP. Durch alle Schwerkraft Poke-Body können so nicht mehr als 20 KP abgezogen werden."
-			},
+			}
 		},
 	],
 
@@ -74,32 +72,35 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
-		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
-	},
-
-	thirdParty: {
-		cardmarket: 278698
+		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87339,
+				cardmarket: 278689
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278698,
+				tcgplayer: 87339
+			}
+		},
+	],
+
 }
 
 export default card

@@ -21,55 +21,23 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 278663,
-		tcgplayer: 83763
-	},
-
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278663,
+				tcgplayer: 83763
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 278663,
+				tcgplayer: 83763
+			}
 		},
-		{
-			type: "normal",
-			stamp: ["tsubasa-nakamura"]
-		},
-		{
-			type: "normal",
-			stamp: ["stephen-silvestro"]
-		},
-		{
-			type: "normal",
-			stamp: ["jason-martinez"]
-		},
-		{
-			type: "normal",
-			stamp: ["david-cohen"]
-		},
-		{
-			type: "normal",
-			stamp: ["michael-pramawat"]
-		},
-		{
-			type: "normal",
-			stamp: ["mychael-bryan"]
-		},
-		{
-			type: "normal",
-			stamp: ["yuta-komatsuda"]
-		},
-		{
-			type: "normal",
-			stamp: ["yuka-furusawa"]
-		}
-	]
+	],
+
 }
 
 export default card

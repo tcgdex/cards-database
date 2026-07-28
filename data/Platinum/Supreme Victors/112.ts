@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -51,25 +49,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
-	},
-
-	thirdParty: {
-		cardmarket: 278803
+		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87175,
+				cardmarket: 278803
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278803,
+				tcgplayer: 87175
+			}
+		},
+	],
+
 }
 
 export default card

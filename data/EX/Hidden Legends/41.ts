@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		67,
-	],
+	dexId: [67],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
 				fr: "Si Machopeur est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Machopeur est mis K.O), placez 1 marqueur de dégât sur le Pokémon Attaquant.",
 				de: "If Machoke is your Active Pokémon and is damaged by an opponent's attack (even if Machoke is Knocked Out), put 1 damage counter on the Attacking Pokémon."
-			},
+			}
 		},
 	],
 
@@ -73,23 +71,29 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276115,
-		tcgplayer: 86978
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86978,
+				cardmarket: 276115
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86978,
+				cardmarket: 276115
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["state-championships"]
-		}
+			stamp: ['state-championships'],
+			thirdParty: {
+				tcgplayer: 251242,
+				cardmarket: 449908
+			}
+		},
 	]
 }
 

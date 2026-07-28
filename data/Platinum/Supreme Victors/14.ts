@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		469,
-	],
+	dexId: [469],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Yanma",
-		fr: "Yanma",
+		fr: "Yanma"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Yanmega is your Active Pokémon, you may search your discard pile for a Grass Energy card and attach it to Yanmega. This power can't be used if Yanmega is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Yanmega est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie Grass et l'attacher à Yanmega. Ce pouvoir ne peut pas être utilisé si Yanmega est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Yanmega dein Aktives Pokémon ist, deinen Ablagestapel nach 1 -Energiekarte durchsuchen und sie an Yanmega anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Yanmega von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -89,26 +87,30 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278705
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278705,
+				tcgplayer: 90692,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278705,
+				tcgplayer: 90692
+			}
+		},
+	],
+
 }
 
 export default card

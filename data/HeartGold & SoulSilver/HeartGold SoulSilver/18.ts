@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		103,
-	],
+	dexId: [103],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf",
+		fr: "Noeunoeuf"
 	},
 
 	stage: "Stage1",
@@ -61,7 +59,7 @@ const card: Card = {
 				fr: "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
 				de: "Wirf für jede an Kokowei angelegte Energie 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -81,17 +79,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85362,
+				cardmarket: 278990
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85362,
+				cardmarket: 278990
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278990,
-		tcgplayer: 85362
-	}
 }
 
 export default card

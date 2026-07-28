@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Sonnen-Andeutung"
 			},
 			effect: {
-				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent’s Pokémon in any way you like.",
+				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent's Pokémon in any way you like.",
 				fr: "Retirez jusqu’à 4 marqueurs de dégât à vos Pokémon et placez-les comme vous le voulez sur les Pokémon de votre adversaire.",
 				de: "Verschiebe bis zu 4 Schadensmarken von beliebigen deiner Pokémon in beliebiger Verteilung auf die gegnerischen Pokémon."
 			},
@@ -82,24 +80,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal"
-		},
-		{
 			type: "holo",
-			foil: "cracked-ice"
-		}
+			thirdParty: {
+				cardmarket: 279255,
+				tcgplayer: 85322
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279255,
+				tcgplayer: 85322
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125043
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 279255,
-		tcgplayer: 85322
-	}
 }
 
 export default card

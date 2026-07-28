@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		310,
-	],
+	dexId: [310],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Stage1",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Aqua Beam"
 			},
 			effect: {
-				en: "If the Defending Pokémon has Team Magma's in its name, the Defending Pokémon is now Confused.",
+				en: "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused.",
 				fr: "Si le nom du Pokémon Défenseur comporte Team Magma, le Pokémon Défenseur est maintenant Confus.",
 				de: "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused."
 			},
@@ -79,22 +77,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276006,
-		tcgplayer: 89791
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275806,
+				tcgplayer: 89791
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275806,
+				tcgplayer: 89791
+			}
+		},
+	],
+
 }
 
 export default card

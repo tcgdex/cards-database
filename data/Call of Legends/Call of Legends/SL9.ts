@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Noriko Hotta",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		243,
-	],
+	dexId: [243],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Tosender Donner"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your Pokémon, and don't apply Weakness and Resistance to this damage.",
+				en: "Does 20 damage to 1 of your Pokémon and don't apply Weakness and Resistance to this damage.",
 				fr: "Inflige 20 dégâts à 1 de vos Pokémon. N’appliquez ni la Faiblesse ni la Résistance à ces dégâts.",
 				de: "Dieser Angriff fügt einem deiner Pokémon 20 Schadenspunkte zu; wende dabei Schwäche und Resistenz nicht an."
 			},
@@ -66,26 +64,31 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "A Pokémon that races across the land while barking a cry that sounds like crashing thunder.",
 	},
 
-	thirdParty: {
-		cardmarket: 279634
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88536,
+				cardmarket: 279634
+			},
+		},
+	],
+
 }
 
 export default card

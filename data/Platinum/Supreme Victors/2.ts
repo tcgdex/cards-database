@@ -4,20 +4,18 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Blaziken FB",
-		fr: "Brasegali ",
+		fr: "Brasegali FB",
 		de: "Lohgock FB"
 	},
 	illustrator: "Motofumi Fujiwara",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		257,
-	],
+	dexId: [257],
 	hp: 80,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -62,22 +60,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278693,
+				tcgplayer: 83914
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278693,
+				tcgplayer: 83914
+			}
+		},
+	],
 
 }
 

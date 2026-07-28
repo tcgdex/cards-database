@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		417,
-	],
+	dexId: [417],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -64,32 +62,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
-	},
-
-	thirdParty: {
-		cardmarket: 278809
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87903,
+				cardmarket: 278809
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278809,
+				tcgplayer: 87903
+			}
+		},
+	],
+
 }
 
 export default card

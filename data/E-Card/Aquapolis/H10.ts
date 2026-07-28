@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yukiko Baba",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		103,
-	],
+	dexId: [103],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie attachées n'importe lequel de vos Pokémon. Lancez un nombre de pièces égal au nombre de cartes Énergie que vous avez défaussé de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
 				de: "Lege eine beliebige Anzahl an beliebige deiner Pokémon angelegte Energiekarten auf deinen Ablagestapel. Wirf eine Anzahl Münzen gleich der Anzahl der auf diese Weise abgelegten Energiekarten. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 		{
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Angesagter Treffer"
 			},
 			effect: {
-				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage times the amount of Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pokémon)",
+				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage times the amount of Grass Energy attached to Exeggutor. (Don't apply Weakness or Resistance for Benched Pokémon.)",
 				fr: "Choisissez un des Pokémon du Banc de votre adversaire. Cette attaque inflige 10 dégâts multipliés par la quantité d'Énergie  attachée à Noadkoko. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Wähle 1 der Pokémon auf der Bank deines Gegners. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an -Energie, die an Kokowei angelegt ist, zu. ( Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			}
@@ -69,21 +67,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275084,
-		tcgplayer: 85353
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 85353,
+				cardmarket: 275084
+			}
+		},
 	]
 }
 

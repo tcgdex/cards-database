@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -73,20 +71,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
 		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras. Even foes it could not otherwise see.",
 	},
 
-	thirdParty: {
-		cardmarket: 279657,
-		tcgplayer: 86881
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86881,
+				cardmarket: 279657
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86881,
+				cardmarket: 279657
+			},
+		},
+	],
+
 }
 
 export default card

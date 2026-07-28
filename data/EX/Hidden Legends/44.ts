@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		375,
-	],
+	dexId: [375],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Metang has any Energy attached to it, Metang's Retreat Cost is 0.",
 				fr: "Si Metang possède des Énergies, son Coût de Retraite est de 0.",
 				de: "If Metang has any Energy attached to it, Metang's Retreat Cost is 0."
-			},
+			}
 		},
 	],
 
@@ -65,7 +63,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "×2"
 		},
 	],
@@ -80,18 +78,21 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276118,
-		tcgplayer: 87373
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 87373,
+				cardmarket: 276118
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87373,
+				cardmarket: 276118
+			}
+		},
 	]
 }
 

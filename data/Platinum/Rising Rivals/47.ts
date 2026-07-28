@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Rapidash 4",
+		en: "Rapidash E4",
 		fr: "Galopa  Niv. 53",
 		de: "Gallopa 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		78,
-	],
+	dexId: [78],
 	hp: 70,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -55,18 +53,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278621,
+				tcgplayer: 88588
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278621,
+				tcgplayer: 88588
+			}
 		},
 	],
 
-	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		}
-	]
 }
 
 export default card

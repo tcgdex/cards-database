@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Golem 4",
+		en: "Golem E4",
 		fr: "Grolem  Niv. 52",
 		de: "Geowaz 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		76,
-	],
+	dexId: [76],
 	hp: 110,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Raserei"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each damage counter on Golem .",
+				en: "Does 20 damage plus 10 more damage for each damage counter on Golem GL.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Grolem ",
 				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Geowaz 4 zu."
 			},
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Risikotackle"
 			},
 			effect: {
-				en: "Golem does 60 damage to itself.",
+				en: "Golem E4 does 60 damage to itself.",
 				fr: "Grolem  s'inflige 60 dégâts.",
 				de: "Geowaz 4 fügt sich selbst 60 Schadenspunkte zu."
 			},
@@ -67,7 +65,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -80,12 +78,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278597,
+				tcgplayer: 85830
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278597,
+				tcgplayer: 85830
+			}
+		},
+	],
+
 }
 
 export default card

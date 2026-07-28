@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		217,
-	],
+	dexId: [217],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -40,7 +38,7 @@ const card: Card = {
 				de: "Umklammerung"
 			},
 			effect: {
-				en: "The Defending Pokémon can't Retreat during your opponent's next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				de: "Das verteidigende Pokémon kann sich im nächsten Zug deines gegners nicht zurückziehen."
 			},
 			damage: 30,
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Zerreißen"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any damage counters on it, this attack does 40 damage plus 20 more damage. If not, this attack does 40 damage.",
+				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage. If not, this attack does 40 damage.",
 				de: "Liegen auf dem verteidigenden Pokémon bereits Schadensmarken, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu. Sonnst fügt dieser Angriff 40 Schadenspunkte zu."
 			},
 			damage: "40+",
@@ -69,25 +67,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275368,
-		tcgplayer: 90251
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90251,
+				cardmarket: 275368
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90251,
+				cardmarket: 275368
+			},
+		},
+	],
 }
 
 export default card

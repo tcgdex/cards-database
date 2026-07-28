@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		244,
-	],
+	dexId: [244],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "To attach a Fire Energy card from your hand to Entei, you must discard an Energy card attached to Entei. (Attach the Fire Energy, and then discard an Energy from Entei.)",
 				fr: "Pour attacher une carte Énergie  de votre main à Entei, vous devez vous défausser d'une carte Énergie attachée à Entei. (Attachez l'Énergie , et défaussez-vous ensuite d'une Énergie attachée à Entei.)",
 				de: "Um eine -Energiekarte aus deiner Hand an Entei anzulegen, musst du eine an Entei angelegte Energiekarte auf deinen Ablagestapel legen. (Lege erst die -Energie an, und lege dann eine an Entei angelegte Energiekarte auf den Ablagestapel.)"
-			},
+			}
 		},
 	],
 
@@ -66,24 +64,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275065,
-		tcgplayer: 85268
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85268,
+				cardmarket: 275065
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85268,
+				cardmarket: 275065
+			}
+		},
+		{
+			type: 'reverse',
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 210848,
+			}
+		},
 	]
 }
 

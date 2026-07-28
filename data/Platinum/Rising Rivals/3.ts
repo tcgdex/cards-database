@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Makoto Imai",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		491,
-	],
+	dexId: [491],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 				en: "Put 1 damage counter on each of your opponent's Pokémon that remains Asleep between turns.",
 				fr: "Placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire qui reste Endormi entre deux tours.",
 				de: "Lege zwischen den Zügen 1 Schadensmarke auf jedes schlafende Pokémon deines Gegners, das nicht aufgewacht ist."
-			},
+			}
 		},
 	],
 
@@ -67,32 +65,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278577,
-		tcgplayer: 84710
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278572,
+				tcgplayer: 84710
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278572,
+				tcgplayer: 84710
+			}
+		},
+	],
+
 }
 
 export default card

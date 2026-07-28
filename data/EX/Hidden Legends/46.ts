@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		112,
-	],
+	dexId: [112],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Rhydon is your Active Pokémon, prevent all damage done by attacks to all of your Benched Pokémon.",
 				fr: "Tant que Rhinoféros est votre Pokémon Actif, prévenez tous les dégâts infligés par des attaques à vos Pokémon de Banc",
 				de: "As long as Rhydon is your Active Pokémon, prevent all damage done by attacks to all of your Benched Pokémon."
-			},
+			}
 		},
 	],
 
@@ -88,26 +86,32 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276120,
-		tcgplayer: 88732
-	},
+	retreat: 2,
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88732,
+				cardmarket: 276120
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88732,
+				cardmarket: 276120
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
-		}
+			stamp: ['michael-gonzalez'],
+			thirdParty: {
+				tcgplayer: 477575,
+				cardmarket: 871532
+			}
+		},
 	]
 }
 

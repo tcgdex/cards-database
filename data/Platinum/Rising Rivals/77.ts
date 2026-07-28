@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		364,
-	],
+	dexId: [364],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Spheal",
-		fr: "Obalie",
+		fr: "Obalie"
 	},
 
 	stage: "Stage1",
@@ -71,26 +69,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
-	},
-
-	thirdParty: {
-		cardmarket: 278651,
-		tcgplayer: 89033
+		en: "It habitually spins things on its nose. By doing so, it learns textures and odors."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278651,
+				tcgplayer: 89033
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278651,
+				tcgplayer: 89033
+			}
+		},
+	],
+
 }
 
 export default card

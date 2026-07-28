@@ -15,23 +15,25 @@ const card: Card = {
 
 	effect: {
 		fr: "Regardez la main de votre adversaire !",
-		en: "Look at your opponent’s hand!",
+		en: "Look at your opponent's hand!",
 		de: "Schau dir die Handkarten deines Gegners an!"
 	},
 
 	trainerType: "Item",
 
-	variants: [
-		{
-			type: "normal"
-		}
-	],
-
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 278972
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278972,
+				tcgplayer: 83509
+			}
+		},
+	],
+
 }
 
 export default card

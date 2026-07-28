@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		146,
-	],
+	dexId: [146],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -48,7 +46,7 @@ const card: Card = {
 				de: "Feuersammeln"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.",
+				en: "If there are any Fire Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Moltres.",
 				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Lavados an."
 			},
 			damage: 10,
@@ -66,7 +64,7 @@ const card: Card = {
 				de: "Brennender Schweif"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Energy card attached to Moltres.",
+				en: "Flip a coin. If tails, discard a Fire Energy card attached to Moltres.",
 				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Lavados angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
@@ -77,10 +75,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -90,16 +87,15 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275279,
-		tcgplayer: 87556
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87556,
+				cardmarket: 275279
+			},
+		},
+	],
 }
 
 export default card

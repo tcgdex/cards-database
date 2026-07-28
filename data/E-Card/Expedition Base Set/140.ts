@@ -19,19 +19,35 @@ const card: Card = {
 		de: "Wirf eine Münze. Wähle bei 'Kopf' 1 Energiekarte, die an ein Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275015,
-		tcgplayer: 85221
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85221,
+				cardmarket: 275015
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85221,
+				cardmarket: 275015
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				en: "Splatter",
+			},
+			effect: {
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness or Resistance.",
+			},
+		},
+	],
 }
 
 export default card

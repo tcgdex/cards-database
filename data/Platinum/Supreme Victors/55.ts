@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		421,
-	],
+	dexId: [421],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Cherubi",
-		fr: "Ceribou",
+		fr: "Ceribou"
 	},
 
 	stage: "Stage1",
@@ -67,32 +65,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
-	},
-
-	thirdParty: {
-		cardmarket: 278746
+		en: "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84254,
+				cardmarket: 278746
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278746,
+				tcgplayer: 84254
+			}
+		},
+	],
+
 }
 
 export default card

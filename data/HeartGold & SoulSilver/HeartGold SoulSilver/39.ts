@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		225,
-	],
+	dexId: [225],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Hagelsturm"
 			},
 			effect: {
-				en: "This attack does 10 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -83,26 +81,34 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84750,
+				cardmarket: 279011
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84750,
+				cardmarket: 279011
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 177131,
+				cardmarket: 371563
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"]
+			stamp: ["snowflake"],
+			languages: ["de"],
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279011,
-		tcgplayer: 84750
-	}
 }
 
 export default card

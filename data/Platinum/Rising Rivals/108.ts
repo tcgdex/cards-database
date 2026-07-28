@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Infernape 4",
+		en: "Infernape E4 LV.X",
 		fr: "Simiabraz  Niv. X",
 		de: "Panferno 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		392,
-	],
+	dexId: [392],
 	hp: 110,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "LEVEL-UP",
@@ -31,10 +29,10 @@ const card: Card = {
 				de: "Einschüchterndes Gebrüll"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon. This power can't be used if Infernape is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon. This power can't be used if Infernape E4 is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec 1 des Pokémon de son Banc. Ce pouvoir ne peut pas être utilisé si Simiabraz  est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank austauschen lassen. Diese Poké-Power kann nicht benutzt werden, wenn Panferno 4 von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Feuerwirbel"
 			},
 			effect: {
-				en: "Discard 2 Energy attached to Infernape .",
+				en: "Discard 2 Energy attached to Infernape E4.",
 				fr: "Défaussez 2 Énergies attachées à Simiabraz .",
 				de: "Lege 2 an Panferno 4 angelegte Energien auf deinen Ablagestapel."
 			},
@@ -61,15 +59,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278682,
+				tcgplayer: 86280
+			}
 		},
 	],
 
-	variants: [
-		{
-			type: "holo"
-		}
-	]
 }
 
 export default card

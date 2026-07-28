@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		14,
-	],
+	dexId: [14],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Exoskelett"
 			},
 			effect: {
-				en: "All damage done to Kakuna is reduced by 10 (after applying Weakness and Resistance).",
+				en: "All damage by attacks to Kakuna is reduced by 10 (after applying Weakness and Resistance).",
 				de: "Jeder Schaden, der Kokuna durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
@@ -63,25 +61,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275328,
-		tcgplayer: 86410
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86410,
+				cardmarket: 275328
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86410,
+				cardmarket: 275328
+			},
+		},
+	],
 }
 
 export default card

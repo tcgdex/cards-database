@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		426,
-	],
+	dexId: [426],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Drifloon",
-		fr: "Baudrive",
+		fr: "Baudrive"
 	},
 
 	stage: "Stage1",
@@ -68,32 +66,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
-	},
-
-	thirdParty: {
-		cardmarket: 278694
+		en: "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84947,
+				cardmarket: 278748
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278694,
+				tcgplayer: 84947
+			}
+		},
+	],
+
 }
 
 export default card

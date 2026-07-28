@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [172],
 
 	hp: 30,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Pichu is Asleep, prevent all damage done to Pichu by attacks.",
 				fr: "Tant que Pichu reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Pichu schläft, verhindere allen Schaden, der Pichu durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -66,29 +64,45 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88022,
+				cardmarket: 279000
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88022,
+				cardmarket: 279000
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['pre-release'],
+			thirdParty: {
+				tcgplayer: 213013,
+				cardmarket: 882912
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['staff', 'pre-release'],
+			thirdParty: {
+				tcgplayer: 213014,
+				cardmarket: 279000
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"]
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480432,
+				cardmarket: 868170
+			}
 		},
-		{
-			type: "normal",
-			stamp : ["pre-release"]
-		},
-		{
-			type: "normal",
-			stamp : ["pre-release","staff"]
-		}
 	],
 
-	thirdParty: {
-		cardmarket: 279000,
-		tcgplayer: 88022
-	}
 }
 
 export default card

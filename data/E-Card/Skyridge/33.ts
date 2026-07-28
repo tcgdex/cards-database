@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self Healing",
+				en: "Self-healing",
 				de: "Selbstheilung"
 			},
 			effect: {
@@ -81,25 +79,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275252,
-		tcgplayer: 90281
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90281,
+				cardmarket: 275252
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90281,
+				cardmarket: 275252
+			},
+		},
+	],
 }
 
 export default card

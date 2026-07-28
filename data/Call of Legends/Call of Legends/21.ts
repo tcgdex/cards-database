@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		235,
-	],
+	dexId: [235],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -57,7 +55,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -65,7 +63,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -75,10 +73,23 @@ const card: Card = {
 		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
 	},
 
-	thirdParty: {
-		cardmarket: 279664,
-		tcgplayer: 89357
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89357,
+				cardmarket: 279664
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89357,
+				cardmarket: 279664
+			},
+		},
+	],
+
 }
 
 export default card

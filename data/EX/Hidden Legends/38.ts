@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		171,
-	],
+	dexId: [171],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Poke-BODY",
+			type: "Poke-POWER",
 			name: {
 				en: "Energy Grounding",
 				fr: "Source d'Énergie",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn.",
 				fr: "Une seule fois lors du tour de votre adversaire, lorsqu'un de vos Pokémon est mis K.O par des attaques de votre adversaire, vous pouvez utiliser ce pouvoir. Choisissez une carte Énergie de base défaussée du Pokémon mis K.O et attachez-la à Lanturn. Vous ne pouvez pas utiliser Source d'Énergie plus d'une fois même s'il y a plus d'1 Lanturn en jeu.",
 				de: "Once during your opponent's turn, when any of your Pokémon is Knocked Out by your opponent's attacks, you may use this power. Choose a basic Energy card discarded from the Knocked Out Pokémon and attach it to Lanturn. You can't use more than 1 Energy Grounding Poké-Power each turn."
-			},
+			}
 		},
 	],
 
@@ -78,18 +76,21 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276112,
-		tcgplayer: 86604
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 86604,
+				cardmarket: 276112
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86604,
+				cardmarket: 276112
+			}
+		},
 	]
 }
 

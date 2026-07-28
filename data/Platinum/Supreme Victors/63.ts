@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		428,
-	],
+	dexId: [428],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Buneary",
-		fr: "Laporeille",
+		fr: "Laporeille"
 	},
 
 	stage: "Stage1",
@@ -71,25 +69,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
-	},
-
-	thirdParty: {
-		cardmarket: 278754
+		en: "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86826,
+				cardmarket: 278754
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278754,
+				tcgplayer: 86826
+			}
+		},
+	],
+
 }
 
 export default card

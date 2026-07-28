@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Kazuo Yazawa",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		383,
-	],
+	dexId: [383],
 
 	hp: 100,
 
 	types: [
 		"Fighting",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 				en: "As long as the number of Pokémon in play (both yours and your opponent's) that has Team Magma in its name is 3 or less, Team Magma's Groudon can't attack.",
 				fr: "Tant que jusqu'à 3 Pokémon (les vôtres et ceux de votre adversaire) dont les noms comportent Team Magma sont en jeu, Groudon de Team Magma ne peut pas attaquer.",
 				de: "As long as the number of Pokémon in play (both yours and your opponent's) that Team Magma in its name is 3 or less, Team Magma's Groudon can't attack."
-			},
+			}
 		},
 	],
 
@@ -88,27 +86,37 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275986,
-		tcgplayer: 89827
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275786,
+				tcgplayer: 89827
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275786,
+				tcgplayer: 89827
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 477451
+			}
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 125255
+			}
 		}
 	]
 }

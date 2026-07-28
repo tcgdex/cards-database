@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		396,
-	],
+	dexId: [396],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -48,32 +46,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
-	},
-
-	thirdParty: {
-		cardmarket: 278820
+		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89525,
+				cardmarket: 278820
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278820,
+				tcgplayer: 89525
+			}
+		},
+	],
+
 }
 
 export default card

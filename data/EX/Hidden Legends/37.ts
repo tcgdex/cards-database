@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		174,
-	],
+	dexId: [174],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may put Jigglypuff from your hand onto Igglybuff (this counts as evolving Igglybuff), and remove all damage counters from Igglybuff.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez placer Rondoudou de votre main sur Toudoudou (vous faites ainsi évoluer Toudoudou) et retirer à Toudoudou tous ses marqueurs de dégât.",
 				de: "Once during your turn (before your attack), you may put Jigglypuff from your hand onto Igglybuff (this counts as evolving Igglybuff), and remove all damage counters from Igglybuff."
-			},
+			}
 		},
 	],
 
@@ -70,18 +68,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276111,
-		tcgplayer: 86260
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 86260,
+				cardmarket: 276111
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86260,
+				cardmarket: 276111
+			}
+		},
 	]
 }
 

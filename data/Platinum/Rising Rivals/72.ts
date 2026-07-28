@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♂",
+		en: "Nidoran ♂",
 		fr: "Nidoran♂ Niv. 9",
 		de: "Nidoran m"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		32,
-	],
+	dexId: [32],
 	hp: 50,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -65,21 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278646,
+				tcgplayer: 87728
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278646,
+				tcgplayer: 87728
+			}
+		},
+	],
+
 }
 
 export default card

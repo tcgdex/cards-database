@@ -3,7 +3,7 @@ import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Ancient Technical Machine (Ice)",
+		en: "Ancient Technical Machine [Ice]",
 		fr: "Machine Technique Ancienne [Glace]",
 		de: "Ancient TM (Ice)*"
 	},
@@ -23,27 +23,39 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Ice Generator",
 				de: "Ice Generator",
-				fr: "Générateur de glace",
+				fr: "Générateur de glace"
 			},
 			effect: {
+				en: "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn.",
 				de: "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn.",
-				fr: "Défaussez toutes les cartes Dresseur que votre adversaire a en jeu. Prévenez ensuite tous les effets, dégâts inclus, infligés au Pokémon utilisant cette attaque lors du prochain tour de votre adversaire.",
+				fr: "Défaussez toutes les cartes Dresseur que votre adversaire a en jeu. Prévenez ensuite tous les effets, dégâts inclus, infligés au Pokémon utilisant cette attaque lors du prochain tour de votre adversaire."
 			},
 			cost: [
 				"Colorless",
-			],
+			]
 		},
 	],
 
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			thirdParty: {
+				cardmarket: 276158,
+				tcgplayer: 83553
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 276158,
+				tcgplayer: 83553
+			}
+		},
+	],
+
 }
 
 export default card

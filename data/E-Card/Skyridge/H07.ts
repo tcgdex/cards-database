@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		136,
-	],
+	dexId: [136],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self Healing",
+				en: "Self-healing",
 				de: "Selbstheilung"
 			},
 			effect: {
@@ -68,10 +66,10 @@ const card: Card = {
 				de: "Brennverstärker"
 			},
 			effect: {
-				en: "Discard an Energy card attached to Flareon in order to use this attack. If the discarded card is a Energy card, this attack does 40 damage plus 10 more damage.",
+				en: "Discard an Energy card attached to Flareon in order to use this attack. If the discarded card is a Fire Energy card, this attack does 40 damage plus 10 more damage.",
 				de: "Lege eine an Flamara angelegte Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Ist die abgelegte Karte eine -Energiekarte, fügt dieser Angriff 40 Schadenspunkte plus 10 weiter Schadenspunkte zu."
 			},
-			damage: 40,
+			damage: "40+",
 
 		},
 	],
@@ -79,22 +77,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275266,
-		tcgplayer: 85490
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85490,
+				cardmarket: 275266
+			},
+		},
+	],
 }
 
 export default card

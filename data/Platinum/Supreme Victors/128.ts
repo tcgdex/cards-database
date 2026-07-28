@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		451,
-	],
+	dexId: [451],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -71,25 +69,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "As soon as the tail claws close, its needle tips secrete poison. It can survive a year without food.",
-	},
-
-	thirdParty: {
-		cardmarket: 278819
+		en: "As soon as the tail claws close, its needle tips secrete poison. It can survive a year without food."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89275,
+				cardmarket: 278819
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278819,
+				tcgplayer: 89275
+			}
+		},
+	],
+
 }
 
 export default card

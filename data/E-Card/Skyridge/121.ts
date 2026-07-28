@@ -10,6 +10,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -17,19 +18,22 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach bis zu 2 Trainer-Karten, die Ball in ihrem Namen haben, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 275379,
-		tcgplayer: 83564
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83564,
+				cardmarket: 275379
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83564,
+				cardmarket: 275379
+			},
+		},
+	],
 }
 
 export default card

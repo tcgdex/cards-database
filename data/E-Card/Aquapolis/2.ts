@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "You pay Colorless less to retreat Arcanine for each Energy attached to it.",
 				fr: "Vous payez  de moins pour faire battre Arcanin en retraite pour chaque Énergie qui lui est attachée.",
 				de: "You pay  less to retreat Arcanine for each Energy attached to it."
-			},
+			}
 		},
 	],
 
@@ -59,7 +57,7 @@ const card: Card = {
 				de: "Fire Blow"
 			},
 			effect: {
-				en: "You may discard any number of Fire Energy cards attached to Arcanine. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded in this way. This attack does 30 damage plus 30 more damage for each heads.",
+				en: "You may discard any number of Fire Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of Fire Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads.",
 				fr: "Vous pouvez vous défausser d'autant de cartes Énergie  attachées à Arcanin que vous le désirez. Si vous le faites, lancez un nombre de pièces égal au nombre de cartes Énergie  dont vous vous êtes défaussé. Cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires pour chaque face.",
 				de: "You may discard any number of  Energy cards attached to Arcanine when you use this attack. If you do, flip a number of coins equal to the number of  Energy cards you discarded. This attack does 30 damage plus 30 more damage for each heads."
 			},
@@ -71,24 +69,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275041,
-		tcgplayer: 83575
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83575,
+				cardmarket: 275041
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 83575,
+				cardmarket: 275041
+			}
+		},
 	]
 }
 

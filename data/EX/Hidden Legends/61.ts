@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		349,
-	],
+	dexId: [349],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -67,23 +65,29 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276135,
-		tcgplayer: 85401
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85401,
+				cardmarket: 276135
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85401,
+				cardmarket: 276135
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
-		}
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				tcgplayer: 477521,
+				cardmarket: 871523
+			}
+		},
 	]
 }
 

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		225,
-	],
+	dexId: [225],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Eingeschränkte Lieferung"
 			},
 			effect: {
-				en: "Search your deck for a Technical Machine or Pokémon Tool card show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				en: "Search your deck for a Technical Machine or Pokémon Tool card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				de: "Durchsuche dein Deck nach einer technischen Maschine- oder Pokémon-Ausrüstungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
@@ -49,7 +47,7 @@ const card: Card = {
 				de: "Wegkicken"
 			},
 			effect: {
-				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching Pokémon.)",
+				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)",
 				de: "Dein Gegner tauscht das verteidigende Pokémon mit einem der Pokémon auf seiner Bank aus, falls er dort mindestens eins hat. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
 			},
 			damage: 20,
@@ -60,25 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275307,
-		tcgplayer: 84746
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84746,
+				cardmarket: 275307
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84746,
+				cardmarket: 275307
+			},
+		},
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		374,
-	],
+	dexId: [374],
 
 	hp: 50,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -63,32 +61,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
-	},
-
-	thirdParty: {
-		cardmarket: 278781
+		en: "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83790,
+				cardmarket: 278781
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278781,
+				tcgplayer: 83790
+			}
+		},
+	],
+
 }
 
 export default card

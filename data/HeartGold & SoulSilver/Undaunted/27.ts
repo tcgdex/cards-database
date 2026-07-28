@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		44,
-	],
+	dexId: [44],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Oddish",
-		fr: "Mystherbe",
+		fr: "Mystherbe"
 	},
 
 	stage: "Stage1",
@@ -66,21 +64,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279280,
+				tcgplayer: 85786
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279280,
+				tcgplayer: 85786
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["ross-cawthorn"]
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480406
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279280,
-		tcgplayer: 85786
-	}
 }
 
 export default card

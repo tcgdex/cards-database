@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		382,
-	],
+	dexId: [382],
 
 	hp: 100,
 
+	stage: "Basic",
 	types: [
-		"Water",
+		"Water"
 	],
 
 	suffix: "ex",
@@ -37,7 +36,7 @@ const card: Card = {
 				en: "As long as Kyogre ex is your Active Pokémon, each player's Groudon ex and Rayquaza ex can't attack.",
 				fr: "Tant que Kyogre ex est votre Pokémon Actif, les Groudon ex et Rayquaza ex de chaque Joueur ne peuvent pas attaquer.",
 				de: "As long as Kyogre ex is your Active Pokémon, each player's Groudon ex and Rayquaza ex can't attack."
-			},
+			}
 		},
 	],
 
@@ -87,18 +86,18 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276168,
-		tcgplayer: 86556
-	},
+	retreat: 3,
 
 	variants: [
 		{
 			type: "holo",
-		}
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 86556,
+				cardmarket: 276168
+			}
+		},
 	]
 }
 

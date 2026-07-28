@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		393,
-	],
+	dexId: [393],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -61,25 +59,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
-	},
-
-	thirdParty: {
-		cardmarket: 278812
+		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88151,
+				cardmarket: 278812
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278812,
+				tcgplayer: 88151
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		320,
-	],
+	dexId: [320],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -71,25 +69,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
-		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose.",
-	},
-
-	thirdParty: {
-		cardmarket: 278778
+		en: "On sunny days, it lands on beaches to bounce like a ball and play. It spouts water from its nose."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90454,
+				cardmarket: 278778
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278778,
+				tcgplayer: 90454
+			}
+		},
+	],
+
 }
 
 export default card

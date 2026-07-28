@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		294,
-	],
+	dexId: [294],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Whismur",
-		fr: "Chuchmur",
+		fr: "Chuchmur"
 	},
 
 	stage: "Stage1",
@@ -72,25 +70,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
-	},
-
-	thirdParty: {
-		cardmarket: 278755
+		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86844,
+				cardmarket: 278755
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278755,
+				tcgplayer: 86844
+			}
+		},
+	],
+
 }
 
 export default card
