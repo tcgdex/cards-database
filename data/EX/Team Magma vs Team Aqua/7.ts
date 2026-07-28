@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Hiromichi Sugiyama",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		306,
-	],
+	dexId: [306],
 
 	hp: 120,
 
 	types: [
 		"Fighting",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage2",
@@ -41,7 +39,7 @@ const card: Card = {
 				fr: "Lancez une pièce pour chaque Énergie attachée à Galeking de Team Magma. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
 				de: "Flip a coin for each Energy attached to Team Magma's Aggron. This attack does 30 damage times the number of heads."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 		{
@@ -77,22 +75,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275984,
-		tcgplayer: 89818
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275784,
+				tcgplayer: 89818
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275784,
+				tcgplayer: 89818
+			}
+		},
+	],
+
 }
 
 export default card

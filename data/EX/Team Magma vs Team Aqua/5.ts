@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Katsura Tabata",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		319,
-	],
+	dexId: [319],
 
 	hp: 70,
 
 	types: [
 		"Water",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -73,22 +71,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 275982,
-		tcgplayer: 89799
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 89799
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 89799
+			}
+		},
+	],
+
 }
 
 export default card
