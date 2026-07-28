@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		41,
-	],
+	dexId: [41],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -51,32 +49,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth.",
-	},
-
-	thirdParty: {
-		cardmarket: 278824
+		en: "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90775,
+				cardmarket: 278824
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278824,
+				tcgplayer: 90775
+			}
+		},
+	],
+
 }
 
 export default card

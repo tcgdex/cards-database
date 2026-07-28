@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		87,
-	],
+	dexId: [87],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Seel",
-		fr: "Otaria",
+		fr: "Otaria"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Any damage done to Dewgong by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Lamantine par des attaques de Pokémon Fire et Water sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 				de: "Schaden, der Jugong durch Angriffe von - und -Pokémon zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -89,21 +87,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 278715
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278715,
+				tcgplayer: 84791,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278715,
+				tcgplayer: 84791
+			}
+		},
+	],
+
 }
 
 export default card

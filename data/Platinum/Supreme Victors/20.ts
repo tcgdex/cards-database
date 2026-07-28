@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		6,
-	],
+	dexId: [6],
 	hp: 100,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -60,7 +58,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -73,14 +71,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278711,
+				tcgplayer: 84200
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278711,
+				tcgplayer: 84200
+			}
+		},
+	],
 
 }
 

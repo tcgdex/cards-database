@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		315,
-	],
+	dexId: [315],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people.",
-	},
-
-	thirdParty: {
-		cardmarket: 278814
+		en: "The more healthy the Roselia, the more pleasant its flowers' aroma. Its scent deeply relaxes people."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88822,
+				cardmarket: 278814
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278814,
+				tcgplayer: 88822
+			}
+		},
+	],
+
 }
 
 export default card

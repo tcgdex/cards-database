@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		419,
-	],
+	dexId: [419],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Buizel",
-		fr: "Mustébouée",
+		fr: "Mustébouée"
 	},
 
 	stage: "Stage1",
@@ -72,25 +70,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It is a common sight around fishing ports. It is known to rescue people and carry off prey.",
-	},
-
-	thirdParty: {
-		cardmarket: 278749
+		en: "It is a common sight around fishing ports. It is known to rescue people and carry off prey."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85514,
+				cardmarket: 278749
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278749,
+				tcgplayer: 85514
+			}
+		},
+	],
+
 }
 
 export default card

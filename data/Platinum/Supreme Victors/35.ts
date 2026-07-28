@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		350,
-	],
+	dexId: [350],
 	hp: 90,
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -64,30 +62,48 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278726,
+				tcgplayer: 87459
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278726,
+				tcgplayer: 87459
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 125074
+			},
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125074
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
+			thirdParty: {
+				cardmarket: 371547,
+				tcgplayer: 153263
+			}
 		},
-	]
-
-
+	],
 
 }
 

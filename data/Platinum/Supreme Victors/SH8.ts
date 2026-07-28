@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		369,
-	],
+	dexId: [369],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Tiefseedruck"
 			},
 			effect: {
-				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless Colorless more.",
+				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is ColorlessColorless more.",
 				fr: "Lors du prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est  de plus.",
 				de: "Während des nächsten Zuges deines Gegners sind die Rückzugskosten des Verteidigenden Pokémon um  erhöht."
 			},
@@ -75,18 +73,19 @@ const card: Card = {
 
 
 	description: {
-		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years.",
-	},
-
-	thirdParty: {
-		cardmarket: 278690
+		en: "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years."
 	},
 
 	variants: [
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88689,
+				cardmarket: 278690
+			}
+		},
+	],
+
 }
 
 export default card

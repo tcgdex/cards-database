@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		112,
-	],
+	dexId: [112],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Rhyhorn",
-		fr: "Rhinocorne",
+		fr: "Rhinocorne"
 	},
 
 	stage: "Stage1",
@@ -75,32 +73,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
-		en: "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
-	},
-
-	thirdParty: {
-		cardmarket: 278771
+		en: "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88735,
+				cardmarket: 278771
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278771,
+				tcgplayer: 88735
+			}
+		},
+	],
+
 }
 
 export default card

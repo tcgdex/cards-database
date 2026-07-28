@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		479,
-	],
+	dexId: [479],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -68,32 +66,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
-	},
-
-	thirdParty: {
-		cardmarket: 278773
+		en: "Its electric-like body can enter some kinds of machines and take control in order to make mischief."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88838,
+				cardmarket: 278773
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278773,
+				tcgplayer: 88838
+			}
+		},
+	],
+
 }
 
 export default card

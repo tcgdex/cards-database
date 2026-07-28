@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		145,
-	],
+	dexId: [145],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -53,22 +51,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "This legendary Pokémon is said to be present wherever there is a lightning storm.",
-	},
-
-	thirdParty: {
-		cardmarket: 278739
+		en: "This legendary Pokémon is said to be present wherever there is a lightning storm."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90719,
+				cardmarket: 278841
+			}
+		},
+	],
+
 }
 
 export default card

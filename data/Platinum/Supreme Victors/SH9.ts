@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		193,
-	],
+	dexId: [193],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -70,7 +68,6 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -81,18 +78,19 @@ const card: Card = {
 
 
 	description: {
-		en: "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
-	},
-
-	thirdParty: {
-		cardmarket: 278691
+		en: "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory."
 	},
 
 	variants: [
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90687,
+				cardmarket: 278691
+			}
+		},
+	],
+
 }
 
 export default card

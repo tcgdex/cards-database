@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		285,
-	],
+	dexId: [285],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -64,32 +62,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
-	},
-
-	thirdParty: {
-		cardmarket: 278818
+		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89186,
+				cardmarket: 278818
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278818,
+				tcgplayer: 89186
+			}
+		},
+	],
+
 }
 
 export default card

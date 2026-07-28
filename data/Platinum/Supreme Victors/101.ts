@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		453,
-	],
+	dexId: [453],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -61,25 +59,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.",
-	},
-
-	thirdParty: {
-		cardmarket: 278792
+		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84477,
+				cardmarket: 278792
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278792,
+				tcgplayer: 84477
+			}
+		},
+	],
+
 }
 
 export default card

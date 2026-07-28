@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		425,
-	],
+	dexId: [425],
 
 	hp: 40,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -67,32 +65,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
-	},
-
-	thirdParty: {
-		cardmarket: 278794
+		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\""
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84959,
+				cardmarket: 278794
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278794,
+				tcgplayer: 84959
+			}
+		},
+	],
+
 }
 
 export default card

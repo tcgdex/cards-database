@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		311,
-	],
+	dexId: [311],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -65,32 +63,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
-	},
-
-	thirdParty: {
-		cardmarket: 278767
+		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88170,
+				cardmarket: 278767
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278767,
+				tcgplayer: 88170
+			}
+		},
+	],
+
 }
 
 export default card

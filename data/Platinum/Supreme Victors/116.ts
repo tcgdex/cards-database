@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		258,
-	],
+	dexId: [258],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
-	},
-
-	thirdParty: {
-		cardmarket: 278807
+		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87615,
+				cardmarket: 278807
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278807,
+				tcgplayer: 87615
+			}
+		},
+	],
+
 }
 
 export default card

@@ -8,16 +8,14 @@ const card: Card = {
 		de: "Regigigas FB"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		486,
-	],
+	dexId: [486],
 	hp: 100,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -67,22 +65,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 4,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278691,
+				tcgplayer: 88668
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278691,
+				tcgplayer: 88668
+			}
+		},
+	],
 
 }
 

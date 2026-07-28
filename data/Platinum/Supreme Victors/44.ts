@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		292,
-	],
+	dexId: [292],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Nincada",
-		fr: "Ningale",
+		fr: "Ningale"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Prevent all effects of attacks, including damage, done to Shedinja by your opponent's Pokémon that has any Poké-Powers or Poké-Bodies.",
 				fr: "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Munja par les Pokémon de votre adversaire possédant des Poké-Powers ou des Poké-Bodies.",
 				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Ninjatom von gegnerischen Pokémon, die mindestens 1 Poké-Power oder Poké-Body haben, zugefügt würden."
-			},
+			}
 		},
 	],
 
@@ -71,25 +69,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit.",
-	},
-
-	thirdParty: {
-		cardmarket: 278735
+		en: "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89120,
+				cardmarket: 278735
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278735,
+				tcgplayer: 89120
+			}
+		},
+	],
+
 }
 
 export default card

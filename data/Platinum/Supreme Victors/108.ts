@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -66,25 +64,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
-	},
-
-	thirdParty: {
-		cardmarket: 278799
+		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85959,
+				cardmarket: 278799
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278799,
+				tcgplayer: 85959
+			}
+		},
+	],
+
 }
 
 export default card
