@@ -4,7 +4,6 @@ import Set from '../HS trainer Kit (Raichu)'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu"
 	},
 
 	illustrator: "match",
@@ -27,7 +26,6 @@ const card: Card = {
 			],
 			name: {
 				en: "Iron Tail",
-				fr: "Queue de fer"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
@@ -41,11 +39,9 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunderbolt",
-				fr: "Tonnerre",
 			},
 			effect: {
 				en: "Discard all Energy attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu."
 			},
 			damage: 100,
 		},
@@ -64,15 +60,17 @@ const card: Card = {
 	],
 	retreat: 0,
 
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
-				cardmarket: 279096,
-				tcgplayer: 88520,
+				cardmarket: 279118,
+				tcgplayer: 88521,
 			},
 		},
 	],
+
 }
 
 export default card

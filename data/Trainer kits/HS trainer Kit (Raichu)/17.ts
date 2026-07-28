@@ -3,51 +3,47 @@ import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu"
+		en: "Flaaffy",
 	},
 
-	illustrator: "match",
+	illustrator: "Masakazu Fukuda",
 	rarity: "None",
 	category: "Pokemon",
 	set: Set,
-	dexId: [26],
-	hp: 90,
+	dexId: [180],
+	hp: 80,
 	types: [
 		"Lightning",
 	],
 	evolveFrom: {
-		en: "Pikachu",
+		en: "Mareep",
 	},
 	stage: "Stage1",
 	attacks: [
 		{
 			cost: [
-				"Colorless",
+				"Lightning",
 			],
 			name: {
-				en: "Iron Tail",
-				fr: "Queue de fer"
+				en: "Thunder Spear",
 			},
 			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 			},
-			damage: "30×",
 		},
 		{
 			cost: [
 				"Lightning",
-				"Lightning",
+				"Colorless",
+				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
+				en: "Thundershock",
 			},
 			effect: {
-				en: "Discard all Energy attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu."
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 			},
-			damage: 100,
+			damage: 40,
 		},
 	],
 	weaknesses: [
@@ -62,17 +58,19 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	retreat: 0,
+	retreat: 1,
+
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279096,
-				tcgplayer: 88520,
+				cardmarket: 279102,
+				tcgplayer: 85484,
 			},
 		},
 	],
+
 }
 
 export default card

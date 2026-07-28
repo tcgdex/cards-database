@@ -3,51 +3,41 @@ import Set from '../HS trainer Kit (Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Raichu",
-		fr: "Raichu"
+		en: "Pikachu",
 	},
 
 	illustrator: "match",
 	rarity: "None",
 	category: "Pokemon",
 	set: Set,
-	dexId: [26],
-	hp: 90,
+	dexId: [25],
+	hp: 60,
 	types: [
 		"Lightning",
 	],
-	evolveFrom: {
-		en: "Pikachu",
-	},
-	stage: "Stage1",
+	stage: "Basic",
 	attacks: [
 		{
 			cost: [
 				"Colorless",
 			],
 			name: {
-				en: "Iron Tail",
-				fr: "Queue de fer"
+				en: "Tail Slap",
 			},
-			effect: {
-				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
-			},
-			damage: "30×",
+			damage: 10,
 		},
 		{
 			cost: [
 				"Lightning",
-				"Lightning",
+				"Colorless",
 			],
 			name: {
-				en: "Thunderbolt",
-				fr: "Tonnerre",
+				en: "Quick Attack",
 			},
 			effect: {
-				en: "Discard all Energy attached to Raichu.",
-				fr: "Défaussez toutes les cartes Énergie attachées à Raichu."
+				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 			},
-			damage: 100,
+			damage: "20+",
 		},
 	],
 	weaknesses: [
@@ -62,17 +52,19 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-	retreat: 0,
+	retreat: 1,
+
 
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 279096,
-				tcgplayer: 88520,
+				cardmarket: 279098,
+				tcgplayer: 88099,
 			},
 		},
 	],
+
 }
 
 export default card
