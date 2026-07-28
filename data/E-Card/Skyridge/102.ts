@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		234,
-	],
+	dexId: [234],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Bedrohen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card back into his or her deck.",
+				en: "Flip a coin. If heads, look at your opponent's hand. If he or she has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck.",
 				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Karten auf der Hand deines Gegners an. Wenn er darunter mindestens eine Trainerkarte hat, wähle eine davon. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
@@ -49,7 +47,7 @@ const card: Card = {
 				de: "Geweihschlag"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 20 damage to the Defending Pokémon (Don't apply Weakness and Resistance) If tails, your and opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Flip a coin. If heads, this attack does 20 damage to the Defending Pokémon (don't apply Weakness or Resistance). If tails and your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff dem verteidigenden Pokémon 20 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz an.) Bei \"Zahl\", wähle 1 Pokémon von der Bank deines Gegners, wenn dort Pokémon vorhanden sind. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
 			},
 
@@ -59,25 +57,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275360,
-		tcgplayer: 89502
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89502,
+				cardmarket: 275360
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89502,
+				cardmarket: 275360
+			},
+		},
+	],
 }
 
 export default card

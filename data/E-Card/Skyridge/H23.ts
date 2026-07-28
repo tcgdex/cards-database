@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		186,
-	],
+	dexId: [186],
 
 	hp: 110,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -73,7 +71,7 @@ const card: Card = {
 				de: "Energieplatscher"
 			},
 			effect: {
-				en: "Move 2 Energy cards attached to Politoed to 1 or 2 of your Benched Pokémon. (You may put both on the same Pokémon, or 1 each on 2 different Pokémon.) If you have no Benched Pokémon, ignore this effect.",
+				en: "Move 2 Water Energy cards attached to Politoed to 1 or 2 of your Benched Pokémon. (You may put both on the same Pokémon or 1 each on 2 different Pokémon.) If you have no Benched Pokémon, ignore this effect.",
 				de: "Lege 2 an Quaxo angelegte -Energiekarten an 1 oder 2 der Pokémon auf deiner Bank an. (Du kannst beide an dasselbe Pokémon anlegen oder je 1 an 2 verschiedene Pokémon.) Hast du keine Pokémon auf deiner Bank, ignoriere diesen Effekt."
 			},
 			damage: 70,
@@ -84,22 +82,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275283,
-		tcgplayer: 88247
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88247,
+				cardmarket: 275283
+			},
+		},
+	],
 }
 
 export default card

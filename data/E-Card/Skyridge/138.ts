@@ -10,6 +10,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -17,31 +18,53 @@ const card: Card = {
 		de: "Wähle 2 Karten aus deinem Deck und mische den Rest deines Decks. Lege die gewählten Karten in beliebiger Reihenfolge oben auf dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 275396,
-		tcgplayer: 87887
-	},
+	attacks: [
+		{
+			// name intentionally left blank
+			name: {},
+			effect: {
+				en: "Choose 2 cards from your deck and shuffle the rest of your deck. Put the chosen cards on top of your deck in any order."
+			}
+		}
+	],
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87887,
+				cardmarket: 275396
+			},
 		},
 		{
 			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 87887,
+				cardmarket: 275396
+			},
 		},
 		{
 			type: 'normal',
-			stamp: ['chris-fulop']
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477410
+			}
 		},
 		{
 			type: 'normal',
-			stamp: ['reed-weichler']
+			stamp: ['reed-weichler'],
+			thirdParty: {
+				tcgplayer: 477411
+			}
 		},
 		{
 			type: 'normal',
-			stamp: ['kevin-nguyen']
+			stamp: ['kevin-nguyen'],
+			thirdParty: {
+				tcgplayer: 477412
+			}
 		}
-	]
+	],
 }
 
 export default card

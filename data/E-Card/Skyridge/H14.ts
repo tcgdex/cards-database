@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hikaru Koike",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		166,
-	],
+	dexId: [166],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -38,7 +36,7 @@ const card: Card = {
 				de: "Pollenschild"
 			},
 			effect: {
-				en: "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effect of attacks, Poké",
+				en: "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Poké-Powers, Poké-Bodies, and Trainer cards still happen.)",
 				de: "Während des nächsten gegnerischen Zugs kann Ledian nicht von speziellen Zuständen betroffen werden. (Alle anderen Effekte von Angriffen, Poke-Powers, Poke-Bodies und Trainerkarten finden immer noch statt.)"
 			},
 			damage: 10,
@@ -66,20 +64,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275273,
-		tcgplayer: 86690
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86690,
+				cardmarket: 275273
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card
