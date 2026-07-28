@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		429,
-	],
+	dexId: [429],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Misdreavus",
-		fr: "Feuforeve",
+		fr: "Feuforeve"
 	},
 
 	stage: "Stage1",
@@ -59,11 +57,11 @@ const card: Card = {
 				de: "Poltergeist"
 			},
 			effect: {
-				en: "Look at your opponent’s hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent’s hand.",
+				en: "Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand.]",
 				fr: "Regardez la main de votre adversaire. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Dresseur, Supporter et Stade qui se trouvent dans la main de votre adversaire.",
 				de: "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -90,17 +88,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279272,
+				tcgplayer: 87518
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279272,
+				tcgplayer: 87518
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279272,
-		tcgplayer: 87518
-	}
 }
 
 export default card

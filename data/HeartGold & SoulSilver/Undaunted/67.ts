@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		218,
-	],
+	dexId: [218],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Aktiver Vulkan"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can’t be used if Slugma is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may discard the top card of your deck. If that card is a Fire Energy card, attach it to Slugma. This power can't be used if Slugma is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser la carte du dessus de votre deck. S’il s’agit d’une carte Énergie Fire, attachez-la à Limagma. Ce pouvoir ne peut pas être utilisé si Limagma est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn es sich um eine -Energiekarte handelt, lege sie an Schneckmag an. Diese Poké-Power kann nicht benutzt werden, wenn Schneckmag von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -74,17 +72,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279320,
+				tcgplayer: 89346
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279320,
+				tcgplayer: 89346
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279320,
-		tcgplayer: 89346
-	}
 }
 
 export default card

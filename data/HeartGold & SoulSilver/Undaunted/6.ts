@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		219,
-	],
+	dexId: [219],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Slugma",
-		fr: "Limagma",
+		fr: "Limagma"
 	},
 
 	stage: "Stage1",
@@ -61,7 +59,7 @@ const card: Card = {
 				de: "Lavaschub"
 			},
 			effect: {
-				en: "You may discard any number of Fire Energy cards attached to Magcargo. If you do, this attack does 60 damage plus 20 damage for each Fire Energy card you discarded.",
+				en: "You may discard any number of Fire Energy cards attached to Magcargo. If you do , this attack does 60 damage plus 20 more damage for each Fire Energy card you discarded.",
 				fr: "Vous pouvez défausser autant de cartes Énergie Fire attachées à Volcaropod que vous le souhaitez. Dans ce cas, cette attaque inflige 60 dégâts plus 20 dégâts pour chaque carte Énergie Fire que vous avez défaussée.",
 				de: "Du darfst beliebig viele der an Magcargo angelegten -Energiekarten auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede abgelegte -Energiekarte zu."
 			},
@@ -85,17 +83,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279259,
+				tcgplayer: 87017
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279259,
+				tcgplayer: 87017
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279259,
-		tcgplayer: 87017
-	}
 }
 
 export default card

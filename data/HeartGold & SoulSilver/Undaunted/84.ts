@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		212,
-	],
+	dexId: [212],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insecateur",
+		fr: "Insecateur"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Rote Rüstung"
 			},
 			effect: {
-				en: "Prevent all damage done to Scizor by attacks from your opponent’s Pokémon that have any Special Energy cards attached to them.",
+				en: "Prevent all damage done to Scizor by attacks from your opponent's Pokémon that have any Special Energy cards attached to them.",
 				fr: "Évitez tous les dégâts d’attaque infligés à Cizayox par les Pokémon de votre adversaire auxquels sont attachées des cartes Énergie spéciale.",
 				de: "Verhindere allen Schaden, der Scherox durch Angriffe von Pokémon deines Gegners, an denen Spezialenergiekarten angelegt sind, zugefügt würde."
-			},
+			}
 		},
 	],
 
@@ -86,14 +84,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279337,
+				tcgplayer: 88964
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279260,
-		tcgplayer: 88964
-	}
 }
 
 export default card
