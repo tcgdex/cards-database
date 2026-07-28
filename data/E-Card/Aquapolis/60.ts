@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		188,
-	],
+	dexId: [188],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "You pay Colorless less to retreat Skiploom for each Grass Energy attached to it.",
 				fr: "Vous payez  de moins pour faire battre Floravol en retraite pour chaque Énergie  qui lui est attachée.",
 				de: "Für jede an Hubelupf angelegte -Energie zahlst du  weniger, wenn du es zurückziehst."
-			},
+			}
 		},
 	],
 
@@ -69,10 +67,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
@@ -82,18 +79,21 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275133,
-		tcgplayer: 89254
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89254,
+				cardmarket: 275133
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89254,
+				cardmarket: 275133
+			}
+		},
 	]
 }
 

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		245,
-	],
+	dexId: [245],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "To attach a Water Energy card from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the Water Energy, and then discard an Energy card from Suicune.)",
 				fr: "Pour attacher une carte Énergie  de votre main à Suicune, vous devez vous défausser d'une carte Énergie attachée à Suicune. (Attachez l'Énergie , et défaussez-vous ensuite d'une carte Énergie attachée à Suicune.)",
 				de: "To attach a -Energy from your hand to Suicune, you must discard an Energy card attached to Suicune. (Attach the -Energy, and then discard an Energy card from Suicune)."
-			},
+			}
 		},
 	],
 
@@ -66,24 +64,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275057,
-		tcgplayer: 89600
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89600,
+				cardmarket: 275057
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89600,
+				cardmarket: 275057
+			}
+		},
+		{
+			type: 'reverse',
+			size: 'jumbo',
+			thirdParty: {
+				tcgplayer: 210850,
+			}
+		},
 	]
 }
 
