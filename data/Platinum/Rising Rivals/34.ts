@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may devolve Vaporeon and put Vaporeon into your hand. This power can't be used if Vaporeon is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez dés-évoluer Aquali et le placer dans votre main. Ce pouvoir ne peut pas être utilisé si Aquali est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Aquana rückentwickeln und Aquana auf deine Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Aquana von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -89,22 +87,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278608,
-		tcgplayer: 90285
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278608,
+				tcgplayer: 90285
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278608,
+				tcgplayer: 90285
+			}
+		},
+	],
+
 }
 
 export default card

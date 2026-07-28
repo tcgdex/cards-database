@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		33,
-	],
+	dexId: [33],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidoran♂",
-		fr: "Nidoran♂",
+		fr: "Nidoran♂"
 	},
 
 	stage: "Stage1",
@@ -74,26 +72,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
-	},
-
-	thirdParty: {
-		cardmarket: 278648,
-		tcgplayer: 87746
+		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278648,
+				tcgplayer: 87746
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278648,
+				tcgplayer: 87746
+			}
+		},
+	],
+
 }
 
 export default card

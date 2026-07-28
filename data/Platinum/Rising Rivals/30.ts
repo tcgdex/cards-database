@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		31,
-	],
+	dexId: [31],
 
 	hp: 120,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidorina",
-		fr: "Nidorina",
+		fr: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Mütterlicher Trost"
 			},
 			effect: {
-				en: "At any time between turns, remove 1 damage counter from each of your Pokémon. You can't use more than 1 Maternal Comfort Poké-Body between turns.",
+				en: "At any times between turns, remove 1 damage counter from each of your Pokémon. You can't use more than 1 Maternal Comfort Poké-Body between turns.",
 				fr: "N'importe quand entre deux tours, retirez à chacun de vos Pokémon 1 marqueur de dégât. Vous ne pouvez pas utiliser plus d'1 Poké-Body Réconfort maternel entre deux tours.",
 				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von jedem deiner Pokémon. Du kannst nicht mehr als 1 Mütterlicher Trost Poké-Body zwischen zwei Zügen benutzen."
-			},
+			}
 		},
 	],
 
@@ -87,37 +85,47 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 278604,
-		tcgplayer: 87709
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278604,
+				tcgplayer: 87709
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278604,
+				tcgplayer: 87709
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				cardmarket: 868888,
+				tcgplayer: 479927
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 868887,
+				tcgplayer: 479929
+			}
 		}
-	]
+	],
+
 }
 
 export default card

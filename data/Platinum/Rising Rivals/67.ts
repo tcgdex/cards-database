@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		352,
-	],
+	dexId: [352],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.",
 				fr: "Kecleon est de type GrassFireWaterLightningPsychicFightingDarknessMetalColorless.",
 				de: "Kecleons Typ ist		 ."
-			},
+			}
 		},
 	],
 
@@ -69,26 +67,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however.",
-	},
-
-	thirdParty: {
-		cardmarket: 278641,
-		tcgplayer: 86431
+		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278641,
+				tcgplayer: 86431
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278641,
+				tcgplayer: 86431
+			}
+		},
+	],
+
 }
 
 export default card

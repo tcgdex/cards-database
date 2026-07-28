@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		423,
-	],
+	dexId: [423],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Shellos East Sea",
-		fr: "Sancoki Mer Orient",
+		fr: "Sancoki Mer Orient"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Gastrodon East Sea is switched or retreats to your Bench, move as many Energy cards attached to Gastrodon East Sea as you like to the new Active Pokémon.",
 				fr: "Si Tritosor Mer Orient est échangé ou bat en retraite, déplacez autant de cartes Énergie qui lui sont attachées que vous le voulez sur le nouveau Pokémon Actif.",
 				de: "Wenn Gastrodon Östliches Meer auf die Bank zurückgezogen oder gegen ein Pokémon auf deiner Bank ausgetauscht wird, kannst du eine beliebige Anzahl an Gastrodon Östliches Meer angelegter Energiekarten entfernen und an das neue Aktive Pokémon anlegen."
-			},
+			}
 		},
 	],
 
@@ -85,29 +83,31 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278595,
-		tcgplayer: 85658
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278595,
+				tcgplayer: 85658
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278595,
+				tcgplayer: 85658
+			}
+		},
+	],
+
 }
 
 export default card

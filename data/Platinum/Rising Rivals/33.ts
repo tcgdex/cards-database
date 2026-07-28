@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -68,30 +66,36 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
-		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day.",
-	},
-
-	thirdParty: {
-		cardmarket: 278607,
-		tcgplayer: 89390
+		en: "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278607,
+				tcgplayer: 89390
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 278607,
+				tcgplayer: 89390
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				tcgplayer: 164281
+			}
 		}
-	]
+	],
+
 }
 
 export default card

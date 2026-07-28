@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		109,
-	],
+	dexId: [109],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -67,26 +65,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
-	},
-
-	thirdParty: {
-		cardmarket: 278642,
-		tcgplayer: 86497
+		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278642,
+				tcgplayer: 86497
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278642,
+				tcgplayer: 86497
+			}
+		},
+	],
+
 }
 
 export default card

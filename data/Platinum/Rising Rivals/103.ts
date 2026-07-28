@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Alakazam 4",
+		en: "Alakazam E4 LV.X",
 		fr: "Alakazam  Niv. X",
 		de: "Simsala 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		65,
-	],
+	dexId: [65],
 	hp: 100,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "LEVEL-UP",
@@ -31,10 +29,10 @@ const card: Card = {
 				de: "Schadensaustausch"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon SP to another of your Pokémon SP. This power can't be used if Alakazam is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon SP to another of your Pokémon SP. This power can't be used if Alakazam E4 is affected by a Special Condition.",
 				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégât d'1 de vos Pokémon SP sur un autre de vos Pokémon SP. Ce pouvoir ne peut pas être utilisé si Alakazam  est affecté par un État Spécial.",
 				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von 1 deiner Pokémon SP entfernen und auf 1 anderes deiner Pokémon SP legen. Diese Poké-Power kann nicht benutzt werden, wenn Simsala 4 von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,17 +59,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278677,
+				tcgplayer: 83504
+			}
+		},
+	],
+
 }
 
 export default card

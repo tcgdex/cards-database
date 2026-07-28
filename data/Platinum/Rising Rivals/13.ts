@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		275,
-	],
+	dexId: [275],
 
 	hp: 130,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Nuzleaf",
-		fr: "Pifeuil",
+		fr: "Pifeuil"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Shiftry is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails.",
 				fr: "Tant que Tengalice est votre Pokémon Actif, lorsque votre adversaire lance une pièce lors de son tour, considérez que c'est pile.",
 				de: "Solange Tengulist dein Aktives Pokémon ist, wird jedes Mal, wenn dein Gegner in seinem Zug eine Münze wirft, das Ergebnis des Münzwurfs als \"Zahl\" gezählt."
-			},
+			}
 		},
 	],
 
@@ -92,29 +90,31 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278587,
-		tcgplayer: 89158
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278587,
+				tcgplayer: 89158
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278587,
+				tcgplayer: 89158
+			}
+		},
+	],
+
 }
 
 export default card

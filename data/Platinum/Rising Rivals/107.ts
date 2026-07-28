@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Hippowdon",
+		en: "Hippowdon LV.X",
 		fr: "Hippodocus Niv. X",
 		de: "Hippoterus"
 	},
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		450,
-	],
+	dexId: [450],
 
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "LEVEL-UP",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during a game on your turn (before your attack), each player shuffles all cards in play (excluding Pokémon and Supporter cards) into his or her deck. You can't use more than 1 Sand Reset Poké-Power each game.",
 				fr: "Une seule fois lors d'une partie lors de votre tour (avant votre attaque), chaque joueur mélange toutes les cartes en jeu (Pokémon et cartes Supporter exclus) avec son deck. Vous ne pouvez pas utiliser plus d'1 Poké-Power Redémarrage sableux par partie.",
 				de: "Einmal während dieses Spiels, in deinem Zug (vor deinem Angriff) kannst du diese Poké-Power benutzen. Jeder Spieler mischt alle Karten, die er im Spiel hat (außer Pokémon- und Unterstützerkarten), in sein Deck. Du kannst nicht mehr als 1 Sandiger Neustart Poké-Power pro Spiel benutzen."
-			},
+			}
 		},
 	],
 
@@ -66,29 +64,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 278681,
-		tcgplayer: 86088
-	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278681,
+				tcgplayer: 86088
+			}
+		},
+	],
+
 }
 
 export default card

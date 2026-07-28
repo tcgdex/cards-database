@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Gallade 4",
+		en: "Gallade E4 LV.X",
 		fr: "Gallame  Niv. X",
 		de: "Galagladi 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		475,
-	],
+	dexId: [475],
 	hp: 100,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "LEVEL-UP",
@@ -31,10 +29,10 @@ const card: Card = {
 				de: "Klingengewitter"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), when you put Gallade LV.X from your hand onto your Active Gallade , you may put 1 damage counter on each of your opponent's Pokémon.",
+				en: "Once during your turn (before your attack), when you put Gallade E4 LV.X from your hand onto your Active Gallade E4, you may put 1 damage counter on each of your opponent's Pokémon.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Gallame  LV.X de votre main sur votre Gallame  Actif, vous pouvez placer 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Galagladi 4 LV.X von deiner Hand auf dein Aktives Galagladi 4 legst, 1 Schadensmarke auf jedes Pokémon deines Gegners legen."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,17 +59,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278680,
+				tcgplayer: 85609
+			}
+		},
+	],
+
 }
 
 export default card
