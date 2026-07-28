@@ -3,7 +3,7 @@ import Set from '../Hidden Legends'
 
 const card: Card = {
 	name: {
-		en: "Ancient Technical Machine (Rock)",
+		en: "Ancient Technical Machine [Rock]",
 		fr: "Machine Technique Ancienne [Pierre]",
 		de: "Ancient TM (Rock)*"
 	},
@@ -23,44 +23,71 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Stone Generator",
 				de: "Stone Generator",
-				fr: "Générateur de pierre",
+				fr: "Générateur de pierre"
 			},
 			effect: {
+				en: "If your opponent has any Evolved Pokémon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.",
 				de: "If your opponent has any Evolved Pokémon in play, remove the highest Stage Evolution card from each of them and put those cards back into his or her hand.",
-				fr: "Si votre adversaire a des Pokémon Évolués en jeu, retirez à chacun de ses Pokémon la carte Évolution au niveau le plus haut et placez ces cartes dans sa main.",
+				fr: "Si votre adversaire a des Pokémon Évolués en jeu, retirez à chacun de ses Pokémon la carte Évolution au niveau le plus haut et placez ces cartes dans sa main."
 			},
 			cost: [
 				"Colorless",
-			],
+			]
 		},
 	],
 
+	retreat: 0,
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276159,
+				tcgplayer: 83554
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
-		},
-		{
-			type: "normal",
-			stamp: ["reed-weichler"]
-		},
-		{
-			type: "normal",
-			stamp: ["takashi-yoneda"]
-		},
-		{
-			type: "normal",
-			stamp: ["michael-gonzalez"]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 276159,
+				tcgplayer: 83554
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jimmy-ballard"]
-		}
-	]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				cardmarket: 869585,
+				tcgplayer: 477598
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871864,
+				tcgplayer: 477364
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871575,
+				tcgplayer: 477495
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 871574,
+				tcgplayer: 477496
+			}
+		},
+	],
+
 }
 
 export default card

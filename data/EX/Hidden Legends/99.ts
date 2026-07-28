@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		379,
-	],
+	dexId: [379],
 
 	hp: 90,
 
+	stage: "Basic",
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	suffix: "ex",
@@ -37,7 +36,7 @@ const card: Card = {
 				en: "Any damage done to Registeel ex by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Registeel ex par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Any damage done to Registeel ex by attacks is reduced by 10 (after applying Weakness and Resistance)."
-			},
+			}
 		},
 	],
 
@@ -77,18 +76,18 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276173,
-		tcgplayer: 88679
-	},
+	retreat: 2,
 
 	variants: [
 		{
 			type: "holo",
-		}
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 88679,
+				cardmarket: 276173
+			}
+		},
 	]
 }
 

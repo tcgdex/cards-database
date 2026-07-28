@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		85,
-	],
+	dexId: [85],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Dodrio can retreat even when it is Asleep or Paralyzed.",
 				fr: "Dodrio peut battre en retraite même s'il est Endormi ou Paralysé.",
 				de: "Dodrio can retreat even when it is Asleep or Paralyzed."
-			},
+			}
 		},
 	],
 
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Dodrio.",
 				de: "Does 10 damage times the number of damage counters on Dodrio."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -102,18 +100,21 @@ const card: Card = {
 	
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 276107,
-		tcgplayer: 84849
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 84849,
+				cardmarket: 276107
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84849,
+				cardmarket: 276107
+			}
+		},
 	]
 }
 

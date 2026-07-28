@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Ikuji",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		251,
-	],
+	dexId: [251],
 
 	hp: 70,
 
 	types: [
 		"Grass",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -73,19 +71,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276078,
-		tcgplayer: 84571
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84571,
+				cardmarket: 276078
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 84571,
+				cardmarket: 276078
+			}
+		},
 	]
 }
 

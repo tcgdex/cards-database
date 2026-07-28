@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		369,
-	],
+	dexId: [369],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep.",
 				fr: "Tant que Relicanth est votre Pokémon Actif, un Joueur lance 2 pièces entre deux tours pour chaque Pokémon Endormi qu'il possède. Si l'une des pièces est pile, le ou les Pokémon restent Endormis.",
 				de: "As long as Relicanth is your Active Pokémon, a player flips 2 coins for each of his or her Pokémon that is Asleep between turns. If either coin is tails, that Pokémon is still Asleep."
-			},
+			}
 		},
 	],
 
@@ -71,18 +69,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276098,
-		tcgplayer: 88684
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 88684,
+				cardmarket: 276098
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 88684,
+				cardmarket: 276098
+			}
+		},
 	]
 }
 

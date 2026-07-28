@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		316,
-	],
+	dexId: [316],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -70,18 +68,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276136,
-		tcgplayer: 85974
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 85974,
+				cardmarket: 276136
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85974,
+				cardmarket: 276136
+			}
+		},
 	]
 }
 
