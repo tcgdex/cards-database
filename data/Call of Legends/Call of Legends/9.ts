@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		250,
-	],
+	dexId: [250],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -67,27 +65,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
 		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
 	},
 
-	thirdParty: {
-		cardmarket: 279642,
-		tcgplayer: 86126
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86126,
+				cardmarket: 279642
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86126,
+				cardmarket: 279642
+			},
+		},
+	],
+
 }
 
 export default card

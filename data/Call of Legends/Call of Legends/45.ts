@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -68,25 +66,37 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
+	retreat: 0,
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts.",
 	},
 
-	thirdParty: {
-		cardmarket: 279688,
-		tcgplayer: 86346
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86346,
+				cardmarket: 279688
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86346,
+				cardmarket: 279688
+			},
+		},
+	],
+
 }
 
 export default card
