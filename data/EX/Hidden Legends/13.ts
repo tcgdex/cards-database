@@ -80,6 +80,7 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
+			foil: 'energy',
 			thirdParty: {
 				tcgplayer: 88135,
 				cardmarket: 276087
