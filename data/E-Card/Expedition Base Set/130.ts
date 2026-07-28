@@ -11,16 +11,15 @@ const card: Card = {
 	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Supporter",
 	set: Set,
 
-	dexId: [
-		21,
-	],
+	dexId: [21],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -43,17 +42,16 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 20
+			damage: 20,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -63,19 +61,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275005,
-		tcgplayer: 89438
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89438,
+				cardmarket: 275005
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89438,
+				cardmarket: 275005
+			},
+		},
+	],
 }
 
 export default card

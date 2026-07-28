@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		6,
-	],
+	dexId: [6],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Reptincel"
 	},
 
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Miracle Shift",
+			},
+			effect: {
+				en: "Once during your turn (before your attack), discard a basic Energy card attached to 1 of your Pokémon. Then, choose a basic Energy card from your discard pile and attach it to that Pokémon. This power can't be used if Togetic is affected by a Special Condition.",
+			},
+		},
+	],
 	stage: "Stage2",
 
 	attacks: [
@@ -43,12 +52,12 @@ const card: Card = {
 			},
 
 			effect: {
-				en: "Flip a coin. If heads, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 				de: "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 40
+			damage: 40,
 		},
 		{
 			cost: [
@@ -62,7 +71,7 @@ const card: Card = {
 				de: "Flammenwurf"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Charizard.",
+				en: "Discard 1 Fire Energy card attached to Charizard.",
 				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
 				de: "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
 			},
@@ -71,28 +80,36 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274881,
-		tcgplayer: 84184
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84184,
+				cardmarket: 274881
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84184,
+				cardmarket: 274881
+			},
+		},
+	],
 }
 
 export default card

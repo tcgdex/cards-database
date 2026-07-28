@@ -8,19 +8,17 @@ const card: Card = {
 		de: "Myrapla"
 	},
 
-	illustrator: "Masako Yamashita",
+	illustrator: 'Masako Yamashita',
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		43,
-	],
+	dexId: [43],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -62,25 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274997,
-		tcgplayer: 87840
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87840,
+				cardmarket: 274997
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87840,
+				cardmarket: 274997
+			},
+		},
+	],
 }
 
 export default card
