@@ -92,10 +92,18 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 886411,
+				tcgplayer: 693503
+			}
+		},
+		{
 			type: 'holo',
 			stamp: ['set-logo'],
 			thirdParty: {
-				cardmarket: 886626
+				cardmarket: 886626,
+				tcgplayer: 694630
 			}
 		},
 	],

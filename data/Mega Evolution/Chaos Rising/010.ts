@@ -90,6 +90,13 @@ const card: Card = {
 			}
 		},
 		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 886402,
+				tcgplayer: 693500
+			}
+		},
+		{
 			type: 'holo',
 			stamp: ['gamestop'],
 			thirdParty: {
