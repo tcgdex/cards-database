@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [157],
 
 	hp: 130,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Quilava",
-		fr: "Fleurisson",
+		fr: "Fleurisson"
 	},
 
 	stage: "Stage2",
@@ -81,25 +79,37 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90106,
+				cardmarket: 279004
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90106,
+				cardmarket: 279004
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 153262,
+				cardmarket: 279004
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		}
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125038,
+				cardmarket: 279004
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279004,
-		tcgplayer: 90106
-	}
 }
 
 export default card

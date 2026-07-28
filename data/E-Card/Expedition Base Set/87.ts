@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		11,
-	],
+	dexId: [11],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Exoskelett"
 			},
 			effect: {
-				en: "All damage done to Metapod is reduced by 20 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Metapod is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Chrysacier sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Aller Schaden, der Safcon von Angriffen zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -62,28 +60,37 @@ const card: Card = {
 		},
 	],
 
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274962,
-		tcgplayer: 87388
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87388,
+				cardmarket: 274962
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87388,
+				cardmarket: 274962
+			},
+		},
+	],
 }
 
 export default card

@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		189,
-	],
+	dexId: [189],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Skiploom",
-		fr: "Floravol",
+		fr: "Floravol"
 	},
 
 	stage: "Stage2",
@@ -41,11 +39,11 @@ const card: Card = {
 				de: "Massenangriff"
 			},
 			effect: {
-				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent’s).",
+				en: "Does 10 damage times the number of Pokémon in play (both yours and your opponent's).",
 				fr: "Inflige 10 dégâts multiplié par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire).",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der Pokémon im Spiel (deiner und deines Gegners) zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Floraschild"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Jumpluff by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to Jumpluff by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Cotovol par des attaques pendant le prochain tour de votre adversaire sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Papungha durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -89,21 +87,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86367,
+				cardmarket: 278978
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86367,
+				cardmarket: 278978
+			}
 		},
 		{
 			type: "holo",
-			stamp : ["yuka-furusawa"]
-		}
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480062,
+				cardmarket: 868725
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278978,
-		tcgplayer: 86367
-	}
 }
 
 export default card

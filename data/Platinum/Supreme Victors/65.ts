@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		126,
-	],
+	dexId: [126],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -68,25 +66,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
-	},
-
-	thirdParty: {
-		cardmarket: 278756
+		en: "When it breathes deeply, heat waves form around its body, making it hard to see clearly."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87049,
+				cardmarket: 278756
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278756,
+				tcgplayer: 87049
+			}
+		},
+	],
+
 }
 
 export default card

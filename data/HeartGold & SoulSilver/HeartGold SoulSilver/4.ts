@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -90,21 +88,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85992,
+				cardmarket: 278976
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85992,
+				cardmarket: 278976
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
-		}
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 226912,
+				cardmarket: 278976
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278976,
-		tcgplayer: 85992
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		375,
-	],
+	dexId: [375],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -79,18 +77,21 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276117,
-		tcgplayer: 87372
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 87372,
+				cardmarket: 276117
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87372,
+				cardmarket: 276117
+			}
+		},
 	]
 }
 

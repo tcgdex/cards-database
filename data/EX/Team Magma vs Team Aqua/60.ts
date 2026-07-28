@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		343,
-	],
+	dexId: [343],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -66,26 +64,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276037,
-		tcgplayer: 89822
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 89822
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 89822
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871830,
+				tcgplayer: 477448
+			}
 		}
-	]
+	],
+
 }
 
 export default card

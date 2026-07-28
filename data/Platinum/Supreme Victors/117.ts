@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		290,
-	],
+	dexId: [290],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -66,25 +64,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.",
-	},
-
-	thirdParty: {
-		cardmarket: 278808
+		en: "It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87761,
+				cardmarket: 278808
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278808,
+				tcgplayer: 87761
+			}
+		},
+	],
+
 }
 
 export default card

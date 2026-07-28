@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		179,
-	],
+	dexId: [179],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Laden"
 			},
 			effect: {
-				en: "Attach 1 Energy card in your discard pile to Mareep.",
+				en: "Attach 1 Lightning Energy card from your discard pile to Mareep.",
 				fr: "Attachez une carte Énergie  de votre pile de défausse à Wattouat.",
 				de: "Lege eine -Energiekarte aus deinem Ablagestapel an Voltilamm an."
 			},
@@ -61,24 +59,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275167,
-		tcgplayer: 87195
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87195,
+				cardmarket: 275167
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87195,
+				cardmarket: 275167
+			}
+		},
 	]
 }
 

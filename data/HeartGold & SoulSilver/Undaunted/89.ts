@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rayquaza & Deoxys LEGENDE"
 	},
 
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	illustrator: "Shinji Higuchi + Sachiko Eba",
 	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
@@ -18,7 +18,7 @@ const card: Card = {
 
 	types: [
 		"Colorless",
-		"Psychic",
+		"Psychic"
 	],
 
 	suffix: "Legend",
@@ -42,32 +42,47 @@ const card: Card = {
 		},
 	],
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Space Virus"
+			},
+			effect: {
+				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card."
+			}
+		},
+	],
 	stage: "Basic",
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2",
+			value: "×2"
 		},
 		{
 			type: "Psychic",
-			value: "×2",
+			value: "×2"
 		},
 	],
-	retreat: 0,
+	retreat: 3,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279342,
+				tcgplayer: 88638
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["david-cohen"]
-		}
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				cardmarket: 868142,
+				tcgplayer: 480476
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 279342
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 120,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Terraforming"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), you may look at the top 4 cards of your deck and rearrange them as you like. This power can't be used if Machamp is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may look at the top 4 cards of your deck and rearrange them as you like. This power can't be used if Machamp is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder les 4 cartes du dessus de votre deck et les remettre dans l'ordre que vous désirez. Ce pouvoir ne peut pas être utilisé si Mackogneur est affecté par un État spécial.",
 				de: "Once during your turn (before you attack), you may look at the top 4 cards of your deck and rearrange them as you like. This power can`t be used if Machamp is affected by a Special Condition."
 			},
@@ -72,25 +70,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274891,
-		tcgplayer: 86962
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86962,
+				cardmarket: 274891
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86962,
+				cardmarket: 274891
+			},
+		},
+	],
 }
 
 export default card

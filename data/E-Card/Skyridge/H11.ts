@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kimiya Masago",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -56,7 +54,7 @@ const card: Card = {
 				de: "Einzelner Reißzahn"
 			},
 			effect: {
-				en: "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pokémon minus the number of your Benched Pokémon. (For example, if your opponent has 3 Benched Pokémon and you have 1, this attack will do 30 damage plus 40 more damage.",
+				en: "This attack does 30 damage plus 20 damage times the number of your opponent's Benched Pokémon minus the number of your Benched Pokémon. (For example, if your opponent has 3 Benched Pokémon and you have 1, this attack will do 30 damage plus 40 more damage.)",
 				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Pokémon auf der Bank deines Gegners minus 20 Schadenspunkte für jedes Pokémon auf deiner Bank zu. (Hat zum Beispiel dein Gegner 3 Pokémon auf seiner Bank und du nur 1 auf deiner, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu.)"
 			},
 			damage: "30+",
@@ -67,10 +65,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -80,16 +77,15 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275270,
-		tcgplayer: 86200
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86200,
+				cardmarket: 275270
+			},
+		},
+	],
 }
 
 export default card

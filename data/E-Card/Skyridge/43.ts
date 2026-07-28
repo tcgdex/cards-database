@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		221,
-	],
+	dexId: [221],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Dauernder Ansturm"
 			},
 			effect: {
-				en: "Flip 4 coins. This attack foes 30 damage plus 20 more damage for each heads. Put a damage counter on Piloswine for each heads.",
+				en: "Flip 4 coins. This attack does 30 damage plus 20 more damage for each heads. Put a damage counter on Piloswine for each heads.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem \"Kopf\" zu. Lege für jeden \"Kopf\" eine Schadensmarke auf Keifel."
 			},
 			damage: "30+",
@@ -66,10 +64,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -79,19 +76,22 @@ const card: Card = {
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275301,
-		tcgplayer: 88115
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88115,
+				cardmarket: 275301
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88115,
+				cardmarket: 275301
+			},
+		},
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		144,
-	],
+	dexId: [144],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -73,32 +71,35 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
-	},
-
-	thirdParty: {
-		cardmarket: 278707
+		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278707,
+				tcgplayer: 83650,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278707,
+				tcgplayer: 83650
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Kakuna",
-		fr: "Coconfort",
+		fr: "Coconfort"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may search your deck for a Grass Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Beedrill is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck un Pokémon Grass. Montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Dardargnan est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 -Pokémon-Karte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Bibor von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -74,30 +72,37 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off.",
-	},
-
-	thirdParty: {
-		cardmarket: 278589,
-		tcgplayer: 83771
+		en: "Its best attack involves flying around at high speed, striking with poison needles, then flying off."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278589,
+				tcgplayer: 83771,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278589,
+				tcgplayer: 83771
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				cardmarket: 868916,
+				tcgplayer: 479864
+			}
 		}
-	]
+	],
+
 }
 
 export default card

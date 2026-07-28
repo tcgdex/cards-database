@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -41,7 +39,7 @@ const card: Card = {
 				fr: "Lancez 5 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces. Tygnon ne peut pas attaquer pendant votre prochain tour.",
 				de: "Wirf 5 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. Nockchan kann während deines nächsten Zuges nicht angreifen."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -70,24 +68,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275155,
-		tcgplayer: 86091
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86091,
+				cardmarket: 275155
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86091,
+				cardmarket: 275155
+			}
+		},
 	]
 }
 

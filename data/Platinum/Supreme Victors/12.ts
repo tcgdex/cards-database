@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		260,
-	],
+	dexId: [260],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Marshtomp",
-		fr: "Flobio",
+		fr: "Flobio"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Any damage done to Swampert by attacks from your opponent's Pokémon that isn't an Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Laggron par les attaques du Pokémon de votre adversaire sont réduits de 20 si ce n'est pas un Pokémon Évolué (après application de la Faiblesse et de la Résistance).",
 				de: "Schaden, der Sumpex durch Angriffe von Pokémon deines Gegners, die keine entwickelten Pokémon sind, zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -94,24 +92,25 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278703
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278703,
+				tcgplayer: 89681,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278703,
+				tcgplayer: 89681
+			}
 		},
-		{
-			type: "normal",
-		}
-	]
+	],
+
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		28,
-	],
+	dexId: [28],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Sandshrew",
-		fr: "Sabelette",
+		fr: "Sabelette"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Ausheben"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may look at the top 5 cards of your deck. Choose as many Fighting Energy cards as you like, show them to your opponent, and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward. This power can't be used if Sandslash is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may look at the top 5 cards in your deck. Choose as many Fighting Energy cards as you like, show them to your opponent, and put them into your hand. Put the other cards back on top of your deck. Shuffle your deck afterward. This power can't be used if Sandslash is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez regarder les 5 cartes du dessus de votre deck. Choisissez autant de cartes Énergie Fighting que vous le voulez, montrez-les à votre adversaire et placez-les dans votre main. Replacez les autres cartes au-dessus de votre deck, puis mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Sablaireau est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir die obersten 5 Karten deines Decks anschauen. Wähle beliebig viele -Energiekarten, die du dort gefunden hast, zeige sie deinem Gegner und nimm sie auf die Hand. Lege die anderen Karten zurück auf dein Deck. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Sandamer von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -74,32 +72,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It curls up, then rolls into foes with its back. Its sharp spines inflict severe damage.",
-	},
-
-	thirdParty: {
-		cardmarket: 278733
+		en: "It curls up, then rolls into foes with its back. Its sharp spines inflict severe damage."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88933,
+				cardmarket: 278733
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278733,
+				tcgplayer: 88933
+			}
+		},
+	],
+
 }
 
 export default card

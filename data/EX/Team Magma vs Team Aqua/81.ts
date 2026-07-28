@@ -20,19 +20,25 @@ const card: Card = {
 		de: "[Lege Team Magma Gürtel an eines deiner Pokémon mit \"Magma's\" im Namen an] Zu jedem Zeitpunkt zwischen den Zügen darfst du, falls das mit Team Magma Gürtel ausgerüstete Pokémon dein aktives Pokémon ist, darfst du eine Karte aus deinem Deck suchen, die sich aus dieser Karte entwickelt und lege sie auf das Pokémon. (Dies zählt als entwickeln des Pokémons.) Mische dein Deck danach, dann lege Team Magma Gürtel ab."
 	},
 
-	thirdParty: {
-		cardmarket: 276058,
-		tcgplayer: 89813
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275858,
+				tcgplayer: 89813
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275858,
+				tcgplayer: 89813
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

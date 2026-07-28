@@ -7,19 +7,17 @@ const card: Card = {
 		de: "Magneton"
 	},
 
-	illustrator: "Kouki Saitou",
+	illustrator: "Hajime Kusajima",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		82,
-	],
+	dexId: [82],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Elektrischer Strahl"
 			},
 			effect: {
-				en: "You may discard all Energy cards attached to Magneton when you use this attack. If you do, put damage counters equal to the amount of Energy cards removed in this way on any number of your opponent's Benched Pokémon in the way you like. (For example, if you discard 3 Energy cards, you can put 1 damage counter on 1 of your opponent's Benched Pokémon and 2 on another.)",
+				en: "You may discard all Lightning Energy cards attached to Magneton when you use this attack. If you do, put damage counters equal to the amount of Energy cards removed in this way on any number of your opponent's Benched Pokémon in the way you like. (For example, if you discard 3 Lightning Energy cards, you can put 1 damage counter on 1 of your opponent's Benched Pokémon and 2 on another.)",
 				de: "Du kannst alle an Magneton angelegten -Energiekarten auf deinen Ablagestapel legen, wenn du diesen Angriff verwendest. Falls du dies tust, verteile so viele Schadensmarken, wie du auf diese Weise Energiekarten abgelegt hast, in beliebiger Weise auf eine beliebige Anzahl an Pokémon auf der Bank deines Gegners. (Legst du zum Beispiel 3 -Energiekarten auf den Ablagestapel, kannst du 1 Schadensmarke auf eins der Pokémon auf der Bank deines Gegners und 2 Marken auf ein anderes legen.)"
 			},
 			damage: 40,
@@ -65,25 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275228,
-		tcgplayer: 87089
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87089,
+				cardmarket: 275228
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87089,
+				cardmarket: 275228
+			},
+		},
+	],
 }
 
 export default card

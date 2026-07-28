@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		202,
-	],
+	dexId: [202],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 				en: "Flip 2 coins. If either is heads, this attack does 10 damage times the number of damage counters on Wobbuffet.",
 				de: "Wirf 2 Münzen. Zeigt mindestens eine der beiden \"Kopf\", fügt dieser Angriff 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Woingenau zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -60,25 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275303,
-		tcgplayer: 90615
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90615,
+				cardmarket: 275303
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90615,
+				cardmarket: 275303
+			},
+		},
+	],
 }
 
 export default card

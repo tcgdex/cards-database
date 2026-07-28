@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		174,
-	],
+	dexId: [174],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Igglybuff is Asleep, prevent all damage done to Igglybuff by attacks.",
 				fr: "Tant que Toudoudou reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Fluffeluff schläft, verhindere allen Schaden, der Fluffeluff durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Graffiti"
 			},
 			effect: {
-				en: "Igglybuff is now Asleep. During your opponent’s next turn, the attack cost of each of the Defending Pokémon’s attacks is Colorless more.",
+				en: "Igglybuff is now Asleep. During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is Colorless more.",
 				fr: "Toudoudou est maintenant Endormi. Au prochain tour de votre adversaire, le coût de l’attaque de chaque Pokémon Défenseur est plus élevé de Colorless.",
 				de: "Fluffeluff schläft jetzt. Während des nächsten Zuges deines Gegners kosten die Angriffe jedes Verteidigenden Pokémons  mehr."
 			},
@@ -66,17 +64,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86263,
+				cardmarket: 279016
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86263,
+				cardmarket: 279016
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279016,
-		tcgplayer: 86263
-	}
 }
 
 export default card

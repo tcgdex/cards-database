@@ -10,6 +10,7 @@ const card: Card = {
 	illustrator: "Jungo Suzuki",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Tool",
 	set: Set,
 
 	effect: {
@@ -17,19 +18,32 @@ const card: Card = {
 		de: "Ist zu irgendeinem Zeitpunkt zwischen Zügen das Pokémon an das diese Karte angelegt ist, auf der Bank und hat 2 oder mehr Schadensmarken, durchsuche dein Deck nach einer Entwicklungskarte, in die sich dieses Pokémon entwickelt, und lege sie auf das Pokémon. (Dies zählt als Entwickeln dieses Pokémon.) Mische dein Deck danach. Lege dann das Sternenstück auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 275397,
-		tcgplayer: 89507
-	},
+	attacks: [
+		{
+			// name intentionally left blank
+			name: {},
+			effect: {
+				en: "At any time between turns, if the Pokémon this card is attached to is Benched and has 2 or more damage counters on it, search your deck for an Evolution card that Pokémon evolves into and put it on top of that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward. Then, discard Star Piece."
+			}
+		}
+	],
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89507,
+				cardmarket: 275397
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89507,
+				cardmarket: 275397
+			},
+		},
+	],
 }
 
 export default card

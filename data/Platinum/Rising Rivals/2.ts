@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		411,
-	],
+	dexId: [411],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -58,7 +56,7 @@ const card: Card = {
 				de: "Klatsch-Attacke"
 			},
 			effect: {
-				en: "Remove 1 damage counter from Bastiodon .",
+				en: "Remove 1 damage counter from Bastiodon GL.",
 				fr: "Retirez à Bastiodon  1 marqueur de dégât.",
 				de: "Entferne 1 Schadensmarke von Bollterus GL."
 			},
@@ -70,32 +68,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 278576,
-		tcgplayer: 83738
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278569,
+				tcgplayer: 83738,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278569,
+				tcgplayer: 83738
+			}
+		},
+	],
+
 }
 
 export default card

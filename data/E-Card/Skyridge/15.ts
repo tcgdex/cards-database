@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		166,
-	],
+	dexId: [166],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -38,7 +36,7 @@ const card: Card = {
 				de: "Pollenschild"
 			},
 			effect: {
-				en: "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effect of attacks, Poké",
+				en: "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Poké-Powers, Poké-Bodies, and Trainer cards still happen.)",
 				de: "Während des nächsten gegenerischen Zugs kann Ledian nicht von speziellen Zuständen betroffen werden. (Alle anderen Effekten von Angriffen, Poke-Powers, Poke-Bodies und Trainerkarten finden immer noch statt."
 			},
 			damage: 10,
@@ -66,23 +64,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275242,
-		tcgplayer: 86691
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86691,
+				cardmarket: 275242
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86691,
+				cardmarket: 275242
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card

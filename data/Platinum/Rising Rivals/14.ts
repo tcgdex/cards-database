@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		306,
-	],
+	dexId: [306],
 
 	hp: 130,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Lairon",
-		fr: "Galegon",
+		fr: "Galegon"
 	},
 
 	stage: "Stage2",
@@ -91,29 +89,31 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 278588,
-		tcgplayer: 83479
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278588,
+				tcgplayer: 83479
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278588,
+				tcgplayer: 83479
+			}
+		},
+	],
+
 }
 
 export default card

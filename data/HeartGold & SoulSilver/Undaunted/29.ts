@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid",
+		fr: "Galekid"
 	},
 
 	stage: "Stage1",
@@ -87,17 +85,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279282,
+				tcgplayer: 86582
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279282,
+				tcgplayer: 86582
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279282,
-		tcgplayer: 86582
-	}
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		430,
-	],
+	dexId: [430],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornebre",
+		fr: "Cornebre"
 	},
 
 	stage: "Stage1",
@@ -60,7 +58,7 @@ const card: Card = {
 				de: "Aus heiterem Himmel"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon that has any damage counters on it. This attack does 50 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez l’un des Pokémon de votre adversaire ayant des marqueurs de dégât. Cette attaque inflige 50 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Wähle 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -90,17 +88,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279268,
+				tcgplayer: 86161
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279268,
+				tcgplayer: 86161
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279268,
-		tcgplayer: 86161
-	}
 }
 
 export default card

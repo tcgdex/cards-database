@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -61,32 +59,35 @@ const card: Card = {
 				de: "Verfügt Garados über 7 oder mehr Schadensmarken, beträgt der Basisschaden dieses Angriffs 100."
 			},
 
-			damage: 50
+			damage: 50,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275237,
-		tcgplayer: 85988
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85988,
+				cardmarket: 275237
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85988,
+				cardmarket: 275237
+			},
+		},
+	],
 }
 
 export default card

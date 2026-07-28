@@ -17,26 +17,36 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each Pokémon that does not have Team Aqua in its name pays Colorless more to retreat.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
-		de: "Each Pokémon that does not have Team Aqua in its name pays  more to retreat.",
+		de: "Each Pokémon that does not have Team Aqua in its name pays  more to retreat."
 	},
 
-	thirdParty: {
-		cardmarket: 276055,
-		tcgplayer: 89771
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275855,
+				tcgplayer: 89771
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275855,
+				tcgplayer: 89771
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				cardmarket: 871557,
+				tcgplayer: 477593
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

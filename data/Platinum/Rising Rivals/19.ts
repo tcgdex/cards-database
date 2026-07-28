@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		136,
-	],
+	dexId: [136],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may devolve Flareon and put Flareon into your hand. This power can't be used if Flareon is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez dés-évoluer Pyroli et le placer dans votre main. Ce pouvoir ne peut pas être utilisé si Pyroli est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du Flamara rückentwickeln und Flamara auf deine Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Flamara von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -86,22 +84,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278593,
-		tcgplayer: 85497
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278593,
+				tcgplayer: 85497
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278593,
+				tcgplayer: 85497
+			}
+		},
+	],
+
 }
 
 export default card

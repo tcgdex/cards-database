@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		109,
-	],
+	dexId: [109],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Rauchwolke"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d’attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c’est pile, cette attaque ne fait rien.",
 				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
 			},
@@ -74,22 +72,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86498,
+				cardmarket: 279042
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86498,
+				cardmarket: 279042
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"]
+			stamp: ["snowflake"],
+			languages: ["de"],
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279042,
-		tcgplayer: 86498
-	}
 }
 
 export default card

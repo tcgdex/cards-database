@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		45,
-	],
+	dexId: [45],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -70,22 +68,21 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
-			value: "×2"
+			type: "Fire",
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275115,
-		tcgplayer: 90377
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 90377,
+				cardmarket: 275115
+			}
+		},
 	]
 }
 

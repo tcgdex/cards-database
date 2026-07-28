@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		50,
-	],
+	dexId: [50],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Tunnelbau"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done by attacks to Diglett during your opponent's next turn. (Any other effects of attack still happen.)",
+				en: "Flip a coin. If heads, prevent all damage done by attacks to Diglett during your opponent's next turn. (Any other effects of attacks still happen.)",
 				de: "Wirf eine Münze. Verhindere bei \"Kopf\" allen Schaden, der Digda während des nächsten Zugs deines Gegners durch Angriffe zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 			damage: 10,
@@ -45,10 +43,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -58,19 +55,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275308,
-		tcgplayer: 84818
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84818,
+				cardmarket: 275308
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84818,
+				cardmarket: 275308
+			},
+		},
+	],
 }
 
 export default card

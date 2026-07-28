@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		443,
-	],
+	dexId: [443],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -63,25 +61,46 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
-	},
-
-	thirdParty: {
-		cardmarket: 278797
+		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278797,
+				tcgplayer: 85701,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278797,
+				tcgplayer: 85701
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				cardmarket: 449143,
+				tcgplayer: 164209
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			stamp: ['staff'],
+			thirdParty: {
+				cardmarket: 278797,
+				tcgplayer: 164210
+			}
+		},
+	],
+
 }
 
 export default card

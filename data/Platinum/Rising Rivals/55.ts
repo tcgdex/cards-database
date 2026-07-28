@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		142,
-	],
+	dexId: [142],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Urzeithauch"
 			},
 			effect: {
-				en: "Your opponent can't play any Pokémon from his or her hand to evolve or to Level-Up the Defending Pokémon during his or her next turn.",
+				en: "Your opponent can't play any Pokémon from his or her hand to Evolve or to Level-Up the Defending Pokémon during his or her next turn.",
 				fr: "Votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ou faire passer au Niveau Supérieur le Pokémon Défenseur lors de son prochain tour.",
 				de: "Dein Gegner kann in seinem nächsten Zug keine Pokémon-Karten von seiner Hand spielen, um das Verteidigende Pokémon zu entwickeln oder damit ein Level-Up durchzuführen."
 			},
@@ -65,30 +63,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278629,
-		tcgplayer: 83474
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278629,
+				tcgplayer: 83474
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278629,
+				tcgplayer: 83474
+			}
+		},
+	],
+
 }
 
 export default card

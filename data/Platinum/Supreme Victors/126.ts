@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		403,
-	],
+	dexId: [403],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -48,32 +46,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
-	},
-
-	thirdParty: {
-		cardmarket: 278817
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89176,
+				cardmarket: 278817
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278817,
+				tcgplayer: 89176
+			}
+		},
+	],
+
 }
 
 export default card

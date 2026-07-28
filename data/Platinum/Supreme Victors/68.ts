@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		284,
-	],
+	dexId: [284],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Surskit",
-		fr: "Arakdo",
+		fr: "Arakdo"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Masquerain is your Active Pokémon, any damage done by an opponent's attack is reduced by 20 (before applying Weakness and Resistance).",
 				fr: "Tant que Maskadra est votre Pokémon Actif, tous les dégâts infligés par une attaque de votre adversaire sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
 				de: "Solange Maskeregen dein Aktives Pokémon ist, wird Schaden, der durch einen gegnerischen Angriff zugefügt wird, um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -72,30 +70,34 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+		en: "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction."
 	},
 
-	thirdParty: {
-		cardmarket: 278759
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87249,
+				cardmarket: 278759
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278759,
+				tcgplayer: 87249
+			}
+		},
+	],
+
 }
 
 export default card

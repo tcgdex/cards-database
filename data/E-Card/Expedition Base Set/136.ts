@@ -11,16 +11,15 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Supporter",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -61,25 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275011,
-		tcgplayer: 90436
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90436,
+				cardmarket: 275011
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90436,
+				cardmarket: 275011
+			},
+		},
+	],
 }
 
 export default card

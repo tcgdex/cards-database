@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		103,
-	],
+	dexId: [103],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -41,11 +39,11 @@ const card: Card = {
 				de: "Big Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
+				en: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
 				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
 				de: "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -60,7 +58,7 @@ const card: Card = {
 				de: "Lateral Eggsplosion"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the total number of Energy attached to your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
+				en: "Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads.",
 				fr: "Lancez un nombre de pièces égal à la quantité d'Énergie attachée à tous les Pokémon de votre Banc. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
 				de: "Flip a number of coins equal to the amount of Energy attached to all of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads."
 			},
@@ -72,24 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275084,
-		tcgplayer: 85356
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85356,
+				cardmarket: 275084
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85356,
+				cardmarket: 275084
+			}
+		},
 	]
 }
 

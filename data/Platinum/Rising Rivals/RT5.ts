@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		479,
-	],
+	dexId: [479],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may use this power. Wash Rotom's type is Water until the end of your turn.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Lavage est de type Water jusqu'à la fin de votre tour.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Wasch-Rotoms Typ ist  bis zum Ende des Zuges."
-			},
+			}
 		},
 	],
 
@@ -82,25 +80,23 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278573
-	},
 
 	variants: [
 		{
 			type: "reverse",
-			foil: "cracked-ice"
-		}
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 278573,
+				tcgplayer: 90494
+			}
+		},
 	]
 }
 

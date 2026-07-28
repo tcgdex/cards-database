@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -62,26 +60,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
-	},
-
-	thirdParty: {
-		cardmarket: 278686,
-		tcgplayer: 88091
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278686,
+				tcgplayer: 88091
+			}
+		},
+	],
+
 }
 
 export default card

@@ -20,19 +20,25 @@ const card: Card = {
 		de: "Wirf I Münze. Durchsuche bei Kopf dein Deck nach einem Pokémon, das \"Aqua's\" im Namen hat. Durchsuche bei Zahl dein Deck nach einem Basispokémon, das \"Aqua's\" im Namen hat. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 276052,
-		tcgplayer: 89768
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275852,
+				tcgplayer: 89768
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275852,
+				tcgplayer: 89768
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		173,
-	],
+	dexId: [173],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -62,10 +60,24 @@ const card: Card = {
 		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
 	},
 
-	thirdParty: {
-		cardmarket: 279667,
-		tcgplayer: 84369
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84369,
+				cardmarket: 279667
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84369,
+				cardmarket: 279667
+			},
+		},
+	],
+
 }
 
 export default card

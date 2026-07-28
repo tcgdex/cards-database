@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		363,
-	],
+	dexId: [363],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -67,26 +65,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
-	},
-
-	thirdParty: {
-		cardmarket: 278656,
-		tcgplayer: 89449
+		en: "It rolls across ice floes to reach shore because its body is poorly shaped for swimming."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278656,
+				tcgplayer: 89449
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278656,
+				tcgplayer: 89449
+			}
+		},
+	],
+
 }
 
 export default card

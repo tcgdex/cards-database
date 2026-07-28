@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		312,
-	],
+	dexId: [312],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -65,32 +63,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
-	},
-
-	thirdParty: {
-		cardmarket: 278762
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87490,
+				cardmarket: 278762
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278762,
+				tcgplayer: 87490
+			}
+		},
+	],
+
 }
 
 export default card

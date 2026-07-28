@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		84,
-	],
+	dexId: [84],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,30 +49,34 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power.",
+		en: "The brains in its two heads appear to communicate emotions to each other with a telepathic power."
 	},
 
-	thirdParty: {
-		cardmarket: 278793
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84864,
+				cardmarket: 278793
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278793,
+				tcgplayer: 84864
+			}
+		},
+	],
+
 }
 
 export default card

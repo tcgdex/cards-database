@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Grass, Fire, or Fighting basic Energy card from your hand to Golem, Golem's type (color) becomes the same as that type of energy until the end of the turn.",
+				en: "Whenever you attach a Grass, Fire, or Fighting basic Energy card from your hand to Golem, Golem's type (color) becomes the same as that type of Energy until the end of the turn.",
 				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Geowaz anlegst, ändert sich Geowaz Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			},
 		},
@@ -69,7 +67,7 @@ const card: Card = {
 				de: "Erdbombe"
 			},
 			effect: {
-				en: "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pokémon (yours and your opponents). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Golem does 20 damage to itself. This attack also does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				de: "Geowaz fügt sich selber 20 Schadenspunkte zu. Deiser Angriff fügt zudem jedem Pokémon auf der Bank 10 Schadnepunkte zu (deinen und den gegnerischen Pokémon). (Wende keine Schwäche oder resistenz bei Pokémon auf der Bank an.)"
 			},
 			damage: 50,
@@ -80,25 +78,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 4,
 
 
-	thirdParty: {
-		cardmarket: 275406,
-		tcgplayer: 85825
-	},
-
 	variants: [
 		{
 			type: 'holo',
+			thirdParty: {
+				tcgplayer: 85825,
+				cardmarket: 275406
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85825,
+				cardmarket: 275406
+			},
+		},
+	],
 }
 
 export default card

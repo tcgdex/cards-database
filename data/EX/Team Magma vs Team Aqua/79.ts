@@ -3,7 +3,7 @@ import Set from '../Team Magma vs Team Aqua'
 
 const card: Card = {
 	name: {
-		en: "Team Aqua's Technical Machine 01",
+		en: "Team Aqua Technical Machine 01",
 		fr: "Machine Technique 01 de Team Aqua",
 		de: "Team Aqua Technical Machine 01"
 	},
@@ -23,11 +23,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Miracle",
 				de: "Miracle",
 				fr: "Miracle"
 			},
 			damage: 10,
 			effect: {
+				en: "Choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
 				de: "Choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
 				fr: "Choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial."
 			},
@@ -40,11 +42,21 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89773
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89773
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

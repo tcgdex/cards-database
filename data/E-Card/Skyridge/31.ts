@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		208,
-	],
+	dexId: [208],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -78,17 +76,16 @@ const card: Card = {
 				de: "Bevor der Schaden zugefügt wird, kannst du eine Münze werfen. Bei 'Kopf' fügt dieser Angriff 80 Schadenspunkte zu. Bei 'Zahl' hat dieser Angriff keine Wirkung."
 			},
 
-			damage: 40
+			damage: 40,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
@@ -98,19 +95,22 @@ const card: Card = {
 	retreat: 4,
 
 
-	thirdParty: {
-		cardmarket: 275256,
-		tcgplayer: 89559
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89559,
+				cardmarket: 275256
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89559,
+				cardmarket: 275256
+			},
+		},
+	],
 }
 
 export default card

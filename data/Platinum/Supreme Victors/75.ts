@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		127,
-	],
+	dexId: [127],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -70,25 +68,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
-	},
-
-	thirdParty: {
-		cardmarket: 278766
+		en: "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88138,
+				cardmarket: 278766
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278766,
+				tcgplayer: 88138
+			}
+		},
+	],
+
 }
 
 export default card

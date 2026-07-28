@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		419,
-	],
+	dexId: [419],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -51,7 +49,7 @@ const card: Card = {
 				de: "Riesenwelle"
 			},
 			effect: {
-				en: "Floatzel can't use Giant Wave during your next turn.",
+				en: "Floatzel GL can't use Giant Wave during your next turn.",
 				fr: "Mustéflott  ne peut pas utiliser Vague géante lors de votre prochain tour.",
 				de: "Bojelin GL kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
@@ -63,25 +61,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278578,
-		tcgplayer: 85517
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278571,
+				tcgplayer: 85517
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278571,
+				tcgplayer: 85517
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		231,
-	],
+	dexId: [231],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Phanpy.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Phanpy zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -67,21 +65,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88003,
+				cardmarket: 279049
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88003,
+				cardmarket: 279049
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"],
-		}
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480431,
+				cardmarket: 279049
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279049,
-		tcgplayer: 88003
-	}
 }
 
 export default card

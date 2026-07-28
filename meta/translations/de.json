@@ -263,6 +263,7 @@
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "grauer stern",
 		"pop-tournament": "pop-tournament",
+		"chicago-2009": "chicago-2009",
 		"chase-moloney": "chase-moloney"
 	},
 	"variantSubtype": {
@@ -291,6 +292,7 @@
 		"nintedo-error": "Nintedo-Fehler",
 		"1995-1998-copyright": "Copyright 1995-1998",
 		"no-rarity": "Ohne Seltenheit",
-		"missing-retreat-cost": "Fehlende Rückzugskosten"
+		"missing-retreat-cost": "Fehlende Rückzugskosten",
+		"phanphy-error" : "phanphy-fehler"
 	}
 }

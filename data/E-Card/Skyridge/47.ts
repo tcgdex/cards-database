@@ -7,7 +7,7 @@ const card: Card = {
 		de: "Vergrabenes Fossil"
 	},
 
-	illustrator: "Atsuko Nishida",
+	illustrator: "Atsuko Ujiie",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -16,7 +16,7 @@ const card: Card = {
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,19 +37,22 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275305,
-		tcgplayer: 84048
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84048,
+				cardmarket: 275305
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84048,
+				cardmarket: 275305
+			},
+		},
+	],
 }
 
 export default card

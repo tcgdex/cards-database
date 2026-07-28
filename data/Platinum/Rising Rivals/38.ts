@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Alakazam 4",
+		en: "Alakazam E4",
 		fr: "Alakazam  Niv. 56",
 		de: "Simsala 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		65,
-	],
+	dexId: [65],
 	hp: 80,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Genesung"
 			},
 			effect: {
-				en: "Discard a Psychic Energy attached to Alakazam and remove 4 damage counters from Alakazam .",
+				en: "Discard a Psychic Energy attached to Alakazam E4 and remove 4 damage counters from Alakazam E4.",
 				fr: "Défaussez une carte Énergie Psychic attachée à Alakazam  et retirez-lui 4 marqueurs de dégât.",
 				de: "Lege 1 an Simsala 4 angelegte -Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Simsala 4."
 			},
@@ -63,20 +61,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278612,
+				tcgplayer: 83503
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278612,
+				tcgplayer: 83503
+			}
+		},
+	],
+
 }
 
 export default card

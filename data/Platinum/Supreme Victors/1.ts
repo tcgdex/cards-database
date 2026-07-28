@@ -4,20 +4,18 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Absol G",
-		fr: "Absol ",
+		fr: "Absol G",
 		de: "Absol G"
 	},
 	illustrator: "Yusuke Ishikawa",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		359,
-	],
+	dexId: [359],
 	hp: 70,
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -75,14 +73,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278692,
+				tcgplayer: 83457
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278692,
+				tcgplayer: 83457
+			}
+		},
+	],
 
 }
 

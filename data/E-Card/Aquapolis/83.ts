@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		187,
-	],
+	dexId: [187],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
 				fr: "Vous payez  de moins pour faire battre Granivol en retraite pour chaque Énergie  qui lui est attachée.",
 				de: "Für jede an Hoppspross angelegte -Energie zahlst du  weniger, wenn du es zurückziehst."
-			},
+			}
 		},
 	],
 
@@ -64,10 +62,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
@@ -77,18 +74,21 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275157,
-		tcgplayer: 86178
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86178,
+				cardmarket: 275157
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86178,
+				cardmarket: 275157
+			}
+		},
 	]
 }
 

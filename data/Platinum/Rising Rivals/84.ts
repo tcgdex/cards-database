@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		328,
-	],
+	dexId: [328],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Sand sammeln"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Trapinch is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Trapinch.",
+				en: "Once during your turn (before your attack), if Trapinch is your Active Pokémon, you may search your discard pile for a basic Fighting card and attach it to Trapinch.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Kraknoix est votre Pokémon Actif, vous pouvez chercher dans votre pile de défausse une carte Énergie Fighting et l'attacher à Kraknoix.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Knacklion dein Aktives Pokémon ist, deinen Ablagestapel nach 1 -Basis-Energiekarte durchsuchen und sie an Knacklion anlegen."
-			},
+			}
 		},
 	],
 
@@ -67,33 +65,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
-	},
-
-	thirdParty: {
-		cardmarket: 278658,
-		tcgplayer: 90024
+		en: "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278658,
+				tcgplayer: 90024
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278658,
+				tcgplayer: 90024
+			}
+		},
+	],
+
 }
 
 export default card

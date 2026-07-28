@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		307,
-	],
+	dexId: [307],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -71,18 +69,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276139,
-		tcgplayer: 87279
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 87279,
+				cardmarket: 276139
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87279,
+				cardmarket: 276139
+			}
+		},
 	]
 }
 

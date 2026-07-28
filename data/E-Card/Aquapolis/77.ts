@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		102,
-	],
+	dexId: [102],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Energy Support"
 			},
 			effect: {
-				en: "Flip a coin. If heads, search your deck for a Energy card and attach it to one of your Benched Pokémon. Shuffle your deck afterward.",
+				en: "Flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Benched Pokémon. Shuffe your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon du Banc. Mélangez ensuite votre deck.",
 				de: "Flip a coin. If heads, search your deck for a  Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward."
 			},
@@ -64,24 +62,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275150,
-		tcgplayer: 85345
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85345,
+				cardmarket: 275150
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85345,
+				cardmarket: 275150
+			}
+		},
 	]
 }
 

@@ -263,6 +263,7 @@
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "grey-star",
 		"pop-tournament": "pop-tournament",
+		"chicago-2009": "chicago-2009",
 		"chase-moloney": "chase-moloney"
 	},
 	"variantSubtype": {
@@ -291,6 +292,7 @@
 		"1995-1998-copyright": "Copyright 1995-1998",
 		"shadowless-red-cheek": "guancia rossa senza ombre",
 		"no-rarity": "Senza rarità",
-		"missing-retreat-cost": "Costo di ritirata mancante"
+		"missing-retreat-cost": "Costo di ritirata mancante",
+		"phanphy-error" : "Errore di phanphy"
 	}
 }

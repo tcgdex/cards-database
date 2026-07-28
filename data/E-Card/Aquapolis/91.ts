@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
 				fr: "Vous payez  de moins pour faire battre Magneti en retraite pour chaque Magneti sur votre Banc.",
 				de: "Für jedes Magnetilo auf deiner Bank zahlst du  weniger, wenn du Magnetilo zurückziehst."
-			},
+			}
 		},
 	],
 
@@ -65,24 +63,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275125,
-		tcgplayer: 87071
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87071,
+				cardmarket: 275125
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87071,
+				cardmarket: 275125
+			}
+		},
 	]
 }
 
