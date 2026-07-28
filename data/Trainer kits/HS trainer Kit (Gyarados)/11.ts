@@ -1,29 +1,27 @@
 import { Card } from '../../../interfaces'
-import Set from '../DP trainer Kit (Manaphy)'
+import Set from '../HS trainer Kit (Gyarados)'
 
 const card: Card = {
 	name: {
 		en: "Water Energy",
-		fr: "Énergie Eau"
 	},
-	illustrator: "",
+
 	rarity: "None",
 	category: "Energy",
-
 	set: Set,
-	stage: "Basic",
-	energyType: "Normal",
 	types: [
-		"Water"
+		"Water",
 	],
 	retreat: 0,
+
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 278031,
-				tcgplayer: 90511
-			}
+				cardmarket: 279104,
+				tcgplayer: 90521,
+			},
 		},
 	],
 

@@ -16,7 +16,9 @@ const card: Card = {
 	stage: "Basic",
 
 	hp: 70,
-	types: ["Water"],
+	types: [
+		"Water"
+	],
 
 	attacks: [{
 		cost: [
@@ -49,15 +51,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "20+"
-		}
+			value: "+20"
+		},
 	],
 
 	description: {
 		en: "Born on a cold seafloor, it will swim great distances to return to its birthplace."
 	},
 	
-	retreat: 1
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278016,
+				tcgplayer: 87145
+			}
+		},
+	],
 
 }
 

@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [
@@ -52,22 +52,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
-		}
+		},
 	],
 
 	description: {
 		en: "They flock in great numbers. Though small, they flap their wings with great power."
 	},
 	
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278022,
+				tcgplayer: 89522
+			}
+		},
+	],
+
 }
 
 export default card
