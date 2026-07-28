@@ -74,10 +74,6 @@ const card: Card = {
 			type: "normal",
 			subtype: 'missing-retreat-cost',
 		},
-		{
-			type: "reverse",
-			subtype: 'missing-retreat-cost',
-		},
 	],
 
 }
