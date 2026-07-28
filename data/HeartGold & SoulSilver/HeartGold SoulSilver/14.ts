@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 120,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Flaaffy",
-		fr: "Lainergie",
+		fr: "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -91,17 +89,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83544,
+				cardmarket: 278986
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83544,
+				cardmarket: 278986
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278986,
-		tcgplayer: 83544
-	}
 }
 
 export default card

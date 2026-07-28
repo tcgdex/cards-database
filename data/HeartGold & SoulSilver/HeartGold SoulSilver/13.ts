@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		202,
-	],
+	dexId: [202],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -41,7 +39,7 @@ const card: Card = {
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts sur Qulbutoke.",
 				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte mal der Anzahl an Schadensmarken auf Woingenau zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -61,17 +59,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90621,
+				cardmarket: 278985
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90621,
+				cardmarket: 278985
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278985,
-		tcgplayer: 90621
-	}
 }
 
 export default card

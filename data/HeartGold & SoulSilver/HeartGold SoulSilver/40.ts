@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		232,
-	],
+	dexId: [232],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy",
+		fr: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -43,7 +41,7 @@ const card: Card = {
 				de: "Steinschleuderer"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
 				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
@@ -67,7 +65,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "70x",
+			damage: "70×",
 
 		},
 	],
@@ -94,21 +92,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84877,
+				cardmarket: 279012
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84877,
+				cardmarket: 279012
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 186826,
+				cardmarket: 279012
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279012,
-		tcgplayer: 84877
-	}
 }
 
 export default card

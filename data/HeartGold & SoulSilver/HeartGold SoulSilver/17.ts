@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		173,
-	],
+	dexId: [173],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.",
 				fr: "Tant que Mélo reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Pii schläft, verhindere allen Schaden, der Pii durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -66,21 +64,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84367,
+				cardmarket: 278989
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84367,
+				cardmarket: 278989
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				tcgplayer: 480361,
+				cardmarket: 868144
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 278989,
-		tcgplayer: 84367
-	}
 }
 
 export default card

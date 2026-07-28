@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		238,
-	],
+	dexId: [238],
 
 	hp: 30,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
 				fr: "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Kussilla schläft, verhindere allen Schaden, der Kussilla durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Energiepossen"
 			},
 			effect: {
-				en: "Move an Energy card attached to 1 of your opponent’s Pokémon to another of your opponent’s Pokémon. Smoochum is now Asleep.",
+				en: "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep.",
 				fr: "Déplacez une carte Énergie attachée à l’un des Pokémon de votre adversaire sur un autre de ses Pokémon. Lippouti est maintenant Endormi.",
 				de: "Lege eine an 1 Pokémon deines Gegners angelegte Energiekarte an 1 anderes Pokémon deines Gegners an. Kussilla schläft jetzt."
 			},
@@ -66,17 +64,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89363,
+				cardmarket: 279002
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89363,
+				cardmarket: 279002
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279002,
-		tcgplayer: 89363
-	}
 }
 
 export default card
