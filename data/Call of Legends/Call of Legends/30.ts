@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		18,
-	],
+	dexId: [18],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -73,25 +71,37 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
+	retreat: 0,
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
 		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.",
 	},
 
-	thirdParty: {
-		cardmarket: 279673,
-		tcgplayer: 88035
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88035,
+				cardmarket: 279673
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88035,
+				cardmarket: 279673
+			},
+		},
+	],
+
 }
 
 export default card

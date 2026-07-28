@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		193,
-	],
+	dexId: [193],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 				de: "Luftschnitt"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard an Energy card attached to Yanma.",
+				en: "Flip a coin. If tails, discard an Energy attached to Yanma.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie attachée à Yanma.",
 				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 Energiekarte, die an Yanma angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
@@ -67,32 +65,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It can hover is one spot by flapping its wings at high speed. It flits about to guard its territory.",
-	},
-
-	thirdParty: {
-		cardmarket: 278691
+		en: "It can hover is one spot by flapping its wings at high speed. It flits about to guard its territory."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90686,
+				cardmarket: 278779
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278691,
+				tcgplayer: 90686
+			}
+		},
+	],
+
 }
 
 export default card

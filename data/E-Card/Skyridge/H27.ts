@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		112,
-	],
+	dexId: [112],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -65,17 +63,16 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 100
+			damage: 100,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -85,16 +82,15 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275287,
-		tcgplayer: 88728
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88728,
+				cardmarket: 275287
+			},
+		},
+	],
 }
 
 export default card

@@ -8,16 +8,14 @@ const card: Card = {
 		de: "Staraptor FB"
 	},
 	illustrator: "Hiroki Fuchino",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		398,
-	],
+	dexId: [398],
 	hp: 80,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -64,7 +62,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -77,14 +75,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278702,
+				tcgplayer: 89511
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278702,
+				tcgplayer: 89511
+			}
+		},
+	],
 
 }
 

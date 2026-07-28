@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		374,
-	],
+	dexId: [374],
 
 	hp: 50,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0.",
 				fr: "Si Terhal possède des Énergies, son Coût de Retraite est de 0.",
 				de: "If Beldum has any Energy attached to it, Beldum's Retreat Cost is 0."
-			},
+			}
 		},
 	],
 
@@ -59,7 +57,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "×2"
 		},
 	],
@@ -74,18 +72,21 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276102,
-		tcgplayer: 83781
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 83781,
+				cardmarket: 276102
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83781,
+				cardmarket: 276102
+			}
+		},
 	]
 }
 

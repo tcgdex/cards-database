@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Gallade 4",
+		en: "Gallade E4",
 		fr: "Gallame  Niv. 59",
 		de: "Galagladi 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		475,
-	],
+	dexId: [475],
 	hp: 80,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -65,27 +63,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278594,
+				tcgplayer: 85608
+			}
 		},
 		{
 			type: "reverse",
-			foil: "cosmos"
-		}
+			thirdParty: {
+				cardmarket: 278594,
+				tcgplayer: 85608
+			}
+		},
+		{
+			type: "holo",
+			foil: 'cosmos',
+			thirdParty: {
+				tcgplayer: 125052
+			}
+		},
 	]
-
-
-
 }
 
 export default card

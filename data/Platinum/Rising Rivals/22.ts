@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		423,
-	],
+	dexId: [423],
 
 	hp: 110,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Shellos West Sea",
-		fr: "Sancoki Mer Occident",
+		fr: "Sancoki Mer Occident"
 	},
 
 	stage: "Stage1",
@@ -92,29 +90,31 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 278596,
-		tcgplayer: 85660
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278596,
+				tcgplayer: 85660
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278596,
+				tcgplayer: 85660
+			}
+		},
+	],
+
 }
 
 export default card

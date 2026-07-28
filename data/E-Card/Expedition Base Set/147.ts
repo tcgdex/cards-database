@@ -19,19 +19,22 @@ const card: Card = {
 		de: "Wirf eine Münze. Mische bei 'Kopf' 2 Energiekarten aus deinem Ablagestapel in dein Deck (1, wenn du nur 1 hast)."
 	},
 
-	thirdParty: {
-		cardmarket: 275022,
-		tcgplayer: 88353
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88353,
+				cardmarket: 275022
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88353,
+				cardmarket: 275022
+			},
+		},
+	],
 }
 
 export default card

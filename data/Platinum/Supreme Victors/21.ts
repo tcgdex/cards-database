@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		358,
-	],
+	dexId: [358],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -66,25 +64,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
-	},
-
-	thirdParty: {
-		cardmarket: 278712
+		en: "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278712,
+				tcgplayer: 84296,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278712,
+				tcgplayer: 84296
+			}
+		},
+	],
+
 }
 
 export default card

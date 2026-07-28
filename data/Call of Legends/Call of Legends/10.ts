@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -71,10 +69,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -88,10 +85,23 @@ const card: Card = {
 		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
 	},
 
-	thirdParty: {
-		cardmarket: 279653,
-		tcgplayer: 86211
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86211,
+				cardmarket: 279653
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86211,
+				cardmarket: 279653
+			},
+		},
+	],
+
 }
 
 export default card

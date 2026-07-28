@@ -17,22 +17,28 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Whenever any player plays a Basic Pokémon that doesn't have Team Magma in its name from his or her hand, that player puts 1 damage counter on that Pokémon.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
-		de: "Whenever any player plays a basic Pokémon that doesn't have Team Magma in its name from his or her hand, that player puts 1 damage counter on that Pokémon.",
+		de: "Whenever any player plays a basic Pokémon that doesn't have Team Magma in its name from his or her hand, that player puts 1 damage counter on that Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 276060,
-		tcgplayer: 89815
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275860,
+				tcgplayer: 89815
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275860,
+				tcgplayer: 89815
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

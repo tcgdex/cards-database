@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		441,
-	],
+	dexId: [441],
 	hp: 60,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Chatot G from your hand onto your Bench, you may look at the top 4 cards of your opponent's deck. Put them back on top of your opponent's deck in any order.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Pijako  de votre main sur votre Banc, vous pouvez regarder les 4 cartes du dessus du deck de votre adversaire. Replacez-les au-dessus du deck de votre adversaire dans n'importe quel ordre.",
 				de: "Einmal während deines Zuges kannst du dir, wenn du Plaudagei G von deiner Hand auf deine Bank legst, die obersten 4 Karten des Decks deines Gegners anschauen. Lege die Karten in beliebiger Reihenfolge auf das Deck deines Gegners zurück."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -56,7 +54,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -69,14 +67,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278745,
+				tcgplayer: 84245
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278745,
+				tcgplayer: 84245
+			}
+		},
+	],
 
 }
 

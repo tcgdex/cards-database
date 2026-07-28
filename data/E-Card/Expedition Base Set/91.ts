@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		156,
-	],
+	dexId: [156],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,6 +26,17 @@ const card: Card = {
 		fr: "Héricendre"
 	},
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Conductive Body",
+			},
+			effect: {
+				en: "You pay Colorless less to retreat Magnemite for each Magnemite on your Bench.",
+			},
+		},
+	],
 	stage: "Stage1",
 
 	attacks: [
@@ -69,25 +78,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274966,
-		tcgplayer: 88483
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88483,
+				cardmarket: 274966
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88483,
+				cardmarket: 274966
+			},
+		},
+	],
 }
 
 export default card

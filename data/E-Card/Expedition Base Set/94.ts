@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [1],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -57,32 +55,35 @@ const card: Card = {
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
-			damage: 10
+			damage: 10,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274969,
-		tcgplayer: 84026
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84026,
+				cardmarket: 274969
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84026,
+				cardmarket: 274969
+			},
+		},
+	],
 }
 
 export default card

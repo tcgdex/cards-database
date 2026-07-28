@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		146,
-	],
+	dexId: [146],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -53,22 +51,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
-	},
-
-	thirdParty: {
-		cardmarket: 278727
+		en: "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87563,
+				cardmarket: 278840
+			}
+		},
+	],
+
 }
 
 export default card

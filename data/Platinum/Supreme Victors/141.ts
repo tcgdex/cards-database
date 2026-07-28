@@ -3,7 +3,7 @@ import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Absol G",
+		en: "Absol G LV.X",
 		fr: "Absol ",
 		de: "Absol G"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		359,
-	],
+	dexId: [359],
 	hp: 100,
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "LEVEL-UP",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), when you put Absol G LV.X from your hand onto your Active Absol G, you may flip 3 coins. For each heads, put the top card from your opponent's deck in the Lost Zone.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Absol  NIV.X de votre main sur votre Absol  Actif, vous pouvez lancer 3 pièces. Pour chaque face, placez la carte du dessus du deck de votre adversaire dans la Zone Perdue.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Absol G LV.X von deiner Hand auf dein Aktives Absol G legst, 3 Münzen werfen. Lege für jedes Mal, wenn die Münze \"Kopf\" gezeigt hat, die oberste Karte vom Deck deines Gegners ins Nirgendwo."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -60,7 +58,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -73,9 +71,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278832,
+				tcgplayer: 83458
+			}
+		},
+	],
+
 }
 
 export default card

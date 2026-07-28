@@ -18,19 +18,22 @@ const card: Card = {
 		de: "Dieser Karte erzeugt -Energie. Wenn du diese Karte aus deiner Hand spielst und an dein aktives Pokémon anlegst, tauscht dein Gegner sein aktives Pokémon mit 1 der Pokémon auf seiner Bank aus."
 	},
 
-	thirdParty: {
-		cardmarket: 275401,
-		tcgplayer: 84539
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84539,
+				cardmarket: 275401
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84539,
+				cardmarket: 275401
+			},
+		},
+	],
 }
 
 export default card

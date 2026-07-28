@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "K. Hoshiba",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		382,
-	],
+	dexId: [382],
 
 	hp: 100,
 
 	types: [
 		"Water",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 				en: "As long as the number of Pokémon in play (both yours and your opponent's) that has Team Aqua in its name is 3 or less, Team Aqua's Kyogre can't attack.",
 				fr: "Tant que jusqu'à 3 Pokémon (les vôtres et ceux de votre adversaire) dont les noms comportent Team Aqua sont en jeu, Kyogre de Team Aqua ne peut pas attaquer.",
 				de: "As long as the number of Pokémon in play (both yours and your opponent's) that has Team Aqua in its name is 3 or less, Team Aqua's Kyogre can't attack."
-			},
+			}
 		},
 	],
 
@@ -89,23 +87,30 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275980,
-		tcgplayer: 89788
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275780,
+				tcgplayer: 89788
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275780,
+				tcgplayer: 89788
+			}
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 125256
+			}
 		}
 	]
 }

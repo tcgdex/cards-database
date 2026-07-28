@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		407,
-	],
+	dexId: [407],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Roselia",
-		fr: "Roselia",
+		fr: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -71,25 +69,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
-	},
-
-	thirdParty: {
-		cardmarket: 278731
+		en: "Each of its hands contains different toxins, but both hands can jab with near-fatal power."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88829,
+				cardmarket: 278772
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278731,
+				tcgplayer: 88829
+			}
+		},
+	],
+
 }
 
 export default card

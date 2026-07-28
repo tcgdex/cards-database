@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		127,
-	],
+	dexId: [127],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -72,24 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275176,
-		tcgplayer: 88134
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88134,
+				cardmarket: 275176
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 88134,
+				cardmarket: 275176
+			}
+		},
 	]
 }
 

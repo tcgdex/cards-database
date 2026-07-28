@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -65,7 +63,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -75,10 +73,23 @@ const card: Card = {
 		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
 	},
 
-	thirdParty: {
-		cardmarket: 279700,
-		tcgplayer: 86096
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86096,
+				cardmarket: 279700
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86096,
+				cardmarket: 279700
+			},
+		},
+	],
+
 }
 
 export default card

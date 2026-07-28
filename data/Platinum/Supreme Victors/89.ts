@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		343,
-	],
+	dexId: [343],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -65,29 +63,37 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
-	},
-
-	thirdParty: {
-		cardmarket: 278780
+		en: "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83717,
+				cardmarket: 278780
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278780,
+				tcgplayer: 83717
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				cardmarket: 868680,
+				tcgplayer: 479998
+			}
 		}
-	]
+	],
+
 }
 
 export default card

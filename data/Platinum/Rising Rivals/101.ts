@@ -21,23 +21,31 @@ const card: Card = {
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 278675,
-		tcgplayer: 89433
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278675,
+				tcgplayer: 89433
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278675,
+				tcgplayer: 89433
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 869040,
+				tcgplayer: 479954
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		141,
-	],
+	dexId: [141],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -57,7 +55,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -65,25 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275240,
-		tcgplayer: 86392
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86392,
+				cardmarket: 275240
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86392,
+				cardmarket: 275240
+			},
+		},
+	],
 }
 
 export default card

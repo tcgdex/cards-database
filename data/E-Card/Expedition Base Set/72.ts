@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		113,
-	],
+	dexId: [113],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -57,37 +55,46 @@ const card: Card = {
 			},
 
 			effect: {
-				en: "Count the number for Pokémon on your Bench. This attack does 10 times that number to the Defending Pokémon, and Chansey does 10 times that number of damage to itself.",
+				en: "Count the number of Pokémon on your Bench. This attack does 10 times that number of damage to the Defending Pokémon, and Chansey does 10 times that number of damage to itself.",
 				fr: "Comptez le nombre de Pokémon sur votre Banc. Cette attaque inflige 10 fois ce nombre de dégâts au Pokémon Défenseur, et Leveinard s'inflige 10 fois ce nombre de dégâts.",
 				de: "Zähle die Anzahl der Pokémon auf deiner Bank. Dieser Angriff fügt 10mal diese Zahl dem Verteidigenden Pokémon an Schaden zu, und Chaneira fügt sich selber 10mal diese Zahl an Schaden zu."
 			},
 
-			damage: "10x"
+			damage: "10×",
 		},
 	],
 
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274947,
-		tcgplayer: 84172
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84172,
+				cardmarket: 274947
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84172,
+				cardmarket: 274947
+			},
+		},
+	],
 }
 
 export default card

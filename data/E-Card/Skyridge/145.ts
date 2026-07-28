@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		251,
-	],
+	dexId: [251],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -32,7 +30,7 @@ const card: Card = {
 				de: "Kristall-Typ"
 			},
 			effect: {
-				en: "Whenever you attach a Grass, Water, or Psychic basic Energy card from your hand to Celebi, Celebi's type (color) becomes the same as that type of energy until the end of the turn.",
+				en: "Whenever you attach a Grass, Water, or Psychic basic Energy card from your hand to Celebi, Celebi's type (color) becomes the same as that type of Energy until the end of the turn.",
 				de: "Immer wenn du eine -, - oder -Basis-Energiekarte aus deiner Hand an Celebi anlegst, ändert sich Celebis Typ (Farbe) bis zum Ende des Zuges zu dem gleichen Typ wie diese Energie."
 			},
 		},
@@ -45,7 +43,7 @@ const card: Card = {
 				"Water",
 			],
 			name: {
-				en: "Empathetic Healing",
+				en: "Empathic Healing",
 				de: "Empathische Heilung"
 			},
 			effect: {
@@ -76,25 +74,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275403,
-		tcgplayer: 84144
-	},
-
 	variants: [
 		{
 			type: 'holo',
+			thirdParty: {
+				tcgplayer: 84144,
+				cardmarket: 275403
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84144,
+				cardmarket: 275403
+			},
+		},
+	],
 }
 
 export default card

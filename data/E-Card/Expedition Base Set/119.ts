@@ -8,19 +8,17 @@ const card: Card = {
 		de: "Voltilamm"
 	},
 
-	illustrator: "Sumiyoshi Kizuki",
+	illustrator: 'Sumiyoshi Kizuki"Big Mama" Tagawa',
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		179,
-	],
+	dexId: [179],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -48,25 +46,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274994,
-		tcgplayer: 87196
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87196,
+				cardmarket: 274994
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87196,
+				cardmarket: 274994
+			},
+		},
+	],
 }
 
 export default card

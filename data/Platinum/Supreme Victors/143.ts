@@ -3,7 +3,7 @@ import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Charizard G",
+		en: "Charizard G LV.X",
 		fr: "Dracaufeu ",
 		de: "Glurak G"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		6,
-	],
+	dexId: [6],
 	hp: 120,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "LEVEL-UP",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "As often as you like during your turn (before your attack), you may move an Energy attached to 1 of your Pokémon to Charizard G. This power can't be used if Charizard G is affected by a Special Condition.",
 				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez déplacer une Énergie attachée à 1 de vos Pokémon sur Dracaufeu . Ce pouvoir ne peut pas être utilisé si Dracaufeu  est affecté par un État Spécial.",
 				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Energie, die an 1 deiner Pokémon angelegt ist, entfernen und an Glurak G anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Glurak G von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -63,7 +61,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -76,11 +74,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
-
-
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278834,
+				tcgplayer: 84201
+			}
+		},
+	],
 
 }
 

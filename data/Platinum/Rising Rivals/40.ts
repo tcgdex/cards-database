@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [94],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Angreifen und Verstecken"
 			},
 			effect: {
-				en: "Put 3 damage counters on 1 of your opponent's Pokémon. You may shuffle Gengar and all cards attached to it back into your deck.",
+				en: "Put 3 damage counters on 1 of your opponent's Pokémon. You may shuffle Gengar GL and all cards attached to it back into your deck.",
 				fr: "Placez 3 marqueurs de dégât sur 1 des Pokémon de votre adversaire. Vous pouvez mélanger Ectoplasma  ainsi que toutes les cartes qui lui sont attachées avec votre deck.",
 				de: "Lege 3 Schadensmarken auf 1 Pokémon deines Gegners. Du kannst Gengar GL und alle Karten, die an es angelegt sind, in dein Deck mischen."
 			},
@@ -66,32 +64,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278614,
-		tcgplayer: 85681
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278614,
+				tcgplayer: 85681
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278614,
+				tcgplayer: 85681
+			}
+		},
+	],
+
 }
 
 export default card

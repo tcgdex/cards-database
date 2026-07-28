@@ -22,31 +22,36 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Psy Confuse",
 				de: "Psy Confuse",
-				fr: "Confusion psy",
+				fr: "Confusion psy"
 			},
 			effect: {
+				en: "The Defending Pokémon is now Confused.",
 				de: "The Defending Pokémon is now Confused.",
-				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				fr: "Le Pokémon Défenseur est maintenant Confus."
 			},
 			cost: [
 				"Psychic",
-			],
+			]
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275208,
-		tcgplayer: 88412
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88412,
+				cardmarket: 275208
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 88412,
+				cardmarket: 275208
+			}
+		},
 	]
 }
 

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		232,
-	],
+	dexId: [232],
 
 	hp: 120,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy",
+		fr: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Any damage done to Donphan by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tout dégât infligé à Donphan par des attaques est réduit de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Schaden, der Donphan durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Erdbeben"
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
 				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -100,18 +98,22 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279079,
+				tcgplayer: 84878
+			}
 		},
 		{
-			type: "holo",
-			stamp : ["ross-cawthorn"],
+			type: "normal",
+			stamp: ['ross-cawthorn'],
+			thirdParty: {
+				cardmarket: 868163,
+				tcgplayer: 480374
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279012,
-		tcgplayer: 84878
-	}
 }
 
 export default card

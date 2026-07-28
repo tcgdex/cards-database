@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Nidoran♀",
+		en: "Nidoran ♀",
 		fr: "Nidoran♀ Niv. 14",
 		de: "Nidoran w"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		29,
-	],
+	dexId: [29],
 	hp: 60,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -61,30 +59,44 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
+		en: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278645,
+				tcgplayer: 87719
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278645,
+				tcgplayer: 87719
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty:{
+				cardmarket: 868885,
+				tcgplayer: 479931
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				cardmarket: 868886,
+				tcgplayer: 479930
+			}
 		}
-	]
-
+	],
 
 }
 

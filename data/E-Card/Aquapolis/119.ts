@@ -22,32 +22,37 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Plunder",
 				de: "Plunder",
-				fr: "Pillage",
+				fr: "Pillage"
 			},
 			damage: 10,
 			effect: {
+				en: "Before doing damage, discard any Trainer cards attached to the Defending Pokémon.",
 				de: "Before doing damage, discard any Trainer cards attached to the Defending Pokémon.",
-				fr: "Avant d'infliger les dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur.",
+				fr: "Avant d'infliger les dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur."
 			},
 			cost: [
 				"Darkness",
-			],
+			]
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275195,
-		tcgplayer: 84675
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84675,
+				cardmarket: 275195
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 84675,
+				cardmarket: 275195
+			}
+		},
 	]
 }
 

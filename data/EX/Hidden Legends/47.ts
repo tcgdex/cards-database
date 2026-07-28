@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		364,
-	],
+	dexId: [364],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -74,18 +72,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276121,
-		tcgplayer: 89029
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 89029,
+				cardmarket: 276121
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89029,
+				cardmarket: 276121
+			}
+		},
 	]
 }
 

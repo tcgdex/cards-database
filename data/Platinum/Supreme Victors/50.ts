@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -73,25 +71,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 3,
 
 	description: {
-		en: "Its proud and regal appearance has captured the hearts of people since long ago.",
-	},
-
-	thirdParty: {
-		cardmarket: 278706
+		en: "Its proud and regal appearance has captured the hearts of people since long ago."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83587,
+				cardmarket: 278741
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278706,
+				tcgplayer: 83587
+			}
+		},
+	],
+
 }
 
 export default card

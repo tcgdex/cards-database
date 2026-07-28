@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Hippowdon 4",
+		en: "Hippowdon E4",
 		fr: "Hippodocus  Niv. 52",
 		de: "Hippoterus 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		450,
-	],
+	dexId: [450],
 	hp: 90,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -31,10 +29,10 @@ const card: Card = {
 				de: "Sandrüstung"
 			},
 			effect: {
-				en: "If Hippowdon has any Fighting Energy attached to it, any damage done to Hippowdon by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				en: "If Hippowdon E4 has any Fighting Energy attached to it, any damage done to Hippowdon E4 by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Si  Hippodocus  possède de l'Énergie Fighting, tous dégâts qui lui sont infligés par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Wenn an Hippoterus 4 mindestens 1 -Energie angelegt ist, wird Schaden, der Hippoterus 4 durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,7 +59,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -74,12 +72,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278616,
+				tcgplayer: 86087
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278616,
+				tcgplayer: 86087
+			}
+		},
+	],
+
 }
 
 export default card

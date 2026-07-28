@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		96,
-	],
+	dexId: [96],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Schlafeinflößer"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of them and switch it with the Defending Pokémon. The new Defending Pokémon is now Asleep.",
+				en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it. The new Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Endormi.",
 				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 der Pokémon auf der Bank deines Gegners und tausche es mit dem Verteidigenden Pokémon. Das neue Verteidigende Pokémon schläft jetzt."
 			},
@@ -61,24 +59,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275147,
-		tcgplayer: 84971
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84971,
+				cardmarket: 275147
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 84971,
+				cardmarket: 275147
+			}
+		},
 	]
 }
 

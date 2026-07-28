@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		344,
-	],
+	dexId: [344],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Primal Pull"
 			},
 			effect: {
-				en: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.\"",
+				en: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays Colorless more Energy to use its attacks.",
 				fr: "Tant que Kaorine est votre Pokémon Actif, le Pokémon Évolué de chaque joueur paye 1 Énergie  supplémentaire pour utiliser ses attaques.",
 				de: "As long as Claydol is your Active Pokémon, each player's Evolved Pokémon pays  more Energy to use its attacks."
-			},
+			}
 		},
 	],
 
@@ -61,7 +59,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie de base attachées à Kaorine et au Pokémon Défenseur.",
 				de: "Does 10 damage times the number of basic Energy cards attached to Claydol and the Defending Pokémon."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -76,19 +74,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276076,
-		tcgplayer: 84332
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84332,
+				cardmarket: 276076
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 84332,
+				cardmarket: 276076
+			}
+		},
 	]
 }
 

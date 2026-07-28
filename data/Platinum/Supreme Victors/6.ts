@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		467,
-	],
+	dexId: [467],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Magmar",
-		fr: "Magmar",
+		fr: "Magmar"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn, when you play Magmortar from your hand to evolve 1 of your Pokémon, you may use this power. Your opponent's Active Pokémon is now Burned and Confused.",
 				fr: "Une seule fois lors de votre tour, lorsque vous jouez Maganon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez utiliser ce pouvoir. Le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus.",
 				de: "Einmal während deines Zuges kannst du, wenn du Magbrant von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, diese Poké-Power benutzen. Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
-			},
+			}
 		},
 	],
 
@@ -91,21 +89,25 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278697
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87058,
+				cardmarket: 278697
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278697,
+				tcgplayer: 87058
+			}
+		},
+	],
+
 }
 
 export default card

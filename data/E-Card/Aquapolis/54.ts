@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		105,
-	],
+	dexId: [105],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -64,7 +62,7 @@ const card: Card = {
 				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
 				de: "Flip a coin until you get tails. This attack does 50 damage times the number of heads."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -72,10 +70,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
@@ -85,18 +82,21 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275127,
-		tcgplayer: 87225
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87225,
+				cardmarket: 275127
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87225,
+				cardmarket: 275127
+			}
+		},
 	]
 }
 

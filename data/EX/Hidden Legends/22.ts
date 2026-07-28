@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex.",
 				fr: "Prévenez tous les effets d'une attaque, dégâts inclus, infligés à Feunard par le Pokémon-ex de votre adversaire.",
 				de: "Prevent all effects of attacks, including damage, done to Ninetales by your opponent's Pokémon-ex."
-			},
+			}
 		},
 	],
 
@@ -92,18 +90,22 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276096,
-		tcgplayer: 87769
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 87769,
+				cardmarket: 276096
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 87769,
+				cardmarket: 276096
+			}
+		},
 	]
 }
 

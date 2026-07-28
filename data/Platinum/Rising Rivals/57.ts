@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		304,
-	],
+	dexId: [304],
 
 	hp: 50,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -65,33 +63,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
-	},
-
-	thirdParty: {
-		cardmarket: 278631,
-		tcgplayer: 83637
+		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278631,
+				tcgplayer: 83637
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278631,
+				tcgplayer: 83637
+			}
+		},
+	],
+
 }
 
 export default card

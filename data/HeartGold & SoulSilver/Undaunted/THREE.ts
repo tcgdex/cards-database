@@ -14,7 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
-		en: "Return any Stadium card in play to its player’s hand!",
+		en: "Return any Stadium card in play to its player's hand!",
 		fr: "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",
 		de: "Gib eine Stadionkarte im Spiel auf die Hand des jeweiligen Spielers zurück!"
 	},
@@ -23,15 +23,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279253,
+				tcgplayer: 83511
+			},
 		},
 	],
-
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279253
-	}
+	retreat: 0
 }
 
 export default card

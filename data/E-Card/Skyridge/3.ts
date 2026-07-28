@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Energy Recharge"
 			},
 			effect: {
-				en: "When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic energy card from your discard pile and attach it to Arcanine.",
+				en: "When you play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine.",
 				de: "When your play Arcanine from your hand to evolve your Active Pokémon, you may flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to Arcanine."
 			},
 		},
@@ -69,7 +67,7 @@ const card: Card = {
 				de: "White Flames"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Arcanine.",
+				en: "Discard all Fire Energy cards attached to Arcanine.",
 				de: "Discard all  Energy cards attached to Arcanine."
 			},
 			damage: 70,
@@ -80,25 +78,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "��2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275227,
-		tcgplayer: 83577
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83577,
+				cardmarket: 275227
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83577,
+				cardmarket: 275227
+			},
+		},
+	],
 }
 
 export default card

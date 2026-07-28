@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [94],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Manipulieren"
 			},
 			effect: {
-				en: "When you play Gengar from your hand to evolve your Active Pokémon, you may put a Basic Pokémon (excluding Baby Pokémon) from your discard pile onto your bench. Then flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to that Pokémon.",
+				en: "When you play Gengar from your hand to evolve your Active Pokémon, you may put a Basic Pokémon (excluding Baby Pokémon) from your discard pile onto your Bench. Then, flip 3 coins. For each heads, choose a basic Energy card from your discard pile and attach it to that Pokémon.",
 				de: "Wenn du Gengar aus deiner Hand spielst, um dein aktives Pokémon zu entwickeln, kannst du ein Basis-Pokémon (aber kein Baby-Pokémon) aus deinem Ablagestapel nehmen und auf deine Bank legen. Wirf dann 3 Münzen. Wähle für jeden geworfenen 'Kopf' eine Basis-Energiekarte aus deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 		},
@@ -66,10 +64,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -79,16 +76,15 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275268,
-		tcgplayer: 85668
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85668,
+				cardmarket: 275268
+			},
+		},
+	],
 }
 
 export default card

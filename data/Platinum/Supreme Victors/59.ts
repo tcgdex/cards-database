@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		444,
-	],
+	dexId: [444],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Gible",
-		fr: "Griknot",
+		fr: "Griknot"
 	},
 
 	stage: "Stage1",
@@ -71,34 +69,46 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
-	},
-
-	thirdParty: {
-		cardmarket: 278750
+		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85599,
+				cardmarket: 449558
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 278750,
+				tcgplayer: 85599
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
-			stamp: ["staff"]
+			thirdParty: {
+				cardmarket: 278750,
+				tcgplayer: 164202
+			}
 		},
-	]
+		{
+			type: "reverse",
+			foil: "league",
+			stamp: ["staff"],
+			thirdParty: {
+				cardmarket: 278750,
+				tcgplayer: 164203
+			}
+		},
+	],
+
 }
 
 export default card

@@ -20,10 +20,24 @@ const card: Card = {
 		fr: "Piochez 3 cartes. Votre adversaire peut piocher une carte.",
 	},
 
-	thirdParty: {
-		cardmarket: 279719,
-		tcgplayer: 84247
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84247,
+				cardmarket: 279719
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84247,
+				cardmarket: 279719
+			},
+		},
+	],
+
 }
 
 export default card

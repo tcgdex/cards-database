@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		291,
-	],
+	dexId: [291],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Nincada",
-		fr: "Ningale",
+		fr: "Ningale"
 	},
 
 	stage: "Stage1",
@@ -72,30 +70,34 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+		en: "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap."
 	},
 
-	thirdParty: {
-		cardmarket: 278764
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87787,
+				cardmarket: 278764
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278764,
+				tcgplayer: 87787
+			}
+		},
+	],
+
 }
 
 export default card

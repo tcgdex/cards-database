@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -74,21 +72,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275097,
-		tcgplayer: 87767
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 87767,
+				cardmarket: 275097
+			}
+		},
 	]
 }
 

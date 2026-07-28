@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Mr. Mime 4",
+		en: "Mr. Mime E4",
 		fr: "M. Mime  Niv. 53",
 		de: "Pantimos 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		122,
-	],
+	dexId: [122],
 	hp: 70,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -49,7 +47,7 @@ const card: Card = {
 				de: "Angriffsbarriere"
 			},
 			effect: {
-				en: "During your opponent's next turn, any damage done to Mr.Mime by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to Mr. Mime E4 by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, tous dégâts infligés à M. Mime  par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Pantimos 4 durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -60,20 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278602,
+				tcgplayer: 87597
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278602,
+				tcgplayer: 87597
+			}
+		},
+	],
+
 }
 
 export default card

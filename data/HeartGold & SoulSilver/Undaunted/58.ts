@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		198,
-	],
+	dexId: [198],
 
 	hp: 60,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Erstauner"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 card from your opponent’s hand without looking. Look at that card you chose, then have your opponent shuffle that card into his or her deck.",
+				en: "Flip a coin. If heads, choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
 				fr: "Lancez une pièce. Si c’est face, choisissez au hasard une carte dans la main de votre adversaire. Regardez la carte que vous avez choisie, puis demandez à votre adversaire de la mélanger avec son deck.",
 				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen). Sieh dir die gewählte Karte an und gib sie deinem Gegner. Er mischt die Karte zurück in sein Deck."
 			},
@@ -67,17 +65,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279311,
+				tcgplayer: 87655
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279311,
+				tcgplayer: 87655
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279311,
-		tcgplayer: 87655
-	}
 }
 
 export default card

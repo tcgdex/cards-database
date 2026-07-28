@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -35,7 +33,7 @@ const card: Card = {
 				de: "Höchstspannung"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Pikachu. This attack does 20 damage plus 10 more damage for each Energy card discarded in this way.",
+				en: "Discard all Lightning Energy cards attached to Pikachu. This attack does 20 damage plus 10 more damage for each Energy card discarded in this way.",
 				de: "Lege alle an Pikachu angelegten -Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise abgelegte Energiekarte zu."
 			},
 			damage: "20+",
@@ -46,25 +44,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275342,
-		tcgplayer: 88074
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88074,
+				cardmarket: 275342
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88074,
+				cardmarket: 275342
+			},
+		},
+	],
 }
 
 export default card

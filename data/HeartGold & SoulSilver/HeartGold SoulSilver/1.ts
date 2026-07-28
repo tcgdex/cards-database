@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos",
+		fr: "Caninos"
 	},
 
 	stage: "Stage1",
@@ -78,20 +76,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "normal",
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83586,
+				cardmarket: 278973
+			}
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 83586,
+				cardmarket: 278973
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125039,
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278973,
-		tcgplayer: 83586
-	}
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Abgrenz-Aura"
 			},
 			effect: {
-				en: "Apply Weakness for each Pokémon (both yours and your opponent's) as ×2 instead.",
+				en: "Apply Weakness for each Pokémon (both yours and your opponent's) as x2 instead.",
 				fr: "Multipliez la Faiblesse par 2 pour chaque Pokémon (les vôtres et ceux de votre adversaire).",
 				de: "Wenn Pokémon (deine und die deines Gegners) eine Schwäche haben, dann wird der entsprechende Schaden nicht um den Schwäche-Wert dieses Pokémon erhöht, sondern verdoppelt."
-			},
+			}
 		},
 	],
 
@@ -66,33 +64,50 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278582,
-		tcgplayer: 86888
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278582,
+				tcgplayer: 86888
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278582,
+				tcgplayer: 86888
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 479910
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty:{
+				cardmarket: 868960,
+				tcgplayer: 479910
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				cardmarket: 868751,
+				tcgplayer: 480072
+			}
 		},
-	]
+	],
+
 }
 
 export default card

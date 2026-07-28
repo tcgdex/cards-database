@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		85,
-	],
+	dexId: [85],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Doduo",
-		fr: "Doduo",
+		fr: "Doduo"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Dodrio is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Dodrio est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Dodri von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -70,30 +68,34 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+		en: "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph."
 	},
 
-	thirdParty: {
-		cardmarket: 278716
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278716,
+				tcgplayer: 84853,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278716,
+				tcgplayer: 84853
+			}
+		},
+	],
+
 }
 
 export default card

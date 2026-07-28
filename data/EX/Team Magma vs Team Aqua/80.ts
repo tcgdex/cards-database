@@ -20,23 +20,33 @@ const card: Card = {
 		de: "Wirf I Münze. Durchsuche bei Kopf dein Deck nach einem Pokémon, das \"Magma's\" im Namen hat. Durchsuche bei Zahl dein Deck nach einem Basispokémon, das \"Magma's\" im Namen hat. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 276057,
-		tcgplayer: 89812
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275857,
+				tcgplayer: 89812
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275857,
+				tcgplayer: 89812
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871875,
+				tcgplayer: 477446
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		261,
-	],
+	dexId: [261],
 
 	hp: 40,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -73,22 +71,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276031,
-		tcgplayer: 89794
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275831,
+				tcgplayer: 89794
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275831,
+				tcgplayer: 89794
+			}
+		},
+	],
+
 }
 
 export default card

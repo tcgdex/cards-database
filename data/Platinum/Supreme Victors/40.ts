@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		407,
-	],
+	dexId: [407],
 	hp: 90,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "When you attach an Energy card from your hand to Roserade C, remove all Special Conditions from Roserade C.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à Roserade , retirez-lui tous ses États Spéciaux.",
 				de: "Wenn du 1 Energiekarte von deiner Hand an Roserade C anlegst, entferne alle Speziellen Zustände von Roserade C."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,22 +59,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278731,
+				tcgplayer: 88833
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278731,
+				tcgplayer: 88833
+			}
+		},
+	],
 
 }
 

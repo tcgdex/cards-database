@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		85,
-	],
+	dexId: [85],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Doduo",
-		fr: "Doduo",
+		fr: "Doduo"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Rückzugshilfe"
 			},
 			effect: {
-				en: "As long as Dodrio is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
+				en: "As long as Dodrio is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
 				fr: "Tant que Dodrio est sur votre Banc, le Coût de retraite de votre Pokémon Actif est réduit de ColorlessColorless.",
 				de: "Solange Dodri auf deiner Bank sitzt, betragen die Rückzugskosten deines Aktiven Pokémon  weniger."
-			},
+			}
 		},
 	],
 
@@ -89,17 +87,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279264,
+				tcgplayer: 84854
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279264,
+				tcgplayer: 84854
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279264,
-		tcgplayer: 84854
-	}
 }
 
 export default card

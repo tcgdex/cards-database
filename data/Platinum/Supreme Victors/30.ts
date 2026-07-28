@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		463,
-	],
+	dexId: [463],
 	hp: 90,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Schleck-Schleck-Heiler"
 			},
 			effect: {
-				en: "Attach a basic Energy card from your hand to 1 of your Pokémon. Then, remove 2 damage counters from that Pokémon.",
+				en: "Attach a Basic Energy card from your hand to 1 of your Pokémon. Then, remove 2 damage counters from that Pokémon.",
 				fr: "Attachez une carte Énergie de base de votre main à 1 de vos Pokémon. Ensuite, retirez à ce Pokémon 2 marqueurs de dégât.",
 				de: "Lege 1 Basis-Energiekarte von deiner Hand an 1 deiner Pokémon an. Danach entferne 2 Schadensmarken von diesem Pokémon."
 			},
@@ -63,22 +61,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278721,
+				tcgplayer: 86715
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278721,
+				tcgplayer: 86715
+			}
+		},
+	],
 
 }
 

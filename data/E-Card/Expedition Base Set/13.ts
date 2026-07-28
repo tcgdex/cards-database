@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yukiko Baba",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		94,
-	],
+	dexId: [94],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Chaotische Bewegung"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), if your opponent has 3 or fewer Prizes, you may move 1 damage counter from 1 Pokémon (yours or your opponent's) to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), if your opponent has 3 or fewer Prizes, you may move 1 damage counter from 1 Pokémon (yours or your opponent's) to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si votre adversaire a un maximum de 3 Récompenses, vous pouvez déplacer 1 marqueur de dégâts depuis un Pokémon (le vôtre ou celui de l'adversaire) vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut pas être utilisé si Ectoplasma est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls dein Gegner 3 oder weniger Preise hat, 1 Schadensmarke von 1 Pokémon (von dir oder deinem Gegner) nehmen und auf ein anderes legen (selbst wenn dies das andere Pokémon kampfunfähig macht). Diese Fähigkeit kann nicht verwendet werden, falls Gengar von einem Speziellen Zustand betroffen ist."
 			},
@@ -59,7 +57,7 @@ const card: Card = {
 				de: "Im Schatten verstecken"
 			},
 			effect: {
-				en: "Switch Gengar with one of your Benched Pokémon.",
+				en: "Switch Gengar with 1 of your Benched Pokémon, if any.",
 				fr: "Échangez Ectoplasma contre l'un des Pokémon de votre Banc, si vous en avez.",
 				de: "Tausche Gengar mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
 			},
@@ -71,10 +69,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -84,19 +81,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274888,
-		tcgplayer: 85671
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85671,
+				cardmarket: 274888
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85671,
+				cardmarket: 274888
+			},
+		},
+	],
 }
 
 export default card

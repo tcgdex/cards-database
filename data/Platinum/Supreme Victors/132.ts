@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		293,
-	],
+	dexId: [293],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -64,25 +62,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane.",
-	},
-
-	thirdParty: {
-		cardmarket: 278823
+		en: "Usually, its cries are like quiet murmurs. If frightened, it shrieks at the same volume as a jet plane."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90584,
+				cardmarket: 278823
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278823,
+				tcgplayer: 90584
+			}
+		},
+	],
+
 }
 
 export default card

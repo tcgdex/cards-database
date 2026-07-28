@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		195,
-	],
+	dexId: [195],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Untertauchen"
 			},
 			effect: {
-				en: "As long as Quagsire is on your Bench, prevent all damage done to Quagsire by attacks (both yours and your opponent's).",
+				en: "As long as Quagsire GL is on your Bench, prevent all damage done to Quagsire GL by attacks (both yours and your opponent's).",
 				fr: "Tant que Maraiste  est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire).",
 				de: "Solange Morlord GL auf deiner Bank ist, verhindere allen Schaden, der Morlord GL durch Angriffe (deine und die deines Gegners) zugefügt würde."
-			},
+			}
 		},
 	],
 
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Schlagen und Rennen"
 			},
 			effect: {
-				en: "You may switch Quagsire with 1 of your Benched Pokémon.",
+				en: "You may switch Quagsire GL with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Maraiste  avec 1 des Pokémon de votre Banc.",
 				de: "Du kannst Morlord GL gegen 1 Pokémon auf deiner Bank austauschen."
 			},
@@ -66,32 +64,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278650,
-		tcgplayer: 88476
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278650,
+				tcgplayer: 88476
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278650,
+				tcgplayer: 88476
+			}
+		},
+	],
+
 }
 
 export default card

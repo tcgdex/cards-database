@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		180,
-	],
+	dexId: [180],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -72,24 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275119,
-		tcgplayer: 85477
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85477,
+				cardmarket: 275119
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85477,
+				cardmarket: 275119
+			}
+		},
 	]
 }
 

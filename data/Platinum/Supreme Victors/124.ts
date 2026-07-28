@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		27,
-	],
+	dexId: [27],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -47,32 +45,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
-	},
-
-	thirdParty: {
-		cardmarket: 278815
+		en: "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88925,
+				cardmarket: 278815
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278815,
+				tcgplayer: 88925
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		365,
-	],
+	dexId: [365],
 
 	hp: 140,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Sealeo",
-		fr: "Phogleur",
+		fr: "Phogleur"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), when you play Walrein from your hand to evolve 1 of your Pokémon, you may attach as many Water Energy cards from your hand to Walrein as you like.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Kaimorse de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez attacher autant de cartes Énergie Water de votre main sur Kaimorse que vous le voulez.",
 				de: "Einmal während deines Zuges (vor deinem Angriff), wenn du Walraisa von deiner Hand spielst, um 1 deiner -Energiekarten von deiner Hand an Walraisa anlegen"
-			},
+			}
 		},
 	],
 
@@ -75,26 +73,29 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
-		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
-	},
-
-	thirdParty: {
-		cardmarket: 278610,
-		tcgplayer: 90468
+		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278610,
+				tcgplayer: 90468
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278610,
+				tcgplayer: 90468
+			}
+		},
+	],
+
 }
 
 export default card

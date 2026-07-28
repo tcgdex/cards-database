@@ -13,12 +13,10 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		249,
-	],
+	dexId: [249],
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	suffix: "Legend",
@@ -35,7 +33,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Lugia LEGEND into play, you may look at the top 5 cards of your deck and attach all Energy cards you find there to Lugia LEGEND. Discard the other cards.",
 				fr: "Une seule fois pendant votre tour, lorsque vous mettez Lugia LÉGENDAIRE en jeu, vous pouvez regarder les cinq cartes du dessus de votre deck et attacher les cartes Énergie figurant parmi ces cartes à Lugia LÉGENDAIRE. Défaussez-vous des autres cartes.",
 				de: "Einmal während deines Zuges, wenn du Lugia-LEGENDE von deiner Hand ins Spiel bringst, kannst du dir die obersten 5 Karten deines Decks anschauen und alle dabei gefundenen Energiekarten an Lugia-LEGENDE anlegen. Lege die anderen Karten auf deinen Ablagestapel."
-			},
+			}
 		},
 	],
 
@@ -82,17 +80,17 @@ const card: Card = {
 		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
 	},
 
+	hp: 130,
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279085,
+				tcgplayer: 86917
+			}
+		},
 	],
 
-	hp: 130,
-
-	thirdParty: {
-		cardmarket: 279085
-	}
 }
 
 export default card

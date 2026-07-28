@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		121,
-	],
+	dexId: [121],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Staryu",
-		fr: "Stari",
+		fr: "Stari"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may search your discard pile for a Water Energy card, show it to your opponent, and put it into your hand. This power can't be used if Starmie is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie Water. Montrez-la à votre adversaire et placez-la dans votre main. Ce pouvoir ne peut pas être utilisé si Staross est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 -Energiekarte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Starmie von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -89,20 +87,24 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278624,
-		tcgplayer: 89535
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278624,
+				tcgplayer: 89535
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278624,
+				tcgplayer: 89535
+			}
+		},
+	],
+
 }
 
 export default card

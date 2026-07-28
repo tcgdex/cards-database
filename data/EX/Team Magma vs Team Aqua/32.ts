@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		343,
-	],
+	dexId: [343],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Psymist"
 			},
 			effect: {
-				en: "Flip 2 coins. For each heads, choose 1 of your opponent's Pokémon and put 1 damage counter on that Pokémon.",
+				en: "Flip 2 coins. For each heads, choose 1 of you opponent's Pokémon and put 1 damage counter on that Pokémon.",
 				fr: "Lancez 2 pièces. Pour chaque face, choisissez 1 des Pokémon de votre adversaire et placez 1 marqueur de dégât sur ce Pokémon.",
 				de: "Flip 2 coins. For each heads, choose 1 of your opponent's Pokémon and put 1 damage counter on that Pokémon."
 			},
@@ -68,22 +66,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276009,
-		tcgplayer: 89821
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275809,
+				tcgplayer: 89821
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275809,
+				tcgplayer: 89821
+			}
+		},
+	],
+
 }
 
 export default card

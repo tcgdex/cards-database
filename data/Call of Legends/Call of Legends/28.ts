@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		429,
-	],
+	dexId: [429],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -63,7 +61,7 @@ const card: Card = {
 				fr: "Regardez la main de votre adversaire. Cette attaque infligé 30 dégâts multipliés par le nombre de cartes Dresseur, Supporter et Stade qui se trouvent dans la main de votre adversaire.",
 				de: "Schau dir die Handkarten deines Gegners an. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der Trainer-, Unterstützer- und Stadion-Karten, die du dort gefunden hast, zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -71,10 +69,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
@@ -88,10 +85,23 @@ const card: Card = {
 		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
 	},
 
-	thirdParty: {
-		cardmarket: 279671,
-		tcgplayer: 87519
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87519,
+				cardmarket: 279671
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87519,
+				cardmarket: 279671
+			},
+		},
+	],
+
 }
 
 export default card

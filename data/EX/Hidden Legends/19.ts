@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		367,
-	],
+	dexId: [367],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -57,7 +55,7 @@ const card: Card = {
 				de: "Dark Splash"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Darkness Pokémon in play.\"",
+				en: "Does 40 damage plus 10 more damage for each Darkness Pokémon in play.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon  en jeu.",
 				de: "Does 40 damage plus 10 more damage for each  Energy in play."
 			},
@@ -76,18 +74,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276093,
-		tcgplayer: 86236
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 86236,
+				cardmarket: 276093
+			}
+		},
+		{
+			foil: 'energy',
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86236,
+				cardmarket: 276093
+			}
+		},
 	]
 }
 

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		129,
-	],
+	dexId: [129],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -51,25 +49,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
-	},
-
-	thirdParty: {
-		cardmarket: 278801
+		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87031,
+				cardmarket: 278801
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278801,
+				tcgplayer: 87031
+			}
+		},
+	],
+
 }
 
 export default card

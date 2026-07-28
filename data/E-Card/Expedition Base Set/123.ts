@@ -11,16 +11,15 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Supporter",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -54,7 +53,7 @@ const card: Card = {
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -62,10 +61,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -75,19 +73,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274998,
-		tcgplayer: 88047
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88047,
+				cardmarket: 274998
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88047,
+				cardmarket: 274998
+			},
+		},
+	],
 }
 
 export default card

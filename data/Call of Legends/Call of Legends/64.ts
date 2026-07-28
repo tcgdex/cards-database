@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		303,
-	],
+	dexId: [303],
 
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 				de: "Zerstörermaul"
 			},
 			effect: {
-				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et vous devez défausser une Énergie qui lui est attachée.",
 				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt und lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
@@ -66,10 +64,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
@@ -83,10 +80,23 @@ const card: Card = {
 		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
 	},
 
-	thirdParty: {
-		cardmarket: 279707,
-		tcgplayer: 87264
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87264,
+				cardmarket: 279707
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87264,
+				cardmarket: 279707
+			},
+		},
+	],
+
 }
 
 export default card

@@ -89,6 +89,22 @@ const card: Card = {
 				cardmarket: 278034
 			},
 		},
+		{
+			type: "normal",
+			stamp: ['jason-klaczynski'],
+			thirdParty: {
+				tcgplayer: 479786,
+				cardmarket: 869283
+			},
+		},
+		{
+			type: "normal",
+			stamp: ['michael-pramawat'],
+			thirdParty: {
+				tcgplayer: 480045,
+				cardmarket: 868672
+			},
+		},
 	],
 
 }

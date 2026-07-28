@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		12,
-	],
+	dexId: [12],
 	hp: 90,
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "If your opponent's Active Pokémon has any Poké-Bodies, each of Butterfree FB's attacks does 30 more damage to the Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Si le Pokémon Actif de votre adversaire possède des Poké-Bodies, chacune des attaques de Papilusion  inflige 30 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
 				de: "Wenn das Aktive Pokémon deines Gegners mindestens 1 Poké-Body hat, fügen alle Angriffe von Smettbo FB den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,7 +59,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -74,18 +72,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278708,
+				tcgplayer: 84068
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278708,
+				tcgplayer: 84068
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
+			thirdParty: {
+				cardmarket: 371556,
+				tcgplayer: 116005
+			}
 		},
-	]
-
-
+	],
 
 }
 

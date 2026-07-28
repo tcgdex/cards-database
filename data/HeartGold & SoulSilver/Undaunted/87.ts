@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Kyogre & Groudon LEGENDE"
 	},
 
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	illustrator: "Shinji Higuchi + Sachiko Eba",
 	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
@@ -18,7 +18,7 @@ const card: Card = {
 
 	types: [
 		"Water",
-		"Fighting",
+		"Fighting"
 	],
 
 	suffix: "Legend",
@@ -57,24 +57,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2",
+			value: "×2"
 		},
 		{
 			type: "Grass",
-			value: "×2",
+			value: "×2"
 		},
 	],
-	retreat: 0,
+	retreat: 3,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279340,
+				tcgplayer: 86554
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 279340
-	}
 }
 
 export default card

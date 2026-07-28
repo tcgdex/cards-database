@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		350,
-	],
+	dexId: [350],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Feebas",
-		fr: "Barpau",
+		fr: "Barpau"
 	},
 
 	stage: "Stage1",
@@ -76,33 +74,44 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
-	},
-
-	thirdParty: {
-		cardmarket: 278689
+		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87455,
+				cardmarket: 882910
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278689,
+				tcgplayer: 87455
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 882910,
+				tcgplayer: 164213
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release","staff"]
+			stamp: ["pre-release", "staff"],
+			thirdParty: {
+				tcgplayer: 164214
+			}
 		}
-	]
+	],
+
 }
 
 export default card

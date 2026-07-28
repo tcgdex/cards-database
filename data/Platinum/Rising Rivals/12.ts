@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kanako Eo",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		407,
-	],
+	dexId: [407],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -66,25 +64,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278586,
-		tcgplayer: 88834
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278586,
+				tcgplayer: 88834
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278586,
+				tcgplayer: 88834
+			}
+		},
+	],
+
 }
 
 export default card

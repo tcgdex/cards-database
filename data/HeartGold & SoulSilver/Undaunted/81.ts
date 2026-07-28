@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Espeon can use the attacks of all Pokémon you have in play that evolve from Eevee as its own. (You still need the necessary Energy to use each attack.)",
 				fr: "Mentali peut réutiliser les attaques de tous les Pokémon que vous avez joués et qui sont une évolution d’Evoli. (Vous devrez néanmoins avoir les Énergies nécessaires pour utiliser chaque attaque.)",
 				de: "Psiana kann die Angriffe aller Pokémon, die du im Spiel hast und die sich aus Evoli entwickeln, wie eigene Angriffe verwenden. (Du benötigst dazu die für jeden der Angriffe erforderlichen Energien.)"
-			},
+			}
 		},
 	],
 
@@ -79,14 +77,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279334,
+				tcgplayer: 85323
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 279255,
-		tcgplayer: 85323
-	}
 }
 
 export default card

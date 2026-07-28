@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		310,
-	],
+	dexId: [310],
 	hp: 80,
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -60,7 +58,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -73,14 +71,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278757,
+				tcgplayer: 87168
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278757,
+				tcgplayer: 87168
+			}
+		},
+	],
 
 }
 

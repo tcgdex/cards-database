@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		72,
-	],
+	dexId: [72],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0.",
 				fr: "Si Tentacool ne possède pas d'Énergies, son Coût de Retraite est de 0.",
 				de: "If Tentacool has no Energy attached to it, Tentacool's Retreat Cost is 0."
-			},
+			}
 		},
 	],
 
@@ -70,18 +68,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276151,
-		tcgplayer: 89866
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 89866,
+				cardmarket: 276151
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89866,
+				cardmarket: 276151
+			}
+		},
 	]
 }
 

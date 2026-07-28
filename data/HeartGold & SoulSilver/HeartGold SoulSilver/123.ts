@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Wataru Kawahara",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Fuchtler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
+				en: "If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c’est pile, Léviator s’inflige 20 dégâts.",
 				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" fügt Garados sich selbst 20 Schadenspunkte zu."
 			},
@@ -88,17 +86,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278976,
+				tcgplayer: 85995
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279095,
+				tcgplayer: 85995
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278976,
-		tcgplayer: 85995
-	}
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		471,
-	],
+	dexId: [471],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli",
+		fr: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Glaceon is your Active Pokémon, any damage done to your Pokémon by your opponent's attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tant que Givrali est votre Pokémon Actif, tous dégâts infligés à vos Pokémon par des attaques de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Solange Glaziola dein Aktives Pokémon ist, wird Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -91,22 +89,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278615,
-		tcgplayer: 85746
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278615,
+				tcgplayer: 85746
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278615,
+				tcgplayer: 85746
+			}
+		},
+	],
+
 }
 
 export default card

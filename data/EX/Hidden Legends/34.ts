@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		362,
-	],
+	dexId: [362],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Any damage done to Glalie by attacks from your opponent's Pokémon with any Special Energy cards attached to it is reduced by 40 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Oniglali par des attaques de Pokémon de votre adversaire possédant des Énergies Spéciales sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
 				de: "Any damage done to Glalie by attacks from your opponent's Pokémon with any Special Energy cards attached to it is reduced by 40 (after applying Weakness and Resistance)."
-			},
+			}
 		},
 	],
 
@@ -78,18 +76,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276108,
-		tcgplayer: 85752
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 85752,
+				cardmarket: 276108
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85752,
+				cardmarket: 276108
+			}
+		},
 	]
 }
 

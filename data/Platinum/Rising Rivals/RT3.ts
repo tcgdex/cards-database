@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		479,
-	],
+	dexId: [479],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may use this power. Heat Rotom's type is Fire until the end of your turn.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Motisma Chaleur est de type Fire jusqu'à la fin de votre tour.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. HItze-Rotoms Typ ist  bis zum Ende des Zuges."
-			},
+			}
 		},
 	],
 
@@ -85,25 +83,23 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Colorless",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278572
-	},
 
 	variants: [
 		{
 			type: "reverse",
-			foil: "cracked-ice"
-		}
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 278572,
+				tcgplayer: 86043
+			}
+		},
 	]
 }
 

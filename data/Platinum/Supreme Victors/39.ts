@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		57,
-	],
+	dexId: [57],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge",
+		fr: "Férosinge"
 	},
 
 	stage: "Stage1",
@@ -74,25 +72,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
-	},
-
-	thirdParty: {
-		cardmarket: 278730
+		en: "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88364,
+				cardmarket: 278730
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278730,
+				tcgplayer: 88364
+			}
+		},
+	],
+
 }
 
 export default card

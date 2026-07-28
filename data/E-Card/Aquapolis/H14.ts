@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		230,
-	],
+	dexId: [230],
 
 	hp: 120,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As often as you like during your turn (before your attack), you may move a Water Energy card from your Active Pokémon to 1 of your Benched Pokémon. This power can't be used if Kingdra is affected by a Special Condition.",
 				fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  depuis votre Pokémon Actif à l'un de vos Pokémon du Banc. Ce pouvoir ne peut pas être utilisé si Hyporoi est affecté par un État spécial.",
 				de: "Du darfst in deinem Zug so oft, wie du willst (vor deinem Angriff), eine -Energiekarte, die an dein Aktives Pokémon angelegt ist, nehmen und an 1 der Pokémon auf deiner Bank anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Seedraking von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -72,21 +70,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 3,
 
 
-	thirdParty: {
-		cardmarket: 275091,
-		tcgplayer: 86441
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 86441,
+				cardmarket: 275091
+			}
+		},
 	]
 }
 

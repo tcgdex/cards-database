@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		145,
-	],
+	dexId: [145],
 
 	hp: 100,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -69,32 +67,35 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
-	},
-
-	thirdParty: {
-		cardmarket: 278739
+		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90718,
+				cardmarket: 278739
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278739,
+				tcgplayer: 90718
+			}
+		},
+	],
+
 }
 
 export default card

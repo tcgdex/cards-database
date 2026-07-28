@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		262,
-	],
+	dexId: [262],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Team Magma's Mightyena is your Active Pokémon, you may search your deck for a Pokémon with Team Magma in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Team Magma's Mightyena is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Grahyena de Team Magma est votre Pokémon Actif, vous pouvez chercher dans votre deck un Pokémon dont le nom comporte Team Magma. Montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Grahyena de Team Magma est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), if Team Magma's Mightyena is your Active Pokémon, you may search your deck for a Pokémon with Team Magma in its name, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used it Team Magma's Mightyena is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -76,22 +74,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276014,
-		tcgplayer: 89836
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275814,
+				tcgplayer: 89836
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275814,
+				tcgplayer: 89836
+			}
+		},
+	],
+
 }
 
 export default card

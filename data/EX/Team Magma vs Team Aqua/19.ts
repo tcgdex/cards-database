@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Stage1",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Mamga's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie de base et l'attacher à Camerupt de Team Magma. Placez 2 marqueurs de dégât sur Camerupt de Team Magma. Ce pouvoir ne peut pas être utilisé si Camerupt de Team Magma est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Magma's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -70,26 +68,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275996,
-		tcgplayer: 89824
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275796,
+				tcgplayer: 89824
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275796,
+				tcgplayer: 89824
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871831,
+				tcgplayer: 477449
+			}
 		}
-	]
+	],
+
 }
 
 export default card

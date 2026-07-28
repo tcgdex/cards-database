@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		274,
-	],
+	dexId: [274],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Seedot",
-		fr: "Grainipiot",
+		fr: "Grainipiot"
 	},
 
 	stage: "Stage1",
@@ -73,33 +71,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
-	},
-
-	thirdParty: {
-		cardmarket: 278649,
-		tcgplayer: 87826
+		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278649,
+				tcgplayer: 87826
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278649,
+				tcgplayer: 87826
+			}
+		},
+	],
+
 }
 
 export default card

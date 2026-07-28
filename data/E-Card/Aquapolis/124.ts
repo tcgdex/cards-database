@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Gras-Würfel 01"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
+	illustrator: '"Big Mama" Tagawa',
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
@@ -22,10 +22,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Sleep Poison",
 				de: "Schlafgift",
 				fr: "Poison dodo"
 			},
 			effect: {
+				en: "The Defending Pokémon is now Asleep and Poisoned.",
 				de: "Das Verteidigende Pokémon ist jetzt vergiftet und schläft.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi et Empoisonné."
 			},
@@ -35,18 +37,21 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275200,
-		tcgplayer: 85868
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85868,
+				cardmarket: 275200
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85868,
+				cardmarket: 275200
+			}
+		},
 	]
 }
 

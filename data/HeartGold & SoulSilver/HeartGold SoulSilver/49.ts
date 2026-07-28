@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		156,
-	],
+	dexId: [156],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Cyndaquil",
-		fr: "Héricendre",
+		fr: "Héricendre"
 	},
 
 	stage: "Stage1",
@@ -81,17 +79,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88486,
+				cardmarket: 279021
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88486,
+				cardmarket: 279021
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279021,
-		tcgplayer: 88486
-	}
 }
 
 export default card

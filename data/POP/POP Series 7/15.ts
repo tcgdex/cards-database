@@ -71,6 +71,14 @@ const card: Card = {
 				cardmarket: 278047
 			},
 		},
+		{
+			type: "normal",
+			stamp: ['jason-klaczynski'],
+			thirdParty: {
+				tcgplayer: 479810,
+				cardmarket: 869278
+			},
+		},
 	],
 
 }

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		144,
-	],
+	dexId: [144],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -53,22 +51,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "This legendary Pokémon is said to freeze the water in the air during winter, causing snow.",
-	},
-
-	thirdParty: {
-		cardmarket: 278707
+		en: "This legendary Pokémon is said to freeze the water in the air during winter, causing snow."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83651,
+				cardmarket: 278839
+			}
+		},
+	],
+
 }
 
 export default card

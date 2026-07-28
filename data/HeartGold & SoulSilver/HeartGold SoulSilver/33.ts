@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		236,
-	],
+	dexId: [236],
 
 	hp: 30,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Tyrogue is Asleep, prevent all damage done to Tyrogue by attacks.",
 				fr: "Tant que Debugant reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Rabauz schläft, verhindere allen Schaden, der Rabauz durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Gehässiger Hieb"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness or Resistance. Tyrogue is now Asleep.",
+				en: "This attack's damage isn't affected by Weakness or Resistance. Tyrogue is now Asleep.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance. Debugant est maintenant Endormi.",
 				de: "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert. Rabauz schläft jetzt."
 			},
@@ -67,21 +65,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90131,
+				cardmarket: 279005
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90131,
+				cardmarket: 279005
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["gustavo-wada"]
-		}
+			stamp: ["gustavo-wada"],
+			thirdParty: {
+				tcgplayer: 480515,
+				cardmarket: 868153
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279005,
-		tcgplayer: 90131
-	}
 }
 
 export default card

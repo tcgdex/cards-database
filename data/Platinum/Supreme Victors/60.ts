@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		445,
-	],
+	dexId: [445],
 	hp: 80,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -50,7 +48,7 @@ const card: Card = {
 				de: "Erdbeben"
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -61,32 +59,52 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449563,
+				tcgplayer: 85628
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85628,
+				cardmarket: 449563,
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			foil: 'league',
+			thirdParty: {
+				cardmarket: 449563,
+				tcgplayer: 262156
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships","staff"]
+			foil: 'league',
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 262158
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				cardmarket: 868740,
+				tcgplayer: 480046
+			}
 		}
-	]
+	],
+
 }
 
 export default card

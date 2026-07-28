@@ -94,6 +94,13 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888552,
+				tcgplayer: 694632
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 886405,
 				tcgplayer: 693473
 			}
 		},
@@ -101,7 +108,8 @@ const card: Card = {
 			type: 'holo',
 			stamp: ['set-logo'],
 			thirdParty: {
-				cardmarket: 886624
+				cardmarket: 886624,
+				tcgplayer: 694677
 			}
 		},
 	],

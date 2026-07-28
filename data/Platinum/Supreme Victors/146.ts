@@ -3,7 +3,7 @@ import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Rayquaza C",
+		en: "Rayquaza C LV.X",
 		fr: "Rayquaza ",
 		de: "Rayquaza C"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		384,
-	],
+	dexId: [384],
 	hp: 120,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "LEVEL-UP",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "If Rayquaza C is your Active Pokémon and is damaged but not Knocked Out by an opponent's attack, you may search your discard pile for an Energy card and attach it to Rayquaza C.",
 				fr: "Si Rayquaza  est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts sans le mettre K.O., vous pouvez choisir dans votre pile de défausse une carte Énergie et l'attacher à Rayquaza .",
 				de: "Wenn Rayquaza C dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält, aber nicht kampfunfähig wird, kannst du deinen Ablagestapel nach 1 Energiekarte durchsuchen und sie an Rayquaza C anlegen."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -75,11 +73,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
-
-
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278837,
+				tcgplayer: 88640
+			}
+		},
+	],
 
 }
 

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		120,
-	],
+	dexId: [120],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -67,26 +65,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight.",
-	},
-
-	thirdParty: {
-		cardmarket: 278657,
-		tcgplayer: 89551
+		en: "If its body is torn, it can grow back if the red core remains. The core flashes at midnight."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278657,
+				tcgplayer: 89551
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278657,
+				tcgplayer: 89551
+			}
+		},
+	],
+
 }
 
 export default card

@@ -21,32 +21,50 @@ const card: Card = {
 
 	trainerType: "Item",
 
+	hp: 0,
+
+	retreat: 0,
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88220,
+				cardmarket: 279070
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88220,
+				cardmarket: 279070
+			}
 		},
 		{
 			type: "reverse",
-			stamp: ["player-rewards-program"]
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 123184,
+				cardmarket: 450103
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuta-komatsuda"],
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480096,
+				cardmarket: 868807
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuka-furusawa"],
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480097,
+				cardmarket: 868808
+			}
 		},
 	],
 
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279070
-	}
 }
 
 export default card

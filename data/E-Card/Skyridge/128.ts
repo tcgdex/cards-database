@@ -17,19 +17,22 @@ const card: Card = {
 		de: "Wirf 3 Münzen. Bei jedem \"Kopf\" wähle eine Entwicklungskarte aus deinem Ablagestapel, zeige sie deinem Gegner und nimm sie auf deine Hand."
 	},
 
-	thirdParty: {
-		cardmarket: 275386,
-		tcgplayer: 86931
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86931,
+				cardmarket: 275386
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86931,
+				cardmarket: 275386
+			},
+		},
+	],
 }
 
 export default card

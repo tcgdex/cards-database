@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		213,
-	],
+	dexId: [213],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Shuckle is on your Bench, prevent all damage done to Shuckle by attacks (both yours and your opponent's).",
 				fr: "Tant que Caratroc est sur le Banc, prévenez tous les dégâts infligés à Caratroc par des attaques (les vôtres et celles de votre adversaire).",
 				de: "Solange sich Pottrott auf deiner Bank befindet, verhindere allen Schaden, der Pottrott durch Angriffe (deine oder die deines Gegners) zugefügt würde."
-			},
+			}
 		},
 	],
 
@@ -77,17 +75,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89192,
+				cardmarket: 278983
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89192,
+				cardmarket: 278983
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278983,
-		tcgplayer: 89192
-	}
 }
 
 export default card

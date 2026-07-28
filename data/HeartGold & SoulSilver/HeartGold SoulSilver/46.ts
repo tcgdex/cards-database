@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		11,
-	],
+	dexId: [11],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Caterpie",
-		fr: "Chenipan",
+		fr: "Chenipan"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Each of your Grass Pokémon has no Weakness.",
 				fr: "Vos Pokémon Grass ne subissent plus la Faiblesse.",
 				de: "Jedes deiner -Pokémon hat keine Schwäche mehr."
-			},
+			}
 		},
 	],
 
@@ -78,17 +76,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87391,
+				cardmarket: 279018
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87391,
+				cardmarket: 279018
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279018,
-		tcgplayer: 87391
-	}
 }
 
 export default card

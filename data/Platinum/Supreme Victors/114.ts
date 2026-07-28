@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		52,
-	],
+	dexId: [52],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -66,25 +64,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
-	},
-
-	thirdParty: {
-		cardmarket: 278805
+		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87321,
+				cardmarket: 278805
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278805,
+				tcgplayer: 87321
+			}
+		},
+	],
+
 }
 
 export default card

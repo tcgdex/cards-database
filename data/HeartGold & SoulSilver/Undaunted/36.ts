@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		123,
-	],
+	dexId: [123],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Nachbild-Angriff"
 			},
 			effect: {
-				en: "During your opponent’s next turn, if Scyther would be damaged by an attack, flip a coin. If heads, prevent that attack’s damage done to Scyther.",
+				en: "During your opponent's next turn, if Scyther would be damaged by an attack, flip a coin. If heads, prevent that attack's damage done to Scyther.",
 				fr: "Pendant le prochain tour de votre adversaire, si Insécateur doit subir les dégâts d’une attaque, lancez une pièce. Si c’est face, Insécateur ne subit pas les",
 				de: "Wenn Sichlor während des nächsten Zuges deines Gegners durch einen Angriff Schaden zugefügt würde, wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff Sichlor keinen Schaden zu."
 			},
@@ -61,17 +59,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279289,
+				tcgplayer: 89003
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279289,
+				tcgplayer: 89003
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279289,
-		tcgplayer: 89003
-	}
 }
 
 export default card

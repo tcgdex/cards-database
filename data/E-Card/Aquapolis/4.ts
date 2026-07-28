@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		184,
-	],
+	dexId: [184],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Bubble Turn"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), if Azumarill is on your bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand.",
+				en: "Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Azumarill est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, renvoyez Azumarill et toutes les cartes qui y sont attachées dans votre main.",
 				de: "Once during your turn (before your attack), if Azumarill is on your Bench, you may flip a coin. If heads, return Azumarill and all cards attached to it to your hand."
-			},
+			}
 		},
 	],
 
@@ -71,24 +69,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275060,
-		tcgplayer: 83680
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83680,
+				cardmarket: 275060
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 83680,
+				cardmarket: 275060
+			}
+		},
 	]
 }
 

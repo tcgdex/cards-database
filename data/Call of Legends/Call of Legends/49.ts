@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		156,
-	],
+	dexId: [156],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -69,7 +67,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
@@ -79,10 +77,23 @@ const card: Card = {
 		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
 	},
 
-	thirdParty: {
-		cardmarket: 279692,
-		tcgplayer: 88487
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88487,
+				cardmarket: 279692
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88487,
+				cardmarket: 279692
+			},
+		},
+	],
+
 }
 
 export default card
