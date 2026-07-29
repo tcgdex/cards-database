@@ -3,7 +3,7 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Psychic Energy",
+		en: "Psychic Energy"
 	},
 
 	rarity: "None",
@@ -14,18 +14,15 @@ const card: Card = {
 	],
 	retreat: 0,
 
-	thirdParty: {
-		tcgplayer: 152859,
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 152859,
-			},
+				tcgplayer: 152859
+			}
 		},
 	],
+
 }
 
 export default card

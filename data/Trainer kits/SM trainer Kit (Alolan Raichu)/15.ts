@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Trank"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,9 +28,15 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		tcgplayer: 152870
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 152870
+			}
+		},
+	],
+
 }
 
 export default card

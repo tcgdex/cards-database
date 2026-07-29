@@ -14,10 +14,25 @@ const card: Card = {
 		de: "Mabula"
 	},
 
+	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Grass"],
+	types: [
+		"Grass"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Vice Grip"
+			},
+			damage: 20
+		},
+	],
 	stage: "Basic",
 	retreat: 2,
 
@@ -26,9 +41,15 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152871
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 152871
+			}
+		},
+	],
+
 }
 
 export default card

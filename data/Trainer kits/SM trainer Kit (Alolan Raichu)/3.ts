@@ -3,7 +3,7 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Lightning Energy",
+		en: "Lightning Energy"
 	},
 
 	illustrator: "N/A",
@@ -12,18 +12,15 @@ const card: Card = {
 	set: Set,
 	retreat: 0,
 
-	thirdParty: {
-		tcgplayer: 152852,
-	},
-
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 152852,
-			},
+				tcgplayer: 152852
+			}
 		},
 	],
+
 }
 
 export default card
