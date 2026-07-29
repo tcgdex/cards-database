@@ -23,18 +23,34 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89640,
+				cardmarket: 279239
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 89640,
+				cardmarket: 279239
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 450423,
+				tcgplayer: 261732
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["mychael-bryan"],
+			thirdParty: {
+				cardmarket: 868798,
+				tcgplayer: 480113
+			}
 		},
 	],
 

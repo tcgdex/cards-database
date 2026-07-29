@@ -13,12 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [243, 245],
+	dexId: [243],
 	hp: 160,
 
 	types: [
 		"Lightning",
-		"Water",
+		"Water"
 	],
 
 	suffix: "Legend",
@@ -26,21 +26,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2",
+			value: "×2"
 		},
 		{
 			type: "Lightning",
-			value: "×2",
+			value: "×2"
 		},
 	],
-	retreat: 0,
+	retreat: 1,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88539,
+				cardmarket: 279248
+			}
 		},
 	],
-
 	attacks: [{
 		name: {
 			en: "Thunderbolt Spear",
@@ -70,10 +73,6 @@ const card: Card = {
 
 		cost: ["Water", "Colorless", "Colorless"]
 	}],
-
-	thirdParty: {
-		cardmarket: 279248
-	}
 }
 
 export default card

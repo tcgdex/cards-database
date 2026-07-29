@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		388,
-	],
+	dexId: [388],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Turtwig",
-		fr: "Tortipouss",
+		fr: "Tortipouss"
 	},
 
 	stage: "Stage1",
@@ -88,10 +86,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85919,
+				cardmarket: 279187
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85919,
+				cardmarket: 279187
+			}
 		},
 	],
 

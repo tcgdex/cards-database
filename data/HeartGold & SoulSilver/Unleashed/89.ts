@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		217,
-	],
+	dexId: [217],
 
 	hp: 110,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Teddiursa",
-		fr: "Teddiursa",
+		fr: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Berserker"
 			},
 			effect: {
-				en: "If Ursaring has any damage counters on it, each of Ursaring’s attacks does 60 more damage (before applying Weakness and Resistance).",
+				en: "If Ursaring has any damage counters on it, each of Ursaring's attacks does 60 more damage (before applying Weakness and Resistance).",
 				fr: "Si Ursaring a des marqueurs de dégât, chacune de ses attaques inflige 60 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
 				de: "Wenn auf Ursaring mindestens 1 Schadensmarke liegt, fügen sämtliche Angriffe Ursarings 60 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
-			},
+			}
 		},
 	],
 
@@ -59,7 +57,7 @@ const card: Card = {
 				de: "Hammerarm"
 			},
 			effect: {
-				en: "Discard the top card from your opponent’s deck.",
+				en: "Discard the top card from your opponent's deck.",
 				fr: "Défaussez la première carte du dessus du deck de votre adversaire.",
 				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
@@ -96,14 +94,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279183,
+				tcgplayer: 90255
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279183,
-		tcgplayer: 90255
-	}
 }
 
 export default card

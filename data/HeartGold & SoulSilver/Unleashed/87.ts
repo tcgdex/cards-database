@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		208,
-	],
+	dexId: [208],
 
 	hp: 140,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Onix",
-		fr: "Onix",
+		fr: "Onix"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Perfektes Metall"
 			},
 			effect: {
-				en: "Steelix can’t be affected by any Special Conditions.",
+				en: "Steelix can't be affected by any Special Conditions",
 				fr: "Steelix ne peut pas être affecté par les États Spéciaux.",
 				de: "Stahlos kann nicht von Speziellen Zuständen betroffen werden."
-			},
+			}
 		},
 	],
 
@@ -107,14 +105,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279180,
+				tcgplayer: 89564
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279180,
-		tcgplayer: 89564
-	}
 }
 
 export default card
