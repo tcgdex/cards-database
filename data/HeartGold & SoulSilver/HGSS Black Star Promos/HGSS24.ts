@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Tygnon"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		107,
-	],
+	dexId: [107],
 	hp: 70,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -64,13 +62,16 @@ const card: Card = {
 
 
 	description: {
-		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86097
+			}
+		},
 	]
 }
 

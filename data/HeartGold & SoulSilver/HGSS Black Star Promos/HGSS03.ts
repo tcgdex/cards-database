@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Pikachu"
 	},
 	illustrator: "Kanako Eo",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		25,
-	],
+	dexId: [25],
 	hp: 70,
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -72,13 +70,16 @@ const card: Card = {
 
 
 	description: {
-		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88098
+			}
+		},
 	]
 }
 

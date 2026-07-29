@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Kicklee"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		106,
-	],
+	dexId: [106],
 	hp: 80,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -60,13 +58,16 @@ const card: Card = {
 
 
 	description: {
-		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+		en: "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86109
+			}
+		},
 	]
 }
 
