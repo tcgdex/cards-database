@@ -70,6 +70,7 @@ const card: Card = {
 			type: "holo",
 			foil: 'cracked-ice',
 			thirdParty: {
+				cardmarket: 275615,
 				tcgplayer: 97706
 			}
 		},
@@ -80,7 +81,8 @@ const card: Card = {
 				tcgplayer: 86667
 			}
 		}
-	]
+	],
+
 }
 
 export default card

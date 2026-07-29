@@ -55,10 +55,12 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardmarket: 275614,
 				tcgplayer: 84368
 			}
 		},
 	],
+
 	retreat: 0
 }
 

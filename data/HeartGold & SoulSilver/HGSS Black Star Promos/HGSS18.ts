@@ -25,6 +25,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2010"],
 			thirdParty: {
+				cardmarket: 275594,
 				tcgplayer: 90052
 			}
 		},
@@ -68,6 +69,7 @@ const card: Card = {
 			}
 		},
 	],
+
 }
 
 export default card
