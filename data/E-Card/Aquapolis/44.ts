@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		145,
-	],
+	dexId: [145],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -29,15 +27,15 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Anti",
+				en: "Anti-Lightning",
 				fr: "Anti-éclair",
 				de: "Anti-Blitz"
 			},
 			effect: {
-				en: "Lightning - You can't attach Lightning Energy cards from your hand to Zapdos.",
+				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
 				fr: "Vous ne pouvez pas attacher de cartes Énergie  depuis votre main à Electhor.",
 				de: "Du kannst keine  - Energiekarte aus deiner Hand an Zapdos anlegen."
-			},
+			}
 		},
 	],
 
@@ -52,7 +50,7 @@ const card: Card = {
 				de: "Plasma"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, flip a coin. If heads attach 1 of those Energy cards to Zapdos.",
+				en: "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Zapdos.",
 				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Electhor.",
 				de: "Wenn mindestens eine  - Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei \"Kopf\" 1 davon an Zapdos an."
 			},
@@ -84,10 +82,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -97,18 +94,21 @@ const card: Card = {
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275067,
-		tcgplayer: 90716
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90716,
+				cardmarket: 275067
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 90716,
+				cardmarket: 275067
+			}
+		},
 	]
 }
 

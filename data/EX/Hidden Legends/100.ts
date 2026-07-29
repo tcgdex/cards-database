@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		45,
-	],
+	dexId: [45],
 
 	hp: 140,
 
+	stage: "Stage2",
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +41,7 @@ const card: Card = {
 				en: "As long as Vileplume ex is your Active Pokémon, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.",
 				fr: "Tant que Rafflesia ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de cartes Dresseur de sa main (cartes Supporter exclues).",
 				de: "As long as Vileplume ex is your Active Pokémon, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand."
-			},
+			}
 		},
 	],
 
@@ -75,18 +74,18 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276174,
-		tcgplayer: 90384
-	},
+	retreat: 2,
 
 	variants: [
 		{
 			type: "holo",
-		}
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 90384,
+				cardmarket: 276174
+			}
+		},
 	]
 }
 

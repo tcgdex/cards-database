@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Flareon 4",
+		en: "Flareon E4",
 		fr: "Pyroli  Niv. 55",
 		de: "Flamara 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		136,
-	],
+	dexId: [136],
 	hp: 70,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -59,26 +57,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278634,
+				tcgplayer: 85504
+			}
 		},
 		{
 			type: "reverse",
-			foil: "cracked-ice"
-		}
-	]
-
-
+			thirdParty: {
+				cardmarket: 278634,
+				tcgplayer: 85504
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 272511
+			}
+		},
+	],
 
 }
 

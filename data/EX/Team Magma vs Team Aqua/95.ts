@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		260,
-	],
+	dexId: [260],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	suffix: "ex",
@@ -57,7 +56,7 @@ const card: Card = {
 			},
 
 			effect: {
-				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance to Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discards an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. Après avoir infligé des dégâts, lancez une pièce. Si c'est face, votre adversaire défausse une carte Énergie attachée à ce Pokémon, s'il en a. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 				de: "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. After doing damage, flip a coin. If heads, your opponent discard an Energy card, if any, attached to that Pokémon. (Don't apply Weakness and Resistance to benched Pokémon.)"
 			},
@@ -73,23 +72,28 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276072,
-		tcgplayer: 89682
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275872,
+				tcgplayer: 89682
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871824,
+				tcgplayer: 477439
+			}
 		}
-	]
+	],
+
 }
 
 export default card

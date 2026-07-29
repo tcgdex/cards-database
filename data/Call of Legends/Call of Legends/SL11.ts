@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		245,
-	],
+	dexId: [245],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -65,19 +63,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
 		en: "This Pokémon races across the land. It is said that north winds will somehow blow whenever it appears.",
 	},
 
-	thirdParty: {
-		cardmarket: 279636
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89606,
+				cardmarket: 279636
+			},
+		},
+	],
+
 }
 
 export default card

@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		199,
-	],
+	dexId: [199],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss",
+		fr: "Ramoloss"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Zweites Gesicht"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may look at the top 3 cards of either player’s deck and put them back on top of that player’s deck in any order. This power can’t be used if Slowking is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may look at the top 3 cards of that player's deck and put them back on top of that player's deck in any order. This power can't be used if Slowking is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder les 3 cartes du dessus du deck de n’importe quel joueur et les y replacer dans l’ordre de votre choix. Ce pouvoir ne peut pas être utilisé si Roigada est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir die obersten 3 Karten eines Decks anschauen und sie danach in beliebiger Reihenfolge wieder auf das Deck des Spielers zurücklegen. Diese Poké-Power kann nicht benutzt werden, wenn Laschoking von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -82,17 +80,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89317,
+				cardmarket: 278984
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89317,
+				cardmarket: 278984
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278984,
-		tcgplayer: 89317
-	}
 }
 
 export default card

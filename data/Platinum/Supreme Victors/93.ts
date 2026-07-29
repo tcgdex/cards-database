@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [1],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -61,25 +59,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
-	},
-
-	thirdParty: {
-		cardmarket: 278784
+		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278784,
+				tcgplayer: 84035
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278784,
+				tcgplayer: 84035
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		283,
-	],
+	dexId: [283],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -51,25 +49,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
-	},
-
-	thirdParty: {
-		cardmarket: 278821
+		en: "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89651,
+				cardmarket: 278821
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278821,
+				tcgplayer: 89651
+			}
+		},
+	],
+
 }
 
 export default card

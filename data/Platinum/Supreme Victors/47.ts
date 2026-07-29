@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		321,
-	],
+	dexId: [321],
 
 	hp: 180,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Wailmer",
-		fr: "Wailmer",
+		fr: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -74,28 +72,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
-		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
-	},
-
-	thirdParty: {
-		cardmarket: 278738
+		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90460,
+				cardmarket: 278738
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278738,
+				tcgplayer: 90460
+			}
+		},
+	],
+
 }
 
 export default card

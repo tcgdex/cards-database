@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [110],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo",
+		fr: "Smogo"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Weezing is Confused and is Knocked Out, your opponent can't take a Prize card.",
 				fr: "Si Smogogo est Confus et qu'il est mis K.O, votre adversaire ne peut pas récolter de carte Récompense.",
 				de: "Wenn Smogmog verwirrt ist und kampfunfähig wird, kann dein Gegner keinen Preis nehmen."
-			},
+			}
 		},
 	],
 
@@ -88,22 +86,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278661,
-		tcgplayer: 90563
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278661,
+				tcgplayer: 90563
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278661,
+				tcgplayer: 90563
+			}
+		},
+	],
+
 }
 
 export default card

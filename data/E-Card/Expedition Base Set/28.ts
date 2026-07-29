@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "K. Hoshiba",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [157],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -39,7 +37,7 @@ const card: Card = {
 				de: "Aufheizen"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), You may count the total number of Energy cards attached to all of your Pokémon and all of your opponent's Pokémon. If your opponent has more total energy cards attached, you may search your deck for 1 Fire Energy card and attach it to one of your Benched Pokémon, if any. Shuffle your deck afterward. This power can't be used if Typhlosion is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may count the total number of Energy cards attached to all of your Pokémon and all of your opponent's Pokémon. If your opponent has more total Energy cards attached, you may search your deck for 1 Fire Energy card and attach it to 1 of your Benched Pokémon, if any. Shuffle your deck afterward. This power can't be used if Typhlosion is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez compter le nombre total de cartes Énergie attachées à tous vos Pokémon et à tous ceux de votre adversaire. Si au total, votre adversaire a plus de cartes Énergie attachées que vous, vous pouvez chercher dans votre deck 1 carte Énergie  et l'attacher à l'un des Pokémon de votre Banc, si vous en possédez. Mélangez ensuite votre deck. Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du zählen, wie viele Energiekarten an alle deine Pokémon angelegt sind und wie viele an alle Pokémon deines Gegners. Wenn an die Pokémon deines Gegners mehr Energiekarten angelegt sind, kannst du dein Deck nach 1 -Energiekarte durchsuchen und diese, falls du Pokémon auf deiner Bank hast, an 1 dieser Pokémon anlegen. Mische dein Deck danach. Diese Fähigkeit kann nicht verwendet werden, falls Tornupto von einem Speziellen Zustand betroffen ist."
 			},
@@ -72,25 +70,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 274903,
-		tcgplayer: 90100
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 90100,
+				cardmarket: 274903
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90100,
+				cardmarket: 274903
+			},
+		},
+	],
 }
 
 export default card

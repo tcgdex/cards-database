@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		377,
-	],
+	dexId: [377],
 
 	hp: 100,
 
+	stage: "Basic",
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	suffix: "ex",
@@ -37,7 +36,7 @@ const card: Card = {
 				en: "At any time between turns, remove 1 damage counter from Regirock ex.",
 				fr: "N'importe quand entre deux tours, retirez à Regirock ex 1 marqueur de dégât.",
 				de: "At any time between turns, remove 1 damage counter from Regirock ex."
-			},
+			}
 		},
 	],
 
@@ -73,19 +72,23 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276172,
-		tcgplayer: 88674
-	},
-
 	variants: [
 		{
 			type: "holo",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 88674,
+				cardmarket: 276172
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["jason-klaczynski"]
-		}
+			type: "normal",
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				cardmarket: 869536,
+				tcgplayer: 477917
+			}
+		},
 	]
 }
 

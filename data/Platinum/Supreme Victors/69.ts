@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		375,
-	],
+	dexId: [375],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Beldum",
-		fr: "Terhal",
+		fr: "Terhal"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Metang has any Metal Energy attached to it, the Retreat Cost for Metang is 0.",
 				fr: "Si Metang possède de l'Énergie Metal, son Coût de retraite est de 0.",
 				de: "Wenn an Metang mindestens 1 -Energie angelegt ist, hat Metang Rückzugskosten 0."
-			},
+			}
 		},
 	],
 
@@ -74,32 +72,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
-	},
-
-	thirdParty: {
-		cardmarket: 278760
+		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87380,
+				cardmarket: 278760
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278760,
+				tcgplayer: 87380
+			}
+		},
+	],
+
 }
 
 export default card

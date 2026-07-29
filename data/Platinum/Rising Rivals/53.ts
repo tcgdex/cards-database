@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		329,
-	],
+	dexId: [329],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Trapinch",
-		fr: "Kraknoix",
+		fr: "Kraknoix"
 	},
 
 	stage: "Stage1",
@@ -74,37 +72,43 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
-	},
-
-	thirdParty: {
-		cardmarket: 278627,
-		tcgplayer: 90338
+		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90338,
+				cardmarket: 278627
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278627,
+				tcgplayer: 90338
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 868870,
+				tcgplayer: 479980
+			}
 		}
-	]
+	],
+
 }
 
 export default card

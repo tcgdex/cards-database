@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		341,
-	],
+	dexId: [341],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -64,25 +62,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
-	},
-
-	thirdParty: {
-		cardmarket: 278791
+		en: "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84436,
+				cardmarket: 278791
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278791,
+				tcgplayer: 84436
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		390,
-	],
+	dexId: [390],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
-	},
-
-	thirdParty: {
-		cardmarket: 278788
+		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84290,
+				cardmarket: 278788
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278788,
+				tcgplayer: 84290
+			}
+		},
+	],
+
 }
 
 export default card

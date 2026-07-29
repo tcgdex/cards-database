@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Snorlax is Asleep, your opponent's Active Pokémon can't retreat.",
 				fr: "Tant que Ronflex est Endormi, le Pokémon Actif de votre adversaire ne peut pas battre en retraite.",
 				de: "Solange Relaxo schläft, können sich Aktive Pokémon deines Gegners nicht zurückziehen."
-			},
+			}
 		},
 	],
 
@@ -88,22 +86,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 278607,
-		tcgplayer: 89391
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278655,
+				tcgplayer: 89391
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278655,
+				tcgplayer: 89391
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		208,
-	],
+	dexId: [208],
 
 	hp: 110,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				de: "Reparieren"
 			},
 			effect: {
-				en: "Search your discard pile for a Metal Energy card and attach it to Steelix If you do, remove 1 damage counter from Steelix .",
+				en: "Search your discard pile for a Metal Energy card and attach it to Steelix GL. If you do, remove 1 damage counter from Steelix GL.",
 				fr: "Choisissez dans votre pile de défausse une carte Énergie Metal et attachez-la à Steelix . Retirez alors à Steelix  1 marqueur de dégât.",
 				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Stahlos GL an. Wenn du das machst, entferne 1 Schadensmarke von Stahlos GL."
 			},
@@ -68,32 +66,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 278625,
-		tcgplayer: 89567
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278625,
+				tcgplayer: 89567
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278625,
+				tcgplayer: 89567
+			}
+		},
+	],
+
 }
 
 export default card

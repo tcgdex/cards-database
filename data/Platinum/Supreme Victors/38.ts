@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		47,
-	],
+	dexId: [47],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Paras",
-		fr: "Paras",
+		fr: "Paras"
 	},
 
 	stage: "Stage1",
@@ -74,25 +72,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores.",
-	},
-
-	thirdParty: {
-		cardmarket: 278729
+		en: "A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87959,
+				cardmarket: 278729
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278729,
+				tcgplayer: 87959
+			}
+		},
+	],
+
 }
 
 export default card

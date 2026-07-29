@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		122,
-	],
+	dexId: [122],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Mr. Mime would be Knocked Out by damage from an attack that does 70 or more damage (after applying Weakness and Resistance), Mr. Mime is not Knocked Out and its remaining HP becomes 10 instead.",
 				fr: "Si M. Mime est mis K.O. par des dégâts d'une attaque infligeant 70 dégâts ou plus (après application de la Faiblesse et de la Résistance), M. Mime n'est pas mis K.O. À la place, il lui reste 10 PV.",
 				de: "Wenn Pantimos durch Schaden eines Angriffs, der mindestens 70 Schadenspunkte zufügt (nachdem Schwäche und Resistenz verrechnet wurden) kampfunfähig würde, wird Pantimos nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
-			},
+			}
 		},
 	],
 
@@ -65,21 +63,26 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
-	},
-
-	thirdParty: {
-		cardmarket: 278728
+		en: "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87593,
+				cardmarket: 278728
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278728,
+				tcgplayer: 87593
+			}
+		},
+	],
+
 }
 
 export default card

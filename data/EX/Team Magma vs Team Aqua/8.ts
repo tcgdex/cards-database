@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Zu-Ka",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		344,
-	],
+	dexId: [344],
 
 	hp: 80,
 
 	types: [
 		"Psychic",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -38,7 +36,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie attachée à un Pokémon dont le nom comporte Team Magma à un autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Kaorine de Team Magma est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -71,26 +69,34 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275985,
-		tcgplayer: 89825
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275785,
+				tcgplayer: 89825
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275785,
+				tcgplayer: 89825
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				tcgplayer: 477450
+			}
 		}
-	]
+	],
+
 }
 
 export default card

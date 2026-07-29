@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid",
+		fr: "Galekid"
 	},
 
 	stage: "Stage1",
@@ -76,33 +74,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
-	},
-
-	thirdParty: {
-		cardmarket: 278618,
-		tcgplayer: 86581
+		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278618,
+				tcgplayer: 86581
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278618,
+				tcgplayer: 86581
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		53,
-	],
+	dexId: [53],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Meowth",
-		fr: "Miaouss",
+		fr: "Miaouss"
 	},
 
 	stage: "Stage1",
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Krallenschärfer"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, discard a card from your opponent’s hand without looking.",
+				en: "Flip 3 coins. For each heads, discard a card from your opponent's hand without looking.",
 				fr: "Lancez 3 pièces. Pour chaque face, défaussez une carte de la main de votre adversaire sans la regarder.",
 				de: "Wirf 3 Münzen. Wähle pro \"Kopf\" 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
 			},
@@ -82,17 +80,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87987,
+				cardmarket: 278999
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87987,
+				cardmarket: 278999
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278999,
-		tcgplayer: 87987
-	}
 }
 
 export default card

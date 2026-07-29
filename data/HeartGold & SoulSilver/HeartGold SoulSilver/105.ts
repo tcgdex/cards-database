@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 140,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Flaaffy",
-		fr: "Lainergie",
+		fr: "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Whenever your opponent attaches an Energy card from his or her hand to 1 of his or her Pokémon, put 1 damage counter on that Pokémon.",
 				fr: "Lorsque votre adversaire attache une carte Énergie de sa main à l’un de ses Pokémon, appliquez un marqueur de dégâts à ce Pokémon.",
 				de: "Lege jedes Mal, wenn dein Gegner 1 Energiekarte von seiner Hand an 1 seiner Pokémon anlegt, 1 Schadensmarke auf dieses Pokémon."
-			},
+			}
 		},
 	],
 
@@ -87,14 +85,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278986,
+				tcgplayer: 83545
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278986,
-		tcgplayer: 83545
-	}
 }
 
 export default card

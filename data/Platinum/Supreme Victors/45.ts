@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		338,
-	],
+	dexId: [338],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if you have Lunatone in play, you may look at the top 3 cards of your deck and put them back on top of your deck in any order. This power can't be used if Solrock is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si vous avez un Seleroc en jeu, vous pouvez regarder les 3 cartes du dessus de votre deck et les replacer au-dessus de votre deck dans n'importe quel ordre. Ce pouvoir ne peut pas être utilisé si Solaroc est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir, wenn du Lunastein im Spiel hast, die obersten 3 Karten deines Decks anschauen und sie in beliebiger Reihenfolge auf dein Deck zurücklegen. Diese Poké-Power kann nicht benutzt werden, wenn Sonnfel von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -68,25 +66,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
-	},
-
-	thirdParty: {
-		cardmarket: 278736
+		en: "A new Pokémon species, rumored to be from the sun. It gives off light while spinning."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89429,
+				cardmarket: 278736
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278736,
+				tcgplayer: 89429
+			}
+		},
+	],
+
 }
 
 export default card

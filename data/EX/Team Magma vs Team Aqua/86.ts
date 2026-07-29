@@ -17,22 +17,28 @@ const card: Card = {
 	effect: {
 		en: "Aqua Energy can be attached only to a Pokémon with Team Aqua in its name. Aqua Energy provides Water and Darkness Energy but provides 2 Energy at a time. (Doesn't count as a basic Energy card when not in play and has no other effect than providing Energy.) At the end of your turn, discard Aqua Energy.",
 		de: "Aqua Energy can be attached only to a Pokémon with Team Aqua in its name. Aqua Energy provides  and /or  Energy but provied 2 Energy at a time. (Doesn't count as a basci Energy card wehn not in play and has no effect other than providing Energy.) At the end of your turn, discard Aqua Energy.",
-		fr: "Énergie Aqua ne peut être attachée qu'à un Pokémon dont le nom comporte Team Aqua. Énergie Aqua fournit 2 Énergies à la fois, Eau et Obscurité. (Elle ne compte pas comme carte Énergie de base lorsqu'elle n'est pas en jeu et n'a pas d'autre effet que de fournir de l'Énergie.) À la fin de votre tour, défaussez Énergie Aqua.",
+		fr: "Énergie Aqua ne peut être attachée qu'à un Pokémon dont le nom comporte Team Aqua. Énergie Aqua fournit 2 Énergies à la fois, Eau et Obscurité. (Elle ne compte pas comme carte Énergie de base lorsqu'elle n'est pas en jeu et n'a pas d'autre effet que de fournir de l'Énergie.) À la fin de votre tour, défaussez Énergie Aqua."
 	},
 
-	thirdParty: {
-		cardmarket: 276063,
-		tcgplayer: 83565
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275863,
+				tcgplayer: 83565
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275863,
+				tcgplayer: 83565
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

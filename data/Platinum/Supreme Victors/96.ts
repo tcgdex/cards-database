@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		420,
-	],
+	dexId: [420],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Wachstum"
 			},
 			effect: {
-				en: "Attach a Grass Energy card from your hand to Cherubi.",
+				en: "Attach a Grass Energy from your hand to Cherubi.",
 				fr: "Attachez une carte Énergie Grass de votre main à Ceribou.",
 				de: "Lege 1 -Energiekarte von deiner Hand an Kikugi an."
 			},
@@ -61,32 +59,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
-	},
-
-	thirdParty: {
-		cardmarket: 278787
+		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84262,
+				cardmarket: 278787
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278787,
+				tcgplayer: 84262
+			}
+		},
+	],
+
 }
 
 export default card

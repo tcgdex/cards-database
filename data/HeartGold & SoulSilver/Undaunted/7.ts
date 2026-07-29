@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kent Kanetsuna/Direc. Shinji Higuchi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		212,
-	],
+	dexId: [212],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insecateur",
+		fr: "Insecateur"
 	},
 
 	stage: "Stage1",
@@ -84,17 +82,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279260,
+				tcgplayer: 88963
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279260,
+				tcgplayer: 88963
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279260,
-		tcgplayer: 88963
-	}
 }
 
 export default card

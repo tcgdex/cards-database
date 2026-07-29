@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		86,
-	],
+	dexId: [86],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice.",
-	},
-
-	thirdParty: {
-		cardmarket: 278816
+		en: "A Pokémon that lives on icebergs. It swims in the sea using the point on its head to break up ice."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89054,
+				cardmarket: 278816
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278816,
+				tcgplayer: 89054
+			}
+		},
+	],
+
 }
 
 export default card

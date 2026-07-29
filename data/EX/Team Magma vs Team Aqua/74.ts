@@ -20,19 +20,25 @@ const card: Card = {
 		de: "Immer wenn ein Angriff des Pokémons, an das Stärkezauber angelegt ist, dem verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet werden), fügt die Attacke 10 Schadenspunkte mehr zu. Am Ende eines solchen Zuges, lege diese Karte ab."
 	},
 
-	thirdParty: {
-		cardmarket: 276051,
-		tcgplayer: 89578
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275851,
+				tcgplayer: 89578
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275851,
+				tcgplayer: 89578
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

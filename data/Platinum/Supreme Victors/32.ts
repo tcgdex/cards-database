@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		337,
-	],
+	dexId: [337],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If you have Solrock in play, prevent all effects of attacks, including damage, done to any of your Lunatone or Solrock by your opponent's Pokémon LV.X.",
 				fr: "Si vous avez Solaroc en jeu, prévenez tous les effets d'attaques, dégâts inclus, infligés à vos Seleroc ou Solaroc par les Pokémon NIV.X de votre adversaire.",
 				de: "Wenn du Sonnfel im Spiel hast, verhindere alle Effekte von Angriffen, einschließlich Schaden, die deinen Lunastein und Sonnfel im Spiel von gegnerischen Pokémon LV.X zugefügt würden."
-			},
+			}
 		},
 	],
 
@@ -68,23 +66,28 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
-		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases."
 	},
 
-	thirdParty: {
-		cardmarket: 278723
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86927,
+				cardmarket: 278723
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278723,
+				tcgplayer: 86927
+			}
+		},
+	],
+
 }
 
 export default card

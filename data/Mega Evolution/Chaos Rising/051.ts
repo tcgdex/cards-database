@@ -99,6 +99,20 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888531,
+				tcgplayer: 694630
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 886443,
+				tcgplayer: 693470
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 886443,
 				tcgplayer: 693470
 			}
 		},

@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		330,
-	],
+	dexId: [330],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Vibrava",
-		fr: "Vibraninf",
+		fr: "Vibraninf"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If any basic Energy card attached to Flygon is the same type as any of your Pokémon, the Retreat Cost for those Pokémon is 0.",
 				fr: "Si une carte Énergie de base attachée à Libegon est du même type qu'un de vos Pokémon, le Coût de retraite de ces Pokémon est de 0.",
 				de: "Jedes deiner Pokémon, das denselben Typ hat wie eine beliebige an Libelldra angelegte Basis-Energiekarte, hat Rückzugskosten 0."
-			},
+			}
 		},
 	],
 
@@ -92,34 +90,44 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278579,
-		tcgplayer: 85526
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal"
-		},
-		{
 			type: "holo",
-			stamp: ["david-cohen"]
+			thirdParty: {
+				tcgplayer: 85526,
+				cardmarket: 278579,
+			}
 		},
-	]
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278579,
+				tcgplayer: 85526
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125054
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 868871,
+				tcgplayer: 479898
+			}
+		},
+	],
+
 }
 
 export default card

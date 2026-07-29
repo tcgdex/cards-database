@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		418,
-	],
+	dexId: [418],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -61,25 +59,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
-	},
-
-	thirdParty: {
-		cardmarket: 278783
+		en: "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84021,
+				cardmarket: 278783
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278783,
+				tcgplayer: 84021
+			}
+		},
+	],
+
 }
 
 export default card

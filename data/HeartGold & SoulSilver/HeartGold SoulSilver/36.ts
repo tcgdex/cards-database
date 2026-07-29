@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		242,
-	],
+	dexId: [242],
 
 	hp: 130,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard",
+		fr: "Leveinard"
 	},
 
 	stage: "Stage1",
@@ -84,17 +82,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83923,
+				cardmarket: 279008
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83923,
+				cardmarket: 279008
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279008,
-		tcgplayer: 83923
-	}
 }
 
 export default card

@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Doppelter Ball"
 	},
 
-	illustrator: "\"Big Mama\" Tagawa",
+	illustrator: '"Big Mama" Tagawa',
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
@@ -20,19 +20,25 @@ const card: Card = {
 		de: "Wirf zwei Münzen. Durchsuche dein Deck für jeden Kopf nach einer Basispokémonkarte und nimm sie auf die Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 276049,
-		tcgplayer: 84985
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275849,
+				tcgplayer: 84985
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275849,
+				tcgplayer: 84985
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

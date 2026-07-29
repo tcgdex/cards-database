@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		350,
-	],
+	dexId: [350],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If you have no cards in your hand, prevent all damage done to Milotic by attacks from your opponent's Pokémon.",
 				fr: "Si vous n'avez plus de cartes en main, prévenez tous les dégâts infligés à Milobellus par les attaques des Pokémon de votre adversaire.",
 				de: "Solange du keine Handkarten hast, verhindere allen Schaden, der Milotic durch Angriffe von Pokémon deines Gegners zugefügt würde."
-			},
+			}
 		},
 	],
 
@@ -78,18 +76,19 @@ const card: Card = {
 
 
 	description: {
-		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
-	},
-
-	thirdParty: {
-		cardmarket: 278689
+		en: "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
 	},
 
 	variants: [
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87456,
+				cardmarket: 278689
+			}
+		},
+	],
+
 }
 
 export default card

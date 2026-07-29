@@ -22,11 +22,13 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Discharge",
 				de: "Discharge",
 				fr: "Décharge"
 			},
-			damage: "40x",
+			damage: "40×",
 			effect: {
+				en: "Discard all Lightning Energy cards attached to this Pokémon. Then, flip a number of coins equal to the number of Energy cards discarded that way. This attack does 40 damage times the number of heads.",
 				de: "Discard all {L}-Energy cards attached to this Pokémon. Then, flip a number of coins equal to the number of Energy cards discarded that way. This attack does 40 damage times the number of heads.",
 				fr: "Défaussez-vous de toutes les cartes Énergie {L} attachées à ce Pokémon. Lancez ensuite un nombre de pièces égal au nombre de cartes Énergie que vous avez défaussé de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces."
 			},
@@ -36,18 +38,21 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275203,
-		tcgplayer: 86754
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86754,
+				cardmarket: 275203
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86754,
+				cardmarket: 275203
+			}
+		},
 	]
 }
 

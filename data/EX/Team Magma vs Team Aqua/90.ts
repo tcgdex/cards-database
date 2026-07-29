@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		346,
-	],
+	dexId: [346],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	suffix: "ex",
@@ -37,7 +36,7 @@ const card: Card = {
 				en: "As long as Cradily ex is your Active Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon.",
 				fr: "Tant que Vacilys ex est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer ses Pokémon Actifs.",
 				de: "As long as Cradily ex is your Acrive Pokémon, your opponent can't play a Pokémon from his or her hand to evolve his or her Active Pokémon"
-			},
+			}
 		},
 	],
 
@@ -93,17 +92,16 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276067,
-		tcgplayer: 84457
-	},
+	retreat: 2,
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84457,
+				cardmarket: 276067
+			}
 		}
 	]
 }

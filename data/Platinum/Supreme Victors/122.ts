@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -67,32 +65,35 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
-	},
-
-	thirdParty: {
-		cardmarket: 278813
+		en: "Its powerful tackles can destroy anything. However, it is too slow witted to help people work."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88743,
+				cardmarket: 278813
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278813,
+				tcgplayer: 88743
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		242,
-	],
+	dexId: [242],
 
 	hp: 130,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard",
+		fr: "Leveinard"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn, when you play Blissey from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon. If you do, discard all Energy attached to those Pokémon that had any damage counters on them.",
 				fr: "Une seule fois pendant votre tour, lorsque vous jouez Leuphorie dans votre main pour faire évoluer l’un de vos Pokémon, vous pouvez retirer tous les marqueurs de dégâts de tous vos Pokémon. Dans ce cas, défaussez-vous de toutes les énergies attachées aux Pokémon qui avaient des marqueurs de dégâts.",
 				de: "Einmal während deines Zuges, wenn du Heiteira von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du alle Schadensmarken von all deinen Pokémon entfernen. Wenn du das machst, lege alle Energien, die an diese Pokémon angelegt sind, auf deinen Ablagestapel."
-			},
+			}
 		},
 	],
 
@@ -76,18 +74,22 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83924,
+				cardmarket: 279008
+			}
 		},
 		{
-			type: "holo",
-			stamp : ["ross-cawthorn"],
+			type: "normal",
+			stamp: ['ross-cawthorn'],
+			thirdParty: {
+				cardmarket: 868165,
+				tcgplayer: 480357,
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279008,
-		tcgplayer: 83924
-	}
 }
 
 export default card

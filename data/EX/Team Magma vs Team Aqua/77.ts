@@ -17,22 +17,28 @@ const card: Card = {
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for up to 2 in any combination of Basic Pokémon with Team Aqua in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 		fr: "Cherchez dans votre deck une combinaison de 2 cartes faite de Pokémon de base dont le nom comporte Team Aqua et de cartes Énergie de base, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-		de: "Seach your deck for up to 2 in any combinaton of Basic Pokémon with Team Aqua in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
+		de: "Seach your deck for up to 2 in any combinaton of Basic Pokémon with Team Aqua in its name and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 276054,
-		tcgplayer: 89770
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275854,
+				tcgplayer: 89770
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275854,
+				tcgplayer: 89770
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

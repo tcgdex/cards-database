@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		245,
-	],
+	dexId: [245],
 
 	hp: 100,
 
+	stage: "Basic",
 	types: [
-		"Water",
+		"Water"
 	],
 
 	suffix: "ex",
@@ -70,23 +69,28 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276071,
-		tcgplayer: 89611
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275871,
+				tcgplayer: 89611
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871825,
+				tcgplayer: 477437
+			}
 		}
-	]
+	],
+
 }
 
 export default card

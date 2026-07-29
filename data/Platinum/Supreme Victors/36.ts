@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		146,
-	],
+	dexId: [146],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -68,32 +66,35 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
-	},
-
-	thirdParty: {
-		cardmarket: 278727
+		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87562,
+				cardmarket: 278727
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278727,
+				tcgplayer: 87562
+			}
+		},
+	],
+
 }
 
 export default card

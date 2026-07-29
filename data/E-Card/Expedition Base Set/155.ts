@@ -19,19 +19,22 @@ const card: Card = {
 		de: "Wähle eines deiner Pokémon. Wirf 2 Münzen. Entferne zwei Schadensmarken mal der Anzahl \"Kopf\" von diesem Pokémon. Falls das Pokémon weniger Schadensmarken hat, entferne alle."
 	},
 
-	thirdParty: {
-		cardmarket: 275030,
-		tcgplayer: 87575
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87575,
+				cardmarket: 275030
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87575,
+				cardmarket: 275030
+			},
+		},
+	],
 }
 
 export default card

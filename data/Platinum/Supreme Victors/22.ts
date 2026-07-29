@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		344,
-	],
+	dexId: [344],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Baltoy",
-		fr: "Balbuto",
+		fr: "Balbuto"
 	},
 
 	stage: "Stage1",
@@ -74,25 +72,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
-	},
-
-	thirdParty: {
-		cardmarket: 278713
+		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84338,
+				cardmarket: 278713
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278713,
+				tcgplayer: 84338
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		44,
-	],
+	dexId: [44],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Schwächender Pollen"
 			},
 			effect: {
-				en: "As long as Gloom is in play, Resistance on each player's Pokémon only reduces damage by 10.",
+				en: "As long as Gloom is in play, Resistance on each player's Active Pokémon only reduces damage by 10.",
 				fr: "Tant que Ortide est en jeu, la Résistance du Pokémon Actif de chaque joueur ne réduit les dégâts que de 10.",
 				de: "Solange Duflor im Spiel ist, reduziert die Resistenz der Aktiven Pokémon beider Spieler Schaden nur um 10."
-			},
+			}
 		},
 	],
 
@@ -70,24 +68,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 2,
 
 
-	thirdParty: {
-		cardmarket: 275121,
-		tcgplayer: 85780
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85780,
+				cardmarket: 275121
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85780,
+				cardmarket: 275121
+			}
+		},
 	]
 }
 

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		397,
-	],
+	dexId: [397],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Starly",
-		fr: "Etourmi",
+		fr: "Etourmi"
 	},
 
 	stage: "Stage1",
@@ -76,32 +74,35 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
-	},
-
-	thirdParty: {
-		cardmarket: 278776
+		en: "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89517,
+				cardmarket: 278776
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278776,
+				tcgplayer: 89517
+			}
+		},
+	],
+
 }
 
 export default card

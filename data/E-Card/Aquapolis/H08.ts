@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		244,
-	],
+	dexId: [244],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 				fr: "Pour attacher une carte Énergie  de votre main à Entei, vous devez vous défausser d'une carte Énergie attachée à Entei. (Attachez l'Énergie , et défaussez-vous ensuite d'une Énergie attachée à Entei.)",
 				de: "Um eine -Energiekarte aus deiner Hand an Entei anzulegen, musst du eine an Entei angelegte Energiekarte auf deinen Ablagestapel legen. (Lege erst die -Energie an, und lege dann eine an Entei angelegte Energiekarte auf den Ablagestapel.)"
 
-			},
+			}
 		},
 	],
 
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Brennende Klaue"
 			},
 			effect: {
-				en: "You may flip a coin. If heads, discard a Energy card attached to Entei and the Defending Pokémon is now Burned.",
+				en: "You may flip a coin. If heads, discard a Fire Energy card attached to Entei and the Defending Pokémon is now Burned.",
 				fr: "Vous pouvez lancer une pièce. Si c'est face, défaussez-vous d'une carte Énergie  attachée à Entei et le Pokémon Défenseur est maintenant Brûlé.",
 				de: "Du kannst eine Münze werfen. Lege bei \"Kopf\" eine an Entei angelegte -Energiekarte auf deinen Ablagestapel, und das Verteidigende Pokémon ist jetzt verbrannt."
 			},
@@ -67,21 +65,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275082,
-		tcgplayer: 85267
-	},
-
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 85267,
+				cardmarket: 275082
+			}
+		},
 	]
 }
 

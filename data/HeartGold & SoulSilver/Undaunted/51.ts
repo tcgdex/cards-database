@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Scanner"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all effects of attack, including damage, done to Hitmonchan during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire.",
 				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nockchan zugefügt werden."
 			},
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Himmelhieb"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
+				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
 				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
@@ -77,17 +75,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279304,
+				tcgplayer: 86095
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279304,
+				tcgplayer: 86095
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279304,
-		tcgplayer: 86095
-	}
 }
 
 export default card

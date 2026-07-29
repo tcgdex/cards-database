@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		464,
-	],
+	dexId: [464],
 
 	hp: 140,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Rhydon",
-		fr: "Rhinoféros",
+		fr: "Rhinoféros"
 	},
 
 	stage: "Stage2",
@@ -77,32 +75,35 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 4,
 
 	description: {
-		en: "It can launch a rock held in its hand like a missile by tightening then expanding muscles instantly.",
-	},
-
-	thirdParty: {
-		cardmarket: 278701
+		en: "It can launch a rock held in its hand like a missile by tightening then expanding muscles instantly."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278701,
+				tcgplayer: 88746,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278701,
+				tcgplayer: 88746
+			}
+		},
+	],
+
 }
 
 export default card

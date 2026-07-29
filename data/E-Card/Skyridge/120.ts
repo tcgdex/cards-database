@@ -10,6 +10,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
@@ -17,19 +18,22 @@ const card: Card = {
 		de: "Du kannst in jedem Zug nur 1 Unterstützer-Karte spielen. Wenn du diese Karte ausspielst, lege sie neben dein aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach bis zu 2 Unterstützer- bzw. Stadion-Karten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
-	thirdParty: {
-		cardmarket: 275378,
-		tcgplayer: 88683
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88683,
+				cardmarket: 275378
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88683,
+				cardmarket: 275378
+			},
+		},
+	],
 }
 
 export default card

@@ -3,7 +3,7 @@ import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Blaziken FB",
+		en: "Blaziken FB LV.X",
 		fr: "Brasegali ",
 		de: "Lohgock FB"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		257,
-	],
+	dexId: [257],
 	hp: 110,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "LEVEL-UP",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "Any damage done by attacks to a Burned Pokémon (both yours and your opponent's) is increased by 40 (after applying Weakness and Resistance). No more than 40 damage can be added by all Burning Spirit Poké-Bodies.",
 				fr: "Tous les dégâts infligés par des attaques à un Pokémon Brûlé (les vôtres et ceux de votre adversaire) sont augmentés de 40 (après application de la Faiblesse et de la Résistance). Les Poké-Bodies Esprit brûlant ne peuvent pas ajouter plus de 40 dégâts.",
 				de: "Schaden, der verbrannten Pokémon (deinen und denen deines Gegners) durch Angriffe zugefügt wird, wird um 40 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden). Durch alle Brennender Geist Poké-Body können nicht mehr als 40 KP addiert werden."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -60,19 +58,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
-
-
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278833,
+				tcgplayer: 83915
+			}
+		},
+	],
 
 }
 

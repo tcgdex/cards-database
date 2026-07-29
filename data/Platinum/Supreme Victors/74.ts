@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		322,
-	],
+	dexId: [322],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
-	},
-
-	thirdParty: {
-		cardmarket: 278765
+		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87815,
+				cardmarket: 278765
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278765,
+				tcgplayer: 87815
+			}
+		},
+	],
+
 }
 
 export default card

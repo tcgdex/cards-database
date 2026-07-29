@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		308,
-	],
+	dexId: [308],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Meditite",
-		fr: "Meditikka",
+		fr: "Meditikka"
 	},
 
 	stage: "Stage1",
@@ -76,25 +74,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
-	},
-
-	thirdParty: {
-		cardmarket: 278725
+		en: "It gains the ability to see the aura of its opponents by honing its mind through starvation."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87276,
+				cardmarket: 278725
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278725,
+				tcgplayer: 87276
+			}
+		},
+	],
+
 }
 
 export default card

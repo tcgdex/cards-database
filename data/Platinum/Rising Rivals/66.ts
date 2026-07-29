@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		14,
-	],
+	dexId: [14],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Weedle",
-		fr: "Aspicot",
+		fr: "Aspicot"
 	},
 
 	stage: "Stage1",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Any damage done to Kakuna by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Coconfort par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Schaden, der Kokuna durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -71,30 +69,37 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
 	description: {
-		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
-	},
-
-	thirdParty: {
-		cardmarket: 278640,
-		tcgplayer: 86414
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86414,
+				cardmarket: 278640,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278640,
+				tcgplayer: 86414
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				cardmarket: 868918,
+				tcgplayer: 479906
+			}
 		}
-	]
+	],
+
 }
 
 export default card

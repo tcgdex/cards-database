@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		193,
-	],
+	dexId: [193],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -35,7 +33,7 @@ const card: Card = {
 				de: "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, during your opponent's next turn prevent all effects of attacks, including damage, done to Yanma.",
+				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Yanma.",
 				de: "Wird eine Münze. Bei \"Kopf\" verhindere während des nächsten Zuges alle Auswirkungen von Angriffen (einschließlich Schaden), die Yanma zugefügt werden."
 			},
 			damage: 10,
@@ -55,7 +53,7 @@ const card: Card = {
 				en: "Flip 3 coins. This attack does 20 damage plus 10 more damage for each heads.",
 				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem \"Kopf\" zu."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -63,10 +61,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -76,19 +73,22 @@ const card: Card = {
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 275374,
-		tcgplayer: 90682
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90682,
+				cardmarket: 275374
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 90682,
+				cardmarket: 275374
+			},
+		},
+	],
 }
 
 export default card

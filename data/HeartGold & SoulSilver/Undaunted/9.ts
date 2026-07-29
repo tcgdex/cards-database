@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		468,
-	],
+	dexId: [468],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Togetic",
-		fr: "Togetic",
+		fr: "Togetic"
 	},
 
 	stage: "Stage2",
@@ -91,20 +89,27 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279262,
+				tcgplayer: 89924
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279262,
+				tcgplayer: 89924
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125046
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279262,
-		tcgplayer: 89924
-	}
 }
 
 export default card

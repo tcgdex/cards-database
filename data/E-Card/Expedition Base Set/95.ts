@@ -13,16 +13,25 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [1],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				en: "Energy Barrier",
+			},
+			effect: {
+				en: "If Mr. Mime would be damaged by an attack, reduce that damage by 10 for each basic Energy card attached to Mr. Mime. The maximum amount of damage that can be reduced by Energy Barrier is 20.",
+			},
+		},
+	],
 	stage: "Basic",
 
 	attacks: [
@@ -61,25 +70,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	retreat: 1,
 
 
-	thirdParty: {
-		cardmarket: 274969,
-		tcgplayer: 84027
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84027,
+				cardmarket: 274969
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84027,
+				cardmarket: 274969
+			},
+		},
+	],
 }
 
 export default card

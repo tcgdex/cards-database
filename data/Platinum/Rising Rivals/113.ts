@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -70,23 +68,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon.",
-	},
-
-	thirdParty: {
-		cardmarket: 278687,
-		tcgplayer: 85535
+		en: "By learning how to fly, Pikachu overcame its weakness to Fighting Pokémon."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278687,
+				tcgplayer: 85535
+			}
+		},
+	],
+
 }
 
 export default card

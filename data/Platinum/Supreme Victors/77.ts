@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu",
+		fr: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -75,30 +73,34 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked."
 	},
 
-	thirdParty: {
-		cardmarket: 278768
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88515,
+				cardmarket: 278768
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278768,
+				tcgplayer: 88515
+			}
+		},
+	],
+
 }
 
 export default card

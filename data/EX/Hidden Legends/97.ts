@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		378,
-	],
+	dexId: [378],
 
 	hp: 90,
 
+	stage: "Basic",
 	types: [
-		"Water",
+		"Water"
 	],
 
 	suffix: "ex",
@@ -37,7 +36,7 @@ const card: Card = {
 				en: "Prevent all effects of attacks, except damage, done to Regice ex by the Attacking Pokémon.",
 				fr: "Prévenez tous les effets d'attaques, dégâts exclus, infligés à Regice ex par le Pokémon Attaquant.",
 				de: "Prevent all effects of attacks, except damage, done to regice ex by the Attacking Pokémon."
-			},
+			}
 		},
 	],
 
@@ -70,18 +69,18 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276171,
-		tcgplayer: 88659
-	},
+	retreat: 2,
 
 	variants: [
 		{
 			type: "holo",
-		}
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 88659,
+				cardmarket: 276171
+			}
+		},
 	]
 }
 

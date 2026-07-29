@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		13,
-	],
+	dexId: [13],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -65,26 +63,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
 	description: {
-		en: "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
-	},
-
-	thirdParty: {
-		cardmarket: 278660,
-		tcgplayer: 90545
+		en: "It eats its weight in leaves every day. It fends off attackers with the needle on its head."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278660,
+				tcgplayer: 90545
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278660,
+				tcgplayer: 90545
+			}
+		},
+	],
+
 }
 
 export default card

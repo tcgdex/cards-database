@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		44,
-	],
+	dexId: [44],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -65,14 +63,14 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "×2"
 		},
 	],
@@ -80,18 +78,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276109,
-		tcgplayer: 85782
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 85782,
+				cardmarket: 276109
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85782,
+				cardmarket: 276109
+			}
+		},
 	]
 }
 

@@ -3,7 +3,7 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Rhyperior 4",
+		en: "Rhyperior E4",
 		fr: "Rhinastoc  Niv. 55",
 		de: "Rihornior 4"
 	},
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		464,
-	],
+	dexId: [464],
 	hp: 100,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -66,7 +64,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -79,19 +77,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278606,
+				tcgplayer: 88748
+			}
 		},
 		{
 			type: "reverse",
-			foil: "cosmos"
+			thirdParty: {
+				cardmarket: 278606,
+				tcgplayer: 88748
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 125053
+			}
 		}
 	]
-
-
-
 }
 
 export default card
