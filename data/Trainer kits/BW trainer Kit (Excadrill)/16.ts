@@ -26,7 +26,16 @@ const card: Card = {
 		de: "Während dieses Zuges fügen alle Angriffe deines Pokémon den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 98693
+			}
+		},
+	],
+
 }
 
 export default card

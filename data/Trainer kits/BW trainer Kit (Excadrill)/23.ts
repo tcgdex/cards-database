@@ -26,7 +26,16 @@ const card: Card = {
 		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 98730
+			}
+		},
+	],
+
 }
 
 export default card
