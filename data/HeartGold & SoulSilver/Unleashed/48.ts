@@ -88,10 +88,6 @@ const card: Card = {
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279204,
-		tcgplayer: 84310
-	}
 }
 
 export default card
