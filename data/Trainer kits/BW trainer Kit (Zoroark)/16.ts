@@ -26,7 +26,17 @@ const card: Card = {
 		de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 98717
+			}
+		},
+	],
+
 }
 
 export default card

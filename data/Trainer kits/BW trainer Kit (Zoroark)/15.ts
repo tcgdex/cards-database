@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Pidove",
@@ -28,7 +30,6 @@ const card: Card = {
 		pt: "Pidove",
 		de: "Dusselgurr"
 	},
-
 	stage: "Stage1",
 
 	attacks: [{
@@ -71,6 +72,15 @@ const card: Card = {
 	},
 
 	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 98714
+			}
+		},
+	],
+
 }
 
 export default card

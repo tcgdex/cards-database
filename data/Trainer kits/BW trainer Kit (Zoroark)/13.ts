@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Darkness"],
+	types: [
+		"Darkness"
+	],
 	stage: "Basic",
 
 	attacks: [{
@@ -52,6 +54,15 @@ const card: Card = {
 	},
 
 	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 98710
+			}
+		},
+	],
+
 }
 
 export default card

@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 90,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Patrat",
@@ -43,7 +45,7 @@ const card: Card = {
 		effect: {
 			en: "The Defending Pokémon is now Confused.",
 			fr: "Le Pokémon Défenseur est maintenant Confus."
-		},
+		}
 	}, {
 		cost: [
 			"Colorless",
@@ -70,6 +72,15 @@ const card: Card = {
 	},
 
 	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 98705
+			}
+		},
+	],
+
 }
 
 export default card
