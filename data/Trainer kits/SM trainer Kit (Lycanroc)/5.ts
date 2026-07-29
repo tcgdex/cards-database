@@ -17,9 +17,15 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 152819
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 152819
+			}
+		},
+	],
+
 }
 
 export default card
