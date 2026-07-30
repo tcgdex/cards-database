@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		346,
-	],
+	dexId: [346],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat.",
 				fr: "Tant que Vacilys est votre Pokémon Actif, le Pokémon de votre adversaire ne peut pas battre en retraite.",
 				de: "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat."
-			},
+			}
 		},
 	],
 
@@ -94,19 +92,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275780,
-		tcgplayer: 84451
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275780,
+				tcgplayer: 84451
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275780,
+				tcgplayer: 84451
+			}
 		},
-	]
+	],
+
 }
 
 export default card

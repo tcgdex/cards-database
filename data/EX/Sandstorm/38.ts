@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		314,
-	],
+	dexId: [314],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Leuchtender Schild"
 			},
 			effect: {
-				en: "As long as Volbeat is in play, any damage done to Illumise by attacks from Fire Pokémon and Dark Pokémon is reduced by 30. You can't reduce more than 30 damage even if there is more than 1 Volbeat in play.",
+				en: "As long as Volbeat is in play, any damage done to Illumise by attacks from Fighting Pokémon and Darkness Pokémon is reduced by 30. You can't reduce more than 30 damage even if there is more than 1 Volbeat in play.",
 				fr: "Tant que Muciole est en jeu, tous dégâts infligés à Lumivole par des attaques de Pokémon  et  sont réduits de 30, même s'il y a plus d'un Muciole en jeu.",
 				de: "Solange Volbeat im Spiel ist, wird jeder Schaden, der Illumise durch Angriffe von -Pokémon und -Pokémon zugefügt wird, um 30 Schadenspunkte reduziert. Der Schaden wird maximal um 30 Schadenspunkte reduziert, auch wenn mehr als 1 Volbeat im Spiel ist."
-			},
+			}
 		},
 	],
 
@@ -88,19 +86,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275815,
-		tcgplayer: 86264
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275815,
+				tcgplayer: 86264
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275815,
+				tcgplayer: 86264
+			}
 		},
-	]
+	],
+
 }
 
 export default card

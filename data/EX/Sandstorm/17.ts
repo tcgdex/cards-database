@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		55,
-	],
+	dexId: [55],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), if Golduck is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Confused. This power can't be used if Golduck is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Akwakwak est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur (choisissez en un s'il y en a deux) est maintenant Confus. Ce pouvoir ne peut pas être utilisé si Akwakwak est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), if Golduck is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Confused. This power can't be used if Golduck is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -77,19 +75,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275794,
-		tcgplayer: 85810
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275794,
+				tcgplayer: 85810
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275794,
+				tcgplayer: 85810
+			}
 		},
-	]
+	],
+
 }
 
 export default card

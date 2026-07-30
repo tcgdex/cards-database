@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		373,
-	],
+	dexId: [373],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -71,10 +69,40 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 88896,
-		cardmarket: 280584
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88896,
+				cardmarket: 280584
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88896,
+				cardmarket: 280584
+			},
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 213023,
+				cardmarket: 280584
+			},
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 213024,
+				cardmarket: 280584
+			},
+		},
+	],
+
 }
 
 export default card

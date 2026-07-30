@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		320,
-	],
+	dexId: [320],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -71,19 +69,24 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275860,
-		tcgplayer: 90451
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275860,
+				tcgplayer: 90451
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275860,
+				tcgplayer: 90451
+			}
 		},
-	]
+	],
+
 }
 
 export default card

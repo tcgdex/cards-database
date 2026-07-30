@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		75,
-	],
+	dexId: [75],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Gravalanch.",
 				de: "Does 10 damage times the amount of Energy attached to Graveler."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -75,17 +73,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85889,
+				cardmarket: 275906
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85889,
+				cardmarket: 275906
+			},
 		},
 	],
 
-
-	retreat: 3,
-
-	thirdParty: {
-		tcgplayer: 85889,
-		cardmarket: 275906
-	}
 }
 
 export default card

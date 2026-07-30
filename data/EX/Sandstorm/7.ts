@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		272,
-	],
+	dexId: [272],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "At any time between turns, remove 1 damage counter from Ludicolo.",
 				fr: "N'importe quand entre deux tours, retirez un marqueur de dégât à Ludicolo.",
 				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Kappalores."
-			},
+			}
 		},
 	],
 
@@ -78,19 +76,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275784,
-		tcgplayer: 86895
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275784,
+				tcgplayer: 86895
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275784,
+				tcgplayer: 86895
+			}
 		},
-	]
+	],
+
 }
 
 export default card

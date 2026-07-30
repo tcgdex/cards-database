@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		271,
-	],
+	dexId: [271],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -59,11 +57,11 @@ const card: Card = {
 				de: "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 20 damages times the number of heads.",
 				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
 				de: "Flip 3 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -78,19 +76,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275823,
-		tcgplayer: 86815
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275823,
+				tcgplayer: 86815
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275823,
+				tcgplayer: 86815
+			}
 		},
-	]
+	],
+
 }
 
 export default card
