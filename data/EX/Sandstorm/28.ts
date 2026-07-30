@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		347,
-	],
+	dexId: [347],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -60,7 +58,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -75,19 +73,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275805,
-		tcgplayer: 83558
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275805,
+				tcgplayer: 83558
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275805,
+				tcgplayer: 83558
+			}
 		},
-	]
+	],
+
 }
 
 export default card

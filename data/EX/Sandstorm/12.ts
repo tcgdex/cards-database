@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		275,
-	],
+	dexId: [275],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, votre adversaire reprend dans sa main une carte Énergie attachée au Pokémon Défenseur. Ce pouvoir ne peut pas être utilisé si Tengalice est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may flip a coin. If heads, return 1 Energy card attached to the Defending Pokémon to your opponent's hand. This power can't be used if Shiftry is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -79,19 +77,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275789,
-		tcgplayer: 89152
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275789,
+				tcgplayer: 89152
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275789,
+				tcgplayer: 89152
+			}
 		},
-	]
+	],
+
 }
 
 export default card

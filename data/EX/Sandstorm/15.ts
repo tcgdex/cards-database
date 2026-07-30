@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Arcanine is your Active Pokémon and is damaged by an opponent's attack (even if Arcanine is Knocked Out), the Attacking Pokémon is now Burned.",
 				fr: "Si Arcanin est votre Pokémon Actif et que l'attaque de votre adversaire lui inflige des dégâts (même si Arcanin est mis K.O), le Pokémon Attaquant est maintenant Brûlé.",
 				de: "Wenn Arkani dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Arkani kampfunfähig gemacht wird), ist das Angreifende Pokémon jetzt verbrannt."
-			},
+			}
 		},
 	],
 
@@ -78,19 +76,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275792,
-		tcgplayer: 83579
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275792,
+				tcgplayer: 83579
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275792,
+				tcgplayer: 83579
+			}
 		},
-	]
+	],
+
 }
 
 export default card

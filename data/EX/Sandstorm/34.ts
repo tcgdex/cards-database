@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		301,
-	],
+	dexId: [301],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -57,11 +55,11 @@ const card: Card = {
 				de: "Ultra Energiequelle"
 			},
 			effect: {
-				en: "Does 10 damage times the amount of basic Energy attached to all of the Active Pokémon (both yours and your opponent's).",
+				en: "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent's).",
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire).",
 				de: "Fügt für jede Basis-Energie, die an allen Aktiven Pokémon (deine und die des Gegners) angelegt ist, 10 Schadenspunkte zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -76,19 +74,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275811,
-		tcgplayer: 84736
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275811,
+				tcgplayer: 84736
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275811,
+				tcgplayer: 84736
+			}
 		},
-	]
+	],
+
 }
 
 export default card

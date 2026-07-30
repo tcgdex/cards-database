@@ -25,29 +25,37 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Jagged Stone",
 				de: "Gezackter Stein",
-				fr: "Pierre tranchante",
+				fr: "Pierre tranchante"
 			},
 			effect: {
+				en: "If Claw Fossil is your Active Pokémon and is damaged by an opponent's attack (even if Claw Fossil is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
 				de: "Wenn Klauenfossil dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Klauenfossil dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon.",
-				fr: "Si Fossile Griffe est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Fossile Griffe est mise K.O), placez un marqueur de dégât sur le Pokémon Attaquant.",
-			},
+				fr: "Si Fossile Griffe est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Fossile Griffe est mise K.O), placez un marqueur de dégât sur le Pokémon Attaquant."
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275867,
-		tcgplayer: 84328
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275867,
+				tcgplayer: 84328
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275867,
+				tcgplayer: 84328
+			}
 		},
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

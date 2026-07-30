@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		280,
-	],
+	dexId: [280],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -56,7 +54,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergie attachées au Pokémon Défenseur.",
 				de: "Does 10 damage times the amount of Energy attached to the Defending Pokémon."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -71,27 +69,39 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275851,
-		tcgplayer: 88553
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275851,
+				tcgplayer: 88553
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275851,
+				tcgplayer: 88553
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125136
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871815,
+				tcgplayer: 477425
+			}
 		}
-	]
+	],
+
 }
 
 export default card

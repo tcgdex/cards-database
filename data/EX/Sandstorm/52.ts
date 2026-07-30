@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		288,
-	],
+	dexId: [288],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, base damage of Vigoroth's slash attack is 90 instead of 40.",
+				en: "During your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Tranche de Vigoroth sont de 90 et non de 40.",
 				de: "Durig your next turn, base damage of Vigoroth's Slash is attack is 90 instead of 40."
 			},
@@ -74,19 +72,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275829,
-		tcgplayer: 90367
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275829,
+				tcgplayer: 90367
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275829,
+				tcgplayer: 90367
+			}
 		},
-	]
+	],
+
 }
 
 export default card

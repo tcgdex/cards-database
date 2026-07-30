@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		271,
-	],
+	dexId: [271],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "At any time between turns, remove 1 damage counter from Lombre.",
 				fr: "N'importe quand entre deux tours, retirez à Lombre un marqueur de dégât.",
 				de: "At any time between turns, remove 1 damage counter from Lombre."
-			},
+			}
 		},
 	],
 
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de face.",
 				de: "Flip 2 coins. This attack does 30 damage times the number of heads."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -77,23 +75,32 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275822,
-		tcgplayer: 86814
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275822,
+				tcgplayer: 86814
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275822,
+				tcgplayer: 86814
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 871527,
+				tcgplayer: 477545
+			}
 		},
-	]
+	],
+
 }
 
 export default card

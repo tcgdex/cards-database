@@ -20,31 +20,49 @@ const card: Card = {
 		de: "Choose 1 of your Basic Pokémon in play. If you have a Stage 1 or Stage 2 card that evolves from that Pokémon in your hand, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.)"
 	},
 
-	thirdParty: {
-		cardmarket: 275865,
-		tcgplayer: 88589
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275865,
+				tcgplayer: 88589
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275865,
+				tcgplayer: 88589
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871851,
+				tcgplayer: 477427
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871850,
+				tcgplayer: 477428
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871849,
+				tcgplayer: 477426
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card
