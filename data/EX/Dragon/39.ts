@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		117,
-	],
+	dexId: [117],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -71,17 +69,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89012,
+				cardmarket: 275916
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89012,
+				cardmarket: 275916
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		tcgplayer: 89012,
-		cardmarket: 275916
-	}
 }
 
 export default card

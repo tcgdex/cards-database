@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 150,
 
+	stage: "Basic",
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -71,30 +70,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 3,
 
-	thirdParty: {
-		tcgplayer: 83550,
-		cardmarket: 275966
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83550,
+				cardmarket: 275966
+			},
+		},
+	],
+
 }
 
 export default card
