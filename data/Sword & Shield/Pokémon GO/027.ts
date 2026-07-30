@@ -59,7 +59,7 @@ const card: Card = {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
 	},
 
-	
+
 
 	variants: [
 		{
@@ -74,6 +74,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665260,
 				tcgplayer: 276946
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 669496,
+				tcgplayer: 279927
 			}
 		},
 	],

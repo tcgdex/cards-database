@@ -72,7 +72,7 @@ const card: Card = {
 		en: "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
 	},
 
-	
+
 
 	variants: [
 		{
@@ -87,6 +87,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665264,
 				tcgplayer: 276954
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['jesse-parker'],
+			thirdParty: {
+				cardmarket: 815464,
+				tcgplayer: 637603
 			}
 		},
 	],
