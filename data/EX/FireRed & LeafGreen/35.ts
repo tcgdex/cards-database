@@ -84,9 +84,13 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
-			foil: "energy"
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276211,
+				tcgplayer: 86297
+			},
 		}
-	]
+	],
 }
 
 export default card

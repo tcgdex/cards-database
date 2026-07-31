@@ -20,23 +20,31 @@ const card: Card = {
 		de: "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
 	},
 
-	thirdParty: {
-		tcgplayer: 88403
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276274,
+				tcgplayer: 88403
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276274,
+				tcgplayer: 88403
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 176629
+			},
 		},
-	]
+	],
 }
 
 export default card

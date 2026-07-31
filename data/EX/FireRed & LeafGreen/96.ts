@@ -22,11 +22,19 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276272,
+				tcgplayer: 88201
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276272,
+				tcgplayer: 88201
+			}
 		}
 	]
 }

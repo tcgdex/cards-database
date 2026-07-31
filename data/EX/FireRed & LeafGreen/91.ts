@@ -20,19 +20,24 @@ const card: Card = {
 		de: "Wenn im Zug deines Gegners 1 deiner Aktiven Pokémon durch den Anrgiff deines Gegners kampfunfähig wird, kannst du 1 Basis-Energiekarte, die an dem angegriffenen Aktiven Pokémon angelegt ist, an das Pokémon anlegen, an dem EP-Teiler angelegt ist. Wenn du das machst, lege EP-Teiler auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		cardmarket: 276267
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276267,
+				tcgplayer: 85368,
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276267,
+				tcgplayer: 85368,
+			},
+		},
+	],
 }
 
 export default card

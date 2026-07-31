@@ -23,7 +23,7 @@ const card: Card = {
 	stage: "Basic",
 
 
-	
+
 
 	retreat: 1,
 
@@ -72,11 +72,19 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276247,
+				tcgplayer: 87726,
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276247,
+				tcgplayer: 87726,
+			}
 		}
 	]
 }
