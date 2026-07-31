@@ -80,11 +80,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
 			type: "holo",
 			foil: "cosmos"
+		},
+		{
+			type: "normal"
 		},
 		{
 			type: "reverse",
@@ -94,7 +94,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["takashi-yoneda"]
 		}
-	]
+	],
 }
 
 export default card

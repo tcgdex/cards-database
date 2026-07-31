@@ -71,7 +71,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
+			type: "reverse",
 			stamp: ["set-logo"]
 		},
 		{

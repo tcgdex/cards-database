@@ -74,7 +74,7 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 0,
 
 	thirdParty: {
@@ -84,13 +84,14 @@ const card: Card = {
 
 	variants: [
 		{
+			type: "holo",
+		},
+		{
 			type: "reverse",
 			stamp: ["set-logo"]
 		},
-		{
-			type: "holo",
-		}
-	]
+	],
+
 }
 
 export default card
