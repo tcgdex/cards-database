@@ -87,7 +87,7 @@ const card: Card = {
 			foil: "cosmos"
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			stamp: ["set-logo"]
 		},
 		{
