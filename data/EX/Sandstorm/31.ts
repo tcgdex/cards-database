@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		298,
-	],
+	dexId: [298],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill), and remove all damage counters from Azurill.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Marill de votre main sur Azurill (vous faites ainsi évoluer Azurill). Retirez à Azurill tous ses marqueurs de dégât.",
 				de: "Once during your turn (before your attack), you may put Marill from your hand onto Azurill (this counts as evolving Azurill), and remove all damage counters from Azurill."
-			},
+			}
 		},
 	],
 
@@ -70,19 +68,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275808,
-		tcgplayer: 83688
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275808,
+				tcgplayer: 83688
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275808,
+				tcgplayer: 83688
+			}
 		},
-	]
+	],
+
 }
 
 export default card

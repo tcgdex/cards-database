@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		178,
-	],
+	dexId: [178],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may remove 1 damage counter from each of your Active Pokémon. This power can't be used if Xatu is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât à chacun de vos Pokémon Actifs. Ce pouvoir ne peut pas être utilisé si Xatu est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von jedem deiner Aktiven Pokémon entfernen. Diese Poké-Power kann nicht verwendet werden, falls Xatu von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -83,23 +81,31 @@ const card: Card = {
 	
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 275832,
-		tcgplayer: 90662
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275832,
+				tcgplayer: 90662
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275832,
+				tcgplayer: 90662
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125153
+			}
 		},
-	]
+	],
+
 }
 
 export default card

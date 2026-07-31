@@ -262,6 +262,8 @@
 		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "grey-star",
+		"scrye": "scrye",
+		"inquest-gamer": "inquest-gamer",
 		"pop-tournament": "pop-tournament",
 		"chicago-2009": "chicago-2009",
 		"chase-moloney": "chase-moloney"
@@ -292,6 +294,7 @@
 		"1995-1998-copyright": "Copyright 1995-1998",
 		"shadowless-red-cheek": "guancia rossa senza ombre",
 		"no-rarity": "Senza rarità",
+		"missing-retreat-cost": "Costo di ritirata mancante",
 		"phanphy-error" : "Errore di phanphy"
 	}
 }

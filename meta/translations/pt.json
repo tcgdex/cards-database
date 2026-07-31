@@ -261,6 +261,8 @@
 		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "estrela cinza",
+		"scrye": "scrye",
+		"inquest-gamer": "inquest-gamer",
 		"pop-tournament": "pop-tournament",
 		"chicago-2009": "chicago-2009",
 		"chase-moloney": "chase-moloney"
@@ -291,6 +293,7 @@
 		"nintedo-error": "Erro de Nintedo",
 		"1995-1998-copyright": "Copyright 1995-1998",
 		"no-rarity": "Sem raridade",
+		"misisng-retreat-cost" : "Custo de recuo ausente",
 		"phanphy-error" : "error de phanphy"
 	}
 }

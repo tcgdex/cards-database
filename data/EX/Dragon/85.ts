@@ -20,10 +20,23 @@ const card: Card = {
 		de: "Each players pays  less to retreat his or her  and  Pokémon.",
 	},
 
-	thirdParty: {
-		tcgplayer: 86076,
-		cardmarket: 275962
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86076,
+				cardmarket: 275962
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86076,
+				cardmarket: 275962
+			},
+		},
+	],
+
 }
 
 export default card

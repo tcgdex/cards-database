@@ -261,6 +261,8 @@
 		"thank-you": "thank-you",
 		"jr-stamp-rally": "jr-stamp-rally",
 		"grey-star": "étoile grise",
+		"scrye": "scrye",
+		"inquest-gamer": "inquest-gamer",
 		"pop-tournament": "pop-tournament",
 		"chicago-2009": "chicago-2009",
 		"chase-moloney": "chase-moloney"
@@ -292,6 +294,7 @@
 		"nintedo-error": "Erreur Nintedo",
 		"1995-1998-copyright": "Copyright 1995-1998",
 		"no-rarity": "Sans rareté",
+		"missing-retreat-cost": "Coût de retraite manquant",
 		"phanphy-error" : "Erreur de phanphy"
 	}
 }

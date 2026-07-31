@@ -20,10 +20,24 @@ const card: Card = {
 		de: "Each  and  Pokémon in play (both yours and your opponent's) gets +10HP.",
 	},
 
-	thirdParty: {
-		tcgplayer: 86846,
-		cardmarket: 275963
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86846,
+				cardmarket: 275963
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86846,
+				cardmarket: 275963
+			},
+		},
+	],
+
 }
 
 export default card

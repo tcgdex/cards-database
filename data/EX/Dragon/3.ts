@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hisao Nakamura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		342,
-	],
+	dexId: [342],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -67,26 +65,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 84461,
-		cardmarket: 275880
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84461,
+				cardmarket: 275880
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84461,
+				cardmarket: 275880
+			},
+		},
+	],
+
 }
 
 export default card

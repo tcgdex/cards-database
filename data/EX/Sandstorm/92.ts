@@ -25,29 +25,37 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Spongy Stone",
 				de: "Schwammiger Stein",
-				fr: "Pierre spongieuse",
+				fr: "Pierre spongieuse"
 			},
 			effect: {
+				en: "At any time between turns, remove 1 damage counter from Root Fossil.",
 				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Wurzelfossil.",
-				fr: "N'importe quand entre deux tours, retirez à Fossile racine un marqueur de dégât.",
-			},
+				fr: "N'importe quand entre deux tours, retirez à Fossile racine un marqueur de dégât."
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275869,
-		tcgplayer: 88810
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275869,
+				tcgplayer: 88810
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275869,
+				tcgplayer: 88810
+			}
 		},
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

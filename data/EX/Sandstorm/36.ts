@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		239,
-	],
+	dexId: [239],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer Elektek de votre main sur Elekid (vous faites ainsi évoluer Elekid). Retirez à Elekid tous ses marqueurs de dégât.",
 				de: "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid), and remove all damage counters from Elekid."
-			},
+			}
 		},
 	],
 
@@ -70,19 +68,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275813,
-		tcgplayer: 85169
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275813,
+				tcgplayer: 85169
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275813,
+				tcgplayer: 85169
+			}
 		},
-	]
+	],
+
 }
 
 export default card
