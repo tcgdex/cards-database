@@ -20,20 +20,25 @@ const card: Card = {
 		de: "When the Pokémon Balloon Berry is attached to retreats, discard Balloon Berry instead of discarding Energy cards."
 	},
 
-	thirdParty: {
-		tcgplayer: 83706,
-		cardmarket: 276487
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83706,
+				cardmarket: 276487
+			},
 		},
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
-		}
-	]
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 83706,
+				cardmarket: 276487
+			},
+		},
+	],
+
 }
 
 export default card

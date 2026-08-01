@@ -72,32 +72,49 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 88625,
-		cardmarket: 276425
-	},
 
 	variants: [
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88625,
+				cardmarket: 276425
+			},
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 88625,
+				cardmarket: 276425
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88625,
+				cardmarket: 276425
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["gym-challenge"]
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 88625,
+				cardmarket: 276425
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pokemon-day"]
+			stamp: ["pokemon-day"],
+			thirdParty: {
+				tcgplayer: 88625,
+				cardmarket: 276425
+			},
 		},
-	]
+	],
+
 }
 
 export default card
