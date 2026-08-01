@@ -75,7 +75,7 @@ const card: Card = {
 			type: "normal",
 		},
 		{
-			type: "normal",
+			type: "reverse",
 			stamp: ["set-logo"]
 		}
 	]

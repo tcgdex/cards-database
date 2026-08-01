@@ -106,7 +106,7 @@ const card: Card = {
 			type: "holo",
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			stamp: ["set-logo"]
 		},
 		{
