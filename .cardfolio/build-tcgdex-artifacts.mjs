@@ -21,12 +21,16 @@ function positiveId(value) {
   return Number.isInteger(parsed) && parsed > 0 ? parsed : null;
 }
 
+function normalizedStamps(value) {
+  return Array.isArray(value) ? [...new Set(value)].sort() : [];
+}
+
 function generatedVariantId(cardId, variant) {
   const signature = JSON.stringify({
     type: variant.type ?? "normal",
     subtype: variant.subtype ?? null,
     size: variant.size ?? "standard",
-    stamp: Array.isArray(variant.stamp) ? [...variant.stamp].sort() : [],
+    stamp: normalizedStamps(variant.stamp),
     foil: variant.foil ?? null,
   });
   return `generated-${createHash("sha256").update(`${cardId}:${signature}`).digest("hex").slice(0, 16)}`;
@@ -37,7 +41,7 @@ function variantLabel(variant) {
     variant.type ?? "Normal",
     variant.subtype,
     variant.size && variant.size !== "Standard" && variant.size !== "standard" ? variant.size : null,
-    ...(Array.isArray(variant.stamp) ? variant.stamp : []),
+    ...normalizedStamps(variant.stamp),
     variant.foil,
   ].filter(Boolean).join(" · ");
 }
@@ -163,7 +167,7 @@ for (const language of LANGUAGES) {
           type: variant.type ?? "normal",
           subtype: variant.subtype ?? null,
           size: variant.size ?? "standard",
-          stamps: Array.isArray(variant.stamp) ? variant.stamp : [],
+          stamps: normalizedStamps(variant.stamp),
           foilPattern: variant.foil ?? null,
           displayName: variantLabel(variant),
           tcgplayerProductId: positiveId(variant.thirdParty?.tcgplayer),

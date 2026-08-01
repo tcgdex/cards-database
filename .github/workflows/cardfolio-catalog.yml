@@ -25,6 +25,8 @@ jobs:
         run: |
           git remote add upstream https://github.com/tcgdex/cards-database.git
           git fetch upstream master
+          git fetch origin master
+          git reset --hard origin/master
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git merge --no-edit upstream/master
