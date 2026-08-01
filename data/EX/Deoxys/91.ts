@@ -41,8 +41,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["10th-anniversary"],
 			thirdParty: {
-				tcgplayer: 89434,
-				cardmarket: 276494
+				tcgplayer: 286613,
 			},
 		},
 	],

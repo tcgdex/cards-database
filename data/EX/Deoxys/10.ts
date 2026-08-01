@@ -116,8 +116,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 86897,
-				cardmarket: 276413
+				tcgplayer: 477549,
 			},
 		},
 	],

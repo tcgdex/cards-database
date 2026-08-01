@@ -41,16 +41,16 @@ const card: Card = {
 			type: "normal",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 89575,
-				cardmarket: 276495
+				tcgplayer: 477590,
+				cardmarket: 871577
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["jimmy-ballard"],
 			thirdParty: {
-				tcgplayer: 89575,
-				cardmarket: 276495
+				tcgplayer: 477969,
+				cardmarket: 869584
 			},
 		},
 	],

@@ -41,24 +41,24 @@ const card: Card = {
 			type: "normal",
 			stamp: ["takashi-yoneda"],
 			thirdParty: {
-				tcgplayer: 86037,
-				cardmarket: 276497
+				tcgplayer: 477529,
+				cardmarket: 871585
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 86037,
-				cardmarket: 276497
+				tcgplayer: 477530,
+				cardmarket: 871584
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["jeremy-maron"],
 			thirdParty: {
-				tcgplayer: 86037,
-				cardmarket: 276497
+				tcgplayer: 477532,
+				cardmarket: 871583
 			},
 		},
 	],

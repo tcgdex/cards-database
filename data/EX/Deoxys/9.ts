@@ -100,16 +100,16 @@ const card: Card = {
 			type: "holo",
 			stamp: ["curran-hill"],
 			thirdParty: {
-				tcgplayer: 86327,
-				cardmarket: 276412
+				tcgplayer: 477535,
+				cardmarket: 871511
 			},
 		},
 		{
 			type: "holo",
 			stamp: ["michael-gonzalez"],
 			thirdParty: {
-				tcgplayer: 86327,
-				cardmarket: 276412
+				tcgplayer: 477543,
+				cardmarket: 871512
 			},
 		},
 	],

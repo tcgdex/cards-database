@@ -75,6 +75,13 @@ const card: Card = {
 
 	variants: [
 		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88625,
+				cardmarket: 276425
+			},
+		},
+		{
 			type: "reverse",
 			stamp: ["set-logo"],
 			thirdParty: {
@@ -86,32 +93,20 @@ const card: Card = {
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				tcgplayer: 88625,
-				cardmarket: 276425
-			},
-		},
-		{
-			type: "normal",
-			thirdParty: {
-				tcgplayer: 88625,
-				cardmarket: 276425
+				tcgplayer: 43053,
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["gym-challenge"],
 			thirdParty: {
-				tcgplayer: 88625,
-				cardmarket: 276425
+				tcgplayer: 213012,
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["pokemon-day"],
-			thirdParty: {
-				tcgplayer: 88625,
-				cardmarket: 276425
-			},
+			languages: ['de']
 		},
 	],
 

@@ -69,11 +69,16 @@ const card: Card = {
 		},
 	],
 
-
 	retreat: 1,
 
-
 	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84763,
+				cardmarket: 276419
+			},
+		},
 		{
 			type: "reverse",
 			stamp: ["set-logo"],
@@ -84,51 +89,38 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			stamp: ['destiny-deoxys'],
 			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
+				tcgplayer: 167223,
 			},
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
-			},
-		},
-		{
-			type: "normal",
-			stamp: ["destiny-deoxys"],
-			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
-			},
-		},
-		{
-			type: "normal",
-			stamp: ["pokemon-day"],
-			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
+				tcgplayer: 174493,
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["regional-championships"],
 			thirdParty: {
-				tcgplayer: 84763,
-				cardmarket: 276419
+				tcgplayer: 174492,
+				cardmarket: 449433
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["stadium-challenge"],
 			thirdParty: {
-				tcgplayer: 84763,
 				cardmarket: 276419
 			},
 		},
+		{
+			type: "normal",
+			stamp: ["pokemon-day"],
+			languages: ['de']
+		}
 	],
 
 }

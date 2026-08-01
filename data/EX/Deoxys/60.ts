@@ -93,8 +93,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["jason-klaczynski"],
 			thirdParty: {
-				tcgplayer: 85133,
-				cardmarket: 276463
+				tcgplayer: 477612,
+				cardmarket: 869533
 			},
 		},
 	],

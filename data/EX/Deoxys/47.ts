@@ -107,16 +107,16 @@ const card: Card = {
 			type: "normal",
 			stamp: ["miska-saari"],
 			thirdParty: {
-				tcgplayer: 89426,
-				cardmarket: 276450
+				tcgplayer: 477962,
+				cardmarket: 869549
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["jeremy-scharff-kim"],
 			thirdParty: {
-				tcgplayer: 89426,
-				cardmarket: 276450
+				tcgplayer: 479732,
+				cardmarket: 869383
 			},
 		},
 	],

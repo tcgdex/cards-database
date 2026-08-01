@@ -80,6 +80,13 @@ const card: Card = {
 
 	variants: [
 		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 97749,
+				cardmarket: 276407
+			},
+		},
+		{
 			type: "reverse",
 			stamp: ["set-logo"],
 			thirdParty: {
@@ -88,17 +95,9 @@ const card: Card = {
 			},
 		},
 		{
-			type: "holo",
-			thirdParty: {
-				tcgplayer: 97749,
-				cardmarket: 276407
-			},
-		},
-		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 97749,
-				cardmarket: 276407
+				tcgplayer: 84089,
 			},
 		},
 	],
