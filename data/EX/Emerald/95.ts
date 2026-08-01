@@ -103,12 +103,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87277,
+				cardmarket: 276606
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				tcgplayer: 477551,
+				cardmarket: 871510
+			},
 		}
-	]
+	],
 }
 
 export default card
