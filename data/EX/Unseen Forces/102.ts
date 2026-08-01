@@ -95,24 +95,32 @@ const card: Card = {
 	
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 276748,
-		tcgplayer: 85331
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85331,
+				cardmarket: 276748
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["jimmy-ballard"]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				tcgplayer: 85331,
+				cardmarket: 276748
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["tom-roos"]
+			stamp: ["tom-roos"],
+			thirdParty: {
+				tcgplayer: 85331,
+				cardmarket: 276748
+			},
 		}
-	]
+	],
 }
 
 export default card

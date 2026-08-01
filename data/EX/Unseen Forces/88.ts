@@ -20,27 +20,36 @@ const card: Card = {
 		de: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon and switch it with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
 	},
 
-	thirdParty: {
-		cardmarket: 276734
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 276734
+			},
 		},
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276734
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["miska-saari"]
+			stamp: ["miska-saari"],
+			thirdParty: {
+				cardmarket: 276734
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-scharff-kim"]
+			stamp: ["jeremy-scharff-kim"],
+			thirdParty: {
+				cardmarket: 276734
+			},
 		}
-	]
+	],
 }
 
 export default card

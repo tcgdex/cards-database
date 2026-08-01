@@ -57,28 +57,40 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276675,
-		tcgplayer: 86906
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86906,
+				cardmarket: 276675
+			},
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 86906,
+				cardmarket: 276675
+			},
 		},
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86906,
+				cardmarket: 276675
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pokemon-rocks-america"]
+			stamp: ["pokemon-rocks-america"],
+			thirdParty: {
+				tcgplayer: 86906,
+				cardmarket: 276675
+			},
 		}
-	]
+	],
 }
 
 export default card
