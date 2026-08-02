@@ -95,6 +95,13 @@ const card: Card = {
 				tcgplayer: 704813
 			}
 		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 895841,
+				tcgplayer: 704813
+			}
+		}
 	],
 }
 
