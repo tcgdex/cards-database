@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	rarity: "Common",
 	category: "Trainer",
+	hp: 60,
 
 	abilities: [{
 		type: "Ability",
