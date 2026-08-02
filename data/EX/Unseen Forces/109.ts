@@ -125,8 +125,8 @@ const card: Card = {
 			type: "holo",
 			stamp: ["hiroki-yano"],
 			thirdParty: {
-				tcgplayer: 89566,
-				cardmarket: 276755
+				tcgplayer: 477965,
+				cardmarket: 869516
 			},
 		}
 	],

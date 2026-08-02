@@ -25,14 +25,16 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 276733
+				cardmarket: 276733,
+				tcgplayer: 88184,
 			},
 		},
 		{
 			type: "reverse",
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 276733
+				cardmarket: 276733,
+				tcgplayer: 88184,
 			},
 		}
 	],

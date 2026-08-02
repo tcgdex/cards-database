@@ -41,24 +41,24 @@ const card: Card = {
 			type: "normal",
 			stamp: ["jason-klaczynski"],
 			thirdParty: {
-				tcgplayer: 87243,
-				cardmarket: 276732
+				tcgplayer: 477868,
+				cardmarket: 869572
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["miska-saari"],
 			thirdParty: {
-				tcgplayer: 87243,
-				cardmarket: 276732
+				tcgplayer: 477866,
+				cardmarket: 869573
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["tom-roos"],
 			thirdParty: {
-				tcgplayer: 87243,
-				cardmarket: 276732
+				tcgplayer: 479704,
+				cardmarket: 869464
 			},
 		}
 	],

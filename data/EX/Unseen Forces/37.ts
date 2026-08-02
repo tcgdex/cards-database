@@ -91,8 +91,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["akira-miyazaki"],
 			thirdParty: {
-				tcgplayer: 84440,
-				cardmarket: 276683
+				tcgplayer: 479529,
+				cardmarket: 869360
 			},
 		}
 	],

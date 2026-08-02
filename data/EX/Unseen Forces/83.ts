@@ -41,8 +41,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["miska-saari"],
 			thirdParty: {
-				tcgplayer: 85235,
-				cardmarket: 276729
+				tcgplayer: 477614,
+				cardmarket: 869590
 			},
 		}
 	],

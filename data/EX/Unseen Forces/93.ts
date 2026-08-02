@@ -41,16 +41,16 @@ const card: Card = {
 			type: "normal",
 			stamp: ["hiroki-yano"],
 			thirdParty: {
-				tcgplayer: 90479,
-				cardmarket: 276739
+				tcgplayer: 477976,
+				cardmarket: 869570
 			},
 		},
 		{
 			type: "normal",
 			stamp: ["miska-saari"],
 			thirdParty: {
-				tcgplayer: 90479,
-				cardmarket: 276739
+				tcgplayer: 477977,
+				cardmarket: 869571
 			},
 		}
 	],

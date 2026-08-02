@@ -103,8 +103,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["pre-release"],
 			thirdParty: {
-				tcgplayer: 83746,
-				cardmarket: 276681
+				tcgplayer: 232876,
+				cardmarket: 882856
 			},
 		}
 	],

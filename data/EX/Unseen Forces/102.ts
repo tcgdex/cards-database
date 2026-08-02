@@ -108,16 +108,16 @@ const card: Card = {
 			type: "holo",
 			stamp: ["jimmy-ballard"],
 			thirdParty: {
-				tcgplayer: 85331,
-				cardmarket: 276748
+				tcgplayer: 477615,
+				cardmarket: 869543
 			},
 		},
 		{
 			type: "holo",
 			stamp: ["tom-roos"],
 			thirdParty: {
-				tcgplayer: 85331,
-				cardmarket: 276748
+				tcgplayer: 479658,
+				cardmarket: 869411
 			},
 		}
 	],
