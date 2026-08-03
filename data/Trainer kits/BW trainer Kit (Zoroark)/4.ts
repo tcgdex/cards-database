@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 	stage: "Basic",
 
 	attacks: [{
@@ -46,6 +48,16 @@ const card: Card = {
 	},
 
 	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280081,
+				tcgplayer: 98706
+			}
+		},
+	],
+
 }
 
 export default card
