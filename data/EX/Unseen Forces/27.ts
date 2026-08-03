@@ -68,31 +68,39 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276673,
-		tcgplayer: 86122
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86122,
+				cardmarket: 276673
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86122,
+				cardmarket: 276673
+			},
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 181559,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "normal",
-			stamp: ["pokemon-day"]
+			languages: ['it'],
+			stamp: ["pokemon-day"],
 		}
-	]
+	],
 }
 
 export default card

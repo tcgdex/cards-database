@@ -20,20 +20,24 @@ const card: Card = {
 		fr: "Énergie Cyclone fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez 1 des Pokémon Défenseurs avec 1 des Pokémon de Banc de votre adversaire. Votre adversaire choisit le Pokémon de Banc à échanger.",
 	},
 
-	thirdParty: {
-		cardmarket: 276745,
-		tcgplayer: 84540
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84540,
+				cardmarket: 276745
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84540,
+				cardmarket: 276745
+			},
 		}
-	]
+	],
 }
 
 export default card
