@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8"
+import { Card } from "../../../interfaces";
+import Set from "../S8";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "掘地兔"
+		ja: "ホルード",
+		'zh-tw': "掘地兔",
 	},
 
 	illustrator: "MAHOU",
@@ -14,38 +14,56 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "肚子上的體毛保溫性能優秀。在過去，人們會用牠掉落的毛來製作保暖服裝。"
+		ja: "お腹の 体毛は 保温性に 優れる。 昔の 人は 抜けた 体毛で 防寒着を つくった。",
+		'zh-tw': "肚子上的體毛保溫性能優秀。在過去，人們會用牠掉落的毛來製作保暖服裝。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "頭突"
+	attacks: [
+		{
+			name: {
+				ja: "ぶちかます",
+				'zh-tw': "頭突",
+			},
+			damage: 80,
+			cost: ["Colorless", "Colorless", "Colorless"],
 		},
-
-		damage: 80,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "猛撞"
+		{
+			name: {
+				ja: "とっしん",
+				'zh-tw': "猛撞",
+			},
+			damage: 150,
+			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "このポケモンにも30ダメージ。",
+				'zh-tw': "這隻寶可夢也受到30點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這隻寶可夢也受到30點傷害。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 575639,
+				tcgplayer: 569585,
+			},
 		},
+	],
 
-		damage: 150,
-		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ホルビー",
+	},
 
 	retreat: 4,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [660],
+};
 
-export default card
+export default card;
