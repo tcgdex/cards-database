@@ -8,6 +8,16 @@ const card: Card = {
 	},
 	illustrator: "AYUMI ODASHIMA",
 	category: "Trainer",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840645,
+				tcgplayer: 647225,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	effect: {
 		ja: "おたがいのプレイヤーは、自分の番ごとに1回、手札からエネルギーカードを1枚トラッシュするなら、自分の手札の枚数が、自分の場の超エネルギーポケモンの数と同じ枚数になるように山札を引いてもよい。"

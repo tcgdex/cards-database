@@ -34,6 +34,16 @@ const card: Card = {
 		type: "Fighting",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840610,
+				tcgplayer: 647238,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Double rare",

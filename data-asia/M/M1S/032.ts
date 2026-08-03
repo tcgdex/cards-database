@@ -11,6 +11,16 @@ const card: Card = {
 	hp: 330,
 	types: ["Lightning"],
 	stage: "Stage1",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840588,
+				tcgplayer: 647250,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ラクライ"
 	},

@@ -25,6 +25,16 @@ const card: Card = {
 		type: "Fire",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840623,
+				tcgplayer: 647261,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Illustration rare",

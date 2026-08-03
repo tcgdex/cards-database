@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "念力の威力は絶大。進化に備えて額の星にサイコパワーを蓄えている。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840596,
+				tcgplayer: 647232,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ケーシィ"
 	},

@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "首の周りから出されるスパイシーな香りを嗅いでいるとなぜだか戦いたくなる。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840543,
+				tcgplayer: 647243,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "チコリータ"
 	},

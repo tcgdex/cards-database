@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "触角で大気の流れを察知する。りんぷんに冷気を織り交ぜ雪のように降らせる。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840579,
+				tcgplayer: 647276,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ユキハミ"
 	},

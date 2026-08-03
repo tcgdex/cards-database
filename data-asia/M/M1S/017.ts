@@ -31,6 +31,16 @@ const card: Card = {
 		type: "Metal",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840567,
+				tcgplayer: 647245,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Common",

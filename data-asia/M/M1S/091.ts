@@ -8,6 +8,16 @@ const card: Card = {
 	},
 	illustrator: "Jiro Sasumo",
 	category: "Trainer",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840650,
+				tcgplayer: 647223,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	effect: {
 		ja: "自分の「メガシンカex」1匹のHPを、すべて回復する。その後、回復したポケモンについているエネルギーを、すべて手札にもどす。"

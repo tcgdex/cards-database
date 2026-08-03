@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "メガニウムのそばにいると森林浴をしたようなすがすがしい気分になれる。"
 	},
 	stage: "Stage2",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840545,
+				tcgplayer: 647244,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ベイリーフ"
 	},
