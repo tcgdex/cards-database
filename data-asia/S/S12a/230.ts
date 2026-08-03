@@ -1,66 +1,70 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ヒスイ ダイケンキVSTAR",
 		'zh-tw': "洗翠 大劍鬼VSTAR",
-		ja: "ヒスイ ダイケンキVSTAR"
 	},
 
 	illustrator: "Shibuzoh.",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Darkness"],
-	stage: "VMAX",
 
-	abilities: [{
-		type: "Ability",
+	stage: "VSTAR",
 
-		name: {
-			'zh-tw': "殘月星星"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ザンゲツスター",
+				'zh-tw': "殘月星星",
+			},
+			effect: {
+				ja: "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'zh-tw': "在自己的回合時可使用。在對手的1隻寶可夢身上放置4個傷害指示物。[對戰中，己方只可使用1次【VSTAR】力量。]",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合時可使用。在對手的1隻寶可夢身上放置4個傷害指示物。[對戰中，己方只可使用1次【VSTAR】力量。]"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "狠心利刃",
-			ja: "むじひなやいば"
+	attacks: [
+		{
+			name: {
+				ja: "むじひなやいば",
+				'zh-tw': "狠心利刃",
+			},
+			damage: "110+",
+			cost: ["Darkness", "Darkness"],
+			effect: {
+				ja: "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。",
+				'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加110點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加110點傷害。",
-			ja: "相手のバトルポケモンにダメカンがのっているなら、110ダメージ追加。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687792,
+				tcgplayer: 571768,
+			},
 		},
+	],
 
-		damage: "110＋",
-		cost: ["Darkness", "Darkness"]
-	}, {
-		name: {
-			ja: "特性"
-		}
-	}, {
-		name: {
-			ja: "ザンゲツスター"
-		},
-
-		effect: {
-			ja: "自分の番に使える。相手のポケモン1匹に、ダメカンを4個のせる。［対戦中、自分はVSTARパワーを1回しか使えない。］"
-		}
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ヒスイ ダイケンキV",
+	},
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Special illustration rare",
+	dexId: [503],
+};
 
-export default card
+export default card;
