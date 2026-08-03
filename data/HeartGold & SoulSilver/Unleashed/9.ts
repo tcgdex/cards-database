@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Sachiko Adachi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		185,
-	],
+	dexId: [185],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie Fighting attachées à Simularbre.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzhal der an Mogelbaum angelegten -Energien zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Grollen"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -79,17 +77,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89596,
+				cardmarket: 279165
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89596,
+				cardmarket: 279165
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279165,
-		tcgplayer: 89596
-	}
 }
 
 export default card

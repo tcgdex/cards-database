@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		190,
-	],
+	dexId: [190],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Schweifcode"
 			},
 			effect: {
-				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent’s Pokémon.",
+				en: "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.",
 				fr: "Prenez une carte Énergie attachée au Pokémon Défenseur et attachez-la à un autre des Pokémon de votre adversaire.",
 				de: "Lege eine an das Verteidigende Pokémon angelegte Energiekarte an 1 anderes Pokémon deines Gegners an."
 			},
@@ -77,10 +75,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83492,
+				cardmarket: 279199
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83492,
+				cardmarket: 279199
+			}
 		},
 		{
 			type: "normal",
@@ -93,10 +99,6 @@ const card: Card = {
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279199,
-		tcgplayer: 83492
-	}
 }
 
 export default card

@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		62,
-	],
+	dexId: [62],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Poliwhirl",
-		fr: "Tetarte",
+		fr: "Tetarte"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				de: "Überrollen"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -85,26 +83,36 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88279,
+				cardmarket: 279177
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 88279,
+				cardmarket: 279177
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				tcgplayer: 220667
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
 			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 220668
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279177,
-		tcgplayer: 88279
-	}
 }
 
 export default card

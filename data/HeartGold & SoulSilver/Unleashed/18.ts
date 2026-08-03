@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		171,
-	],
+	dexId: [171],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Chinchou",
-		fr: "Loupio",
+		fr: "Loupio"
 	},
 
 	stage: "Stage1",
@@ -84,17 +82,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86610,
+				cardmarket: 279174
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86610,
+				cardmarket: 279174
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279174,
-		tcgplayer: 86610
-	}
 }
 
 export default card

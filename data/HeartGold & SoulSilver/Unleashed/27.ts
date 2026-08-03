@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		217,
-	],
+	dexId: [217],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Teddiursa",
-		fr: "Teddiursa",
+		fr: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -80,17 +78,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90254,
+				cardmarket: 279183
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90254,
+				cardmarket: 279183
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279183,
-		tcgplayer: 90254
-	}
 }
 
 export default card

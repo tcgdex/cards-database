@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		95,
-	],
+	dexId: [95],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Energie-Heiler"
 			},
 			effect: {
-				en: "Whenever you attach an Energy card from you hand to 1 of your Pokémon, remove 1 damage counter from that Pokémon.",
+				en: "Whenever you attach an Energy card from your hand to Onix, remove a damage counter from Onix.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à Onix, retirez-lui 1 marqueur de dégât.",
 				de: "Wenn du 1 Energiekarte von deiner Hand an Onix anlegst, entferne 1 Schadensmarke von Onix."
-			},
+			}
 		},
 	],
 
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Unbegrenzte Kraft"
 			},
 			effect: {
-				en: "Onix can’t attack during your next turn.",
+				en: "Onix can't attack during your next turn.",
 				fr: "Pendant votre prochain tour, Onix ne peut pas attaquer.",
 				de: "Onix kann in deinem nächsten Zug nicht angreifen."
 			},
@@ -79,22 +77,26 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87884,
+				cardmarket: 279212
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87884,
+				cardmarket: 279212
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["snowflake"],
-			languages: ["de"]
+			languages: ["de"],
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279212,
-		tcgplayer: 87884
-	}
 }
 
 export default card
