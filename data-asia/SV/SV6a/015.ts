@@ -1,52 +1,70 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "普隆隆姆ex"
+		ja: "ブロロロームex",
+		'zh-tw': "普隆隆姆ex",
 	},
 
 	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
+
 	stage: "Stage1",
-	suffix: "EX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "暴衝閃光"
+	attacks: [
+		{
+			name: {
+				ja: "アクセルフラッシュ",
+				'zh-tw': "暴衝閃光",
+			},
+			damage: "20+",
+			cost: ["Metal"],
+			effect: {
+				ja: "この番、このポケモンがベンチからバトル場に出ていたなら、120ダメージ追加。",
+				'zh-tw': "在這個回合，若從備戰區將這隻寶可夢放置於戰鬥場，則增加120點傷害。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "在這個回合，若從備戰區將這隻寶可夢放置於戰鬥場，則增加120點傷害。"
+		{
+			name: {
+				ja: "スピードブレイク",
+				'zh-tw': "高速破壞",
+			},
+			damage: 250,
+			cost: ["Metal", "Metal", "Metal"],
+			effect: {
+				ja: "このポケモンと、ついているすべてのカードを、トラッシュする。",
+				'zh-tw': "將這隻寶可夢與附加的卡全部丟棄。",
+			},
 		},
+	],
 
-		damage: "20+",
-		cost: ["Metal"]
-	}, {
-		name: {
-			'zh-tw': "高速破壞"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 773764,
+				tcgplayer: 566266,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將這隻寶可夢與附加的卡全部丟棄。"
-		},
-
-		damage: 250,
-		cost: ["Metal", "Metal", "Metal"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ブロロン",
+	},
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Double rare"
-}
+	rarity: "Double rare",
+	dexId: [966],
 
-export default card
+	suffix: "EX",
+};
+
+export default card;
