@@ -30,7 +30,7 @@ const card: Card = {
 	regulationMark: "F",
 
 
-	
+
 
 	variants: [
 		{
@@ -45,6 +45,21 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665288,
 				tcgplayer: 276996
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['shao-tong-yen'],
+			thirdParty: {
+				cardmarket: 833226,
+				tcgplayer: 542083
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['sakuya-ota'],
+			thirdParty: {
+				cardmarket: 815426
 			}
 		},
 	],

@@ -266,7 +266,11 @@
 		"inquest-gamer": "inquest-gamer",
 		"pop-tournament": "pop-tournament",
 		"chicago-2009": "chicago-2009",
-		"chase-moloney": "chase-moloney"
+		"chase-moloney": "chase-moloney",
+		"jesse-parker": "jesse-parker",
+		"gabriel-fernandez": "gabriel-fernandez",
+		"shao-tong-yen": "shao-tong-yen",
+		"sakuya-ota": "sakuya-ota"
 	},
 	"variantSubtype": {
 		"shadowless": "schattenlos",
@@ -294,7 +298,8 @@
 		"nintedo-error": "Nintedo-Fehler",
 		"1995-1998-copyright": "Copyright 1995-1998",
 		"no-rarity": "Ohne Seltenheit",
-		"missing-retreat-cost": "Fehlende Rückzugskosten",
-		"phanphy-error" : "phanphy-fehler"
+		"phanphy-error": "phanphy-fehler",
+		"peelable-ditto": "Abziehbares Ditto",
+		"missing-retreat-cost": "Fehlende Rückzugskosten"
 	}
 }
