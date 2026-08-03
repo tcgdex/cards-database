@@ -50,14 +50,20 @@ const card: Card = {
 		cost: ["Water", "Fighting"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 605926,
+				tcgplayer: 569703,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "F",
 	rarity: "Rare",
 	dexId: [445],
-
-	thirdParty: {
-		cardmarket: 605926
-	}
 }
 
 export default card

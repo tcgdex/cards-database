@@ -17,6 +17,16 @@ const card: Card = {
 		ja: "このカードは、自分の手札からエネルギーを1枚トラッシュしなければ使えない。\n\n自分の山札を上から7枚見て、その中からカードを2枚まで選び、手札に加える。残りのカードは山札にもどして切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605943,
+				tcgplayer: 569720,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "F",
 	rarity: "Uncommon"
