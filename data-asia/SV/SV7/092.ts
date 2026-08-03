@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けるとき、そのダメージは「-60」され、このカードをトラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779106,
+				tcgplayer: 567947,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H",
 	rarity: "Uncommon"

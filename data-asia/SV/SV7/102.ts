@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "自分の場に「テラスタル」のポケモンがいるプレイヤーが、ベンチに出せるポケモンの数は8匹になる。\n\n（このカードがトラッシュされたときか、自分の場に「テラスタル」のポケモンがいなくなったとき、ベンチが5匹になるまでトラッシュする。おたがいにトラッシュするなら、このカードの持ち主から行う。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779116,
+				tcgplayer: 567957,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "H",
 	rarity: "Uncommon"
