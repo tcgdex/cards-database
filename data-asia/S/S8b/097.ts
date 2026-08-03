@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "圓絲蛛"
+		ja: "イトマル",
+		'zh-tw': "圓絲蛛",
 	},
 
 	illustrator: "Kyoko Umemoto",
@@ -14,34 +14,54 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "牙齒的毒性並不強烈，但用來削弱那些掛在蛛網上無法動彈的獵物是綽綽有餘。"
+		ja: "キバの 毒は さほど 強くないが 巣に かかって 動けない 獲物を 弱らせるには 充分。",
+		'zh-tw': "牙齒的毒性並不強烈，但用來削弱那些掛在蛛網上無法動彈的獵物是綽綽有餘。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "垂吊"
+	attacks: [
+		{
+			name: {
+				ja: "ぶらさがる",
+				'zh-tw': "垂吊",
+			},
+			damage: 10,
+			cost: ["Darkness"],
 		},
-
-		damage: 10,
-		cost: ["Darkness"]
-	}, {
-		name: {
-			'zh-tw': "刺刺痛痛"
+		{
+			name: {
+				ja: "チクチクさす",
+				'zh-tw': "刺刺痛痛",
+			},
+			damage: 20,
+			cost: ["Darkness", "Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Darkness", "Colorless"]
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586613,
+				tcgplayer: 571350,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578400,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "D"
-}
+	regulationMark: "D",
+	rarity: "None",
+	dexId: [167],
+};
 
-export default card
+export default card;
