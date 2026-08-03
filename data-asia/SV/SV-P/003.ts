@@ -1,44 +1,66 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "呆火鱷"
+		ja: "ウインディ",
+		'zh-tw': "呆火鱷",
 	},
 
 	illustrator: "Ryuta Fuse",
 	category: "Pokemon",
-	hp: 80,
+	hp: 130,
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "會躺在溫熱的岩石上， 用四角形的鱗片所吸收的 熱能來製造火之能量。"
+		ja: "草原を 駆け抜ける 様子は 人々の 心を 虜にしたと 昔の 絵巻に 記されていた。",
+		'zh-tw': "會躺在溫熱的岩石上， 用四角形的鱗片所吸收的 熱能來製造火之能量。",
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "火焰灼燒"
+	attacks: [
+		{
+			name: {
+				ja: "かみくだく",
+				'zh-tw': "火焰灼燒",
+			},
+			damage: 30,
+			cost: ["Fire", "Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
+		{
+			name: { ja: "ほのおのたてがみ" },
+			damage: 120,
+			cost: ["Fire", "Fire", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 692249,
+				tcgplayer: 587760,
+			},
+		},
+	],
 
-	retreat: 2,
-	regulationMark: "G"
-}
+	evolveFrom: {
+		ja: "ガーディ",
+	},
 
-export default card
+	retreat: 3,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [59],
+};
+
+export default card;

@@ -1,52 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "毛崖蟹ex"
+		ja: "博士の研究",
+		'zh-tw': "毛崖蟹ex",
 	},
 
-	illustrator: "aky CG Works",
-	category: "Pokemon",
-	hp: 220,
-	types: ["Fighting"],
-	stage: "Basic",
-	suffix: "EX",
+	illustrator: "kirisAki",
+	category: "Trainer",
 
-	abilities: [{
-		type: "Ability",
+	effect: {
+		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。",
+	},
 
-		name: {
-			'zh-tw': "反擊鉗"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 699718,
+				tcgplayer: 587778,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "當這隻寶可夢在戰鬥場上受到對手的寶可夢招式的傷害時，選擇1個使用招式的寶可夢身上附加的能量，將其丟棄。"
-		}
-	}],
+	trainerType: "Supporter",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-	attacks: [{
-		name: {
-			'zh-tw': "落下壓制"
-		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加80點傷害。"
-		},
-
-		damage: "100+",
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

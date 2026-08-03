@@ -1,51 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "飄香豚"
+		ja: "ポケモンいれかえ",
+		'zh-tw': "飄香豚",
 	},
 
-	illustrator: "kirisAki",
-	category: "Pokemon",
-	hp: 120,
-	types: ["Colorless"],
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "以自己細緻透亮的肌膚 為傲。會從尾巴的前端 釋放出凝縮的香氣。"
+	effect: {
+		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
 	},
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "衝撞"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 692257,
+				tcgplayer: 587768,
+			},
 		},
+	],
 
-		damage: 50,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "足踩踏"
-		},
+	trainerType: "Item",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為反面，則在下個自己的回合，這隻寶可夢無法使用招式。"
-		},
-
-		damage: 130,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

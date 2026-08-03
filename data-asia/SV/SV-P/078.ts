@@ -1,44 +1,49 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "鐵頭殼ex"
+		ja: "メルタン",
+		'zh-tw': "鐵頭殼ex",
 	},
 
-	illustrator: "5ban Graphics",
+	illustrator: "Nobuhiro Imagawa",
 	category: "Pokemon",
-	hp: 220,
-	types: ["Psychic"],
+	hp: 70,
+	types: ["Metal"],
+
+	description: {
+		ja: "群れになって 生活するが 時が くると １匹の 強い メルタンが 仲間たちを 取りこみ 進化する。",
+	},
+
 	stage: "Basic",
-	suffix: "EX",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "鈷藍指令"
+	attacks: [
+		{
+			name: { ja: "とかす" },
+			damage: 20,
+			cost: ["Metal"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "只要這隻寶可夢在場上，自己的「未來」寶可夢（「鐵頭殼ex」除外）使用的招式，對對手的戰鬥寶可夢造成的傷害「+20」點。"
-		}
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [{ type: "Grass", value: "-30" }],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 727987,
+				tcgplayer: 587836,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [808],
+};
 
-	retreat: 2,
-	regulationMark: "H"
-}
-
-export default card
+export default card;
