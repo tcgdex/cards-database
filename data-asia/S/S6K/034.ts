@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6K"
+import { Card } from "../../../interfaces";
+import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "萌虻"
+		ja: "アブリー",
+		'zh-tw': "萌虻",
 	},
 
 	illustrator: "Yukiko Baba",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "從敵人散發出的氣場來判斷對方下一步的行動。能輕盈地躲開攻擊並進行反擊。"
+		ja: "敵が 発する オーラから つぎの 行動を 予測する。 攻撃を ひらりと かわして 反撃する。",
+		'zh-tw': "從敵人散發出的氣場來判斷對方下一步的行動。能輕盈地躲開攻擊並進行反擊。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "羽擊"
+	attacks: [
+		{
+			name: {
+				ja: "はばたく",
+				'zh-tw': "羽擊",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
+	],
 
-		damage: 10,
-		cost: ["Colorless"]
-	}],
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560802,
+				tcgplayer: 569262,
+			},
+		},
+	],
 
 	retreat: 0,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [742],
+};
 
-export default card
+export default card;
