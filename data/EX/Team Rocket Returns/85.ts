@@ -18,28 +18,41 @@ const card: Card = {
 		de: "You may use this card only if you have more Prize cards left than your opponent.\n\nMove 1 Energy card attached to the Defending Pokémon to another of your opponent's Pokémon.Or, switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch."
 	},
 
-	thirdParty: {
-		cardmarket: 276377,
-		tcgplayer: 88352
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276377,
+				tcgplayer: 88352
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276377,
+				tcgplayer: 88352
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				cardmarket: 276377,
+				tcgplayer: 88352
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
-		}
-	]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				cardmarket: 276377,
+				tcgplayer: 88352
+			},
+		},
+	],
+
 }
 
 export default card
