@@ -44,6 +44,16 @@ const card: Card = {
 		value: "－30"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 787579,
+				tcgplayer: 579401,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "H",
 	rarity: "Double rare",
@@ -63,10 +73,6 @@ const card: Card = {
 			ja: "このポケモンがいるかぎり、自分のたねポケモン全員のにげるためのエネルギーは、すべてなくなる。"
 		}
 	}],
-
-	thirdParty: {
-		cardmarket: 787579
-	}
 }
 
 export default card

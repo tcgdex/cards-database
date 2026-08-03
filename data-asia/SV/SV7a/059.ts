@@ -19,13 +19,19 @@ const card: Card = {
 		ja: "自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、このカードをつけているポケモンがワザを使うためのエネルギーは、エネルギー1個ぶん少なくなる。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787619,
+				tcgplayer: 579441,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H",
 	rarity: "Uncommon",
-
-	thirdParty: {
-		cardmarket: 787619
-	}
 }
 
 export default card

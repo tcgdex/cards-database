@@ -19,13 +19,19 @@ const card: Card = {
 		ja: "相手は相手自身の手札を数えたあと、すべてウラにして切り、山札の下にもどす。その後、相手はもどした枚数ぶん、山札を引く。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787615,
+				tcgplayer: 579437,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
 	rarity: "Uncommon",
-
-	thirdParty: {
-		cardmarket: 787615
-	}
 }
 
 export default card
