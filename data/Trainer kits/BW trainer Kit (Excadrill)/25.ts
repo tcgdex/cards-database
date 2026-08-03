@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Rotomurf"
 	},
 
+	illustrator: "match",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
 	stage: "Basic",
 
 	attacks: [{
@@ -58,6 +61,16 @@ const card: Card = {
 	},
 
 	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280089,
+				tcgplayer: 98690
+			}
+		},
+	],
+
 }
 
 export default card

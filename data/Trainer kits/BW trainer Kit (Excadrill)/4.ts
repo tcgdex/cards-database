@@ -26,7 +26,17 @@ const card: Card = {
 		de: "Verschiebe 1 an 1 deiner Pokémon angelegte Basis-Energie auf ein anderes deiner Pokémon."
 	},
 
-	trainerType: "Item"
+	trainerType: "Item",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280081,
+				tcgplayer: 98684
+			}
+		},
+	],
+
 }
 
 export default card
