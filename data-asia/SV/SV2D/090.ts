@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分のポケモンを2匹まで選び、HPをそれぞれ「50」回復する。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707700,
+				tcgplayer: 565952,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 
