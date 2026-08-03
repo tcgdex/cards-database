@@ -22,6 +22,16 @@ const card: Card = {
 		ko: "자신의 「고대」의 포켓몬을 2마리까지 선택해서 트래쉬에서 기본 에너지를 1장씩 붙인다. 그 뒤, 자신의 덱을 3장 뽑는다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741461,
+				tcgplayer: 565820,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }
