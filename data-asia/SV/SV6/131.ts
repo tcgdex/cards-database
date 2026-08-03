@@ -5,7 +5,6 @@ const card: Card = {
 	set: Set,
 	name: {
 		ja: "オーガポン みどりのめんex",
-		'zh-tw': "厄鬼椪 碧草面具ex",
 	},
 
 	illustrator: "5ban Graphics",
@@ -18,28 +17,20 @@ const card: Card = {
 	abilities: [
 		{
 			type: "Ability",
-			name: {
-				ja: "みどりのまい",
-				'zh-tw': "碧綠之舞",
-			},
+			name: { ja: "みどりのまい" },
 			effect: {
 				ja: "自分の番に1回使える。自分の手札から「基本[G]エネルギー」を1枚選び、このポケモンにつける。その後、自分の山札を1枚引く。",
-				'zh-tw': "在自己的回合時可使用1次。從自己的手牌選擇1張「基本【草】能量」卡，附於這隻寶可夢身上。然後，從自己的牌庫抽出1張卡。",
 			},
 		},
 	],
 
 	attacks: [
 		{
-			name: {
-				ja: "まんようしぐれ",
-				'zh-tw': "萬葉陣雨",
-			},
+			name: { ja: "まんようしぐれ" },
 			damage: "30+",
 			cost: ["Grass", "Grass", "Grass"],
 			effect: {
 				ja: "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
-				'zh-tw': "增加雙方的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
 			},
 		},
 	],
@@ -51,15 +42,15 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 767548,
-				tcgplayer: 568104,
+				cardmarket: 767565,
+				tcgplayer: 568121,
 			},
 		},
 	],
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Ultra Rare",
+	rarity: "Mega Hyper Rare",
 	dexId: [1017],
 
 	suffix: "EX",

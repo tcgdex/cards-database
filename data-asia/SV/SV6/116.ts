@@ -1,52 +1,72 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6"
+import { Card } from "../../../interfaces";
+import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "海豚俠ex"
+		ja: "イルカマンex",
+		'zh-tw': "海豚俠ex",
 	},
 
 	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Water"],
+
 	stage: "Stage1",
-	suffix: "EX",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "全能靈魂"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "マイティソウル",
+				'zh-tw': "全能靈魂",
+			},
+			effect: {
+				ja: "このカードは、「イルカマン」の特性「マイティチェンジ」の効果によってしか場に出せない。",
+				'zh-tw': "這張卡只可依據「海豚俠」的特性「全能變身」的效果放置於場上。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這張卡只可依據「海豚俠」的特性「全能變身」的效果放置於場上。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "終極衝擊"
+	attacks: [
+		{
+			name: {
+				ja: "ギガインパクト",
+				'zh-tw': "終極衝擊",
+			},
+			damage: 250,
+			cost: ["Water"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767550,
+				tcgplayer: 568106,
+			},
 		},
+	],
 
-		damage: 250,
-		cost: ["Water"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ナミイルカ",
+	},
 
 	retreat: 2,
-	regulationMark: "H"
-}
+	regulationMark: "H",
+	rarity: "Ultra Rare",
+	dexId: [964],
 
-export default card
+	suffix: "EX",
+};
+
+export default card;
