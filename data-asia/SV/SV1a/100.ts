@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701564,
+				tcgplayer: 568223,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 
