@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "雪笠怪"
+		ja: "ユキカブリ",
+		'zh-tw': "雪笠怪",
 	},
 
 	illustrator: "Naoki Saito",
@@ -14,41 +14,40 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "雪笠怪肚子上結出來的樹果口感彷如冰棒，是伽勒爾的火紅不倒翁們的最愛。"
+		ja: "お腹に 実る アイス みたいな 木の実は ガラルに 暮らす ダルマッカたちの 大好物。",
+		'zh-tw': "雪笠怪肚子上結出來的樹果口感彷如冰棒，是伽勒爾的火紅不倒翁們的最愛。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "前往拿取"
+	attacks: [
+		{
+			name: {
+				ja: "はりたおす",
+				'zh-tw': "前往拿取",
+			},
+			damage: 60,
+			cost: ["Grass", "Colorless", "Colorless"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張訓練家卡，在給對手看過後加入手牌。並且重洗牌庫。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560417,
+				tcgplayer: 569133,
+			},
 		},
-
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "窮追不捨"
-		},
-
-		effect: {
-			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。"
-		},
-
-		damage: 40,
-		cost: ["Psychic", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [459],
+};
 
-export default card
+export default card;
