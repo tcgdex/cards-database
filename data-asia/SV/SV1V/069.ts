@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Lihat 5 kartu dari atas Deck sendiri, pilih paling banyak 2 lembar Energi Dasar {Listrik} di antaranya, lalu kenakan sesukanya pada Pokémon {Listrik} di Cadangan. Kocok kembali sisa kartu ke Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693144,
+				tcgplayer: 568295,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }
