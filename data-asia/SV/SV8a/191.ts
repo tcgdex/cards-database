@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "這張卡只有在對手的戰鬥寶可夢【中毒】時才可使用。 將自己的手牌全部放回牌庫並重洗。然後，從牌庫抽出7張卡。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803304,
+				tcgplayer: 602655,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

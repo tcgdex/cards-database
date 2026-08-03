@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的寶可夢（「擁有規則的寶可夢」除外）的最大HP「+100」，那隻寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，被獲得的獎賞卡的張數增加1張。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803268,
+				tcgplayer: 602587,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602588,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }
