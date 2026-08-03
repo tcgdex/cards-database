@@ -17,7 +17,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Lightning"],
+	types: [
+		"Lightning"
+	],
 	stage: "Basic",
 	retreat: 1,
 	illustrator: "kodama",
@@ -57,9 +59,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152869
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297260,
+				tcgplayer: 152869
+			}
+		},
+	],
+
 }
 
 export default card

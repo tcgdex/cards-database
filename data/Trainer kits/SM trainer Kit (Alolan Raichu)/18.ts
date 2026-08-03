@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Kosturso"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Stufful",
@@ -28,6 +31,35 @@ const card: Card = {
 		de: "Velursi"
 	},
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Bear Hug"
+			},
+			effect: {
+				en: "The Defending Pokémon can't retreat during your opponent's next turn."
+			},
+			damage: 40
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Superpower"
+			},
+			effect: {
+				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself."
+			},
+			damage: "80+"
+		},
+	],
 	stage: "Stage1",
 	retreat: 3,
 
@@ -36,9 +68,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152874
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297253,
+				tcgplayer: 152874
+			}
+		},
+	],
+
 }
 
 export default card
