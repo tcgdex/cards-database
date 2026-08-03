@@ -20,36 +20,64 @@ const card: Card = {
 		de: "Search your deck for a Basic Pokémon or Evolution card (excluding Pokémon-ex ), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		cardmarket: 276264,
-		tcgplayer: 84154
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276264,
+				tcgplayer: 84154
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276264,
+				tcgplayer: 84154
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871562,
+				tcgplayer: 477500
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 871560,
+				tcgplayer: 477502
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 869550,
+				tcgplayer: 477602
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jimmy-ballard"]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				cardmarket: 869551,
+				tcgplayer: 477603
+			},
+		},
+		{
+			type: 'normal',
+			stamp: ['michael-gonzalez'],
+			thirdParty: {
+				cardmarket: 871561,
+				tcgplayer: 477501,
+			}
 		}
-	]
+	],
 }
 
 export default card

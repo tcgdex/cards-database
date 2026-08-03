@@ -69,32 +69,44 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276243,
-		tcgplayer: 87026
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276243,
+				tcgplayer: 87026
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276243,
+				tcgplayer: 87026
+			},
 		},
 		{
 			type: "normal",
-			subtype: "rarity-error"
+			subtype: "rarity-error",
+			thirdParty: {
+				cardmarket: 276243,
+				tcgplayer: 87026
+			},
 		},
 		{
-			type: "holo",
+			type: "reverse",
 			foil: "energy",
-			subtype: "rarity-error"
+			subtype: "rarity-error",
+			thirdParty: {
+				cardmarket: 276243,
+				tcgplayer: 87026
+			},
 		},
-	]
+	],
 }
 
 export default card
