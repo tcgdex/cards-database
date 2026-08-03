@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Lokhlass"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		131,
-	],
+	dexId: [131],
 	hp: 90,
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -62,14 +60,19 @@ const card: Card = {
 
 
 	description: {
-		en: "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+		en: "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275605,
+				tcgplayer: 86621
+			}
+		},
+	],
+
 }
 
 export default card

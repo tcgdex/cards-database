@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Noarfang"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		164,
-	],
+	dexId: [164],
 	hp: 90,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 	evolveFrom: {
 		en: "Hoothoot",
@@ -32,9 +30,9 @@ const card: Card = {
 				fr: "Regard Nocturne"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), you may look at your opponent's hand. This Power can't be used if Noctowl is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may look at your opponent's hand. This power can't be used if Noctowl is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez regarder la main de votre adversaire. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -72,14 +70,19 @@ const card: Card = {
 
 
 	description: {
-		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275608,
+				tcgplayer: 87795
+			}
+		},
+	],
+
 }
 
 export default card

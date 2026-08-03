@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Melo"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		173,
-	],
+	dexId: [173],
 	hp: 30,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.",
 				fr: "Tant que Mélo reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -50,14 +48,20 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+		en: "Because of its unusual, star-like silhouette, people believe that it came here on a meteor."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275614,
+				tcgplayer: 84368
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

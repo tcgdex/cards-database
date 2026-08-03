@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Lugia"
 	},
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		249,
-	],
+	dexId: [249],
 	hp: 90,
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -50,7 +48,7 @@ const card: Card = {
 				en: "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
 			},
-			damage: 50,
+			damage: "50+",
 
 		},
 	],
@@ -70,14 +68,19 @@ const card: Card = {
 
 
 	description: {
-		en: "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong.",
+		en: "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275611,
+				tcgplayer: 86909
+			}
+		},
+	],
+
 }
 
 export default card

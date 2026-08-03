@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Entei"
 	},
 	illustrator: "Yuri Umemura",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		244,
-	],
+	dexId: [244],
 	hp: 80,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -51,14 +49,19 @@ const card: Card = {
 
 
 	description: {
-		en: "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land.",
+		en: "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275599,
+				tcgplayer: 85273
+			}
+		},
+	],
+
 }
 
 export default card
