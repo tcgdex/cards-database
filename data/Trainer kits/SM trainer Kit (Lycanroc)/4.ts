@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Trompeck"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Pikipek",
@@ -28,6 +31,20 @@ const card: Card = {
 		de: "Peppeck"
 	},
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Bullet Seed"
+			},
+			effect: {
+				en: "Flip 4 coins. This attack does 20 damage for each heads."
+			},
+			damage: "20×"
+		},
+	],
 	stage: "Stage1",
 	retreat: 1,
 
@@ -41,9 +58,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152830
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297241,
+				tcgplayer: 152830
+			}
+		},
+	],
+
 }
 
 export default card

@@ -14,10 +14,34 @@ const card: Card = {
 		de: "Wuffels"
 	},
 
+	illustrator: "match",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Tackle"
+			},
+			damage: 10
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				en: "Rock Throw"
+			},
+			damage: 20
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
@@ -26,9 +50,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152835
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297260,
+				tcgplayer: 152835
+			}
+		},
+	],
+
 }
 
 export default card

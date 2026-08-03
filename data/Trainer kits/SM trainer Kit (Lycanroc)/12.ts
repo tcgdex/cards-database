@@ -14,10 +14,34 @@ const card: Card = {
 		de: "Mangunior"
 	},
 
+	illustrator: "match",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Tackle"
+			},
+			damage: 10
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Bite"
+			},
+			damage: 20
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
@@ -26,9 +50,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152832
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297243,
+				tcgplayer: 152832
+			}
+		},
+	],
+
 }
 
 export default card
