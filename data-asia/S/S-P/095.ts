@@ -1,43 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "斑斑馬"
+		ja: "基本闘エネルギー",
+		'zh-tw': "斑斑馬",
 	},
 
-	illustrator: "Oswaldo KATO",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Lightning"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "放電時鬃毛會發光。利用鬃毛閃爍的次數及 節奏與夥伴交談。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "雷電箭"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525160,
+				tcgplayer: 649798,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "對手的1隻寶可夢受到10點傷害。[在備戰區不計算弱點・抵抗力。]"
-		},
+	rarity: "Promo",
+};
 
-		cost: ["Lightning"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

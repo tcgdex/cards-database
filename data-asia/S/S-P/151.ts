@@ -1,47 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "龍蝦小兵"
+		ja: "ルギア",
+		'zh-tw': "龍蝦小兵",
 	},
 
-	illustrator: "0313",
+	illustrator: "kodama",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Water"],
+	hp: 130,
+	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "有著頑強生命力的寶可夢。不論河裡的水有多髒都能適應並繁衍後代。"
+		ja: "海の神様と 伝えられる ポケモン。 嵐の 夜 姿を 見たという 話が 伝えられる。",
+		'zh-tw': "有著頑強生命力的寶可夢。不論河裡的水有多髒都能適應並繁衍後代。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "水槍"
+	attacks: [
+		{
+			name: {
+				ja: "かぜおこし",
+				'zh-tw': "水槍",
+			},
+			damage: 40,
+			cost: ["Colorless", "Colorless"],
 		},
-
-		damage: 10,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "蟹鉗錘"
+		{
+			name: {
+				ja: "ウインドプレッシャー",
+				'zh-tw': "蟹鉗錘",
+			},
+			damage: 250,
+			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手の手札が5枚以下なら、このワザは失敗。",
+			},
 		},
+	],
 
-		damage: 50,
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 597350,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [249],
+};
 
-export default card
+export default card;

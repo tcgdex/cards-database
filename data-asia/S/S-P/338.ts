@@ -1,61 +1,55 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
 		ja: "ウインディ",
 	},
 
 	illustrator: "REND",
-	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
+
+	description: {
+		ja: "一昼夜で １００００キロの 距離を 駆けぬける 姿は 多くの 人を 魅了してきた。",
+	},
+
 	stage: "Stage1",
-	dexId: [59],
 
-	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
-
-		name: {
-			ja: "ひだまりタックル",
+	attacks: [
+		{
+			name: { ja: "ひだまりタックル" },
+			damage: 160,
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+			},
 		},
+	],
 
-		effect: {
-			ja: "次の自分の番、このポケモンはワザが使えない。",
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 681794,
+				tcgplayer: 597503,
+			},
 		},
-
-		damage: 160
-	}],
+	],
 
 	evolveFrom: {
 		ja: "ガーディ",
 	},
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
 	retreat: 3,
+	regulationMark: "F",
+	rarity: "Promo",
+	dexId: [59],
+};
 
-	description: {
-		ja: "一昼夜で10000キロもの距離を走りひろる。炎を吹くと岩も粉々になる。",
-	},
-
-	variants: [
-		{
-			type: "normal",
-			stamp: ["illustration-contest-2022"],
-			thirdParty: {
-				tcgplayer: 597503
-			},
-		},
-	],
-
-	regulationMark: "F"
-}
-
-export default card
+export default card;

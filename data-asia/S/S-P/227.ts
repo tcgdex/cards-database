@@ -1,22 +1,51 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "平和公園"
+		ja: "ピカチュウ",
+		'zh-tw': "平和公園",
 	},
 
-	illustrator: "AYUMI ODASHIMA",
-	category: "Trainer",
+	illustrator: "Mitsuhiro Arita",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
 
-	effect: {
-		'zh-tw': "雙方的所有寶可夢不會【混亂】，受到的【混亂】全部恢復。"
+	description: {
+		ja: "おたがいの しっぽを くっつけて 電気を 流しあうのが ピカチュウ 同士の 挨拶だ。",
 	},
 
-	trainerType: "Stadium",
-	regulationMark: "F"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "いれかわる" },
+			cost: ["Colorless"],
+			effect: {
+				ja: "このポケモンをベンチポケモンと入れ替える。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 573772,
+				tcgplayer: 597410,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [25],
+};
+
+export default card;
