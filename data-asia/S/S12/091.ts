@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680230,
+				tcgplayer: 570149,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "F",
 	rarity: "Rare"

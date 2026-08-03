@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分の山札を上から1枚見て、もとにもどしてよい。のぞむなら、そのカードをトラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680237,
+				tcgplayer: 570155,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "F",
 	rarity: "Uncommon"

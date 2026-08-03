@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "自分の山札を3枚引く。場に出ているスタジアムをトラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680232,
+				tcgplayer: 570151,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "F",
 	rarity: "Uncommon"
