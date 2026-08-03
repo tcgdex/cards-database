@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "向日種子"
+		ja: "ヒマナッツ",
+		'zh-tw': "向日種子",
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "只飲用積在葉子背面的朝露來過活。據說除此之外什麼都不吃。"
+		ja: "葉っぱの 裏側に たまった 朝露だけを 飲んで 暮らす。 他には なにも 食べないという。",
+		'zh-tw': "只飲用積在葉子背面的朝露來過活。據說除此之外什麼都不吃。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "種子炸彈"
+	attacks: [
+		{
+			name: {
+				ja: "タネばくだん",
+				'zh-tw': "種子炸彈",
+			},
+			damage: 20,
+			cost: ["Colorless", "Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667591,
+				tcgplayer: 569934,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [191],
+};
 
-export default card
+export default card;

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小小象"
+		ja: "ゴマゾウ",
+		'zh-tw': "小小象",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -14,31 +14,44 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "身體雖小卻很有力氣。能輕鬆地讓成年人 騎在牠背上移動。"
+		ja: "体は 小さいが 力持ち。 大人の 人を 軽々と 背中に 乗せて 歩いてしまう。",
+		'zh-tw': "身體雖小卻很有力氣。能輕鬆地讓成年人 騎在牠背上移動。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "擊飛"
+	attacks: [
+		{
+			name: {
+				ja: "はねとばす",
+				'zh-tw': "擊飛",
+			},
+			damage: "10+",
+			cost: ["Fighting"],
+			effect: {
+				ja: "コインを1回投げオモテなら、20ダメージ追加。",
+				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667933,
+				tcgplayer: 569989,
+			},
 		},
-
-		damage: "10+",
-		cost: ["Fighting"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [231],
+};
 
-export default card
+export default card;
