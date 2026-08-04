@@ -78,7 +78,7 @@ const card: Card = {
 			de: "Du kannst 1 an dieses Pokémon angelegte {W}-Energie auf deine Hand nehmen und diese Attacke 80 Schadenspunkte mehr zufügen lassen.",
 			it: "Puoi prendere un'Energia {W} assegnata a questo Pokémon, aggiungerla alle carte che hai in mano e infliggere 80 danni in più con questo attacco.",
 			pt: "Você pode colocar uma Energia {W} ligada a este Pokémon na sua mão e fazer este ataque causar 80 pontos de dano a mais."
-		}
+		},
 
 		damage: "120+"
 	}],

@@ -32,16 +32,6 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [818],
 
-	evolveFrom: {
-		en: "Drizzile",
-		fr: "Arrozard",
-		de: "Phlegleon",
-		it: "Drizzile",
-		es: "Drizzile",
-		pt: "Drizzile",
-		'es-mx': "Drizzile"
-	},
-
 	attacks: [{
 		cost: ["Water"],
 

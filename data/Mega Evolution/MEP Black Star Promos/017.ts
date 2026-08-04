@@ -21,23 +21,16 @@ const card: Card = {
 		'es-mx': "Toxel",
 		de: "Toxel",
 		it: "Toxel",
-<<<<<<< HEAD
 		pt: "Toxel",
 	},
 
-=======
-		pt: "Toxel"
-	},
-
 	illustrator: "Krgc",
->>>>>>> 5c59079c3 (feat(data): Add missing MEP Black Star Promos and update card infos)
 	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [849],
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Stage1",
-	dexId: [849],
 
 	abilities: [{
 		type: "Ability",

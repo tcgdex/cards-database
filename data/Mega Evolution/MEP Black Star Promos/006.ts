@@ -30,15 +30,6 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [426],
 
-	evolveFrom: {
-		en: "Drifloon",
-		fr: "Baudrive",
-		es: "Drifloon",
-		it: "Drifloon",
-		pt: "Drifloon",
-		de: "Driftlon"
-	},
-
 	attacks: [{
 		cost: ["Psychic"],
 

@@ -32,16 +32,6 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [65],
 
-	evolveFrom: {
-		en: "Kadabra",
-		fr: "Kadabra",
-		de: "Kadabra",
-		it: "Kadabra",
-		es: "Kadabra",
-		pt: "Kadabra",
-		'es-mx': "Kadabra"
-	},
-
 	abilities: [{
 		type: "Ability",
 

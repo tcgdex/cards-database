@@ -14,7 +14,6 @@ const card: Card = {
 		pt: "Ceruledge"
 	},
 
-<<<<<<< HEAD
 	evolveFrom: {
 		en: "Charcadet",
 		fr: "Charbambin",
@@ -25,26 +24,14 @@ const card: Card = {
 		pt: "Charcadet",
 	},
 
-=======
 	illustrator: "Anesaki Dynamic",
->>>>>>> 5c59079c3 (feat(data): Add missing MEP Black Star Promos and update card infos)
 	rarity: "Promo",
 	category: "Pokemon",
 	dexId: [937],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Stage1",
-	dexId: [937],
 
-  evolveFrom: {
-		en: "Charcadet",
-		fr: "Charbambin",
-		es: "Charcadet",
-		'es-mx': "Charcadet",
-		de: "Knarbon",
-		it: "Charcadet",
-		pt: "Charcadet"
-  },
 
 	attacks: [{
 		cost: ["Fire"],

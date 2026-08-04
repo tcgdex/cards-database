@@ -32,16 +32,6 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [154],
 
-	evolveFrom: {
-		en: "Bayleef",
-		de: "Lorblatt",
-		es: "Bayleef",
-		'es-mx': "Bayleef",
-		fr: "Macronium",
-		it: "Bayleef",
-		pt: "Bayleef",
-	},
-
 	abilities: [{
 		type: "Ability",
 
