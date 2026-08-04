@@ -14,23 +14,9 @@ const card: Card = {
 		pt: "Flygon"
 	},
 
-<<<<<<< HEAD
-	evolveFrom: {
-		en: "Vibrava",
-		fr: "Vibraninf",
-		es: "Vibrava",
-		'es-mx': "Vibrava",
-		de: "Vibrava",
-		it: "Vibrava",
-		pt: "Vibrava",
-	},
-
-=======
 	illustrator: "Oswaldo KATO",
->>>>>>> 5c59079c3 (feat(data): Add missing MEP Black Star Promos and update card infos)
-	rarity: "Promo",
+  	rarity: "Promo",
 	category: "Pokemon",
-	dexId: [330],
 	hp: 150,
 	types: ["Fighting"],
 	stage: "Stage2",
@@ -42,8 +28,8 @@ const card: Card = {
 		es: "Vibrava",
 		it: "Vibrava",
 		pt: "Vibrava",
-		de: "Vibrava"
-		'es-mx': "Vibrava",
+		de: "Vibrava",
+		'es-mx': "Vibrava"
 	},
 
 	abilities: [{
