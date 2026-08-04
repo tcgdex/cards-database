@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "While normally peaceful and friendly, the number of incidents involving cruel Machokes is rising.",
-		fr: "Bien que d'un naturel paisible et amical, le nombre d'incidents mettant en cause des Machopeur cruels va grandissant."
+		fr: "Bien que d'un naturel paisible et amical, le nombre d'incidents mettant en cause des Machopeur cruels va grandissant.",
+		de: "Obwohl es normalerweise friedlich und freundlich ist, nimmt die Anzahl der Vorfälle mit grausamen Maschocks zu."
 	},
 
 

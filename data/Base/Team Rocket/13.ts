@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide obscur"
+		fr: "Ortide obscur",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Perhaps because of their strong-smelling pollen, other Pokémon do not approach areas where Vileplumes live.",
-		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen."
+		fr: "Les autres Pokémon restent à l'écart des endroits où vivent les Rafflesia, peut être en raison du fort parfum de leur pollen.",
+		de: "Vielleicht wegen seiner streng riechenden Pollen nähern sich andere Pokémon den Unterschlüpfen von Giflors nicht."
 	},
 
 

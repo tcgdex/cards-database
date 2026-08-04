@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",
-		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental."
+		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental.",
+		de: "Wenn sich Entons entwickeln, verschwinden ihre Kopfschmerzen, und sie beherrschen auf einmal furchterregende Geistesfähigkeiten."
 	},
 
 

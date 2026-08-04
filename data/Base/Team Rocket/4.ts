@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel obscur"
+		fr: "Reptincel obscur",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Seemingly possessed, it spews fire like a volcano, trying to burn all it sees.",
-		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit."
+		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit.",
+		de: "Wie besessen speit es Feuer wie ein Vulkan und versucht alles in seinem Blickfeld zu verbrennen."
 	},
 
 

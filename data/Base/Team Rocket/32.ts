@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Its tail is incredibly strong, able to lift up to 5 adult men.",
-		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes."
+		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes.",
+		de: "Sein Schwanz ist unglaublich stark und kann bis zu fünf erwachsene Männer heben."
 	},
 
 
