@@ -85,14 +85,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "holo",
-			size: "jumbo"
-		},
-		{
 			type: 'lenticular',
 			size: 'jumbo',
 			thirdParty: {
-				cardmarket: 851066
+				cardmarket: 851066,
+				tcgplayer: 657847
 			}
 		},
 	],

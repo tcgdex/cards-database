@@ -48,6 +48,11 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Psychic",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
