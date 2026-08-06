@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Beautifly",
-		fr: "Charmillon"
+		fr: "Charmillon",
+		de: "Papinella"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Silcoon",
-		fr: "Armulys"
+		fr: "Armulys",
+		de: "Schaloko"
 	},
 
 	stage: "Stage2",
@@ -35,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
-				fr: "Pâté"
+				fr: "Pâté",
+				de: "Klecks"
 			},
 			effect: {
 				en: "Remove 1 damage counter from Beautifly.",
-				fr: "Retirez à Charmillon 1 marqueur de dégât."
+				fr: "Retirez à Charmillon 1 marqueur de dégât.",
+				de: "Entferne 1 Schadensmarke von Papinella."
 			},
 			damage: 30,
 
@@ -52,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
-				fr: "Cyclone"
+				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 40,
 
