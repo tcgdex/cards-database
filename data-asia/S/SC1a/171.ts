@@ -8,7 +8,8 @@ const card: Card = {
 		'zh-tw': "赫普"
 	},
 
-	illustrator: "Ken Sugimori",
+	illustrator: "Naoki Saito",
+	rarity: "Character Super Rare",
 	category: "Trainer",
 
 	effect: {

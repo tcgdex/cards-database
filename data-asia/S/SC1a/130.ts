@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "泡沫栗鼠"
 	},
 
+	dexId: [572],
 	illustrator: "Sekio",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],

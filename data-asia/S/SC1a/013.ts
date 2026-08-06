@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "光電傘蜥"
 	},
 
+	dexId: [695],
 	illustrator: "SATOSHI NAKAI",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],

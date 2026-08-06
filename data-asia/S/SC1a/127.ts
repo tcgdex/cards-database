@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "卡比獸"
 	},
 
+	dexId: [143],
 	illustrator: "Eri Yamaki",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],

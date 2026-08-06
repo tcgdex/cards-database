@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "貓頭夜鷹"
 	},
 
+	dexId: [164],
 	illustrator: "kawayoo",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Colorless"],

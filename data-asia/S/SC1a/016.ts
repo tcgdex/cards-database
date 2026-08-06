@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "卡璞・鳴鳴V"
 	},
 
+	dexId: [785],
 	illustrator: "PLANETA Tsuji",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "夢夢蝕"
 	},
 
+	dexId: [518],
 	illustrator: "MAHOU",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],

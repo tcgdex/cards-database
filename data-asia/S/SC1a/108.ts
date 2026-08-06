@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "駒刀小兵"
 	},
 
+	dexId: [624],
 	illustrator: "Motofumi Fujiwara",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Metal"],

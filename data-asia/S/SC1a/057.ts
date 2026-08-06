@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "愛管侍V"
 	},
 
+	dexId: [876],
 	illustrator: "5ban Graphics",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Psychic"],

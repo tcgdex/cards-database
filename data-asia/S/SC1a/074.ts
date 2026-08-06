@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "泥泥鰍"
 	},
 
+	dexId: [339],
 	illustrator: "Atsuko Nishida",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

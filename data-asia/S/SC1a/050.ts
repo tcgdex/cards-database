@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "怖思壺V"
 	},
 
+	dexId: [855],
 	illustrator: "PLANETA Igarashi",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Psychic"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "天秤偶"
 	},
 
+	dexId: [343],
 	illustrator: "Uta",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

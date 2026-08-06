@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "皮可西"
 	},
 
+	dexId: [36],
 	illustrator: "miki kudo",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],

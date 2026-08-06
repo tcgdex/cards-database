@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 太陽珊瑚"
 	},
 
+	dexId: [222],
 	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

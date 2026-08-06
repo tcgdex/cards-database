@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "列陣兵"
 	},
 
+	dexId: [870],
 	illustrator: "Misa Tsutsui",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],

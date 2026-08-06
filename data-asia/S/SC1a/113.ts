@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "堅盾劍怪"
 	},
 
+	dexId: [681],
 	illustrator: "Ryuta Fuse",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],

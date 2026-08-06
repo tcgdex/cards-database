@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "啪嚓海膽"
 	},
 
+	dexId: [871],
 	illustrator: "Akira Komayama",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "果然翁V"
 	},
 
+	dexId: [202],
 	illustrator: "Ayaka Yoshida",
+	rarity: "Character Super Rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Psychic"],

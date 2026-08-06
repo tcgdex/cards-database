@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "青銅鐘"
 	},
 
+	dexId: [437],
 	illustrator: "MAHOU",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "巨石丁VMAX"
 	},
 
+	dexId: [874],
 	illustrator: "5ban Graphics",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Fighting"],

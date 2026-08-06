@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "電燈怪"
 	},
 
+	dexId: [171],
 	illustrator: "Naoyo Kimura",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],

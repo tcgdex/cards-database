@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "天然鳥"
 	},
 
+	dexId: [178],
 	illustrator: "so-taro",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],

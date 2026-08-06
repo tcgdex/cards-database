@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "龜腳腳"
 	},
 
+	dexId: [688],
 	illustrator: "Saya Tsuruta",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

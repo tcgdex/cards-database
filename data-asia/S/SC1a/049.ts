@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "怖思壺"
 	},
 
+	dexId: [855],
 	illustrator: "Shin Nagasawa",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

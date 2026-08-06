@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "強顎雞母蟲"
 	},
 
+	dexId: [736],
 	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],

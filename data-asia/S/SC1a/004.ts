@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "頑皮雷彈"
 	},
 
+	dexId: [101],
 	illustrator: "otumami",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],

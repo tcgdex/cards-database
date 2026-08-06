@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "天然雀"
 	},
 
+	dexId: [177],
 	illustrator: "Naoyo Kimura",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

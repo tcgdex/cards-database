@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "鬼斯"
 	},
 
+	dexId: [92],
 	illustrator: "Taira Akitsu",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

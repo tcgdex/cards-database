@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "鬼斯通"
 	},
 
+	dexId: [93],
 	illustrator: "HYOGONOSUKE",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

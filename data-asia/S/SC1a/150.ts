@@ -9,6 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "take",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {

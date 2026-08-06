@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "逐電犬V"
 	},
 
+	dexId: [836],
 	illustrator: "aky CG Works",
+	rarity: "Character Super Rare",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],

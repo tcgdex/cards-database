@@ -9,6 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yoshinobu Saito",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {

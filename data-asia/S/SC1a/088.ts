@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "沙螺蟒V"
 	},
 
+	dexId: [844],
 	illustrator: "aky CG Works",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fighting"],

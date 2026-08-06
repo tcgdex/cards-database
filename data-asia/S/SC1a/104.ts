@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "大朝北鼻"
 	},
 
+	dexId: [476],
 	illustrator: "Anesaki Dynamic",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Metal"],

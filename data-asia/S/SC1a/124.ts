@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "藏瑪然特V"
 	},
 
+	dexId: [889],
 	illustrator: "aky CG Works",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Metal"],

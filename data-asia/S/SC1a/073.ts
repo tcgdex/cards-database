@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "恰雷姆"
 	},
 
+	dexId: [308],
 	illustrator: "Suwama Chiaki",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "咕咕"
 	},
 
+	dexId: [163],
 	illustrator: "Yumi",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "多龍梅西亞"
 	},
 
+	dexId: [885],
 	illustrator: "Akira Komayama",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

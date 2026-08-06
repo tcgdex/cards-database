@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "蒼響"
 	},
 
+	dexId: [888],
 	illustrator: "Kouki Saitou",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "貪心栗鼠"
 	},
 
+	dexId: [819],
 	illustrator: "Mina Nakai",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],

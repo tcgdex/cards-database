@@ -9,6 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yusuke Ohmura",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {

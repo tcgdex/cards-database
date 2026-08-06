@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "念力土偶"
 	},
 
+	dexId: [344],
 	illustrator: "Tomokazu Komiya",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "多龍巴魯托V"
 	},
 
+	dexId: [887],
 	illustrator: "aky CG Works",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],

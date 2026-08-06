@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 喵頭目"
 	},
 
+	dexId: [863],
 	illustrator: "Naoki Saito",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Metal"],

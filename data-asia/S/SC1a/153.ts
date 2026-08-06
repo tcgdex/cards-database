@@ -8,6 +8,7 @@ const card: Card = {
 		'zh-tw': "恐怖超能量"
 	},
 
+	rarity: "Uncommon",
 	category: "Energy",
 
 	effect: {

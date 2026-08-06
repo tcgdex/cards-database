@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 蔥遊兵"
 	},
 
+	dexId: [865],
 	illustrator: "You Iribi",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],

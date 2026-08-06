@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "莫魯貝可"
 	},
 
+	dexId: [877],
 	illustrator: "Kouki Saitou",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Lightning"],

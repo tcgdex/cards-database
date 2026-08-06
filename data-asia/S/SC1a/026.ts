@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "啪嚓海膽V"
 	},
 
+	dexId: [871],
 	illustrator: "PLANETA Igarashi",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Lightning"],

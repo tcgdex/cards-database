@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "莫魯貝可V"
 	},
 
+	dexId: [877],
 	illustrator: "5ban Graphics",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Lightning"],

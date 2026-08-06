@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 大蔥鴨"
 	},
 
+	dexId: [83],
 	illustrator: "Akira Komayama",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "鑽角犀獸"
 	},
 
+	dexId: [112],
 	illustrator: "KEIICHIRO ITO",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

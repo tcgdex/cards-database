@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "劈斬司令"
 	},
 
+	dexId: [625],
 	illustrator: "kawayoo",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Metal"],

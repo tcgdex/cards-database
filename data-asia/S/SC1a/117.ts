@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "大王銅象V"
 	},
 
+	dexId: [879],
 	illustrator: "5ban Graphics",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Metal"],

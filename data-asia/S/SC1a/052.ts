@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "提布莉姆"
 	},
 
+	dexId: [857],
 	illustrator: "kirisAki",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

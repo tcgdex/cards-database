@@ -8,7 +8,8 @@ const card: Card = {
 		'zh-tw': "亞洛"
 	},
 
-	illustrator: "take",
+	illustrator: "Hitoshi Ariga",
+	rarity: "Character Super Rare",
 	category: "Trainer",
 
 	effect: {

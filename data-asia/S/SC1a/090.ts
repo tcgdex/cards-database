@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "八爪武師"
 	},
 
+	dexId: [853],
 	illustrator: "Shin Nagasawa",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],

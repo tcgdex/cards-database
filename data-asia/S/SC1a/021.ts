@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "顫弦蠑螈"
 	},
 
+	dexId: [849],
 	illustrator: "TOKIYA",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

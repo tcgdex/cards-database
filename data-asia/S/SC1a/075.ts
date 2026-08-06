@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "鯰魚王"
 	},
 
+	dexId: [340],
 	illustrator: "kawayoo",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Fighting"],

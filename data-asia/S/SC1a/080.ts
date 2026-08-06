@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 死神板"
 	},
 
+	dexId: [867],
 	illustrator: "TOKIYA",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

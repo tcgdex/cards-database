@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "飛腿郎"
 	},
 
+	dexId: [106],
 	illustrator: "Shigenori Negishi",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],

@@ -8,7 +8,8 @@ const card: Card = {
 		'zh-tw': "寶可夢中心的姐姐"
 	},
 
-	illustrator: "kirisAki",
+	illustrator: "Sanosuke Sakuma",
+	rarity: "Character Super Rare",
 	category: "Trainer",
 
 	effect: {

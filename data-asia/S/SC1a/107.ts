@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 泥巴魚"
 	},
 
+	dexId: [618],
 	illustrator: "Kouki Saitou",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Metal"],

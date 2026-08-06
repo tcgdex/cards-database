@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "喵喵VMAX"
 	},
 
+	dexId: [52],
 	illustrator: "aky CG Works",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],

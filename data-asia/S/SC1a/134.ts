@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "稚山雀"
 	},
 
+	dexId: [821],
 	illustrator: "Akira Komayama",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

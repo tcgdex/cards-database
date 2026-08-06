@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "布莉姆溫"
 	},
 
+	dexId: [858],
 	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

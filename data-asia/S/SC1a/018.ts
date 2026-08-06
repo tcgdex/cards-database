@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "逐電犬"
 	},
 
+	dexId: [836],
 	illustrator: "Misa Tsutsui",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],

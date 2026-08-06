@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "列陣兵V"
 	},
 
+	dexId: [870],
 	illustrator: "aky CG Works",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],

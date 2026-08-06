@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "皮皮"
 	},
 
+	dexId: [35],
 	illustrator: "sowsow",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Psychic"],

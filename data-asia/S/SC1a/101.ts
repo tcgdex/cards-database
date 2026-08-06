@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "大嘴娃"
 	},
 
+	dexId: [303],
 	illustrator: "AKIRA EGAWA",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Metal"],

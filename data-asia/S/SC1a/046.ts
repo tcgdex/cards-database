@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "沙丘娃"
 	},
 
+	dexId: [769],
 	illustrator: "Yuka Morii",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

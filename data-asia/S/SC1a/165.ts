@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "蒼響V"
 	},
 
+	dexId: [888],
 	illustrator: "5ban Graphics",
+	rarity: "Character Super Rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Metal"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "巨炭山"
 	},
 
+	dexId: [839],
 	illustrator: "Shin Nagasawa",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Fighting"],

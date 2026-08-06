@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "伽勒爾 喵喵"
 	},
 
+	dexId: [52],
 	illustrator: "kirisAki",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Metal"],

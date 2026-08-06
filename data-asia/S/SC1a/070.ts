@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "樹才怪"
 	},
 
+	dexId: [185],
 	illustrator: "Yukiko Baba",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Fighting"],

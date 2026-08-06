@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "獨劍鞘"
 	},
 
+	dexId: [679],
 	illustrator: "Sekio",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Metal"],

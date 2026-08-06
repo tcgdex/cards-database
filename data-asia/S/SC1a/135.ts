@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "藍鴉"
 	},
 
+	dexId: [822],
 	illustrator: "Anesaki Dynamic",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],

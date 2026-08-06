@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "來悲茶"
 	},
 
+	dexId: [854],
 	illustrator: "Saya Tsuruta",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],

@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "大王銅象VMAX"
 	},
 
+	dexId: [879],
 	illustrator: "5ban Graphics",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Metal"],

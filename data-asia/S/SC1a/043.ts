@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "食夢夢"
 	},
 
+	dexId: [517],
 	illustrator: "Asako Ito",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

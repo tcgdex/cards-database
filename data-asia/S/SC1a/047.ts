@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "噬沙堡爺"
 	},
 
+	dexId: [770],
 	illustrator: "Hasuno",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Psychic"],

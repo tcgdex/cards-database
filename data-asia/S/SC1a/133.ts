@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "藏飽栗鼠"
 	},
 
+	dexId: [820],
 	illustrator: "kirisAki",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],

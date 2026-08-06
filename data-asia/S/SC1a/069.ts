@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "超甲狂犀"
 	},
 
+	dexId: [464],
 	illustrator: "Satoshi Shirai",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fighting"],

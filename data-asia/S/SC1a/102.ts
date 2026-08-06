@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "銅鏡怪"
 	},
 
+	dexId: [436],
 	illustrator: "Midori Harada",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Metal"],

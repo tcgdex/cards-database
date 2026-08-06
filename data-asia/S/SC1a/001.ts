@@ -8,6 +8,8 @@ const card: Card = {
 		'zh-tw': "飛天螳螂"
 	},
 
+	dexId: [123],
+	rarity: 'Common',
 	illustrator: "KEIICHIRO ITO",
 	category: "Pokemon",
 	hp: 80,

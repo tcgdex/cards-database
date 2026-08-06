@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "拳拳蛸"
 	},
 
+	dexId: [852],
 	illustrator: "Mina Nakai",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fighting"],

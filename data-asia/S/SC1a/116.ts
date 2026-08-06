@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "大王銅象"
 	},
 
+	dexId: [879],
 	illustrator: "Hitoshi Ariga",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Metal"],

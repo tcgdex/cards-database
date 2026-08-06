@@ -9,6 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {

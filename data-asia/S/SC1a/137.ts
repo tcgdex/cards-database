@@ -9,6 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {

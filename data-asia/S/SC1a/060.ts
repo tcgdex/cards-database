@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "多龍巴魯托"
 	},
 
+	dexId: [887],
 	illustrator: "Shin Nagasawa",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

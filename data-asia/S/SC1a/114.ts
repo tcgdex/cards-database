@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "鋼鎧鴉"
 	},
 
+	dexId: [823],
 	illustrator: "Shin Nagasawa",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Metal"],

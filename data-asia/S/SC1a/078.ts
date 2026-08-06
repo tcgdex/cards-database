@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "雷吉洛克V"
 	},
 
+	dexId: [377],
 	illustrator: "PLANETA Tsuji",
+	rarity: "Double rare",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fighting"],

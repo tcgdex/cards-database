@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "來電汪"
 	},
 
+	dexId: [835],
 	illustrator: "Akira Komayama",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

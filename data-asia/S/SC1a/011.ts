@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "倫琴貓"
 	},
 
+	dexId: [405],
 	illustrator: "Hasuno",
+	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],

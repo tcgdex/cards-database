@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "小炭仔"
 	},
 
+	dexId: [837],
 	illustrator: "Misa Tsutsui",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],
