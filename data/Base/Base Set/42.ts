@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Squirtle",
 		fr: "Carapuce",
-		it: "Squirtle"
+		it: "Squirtle",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -47,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Wartortle during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Carabaffe pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Schillok während des nächsten Zugs Deines Gegners zugefühgt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Schillok während des nächsten Zugs Deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
 				it: "Lancia una moneta. Se esce testa, preveni tutti i danni inflitti a Wartortle durante il prossimo turno del tuo avversario. (Tutti gli effetti degli attacchi restano validi.)",
 			},
 
@@ -82,7 +83,8 @@ const card: Card = {
 	description: {
 		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 		fr: "Il se cache au fond de l'eau pour guetter sa proie. Ses oreilles sont des gouvernails.",
-		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8"
+		it: "Spesso di nasconde nell'acqua per sorprendere le prede. Quando nuota rapidamente, muove le orecchie per mantenersi in equilibrio. LIV 22 N.8",
+		de: "Versteckt sich oft im Wasser, um nichtsahnende Beute zu überfallen. Wenn es schnell schwimmt, nutzt es seine Ohren, um das Gleichgewicht zu halten."
 	},
 
 	variants: [

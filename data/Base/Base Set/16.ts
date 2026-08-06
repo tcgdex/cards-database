@@ -43,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Zapdos does 30 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Électhor s'inflige 30 dégâts.",
-				de: "Wirf eine Münze. Bei Zahl fügt sich Zapdos selbst 30 Schadenspunkte zu.",
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Zapdos sich selbst 30 Schadenspunkte zu.",
 				it: "Lancia una moneta. Se esce croce, Zapdos si infligge 30 danni.",
 			},
 			damage: 60,
@@ -85,7 +85,8 @@ const card: Card = {
 	description: {
 		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.",
-		it: "Leggendario uccello Pokémon. Si dice che appaia dalle nuvole brandendo enormi fulmini. LIV 64 N.145"
+		it: "Leggendario uccello Pokémon. Si dice che appaia dalle nuvole brandendo enormi fulmini. LIV 64 N.145",
+		de: "Ein legendäres Vogel-Pokémon, welches der Sage nach aus den Wolken sticht und mit Blitzen um sich wirft."
 	},
 
 	variants: [

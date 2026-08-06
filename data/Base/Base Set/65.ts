@@ -55,7 +55,8 @@ const card: Card = {
 	description: {
 		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
 		fr: "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat.",
-		it: "Pokémon enigmatico che può rigenerare senza sforzo qualsiasi parte del corpo persa in combattimento. LIV 15 N.120"
+		it: "Pokémon enigmatico che può rigenerare senza sforzo qualsiasi parte del corpo persa in combattimento. LIV 15 N.120",
+		de: "Ein geheimnisvolles Pokémon, das mühelos alle Gliedmaßen regenerieren kann, die es in der Schlacht verliert."
 	},
 
 	variants: [
