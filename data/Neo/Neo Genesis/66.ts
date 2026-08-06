@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Defense Curl",
 				fr: "Boul'armure",
-				de: "Defense Curl"
+				de: "Einigler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Marill pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Flip a coin. If heads, prevent all damage done to Marill during your opponent's next turn. (Any other effects of attacks still happen.)"
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ alle Schadenspunkte, die Marill während des nächsten gegnerischen Zuges zugefügt werden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Bomb",
 				fr: "Bulle bombe",
-				de: "Bubble Bomb"
+				de: "Blubbbombe"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, Marill s'inflige 10 dégâts.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Marill does 10 damage to itself."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei Zahl fügt sich Marill selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current.",
-		fr: "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois."
+		fr: "L'extrémité de sa queue lui sert de bouée et lui évite de couler, même dans les courants les plus sournois.",
+		de: "Das Ende seines Schweifs dient ihm als Boje, um sich über Wasser zu halten und vor dem Ertrinken zu retten, selbst in einer heimtückischen Strömung."
 	},
 
 

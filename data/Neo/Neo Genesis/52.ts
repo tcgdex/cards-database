@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Natu",
-		fr: "Natu"
+		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Prophecy",
 				fr: "Prophétie",
-				de: "Prophecy"
+				de: "Vorhersagung"
 			},
 			effect: {
 				en: "Look at the top 3 cards of either player's deck and rearrange them as you like.",
 				fr: "Regardez les 3 cartes du dessus du deck de n'importe quel joueur et ordonnez-les comme bon vous semble.",
-				de: "Look at the top 3 cards of either player's deck and rearrange them as you like."
+				de: "Schaue dir die drei obersten Karten entweder von deinem Deck oder vom Deck deines Gegners an und lege sie in einer beliebigen Reihenfolge wieder zurück."
 			},
 
 		},
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Confuse Ray"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
-		fr: "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps."
+		fr: "On dit qu'il reste silencieux et immobile car il observe le passé et le futur en même temps.",
+		de: "Es wird gesagt, dass es still und ruhig bleibt, weil es sowohl die Vergangenheit als auch die Zukunft gleichzeitig sieht."
 	},
 
 

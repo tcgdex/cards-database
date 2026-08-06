@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face et si votre adversaire a un ou plusieurs Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec le Pokémon Défenseur. (Infligez les dégâts avant d'échanger les Pokémon.)",
-				de: "Wirf eine Münze. Bei 'Kopf' und falls dein Gegner mindestens ein Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit seinem aktiven Pokémon aus.(Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
+				de: "Wirf eine Münze. Bei „Kopf“ und falls dein Gegner mindestens ein Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit seinem aktiven Pokémon aus. (Füge die Schadenspunkte vor dem Austauschen der Pokémon zu.)"
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Although it looks frightening, it is actually kind and affectionate. It is very popular.",
-		fr: "Bien qu'il soit effrayant, il est en fait doux et attentionné. Il est très populaire."
+		fr: "Bien qu'il soit effrayant, il est en fait doux et attentionné. Il est très populaire.",
+		de: "Obwohl es furchterregend aussieht, ist es eigentlich ganz lieb und zärtlich. Es ist sehr beliebt."
 	},
 
 
