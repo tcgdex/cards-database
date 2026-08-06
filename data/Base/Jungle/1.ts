@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
-		fr: "Mélofée"
+		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding Energy cards. (No matter what type the Defending Pokémon is, Clefable's type is still Colorless.)",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélodelfe demeure de type Incolore.)",
-				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des verteidigenden Pokémon bleibt Pixi immer noch ein farbloses Pokémon.)"
+				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des verteidigenden Pokémon bleibt Pixi immer noch ein farbloses Pokémon.)"
 			},
 
 		},
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		fr: "Une sorte de petite fée très rare. Il se cache en apercevant un être humain.",
-		en: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people."
+		en: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people.",
+		de: "Ein furchtsames Feen-Pokémon, das selten zum Vorschein kommt. Sobald es Menschen wittert, läuft es davon und versteckt sich."
 	},
 
 

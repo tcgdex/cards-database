@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
-		fr: "Roucoups"
+		fr: "Roucoups",
+		de: "Tauboga"
 	},
 
 	stage: "Stage2",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
 				fr: "À moins que cette attaque ne mette le Pokémon Défenseur K.O., renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
-				de: "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle daraufabgelegten Karten deinem Gegner auf die Hand zurück."
+				de: "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle darauf abgelegten Karten deinem Gegners auf die Hand zurück."
 			},
 			damage: 30,
 
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
-		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
+		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles.",
+		de: "Auf der Jagd fliegt es mit einer hohen Geschwindigkeit knapp über der Wasseroberfläche, um nichtsahnende Beute wie z.B. Karpador einzufangen."
 	},
 
 

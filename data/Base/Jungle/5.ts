@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 20 Schadenspunkte zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -82,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
-		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
+		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans.",
+		de: "Der Nachkömmling verläßt vor dem Alter von drei Jahren nur selten den Beutel der Mutter."
 	},
 
 

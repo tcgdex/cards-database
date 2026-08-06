@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bellsprout",
-		fr: "Chétiflor"
+		fr: "Chétiflor",
+		de: "Knofensa"
 	},
 
 	stage: "Stage1",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 10
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It spits out poisonpowder to immobilize the enemy, and then finishes the enemy with a spray of acid.",
-		fr: "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide."
+		fr: "Il crache de la poudre toxik pour immobiliser sa proie et il l'achève avec de l'acide.",
+		de: "Es spuckt Giftpuder, um den Feind bewegungsunfähig zu machen, und erledigt ihn dann ganz mit einem Sprühnebel an Säure."
 	},
 
 

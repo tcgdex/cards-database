@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
 				fr: "Lancez un nombre de pièces égal au nombre d'Énergies attachées à Noadkoko. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf eine Anzahl Münzen, die der auf Kokowei abgelegten Energiemenge entspricht. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 20 Schadenspunkte zu."
+				de: "Wirf eine Anzahl Münzen, die der auf Kokowei abgelegten Energiemenge entspricht. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
-		fr: "On raconte que si une de ses têtes se détache, elle se transforme en un Nœunœuf."
+		fr: "On raconte que si une de ses têtes se détache, elle se transforme en un Nœunœuf.",
+		de: "Der Legende nach soll in seltenen Fällen eines seiner Köpfe abfallen und als Owei weiterleben."
 	},
 
 
