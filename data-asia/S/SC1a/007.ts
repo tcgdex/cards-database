@@ -1,4 +1,4 @@
-import Set from "../Sc1a"
+import Set from "../SC1a"
 import { Card } from "../../../interfaces"
 
 const card: Card = {
