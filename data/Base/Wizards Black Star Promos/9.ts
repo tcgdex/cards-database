@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mew",
-		fr: "Mew"
+		fr: "Mew",
+		de: "Mew"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -31,11 +32,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psywave",
-				fr: "Vague psy"
+				fr: "Vague psy",
+				de: "Psywelle"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachés au Pokémon Défenseur."
+				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachés au Pokémon Défenseur.",
+				de: "Fügt 10 Schadenspunkte mal der Anzahl der Energiekarten auf dem verteidigenden Pokémon zu."
 			},
 			damage: "10×",
 
@@ -47,11 +50,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Devolution Beam",
-				fr: "Rayon rétrograde"
+				fr: "Rayon rétrograde",
+				de: "Devolutionsstrahl"
 			},
 			effect: {
 				en: "Choose an Evolved Pokémon (your own or your opponent's). Return the highest Stage Evolution card on that Pokémon to its player's hand. That Pokémon is no longer Asleep, Confused, Paralyzed, Poisoned, or anything else that might be the result of an attack (just as if you had evolved it).",
-				fr: "Choisissez un Pokémon évolué (l'un des vôtres ou l'un de ceux de votre adversaire). Retournez la plus haute carte Évolution sur ce Pokémon dans la main de son propriétaire. Ce Pokémon n'est plus Endormi, Confus, Paralysé, Empoisonné ou tout autre effet résultant d'une attaque (comme s'il venait juste d'évoluer)."
+				fr: "Choisissez un Pokémon évolué (l'un des vôtres ou l'un de ceux de votre adversaire). Retournez la plus haute carte Évolution sur ce Pokémon dans la main de son propriétaire. Ce Pokémon n'est plus Endormi, Confus, Paralysé, Empoisonné ou tout autre effet résultant d'une attaque (comme s'il venait juste d'évoluer).",
+				de: "Wähle ein entwickeltes Pokémon (dein eigenes oder ein gegnerisches). Nimm die höchste Evolutionsphasenkarte auf diesem Pokémon zurück auf die Hand des Spielers. Dieses Pokémon ist nicht mehr im Schlaf, verwirrt, gelähmt, vergiftet oder sonst in einem aus einem Angriff resultierenden Zustand (wie wenn du es entwickelt hättest)."
 			},
 
 		},
@@ -68,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
-		fr: "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu."
+		fr: "Unique et rare, son existence est remise en cause par les experts. Peu nombreux sont ceux qui l'ont vu.",
+		de: "So selten, dass es von viele Experten noch immer für eine Fata Morgana gehalten wird. Nur wenige Menschen weltweit haben es je erblickt."
 	},
 
 	variants: [

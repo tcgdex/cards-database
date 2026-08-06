@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Scizor",
-		fr: "Cizayox"
+		fr: "Cizayox",
+		de: "Scherox"
 	},
 
 	illustrator: "Hironobu Yoshida",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scyther",
-		fr: "Insécateur"
+		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -36,11 +38,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leer",
-				fr: "Groz'yeux"
+				fr: "Groz'yeux",
+				de: "Silberblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack Scizor during your opponent's next turn. (Benching either Pokémon ends this effect.)",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Cizayox pendant le prochain tour de votre adversaire. (Mettre l'un des deux Pokémon sur le Banc met fin à cet effet.)"
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Cizayox pendant le prochain tour de votre adversaire. (Mettre l'un des deux Pokémon sur le Banc met fin à cet effet.)",
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon Scherox während des nächsten Zugs deines Gegners nicht angreifen. (Kommt eins der beiden Pokémon auf die Bank, endet diese Wirkung.)"
 			},
 
 		},
@@ -52,11 +56,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Pincer",
-				fr: "Pinces de Métal"
+				fr: "Pinces de Métal",
+				de: "Metallschneider"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 30 dégâts plus 10 fois le nombre de faces."
+				fr: "Lancez une pièce jusqu'à ce que ce soit pile. Cette attaque inflige 30 dégâts plus 10 fois le nombre de faces.",
+				de: "Wirf eine Münze, bis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",
 
@@ -81,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
-		fr: "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement."
+		fr: "Il n'utilise pas ses ailes pour voler. Elles lui servent à ajuster la température de son corps en les faisant battre rapidement.",
+		de: "Seine Flügel sind nicht zum Fliegen gedacht. Das schnelle Flattern hilft dabei, die Körpertemperatur auszugleichen."
 	},
 
 	variants: [
