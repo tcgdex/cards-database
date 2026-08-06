@@ -48,6 +48,16 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Fire"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680215,
+				tcgplayer: 570134,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "F",
 	rarity: "Double rare"

@@ -1,22 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "挖洞兄弟"
+		ja: "ホルビー",
+		'zh-tw': "挖洞兄弟",
 	},
 
-	illustrator: "Yuu Nishida",
-	category: "Trainer",
+	illustrator: "sowsow",
+	category: "Pokemon",
+	hp: 40,
+	types: ["Colorless"],
 
-	effect: {
-		'zh-tw': "擲1次硬幣。若為正面，則查看自己的牌庫下方8張卡，若為反面，則查看自己的牌庫下方3張卡，選擇其中1張卡加入手牌。將剩餘卡放回牌庫並重洗。"
+	description: {
+		ja: "耳で 穴を 掘るのが 得意。 地下１０メートルに とどく 巣穴を 一晩で つくってしまう。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "F"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "マッドパーティ" },
+			damage: "20×",
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561788,
+				tcgplayer: 597391,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [659],
+};
+
+export default card;

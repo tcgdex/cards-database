@@ -59,7 +59,7 @@ const card: Card = {
 		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
 	},
 
-	
+
 
 	variants: [
 		{
@@ -74,6 +74,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665655,
 				tcgplayer: 276944
+			}
+		},
+		{
+			type: 'reverse',
+			subtype: 'peelable-ditto',
+			thirdParty: {
+				tcgplayer: 277793
 			}
 		},
 	],

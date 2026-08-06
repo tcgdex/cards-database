@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "暑い季節が終わると空気をたくさん含んだ体毛に生え変わり寒さに備える。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840613,
+				tcgplayer: 647290,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ミミロル"
 	},

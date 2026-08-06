@@ -1,42 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S5I"
+import { Card } from "../../../interfaces";
+import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "カプ・コケコVMAX",
 		'zh-tw': "卡璞・鳴鳴VMAX",
-		th: "คาปู โคเคโคVMAX"
+		th: "คาปู โคเคโคVMAX",
 	},
 
 	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Lightning"],
+
 	stage: "VMAX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "極巨衝擊",
-			th: "ไดช็อก"
+	attacks: [
+		{
+			name: {
+				ja: "ダイショック",
+				'zh-tw': "極巨衝擊",
+				th: "ไดช็อก",
+			},
+			damage: 180,
+			cost: ["Lightning", "Lightning", "Colorless"],
+			effect: {
+				ja: "自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、相手のバトルポケモンをマヒにする。",
+				'zh-tw': "若自己剩餘獎賞卡的張數，比對手剩餘獎賞卡的張數多，則將對手的戰鬥寶可夢【麻痺】。",
+				th: "ถ้าจำนวนการ์ดรางวัลที่เหลือของฝ่ายเรา มากกว่าจำนวนการ์ดรางวัลที่เหลือของฝ่ายตรงข้าม ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ [ชา]",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若自己剩餘獎賞卡的張數，比對手剩餘獎賞卡的張數多，則將對手的戰鬥寶可夢【麻痺】。",
-			th: "ถ้าจำนวนการ์ดรางวัลที่เหลือของฝ่ายเรา มากกว่าจำนวนการ์ดรางวัลที่เหลือของฝ่ายตรงข้าม ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ [ชา]"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 533312,
+				tcgplayer: 568966,
+			},
 		},
+	],
 
-		damage: 180,
-		cost: ["Lightning", "Lightning", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "カプ・コケコV",
+	},
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Triple Rare",
+	dexId: [785],
+};
 
-export default card
+export default card;

@@ -25,6 +25,16 @@ const card: Card = {
 		type: "Lightning",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840569,
+				tcgplayer: 647272,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Common",

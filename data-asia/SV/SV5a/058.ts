@@ -20,6 +20,16 @@ const card: Card = {
 		th: "เลือกการ์ดโปเกมอนที่มีชื่อเดียวกับโปเกมอนบนกระดานฝ่ายตรงข้าม 1 ใบ จากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761518,
+				tcgplayer: 566113,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

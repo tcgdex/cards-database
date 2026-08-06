@@ -41,11 +41,17 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707685,
+				tcgplayer: 565951,
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 705362
-	}
+	retreat: 0,
 }
 
 export default card

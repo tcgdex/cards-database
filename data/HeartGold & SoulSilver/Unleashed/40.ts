@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		117,
-	],
+	dexId: [117],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe",
+		fr: "Hypotrempe"
 	},
 
 	stage: "Stage1",
@@ -41,7 +39,7 @@ const card: Card = {
 				de: "Lehmbrühe"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistzenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -80,21 +78,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89016,
+				cardmarket: 279196
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89016,
+				cardmarket: 279196
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["gustavo-wada"],
+			thirdParty: {
+				cardmarket: 868151,
+				tcgplayer: 480490
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279196,
-		tcgplayer: 89016
-	}
 }
 
 export default card

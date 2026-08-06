@@ -20,6 +20,16 @@ const card: Card = {
 		th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว สลับกับโปเกมอนบนตำแหน่งต่อสู้"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761517,
+				tcgplayer: 566112,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

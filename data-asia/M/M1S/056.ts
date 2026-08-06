@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "格闘家顔負けの技で仕留めた獲物を両脇に抱えてすみかへ持ち帰る。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840615,
+				tcgplayer: 647293,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ヌイコグマ"
 	},

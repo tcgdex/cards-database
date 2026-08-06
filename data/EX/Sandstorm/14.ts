@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Zangoose can't be Poisoned.",
 				fr: "Mangriff ne peut pas être Empoisonné.",
 				de: "Zangoose can't be Poisoned."
-			},
+			}
 		},
 	],
 
@@ -90,19 +88,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275791,
-		tcgplayer: 90702
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275791,
+				tcgplayer: 90702
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275791,
+				tcgplayer: 90702
+			}
 		},
-	]
+	],
+
 }
 
 export default card

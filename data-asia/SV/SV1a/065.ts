@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Lihat 7 kartu dari atas Deck sendiri, pilih 1 lembar Pokémon di antaranya, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kocok kembali sisa kartu ke Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 701119,
+				tcgplayer: 568188,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

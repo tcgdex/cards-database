@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		273,
-	],
+	dexId: [273],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Suprise Attack",
+				en: "Surprise Attack",
 				fr: "Attaque Surprise",
 				de: "Überaschungsangriff"
 			},
@@ -55,19 +53,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275853,
-		tcgplayer: 89036
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275853,
+				tcgplayer: 89036
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275853,
+				tcgplayer: 89036
+			}
 		},
-	]
+	],
+
 }
 
 export default card

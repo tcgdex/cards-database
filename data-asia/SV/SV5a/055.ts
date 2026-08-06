@@ -19,6 +19,16 @@ const card: Card = {
 		th: "เลือกการ์ดโปเกมอน[ร่าง1] ได้สูงสุด 3 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761515,
+				tcgplayer: 566110,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

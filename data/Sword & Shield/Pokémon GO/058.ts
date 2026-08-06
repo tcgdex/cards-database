@@ -69,7 +69,7 @@ const card: Card = {
 	regulationMark: "F",
 
 
-	
+
 
 	variants: [
 		{
@@ -77,6 +77,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665677,
 				tcgplayer: 276980
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['gabriel-fernandez'],
+			thirdParty: {
+				cardmarket: 833048,
+				tcgplayer: 541774
 			}
 		},
 	],

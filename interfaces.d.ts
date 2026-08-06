@@ -36,7 +36,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
 	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection' | 'chicago-2009'
 	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'chase-moloney' | 'pokemon-xd-gale-of-darkness' | 'legendary-pokemon' 
-	| 'scrye' | 'inquest-gamer' 
+	| 'scrye' | 'inquest-gamer' | 'jesse-parker' | 'gabriel-fernandez' | 'sakuya-ota' | 'shao-tong-yen'
 
 
 export interface variant_detailed {
@@ -57,7 +57,7 @@ export interface variant_detailed {
 	| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
 	| 'cosmos' | 'blue-border' | 'glossy' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error'
-	| '1995-1998-copyright' | 'no-rarity' | 'missing-retreat-cost' | 'phanphy-error'
+	| '1995-1998-copyright' | 'no-rarity' | 'missing-retreat-cost' | 'phanphy-error' | 'peelable-ditto'
 
 	/**
 	 * define the size of the card
@@ -230,6 +230,7 @@ export interface Card {
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
 	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
+<<<<<<< HEAD
 	'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
 	'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
 	'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
@@ -243,6 +244,22 @@ export interface Card {
 	// Pokémon TCG Pocket Rarities
 	| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 	| 'Promo'
+=======
+			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
+			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
+			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
+			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
+			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
+			// Black White rare
+			| 'Black White Rare'
+			| 'Mega Hyper Rare'
+			| 'Triple Rare'
+			// Japanese Character Rares (since SM11b Dream League)
+			| 'Character Rare' | 'Character Super Rare'
+			// Pokémon TCG Pocket Rarities
+			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
+			| 'Promo'
+>>>>>>> master
 
 	/**
 	 * Card Category

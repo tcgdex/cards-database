@@ -98,24 +98,33 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276311,
-		tcgplayer: 84661
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276311,
+				tcgplayer: 84661
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276311,
+				tcgplayer: 84661
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
-		}
-	]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871537,
+				tcgplayer: 477508
+			},
+		},
+	],
+
 }
 
 export default card

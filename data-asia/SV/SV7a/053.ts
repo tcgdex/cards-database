@@ -19,13 +19,19 @@ const card: Card = {
 		ja: "このカードは、後攻プレイヤーの最初の番しか使えない。\n\n自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787613,
+				tcgplayer: 579435,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
 	rarity: "Uncommon",
-
-	thirdParty: {
-		cardmarket: 787613
-	}
 }
 
 export default card

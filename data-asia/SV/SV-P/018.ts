@@ -1,50 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "卡蒂狗"
+		ja: "学習装置",
+		'zh-tw': "卡蒂狗",
 	},
 
-	illustrator: "Uta",
-	category: "Pokemon",
-	hp: 90,
-	types: ["Fire"],
+	illustrator: "Toyste Beach",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "性格誠實，容易和人親近。 遇到敵人時牠會吼叫追咬， 試著把敵人趕走。"
+	effect: {
+		ja: "自分のバトルポケモンが、相手のポケモンからワザのダメージを受けてきぜつするたび、そのポケモンについている基本エネルギーを1枚選び、このカードをつけているポケモンにつけ替えてよい。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "燃起"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 699715,
+				tcgplayer: 587775,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇最多2張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。"
-		},
+	trainerType: "Tool",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "火之爪"
-		},
-
-		damage: 70,
-		cost: ["Fire", "Fire", "Fire"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

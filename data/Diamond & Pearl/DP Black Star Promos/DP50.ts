@@ -4,7 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Dialga",
+		fr: "Arceus",
 		de: "Arceus"
 	},
 

@@ -28,6 +28,16 @@ const card: Card = {
 		type: "Fighting",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840586,
+				tcgplayer: 647249,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Common",

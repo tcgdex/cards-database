@@ -18,20 +18,25 @@ const card: Card = {
 		de: "Discard a card from your hand. Then, draw 3 cards. If you dicard a Pokémon that has Dark or Rocket's in its name, draw 4 cards instead."
 	},
 
-	thirdParty: {
-		cardmarket: 276380,
-		tcgplayer: 88780
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276380,
+				tcgplayer: 88780
+			},
 		},
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 276380,
+				tcgplayer: 88780
+			},
+		},
+	],
+
 }
 
 export default card

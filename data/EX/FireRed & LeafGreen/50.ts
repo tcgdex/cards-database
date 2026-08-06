@@ -76,31 +76,43 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276226,
-		tcgplayer: 90486
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276226,
+				tcgplayer: 90486
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276226,
+				tcgplayer: 90486
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 881786,
+				tcgplayer: 285695
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
-		}
-	]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 869514,
+				tcgplayer: 477978
+			},
+		},
+	],
 }
 
 export default card

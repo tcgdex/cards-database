@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Hoothoot"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		163,
-	],
+	dexId: [163],
 	hp: 50,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 			effect: {
 				en: "Hoothoot can't be Asleep.",
 				fr: "Hoothoot ne peut pas être endormi."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -64,14 +62,18 @@ const card: Card = {
 
 
 	description: {
-		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
+		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275607,
+				tcgplayer: 86174
+			}
+		},
+	],
 
 }
 

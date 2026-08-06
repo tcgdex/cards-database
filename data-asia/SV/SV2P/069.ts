@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih Energi Spesial yang dikenakan pada semua Pokémon lawan masing-masing 1, lalu buang ke Trash."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705302,
+				tcgplayer: 567826,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

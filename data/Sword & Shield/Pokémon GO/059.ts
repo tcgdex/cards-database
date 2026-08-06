@@ -59,7 +59,7 @@ const card: Card = {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
 	},
 
-	
+
 
 	variants: [
 		{
@@ -74,6 +74,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665282,
 				tcgplayer: 276982
+			}
+		},
+		{
+			type: 'reverse',
+			subtype: 'peelable-ditto',
+			thirdParty: {
+				tcgplayer: 277788
 			}
 		},
 	],

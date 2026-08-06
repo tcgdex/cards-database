@@ -1,51 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "茸茸羊"
+		ja: "げんきのハチマキ",
+		'zh-tw': "茸茸羊",
 	},
 
-	illustrator: "0313",
-	category: "Pokemon",
-	hp: 90,
-	types: ["Lightning"],
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "儲存了過多電力的結果， 造成牠身體表面有些部分 連胎毛都長不出來。"
+	effect: {
+		ja: "このカードをつけているポケモンが使うワザの、相手のバトルポケモンへのダメージは「＋10」される。",
 	},
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "劈哩啪啦"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 699716,
+				tcgplayer: 587776,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Lightning"]
-	}, {
-		name: {
-			'zh-tw': "激電流"
-		},
+	trainerType: "Tool",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		effect: {
-			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。"
-		},
-
-		damage: 80,
-		cost: ["Lightning", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

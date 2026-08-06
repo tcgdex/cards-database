@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "普段は墓場で眠っている。数いる犬ポケモンの中でもっとも主に忠実だ。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840607,
+				tcgplayer: 647287,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ボチ"
 	},

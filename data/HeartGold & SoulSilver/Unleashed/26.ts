@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		248,
-	],
+	dexId: [248],
 
 	hp: 140,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect",
+		fr: "Ymphect"
 	},
 
 	stage: "Stage2",
@@ -94,21 +92,28 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90121,
+				cardmarket: 279182
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90121,
+				cardmarket: 279182
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125049
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279182,
-		tcgplayer: 90121
-	}
 }
 
 export default card

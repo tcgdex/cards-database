@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		169,
-	],
+	dexId: [169],
 
 	hp: 110,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Golbat",
-		fr: "Nosferalto",
+		fr: "Nosferalto"
 	},
 
 	stage: "Stage2",
@@ -64,7 +62,7 @@ const card: Card = {
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -91,21 +89,29 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84488,
+				cardmarket: 279170
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 84488,
+				cardmarket: 279170
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 371561,
+				tcgplayer: 153256
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279170,
-		tcgplayer: 84488
-	}
 }
 
 export default card

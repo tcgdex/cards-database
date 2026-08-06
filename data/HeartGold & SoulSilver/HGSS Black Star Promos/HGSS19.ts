@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Raikou"
 	},
 	illustrator: "Noriko Hotta",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		243,
-	],
+	dexId: [243],
 	hp: 80,
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -57,14 +55,19 @@ const card: Card = {
 
 
 	description: {
-		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
+		en: "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275595,
+				tcgplayer: 88535
+			}
+		},
+	],
+
 }
 
 export default card

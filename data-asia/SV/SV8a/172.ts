@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "查看自己的牌庫上方6張卡，從其中選擇2張卡加入手牌。將剩餘卡丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803285,
+				tcgplayer: 602620,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602621,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H",
 	energyType: "Normal"

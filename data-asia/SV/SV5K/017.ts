@@ -1,20 +1,17 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV5K"
+import { Card } from "../../../interfaces";
+import Set from "../SV5K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
 		ja: "サメハダー",
 		'zh-tw': "巨牙鯊",
 		th: "ซาเมฮาเดอร์",
-		ko: "샤크니아"
+		ko: "샤크니아",
 	},
 
 	illustrator: "Shinji Kanda",
-	rarity: "Uncommon",
 	category: "Pokemon",
-	dexId: [319],
 	hp: 120,
 	types: ["Water"],
 
@@ -22,53 +19,61 @@ const card: Card = {
 		ja: "獲物の 匂いを 嗅ぎとると お尻から 海水を 噴射して 時速１２０キロで 襲撃する。",
 		'zh-tw': "當牠嗅到獵物的氣味，就會從臀部噴射出海水， 發動時速１２０公里的襲擊。",
 		th: "ทันทีที่ได้กลิ่นของเหยื่อก็จะฉีดน้ำทะเลออกจากหางและรีบพุ่งเข้าโจมตีด้วยความเร็ว 120 กิโลเมตรต่อชั่วโมง",
-		ko: "먹이의 냄새를 맡으면 엉덩이로 바닷물을 내뿜어서 시속 120km의 속도로 습격한다."
+		ko: "먹이의 냄새를 맡으면 엉덩이로 바닷물을 내뿜어서 시속 120km의 속도로 습격한다.",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
-		name: {
-			ja: "かみすてる",
-			'zh-tw': "咬棄",
-			th: "กัดทิ้ง",
-			ko: "깨물어버리기"
+	attacks: [
+		{
+			name: {
+				ja: "かみすてる",
+				'zh-tw': "咬棄",
+				th: "กัดทิ้ง",
+				ko: "깨물어버리기",
+			},
+			damage: 50,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "コインを3回投げ、オモテの数ぶん、相手の手札からオモテを見ないで選び、トラッシュする。",
+				'zh-tw': "擲3次硬幣，在不看手牌正面的情況下，選擇與正面出現的次數相同數量的對手的手牌，將其丟棄。",
+				th: "ทอยเหรียญ 3 ครั้ง เลือกการ์ดจากบนมือฝ่ายตรงข้ามโดยไม่ดูหน้าการ์ด ตามจำนวนครั้งที่ออกหัว ทิ้งที่ตำแหน่งทิ้งการ์ด",
+				ko: "동전을 3번 던져서 앞면이 나온 수만큼 상대의 패에서 앞면을 보지 않고 선택해서 트래쉬한다.",
+			},
 		},
-
-		damage: 50,
-
-		effect: {
-			ja: "コインを3回投げ、オモテの数ぶん、相手の手札からオモテを見ないで選び、トラッシュする。",
-			'zh-tw': "擲3次硬幣，在不看手牌正面的情況下，選擇與正面出現的次數相同數量的對手的手牌，將其丟棄。",
-			th: "ทอยเหรียญ 3 ครั้ง เลือกการ์ดจากบนมือฝ่ายตรงข้ามโดยไม่ดูหน้าการ์ด ตามจำนวนครั้งที่ออกหัว ทิ้งที่ตำแหน่งทิ้งการ์ด",
-			ko: "동전을 3번 던져서 앞면이 나온 수만큼 상대의 패에서 앞면을 보지 않고 선택해서 트래쉬한다."
-		}
-	}, {
-		cost: ["Water", "Colorless", "Colorless"],
-
-		name: {
-			ja: "ジェットヘッド",
-			'zh-tw': "噴射頭擊",
-			th: "เจ็ตเฮด",
-			ko: "제트헤드"
+		{
+			name: {
+				ja: "ジェットヘッド",
+				'zh-tw': "噴射頭擊",
+				th: "เจ็ตเฮด",
+				ko: "제트헤드",
+			},
+			damage: 100,
+			cost: ["Water", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 100
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 752772,
+				tcgplayer: 568351,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "キバニア",
+	},
 
 	retreat: 1,
 	regulationMark: "H",
+	rarity: "Uncommon",
+	dexId: [319],
+};
 
-	thirdParty: {
-		cardmarket: 752772
-	}
-}
-
-export default card
+export default card;

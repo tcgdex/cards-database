@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "ダメカンがのっている自分のポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、手札にもどす。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606288,
+				tcgplayer: 569751,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

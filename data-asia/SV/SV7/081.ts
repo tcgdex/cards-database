@@ -45,6 +45,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779095,
+				tcgplayer: 567936,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "H",
 	rarity: "Uncommon",
@@ -65,10 +75,6 @@ const card: Card = {
 			ja: "このポケモンと、自分の別の「バッフロン」がいるかぎり、自分のタイプのたねポケモン全員が、相手のポケモンから受けるワザのダメージは「-60」される。この効果は、この特性を持つポケモンが何匹いても、重ならない。"
 		}
 	}],
-
-	thirdParty: {
-		cardmarket: 779095
-	}
 }
 
 export default card

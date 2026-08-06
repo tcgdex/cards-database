@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		206,
-	],
+	dexId: [206],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -71,43 +69,71 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275837,
-		tcgplayer: 85008
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 85008
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 85008
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125154
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871809,
+				tcgplayer: 477380
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871811,
+				tcgplayer: 477381
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871810,
+				tcgplayer: 477382
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871534,
+				tcgplayer: 477517
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 871533,
+				tcgplayer: 477518
+			}
 		}
-	]
+	],
+
 }
 
 export default card

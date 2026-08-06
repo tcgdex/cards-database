@@ -36,6 +36,16 @@ const card: Card = {
 		type: "Metal",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840605,
+				tcgplayer: 647271,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Rare",

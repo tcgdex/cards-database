@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 	stage: "Basic",
 
 	attacks: [{
@@ -40,15 +42,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
+			value: "×2"
 		},
 	],
+
 
 	description: {
 		en: "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
 	},
 
 	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280065,
+				tcgplayer: 98688
+			}
+		},
+	],
+
 }
 
 export default card

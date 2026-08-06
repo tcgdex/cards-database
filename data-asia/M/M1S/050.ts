@@ -30,6 +30,16 @@ const card: Card = {
 		damage: 130,
 		cost: ["Water", "Psychic", "Colorless"]
 	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840609,
+				tcgplayer: 647218,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "I",
 	rarity: "Uncommon",

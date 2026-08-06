@@ -91,25 +91,32 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276185,
-		tcgplayer: 87707
-	},
+	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276185,
+				tcgplayer: 87707
+			},
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276185,
+				tcgplayer: 87707
+			},
 		},
 		{
 			type: "holo",
-			foil: "energy"
-		},
-		{
-			type: "holo",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 871516,
+				tcgplayer: 477557
+			}
 		}
 	]
 }

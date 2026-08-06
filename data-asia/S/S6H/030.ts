@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伽勒爾 呆呆獸"
+		ja: "ガラル ヤドン",
+		'zh-tw': "伽勒爾 呆呆獸",
 	},
 
 	illustrator: "Naoyo Kimura",
@@ -14,47 +14,48 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "牠以只生長在伽勒爾地區的植物的種子為食，因此尾巴是辣味的。"
+		ja: "ガラル地方にだけ 生息する 植物の タネを 食べているため しっぽは スパイシーな 味わいだ。",
+		'zh-tw': "牠以只生長在伽勒爾地區的植物的種子為食，因此尾巴是辣味的。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "緊抓"
+	attacks: [
+		{
+			name: {
+				ja: "ぴりっ",
+				'zh-tw': "緊抓",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。"
+		{
+			name: {
+				ja: "ずつき",
+				'zh-tw': "火藥奇襲",
+			},
+			damage: 20,
+			cost: ["Colorless", "Colorless"],
 		},
+	],
 
-		damage: 40,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "火藥奇襲"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560446,
+				tcgplayer: 569162,
+			},
 		},
-
-		effect: {
-			'zh-tw': "若這隻寶可夢身上附有【火】能量，則增加80點傷害。"
-		},
-
-		damage: "80+",
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [79],
+};
 
-export default card
+export default card;

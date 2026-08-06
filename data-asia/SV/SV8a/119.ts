@@ -63,6 +63,29 @@ const card: Card = {
 		damage: 70
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803232,
+				tcgplayer: 602525,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				tcgplayer: 604590,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602526,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "H"
 }

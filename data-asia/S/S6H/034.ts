@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "奇魯莉安"
+		ja: "キルリア",
+		'zh-tw': "奇魯莉安",
 	},
 
 	illustrator: "0313",
@@ -14,18 +14,43 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "能夠操縱精神力量來扭曲周圍的空間，讓自己看見未來。"
+		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げる ことで 未来を 見通す ことが できる。",
+		'zh-tw': "能夠操縱精神力量來扭曲周圍的空間，讓自己看見未來。",
 	},
 
 	stage: "Stage1",
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	attacks: [
+		{
+			name: { ja: "ミラージュステップ" },
+			cost: ["Psychic"],
+			effect: {
+				ja: "自分の山札から「キルリア」を3枚まで選び、ベンチに出す。そして山札を切る。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560450,
+				tcgplayer: 569166,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "ラルトス",
+	},
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Uncommon",
+	dexId: [281],
+};
 
-export default card
+export default card;

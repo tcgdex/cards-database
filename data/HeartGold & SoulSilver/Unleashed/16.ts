@@ -13,18 +13,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		419,
-	],
+	dexId: [419],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		fr: "Mustébouée",
+		fr: "Mustébouée"
 	},
 
 	stage: "Stage1",
@@ -38,10 +36,10 @@ const card: Card = {
 				de: "Wasser marsch!"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can’t be used if Floatzel is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can't be used if Floatzel is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à Mustéflott. Ce pouvoir ne peut pas être utilisé si Mustéflott est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand an Bojelin anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Bojelin von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -78,17 +76,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85515,
+				cardmarket: 279172
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85515,
+				cardmarket: 279172
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279172,
-		tcgplayer: 85515
-	}
 }
 
 export default card

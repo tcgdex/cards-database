@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Tali"
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,9 +28,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		tcgplayer: 152841
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297257,
+				tcgplayer: 152843
+			}
+		},
+	],
+
 }
 
 export default card

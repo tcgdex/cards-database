@@ -14,13 +14,13 @@ const card: Card = {
 		pt: "Mega Zygarde ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Fighting"],
 	stage: "Basic",
-	suffix: "ex",
 	dexId: [718],
 
 	attacks: [{
@@ -81,9 +81,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 873310,
+				tcgplayer: 695311
+			}
+		},
+        {
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 873311,
+        		tcgplayer: 696460
+        	}
+        },
+	],
 }
 
 export default card

@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Qulbutoke"
 	},
 	illustrator: "match",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		202,
-	],
+	dexId: [202],
 	hp: 90,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Wobbuffet is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
 				fr: "Tant que Qulbutoke est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -48,7 +46,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 30 dégâts supplémentaires."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],
@@ -62,14 +60,19 @@ const card: Card = {
 
 
 	description: {
-		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275609,
+				tcgplayer: 90622
+			}
+		},
+	],
+
 }
 
 export default card

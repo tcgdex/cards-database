@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "相手のポケモン全員についている特殊エネルギーをそれぞれ1個ずつ選び、トラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707663,
+				tcgplayer: 567853,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

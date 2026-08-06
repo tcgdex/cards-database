@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -46,7 +44,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
 				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -87,19 +85,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275783,
-		tcgplayer: 86336
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275783,
+				tcgplayer: 86336
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275783,
+				tcgplayer: 86336
+			}
 		},
-	]
+	],
+
 }
 
 export default card

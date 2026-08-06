@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "おたがいのたねポケモン全員のにげるためのエネルギーは、それぞれ1個ぶん少なくなる。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 734340,
+				tcgplayer: 566949,
+			},
+		},
+	],
+
 	trainerType: "Stadium"
 }
 

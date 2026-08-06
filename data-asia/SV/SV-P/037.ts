@@ -1,67 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伊布"
+		ja: "基本草エネルギー",
+		'zh-tw': "伊布",
 	},
 
-	illustrator: "saino misaki",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Colorless"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "為了能瞬即適應環境的變化， 這種寶可夢蘊含著 許多種進化的可能性。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "呼朋引伴"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695778,
+				tcgplayer: 587794,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
-		},
+	rarity: "Promo",
+};
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "撞擊"
-		},
-
-		damage: 30,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "呼朋引伴"
-		},
-
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
-		},
-
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "撞擊"
-		},
-
-		damage: 30,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

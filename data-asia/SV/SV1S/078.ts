@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Energi yang dibutuhkan oleh semua Pokémon Basic kedua pemain untuk Mundur masing-masing berkurang 1."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693045,
+				tcgplayer: 567195,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "G"
 }

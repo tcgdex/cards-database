@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "動きが速すぎて目で追えないため姿を見た瞬間から消えているように思えてしまう。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840624,
+				tcgplayer: 647228,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ツチニン"
 	},

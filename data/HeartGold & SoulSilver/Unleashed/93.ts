@@ -13,12 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [243, 245],
+	dexId: [243],
 	hp: 160,
 
 	types: [
 		"Lightning",
-		"Water",
+		"Water"
 	],
 
 	suffix: "Legend",
@@ -36,7 +36,7 @@ const card: Card = {
 				de: "Blitzspeer"
 			},
 			effect: {
-				en: "Raikou & Suicune LEGEND does 50 damage to itself, and don’t apply Weakness to this damage.",
+				en: "Raikou & Suicune LEGEND does 50 damage to itself and don't apply Weakness to this damage.",
 				fr: "Raikou & Suicune LÉGENDE s'infligent 50 dégâts. N'appliquez pas la Faiblesse à ces dégâts.",
 				de: "Raikou & Suicune-LEGENDE fügt sich selbst 50 Schadenspunkte zu; wende dabei Schwäche nicht an."
 			},
@@ -80,13 +80,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279248,
+				tcgplayer: 88538,
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 279248
-	}
 }
 
 export default card

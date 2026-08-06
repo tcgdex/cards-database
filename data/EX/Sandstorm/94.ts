@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		142,
-	],
+	dexId: [142],
 
 	hp: 100,
 
+	stage: "Stage1",
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -42,7 +41,7 @@ const card: Card = {
 				en: "As long as Aerodactyl ex is in play, your opponent can't play Pokémon Tool cards. Remove any Pokémon Tool cards attached to your opponent's Pokémon and put them into his or her discard pile.",
 				fr: "Tant que Ptera ex est en jeu, votre adversaire ne peut pas jouer de cartes Outil Pokémon. Retirez toutes les cartes Outil Pokémon aux Pokémon de votre adversaire et défaussez-les.",
 				de: "Solange sich Aerodactyl ex im Spiel befindet, kann dein Gegner keine Pokémon-Ausrüstungs-Karten spielen. Entferne alle Pokémon-Ausrüstungs-Karten, die an den gegnerischen Pokémon angelegt sind und lege sie auf seinen Ablagestapel."
-			},
+			}
 		},
 	],
 
@@ -98,14 +97,13 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275871,
-		tcgplayer: 83473
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83473,
+				cardmarket: 275871
+			}
 		},
 	]
 }

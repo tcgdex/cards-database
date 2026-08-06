@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "サイコパワーを操りまわりの空間をねじ曲げることで未来を見通すことができる。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840600,
+				tcgplayer: 647214,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ラルトス"
 	},

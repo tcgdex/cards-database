@@ -8,6 +8,16 @@ const card: Card = {
 	},
 	illustrator: "Iori Suzuki",
 	category: "Trainer",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840619,
+				tcgplayer: 647221,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	effect: {
 		ja: "自分の「メガシンカex」1匹のHPを、すべて回復する。その後、回復したポケモンについているエネルギーを、すべて手札にもどす。"

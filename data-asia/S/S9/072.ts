@@ -39,6 +39,16 @@ const card: Card = {
 		cost: ["Grass", "Fighting", "Fighting", "Colorless"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 605923,
+				tcgplayer: 569700,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "F",
 	rarity: "Double rare"

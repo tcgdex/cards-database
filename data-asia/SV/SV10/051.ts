@@ -1,13 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV10"
+import { Card } from "../../../interfaces";
+import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ノズパス",
 		'zh-tw': "朝北鼻",
 		'zh-cn': "朝北鼻",
-		ja: "ノズパス"
 	},
 
 	illustrator: "Oku",
@@ -16,42 +15,51 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
+		ja: "ノズパスの 鼻の 磁石は 絶対に 狂わないので 旅する トレーナーの 良き パートナーだ。",
 		'zh-tw': "朝北鼻鼻子上的磁鐵 絕對不會失靈，所以是 訓練家旅行時的良伴。",
 		'zh-cn': "朝北鼻鼻子上的磁鐵 絕對不會失靈，所以是 訓練家旅行時的良伴。",
-		ja: "ノズパスの 鼻の 磁石は 絶対に 狂わないので 旅する トレーナーの 良き パートナーだ。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "頭錘",
-			'zh-cn': "頭錘",
-			ja: "ずつき"
+	attacks: [
+		{
+			name: {
+				ja: "ずつき",
+				'zh-tw': "頭錘",
+				'zh-cn': "頭錘",
+			},
+			damage: 20,
+			cost: ["Fighting"],
 		},
-
-		damage: 20,
-		cost: ["Fighting"]
-	}, {
-		name: {
-			'zh-tw': "落石",
-			'zh-cn': "落石",
-			ja: "いわおとし"
+		{
+			name: {
+				ja: "いわおとし",
+				'zh-tw': "落石",
+				'zh-cn': "落石",
+			},
+			damage: 40,
+			cost: ["Colorless", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 40,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 821883,
+				tcgplayer: 628692,
+			},
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Common",
-	dexId: [299]
-}
+	dexId: [299],
+};
 
-export default card
+export default card;

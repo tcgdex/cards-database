@@ -18,28 +18,41 @@ const card: Card = {
 		de: "Search your deck for a Basic Pokémon (excluding Pokémon-ex) and switch it with 1 of your Basic Pokémon (excluding Pokémon-ex) in play. (Any cards attached to that Pokémon, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Place the first Basic Pokémon in the discard pile. Shuffle your deck afterward."
 	},
 
-	thirdParty: {
-		cardmarket: 276384,
-		tcgplayer: 89728
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276384,
+				tcgplayer: 89728
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276384,
+				tcgplayer: 89728
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				cardmarket: 276384,
+				tcgplayer: 89728
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
-		}
-	]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 276384,
+				tcgplayer: 89728
+			},
+		},
+	],
+
 }
 
 export default card

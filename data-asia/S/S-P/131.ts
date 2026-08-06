@@ -1,44 +1,53 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "敲音猴"
+		ja: "メッソン",
+		'zh-tw': "敲音猴",
 	},
 
-	illustrator: "Akira Komayama",
+	illustrator: "Megumi Mizutani",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Grass"],
+	types: ["Water"],
 
 	description: {
-		'zh-tw': "當牠用特別的木棒敲奏時，能夠給予花草活力的力量就會變成音波擴散開來。"
+		ja: "怯えると 玉ねぎ１００個分の 催涙成分を もつ 涙を 流して もらい泣き させる。",
+		'zh-tw': "當牠用特別的木棒敲奏時，能夠給予花草活力的力量就會變成音波擴散開來。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "直奔"
+	attacks: [
+		{
+			name: {
+				ja: "みずでっぽう",
+				'zh-tw': "直奔",
+			},
+			damage: 20,
+			cost: ["Water"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525340,
+				tcgplayer: 597332,
+			},
 		},
-
-		damage: 30,
-		cost: ["Grass"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "D"
-}
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [816],
+};
 
-export default card
+export default card;

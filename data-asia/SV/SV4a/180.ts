@@ -21,6 +21,22 @@ const card: Card = {
 		id: "Pilih Item dan Pokémon Tool masing-masing 1 lembar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746562,
+				tcgplayer: 567581,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577408,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

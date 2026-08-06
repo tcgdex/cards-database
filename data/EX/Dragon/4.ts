@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		330,
-	],
+	dexId: [330],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -72,10 +70,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fire",
@@ -86,23 +83,26 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 85521,
-		cardmarket: 275881
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85521,
+				cardmarket: 275881
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85521,
+				cardmarket: 275881
+			},
+		},
+	],
+
 }
 
 export default card

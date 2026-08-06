@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "暖かい土地で暮らすものほど、ツルの伸びが早い。伸びると自ら切って短くする。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840540,
+				tcgplayer: 647259,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "モンジャラ"
 	},

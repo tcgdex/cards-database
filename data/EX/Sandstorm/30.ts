@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		184,
-	],
+	dexId: [184],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -62,7 +60,7 @@ const card: Card = {
 				fr: "Lancez une pièce pour chaque carte Énergie attachée à chacun de vos Pokémon Actifs. Cette attaque inflige 30 dégâts multipliés par le nombre de face.",
 				de: "Wirf für jede Energiekarte, die an deinen Aktiven Pokémon angelegt ist, eine Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -77,19 +75,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275807,
-		tcgplayer: 83679
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275807,
+				tcgplayer: 83679
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275807,
+				tcgplayer: 83679
+			}
 		},
-	]
+	],
+
 }
 
 export default card

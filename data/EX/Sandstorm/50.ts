@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		279,
-	],
+	dexId: [279],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				de: "Water Gun"
 			},
 			effect: {
-				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
+				en: "This attack does 30 damage plus 10 more damage for each Water Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Bekipan qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
 				de: "This attack does 30 damage plus 10 more damage for each  Energy attached to Pelipper but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
@@ -68,19 +66,24 @@ const card: Card = {
 	
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 275827,
-		tcgplayer: 87975
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275827,
+				tcgplayer: 87975
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275827,
+				tcgplayer: 87975
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -72,7 +72,7 @@ const card: Card = {
 		en: "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
 	},
 
-	
+
 
 	variants: [
 		{
@@ -87,6 +87,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665657,
 				tcgplayer: 276947
+			}
+		},
+		{
+			type: 'reverse',
+			subtype: 'peelable-ditto',
+			thirdParty: {
+				tcgplayer: 277791
 			}
 		},
 	],

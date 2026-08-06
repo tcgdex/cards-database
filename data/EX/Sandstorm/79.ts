@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		300,
-	],
+	dexId: [300],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -72,27 +70,39 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275856,
-		tcgplayer: 89262
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89262
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89262
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125132
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871814,
+				tcgplayer: 477432
+			}
 		}
-	]
+	],
+
 }
 
 export default card

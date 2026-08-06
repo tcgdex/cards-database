@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		61,
-	],
+	dexId: [61],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Poliwag",
-		fr: "Ptitard",
+		fr: "Ptitard"
 	},
 
 	stage: "Stage1",
@@ -79,26 +77,37 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88268,
+				cardmarket: 279193
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 88268,
+				cardmarket: 279193
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 450133,
+				tcgplayer: 231416
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
 			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 231417
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279193,
-		tcgplayer: 88268
-	}
 }
 
 export default card

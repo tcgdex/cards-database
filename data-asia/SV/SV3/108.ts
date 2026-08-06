@@ -20,6 +20,16 @@ const card: Card = {
 		th: "พลังงานสำหรับใช้ท่าต่อสู้ของโปเกมอน[พื้นฐาน]บนกระดานของทั้งสองฝ่าย แต่ละตัวจะใช้พลังงาน[ไร้สี]เพิ่มขึ้น 1 ลูก"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 724062,
+				tcgplayer: 567062,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "G"
 }

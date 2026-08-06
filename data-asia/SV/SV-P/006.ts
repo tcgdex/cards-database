@@ -1,51 +1,69 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "風速狗"
+		ja: "クエスパトラ",
+		'zh-tw': "風速狗",
 	},
 
-	illustrator: "Ryuta Fuse",
+	illustrator: "Sanosuke Sakuma",
 	category: "Pokemon",
-	hp: 130,
-	types: ["Fire"],
+	hp: 110,
+	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "根據過去的畫軸記載， 牠在草原上奔馳的姿態 擄獲了眾多人心。"
+		ja: "大きな 瞳から サイコパワーを 浴びせて 相手を 動けなくする。 見かけによらず 気性は 荒い。",
+		'zh-tw': "根據過去的畫軸記載， 牠在草原上奔馳的姿態 擄獲了眾多人心。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "咬碎"
+	attacks: [
+		{
+			name: {
+				ja: "オーロラゲイン",
+				'zh-tw': "咬碎",
+			},
+			damage: 30,
+			cost: ["Colorless"],
+			effect: {
+				ja: "このポケモンのHPを「30」回復する。",
+				'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
+		{
+			name: {
+				ja: "ちょうねんりき",
+				'zh-tw': "火之鬃",
+			},
+			damage: 60,
+			cost: ["Psychic", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Fire", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "火之鬃"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 692253,
+				tcgplayer: 587763,
+			},
 		},
+	],
 
-		damage: 120,
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
+	evolveFrom: {
+		ja: "ヒラヒナ",
+	},
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	retreat: 0,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [956],
+};
 
-	retreat: 3,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

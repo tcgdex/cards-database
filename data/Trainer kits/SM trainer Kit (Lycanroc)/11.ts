@@ -14,10 +14,36 @@ const card: Card = {
 		de: "Dartiri"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Growl"
+			},
+			effect: {
+				en: "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance)."
+			}
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Flap"
+			},
+			damage: 20
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
@@ -31,9 +57,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152831
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297242,
+				tcgplayer: 152831
+			}
+		},
+	],
+
 }
 
 export default card

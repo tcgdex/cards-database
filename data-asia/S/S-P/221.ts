@@ -1,44 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小火馬"
+		ja: "からぶりほけん",
+		'zh-tw': "小火馬",
 	},
 
-	illustrator: "Eri Yamaki",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Fire"],
+	illustrator: "Ayaka Yoshida",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "剛出生的時候不擅長奔跑，但隨著和夥伴們不斷地賽跑， 會逐漸鍛鍊出強健的腳力。"
+	effect: {
+		ja: "このカードをつけているポケモンがワザを使ったとき、ワザのダメージや効果で自分がコインを投げてウラが出たなら、自分の番の終わりに、自分の山札を3枚引く。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "猛撞"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 574589,
+				tcgplayer: 597405,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這隻寶可夢也受到10點傷害。"
-		},
+	trainerType: "Tool",
+	regulationMark: "E",
+	rarity: "Promo",
+};
 
-		damage: 50,
-		cost: ["Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

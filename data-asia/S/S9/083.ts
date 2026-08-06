@@ -47,6 +47,16 @@ const card: Card = {
 		type: "Colorless"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 605934,
+				tcgplayer: 569711,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "F",
 	rarity: "Double rare"

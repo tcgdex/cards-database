@@ -31,7 +31,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			stamp: ["ace-trainer"]
+			stamp: ["ace-trainer"],
+			thirdParty: {
+            	cardmarket: 850977,
+            	tcgplayer: 681244
+            }
 		},
 	],
 }

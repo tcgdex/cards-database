@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		352,
-	],
+	dexId: [352],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Kecleon's type is the same as every type of basic Energy card attached to Kecleon.",
 				fr: "Kecleon est du même type que les cartes Énergie de base qui lui sont attachées.",
 				de: "Kecleon hat den gleichen Typ wie jede Basis-Energiekarte, die an Kecleon angelegt ist."
-			},
+			}
 		},
 	],
 
@@ -57,7 +55,7 @@ const card: Card = {
 				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -72,19 +70,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275795,
-		tcgplayer: 86428
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275795,
+				tcgplayer: 86428
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275795,
+				tcgplayer: 86428
+			}
 		},
-	]
+	],
+
 }
 
 export default card

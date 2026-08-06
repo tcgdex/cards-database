@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "3つのコイルは強い磁力で結びついている。そばに寄ると強い耳鳴りに襲われる。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840583,
+				tcgplayer: 647279,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "コイル"
 	},

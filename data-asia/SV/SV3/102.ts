@@ -20,6 +20,16 @@ const card: Card = {
 		th: "เมื่อโปเกมอนที่ติดการ์ดนี้อยู่ ได้รับแดเมจของท่าต่อสู้จากโปเกมอนฝ่ายตรงข้ามและ[หมดสภาพ]แล้ว วางตัวนับแดเมจ 4 ตัวบนโปเกมอนที่ใช้ท่าต่อสู้"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 724056,
+				tcgplayer: 567056,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

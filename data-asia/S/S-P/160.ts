@@ -1,47 +1,62 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冰伊布V"
+		ja: "ガラル バリヤード",
+		'zh-tw': "冰伊布V",
 	},
 
-	illustrator: "PLANETA Mochizuki",
+	illustrator: "Shigenori Negishi",
 	category: "Pokemon",
-	hp: 210,
+	hp: 80,
 	types: ["Water"],
+
+	description: {
+		ja: "足の 裏から 冷気を 出す。 凍らせた 床の 上で １日 タップダンスに 励んでいる。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "冰霜充能"
+	attacks: [
+		{
+			name: {
+				ja: "はたく",
+				'zh-tw': "冰霜充能",
+			},
+			damage: 10,
+			cost: ["Water"],
 		},
-
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【水】能量卡，附於這隻寶可夢身上。並且重洗牌庫。"
+		{
+			name: {
+				ja: "さぐりあてる",
+				'zh-tw': "凍凝之風",
+			},
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "自分の山札からグッズを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "凍凝之風"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561775,
+				tcgplayer: 597358,
+			},
 		},
+	],
 
-		damage: 130,
-		cost: ["Water", "Water", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [122],
+};
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

@@ -37,6 +37,16 @@ const card: Card = {
 		type: "Lightning",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840566,
+				tcgplayer: 647241,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Rare",

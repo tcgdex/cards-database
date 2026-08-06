@@ -68,13 +68,13 @@ const card: Card = {
 
 	abilities: [{
 		name: {
-			fr: "Averse",
-			de: "Downpour"
+			en: "Downpour",
+			fr: "Averse"
 		},
 
 		effect: {
-			fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé.",
-			de: "As often as you like during your turn (before your attack, you may discard a -Energy card from your hand. This power can´t be used if Feligatr is Asleep, Confused, or Paralyzed."
+			en: "As often as you like during your turn (before your attack, you may discard a -Energy card from your hand. This power can´t be used if Feligatr is Asleep, Confused, or Paralyzed.",
+			fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie  de votre main. Ce pouvoir ne peut être utilisé si Aligatueur est Endormi, Confus ou Paralysé."
 		},
 
 		type: "Pokemon Power"

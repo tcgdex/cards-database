@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Caratroc"
 	},
 	illustrator: "match",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		213,
-	],
+	dexId: [213],
 	hp: 60,
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -31,7 +29,7 @@ const card: Card = {
 			effect: {
 				en: "Whenever you attach an Energy card from your hand to Shuckle, draw a card.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à Caratroc, piochez une carte."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -62,14 +60,19 @@ const card: Card = {
 
 
 	description: {
-		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275598,
+				tcgplayer: 89193
+			}
+		},
+	],
+
 }
 
 export default card

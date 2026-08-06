@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "選擇最多2隻自己的【惡】寶可夢，從自己的牌庫附給那些寶可夢各1張「基本【惡】能量」卡。並且重洗牌庫。附於戰鬥寶可夢身上的情況下，將那隻寶可夢【中毒】。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803341,
+				tcgplayer: 602692,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

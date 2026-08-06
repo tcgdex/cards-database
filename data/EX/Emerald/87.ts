@@ -27,20 +27,36 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84892,
+				cardmarket: 276598
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84892,
+				cardmarket: 276598
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477514,
+				cardmarket: 871587
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				tcgplayer: 477515,
+				cardmarket: 871586
+			},
 		}
-	]
+	],
 }
 
 export default card

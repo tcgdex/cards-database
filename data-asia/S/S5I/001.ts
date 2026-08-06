@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../S5I"
+import { Card } from "../../../interfaces";
+import Set from "../S5I";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "サボネア",
 		'zh-tw': "刺球仙人掌",
-		th: "ซาโบเนีย"
+		th: "ซาโบเนีย",
 	},
 
 	illustrator: "Kazuma Koda",
@@ -15,37 +15,51 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
+		ja: "砂漠などの 過酷な 環境を 好む。 体の 中に たくわえた 水で ３０日間 生きられる。",
 		'zh-tw': "喜歡沙漠等嚴酷環境。能靠體內儲存的水分存活３０天。",
-		th: "ชอบอยู่ในสภาพแวดล้อมที่โหดร้าย เช่น ทะเลทราย น้ำที่สะสมในร่างกายสามารถหล่อเลี้ยงชีวิตให้อยู่ได้ 30 วัน"
+		th: "ชอบอยู่ในสภาพแวดล้อมที่โหดร้าย เช่น ทะเลทราย น้ำที่สะสมในร่างกายสามารถหล่อเลี้ยงชีวิตให้อยู่ได้ 30 วัน",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "刺痛",
-			th: "ต่อย"
+	attacks: [
+		{
+			name: {
+				ja: "チクッ",
+				'zh-tw': "刺痛",
+				th: "ต่อย",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
-
-		damage: 10,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "敲擊",
-			th: "ตี"
+		{
+			name: {
+				ja: "たたく",
+				'zh-tw': "敲擊",
+				th: "ตี",
+			},
+			damage: 20,
+			cost: ["Grass", "Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Grass", "Colorless"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 533227,
+				tcgplayer: 568949,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [331],
+};
 
-export default card
+export default card;

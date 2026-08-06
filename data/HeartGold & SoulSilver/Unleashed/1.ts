@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Wataru Kawahara",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		385,
-	],
+	dexId: [385],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Jirachi from your hand onto your Bench, you may flip 3 coins. For each heads, search your discard pile for a Psychic Energy card and attach it to Jirachi.",
 				fr: "Une seule fois pendant votre tour, lorsque vous placez Jirachi de votre main sur votre Banc, vous pouvez lancer 3 pièces. Pour chaque côté face, récupérez une carte Énergie Psychic dans votre pile de défausse et attachez-la à Jirachi.",
 				de: "Einmal während deines Zuges kannst du, wenn du Jirachi von deiner Hand auf deine Bank legst, 3 Münzen werfen. Durchsuche pro \"Kopf\" deinen Ablagestapel nach einer -Energiekarte und lege sie an Jirachi an."
-			},
+			}
 		},
 	],
 
@@ -52,7 +50,7 @@ const card: Card = {
 				de: "Zeitumkehrung"
 			},
 			effect: {
-				en: "Choose a number of your opponent’s Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent’s hand.",
+				en: "Choose a number of your opponent's Stage 1 or Stage 2 Evolved Pokémon up to the amount of Energy attached to Jirachi. Remove the highest Stage Evolution card from each of those Pokémon and put those cards back into your opponent's hand.",
 				fr: "Choisissez au maximum autant de cartes Pokémon Évolution de votre adversaire (niveau 1 ou 2) qu’il y a de cartes Énergie attachées à Jirachi. Retirez les cartes Évolution de niveau le plus élevé de ces Pokémon et remettez-les dans la main de votre adversaire.",
 				de: "Wähle maximal so viele entwickelte Phase-1- oder Phase -2 Pokémon deines Gegners, wie Energien an Jirachi angelegt sind. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Dein Gegner nimmt diese Karten auf seine Hand zurück."
 			},
@@ -75,21 +73,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "holo",
-			foil: "cracked-ice"
-		}
+			thirdParty: {
+				tcgplayer: 86330,
+				cardmarket: 279157
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86330,
+				cardmarket: 279157
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279157,
-		tcgplayer: 86330
-	}
 }
 
 export default card

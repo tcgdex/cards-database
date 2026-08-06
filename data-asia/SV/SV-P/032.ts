@@ -1,54 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "電肚蛙"
+		ja: "イーブイ",
+		'zh-tw': "電肚蛙",
 	},
 
-	illustrator: "Mizue",
+	illustrator: "saino misaki",
 	category: "Pokemon",
-	hp: 130,
-	types: ["Lightning"],
+	hp: 60,
+	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "只要伸縮肥嘟嘟的身體，就能讓肚子上的發電臍產生大量的電氣。"
+		ja: "環境の 変化に すぐさま 合わせられるよう いくつもの 進化の 可能性を 秘めている。",
+		'zh-tw': "只要伸縮肥嘟嘟的身體，就能讓肚子上的發電臍產生大量的電氣。",
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "電磁波"
+	attacks: [
+		{
+			name: {
+				ja: "なかまをよぶ",
+				'zh-tw': "電磁波",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。",
+				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
+		{
+			name: {
+				ja: "たいあたり",
+				'zh-tw': "雙峰伏特",
+			},
+			damage: 30,
+			cost: ["Colorless", "Colorless", "Colorless"],
 		},
+	],
 
-		cost: ["Lightning"]
-	}, {
-		name: {
-			'zh-tw': "雙峰伏特"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 587789,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若希望，將最多2張這隻寶可夢身上附加的【雷】能量卡丟棄，增加其張數×80點傷害。"
-		},
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [133],
+};
 
-		damage: "10+",
-		cost: ["Lightning", "Lightning", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

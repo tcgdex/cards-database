@@ -1,40 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "榛果球"
+		ja: "ペパー",
+		'zh-tw': "榛果球",
 	},
 
-	illustrator: "Nobuhiro Imagawa",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Grass"],
+	illustrator: "GIDORA",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "最喜歡把樹皮疊在身上加厚外殼。就算因此變重也毫不在意。"
+	effect: {
+		ja: "自分の山札から「グッズ」と「ポケモンのどうぐ」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "滾動"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 587787,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Grass", "Grass"]
-	}],
+	trainerType: "Supporter",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "G"
-}
-
-export default card
+export default card;
