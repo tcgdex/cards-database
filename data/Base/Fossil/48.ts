@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "All damage done by attacks to Grimer during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Tadmorv par des attaques durant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance.)",
-				de: "Aller Schaden, der Sleima während des nächsten Zuges durch Angriffe deines gegners zugefügt wird, wird um 20 Schadenspunkte reduziert. (nachdem Schwäche und resistenz abgerechnet wurden)."
+				de: "Aller Schaden, der Sleima während des nächsten Zuges durch Angriffe deines Gegners zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden)."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
-		fr: "Vivant dans les tas d'ordures, il se nourrit des déchets polluants rejetés par les usines."
+		fr: "Vivant dans les tas d'ordures, il se nourrit des déchets polluants rejetés par les usines.",
+		de: "Erscheint in schmutzigen Gegenden. Nährt sich bestens vom verunreinigten Klärschlamm, der aus Fabriken abgepumpt wird."
 	},
 
 

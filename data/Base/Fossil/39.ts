@@ -25,6 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magby",
+		de: "Magby"
 	},
 
 	stage: "Basic",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet.",
-				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen veruscht, wirft dein gegner eine Münze. Bei 'Zahl' fügt dieser Angriff keine Schadenspunkte zu."
+				de: "Falls das verteidigende Pokémon während des nächsten Zuges anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Found at the mouths of volcanoes and extremely hard to spot. There are very few instances of capturing this Pokémon.",
-		fr: "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon."
+		fr: "On le trouve dans le coeur des volcans où il est très difficile à repérer. On compte très peu de captures de ce Pokémon.",
+		de: "Im Schlund von Vulkanen anzutreffen, aber extrem schwer auszumachen. Dieses Pokémon wird nur höchst selten eingefangen."
 	},
 
 
