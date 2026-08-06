@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Darkness",
 				fr: "[Darkness]",
-				de: "Dark"
+				de: "Dark [Darkness]"
 			},
 			effect: {
 				en: "Whenever a D Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown D in play. (This power even works if Unown D is Asleep, Confused, or Paralyzed.)",
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine.",
+		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
 

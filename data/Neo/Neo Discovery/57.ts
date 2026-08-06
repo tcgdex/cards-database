@@ -59,7 +59,8 @@ const card: Card = {
 
 	description: {
 		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
-		fr: "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir."
+		fr: "Il se nourrit de terre. Après avoir mangé une grosse montagne, il s'endort pour pouvoir grandir.",
+		de: "Es ernährt sich von Erde. Nachdem es einen größeren Berg gegessen hat, schäft es ein, um zu wachsen."
 	},
 
 

@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Mareep does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, Wattouat s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt sich Voltilamm selber 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt sich Voltilamm selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -57,7 +57,8 @@ const card: Card = {
 
 	description: {
 		en: "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
-		fr: "Sa toison pousse constamment. En été, même tondu, sa laine repousse en moins d'une semaine."
+		fr: "Sa toison pousse constamment. En été, même tondu, sa laine repousse en moins d'une semaine.",
+		de: "Sein Fell wächst andauernd. Im Sommer wird es komplett geschoren, aber nach einer Woche ist das Fell schon wieder da."
 	},
 
 

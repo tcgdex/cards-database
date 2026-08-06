@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Look at your opponent's hand.",
 				fr: "Regardez la main de votre adversaire.",
-				de: "Schau dir die Karten auf der Hand deines gegners an."
+				de: "Schau dir die Karten auf der Hand deines Gegners an."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
-		fr: "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis."
+		fr: "Il se tient dressé sur sa queue pour voir les ennemis arriver de loin. A ce moment, il avertit ses amis.",
+		de: "Es steht auf seinem Schwanz, um einen guten Ausblick zu haben. Wenn es einen Feind entdeckt, warnt es laut seine Freunde."
 	},
 
 
