@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Pidgeot",
 		fr: "Roucarnage",
-		de: "Tauboss"
+		de: "Tauboss",
+		it: "Pidgeot"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgeotto",
-		fr: "Roucoups"
+		fr: "Roucoups",
+		it: "Pidgeotto"
 	},
 
 	stage: "Stage2",
@@ -39,7 +41,8 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
-				de: "Flügelschlag"
+				de: "Flügelschlag",
+				it: "Attacco d'Ala"
 			},
 
 			damage: 20,
@@ -54,12 +57,14 @@ const card: Card = {
 			name: {
 				en: "Hurricane",
 				fr: "Ouragan",
-				de: "Hurrikan"
+				de: "Hurrikan",
+				it: "Uragano"
 			},
 			effect: {
 				en: "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
 				fr: "À moins que cette attaque ne mette le Pokémon Défenseur K.O., renvoyez le Pokémon Défenseur et toutes les cartes qui lui sont attachées dans la main de votre adversaire.",
-				de: "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle daraufabgelegten Karten deinem Gegner auf die Hand zurück."
+				de: "Falls dieser Angriff den verteidigenden Pokémon nicht kampfunfähig macht, gib den verteidigenden Pokémon und alle daraufabgelegten Karten deinem Gegner auf die Hand zurück.",
+				it: "A meno che questo attacco metta K.O. il Pokémon Difensore, il tuo avversario riprende in mano il Pokémon Difensore e tutte le carte a esso assegnate."
 			},
 			damage: 30,
 
@@ -82,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
-		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles."
+		fr: "Il chasse en surveillant la surface de l'eau et en plongeant pour attraper des proies faciles.",
+		it: "Quando è a caccia, sfiora la superficie dell'acqua ad alta velocità per catturare prede incaute come Magikarp."
 	},
 
 

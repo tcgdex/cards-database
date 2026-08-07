@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
-		de: "Pummeluff"
+		de: "Pummeluff",
+		it: "Jigglypuff"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
-				de: "Wiegenlied"
+				de: "Wiegenlied",
+				it: "Ninna nanna"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "das verteidigende Pokémon ist jetzt gelähmt."
+				de: "das verteidigende Pokémon ist jetzt gelähmt.",
+				it: "Il Pokémon Difensore è Addormentato."
 			},
 
 		},
@@ -50,7 +53,8 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'face",
-				de: "Pfund"
+				de: "Pfund",
+				it: "Libbra"
 			},
 
 			damage: 20,
@@ -76,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
-		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
+		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse.",
+		it: "Quando i suoi enormi occhi si illuminano, canta una misteriosa ninna nanna che \"addormenta\" i suoi nemici."
 	},
 
 

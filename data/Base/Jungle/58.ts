@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Oddish",
 		fr: "Mystherbe",
-		de: "Myrapla"
+		de: "Myrapla",
+		it: "Oddish"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Stun Spore",
 				fr: "Para-spore",
-				de: "Stachelsporen"
+				de: "Stachelsporen",
+				it: "Spore Paralizzanti"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
 
@@ -51,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Sprout",
 				fr: "Repousse",
-				de: "Sprössling"
+				de: "Sprössling",
+				it: "Germoglio"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Oddish and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 				fr: "Cherchez dans votre deck un Pokémon de base appelé Mystherbe et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Myrapla und lege sie auf deine Bank. Mische dein Deck danach. (du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
+				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Myrapla und lege sie auf deine Bank. Mische dein Deck danach. (du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)",
+				it: "Cerca nel tuo mazzo un Pokémon Base chiamato Oddish e mettilo nella tua Panchina. Poi rimischia il tuo mazzo (se la tua Panchina è già completa, non usare questo attacco)."
 			},
 
 		},
@@ -73,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
-		fr: "Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines."
+		fr: "Pendant la journée il se cache sous terre. Il s'aventure la nuit pour planter des graines.",
+		it: "Durante il giorno tiene la faccia sottoterra. Di notte invece va in giro a spargere i propri semi."
 	},
 
 

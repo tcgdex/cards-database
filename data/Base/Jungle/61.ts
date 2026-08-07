@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
-		de: "Rihorn"
+		de: "Rihorn",
+		it: "Rhyhorn"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Leer",
 				fr: "Groz'yeux",
-				de: "Silberblick"
+				de: "Silberblick",
+				it: "Fulmisguardo"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Rhinocorne pendant le prochain tour de votre adversaire. (Si l'un des deux Pokémon bat en retraite, cet effet prend fin.)",
-				de: "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon Rihorn während des nächsten gegnerischen Zuges nicht angreifen. (Kommt einer der beiden Pokémon auf der Bank, ist diese Wirkung nicht weiter gültig.)"
+				de: "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon Rihorn während des nächsten gegnerischen Zuges nicht angreifen. (Kommt einer der beiden Pokémon auf der Bank, ist diese Wirkung nicht weiter gültig.)",
+				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon Difensore non può attaccare Rhyhorn (mettendo in panchina uno dei due Pokémon l'effetto termina)."
 			},
 
 		},
@@ -51,7 +54,8 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
-				de: "Hornattacke"
+				de: "Hornattacke",
+				it: "Incornata"
 			},
 
 			damage: 30,
@@ -77,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
-		fr: "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices."
+		fr: "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices.",
+		it: "Le sue grosse ossa sono 1000 volte più resistenti di quelle umane. Può facilmente seminare un inseguitore volando."
 	},
 
 

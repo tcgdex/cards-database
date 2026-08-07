@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Bellsprout",
 		fr: "Chétiflor",
-		de: "Knofensa"
+		de: "Knofensa",
+		it: "Bellsprout"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -33,7 +34,8 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet liane",
-				de: "Rankenhieb"
+				de: "Rankenhieb",
+				it: "Frustata"
 			},
 
 			damage: 10,
@@ -46,12 +48,14 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
-				de: "Familienruf"
+				de: "Familienruf",
+				it: "Cerca Famiglia"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 				fr: "Cherchez dans votre deck un Pokémon de base appelé Chétiflor et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem namen Knofensa und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
+				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem namen Knofensa und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)",
+				it: "Cerca nel tuo mazzo un Pokémon base chiamato Bellsprout e mettilo nella tua Panchina. Poi rimischia le carte del tuo mazzo (se la tua Panchina è già completa, non puoi usare questo attacco)."
 			},
 
 		},
@@ -68,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
-		fr: "Un Pokémon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches."
+		fr: "Un Pokémon carnivore qui se nourrit de petits insectes. Ses racines servent d'attaches.",
+		it: "Pokémon carnivoro che cattura e divora gli insetti. Usa le sue radici per assorbire dal terreno i liquidi di cui ha bisogno."
 	},
 
 

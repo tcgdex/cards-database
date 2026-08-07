@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Pinsir",
 		fr: "Scarabrute",
-		de: "Pinsir"
+		de: "Pinsir",
+		it: "Pinsir"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -34,12 +35,14 @@ const card: Card = {
 			name: {
 				en: "Irongrip",
 				fr: "Poigne de fer",
-				de: "Eiserner Griff"
+				de: "Eiserner Griff",
+				it: "Presa di Ferro"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt gelähmt"
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt gelähmt",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 20,
 
@@ -54,7 +57,8 @@ const card: Card = {
 			name: {
 				en: "Guillotine",
 				fr: "Guillotine",
-				de: "Guillotine"
+				de: "Guillotine",
+				it: "Ghigliottina"
 			},
 
 			damage: 50,
@@ -73,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "If it fails to crush the victim in its pincers, it will swing its victim around and toss it hard.",
-		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs."
+		fr: "Quand il ne peut écraser sa proie avec sa pince, il la secoue et l'envoie dans les airs.",
+		it: "Se non riesce a stritolare la vittima con le sue pinze, la sbatacchia e la scaglia violentemente al suolo."
 	},
 
 
