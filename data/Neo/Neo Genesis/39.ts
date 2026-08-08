@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ledyba",
-		fr: "Coxy"
+		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	stage: "Stage1",
@@ -67,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "When the stars flicker in the night sky, Ledian flutters about, scattering a glowing powder.",
-		fr: "Lorsque les étoiles scintillent dans le ciel nocturne, Ledian voltige en répandant une poudre brillante."
+		fr: "Lorsque les étoiles scintillent dans le ciel nocturne, Ledian voltige en répandant une poudre brillante.",
+		de: "Wenn die Sterne am nächtlichen Himmel flimmern, flattert Ledian herum und verbreitet ein Leuchtpuder."
 	},
 
 

@@ -35,7 +35,7 @@ const card: Card = {
 			name: {
 				en: "Elemental Blast",
 				fr: "Explosion élémentaire",
-				de: "Urgewalteexplosion"
+				de: "Urgewaltexplosion"
 			},
 			effect: {
 				en: "Discard a Energy card, a Energy card, and a Energy card attached to Lugia in order to use this attack.",
@@ -65,7 +65,8 @@ const card: Card = {
 
 	description: {
 		en: "It is said that it quietly spends its time deep at the bottom of the sea, because its powers are too strong.",
-		fr: "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants."
+		fr: "On prétend qu'il passe le plus clair de son temps au fond des mers, car ses pouvoirs sont trop puissants.",
+		de: "Man sagt ihm nach, dass es seine Zeit gemütlich tief auf dem Meeresgrund verbringt, da seine Gewalten zu stark sind."
 	},
 
 

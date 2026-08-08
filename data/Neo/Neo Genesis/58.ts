@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
-				de: "Agility"
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Girafarig.",
-				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Girafarig."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Girafarig (einschließlich der Schadenspunkte)."
 			},
 			damage: 10,
 
@@ -52,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale psy",
-				de: "Psybeam"
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
-		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre."
+		fr: "Sa queue possède son propre cerveau. Prenez garde ! Si vous vous approchez, elle peut réagir à votre odeur et vous mordre.",
+		de: "Sein Schweif hat seinen eigenen Dickkopf. Vorsicht! Falls du in seine Nähe gerätst, kann es auf deinen Körpergeruch reagieren und beißen."
 	},
 
 

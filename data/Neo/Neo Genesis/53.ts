@@ -46,12 +46,12 @@ const card: Card = {
 			name: {
 				en: "Deflector",
 				fr: "Protection",
-				de: "Deflector"
+				de: "Deflektor"
 			},
 			effect: {
 				en: "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)",
 				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que Germignon reçoit des dégâts, divisez ces dégâts par deux (arrondis à la dizaine la plus proche). (Tout autre effet reste actif.)",
-				de: "During your opponent's next turn, whenever Chikorita takes damage, divide that damage in half (rounded down to the nearest 10). (Any other effects still happen.)"
+				de: "Halbiere während des nächsten Zuges deines Gegners jedesmal, wenn Endivie Schadenspunkte erhält, diese Schadenspunkte (auf die nächsten 10 abgerundet). (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
-		fr: "Un doux parfum s'élève des feuilles du sommet de sa tête. Il est doux et adore absorber les rayons du soleil."
+		fr: "Un doux parfum s'élève des feuilles du sommet de sa tête. Il est doux et adore absorber les rayons du soleil.",
+		de: "Ein süßes Aroma weht aus dem Blatt auf seinem Kopf. Es ist gelehrig und saugt gerne Sonnenstrahlen auf."
 	},
 
 
