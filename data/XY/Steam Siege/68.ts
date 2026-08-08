@@ -3,12 +3,12 @@ import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "M Steelix EX",
-		fr: "M-Steelix EX",
-		es: "M-Steelix EX",
-		it: "M Steelix EX",
-		pt: "M-Steelix EX",
-		de: "M-Stahlos EX"
+		en: "M Steelix-EX",
+		fr: "M-Steelix-EX",
+		es: "M-Steelix-EX",
+		it: "M Steelix-EX",
+		pt: "M-Steelix-EX",
+		de: "M-Stahlos-EX"
 	},
 
 	illustrator: "5ban Graphics",

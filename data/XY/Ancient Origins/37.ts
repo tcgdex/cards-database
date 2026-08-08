@@ -3,12 +3,12 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Machamp EX",
-		fr: "Mackogneur EX",
-		es: "Machamp EX",
-		it: "Machamp EX",
-		pt: "Machamp EX",
-		de: "Machomei EX"
+		en: "Machamp-EX",
+		fr: "Mackogneur-EX",
+		es: "Machamp-EX",
+		it: "Machamp-EX",
+		pt: "Machamp-EX",
+		de: "Machomei-EX"
 	},
 
 	illustrator: "Eske Yoshinob",

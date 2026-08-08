@@ -3,7 +3,7 @@ import Set from '../Generations'
 
 const card: Card = {
 	name: {
-		en: "Golem EX",
+		en: "Golem-EX",
 		fr: "Grolem-EX",
 	},
 
