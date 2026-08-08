@@ -41,7 +41,6 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"],
 			thirdParty: {
 				tcgplayer: 107073
 			},
