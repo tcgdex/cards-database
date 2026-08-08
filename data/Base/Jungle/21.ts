@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Kangaskhan",
 		fr: "Kangourex",
-		de: "Kangama"
+		de: "Kangama",
+		it: "Kangaskhan"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Fetch",
 				fr: "Rapporte",
-				de: "Apportieren"
+				de: "Apportieren",
+				it: "Stratagemma"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
-				de: "Ziehe eine Karte."
+				de: "Ziehe eine Karte.",
+				it: "Pesca una carta."
 			},
 
 		},
@@ -52,12 +55,14 @@ const card: Card = {
 			name: {
 				en: "Comet Punch",
 				fr: "Poing comète",
-				de: "Kometenhieb"
+				de: "Kometenhieb",
+				it: "Cometa Pugno"
 			},
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 20 Schadenspunkte zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 20 Schadenspunkte zu.",
+				it: "Lancia 4 volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa."
 			},
 			damage: "20x",
 
@@ -82,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "The infant rarely ventures out of its mother's protective pouch until it is three years old.",
-		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans."
+		fr: "Son enfant ne quitte la poche ventrale protectrice qu'à l'âge de 3 ans.",
+		it: "Il cucciolo raramente si avventura fuori dal rassicurante marsupio della madre prima dei tre anni di età."
 	},
 
 

@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Venomoth",
 		fr: "Aéromite",
-		de: "Omot"
+		de: "Omot",
+		it: "Venomoth"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
-		fr: "Mimitoss"
+		fr: "Mimitoss",
+		it: "Venonat"
 	},
 
 	stage: "Stage1",
@@ -36,12 +38,14 @@ const card: Card = {
 			name: {
 				en: "Shift",
 				fr: "Transmutation",
-				de: "Wechsel"
+				de: "Wechsel",
+				it: "Scambia"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may change the type of Venomoth to the type of any other Pokémon in play other than Colorless. This power can't be used if Venomoth is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois pendant votre tour (avant votre attaque), vous pouvez changer le type d'Aéromite pour le type de n'importe quel Pokémon en jeu autre qu'Incolore. Ce pouvoir ne peut être utilisé si Aéromite est Endormi, Confus, ou Paralysé.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du den Typ von Omot in den Typ eines im Spiewl befindlichen Pokémon deiuner Wahl (Farblos ausgenommen) umwndeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Omot schläft, verwirrt oder gelähmt ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du den Typ von Omot in den Typ eines im Spiewl befindlichen Pokémon deiuner Wahl (Farblos ausgenommen) umwndeln. Diese Fähigkeit kann nicht eingesetzt werden, falls Omot schläft, verwirrt oder gelähmt ist.",
+				it: "Una sola volta durante il tuo turno (prima di attaccare), puoi cambiare il tipo di Venomoth con il tipo di un qualsiasi altro Pokémon in gioco, a eccezione di quelli di tipo Incolore. Questo potere non può essere usato se Venomoth è Addormentato, Confuso o Paralizzato."
 			},
 		},
 	],
@@ -56,13 +60,15 @@ const card: Card = {
 			name: {
 				en: "Venom Powder",
 				fr: "Poudre venimeuse",
-				de: "Vergiftungspuder"
+				de: "Vergiftungspuder",
+				it: "Polvere velenosa"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt verwirrt und vergiftet."
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jetzt verwirrt und vergiftet.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso e Avvelenato."
 			},
 
 			damage: 10
@@ -85,7 +91,8 @@ const card: Card = {
 
 	description: {
 		en: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
-		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison."
+		fr: "Les motifs ocres de ses ailes changent en fonction de son type de poison.",
+		it: "Le squame finissime che ricoprono le sue ali hanno un colore che indica il tipo di veleno usato."
 	},
 
 

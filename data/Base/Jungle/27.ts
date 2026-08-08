@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
-		de: "Relaxo"
+		de: "Relaxo",
+		it: "Snorlax"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -25,6 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Munchlax",
+		it: "Munchlax"
 	},
 
 	stage: "Basic",
@@ -35,12 +37,14 @@ const card: Card = {
 			name: {
 				en: "Thick Skinned",
 				fr: "Dur à cuire",
-				de: "Dickhäuter"
+				de: "Dickhäuter",
+				it: "Pellaccia"
 			},
 			effect: {
 				en: "Snorlax can't become Asleep, Confused, Paralyzed, or Poisoned. This power can't be used if Snorlax is already Asleep, Confused, or Paralyzed.",
 				fr: "Ronflex ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. Ce pouvoir ne peut être utilisé si Ronflex est déjà Endormi, Confus ou Paralysé.",
-				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet weden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo scchläft, verwirrt oder gelähmt ist."
+				de: "Relaxo kann nicht in den Schlaf versetzt, verwirrt, gelähmt oder vergiftet weden. Diese Fähigkeit kann nicht eingesetzt werden, falls Relaxo scchläft, verwirrt oder gelähmt ist.",
+				it: "Snorlax non può essere Addormentato, Confuso, Paralizzato o Avvelenato. Questo potere non funziona quando Snorlax è già Addormentato, Confuso o Paralizzato."
 			},
 		},
 	],
@@ -56,12 +60,14 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
-				de: "Bodyslam"
+				de: "Bodyslam",
+				it: "Body Slam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jezt gelähmt."
+				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon jezt gelähmt.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 30,
 
@@ -86,7 +92,8 @@ const card: Card = {
 
 	description: {
 		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
-		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant."
+		fr: "Très paresseux, il ne fait que manger et dormir. Plus il est gros, plus il devient fainéant.",
+		it: "Molto pigro, mangia e dorme solamente. Più ingrassa più diventa svogliato."
 	},
 
 

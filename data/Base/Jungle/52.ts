@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Exeggcute",
 		fr: "Nœufnœuf",
-		de: "Owei"
+		de: "Owei",
+		it: "Exeggcute"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
-				de: "Hypnose"
+				de: "Hypnose",
+				it: "Ipnosi"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend."
+				de: "Das verteidigende Pokémon ist jetzt schlafend.",
+				it: "Il Pokémon Difensore è Addormentato."
 			},
 
 		},
@@ -50,12 +53,14 @@ const card: Card = {
 			name: {
 				en: "Leech Seed",
 				fr: "Vampigraine",
-				de: "Egelsamen"
+				de: "Egelsamen",
+				it: "Parassiseme"
 			},
 			effect: {
 				en: "Unless all damage from this attack is prevented, you may remove 1 damage counter from Exeggcute.",
 				fr: "À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Nœufnœuf.",
-				de: "Falls nicht aller Schaden von diesem Angriff verhindert wird, kannst du eine Schadensmarke von Owei entfernen."
+				de: "Falls nicht aller Schaden von diesem Angriff verhindert wird, kannst du eine Schadensmarke von Owei entfernen.",
+				it: "A meno che tutti i danni inflitti da questo attacco vengano prevenuti, puoi togliere un segnalino danno da Exeggcute."
 			},
 			damage: 20,
 
@@ -73,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
-		fr: "Souvent pris pour des œufs, ils attaquent en groupe comme un essaim."
+		fr: "Souvent pris pour des œufs, ils attaquent en groupe comme un essaim.",
+		it: "Spesso vengono scambiati per uova. Quando vengono disturbati si radunano velocemente e attaccano in sciami."
 	},
 
 

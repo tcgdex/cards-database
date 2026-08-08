@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Nidoran♀",
 		fr: "Nidoran ♀",
-		de: "Nidoran W"
+		de: "Nidoran W",
+		it: "Nidoran♀"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
-				de: "Kratzfurie"
+				de: "Kratzfurie",
+				it: "Sfuriate"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Deiser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu."
+				de: "Wirf drei Münzen. Deiser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 10 Schadenspunkte zu.",
+				it: "Lancia 3 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 			},
 			damage: "10x",
 
@@ -51,12 +54,14 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
-				de: "Familienruf"
+				de: "Familienruf",
+				it: "Cerca Famiglia"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 				fr: "Cherchez dans votre deck un Pokémon de base appelé Nidoran ♀ or Nidoran ♂ et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Nidoran M oder Nidoran W und lege sie auf deine Bank. Mische dein deck dannach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
+				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Nidoran M oder Nidoran W und lege sie auf deine Bank. Mische dein deck dannach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)",
+				it: "Cerca nel tuo mazzo un Pokémon base chiamato Nidoran♀ o Nidoran♂ e mettilo nella tua Panchina. Poi rimischia le carte del tuo mazzo (se la tua Panchina è già completa, non puoi usare questo attacco)."
 			},
 
 		},
@@ -73,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
-		fr: "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits."
+		fr: "Ce Pokémon est hérissé de dards empoisonnés. Les femelles ont des dards plus petits.",
+		it: "Sebbene sia piccolo, i suoi barbigli velenosi rendono questo Pokémon molto pericoloso. La femmina ha i corni più piccoli."
 	},
 
 	variants: [

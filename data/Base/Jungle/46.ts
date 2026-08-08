@@ -5,7 +5,8 @@ const card: Card = {
 	name: {
 		en: "Seaking",
 		fr: "Poissoroy",
-		de: "Golking"
+		de: "Golking",
+		it: "Seaking"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		it: "Goldeen"
 	},
 
 	stage: "Stage1",
@@ -38,7 +40,8 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
-				de: "Kopfnuss"
+				de: "Kopfnuss",
+				it: "Incornata"
 			},
 
 			damage: 10,
@@ -52,7 +55,8 @@ const card: Card = {
 			name: {
 				en: "Waterfall",
 				fr: "Cascade",
-				de: "Kaskade"
+				de: "Kaskade",
+				it: "Cascata"
 			},
 
 			damage: 30,
@@ -71,7 +75,8 @@ const card: Card = {
 
 	description: {
 		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
-		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
+		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs.",
+		it: "Durante il periodo di riproduzione autunnale li si può vedere mentre risalgono vigorosamente la corrente di fiumi e torrenti."
 	},
 
 
