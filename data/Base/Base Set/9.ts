@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
-		it: "Magnemite"
+		it: "Magnemite",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -48,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 30,
@@ -90,7 +91,8 @@ const card: Card = {
 	description: {
 		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",
-		it: "Composto da diversi Magnemite collegati tra loro. Generalmente visibile quando compaiono le macchie solari. LIV 28 N.82"
+		it: "Composto da diversi Magnemite collegati tra loro. Generalmente visibile quando compaiono le macchie solari. LIV 28 N.82",
+		de: "Aus mehreren miteinander verknüpften Magnetilos entstanden. Erscheint oft, wenn Sonnenflecken auftreten."
 	},
 
 	variants: [
