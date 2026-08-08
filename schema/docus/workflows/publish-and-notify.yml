@@ -1,0 +1,67 @@
+# EXAMPLE — not wired up in this PR. Illustrates Stage 2b of the RFC.
+# Lives at .github/workflows/publish-and-notify.yml in tcgdex/cards-database.
+
+name: Publish @tcgdex/schema + notify SDK repos
+
+on:
+  push:
+    tags:
+      - 'schema-v*'   # e.g. schema-v1.0.0, schema-v1.1.0
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.extract.outputs.version }}
+      openapi_url: ${{ steps.upload.outputs.browser_download_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: extract
+        run: echo "version=${GITHUB_REF_NAME#schema-v}" >> $GITHUB_OUTPUT
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+
+      - name: Install + build
+        working-directory: schema
+        run: |
+          npm ci
+          npm run emit:dts
+          npm run emit:openapi
+
+      - name: Publish to npm
+        working-directory: schema
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create GitHub release
+        id: release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            schema/dist/openapi.json
+            schema/dist/types.d.ts
+          body: |
+            `@tcgdex/schema@${{ steps.extract.outputs.version }}`
+
+            - `openapi.json` — full OpenAPI 3.1 document for downstream SDK codegen
+            - `types.d.ts` — reference TypeScript declarations
+
+      - name: Fan out to SDK repos
+        env:
+          GH_TOKEN: ${{ secrets.SDK_DISPATCH_TOKEN }}   # PAT with `repo` scope on the SDK repos
+          VERSION: ${{ steps.extract.outputs.version }}
+          OPENAPI_URL: https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/openapi.json
+        run: |
+          for repo in sdk-python sdk-java sdk-kotlin sdk-swift; do
+            echo "Dispatching to tcgdex/$repo…"
+            gh api "repos/tcgdex/$repo/dispatches" \
+              -f event_type=schema-released \
+              -f "client_payload[version]=$VERSION" \
+              -f "client_payload[openapi_url]=$OPENAPI_URL"
+          done

@@ -1,0 +1,87 @@
+# EXAMPLE — not wired up in this PR. Illustrates Stage 2b of the RFC.
+# Lives at .github/workflows/regenerate.yml in tcgdex/sdk-python
+# (and analogously in sdk-java, sdk-kotlin, sdk-swift).
+
+name: Regenerate models from @tcgdex/schema
+
+on:
+  repository_dispatch:
+    types: [schema-released]
+
+  # Also runnable manually for testing:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Schema version (e.g. 1.2.0)'
+        required: true
+      openapi_url:
+        description: 'URL to openapi.json'
+        required: true
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve inputs
+        id: inputs
+        run: |
+          VERSION="${{ github.event.client_payload.version || inputs.version }}"
+          OPENAPI_URL="${{ github.event.client_payload.openapi_url || inputs.openapi_url }}"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "openapi_url=$OPENAPI_URL" >> $GITHUB_OUTPUT
+
+      - name: Set up Java (for openapi-generator)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Download OpenAPI doc
+        run: curl -fSL -o openapi.json "${{ steps.inputs.outputs.openapi_url }}"
+
+      - name: Regenerate models
+        run: |
+          npx --yes @openapitools/openapi-generator-cli generate \
+            -i openapi.json \
+            -g python \
+            -o generated \
+            -t templates/python \
+            --additional-properties=packageName=tcgdex \
+            --global-property=models,supportingFiles=false
+          # Copy just the models over — leave client + docs alone
+          rm -rf tcgdex/models
+          mv generated/tcgdex/models tcgdex/models
+
+      - name: Detect changes
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Open PR
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: regen/schema-v${{ steps.inputs.outputs.version }}
+          title: 'Regenerate models for @tcgdex/schema v${{ steps.inputs.outputs.version }}'
+          commit-message: 'regen: models from @tcgdex/schema v${{ steps.inputs.outputs.version }}'
+          body: |
+            Automated regeneration triggered by a new `@tcgdex/schema` release.
+
+            **Source:** https://github.com/tcgdex/cards-database/releases/tag/schema-v${{ steps.inputs.outputs.version }}
+            **OpenAPI doc:** ${{ steps.inputs.outputs.openapi_url }}
+
+            Please review the diff for:
+            - New enum members (typically additive — safe)
+            - Field additions (typically additive — safe)
+            - Field removals or type changes (breaking — schema major bump)
+
+            CI will run the test suite against these regenerated models before merge.

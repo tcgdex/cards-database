@@ -1,0 +1,49 @@
+{{! ─────────────────────────────────────────────────────────────────────────
+    SKETCH — this template is illustrative, not working.
+
+    Intent: override openapi-generator's Python `model_generic.mustache` so
+    that any string field carrying an `x-extensible-enum` vendor extension
+    generates a real Python enum (with an `UNKNOWN` fallback via `_missing_`)
+    instead of a bare `str`.
+
+    Known bug: the `{{> model_field }}` fall-through partial does not exist
+    in the openapi-generator Python target — its default field rendering
+    isn't extracted into a named partial. To make this template actually
+    work, you need to:
+      1. Dump the target's default via
+         `openapi-generator-cli author template -g python`
+      2. Locate the field-rendering block inside `model_generic.mustache`
+      3. Wrap that block in the `x-extensible-enum` guard shown below,
+         leaving the default rendering intact for all other fields
+
+    Stage 2b of the RFC — non-blocking for the schema PR itself. Kept in
+    the tree as a design sketch so future work has a starting point.
+    ────────────────────────────────────────────────────────────────────── }}
+{{#vars}}
+    {{#vendorExtensions.x-extensible-enum}}
+    class {{nameInCamelCase}}Values(str, Enum):
+        """Known values for {{name}}. Unknown values are preserved as raw strings
+        via the UNKNOWN fallback — open enum semantics."""
+        {{#vendorExtensions.x-extensible-enum}}
+        {{{.}}} = "{{{.}}}"
+        {{/vendorExtensions.x-extensible-enum}}
+        UNKNOWN = "__unknown__"
+
+        @classmethod
+        def _missing_(cls, value):
+            """Called when a value isn't in the enum — open-enum behavior.
+            Returns UNKNOWN so unrecognized rarities (new set releases) don't crash."""
+            obj = object.__new__(cls)
+            obj._value_ = value
+            return obj
+
+    {{name}}: Union[{{nameInCamelCase}}Values, str] = Field(
+        default={{#defaultValue}}{{{defaultValue}}}{{/defaultValue}}{{^defaultValue}}None{{/defaultValue}},
+        description="{{{description}}}",
+    )
+    {{/vendorExtensions.x-extensible-enum}}
+    {{^vendorExtensions.x-extensible-enum}}
+    {{! fall through to default field rendering }}
+    {{> model_field }}
+    {{/vendorExtensions.x-extensible-enum}}
+{{/vars}}
