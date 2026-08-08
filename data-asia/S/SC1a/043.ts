@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Sc1a"
+import Set from "../SC1a"
 
 const card: Card = {
 	set: Set,
@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "食夢夢"
 	},
 
+	dexId: [517],
 	illustrator: "Asako Ito",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

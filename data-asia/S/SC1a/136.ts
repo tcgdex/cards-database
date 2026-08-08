@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../Sc1a"
+import Set from "../SC1a"
 
 const card: Card = {
 	set: Set,
@@ -9,6 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "sadaji",
+	rarity: "Uncommon",
 	category: "Trainer",
 
 	effect: {
