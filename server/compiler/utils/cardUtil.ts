@@ -187,6 +187,17 @@ export async function getCard(set: Set, id: string, lang: SupportedLanguages): P
 }
 
 /**
+ * Get the number of cards available in the set for a specific language
+ * @param lang the language of the cards
+ * @param set the set to filter in (optional)
+ * @returns the number of cards available in the set
+ */
+export async function getCardsLength(lang: SupportedLanguages, set?: Set): Promise<number> {
+	let cards = await smartGlob(`${DB_PATH}/${getDataFolder(lang)}/${(set && (set.serie.name.en ?? set.serie.name[lang])) ?? '*'}/${(set && (set.name.en ?? set.name[lang])) ?? '*'}/*.ts`)
+	return cards.length
+}
+
+/**
  * Get cards filtered by the language they are available in
  * @param lang the language of the cards
  * @param set the set to filter in (optional)
