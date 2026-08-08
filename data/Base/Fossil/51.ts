@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 				fr: "Cherchez dans votre deck un Pokémon de base appelé Krabby et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Suche in deinem deck nach einer Basis-Pokémon-Karte mit dme namen Krabby und lege sie auf deine bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
+				de: "Suche in deinem Deck nach einer Basis-Pokémon-Karte mit dem Namen Krabby und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine Bank voll ist.)"
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 
 	description: {
 		en: "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
-		fr: "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
+		fr: "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers.",
+		de: "Seine Scheren sind nicht nur gewaltige Waffen, sondern auch wichtig für das Gleichgewicht beim Seitwärtsgehen."
 	},
 
 

@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",
-		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec."
+		fr: "Il se déplace en silence pour dévorer des œufs de Roucool ou de Piafabec.",
+		de: "Bewegt sich lautlos und verstohlen. Frisst die Eier von Vogel-Pokémon wie z.B. Taubsi und Habitak."
 	},
 
 

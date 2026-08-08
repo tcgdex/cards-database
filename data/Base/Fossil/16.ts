@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
-		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
+		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés.",
+		de: "Ein wildes Pokémon aus der Urzeit, das dem Gegner mit seinen sägeartigen Fangzähnen an die Gurgel geht."
 	},
 
 
