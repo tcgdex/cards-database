@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Weepinbell",
-		fr: "Boustiflor"
+		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei Kopf kann sich das verteidigende Pokémon während des nächsten Zuges des Gegnersnicht zurückziehen."
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon sich während des nächsten Zuges des Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
-		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant."
+		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant.",
+		de: "Soll in riesigen Kolonien tief im Dschungel leben, obwohl noch niemand jemals von dort zurückgekehrt ist."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Goldeen",
-		fr: "Poissirène"
+		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	stage: "Stage1",
@@ -38,7 +39,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
-				de: "Kopfnuss"
+				de: "Hornattacke"
 			},
 
 			damage: 10,
@@ -71,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
-		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
+		fr: "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs.",
+		de: "In der Laichsaison im Herbst sind sie beim kräftigen Stromaufwärts-Schwimmen zu sehen."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Paras",
-		fr: "Paras"
+		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
-		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte."
+		fr: "Une symbiose entre un parasite et un insecte. Le champignon a pris le contrôle sur son hôte.",
+		de: "Ein Wirt-Parasitenverhältnis, in dem der Parasitenpilz den Wirtskäfer übernommen hat. Zieht feuchte Orte vor."
 	},
 
 

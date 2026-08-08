@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "The fluid that oozes from its mouth isn't drool; it is a nectar that is used to attract prey.",
-		fr: "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie."
+		fr: "Le liquide qui s'écoule de sa bouche est comestible. Il sert à appâter sa proie.",
+		de: "Die von seiner Schnauze herunterlaufende Flüssigket ist nicht Geifer, sondern vielmehr Nektar zum Anlocken der Beute."
 	},
 
 
