@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kabuto",
-		fr: "Kabuto"
+		fr: "Kabuto",
+		de: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -38,7 +39,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -52,13 +53,13 @@ const card: Card = {
 			name: {
 				en: "Hydrocutter",
 				fr: "Hydro-lame",
-				de: "Hydrocutter"
+				de: "Hydroklinge"
 			},
 
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 times the number of heads. You can't flips more than 3 coins in this way.",
 				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées à Kabutops. Cette attaque inflige 40 dégâts, multipliés par le nombre de faces. Vous ne pouvez pas lancer plus de 3 pièces.",
-				de: "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way."
+				de: "Wirf soviele Münzen, wie Energiekarten an Kabutops angelegt sind. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu. Du kannst auf diese Weise höchstens drei Münzen werfen."
 			},
 
 			damage: "40x"
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",
-		fr: "Dans l'eau, il rentre ses pattes pour devenir plus compact, puis il agite sa carapace pour nager plus vite."
+		fr: "Dans l'eau, il rentre ses pattes pour devenir plus compact, puis il agite sa carapace pour nager plus vite.",
+		de: "Im Wasser klappt es seine Körperteile ein, um kompakter zu sein, und wackelt dann mit seiner Muschel, um schnell zu schwimmen."
 	},
 
 

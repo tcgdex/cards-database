@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metapod",
-		fr: "Chrysacier"
+		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -46,7 +47,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now either Asleep, Confused, Paralyzed, or Poisoned (your choice).",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Endormi, Confus, Paralysé ou Empoisonné (selon votre choix).",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist schläft das verteidigende Pokémon jetzt oder ist verwirrt, gelähmt oder vergiftet (such es dir aus)."
+				de: "Wirf eine Münze. Bei „Kopf“ ist schläft das verteidigende Pokémon jetzt oder ist verwirrt, gelähmt oder vergiftet (such es dir aus)."
 			},
 
 			damage: 20
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
-		fr: "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid."
+		fr: "Il ramasse du miel tous les jours en le frottant contre les poils de ses pattes pour le rapporter dans son nid.",
+		de: "Es sammelt jeden Tag Honig. Es klebt den Honig an seine haarigen Beine, damit es ihn in sein Nest bringen kann."
 	},
 
 

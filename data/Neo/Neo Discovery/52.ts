@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Natu",
-		fr: "Natu"
+		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -39,13 +40,13 @@ const card: Card = {
 			name: {
 				en: "Energy Cycle",
 				fr: "Cycle énergétique",
-				de: "Energy Cycle"
+				de: "Energieverbindung"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée au Pokémon Défenseur et 1 Pokémon du Banc de votre adversaire. Attachez-lui cette carte Énergie.",
-				de: "Flip a coin. If heads, choose 1 Energy card attached to the Defending Pokémon and 1 of your opponent's Benched Pokémon. Attach that Energy card to that Pokémon."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ eine an das verteidigende Pokémon angelegte Energiekarte und eins der Pokémon auf der Bank deines Gegners. Lege diese Energiekarte an dieses Pokémon an."
 			},
 
 			damage: 10
@@ -59,7 +60,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy",
 				fr: "Super psy",
-				de: "Super Psy"
+				de: "Super-Psyschlag"
 			},
 
 			damage: 50,
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "In South America, it is said that its right eye sees the future and its left eye views the past.",
-		fr: "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé."
+		fr: "En Amérique du Sud, on dit que son œil droit voit l'avenir et le gauche, le passé.",
+		de: "In Südamerika sagt man, dass sein rechtes Auge die Zukunft und das linke die Vergangenheit sehen kann."
 	},
 
 
