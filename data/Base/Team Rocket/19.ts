@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
-		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
+		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux .",
+		de: "Lässt seiner Beute mit seinem Starren das Blut in den Adern gefrieren. Falls du einem begegnen solltest, erinnere dich daran, ihm nicht in die Augen zu blicken."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "The number of incidents of hackers using Magnetons to damage computer systems is steadily increasing.",
-		fr: "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement."
+		fr: "Le nombre de pirates informatiques utilisant des Magneton pour endommager les systèmes augmente régulièrement.",
+		de: "Die Anzahl an Vorfällen, in denen Hacker mit Hilfe von Magnetons Computer beschädigen, steigt ständig."
 	},
 
 

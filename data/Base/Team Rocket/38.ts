@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "A dangerous Pokémon when angered. It likes to playfully shock people with the electricity it stores within its body.",
-		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps."
+		fr: "Très dangereux quand il se met en colère, il aime s'amuser à électrocuter les gens avec l'électricité qu'il stocke dans son corps.",
+		de: "Ein gefährliches Pokémon, wenn es erzürnt ist. Es spielt gerne mit der Elektrizität, die es in seinem Körper speichert, und schockt Menschen damit."
 	},
 
 

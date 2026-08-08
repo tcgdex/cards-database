@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "Carries a pendulum with it always. Sometimes appears near less-traveled roads and schools at dusk.",
-		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles."
+		fr: "Il porte toujours un pendule. Il apparaît parfois au crépuscule aux abords des routes peu fréquentées et des écoles.",
+		de: "Es trägt stets ein Pendel bei sich. Es erscheint manchmal zur Abenddämmerung auf weniger befahrenen Straßen und in der Nähe von Schulen."
 	},
 
 

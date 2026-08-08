@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "Researchers have observed these Pokémon reproducing in industrial waste sites.",
-		fr: "Des chercheurs ont observé ces Pokémon se reproduisant dans des sites de traitement des déchets industriels."
+		fr: "Des chercheurs ont observé ces Pokémon se reproduisant dans des sites de traitement des déchets industriels.",
+		de: "Forscher haben diese Pokémon bei der Fortpflanzung auf Industriemüllkippen beobachtet."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
-		fr: "Taupiqueur"
+		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	stage: "Stage1",
@@ -85,7 +86,8 @@ const card: Card = {
 
 	description: {
 		en: "Digs large sinkholes in the ground and tries to trap its enemies in them.",
-		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis."
+		fr: "Il creuse de larges pièges dans le sol afin d'attraper ses ennemis.",
+		de: "Gräbt riesige Löcher in die Erde und versucht seinen Gegnern damit eine Falle zu stellen."
 	},
 
 

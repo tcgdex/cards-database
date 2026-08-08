@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur obscur"
+		fr: "Machopeur obscur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It is almost impossible to defend against a Machamp's four powerful arms.",
-		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur."
+		fr: "Il est pratiquement impossible de se défendre contre les quatre bras d'un Mackogneur.",
+		de: "Es ist fast unmöglich, sich gegen Machomeis vier kraftvolle Arme zu wehren."
 	},
 
 

@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Powder",
 				fr: "Poudre dodo",
-				de: "Sleep Powder"
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
-				de: "Poisonpowder"
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			}
 
 		},
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "It wanders around at night sowing its seeds to create more Oddishes.",
-		fr: "Il vagabonde la nuit en semant ses graines pour créer d'autres Mystherbes."
+		fr: "Il vagabonde la nuit en semant ses graines pour créer d'autres Mystherbes.",
+		de: "Es wandert nachts umher und sät seinen Samen für mehr Myraplas."
 	},
 
 

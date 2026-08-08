@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Its pollen has such a strong smell that it even confuses itself at times.",
-		fr: "Son pollen sent si fort qu'il s'étourdit parfois lui-même."
+		fr: "Son pollen sent si fort qu'il s'étourdit parfois lui-même.",
+		de: "Seine Pollen haben einen solch strengen Geruch, dass es sich sogar manchmal selbst verwirrt."
 	},
 
 
