@@ -18,24 +18,119 @@ export interface Serie {
 	energies?: Array<Types>
 }
 
-interface variant_detailed {
+export type VariantType =  'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
+export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
+	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
+	| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
+	| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill' 
+	| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
+	| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
+	| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
+	| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
+	| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
+	| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2004' | 'worlds-2005' | 'worlds-2007' | 'finalist'
+	| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
+	| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
+	| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
+	| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
+	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
+	| 'illustration-contest-2022' | 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "poke-ball-league" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
+	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
+	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection'
+	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'chase-moloney' | 'chicago-2009' | 'scrye' | 'inquest-gamer'
+	| 'jesse-parker' | 'gabriel-fernandez' | 'sakuya-ota' | 'shao-tong-yen'
+
+/**
+ * Foil axis of a variant
+ * - normal: no holographic elements
+ * - holo: the illustration has a foil
+ * - reverse: everything but the illustration is foiled
+ */
+export type VariantFoil = 'normal' | 'holo' | 'reverse'
+
+/**
+ * Foil pattern used on holo & reverse variants.
+ * Also covers the former metal & lenticular types and the glossy finish.
+ */
+export type VariantPattern = 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'glitter'
+	| 'lenticular' | 'metal' | 'glossy'
+
+/**
+ * Print state of a card, mostly relevant for the older sets
+ * (Base Set shadowless/unlimited, copyright variants, misprints, ...)
+ */
+export type VariantPrint = 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
+	| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
+	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
+	| 'blue-border' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error'
+	| '1995-1998-copyright' | 'no-rarity' | 'missing-retreat-cost' | 'phanphy-error' | 'peelable-ditto'
+
+/**
+ * Release line of a variant
+ * - main: the main line of the set
+ * - parallel: a parallel print of the same card
+ * - restricted: a print only available in a restricted way
+ * - exclusive: an exclusive print (event/staff participation rewards)
+ */
+export type VariantLine = 'main' | 'parallel' | 'restricted' | 'exclusive'
+
+/**
+ * Where a card was distributed, or the event it comes from.
+ * Values also listed here are printed stamps that carry an origin meaning
+ * (ex: pre-release, pokemon-center, professor-program, player-rewards-program).
+ */
+export type VariantOrigin = 'japan-post' | 'pokemon-center' | 'pre-release' | 'ebay-cosmos'
+	| 'gamestop' | 'eb-games' | 'mcdonalds' | 'comic-con' | 'gen-con' | 'origins' | 'origins-2008' | 'games-expo' | 'nintendo-world' | 'pokemon-day'
+	| 'horizons' | 'kraze-club' | 'wizard-world-philadelphia' | 'wizard-world-chicago'
+	| 'player-rewards-program' | 'professor-program' | 'asia-promo' | 'asia-2023-24'
+	| 'winner' | 'finalist' | 'quarter-finalist' | 'semi-finalist' | 'top-eight' | 'top-sixteen' | 'top-thirty-two'
+	| 'judge' | 'gym-challenge' | 'stadium-challenge' | 'city-championships' | 'regional-championships' | 'national-championships' | 'state-championships' | 'international-championships'
+	| 'worlds-2004' | 'worlds-2005' | 'worlds-2007' | 'worlds-2008' | 'worlds-2009' | 'worlds-2010' | 'worlds-2023' | 'worlds-2024' | 'worlds-2025'
+	| 'international-championship-europe' | 'international-championship-latin-america' | 'international-championship-north-america'
+
+/**
+ * Artwork style of a variant
+ * - full-art: the artwork covers the whole card
+ * - alt-art: alternative artwork, also known as alt art or special art
+ */
+export type VariantArtwork = 'full-art' | 'alt-art'
+
+/**
+ * Card background style
+ * - gold: the card has a gold background
+ * - rainbow: the card has a rainbow background
+ */
+export type VariantBackground = 'gold' | 'rainbow'
+
+export type Variants = Array<variant_detailed>
+
+export type Category = 'Pokemon' | 'Trainer' | 'Energy'
+
+export interface variant_detailed {
 	/**
 	 * define the variant type
 	 * - normal: no holographic elements
 	 * - holo: the illustration has a foil
 	 * - reverse: everything but the illustration is foiled
+	 *
+	 * **deprecated in v3** metal & lenticular are moved to the `pattern` field
 	 */
-	type: 'normal' | 'holo' | 'reverse' | 'metal' | 'lenticular'
+	type: VariantType
 
 	/**
 	 * Some older sets had specific subtypes for the cards
 	 * i.e Base Set had shadowless with and without a 1st-edition stamp.
 	 * and the Unlimited version of the set had no shadow.
+	 *
+	 * **deprecated in v3** the print states are moved to the `print` field,
+	 * the cosmos & glossy finishes are moved to the `pattern` field.
 	 */
 	subtype?: 'shadowless' | 'unlimited' | '1999-2000-copyright' | 'missing-expansion-symbol' | 'gold-border'
 	| 'missing-hp' | 'aoki-error' | '1999-copyright' | 'evolution-box-error' | 'no-holo-error' | 'd-ink-dot-error'
 	| 'energy-symbol-error' | 'text-error' | 'shifted-energy-cost' | 'japanese-back' | 'no-e-reader' | 'rarity-error'
-	| 'cosmos'
+	| 'cosmos' | 'blue-border' | 'glossy' | 'shadowless-red-cheek' | '2019-copyright' | '2020-copyright' | 'nintedo-error'
+	| '1995-1998-copyright' | 'no-rarity' | 'missing-retreat-cost' | 'phanphy-error' | 'peelable-ditto'
 
 	/**
 	 * define the size of the card
@@ -44,7 +139,7 @@ interface variant_detailed {
 	 */
 	size?: 'standard' | 'jumbo'
 
-	// TODO: rename to 'stamps' on v3
+	// TODO: rename to 'stamps' on v4
 	/**
 	 * indicate that this variant has a stamp
 	 * a card may have multiple stamps, example "Ethan's Typhlosion pre-release staff"
@@ -59,36 +154,77 @@ interface variant_detailed {
 	 * - eb-games: a card that is stamped with the EB Games logo
 	 * - snowflake: a card that is stamped with a snowflake, available in the yearly advent calendar
 	 * - trick-or-trade: a card that is stamped with a pikachu-pumpkin, available in the yearly halloween/trick-or-trade boosters
+	 * - ace-trainer: a card that is stamped with a golden ACE TRAINER, won by getting 200 championship points in the season since 2025 season.
+	 * - player-rewards-program: a card that is stamped with the player reward logo, available in the yearly player rewards program (play! pokemon prize pack)
+	 *
+	 * **deprecated in v3** use `stamps` instead.
 	 */
-	stamp?: Array<'1st-edition' | 'w-promo' | 'pre-release' | 'pokemon-center' | 'set-logo' | 'staff' | 'pikachu-tail'
-		| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
-		| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
-		| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
-		| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'state-championships'
-		| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
-		| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
-		| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
-		| 'pokemon-rocks-america' | 'jun-hasebe' | 'origins' | 'games-expo' | 'kraze-club' | 'dylan-lefavour'
-		| 'tristan-robinson' | 'paul-atanassov' | 'david-cohen' | 'tsubasa-nakamura' | 'worlds-2007' | 'finalist'
-		| 'quarter-finalist' | 'semi-finalist' | 'top-sixteen' | 'top-thirty-two' | 'worlds-2008' | 'worlds-2009'
-		| 'countdown-calendar' | 'michael-pramawat' | 'distributor-meeting' | 'mychael-bryan' | "stephen-silvestro"
-		| 'yuka-furusawa' | 'jason-martinez' | 'yuta-komatsuda' | 'origins-2008' | 'platinum' | 'worlds-2010'
-		| 'ross-cawthorn' | 'gustavo-wada' | 'christopher-kan' | 'player-rewards-program' | 'igor-costa'
-		| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
-		| 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
-		| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america"
-	>
+	stamp?: Array<VariantStamps>
 	/**
 	 * for the holo & reverse, **optional** indicate which foil is used on the card
+	 *
+	 * **deprecated in v3** this field is renamed to `pattern`,
+	 * the gold & rainbow finishes are moved to the `background` field.
 	 */
-	foil?: 'pokeball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
-	| 'mirror' | 'league' | 'player-reward' | 'professor-program'
+	foil?: 'pokeball' | 'greatball' | 'ultraball' | 'masterball' | 'gold' | 'cosmos' | 'galaxy' | 'starlight' | 'energy' | 'cracked-ice'
+	| 'mirror' | 'league' | 'player-reward' | 'professor-program' | 'tinsel' | 'loveball' | 'friendball' | 'quickball' | 'team-rocket' | 'duskball' | 'rainbow' | 'glitter'
+
+	/**
+	 * **new in v3** foil pattern of the variant.
+	 * Takes precedence over the legacy `foil` field.
+	 */
+	pattern?: VariantPattern
+
+	/**
+	 * **new in v3** whether the variant has an etched/textured foil layer
+	 * (e.g. Tera Pokémon ex, Illustration Rares). Orthogonal to `foil`:
+	 * an etched card is typically also `foil: 'holo'`.
+	 */
+	etched?: boolean
+
+	/**
+	 * **new in v3** print state of the variant.
+	 * Takes precedence over the legacy `subtype` field.
+	 */
+	print?: VariantPrint
+
+	/**
+	 * **new in v3** printed stamps of the variant.
+	 * Takes precedence over the legacy `stamp` field.
+	 */
+	stamps?: Array<VariantStamps>
+
+	/**
+	 * **new in v3** where the variant was distributed / which event it comes from
+	 */
+	origin?: VariantOrigin
+
+	/**
+	 * **new in v3** release line of the variant
+	 */
+	line?: VariantLine
+
+	/**
+	 * **new in v3** artwork style of the variant
+	 */
+	artwork?: VariantArtwork
+
+	/**
+	 * **new in v3** background style of the variant
+	 */
+	background?: VariantBackground
 
 	/**
 	 * list of languages for which this variant is available
 	 * if not set, the variant is available in all languages
 	 */
 	languages?: SupportedLanguages[]
+
+	thirdParty?: {
+		tcgplayer?: number
+		cardmarket?: number
+		cardtrader?: number
+	}
 }
 
 interface variants {
@@ -154,6 +290,15 @@ export interface Set {
 	}>
 
 	releaseDate: ISODate | Languages<ISODate>
+
+	/**
+	 * Copyright information printed at the bottom of the cards of this set.
+	 * Can be overridden on individual cards.
+	 */
+	copyright?: {
+		text: string
+		year: number
+	}
 
 	thirdParty?: {
 		cardmarket?: number
@@ -233,12 +378,15 @@ export interface Card<Langs extends SupportedLanguages = T> {
 	 * - Trainer
 	 * - Energy
 	 */
-	category: 'Pokemon' | 'Trainer' | 'Energy'
+	category: Category
 
 	/**
 	 * Card Variants (Override Set Variants)
+	 *
+	 * **deprecated in v3** the boolean map is removed from the API,
+	 * the array form becomes the only input.
 	 */
-	variants?: variants | Array<variant_detailed>
+	variants?: variants | Variants
 
 	/**
 	 * Card Set
@@ -384,6 +532,14 @@ export interface Card<Langs extends SupportedLanguages = T> {
 	// Energy Only
 	energyType?: 'Normal' | // https://www.tcgdex.net/database/ecard/ecard1/160
 	'Special' // https://www.tcgdex.net/database/ecard/ecard1/158
+
+	/**
+	 * Card copyright override. When present, overrides the copyright of the set.
+	 */
+	copyright?: {
+		text: string
+		year: number
+	}
 
 	thirdParty?: {
 		tcgplayer?: number

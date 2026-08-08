@@ -49,15 +49,68 @@ export interface Serie extends SerieResume {
 	sets: Array<SetResume>;
 }
 
-interface variants {
-	normal?: boolean;
-	reverse?: boolean;
-	holo?: boolean;
-	firstEdition?: boolean;
-	wPromo?: boolean
+/**
+ * Card Variant
+ *
+ * Orthogonal facets model (v3)
+ */
+export interface Variant {
+	/**
+	 * Foil axis of the variant
+	 * - normal: no holographic elements
+	 * - holo: the illustration has a foil
+	 * - reverse: everything but the illustration is foiled
+	 */
+	foil: 'normal' | 'holo' | 'reverse';
+	/**
+	 * Foil pattern used on holo & reverse variants
+	 */
+	pattern?: string;
+	/**
+	 * Print state of the card (mostly relevant for the older sets)
+	 */
+	print?: string;
+	/**
+	 * Size of the card, omitted when standard
+	 */
+	size?: 'standard' | 'jumbo';
+	/**
+	 * Printed stamps of the variant
+	 */
+	stamps?: Array<string>;
+	/**
+	 * Where the card was distributed / which event it comes from
+	 */
+	origin?: string;
+	/**
+	 * Release line of the variant
+	 */
+	line?: string;
+	/**
+	 * Artwork style of the variant
+	 */
+	artwork?: string;
+	/**
+	 * Background style of the variant
+	 */
+	background?: string;
+	/**
+	 * Stable identifier built from the variant facets
+	 */
+	variantId: string;
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
 }
 
-interface variant_detailed {
+/**
+ * Card Variant (legacy v2 shape)
+ *
+ * Kept for backward compatibility with the V2 API,
+ * replaced by {@link Variant} in V3.
+ */
+export interface VariantDetailed {
 	type: string
 	size?: string
 	stamp?: Array<string>
@@ -87,7 +140,10 @@ export interface SetResume {
 export interface Set extends SetResume {
 	serie: SerieResume;
 	tcgOnline?: string;
-	variants?: variants;
+	/**
+	 * Aggregated distinct variants across the set cards
+	 */
+	variants?: Array<Variant>;
 	releaseDate: string;
 
 	/**
@@ -187,20 +243,16 @@ export interface Card extends CardResume {
 	category: string;
 	/**
 	 * Card Variants (Override Set Variants)
-	 * To be deprecated in V3
 	 */
-	variants?: variants;
+	variants?: Array<Variant>;
 
 	/**
-	 * Card Variants Detailed
+	 * Card Variants Detailed (legacy v2 shape)
 	 *
-	 * - type: the type of variant (normal, reverse, holo, etc)
-	 * - size: the size of the variant (normal, jumbo, etc)
-	 * - stamp: the stamps of the variant (ex: 'Staff', 'Pre-release', etc)
-	 * - foil: the foil of the variant (ex: 'Holo', 'Reverse Holo', etc)
-
+	 * Kept for backward compatibility with the V2 API,
+	 * replaced by {@link Variant} in V3.
 	 */
-	variants_detailed?: Array<variant_detailed>;
+	variants_detailed?: Array<VariantDetailed>;
 
 	/**
 	 * Card Set
