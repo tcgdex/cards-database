@@ -20,24 +20,33 @@ const card: Card = {
 		de: "So lange diese Karte an ein Pokémon angelegt ist, ist der Typ (Farbe) dieses Pokémon . Greift das Pokémon an, lege diese Karte am Ende des Zuges auf deinen Ablagestapel."
 	},
 
-	thirdParty: {
-		tcgplayer: 84520,
-		cardmarket: 276488
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84520,
+				cardmarket: 276488
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84520,
+				cardmarket: 276488
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
-		}
-	]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477506,
+				cardmarket: 871576
+			},
+		},
+	],
+
 }
 
 export default card
