@@ -20,20 +20,25 @@ const card: Card = {
 		de: "Each player's Active Evolved Pokémon (excluding Pokémon-ex) can use any attack from its Basic Pokémon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost.)",
 	},
 
-	thirdParty: {
-		tcgplayer: 87392,
-		cardmarket: 276492
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87392,
+				cardmarket: 276492
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87392,
+				cardmarket: 276492
+			},
+		},
+	],
+
 }
 
 export default card
