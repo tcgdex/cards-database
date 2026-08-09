@@ -20,20 +20,25 @@ const card: Card = {
 		de: "Search your deck for up to 3 different types of basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 	},
 
-	thirdParty: {
-		tcgplayer: 86572,
-		cardmarket: 276490
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86572,
+				cardmarket: 276490
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86572,
+				cardmarket: 276490
+			},
+		},
+	],
+
 }
 
 export default card
