@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "將自己的1隻剩餘HP為「30」以下的寶可夢的HP全部恢復。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803290,
+				tcgplayer: 602630,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602631,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

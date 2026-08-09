@@ -20,6 +20,16 @@ const card: Card = {
 		th: "เทิร์นนี้ ผู้เล่นที่นำการ์ดซัพพอร์ตจากบนมือออกมาใช้แล้ว ในแต่ละเทิร์นของตัวเองทำได้ 1 ครั้ง จะฟื้นฟู HP ของโปเกมอนฝ่ายตัวเองทุกตัว ตัวละ [10] ก็ได้"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761525,
+				tcgplayer: 566120,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "H"
 }

@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "附有這張卡的「太晶」寶可夢使用招式時，使用那個招式所需的能量減少1個。（減少的能量任何屬性皆可。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803265,
+				tcgplayer: 602582,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H"
 }

@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "這張卡必須在上個對手的回合自己的寶可夢【昏厥】了才可使用。 從自己的棄牌區選擇1張「基本【火】能量」卡，附於自己的寶可夢身上。然後，從牌庫抽卡直到自己的手牌滿6張為止。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803311,
+				tcgplayer: 602662,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

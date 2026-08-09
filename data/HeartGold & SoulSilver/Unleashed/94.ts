@@ -13,12 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [245, 244],
+	dexId: [244],
 	hp: 160,
 
 	types: [
 		"Water",
-		"Fire",
+		"Fire"
 	],
 
 	suffix: "Legend",
@@ -26,23 +26,30 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2",
+			value: "×2"
 		},
 		{
 			type: "Water",
-			value: "×2",
+			value: "×2"
 		},
 	],
-	retreat: 0,
-
+	retreat: 1,
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279250,
+				tcgplayer: 89610
+			}
 		},
 		{
-			type: "holo",
+			type: 'holo',
 			stamp: ["ross-cawthorn"],
-		},
+			thirdParty: {
+				cardmarket: 868168,
+				tcgplayer: 480498
+			}
+		}
 	],
 
 	attacks: [{
@@ -72,10 +79,6 @@ const card: Card = {
 
 		cost: ["Fire", "Colorless", "Colorless"]
 	}],
-
-	thirdParty: {
-		cardmarket: 279250
-	}
 }
 
 export default card

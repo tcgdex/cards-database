@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "附有這張卡的寶可夢使用的招式，對對手的戰鬥場的「寶可夢【ex】」造成的傷害「+50」點。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803272,
+				tcgplayer: 602595,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H"
 }

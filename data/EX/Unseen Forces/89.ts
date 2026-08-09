@@ -20,32 +20,48 @@ const card: Card = {
 		de: "Durchsuche dein Deck nach einer Entwicklungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach.",
 	},
 
-	thirdParty: {
-		cardmarket: 276735,
-		tcgplayer: 88390
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88390,
+				cardmarket: 276735
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88390,
+				cardmarket: 276735
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				tcgplayer: 477903,
+				cardmarket: 869558
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				tcgplayer: 477907,
+				cardmarket: 869560
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jimmy-ballard"]
-		},
-		{
-			type: "normal",
-			stamp: ["jason-klaczynski"]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				tcgplayer: 477908,
+				cardmarket: 869559
+			},
 		}
-	]
+	],
 }
 
 export default card

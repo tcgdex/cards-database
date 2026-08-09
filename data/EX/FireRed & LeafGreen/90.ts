@@ -20,20 +20,24 @@ const card: Card = {
 		de: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 276266,
-		tcgplayer: 85254
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276266,
+				tcgplayer: 85254
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276266,
+				tcgplayer: 85254
+			},
+		},
+	],
 }
 
 export default card

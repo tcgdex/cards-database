@@ -17,6 +17,16 @@ const card: Card = {
 		ko: "이 카드는 자신의 남은 프라이즈 장수가 상대의 남은 프라이즈 장수보다 많을 때만 사용할 수 있다. 상대의 벤치 포켓몬을 1마리 선택해서 배틀 포켓몬과 교체한다."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741923,
+				tcgplayer: 566054,
+			},
+		},
+	],
+
 	trainerType: "Item"
 }
 

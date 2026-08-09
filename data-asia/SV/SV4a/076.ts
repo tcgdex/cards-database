@@ -65,6 +65,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 746458,
+				tcgplayer: 567466,
+			},
+		},
+	],
+
 	retreat: 0,
 	regulationMark: "G"
 }

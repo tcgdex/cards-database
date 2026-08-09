@@ -14,10 +14,38 @@ const card: Card = {
 		de: "Togedemaru"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Lightning"],
+	types: [
+		"Lightning"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Defense Curl"
+			},
+			effect: {
+				en: "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
+			}
+		},
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				en: "Discharge"
+			},
+			effect: {
+				en: "Discard all Lightning Energy from this Pokémon. This attack does 30 damage for each card you discarded in this way."
+			},
+			damage: "30×"
+		},
+	],
 	stage: "Basic",
 	retreat: 1,
 
@@ -31,9 +59,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152877
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297251,
+				tcgplayer: 152877
+			}
+		},
+	],
+
 }
 
 export default card

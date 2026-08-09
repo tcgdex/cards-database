@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6K"
+import { Card } from "../../../interfaces";
+import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "電飛鼠"
+		ja: "エモンガ",
+		'zh-tw': "電飛鼠",
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -14,31 +14,44 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		'zh-tw': "會一邊到處放電一邊飛行，所以鳥寶可夢們不會靠近牠，這讓牠可以獨佔食物。"
+		ja: "電気を まき散らしながら 飛ぶので とりポケモンたちが 近付かない。 おかげで エサを ひとりじめできる。",
+		'zh-tw': "會一邊到處放電一邊飛行，所以鳥寶可夢們不會靠近牠，這讓牠可以獨佔食物。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "電擊"
+	attacks: [
+		{
+			name: {
+				ja: "でんきショック",
+				'zh-tw': "電擊",
+			},
+			damage: 30,
+			cost: ["Lightning"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560772,
+				tcgplayer: 569251,
+			},
 		},
-
-		damage: 30,
-		cost: ["Lightning"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 0,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [587],
+};
 
-export default card
+export default card;

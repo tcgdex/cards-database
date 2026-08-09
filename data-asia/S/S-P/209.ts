@@ -1,22 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "露璃娜"
+		ja: "チルタリス",
+		'zh-tw': "露璃娜",
 	},
 
-	illustrator: "take",
-	category: "Trainer",
+	illustrator: "sui",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Dragon"],
 
-	effect: {
-		'zh-tw': "從自己的棄牌區選擇【水】寶可夢卡與【水】能量卡合計最多4張，在給對手看過後加入手牌。"
+	description: {
+		ja: "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "D"
-}
+	stage: "Stage1",
 
-export default card
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "いざなうしらべ" },
+			effect: {
+				ja: "自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せる。残りの山札を切り、選んだカードを山札の上にもどす。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: { ja: "かっくう" },
+			damage: 60,
+			cost: ["Water", "Metal"],
+		},
+	],
+
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 568803,
+				tcgplayer: 597393,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "チルット",
+	},
+
+	retreat: 0,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [334],
+};
+
+export default card;

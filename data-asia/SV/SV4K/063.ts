@@ -22,6 +22,16 @@ const card: Card = {
 		ko: "자신의 남은 프라이즈 장수가 상대의 남은 프라이즈 장수보다 많다면 이 카드를 붙이고 있는 포켓몬이 상대의 포켓몬으로부터 받는 기술의 데미지는 「-40」이 된다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741457,
+				tcgplayer: 565818,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

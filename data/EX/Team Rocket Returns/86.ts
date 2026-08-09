@@ -18,52 +18,89 @@ const card: Card = {
 		de: "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)"
 	},
 
-	thirdParty: {
-		cardmarket: 276378,
-		tcgplayer: 88767
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jimmy-ballard"]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["miska-saari"]
-		}
-	]
+			stamp: ["miska-saari"],
+			thirdParty: {
+				cardmarket: 276378,
+				tcgplayer: 88767
+			},
+		},
+	],
+
 }
 
 export default card

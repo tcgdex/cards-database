@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		247,
-	],
+	dexId: [247],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Larvitar",
-		fr: "Embrylex",
+		fr: "Embrylex"
 	},
 
 	stage: "Stage1",
@@ -84,17 +82,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88454,
+				cardmarket: 279195
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88454,
+				cardmarket: 279195
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279194,
-		tcgplayer: 88454
-	}
 }
 
 export default card

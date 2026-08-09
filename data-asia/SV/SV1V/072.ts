@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih 1 lembar Pokémon Stage 2 dari Kartu Pegangan sendiri, lalu letakkan ke Pokémon Basic di Arena sendiri yang berevolusi menjadi Pokémon tersebut, lakukan evolusi tanpa perlu melakukan evolusi Stage 1. (Tidak dapat digunakan pada giliran pertama pemain dan pada Pokémon yang baru dimasukkan.)"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693147,
+				tcgplayer: 568298,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

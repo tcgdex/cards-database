@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6"
+import { Card } from "../../../interfaces";
+import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "搬運小匠"
+		ja: "ドッコラー",
+		'zh-tw': "搬運小匠",
 	},
 
 	illustrator: "Yuriko Akase",
@@ -14,31 +14,44 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "會亂揮木材來戰鬥。如果可以 不費勁地搬起沉重的木材， 就代表牠即將要進化了。"
+		ja: "角材を 振り回して 戦う。 重い 角材を 苦もなく 持つようになると 進化は 近い。",
+		'zh-tw': "會亂揮木材來戰鬥。如果可以 不費勁地搬起沉重的木材， 就代表牠即將要進化了。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "全力拳"
+	attacks: [
+		{
+			name: {
+				ja: "ぜんりょくパンチ",
+				'zh-tw': "全力拳",
+			},
+			damage: 40,
+			cost: ["Fighting"],
+			effect: {
+				ja: "コインを1回投げウラなら、このワザは失敗。",
+				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767543,
+				tcgplayer: 568099,
+			},
 		},
-
-		damage: 40,
-		cost: ["Fighting"]
-	}],
-
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "H"
-}
+	regulationMark: "H",
+	rarity: "Illustration rare",
+	dexId: [532],
+};
 
-export default card
+export default card;

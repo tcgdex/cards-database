@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Typhlosion"
 	},
 	illustrator: "Wataru Kawahara",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		157,
-	],
+	dexId: [157],
 	hp: 140,
 	types: [
-		"Fire",
+		"Fire"
 	],
 	evolveFrom: {
 		en: "Quilava",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon. If you do, put 1 damage counter on that Pokémon. This power can't be used if Typhlosion is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie  et l'attacher à l'un de vos Pokémon. Dans ce cas, ajoutez un marqueur de dégât à ce Pokémon. Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État Spécial."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -67,9 +65,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275617,
+				tcgplayer: 90108
+			}
+		},
+	],
+
 }
 
 export default card

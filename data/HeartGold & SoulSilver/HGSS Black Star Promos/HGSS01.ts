@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Ho-Oh"
 	},
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		250,
-	],
-	hp: 100,
+	dexId: [250],
+	hp: 80,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -69,14 +67,19 @@ const card: Card = {
 
 
 	description: {
-		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind when it flies.",
+		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind when it flies."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275618,
+				tcgplayer: 86125
+			}
+		},
+	],
+
 }
 
 export default card

@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "這張卡只有在自己的場上有「太晶」寶可夢時才可使用。 選擇最多2隻自己的備戰區的【無】寶可夢，從棄牌區附給那些寶可夢各1張基本能量卡。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803253,
+				tcgplayer: 602562,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602563,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

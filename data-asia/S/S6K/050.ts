@@ -1,44 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6K"
+import { Card } from "../../../interfaces";
+import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "巨金怪VMAX"
+		ja: "メタグロスVMAX",
+		'zh-tw': "巨金怪VMAX",
 	},
 
 	illustrator: "Ryota Murayama",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Metal"],
+
 	stage: "VMAX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "極巨衝刺"
+	attacks: [
+		{
+			name: {
+				ja: "でんじきゅうちゃく",
+				'zh-tw': "極巨衝刺",
+			},
+			cost: ["Metal"],
+			effect: {
+				ja: "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢「極巨衝刺」的傷害「+150」點。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢「極巨衝刺」的傷害「+150」點。"
+		{
+			name: { ja: "ダイラッシュ" },
+			damage: 100,
+			cost: ["Metal", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンの「ダイラッシュ」のダメージは「+150」される。",
+			},
 		},
+	],
 
-		damage: 100,
-		cost: ["Metal", "Colorless"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [{ type: "Grass", value: "-30" }],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 560836,
+				tcgplayer: 569278,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
+	evolveFrom: {
+		ja: "メタグロスV",
+	},
 
 	retreat: 3,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Triple Rare",
+	dexId: [376],
+};
 
-export default card
+export default card;

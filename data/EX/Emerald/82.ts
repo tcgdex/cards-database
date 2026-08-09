@@ -28,16 +28,27 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88382,
+				cardmarket: 276593
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88382,
+				cardmarket: 276593
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "normal",
-			stamp: ["professor-program"]
+			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 176630,
+			},
 		}
-	]
+	],
 }
 
 export default card

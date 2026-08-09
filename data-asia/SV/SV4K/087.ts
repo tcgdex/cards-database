@@ -19,6 +19,16 @@ const card: Card = {
 		ko: "자신의 덱을 2장 뽑는다. 상대의 배틀 포켓몬이 「포켓몬 ex」라면 2장 더 뽑는다."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741507,
+				tcgplayer: 565842,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

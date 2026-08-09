@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		421,
-	],
+	dexId: [421],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Cherubi",
-		fr: "Ceribou",
+		fr: "Ceribou"
 	},
 
 	stage: "Stage1",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Sonnenheilung"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may remove 1 damage counter from your Active Pokémon. This power can’t be used if Cherrim is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may remove 1 damage counter from your Active Pokémon. This power can't be used if Cherrim is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez retirer un marqueur de dégât de votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Ceriflor est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke von deinem Aktiven Pokémon entfernen. Diese Poké-Power kann nicht benutzt werden, wenn Kinoso von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -84,17 +82,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84257,
+				cardmarket: 279184
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84257,
+				cardmarket: 279184
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279184,
-		tcgplayer: 84257
-	}
 }
 
 export default card

@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih paling banyak 2 lembar Supporter dari Trash sendiri, perlihatkan ke lawan, lalu kocok kembali ke Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693036,
+				tcgplayer: 567186,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

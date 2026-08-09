@@ -20,6 +20,16 @@ const card: Card = {
 		th: "เลือกพลังงานพิเศษที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายตรงข้าม 1 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761514,
+				tcgplayer: 566109,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

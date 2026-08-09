@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Kedua pemain 1 kali pada tiap gilirannya sendiri dapat melempar koin 1 kali. Jika hasilnya sisi depan, pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693153,
+				tcgplayer: 568304,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "G"
 }

@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pulihkan HP semua Pokémon kedua pemain masing-masing sejumlah 30."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693146,
+				tcgplayer: 568297,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

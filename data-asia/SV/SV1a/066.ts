@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih 1 lembar Kartu Pegangan sendiri, lalu kembalikan ke bawah Deck. Setelah itu, ambil kartu dari atas Deck hingga jumlah Kartu Pegangan sendiri menjadi 5 lembar. (Jika Kartu Pegangan sendiri hanya 1 kartu ini saja, kartu ini tidak dapat digunakan.)"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 701120,
+				tcgplayer: 568189,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

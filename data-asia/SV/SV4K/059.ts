@@ -23,6 +23,16 @@ const card: Card = {
 		ko: "이 카드는 자신의 패를 1장 트래쉬하지 않으면 사용할 수 없다. 자신의 덱에서 기본 에너지를 2장까지 선택해서 상대에게 보여주고 패로 가져온다. 그리고 덱을 섞는다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741448,
+				tcgplayer: 565814,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

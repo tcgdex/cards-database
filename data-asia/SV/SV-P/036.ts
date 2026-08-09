@@ -1,22 +1,49 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "秋明"
+		ja: "カルボウ",
+		'zh-tw': "秋明",
 	},
 
-	illustrator: "kantaro",
-	category: "Trainer",
+	illustrator: "nagimiso",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Fire"],
 
-	effect: {
-		'zh-tw': "這張卡只有在對手的戰鬥寶可夢【中毒】時才可使用。 將自己的手牌全部放回牌庫並重洗。然後，從牌庫抽出7張卡。"
+	description: {
+		ja: "焼けた 木炭に 命が 宿り ポケモンになった。 燃える 闘志で 強敵にも 戦いを 挑む。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "G"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ヒートブラスト" },
+			damage: 60,
+			cost: ["Fire", "Fire", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695777,
+				tcgplayer: 587793,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [935],
+};
+
+export default card;

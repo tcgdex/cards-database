@@ -18,20 +18,25 @@ const card: Card = {
 		de: "Each Pokémon with Dark of Rocket's in its name (both yours an your opponent's) gets +20 HP."
 	},
 
-	thirdParty: {
-		cardmarket: 276379,
-		tcgplayer: 88771
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276379,
+				tcgplayer: 88771
+			},
 		},
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 276379,
+				tcgplayer: 88771
+			},
+		},
+	],
+
 }
 
 export default card

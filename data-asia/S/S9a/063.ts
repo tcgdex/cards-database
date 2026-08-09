@@ -17,6 +17,23 @@ const card: Card = {
 		ja: "この番の終わりまで、相手のバトルポケモンの特性は、すべてなくなる。（新しくバトル場に出したポケモンもふくむ。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609831,
+				tcgplayer: 570633,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577641,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "F",
 	rarity: "Uncommon"

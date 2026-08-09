@@ -1,40 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "利牙魚"
+		ja: "基本鋼エネルギー",
+		'zh-tw': "利牙魚",
 	},
 
-	illustrator: "Tonji Matsuno",
-	category: "Pokemon",
-	hp: 50,
-	types: ["Water"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "擁有銳利的牙齒和結實的下巴。船員們絕對不會去 靠近利牙魚棲息的地方。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "銳利之牙"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695785,
+				tcgplayer: 587801,
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Water"]
-	}],
+	rarity: "Promo",
+};
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

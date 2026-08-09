@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "彷徨夜靈"
+		ja: "サマヨール",
+		'zh-tw': "彷徨夜靈",
 	},
 
 	illustrator: "Aya Kusube",
@@ -14,41 +14,54 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "據說在體內燃燒著的鮮紅獨眼 是彷徨夜靈的本體， 但沒有人親眼見過。"
+		ja: "体の中で 燃えている 真っ赤な ひとつ目が サマヨールの 本体と いわれるが 誰も 見ていない。",
+		'zh-tw': "據說在體內燃燒著的鮮紅獨眼 是彷徨夜靈的本體， 但沒有人親眼見過。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "‌[特性]咒詛炸彈"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "カースドボム" },
+			effect: {
+				ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。相手のポケモン1匹に、ダメカンを5個のせる。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合時可使用1次，若使用，則將這隻寶可夢【昏厥】。在對手的1隻寶可夢身上放置5個傷害指示物。"
-		}
-	}, {
-		name: {
-			'zh-tw': "鬼火"
+	attacks: [
+		{
+			name: {
+				ja: "おにび",
+				'zh-tw': "‌[特性]咒詛炸彈",
+			},
+			damage: 50,
+			cost: ["Psychic", "Psychic"],
 		},
+	],
 
-		damage: 50,
-		cost: ["Psychic", "Psychic"]
-	}],
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773768,
+				tcgplayer: 566270,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	evolveFrom: {
+		ja: "ヨマワル",
+	},
 
 	retreat: 2,
 	regulationMark: "H",
-	rarity: "Common"
-}
+	rarity: "Common",
+	dexId: [356],
+};
 
-export default card
+export default card;

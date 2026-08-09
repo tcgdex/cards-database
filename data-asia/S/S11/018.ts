@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "火箭雀"
+		ja: "ヒノヤコマ",
+		'zh-tw': "火箭雀",
 	},
 
 	illustrator: "Narumi Sato",
@@ -14,27 +14,44 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "會朝著獵物的巢穴中噴射火花，再用銳利的爪子解決掉 受驚嚇而跑出來的獵物。"
+		ja: "巣穴の中に 火の粉を 飛ばし 驚いて 出てきた 獲物を 鋭い ツメで しとめるのだ。",
+		'zh-tw': "會朝著獵物的巢穴中噴射火花，再用銳利的爪子解決掉 受驚嚇而跑出來的獵物。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "吐火"
+	attacks: [
+		{
+			name: {
+				ja: "ひをはく",
+				'zh-tw': "吐火",
+			},
+			damage: 30,
+			cost: ["Fire"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Fire"]
-	}],
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667893,
+				tcgplayer: 569949,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "ヤヤコマ",
+	},
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [662],
+};
 
-export default card
+export default card;

@@ -1,54 +1,53 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "爆香猴"
+		ja: "フシギダネ",
+		'zh-tw': "爆香猴",
 	},
 
-	illustrator: "0313",
+	illustrator: "OKACHEKE",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Fire"],
+	types: ["Grass"],
 
 	description: {
-		'zh-tw': "在火山的洞穴裡生活。 頭上的毛髮叢中熊熊燃燒著， 溫度高達３００度。"
+		ja: "生まれて しばらくの あいだ 背中の タネに つまった 栄養を とって 育つ。",
+		'zh-tw': "在火山的洞穴裡生活。 頭上的毛髮叢中熊熊燃燒著， 溫度高達３００度。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "呼朋引伴"
+	attacks: [
+		{
+			name: {
+				ja: "つるのムチ",
+				'zh-tw': "呼朋引伴",
+			},
+			damage: 50,
+			cost: ["Grass", "Colorless", "Colorless"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 720939,
+				tcgplayer: 587817,
+			},
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "灼燒"
-		},
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [1],
+};
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
-		},
-
-		damage: 20,
-		cost: ["Fire", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

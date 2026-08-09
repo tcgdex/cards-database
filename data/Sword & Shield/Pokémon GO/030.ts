@@ -75,7 +75,7 @@ const card: Card = {
 	regulationMark: "F",
 
 
-	
+
 
 	variants: [
 		{
@@ -83,6 +83,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665266,
 				tcgplayer: 276960
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 728200,
+				tcgplayer: 513796
 			}
 		},
 	],

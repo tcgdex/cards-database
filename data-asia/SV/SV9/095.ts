@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "選擇1隻對手的寶可夢，將那隻寶可夢身上附加的「寶可夢道具」卡與「特殊能量」卡各丟棄1張。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807682,
+				tcgplayer: 614946,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "I"
 }

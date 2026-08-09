@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Suicune"
 	},
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		245,
-	],
+	dexId: [245],
 	hp: 80,
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -51,14 +49,19 @@ const card: Card = {
 
 
 	description: {
-		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275600,
+				tcgplayer: 89605
+			}
+		},
+	],
+
 }
 
 export default card

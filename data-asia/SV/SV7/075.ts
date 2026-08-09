@@ -48,6 +48,16 @@ const card: Card = {
 		cost: ["Lightning", "Fighting", "Colorless"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 779089,
+				tcgplayer: 567930,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "H",
 	rarity: "Rare",

@@ -17,7 +17,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 110,
-	types: ["Lightning"],
+	types: [
+		"Lightning"
+	],
 
 	evolveFrom: {
 		en: "Pikachu",
@@ -67,9 +69,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152873
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 297261,
+				tcgplayer: 152873
+			}
+		},
+	],
+
 }
 
 export default card

@@ -1,54 +1,57 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "月亮伊布"
+		ja: "フクスロー",
+		'zh-tw': "月亮伊布",
 	},
 
-	illustrator: "Souichirou Gunjima",
+	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Darkness"],
+	hp: 80,
+	types: ["Grass"],
 
 	description: {
-		'zh-tw': "在滿月之夜或是興奮的時候，牠身上圈圈一樣的花紋就會發出金黃色的光。"
+		ja: "刃羽根 と 呼ばれる ナイフのような 羽根を 立て続けに 投げて 敵の 急所を 確実に つらぬく。",
+		'zh-tw': "在滿月之夜或是興奮的時候，牠身上圈圈一樣的花紋就會發出金黃色的光。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "暗中奇襲"
+	attacks: [
+		{
+			name: {
+				ja: "はっぱカッター",
+				'zh-tw': "暗中奇襲",
+			},
+			damage: 40,
+			cost: ["Grass"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "對手的身上放置有傷害指示物的1隻寶可夢受到60點傷害。[在備戰區不計算弱點・抵抗力。]"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525080,
+				tcgplayer: 597281,
+			},
 		},
+	],
 
-		cost: ["Darkness"]
-	}, {
-		name: {
-			'zh-tw': "月亮幻想"
-		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
-		},
-
-		damage: 80,
-		cost: ["Darkness", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "モクロー",
+	},
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [723],
+};
 
-export default card
+export default card;

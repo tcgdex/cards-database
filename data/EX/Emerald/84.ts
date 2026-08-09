@@ -28,24 +28,44 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88975,
+				cardmarket: 276595
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88975,
+				cardmarket: 276595
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				tcgplayer: 477581,
+				cardmarket: 871549
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				tcgplayer: 477582,
+				cardmarket: 871550
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				tcgplayer: 477943,
+				cardmarket: 869574
+			},
 		}
-	]
+	],
 }
 
 export default card

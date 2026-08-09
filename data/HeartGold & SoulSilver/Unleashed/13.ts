@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		9,
-	],
+	dexId: [9],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Wartortle",
-		fr: "Carabaffe",
+		fr: "Carabaffe"
 	},
 
 	stage: "Stage2",
@@ -39,10 +37,10 @@ const card: Card = {
 				de: "Wegspülen"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may move a Water Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can’t be used if Blastoise is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), you may move a Water Energy attached to 1 of your Benched Pokémon to your Active Pokémon. This power can't be used if Blastoise is affected by a Special Condition.",
 				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie Water attachée à l’un des Pokémon de votre Banc et l’attacher à votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Tortank est affecté par un État Spécial.",
 				de: "Beliebig oft während deines Zuges (vor deinen Angriff) kannst du 1 -Energie, die an 1 Pokémon auf deiner Bank angelegt ist, an dein Aktives Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Turtok von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -60,7 +58,7 @@ const card: Card = {
 				de: "Wasserwerfer"
 			},
 			effect: {
-				en: "Return 2 Water Energy attached to Blastoise to your hand. Choose 1 of your opponent’s Pokémon. This attack does 100 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Return 2 Water Energy attached to Blastoise to your hand. Choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Récupérez dans votre main 2 cartes Énergie Water attachées à Tortank. Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 100 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Nimm 2 -Energie, die an Turtok angelegt sind, zurück auf deine Hand und wähle dann 1 Pokémon deines Gegners. Dieser Angfriff fügt dem ausgewählten Pokémon 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -83,29 +81,43 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83895,
+				cardmarket: 279169
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83895,
+				cardmarket: 279169
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 145612
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["pre-release","staff"],
+			thirdParty: {
+				tcgplayer: 211518
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 882913,
+				tcgplayer: 211517
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279169,
-		tcgplayer: 83895
-	}
 }
 
 export default card

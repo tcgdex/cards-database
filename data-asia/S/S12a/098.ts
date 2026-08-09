@@ -1,13 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ドーミラー",
 		'zh-tw': "銅鏡怪",
 		th: "โดมิเรอร์",
-		ja: "ドーミラー"
 	},
 
 	illustrator: "Mizue",
@@ -16,41 +15,48 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
+		ja: "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。",
 		'zh-tw': "雖然人們說把銅鏡怪打磨到發光，牠就能映照出真相， 但其實牠非常討厭被打磨。",
 		th: "ว่ากันว่าถ้าขัดเงาแล้วส่องประกายจะสะท้อนให้เห็นความจริงออกมา แต่โดมิเรอร์ไม่ชอบมาก ๆ",
-		ja: "磨けば 光り 真実を 映しだすとも いわれるが ドーミラーは とても 嫌がる。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "衝撞",
-			th: "กระแทก",
-			ja: "ぶつかる"
+	attacks: [
+		{
+			name: {
+				ja: "ぶつかる",
+				'zh-tw': "衝撞",
+				th: "กระแทก",
+			},
+			damage: 30,
+			cost: ["Metal", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Metal", "Colorless"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [{ type: "Grass", value: "-30" }],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "－30"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687660,
+				tcgplayer: 571636,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577481,
+			},
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "E",
+	rarity: "None",
 	dexId: [436],
+};
 
-	thirdParty: {
-		cardmarket: 687660
-	}
-}
-
-export default card
+export default card;

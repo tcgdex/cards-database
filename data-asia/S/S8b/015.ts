@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小火龍"
+		ja: "ヒトカゲ",
+		'zh-tw': "小火龍",
 	},
 
 	illustrator: "MAHOU",
@@ -14,37 +14,57 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "天生喜歡熱熱的東西。據說當牠被雨淋濕的時候，尾巴的末端會冒出煙來。"
+		ja: "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
+		'zh-tw': "天生喜歡熱熱的東西。據說當牠被雨淋濕的時候，尾巴的末端會冒出煙來。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "呼喚"
+	attacks: [
+		{
+			name: {
+				ja: "もってくる",
+				'zh-tw': "呼喚",
+			},
+			cost: ["Fire"],
+			effect: {
+				ja: "自分の山札を1枚引く。",
+				'zh-tw': "從自己的牌庫抽出1張卡。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的牌庫抽出1張卡。"
+		{
+			name: {
+				ja: "ほのお",
+				'zh-tw': "火焰",
+			},
+			damage: 30,
+			cost: ["Fire", "Fire"],
 		},
+	],
 
-		cost: ["Fire"]
-	}, {
-		name: {
-			'zh-tw': "火焰"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586530,
+				tcgplayer: 571268,
+			},
 		},
-
-		damage: 30,
-		cost: ["Fire", "Fire"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578361,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "D"
-}
+	regulationMark: "D",
+	rarity: "None",
+	dexId: [4],
+};
 
-export default card
+export default card;

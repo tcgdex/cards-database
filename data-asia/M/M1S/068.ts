@@ -14,6 +14,16 @@ const card: Card = {
 		ja: "体内ガスの力でハサミのお尻から水を噴射して６０ノットのスピードで泳ぐ。"
 	},
 	stage: "Stage1",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840627,
+				tcgplayer: 647274,
+			},
+		},
+	],
+
 	evolveFrom: {
 		ja: "ウデッポウ"
 	},

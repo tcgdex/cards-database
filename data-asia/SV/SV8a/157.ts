@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的「古代」寶可夢的最大HP「+60」，那隻寶可夢不會陷入特殊狀態，並將受到的特殊狀態全部恢復。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803270,
+				tcgplayer: 602591,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602592,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

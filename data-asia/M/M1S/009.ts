@@ -28,6 +28,16 @@ const card: Card = {
 		type: "Fire",
 		value: "×2"
 	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840554,
+				tcgplayer: 647262,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "I",
 	rarity: "Common",

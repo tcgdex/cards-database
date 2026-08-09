@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Lippouti"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		238,
-	],
+	dexId: [238],
 	hp: 30,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -29,9 +27,9 @@ const card: Card = {
 				fr: "Joli visage endormi"
 			},
 			effect: {
-				en: "As long as Smoochum is Asleep, prevent all damage done to Smoochum from attacks.",
+				en: "As long as Smoochum is Asleep, prevent all damage done to Smoochum by attacks.",
 				fr: "Tant que Lippouti reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -42,7 +40,7 @@ const card: Card = {
 				fr: "Singénergies"
 			},
 			effect: {
-				en: "Move an Energy card attached to 1 of your opponent's Pokémon to another one of your opponent's Pokémon. Smoochum is now Asleep.",
+				en: "Move an Energy card attached to 1 of your opponent's Pokémon to another of your opponent's Pokémon. Smoochum is now Asleep.",
 				fr: "Déplacez une carte Énergie attachée à l'un des Pokémon de votre adversaire sur un autre de ses Pokémon. Lippouti est maintenant Endormi."
 			},
 
@@ -50,14 +48,20 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things.",
+		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275606,
+				tcgplayer: 89364
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

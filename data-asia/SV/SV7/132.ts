@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードは、相手のサイドの残り枚数が2枚のときにしか使えない。\n\nこの番、自分の「テラスタル」のポケモンが使うワザのダメージで、相手のバトルポケモンがきぜつしたなら、サイドを1枚多くとる。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779146,
+				tcgplayer: 567987,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H",
 	rarity: "None"

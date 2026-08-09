@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分の手札からポケモンを2枚まで選び、相手に見せて、山札にもどす。その後、もどした枚数ぶんまで、自分の山札からポケモンを選び、相手に見せて、手札に加える。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761547,
+				tcgplayer: 566142,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

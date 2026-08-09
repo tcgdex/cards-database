@@ -21,7 +21,9 @@ const card: Card = {
 	stage: "Stage1",
 
 	hp: 100,
-	types: ["Darkness"],
+	types: [
+		"Darkness"
+	],
 
 	evolveFrom: {
 		en: "Zorua",
@@ -44,7 +46,7 @@ const card: Card = {
 			en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 			fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
 		},
-		damage: "20×",
+		damage: "20×"
 	}, {
 		cost: [
 			"Darkness",
@@ -73,6 +75,16 @@ const card: Card = {
 	},
 
 	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280070,
+				tcgplayer: 98715
+			}
+		},
+	],
+
 }
 
 export default card

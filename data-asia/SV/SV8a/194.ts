@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫抽出4張卡。在使用了這張卡的回合結束時，若自己的手牌有5張以上，則將自己的手牌全部丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803307,
+				tcgplayer: 602658,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

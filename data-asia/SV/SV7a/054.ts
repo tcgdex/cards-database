@@ -19,13 +19,19 @@ const card: Card = {
 		ja: "自分の山札を下から7枚見て、その中からポケモンを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787614,
+				tcgplayer: 579436,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
 	rarity: "Uncommon",
-
-	thirdParty: {
-		cardmarket: 787614
-	}
 }
 
 export default card

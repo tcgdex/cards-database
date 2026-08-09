@@ -1,52 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "叉字蝠V"
+		ja: "ナツメ＆ハチク",
+		'zh-tw': "叉字蝠V",
 	},
 
-	illustrator: "PLANETA Mochizuki",
-	category: "Pokemon",
-	hp: 180,
-	types: ["Darkness"],
-	stage: "Basic",
-	suffix: "V",
+	illustrator: "Ryuta Fuse",
+	category: "Trainer",
 
-	abilities: [{
-		type: "Ability",
+	effect: {
+		ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。 追加で、このカードを使うときに、自分の手札を5枚トラッシュしてよい。その場合、それぞれちがうタイプのポケモンも3枚まで選び、手札に加えられる。",
+	},
 
-		name: {
-			'zh-tw': "暗夜能源"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525390,
+				tcgplayer: 597341,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合，當從手牌將這張卡放置於備戰區時，可使用1次。從牌庫抽卡直到自己的手牌滿6張為止。在這個回合，若已經使出了其他的「暗夜能源」，則這個特性無法使用。"
-		}
-	}],
+	trainerType: "Supporter",
+	regulationMark: "C",
+	rarity: "Promo",
+};
 
-	attacks: [{
-		name: {
-			'zh-tw': "毒牙"
-		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
-		},
-
-		damage: 70,
-		cost: ["Darkness", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "D"
-}
-
-export default card
+export default card;

@@ -1,49 +1,68 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伽勒爾 喵喵"
+		ja: "アップリュー",
+		'zh-tw': "伽勒爾 喵喵",
 	},
 
-	illustrator: "aoki",
+	illustrator: "nagimiso",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Metal"],
+	hp: 80,
+	types: ["Dragon"],
 
 	description: {
-		'zh-tw': "和好戰的海洋民族一起生活，久而久之身體的各個地方 就都變成了黑鐵。"
+		ja: "りんごの 皮の 翼で 飛んで 強酸性の 唾液を 飛ばす。 りんごの 形に 変形する。",
+		'zh-tw': "和好戰的海洋民族一起生活，久而久之身體的各個地方 就都變成了黑鐵。",
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "出爪"
+	attacks: [
+		{
+			name: {
+				ja: "フライトアップ",
+				'zh-tw': "出爪",
+			},
+			cost: ["Fire"],
+			effect: {
+				ja: "自分のトラッシュから基本エネルギーを3枚まで選び、ベンチポケモン1匹につける。",
+				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
+		{
+			name: { ja: "さんでとかす" },
+			damage: 70,
+			cost: ["Grass", "Fire"],
+			effect: {
+				ja: "相手のバトルポケモンをやけどにする。",
+			},
 		},
+	],
 
-		damage: "10+",
-		cost: ["Metal"]
-	}],
+	weaknesses: [],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 573770,
+				tcgplayer: 597408,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
+	evolveFrom: {
+		ja: "カジッチュ",
+	},
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [841],
+};
 
-export default card
+export default card;

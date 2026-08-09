@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "九尾"
+		ja: "キュウコン",
+		'zh-tw': "九尾",
 	},
 
 	illustrator: "Shiburingaru",
@@ -14,41 +14,59 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "每一根尾巴裡都蘊含著神通力。據說牠的壽命 長達１０００年。"
+		ja: "しっぽの １本 １本に 神通力が 込められている。 １０００年 生きると 言われる。",
+		'zh-tw': "每一根尾巴裡都蘊含著神通力。據說牠的壽命 長達１０００年。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "目不轉睛"
+	attacks: [
+		{
+			name: {
+				ja: "みつめる",
+				'zh-tw': "目不轉睛",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをねむりにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
+		{
+			name: {
+				ja: "しゃくねつのいぶき",
+				'zh-tw': "灼熱氣息",
+			},
+			damage: 120,
+			cost: ["Fire", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			},
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "灼熱氣息"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667617,
+				tcgplayer: 569945,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
-		},
-
-		damage: 120,
-		cost: ["Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ロコン",
+	},
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [38],
+};
 
-export default card
+export default card;

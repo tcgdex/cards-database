@@ -80,7 +80,7 @@ const card: Card = {
 		en: "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
 	},
 
-	
+
 
 	variants: [
 		{
@@ -95,6 +95,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 665274,
 				tcgplayer: 276967
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 669498,
+				tcgplayer: 279929
 			}
 		},
 	],

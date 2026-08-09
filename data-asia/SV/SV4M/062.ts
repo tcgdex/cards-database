@@ -22,6 +22,16 @@ const card: Card = {
 		ko: "이 카드를 붙이고 있는 「미래」의 포켓몬은 후퇴에 필요한 에너지가 모두 없어지고 그 포켓몬이 사용하는 기술이 상대의 배틀 포켓몬에게 주는 데미지는 「+20」이 된다."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741889,
+				tcgplayer: 566022,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

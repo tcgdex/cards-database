@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6K"
+import { Card } from "../../../interfaces";
+import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "泥偶小人"
+		ja: "ゴビット",
+		'zh-tw': "泥偶小人",
 	},
 
 	illustrator: "0313",
@@ -14,39 +14,48 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "用黏土製成的寶可夢。即使現在也一直遵循著數千年前主人的命令。"
+		ja: "粘土から つくられた ポケモン。 何千年も 前の 主の 命令を 今も 守っている。",
+		'zh-tw': "用黏土製成的寶可夢。即使現在也一直遵循著數千年前主人的命令。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "拍擊"
+	attacks: [
+		{
+			name: {
+				ja: "はたく",
+				'zh-tw': "拍擊",
+			},
+			damage: 10,
+			cost: ["Psychic"],
 		},
-
-		damage: 10,
-		cost: ["Psychic"]
-	}, {
-		name: {
-			'zh-tw': "出拳"
+		{
+			name: {
+				ja: "パンチ",
+				'zh-tw': "出拳",
+			},
+			damage: 30,
+			cost: ["Psychic", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Psychic", "Colorless"]
-	}],
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560797,
+				tcgplayer: 569258,
+			},
+		},
+	],
 
 	retreat: 3,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [622],
+};
 
-export default card
+export default card;

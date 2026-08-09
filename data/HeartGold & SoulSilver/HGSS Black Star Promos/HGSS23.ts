@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Porygon2"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		233,
-	],
+	dexId: [233],
 	hp: 80,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 	evolveFrom: {
 		en: "Porygon",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "The Retreat Cost for each Porygon, Porygon2, and Porygon-Z you have in play is Colorless less.",
 				fr: "Le Coût de retraite de chacun de vos Porygon, Porygon2 et Porygon-Z en jeu est diminué de ."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -66,14 +64,19 @@ const card: Card = {
 
 
 	description: {
-		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though.",
+		en: "This upgraded version of Porygon is designed for space exploration. It can't fly, though."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275603,
+				tcgplayer: 88328
+			}
+		},
+	],
+
 }
 
 export default card

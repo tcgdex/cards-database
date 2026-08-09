@@ -20,6 +20,16 @@ const card: Card = {
 	},
 
 	energyType: "Special",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680238,
+				tcgplayer: 570156,
+			},
+		},
+	],
+
 	regulationMark: "F",
 	rarity: "Uncommon"
 }

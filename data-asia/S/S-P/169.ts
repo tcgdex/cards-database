@@ -1,51 +1,55 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "頭蓋龍"
+		ja: "エースバーンVMAX",
+		'zh-tw': "頭蓋龍",
 	},
 
-	illustrator: "GIDORA",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Fighting"],
+	hp: 320,
+	types: ["Fire"],
 
-	description: {
-		'zh-tw': "特徵是堅硬的頭蓋骨。會用頭錘撞斷樹木， 吃樹上長的樹果。"
+	stage: "VMAX",
+
+	attacks: [
+		{
+			name: {
+				ja: "キョダイカキュウ",
+				'zh-tw': "衝撞",
+			},
+			damage: 230,
+			cost: ["Fire", "Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをやけどにする。次の自分の番、このポケモンはワザが使えない。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 540531,
+				tcgplayer: 597367,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "エースバーンV",
 	},
-
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "衝撞"
-		},
-
-		damage: 20,
-		cost: ["Fighting"]
-	}, {
-		name: {
-			'zh-tw': "尖石攻擊"
-		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加40點傷害。"
-		},
-
-		damage: "40+",
-		cost: ["Fighting", "Fighting"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [815],
+};
 
-export default card
+export default card;

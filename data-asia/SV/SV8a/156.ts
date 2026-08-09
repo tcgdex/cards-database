@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的寶可夢受到對手的【龍】寶可夢招式的傷害時，那個傷害「-60」點，將這張卡丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803269,
+				tcgplayer: 602589,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602590,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H"
 }

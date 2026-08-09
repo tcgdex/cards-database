@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Kakuna",
-		fr: "Coconfort",
+		fr: "Coconfort"
 	},
 
 	stage: "Stage2",
@@ -45,7 +43,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
 				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 		{
@@ -83,17 +81,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83772,
+				cardmarket: 279168
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83772,
+				cardmarket: 279168
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279168,
-		tcgplayer: 83772
-	}
 }
 
 export default card

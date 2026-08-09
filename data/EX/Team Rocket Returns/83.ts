@@ -18,40 +18,65 @@ const card: Card = {
 		de: "Shuffle your hand into your deck. Then, count the number of cards in your opponent's hand an draw that many cards."
 	},
 
-	thirdParty: {
-		cardmarket: 276375,
-		tcgplayer: 84424
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 84424
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 84424
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 84424
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 477504
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 477505
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 276375,
+				tcgplayer: 477604
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jimmy-ballard"]
-		}
-	]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				cardmarket: 477604,
+				tcgplayer: 84424
+			},
+		},
+	],
+
 }
 
 export default card

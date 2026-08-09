@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分の山札を上から7枚見て、その中からポケモンとエネルギーを好きなだけ選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680855,
+				tcgplayer: 570179,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

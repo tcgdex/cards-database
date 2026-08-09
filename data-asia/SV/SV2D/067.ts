@@ -22,6 +22,16 @@ const card: Card = {
 		id: "HP maksimal Pokémon Basic yang mengenakan kartu ini bertambah sejumlah 50."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705371,
+				tcgplayer: 565929,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

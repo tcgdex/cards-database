@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		490,
-	],
+	dexId: [490],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -72,17 +70,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87148,
+				cardmarket: 279159
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87148,
+				cardmarket: 279159
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279159,
-		tcgplayer: 87148
-	}
 }
 
 export default card

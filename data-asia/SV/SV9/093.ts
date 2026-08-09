@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "附有這張卡的「莉莉艾的寶可夢」受到對手的寶可夢招式的傷害而【昏厥】時，被獲得的獎賞卡減少1張。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807680,
+				tcgplayer: 614944,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "I"
 }

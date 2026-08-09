@@ -71,6 +71,11 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
@@ -79,13 +84,14 @@ const card: Card = {
 				tcgplayer: 668509
 			}
 		},
-		{
-			type: "holo",
-			size: "jumbo",
-			thirdParty: {
-				cardmarket: 859039
-			}
-		},
+        {
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 859039,
+        		tcgplayer: 668511
+        	}
+        },
 	],
 }
 

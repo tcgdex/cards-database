@@ -56,6 +56,22 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746475,
+				tcgplayer: 567494,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577347,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "G"
 }

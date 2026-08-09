@@ -20,32 +20,48 @@ const card: Card = {
 		de: "Draw a card. If you don't have any Stage 2 Evolved Pokémon in play, draw 2 more cards.",
 	},
 
-	thirdParty: {
-		cardmarket: 276732,
-		tcgplayer: 87243
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87243,
+				cardmarket: 276732
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87243,
+				cardmarket: 276732
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				tcgplayer: 477868,
+				cardmarket: 869572
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
+			stamp: ["miska-saari"],
+			thirdParty: {
+				tcgplayer: 477866,
+				cardmarket: 869573
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["miska-saari"]
-		},
-		{
-			type: "normal",
-			stamp: ["tom-roos"]
+			stamp: ["tom-roos"],
+			thirdParty: {
+				tcgplayer: 479704,
+				cardmarket: 869464
+			},
 		}
-	]
+	],
 }
 
 export default card
