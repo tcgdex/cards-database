@@ -230,21 +230,6 @@ export interface Card {
 	 * - Uncommon: https://www.tcgdex.net/database/Sword-&-Shield/Darkness-Ablaze/136-Furret
 	 */
 	rarity: 'ACE SPEC Rare' | 'Amazing Rare' | 'Classic Collection' | 'Common' |
-<<<<<<< HEAD
-	'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
-	'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
-	'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
-	'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
-	'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
-	// Black White rare
-	| 'Black White Rare'
-	| 'Mega Hyper Rare'
-	// Japanese Character Rares (since SM11b Dream League)
-	| 'Character Rare' | 'Character Super Rare'
-	// Pokémon TCG Pocket Rarities
-	| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
-	| 'Promo'
-=======
 			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
 			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
 			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
@@ -259,7 +244,6 @@ export interface Card {
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo'
->>>>>>> master
 
 	/**
 	 * Card Category
