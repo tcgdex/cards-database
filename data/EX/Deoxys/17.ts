@@ -79,7 +79,7 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				tcgplayer: 84759,
-				cardmarket: 276419
+				cardmarket: 276420
 			},
 		},
 		{
@@ -87,7 +87,7 @@ const card: Card = {
 			stamp: ["set-logo"],
 			thirdParty: {
 				tcgplayer: 84759,
-				cardmarket: 276419
+				cardmarket: 276420
 			},
 		},
 	],
