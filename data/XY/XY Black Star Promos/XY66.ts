@@ -77,7 +77,7 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 553219
+		cardmarket: 289723
 	}
 }
 

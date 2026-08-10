@@ -87,7 +87,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 274428,
+				cardmarket: 274429,
 				tcgplayer: 83744
 			}
 		},
@@ -95,7 +95,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				cardmarket: 274428,
+				cardmarket: 274429,
 				tcgplayer: 83744
 			}
 		}

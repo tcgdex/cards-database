@@ -91,27 +91,31 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				tcgplayer: 87293
+				tcgplayer: 87293,
+				cardmarket: 278998,
 			}
 		},
 		{
 			type: "reverse",
 			thirdParty: {
-				tcgplayer: 87293
+				tcgplayer: 87293,
+				cardmarket: 278998,
 			}
 		},
 		{
 			type: "holo",
 			foil: 'cracked-ice',
 			thirdParty: {
-				tcgplayer: 153261
+				tcgplayer: 153261,
+				cardmarket: 278998,
 			}
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
-				tcgplayer: 125041
+				tcgplayer: 125041,
+				cardmarket: 278998,
 			}
 		},
 	],

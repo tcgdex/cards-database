@@ -90,14 +90,14 @@ const card: Card = {
 			type: 'holo',
 			thirdParty: {
 				tcgplayer: 84485,
-				cardmarket: 275264
+				cardmarket: 275405
 			},
 		},
 		{
 			type: 'reverse',
 			thirdParty: {
 				tcgplayer: 84485,
-				cardmarket: 275264
+				cardmarket: 275405
 			},
 		},
 		{

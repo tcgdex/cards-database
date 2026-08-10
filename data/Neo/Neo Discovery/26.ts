@@ -90,14 +90,14 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 274518
+				cardmarket: 274537
 			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				cardmarket: 274518
+				cardmarket: 274537
 			}
 		}
 	]

@@ -86,7 +86,7 @@ const card: Card = {
 			type: "normal",
 			foil: "galaxy",
 			thirdParty: {
-				cardmarket: 273862,
+				cardmarket: 273877,
 				tcgplayer: 106526
 			}
 		},
@@ -95,7 +95,7 @@ const card: Card = {
 			stamp: ["1st-edition"],
 			foil: "galaxy",
 			thirdParty: {
-				cardmarket: 273862,
+				cardmarket: 273877,
 				tcgplayer: 106526
 			}
 		},

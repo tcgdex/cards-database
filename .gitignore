@@ -16,3 +16,7 @@ docs/
 
 # ignore mac os metadata
 .DS_Store
+
+# ignore serena project files
+.serena/.gitignore
+.serena/project.yml
