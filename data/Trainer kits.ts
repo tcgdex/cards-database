@@ -1,4 +1,4 @@
-import { Serie } from '../interfaces'
+import { Serie } from 'models/serie'
 
 const tk: Serie = {
 	id: "tk",

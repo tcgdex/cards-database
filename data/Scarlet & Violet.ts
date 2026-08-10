@@ -1,4 +1,4 @@
-import { Serie } from '../interfaces'
+import { Serie } from 'models/serie'
 
 const serie: Serie = {
 	id: "sv",

@@ -2359,6 +2359,7 @@ components:
         - serie
         - legal
         - updated
+        - collectorNumber
       type: object
       properties:
         id:
@@ -2369,7 +2370,7 @@ components:
           type: string
           description: Card number within its set
           example: '168'
-        setNumber:
+        collectorNumber:
           type: object
           description: The card set number at the bottom left / right
           properties:

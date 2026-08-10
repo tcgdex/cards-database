@@ -1,4 +1,4 @@
-import { Serie } from '../interfaces'
+import { Serie } from 'models/serie'
 
 const base: Serie = {
 	name: {

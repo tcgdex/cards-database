@@ -19,5 +19,16 @@
 		// disabled because it would produce too much errors
 		"verbatimModuleSyntax": false,
 		"noEmit": true,
+
+		// add aliases so it becomes easier to manage transforms
+		"paths": {
+			"data/*": [
+				"./data/*"
+			],
+
+			"models/*": [
+				"./meta/models/database/*"
+			]
+		}
 	}
 }
