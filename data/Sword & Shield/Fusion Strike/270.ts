@@ -49,12 +49,12 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			fr: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			de: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			es: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			pt: "$$$ABILITY.TITLE.MISSING.TOKEN$$$",
-			it: "$$$ABILITY.TITLE.MISSING.TOKEN$$$"
+			en: "Solar Revelation",
+			fr: "Révélation Solaire",
+			de: "Solarschild",
+			es: "Revelación Solar",
+			pt: "Revelação Solar",
+			it: "Rivelasole"
 		},
 
 		effect: {
