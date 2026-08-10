@@ -81,7 +81,7 @@ const card: Card = {
 	},
 
 	thirdParty: {
-		cardmarket: 552884
+		cardmarket: 281306
 	}
 }
 

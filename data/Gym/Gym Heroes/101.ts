@@ -26,7 +26,7 @@ const card: Card = {
 			stamp: ["1st-edition"],
 			thirdParty: {
 				tcgplayer: 86849,
-				cardmarket: 274153
+				cardmarket: 274237
 			}
 		}
 	],

@@ -56,7 +56,7 @@ const card: Card = {
 			stamp: ["25th-celebration"],
 
 			thirdParty: {
-				cardmarket: 538918,
+				cardmarket: 538928,
 				tcgplayer: 232341
 			}
 		},

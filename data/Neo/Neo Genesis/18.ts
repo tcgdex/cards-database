@@ -88,7 +88,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 274417,
+				cardmarket: 274418,
 				tcgplayer: 90099
 			}
 		},
@@ -96,7 +96,7 @@ const card: Card = {
 			type: "holo",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				cardmarket: 274417,
+				cardmarket: 274418,
 				tcgplayer: 90099
 			}
 		}
