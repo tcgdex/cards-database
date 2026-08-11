@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Latias",
-		fr: "Latias"
+		fr: "Latias",
+		de: "Latias"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Miraculous Light",
-				fr: "Lumière miraculeuse"
+				fr: "Lumière miraculeuse",
+				de: "Wundersames Licht"
 			},
 			effect: {
 				en: "Remove 2 damage counters and all Special Conditions from Latias.",
-				fr: "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux."
+				fr: "Retirez à Latias 2 marqueurs de dégât ainsi que tous ses États Spéciaux.",
+				de: "Entferne 2 Schadensmarken und alle Speziellen Zustände von Latias."
 			},
 			damage: 10,
 
@@ -46,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mist Ball",
-				fr: "Boule de brume"
+				fr: "Boule de brume",
+				de: "Nebelball"
 			},
 			effect: {
 				en: "Discard a Fire and a Water Energy attached to Latias.",
-				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias."
+				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias.",
+				de: "Lege 1 {R}-Energie und 1 {W}-Energie, die an Latias angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -71,7 +76,8 @@ const card: Card = {
 	],
 	description: {
 		en: "Its body is covered with a down that can refract light in such a way that it becomes invisble.",
-		fr: "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible."
+		fr: "Son corps est recouvert d'un duvet qui reflète la lumière et le rend invisible.",
+		de: "Sein Körper ist mit Daunen bedeckt, die das Licht so brechen, dass das PKMN unsichtbar wird."
 	},
 
 	retreat: 1,

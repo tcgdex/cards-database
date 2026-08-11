@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Burmy Sandy Cloak",
-		fr: "Burmy Sandy Cloak"
+		fr: "Burmy Sandy Cloak",
+		de: "Burmy Sandumhang"
 	},
 
 	illustrator: "Midori Harada",
@@ -27,11 +28,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Wear Cloak",
-				fr: "Cape"
+				fr: "Cape",
+				de: "Umhang tragen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Burmy Sandy Cloak is your Active Pokémon, you may search your discard pile for a basic Fighting Energy card and attach it to Burmy Sandy Cloak.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Sable."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Sable est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Sable.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Burmy Sandumhang dein Aktives Pokémon ist, deinen Ablagestapel nach einer {F}-Basis-Energiekarte durchsuchen und an Burmy Sandumhang anlegen."
 			},
 		},
 	],
@@ -43,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sandy Cloak Tackle",
-				fr: "Charge cape sable"
+				fr: "Charge cape sable",
+				de: "Sandumhang Tackle"
 			},
 			effect: {
 				en: "If Burmy Sandy Cloak has any Fighting Energy attached to it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Cheniti Cape Sable possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Si Cheniti Cape Sable possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wenn an Burmy Sandumhang mindestens 1 {F}-Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -61,7 +66,8 @@ const card: Card = {
 		},
 	],
 	description: {
-		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+		de: "Um sich vor dem eisigen Winterwind zu schützen, legt es sich unter einen Umhang aus Ästen und Laub."
 	},
 
 	retreat: 1,
