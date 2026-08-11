@@ -4,7 +4,8 @@ import Set from '../POP Series 9'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu"
+		fr: "Raichu",
+		de: "Raichu"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -35,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Slam",
-				fr: "Souplesse"
+				fr: "Souplesse",
+				de: "Slam"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
-				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces."
+				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30×",
 
@@ -53,12 +57,14 @@ const card: Card = {
 
 			name: {
 				en: "High Volt",
-				fr: "Voltage puissant"
+				fr: "Voltage puissant",
+				de: "Hochvolt"
 			},
 
 			effect: {
 				en: "If Raichu evolved from Pikachu during this turn, this attack's base damage is 100 instead of 60.",
-				fr: "Si Raichu évolue d'un Pokémon lors de ce tour, les dégâts de base de cette attaque sont de 100 au lieu de 60."
+				fr: "Si Raichu évolue d'un Pokémon lors de ce tour, les dégâts de base de cette attaque sont de 100 au lieu de 60.",
+				de: "Wenn sich Raichu in diesem Zug aus Pikachu entwickelt hat, beträgt der Grundschaden dieses Angriffs 100 Schadenspunkte."
 			},
 
 			damage: 60,
@@ -80,7 +86,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size."
+		en: "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+		de: "Es kann 100 000 Volt mit einem Schlag freisetzen und so viel größere Gegner besiegen."
 	},
 
 	variants: [
