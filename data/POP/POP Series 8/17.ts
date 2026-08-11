@@ -4,6 +4,7 @@ import Set from '../POP Series 8'
 const card: Card = {
 	name: {
 		en: "Turtwig",
+		de: "Chelast"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -28,6 +29,7 @@ const card: Card = {
 
 			name: {
 				en: "Tackle",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -39,6 +41,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,
@@ -61,7 +64,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
+		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+		de: "Es besteht aus Erdreich. Trinkt es Wasser, verhärtet sich der Panzer auf seinem Rücken. Es lebt an Seen."
 	},
 
 	retreat: 2,
