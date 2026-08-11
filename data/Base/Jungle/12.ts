@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu; bei \"Zahl\" fügt dieser Angriff 10 Schaden zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Aquali en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas.",
-				de: "Fügt 30 Schadenspunkte plus 10 weitere Scadenspunkte für jede auf Aquana abgelegte  Energie zu, die nicht zum Zahler der Energiekosten für diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schaenspunkte auf diese Weise hinzufügen."
+				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Aquana abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen."
 			},
 			damage: "30+",
 
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "Lives close to water. Its long tail is ridged with a fin that is often mistaken for a mermaid's.",
-		fr: "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène."
+		fr: "Il vit au bord de l'eau. Sa queue lui donne l'apparence d'une sirène.",
+		de: "Lebt in Ufernähe. Sein langer Schwanz hat eine Flosse, die oft mit der einer Meeresjungfrau verwechselt wird."
 	},
 
 

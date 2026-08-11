@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Jigglypuff",
-		fr: "Rondoudou"
+		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon ist jetzt schlafend"
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
-		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques."
+		fr: "En cas de danger, il gonfle d'air son corps doux et potelé dans des proportions gigantesques.",
+		de: "Sein Körper ist weich und gummiartig. Wenn es wütend wird, saugt es Luft ein und bläst sich auf eine enorme Größe auf."
 	},
 
 

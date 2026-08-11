@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Doduo",
-		fr: "Doduo"
+		fr: "Doduo",
+		de: "Dodu"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Dodrio is Benched, pay 1 Colorless less to retreat your Active Pokémon.",
 				fr: "Tant que Dodrio est sur le Banc, payez  en moins pour faire battre en retraite votre Pokémon Actif.",
-				de: "Solange Dodri auf der Bank sitzt, zahle  weniger, im dein aktives Pokémon zurückzuziehen."
+				de: "Solange Dodri auf der Bank sitzt, zahle {C} weniger, um dein aktives Pokémon zurückzuziehen."
 			},
 		},
 	],
@@ -84,7 +85,8 @@ const card: Card = {
 
 	description: {
 		en: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
-		fr: "Il élabore des plans complexes avec ses trois cerveaux. Une de ses têtes reste toujours éveillée."
+		fr: "Il élabore des plans complexes avec ses trois cerveaux. Une de ses têtes reste toujours éveillée.",
+		de: "Verwendet seine drei Gehirne zum Aushecken von komplizierten Plänen. Während zwei Köpfe schlafen, bleibt einer immer wach."
 	},
 
 

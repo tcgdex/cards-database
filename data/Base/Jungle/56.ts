@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, draw a card.",
 				fr: "Lancez une pièce. Si c'est face, piochez une carte.",
-				de: "Wirf eine Münze. Bei 'Kopf' ziehe eine Karte."
+				de: "Wirf eine Münze. Bei „Kopf“ ziehe eine Karte."
 			},
 			damage: 10,
 
@@ -64,7 +64,8 @@ const card: Card = {
 
 	description: {
 		en: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
-		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants."
+		fr: "Il adore les pièces de monnaie. Il hante les rues à la recherche de pièces oubliées par les passants.",
+		de: "Bewundert kreisförmige Objekte. Streift nächtlich auf der Suche nach verlorenen Münzen ziellos durch die Straßen."
 	},
 
 

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt, 20 Schadenspunkte zu."
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Primeape is now Confused (after doing damage).",
 				fr: "Lancez une pièce. Si c'est pile, Colossinge est maintenant Confus (après le calcul des dégâts).",
-				de: "Wirf eine Münze. Bei 'Zahl' ist Rasaff jetzt verwirrt (nach der Schadensverteilung)."
+				de: "Wirf eine Münze. Bei „Zahl“ ist Rasaff jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: 50,
 
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
-		fr: "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet."
+		fr: "Agressif et teigneux, il poursuit son gibier jusqu'à épuisement complet.",
+		de: "Stets wild und hartnäckig loszuwerden. Es gibt seine Beute nicht auf, bis sie gefangen ist."
 	},
 
 
