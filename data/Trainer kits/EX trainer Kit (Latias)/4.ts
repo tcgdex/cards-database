@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Latias",
-		fr: "Latias"
+		fr: "Latias",
+		de: "Latias"
 	},
 
 	illustrator: "Nakaoka",
@@ -26,11 +27,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Dragon Dew",
-			fr: "Goutte de dragon"
+			fr: "Goutte de dragon",
+			de: "Drachentau"
 		},
 		effect: {
 			en: "Remove 1 damage counter from 1 of your Pokémon.",
-			fr: "Retirez 1 marqueur de dégât à 1 de vos Pokémon."
+			fr: "Retirez 1 marqueur de dégât à 1 de vos Pokémon.",
+			de: "Entferne 1 Schadensmarke von einem deiner Pokémon."
 		},
 		damage: 10
 	}, {
@@ -41,7 +44,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Heat Blast",
-			fr: "Explosion de chaleur"
+			fr: "Explosion de chaleur",
+			de: "Hitzestoß"
 		},
 		damage: 40
 	}],

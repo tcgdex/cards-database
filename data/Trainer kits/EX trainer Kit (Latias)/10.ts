@@ -4,7 +4,8 @@ import Set from '../EX trainer Kit (Latias)'
 const card: Card = {
 	name: {
 		en: "Fire Energy",
-		fr: "Énergie Feu"
+		fr: "Énergie Feu",
+		de: "Feuer-Energie"
 	},
 
 	rarity: "None",
