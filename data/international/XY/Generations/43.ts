@@ -1,0 +1,77 @@
+import { Card } from 'models/database/card'
+import Set from '../Generations'
+
+const card: Card = {
+	name: {
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou",
+	},
+
+	illustrator: "MAHOU",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		74,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+			},
+			effect: {
+				'en-us': "This attack does 10 damage times the number of damage counters on this Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+			},
+			damage: "10×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+	},
+
+	thirdParty: {
+		cardmarket: 288481,
+		tcgplayer: 113701
+	}
+}
+
+export default card

@@ -1,0 +1,69 @@
+import { Card } from "models/database/card"
+import Set from "../SV1a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "クワッス",
+		'zh-tw': "潤水鴨",
+		'th-th': "แคว็กซ์",
+		'id-id': "Quaxly"
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [912],
+	hp: 70,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "昔 遠い 土地から やって来て 棲みついた。 羽から 分泌する ジェルは 水と 汚れを 弾く。",
+		'zh-tw': "很久以前從遠方來到了這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。",
+		'th-th': "มาจากดินแดนห่างไกลตั้งแต่ในสมัยอดีต เจลที่หลั่งจากปีกจะขับน้ำและสิ่งสกปรกออก",
+		'id-id': "Dulu, Quaxly bermigrasi dari daerah yang jauh. Gel yang disekresi dari bulunya menangkis air dan kotoran."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			'ja-jp': "とつげき",
+			'zh-tw': "突擊",
+			'th-th': "ประจัญบาน",
+			'id-id': "Menyerang"
+		},
+
+		damage: 30,
+
+		effect: {
+			'ja-jp': "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 701082,
+				tcgplayer: 568151,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G"
+}
+
+export default card

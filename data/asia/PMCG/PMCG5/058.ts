@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG5"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "エリカのプリン",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [39],
+	hp: 50,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "グループ療法",
+			},
+			effect: {
+				'ja-jp': "あなたとあなたの対戦相手は、それぞれのポケモンのそれぞれから1つのダメージカウンターを削除します。",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "引っ張られたパンチ",
+			},
+			effect: {
+				'ja-jp': "防御するポケモンにダメージカウンターがない場合、この攻撃は40のダメージを与えます。ダメージがある場合、この攻撃は10ダメージを与えます。",
+			},
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576787
+			},
+		},
+	],
+};
+
+export default card

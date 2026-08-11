@@ -1,0 +1,119 @@
+import { Card } from "models/database/card"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Noivern",
+		'fr-fr': "Bruyverne",
+		'es-es': "Noivern",
+		'es-mx': "Noivern",
+		'de-de': "UHaFnir",
+		'it-it': "Noivern",
+		'pt-br': "Noivern"
+	},
+
+	evolveFrom: {
+		'en-us': "Noibat",
+		'fr-fr': "Sonistrelle",
+		'es-es': "Noibat",
+		'es-mx': "Noibat",
+		'de-de': "eF-eM",
+		'it-it': "Noibat",
+		'pt-br': "Noibat",
+	},
+
+	illustrator: "Natsumi Miyanose",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [715],
+	hp: 120,
+	types: ["Dragon"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Agility",
+			'fr-fr': "Hâte",
+			'es-es': "Agilidad",
+			'es-mx': "Agilidad",
+			'de-de': "Agilität",
+			'it-it': "Agilità",
+			'pt-br': "Agilidade"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et effets provenant d'attaques infligés à ce Pokémon.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
+			'es-mx': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
+			'de-de': "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
+			'pt-br': "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon."
+		},
+
+		damage: 40
+	}, {
+		cost: ["Psychic", "Darkness"],
+
+		name: {
+			'en-us': "Enhanced Blade",
+			'fr-fr': "Lame Améliorée",
+			'es-es': "Tajo Mejorado",
+			'es-mx': "Cuchilla Mejorada",
+			'de-de': "Verstärkte Klinge",
+			'it-it': "Superlama",
+			'pt-br': "Espada Melhorada"
+		},
+
+		effect: {
+			'en-us': "If this Pokémon has a Pokémon Tool attached, this attack does 70 more damage.",
+			'fr-fr': "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 70 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon tiene una Herramienta Pokémon unida, este ataque hace 70 puntos de daño más.",
+			'es-mx': "Si este Pokémon tiene alguna Herramienta Pokémon unida, este ataque hace 70 puntos de daño más.",
+			'de-de': "Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 70 Schadenspunkte mehr zu.",
+			'it-it': "Se questo Pokémon ha una carta Oggetto Pokémon assegnata, questo attacco infligge 70 danni in più.",
+			'pt-br': "Se este Pokémon tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 70 pontos de dano a mais."
+		},
+
+		damage: "70+"
+	}],
+
+	retreat: 0,
+	regulationMark: "I",
+
+	description: {
+		'en-us': "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869768,
+			tcgplayer: 675969
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870382,
+			tcgplayer: 676975
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870381,
+			tcgplayer: 677115
+		}
+	},
+],
+}
+
+export default card

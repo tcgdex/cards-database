@@ -1,0 +1,69 @@
+import { Card } from "models/database/card";
+import Set from "../SV11W";
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ゴチミル",
+	},
+
+	illustrator: "Mousho",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "催眠術で ポケモンや 人を 操る。 眠ったまま ゴチミルに 連れ去られる 昔話が 各地に 残っている。",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: { ja: "フォーチュンアイ" },
+			cost: ["Psychic"],
+			effect: {
+				'ja-jp': "相手の山札を上から5枚見て、好きな順番に入れ替えて、山札の上にもどす。",
+			},
+		},
+		{
+			name: { ja: "サイコショット" },
+			damage: 40,
+			cost: ["Psychic", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ゴチム",
+	},
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [575],
+	thirdParty: {
+		cardmarket: 829041,
+		tcgplayer: 636592,
+	},
+};
+
+export default card;

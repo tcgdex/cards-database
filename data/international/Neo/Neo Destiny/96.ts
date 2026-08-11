@@ -1,0 +1,42 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Thought Wave Machine (Rocket's Secret Machine)",
+		'fr-fr': "Machine à ondes cérébrales",
+		'de-de': "Thought Wave Machine*"
+	},
+
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Rare",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Flip a coin until you get tails. For each heads, return an Energy card attached to your opponent's Active Pokémon to your opponent's hand. If the Pokémon has fewer attached Energy cards than that, return all of them to your opponent's hand. Your turn is over now (you don't get to attack).",
+		'fr-fr': "Lancez une pièce jusqu'à obtenir pile. Pour chaque face, renvoyez une carte Énergie attachée au Pokémon Actif de votre adversaire dans sa main. Si le Pokémon a moins de cartes Énergie, renvoyez-les toutes dans sa main. Votre tour est terminé (vous ne pouvez pas attaquer).",
+		'de-de': "Flip a coin until you get tails. For each heads, return an Energy card attached to your opponent's Active Pokémon to your opponent's hand. If the Pokémon has fewer attached Energy cards than that, return all of them to your opponent's hand. Your turn is over now (you don't get to attack)."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274748,
+				tcgplayer: 89898
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274748,
+				tcgplayer: 89898
+			}
+		}
+	]
+}
+
+export default card

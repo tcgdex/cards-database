@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../HS trainer Kit (Raichu)'
+
+const card: Card = {
+	name: {
+		'en-us': "Flaaffy",
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "None",
+	category: "Pokemon",
+	set: Set,
+	dexId: [180],
+	hp: 80,
+	types: [
+		"Lightning",
+	],
+	evolveFrom: {
+		'en-us': "Mareep",
+	},
+	stage: "Stage1",
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				'en-us': "Thunder Spear",
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			},
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thundershock",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+			damage: 40,
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279102,
+				tcgplayer: 85484,
+			},
+		},
+	],
+
+}
+
+export default card

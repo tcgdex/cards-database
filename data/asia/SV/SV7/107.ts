@@ -1,0 +1,81 @@
+import { Card } from "models/database/card"
+import Set from "../SV7"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "好勝毛蟹",
+		'zh-cn': "好勝毛蟹",
+		'ja-jp': "ケケンカニ"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	category: "Pokemon",
+	hp: 160,
+	types: ["Water"],
+
+	description: {
+		'zh-tw': "拳擊雖強，動作卻慢。 會從口裡噴出結冰的泡沫 來封住對手的行動。",
+		'zh-cn': "拳擊雖強，動作卻慢。 會從口裡噴出結冰的泡沫 來封住對手的行動。",
+		'ja-jp': "パンチは 強力だが 動きが 遅い。 口から 氷の 泡を 吹いて 相手の 動きを 止める。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'zh-tw': "揮大拳",
+			'zh-cn': "揮大拳",
+			'ja-jp': 'おおぶりパンチ'
+		},
+
+		effect: {
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「揮大拳」。",
+			'zh-cn': "在下個自己的回合，這隻寶可夢無法使用「揮大拳」。",
+			'ja-jp': '次の自分の番、このポケモンは「おおぶりパンチ」が使えない。'
+		},
+
+		damage: 250,
+		cost: ["Water", "Colorless", "Colorless", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779121,
+				tcgplayer: 567962,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "H",
+	dexId: [740],
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'zh-tw': "‌[特性]事先準備",
+			'zh-cn': "‌[特性]事先準備",
+			'ja-jp': "したごしらえ"
+		},
+
+		effect: {
+			'zh-tw': "這隻寶可夢使用招式所需的【無】能量，減少自己的棄牌區的「海岱」的張數。",
+			'zh-cn': "這隻寶可夢使用招式所需的【無】能量，減少自己的棄牌區的「海岱」的張數。",
+			'ja-jp': "自分のトラッシュにある「ハイダイ」の枚数ぶん、このポケモンがワザを使うためのエネルギーは少なくなる。"
+		}
+	}],
+
+	rarity: "None",
+}
+
+export default card

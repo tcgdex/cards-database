@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Aquapolis'
+
+const card: Card = {
+	name: {
+		'en-us': "Spinarak",
+		'fr-fr': "Mimigal",
+		'de-de': "Webarak"
+	},
+
+	illustrator: "Masako Yamashita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [167],
+
+	hp: 50,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gooey Thread",
+				'fr-fr': "Fil gluant",
+				'de-de': "Klebriger Faden"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich beim nächsten Zug deines Gegners nicht zurückziehen."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89451,
+				cardmarket: 275135
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 89451,
+				cardmarket: 275135
+			}
+		},
+	]
+}
+
+export default card

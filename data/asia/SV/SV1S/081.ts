@@ -1,0 +1,55 @@
+import { Card } from "models/database/card"
+import Set from "../SV1S"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ウミディグダ"
+	},
+
+	illustrator: "You Iribi",
+	category: "Pokemon",
+	dexId: [960],
+	hp: 50,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "２０メートル先の ミガルーサが 放つ 匂いも 嗅ぎとって 砂の中に 身を 隠すのだ。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			'ja-jp': "ひねりうち"
+		},
+
+		damage: 10,
+
+		effect: {
+			'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693048,
+				tcgplayer: 567198,
+			},
+		},
+	],
+
+	retreat: 1
+}
+
+export default card

@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Boundaries Crossed'
+
+const card: Card = {
+	name: {
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
+		'de-de': "Eneco"
+	},
+
+	illustrator: "sui",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		300,
+	],
+
+	hp: 60,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Slap",
+				'fr-fr': "Torgnoles",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It shows its cute side by chasing its own tail until it gets dizzy.",
+	},
+
+	thirdParty: {
+		cardmarket: 280700,
+		tcgplayer: 89269
+	}
+}
+
+export default card

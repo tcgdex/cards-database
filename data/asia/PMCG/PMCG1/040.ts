@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マルマイン",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [101],
+	hp: 80,
+	types: ["Lightning"],
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'ja-jp': "バツァップ",
+			},
+			effect: {
+				'ja-jp': "ターン中に一度、このポクモンをノックアウトし、特別なエネルギーカードとして他のポクモンの1つにそれを取り付けることができます。このカードはポクモンに取り付けられていますが、あらゆる種類のエネルギーを提供しますが、一度に2つのエネルギーしか提供しません。このポクモンが眠っている、混乱し、麻痺している場合、このポクモンの力は使用できません。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Lightning", "Lightning", "Lightning"],
+			name: {
+				'ja-jp': "サンダージョルト",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。尾の場合、このポケモンはそれ自体に10ダメージを与えます。",
+			},
+			damage: 50,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575624
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577051
+			}
+		}
+	],
+};
+
+export default card

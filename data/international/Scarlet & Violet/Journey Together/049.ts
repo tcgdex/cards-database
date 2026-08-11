@@ -1,0 +1,78 @@
+import { Card } from "models/database/card"
+import Set from "../Journey Together"
+
+const card: Card = {
+	dexId: [595],
+	set: Set,
+
+	name: {
+		'en-us': "N's Joltik",
+		'fr-fr': "Statitik de N",
+		'es-es': "Joltik de N",
+		'de-de': "Ns Wattzapf",
+		'it-it': "Joltik di N",
+		'pt-br': "Joltik do N",
+		'es-mx': "Joltik de N"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 40,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Zapping Short",
+			'fr-fr': "Court-Circuit Électrocutant",
+			'es-es': "Cortocircuito Aturdidor",
+			'de-de': "Kurzschlussknall",
+			'it-it': "Cortocircuito Fulminante",
+			'pt-br': "Choquinho Curto",
+			'es-mx': "Cortochispazo"
+		},
+
+		effect: {
+			'en-us': "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon. If you discarded a Pokémon Tool in this way, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire. Si vous avez défaussé un Outil Pokémon de cette façon, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival. Si has descartado alguna Herramienta Pokémon de esta manera, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'de-de': "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. Wenn du auf diese Weise mindestens 1 Pokémon-Ausrüstung auf seinen Ablagestapel gelegt hast, ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+			'it-it': "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario. Se hai scartato una carta Oggetto Pokémon in questo modo, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente. Se você descartou uma Ferramenta Pokémon desta forma, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'es-mx': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival. Si descartaste alguna Herramienta Pokémon de esta manera, el Pokémon Activo de tu rival ahora está Paralizado."
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+	illustrator: "Iori Suzuki",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817201,
+				tcgplayer: 623476
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817201,
+				tcgplayer: 623476
+			}
+		},
+	],
+}
+
+export default card

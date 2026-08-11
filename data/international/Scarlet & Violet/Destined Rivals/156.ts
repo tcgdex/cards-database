@@ -1,0 +1,76 @@
+import { Card } from "models/database/card"
+import Set from "../Destined Rivals"
+
+const card: Card = {
+	dexId: [276],
+	set: Set,
+
+	name: {
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle",
+		'de-de': "Schwalbini",
+		'it-it': "Taillow",
+		'es-es': "Taillow",
+		'pt-br': "Taillow",
+		'es-mx': "Taillow"
+	},
+
+
+	illustrator: "Ayako Ozaki",
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Wing Attack",
+			'fr-fr': "Cru-Ailes",
+			'de-de': "Flügelschlag",
+			'it-it': "Attacco d'Ala",
+			'es-es': "Ataque Ala",
+			'pt-br': "Ataque de Asa",
+			'es-mx': "Ataque de Ala"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826030,
+				tcgplayer: 632958
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826030,
+				tcgplayer: 632958
+			}
+		},
+	],
+}
+
+export default card

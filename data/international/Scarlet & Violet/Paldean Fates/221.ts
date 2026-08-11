@@ -1,0 +1,109 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [18],
+	set: Set,
+
+	name: {
+		'en-us': "Pidgeot ex",
+		'fr-fr': "Roucarnage-ex",
+		'es-es': "Pidgeot ex",
+		'it-it': "Pidgeot-ex",
+		'pt-br': "Pidgeot ex",
+		'de-de': "Tauboss-ex"
+	},
+
+	rarity: "Shiny Ultra Rare",
+	category: "Pokemon",
+	hp: 280,
+	types: ["Colorless"],
+	evolveFrom: {
+		'en-us': "Pidgeotto",
+		'fr-fr': "Roucoups",
+		'es-es': "Pidgeotto",
+		'it-it': "Pidgeotto",
+		'pt-br': "Pidgeotto",
+		'de-de': "Tauboga"
+	},
+	stage: "Stage2",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Quick Search",
+			'fr-fr': "Recherche Rapide",
+			'es-es': "Búsqueda Rápida",
+			'it-it': "Ricerca Rapida",
+			'pt-br': "Busca Rápida",
+			'de-de': "Schnelle Suche"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck une carte, puis l'ajouter à votre main. Mélangez ensuite votre deck. Vous ne pouvez utiliser qu'un talent Recherche Rapide par tour.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja 1 carta y ponerla en tu mano. Después, baraja las cartas de tu baraja. No puedes usar más de una habilidad Búsqueda Rápida en cada turno.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta e aggiungerla a quelle che hai in mano. Poi rimischia le carte del tuo mazzo. Puoi usare l'abilità Ricerca Rapida solo una volta per turno.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por uma carta no seu baralho e colocá-la na sua mão. Em seguida, embaralhe o seu baralho. Você não pode usar mais de 1 Habilidade Busca Rápida por turno.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach 1 Karte durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck. Du kannst die Fähigkeit Schnelle Suche nur einmal pro Zug einsetzen."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Blustery Wind",
+			'fr-fr': "Vent en Rafales",
+			'es-es': "Ventarrón",
+			'it-it': "Vento Impetuoso",
+			'pt-br': "Ventania Agitada",
+			'de-de': "Stürmischer Wind"
+		},
+
+		effect: {
+			'en-us': "You may discard a Stadium in play.",
+			'fr-fr': "Vous pouvez défausser un Stade en jeu.",
+			'es-es': "Puedes descartar 1 Estadio en juego.",
+			'it-it': "Puoi scartare una carta Stadio in gioco.",
+			'pt-br': "Você pode descartar um Estádio em jogo.",
+			'de-de': "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+		},
+
+		damage: 120
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 0,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751768,
+				tcgplayer: 535559,
+				cardtrader: 274405
+			}
+		},
+	],
+
+	suffix: "ex",
+	illustrator: "takuyoa",
+
+	
+}
+
+export default card

@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Kyogre",
+		'fr-fr': "Kyogre",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		382,
+	],
+
+	hp: 130,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spring Tides",
+				'fr-fr': "Marée Naissante",
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: "30×",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ocean Cyclone",
+				'fr-fr': "Cyclone Océanique"
+			},
+			effect: {
+				'en-us': "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+	},
+
+	thirdParty: {
+		cardmarket: 289704
+	}
+}
+
+export default card

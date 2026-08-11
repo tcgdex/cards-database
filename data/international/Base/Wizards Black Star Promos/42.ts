@@ -1,0 +1,28 @@
+import { Card } from 'models/database/card'
+import Set from '../Wizards Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Pokémon Tower",
+	},
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Common",
+	category: "Trainer",
+
+	set: Set,
+
+	effect: {
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If the effect of a Pokémon Power, attack, Energy card, or Trainer card would put a card in a discard pile into its owner's hand, that card stays in that discard pile instead.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88240
+			},
+		}
+	]
+}
+
+export default card

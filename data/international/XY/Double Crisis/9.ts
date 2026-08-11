@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Double Crisis'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Aqua's Seviper",
+		'fr-fr': "Séviper de la Team Aqua",
+		'pt-br': "Seviper da Equipe Aqua",
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		336,
+	],
+
+	hp: 90,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Venomous Fang",
+				'fr-fr': "Croc-Poison",
+				'pt-br': "Dente Venenoso",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Envenenado.",
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Venom Tail",
+				'fr-fr': "Queue Venimeuse",
+				'pt-br': "Cauda Envenenada",
+			},
+			effect: {
+				'en-us': "If your opponent's Active Pokémon is affected by a Special Condition, discard an Energy attached to that Pokémon.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, défaussez une Énergie lui étant attachée.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente estiver sendo afetado por uma Condição Especial, descarte uma Energia ligada a esse Pokémon.",
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Seviper's tail is a sharp blade. It can even poison you!",
+	},
+
+	thirdParty: {
+		cardmarket: 282520,
+		tcgplayer: 97055
+	}
+}
+
+export default card

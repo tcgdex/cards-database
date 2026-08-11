@@ -1,0 +1,54 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG3"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ベトベトン",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [89],
+	hp: 70,
+	types: ["Grass"],
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'ja-jp': "有毒ガス",
+			},
+			effect: {
+				'ja-jp': "有毒ガス以外のすべてのポケモンパワーを無視します。 MUKは特別な状態の影響を受けている間、このパワーは機能しなくなります。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Grass", "Grass", "Grass"],
+			name: {
+				'ja-jp': "スラッジ",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは現在毒されています。",
+			},
+			damage: 30,
+		},
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 575692
+			},
+		},
+	],
+};
+
+export default card

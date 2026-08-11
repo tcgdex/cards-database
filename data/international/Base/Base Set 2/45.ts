@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Jynx",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		124,
+	],
+
+	hp: 70,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Doubleslap",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Meditate",
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273968,
+				tcgplayer: 42508
+			}
+		}
+	]
+}
+
+export default card

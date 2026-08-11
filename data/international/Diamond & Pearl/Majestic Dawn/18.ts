@@ -1,0 +1,99 @@
+import { Card } from 'models/database/card'
+import Set from '../Majestic Dawn'
+
+const card: Card = {
+	name: {
+		'en-us': "Espeon",
+		'fr-fr': "Mentali",
+		'de-de': "Psiana"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		196,
+	],
+
+	hp: 80,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Sunlight Veil",
+				'fr-fr': "Voile solaire",
+				'de-de': "Sonnenschleier"
+			},
+			effect: {
+				'en-us': "Each of your Pokémon that evolves from Eevee gets +20 HP. You can't use more than 1 Sunlight Veil Poké-Body each turn.",
+				'fr-fr': "Chacun de vos Pokémon évoluant d'Evoli obtient 20 PV de plus. Vous ne pouvez pas utiliser plus d'1 Poké-Body Voile solaire par tour.",
+				'de-de': "Jedes deiner Pokémon, das sich aus Evoli entwickelt, erhält +20 KP. Du kannst nicht mehr als 1 Sonnenschleier Poké-Body pro Zug benutzen."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Morning Sun",
+				'fr-fr': "Aurore",
+				'de-de': "Morgengrauen"
+			},
+			effect: {
+				'en-us': "You may move an Energy card attached to Espeon to 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez déplacer une carte Énergie attachée à Mentali sur 1 des Pokémon de votre Banc.",
+				'de-de': "Du kannst 1 Energiekarte, die an Psiana angelegt ist, entfernen und an ein Pokémon auf deiner Bank anlegen."
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
+	},
+
+	thirdParty: {
+		cardmarket: 278067,
+		tcgplayer: 85321
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

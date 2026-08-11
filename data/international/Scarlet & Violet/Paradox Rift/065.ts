@@ -1,0 +1,92 @@
+import { Card } from "models/database/card"
+import Set from "../Paradox Rift"
+
+const card: Card = {
+	dexId: [596],
+	set: Set,
+
+	name: {
+		'en-us': "Galvantula",
+		'fr-fr': "Mygavolt",
+		'es-es': "Galvantula",
+		'it-it': "Galvantula",
+		'pt-br': "Galvantula",
+		'de-de': "Voltula"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Lightning"],
+	evolveFrom: {
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+		'es-es': "Joltik",
+		'it-it': "Joltik",
+		'pt-br': "Joltik",
+		'de-de': "Wattzapf"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Lightning"],
+
+		name: {
+			'en-us': "Electrobullet",
+			'fr-fr': "Électrojectile",
+			'es-es': "Electrobala",
+			'it-it': "Elettrodardo",
+			'pt-br': "Bala Elétrica",
+			'de-de': "Elektrokugel"
+		},
+
+		effect: {
+			'en-us': "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 30 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 30 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge anche 30 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		},
+
+		damage: 50
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "It lays traps of electrified threads near the nests of bird Pokémon, aiming to snare chicks that are not yet good at flying.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740556,
+				tcgplayer: 523699,
+				cardtrader: 265141
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740556,
+				tcgplayer: 523699,
+				cardtrader: 265141
+			}
+		},
+	],
+
+	illustrator: "Taira Akitsu",
+
+	
+}
+
+export default card

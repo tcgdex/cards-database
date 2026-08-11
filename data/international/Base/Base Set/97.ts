@@ -1,0 +1,50 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat",
+		'de-de': "Kampfenergie",
+		'it-it': "Energia Combattimento",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Common",
+	category: "Energy",
+	set: Set,
+	stage: "Basic",
+	energyType: "Normal",
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273792,
+				tcgplayer: 42441
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107093
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107093
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

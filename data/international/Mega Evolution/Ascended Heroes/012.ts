@@ -1,0 +1,115 @@
+import { Card } from "models/database/card"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Silcoon",
+		'fr-fr': "Armulys",
+		'es-es': "Silcoon",
+		'es-mx': "Silcoon",
+		'de-de': "Schaloko",
+		'it-it': "Silcoon",
+		'pt-br': "Silcoon"
+	},
+
+	evolveFrom: {
+		'en-us': "Wurmple",
+		'fr-fr': "Chenipotte",
+		'es-es': "Wurmple",
+		'es-mx': "Wurmple",
+		'de-de': "Waumpel",
+		'it-it': "Wurmple",
+		'pt-br': "Wurmple",
+	},
+
+	illustrator: "Eri Yamaki",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [266],
+	hp: 90,
+	types: ["Grass"],
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Multiplying Cocoon",
+			'fr-fr': "Multiplication de Cocons",
+			'es-es': "Capullo Multiplicador",
+			'es-mx': "Capullo Multiplicador",
+			'de-de': "Mehrender Kokon",
+			'it-it': "Moltiplicazione di Bozzoli",
+			'pt-br': "Casulo Proliferante"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may use this Ability. Search your deck for a Silcoon or a Cascoon and put it onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez utiliser ce talent. Cherchez dans votre deck un Armulys ou un Blindalys, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon, puedes usar esta habilidad. Busca en tu baraja 1 Silcoon o 1 Cascoon y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
+			'es-mx': "Una vez durante tu turno, cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes usar esta Habilidad. Busca en tu mazo 1 Silcoon o 1 Cascoon y ponlo en tu Banca. Después, baraja tu mazo.",
+			'de-de': "Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach 1 Schaloko oder 1 Panekon und lege es auf deine Bank. Mische anschließend dein Deck.",
+			'it-it': "Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi usare questa abilità. Cerca nel tuo mazzo un Silcoon o un Cascoon e mettilo nella tua panchina. Poi rimischia il tuo mazzo.",
+			'pt-br': "Uma vez durante o seu turno, quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você poderá usar esta Habilidade. Procure por um Silcoon ou um Cascoon no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'en-us': "Tackle",
+			'fr-fr': "Charge",
+			'es-es': "Placaje",
+			'es-mx': "Tacleada",
+			'de-de': "Tackle",
+			'it-it': "Azione",
+			'pt-br': "Investida"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "I",
+
+	description: {
+		'en-us': "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869623,
+				tcgplayer: 675824
+			}
+		},
+		{
+			type: "reverse",
+			foil: "loveball",
+			thirdParty: {
+				cardmarket: 870154,
+				tcgplayer: 676861
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870153,
+				tcgplayer: 677001
+			}
+		},
+	],
+}
+
+export default card

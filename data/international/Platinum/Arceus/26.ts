@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Porygon-Z G",
+		'de-de': "Porygon-Z G"
+	},
+
+	illustrator: "Nobuyuki Fujimoto",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [474],
+	
+	hp: 80,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Dowsing Code",
+				'de-de': "Wünschelrutencode"
+			},
+			effect: {
+				'en-us': "Once during your turn, when you put Porygon-Z G from your hand onto your Bench, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and shuffle them into your deck.",
+				'de-de': "Einmal während deines Zuges kannst du, wenn du Porygon-Z G von deiner Hand auf die Bank legst, deinen Ablagestapel nach bis zu 2 Pokémon-Ausrüstungs-Karten durchsuchen, sie deinem Gegner zeigen und in dein Deck mischen."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ambush",
+				'de-de': "Hinterhalt"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 40 more damage.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88320,
+				cardmarket: 278898
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278898,
+				tcgplayer: 88320
+			}
+		},
+	],
+
+}
+
+export default card

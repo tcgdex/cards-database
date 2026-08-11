@@ -1,0 +1,95 @@
+import { Card } from 'models/database/card'
+import Set from '../Platinum'
+
+const card: Card = {
+	name: {
+		'en-us': "Slakoth",
+		'fr-fr': "Parecool",
+		'de-de': "Bummelz"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [287],
+
+	hp: 50,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flail",
+				'fr-fr': "Fléau",
+				'de-de': "Flail"
+			},
+			effect: {
+				'en-us': "Does 10 damage times the number of damage counters on Slakoth.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool.",
+				'de-de': "Does 10 damage times the number of damage counters on Slakoth."
+			},
+			damage: "10×",
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Slack Off",
+				'fr-fr': "Paresse",
+				'de-de': "Slack Off"
+			},
+			effect: {
+				'en-us': "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
+				'fr-fr': "Retirez à Parecool tous ses marqueurs de dégât. Parecool ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy."
+	},
+
+	variants: [
+		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89299,
+				cardmarket: 278516
+			}
+		},
+		{
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278516,
+				tcgplayer: 89299
+			}
+		}
+	],
+
+}
+
+export default card

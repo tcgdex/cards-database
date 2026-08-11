@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../Stellar Crown"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Payapa Berry",
+		'fr-fr': "Baie Yapap",
+		'es-es': "Baya Payapa",
+		'it-it': "Baccapayapa",
+		'pt-br': "Fruta Paiapa",
+		'de-de': "Pyapabeere"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "If the Pokémon this card is attached to is damaged by an attack from your opponent's {P} Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card.",
+		'fr-fr': "Si le Pokémon auquel cette carte est attachée subit les dégâts d'une attaque de l'un des Pokémon {P} de votre adversaire, il subit 60 dégâts de moins (après application de la Faiblesse et de la Résistance), et vous défaussez cette carte.",
+		'es-es': "Si el Pokémon al que está unida esta carta resulta dañado por un ataque de los Pokémon {P} de tu rival, ese ataque le hace 60 puntos de daño menos (después de aplicar Debilidad y Resistencia), y descartas esta carta.",
+		'it-it': "Se il Pokémon a cui è assegnata questa carta viene danneggiato da un attacco di un Pokémon {P} del tuo avversario, subisce 60 danni in meno, dopo aver applicato debolezza e resistenza, e tu scarti questa carta.",
+		'pt-br': "Se o Pokémon ao qual esta carta está ligada for danificado por um ataque dos Pokémon {P} do seu oponente, ele receberá 60 pontos de dano a menos (depois de aplicar Fraqueza e Resistência), e descarte esta carta.",
+		'de-de': "Wenn das Pokémon, an das diese Karte angelegt ist, durch eine Attacke von {P}-Pokémon deines Gegners Schaden erhält, werden ihm 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden), und du legst diese Karte auf deinen Ablagestapel."
+	},
+
+	trainerType: "Tool",
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785995,
+				tcgplayer: 567414
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785995,
+				tcgplayer: 567414
+			}
+		},
+	],
+
+	illustrator: "Studio Bora Inc.",
+
+}
+
+export default card

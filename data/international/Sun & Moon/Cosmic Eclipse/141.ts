@@ -1,0 +1,116 @@
+import { Card } from 'models/database/card'
+import Set from '../Cosmic Eclipse'
+
+const card: Card = {
+	name: {
+		'en-us': "Probopass",
+		'fr-fr': "Tarinorme",
+		'es-es': "Probopass",
+		'it-it': "Probopass",
+		'pt-br': "Probopass",
+		'de-de': "Voluminas"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		476,
+	],
+
+	hp: 130,
+
+	types: [
+		"Metal",
+	],
+
+	evolveFrom: {
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hard Press",
+				'fr-fr': "Pression Robuste",
+				'es-es': "Dura Presión",
+				'it-it': "Duropressa",
+				'pt-br': "Apertão",
+				'de-de': "Hochdruck"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+			damage: 60,
+
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Triple Nose",
+				'fr-fr': "Triple Nez",
+				'es-es': "Nariz Triple",
+				'it-it': "Triplo Naso",
+				'pt-br': "Nariz Triplo",
+				'de-de': "Dreifachnase"
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 40 more damage for each heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 40 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 40 puntos de daño más por cada cara.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 40 danni in più ogni volta che esce testa.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 40 pontos de dano a mais para cada cara.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 40 Schadenspunkte mehr pro Kopf zu."
+			},
+			damage: "80+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "Although it can control its units known as Mini-Noses, they sometimes get lost and don't come back.",
+	},
+
+	thirdParty: {
+		cardmarket: 408354,
+		tcgplayer: 201186
+	}
+}
+
+export default card

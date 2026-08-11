@@ -1,0 +1,61 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "M Garchomp-EX",
+		'fr-fr': "M-Carchacrok-EX"
+	},
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		445,
+	],
+	hp: 210,
+	types: [
+		"Dragon",
+	],
+	evolveFrom: {
+		'en-us': "Garchomp-EX",
+		'fr-fr': "Carchacrok-EX"
+	},
+	stage: "MEGA",
+
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Crimson Edge",
+				'fr-fr': "Tranchant Écarlate"
+			},
+			effect: {
+				'en-us': "This Pokémon does 10 damage to itself for each damage counter on it.",
+				'fr-fr': "Ce Pokémon s'inflige 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon."
+			},
+			damage: 180,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fairy",
+			value: "×2"
+		},
+	],
+
+
+
+
+
+}
+
+export default card

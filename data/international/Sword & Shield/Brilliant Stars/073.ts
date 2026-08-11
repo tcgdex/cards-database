@@ -1,0 +1,71 @@
+import { Card } from "models/database/card"
+import Set from "../Brilliant Stars"
+
+const card: Card = {
+	dexId: [299],
+	set: Set,
+
+	name: {
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
+	},
+
+	illustrator: "miki kudo",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 4,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608523,
+				tcgplayer: 263789
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608523,
+				tcgplayer: 263789
+			}
+		},
+	],
+}
+
+export default card

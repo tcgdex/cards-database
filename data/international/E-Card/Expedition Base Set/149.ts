@@ -1,0 +1,102 @@
+import { Card } from 'models/database/card'
+import Set from '../Expedition Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Professor Oak's Research",
+		'fr-fr': "Recherches du professeur Chen",
+		'de-de': "Professor Eichs Nachforschunge"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Crystal Type",
+			},
+			effect: {
+				'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+			},
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Fire",
+			],
+			name: {
+				'en-us': "Psychic",
+			},
+			effect: {
+				'en-us': "This attack does 10 damage times the number of Energy cards attached to the Defending Pokémon.",
+			},
+			damage: "10×",
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Steam Blast",
+			},
+			effect: {
+				'en-us': "Discard an Energy card attached to Lugia.",
+			},
+			damage: 50,
+		},
+	],
+	stage: "Basic",
+	types: [
+		"Colorless"
+	],
+	hp: 80,
+	dexId: [249],
+	trainerType: "Supporter",
+	set: Set,
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+		'fr-fr': "Mélangez votre main à votre deck. Piochez ensuite 5 cartes.",
+		'de-de': "Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871867,
+			}
+		}
+	],
+	retreat: 3,
+}
+
+export default card

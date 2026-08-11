@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Ancient Origins'
+
+const card: Card = {
+	name: {
+		'en-us': "Unown",
+		'fr-fr': "Zarbi",
+		'es-es': "Unown",
+		'it-it': "Unown",
+		'pt-br': "Unown",
+		'de-de': "Icognito"
+	},
+
+	illustrator: "Akira Komayama",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		201,
+	],
+
+	hp: 60,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Farewell Letter",
+				'fr-fr': "Lettre d'Adieu",
+				'es-es': "Carta de Despedida",
+				'it-it': "Lettera di Addio",
+				'pt-br': "Carta de Despedida",
+				'de-de': "Abschiedsbrief"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), if this Pokémon is on your Bench, you may discard this Pokémon and all cards attached to it (this does not count as a Knock Out). If you do, draw a card.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est sur votre Banc, vous pouvez défausser ce Pokémon et toutes les cartes qui lui sont attachées (cela n'équivaut pas à un K.O.). Dans ce cas, piochez une carte.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), si este Pokémon está en tu Banca, puedes descartar este Pokémon y todas las cartas unidas a él (esto no equivale a dejarlo Fuera de Combate). Si lo haces, roba 1 carta.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon è nella tua panchina, puoi scartare questo Pokémon e tutte le carte a esso assegnate (quest'azione non vale come KO). Se lo fai, pesca una carta.",
+				'pt-br': "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estiver no seu Banco, você pode descartá-lo e a todos os cards ligados a ele (isso não conta como Nocaute). Se fizer isso, compre um card.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn sich dieses Pokémon auf deiner Bank befindet, dieses Pokémon und alle daran angelegten Karten auf deinen Ablagestapel legen (dieses Pokémon wird dadurch nicht kampfunfähig). Wenn du das machst, ziehe 1 Karte."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance Cachée",
+				'es-es': "Poder Oculto",
+				'it-it': "Introforza",
+				'pt-br': "Poder Oculto",
+				'de-de': "Kraftreserve"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Shaped like ancient writing, it is a huge mystery whether language or Unown came first.",
+	},
+
+	thirdParty: {
+		cardmarket: 284211,
+		tcgplayer: 101451
+	}
+}
+
+export default card

@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../Mega Evolution"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Mystery Garden",
+		'fr-fr': "Jardin Mystère",
+		'de-de': "Geheimnisvoller Garten",
+		'it-it': "Giardino dei Misteri",
+		'es-es': "Jardín Misterioso",
+		'pt-br': "Jardim Misterioso",
+		'es-mx': "Jardín Misterioso"
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Once during each player's turn, that player may discard an Energy card from their hand in order to draw cards until they have as many cards in their hand as they have {P} Pokémon in play.",
+		'fr-fr': "Une fois pendant le tour de chaque personne, cette personne-là peut défausser une carte Énergie de sa main pour piocher des cartes jusqu'à en avoir autant dans sa main qu'elle a de Pokémon {P} en jeu.",
+		'de-de': "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Energiekarte aus seiner Hand auf seinen Ablagestapel legen, um so lange Karten zu ziehen, bis er so viele Karten auf seiner Hand hat, wie er {P}-Pokémon im Spiel hat.",
+		'it-it': "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare una carta Energia che ha in mano per pescare fino ad avere tante carte in mano quanti Pokémon {P} ha in gioco.",
+		'es-es': "Una vez durante el turno de cada jugador, ese jugador puede descartar 1 carta de Energía de su mano para poder robar cartas hasta tener tantas cartas en su mano como Pokémon {P} tenga en juego.",
+		'pt-br': "Uma vez durante o turno de cada jogador, aquele jogador poderá descartar uma carta de Energia da própria mão para comprar cartas até ter o mesmo número de cartas na própria mão do que os Pokémon {P} que ele tem em jogo.",
+		'es-mx': "Una vez durante el turno de cada jugador, ese jugador puede descartar 1 carta de Energía de su mano para robar cartas hasta tener tantas cartas en su mano como Pokémon {P} tenga en juego."
+	},
+
+	trainerType: "Stadium",
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851193,
+				tcgplayer: 654461
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851193,
+				tcgplayer: 654461
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			foil: "cosmos"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		}
+	],
+}
+
+export default card

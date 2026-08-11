@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Generations'
+
+const card: Card = {
+	name: {
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		144,
+	],
+
+	hp: 120,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Find Ice",
+				'fr-fr': "Chercheur de Glace",
+			},
+			effect: {
+				'en-us': "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez jusqu'à 3 cartes Énergie Water dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Freezing Wind",
+				'fr-fr': "Vent Glaçant",
+			},
+
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+	},
+
+	thirdParty: {
+		cardmarket: 288407,
+		tcgplayer: 113683
+	}
+}
+
+export default card

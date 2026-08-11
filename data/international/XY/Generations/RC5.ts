@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Generations'
+
+const card: Card = {
+	name: {
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+	},
+
+	illustrator: "Akira Komayama",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		6,
+	],
+
+	hp: 160,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Recall",
+				'fr-fr': "Récupération",
+			},
+			effect: {
+				'en-us': "Choose 1 of this Pokémon's attacks from its previous Evolutions and use it as this attack.",
+				'fr-fr': "Choisissez l'une des attaques de pré-évolutions de ce Pokémon et utilisez-la en tant que cette attaque.",
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Combustion Blast",
+				'fr-fr': "Explo-Combustion",
+			},
+			effect: {
+				'en-us': "This Pokémon can't use Combustion Blast during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas utiliser Explo-Combustion pendant votre prochain tour.",
+			},
+			damage: 130,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "No matter what happens, if we stick together, we can get past it. Forever and ever.",
+	},
+
+	thirdParty: {
+		cardmarket: 288405
+	}
+}
+
+export default card

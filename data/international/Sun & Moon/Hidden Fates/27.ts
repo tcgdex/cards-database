@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Fates'
+
+const card: Card = {
+	name: {
+		'en-us': "Arbok",
+		'fr-fr': "Arbok",
+	},
+
+	illustrator: "kirisAki",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		24,
+	],
+
+	hp: 120,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Ekans",
+		'fr-fr': "Abo",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Last Pattern",
+				'fr-fr': "Dernier Motif",
+			},
+			effect: {
+				'en-us': "If this Pokémon is Knocked Out by damage from an opponent’s attack, discard 2 random cards from your opponent’s hand.",
+				'fr-fr': "Si ce Pokémon est mis K.O. par les dégâts d’une attaque de votre adversaire, défaussez 2 cartes au hasard de la main de votre adversaire.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rocket Tail",
+				'fr-fr': "Queue Rocket",
+			},
+			effect: {
+				'en-us': "If Jessie & James is in your discard pile, this attack does 80 more damage.",
+				'fr-fr': "Si la carte Jessie et James est dans votre pile de défausse, cette attaque inflige 80 dégâts supplémentaires.",
+			},
+			damage: "50+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "The latest research has determined that there are over 20 possible arrangements of the patterns on its stomach.",
+	},
+
+	thirdParty: {
+		cardmarket: 381231,
+		tcgplayer: 197671
+	}
+}
+
+export default card

@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ヒノヤコマ"
+	},
+
+	illustrator: "Atsushi Furusawa",
+	category: "Pokemon",
+	dexId: [662],
+	hp: 80,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "虫ポケモンが 潜んでいそうな 草むらに 火の粉を まき散らして 飛び出してきたところを 捕まえる。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fire"],
+
+		name: {
+			'ja-jp': "ヒートダイブ"
+		},
+
+		damage: 50,
+
+		effect: {
+			'ja-jp': "このポケモンにも10ダメージ。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707669,
+				tcgplayer: 565935,
+			},
+		},
+	],
+
+	retreat: 1,
+}
+
+export default card

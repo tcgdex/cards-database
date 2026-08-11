@@ -1,0 +1,39 @@
+import { Card } from "models/database/card"
+import Set from "../SV4M"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "のろいのはたき",
+		'zh-tw': "詛咒撢子",
+		'th-th': "ที่ปัดคำสาป",
+		'ko-kr': "기술머신 에볼루션"
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "このカードをつけているポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、相手の手札からオモテを見ないで1枚選び、トラッシュする。",
+		'zh-tw': "附有這張卡的寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，在不看正面的情況下，從對手的手牌選擇1張，將其丟棄。",
+		'th-th': "เมื่อโปเกมอนที่ติดการ์ดนี้อยู่ ได้รับแดเมจของท่าต่อสู้จากโปเกมอนฝ่ายตรงข้ามและ[หมดสภาพ]แล้ว เลือกการ์ด 1 ใบจากบนมือฝ่ายตรงข้ามโดยไม่ดูหน้าการ์ด ทิ้งที่ตำแหน่งทิ้งการ์ด",
+		'ko-kr': "이 카드를 붙이고 있는 포켓몬은 이 카드에 적혀 있는 기술을 사용할 수 있다. (기술을 사용하기 위한 에너지는 필요하다.) 포켓몬에게 붙어 있는 이 카드는 자신의 차례의 마지막에 트래쉬한다."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741888,
+				tcgplayer: 566021,
+			},
+		},
+	],
+
+	trainerType: "Tool",
+	regulationMark: "G"
+}
+
+export default card

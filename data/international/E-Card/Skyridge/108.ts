@@ -1,0 +1,89 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Swinub",
+		'de-de': "Quiekel"
+	},
+
+	illustrator: "Toshinao Aoki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [220],
+
+	hp: 50,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Mud Slap",
+				'de-de': "Schlammschlag"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Overrun",
+				'de-de': "Überrennen"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, flip a coin. If heads, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Falls dein Gegner mindestens ein Pokémon auf der Bank aht, wirf eine Münze. Wähle bei 'Kopf' eines von diesen. Dieser Angriff fügt ihm dann 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89701,
+				cardmarket: 275366
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 89701,
+				cardmarket: 275366
+			},
+		},
+	],
+}
+
+export default card

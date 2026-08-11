@@ -1,0 +1,95 @@
+import { Card } from 'models/database/card'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Sudowoodo",
+		'fr-fr': "Simularbre",
+		'de-de': "Mogelbaum"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		185,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sidestep",
+				'fr-fr': "Pas de côté",
+				'de-de': "Schritt zur Seite"
+			},
+			effect: {
+				'en-us': "If Bonsly is anywhere under Sudowoodo, flip a coin. If heads, prevent all effects of an attack, including damage, done to Sudowoodo during your opponent's next turn.",
+				'fr-fr': "Si Manzaï se trouve en dessous de Simularbre, lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Simularbre lors du prochain tour de votre adversaire.",
+				'de-de': "Wenn Mobai sich an beliebiger Stelle unter Mogelbaum befindet, wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Mogelbaum zugefügt werden."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Persuade",
+				'fr-fr': "Persuader",
+				'de-de': "Überreden"
+			},
+			effect: {
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon. The new Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc. Le nouveau Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. Das neue Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Despite appearing to be a tree, its body is closer to rocks and stones. It is very weak to water.",
+		'fr-fr': "On pourrait le prendre pour un arbre, mais il est plus proche d'une pierre. L'eau est son point faible."
+	},
+
+	thirdParty: {
+		cardmarket: 277664,
+		tcgplayer: 89594
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

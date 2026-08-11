@@ -1,0 +1,31 @@
+import { Card } from "models/database/card";
+import Set from "../MC";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "むしとりセット",
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札を上から7枚見て、その中から[G]ポケモンと「基本[G]エネルギー」を合計2枚まで選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 863969,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "H",
+	rarity: "None",
+};
+
+export default card;

@@ -1,0 +1,103 @@
+import { Card } from 'models/database/card'
+import Set from '../Kalos Starter Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Frogadier",
+		'fr-fr': "Croâporal",
+		'es-es': "Frogadier",
+		'it-it': "Frogadier",
+		'pt-br': "Frogadier",
+		'de-de': "Amphizel"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		657,
+	],
+
+	hp: 80,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Water Drip",
+				'fr-fr': "Goutte à Goutte",
+				'es-es': "Goteo de Agua",
+				'it-it': "Gocciolacqua",
+				'pt-br': "Gotejo",
+				'de-de': "Spritzwasser"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Aqua Wave",
+				'fr-fr': "Aqua-Vague",
+				'es-es': "Ola de Agua",
+				'it-it': "Ondacquatica",
+				'pt-br': "Aqua Onda",
+				'de-de': "Aquawoge"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				'es-es': "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
+				'it-it': "Lancia due volte una moneta. Questo attacco infligge 20 danni in più ogni volta che esce testa.",
+				'pt-br': "Jogue 2 moedas. Este ataque causa 20 de danos adicionais para cada cara.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: '40+',
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+	},
+
+	thirdParty: {
+		cardmarket: 281279,
+		tcgplayer: 85571
+	}
+}
+
+export default card

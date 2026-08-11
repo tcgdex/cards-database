@@ -1,47 +1,10 @@
-import { objectKeys, objectLoop, objectMap } from '@dzeio/object-util'
+import { objectKeys, objectLoop, objectMap, objectSort } from '@dzeio/object-util'
 import express from 'express'
 import { findOneSerie } from './V2/Components/Serie'
 import { findOneSet } from './V2/Components/Set'
 
-import de from '../generated/de/stats.json'
-import en from '../generated/en/stats.json'
-import es from '../generated/es/stats.json'
-import esMX from '../generated/es-mx/stats.json'
-import fr from '../generated/fr/stats.json'
-import id from '../generated/id/stats.json'
-import it from '../generated/it/stats.json'
-import ja from '../generated/ja/stats.json'
-import ko from '../generated/ko/stats.json'
-import nl from '../generated/nl/stats.json'
-import pl from '../generated/pl/stats.json'
-// import ptbr from '../generated/pt-br/stats.json'
-import ptpt from '../generated/pt-pt/stats.json'
-import pt from '../generated/pt/stats.json'
-import ru from '../generated/ru/stats.json'
-import th from '../generated/th/stats.json'
-import zhcn from '../generated/zh-cn/stats.json'
-import zhtw from '../generated/zh-tw/stats.json'
+import stats from '../generated/stats.json'
 
-const langs = {
-	'zh-cn': zhcn,
-	'zh-tw': zhtw,
-	'nl': nl,
-	'en': en,
-	'fr': fr,
-	'de': de,
-	'id': id,
-	'it': it,
-	'ja': ja,
-	'ko': ko,
-	'pl': pl,
-	'pt': pt,
-	// 'pt-br': ptbr,
-	'pt-pt': ptpt,
-	'ru': ru,
-	'es': es,
-	'th': th,
-	'es-mx': esMX
-} as const
 
 const langsToName = {
 	'zh-cn': 'Chinese (simplified)',
@@ -62,8 +25,11 @@ const langsToName = {
 	'es': 'Spanish',
 	'th': 'Thai',
 	'es-mx': 'Spanish (Latin America)'
-
 } as const
+
+const langs =
+	objectSort(stats, objectKeys(langsToName))
+
 
 /**
  * This file is meant to contains the TCGdex Project status page.
@@ -125,9 +91,9 @@ objectLoop(langs, (stats, key) => preProcessSets(stats, key))
 
 // Yes this is ugly
 export default express.Router()
-.get('/github.svg', async (_, res): Promise<void> => {
-	res.setHeader('Content-Type', 'image/svg+xml')
-	res.send(`<svg width="1429" height="726" viewBox="0 0 1429 726" fill="none" xmlns="http://www.w3.org/2000/svg">
+	.get('/github.svg', async (_, res): Promise<void> => {
+		res.setHeader('Content-Type', 'image/svg+xml')
+		res.send(`<svg width="1429" height="726" viewBox="0 0 1429 726" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<rect width="1429" height="726" fill="white"/>
 	<path d="M0 16C0 7.16344 7.16344 0 16 0H1413C1421.84 0 1429 7.16344 1429 16V47C1429 55.8366 1421.84 63 1413 63H16C7.1634 63 0 55.8366 0 47V16Z" fill="#EEEEEE"/>
 	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="136.409" y="37.5">Dutch</tspan></text>
@@ -216,10 +182,10 @@ export default express.Router()
 	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1115.64" y="652">${langs['th'].count + langs['th'].images}&#10;</tspan><tspan x="1135.53" y="672">of&#10;</tspan><tspan x="1115.64" y="692">${langs['th'].total * 2}&#10;</tspan><tspan x="1118.88" y="712">(${(100 * (langs['th'].count + langs['th'].images) / (langs['th'].total * 2)).toFixed(2)}%)</tspan></text>
 	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1305.93" y="652">${totalAsia.count + totalAsia.images}&#10;</tspan><tspan x="1325.82" y="672">of&#10;</tspan><tspan x="1305.93" y="692">${totalAsia.total * 2}&#10;</tspan><tspan x="1309.17" y="712">(${(100 * (totalAsia.count + totalAsia.images) / (totalAsia.total * 2)).toFixed(2)}%)</tspan></text>
 </svg>`)
-})
-.get('/', async (_, res): Promise<void> => {
+	})
+	.get('/', async (_, res): Promise<void> => {
 
-	res.send(`
+		res.send(`
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -364,47 +330,47 @@ export default express.Router()
 				</thead>
 				<tbody>
 					${(await Promise.all(objectMap(serie, async (data, setId) => {
-						// loop through every sets
+				// loop through every sets
 
-						// find the set in the first available language (Should be English globally)
-						const setTotal = await findOneSet(data[0] as 'en', { id: setId })
-						let str = '<tr>' + `<td>${setTotal?.name} (${setId}) <br />${setTotal?.cardCount.total ?? 1} cards</td>`
-						// let str = '<tr>' + `<td>${setId})</td>`
+				// find the set in the first available language (Should be English globally)
+				const setTotal = await findOneSet(data[0] as 'en', { id: setId })
+				let str = '<tr>' + `<td>${setTotal?.name} (${setId}) <br />${setTotal?.cardCount.total ?? 1} cards</td>`
+				// let str = '<tr>' + `<td>${setId})</td>`
 
-						// Loop through every languages
-						const l = objectKeys(langs)
-						l.map((it) => {
+				// Loop through every languages
+				const l = objectKeys(langs)
+				l.map((it) => {
 
-							// Change the stats file depending on the language
-							let stats: any = langs[it]
+					// Change the stats file depending on the language
+					let stats: any = langs[it]
 
-							// Get the stats we want
-							const item = stats.sets[serieId]?.[setId] as {count: number, images: number} | undefined
+					// Get the stats we want
+					const item = stats.sets[serieId]?.[setId] as { count: number, images: number } | undefined
 
-							// if item dont exist for the language skip it
-							if (!item) {
-								str += `<td class="na" /><td class="na" />`
-								return
-							}
+					// if item dont exist for the language skip it
+					if (!item) {
+						str += `<td class="na" /><td class="na" />`
+						return
+					}
 
-							// Calculate percentages and status
-							const percent = 100 * item.count / (setTotal?.cardCount.total ?? 1)
-							const imgPercent = 100 * item.images / (setTotal?.cardCount.total ?? 1)
-							// const percent = 100 //100 * item.count / (setTotal?.cardCount.total ?? 1)
-							// const imgPercent = 100 //100 * item.images / (setTotal?.cardCount.total ?? 1)
+					// Calculate percentages and status
+					const percent = 100 * item.count / (setTotal?.cardCount.total ?? 1)
+					const imgPercent = 100 * item.images / (setTotal?.cardCount.total ?? 1)
+					// const percent = 100 //100 * item.count / (setTotal?.cardCount.total ?? 1)
+					// const imgPercent = 100 //100 * item.images / (setTotal?.cardCount.total ?? 1)
 
-							// append to string :D
-							str +=`<td class="${percent > 100 ? 'too-much' : percent === 100 ? '' : percent === 0 ? 'empty' : 'missing-cards'}">${percent.toFixed(2)}% <br />(${item.count})</td>
+					// append to string :D
+					str += `<td class="${percent > 100 ? 'too-much' : percent === 100 ? '' : percent === 0 ? 'empty' : 'missing-cards'}">${percent.toFixed(2)}% <br />(${item.count})</td>
 							<td class="${imgPercent > 100 ? 'too-much' : imgPercent === 100 ? '' : imgPercent === 0 ? 'empty' : 'missing-img'}">${imgPercent.toFixed(2)}% <br />(${item.images})</td>`
-						})
+				})
 
-						// finish Row
-						return str + '</tr>'
-					}))).join('')}
+				// finish Row
+				return str + '</tr>'
+			}))).join('')}
 				</tbody>
 			`}))).join('')}
 		</table>
 	</body>
 </html>
 `)
-})
+	})

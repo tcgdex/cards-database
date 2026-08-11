@@ -1,0 +1,97 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Quagsire GL",
+		'fr-fr': "Maraiste  Niv. 34",
+		'de-de': "Morlord GL"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [195],
+
+	hp: 90,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Submerge",
+				'fr-fr': "Submerger",
+				'de-de': "Untertauchen"
+			},
+			effect: {
+				'en-us': "As long as Quagsire GL is on your Bench, prevent all damage done to Quagsire GL by attacks (both yours and your opponent's).",
+				'fr-fr': "Tant que Maraiste  est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire).",
+				'de-de': "Solange Morlord GL auf deiner Bank ist, verhindere allen Schaden, der Morlord GL durch Angriffe (deine und die deines Gegners) zugefügt würde."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Punch and Run",
+				'fr-fr': "Frapper et partir en courant",
+				'de-de': "Schlagen und Rennen"
+			},
+			effect: {
+				'en-us': "You may switch Quagsire GL with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger Maraiste  avec 1 des Pokémon de votre Banc.",
+				'de-de': "Du kannst Morlord GL gegen 1 Pokémon auf deiner Bank austauschen."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278650,
+				tcgplayer: 88476
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278650,
+				tcgplayer: 88476
+			}
+		},
+	],
+
+}
+
+export default card

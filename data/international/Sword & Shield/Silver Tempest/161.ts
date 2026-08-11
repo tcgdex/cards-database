@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../Silver Tempest"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Primordial Altar",
+		'fr-fr': "Autel Primordial",
+		'es-es': "Altar Primigenio",
+		'it-it': "Altare Primordiale",
+		'pt-br': "Altar Primordial",
+		'de-de': "Urzeitlicher Altar"
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Once during each player's turn, that player may look at the top card of their deck. They may discard that card.",
+		'fr-fr': "Une fois pendant le tour de chaque joueur, ce joueur-là peut regarder la carte du dessus de son deck. Il peut défausser cette carte.",
+		'es-es': "Una vez durante el turno de cada jugador, ese jugador puede mirar la primera carta de su baraja. Puede descartar esa carta.",
+		'it-it': "Una sola volta durante il turno di ciascun giocatore, quel giocatore può guardare la prima carta del suo mazzo. Può scartare quella carta.",
+		'pt-br': "Uma vez durante o turno de cada jogador, aquele jogador poderá olhar a carta de cima do próprio baralho. Ele(a) poderá descartar aquela carta.",
+		'de-de': "Einmal während des Zuges jedes Spielers kann sich jener Spieler die oberste Karte seines Decks anschauen. Er kann jene Karte auf den Ablagestapel legen."
+	},
+
+	trainerType: "Stadium",
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682208,
+				tcgplayer: 451809
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682208,
+				tcgplayer: 451809
+			}
+		},
+	],
+}
+
+export default card

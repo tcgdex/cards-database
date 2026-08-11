@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Unified Minds'
+
+const card: Card = {
+	name: {
+		'en-us': "Mesprit",
+		'fr-fr': "Créfollet",
+		'es-es': "Mesprit",
+		'it-it': "Mesprit",
+		'pt-br': "Mesprit",
+		'de-de': "Vesprit"
+	},
+
+	illustrator: "Sekio",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		481,
+	],
+
+	hp: 60,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "First Contact",
+				'fr-fr': "Premier Contact",
+				'es-es': "Primer Contacto",
+				'it-it': "Primo Contatto",
+				'pt-br': "Primeiro Contato",
+				'de-de': "Erstkontakt"
+			},
+			effect: {
+				'en-us': "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+				'fr-fr': "Cherchez jusqu’à 3 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja hasta 3 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
+				'it-it': "Cerca nel tuo mazzo fino a tre Pokémon Base e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure por até 3 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			},
+
+		},
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Mumble",
+				'fr-fr': "Murmure",
+				'es-es': "Farfullar",
+				'it-it': "Borbottio",
+				'pt-br': "Resmungo",
+				'de-de': "Grummeln"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
+	},
+
+	thirdParty: {
+		cardmarket: 388222,
+		tcgplayer: 195014
+	}
+}
+
+export default card

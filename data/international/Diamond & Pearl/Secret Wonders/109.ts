@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Secret Wonders'
+
+const card: Card = {
+	name: {
+		'en-us': "Shuckle",
+		'fr-fr': "Caratroc",
+		'de-de': "Pottrott"
+	},
+
+	illustrator: "Emi Yoshida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		213,
+	],
+
+	hp: 60,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Pot Shell",
+				'fr-fr': "Coup de coquillage",
+				'de-de': "Topfpanzer"
+			},
+			effect: {
+				'en-us': "Prevent all effects of attacks, including damage, done to Shuckle by your opponent's Pokémon that has any Special Energy cards attached to it.",
+				'fr-fr': "Prévenez tous les effets d'attaques, dégâts inclus, infligés à Caratroc par les Pokémon de votre adversaire possédant des cartes Énergie spéciale.",
+				'de-de': "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Pottrott von Pokémon deines Gegners, an denen Spezialenergiekarten angelegt sind, zugefügt würden."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ferment Poison",
+				'fr-fr': "Poison effervescent",
+				'de-de': "Gärendes Gift"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Poisoned. As long as the Defending Pokémon remains Poisoned by this attack, it can't use any Poké-Body.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Tant que le Pokémon Défenseur reste Empoisonné, il ne peut pas utiliser de Poké-Body.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt vergiftet. Solange das Verteidigende Pokémon durch diesen Angriff vergiftet ist, kann es keine Poké-Body benutzen."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It stores berries in its shell. The berries eventually ferment to become delicious juices.",
+	},
+
+	thirdParty: {
+		cardmarket: 277862,
+		tcgplayer: 89191
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

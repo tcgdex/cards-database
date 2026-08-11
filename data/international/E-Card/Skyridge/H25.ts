@@ -1,0 +1,84 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Raichu",
+		'de-de': "Raichu"
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [26],
+
+	hp: 80,
+
+	types: [
+		"Lightning"
+	],
+
+	evolveFrom: {
+		'en-us': "Pikachu",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Zzzap",
+				'de-de': "Zzzapp!"
+			},
+			effect: {
+				'en-us': "This attack does 20 damage to each Pokémon with a Poké-Body or Poké-Power (yours and your opponent's). (Don't apply Weakness or Resistance.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon mit einem Poké-Body oder einer Poké-Power 20 Schadenspunkte zu (deinen und den gegnerischen Pokémon). (Wende keine Schwäche oder Resistenz an.)"
+			},
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Lightning Storm",
+				'de-de': "Blitzsturm"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, put 2 damage counters on Raichu.",
+				'de-de': "Wirf eine Münze. Lege bei 'Zahl' 2 Schadensmarken auf Raichu."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 88502,
+				cardmarket: 275285
+			},
+		},
+	],
+}
+
+export default card

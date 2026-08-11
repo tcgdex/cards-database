@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../SV1a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ホゲータ"
+	},
+
+	illustrator: "kantaro",
+	category: "Pokemon",
+	dexId: [909],
+	hp: 90,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "温かい 岩の上で 寝転び 四角い うろこから 取り込んだ 熱で 炎エネルギーを 作る。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "ぼーっとする"
+		},
+
+		effect: {
+			'ja-jp': "コインを1回投げオモテなら、このポケモンのHPを「30」回復する。"
+		}
+	}, {
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			'ja-jp': "ほのお"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701534,
+				tcgplayer: 568201,
+			},
+		},
+	],
+
+	retreat: 3
+}
+
+export default card

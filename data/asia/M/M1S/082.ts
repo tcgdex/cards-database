@@ -1,0 +1,29 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ふしぎなアメ"
+	},
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840641,
+				tcgplayer: 647202,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	effect: {
+		'ja-jp': "自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせ、1進化をとばして進化させる。（最初の自分の番や、出したばかりのポケモンには使えない。）"
+	},
+	regulationMark: "I",
+	rarity: "Secret Rare"
+}
+
+export default card

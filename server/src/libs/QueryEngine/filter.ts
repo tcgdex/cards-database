@@ -321,7 +321,12 @@ export function filterEntry<T extends object>(query: QueryList<T>, item: T): boo
 
 		// handle deeply nested items
 		if ((key as string).includes('.')) {
-			value = objectGet(item, key as string)
+			try {
+				value = objectGet(item, key as string)
+			} catch (e) {
+				console.error(item, key)
+				throw e
+			}
 		}
 
 		// handle if nested item does not exists
@@ -350,7 +355,7 @@ function filterValue<T extends AllowedValues>(value: unknown, query: QueryValues
 	// loop through each keys of the query
 	// eslint-disable-next-line arrow-body-style
 	return objectLoop(query as any, (querySubValue: unknown, queryKey: string) => {
-		return filterItem(value, {[queryKey]: querySubValue } as QueryValues<T>)
+		return filterItem(value, { [queryKey]: querySubValue } as QueryValues<T>)
 	})
 }
 

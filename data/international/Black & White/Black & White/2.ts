@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Black & White'
+
+const card: Card = {
+	name: {
+		'en-us': "Snivy",
+		'fr-fr': "Vipélierre",
+		'es-es': "Snivy",
+		'it-it': "Snivy",
+		'pt-br': "Snivy",
+		'de-de': "Serpifeu"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		495,
+	],
+
+	hp: 60,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Leaf Blade",
+				'fr-fr': "Lame-Feuille",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts supplémentaires.",
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+	},
+
+	thirdParty: {
+		cardmarket: 279739,
+		tcgplayer: 89376
+	}
+}
+
+export default card

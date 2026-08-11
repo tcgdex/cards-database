@@ -1,0 +1,78 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "フシギダネ",
+		'zh-tw': "妙蛙種子",
+		'th-th': "ฟุชิกิดาเนะ",
+		'id-id': "Bulbasaur",
+	},
+
+	illustrator: "Yuu Nishida",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Grass"],
+
+	description: {
+		'ja-jp': "生まれて しばらくの あいだ 背中の タネに つまった 栄養を とって 育つ。",
+		'zh-tw': "在出生後的一段時間內，牠會吸收背上種子裡 儲存著的營養成長。",
+		'th-th': "ในช่วงเวลาหนึ่งหลังจากเกิดมาแล้ว จะดูดกินสารอาหารที่สะสมไว้ในเมล็ดที่อยู่กลางหลังเพื่อเลี้ยงตัวให้เติบโต",
+		'id-id': "Sesaat setelah dilahirkan, Bulbasaur menggunakan nutrisi yang terkandung dalam biji di punggungnya untuk tumbuh.",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "やどりぎのタネ",
+				'zh-tw': "寄生種子",
+				'th-th': "เมล็ดกาฝาก",
+				'id-id': "Bibit Parasit",
+			},
+			damage: 20,
+			cost: ["Grass", "Colorless"],
+			effect: {
+				'ja-jp': "このポケモンのHPを「20」回復する。",
+				'zh-tw': "將這隻寶可夢恢復「20」HP。",
+				'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
+				'id-id': "Pulihkan HP Pokémon ini sejumlah 20.",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719442,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837230,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837231,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Common",
+	dexId: [1],
+};
+
+export default card;

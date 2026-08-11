@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../HGSS Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Meganium",
+		'fr-fr': "Meganium"
+	},
+	illustrator: "Noriko Hotta",
+	rarity: "Promo",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [154],
+	hp: 150,
+	types: [
+		"Grass"
+	],
+	evolveFrom: {
+		'en-us': "Bayleef",
+		'fr-fr': "Macronium"
+	},
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Leaf Trans",
+				'fr-fr': "Transfo feuille"
+			},
+			effect: {
+				'en-us': "As often as you like during your turn (before your attack), you may move a Grass Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Meganium is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie  attachée à l'un de vos Pokémon sur un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Meganium est affecté par un État Spécial."
+			}
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Solarbeam",
+				'fr-fr': "Lance-soleil"
+			},
+
+			damage: 80,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275613,
+				tcgplayer: 87295
+			}
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,43 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket'
+
+const card: Card = {
+	name: {
+		'en-us': "Full Heal Energy",
+		'fr-fr': "Énergie guérisseuse",
+		'de-de': "Hyperheiler-Energie"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+	energyType: "Special",
+
+	effect: {
+		'en-us': "If you play this card from your hand, the Pokémon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)",
+		'de-de': "If you play this card from your hand, the Pokémon your attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provide  energy. (Doesn't count as a basic Energy card.)",
+		'fr-fr': "Si vous jouez cette carte depuis votre main, le Pokémon auquel vous l'attachez cesse d'être Endormi, Confus, Paralysé ou Empoisonné. Énergie guérisseuse fournit 1 énergie Incolore. (Ne compte pas pour une carte Énergie de base.)",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274134,
+				tcgplayer: 85584
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274134,
+				tcgplayer: 85584
+			}
+		}
+	]
+}
+
+export default card

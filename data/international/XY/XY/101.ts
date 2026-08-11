@@ -1,0 +1,99 @@
+import { Card } from 'models/database/card'
+import Set from '../XY'
+
+const card: Card = {
+	name: {
+		'en-us': "Dunsparce",
+		'fr-fr': "Insolourdo",
+		'es-es': "Dunsparce",
+		'it-it': "Dunsparce",
+		'pt-br': "Dunsparce",
+		'de-de': "Dummisel"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		206,
+	],
+
+	hp: 40,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Glare",
+				'fr-fr': "Regard Médusant",
+				'es-es': "Deslumbrar",
+				'it-it': "Sguardo Feroce",
+				'pt-br': "Olhar Penetrante",
+				'de-de': "Giftblick"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Second Bite",
+				'fr-fr': "Double Morsure",
+				'es-es': "Segundo Mordisco",
+				'it-it': "Punto Dolente",
+				'pt-br': "Segunda Mordida",
+				'de-de': "Wunde Stelle"
+			},
+			effect: {
+				'en-us': "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon.",
+				'fr-fr': "Cette attaque inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur le Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 10 puntos de daño más por cada contador de daño en el Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 10 danni in più per ogni segnalino danno presente sul Pokémon attivo del tuo avversario.",
+				'pt-br': "Esse ataque causa 10 de danos adicionais para cada contador de danos no Pokémon Ativo do seu oponente.",
+				'de-de': "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf dem Aktiven Pokémon deines Gegners zu."
+			},
+			damage: "10+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 0,
+
+	description: {
+		'en-us': "When spotted, this Pokémon escapes backwards by furiously boring into the ground with its tail.",
+	},
+
+	thirdParty: {
+		cardmarket: 281438,
+		tcgplayer: 85015
+	}
+}
+
+export default card

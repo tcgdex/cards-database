@@ -1,0 +1,69 @@
+import { Card } from 'models/database/card'
+import Set from '../Generations'
+
+const card: Card = {
+	name: {
+		'en-us': "Swablu",
+		'fr-fr': "Tylton",
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		333,
+	],
+
+	hp: 40,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bind Wound",
+				'fr-fr': "Blessure Pansée",
+			},
+			effect: {
+				'en-us': "Heal 20 damage from 1 of your Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à l'un de vos Pokémon.",
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Wings and beaks. I like yours, and I like mine, too.",
+	},
+
+	thirdParty: {
+		cardmarket: 288532
+	}
+}
+
+export default card

@@ -1,0 +1,117 @@
+import { Card } from 'models/database/card'
+import Set from '../Unseen Forces'
+
+const card: Card = {
+	name: {
+		'en-us': "Porygon2",
+		'fr-fr': "Porygon2",
+		'de-de': "Porygon2"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		233,
+	],
+
+	hp: 70,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Porygon",
+		'fr-fr': "Porygon"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "3-D Reset",
+				'fr-fr': "Redémarrage en 3-D",
+				'de-de': "3-D Reset"
+			},
+			effect: {
+				'en-us': "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition.",
+				'fr-fr': "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), reprenez dans votre main une carte Outil Pokémon attachée à 1 de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Porygon2 est affecté par un État Spécial.",
+				'de-de': "As often as you like during your turn (before your attack), return a Pokémon Tool card attached to 1 of your Pokémon to your hand. This power can't be used if Porygon2 is affected by a Special Condition."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Data Retrieval",
+				'fr-fr': "Récupération d'informations",
+				'de-de': "Data Retrieval"
+			},
+			effect: {
+				'en-us': "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand.",
+				'fr-fr': "Si vous avez moins de 8 cartes en main, piochez des cartes jusqu'à ce que vous ayez 8 cartes en main.",
+				'de-de': "If you have less than 8 cards in your hand, draw cards until you have 8 cards in your hand."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scramble Trip",
+				'fr-fr': "Croche-pied codé",
+				'de-de': "Scramble Trip"
+			},
+			effect: {
+				'en-us': "If Porygon2 has a Scramble Energy card attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused.",
+				'fr-fr': "Si une carte Énergie codée est attachée à Porygon2, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "If Porygon2 has a Scramble Energy attached to it, this attack does 40 damage plus 20 more damage and the Defending Pokémon is now Confused."
+			},
+			damage: "40+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88324,
+				cardmarket: 276658
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88324,
+				cardmarket: 276658
+			},
+		}
+	],
+}
+
+export default card

@@ -1,0 +1,43 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Cyrus's Initiative",
+		'fr-fr': "L'initiative d'Hélio",
+		'de-de': "Zyrus' Entschlusskraft"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip 2 coins. If either of them is heads, look at your opponent's hand. For each heads, choose 1 card from your opponent's hand and put it on the bottom of your opponent's deck in any order.",
+		'fr-fr': "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
+		'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" gezeigt haben, schau dir die Handkarten deines Gegners an. Wähle pro \"Kopf\" 1 Karte aus der Hand deines Gegners und lege sie in beliebiger Reihenfolge unter das Deck deines Gegners."
+	},
+
+	trainerType: "Supporter",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84558,
+				cardmarket: 278828
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278828,
+				tcgplayer: 84558
+			}
+		},
+	],
+
+}
+
+export default card

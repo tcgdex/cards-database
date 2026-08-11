@@ -1,0 +1,50 @@
+import { Card } from 'models/database/card'
+import Set from '../Shining Fates'
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'fr-fr': "Ordres du Boss (Lysandre)",
+		'en-us': "Boss's Orders (Lysandre)",
+		'es-es': "Órdenes de Jefes",
+		'it-it': "Ordini del Capo",
+		'pt-br': "Ordem da Chefia",
+		'de-de': "Befehl vom Boss"
+	},
+
+	illustrator: "Ryuta Fuse",
+	rarity: "Rare",
+	category: "Trainer",
+
+	effect: {
+		'fr-fr': "Échangez l'un des Pokémon de Banc de votre adversaire contre son Pokémon Actif.",
+		'en-us': "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+		'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+		'it-it': "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+		'pt-br': "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
+		'de-de': "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539313,
+				tcgplayer: 232546
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539313,
+				tcgplayer: 232546
+			}
+		},
+	],
+}
+
+export default card

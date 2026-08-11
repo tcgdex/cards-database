@@ -1,0 +1,79 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "キュウコンex",
+		'zh-tw': "九尾ex",
+		'th-th': "คิวคอนex",
+		'id-id': "Ninetales ex",
+	},
+
+	illustrator: "kawayoo",
+	category: "Pokemon",
+	hp: 260,
+	types: ["Fire"],
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ねっぷう",
+				'zh-tw': "熱風",
+				'th-th': "คลื่นความร้อน",
+				'id-id': "Angin Panas",
+			},
+			damage: 30,
+			cost: ["Fire"],
+			effect: {
+				'ja-jp': "相手のバトルポケモンをやけどにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ไหม้]",
+				'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar.",
+			},
+		},
+		{
+			name: {
+				'ja-jp': "うつしほむら",
+				'zh-tw': "現形熾火",
+				'th-th': "เปลวไฟสะท้อน",
+				'id-id': "Kobaran Api Refleksi",
+			},
+			damage: "80+",
+			cost: ["Fire", "Colorless"],
+			effect: {
+				'ja-jp': "自分の手札と相手の手札が同じ枚数なら、140ダメージ追加。",
+				'zh-tw': "若自己的手牌與對手的手牌張數相同，則增加140點傷害。",
+				'th-th': "ถ้าจำนวนการ์ดบนมือฝ่ายเราเท่ากับจำนวนการ์ดบนมือฝ่ายตรงข้าม การโจมตีนี้จะเพิ่มแดเมจอีก 140",
+				'id-id': "Jika jumlah Kartu Pegangan sendiri dan jumlah Kartu Pegangan lawan sama, kerusakan yang diberikan bertambah sejumlah 140.",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 719480,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ロコン",
+	},
+
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Double rare",
+	dexId: [38],
+
+	suffix: "EX",
+};
+
+export default card;

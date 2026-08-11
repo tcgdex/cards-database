@@ -1,0 +1,39 @@
+import { Card } from "models/database/card"
+import Set from "../SV8a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ネリネ",
+		'id-id': "Nerine",
+		'zh-tw': "納莉",
+		'zh-cn': "納莉"
+	},
+
+	illustrator: "Tomowaka",
+	rarity: "None",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札を4枚引く。このカードを使った番の終わりに、自分の手札が5枚以上あるなら、自分の手札をすべてトラッシュする。",
+		'id-id': "Ambil 4 kartu dari atas Deck sendiri. Jika pada akhir giliran digunakannya kartu ini, ada 5 lembar atau lebih kartu di Kartu Pegangan sendiri, buang semua Kartu Pegangan sendiri ke Trash.",
+		'zh-tw': "從自己的牌庫抽出4張卡。在使用了這張卡的回合結束時，若自己的手牌有5張以上，則將自己的手牌全部丟棄。",
+		'zh-cn': "從自己的牌庫抽出4張卡。在使用了這張卡的回合結束時，若自己的手牌有5張以上，則將自己的手牌全部丟棄。"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803345,
+				tcgplayer: 602696,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "H"
+}
+
+export default card

@@ -1,0 +1,77 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Garbodor",
+	},
+
+	illustrator: "Tomoaki Imakuni",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		569,
+	],
+
+	hp: 100,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Trubbish",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Garbotoxin",
+			},
+			effect: {
+				'en-us': "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player’s hand, and in each player’s discard pile has no Abilities (except for Garbotoxin).",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sludge Toss",
+			},
+
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+	},
+
+	thirdParty: {
+		cardmarket: 281219,
+		tcgplayer: 85618
+	}
+}
+
+export default card

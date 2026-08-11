@@ -1,0 +1,105 @@
+import { Card } from "models/database/card"
+import Set from "../Astral Radiance Trainer Gallery"
+
+const card: Card = {
+	dexId: [862],
+	set: Set,
+
+	name: {
+		'en-us': "Galarian Obstagoon",
+		'fr-fr': "Ixon de Galar",
+		'es-es': "Obstagoon de Galar",
+		'it-it': "Obstagoon di Galar",
+		'pt-br': "Obstagoon de Galar",
+		'de-de': "Galar-Barrikadax"
+	},
+
+	illustrator: "GOSSAN",
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 160,
+	types: ["Darkness"],
+
+	evolveFrom: {
+		'en-us': "Galarian Linoone",
+		'fr-fr': "Linéon de Galar",
+		'es-es': "Linoone de Galar",
+		'it-it': "Linoone di Galar",
+		'pt-br': "Linoone de Galar",
+		'de-de': "Galar-Geradaks"
+	},
+
+	stage: "Stage2",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Untamed Shout",
+			'fr-fr': "Cri Sauvage",
+			'es-es': "Grito Salvaje",
+			'it-it': "Squarciagola",
+			'pt-br': "Grito Indomado",
+			'de-de': "Ungezähmter Schrei"
+		},
+
+		effect: {
+			'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 3 damage counters on 1 of your opponent's Pokémon.",
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez placer 3 marqueurs de dégâts sur l'un des Pokémon de votre adversaire.",
+			'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes poner 3 contadores de daño en 1 de los Pokémon de tu rival.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi mettere tre segnalini danno su uno dei Pokémon del tuo avversario.",
+			'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá colocar 3 contadores de dano em 1 dos Pokémon do seu oponente.",
+			'de-de': "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 3 Schadensmarken auf 1 Pokémon deines Gegners legen."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			'en-us': "Obstruct",
+			'fr-fr': "Blocage",
+			'es-es': "Obstrucción",
+			'it-it': "Sbarramento",
+			'pt-br': "Obstruir",
+			'de-de': "Abblocker"
+		},
+
+		effect: {
+			'en-us': "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon.",
+			'fr-fr': "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon de base.",
+			'es-es': "Durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques de Pokémon Básicos.",
+			'it-it': "Durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon Base.",
+			'pt-br': "Durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques de Pokémon Básicos.",
+			'de-de': "Verhindere während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken von Basis-Pokémon zugefügt wird."
+		},
+
+		damage: 90
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "D",
+
+
+	description: {
+		'en-us': "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658887,
+				tcgplayer: 272481
+			}
+		},
+	],
+}
+
+export default card

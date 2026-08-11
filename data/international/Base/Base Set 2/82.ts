@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Nidoran♀",
+	},
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		29,
+	],
+	hp: 60,
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Fury Swipes",
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Call for Family",
+			},
+			effect: {
+				'en-us': "Search your deck for a Basic Pokémon named Nidoran M or Nidoran F and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+			},
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Although small, its venomous barbs make this Pokémon dangerous. The female has smaller horns.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274005
+			}
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,74 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Victini",
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		494,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Victory Star",
+			},
+			effect: {
+				'en-us': "Once during your turn, after you flip any coins for an attack, you may ignore all effects of those coin flips and begin flipping those coins again. You can’t use more than 1 Victory Star Ability each turn.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Stored Power",
+			},
+			effect: {
+				'en-us': "Move all Energy attached to this Pokémon to 1 of your Benched Pokémon.",
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+	},
+
+	thirdParty: {
+		cardmarket: 281174,
+		tcgplayer: 90348
+	}
+}
+
+export default card

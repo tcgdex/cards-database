@@ -1,0 +1,83 @@
+import { Card } from "models/database/card"
+import Set from "../SV4M"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "テツノコウベ",
+		'th-th': "คอเหล็ก",
+		'ko-kr': "무쇠머리"
+	},
+
+	illustrator: "GIDORA",
+	category: "Pokemon",
+	dexId: [993],
+	hp: 130,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "古い 書物に 記された テツノコウベという 物体は このポケモンかも しれない。",
+		'th-th': "วัตถุที่เรียกว่าคอเหล็กที่ระบุในบันทึกเก่าแก่อาจเป็นโปเกมอนตัวนี้",
+		'ko-kr': "오래된 서적에 기록된 \"무쇠머리\"라는 물체는 이 포켓몬을 말하는 것일지도 모른다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ホーミングヘッド",
+			'th-th': "โฮมมิงเฮด",
+			'ko-kr': "호밍헤드"
+		},
+
+		effect: {
+			'ja-jp': "ダメカンがのっている相手のポケモン3匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			'th-th': "โปเกมอนฝ่ายตรงข้าม 3 ตัวที่มีตัวนับแดเมจวางอยู่ จะได้รับแดเมจตัวละ 50 {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			'ko-kr': "데미지 카운터가 올려져 있는 상대의 포켓몬 3마리에게 각각 50데미지를 준다. (벤치는 약점, 저항력 계산을 하지 않는다.)"
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "バリオンビーム",
+			'th-th': "แบรีออนบีม",
+			'ko-kr': "바리온빔"
+		},
+
+		damage: 150,
+
+		effect: {
+			'ja-jp': "このワザは、このポケモンに「ブーストエナジー 未来」がついているなら、エネルギー3個で使える。",
+			'th-th': "ท่าต่อสู้นี้ ถ้าโปเกมอนนี้มี [บูสต์เอนเนอร์จี้ อนาคต] ติดอยู่ สามารถใช้ได้ด้วยพลังงาน[ไร้สี] 3 ลูก",
+			'ko-kr': "이 기술은 이 포켓몬에게 「부스트에너지 미래」가 붙어 있다면 (무색) 에너지 3개로 사용할 수 있다."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741905,
+				tcgplayer: 566038,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

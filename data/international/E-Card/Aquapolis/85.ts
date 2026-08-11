@@ -1,0 +1,74 @@
+import { Card } from 'models/database/card'
+import Set from '../Aquapolis'
+
+const card: Card = {
+	name: {
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'de-de': "Seeper"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [116],
+
+	hp: 50,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Reverse Thrust",
+				'fr-fr': "Poussée inverse",
+				'de-de': "Umkehrschub"
+			},
+			effect: {
+				'en-us': "Switch Horsea with 1 of your Benched Pokémon, if any.",
+				'fr-fr': "Échangez Hypotrempe contre l'un des Pokémon de votre Banc, si vous en avez.",
+				'de-de': "Tausche Seeper mit 1 der Pokémon auf deiner Bank, falls du dort mindestens eins hast."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86187,
+				cardmarket: 275158
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86187,
+				cardmarket: 275158
+			}
+		},
+	]
+}
+
+export default card

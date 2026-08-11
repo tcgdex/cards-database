@@ -1,0 +1,78 @@
+import { Card } from 'models/database/card'
+import Set from '../Next Destinies'
+
+const card: Card = {
+	name: {
+		'en-us': "Vanillite",
+		'fr-fr': "Sorbébé",
+		'es-es': "Vanillite",
+		'it-it': "Vanillite",
+		'pt-br': "Vanillite",
+		'de-de': "Gelatini"
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		582,
+	],
+
+	hp: 60,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Icy Snow",
+				'fr-fr': "Verglas",
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+	},
+
+	thirdParty: {
+		cardmarket: 280256,
+		tcgplayer: 90269
+	}
+}
+
+export default card

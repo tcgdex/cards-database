@@ -1,0 +1,24 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG4"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "バトル場は穴だらけ!",
+	},
+
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Common",
+	category: "Trainer",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575772
+			},
+		},
+	],
+};
+
+export default card

@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Erika's Exeggcute"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [102],
+
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Eggsplosion"
+			},
+			effect: {
+				'en-us': "Flip a number of coins equal to the number of Energy attached to Erika's Exeggcute. This attack does 10 damage times the number of heads."
+			},
+			damage: "10x",
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Psychic"
+			},
+			effect: {
+				'en-us': "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+			},
+			damage: "10+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85293,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85293,
+				cardmarket: 274152
+			}
+		}
+	],
+}
+
+export default card
+

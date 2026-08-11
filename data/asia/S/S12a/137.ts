@@ -1,0 +1,42 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "トレッキングシューズ",
+		'zh-tw': "健行鞋",
+		'th-th': "รองเท้าเดินป่า",
+	},
+
+	illustrator: "Amelicart",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札を上から1枚見て、そのカードを手札に加える。または、そのカードをトラッシュし、自分の山札を1枚引く。",
+		'zh-tw': "查看自己的牌庫上方1張卡，將那張卡加入手牌。或者將那張卡丟棄，從自己的牌庫抽出1張卡。",
+		'th-th': "ดูการ์ด 1 ใบจากด้านบนของสำรับการ์ดฝ่ายเรา นำการ์ดนั้นขึ้นมือ หรือทิ้งการ์ดนั้นที่ตำแหน่งทิ้งการ์ด และจั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687699,
+				tcgplayer: 571675,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577495,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "F",
+	rarity: "None",
+};
+
+export default card;

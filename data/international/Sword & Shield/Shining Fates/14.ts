@@ -1,0 +1,70 @@
+import { Card } from 'models/database/card'
+import Set from '../Shining Fates'
+
+const card: Card = {
+	dexId: [829],
+	set: Set,
+
+	name: {
+		'fr-fr': "Tournicoton",
+		'en-us': "Gossifleur",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
+	},
+
+	illustrator: "Yukiko Baba",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Grass"],
+
+	attacks: [{
+		name: {
+			'fr-fr': "Feuillage",
+			'en-us': "Leafage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "E",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539093,
+				tcgplayer: 232392
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539093,
+				tcgplayer: 232392
+			}
+		},
+	],
+}
+
+export default card

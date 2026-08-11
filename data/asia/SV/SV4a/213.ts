@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../SV4a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "エンテイ",
+		'zh-tw': "炎帝",
+		'id-id': "Entei"
+	},
+
+	illustrator: "Ryuta Fuse",
+	category: "Pokemon",
+	dexId: [244],
+	hp: 130,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "エンテイが ほえると 世界の どこかの 火山が 噴火すると 言われている。",
+		'zh-tw': "據說如果炎帝吼叫的話，世界上的 某處火山就會爆發。",
+		'id-id': "Ada yang mengatakan bahwa saat Entei mengaum, maka gunung berapi entah pada belahan dunia yang mana akan meletus."
+	},
+
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'ja-jp': "プレッシャー",
+			'zh-tw': "壓迫感",
+			'id-id': "Tekanan"
+		},
+
+		effect: {
+			'ja-jp': "このポケモンがバトル場にいるかぎり、相手のバトルポケモンが使うワザのダメージは「-20」される。",
+			'zh-tw': "只要這隻寶可夢在戰鬥場上，對手的戰鬥寶可夢使用的招式的傷害「-20」點。",
+			'id-id': "Selama Pokémon ini ada di Arena Bertarung, kerusakan akibat serangan yang digunakan oleh Pokémon Bertarung lawan berkurang sejumlah 20."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ブレイズボール",
+			'zh-tw': "火炎球",
+			'id-id': "Blaze Ball"
+		},
+
+		damage: "60+",
+
+		effect: {
+			'ja-jp': "このポケモンについているエネルギーの数×20ダメージ追加。",
+			'zh-tw': "增加這隻寶可夢身上附加的【火】能量的數量×20點傷害。",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 747567,
+				tcgplayer: 567614,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

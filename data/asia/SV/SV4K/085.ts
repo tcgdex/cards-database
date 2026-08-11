@@ -1,0 +1,36 @@
+import { Card } from "models/database/card"
+import Set from "../SV4K"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "オーリム博士の気迫",
+		'th-th': "จิตมุ่งมั่นของศาสตราจารย์โอลิม",
+		'ko-kr': "멜로코"
+	},
+
+	illustrator: "Megumi Mizutani",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の「古代」のポケモンを2匹まで選び、トラッシュから基本エネルギーを1枚ずつつける。その後、自分の山札を3枚引く。",
+		'th-th': "เลือกโปเกมอน [โบราณ] ฝ่ายเราได้สูงสุด 2 ตัว นำการ์ดพลังงานพื้นฐานจากตำแหน่งทิ้งการ์ดมาติดตัวละ 1 ใบ หลังจากนั้น จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
+		'ko-kr': "이 카드는 상대의 이전 차례에 자신의 포켓몬이 기절하지 않으면 사용할 수 없다. 자신의 트래쉬에서 「기본 (불꽃) 에너지」를 1장 선택해서 자신의 포켓몬에게 붙인다. 그 뒤, 자신의 패가 6장이 되도록 덱을 뽑는다."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741505,
+				tcgplayer: 565840,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G"
+}
+
+export default card

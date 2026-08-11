@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Genesis'
+
+const card: Card = {
+	name: {
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'de-de': "Blubella"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		182,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Gloom",
+		'fr-fr': "Ortide"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Sweet Nectar",
+				'fr-fr': "Doux nectar",
+				'de-de': "Süßer Nektar"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts d'un de vos Pokémon.",
+				'de-de': "Wirf eine Münze. Entferne bei 'Kopf' alle Schadensmarken von einem deiner Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flower Dance",
+				'fr-fr': "Valse des fleurs",
+				'de-de': "Blumentanz"
+			},
+			effect: {
+				'en-us': "Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one).",
+				'fr-fr': "Inflige 30 dégâts multipliés par le nombre de cartes que vous avez en jeu et dont le nom contient Joliflor (y compris celle-ci).",
+				'de-de': "Fügt 30 Schadenspunkte mal der Anzahl an Karten mit Blubella im Titel, die du im Spiel hast (einschließlich dieser), zu."
+			},
+			damage: "30x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+		'fr-fr': "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274403,
+				tcgplayer: 83795
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274403,
+				tcgplayer: 83795
+			}
+		}
+	]
+}
+
+export default card

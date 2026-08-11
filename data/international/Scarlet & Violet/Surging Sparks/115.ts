@@ -1,0 +1,98 @@
+import { Card } from "models/database/card"
+import Set from "../Surging Sparks"
+
+const card: Card = {
+	dexId: [970],
+	set: Set,
+
+	name: {
+		'en-us': "Glimmora",
+		'fr-fr': "Floréclat",
+		'es-es': "Glimmora",
+		'it-it': "Glimmora",
+		'pt-br': "Glimmora",
+		'de-de': "Lumiflora"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fighting"],
+	evolveFrom: {
+		'en-us': "Glimmet",
+		'fr-fr': "Germéclat",
+		'es-es': "Glimmet",
+		'it-it': "Glimmet",
+		'pt-br': "Glimmet",
+		'de-de': "Lumispross"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Corrosive Shards",
+			'fr-fr': "Éclats Corrosifs",
+			'es-es': "Esquirlas Corrosivas",
+			'it-it': "Schegge Corrosive",
+			'pt-br': "Estilhaços Corrosivos",
+			'de-de': "Korrosionssplitter"
+		},
+
+		effect: {
+			'en-us': "Your opponent's Active Pokémon is now Poisoned. During your opponent's next turn, Energy cards can't be attached from your opponent's hand to that Pokémon.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné. Pendant le prochain tour de votre adversaire, aucune carte Énergie ne peut être attachée de la main de votre adversaire à ce Pokémon-là.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado. Durante el próximo turno de tu rival, no se pueden unir cartas de Energía de la mano de tu rival a ese Pokémon.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato. Durante il prossimo turno del tuo avversario, nessuna carta Energia può essere assegnata dalla mano del tuo avversario a quel Pokémon.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado. Durante o próximo turno do seu oponente, cartas de Energia não poderão ser ligadas da mão do seu oponente àquele Pokémon.",
+			'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Während des nächsten Zuges deines Gegners können keine Energiekarten aus der Hand deines Gegners an jenes Pokémon angelegt werden."
+		},
+
+		damage: 20
+	}, {
+		cost: ["Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Rock Throw",
+			'fr-fr': "Jet-Pierres",
+			'es-es': "Lanzarrocas",
+			'it-it': "Sassata",
+			'pt-br': "Lançamento de Rocha",
+			'de-de': "Steinwurf"
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794452,
+				tcgplayer: 589957
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794452,
+				tcgplayer: 589957
+			}
+		},
+	],
+
+	illustrator: "takashi shiraishi",
+
+}
+
+export default card

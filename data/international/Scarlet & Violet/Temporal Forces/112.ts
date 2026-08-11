@@ -1,0 +1,98 @@
+import { Card } from "models/database/card"
+import Set from "../Temporal Forces"
+
+const card: Card = {
+	dexId: [303],
+	set: Set,
+
+	name: {
+		'en-us': "Mawile",
+		'fr-fr': "Mysdibule",
+		'es-es': "Mawile",
+		'it-it': "Mawile",
+		'pt-br': "Mawile",
+		'de-de': "Flunkifer"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Metal"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Invite and Strike",
+			'fr-fr': "Inviter et Frapper",
+			'es-es': "Invitación y Golpe",
+			'it-it': "Avvicina e Colpisci",
+			'pt-br': "Convidar e Golpear",
+			'de-de': "Einladen und Zuschlagen"
+		},
+
+		effect: {
+			'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon.",
+			'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif. Cette attaque inflige 30 dégâts au nouveau Pokémon Actif.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo. Este ataque hace 30 puntos de daño al nuevo Pokémon Activo.",
+			'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva. Questo attacco infligge 30 danni al nuovo Pokémon attivo.",
+			'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo. Este ataque causa 30 pontos de dano ao novo Pokémon Ativo.",
+			'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Diese Attacke fügt dem neuen Aktiven Pokémon 30 Schadenspunkte zu."
+		}
+	}, {
+		cost: ["Metal", "Metal", "Colorless"],
+
+		name: {
+			'en-us': "Sharp Fang",
+			'fr-fr': "Croc Aiguisé",
+			'es-es': "Colmillo Afilado",
+			'it-it': "Zannaffilata",
+			'pt-br': "Presa Afiada",
+			'de-de': "Scharfe Fänge"
+		},
+
+		damage: 100
+	}],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "H",
+
+	description: {
+		'en-us': "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760742,
+				tcgplayer: 542856
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760742,
+				tcgplayer: 542856
+			}
+		},
+	],
+
+	illustrator: "aspara",
+
+}
+
+export default card

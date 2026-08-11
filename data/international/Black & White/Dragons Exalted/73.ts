@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragons Exalted'
+
+const card: Card = {
+	name: {
+		'en-us': "Honchkrow",
+		'fr-fr': "Corboss",
+		'es-es': "Honchkrow",
+		'it-it': "Honchkrow",
+		'pt-br': "Honchkrow",
+		'de-de': "Kramshef"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		430,
+	],
+
+	hp: 110,
+
+	types: [
+		"Darkness",
+	],
+
+	evolveFrom: {
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+			},
+			effect: {
+				'en-us': "You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Vous pouvez demander à votre adversaire d'échanger le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Diving Swipe",
+				'fr-fr': "Rafle Plongeante",
+			},
+			effect: {
+				'en-us': "Discard a random card from your opponent's hand.",
+				'fr-fr': "Défaussez au hasard une carte de la main de votre adversaire.",
+			},
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\"",
+	},
+
+	thirdParty: {
+		cardmarket: 280512,
+		tcgplayer: 86163
+	}
+}
+
+export default card

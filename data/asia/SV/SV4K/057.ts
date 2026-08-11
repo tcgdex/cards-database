@@ -1,0 +1,77 @@
+import { Card } from "models/database/card"
+import Set from "../SV4K"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "バクオング",
+		'zh-tw': "爆音怪",
+		'th-th': "บาคุองก์",
+		'ko-kr': "폭음룡"
+	},
+
+	illustrator: "LINNE",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [295],
+	hp: 160,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "大声だけじゃない。 体の 穴から いろいろな 音色を 出し 仲間と 意思疎通を するのだ。",
+		'zh-tw': "不只會大吼，還會從身上的洞發出各種音色 與夥伴們彼此溝通。",
+		'th-th': "ไม่ใช่แค่เสียงดังอย่างเดียว จะส่งเสียงท่วงทำนองต่าง ๆ ออกมาจากรูตามตัวเพื่อสื่อสารกับพวกพ้องด้วย",
+		'ko-kr': "큰 목소리만 가진 것이 아니다. 몸의 구멍에서 다양한 소리를 내어 동료와 의사소통을 한다."
+	},
+
+	stage: "Stage2",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "サドンシャウト",
+			'zh-tw': "乍然嚎叫",
+			'th-th': "ซัดเดนเชาต์",
+			'ko-kr': "서든샤우팅"
+		},
+
+		effect: {
+			'ja-jp': "相手のバトルポケモンと、ついているすべてのカードを、トラッシュする。この番、このポケモンが「ドゴーム」から進化していないなら、このワザは失敗。",
+			'zh-tw': "將對手的戰鬥寶可夢與附加的卡全部丟棄。在這個回合，若這隻寶可夢沒有從「吼爆彈」進化而來，則這個招式失敗。",
+			'th-th': "ทิ้งโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม และการ์ดทั้งหมดที่ติดอยู่ ที่ตำแหน่งทิ้งการ์ด เทิร์นนี้ ถ้าโปเกมอนนี้ไม่ได้วิวัฒนาการมาจาก [โดกอม] ท่าต่อสู้นี้จะล้มเหลว",
+			'ko-kr': "상대의 배틀 포켓몬과 붙어 있는 모든 카드를 트래쉬한다. 이 차례에 이 포켓몬이 「노공룡」에서 진화하지 않았다면 이 기술은 실패한다."
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ヘッドバング",
+			'zh-tw': "鐵頭碰",
+			'th-th': "เฮดแบงก์"
+		},
+
+		damage: 140
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741442,
+				tcgplayer: 565812,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "G",
+}
+
+export default card

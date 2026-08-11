@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Burmy Plant Cloak",
+		'de-de': "Burmy Pflanzenumhang"
+	},
+
+	illustrator: "Kyoko Umemoto",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [412],
+	
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Cloak Evolution",
+				'de-de': "Umhang-Evolution"
+			},
+			effect: {
+				'en-us': "Burmy Plant Cloak can evolve during the turn you play it.",
+				'de-de': "Burmy Pflanzenumhang kann in dem Zug entwickelt werden, in dem du es gespielt hast."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'de-de': "Tackle"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84051,
+				cardmarket: 278928
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278928,
+				tcgplayer: 84051
+			}
+		},
+	],
+
+}
+
+export default card

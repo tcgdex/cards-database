@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Burning Shadows'
+
+const card: Card = {
+	name: {
+		'en-us': "Morelull",
+		'fr-fr': "Spododo",
+		'es-es': "Morelull",
+		'it-it': "Morelull",
+		'pt-br': "Morelull",
+		'de-de': "Bubungus"
+	},
+
+	illustrator: "Hitoshi Ariga",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		755,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fairy",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Darkness",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+	},
+
+	thirdParty: {
+		cardmarket: 299498,
+		tcgplayer: 138591
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

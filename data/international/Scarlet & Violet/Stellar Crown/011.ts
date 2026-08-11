@@ -1,0 +1,96 @@
+import { Card } from "models/database/card"
+import Set from "../Stellar Crown"
+
+const card: Card = {
+	dexId: [830],
+	set: Set,
+
+	name: {
+		'en-us': "Eldegoss",
+		'fr-fr': "Blancoton",
+		'es-es': "Eldegoss",
+		'it-it': "Eldegoss",
+		'pt-br': "Eldegoss",
+		'de-de': "Cottomi"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Grass"],
+	evolveFrom: {
+		'en-us': "Gossifleur",
+		'fr-fr': "Tournicoton",
+		'es-es': "Gossifleur",
+		'it-it': "Gossifleur",
+		'pt-br': "Gossifleur",
+		'de-de': "Cottini"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Breezy Gift",
+			'fr-fr': "Cadeau Zéphyr",
+			'es-es': "Regalo Brisa",
+			'it-it': "Donobrezza",
+			'pt-br': "Presente das Brisas",
+			'de-de': "Luftiges Geschenk"
+		},
+
+		effect: {
+			'en-us': "Put this Pokémon and all attached cards into your deck. If you do, search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Placez dans votre deck ce Pokémon et toutes les cartes qui lui sont attachées. Dans ce cas, cherchez dans votre deck jusqu'à 3 cartes, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Pon este Pokémon y todas las cartas unidas a él en tu baraja. Si lo haces, busca en tu baraja hasta 3 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Metti questo Pokémon e tutte le carte a esso assegnate nel tuo mazzo. Se lo fai, cerca nel tuo mazzo fino a tre carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Coloque este Pokémon e todas as cartas ligadas a ele no seu baralho. Se fizer isto, procure por até 3 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Lege dieses Pokémon und alle angelegten Karten in dein Deck. Wenn du das machst, durchsuche dein Deck nach bis zu 3 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		}
+	}, {
+		cost: ["Grass"],
+
+		name: {
+			'en-us': "Leafage",
+			'fr-fr': "Feuillage",
+			'es-es': "Follaje",
+			'it-it': "Fogliame",
+			'pt-br': "Folhagem",
+			'de-de': "Blattwerk"
+		},
+
+		damage: 50
+	}],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785864,
+				tcgplayer: 567237
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785864,
+				tcgplayer: 567237
+			}
+		},
+	],
+
+	illustrator: "Yuka Tanaka",
+
+}
+
+export default card

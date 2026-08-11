@@ -1,0 +1,89 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Poliwrath",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		62,
+	],
+
+	hp: 90,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Poliwhirl",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Water Gun",
+			},
+			effect: {
+				'en-us': "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Energy after the 2nd doesn't count.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlpool",
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 273938,
+				tcgplayer: 42459
+			}
+		}
+	]
+}
+
+export default card

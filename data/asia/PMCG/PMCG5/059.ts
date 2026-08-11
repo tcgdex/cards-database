@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG5"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マチスのラッタ",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [20],
+	hp: 60,
+	types: ["Colorless"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "フォーカスエネルギー",
+			},
+			effect: {
+				'ja-jp': "次のターン中に、SurgeのRaticateのダブルエッジ攻撃の損傷（基本的な損傷とそれ自体への損傷）が2倍になります。",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ダブルエッジ",
+			},
+			effect: {
+				'ja-jp': "SurgeのRaticate中tはそれ自体に20のダメージを与えます。",
+			},
+			damage: 40,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576808
+			},
+		},
+	],
+};
+
+export default card

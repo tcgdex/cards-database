@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Sandstorm'
+
+const card: Card = {
+	name: {
+		'en-us': "Murkrow",
+		'fr-fr': "Cornèbre",
+		'de-de': "Kramurx"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [198],
+
+	hp: 60,
+
+	types: [
+		"Darkness"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Surprise",
+				'fr-fr': "Surprise",
+				'de-de': "Surprise"
+			},
+			effect: {
+				'en-us': "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck.",
+				'fr-fr': "Choisissez sans regarder une carte de la main de votre adversaire. Regardez-la. Votre adversaire doit ensuite mélanger cette carte à son deck.",
+				'de-de': "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
+			},
+
+		},
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dark Mind",
+				'fr-fr': "Sombre-esprit",
+				'de-de': "Dark Mind"
+			},
+			effect: {
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à un des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+
+	
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275824,
+				tcgplayer: 87648
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275824,
+				tcgplayer: 87648
+			}
+		},
+	],
+
+}
+
+export default card

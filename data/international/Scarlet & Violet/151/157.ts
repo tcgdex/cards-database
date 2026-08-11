@@ -1,0 +1,55 @@
+import { Card } from "models/database/card"
+import Set from "../151"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'fr-fr': "Piste Cyclable",
+		'en-us': "Cycling Road",
+		'es-es': "Camino de Bicis",
+		'it-it': "Pista ciclabile",
+		'pt-br': "Ciclovia",
+		'de-de': "Radweg"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'fr-fr': "Une fois pendant le tour de chaque joueur, ce joueur-là peut défausser une carte Énergie de base de sa main pour piocher une carte.",
+		'en-us': "Once during each player's turn, that player may discard a Basic Energy card from their hand in order to draw a card.",
+		'es-es': "Una vez durante el turno de cada jugador, ese jugador puede descartar 1 carta de Energía Básica de su mano para poder robar una carta.",
+		'it-it': "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare una carta Energia base che ha in mano per pescare una carta.",
+		'pt-br': "Uma vez durante o turno de cada jogador, aquele jogador poderá descartar uma carta de Energia Básica da própria mão para comprar uma carta.",
+		'de-de': "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Basis-Energiekarte aus seiner Hand auf seinen Ablagestapel legen, um 1 Karte zu ziehen."
+	},
+
+	trainerType: "Stadium",
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733752,
+				tcgplayer: 516719,
+				cardtrader: 261165
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733752,
+				tcgplayer: 516719,
+				cardtrader: 261165
+			}
+		},
+	],
+
+	illustrator: "Oswaldo KATO",
+
+	
+}
+
+export default card

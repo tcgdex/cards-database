@@ -1,0 +1,74 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Buneary",
+		'de-de': "Haspiror"
+	},
+
+	illustrator: "sui",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [427],
+	
+	hp: 50,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bunny Hop",
+				'de-de': "Häschenhüpfer"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon that doesn't have any damage counters on it. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners, auf dem keine Schadensmarken liegen. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84044,
+				cardmarket: 278927
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278927,
+				tcgplayer: 84044
+			}
+		},
+	],
+
+}
+
+export default card

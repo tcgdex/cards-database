@@ -1,0 +1,86 @@
+import { Card } from "models/database/card"
+import Set from "../Silver Tempest"
+
+const card: Card = {
+	dexId: [200],
+	set: Set,
+
+	name: {
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'es-es': "Misdreavus",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus",
+		'de-de': "Traunfugil"
+	},
+
+	illustrator: "HYOGONOSUKE",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'en-us': "Confuse Ray",
+			'fr-fr': "Onde Folie",
+			'es-es': "Rayo Confuso",
+			'it-it': "Stordiraggio",
+			'pt-br': "Raio da Confusão",
+			'de-de': "Konfusstrahl"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Confus.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Confundido.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene confuso.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Confuso.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn't deal well with folks who aren't easily frightened.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682110,
+				tcgplayer: 451717
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682110,
+				tcgplayer: 451717
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,74 @@
+import { Card } from "models/database/card";
+import Set from "../SV6";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ドテッコツ",
+		'zh-tw': "鐵骨土人",
+		'th-th': "โดเท็คคทซึ",
+	},
+
+	illustrator: "Aya Kusube",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "鍛え上げられた 筋肉の 体は プロレスラーが 束になって 攻撃しても びくともしない。",
+		'zh-tw': "身體的肌肉經過完美鍛鍊。 即使是職業摔角手一擁而上 進行攻擊，也能毫髮無傷。",
+		'th-th': "ร่างกายมีกล้ามเนื้อที่เพาะบ่มเป็นอย่างดี แม้จะมีนักมวยปล้ำจับกลุ่มกันเข้ามาโจมตีก็ไม่สะดุ้งสะเทือน",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "げんこつ",
+				'zh-tw': "拳骨",
+				'th-th': "กำปั้น",
+			},
+			damage: 20,
+			cost: ["Fighting"],
+		},
+		{
+			name: {
+				'ja-jp': "ばかぢから",
+				'zh-tw': "蠻力",
+				'th-th': "พลังสุดขีด",
+			},
+			damage: "50+",
+			cost: ["Fighting", "Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "のぞむなら、30ダメージ追加。その場合、このポケモンにも30ダメージ。",
+				'zh-tw': "若希望，增加30點傷害。這個情況下，這隻寶可夢也受到30點傷害。",
+				'th-th': "หากต้องการ การโจมตีนี้จะเพิ่มแดเมจอีก 30 เมื่อทำเช่นนั้นแล้ว โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 767153,
+				tcgplayer: 568050,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ドッコラー",
+	},
+
+	retreat: 2,
+	regulationMark: "H",
+	rarity: "Common",
+	dexId: [533],
+};
+
+export default card;

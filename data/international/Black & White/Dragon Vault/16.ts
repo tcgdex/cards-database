@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon Vault'
+
+const card: Card = {
+	name: {
+		'en-us': "Haxorus",
+		'fr-fr': "Tranchodon",
+	},
+
+	illustrator: "Eske Yoshinob",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		612,
+	],
+
+	hp: 140,
+
+	types: [
+		"Dragon",
+	],
+
+	evolveFrom: {
+		'en-us': "Fraxure",
+		'fr-fr': "Incisache",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Axe Slugger",
+				'fr-fr': "Cognée",
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon is a Colorless Pokémon, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Colorless, cette attaque inflige 60 dégâts supplémentaires.",
+			},
+			damage: 60,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dragon Pulse",
+				'fr-fr': "Dracochoc",
+			},
+			effect: {
+				'en-us': "Discard the top card of your deck.",
+				'fr-fr': "Défaussez la carte du dessus de votre deck.",
+			},
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Dragon",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+	},
+
+	thirdParty: {
+		cardmarket: 281016,
+		tcgplayer: 86034
+	}
+}
+
+export default card

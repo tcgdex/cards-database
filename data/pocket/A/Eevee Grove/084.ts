@@ -1,0 +1,59 @@
+import { Card } from "models/database/card"
+import Set from "../Eevee Grove"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Snorlax ex",
+		'fr-fr': "Ronflex-ex"
+	},
+
+	illustrator: "PLANETA CG Works",
+	rarity: "Two Star",
+	category: "Pokemon",
+
+	dexId: [143],
+	hp: 160,
+	types: ["Colorless"],
+	stage: "Basic",
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Full-Mouth Manner",
+			'fr-fr': "Bouche Pleine"
+		},
+
+		effect: {
+			'en-us': "At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it.",
+			'fr-fr': "À la fin de votre tour, si ce Pokémon est sur le Poste Actif, soignez 20 dégâts à ce Pokémon."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Flop-Down Punch",
+			'fr-fr': "Poing Torpide"
+		},
+
+		damage: 130,
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+
+		effect: {
+			'en-us': "This Pokémon is now Asleep.",
+			'fr-fr': "Ce Pokémon est maintenant Endormi."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 4
+}
+
+export default card

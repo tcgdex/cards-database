@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Majestic Dawn'
+
+const card: Card = {
+	name: {
+		'en-us': "Eevee",
+		'fr-fr': "Evoli",
+		'de-de': "Evoli"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		133,
+	],
+
+	hp: 60,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Gnaw",
+				'fr-fr': "Rogne",
+				'de-de': "Nagen"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sand Attack",
+				'fr-fr': "Jet de sable",
+				'de-de': "Sandwirbel"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Falls das Verteidigende Pokémon während des nächsen Zuges deines Gegners angreift, wirft dein Gegner eine Münze. Bei 'Kopf' hat dieser Angriff keine Auswirkungen."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
+	},
+
+	thirdParty: {
+		cardmarket: 278111,
+		tcgplayer: 85085
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

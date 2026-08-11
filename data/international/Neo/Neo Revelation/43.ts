@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Revelation'
+
+const card: Card = {
+	name: {
+		'en-us': "Farfetch'd",
+		'fr-fr': "Canarticho",
+		'de-de': "Porenta"
+	},
+
+	illustrator: "Miki Tanaka",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		83,
+	],
+
+	hp: 50,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+				'de-de': "Gust"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Leek Jab",
+				'fr-fr': "Coud'poireau",
+				'de-de': "Leek Jab"
+			},
+			effect: {
+				'en-us': "This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)",
+				'fr-fr': "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)",
+				'de-de': "This attack can´t be used during your next turn. (Benching Farfetch´d ends this effect.)"
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them.",
+		'fr-fr': "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274629,
+				tcgplayer: 85382
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274629,
+				tcgplayer: 85382
+			}
+		}
+	]
+}
+
+export default card
+

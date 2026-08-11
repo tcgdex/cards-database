@@ -1,0 +1,64 @@
+import { Card } from "models/database/card"
+import Set from "../Triumphant Light"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect",
+		'es-es': "Pupitar",
+		'it-it': "Pupitar",
+		'de-de': "Pupitar",
+		'pt-br': "Pupitar",
+		'ko-kr': "데기라스"
+	},
+
+	illustrator: "match",
+	rarity: "Two Diamond",
+	category: "Pokemon",
+
+	dexId: [247],
+	hp: 80,
+	types: ["Fighting"],
+
+	evolveFrom: {
+		'en-us': "Larvitar"
+	},
+
+	description: {
+		'en-us': "Its shell is as hard as bedrock, and it is also very strong. Its thrashing can topple a mountain.",
+		'fr-fr': "Il est très fort, et sa carapace est aussi\ndure que la pierre. Lorsqu'il est furieux,\nses coups peuvent raser une montagne.",
+		'es-es': "Su caparazón es duro como una piedra y muy\nresistente. Sus golpes pueden derribar montañas.",
+		'it-it': "Il suo corpo è ricoperto da un guscio duro come\nla roccia ed è molto forte. Quando si infuria, è\ncapace di abbattere persino una montagna.",
+		'de-de': "Es ist sehr stark und hat einen steinharten Panzer.\nGerät es außer Kontrolle, kann es Berge dem\nErdboden gleichmachen.",
+		'pt-br': "Seu casco é duro como rocha e muito forte.\nSuas pancadas podem derrubar uma montanha.",
+		'ko-kr': "암반 같은 단단한 껍질로\n둘러싸여 있지만 힘이 강해서\n난동을 부리면 산도 무너져 버린다."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'en-us': "Speed Attack",
+			'fr-fr': "Attaque Rapide",
+			'es-es': "Ataque Fugaz",
+			'it-it': "Attacco Veloce",
+			'de-de': "Tempoangriff",
+			'pt-br': "Ataque em Velocidade",
+			'ko-kr': "스피드어택"
+		},
+
+		damage: 50,
+		cost: ["Fighting", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
+	retreat: 1
+}
+
+export default card

@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ロコン",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [37],
+	hp: 50,
+	types: ["Fire"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Fire", "Fire"],
+			name: {
+				'ja-jp': "レイを混乱させます",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+			},
+			damage: 10,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575599
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577026
+			},
+		}
+	],
+};
+
+export default card

@@ -1,0 +1,104 @@
+import { Card } from 'models/database/card'
+import Set from '../Cosmic Eclipse'
+
+const card: Card = {
+	name: {
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali",
+		'es-es': "Jolteon",
+		'it-it': "Jolteon",
+		'pt-br': "Jolteon",
+		'de-de': "Blitza"
+	},
+
+	illustrator: "Uta",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		135,
+	],
+
+	hp: 100,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		'en-us': "Eevee",
+		'fr-fr': "Évoli",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Speed Cheer",
+				'fr-fr': "Bravos Fulgurants",
+				'es-es': "Ovación Veloz",
+				'it-it': "Incitamento Rapido",
+				'pt-br': "Torcida Veloz",
+				'de-de': "Geschwindigkeitsjubel"
+			},
+			effect: {
+				'en-us': "The attacks of your Pokémon-GX in play that evolve from Eevee cost Colorless less. You can’t apply more than 1 Speed Cheer Ability at a time.",
+				'fr-fr': "Les attaques de vos Pokémon-GX en jeu qui évoluent d’Évoli coûtent Colorless de moins. Vous ne pouvez pas utiliser plus d’un talent Bravos Fulgurants à la fois.",
+				'es-es': "Los ataques de tus Pokémon-GX en juego que evolucionen de Eevee cuestan Colorless menos. No puedes aplicar más de 1 habilidad Ovación Veloz a la vez.",
+				'it-it': "Gli attacchi dei tuoi Pokémon-GX in gioco che si evolvono da Eevee costano Colorless in meno. Può essere applicata solo un’abilità Incitamento Rapido alla volta.",
+				'pt-br': "Os ataques dos seus Pokémon-GX em jogo que evoluam de Eevee custam Colorless a menos. Você não pode usar mais de 1 Habilidade Torcida Veloz por vez.",
+				'de-de': "Die Kosten der Attacken deiner Pokémon-GX im Spiel, die sich aus Evoli entwickeln, verringern sich um Colorless. Du kannst immer nur jeweils 1 Fähigkeit Geschwindigkeitsjubel einsetzen."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Head Bolt",
+				'fr-fr': "Éclair Frontal",
+				'es-es': "Rayo de Cabeza",
+				'it-it': "Zuccalampo",
+				'pt-br': "Raio de Cabeça",
+				'de-de': "Kopf-Blitz"
+			},
+
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its lungs contain an organ that creates electricity. The crackling sound of electricity can be heard when it exhales.",
+	},
+
+	thirdParty: {
+		cardmarket: 407999,
+		tcgplayer: 201244
+	}
+}
+
+export default card

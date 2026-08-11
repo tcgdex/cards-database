@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Floatzel",
+		'fr-fr': "Mustéflott",
+		'de-de': "Bojelin"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [419],
+
+	hp: 70,
+
+	types: [
+		"Water"
+	],
+
+	evolveFrom: {
+		'en-us': "Buizel",
+		'fr-fr': "Mustébouée"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Razor Fin",
+				'fr-fr': "Aileron-rasoir",
+				'de-de': "Rasierflosse"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Jet Screw",
+				'fr-fr': "Vis express",
+				'de-de': "Düsenschraube"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		'en-us': "It is a common sight around fishing ports. It is known to rescue people and carry off prey."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85514,
+				cardmarket: 278749
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278749,
+				tcgplayer: 85514
+			}
+		},
+	],
+
+}
+
+export default card

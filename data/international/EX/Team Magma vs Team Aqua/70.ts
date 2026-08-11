@@ -1,0 +1,44 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Magma vs Team Aqua'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Magma Schemer",
+		'fr-fr': "Manipulateur de Team Magma",
+		'de-de': "Team Magma Intrigant"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Supporter",
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard any 1 Pokémon from your hand. Then draw 3 cards. If you discarded a Pokémon with Team Magma in its name, draw 4 cards instead.",
+		'fr-fr': "Défaussez 1 Pokémon de votre main. Ensuite, piochez 3 cartes. Si vous avez défaussé un Pokémon dont le nom comporte Team Magma, piochez 4 cartes.",
+		'de-de': "Discard any 1 Pokémon from your hand. Then draw 3 cards. If your discarded a Pokémon with Team Magma in its name, draw 4 cards instead."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275847,
+				tcgplayer: 89816
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275847,
+				tcgplayer: 89816
+			}
+		},
+	],
+
+	retreat: 0
+}
+
+export default card

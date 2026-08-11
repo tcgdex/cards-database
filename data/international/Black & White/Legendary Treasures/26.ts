@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Pignite",
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		499,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Tepig",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rollout",
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flamethrower",
+			},
+			effect: {
+				'en-us': "Discard an Energy attached to this Pokémon.",
+			},
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "When its internal fire flares up, its movements grow sharper and faster. When it trouble, it emits smoke.",
+	},
+
+	thirdParty: {
+		cardmarket: 281177,
+		tcgplayer: 88063
+	}
+}
+
+export default card

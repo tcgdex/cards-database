@@ -1,0 +1,62 @@
+import { Card } from 'models/database/card'
+import Set from '../HeartGold SoulSilver'
+
+const card: Card = {
+	name: {
+		'en-us': "Rainbow Energy",
+		'fr-fr': "Énergie multicolore",
+		'de-de': "Regenbogen-Energie"
+	},
+
+	illustrator: "Kent Kanetsuna",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+
+	effect: {
+		'fr-fr': "Attachez une énergie Multicolore à l’un de vos Pokémon. En jeu, l’énergie multicolore fournit tout type d’énergie, mais une seule énergie à la fois. (Fournit uniquement de l’énergie.) Lorsque vous attachez cette carte de votre main à l’un de vos Pokémon, placez un marqueur de dégâts sur ce Pokémon. (Lorsqu’elle n’est pas en jeu, l’énergie multicolore compte comme de l’énergie Colorless.)",
+		'en-us': "Attach Rainbow Energy to 1 of your Pokémon. While in play, Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.) When you attach this card from your hand to 1 of your Pokémon, put 1 damage counter on that Pokémon. (While not in play, Rainbow Energy counts as Colorless Energy.)",
+		'de-de': "Lege Regenbogen-Energie an 1 deiner Pokémon an. Solange Regenbogen-Energie im Spiel ist, zählt sie als jeder Energietyp, spendet aber immer nur eine Energie auf einmal. (Sie hat keinen Effekt, außer dass sie Energie spendet.) Wenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf dieses Pokémon. (Wenn Regenbogen-Energie nicht im Spiel ist, zählt sie als -Energie.)"
+	},
+
+	energyType: "Special",
+
+	hp: 0,
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88548,
+				cardmarket: 279076
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88548,
+				cardmarket: 279076
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 450228,
+				tcgplayer: 193683,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				cardmarket: 868219,
+				tcgplayer: 480466,
+			}
+		},
+	],
+
+}
+
+export default card

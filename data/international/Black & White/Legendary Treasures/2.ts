@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Tangrowth",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		465,
+	],
+
+	hp: 120,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Tangela",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Bind Down",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flog",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 more damage.",
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+	},
+
+	thirdParty: {
+		cardmarket: 281153,
+		tcgplayer: 89756
+	}
+}
+
+export default card

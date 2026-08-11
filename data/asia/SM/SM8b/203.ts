@@ -1,0 +1,49 @@
+import { Card } from "models/database/card";
+import Set from "../SM8b";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "オンバット",
+	},
+
+	illustrator: "Mizue",
+	category: "Pokemon",
+	hp: 50,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "真っ暗な 洞窟で 暮らす。 ２０万ヘルツの 超音波を 大きな 耳から 発射する。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "こうそくいどう" },
+			damage: 10,
+			cost: ["Colorless"],
+			effect: {
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-20" }],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 551511,
+			},
+		},
+	],
+
+	retreat: 1,
+	rarity: "Ultra Rare",
+	dexId: [714],
+};
+
+export default card;

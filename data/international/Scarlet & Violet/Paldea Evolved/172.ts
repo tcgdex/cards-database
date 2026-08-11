@@ -1,0 +1,62 @@
+import { Card } from "models/database/card"
+import Set from "../Paldea Evolved"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'fr-fr': "Ordres du Boss",
+		'en-us': "Boss's Orders",
+		'es-es': "Órdenes de Jefes",
+		'it-it': "Ordini del Capo",
+		'pt-br': "Ordem da Chefia",
+		'de-de': "Befehl vom Boss"
+	},
+
+	rarity: "Rare",
+	category: "Trainer",
+
+	effect: {
+		'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+		'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+		'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+		'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+		'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
+		'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715647,
+				tcgplayer: 497544,
+				cardtrader: 248813
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['asia-promo'],
+			thirdParty: {
+				cardmarket: 872163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715647,
+				tcgplayer: 497544,
+				cardtrader: 248813
+			}
+		},
+	],
+
+	illustrator: "NC Empire",
+
+	
+}
+
+export default card

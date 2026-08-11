@@ -1,0 +1,118 @@
+import { Card } from "models/database/card"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "N's Vanilluxe",
+		'fr-fr': "Sorbouboul de N",
+		'es-es': "Vanilluxe de N",
+		'es-mx': "Vanilluxe de N",
+		'de-de': "Ns Gelatwino",
+		'it-it': "Vanilluxe di N",
+		'pt-br': "Vanilluxe do N"
+	},
+
+	evolveFrom: {
+		'en-us': "N's Vanillish",
+		'fr-fr': "Sorboul de N",
+		'es-es': "Vanillish de N",
+		'es-mx': "Vanillish de N",
+		'de-de': "Ns Gelatroppo",
+		'it-it': "Vanillish di N",
+		'pt-br': "Vanillish do N",
+	},
+
+	illustrator: "imoniii",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 150,
+	types: ["Water"],
+	stage: "Stage2",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Snow Coating",
+			'fr-fr': "Couche de Neige",
+			'es-es': "Capa de Nieve",
+			'es-mx': "Nevada Amontonada",
+			'de-de': "Schneeschicht",
+			'it-it': "Cumulo Nevoso",
+			'pt-br': "Camada de Neve"
+		},
+
+		effect: {
+			'en-us': "Double the number of damage counters on each of your opponent's Pokémon.",
+			'fr-fr': "Doublez le nombre de marqueurs de dégâts sur chacun des Pokémon de votre adversaire.",
+			'es-es': "Dobla la cantidad de contadores de daño en cada uno de los Pokémon de tu rival.",
+			'es-mx': "Duplica la cantidad de contadores de daño en cada uno de los Pokémon de tu rival.",
+			'de-de': "Verdopple die Anzahl der Schadensmarken auf jedem Pokémon deines Gegners.",
+			'it-it': "Raddoppia il numero di segnalini danno su ciascuno dei Pokémon del tuo avversario.",
+			'pt-br': "Duplique o número de contadores de dano em cada um dos Pokémon do seu oponente."
+		}
+	}, {
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Blizzard",
+			'fr-fr': "Blizzard",
+			'es-es': "Ventisca",
+			'es-mx': "Ventisca",
+			'de-de': "Blizzard",
+			'it-it': "Bora",
+			'pt-br': "Nevasca"
+		},
+
+		effect: {
+			'en-us': "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige aussi 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque también hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'es-mx': "Este ataque también hace 10 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'de-de': "Diese Attacke fügt auch jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			'it-it': "Questo attacco infligge anche 10 danni a ciascuno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque também causa 10 pontos de dano a cada um dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+		},
+
+		damage: 120
+	}],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "I",
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869662,
+			tcgplayer: 675863
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870218,
+			tcgplayer: 676893
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870217,
+			tcgplayer: 677033
+		}
+	},
+],
+}
+
+export default card

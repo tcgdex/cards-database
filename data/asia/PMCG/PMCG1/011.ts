@@ -1,0 +1,58 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "フシギバナ",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [3],
+	hp: 100,
+	types: ["Grass"],
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'ja-jp': "エネルギートランス",
+			},
+			effect: {
+				'ja-jp': "ターン中に好きなように、ポケモンの1匹からポケモンの1つに草のエネルギーを移動することができます。このポクモンが眠っている、混乱し、麻痺している場合、このポケモンの力は使用できません。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Grass", "Grass", "Grass", "Grass"],
+			name: {
+				'ja-jp': "ソーラービーム",
+			},
+			damage: 60,
+		},
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 575615
+			},
+		},
+		{
+			type: "holo",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577042
+			},
+		}
+	],
+};
+
+export default card

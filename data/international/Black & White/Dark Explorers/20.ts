@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../Dark Explorers'
+
+const card: Card = {
+	name: {
+		'en-us': "Larvesta",
+		'fr-fr': "Pyronille",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
+	},
+
+	illustrator: "match",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		636,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ram",
+				'fr-fr': "Collision"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flare",
+				'fr-fr': "Flamboiement"
+			},
+
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+	},
+
+	thirdParty: {
+		cardmarket: 280348,
+		tcgplayer: 86629
+	}
+}
+
+export default card

@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../White Flare"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Harlequin",
+		'fr-fr': "Clown",
+		'de-de': "Kasper",
+		'it-it': "Buffone",
+		'pt-br': "Arlequim",
+		'es-es': "Arlequín",
+		'es-mx': "Arlequín"
+	},
+
+	illustrator: "Teeziro",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Each player shuffles their hand into their deck. Then, flip a coin. If heads, you draw 5 cards, and your opponent draws 3 cards. If tails, you draw 3 cards, and your opponent draws 5 cards.",
+		'fr-fr': "Chaque joueur mélange sa main avec son deck. Ensuite, lancez une pièce. Si c'est face, vous piochez 5 cartes et votre adversaire pioche 3 cartes. Si c'est pile, vous piochez 3 cartes et votre adversaire pioche 5 cartes.",
+		'de-de': "Jeder Spieler mischt seine Handkarten in sein Deck. Wirf anschließend 1 Münze. Bei Kopf ziehst du 5 Karten und dein Gegner zieht 3 Karten. Bei Zahl ziehst du 3 Karten und dein Gegner zieht 5 Karten.",
+		'it-it': "Ciascun giocatore rimischia le carte che ha in mano nel proprio mazzo. Poi tu lanci una moneta. Se esce testa, tu peschi cinque carte e il tuo avversario ne pesca tre. Se esce croce, tu peschi tre carte e il tuo avversario ne pesca cinque.",
+		'pt-br': "Cada jogador embaralha a própria mão no próprio baralho. Em seguida, jogue uma moeda. Se sair cara, você comprará 5 cartas e o seu oponente comprará 3 cartas. Se sair coroa, você comprará 3 cartas e o seu oponente comprará 5 cartas.",
+		'es-es': "Cada jugador pone las cartas de su mano en su baraja y las baraja todas. Después, lanzas 1 moneda. Si sale cara, robas 5 cartas, y tu rival roba 3 cartas. Si sale cruz, robas 3 cartas, y tu rival roba 5 cartas.",
+		'es-mx': "Cada jugador pone las cartas de su mano en su mazo y las baraja todas. Después, lanzas 1 moneda. Si sale cara, tú robas 5 cartas, y tu rival roba 3 cartas. Si sale cruz, tú robas 3 cartas, y tu rival roba 5 cartas."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836057,
+				tcgplayer: 642198
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836057,
+				tcgplayer: 642198
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836644,
+				tcgplayer: 645195
+			}
+		},
+	],
+}
+
+export default card

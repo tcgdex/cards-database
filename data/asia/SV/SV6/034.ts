@@ -1,0 +1,61 @@
+import { Card } from "models/database/card";
+import Set from "../SV6";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ナミイルカ",
+		'zh-tw': "波普海豚",
+		'th-th': "นามิอิรุกะ",
+	},
+
+	illustrator: "Narumi Sato",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "水のリングは 頭の 穴から 出る 粘着液と 海の水を 混ぜて 作り出したものなのだ。",
+		'zh-tw': "牠的水環是頭部的洞 冒出來的黏膠與海水 混合後製造出來的。",
+		'th-th': "วงแหวนน้ำถูกสร้างขึ้นมาจากการผสมกันของของเหลวเหนียวหนืดที่ออกมาจากรูที่หัวและน้ำทะเล",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "アクアスラッシュ",
+				'zh-tw': "水流斬",
+				'th-th': "อควาสแลช",
+			},
+			damage: 30,
+			cost: ["Water"],
+			effect: {
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+				'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 767127,
+				tcgplayer: 568024,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "H",
+	rarity: "Common",
+	dexId: [963],
+};
+
+export default card;

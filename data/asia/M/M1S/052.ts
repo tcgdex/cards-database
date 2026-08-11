@@ -1,0 +1,56 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "デリバード"
+	},
+	illustrator: "Naoyo Kimura",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Colorless"],
+	description: {
+		'ja-jp': "1日ずっとエサを運んでる。遭難した人がデリバードのエサで助かった話もある。"
+	},
+	stage: "Basic",
+	attacks: [{
+		name: {
+			'ja-jp': "ファストギフト"
+		},
+		effect: {
+			'ja-jp': "このワザは、先行プレイヤーの最初の番でも使える。自分の山札から好きなカードを1枚選び、手札に加える。そして山札を切る。"
+		},
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'ja-jp': "ひっぱたく"
+		},
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
+	}],
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840611,
+				tcgplayer: 647255,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [225]
+}
+
+export default card

@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Undaunted'
+
+const card: Card = {
+	name: {
+		'en-us': "Jolteon",
+		'fr-fr': "Voltali",
+		'de-de': "Blitza"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [135],
+
+	hp: 80,
+
+	types: [
+		"Lightning"
+	],
+
+	evolveFrom: {
+		'en-us': "Eevee",
+		'fr-fr': "Evoli"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Jolteon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Voltali pendant le prochain tour de votre adversaire.",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Blitza zugefügt werden."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mach Bolt",
+				'fr-fr': "Éclair fulgurant",
+				'de-de': "Flotter Sprung"
+			},
+
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 0,
+
+	description: {
+		'en-us': "It concentrates the weak electric charges emitted by its cells and launches wicked lightning bolts."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279281,
+				tcgplayer: 86345
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279281,
+				tcgplayer: 86345
+			}
+		}
+	],
+
+}
+
+export default card

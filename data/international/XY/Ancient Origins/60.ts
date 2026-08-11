@@ -1,0 +1,111 @@
+import { Card } from 'models/database/card'
+import Set from '../Ancient Origins'
+
+const card: Card = {
+	name: {
+		'en-us': "Goodra",
+		'fr-fr': "Muplodocus",
+		'es-es': "Goodra",
+		'it-it': "Goodra",
+		'pt-br': "Goodra",
+		'de-de': "Viscogon"
+	},
+
+	illustrator: "Saya Tsuruta",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		706,
+	],
+
+	hp: 150,
+
+	types: [
+		"Dragon",
+	],
+
+	evolveFrom: {
+		'en-us': "Sliggoo",
+		'fr-fr': "Colimucus",
+		'es-es': "Sliggoo",
+		'it-it': "Sliggoo",
+		'pt-br': "Sliggoo",
+		'de-de': "Viscargot"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Liquid Blow",
+				'fr-fr': "Coup Liquide",
+				'es-es': "Golpe Líquido",
+				'it-it': "Colpofluido",
+				'pt-br': "Sopro Líquido",
+				'de-de': "Flüssiger Hieb"
+			},
+			effect: {
+				'en-us': "This attack does 20 damage to 1 of your opponent's Pokémon for each Colorless in its Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 20 dégâts à l'un des Pokémon de votre adversaire pour chaque Colorless dans son Coût de Retraite. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'es-es': "Este ataque hace 20 puntos de daño a 1 de los Pokémon de tu rival por cada Colorless en su Coste de Retirada. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+				'it-it': "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario per ogni Colorless nel suo costo di ritirata. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
+				'pt-br': "Este ataque causa 20 de danos a um dos Pokémon do seu oponente para cada Colorless no seu Custo para Recuar. (Não aplique Fraqueza e Resistência a Pokémon no Banco.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon deines Gegners 20 Schadenspunkte für jedes Colorless-Symbol in dessen Rückzugskosten zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Fairy",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Shining Breath",
+				'fr-fr': "Souffle Étincelant",
+				'es-es': "Aliento Brillante",
+				'it-it': "Spirolucente",
+				'pt-br': "Hálito Brilhante",
+				'de-de': "Leuchtender Atem"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, this Pokémon can't be affected by any Special Conditions.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, ce Pokémon ne peut être affecté par aucun État Spécial.",
+				'es-es': "Durante el próximo turno de tu rival, este Pokémon no se puede ver afectado por ninguna Condición Especial.",
+				'it-it': "Durante il prossimo turno del tuo avversario, questo Pokémon non può essere influenzato da condizioni speciali.",
+				'pt-br': "Durante a próxima vez do seu oponente, este Pokémon não será afetado por quaisquer Condições Especiais.",
+				'de-de': "Während des nächsten Zuges deines Gegners kann dieses Pokémon nicht von Speziellen Zuständen betroffen werden."
+			},
+			damage: 110,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fairy",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "It attacks with retractable horns. It throws a punch that's the equivalent of the force of a hundred pro boxers.",
+	},
+
+	thirdParty: {
+		cardmarket: 284241,
+		tcgplayer: 101482
+	}
+}
+
+export default card

@@ -1,0 +1,68 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Druddigon",
+	},
+
+	illustrator: "match",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		621,
+	],
+
+	hp: 100,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Rough Skin",
+			},
+			effect: {
+				'en-us': "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Clutch",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+			},
+			damage: 60,
+
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+	},
+
+	thirdParty: {
+		cardmarket: 281257,
+		tcgplayer: 84981
+	}
+}
+
+export default card

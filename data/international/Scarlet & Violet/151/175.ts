@@ -1,0 +1,87 @@
+import { Card } from "models/database/card"
+import Set from "../151"
+
+const card: Card = {
+	dexId: [54],
+	set: Set,
+
+	name: {
+		'fr-fr': "Psykokwak",
+		'en-us': "Psyduck",
+		'es-es': "Psyduck",
+		'it-it': "Psyduck",
+		'pt-br': "Psyduck",
+		'de-de': "Enton"
+	},
+
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'fr-fr': "Réflexion Excessive",
+			'en-us': "Overthink",
+			'es-es': "Cavilar",
+			'it-it': "Rimuginare",
+			'pt-br': "Fundir a Cuca",
+			'de-de': "Kopfzerbrechen"
+		},
+
+		effect: {
+			'fr-fr': "Pendant son prochain tour, chaque fois que votre adversaire lance une pièce, considérez que c'est pile.",
+			'en-us': "During your opponent's next turn, whenever they flip a coin, treat it as tails.",
+			'es-es': "Durante el próximo turno de tu rival, cada vez que este lance una moneda, se considerará que ha salido cruz.",
+			'it-it': "Ogni volta che il tuo avversario lancia una moneta durante il suo prossimo turno, il risultato viene considerato croce.",
+			'pt-br': "Durante o próximo turno do seu oponente, sempre que ele jogar uma moeda, trate-a como coroa.",
+			'de-de': "Jedes Mal, wenn dein Gegner während seines nächsten Zuges 1 Münze wirft, gilt das Ergebnis als Zahl."
+		}
+	}, {
+		cost: ["Water"],
+
+		name: {
+			'fr-fr': "Pistolet à O",
+			'en-us': "Water Gun",
+			'es-es': "Pistola Agua",
+			'it-it': "Pistolacqua",
+			'pt-br': "Revólver d'Água",
+			'de-de': "Aquaknarre"
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733770,
+				tcgplayer: 517035,
+				cardtrader: 261331
+			}
+		},
+	],
+
+	illustrator: "Whisker",
+
+	
+}
+
+export default card

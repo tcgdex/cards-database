@@ -1,0 +1,84 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Slowpoke"
+	},
+
+	illustrator: "Miki Tanaka",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [79],
+
+	hp: 50,
+
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spacing Out"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it."
+			},
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+			],
+			name: {
+				'en-us': "Scavenge"
+			},
+			effect: {
+				'en-us': "Discard 1 Psychic Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274858,
+				tcgplayer: 89324
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89324,
+				cardmarket: 274858
+			}
+		}
+	],
+
+}
+
+export default card

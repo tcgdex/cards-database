@@ -1,11 +1,11 @@
+import { objectOmit } from '@dzeio/object-util'
+import cluster from 'node:cluster'
+import { sets } from '../../../V2/Components/Set'
+import ClusterUtils from '../../threadUtils'
 import type { Result, TCGPlayerAPI } from './interface'
+import TCGPlayerProxy from './proxy'
 import TCGCSV from './tcgcsv'
 import TCGPlayer from './tcgplayer'
-import { sets } from '../../../V2/Components/Set'
-import { objectOmit } from '@dzeio/object-util'
-import TCGPlayerProxy from './proxy'
-import cluster from 'node:cluster'
-import ClusterUtils from '../../threadUtils'
 
 let cache: Record<number, Record<string, Result> & { updated: string }> = {}
 let lastFetch: Date | undefined = undefined

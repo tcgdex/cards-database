@@ -1,0 +1,117 @@
+import { Card } from 'models/database/card'
+import Set from '../Jungle'
+
+const card: Card = {
+	name: {
+		'en-us': "Butterfree",
+		'fr-fr': "Papilusion",
+		'de-de': "Smettbo"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		12,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				'fr-fr': "Si votre adversaire a au moins 1 Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Défenseur. (Infligez les dégâts avant de faire l'échange des Pokémon.)",
+				'de-de': "Falls dein gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémonaus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Mega Drain",
+				'fr-fr': "Mega-sangsue",
+				'de-de': "Megasauger"
+			},
+			effect: {
+				'en-us': "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10).",
+				'fr-fr': "Retirez de Papilusion un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondir à la dizaine la plus proche). Si Papilusion a moins de marqueurs de 10 dégâts, retirez-les tous.",
+				'de-de': "Entferne von Smettbo Schadensmarken in Höhe der Hälfte des Schadens (auf die nächsten 10 aufgerundet), der dem verteidigenden Pokémon durch diesen Angriff zugefügt wurden (nachdem Schwäche und Resistenz abgerechnet wurden)."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+		'fr-fr': "En combat, il bat des ailes très rapidement pour projeter des poudres toxiques sur ses ennemis."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273830,
+				tcgplayer: 45136
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273830,
+				tcgplayer: 45136
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["d-edition-error"]
+		},
+	],
+}
+
+export default card

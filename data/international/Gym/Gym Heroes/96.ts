@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Sabrina's Venonat"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [48],
+
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Poison Antennae"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Poisoned."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Removal Beam"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88891,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88891,
+				cardmarket: 274232
+			}
+		}
+	],
+}
+
+export default card
+

@@ -1,0 +1,105 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [448],
+	set: Set,
+
+	name: {
+		'en-us': "Lucario",
+		'fr-fr': "Lucario",
+		'es-es': "Lucario",
+		'it-it': "Lucario",
+		'pt-br': "Lucario",
+		'de-de': "Lucario"
+	},
+
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fighting"],
+	evolveFrom: {
+		'en-us': "Riolu",
+		'fr-fr': "Riolu",
+		'es-es': "Riolu",
+		'it-it': "Riolu",
+		'pt-br': "Riolu",
+		'de-de': "Riolu"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'en-us': "Avenging Knuckle",
+			'fr-fr': "Poing Vengeur",
+			'es-es': "Nudillo Vengador",
+			'it-it': "Pugno Vendicativo",
+			'pt-br': "Punho Vingativo",
+			'de-de': "Racheknöchel"
+		},
+
+		effect: {
+			'en-us': "If any of your {F} Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 120 more damage.",
+			'fr-fr': "Si au moins l'un de vos Pokémon {F} a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si alguno de tus Pokémon {F} quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon {F} è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se algum dos seus Pokémon {F} tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Wenn mindestens 1 deiner {F}-Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 120 Schadenspunkte mehr zu."
+		},
+
+		damage: "30+"
+	}, {
+		cost: ["Fighting", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Accelerating Stab",
+			'fr-fr': "Poignard Accélérateur",
+			'es-es': "Puñalada Aceleradora",
+			'it-it': "Pugnalata Rapida",
+			'pt-br': "Estocada Aceleratória",
+			'de-de': "Beschleunigter Stich"
+		},
+
+		effect: {
+			'en-us': "During your next turn, this Pokémon can't use Accelerating Stab.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen."
+		},
+
+		damage: 120
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751713,
+				tcgplayer: 534753,
+				cardtrader: 274359
+			}
+		},
+	],
+
+	illustrator: "Shin Nagasawa",
+
+	description: {
+		'en-us': "It's said that no foe can remain invisible to Lucario, since it can detect auras—even those of foes it could not otherwise see.",
+	},
+
+}
+
+export default card

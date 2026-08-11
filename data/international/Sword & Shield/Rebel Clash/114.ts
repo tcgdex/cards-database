@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Rebel Clash'
+
+const card: Card = {
+	dexId: [434],
+
+	name: {
+		'en-us': "Stunky",
+		'fr-fr': "Moufouette",
+		'es-es': "Stunky",
+		'it-it': "Stunky",
+		'pt-br': "Stunky",
+		'de-de': "Skunkapuh"
+	},
+
+	illustrator: "Shigenori Negishi",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Poison Gas",
+				'fr-fr': "Gaz Toxik",
+				'es-es': "Gas Venenoso",
+				'it-it': "Velenogas",
+				'pt-br': "Gás Venenoso",
+				'de-de': "Giftwolke"
+			},
+			effect: {
+				'en-us': "Your opponent's Active Pokémon is now Poisoned.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Empoisonné.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Envenenado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene avvelenato.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Envenenado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+	hp: 70,
+	types: ["Darkness"],
+	regulationMark: "D",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "From its rear, it sprays a foul-smelling liquid at opponents. It aims for their faces, and it can hit them from over 16 feet away."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457978,
+				tcgplayer: 213206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457978,
+				tcgplayer: 213206
+			}
+		},
+	],
+}
+
+export default card

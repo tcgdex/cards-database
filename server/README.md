@@ -48,3 +48,13 @@ you can add environment variables to add features to the server:
 ### Using Docker
 
 Go to the parent directory and build the Dockerfile!
+
+## Build configs
+
+```bash
+# generate ts config from openapi
+npx openapi-typescript ./public/v2/openapi.yaml -o ./src/openapi.ts
+
+# Generate GraphQL from ts config
+bun a.ts test.ts Card > out.gql
+```

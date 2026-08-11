@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG3"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ブーバー",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [126],
+	hp: 70,
+	types: ["Fire"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Fire"],
+			name: {
+				'ja-jp': "煙幕",
+			},
+			effect: {
+				'ja-jp': "対戦相手の次のターン中、防御するポケモンが攻撃しようとする場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は起こりません。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Fire", "Fire"],
+			name: {
+				'ja-jp': "スモッグ",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、相手のアクティブなポケモンが毒されます。",
+			},
+			damage: 20,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575703
+			},
+		},
+	],
+};
+
+export default card

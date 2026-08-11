@@ -1,0 +1,60 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Scramble Energy",
+		'fr-fr': "Énergie codée",
+		'de-de': "Misch-Energie"
+	},
+
+	illustrator: "Takumi Akabane",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+	energyType: "Special",
+
+	effect: {
+		'en-us': "Scramble Energy can be attached only to an Evolved Pokémon (excluding Pokémon-ex). Scramble Energy provides Colorless Energy. While in play, if you have more Prize cards left than your opponent, Scramble Energy provides every type of Energy but provides only 3 in any combination at a time. If the Pokémon Scramble Energy is attached to isn't an Evolved Pokémon (or evolves into Pokémon-ex), discard Scramble Energy.",
+		'de-de': "Scramble Energy can be attached only to an Evolved Pokémon (excluding Pokémon-ex). Scramble Energy provides  Energy. While in play, if you have more Prize cards left than your opponent, Scramble Energy provides every type of Energy but provide only 3 in any combination at a time. If the Pokémon Scramble Energy is attached to isn't an Evolved Pokémon (or evolves into Pokémon-ex). discard Scramble Energy.",
+		'fr-fr': "Énergie codée ne peut être attachée qu'à un Pokémon Évolué (Pokémon-ex exclus). Énergie codée fournit une Énergie Incolore. Lorsqu'elle est en jeu, s'il vous reste plus de cartes Récompenses que votre adversaire, Énergie codée fournit tous les types d'Énergie mais seulement 3 de n'importe quelle combinaison à la fois. Si le Pokémon auquel Énergie codée est attachée n'est pas un Pokémon Évolué (ou un Pokémon qui évolue en Pokémon-ex), défaussez -la.",
+	},
+
+
+	variants: [
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88987,
+				cardmarket: 276498
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88987,
+				cardmarket: 276498
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				tcgplayer: 477583,
+				cardmarket: 871589
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477584,
+				cardmarket: 871588
+			},
+		},
+	],
+
+}
+
+export default card

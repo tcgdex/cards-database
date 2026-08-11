@@ -1,0 +1,133 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Flygon",
+		'fr-fr': "Flygon Niv. 65",
+		'de-de': "Libelldra"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [330],
+
+	hp: 120,
+
+	types: [
+		"Colorless"
+	],
+
+	evolveFrom: {
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Rainbow Float",
+				'fr-fr': "Flottement arc-en-ciel",
+				'de-de': "Regenbogenschweber"
+			},
+			effect: {
+				'en-us': "If any basic Energy card attached to Flygon is the same type as any of your Pokémon, the Retreat Cost for those Pokémon is 0.",
+				'fr-fr': "Si une carte Énergie de base attachée à Libegon est du même type qu'un de vos Pokémon, le Coût de retraite de ces Pokémon est de 0.",
+				'de-de': "Jedes deiner Pokémon, das denselben Typ hat wie eine beliebige an Libelldra angelegte Basis-Energiekarte, hat Rückzugskosten 0."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sand Wall",
+				'fr-fr': "Mur de sable",
+				'de-de': "Sandwall"
+			},
+			effect: {
+				'en-us': "Discard a Stadium card your opponent has in play. If you do, prevent all effects of an attack, including damage, done to Flygon during your opponent's next turn.",
+				'fr-fr': "Défaussez une carte Stade que votre adversaire a en jeu. Prévenez alors tous les effets d'attaque, dégâts inclus, infligés à Libegon lors du prochain tour de votre adversaire.",
+				'de-de': "Lege eine Stadion-Karte deines Gegners auf den Ablagestapel deines Gegners. Wenn du das machst, verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Libelldra zugefügt würden."
+			},
+			damage: 40,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Power Swing",
+				'fr-fr': "Va-et-vient puissant",
+				'de-de': "Schwungkraft"
+			},
+			effect: {
+				'en-us': "Does 60 damage plus 10 more damage for each Evolved Pokémon on your Bench.",
+				'fr-fr': "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque Pokémon Évolué se trouvant sur votre Banc.",
+				'de-de': "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jedes entwickelte Pokémon auf deiner Bank zu."
+			},
+			damage: "60+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Colorless",
+			value: "+30"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85526,
+				cardmarket: 278579,
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278579,
+				tcgplayer: 85526
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125054
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 868871,
+				tcgplayer: 479898
+			}
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Ruby & Sapphire'
+
+const card: Card = {
+	name: {
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu",
+		'de-de': "Jungglut"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [256],
+
+	hp: 80,
+
+	types: [
+		"Fire"
+	],
+
+	evolveFrom: {
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Natural Cure",
+				'fr-fr': "Remède naturel",
+				'de-de': "Innere Kraft"
+			},
+			effect: {
+				'en-us': "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie  à Galifeu, retirez-lui tous ses États Spéciaux.",
+				'de-de': "Wenn du eine -Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Ausfall"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
+				'de-de': "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275676,
+				tcgplayer: 84401
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275676,
+				tcgplayer: 84401
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477370
+			}
+		},
+	],
+
+}
+
+export default card

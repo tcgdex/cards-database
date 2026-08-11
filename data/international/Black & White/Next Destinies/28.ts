@@ -1,0 +1,66 @@
+import { Card } from 'models/database/card'
+import Set from '../Next Destinies'
+
+const card: Card = {
+	name: {
+		'en-us': "Panpour",
+		'fr-fr': "Flotajou",
+		'es-es': "Panpour",
+		'it-it': "Panpour",
+		'pt-br': "Panpour",
+		'de-de': "Sodamak"
+	},
+
+	illustrator: "Reiko Tanoue",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		515,
+	],
+
+	hp: 70,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Water Gun",
+				'fr-fr': "Pistolet à O",
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+	},
+
+	thirdParty: {
+		cardmarket: 280253,
+		tcgplayer: 87929
+	}
+}
+
+export default card

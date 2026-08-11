@@ -1,0 +1,112 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Revelation'
+
+const card: Card = {
+	name: {
+		'en-us': "Quagsire",
+		'fr-fr': "Maraiste",
+		'de-de': "Morlord"
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		195,
+	],
+
+	hp: 70,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Mud Slap"
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlpool",
+				'fr-fr': "Lessiveuse",
+				'de-de': "Whirlpool"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				'fr-fr': "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
+				'de-de': "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
+		'fr-fr': "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274634,
+				tcgplayer: 88469
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274634,
+				tcgplayer: 88469
+			}
+		}
+	]
+}
+
+export default card
+

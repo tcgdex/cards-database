@@ -1,0 +1,99 @@
+import { Card } from 'models/database/card'
+import Set from '../Triumphant'
+
+const card: Card = {
+	name: {
+		'en-us': "Nidorino",
+		'fr-fr': "Nidorino",
+		'de-de': "Nidorino"
+	},
+
+	illustrator: "match",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [33],
+
+	hp: 80,
+
+	types: [
+		"Psychic"
+	],
+
+	evolveFrom: {
+		'en-us': "Nidoran♂",
+		'fr-fr': "Nidoran♂"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Horn Attack",
+				'fr-fr': "Koud’korne",
+				'de-de': "Hornattacke"
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Lunge",
+				'fr-fr': "Coup rapide",
+				'de-de': "Ausfall"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
+				'de-de': "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87747,
+				cardmarket: 279576
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279576,
+				tcgplayer: 87747
+			}
+		},
+	],
+
+}
+
+export default card

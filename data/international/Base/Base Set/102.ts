@@ -1,0 +1,50 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Water Energy",
+		'fr-fr': "Énergie Eau",
+		'de-de': "Wasserenergie",
+		'it-it': "Energia Acqua",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Common",
+	category: "Energy",
+	set: Set,
+	stage: "Basic",
+	energyType: "Normal",
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273797,
+				tcgplayer: 42350
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107098
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107098
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

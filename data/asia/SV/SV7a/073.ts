@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../SV7a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "エアームド"
+	},
+
+	illustrator: "Takumi Wada",
+	category: "Pokemon",
+	dexId: [227],
+	hp: 110,
+	types: ["Metal"],
+
+	description: {
+		'ja-jp': "抜け落ちた 羽根は 薄く 鋭いので 刀として 使われていたことも あったらしい。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Metal", "Colorless"],
+
+		name: {
+			'ja-jp': "はがねのつばさ"
+		},
+
+		damage: 50,
+
+		effect: {
+			'ja-jp': "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 788046,
+				tcgplayer: 579455,
+			},
+		},
+	],
+
+	retreat: 1,
+	rarity: "None",
+}
+
+export default card

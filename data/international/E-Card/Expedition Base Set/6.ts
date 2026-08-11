@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Expedition Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Charizard",
+		'fr-fr': "Dracaufeu",
+		'de-de': "Glurak"
+	},
+
+	illustrator: "Hiromichi Sugiyama",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [6],
+
+	hp: 120,
+
+	types: [
+		"Fire"
+	],
+
+	evolveFrom: {
+		'en-us': "Charmeleon",
+		'fr-fr': "Reptincel"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Burning Energy",
+				'fr-fr': "Énergie brûlante",
+				'de-de': "Burning Energy"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may turn all basic Energy attached to all of your Pokémon into Fire Energy for the rest of the turn. This power can't be used if Charizard is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez changer toutes les Énergies de base attachées à tous vos Pokémon en Énergie  pour le reste du tour. Ce pouvoir ne peut pas être utilisé si Dracaufeu est affecté par un État spécial.",
+				'de-de': "Once during your turn (before your attack), you may turn all basic Energy attached to all of your Pokémonn into  Energy for the rest of the turn. This power can´t be used if Charizard is affected by a Special Condition"
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+			],
+			name: {
+				'en-us': "Scorching Whirlwind",
+				'fr-fr': "Tourbillon brûlant",
+				'de-de': "Scorching Whirlwind"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. If 1 of them is tails, discard 2 Energy cards attached to Charizard. If both are tails, discard all Energy cards attached to Charizard.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 1 pile, défaussez-vous de 2 cartes Énergie attachées à Dracaufeu. Si vous obtenez 2 piles, défaussez-vous de toutes les cartes Énergie attachées à Dracaufeu.",
+				'de-de': "Flip 2 coins. If 1 of them is tails, discard 2Energy cards attached to Charizard. If both are tails, discard all Energy cards attached to Charizard."
+			},
+			damage: 120,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84183,
+				cardmarket: 274881
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84183,
+				cardmarket: 274881
+			},
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,95 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [1008],
+	set: Set,
+
+	name: {
+		'en-us': "Miraidon ex",
+		'fr-fr': "Miraidon-ex",
+		'es-es': "Miraidon ex",
+		'it-it': "Miraidon-ex",
+		'de-de': "Miraidon-ex",
+		'pt-br': "Miraidon ex"
+	},
+
+	rarity: "Hyper rare",
+	category: "Pokemon",
+	hp: 220,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Tandem Unit",
+			'fr-fr': "Unité Tandem",
+			'es-es': "Unidad Tándem",
+			'it-it': "Unità Duplice",
+			'de-de': "Tandem-Aggregat",
+			'pt-br': "Unidade Tandem"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, you may search your deck for up to 2 Basic {L} Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez chercher dans votre deck jusqu'à 2 Pokémon {L} de base, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
+			'es-es': "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 Pokémon {L} Básicos y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
+			'it-it': "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due Pokémon Base {L} e metterli nella tua panchina. Poi rimischia le carte del tuo mazzo.",
+			'de-de': "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Basis-{L}-Pokémon durchsuchen und sie auf deine Bank legen. Mische anschließend dein Deck.",
+			'pt-br': "Uma vez durante o seu turno, você poderá procurar por até 2 Pokémon {L} Básicos no seu baralho e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Lightning", "Lightning", "Colorless"],
+
+		name: {
+			'en-us': "Photon Blaster",
+			'fr-fr': "Réacteur à Photons",
+			'es-es': "Cohete Fotónico",
+			'it-it': "Esplosione Fotonica",
+			'de-de': "Photonenblaster",
+			'pt-br': "Detonador de Fótons"
+		},
+
+		effect: {
+			'en-us': "During your next turn, this Pokémon can't attack.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede atacar.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá atacar."
+		},
+
+		damage: 220
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751790,
+				tcgplayer: 535124,
+				cardtrader: 274427
+			}
+		},
+	],
+
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+
+	
+}
+
+export default card

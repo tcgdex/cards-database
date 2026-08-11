@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Magma vs Team Aqua'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Magma's Aron",
+		'fr-fr': "Galekid de Team Magma",
+		'de-de': "Team Magmas Stollunior"
+	},
+
+	illustrator: "Katsura Tabata",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [304],
+
+	hp: 50,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Mud Slap",
+				'fr-fr': "Coud'boue",
+				'de-de': "Mud Slap"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275835,
+				tcgplayer: 89819
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275835,
+				tcgplayer: 89819
+			}
+		},
+	],
+
+}
+
+export default card

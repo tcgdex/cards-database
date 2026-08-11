@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Double Crisis'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Magma's Poochyena",
+		'fr-fr': "Medhyèna de la Team Magma",
+		'pt-br': "Poochyena da Equipe Magma",
+	},
+
+	illustrator: "TOKIYA",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		261,
+	],
+
+	hp: 60,
+
+	types: [
+		"Darkness",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Infiltrate",
+				'fr-fr': "Mission Infiltration",
+				'pt-br': "Infiltrar",
+			},
+			effect: {
+				'en-us': "Your opponent reveals his or her hand.",
+				'fr-fr': "Votre adversaire montre sa main.",
+				'pt-br': "Seu oponente revela a própria mão",
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'pt-br': "mordida",
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Poochyena's nose can identify any scent. It's very useful for reconnaissance.",
+	},
+
+	thirdParty: {
+		cardmarket: 282528,
+		tcgplayer: 97062
+	}
+}
+
+export default card

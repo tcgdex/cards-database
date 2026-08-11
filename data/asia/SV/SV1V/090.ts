@@ -1,0 +1,63 @@
+import { Card } from "models/database/card"
+import Set from "../SV1V"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ホシガリス"
+	},
+
+	illustrator: "Teeziro",
+	category: "Pokemon",
+	dexId: [819],
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "どんなに お腹いっぱい 食べても また 腹ペコになるのが 不安で 頬と 尻尾に 木の実を 溜める。"
+	},
+
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'ja-jp': "すあなにかくす"
+		},
+
+		effect: {
+			'ja-jp': "自分の番に1回使える。自分の手札をすべてウラにして切り、山札の下にもどす。その後、山札を1枚引く。"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "かみつく"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693165,
+				tcgplayer: 568316,
+			},
+		},
+	],
+
+	retreat: 1
+}
+
+export default card

@@ -1,0 +1,103 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Discovery'
+
+const card: Card = {
+	name: {
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'de-de': "Teddiursa"
+	},
+
+	illustrator: "Miki Tanaka",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		216,
+	],
+
+	hp: 40,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+				'de-de': "Kratzer"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Nap Time",
+				'fr-fr': "Sieste",
+				'de-de': "Mittagsschlaf"
+			},
+			effect: {
+				'en-us': "Remove all damage counters from Teddiursa. Teddiursa is now Asleep.",
+				'fr-fr': "Retirez tous les marqueurs de dégâts de Teddiursa. Teddiursa est maintenant Endormi.",
+				'de-de': "Entferne alle Schadensmarken von Teddiursa. Teddiursa schläft jetzt."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+		'fr-fr': "S'il trouve du miel, sa marque en forme de croissant se met à luire. Il se lèche toujours les pattes parce qu'elles sont couvertes de miel."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274576,
+				tcgplayer: 89855
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274576,
+				tcgplayer: 89855
+			}
+		}
+	]
+}
+
+export default card
+

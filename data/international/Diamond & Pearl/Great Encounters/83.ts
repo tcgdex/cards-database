@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Great Encounters'
+
+const card: Card = {
+	name: {
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'de-de': "Schneckmag"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		218,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Steady Firebreathing",
+				'fr-fr': "Crachage de feu régulier",
+				'de-de': "Stetiger Feuerhauch"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "+10"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
+	},
+
+	thirdParty: {
+		cardmarket: 277985,
+		tcgplayer: 89345
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Expedition Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Mewtwo",
+		'fr-fr': "Mewtwo",
+		'de-de': "Mewtu"
+	},
+
+	illustrator: "Kimiya Masago",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [150],
+
+	hp: 70,
+
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hypnosis",
+				'fr-fr': "Hypnose",
+				'de-de': "Hypnose"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' schläft das Verteidigende Pokémon jetzt."
+			},
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Psychic",
+				'fr-fr': "Psyko",
+				'de-de': "Psycho"
+			},
+			effect: {
+				'en-us': "This attack does 20 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus zusätzlich 10 Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energiekarte zu."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87420,
+				cardmarket: 274894
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87420,
+				cardmarket: 274894
+			},
+		},
+	],
+}
+
+export default card

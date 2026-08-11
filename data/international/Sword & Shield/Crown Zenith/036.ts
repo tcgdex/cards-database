@@ -1,0 +1,100 @@
+import { Card } from "models/database/card"
+import Set from "../Crown Zenith"
+
+const card: Card = {
+	dexId: [382],
+	set: Set,
+
+	name: {
+		'en-us': "Kyogre",
+		'fr-fr': "Kyogre",
+		'es-es': "Kyogre",
+		'it-it': "Kyogre",
+		'pt-br': "Kyogre",
+		'de-de': "Kyogre"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Water"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Wave Summoning",
+			'fr-fr': "Vague Invoquée",
+			'es-es': "Invocación de Olas",
+			'it-it': "Radunonda",
+			'pt-br': "Invocação de Onda",
+			'de-de': "Wellenbeschwörung"
+		},
+
+		effect: {
+			'en-us': "Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck une carte Énergie Water, puis attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 carta de Energia Water no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+		}
+	}, {
+		cost: ["Water", "Water", "Water", "Colorless"],
+
+		name: {
+			'en-us': "Dynamic Wave",
+			'fr-fr': "Vague Dynamique",
+			'es-es': "Ola Dinámica",
+			'it-it': "Onda Dinamica",
+			'pt-br': "Onda Dinâmica",
+			'de-de': "Wuchtige Welle"
+		},
+
+		effect: {
+			'en-us': "Put 3 Energy attached to this Pokémon into your hand. This attack does 180 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Ajoutez à votre main 3 Énergies attachées à ce Pokémon. Cette attaque inflige 180 dégâts à l'un des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Pon 3 Energías unidas a este Pokémon en tu mano. Este ataque hace 180 puntos de daño a 1 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Prendi tre Energie assegnate a questo Pokémon e aggiungile alle carte che hai in mano. Questo attacco infligge 180 danni a uno dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Coloque 3 Energias ligadas a este Pokémon na sua mão. Este ataque causa 180 pontos de dano a 1 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Nimm 3 an dieses Pokémon angelegte Energien auf deine Hand. Diese Attacke fügt 1 Pokémon deines Gegners 180 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		}
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+	},
+
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691753,
+				tcgplayer: 478135
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691753,
+				tcgplayer: 478135
+			}
+		},
+	],
+}
+
+export default card

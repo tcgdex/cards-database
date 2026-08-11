@@ -1,0 +1,64 @@
+import { Card } from "models/database/card";
+import Set from "../M2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マッギョ",
+	},
+
+	illustrator: "Tetsu Kayama",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "海辺の 泥に 埋まって 獲物を 待ち構える。 獲物が 触れたとき 電気を 出して しびれさせるのだ。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "とびつくわな" },
+			damage: 30,
+			cost: ["Lightning"],
+			effect: {
+				'ja-jp': "次の相手の番、このワザを受けたポケモンは、にげられない。次の自分の番、このワザを受けたポケモンが受けるワザのダメージは「+100」される。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 861293,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 861608,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "quickball",
+			thirdParty: {
+				cardmarket: 861609,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "I",
+	rarity: "None",
+	dexId: [618],
+};
+
+export default card;

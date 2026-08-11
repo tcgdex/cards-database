@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../Surging Sparks"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Deduction Kit",
+		'fr-fr': "Kit de Déduction",
+		'es-es': "Kit de Investigación",
+		'it-it': "Kit Deduttivo",
+		'pt-br': "Kit de Investigação",
+		'de-de': "Ermittlerset"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Look at the top 3 cards of your deck and put them back in any order, or shuffle them and put them on the bottom of your deck.",
+		'fr-fr': "Regardez les 3 cartes du dessus de votre deck, puis replacez-les dans l'ordre de votre choix, ou mélangez-les puis placez-les en dessous de votre deck.",
+		'es-es': "Mira las 3 primeras cartas de tu baraja y vuelve a ponerlas en la parte superior de tu baraja en el orden que quieras, o barájalas y ponlas en la parte inferior de tu baraja.",
+		'it-it': "Guarda le prime tre carte del tuo mazzo e rimettile a posto nell'ordine che preferisci o rimischiale e mettile in fondo al tuo mazzo.",
+		'pt-br': "Olhe as 3 cartas de cima do seu baralho e coloque-as de volta em qualquer ordem, ou embaralhe-as e coloque-as como as cartas de baixo do seu baralho.",
+		'de-de': "Schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck oder mische sie und lege sie unter dein Deck."
+	},
+
+	trainerType: "Item",
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794544,
+				tcgplayer: 589915
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794544,
+				tcgplayer: 589915
+			}
+		},
+	],
+
+	illustrator: "AYUMI ODASHIMA",
+
+}
+
+export default card

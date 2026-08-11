@@ -1,0 +1,112 @@
+import { Card } from "models/database/card"
+import Set from "../151"
+
+const card: Card = {
+	dexId: [150],
+	set: Set,
+
+	name: {
+		'fr-fr': "Mewtwo",
+		'en-us': "Mewtwo",
+		'es-es': "Mewtwo",
+		'it-it': "Mewtwo",
+		'pt-br': "Mewtwo",
+		'de-de': "Mewtu"
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'fr-fr': "Bouclier Réfléchissant",
+			'en-us': "Reflective Barrier",
+			'es-es': "Barrera Reflectante",
+			'it-it': "Barriera Riflettente",
+			'pt-br': "Barreira Reflexiva",
+			'de-de': "Reflektive Barriere"
+		},
+
+		effect: {
+			'fr-fr': "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque (même s'il est mis K.O.), placez des marqueurs de dégâts sur le Pokémon Attaquant équivalents aux dégâts infligés à ce Pokémon.",
+			'en-us': "During your opponent's next turn, if this Pokémon is damaged by an attack (even if it is Knocked Out), put damage counters on the Attacking Pokémon equal to the damage done to this Pokémon.",
+			'es-es': "Durante el próximo turno de tu rival, si este Pokémon resulta dañado por un ataque (incluso si queda Fuera de Combate), pon una cantidad de contadores de daño en el Pokémon Atacante equivalente al daño infligido a este Pokémon.",
+			'it-it': "Durante il prossimo turno del tuo avversario, se questo Pokémon viene danneggiato da un attacco, anche se viene messo KO, metti sul Pokémon attaccante dei segnalini danno pari ai danni inflitti a questo Pokémon.",
+			'pt-br': "Durante o próximo turno do seu oponente, se este Pokémon for danificado por um ataque (mesmo que ele seja Nocauteado), coloque contadores de dano no Pokémon Atacante equivalentes ao dano causado a este Pokémon.",
+			'de-de': "Wenn dieses Pokémon während des nächsten Zuges deines Gegners durch eine Attacke Schaden erhält (auch wenn es dadurch kampfunfähig wird), lege der Höhe des diesem Pokémon zugefügten Schadens entsprechend Schadensmarken auf das Angreifende Pokémon."
+		},
+
+		damage: 20
+	}, {
+		cost: ["Psychic", "Psychic", "Colorless"],
+
+		name: {
+			'fr-fr': "Psykochoc",
+			'en-us': "Psyslash",
+			'es-es': "Golpe Psíquico",
+			'it-it': "Psicocolpo",
+			'pt-br': "Pancada Psíquica",
+			'de-de': "Psy-Schlitzer"
+		},
+
+		effect: {
+			'fr-fr': "Défaussez 2 Énergies de ce Pokémon.",
+			'en-us': "Discard 2 Energy from this Pokémon.",
+			'es-es': "Descarta 2 Energías de este Pokémon.",
+			'it-it': "Scarta due Energie da questo Pokémon.",
+			'pt-br': "Descarte 2 Energias deste Pokémon.",
+			'de-de': "Lege 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+		},
+
+		damage: 130
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 2,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733745,
+				tcgplayer: 516713,
+				cardtrader: 261235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733745,
+				tcgplayer: 516713,
+				cardtrader: 261235
+			}
+		},
+	],
+
+	illustrator: "AKIRA EGAWA",
+
+	
+}
+
+export default card

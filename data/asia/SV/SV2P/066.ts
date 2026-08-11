@@ -1,0 +1,39 @@
+import { Card } from "models/database/card"
+import Set from "../SV2P"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "すごいつりざお",
+		'zh-tw': "厲害釣竿",
+		'th-th': "คันเบ็ดชั้นยอด",
+		'id-id': "Kail Hiper"
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分のトラッシュからポケモンと基本エネルギーを合計3枚まで選び、相手に見せて、山札にもどして切る。",
+		'zh-tw': "從自己的棄牌區選擇寶可夢卡與基本能量卡合計最多3張，在給對手看過後放回牌庫並重洗。",
+		'th-th': "เลือกการ์ดโปเกมอนและการ์ดพลังงานพื้นฐานรวมกันได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู ใส่กลับไปในสำรับการ์ดแล้วสับ",
+		'id-id': "Pilih paling banyak total 3 lembar Pokémon dan Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu kocok kembali ke Deck."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705299,
+				tcgplayer: 567823,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "G"
+}
+
+export default card

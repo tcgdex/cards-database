@@ -1,0 +1,94 @@
+import { Card } from 'models/database/card'
+import Set from '../Emerging Powers'
+
+const card: Card = {
+	name: {
+		'en-us': "Excadrill",
+		'fr-fr': "Minotaupe",
+		'es-es': "Excadrill",
+		'it-it': "Excadrill",
+		'pt-br': "Excadrill",
+		'de-de': "Stalobor"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		530,
+	],
+
+	hp: 110,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Drilbur",
+		'fr-fr': "Rototaupe",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Metal Claw",
+				'fr-fr': "Griffe Acier",
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Drill Run",
+				'fr-fr': "Tunnelier",
+			},
+			effect: {
+				'en-us': "Discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Défenseur.",
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+	},
+
+	thirdParty: {
+		cardmarket: 280021,
+		tcgplayer: 85336
+	}
+}
+
+export default card

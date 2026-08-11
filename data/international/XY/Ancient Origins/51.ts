@@ -1,0 +1,109 @@
+import { Card } from 'models/database/card'
+import Set from '../Ancient Origins'
+
+const card: Card = {
+	name: {
+		'en-us': "Registeel",
+		'fr-fr': "Registeel",
+		'es-es': "Registeel",
+		'it-it': "Registeel",
+		'pt-br': "Registeel",
+		'de-de': "Registeel"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		379,
+	],
+
+	hp: 120,
+
+	types: [
+		"Metal",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Iron Head",
+				'fr-fr': "Tête de Fer",
+				'es-es': "Cabeza de Hierro",
+				'it-it': "Metaltestata",
+				'pt-br': "Cabeça de Ferro",
+				'de-de': "Eisenschädel"
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 30 de danos vezes o número de caras.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: "30×",
+
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Forbidden Iron Hammer",
+				'fr-fr': "Marteau de Fer Défendu",
+				'es-es': "Martillo de Hierro Prohibido",
+				'it-it': "Fantamartello Metallico",
+				'pt-br': "Martelo de Ferro Proibido",
+				'de-de': "Verbotener Stahlhammer"
+			},
+			effect: {
+				'en-us': "If your opponent's Active Pokémon is a Pokémon-EX, discard an Energy attached to that Pokémon.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-EX, défaussez une Énergie lui étant attachée.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon-EX, descarta 1 Energía unida a ese Pokémon.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-EX, scarta un'Energia assegnata a quel Pokémon.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon-EX, descarte uma Energia ligada a aquele Pokémon.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-EX ist, lege 1 an das Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+			},
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "Its body is said to be harder than any kind of metal. A study has revealed that its body is hollow.",
+	},
+
+	thirdParty: {
+		cardmarket: 284232,
+		tcgplayer: 101473
+	}
+}
+
+export default card

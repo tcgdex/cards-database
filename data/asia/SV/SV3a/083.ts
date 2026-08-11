@@ -1,0 +1,36 @@
+import { Card } from "models/database/card"
+import Set from "../SV3a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "チリ",
+		'zh-tw': "辛俐",
+		'th-th': "ชิลลี"
+	},
+
+	illustrator: "GIDORA",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札を上から4枚見て、その中からカードを2枚選び、手札に加える。残りのカードはすべてウラにして切り、山札の下にもどす。",
+		'zh-tw': "查看自己的牌庫上方4張卡，從其中選擇2張卡加入手牌。將剩餘卡全部翻回反面並重洗，放回牌庫下方。",
+		'th-th': "ดูการ์ด 4 ใบจากด้านบนของสำรับการ์ดฝ่ายเรา เลือกการ์ด 2 ใบจากในนั้น นำขึ้นมือ สับการ์ดที่เหลือทั้งหมดโดยไม่ดูหน้าการ์ด ใส่กลับไปด้านล่างของสำรับการ์ด"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 734324,
+				tcgplayer: 566941,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G"
+}
+
+export default card

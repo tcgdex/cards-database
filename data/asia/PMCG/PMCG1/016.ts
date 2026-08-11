@@ -1,0 +1,54 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ポニータ",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [77],
+	hp: 40,
+	types: ["Fire"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "スマッシュキック",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fire", "Fire"],
+			name: {
+				'ja-jp': "炎の尾",
+			},
+			damage: 30,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575589
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577016
+			},
+		}
+	],
+};
+
+export default card

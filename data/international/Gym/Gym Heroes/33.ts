@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Rocket's Snorlax"
+	},
+
+	illustrator: "Shin-ichi Yoshida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [143],
+
+	hp: 90,
+
+	types: [
+		"Colorless"
+	],
+
+	evolveFrom: {
+		'en-us': "Munchlax"
+	},
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Restless Sleep"
+			},
+			effect: {
+				'en-us': "If your opponent's attack does damage to Rocket's Snorlax and Rocket's Snorlax is already Asleep (even if it's Knocked Out), this power does 20 damage to the attacking Pokémon."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Collapse"
+			},
+			effect: {
+				'en-us': "Rocket's Snorlax is now Asleep (after doing damage)."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 4,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88795,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88795,
+				cardmarket: 274169
+			}
+		}
+	],
+}
+
+export default card
+

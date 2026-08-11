@@ -1,0 +1,78 @@
+import { Card } from "models/database/card"
+import Set from "../Destined Rivals"
+
+const card: Card = {
+	dexId: [137],
+	set: Set,
+
+	name: {
+		'en-us': "Team Rocket's Porygon",
+		'fr-fr': "Porygon de la Team Rocket",
+		'de-de': "Team Rockets Porygon",
+		'it-it': "Porygon del Team Rocket",
+		'es-es': "Porygon del Team Rocket",
+		'pt-br': "Porygon da Equipe Rocket",
+		'es-mx': "Porygon del Equipo Rocket"
+	},
+
+
+	illustrator: "Oswaldo KATO",
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Hacking",
+			'fr-fr': "Piratage de Données",
+			'de-de': "Hacking",
+			'it-it': "Hacking",
+			'es-es': "Hackear",
+			'pt-br': "Hackeamento",
+			'es-mx': "Hackeo"
+		},
+
+		effect: {
+			'en-us': "Discard a card from your hand. If you do, your opponent discards a card from their hand.",
+			'fr-fr': "Défaussez une carte de votre main. Dans ce cas, votre adversaire défausse une carte de sa main.",
+			'de-de': "Lege 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, legt dein Gegner 1 Karte aus seiner Hand auf seinen Ablagestapel.",
+			'it-it': "Scarta una carta che hai in mano. Se lo fai, il tuo avversario scarta una carta che ha in mano.",
+			'es-es': "Descarta 1 carta de tu mano. Si lo haces, tu rival descarta 1 carta de su mano.",
+			'pt-br': "Descarte uma carta da sua mão. Se fizer isto, seu oponente descartará uma carta da mão dele.",
+			'es-mx': "Descarta 1 carta de tu mano. Si lo haces, tu rival descarta 1 carta de su mano."
+		}
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826027,
+				tcgplayer: 630826
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826027,
+				tcgplayer: 630826
+			}
+		},
+	],
+}
+
+export default card

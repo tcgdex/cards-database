@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../SV4s"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'id-id': "Aipom"
+	},
+
+	illustrator: "Yuka Morii",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		'id-id': "Aipom mencari ada tidaknya mangsa dari atas pohon. Semangat Pokémon ini bergejolak jika melihat makanan favoritnya, Bounsweet, dan akan melompat menyerbunya."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'id-id': "Mencopet"
+		},
+
+		effect: {
+			'id-id': "Ambil 1 kartu dari atas Deck sendiri."
+		},
+
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'id-id': "Tampar"
+		},
+
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "G"
+}
+
+export default card

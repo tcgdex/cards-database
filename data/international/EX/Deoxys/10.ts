@@ -1,0 +1,127 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Ludicolo",
+		'fr-fr': "Ludicolo",
+		'de-de': "Kappalores"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		272,
+	],
+
+	hp: 100,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Lombre",
+		'fr-fr': "Lombre"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Swing Dance",
+				'fr-fr': "Danse qui balance",
+				'de-de': "Swing Dance"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may draw a card. This power can't be used if Ludicolo is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Ludicolo est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may draw a card. This power can't be used if Ludicolo is affected by a Special Condition."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Healing Steps",
+				'fr-fr': "Pas guérisseurs",
+				'de-de': "Healing Steps"
+			},
+			effect: {
+				'en-us': "You may discard as many cards as you like from your hand. If you do, remove that many damage counters from Ludicolo.",
+				'fr-fr': "Vous pouvez défausser autant de cartes de votre main que vous le voulez. Retirez alors à Ludicolo autant de marqueurs de dégât que de cartes défaussées.",
+				'de-de': "You may discard as many cards as you like from your hand. If your do, remove that many damage counters from Ludicolo."
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Circular Steps",
+				'fr-fr': "Pas circulaires",
+				'de-de': "Circular Steps"
+			},
+			effect: {
+				'en-us': "Does 10 damage times the number of Pokémon in play (both yours and your opponent's), excluding Ludicolo.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu (les vôtres et ceux de votre adversaire), Ludicolo exclus.",
+				'de-de': "Does 10 damage times the number of Pokémon in play (both yours and your opponent's), excluding Ludicolo"
+			},
+			damage: "10x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86897,
+				cardmarket: 276413
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86897,
+				cardmarket: 276413
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 871528,
+				tcgplayer: 477549,
+			},
+		},
+	],
+
+}
+
+export default card

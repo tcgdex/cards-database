@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Boundaries Crossed'
+
+const card: Card = {
+	name: {
+		'en-us': "Landorus-EX",
+		'fr-fr': "Démétéros-EX",
+		'es-es': "Landorus-EX",
+		'it-it': "Landorus-EX",
+		'pt-br': "Landorus-EX",
+		'de-de': "Demeteros-EX"
+	},
+	illustrator: "Eske Yoshinob",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		645,
+	],
+	hp: 180,
+	types: [
+		"Fighting",
+	],
+
+
+	suffix: "EX",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Hammerhead",
+				'fr-fr': "Massue",
+			},
+			effect: {
+				'en-us': "Does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Land's Judgment",
+				'fr-fr': "Jugement Terrestre",
+			},
+			effect: {
+				'en-us': "You may discard all Fighting Energy attached to this Pokémon. If you do, this attack does 70 more damage.",
+				'fr-fr': "Vous pouvez défausser toutes les Énergies Fighting attachées à ce Pokémon. Dans ce cas, cette attaque inflige 70 dégâts supplémentaires.",
+			},
+			damage: 80,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+	retreat: 3,
+
+
+
+}
+
+export default card

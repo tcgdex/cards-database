@@ -1,0 +1,72 @@
+import { Card } from "models/database/card";
+import Set from "../SV8";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ビクティニ",
+		'zh-tw': "比克提尼",
+		'zh-cn': "比克提尼",
+	},
+
+	illustrator: "0313",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
+		'zh-tw': "帶來勝利的寶可夢。 據說帶著比克提尼的訓練家， 不論任何比賽必能取得勝利。",
+		'zh-cn': "帶來勝利的寶可夢。 據說帶著比克提尼的訓練家， 不論任何比賽必能取得勝利。",
+	},
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "ビクトリーエール",
+				'zh-tw': "勝利聲援",
+				'zh-cn': "勝利聲援",
+			},
+			effect: {
+				'ja-jp': "このポケモンがいるかぎり、自分の[R]タイプの進化ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+10」される。",
+				'zh-tw': "只要這隻寶可夢在場上，自己的【火】屬性的進化寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+10」點。",
+				'zh-cn': "只要這隻寶可夢在場上，自己的【火】屬性的進化寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+10」點。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ほのお",
+				'zh-tw': "火焰",
+				'zh-cn': "火焰",
+			},
+			damage: 30,
+			cost: ["Fire", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 793446,
+				tcgplayer: 587592,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "H",
+	rarity: "Uncommon",
+	dexId: [494],
+};
+
+export default card;

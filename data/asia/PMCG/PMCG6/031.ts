@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "カツラのブーバー",
+	},
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [126],
+	hp: 60,
+	types: ["Fire"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Fire"],
+			name: {
+				'ja-jp': "火の猛烈な",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて10ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+			},
+		},
+		{
+			cost: ["Fire", "Fire", "Fire"],
+			name: {
+				'ja-jp': "溶岩バースト",
+			},
+			effect: {
+				'ja-jp': "デッキのトップ5カードを捨ててください。 （デッキに5枚未満のカードがある場合は、それらすべてを破棄します。）この攻撃は、この方法で廃棄した各火エネルギーカードに対して20のダメージを与えます。",
+			},
+		},
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575366
+			},
+		},
+	],
+};
+
+export default card

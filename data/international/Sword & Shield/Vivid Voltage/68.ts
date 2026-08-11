@@ -1,0 +1,119 @@
+import { Card } from 'models/database/card'
+import Set from '../Vivid Voltage'
+
+const card: Card = {
+	dexId: [354],
+
+	name: {
+		'en-us': "Banette",
+		'fr-fr': "Branette",
+		'es-es': "Banette",
+		'it-it': "Banette",
+		'pt-br': "Banette",
+		'de-de': "Banette"
+	},
+
+	illustrator: "kodama",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+	hp: 90,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Shuppet",
+		'fr-fr': "Polichombr",
+		'es-es': "Shuppet",
+		'it-it': "Shuppet",
+		'pt-br': "Shuppet",
+		'de-de': "Shuppet"
+	},
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Curse of Devolution",
+				'fr-fr': "Dés-Évolution Maudite",
+				'es-es': "Maldición de Involución",
+				'it-it': "Maledizione Devolutiva",
+				'pt-br': "Maldição da Involução",
+				'de-de': "Rückentwicklungsfluch"
+			},
+			effect: {
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may devolve 1 of your opponent's Benched evolved Pokémon by putting the highest Stage Evolution card on it into your opponent's hand.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez faire dés-évoluer l'un des Pokémon de Banc évolués de votre adversaire en plaçant la carte Évolution la plus élevée dans la main de votre adversaire.",
+				'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes involucionar 1 de los Pokémon evolucionados en Banca de tu rival poniendo la carta de Evolución de fase más alta que tenga sobre él en la mano de tu rival.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi annullare l'evoluzione di uno dei Pokémon evoluti nella panchina del tuo avversario mettendone la carta Evoluzione di fase più alta nella sua mano.",
+				'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá reverter a evolução de 1 dos Pokémon evoluídos no Banco do seu oponente colocando a carta de Evolução de Estágio mais alta sobre ele na mão do seu oponente.",
+				'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 entwickeltes Pokémon auf der Bank deines Gegners rückentwickeln, indem du deinem Gegner die Karte mit der höchsten Entwicklungsstufe auf die Hand gibst."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spooky Shot",
+				'fr-fr': "Tir Effrayant",
+				'es-es': "Disparo Embrujado",
+				'it-it': "Colpomistero",
+				'pt-br': "Tiro Assustador",
+				'de-de': "Spukschuss"
+			},
+
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "D",
+
+
+	stage: "Stage1",
+
+	description: {
+		'en-us': "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511760,
+				tcgplayer: 226472
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511760,
+				tcgplayer: 226472
+			}
+		},
+	],
+}
+
+export default card

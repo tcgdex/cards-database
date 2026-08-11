@@ -1,0 +1,61 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Ancient Technical Machine [Ice]",
+		'fr-fr': "Machine Technique Ancienne [Glace]",
+		'de-de': "Ancient TM (Ice)*"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Tool",
+
+	effect: {
+		'en-us': "Attach this card to 1 of your Evolved Pokémon (excluding Pokémon-ex and Pokémon that has an owner in its name) in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Ancient Technical Machine [Ice].",
+		'fr-fr': "Attachez cette carte à 1 des Pokémon Évolués que vous avez en jeu (Pokémon-ex et Pokémon dont le nom comporte un nom de Dresseur exclus). Ce Pokémon peut utiliser l'attaque de cette carte au lieu de ses propres attaques. À la fin du tour, défaussez Machine Technique Ancienne [Glace].",
+		'de-de': "Attach this card to 1 of your Evolved Pokémon (excluding Pokémon-ex and Pokémon that has an owner in its name) in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Ancient Technical Machine [Ice]."
+	},
+
+	attacks: [
+		{
+			name: {
+				'en-us': "Ice Generator",
+				'de-de': "Ice Generator",
+				'fr-fr': "Générateur de glace"
+			},
+			effect: {
+				'en-us': "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn.",
+				'de-de': "Discard all of your opponent's Trainer cards in play. If you do, prevent all effects, including damage, done to the Pokémon using this attack during your opponent's next turn.",
+				'fr-fr': "Défaussez toutes les cartes Dresseur que votre adversaire a en jeu. Prévenez ensuite tous les effets, dégâts inclus, infligés au Pokémon utilisant cette attaque lors du prochain tour de votre adversaire."
+			},
+			cost: [
+				"Colorless",
+			]
+		},
+	],
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276158,
+				tcgplayer: 83553
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 276158,
+				tcgplayer: 83553
+			}
+		},
+	],
+
+}
+
+export default card

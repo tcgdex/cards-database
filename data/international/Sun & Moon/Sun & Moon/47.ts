@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Sun & Moon'
+
+const card: Card = {
+	name: {
+		'en-us': "Pyukumuku",
+		'fr-fr': "Concombaffe",
+		'es-es': "Pyukumuku",
+		'it-it': "Pyukumuku",
+		'pt-br': "Pyukumuku",
+		'de-de': "Gufa"
+	},
+
+	illustrator: "You Iribi",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		771,
+	],
+
+	hp: 60,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Innards Out",
+				'fr-fr': "Expuls’Organes",
+				'es-es': "Revés",
+				'it-it': "Espellinterno",
+				'pt-br': "Extensão de Vísceras",
+				'de-de': "Magenkrempler"
+			},
+			effect: {
+				'en-us': "If this Pokémon is your Active Pokémon and is Knocked Out by damage from an opponent’s attack, put 6 damage counters on the Attacking Pokémon.",
+				'fr-fr': "Si ce Pokémon est votre Pokémon Actif et est mis K.O. par les dégâts d’une attaque de votre adversaire, placez 6 marqueurs de dégâts sur le Pokémon Attaquant.",
+				'es-es': "Si este Pokémon es tu Pokémon Activo y queda Fuera de Combate por el daño de un ataque de tu rival, pon 6 contadores de daño en el Pokémon Atacante.",
+				'it-it': "Se questo Pokémon è il tuo Pokémon attivo e viene messo KO dai danni inflitti da un attacco del tuo avversario, metti sei segnalini danno sul Pokémon attaccante.",
+				'pt-br': "Se este Pokémon for o seu Pokémon Ativo e ele for Nocauteado pelo dano de um ataque do seu oponente, coloque 6 contadores de dano no Pokémon Atacante.",
+				'de-de': "Wenn dieses Pokémon dein Aktives Pokémon ist und durch Schaden einer Attacke deines Gegners kampfunfähig wird, lege 6 Schadensmarken auf das Angreifende Pokémon."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Continuous Tumble",
+				'fr-fr': "Roulade Continue",
+				'es-es': "Avalancha Continua",
+				'it-it': "Capriole",
+				'pt-br': "Tombo Contínuo",
+				'de-de': "Dauerrollen"
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
+				'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
+				'pt-br': "Jogue 1 moeda até sair coroa. Este ataque causa 30 pontos de dano para cada cara.",
+				'de-de': "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 30 Schadenspunkte pro Kopf zu."
+			},
+			damage: "30×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
+	},
+
+	thirdParty: {
+		cardmarket: 295358,
+		tcgplayer: 126918
+	}
+}
+
+export default card

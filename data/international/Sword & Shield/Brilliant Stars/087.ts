@@ -1,0 +1,101 @@
+import { Card } from "models/database/card"
+import Set from "../Brilliant Stars"
+
+const card: Card = {
+	dexId: [461],
+	set: Set,
+
+	name: {
+		'en-us': "Weavile",
+		'fr-fr': "Dimoret",
+		'es-es': "Weavile",
+		'it-it': "Weavile",
+		'pt-br': "Weavile",
+		'de-de': "Snibunna"
+	},
+
+	illustrator: "Hasuno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Darkness"],
+
+	evolveFrom: {
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Darkness"],
+
+		name: {
+			'en-us': "Ransack",
+			'fr-fr': "Rapine",
+			'es-es': "Pillaje",
+			'it-it': "Saccheggiamento",
+			'pt-br': "Saquear",
+			'de-de': "Durchwühlen"
+		},
+
+		effect: {
+			'en-us': "Flip 2 coins. If either of them is heads, your opponent reveals their hand. For each heads, choose a card you find there and put it on the bottom of your opponent's deck in any order.",
+			'fr-fr': "Lancez 2 pièces. Si vous obtenez au moins un côté face, votre adversaire dévoile sa main. Pour chaque côté face, choisissez-y une carte, puis placez-la en dessous du deck de votre adversaire dans l'ordre de votre choix.",
+			'es-es': "Lanza 2 monedas. Si sale cara en alguna de ellas, tu rival enseña las cartas de su mano. Por cada cara, elige 1 carta que encuentres entre ellas y ponla en la parte inferior de la baraja de tu rival en el orden que quieras.",
+			'it-it': "Lancia due volte una moneta. Se esce almeno una volta testa, il tuo avversario mostra le carte che ha in mano. Ogni volta che esce testa, scegline una e mettila in fondo al mazzo del tuo avversario nell'ordine che preferisci.",
+			'pt-br': "Jogue 2 moedas. Se qualquer uma delas sair cara, seu oponente revelará a própria mão. Para cada cara, escolha 1 carta que encontrar lá e coloque-a como a carta de baixo do baralho do seu oponente em qualquer ordem.",
+			'de-de': "Wirf 2 Münzen. Wenn eine oder beide Münzen Kopf zeigen, zeigt dir dein Gegner seine Handkarten. Wähle pro Kopf 1 Karte, die du dort findest, und lege sie in beliebiger Reihenfolge unter das Deck deines Gegners."
+		}
+	}, {
+		cost: ["Darkness", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Slash",
+			'fr-fr': "Tranche",
+			'es-es': "Cuchillada",
+			'it-it': "Lacerazione",
+			'pt-br': "Talho",
+			'de-de': "Schlitzer"
+		},
+
+		damage: 100
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608537,
+				tcgplayer: 263803
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608537,
+				tcgplayer: 263803
+			}
+		},
+	],
+}
+
+export default card

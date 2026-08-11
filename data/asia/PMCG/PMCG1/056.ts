@@ -1,0 +1,57 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ダグトリオ",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [51],
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Fighting", "Fighting", "Colorless"],
+			name: {
+				'ja-jp': "スラッシュ",
+			},
+			damage: 40,
+		},
+		{
+			cost: ["Fighting", "Fighting", "Fighting", "Fighting"],
+			name: {
+				'ja-jp': "地震",
+			},
+			effect: {
+				'ja-jp': "あなた自身のベンチ付きポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+			},
+			damage: 70,
+		},
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575622
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577049
+			}
+		}
+	],
+};
+
+export default card

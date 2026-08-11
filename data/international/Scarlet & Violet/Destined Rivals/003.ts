@@ -1,0 +1,111 @@
+import { Card } from "models/database/card"
+import Set from "../Destined Rivals"
+
+const card: Card = {
+	dexId: [469],
+	set: Set,
+
+	name: {
+		'en-us': "Yanmega ex",
+		'fr-fr': "Yanmega-ex",
+		'de-de': "Yanmega-ex",
+		'it-it': "Yanmega-ex",
+		'es-es': "Yanmega ex",
+		'pt-br': "Yanmega ex",
+		'es-mx': "Yanmega ex"
+	},
+
+	suffix: "ex",
+	illustrator: "takuyoa",
+	rarity: "Double rare",
+	category: "Pokemon",
+	hp: 280,
+	types: ["Grass"],
+	evolveFrom: {
+		'en-us': "Yanma",
+		'fr-fr': "Yanma",
+		'de-de': "Yanma",
+		'it-it': "Yanma",
+		'es-es': "Yanma",
+		'pt-br': "Yanma",
+		'es-mx': "Yanma"
+	},
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Buzzing Boost",
+			'fr-fr': "Boost Bourdonnant",
+			'de-de': "Summboost",
+			'it-it': "Ronzio Energizzante",
+			'es-es': "Zumbido Impulso",
+			'pt-br': "Zumbido Impulsor",
+			'es-mx': "Impulso Zumbador"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may search your deck for up to 3 Basic {G} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Une fois pendant votre tour, lorsque ce Pokémon se déplace de votre Banc vers le Poste Actif, vous pouvez chercher dans votre deck jusqu'à 3 cartes Énergie {G} de base, puis les attacher à ce Pokémon. Mélangez ensuite votre deck.",
+			'de-de': "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Aktive Position wechselt, kannst du dein Deck nach bis zu 3 Basis-{G}-Energiekarten durchsuchen und sie an dieses Pokémon anlegen. Mische anschließend dein Deck.",
+			'it-it': "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi cercare nel tuo mazzo fino a tre carte Energia base {G} e assegnarle a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
+			'es-es': "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes buscar en tu baraja hasta 3 cartas de Energía {G} Básica y unirlas a este Pokémon. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Uma vez durante o seu turno, quando este Pokémon for movido do seu Banco para o Campo Ativo, você poderá procurar por até 3 cartas de Energia {G} Básica no seu baralho e ligá-las a este Pokémon. Em seguida, embaralhe o seu baralho.",
+			'es-mx': "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes buscar en tu mazo hasta 3 cartas de Energía {G} Básica y unirlas a este Pokémon. Después, baraja las cartas de tu mazo."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass", "Grass", "Grass", "Colorless"],
+
+		name: {
+			'en-us': "Jet Cyclone",
+			'fr-fr': "Cyclone Propulsé",
+			'de-de': "Düsensturm",
+			'it-it': "Ciclone Jet",
+			'es-es': "Ciclón Propulsión",
+			'pt-br': "Jato Ciclone",
+			'es-mx': "Ciclón Jet"
+		},
+
+		effect: {
+			'en-us': "Move 3 Energy from this Pokémon to 1 of your Benched Pokémon.",
+			'fr-fr': "Déplacez 3 Énergies de ce Pokémon vers l'un de vos Pokémon de Banc.",
+			'de-de': "Verschiebe 3 Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank.",
+			'it-it': "Sposta tre Energie da questo Pokémon a uno di quelli nella tua panchina.",
+			'es-es': "Mueve 3 Energías de este Pokémon a uno de tus Pokémon en Banca.",
+			'pt-br': "Mova 3 Energias deste Pokémon para 1 dos seus Pokémon no Banco.",
+			'es-mx': "Mueve 3 Energías de este Pokémon a 1 de tus Pokémon en Banca."
+		},
+
+		damage: 210
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825877,
+				tcgplayer: 632831
+			}
+		},
+	],
+}
+
+export default card

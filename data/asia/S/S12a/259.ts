@@ -1,0 +1,61 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "オリジンパルキアVSTAR",
+	},
+
+	illustrator: "AKIRA EGAWA",
+	category: "Pokemon",
+	hp: 280,
+	types: ["Water"],
+
+	stage: "VSTAR",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "スターポータル" },
+			effect: {
+				'ja-jp': "自分の番に使える。自分のトラッシュから[W]エネルギーを3枚まで選び、自分の[W]ポケモンに好きなようにつける。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: { ja: "あくうのうねり" },
+			damage: "60+",
+			cost: ["Water", "Water"],
+			effect: {
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687821,
+				tcgplayer: 571789,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "nullV",
+	},
+
+	retreat: 2,
+	regulationMark: "F",
+	rarity: "Secret Rare",
+	dexId: [484],
+};
+
+export default card;

@@ -1,0 +1,105 @@
+import { Card } from "models/database/card"
+import Set from "../Scarlet & Violet"
+
+const card: Card = {
+	dexId: [943],
+	set: Set,
+
+	name: {
+		'en-us': "Mabosstiff",
+		'fr-fr': "Dogrino",
+		'es-es': "Mabosstiff",
+		'it-it': "Mabosstiff",
+		'pt-br': "Mabosstiff",
+		'de-de': "Mastifioso"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Darkness"],
+
+	evolveFrom: {
+		'en-us': "Maschiff",
+		'fr-fr': "Grondogue"
+	},
+
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Intimidating Howl",
+			'fr-fr': "Hurlement Intimidant",
+			'es-es': "Aullido Intimidatorio",
+			'it-it': "Gridodilotta Spaventoso",
+			'pt-br': "Uivo Intimidante",
+			'de-de': "Angsteinflößender Jauler"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, you may switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez envoyer le Pokémon Actif de votre adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Una vez durante tu turno, puedes mover el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Una sola volta durante il tuo turno, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Uma vez durante o seu turno, você poderá mandar o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.)"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Darkness", "Darkness", "Colorless"],
+
+		name: {
+			'en-us': "Wild Tackle",
+			'fr-fr': "Tacle Brutal",
+			'es-es': "Placaje Salvaje",
+			'it-it': "Azionferoce",
+			'pt-br': "Investida Feroz",
+			'de-de': "Wilder Tackle"
+		},
+
+		effect: {
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu."
+		},
+
+		damage: 160
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
+
+	illustrator: "KIYOTAKA OSHIYAMA",
+
+	description: {
+		'en-us': "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+	},
+
+	thirdParty: {
+        cardmarket: 702432,
+        tcgplayer: 485871
+    }
+}
+
+export default card

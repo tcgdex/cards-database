@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Plasma Blast'
+
+const card: Card = {
+	name: {
+		'en-us': "Throh",
+		'fr-fr': "Judokrak",
+		'es-es': "Throh",
+		'it-it': "Throh",
+		'pt-br': "Throh",
+		'de-de': "Jiutesto"
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		538,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Freestyle Strike",
+				'fr-fr': "Randori",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Shoulder Throw",
+				'fr-fr': "Projection Martiale",
+			},
+			effect: {
+				'en-us': "Does 80 damage minus 20 damage for each Colorless in the Defending Pokémon's Retreat Cost.",
+				'fr-fr': "Inflige 80 dégâts moins 20 dégâts pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+	},
+
+	thirdParty: {
+		cardmarket: 281072,
+		tcgplayer: 89902
+	}
+}
+
+export default card

@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Dewgong",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		87,
+	],
+
+	hp: 80,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Seel",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Aurora Beam",
+			},
+
+			damage: 50,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ice Beam",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273959,
+				tcgplayer: 42475
+			}
+		}
+	]
+}
+
+export default card

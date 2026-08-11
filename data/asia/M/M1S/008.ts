@@ -1,0 +1,59 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "テッカニン"
+	},
+	illustrator: "Apios",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Grass"],
+	description: {
+		'ja-jp': "どんな攻撃でも避けてしまうと いわれるほど素早い ポケモン。甘い樹液が大好物。"
+	},
+	stage: "Stage1",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840553,
+				tcgplayer: 647227,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ツチニン"
+	},
+	abilities: [{
+		type: "Ability",
+		name: {
+			'ja-jp': "からぬけ"
+		},
+		effect: {
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。山札から「ヌケニン」を1枚選び、ベンチに出す。そして山札を切る。"
+		}
+	}],
+	attacks: [{
+		name: {
+			'ja-jp': "とんぼがえり"
+		},
+		damage: 90,
+		effect: {
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
+		},
+		cost: ["Grass", "Colorless"]
+	}],
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+	retreat: 0,
+	regulationMark: "I",
+	rarity: "Uncommon",
+	dexId: [291]
+}
+
+export default card

@@ -1,0 +1,60 @@
+import { Card } from "models/database/card";
+import Set from "../SM12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ミカルゲ",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "１０８個の 魂が 集まって 生まれた ポケモン。 要石の ひび割れに つながれている。",
+	},
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "うらみだめ" },
+			effect: {
+				'ja-jp': "自分の番に1回使える。このポケモンにダメカンを1個のせる。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: { ja: "くもんのさけび" },
+			damage: "10+",
+			cost: ["Darkness"],
+			effect: {
+				'ja-jp': "このポケモンにのっているダメカンの数x30ダメージ追加。",
+			},
+		},
+	],
+
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 544006,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "C",
+	rarity: "None",
+	dexId: [442],
+};
+
+export default card;

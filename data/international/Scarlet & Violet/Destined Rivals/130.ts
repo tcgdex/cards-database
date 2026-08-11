@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../Destined Rivals"
+
+const card: Card = {
+	dexId: [509],
+	set: Set,
+
+	name: {
+		'en-us': "Marnie's Purrloin",
+		'fr-fr': "Chacripan de Rosemary",
+		'de-de': "Marys Felilou",
+		'it-it': "Purrloin di Mary",
+		'es-es': "Purrloin de Roxy",
+		'pt-br': "Purrloin da Marine",
+		'es-mx': "Purrloin de Marnie"
+	},
+
+
+	illustrator: "REND",
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Darkness"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Darkness"],
+
+		name: {
+			'en-us': "Pointy Nails",
+			'fr-fr': "Ongles Pointus",
+			'de-de': "Spitze Nägel",
+			'it-it': "Unghie Appuntite",
+			'es-es': "Uñas Puntiagudas",
+			'pt-br': "Unhas Pontiagudas",
+			'es-mx': "Uñas Puntiagudas"
+		},
+
+		effect: {
+			'en-us': "If your opponent's Active Pokémon is a Pokémon ex, this attack does 40 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-ex, cette attaque inflige 40 dégâts supplémentaires.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, fügt diese Attacke 40 Schadenspunkte mehr zu.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-ex, questo attacco infligge 40 danni in più.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 40 puntos de daño más.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon ex, este ataque causará 40 pontos de dano a mais.",
+			'es-mx': "Si el Pokémon Activo de tu rival es un Pokémon ex, este ataque hace 40 puntos de daño más."
+		},
+
+		damage: "20+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826004,
+				tcgplayer: 632938
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826004,
+				tcgplayer: 632938
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Legends Awakened'
+
+const card: Card = {
+	name: {
+		'en-us': "Unown V",
+		'fr-fr': "Zarbi V",
+		'de-de': "Icognito V"
+	},
+
+	illustrator: "Kent Kanetsuna",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		201,
+	],
+
+	hp: 60,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "VACATION",
+				'fr-fr': "VACANCES",
+				'de-de': "VACATION"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may remove 2 damage counters from each of your Pokémon. If you do, your turn ends. This power can't be used if Unown V is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer à chacun de vos Pokémon 2 marqueurs de dégât. Votre tour est alors terminé. Ce pouvoir ne peut pas être utilisé si Zarbi V est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 2 Schadensmarken von jedem deiner Pokémon entfernen. Wenn du das machst, ist dein Zug beendet. Diese Poké-Power kann nicht benutzt werden, wenn Icognito V von einem Speziellen Zustand betroffen ist."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
+			},
+			effect: {
+				'en-us': "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de votre Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Shaped like an ancient writing, it is a huge mystery whether language or Unown came first.",
+		'fr-fr': "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de ZARBI est apparu en premier."
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

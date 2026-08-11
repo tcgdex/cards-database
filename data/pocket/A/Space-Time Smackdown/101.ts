@@ -1,0 +1,65 @@
+import { Card } from "models/database/card"
+import Set from "../Space-Time Smackdown"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Mightyena",
+		'fr-fr': "Grahyèna",
+		'es-es': "Mightyena",
+		'it-it': "Mightyena",
+		'de-de': "Magnayen",
+		'pt-br': "Mightyena",
+		'ko-kr': "그라에나"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Two Diamond",
+	category: "Pokemon",
+
+	dexId: [262],
+	hp: 90,
+	types: ["Darkness"],
+
+	evolveFrom: {
+		'en-us': "Poochyena"
+	},
+
+	description: {
+		'en-us': "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+		'fr-fr': "Il obéit toujours aux ordres de son Dresseur\nsi celui-ci est très doué. Son comportement\nvient de l'époque reculée où il vivait en meute.",
+		'es-es': "Siempre obedece a los buenos Entrenadores.\nEstá acostumbrado a vivir en jaurías en estado salvaje.",
+		'it-it': "La sua eccezionale obbedienza verso gli Allenatori\nesperti deriva dall'antica abitudine di vivere in branchi.",
+		'de-de': "Es wird stets die Befehle eines begabten Trainers\nbefolgen. Dieses Verhalten geht darauf zurück,\ndass es früher im Rudel lebte.",
+		'pt-br': "Sempre obedece aos comandos de um Treinador\nhabilidoso. Seu comportamento é o resultado de viver\nem matilhas eras atrás.",
+		'ko-kr': "우수한 트레이너의 명령에는\n절대복종한다. 먼 옛날\n무리를 지어 행동했던 영향이다."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'en-us': "Darkness Fang",
+			'fr-fr': "Croc Obscur",
+			'es-es': "Colmillo de Oscuridad",
+			'it-it': "Oscurizanna",
+			'de-de': "Fänge der Dunkelheit",
+			'pt-br': "Presa Sombria",
+			'ko-kr': "어둠엄니"
+		},
+
+		damage: 60,
+		cost: ["Darkness", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
+	retreat: 1,
+	boosters: ["dialga", "palkia"]
+}
+
+export default card

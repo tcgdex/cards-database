@@ -1,0 +1,43 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "カツラのファイヤー",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [146],
+	hp: 90,
+	types: ["Fire"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Fire", "Fire", "Fire", "Fire", "Fire"],
+			name: {
+				'ja-jp': "フェニックスの炎",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。尾の場合、シャッフルブレインのモルト、およびすべてのカードがデッキに取り付けられています（ダメージを与えた後）。",
+			},
+			damage: 90,
+		},
+	],
+
+	retreat: 3,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 575331
+			},
+		},
+	],
+};
+
+export default card

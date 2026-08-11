@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Chilling Reign'
+
+const card: Card = {
+	dexId: [892],
+	set: Set,
+
+	name: {
+		'en-us': "Rapid Strike Urshifu",
+		'fr-fr': "Shifours Mille Poings",
+		'es-es': "Urshifu Golpe Fluido",
+		'it-it': "Urshifu Pluricolpo",
+		'pt-br': "Urshifu Golpe Fluido",
+		'de-de': "Fließender-Angriff-Wulaosu"
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Water"],
+
+	evolveFrom: {
+		'en-us': "Kubfu",
+		'fr-fr': "Wushours",
+		'es-es': "Kubfu",
+		'it-it': "Kubfu",
+		'pt-br': "Kubfu",
+		'de-de': "Dakuma"
+	},
+
+	attacks: [{
+		name: {
+			'en-us': "Slashing Claw",
+			'fr-fr': "Griffe Taillante",
+			'es-es': "Garra Cuchillazo",
+			'it-it': "Artigli Laceranti",
+			'pt-br': "Garra Cortadora",
+			'de-de': "Schlitzende Klaue"
+		},
+
+		damage: 40,
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'en-us': "Rapid-Fisted Rush",
+			'fr-fr': "Mille Poings Chargés",
+			'es-es': "Embestida de Puño Fluido",
+			'it-it': "Pugni Raffica Rapida",
+			'pt-br': "Fúria de Punho Rápido",
+			'de-de': "Fließende Fäuste"
+		},
+
+		effect: {
+			'en-us': "This attack does 30 damage for each of your Rapid Strike Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Mille Poings en jeu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon Golpe Fluido en juego.",
+			'it-it': "Questo attacco infligge 30 danni per ogni tuo Pokémon Colpo Rapido in gioco.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Golpe Fluido em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Fließender-Angriff-Pokémon im Spiel 30 Schadenspunkte zu."
+		},
+
+		damage: "30×",
+		cost: ["Water", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	retreat: 2,
+	regulationMark: "E",
+
+
+	stage: "Stage1",
+
+	description: {
+		'en-us': "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567124,
+				tcgplayer: 241697
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567124,
+				tcgplayer: 241697
+			}
+		},
+	],
+}
+
+export default card

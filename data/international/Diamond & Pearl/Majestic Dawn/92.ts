@@ -1,0 +1,63 @@
+import { Card } from 'models/database/card'
+import Set from '../Majestic Dawn'
+
+const card: Card = {
+	name: {
+		'en-us': "Call Energy",
+		'fr-fr': "Appel à l'énergie",
+		'de-de': "Ruf-Energie"
+	},
+
+	illustrator: "Takumi Akabane",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+
+	effect: {
+		'en-us': "Call Energy provides Colorless Energy. Once during your turn, if the Pokémon Call Energy is attached to is your Active Pokémon, you may search your deck for up to 2 Basic Pokémon and put them onto your Bench. If you do, shuffle your deck and your turn ends.",
+		'fr-fr': "Appel à l'énergie fournit de l'Énergie Colorless. Une seule fois lors de votre tour, si le Pokémon auquel Appel à l'énergie est attachée est votre Pokémon Actif, vous pouvez choisir dans votre deck jusqu'à 2 Pokémon de base et les placer sur votre Banc. Mélangez alors votre deck. Votre tour est terminé.",
+		'de-de': "Ruf-Energie liefert -Energie. Einmal während deines Zuges kannst du, wenn das Pokémon, an das Ruf-Energie angelegt ist, dein Aktives Pokémon ist, dein Deck nach bis zu 2 Basis-Pokémon-Karten durchsuchen und diese auf die Bank legen. Wenn du das machst, mische dein Deck und dein Zug ist beendet."
+	},
+
+	energyType: "Special",
+
+	thirdParty: {
+		cardmarket: 278141,
+		tcgplayer: 84086
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "reverse",
+			foil: "league"
+		},
+		{
+			type: "normal",
+			stamp: ["dylan-lefavour"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-martinez"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-klaczynski"]
+		},
+		{
+			type: "normal",
+			stamp: ["david-cohen"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-pramawat"]
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Great Encounters'
+
+const card: Card = {
+	name: {
+		'en-us': "Wailord",
+		'fr-fr': "Wailord",
+		'de-de': "Wailord"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		321,
+	],
+
+	hp: 200,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Sleeping Pulse",
+				'fr-fr': "Pouls dormant",
+				'de-de': "Ruhepuls"
+			},
+			effect: {
+				'en-us': "As long as Wailord remains Asleep between turns, remove 1 damage counter from Wailord.",
+				'fr-fr': "Tant que Wailord est Endormi entre deux tours, retirez-lui 1 marqueur de dégât.",
+				'de-de': "Wenn Wailord schläft und zwischen zwei Zügen nicht aufwacht, entferne 1 Schadensmarke von Wailord."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sink Deep",
+				'fr-fr': "Couler",
+				'de-de': "Einnicken"
+			},
+			effect: {
+				'en-us': "If Wailord has any damage counters on it, Wailord is now Asleep.",
+				'fr-fr': "Si Wailord possède des marqueurs de dégât, il est maintenant Endormi.",
+				'de-de': "Wenn auf Wailord mindestens 1 Schadensmarke liegt, schläft Wailord jetzt."
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
+	},
+
+	thirdParty: {
+		cardmarket: 277932,
+		tcgplayer: 90459
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

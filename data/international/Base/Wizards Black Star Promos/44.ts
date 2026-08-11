@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Wizards Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Magmar",
+	},
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		126,
+	],
+	hp: 60,
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Burning Fire",
+			},
+			effect: {
+				'en-us': "When you use this attack, you may discard any number of Energy cards attached to your Pokémon in play. This attack does 10 damage plus 10 more damage for each Energy card you discarded in this way.",
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Magma Punch",
+			},
+
+			damage: 40,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275463,
+				tcgplayer: 87043
+			}
+		}
+	],
+
+	description: {
+		'en-us': "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+	},
+}
+
+export default card

@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Lt. Surge's Magnemite"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [81],
+
+	hp: 30,
+
+	types: [
+		"Lightning"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				'en-us': "Removal Pulse"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon has any Energy cards attached to it, flip a coin. If heads, choose 1 of those Energy cards and discard it."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Confusion Pulse"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86856,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86856,
+				cardmarket: 274186
+			}
+		}
+	],
+	retreat: 0
+}
+
+export default card
+

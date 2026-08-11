@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Brock's Primeape"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [57],
+
+	hp: 70,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Mankey"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Scram"
+			},
+			effect: {
+				'en-us': "If Brock's Primeape ever has exactly 10 HP left, shuffle it and all cards attached to it into your deck. This power stops working while Brock's Primeape is Asleep, Confused, or Paralyzed."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Mega Thrash"
+			},
+			effect: {
+				'en-us': "Brock's Primeape does 20 damage to itself. If there is a Stadium card in play, discard it."
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83976,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83976,
+				cardmarket: 274303
+			}
+		},
+	],
+}
+
+export default card

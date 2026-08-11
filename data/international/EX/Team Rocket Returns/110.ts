@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		'en-us': "Charmeleon",
+		'de-de': "Glutexo"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		5,
+	],
+
+	hp: 70,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Charmander",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Smokescreen",
+				'de-de': "Smokescreen"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'de-de': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fireworks",
+				'de-de': "Fireworks"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
+				'de-de': "Flip a coin. If tails, discard a  Energy card attached to Charmeleon."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276402,
+				tcgplayer: 84227
+			},
+		},
+	],
+
+}
+
+export default card

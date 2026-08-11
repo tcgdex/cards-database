@@ -1,0 +1,74 @@
+import { Card } from 'models/database/card'
+import Set from '../Unseen Forces'
+
+const card: Card = {
+	name: {
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza"
+	},
+
+	illustrator: "Aya Kusube",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		204,
+	],
+
+	hp: 50,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'de-de': "Ram"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88127,
+				cardmarket: 276712
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88127,
+				cardmarket: 276712
+			},
+		}
+	],
+}
+
+export default card

@@ -1,0 +1,97 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ヤドラン",
+		'zh-tw': "呆殼獸",
+		'th-th': "ยาโดรัน",
+		'id-id': "Slowbro",
+	},
+
+	illustrator: "OKACHEKE",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "ヤドンが 海へ エサを 取りにいったとき シェルダーに 尻尾を かまれ ヤドランになった。",
+		'zh-tw': "呆呆獸去海裡捕食時，被大舌貝咬住了尾巴， 於是就變成了呆殼獸。",
+		'th-th': "ยาดงโดนเชลเดอร์งับหางตอนออกไปหาอาหารแถวทะเลจนกลายเป็นยาโดรัน",
+		'id-id': "Ketika Slowpoke sedang mencari makan di laut, ekornya digigit oleh Shellder, lalu ia berevolusi menjadi Slowbro.",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "おおあくび",
+				'zh-tw': "大哈欠",
+				'th-th': "หาวปากกว้าง",
+				'id-id': "Menguap Lebar",
+			},
+			cost: ["Psychic"],
+			effect: {
+				'ja-jp': "おたがいのバトルポケモンを、それぞれねむりにする。",
+				'zh-tw': "將雙方的戰鬥寶可夢【睡眠】。",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ของทั้งสองฝ่าย แต่ละตัวเป็นสภาวะ[หลับ]",
+				'id-id': "Ubah kondisi Pokémon Bertarung kedua pemain masing-masing menjadi Tidur.",
+			},
+		},
+		{
+			name: {
+				'ja-jp': "のんびりタックル",
+				'zh-tw': "悠哉衝撞",
+				'th-th': "กระแทกเรื่อยเฉื่อย",
+				'id-id': "Serudukan Perlahan",
+			},
+			damage: 160,
+			cost: ["Psychic", "Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "この番、このポケモンに進化していたなら、このワザは失敗。",
+				'zh-tw': "在這個回合，若進化成這隻寶可夢，則這個招式失敗。",
+				'th-th': "เทิร์นนี้ ถ้าวิวัฒนาการเป็นโปเกมอนนี้แล้ว ท่าต่อสู้นี้จะล้มเหลว",
+				'id-id': "Jika pada giliran ini, Pokémon berevolusi menjadi Pokémon ini, serangan ini gagal.",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719522,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837388,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837389,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ヤドン",
+	},
+
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Uncommon",
+	dexId: [80],
+};
+
+export default card;

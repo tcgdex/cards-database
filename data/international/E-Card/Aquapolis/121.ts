@@ -1,0 +1,59 @@
+import { Card } from 'models/database/card'
+import Set from '../Aquapolis'
+
+const card: Card = {
+	name: {
+		'en-us': "Fighting Cube 01",
+		'fr-fr': "Cube de combat 01",
+		'de-de': "Kampf-Würfel 01"
+	},
+
+	illustrator: undefined,
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Attach this card to 1 of your Fighting Pokémon in play. That Pokémon my use this card's attack instead of its own. At the end of your turn, discard Fighting Cube 01.",
+		'fr-fr': "Attachez cette carte à l'un de vos Pokémon  en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube de combat 01.",
+		'de-de': "Lege diese Karte an 1 deiner -Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Kampf-Würfel 01 auf deinen Ablagestapel."
+	},
+
+	attacks: [
+		{
+			name: {
+				'en-us': "Violent Rage",
+				'de-de': "Rasende Wut",
+				'fr-fr': "Rage violente"
+			},
+			damage: "10×",
+			effect: {
+				'en-us': "Flip a number of coins equal to the number of damage counters on this Pokémon. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf so viele Münzen, wie Schadensmarken auf diesem Pokémon liegen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu.",
+				'fr-fr': "Lancez un nombre de pièces égal au nombre de marqueurs de dégâts sur ce Pokémon. Cette attaque inflige 10 dégâts multipliés par le nombre de faces."
+			},
+			cost: [
+				"Fighting",
+			]
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85432,
+				cardmarket: 275197
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 85432,
+				cardmarket: 275197
+			}
+		},
+	]
+}
+
+export default card

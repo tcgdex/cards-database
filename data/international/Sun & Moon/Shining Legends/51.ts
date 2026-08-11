@@ -1,0 +1,107 @@
+import { Card } from 'models/database/card'
+import Set from '../Shining Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Scrafty",
+		'fr-fr': "Baggaïd",
+		'es-es': "Scrafty",
+		'it-it': "Scrafty",
+		'pt-br': "Scrafty",
+		'de-de': "Irokex"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		560,
+	],
+
+	hp: 110,
+
+	types: [
+		"Darkness",
+	],
+
+	evolveFrom: {
+		'en-us': "Scraggy",
+		'fr-fr': "Baggiguane",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dangerous Head",
+				'fr-fr': "Tête Dangereuse",
+				'es-es': "Cabeza Peligrosa",
+				'it-it': "Rischio Testata",
+				'pt-br': "Cabeça Perigosa",
+				'de-de': "Gefährlicher Kopf"
+			},
+			effect: {
+				'en-us': "If your opponent’s Active Pokémon is a Basic Pokémon, this attack does 50 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon de base, cette attaque inflige 50 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon Básico, este ataque hace 50 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon Base, questo attacco infligge 50 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon Básico, este ataque causará 50 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Basis-Pokémon ist, fügt diese Attacke 50 Schadenspunkte mehr zu."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
+			},
+
+			damage: 90,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+	},
+
+	thirdParty: {
+		cardmarket: 302189,
+		tcgplayer: 146713
+	}
+}
+
+export default card

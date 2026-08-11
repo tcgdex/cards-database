@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Ledian",
+		'de-de': "Ledian"
+	},
+
+	illustrator: "Hikaru Koike",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [166],
+
+	hp: 70,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Ledyba",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Pollen Shield",
+				'de-de': "Pollenschild"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, Ledian can't become affected by a Special Condition. (Any other effects of attacks, Poké-Powers, Poké-Bodies, and Trainer cards still happen.)",
+				'de-de': "Während des nächsten gegnerischen Zugs kann Ledian nicht von speziellen Zuständen betroffen werden. (Alle anderen Effekte von Angriffen, Poke-Powers, Poke-Bodies und Trainerkarten finden immer noch statt.)"
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Swift",
+				'de-de': "Sternschauer"
+			},
+			effect: {
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'de-de': "Die Schadenspunkte dieses Angriffs werden nicht durch Schwäche, Resistenz, Poke-Powers, Poke-Bodies oder andere das verteidigende Pokémon betreffende Effekte beeinflusst."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 86690,
+				cardmarket: 275273
+			},
+		},
+	],
+	retreat: 0,
+}
+
+export default card

@@ -1,0 +1,109 @@
+import { Card } from 'models/database/card'
+import Set from '../Jungle'
+
+const card: Card = {
+	name: {
+		'en-us': "Tauros",
+		'fr-fr': "Tauros",
+		'de-de': "Tauros"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		128,
+	],
+
+	hp: 60,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 20 Schadenspunkte zu."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rampage",
+				'fr-fr': "Saccage",
+				'de-de': "Randale"
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on Tauros. Flip a coin. If tails, Tauros is now Confused (after doing damage).",
+				'fr-fr': "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur Tauros. Lancez une pièce. Si c'est pile, Tauros est maintenant Confus (après le calcul des dégâts).",
+				'de-de': "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Tauros zu. Wirf eine Münze. Bei 'Zahl' ist Tauros jetzt verwirrt (nach der Schadensverteilung)."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+		'fr-fr': "Une fois sa cible en vue, il la charge furieusement en fouettant l'air de sa queue."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273844,
+				tcgplayer: 45150
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273844,
+				tcgplayer: 45150
+			}
+		}
+	],
+}
+
+export default card

@@ -1,0 +1,47 @@
+import { Card } from 'models/database/card'
+import Set from '../Diamond & Pearl'
+
+const card: Card = {
+	name: {
+		'en-us': "Warp Point",
+		'fr-fr': "Point d'échange",
+		'de-de': "Wurmloch"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Your opponent switches 1 of his or her Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch 1 of your Active Pokémon with 1 of your Benched Pokémon, if any.",
+		'fr-fr': "Votre adversaire échange 1 de ses Pokémon Défenseurs avec 1 des Pokémon de son Banc, s'il en a. Vous échangez 1 de vos Pokémon Actifs avec 1 des Pokémon de votre Banc, si vous en avez.",
+		'de-de': "Dein Gegner tauscht 1 seiner Verteidigenden Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
+	},
+
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 277615,
+		tcgplayer: 90481
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"]
+		}
+	]
+}
+
+export default card

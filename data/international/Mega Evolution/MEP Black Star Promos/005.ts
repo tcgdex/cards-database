@@ -1,0 +1,72 @@
+import { Card } from "models/database/card"
+import Set from "../MEP Black Star Promos"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'de-de': "Driftlon",
+		'it-it': "Drifloon",
+		'es-es': "Drifloon",
+		'pt-br': "Drifloon"
+	},
+
+	illustrator: "Shimaris Yukichi",
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Psychic"],
+	stage: "Basic",
+	dexId: [425],
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'en-us': "Pull",
+			'fr-fr': "Tirer",
+			'de-de': "Ziehen",
+			'it-it': "Tira",
+			'es-es': "Tirar",
+			'pt-br': "Puxar",
+			'es-mx': "Jalar"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			'de-de': "Wirf 1 Münze. Wechsle bei Kopf 1 Pokémon auf der Bank deines Gegners gegen dessen Aktives Pokémon aus.",
+			'it-it': "Lancia una moneta. Se esce testa, scambia 1 dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
+			'es-es': "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele."
+		}
+	}],
+
+	retreat: 1,
+	regulationMark: "I",
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 851051,
+				tcgplayer: 656255
+			}
+		},
+	],
+}
+
+export default card

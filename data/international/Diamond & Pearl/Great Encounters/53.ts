@@ -1,0 +1,102 @@
+import { Card } from 'models/database/card'
+import Set from '../Great Encounters'
+
+const card: Card = {
+	name: {
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'de-de': "Panzaeron"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		227,
+	],
+
+	hp: 70,
+
+	types: [
+		"Metal",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+			],
+			name: {
+				'en-us': "Air Crash",
+				'fr-fr': "Crash aérien",
+				'de-de': "Absturz"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Steel Wing",
+				'fr-fr': "Aile d'acier",
+				'de-de': "Stahlflügel"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, any damage done to Skarmory by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Airmure par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Panzaeron durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Despite being clad entirely in iron-hard armor, it flies at speeds over 180 mph.",
+	},
+
+	thirdParty: {
+		cardmarket: 277955,
+		tcgplayer: 89240
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Erika's Gloom"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [44],
+
+	hp: 70,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Oddish"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dream Dance"
+			},
+			effect: {
+				'en-us': "Both the Defending Pokémon and Erika's Gloom are now Asleep (after doing damage)."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Vile Smell"
+			},
+			effect: {
+				'en-us': "Both the Defending Pokémon and Erika's Gloom are now Confused (after doing damage)."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85296,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85296,
+				cardmarket: 274152
+			}
+		}
+	],
+}
+
+export default card
+

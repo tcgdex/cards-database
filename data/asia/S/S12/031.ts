@@ -1,0 +1,73 @@
+import { Card } from "models/database/card"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "光電傘蜥",
+		'th-th': "เอเลซาร์ด",
+		'ja-jp': "エレザード"
+	},
+
+	illustrator: "Akira Komayama",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Lightning"],
+
+	description: {
+		'zh-tw': "在如今已滅亡的沙漠之國曾經是人們珍視的對象。 和財寶一起來到了伽勒爾地區。",
+		'th-th': "ได้รับการประคบประหงมในประเทศทะเลทรายที่ล่มสลายไปแล้วครั้งหนึ่งในอดีต มายังภูมิภาคกาลาร์พร้อมกับทรัพย์สมบัติ",
+		'ja-jp': "かつて 滅びた 砂漠の 国で 大事に されていた。 財宝と ともに ガラル地方へ やってきた。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'zh-tw': "劈哩啪啦",
+			'th-th': "ประกายไฟ",
+			'ja-jp': "バチバチ"
+		},
+
+		damage: 30,
+		cost: ["Lightning"]
+	}, {
+		name: {
+			'zh-tw': "瘋狂伏特",
+			'th-th': "ไวลด์โวลต์",
+			'ja-jp': "ワイルドボルト"
+		},
+
+		effect: {
+			'zh-tw': "這隻寶可夢也受到50點傷害。",
+			'th-th': "โปเกมอนตัวนี้ก็จะได้รับแดเมจ 50 ด้วย",
+			'ja-jp': "このポケモンにも50ダメージ。"
+		},
+
+		damage: 150,
+		cost: ["Lightning", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680170,
+				tcgplayer: 570089,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [695],
+}
+
+export default card

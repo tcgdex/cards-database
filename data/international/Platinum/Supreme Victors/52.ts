@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'de-de': "Kapilz"
+	},
+
+	illustrator: "Kyoko Umemoto",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [286],
+
+	hp: 90,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Hover Hit",
+				'fr-fr': "Coup de voltige",
+				'de-de': "Schwebetreffer"
+			},
+			effect: {
+				'en-us': "The Retreat Cost for the Defending Pokémon is 0 until the end of your next turn.",
+				'fr-fr': "Le Coût de retraite du Pokémon Défenseur est de 0 jusqu'à la fin de votre prochain tour.",
+				'de-de': "Das Verteidigende Pokémon hat Rückzugskosten 0 bis zum Ende deines nächsten Zuges."
+			},
+			damage: 40,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Crash Bomber",
+				'fr-fr': "Bombardier écrasant",
+				'de-de': "Trümmerbombe"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 20 damage plus 40 more damage. Then, discard a Special Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Si le Pokémon Défenseur possède des cartes Énergie spéciales, cette attaque inflige 20 dégâts plus 40 dégâts supplémentaires. Ensuite, défaussez une carte Énergie spéciale attachée au Pokémon Défenseur.",
+				'de-de': "Wenn am Verteidigenden Pokémon mindestens 1 Spezialenergiekarte angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 40 weitere Schadenspunkte zu. Danach entferne 1 Spezialenergiekarte vom Verteidigenden Pokémon und lege sie auf den Ablagestapel deines Gegners."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		'en-us': "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83958,
+				cardmarket: 278743
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278743,
+				tcgplayer: 83958
+			}
+		},
+	],
+
+}
+
+export default card

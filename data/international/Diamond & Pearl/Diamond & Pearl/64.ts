@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../Diamond & Pearl'
+
+const card: Card = {
+	name: {
+		'en-us': "Staravia",
+		'fr-fr': "Etourvol",
+		'de-de': "Staravia"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		397,
+	],
+
+	hp: 70,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Starly",
+		'fr-fr': "Etourmi",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind"
+			},
+			effect: {
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Clutch",
+				'fr-fr': "Serre",
+				'de-de': "Greifer"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				'de-de': "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	description: {
+		'en-us': "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+		'fr-fr': "Il survole les forêts et les champs en quête de Pokémon Insecte. Ils forment de grandes volées."
+	},
+
+	thirdParty: {
+		cardmarket: 277563,
+		tcgplayer: 89513
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

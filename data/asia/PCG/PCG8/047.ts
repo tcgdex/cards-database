@@ -1,0 +1,65 @@
+import { Card } from "models/database/card"
+import Set from "../PCG8"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "メディチャム",
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [308],
+	hp: 80,
+	types: ["Fighting"],
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "デュアルアーマー",
+			},
+			effect: {
+				'ja-jp': "MedichamにはPsychic Energyカードが付いている限り、MedichamはPsychicと戦闘タイプの両方です。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "PsyShock",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fighting", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "スカイアッパーカット",
+			},
+			effect: {
+				'ja-jp': "この攻撃の損傷は抵抗の影響を受けません。",
+			},
+			damage: 50,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+		},
+	],
+};
+
+export default card

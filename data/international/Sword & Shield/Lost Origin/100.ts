@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../Lost Origin"
+
+const card: Card = {
+	dexId: [308],
+	set: Set,
+
+	name: {
+		'en-us': "Medicham",
+		'fr-fr': "Charmina",
+		'es-es': "Medicham",
+		'it-it': "Medicham",
+		'pt-br': "Medicham",
+		'de-de': "Meditalis"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Fighting"],
+
+	evolveFrom: {
+		'en-us': "Meditite",
+		'fr-fr': "Méditikka",
+		'es-es': "Meditite",
+		'it-it': "Meditite",
+		'pt-br': "Meditite",
+		'de-de': "Meditie"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'en-us': "Battle Step",
+			'fr-fr': "Foulée de Combat",
+			'es-es': "Paso de Combate",
+			'it-it': "Passolotta",
+			'pt-br': "Passo de Batalha",
+			'de-de': "Kampfschritt"
+		},
+
+		effect: {
+			'en-us': "Search your deck for up to 2 Fighting Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie Fighting, puis attachez-les à vos Pokémon de Banc comme il vous plaît. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía Fighting y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia Fighting e assegnale ai tuoi Pokémon in panchina nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 cartas de Energia Fighting no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Fighting-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+		},
+
+		damage: 50
+	}],
+
+	retreat: 1,
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674112,
+				tcgplayer: 283993
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674112,
+				tcgplayer: 283993
+			}
+		},
+	],
+}
+
+export default card

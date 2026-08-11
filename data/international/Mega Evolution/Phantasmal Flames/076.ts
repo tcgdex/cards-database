@@ -1,0 +1,85 @@
+import { Card } from "models/database/card"
+import Set from "../Phantasmal Flames"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou",
+		'es-es': "Jigglypuff",
+		'es-mx': "Jigglypuff",
+		'de-de': "Pummeluff",
+		'it-it': "Jigglypuff",
+		'pt-br': "Jigglypuff"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+
+	dexId: [39],
+	hp: 70,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Ball Roll",
+			'fr-fr': "Boulé-Roulade",
+			'es-es': "Rodabola",
+			'es-mx': "Bola Rodante",
+			'de-de': "Ballrolle",
+			'it-it': "Rotopalla",
+			'pt-br': "Rolo Bola"
+		},
+
+		effect: {
+			'en-us': "Flip a coin until you get tails. This attack does 20 damage for each heads.",
+			'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 20 dégâts pour chaque côté face.",
+			'es-es': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+			'de-de': "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
+			'it-it': "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
+			'pt-br': "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara."
+		},
+
+		damage: "20×"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	description: {
+		'en-us': "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+	},
+
+	illustrator: "Naoyo Kimura",
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857651,
+				tcgplayer: 662171,
+				cardtrader: 356862
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857651,
+				tcgplayer: 662171,
+				cardtrader: 356862
+			}
+		},
+	],
+}
+
+export default card

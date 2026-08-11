@@ -1,0 +1,75 @@
+import { Card } from "models/database/card"
+import Set from "../SV3"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "サメハダー",
+		'zh-tw': "巨牙鯊",
+		'th-th': "ซาเมฮาเดอร์"
+	},
+
+	illustrator: "Tonji Matsuno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [319],
+	hp: 120,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "海のギャングと 呼ばれ 生息 海域に 入りこんでしまった 船は もれなく 襲われてしまう。",
+		'zh-tw': "被稱為大海惡霸。船隻要是誤闖了牠的棲息海域，無一倖免地都會被襲擊。",
+		'th-th': "เรียกกันว่านักเลงแห่งทะเล เรือลำใดที่เข้าไปในอาณาเขตทะเลของมันจะถูกโจมตีโดยไม่มีการละเว้น"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Water"],
+
+		name: {
+			'ja-jp': "アクアインパクト",
+			'zh-tw': "水流衝擊",
+			'th-th': "อควาอิมแพ็ค"
+		},
+
+		damage: "10+",
+
+		effect: {
+			'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢【撤退】所需的能量的數量×30點傷害。",
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงานสำหรับ[หนี]ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x30"
+		}
+	}, {
+		cost: ["Water", "Water"],
+
+		name: {
+			'ja-jp': "ジェットヘッド",
+			'zh-tw': "噴射頭擊",
+			'th-th': "เจ็ตเฮด"
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 723952,
+				tcgplayer: 566976,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

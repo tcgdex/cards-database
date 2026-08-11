@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Darkness Ablaze'
+
+const card: Card = {
+	name: {
+		'en-us': "Skwovet",
+		'fr-fr': "Rongourmand",
+		'es-es': "Skwovet",
+		'it-it': "Skwovet",
+		'pt-br': "Skwovet",
+		'de-de': "Raffel"
+	},
+
+	illustrator: "Akira Komayama",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [819],
+	set: Set,
+	hp: 70,
+
+	types: [
+		"Colorless",
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whimsy Tackle",
+				'fr-fr': "Charge Bizarre",
+				'es-es': "Placaje Caprichoso",
+				'it-it': "Capriccioazione",
+				'pt-br': "Investida Fantástica",
+				'de-de': "Launischer Tackle"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+				'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+				'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "D",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483639,
+				tcgplayer: 219365
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483639,
+				tcgplayer: 219365
+			}
+		},
+	],
+}
+
+export default card

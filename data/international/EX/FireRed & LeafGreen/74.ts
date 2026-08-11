@@ -1,0 +1,78 @@
+import { Card } from 'models/database/card'
+import Set from '../FireRed & LeafGreen'
+
+const card: Card = {
+	name: {
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'de-de': "Pikachu"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		25,
+	],
+
+	hp: 50,
+
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Pikachu.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Pikachu.",
+				'de-de': "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Pikachu."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276250,
+				tcgplayer: 88078
+			},
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276250,
+				tcgplayer: 88078
+			},
+		},
+	],
+}
+
+export default card

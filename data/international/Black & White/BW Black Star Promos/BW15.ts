@@ -1,0 +1,62 @@
+import { Card } from 'models/database/card'
+import Set from '../BW Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+	},
+	illustrator: "Naoki Saito",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		519,
+	],
+	hp: 50,
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+
+
+	description: {
+		'en-us': "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+	},
+}
+
+export default card

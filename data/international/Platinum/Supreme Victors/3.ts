@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Drifblim FB",
+		'fr-fr': "Grodrive FB",
+		'de-de': "Drifzepeli FB"
+	},
+	illustrator: "Lee HyunJung",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [426],
+	hp: 80,
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Pump Up",
+				'fr-fr': "Regonfler",
+				'de-de': "Aufpumpen"
+			},
+			effect: {
+				'en-us': "If your opponent has 3 or less Prize cards left, Drifblim FB gets +40 HP.",
+				'fr-fr': "S'il ne reste pas plus de 3 cartes Récompense à votre adversaire, Grodrive  obtient 40 PV supplémentaires.",
+				'de-de': "Solange dein Gegner weniger als 4 Preise übrig hat, erhält Drifzepeli FB +40 KP."
+			}
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Shadow Ball",
+				'fr-fr': "Ball'ombre",
+				'de-de': "Spukball"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Benched Pokémon. This attack does 40 damage to that Pokémon. Apply Weakness and Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 40 dégâts. Appliquez la Faiblesse et la Résistance.",
+				'de-de': "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. Wende dafür Schwäche und Resistenz an."
+			},
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Colorless",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278694,
+				tcgplayer: 84952
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278694,
+				tcgplayer: 84952
+			}
+		},
+	],
+
+}
+
+export default card

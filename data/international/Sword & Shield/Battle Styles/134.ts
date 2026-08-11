@@ -1,0 +1,51 @@
+import { Card } from 'models/database/card'
+import Set from '../Battle Styles'
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Single Strike Style Mustard",
+		'fr-fr': "Mustar Style Poing Final",
+		'es-es': "Mostaz Estilo Brusco",
+		'it-it': "Mustard Stile Singolcolpo",
+		'pt-br': "Mostarda Estilo Golpe Decisivo",
+		'de-de': "Fokussierter-Stil-Mastrich"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "You can play this card only when it is the last card in your hand.\nSearch your deck for a Single Strike Pokémon and put it onto your Bench. Then, shuffle your deck. If you searched your deck in this way, draw 5 cards.",
+		'fr-fr': "Vous ne pouvez jouer cette carte que si c'est votre dernière carte en main.\n\nCherchez dans votre deck un Pokémon Poing Final, puis placez-le sur votre Banc. Mélangez ensuite votre deck. Si vous avez cherché dans votre deck de cette façon, piochez 5 cartes.",
+		'es-es': "Puedes jugar esta carta solo cuando sea la última carta en tu mano.\n\nBusca en tu baraja 1 Pokémon Golpe Brusco y ponlo en tu Banca. Después, baraja las cartas de tu baraja. Si has buscado en tu baraja de esta manera, roba 5 cartas.",
+		'it-it': "Puoi giocare questa carta solo se è l'ultima carta che hai in mano.\n\nCerca nel tuo mazzo un Pokémon Colpo Singolo e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo. Se hai cercato nel tuo mazzo in questo modo, pesca cinque carte.",
+		'pt-br': "Você só pode jogar esta carta se ela for a última carta na sua mão.\n\nProcure por 1 Pokémon Golpe Decisivo no seu baralho e coloque-o no seu Banco. Em seguida, embaralhe o seu baralho. Se você procurar no seu baralho desta forma, compre 5 cartas.",
+		'de-de': "Du kannst diese Karte nur spielen, wenn es die letzte Karte auf deiner Hand ist.\n\nDurchsuche dein Deck nach 1 Fokussierter-Angriff-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck. Wenn du auf diese Weise dein Deck durchsucht hast, ziehe 5 Karten."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "E",
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545981,
+				tcgplayer: 234139
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545981,
+				tcgplayer: 234139
+			}
+		},
+	],
+}
+
+export default card

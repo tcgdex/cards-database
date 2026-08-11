@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Chilling Reign'
+
+const card: Card = {
+	dexId: [335],
+	set: Set,
+
+	name: {
+		'en-us': "Zangoose",
+		'fr-fr': "Mangriff",
+		'es-es': "Zangoose",
+		'it-it': "Zangoose",
+		'pt-br': "Zangoose",
+		'de-de': "Sengo"
+	},
+
+	illustrator: "Anesaki Dynamic",
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Colorless"],
+
+	attacks: [{
+		name: {
+			'en-us': "Gale Claws",
+			'fr-fr': "Tempête de Griffes",
+			'es-es': "Vendaval de Zarpas",
+			'it-it': "Raffica di Artigli",
+			'pt-br': "Garras de Vendaval",
+			'de-de': "Sturmklauen"
+		},
+
+		effect: {
+			'en-us': "If you played a Rapid Strike Supporter card from your hand during this turn, this attack also does 50 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Si vous avez joué une carte Supporter Mille Poings de votre main pendant ce tour, cette attaque inflige aussi 50 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Si has jugado 1 carta de Partidario de Golpe Fluido de tu mano durante este turno, este ataque también hace 50 puntos de daño a 2 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Se hai giocato una carta Aiuto Colpo Rapido dalla tua mano durante questo turno, questo attacco infligge anche 50 danni a due dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Se você jogou 1 carta de Apoiador Golpe Fluido da sua mão durante este turno, este ataque também causará 50 pontos de dano a 2 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Wenn du 1 Fließender-Angriff-Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke auch 2 Pokémon auf der Bank deines Gegners 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		},
+
+		damage: 50,
+		cost: ["Colorless", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 2,
+	regulationMark: "E",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567228,
+				tcgplayer: 241799
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567228,
+				tcgplayer: 241799
+			}
+		},
+	],
+}
+
+export default card

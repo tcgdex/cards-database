@@ -1,0 +1,44 @@
+import { Card } from "models/database/card"
+import Set from "../Prismatic Evolutions"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Max Rod",
+		'fr-fr': "Max Canne",
+		'es-es': "Maxicaña",
+		'pt-br': "Vara de Pescar Max",
+		'it-it': "Canna da pesca max",
+		'de-de': "Maximale Angel"
+	},
+
+	rarity: "ACE SPEC Rare",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Put up to 5 in any combination of Pokémon and Basic Energy cards from your discard pile into your hand.",
+		'fr-fr': "Ajoutez à votre main une combinaison d'un maximum de 5 Pokémon et cartes Énergie de base de votre pile de défausse.",
+		'es-es': "Pon, en cualquier combinación, hasta 5 cartas de Energía Básica y Pokémon de tu pila de descartes en tu mano.",
+		'pt-br': "Coloque até 5 cartas de Pokémon e de Energia Básica da sua pilha de descarte na sua mão em qualquer combinação.",
+		'it-it': "Prendi fino a cinque Pokémon e carte Energia base in qualsiasi combinazione dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
+		'de-de': "Nimm eine beliebige Kombination aus bis zu 5 Pokémon und Basis-Energiekarten aus deinem Ablagestapel auf deine Hand."
+	},
+
+	trainerType: "Item",
+	regulationMark: "H",
+
+	illustrator: "Toyste Beach",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805510,
+				tcgplayer: 610471
+			}
+		},
+	],
+}
+
+export default card

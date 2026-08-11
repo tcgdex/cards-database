@@ -1,0 +1,42 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Genesis'
+
+const card: Card = {
+	name: {
+		'en-us': "Sprout Tower",
+		'fr-fr': "Tour Chétiflor",
+		'de-de': "Sprösslings-Turm"
+	},
+
+	illustrator: undefined,
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. All damage done by Colorless Pokémon's attacks is reduced by 30 (after applying Weakness and Resistance).",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade arrive en jeu. Tous les dégâts infligés par des attaques de Pokémon () sont réduits de 30 (après application de la Faiblesse et de la Résistance.)",
+		'de-de': "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-karte ins Spiel kommt. Alle Schadenspunkte, die von Angriffen von  Pokémon zugefügt werden, werdenum 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274497,
+				tcgplayer: 89482
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274497,
+				tcgplayer: 89482
+			}
+		}
+	]
+}
+
+export default card

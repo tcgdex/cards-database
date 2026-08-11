@@ -1,0 +1,90 @@
+import { Card } from "models/database/card"
+import Set from "../Pokémon GO"
+
+const card: Card = {
+	dexId: [25],
+	set: Set,
+
+	name: {
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
+	},
+
+	illustrator: "N-DESIGN Inc.",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Lightning", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Buddy Bolt",
+			'fr-fr': "Éclair Partenaire",
+			'es-es': "Rayo Amigo",
+			'it-it': "Lampo Amico",
+			'pt-br': "Raio Companheiro",
+			'de-de': "Kumpel-Blitz"
+		},
+
+		effect: {
+			'en-us': "If you played a Supporter card from your hand during this turn, this attack does 30 more damage.",
+			'fr-fr': "Si vous avez joué une carte Supporter de votre main pendant ce tour, cette attaque inflige 30 dégâts supplémentaires.",
+			'es-es': "Si has jugado 1 carta de Partidario de tu mano durante este turno, este ataque hace 30 puntos de daño más.",
+			'it-it': "Se hai giocato una carta Aiuto dalla tua mano durante questo turno, questo attacco infligge 30 danni in più.",
+			'pt-br': "Se você jogou 1 carta de Apoiador da sua mão durante este turno, este ataque causará 30 pontos de dano a mais.",
+			'de-de': "Wenn du eine Unterstützerkarte während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 30 Schadenspunkte mehr zu."
+		},
+
+		damage: "30+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+	},
+
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665260,
+				tcgplayer: 276946
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665260,
+				tcgplayer: 276946
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 669496,
+				tcgplayer: 279927
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,100 @@
+import { Card } from "models/database/card"
+import Set from "../Twilight Masquerade"
+
+const card: Card = {
+	dexId: [1014],
+	set: Set,
+
+	name: {
+		'en-us': "Okidogi",
+		'fr-fr': "Félicanis",
+		'es-es': "Okidogi",
+		'it-it': "Okidogi",
+		'pt-br': "Okidogi",
+		'de-de': "Boninu"
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Adrena-Power",
+			'fr-fr': "Adréna-Puissance",
+			'es-es': "Adrenalina Poderosa",
+			'it-it': "Adrena-Potenza",
+			'pt-br': "Adrena-poder",
+			'de-de': "Adrena-Power"
+		},
+
+		effect: {
+			'en-us': "If this Pokémon has any {D} Energy attached, it gets +100 HP, and the attacks it uses do 100 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			'fr-fr': "Si ce Pokémon a au moins une Énergie {D} attachée, il reçoit +100 PV et les attaques utilisées par ce Pokémon infligent 100 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Si este Pokémon tiene alguna Energía {D} unida, obtiene 100 PS más, y los ataques que use hacen 100 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'it-it': "Se questo Pokémon ha delle Energie {D} assegnate, ha 100 PS in più e gli attacchi che usa infliggono 100 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Se este Pokémon tiver alguma Energia {D} ligada a ele, ele receberá 100 PS a mais, e os ataques que ele usar causarão 100 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
+			'de-de': "Wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist, erhält es +100 KP und die Attacken, die es einsetzt, fügen dem Aktiven Pokémon deines Gegners 100 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			'en-us': "Good Punch",
+			'fr-fr': "Bon Poing",
+			'es-es': "Puño Bueno",
+			'it-it': "Bel Pugno",
+			'pt-br': "Baita Soco",
+			'de-de': "Schöner Schlag"
+		},
+
+		damage: 70
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "H",
+
+	description: {
+		'en-us': "Okidogi is a ruffian with a short temper. It can pulverize anything by swinging around the chain on its neck.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769285,
+				tcgplayer: 550155
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769285,
+				tcgplayer: 550155
+			}
+		},		
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 776165,
+			}
+		},
+	],
+
+	illustrator: "Souichirou Gunjima",
+
+}
+
+export default card

@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Jirachi",
+		'fr-fr': "Jirachi"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		385,
+	],
+
+	hp: 70,
+
+	types: [
+		"Metal",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+			],
+			name: {
+				'en-us': "Precognitive Dream",
+				'fr-fr': "Rêve Prémonitoire"
+			},
+			effect: {
+				'en-us': "Draw 3 cards. This Pokémon is now Asleep.",
+				'fr-fr': "Piochez 3 cartes. Ce Pokémon est maintenant Endormi."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Iron Head",
+				'fr-fr': "Tête de Fer"
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "It is said to have the ability to grant any wish for just one week every thousand years.",
+	},
+
+	thirdParty: {
+		cardmarket: 553364
+	}
+}
+
+export default card

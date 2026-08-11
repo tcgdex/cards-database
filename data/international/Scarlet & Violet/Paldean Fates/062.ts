@@ -1,0 +1,90 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [942],
+	set: Set,
+
+	name: {
+		'en-us': "Maschiff",
+		'fr-fr': "Grondogue",
+		'es-es': "Maschiff",
+		'it-it': "Maschiff",
+		'pt-br': "Maschiff",
+		'de-de': "Mobtiff"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Darkness"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Darkness"],
+
+		name: {
+			'en-us': "Ambush",
+			'fr-fr': "Embuscade",
+			'es-es': "Emboscada",
+			'it-it': "Imboscata",
+			'pt-br': "Emboscada",
+			'de-de': "Hinterhalt"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+		},
+
+		damage: "10+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751600,
+				tcgplayer: 534424,
+				cardtrader: 274246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751600,
+				tcgplayer: 534424,
+				cardtrader: 274246
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794907
+			}
+		},
+	],
+
+	illustrator: "DOM",
+
+	description: {
+		'en-us': "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+	},
+
+}
+
+export default card

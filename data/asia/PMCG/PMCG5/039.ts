@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG5"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マチスのコイル",
+	},
+	illustrator: "Atsuko Nishida",
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [81],
+	hp: 30,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Lightning"],
+			name: {
+				'ja-jp': "除去パルス",
+			},
+			effect: {
+				'ja-jp': "防衛ポケモンにエネルギーカードが付いている場合は、コインをひっくり返します。頭の場合は、それらのエネルギーカードの1つを選択して廃棄します。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Lightning", "Lightning"],
+			name: {
+				'ja-jp': "混乱パルス",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+			},
+			damage: 20,
+		},
+	],
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576804
+			},
+		},
+	],
+};
+
+export default card

@@ -1,0 +1,47 @@
+import { Card } from 'models/database/card'
+import Set from '../Crystal Guardians'
+
+const card: Card = {
+	name: {
+		'en-us': "Crystal Shard",
+		'fr-fr': "Écharde de cristal",
+		'de-de': "Kristallscherbe"
+	},
+
+	illustrator: "Takumi Akabane",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Tool",
+
+	effect: {
+		'en-us': "Attach Crystal Shard to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card. As long as Crystal Shard is attached to a Pokémon, that Pokémon's type is Colorless. If that Pokémon attacks, discard this card at the end of the turn.",
+		'fr-fr': "Attachez Écharde de cristal à 1 de vos Pokémon qui ne possède pas déjà d'Outil Pokémon. Si ce Pokémon est mis K.O, défaussez cette carte.\n\nTant qu'Écharde de cristal est attachée à un Pokémon, ce Pokémon est de type . S'il attaque, défaussez cette carte à la fin du tour.",
+		'de-de': "Solange diese Karte an ein Pokémon angelegt ist, erhält das Pokémon den Typ . Wenn das Pokémon angreift, lege diese Karte am Ende deines Zuges auf deinen Ablagestapel."
+	},
+
+	thirdParty: {
+		cardmarket: 277157,
+		tcgplayer: 84521
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-scharff-kim"]
+		}
+	]
+}
+
+export default card

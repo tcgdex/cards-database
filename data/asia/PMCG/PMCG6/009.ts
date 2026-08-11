@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "キョウのモンジャラ",
+	},
+	illustrator: "Atsuko Nishida",
+
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [114],
+	hp: 50,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Grass"],
+			name: {
+				'ja-jp': "スリープパウダー",
+			},
+			effect: {
+				'ja-jp': "防御ポケモンは今眠っています。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Grass", "Colorless"],
+			name: {
+				'ja-jp': "つるのをつかむ",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合は、2枚のカードを描きます。",
+			},
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575315
+			},
+		},
+	],
+};
+
+export default card

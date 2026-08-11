@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Rapidash E4",
+		'fr-fr': "Galopa  Niv. 53",
+		'de-de': "Gallopa 4"
+	},
+	illustrator: "Masakazu Fukuda",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [78],
+	hp: 70,
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Pickup Power",
+				'fr-fr': "Pouvoir ramassage",
+				'de-de': "Energie aufsammeln"
+			},
+			effect: {
+				'en-us': "Flip 3 coins. For each heads, search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
+				'fr-fr': "Lancez 3 pièces. Pour chaque face, choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main.",
+				'de-de': "Wirf 3 Münzen. Durchsuche pro \"Kopf\" deinen Ablagestapel nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Fire Mane",
+				'fr-fr': "Crinière de feu",
+				'de-de': "Flammenmähne"
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278621,
+				tcgplayer: 88588
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278621,
+				tcgplayer: 88588
+			}
+		},
+	],
+
+}
+
+export default card

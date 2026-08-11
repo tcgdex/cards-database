@@ -1,0 +1,51 @@
+import { Card } from 'models/database/card'
+import Set from '../Chilling Reign'
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'fr-fr': "Lanterne Accueillante",
+		'en-us': "Welcoming Lantern",
+		'es-es': "Farolillo de Bienvenida",
+		'it-it': "Lanterna di Benvenuto",
+		'pt-br': "Lanterna Acolhedora",
+		'de-de': "Einladende Laterne"
+	},
+
+	illustrator: "Studio Bora Inc.",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'fr-fr': "Ajoutez une carte Supporter Poing Final de votre pile de défausse à votre main.",
+		'en-us': "Put a Single Strike Supporter card from your discard pile into your hand.",
+		'es-es': "Pon 1 carta de Partidario de Golpe Brusco de tu pila de descartes en tu mano.",
+		'it-it': "Prendi una carta Aiuto Colpo Singolo dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
+		'pt-br': "Coloque uma carta de Apoiador Golpe Decisivo da sua pilha de descarte na sua mão.",
+		'de-de': "Nimm 1 Fokussierter-Angriff-Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
+	},
+
+	trainerType: "Item",
+	regulationMark: "E",
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567264,
+				tcgplayer: 241866
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567264,
+				tcgplayer: 241866
+			}
+		},
+	],
+}
+
+export default card

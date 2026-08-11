@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../Space-Time Smackdown"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Slugma",
+		'fr-fr': "Limagma",
+		'es-es': "Slugma",
+		'it-it': "Slugma",
+		'de-de': "Schneckmag",
+		'pt-br': "Slugma",
+		'ko-kr': "마그마그"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "One Diamond",
+	category: "Pokemon",
+
+	dexId: [218],
+	hp: 70,
+	types: ["Fire"],
+
+	description: {
+		'en-us': "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+		'fr-fr': "Commun dans les régions volcaniques, il se déplace\nsans cesse pour trouver des endroits chauds.",
+		'es-es': "Asiduo a las zonas volcánicas, se desliza\nlentamente en busca de lugares calientes.",
+		'it-it': "Comune nelle aree vulcaniche, striscia in giro\nlentamente, sempre alla ricerca di luoghi caldi.",
+		'de-de': "Es hält sich ständig bei Vulkanen auf und ist\nstets kriechend auf der Suche nach warmen\nAufenthaltsorten.",
+		'pt-br': "Visão comum em áreas vulcânicas, desliza lentamente\nem uma busca constante por locais quentes.",
+		'ko-kr': "화산 지대에 많이 나타난다.\n따뜻한 곳을 찾아서\n느릿느릿 기어 다니고 있다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'en-us': "Flare",
+			'fr-fr': "Flamboiement",
+			'es-es': "Llama",
+			'it-it': "Fiammata",
+			'de-de': "Flackern",
+			'pt-br': "Chama",
+			'ko-kr': "불꽃"
+		},
+
+		damage: 20,
+		cost: ["Fire"]
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "+20"
+	}],
+
+	retreat: 2,
+	boosters: ["dialga", "palkia"]
+}
+
+export default card

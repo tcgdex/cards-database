@@ -1,0 +1,90 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "サンド",
+		'zh-tw': "穿山鼠",
+		'th-th': "แซนด์",
+		'id-id': "Sandshrew",
+	},
+
+	illustrator: "kodama",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "地面を 掘って 巣穴を つくる。 地中の 硬い 岩も 鋭い ツメで 砕いて 掘り進むぞ。",
+		'zh-tw': "會在地面挖洞築巢。即使遇到地下堅硬的岩石， 也會用銳利的爪子擊碎並向前挖進。",
+		'th-th': "จะขุดลงไปใต้พื้นดินเพื่อสร้างรัง ถึงจะเป็นหินแข็งที่อยู่ใต้ดิน ก็จะใช้กรงเล็บคมเจาะจนแตกเป็นผุยผงแล้วขุดลงไปต่อ",
+		'id-id': "Sandshrew menggali permukaan tanah untuk membuat sarang. Pokémon ini terus menggali sambil menghancurkan batu keras di dalam tanah menggunakan cakar tajamnya.",
+	},
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "すなでかくす",
+				'zh-tw': "流沙藏身",
+				'th-th': "ซุกซ่อนด้วยทราย",
+				'id-id': "Sembunyikan di Pasir",
+			},
+			effect: {
+				'ja-jp': "このポケモンがいるかぎり、相手のトラッシュにあるトレーナーズは、相手のグッズまたはサポートの効果で、山札にもどせない。",
+				'zh-tw': "只要這隻寶可夢在場上，對手的棄牌區的訓練家卡，無法因對手的物品卡或者支援者卡的效果而放回牌庫。",
+				'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่ การ์ดเทรนเนอร์ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายตรงข้าม จะนำใส่กลับไปในสำรับการ์ด ด้วยเอฟเฟกต์ของการ์ดไอเท็มหรือการ์ดซัพพอร์ตของฝ่ายตรงข้ามไม่ได้",
+				'id-id': "Selama Pokémon ini ada di Arena, Trainer yang ada di Trash lawan tidak dapat dikembalikan ke Deck menggunakan efek Item atau Supporter lawan.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ひっかく",
+				'zh-tw': "抓",
+				'th-th': "ข่วน",
+				'id-id': "Menggaruk",
+			},
+			damage: 30,
+			cost: ["Colorless", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719469,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837275,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837276,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Common",
+	dexId: [27],
+};
+
+export default card;

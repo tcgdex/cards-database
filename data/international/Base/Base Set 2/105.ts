@@ -1,0 +1,29 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Pokémon Breeder",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Put a Stage 2 Evolution card from your hand on the matching Basic Pokémon. You can only play this card when you would be allowed to evolve that Pokémon anyway.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274028
+			}
+		}
+	]
+}
+
+export default card

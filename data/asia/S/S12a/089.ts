@@ -1,0 +1,82 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "レパルダス",
+		'zh-tw': "酷豹",
+		'th-th': "เลพัลดัส",
+	},
+
+	illustrator: "saino misaki",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "美しい 毛並みと スタイルに 惑わされがちだが 気まぐれで 狂暴な ポケモンなのだ。",
+		'zh-tw': "雖然人們容易被牠美麗的毛皮和姿態所迷惑，但牠其實 是一種善變而凶暴的寶可夢。",
+		'th-th': "มักจะหลงใหลไปกับขนและลักษณะที่สวยงาม แต่เป็นโปเกมอนที่บ้าคลั่งและอารมณ์แปรปรวน",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "とりひき",
+				'zh-tw': "交易",
+				'th-th': "แลกเปลี่ยน",
+			},
+			effect: {
+				'ja-jp': "自分の番に、自分の手札を1枚トラッシュするなら、1回使える。自分の山札を2枚引く。",
+				'zh-tw': "在自己的回合時，若將自己的1張手牌丟棄，則可使用1次。從自己的牌庫抽出2張卡。",
+				'th-th': "ในเทิร์นฝ่ายเรา ถ้าทิ้งการ์ดบนมือฝ่ายเรา 1 ใบที่ตำแหน่งทิ้งการ์ด จะสามารถใช้ได้ 1 ครั้ง จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "きりさく",
+				'zh-tw': "劈開",
+				'th-th': "ฟันแหลก",
+			},
+			damage: 60,
+			cost: ["Colorless", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687651,
+				tcgplayer: 571627,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577474,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "チョロネコ",
+	},
+
+	retreat: 1,
+	regulationMark: "F",
+	rarity: "None",
+	dexId: [510],
+};
+
+export default card;

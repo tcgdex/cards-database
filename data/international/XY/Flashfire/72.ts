@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Flashfire'
+
+const card: Card = {
+	name: {
+		'en-us': "Goomy",
+		'fr-fr': "Mucuscule",
+		'es-es': "Goomy",
+		'it-it': "Goomy",
+		'pt-br': "Goomy",
+		'de-de': "Viscora"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		704,
+	],
+
+	hp: 50,
+
+	types: [
+		"Dragon",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gooey",
+				'fr-fr': "Poisseux",
+				'es-es': "Baba",
+				'it-it': "Viscosità",
+				'pt-br': "Pegajoso",
+				'de-de': "Viskosität"
+			},
+			effect: {
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+				'es-es': "Cura 10 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 10 danni.",
+				'pt-br': "Cure 30 de danos deste Pokémon.",
+				'de-de': "Heile 10 Schadenspunkte bei diesem Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Fairy",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'es-es': "Placaje",
+				'it-it': "Azione",
+				'pt-br': "Investida",
+				'de-de': "Tackle"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fairy",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.",
+	},
+
+	thirdParty: {
+		cardmarket: 281555,
+		tcgplayer: 91209
+	}
+}
+
+export default card

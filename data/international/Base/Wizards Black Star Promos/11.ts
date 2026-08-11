@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Wizards Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Eevee",
+	},
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		133,
+	],
+	hp: 30,
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Chain Reaction",
+			},
+			effect: {
+				'en-us': "This power can only be used when a Pokémon evolves. Search your deck for a card that evolves from Eevee and attach it to Eevee. This counts as evolving Eevee. Shuffle your deck afterward. This power can't be used if Eevee is Asleep, Confused, or Paralyzed.",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bite",
+			},
+
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "Its genetic code is irregular. It may mutate if it is exposed to radiation from elemental stones.",
+	},
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 85074
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["jr-stamp-rally"],
+			thirdParty: {
+				tcgplayer: 618732
+			},
+		}
+	]
+}
+
+export default card

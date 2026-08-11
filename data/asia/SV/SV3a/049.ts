@@ -1,0 +1,86 @@
+import { Card } from "models/database/card"
+import Set from "../SV3a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ミミズズ",
+		'zh-tw': "拖拖蚓",
+		'th-th': "มิมิซึซึ"
+	},
+
+	illustrator: "Pani Kobayashi",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [968],
+	hp: 140,
+	types: ["Metal"],
+
+	description: {
+		'ja-jp': "敵に 襲われると 体毛を こぶしのように 使い パンチの 嵐を お見舞いするのだ。",
+		'zh-tw': "遭到攻擊的時候，會把體毛如拳頭般地使用， 朝著敵人奉上拳擊風暴。",
+		'th-th': "เมื่อโดนศัตรูโจมตี จะใช้ขนตามร่างกายราวกับกำปั้นปล่อยพายุหมัดใส่ศัตรู"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Metal"],
+
+		name: {
+			'ja-jp': "パンチ&ドロー",
+			'zh-tw': "出拳&抽出",
+			'th-th': "ต่อยแล้วจั่ว"
+		},
+
+		damage: 20,
+
+		effect: {
+			'ja-jp': "自分の山札を2枚引く。",
+			'zh-tw': "從自己的牌庫抽出2張卡。",
+			'th-th': "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา"
+		}
+	}, {
+		cost: ["Metal", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "どたんばラッシュ",
+			'zh-tw': "絕境衝刺",
+			'th-th': "พุ่งจู่โจมนาทีสุดท้าย"
+		},
+
+		damage: "90+",
+
+		effect: {
+			'ja-jp': "自分の山札の残り枚数が3枚以下なら、150ダメージ追加。",
+			'zh-tw': "若自己的牌庫的剩餘張數為3張以下，則增加150點傷害。",
+			'th-th': "ถ้าจำนวนการ์ดที่เหลือในสำรับการ์ดฝ่ายเราน้อยกว่าหรือเท่ากับ 3 ใบ การโจมตีนี้จะเพิ่มแดเมจอีก 150"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Grass",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 734288,
+				tcgplayer: 566907,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "G"
+}
+
+export default card

@@ -1,0 +1,61 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		'en-us': "Pokémon Retriever",
+		'de-de': "Pokémon Retriever*"
+	},
+
+	illustrator: "Katsura Tabata",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Rocket's Secret Machine",
+
+	effect: {
+		'en-us': "Search your discard pile for Basic Pokémon and Evolution cards. You may either show 1 Basic Pokémon or Evolution card to your opponent and put it into your hand, or show a combination of 3 Basic Pokémon or Evolution cards to your opponent and shuffle them into your deck.",
+		'de-de': "Search your discard pile for Basic Pokémon and Evolution cards. You may either show 1 Basic Pokémon or Evolution card to your opponent and put it into your hand, or show a combination of 3 Basic Pokémon and Evolution cards to your opponent nd shuffle them into your deck."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276376
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276376
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 276376
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"],
+			thirdParty: {
+				cardmarket: 276376
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				cardmarket: 276376
+			},
+		},
+	],
+
+}
+
+export default card

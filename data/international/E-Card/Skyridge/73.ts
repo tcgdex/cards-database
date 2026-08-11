@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Ledyba",
+		'de-de': "Ledyba"
+	},
+
+	illustrator: "Yukiko Baba",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [165],
+
+	hp: 50,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Gnaw",
+				'de-de': "Nagen"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Slam",
+				'de-de': "Slam"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: "20×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86702,
+				cardmarket: 275331
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86702,
+				cardmarket: 275331
+			},
+		},
+	],
+}
+
+export default card

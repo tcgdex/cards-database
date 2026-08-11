@@ -1,0 +1,39 @@
+import { Card } from 'models/database/card'
+import Set from '../Legends Awakened'
+
+const card: Card = {
+	name: {
+		'en-us': "Energy Pickup",
+		'fr-fr': "Collecte d'Énergie",
+		'de-de': "Energieaufsammlung"
+	},
+
+	illustrator: "Kent Kanetsuna",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to 1 of your Pokémon.",
+		'fr-fr': "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 de vos Pokémon.",
+		'de-de': "Wirf 1 Münze. Bei \"Kopf\" durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an 1 deiner Pokémon an."
+	},
+
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 278281,
+		tcgplayer: 85215
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

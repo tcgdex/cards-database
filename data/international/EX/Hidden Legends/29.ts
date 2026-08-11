@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Beldum",
+		'fr-fr': "Terhal",
+		'de-de': "Tanhel"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [374],
+
+	hp: 50,
+
+	types: [
+		"Metal"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Magnetic Call",
+				'fr-fr': "Appel magnétique",
+				'de-de': "Magnetic Call"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Metal Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez un Pokémon de base  dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Terhal est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a  Basic Pokémon and put it onto your Bench. Shuffle your deck afterward. This power can't be used if Beldum is affected by a Special Condition."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Metal Charge",
+				'fr-fr': "Attaque métallique",
+				'de-de': "Metal Charge"
+			},
+			effect: {
+				'en-us': "Put 1 damage counter on Beldum.",
+				'fr-fr': "Placez 1 marqueur de dégât sur Terhal.",
+				'de-de': "Put 1 damage counter on Beldum."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30"
+		},
+	],
+
+	
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83782,
+				cardmarket: 280585
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83782,
+				cardmarket: 276103
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gym-challenge'],
+			thirdParty: {
+				tcgplayer: 488813,
+				cardmarket: 280585
+			}
+		},
+	]
+}
+
+export default card

@@ -1,0 +1,70 @@
+import { Card } from "models/database/card";
+import Set from "../S6K";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ポワルン あまみずのすがた",
+		'zh-tw': "飄浮泡泡 雨水的樣子",
+	},
+
+	illustrator: "sowsow",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "雨に 打たれる ポワルンの 姿。 シャワーを 浴びせた 実験では この 形に 変化しなかった。",
+		'zh-tw': "飄浮泡泡被雨淋到時的樣子。在讓牠淋浴的實驗裡，牠並沒有變成這種形態。",
+	},
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "てんきよみ",
+				'zh-tw': "看天",
+			},
+			effect: {
+				'ja-jp': "自分のトラッシュに「スタジアム」が8枚以上あるなら、このポケモンがワザを使うためのエネルギーは、すべてなくなる。",
+				'zh-tw': "若自己的棄牌區有8張以上的「競技場」卡，則這隻寶可夢使用招式所需的能量全部消除。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "レインシャワー",
+				'zh-tw': "雨流浴",
+			},
+			cost: ["Water", "Colorless"],
+			effect: {
+				'ja-jp': "相手のポケモン全員に、それぞれ20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "對手的所有寶可夢各受到20點傷害。[在備戰區不計算弱點・抵抗力。]",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560754,
+				tcgplayer: 569241,
+			},
+		},
+	],
+
+	retreat: 0,
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [351],
+};
+
+export default card;

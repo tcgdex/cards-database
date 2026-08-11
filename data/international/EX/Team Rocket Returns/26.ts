@@ -1,0 +1,95 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		'en-us': "Quagsire",
+		'de-de': "Morlord"
+	},
+
+	illustrator: "Miki Tanaka",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		195,
+	],
+
+	hp: 80,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Wooper",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Saturation",
+				'de-de': "Saturation"
+			},
+			effect: {
+				'en-us': "When you attach a Water Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.\"",
+				'de-de': "When you attach a  Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Hyper Pump",
+				'de-de': "Hyper Pump"
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 60 damage in this way.",
+				'de-de': "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not user to pay for this attack's Energy cost. You can't add more than 60 damage in this way."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276318,
+				tcgplayer: 88470
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276318,
+				tcgplayer: 88470
+			},
+		},
+	],
+
+}
+
+export default card
+

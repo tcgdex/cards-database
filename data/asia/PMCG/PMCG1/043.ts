@@ -1,0 +1,49 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ケーシィ",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [63],
+	hp: 30,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Psychic"],
+			name: {
+				'ja-jp': "PsyShock",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+			},
+			damage: 10,
+		},
+	],
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575569
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 576996
+			}
+		}
+	],
+};
+
+export default card

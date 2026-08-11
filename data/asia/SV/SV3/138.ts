@@ -1,0 +1,36 @@
+import { Card } from "models/database/card"
+import Set from "../SV3"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ポピー",
+		'zh-tw': "波琵",
+		'th-th': "ป๊อปปี้ [ซัพพอร์ต]"
+	},
+
+	illustrator: "Ryota Murayama",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の場のポケモン1匹についているエネルギーを2個まで選び、自分の別のポケモン1匹につけ替える。",
+		'zh-tw': "選擇最多2個自己的場上的1隻寶可夢身上附加的能量，改附於自己的另1隻寶可夢身上。",
+		'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเรา 1 ตัวได้สูงสุด 2 ลูก ย้ายไปติดกับโปเกมอนตัวอื่นของฝ่ายเรา 1 ตัว"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 724994,
+				tcgplayer: 567092,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G"
+}
+
+export default card

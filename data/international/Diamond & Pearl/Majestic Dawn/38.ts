@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Majestic Dawn'
+
+const card: Card = {
+	name: {
+		'en-us': "Kangaskhan",
+		'fr-fr': "Kangourex",
+		'de-de': "Kangama"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		115,
+	],
+
+	hp: 90,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Biss"
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Comet Punch",
+				'fr-fr': "Poing comète",
+				'de-de': "Kometenhieb"
+			},
+			effect: {
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			},
+			damage: "20x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.",
+	},
+
+	thirdParty: {
+		cardmarket: 278087,
+		tcgplayer: 86422
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

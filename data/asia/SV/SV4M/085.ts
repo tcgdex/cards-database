@@ -1,0 +1,36 @@
+import { Card } from "models/database/card"
+import Set from "../SV4M"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ヒョウタ",
+		'th-th': "เฮียวตะ",
+		'ko-kr': "강석"
+	},
+
+	illustrator: "Ryuta Fuse",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札を2枚引く。自分のトラッシュから基本エネルギーを1枚選び、相手に見せて、手札に加える。",
+		'th-th': "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา เลือกการ์ดพลังงานพื้นฐาน 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
+		'ko-kr': "자신의 덱을 2장 뽑는다. 자신의 트래쉬에서 기본 에너지를 1장 선택해서 상대에게 보여주고 패로 가져온다."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741912,
+				tcgplayer: 566045,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G"
+}
+
+export default card

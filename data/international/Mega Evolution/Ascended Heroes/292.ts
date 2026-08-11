@@ -1,0 +1,45 @@
+import { Card } from "models/database/card"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Iris's Fighting Spirit",
+		'fr-fr': "Esprit Combatif d'Iris",
+		'es-es': "Espíritu de Lucha de Iris",
+		'es-mx': "Espíritu de Pelea de Iris",
+		'de-de': "Lilias Kampfgeist",
+		'it-it': "Spirito Combattivo di Iris",
+		'pt-br': "Espírito de Luta da Iris"
+	},
+
+	illustrator: "Kuroimori",
+	rarity: "Special illustration rare",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "You can use this card only if you discard another card from your hand.\n\nDraw cards until you have 6 cards in your hand.",
+		'fr-fr': "Vous ne pouvez utiliser cette carte que si vous défaussez une autre carte de votre main.\nPiochez des cartes jusqu'à en avoir 6 en main.",
+		'es-es': "Puedes usar esta carta solo si descartas otra carta de tu mano.\n\nRoba cartas hasta que tengas 6 cartas en tu mano.",
+		'es-mx': "Solo puedes usar esta carta si descartas otra carta de tu mano.\n\nRoba cartas hasta que tengas 6 cartas en tu mano.",
+		'de-de': "Du kannst diese Karte nur einsetzen, wenn du noch 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst.\n\nZiehe so lange Karten, bis du 6 Karten auf deiner Hand hast.",
+		'it-it': "Puoi usare questa carta solo se scarti un'altra carta che hai in mano.\n\nPesca fino ad avere sei carte in mano.",
+		'pt-br': "Você só pode usar esta carta se descartar outra carta da sua mão.\n\nCompre cartas até ter 6 cartas na sua mão."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869902,
+				tcgplayer: 676104
+			}
+		}
+	],
+}
+
+export default card

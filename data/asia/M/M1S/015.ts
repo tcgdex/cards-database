@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マンタイン"
+	},
+	illustrator: "Shimaris Yukichi",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Water"],
+	description: {
+		'ja-jp': "悠然と 海を 泳ぐ。 食べ残しを 狙った テッポウオが くっついていても 気にしていない。"
+	},
+	stage: "Basic",
+	attacks: [{
+		name: {
+			'ja-jp': "なかまをよぶ"
+		},
+		effect: {
+			'ja-jp': "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+		},
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'ja-jp': "たきのぼり"
+		},
+		damage: 50,
+		cost: ["Water", "Colorless"]
+	}],
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840564,
+				tcgplayer: 647269,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [226]
+}
+
+export default card

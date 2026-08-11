@@ -1,0 +1,55 @@
+import { Card } from "models/database/card";
+import Set from "../SM8b";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ベベノム",
+	},
+
+	illustrator: "Akira Komayama",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "異世界に おいては 旅立ちの パートナーに 選ばれるほど 親しまれている ウルトラビースト。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "どくえき" },
+			cost: ["Colorless"],
+			effect: {
+				'ja-jp': "相手のバトルポケモンをどくにする。",
+			},
+		},
+		{
+			name: { ja: "コープスリバイバー" },
+			cost: ["Psychic", "Colorless"],
+			effect: {
+				'ja-jp': "次の相手の番、このポケモンがきぜつしても、相手はサイドをとれない。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 551391,
+			},
+		},
+	],
+
+	retreat: 1,
+	rarity: "Ultra Rare",
+	dexId: [803],
+};
+
+export default card;

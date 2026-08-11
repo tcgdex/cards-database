@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Light Machoke",
+		'fr-fr': "Machopeur lumineux",
+		'de-de': "Helles Maschock"
+	},
+
+	illustrator: "Miki Tanaka",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		67,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Return Home",
+				'fr-fr': "Retour à l'envoyeur",
+				'de-de': "Heimkehr"
+			},
+			effect: {
+				'en-us': "If you have any Benched Pokémon, shuffle 1 of them and all cards attached to it into your deck.",
+				'fr-fr': "Si vous avez des Pokémon sur votre Banc, mélangez l'un d'eux et toutes les cartes qui lui sont attachées à votre deck.",
+				'de-de': "Falls du mindestens ein Pokémon auf deiner Bank hast, mische eines davon und alle daran angelegten Karten in dein Deck zurück."
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+
+			name: {
+				'en-us': "Gentle Kick",
+				'fr-fr': "P'tit pied",
+				'de-de': "Sanfter Tritt"
+			},
+
+			effect: {
+				'en-us': "If the Defending Pokémon has no damage counters on it, this attack does 40 damage. If it has any, this attack does 20 damage.",
+				'fr-fr': "Si le Pokémon défenseur n'a pas de marqueurs de dégâts sur lui, cette attaque inflige 40 dégâts. S'il en a, cette attaque inflige 20 dégâts.",
+				'de-de': "Wenn auf dem verteidigenden Pokémon keine Schadensmarke liegt, fügt dieser Angriff 20 Schadenspunkte zu."
+			},
+
+			damage: 40
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "This Pokémon never gets tired, no matter what it does or how hard it works.",
+		'fr-fr': "Ce Pokémon ne se fatigue jamais, quoi qu'il fasse, même s'il s'entraîne dur."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274701,
+				tcgplayer: 86745
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274701,
+				tcgplayer: 86745
+			}
+		}
+	]
+}
+
+export default card

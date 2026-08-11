@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Nidorina"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [30],
+
+	hp: 70,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Nidoran♀"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Supersonic"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Kick"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads."
+			},
+			damage: "30×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274820,
+				tcgplayer: 87733
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87733,
+				cardmarket: 274820
+			}
+		}
+	],
+
+}
+
+export default card

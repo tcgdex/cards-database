@@ -1,0 +1,47 @@
+import { Card } from 'models/database/card'
+import Set from '../Legends Awakened'
+
+const card: Card = {
+	name: {
+		'en-us': "Buck's Training",
+		'fr-fr': "L'entrainement de Cornil",
+		'de-de': "Avenaros Training"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 2 cards. As long as Buck's Training is next to your Active Pokémon, each of your Active Pokémon's attacks does 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
+		'fr-fr': "Piochez 2 cartes. Tant que l'entrainement de Cornil se trouve à côté de votre Pokémon Actif, les attaques de chacun de vos Pokémon Actifs infligent 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+		'de-de': "Ziehe 2 Karten. Solange Avenaros Training neben deinem Aktiven Pokémon den Aktiven Pokémon liegt, fügen alle Angriffe deiner Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden).",
+	},
+
+	trainerType: "Supporter",
+
+	thirdParty: {
+		cardmarket: 278279,
+		tcgplayer: 84009
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"]
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release","staff"]
+		}
+	]
+}
+
+export default card

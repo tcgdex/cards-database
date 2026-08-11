@@ -1,0 +1,71 @@
+import { Card } from "models/database/card"
+import Set from "../Celestial Guardians"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Oricorio",
+		'fr-fr': "Plumeline",
+		'es-es': "Oricorio",
+		'it-it': "Oricorio",
+		'de-de': "Choreogel",
+		'pt-br': "Oricorio",
+		'ko-kr': "춤추새"
+	},
+
+	illustrator: "Jerky",
+	rarity: "Two Diamond",
+	category: "Pokemon",
+
+	dexId: [741],
+	hp: 70,
+	types: ["Psychic"],
+
+	description: {
+		'en-us': "This form of Oricorio has sipped purple nectar. It uses ethereal dance steps to call forth the spirits of the dead.",
+		'fr-fr': "Ce Plumeline a bu du Nectar Mauve. Ses pas\nde danse éthérés invoquent les âmes de l'au-delà.",
+		'es-es': "Forma que toma Oricorio al libar Néctar Violeta.\nInvoca a los espíritus de los difuntos con su danza hechizante.",
+		'it-it': "Forma di un Oricorio che si è nutrito di Nettare viola.\nChiama a sé le anime dei morti con eterei passi di danza.",
+		'de-de': "Dieses Choreogel hat Purpurnen Nektar geschlürft.\nMit anmutigen Tanzschritten beschwört es die\nSeelen Verstorbener.",
+		'pt-br': "Esta forma de Oricorio bebericou néctar roxo.\nUsa passos de dança etéreos para invocar\nos espíritos dos mortos.",
+		'ko-kr': "보라꿀을 빨아들인 모습.\n환상적인 스텝으로\n죽은 자의 영혼을 불러낸다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'en-us': "Spiteful Dance",
+			'fr-fr': "Danse Rancunière",
+			'es-es': "Danza Malévola",
+			'it-it': "Danza del Rancore",
+			'de-de': "Tückischer Tanz",
+			'pt-br': "Dança Vingativa",
+			'ko-kr': "원한의춤"
+		},
+
+		damage: "20+",
+		cost: ["Psychic"],
+
+		effect: {
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage.",
+			'fr-fr': "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 60 dégâts supplémentaires.",
+			'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 60 puntos de daño más.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 60 danni in più.",
+			'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 60 Schadenspunkte mehr zu.",
+			'pt-br': "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 60 pontos de dano a mais.",
+			'ko-kr': "상대의 이전 차례에 기술의 데미지로 자신의 포켓몬이 기절했다면 60데미지를 추가한다."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 1,
+	boosters: ["lunala"]
+}
+
+export default card

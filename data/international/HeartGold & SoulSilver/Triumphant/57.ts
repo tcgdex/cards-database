@@ -1,0 +1,94 @@
+import { Card } from 'models/database/card'
+import Set from '../Triumphant'
+
+const card: Card = {
+	name: {
+		'en-us': "Bellsprout",
+		'fr-fr': "Chétiflor",
+		'de-de': "Knofensa"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [69],
+
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Inviting Scent",
+				'fr-fr': "Senteur ensorcelante",
+				'de-de': "Einladender Duft"
+			},
+			effect: {
+				'en-us': "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Échangez le Pokémon Défenseur avec l’un des Pokémon de Banc de votre adversaire.",
+				'de-de': "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegeners aus."
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Careless Tackle",
+				'fr-fr': "Plaquage imprudent",
+				'de-de': "Unvorsichtiger Tackle"
+			},
+			effect: {
+				'en-us': "Bellsprout does 10 damage to itself.",
+				'fr-fr': "Chetiflor s’inflige 10 dégâts.",
+				'de-de': "Knofensa fügt sich selbst 10 Schadenspunkte zu."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Even though its body is extremely skinny, it is blindingly fast when catching its prey."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83810,
+				cardmarket: 279587
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279587,
+				tcgplayer: 83810
+			}
+		},
+	],
+
+}
+
+export default card

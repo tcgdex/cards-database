@@ -1,0 +1,54 @@
+import { Card } from 'models/database/card'
+import Set from '../DP Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Tropical Wind",
+		'fr-fr': "Vent tropical",
+		'de-de': "Tropenwinde"
+	},
+
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Common",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep.",
+		'fr-fr': "Lancez une pièce. Si c'est face, retirez 2 marqueurs de dégât à chaque Pokémon Actif (ou un si un Pokémon n'en possède qu'un). Si c'est pile, chaque Pokémon Actif est maintenant Endormi.",
+		'de-de': "Wirf 1 Münze. Entferne bei 'Kopf' 2 Schadensmarken von allen Aktiven Pokémon (1, falls nur 1 vorhanden). Bei 'Zahl' schlafen alle Aktiven Pokémon jetzt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["worlds-2007"],
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2007","finalist"],
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2007","quarter-finalist"],
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2007","semi-finalist"],
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2007","staff"],
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2007","top-sixteen"],
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2007","top-thirty-two"],
+		},
+	],
+}
+
+export default card

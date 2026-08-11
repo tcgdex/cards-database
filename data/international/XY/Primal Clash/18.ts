@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Primal Clash'
+
+const card: Card = {
+	name: {
+		'en-us': "Illumise",
+		'fr-fr': "Lumivole",
+		'es-es': "Illumise",
+		'it-it': "Illumise",
+		'pt-br': "Illumise",
+		'de-de': "Illumise"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		314,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Helping Hand",
+				'fr-fr': "Coup d'Main",
+				'es-es': "Refuerzo",
+				'it-it': "Altruismo",
+				'pt-br': "Mãozinha",
+				'de-de': "Rechte Hand"
+			},
+			effect: {
+				'en-us': "Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Énergie de base dans votre deck et attachez-la à l'un de vos Pokémon de Banc. Mélangez ensuite votre deck.",
+				'es-es': "Busca en tu baraja 1 carta de Energía Básica y únela a 1 de tus Pokémon en Banca. Baraja las cartas de tu baraja después.",
+				'it-it': "Cerca nel tuo mazzo una carta Energia base e assegnala a uno dei tuoi Pokémon in panchina. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Procure em seu baralho um card de Energia básica e ligue-o a 1 dos seus Pokémon no Banco. Em seguida, embaralhe seus cards.",
+				'de-de': "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Twirling Sign",
+				'fr-fr': "Signe Virevoltant",
+				'es-es': "Señal Pirueta",
+				'it-it': "Segnale Roteante",
+				'pt-br': "Sinal Espiral",
+				'de-de': "Kreiselndes Schild"
+			},
+			effect: {
+				'en-us': "Your opponent's Active Pokémon is now Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verwirrt."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
+	},
+
+	thirdParty: {
+		cardmarket: 273549,
+		tcgplayer: 95902
+	}
+}
+
+export default card

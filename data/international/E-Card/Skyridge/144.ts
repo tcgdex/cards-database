@@ -1,0 +1,39 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Retro Energy",
+		'de-de': "Retro Energie"
+	},
+
+	illustrator: "Shin-ichi Yoshikawa",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+	energyType: "Special",
+
+	effect: {
+		'en-us': "This card provides Colorless Energy. When you play this card from your hand and attach it to 1 of your Evolved Pokémon, you may remove up to 2 damage counters from that Pokémon and discard the top card from it. (This counts as devolving it.)",
+		'de-de': "Diese Karte erzeugt  - Energie. Wenn du diese Karte aus deiner Hand spielst und an 1 deiner entwickelten Pokémon anlegst, kannst du bis zu 2 Schadensmarken von diesem Pokémon entfernen und dann seine oberste Karte auf deinen Ablagestapel legen. (Dies zählt als Rückentwicklung dieses Pokémon)"
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88718,
+				cardmarket: 275402
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 88718,
+				cardmarket: 275402
+			},
+		},
+	],
+}
+
+export default card

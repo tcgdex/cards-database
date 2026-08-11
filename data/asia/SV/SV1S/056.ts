@@ -1,0 +1,73 @@
+import { Card } from "models/database/card"
+import Set from "../SV1S"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "コマタナ",
+		'zh-tw': "駒刀小兵",
+		'th-th': "โคมาทานา",
+		'id-id': "Pawniard"
+	},
+
+	illustrator: "sowsow",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [624],
+	hp: 70,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "強敵にも 恐れず 挑む。 いざとなると 相手に しがみつき 体中の 刃で 貫く。",
+		'zh-tw': "遇上強敵也是不畏挑戰。在緊要關頭時會緊緊抓住對手， 以身上的刀刃將其刺穿。",
+		'th-th': "ต่อกรกับศัตรูที่แข็งแกร่งอย่างไม่เกรงกลัว พอถึงยามคับขันจะเกาะติดศัตรูแน่นแล้วใช้ใบมีดทั่วทั้งตัวแทง",
+		'id-id': "Pawniard tidak takut menantang lawan kuat sekalipun. Ketika waktunya tiba, Pokémon ini mencengkeram lawan dan menusuknya dengan pedang di tubuhnya."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "ひっかく",
+			'zh-tw': "抓",
+			'th-th': "ข่วน",
+			'id-id': "Menggaruk"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			'ja-jp': "つきさす",
+			'zh-tw': "突刺",
+			'th-th': "แทง",
+			'id-id': "Melubangi"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693023,
+				tcgplayer: 567173,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

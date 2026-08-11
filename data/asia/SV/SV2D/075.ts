@@ -1,0 +1,64 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "スナバァ"
+	},
+
+	illustrator: "Teeziro",
+	category: "Pokemon",
+	dexId: [769],
+	hp: 90,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "スコップを なくすと 木の枝などを 代わりに 挿し 新たな スコップが 見つかるまで 気を 紛らわす。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "つぶやく"
+		},
+
+		damage: 20
+	}, {
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "マッドショット"
+		},
+
+		damage: 40
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707671,
+				tcgplayer: 565937,
+			},
+		},
+	],
+
+	retreat: 3,
+}
+
+export default card

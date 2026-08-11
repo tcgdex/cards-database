@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Volcanion",
+		'fr-fr': "Volcanion"
+	},
+
+	illustrator: "TOKIYA",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		721,
+	],
+
+	hp: 130,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Concentrated Fire",
+				'fr-fr': "Feu Concentré"
+			},
+			effect: {
+				'en-us': "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie  attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+			},
+			damage: 50,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Combustion Impact",
+				'fr-fr': "Impact de Combustion"
+			},
+			effect: {
+				'en-us': "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange son Pokémon Actif avec l'un de ses Pokémon de Banc."
+			},
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 4,
+
+
+	description: {
+		'en-us': "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+	},
+
+	thirdParty: {
+		cardmarket: 553958
+	}
+}
+
+export default card

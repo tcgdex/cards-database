@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Zekrom",
+		'fr-fr': "Zekrom",
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		644,
+	],
+
+	hp: 120,
+
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Slash",
+				'fr-fr': "Tranche",
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Voltage Storm",
+				'fr-fr': "Tempête Haute Tension"
+			},
+			effect: {
+				'en-us': "This attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			damage: 90,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+	},
+
+	thirdParty: {
+		cardmarket: 289799
+	}
+}
+
+export default card

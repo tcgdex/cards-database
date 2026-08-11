@@ -1,0 +1,43 @@
+import { Card } from 'models/database/card'
+import Set from '../Delta Species'
+
+const card: Card = {
+	name: {
+		'en-us': "Holon Researcher",
+		'fr-fr': "Chercheur Holon",
+		'de-de': "Holon-Forscher"
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Supporter",
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard a card from your hand. If you can't discard a card from your hand, you can't play this card. Search your deck for a Metal Energy card or a Basic Pokémon (or Evolution card) that has δ on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Défaussez une carte de votre main. Si vous ne pouvez pas défausser de carte de votre main, vous ne pouvez pas jouer cette carte.",
+		'de-de': "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card. Search your deck for a  Energy card or a Basic Pokémon (or Evolution card) that has Delta on its card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+	},
+
+	thirdParty: {
+		cardmarket: 276858,
+		tcgplayer: 86150
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["jun-hasebe"]
+		},
+	]
+}
+
+export default card

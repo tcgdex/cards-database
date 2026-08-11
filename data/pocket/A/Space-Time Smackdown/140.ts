@@ -1,0 +1,75 @@
+import { Card } from "models/database/card"
+import Set from "../Space-Time Smackdown"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Purugly",
+		'fr-fr': "Chaffreux",
+		'es-es': "Purugly",
+		'it-it': "Purugly",
+		'de-de': "Shnurgarst",
+		'pt-br': "Purugly",
+		'ko-kr': "몬냥이"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Two Diamond",
+	category: "Pokemon",
+
+	dexId: [432],
+	hp: 110,
+	types: ["Colorless"],
+
+	evolveFrom: {
+		'en-us': "Glameow"
+	},
+
+	description: {
+		'en-us': "It would claim another Pokémon's nest as its own if it finds a nest sufficiently comfortable.",
+		'fr-fr': "Il n'hésitera pas à voler le nid d'autres Pokémon\net à s'y installer si celui-ci est confortable.",
+		'es-es': "Si se siente a gusto, no tiene ningún reparo en\napropiarse de las moradas de otros Pokémon.",
+		'it-it': "Si introduce sfacciatamente nelle tane degli\naltri Pokémon rivendicandole poi come proprie.",
+		'de-de': "Behagt ihm die Behausung eines anderen Pokémon,\nbleibt Shnurgarst einfach da und nistet sich dort ein.",
+		'pt-br': "Se encontra um ninho de outro Pokémon que acha\nconfortável o bastante, toma-o para si.",
+		'ko-kr': "다른 포켓몬의 거처라 할지라도\n편안하면 눌러앉아\n자신의 거처로 삼아버린다."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'en-us': "Interrupt",
+			'fr-fr': "Interruption",
+			'es-es': "Interrupción",
+			'it-it': "Interruzione",
+			'de-de': "Stören",
+			'pt-br': "Interrupção",
+			'ko-kr': "방해하기"
+		},
+
+		damage: 60,
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		effect: {
+			'en-us': "Your opponent reveals their hand. Choose a card you find there and shuffle it into your opponent's deck.",
+			'fr-fr': "Votre adversaire dévoile sa main. Choisissez une carte que vous y trouvez et mélangez-la avec le deck de votre adversaire.",
+			'es-es': "Tu rival enseña las cartas de su mano. Elige 1 carta que encuentres entre ellas, ponla en su baraja y barájalas todas.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano. Scegline una e rimischiala nel suo mazzo.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten. Wähle 1 Karte, die du dort findest, und mische sie in das Deck deines Gegners.",
+			'pt-br': "Seu oponente revela a mão dele. Escolha 1 carta que encontrar lá e embaralhe-a no baralho do seu oponente.",
+			'ko-kr': "상대의 패의 앞면을 모두 보고 그 중에서 카드를 1장 선택해서 덱으로 되돌린다."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 3,
+	boosters: ["palkia"]
+}
+
+export default card

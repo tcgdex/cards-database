@@ -1,0 +1,89 @@
+import { Card } from "models/database/card"
+import Set from "../Destined Rivals"
+
+const card: Card = {
+	dexId: [233],
+	set: Set,
+
+	name: {
+		'en-us': "Team Rocket's Porygon2",
+		'fr-fr': "Porygon2 de la Team Rocket",
+		'de-de': "Team Rockets Porygon2",
+		'it-it': "Porygon2 del Team Rocket",
+		'es-es': "Porygon2 del Team Rocket",
+		'pt-br': "Porygon2 da Equipe Rocket",
+		'es-mx': "Porygon2 del Equipo Rocket"
+	},
+
+
+	illustrator: "Takeshi Nakamura",
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Colorless"],
+	evolveFrom: {
+		'en-us': "Team Rocket's Porygon",
+		'fr-fr': "Porygon de la Team Rocket",
+		'de-de': "Team Rockets Porygon",
+		'it-it': "Porygon del Team Rocket",
+		'es-es': "Porygon del Team Rocket",
+		'pt-br': "Porygon da Equipe Rocket",
+		'es-mx': "Porygon del Equipo Rocket"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "R Command",
+			'fr-fr': "Commande R",
+			'de-de': "R-Befehl",
+			'it-it': "Comando R",
+			'es-es': "Comando R",
+			'pt-br': "Comando R",
+			'es-mx': "Comando R"
+		},
+
+		effect: {
+			'en-us': "This attack does 20 damage for each Supporter card that has \"Team Rocket\" in its name in your discard pile.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque carte Supporter dans votre pile de défausse ayant \" Team Rocket \" dans son nom.",
+			'de-de': "Diese Attacke fügt für jede Unterstützerkarte in deinem Ablagestapel, bei der \"Team Rocket\" zum Namen gehört, 20 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 20 danni per ogni carta Aiuto nella tua pila degli scarti che ha \"Team Rocket\" nel nome.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Team Rocket\" en su nombre.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada carta de Apoiador que tenha \"Equipe Rocket\" em seu nome na sua pilha de descarte.",
+			'es-mx': "Este ataque hace 20 puntos de daño por cada carta de Partidario en tu pila de descartes que tenga \"Equipo Rocket\" en su nombre."
+		},
+
+		damage: "20×"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826028,
+				tcgplayer: 630827
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826028,
+				tcgplayer: 630827
+			}
+		},
+	],
+}
+
+export default card

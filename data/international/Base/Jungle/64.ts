@@ -1,0 +1,40 @@
+import { Card } from 'models/database/card'
+import Set from '../Jungle'
+
+const card: Card = {
+	name: {
+		'en-us': "Poké Ball",
+		'fr-fr': "Poké Balle",
+		'de-de': "Poké Ball"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Common",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Flip a coin. If heads, you may search your deck for any Basic Pokémon or Evolution card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Lancez une pièce. Si c'est face, vous pouvez chercher n'importe quelle carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
+		'de-de': "Wirf eine Münze. Bei 'Kopf' darfst du dein Deck nach einer beliebigen Basis-Pokémon- oder Evolutionskarte durchsuchen. Zeige diese karte deinem gegner und nimm sie auf deine Hand. Mische dein Deck dannach,"
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273861
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273861
+			}
+		}
+	],
+}
+
+export default card

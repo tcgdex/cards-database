@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		'en-us': "Mudkip ☆",
+		'de-de': "Hydropi ☆"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		258,
+	],
+
+	hp: 70,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Whirlpool",
+				'de-de': "Whirlpool"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
+				'de-de': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				'en-us': "Spring Back",
+				'de-de': "Spring Back"
+			},
+			effect: {
+				'en-us': "If your opponent has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Asleep.",
+				'de-de': "If your opponents has only 1 Prize card left, this attack does 20 damage plus 50 more damage and the Defending Pokémon is now Asleep."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87616
+			},
+		},
+	],
+
+}
+
+export default card

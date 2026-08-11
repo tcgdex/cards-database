@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG3"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "キングラー",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [99],
+	hp: 60,
+	types: ["Water"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Water"],
+			name: {
+				'ja-jp': "フレイル",
+			},
+			effect: {
+				'ja-jp': "キングラーのダメージ数の数を10回ダメージします。",
+			},
+
+		},
+		{
+			cost: ["Water", "Water", "Colorless"],
+			name: {
+				'ja-jp': "crabhammer",
+			},
+			damage: 40,
+		},
+	],
+
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575702
+			},
+		},
+	],
+};
+
+export default card

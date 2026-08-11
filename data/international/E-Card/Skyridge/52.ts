@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Dugtrio",
+		'de-de': "Digdri"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [51],
+
+	hp: 70,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Diglett",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Burrow",
+				'de-de': "Tunnelbau"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all damage done by attacks to Dugtrio during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" allen Schaden, der Digdri während des nächsten Zuges deines Gegners durch Angriffe zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dig Under",
+				'de-de': "Vergraben"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. Don't apply Weakness or Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				'de-de': "Wähle 1 der Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. Wende keine Schwäche oder Resistenz an. (Alle anderen Auswirkungen von Angriffen, die nach der Anwendung von Schwäche und Resistenz stattfinden, finden immer noch statt.)"
+			}
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84999,
+				cardmarket: 275310
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 84999,
+				cardmarket: 275310
+			},
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,103 @@
+import { Card } from 'models/database/card'
+import Set from '../Delta Species'
+
+const card: Card = {
+	name: {
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		82,
+	],
+
+	hp: 80,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		'en-us': "Magnemite",
+		'fr-fr': "Magneti"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Supersonic",
+				'fr-fr': "Ultrason",
+				'de-de': "Supersonic"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Confused."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Speed Ball",
+				'fr-fr': "Balle rapide",
+				'de-de': "Speed Ball"
+			},
+
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-30"
+		},
+	],
+
+
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 276811,
+		tcgplayer: 87104
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
+}
+
+export default card
+

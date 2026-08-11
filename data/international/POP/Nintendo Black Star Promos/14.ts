@@ -1,0 +1,69 @@
+import { Card } from 'models/database/card'
+import Set from '../Nintendo Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Latias",
+	},
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		380,
+	],
+	hp: 70,
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Super Psy",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Water",
+			],
+			name: {
+				'en-us': "Searing Flame",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+			},
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86649
+			}
+		}
+	]
+
+}
+
+export default card

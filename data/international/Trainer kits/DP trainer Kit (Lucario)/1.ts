@@ -1,0 +1,73 @@
+import { Card } from 'models/database/card'
+import Set from '../DP trainer Kit (Lucario)'
+
+const card: Card = {
+	dexId: [74],
+	set: Set,
+
+	name: {
+		'en-us': "Geodude",
+		'fr-fr': "Racaillou"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "None",
+	category: "Pokemon",
+
+	hp: 60,
+
+	stage: "Basic",
+	types: [
+		"Fighting"
+	],
+
+	attacks: [{
+
+		cost: [
+			"Fighting",
+		],
+
+		name: {
+			'en-us': "Stone Throw",
+			'fr-fr': "Jet-pierres"
+		},
+
+		effect: {
+			'en-us': "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+		}
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "+10"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+
+	description: {
+		'en-us': "Many live on mountain trails and remain half buried while keeping an eye on climbers"
+	},
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278010,
+				tcgplayer: 85691
+			}
+		},
+	],
+
+}
+
+export default card

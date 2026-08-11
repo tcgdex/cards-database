@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		'en-us': "Dark Raticate",
+		'de-de': "Dunkles Rattikarl"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		20,
+	],
+
+	hp: 70,
+
+	types: [
+		"Darkness",
+	],
+
+	evolveFrom: {
+		'en-us': "Rattata",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+			],
+			name: {
+				'en-us': "Dark Seed",
+				'de-de': "Dark Seed"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn.",
+				'de-de': "The Defending Pokémon can't retreat during opponent's next turn. Put 5 damage counters on the Defending Pokémon at the end of your opponent's next turn."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spread Poison",
+				'de-de': "Spread Poison"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "The Defending Pokémon is now Poisoned. This attack does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 0,
+
+
+	variants: [
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276309,
+				tcgplayer: 84650
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276309,
+				tcgplayer: 84650
+			},
+		},
+	],
+
+}
+
+export default card
+

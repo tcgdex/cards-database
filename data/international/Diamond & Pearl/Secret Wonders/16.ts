@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Secret Wonders'
+
+const card: Card = {
+	name: {
+		'en-us': "Raikou",
+		'fr-fr': "Raikou",
+		'de-de': "Raikou"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Rare Holo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		243,
+	],
+
+	hp: 80,
+
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Thunder Rumble",
+				'fr-fr': "Roulement de tonnerre",
+				'de-de': "Grollender Donner"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), when you attach a Lightning Energy card from your hand to Raikou, you may put 1 damage counter on 1 of your opponent's Benched Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), lorsque vous attachez une carte Énergie Lightning de votre main à Raikou, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de Banc de votre adversaire.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du 1 -Energiekarte von der Hand an Raikou anlegst, 1 Schadensmarke auf 1 Pokémon auf der Bank deines Gegners legen."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Thunder Climb",
+				'fr-fr': "Tonnerre grimpant",
+				'de-de': "Ansteigender Donner"
+			},
+			effect: {
+				'en-us': "Discard 3 cards from the top of your deck. This attack does 50 damage plus 10 more damage for each Lightning Energy card you discarded. Then, attach those Lightning Energy cards to 1 of your Pokémon.",
+				'fr-fr': "Défaussez 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Lightning défaussée. Ensuite, attachez ces cartes Énergie Lightning à 1 de vos Pokémon.",
+				'de-de': "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf diese Weise auf den Ablagestapel gelegte -Energiekarte zu. Danach lege diese -Energiekarten an 1 deiner Pokémon an."
+			},
+			damage: "50+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It is said to have fallen with lightning. It can fire thunderbolts from the rain clouds on its back.",
+	},
+
+	thirdParty: {
+		cardmarket: 277769,
+		tcgplayer: 88534
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice"
+		},
+	]
+}
+
+export default card

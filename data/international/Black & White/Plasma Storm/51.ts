@@ -1,0 +1,89 @@
+import { Card } from 'models/database/card'
+import Set from '../Plasma Storm'
+
+const card: Card = {
+	name: {
+		'en-us': "Galvantula",
+		'fr-fr': "Mygavolt",
+		'es-es': "Galvantula",
+		'it-it': "Galvantula",
+		'pt-br': "Galvantula",
+		'de-de': "Voltula"
+	},
+
+	illustrator: "Hajime Kusajima",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		596,
+	],
+
+	hp: 80,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		'en-us': "Joltik",
+		'fr-fr': "Statitik",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				'en-us': "Discharge",
+				'fr-fr': "Coup d'Jus",
+			},
+			effect: {
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. This attack does 30 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Signal Beam",
+				'fr-fr': "Rayon Signal",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 0,
+
+	description: {
+		'en-us': "It creates barriers from electrified silk that stun foes. This works as a weapon as well as a defense.",
+	},
+
+	thirdParty: {
+		cardmarket: 280791,
+		tcgplayer: 85613
+	}
+}
+
+export default card

@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Glalie",
+		'fr-fr': "Oniglali",
+		'de-de': "Firnontor"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		362,
+	],
+
+	hp: 90,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Snorunt",
+		'fr-fr': "Stalgamin"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Craggy Face",
+				'fr-fr': "Visage taillé au couteau",
+				'de-de': "Zerklüftetes Gesicht"
+			},
+			effect: {
+				'en-us': "As long as Glalie is your Active Pokémon, any damage done by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 20 (before applying Weakness and Resistance).",
+				'fr-fr': "Tant qu'Oniglali est votre Pokémon Actif, tous dégâts qui lui sont infligés par des attaques de Pokémon Évolués de Niveau 2 de votre adversaire sont réduits de 20 (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Firnontor dein Aktives Pokémon ist, wird aller Schaden von Angriffen von entwickelten Pokémon der Phase 2 deines Gegners um 20 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Intimidation Pebble",
+				'fr-fr': "Galet intimidant",
+				'de-de': "Einschüchter-Kiesel"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent can't play any Trainer cards or Supporter cards from his or her hand during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur ou de cartes Supporter de sa main lors de son prochain tour.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Trainer- oder Unterstützerkarten von seiner Hand spielen."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "+20"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.",
+		'fr-fr': "Il gèle l'humidité de l'air pour former une armure de glace protectrice autour de son corps."
+	},
+
+	thirdParty: {
+		cardmarket: 277654,
+		tcgplayer: 85755
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

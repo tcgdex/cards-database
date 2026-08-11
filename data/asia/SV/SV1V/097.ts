@@ -1,0 +1,31 @@
+import { Card } from "models/database/card"
+import Set from "../SV1V"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "カエデ"
+	},
+
+	illustrator: "Akira Komayama",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "このカードを使ったら、自分の番は終わる。\n\n自分の手札をすべて山札にもどして切る。その後、山札を8枚引く。"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693172,
+				tcgplayer: 568323,
+			},
+		},
+	],
+
+	trainerType: "Supporter"
+}
+
+export default card

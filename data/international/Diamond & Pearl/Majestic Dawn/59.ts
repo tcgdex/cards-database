@@ -1,0 +1,103 @@
+import { Card } from 'models/database/card'
+import Set from '../Majestic Dawn'
+
+const card: Card = {
+	name: {
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+		'de-de': "Wadribie"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		415,
+	],
+
+	hp: 50,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Honey Scent",
+				'fr-fr': "Parfum de miel",
+				'de-de': "Honigduft"
+			},
+			effect: {
+				'en-us': "Remove 2 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Retirez à 1 de vos Pokémon 2 marqueurs de dégât.",
+				'de-de': "Entferne 2 Schadensmarken von 1 deiner Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Flitter",
+				'fr-fr': "Voltige",
+				'de-de': "Huschen"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des gewählten Pokémon nicht verändert."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+10"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+	},
+
+	thirdParty: {
+		cardmarket: 278108,
+		tcgplayer: 84393
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["countdown-calendar"]
+		}
+	]
+}
+
+export default card

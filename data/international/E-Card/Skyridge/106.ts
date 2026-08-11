@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Sunkern",
+		'de-de': "Sonnkern"
+	},
+
+	illustrator: "Toshinao Aoki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [191],
+
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rollout",
+				'de-de': "Walzer"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Blot",
+				'de-de': "Klecks"
+			},
+			effect: {
+				'en-us': "If there are any damage counters on Sunkern, remove 1 of them.",
+				'de-de': "Wenn Schadensmarken auf Sonnkern liegen, entferne 1 von ihnen."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Water",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89619,
+				cardmarket: 275364
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 89619,
+				cardmarket: 275364
+			},
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Secret Wonders'
+
+const card: Card = {
+	name: {
+		'en-us': "Unown N",
+		'fr-fr': "Zarbi N",
+		'de-de': "Icognito N"
+	},
+	illustrator: "Daisuke Ito",
+	rarity: "Uncommon",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		201,
+	],
+	hp: 50,
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "NOD",
+				'fr-fr': "Non-oui",
+				'de-de': "NOD"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), if you have Unown N, Unown O, and Unown D on your Bench, you may ask your opponent to take a Prize card. If he or she does, you take a Prize card. If he or she doesn't, draw a card.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Zarbi N, Zarbi O et Zarbi D sont sur votre Banc, vous pouvez demander à votre adversaire de récolter une carte Récompense. Vous récoltez alors une carte Récompense. S'il ou elle choisit de ne pas en récolter, vous piochez une carte.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Icognito N, Icognito O und Icognito D auf deiner Bank sind, deinen Gegner fragen, ob er 1 seiner Preise auf die Hand nehmen möchte. Wenn er das macht, nimm 1 deiner Preise auf die Hand; andernfalls ziehe 1 Karte."
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Burned.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+			},
+			damage: 10,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Shaped like ancient writing, it is a huge mystery whether language or UNOWN came first.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

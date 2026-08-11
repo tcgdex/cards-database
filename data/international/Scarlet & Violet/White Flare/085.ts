@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../White Flare"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Tool Scrapper",
+		'fr-fr': "Arrache-Outil",
+		'de-de': "Ausrüstungsentsorger",
+		'it-it': "Scartaoggetti",
+		'pt-br': "Sucateador de Ferramentas",
+		'es-es': "Reciclaherramientas",
+		'es-mx': "Quitaherramientas"
+	},
+
+	illustrator: "Studio Bora Inc.",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Choose up to 2 Pokémon Tools attached to Pokémon (yours or your opponent's) and discard them.",
+		'fr-fr': "Choisissez jusqu'à 2 Outils Pokémon attachés aux Pokémon (les vôtres ou ceux de votre adversaire), puis défaussez-les.",
+		'de-de': "Wähle bis zu 2 an Pokémon (deine oder die deines Gegners) angelegte Pokémon-Ausrüstungen und lege sie auf den Ablagestapel.",
+		'it-it': "Scegli fino a due carte Oggetto Pokémon assegnate ai Pokémon, tuoi o del tuo avversario, e scartale.",
+		'pt-br': "Escolha até 2 Ferramentas Pokémon ligadas a Pokémon (seus ou do seu oponente) e descarte-as.",
+		'es-es': "Elige hasta 2 Herramientas Pokémon unidas a Pokémon (tuyos o de tu rival) y descártalas.",
+		'es-mx': "Elige hasta 2 Herramientas Pokémon unidas a Pokémon (tuyos o de tu rival) y descártalas."
+	},
+
+	trainerType: "Item",
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836061,
+				tcgplayer: 642195
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836061,
+				tcgplayer: 642195
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836646,
+				tcgplayer: 645190
+			}
+		},
+	],
+}
+
+export default card

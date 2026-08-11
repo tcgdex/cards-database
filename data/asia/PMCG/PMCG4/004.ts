@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG4"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ベトベター",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [88],
+	hp: 40,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Grass"],
+			name: {
+				'ja-jp': "毒ガス",
+			},
+			effect: {
+				'ja-jp': "防御ポケモンは現在中毒になっています。",
+			},
+		},
+		{
+			cost: ["Grass", "Grass"],
+			name: {
+				'ja-jp': "粘着性の手",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与え、防御ポケモンが麻痺しています。尾の場合、この攻撃は10ダメージを与えます。",
+			},
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575724
+			},
+		},
+	],
+};
+
+export default card

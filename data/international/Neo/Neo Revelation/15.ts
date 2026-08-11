@@ -1,0 +1,109 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Revelation'
+
+const card: Card = {
+	name: {
+		'en-us': "Aerodactyl",
+		'fr-fr': "Ptera",
+		'de-de': "Aerodactyl"
+	},
+
+	illustrator: "Shin-ichi Yoshida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		142,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Prehistoric Memory",
+				'fr-fr': "Mémoire préhistorique",
+				'de-de': "Prehistoric Memory"
+			},
+			effect: {
+				'en-us': "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Lorsqu'un Pokémon évolué attaque (même s'il s'agit de celui de votre adversaire), il peut utiliser n'importe quelle attaque de sa carte Pokémon de base ou de la carte Évolution qui lui est attachée. Il doit encore payer le coût en Énergie de l'attaque. Ce pouvoir cesse de fonctionner si Ptera est Endormi, Confus ou Paralysé.",
+				'de-de': "Whenever an Evolved Pokémon attacks (even if it's your opponent's), it can use any attack from its Basic Pokémon card or any Evolution card attached to it. It still has to pay for that attack's Energy cost. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+
+			name: {
+				'en-us': "Fly",
+				'fr-fr': "Vol",
+				'de-de': "Fly"
+			},
+
+			effect: {
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage).",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Ptera ; si c'est pile, cette attaque ne fait rien (pas même les dégâts).",
+				'de-de': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Aerodactyl. If tails, this attack does nothing (not even damage)."
+			},
+
+			damage: 30
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "A vicious Pokémon from the distant past, it appears to have flown by spreading its wings and gliding.",
+		'fr-fr': "Un Pokémon vicieux surgi du passé, il semble qu'il volait en étalant ses ailes et en se laissant planer."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274601,
+				tcgplayer: 83466
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274601,
+				tcgplayer: 83466
+			}
+		}
+	]
+}
+
+export default card

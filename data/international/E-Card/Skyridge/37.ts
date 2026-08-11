@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Kabuto",
+		'de-de': "Kabuto"
+	},
+
+	illustrator: "Yukiko Baba",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [140],
+
+	hp: 50,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Thick Shell",
+				'de-de': "Dicke Schale"
+			},
+			effect: {
+				'en-us': "All damage done by attacks to Kabuto from Evolved Pokémon is reduced by 10 (after applying Weakness and Resistance).",
+				'de-de': "Jeder Schaden, der Kabuto durch Angriffe von entwickelten Pokémon zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scratch",
+				'de-de': "Kratzer"
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86379,
+				cardmarket: 275295
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86379,
+				cardmarket: 275295
+			},
+		},
+	],
+}
+
+export default card

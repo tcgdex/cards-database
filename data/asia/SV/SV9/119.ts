@@ -1,0 +1,56 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ボーマンダex"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "None",
+	category: "Pokemon",
+	hp: 320,
+	types: ["Dragon"],
+	stage: "Stage2",
+	suffix: "EX",
+
+	attacks: [{
+		cost: ["Fire", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ワイドブラスト"
+		},
+
+		effect: {
+			'ja-jp': "相手のベンチポケモン全員に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+		}
+	}, {
+		cost: ["Fire", "Water", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ドラゴンインパクト"
+		},
+
+		damage: 300,
+
+		effect: {
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。"
+		}
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807706,
+				tcgplayer: 614995,
+			},
+		},
+	],
+
+	retreat: 2,
+}
+
+export default card

@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Shining Charizard",
+		'fr-fr': "Dracaufeu brillant",
+		'de-de': "Schimmerndes Glurak"
+	},
+
+	illustrator: "Hironobu Yoshida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		6,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				'en-us': "White-Hot Flame",
+				'fr-fr': "Flammes blanches",
+				'de-de': "Heiße weiße Flamme"
+			},
+			effect: {
+				'en-us': "Discard 1 Energy card and 1 Energy card attached to Shining Charizard or this attack does nothing. Flip a coin. If tails, Shining Charizard does 30 damage to itself.",
+				'fr-fr': "Défaussez-vous d'une carte Énergie  et d'une carte Énergie  attachées à Dracaufeu brillant ou cette attaque ne fait rien. Lancez une pièce. Si c'est pile, Dracaufeu brillant s'inflige 30 dégâts.",
+				'de-de': "Lege eine jeweils an Schimmerndes Glurak angelegte -Energiekarte und -Energiekarte auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen. Wirf eine Münze. Bei \"Zahl\" fügt sich Schimmerndes Glurak selbst 30 Schadenspunkte zu."
+			},
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "The flames it breathes are so hot that they can melt anything.",
+		'fr-fr': "Les flammes qu'il souffle sont si chaudes qu'elles peuvent faire fondre n'importe quoi."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274759,
+				tcgplayer: 89163
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274759,
+				tcgplayer: 89163
+			}
+		}
+	]
+}
+
+export default card

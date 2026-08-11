@@ -1,0 +1,107 @@
+import { Card } from 'models/database/card'
+import Set from '../Phantom Forces'
+
+const card: Card = {
+	name: {
+		'en-us': "Dedenne",
+		'fr-fr': "Dedenne",
+		'es-es': "Dedenne",
+		'it-it': "Dedenne",
+		'pt-br': "Dedenne",
+		'de-de': "Dedenne"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		702,
+	],
+
+	hp: 70,
+
+	types: [
+		"Fairy",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Nuzzle",
+				'fr-fr': "Frotte-Frimousse",
+				'es-es': "Moflete Estático",
+				'it-it': "Elettrococcola",
+				'pt-br': "Fosso",
+				'de-de': "Wangenrubbler"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+				'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+			},
+
+		},
+		{
+			cost: [
+				"Fairy",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spiral Drain",
+				'fr-fr': "Spirale Épuisante",
+				'es-es': "Drenaje Espiral",
+				'it-it': "Assorbimento Spirale",
+				'pt-br': "Dreno Espiral",
+				'de-de': "Spiralsauger"
+			},
+			effect: {
+				'en-us': "Heal 20 damage from this Pokémon.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon.",
+				'es-es': "Cura 20 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 20 danni.",
+				'pt-br': "Cure 20 de danos deste Pokémon.",
+				'de-de': "Heile 20 Schadenspunkte bei diesem Pokémon."
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Darkness",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+	},
+
+	thirdParty: {
+		cardmarket: 281876,
+		tcgplayer: 94638
+	}
+}
+
+export default card

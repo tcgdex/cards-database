@@ -1,0 +1,42 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Lucky Stadium",
+		'fr-fr': "Stade de la chance",
+		'de-de': "Glücksarena"
+	},
+
+	illustrator: "Imakuni?",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), that player may flip a coin. If heads, that player draws a card.",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois durant le tour de chaque joueur (avant son attaque), ce joueur peut lancer une pièce. Si c'est face, ce joueur pioche une carte.",
+		'de-de': "Once during each player's turn, that player may flip a coin. If heads, the player draws a card."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274752,
+				tcgplayer: 86893
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274752,
+				tcgplayer: 86893
+			}
+		}
+	]
+}
+
+export default card

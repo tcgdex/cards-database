@@ -1,0 +1,78 @@
+import { Card } from "models/database/card"
+import Set from "../Mega Evolution"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Marshadow",
+		'fr-fr': "Marshadow",
+		'de-de': "Marshadow",
+		'it-it': "Marshadow",
+		'es-es': "Marshadow",
+		'pt-br': "Marshadow",
+		'es-mx': "Marshadow"
+	},
+
+	illustrator: "Tomomi Ozaki",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Fighting"],
+	stage: "Basic",
+	dexId: [802],
+
+	attacks: [{
+		cost: ["Fighting", "Fighting"],
+
+		name: {
+			'en-us': "Shadowy Side Kick",
+			'fr-fr': "Coup Latéral Obscur",
+			'de-de': "Verborgener Seitentritt",
+			'it-it': "Ombracalcio Laterale",
+			'es-es': "Patada Sombra Lateral",
+			'pt-br': "Chute Lateral Sombrio",
+			'es-mx': "Patada Lateral Sombría"
+		},
+
+		effect: {
+			'en-us': "If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+			'fr-fr': "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, pendant le prochain tour de votre adversaire, évitez tous les dégâts et effets provenant d'attaques infligés à ce Pokémon.",
+			'de-de': "Wenn das Pokémon deines Gegners durch Schaden dieser Attacke kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.",
+			'it-it': "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
+			'es-es': "Si un Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
+			'pt-br': "Se o Pokémon do seu oponente for Nocauteado pelo dano deste ataque, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon.",
+			'es-mx': "Si el Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon."
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851151,
+				tcgplayer: 654419
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851151,
+				tcgplayer: 654419
+			}
+		},
+	],
+}
+
+export default card

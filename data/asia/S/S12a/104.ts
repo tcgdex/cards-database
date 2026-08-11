@@ -1,0 +1,82 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "チルタリス",
+		'zh-tw': "七夕青鳥",
+		'th-th': "ทิลทาลิส",
+	},
+
+	illustrator: "sui",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Dragon"],
+
+	description: {
+		'ja-jp': "晴れた日 綿雲に まぎれながら 大空を 自由に 飛び回り 美しい ソプラノで 歌う。",
+		'zh-tw': "在晴朗的日子會混在雲朵中，自在地在空中來回飛行。 會用美妙的高音歌唱。",
+		'th-th': "วันที่อากาศแจ่มใสจะแฝงตัวเข้าไปอยู่ในปุยเมฆพลางโผบินไปมาบนท้องฟ้าและร้องเพลงด้วยเสียงโซปราโนอันไพเราะ",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "いざなうしらべ",
+				'zh-tw': "勸誘曲調",
+				'th-th': "บรรเลงเพลงชักชวน",
+			},
+			effect: {
+				'ja-jp': "自分の番に1回使える。自分の山札からサポートを1枚選び、相手に見せる。残りの山札を切り、選んだカードを山札の上にもどす。",
+				'zh-tw': "在自己的回合時，可使用1次。從自己的牌庫選擇1張支援者卡，給對手看過。重洗剩餘牌庫，將所選的卡放回牌庫上方。",
+				'th-th': "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เลือกการ์ดซัพพอร์ต 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู สับสำรับการ์ดที่เหลือ นำการ์ดที่เลือกใส่คืนกลับด้านบนของสำรับการ์ด",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "かっくう",
+				'zh-tw': "滑翔",
+				'th-th': "ถลาลม",
+			},
+			damage: 60,
+			cost: ["Water", "Metal"],
+		},
+	],
+
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687666,
+				tcgplayer: 571642,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577482,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "チルット",
+	},
+
+	retreat: 0,
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [334],
+};
+
+export default card;

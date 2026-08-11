@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Call of Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Magby",
+		'fr-fr': "Magby",
+		'de-de': "Magby"
+	},
+
+	illustrator: "Akira Komayama",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [240],
+
+	hp: 30,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Sweet Sleeping Face",
+				'fr-fr': "Joli visage endormi",
+				'de-de': "Niedliches Schlafgesicht"
+			},
+			effect: {
+				'en-us': "As long as Magby is Asleep, prevent all damage done to Magby by attacks.",
+				'fr-fr': "Tant que Magby est Endormi, empêchez tous les dégâts qui lui sont infligés par des attaques.",
+				'de-de': "Solange Magby schläft, verhindere allen Schaden, der Magby durch Angriffe zugefügt wird."
+			},
+		},
+	],
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Play with Fire",
+				'fr-fr': "Jouer avec le feu",
+				'de-de': "Spiel mit dem Feuer"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Burned. Magby is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Brûlé. Magby est maintenant Endormi.",
+				'de-de': "Das Verteidigende Pokémon ist jetzt verbrannt. Magby schläft jetzt."
+			},
+
+		},
+	],
+
+	description: {
+		'en-us': "It is found in volcanic craters. Its body temperature is over 1,100 degrees Fahrenheit, so don't underestimate it.",
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87007,
+				cardmarket: 279689
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87007,
+				cardmarket: 279689
+			},
+		},
+	],
+
+}
+
+export default card

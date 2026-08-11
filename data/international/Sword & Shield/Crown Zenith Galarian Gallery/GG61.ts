@@ -1,0 +1,46 @@
+import { Card } from "models/database/card"
+import Set from "../Crown Zenith Galarian Gallery"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Gardenia's Vigor",
+		'fr-fr': "Vitalité de Flo",
+		'es-es': "Vigor de Gardenia",
+		'it-it': "Vigore di Gardenia",
+		'pt-br': "Vigor da Gardênia",
+		'de-de': "Silvanas Vitalität"
+	},
+
+	illustrator: "Yoriyuki Ikegami",
+	rarity: "Ultra Rare",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Draw 2 cards. If you drew any cards in this way, attach up to 2 Grass Energy cards from your hand to 1 of your Benched Pokémon.",
+		'fr-fr': "Piochez 2 cartes. Si vous avez pioché des cartes de cette façon, attachez jusqu'à 2 cartes Énergie Grass de votre main à l'un de vos Pokémon de Banc.",
+		'es-es': "Roba 2 cartas. Si has robado alguna carta de esta manera, une hasta 2 cartas de Energía Grass de tu mano a 1 de tus Pokémon en Banca.",
+		'it-it': "Pesca due carte. Se hai pescato delle carte in questo modo, assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia Grass dalla tua mano.",
+		'pt-br': "Compre 2 cartas. Se você comprar qualquer carta desta forma, ligue até 2 cartas de Energia Grass da sua mão a 1 dos seus Pokémon no Banco.",
+		'de-de': "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, lege bis zu 2 Grass-Energiekarten aus deiner Hand an 1 Pokémon auf deiner Bank an."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "F",
+
+
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691941,
+				tcgplayer: 477058
+			}
+		},
+	],
+}
+
+export default card

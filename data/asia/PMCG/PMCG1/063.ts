@@ -1,0 +1,57 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "カモネギ",
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [83],
+	hp: 50,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "ネギの平手打ち",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。尾の場合、この攻撃は何もしません。いずれにせよ、Farfetch'dがプレイにとどまる限り、この攻撃を再び使用することはできません（BenchにFarfetch'dを置くことでさえ、再び使用することはできません）。",
+			},
+			damage: 30,
+		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ポットスマッシュ",
+			},
+			damage: 30,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575638
+			}
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577065
+			}
+		}
+	],
+};
+
+export default card

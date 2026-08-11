@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ケーシィ"
+	},
+	illustrator: "Orca",
+	category: "Pokemon",
+	hp: 50,
+	types: ["Psychic"],
+	description: {
+		'ja-jp': "眠ったままテレポートできる。眠りが深いほど離れた場所に移動するという。"
+	},
+	stage: "Basic",
+	attacks: [{
+		name: {
+			'ja-jp': "テレポートアタック"
+		},
+		damage: 10,
+		effect: {
+			'ja-jp': "このポケモンをベンチポケモンと入れ替える。"
+		},
+		cost: ["Psychic"]
+	}],
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840595,
+				tcgplayer: 647231,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [63]
+}
+
+export default card

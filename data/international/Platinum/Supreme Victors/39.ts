@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Primeape",
+		'fr-fr': "Colossinge",
+		'de-de': "Rasaff"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [57],
+
+	hp: 90,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Mankey",
+		'fr-fr': "Férosinge"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Top Drop",
+				'fr-fr': "Tomber de haut",
+				'de-de': "Gipfelsturz"
+			},
+			effect: {
+				'en-us': "Discard the top card from your opponent's deck. If you discarded a Pokémon, this attack does damage equal to the HP of that Pokémon.",
+				'fr-fr': "Défaussez la carte du dessus du deck de votre adversaire. Si vous défaussez un Pokémon, cette attaque inflige autant de dégâts que ce Pokémon possède de PV.",
+				'de-de': "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Wenn du auf diese Weise eine Pokémon-Karte auf den Ablagestapel gelegt hast, fügt dieser Angriff dem Verteidigenden Pokémon Schadenspunkte in Höhe der KP dieser Pokémon-Karte zu."
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Brick Break",
+				'fr-fr': "Casse-brique",
+				'de-de': "Durchbruch"
+			},
+			effect: {
+				'en-us': "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+20"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		'en-us': "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88364,
+				cardmarket: 278730
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278730,
+				tcgplayer: 88364
+			}
+		},
+	],
+
+}
+
+export default card

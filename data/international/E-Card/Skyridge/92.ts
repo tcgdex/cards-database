@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Sandshrew",
+		'de-de': "Sandan"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [27],
+
+	hp: 40,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Scratch",
+				'de-de': "Doppelkratzer"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: "10×",
+
+		},
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Dig Under",
+				'de-de': "Vergraben"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				'de-de': "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Wende keine Schwäche oder Resistenz an (Alle anderen Auswrikungen von Angriffen, die nach der Anwendung von Schwäche und Resistenz stattfänden, finden immer noch statt.)"
+			}
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88921,
+				cardmarket: 275350
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 88921,
+				cardmarket: 275350
+			},
+		},
+	],
+}
+
+export default card

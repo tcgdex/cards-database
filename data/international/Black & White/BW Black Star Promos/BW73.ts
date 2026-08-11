@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../BW Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Darkrai",
+		'fr-fr': "Darkrai",
+	},
+	illustrator: "5ban Graphics",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		491,
+	],
+	hp: 110,
+	types: [
+		"Darkness",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hide in Shadows",
+				'fr-fr': "Cachette d'Ombre",
+			},
+			effect: {
+				'en-us': "You may switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dark Hole",
+				'fr-fr': "Trou Obscur",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+			},
+			damage: 90,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+
+
+
+	description: {
+		'en-us': "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+	},
+}
+
+export default card

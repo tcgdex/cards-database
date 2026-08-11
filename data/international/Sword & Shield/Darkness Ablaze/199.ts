@@ -1,0 +1,44 @@
+import { Card } from 'models/database/card'
+import Set from '../Darkness Ablaze'
+
+const card: Card = {
+	name: {
+		'en-us': "Big Parasol",
+		'fr-fr': "Ombrelle Géante",
+		'es-es': "Gran Parasol",
+		'it-it': "Parasole Grande",
+		'pt-br': "Grande Sombrinha",
+		'de-de': "Großer Parasol"
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Secret Rare",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "As long as the Pokémon this card is attached to is in the Active Spot, prevent all effects of attacks from your opponent's Pokémon done to all of your Pokémon. (Existing effects are not removed. Damage is not an effect.)",
+		'fr-fr': "Tant que le Pokémon auquel cette carte est attachée est sur le Poste Actif, évitez tous les effets d'attaques infligés à vos Pokémon par les Pokémon de votre adversaire. (Les effets déjà en action ne sont pas retirés.Les dégâts ne sont pas un effet.)",
+		'es-es': "Mientras el Pokémon al que esté unida esta carta esté en el Puesto Activo, evita todos los efectos de los ataques de los Pokémon de tu rival infligidos a todos tus Pokémon. (No se eliminan los efectos ya existentes. El daño no es un efecto).",
+		'it-it': "Fintanto che il Pokémon a cui è assegnata questa carta è in posizione attiva, previeni tutti gli effetti degli attacchi inflitti ai tuoi Pokémon dai Pokémon del tuo avversario. Gli effetti esistenti non vengono rimossi. I danni non sono un effetto.",
+		'pt-br': "Enquanto o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, previna todos os efeitos de ataques dos Pokémon do seu oponente causados a todos os seus Pokémon (efeitos existentes não são removidos e dano não é um efeito).",
+		'de-de': "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, verhindere alle Effekte von Attacken der Pokémon deines Gegners, die allen deinen Pokémon zugefügt werden. (Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.)"
+	},
+
+	trainerType: "Tool",
+	regulationMark: "D",
+
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 483884,
+				tcgplayer: 219316
+			}
+		},
+	],
+}
+
+export default card

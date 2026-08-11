@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Pelipper",
+		'de-de': "Pelipper"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [279],
+	
+	hp: 90,
+
+	types: [
+		"Water"
+	],
+
+	evolveFrom: {
+		'en-us': "Wingull"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Water Ball",
+				'de-de': "Wasserball"
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 10 more damage for each Water Energy attached to Pelipper.",
+				'de-de': "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Pelipper angelegte -Energie zu."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Wing Attack",
+				'de-de': "Flügelschlag"
+			},
+
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87979,
+				cardmarket: 278896
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278896,
+				tcgplayer: 87979
+			}
+		},
+	],
+
+}
+
+export default card

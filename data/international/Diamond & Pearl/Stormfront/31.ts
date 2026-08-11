@@ -1,0 +1,118 @@
+import { Card } from 'models/database/card'
+import Set from '../Stormfront'
+
+const card: Card = {
+	name: {
+		'en-us': "Vespiquen",
+		'fr-fr': "Apireine",
+		'de-de': "Honweisel"
+	},
+
+	illustrator: "Kent Kanetsuna",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		416,
+	],
+
+	hp: 100,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Combee",
+		'fr-fr': "Apitrini",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Green Dignity",
+				'fr-fr': "Dignité verte",
+				'de-de': "Grüne Würde"
+			},
+			effect: {
+				'en-us': "As long as you have more Prize cards left than your opponent, Vespiquen's attacks do 10 more damage for each Grass Pokémon on your Bench to the Active Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant qu'il vous reste plus de cartes Récompense que votre adversaire, les attaques d'Apireine inflige 10 dégâts supplémentaires au Pokémon Actif pour chaque Pokémon Grass sur votre Banc (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange du mehr Preise übrig hast als dein Gegner, fügt jeder Angriff von Honweisel den Aktiven Pokémon für jedes -Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Bee Drain",
+				'fr-fr': "Abeille épuisante",
+				'de-de': "Bienensauger"
+			},
+			effect: {
+				'en-us': "After your attack, remove from Vespiquen the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Après votre attaque, retirez à Apireine autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				'de-de': "Entferne nach deinem Angriff Schadensmarken von Honweisel entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bee Powder",
+				'fr-fr': "Poudre-abeille",
+				'de-de': "Bienenstaub"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. If both of them are heads, the Defending Pokémon is now Burned, Paralyzed, and Poisoned.",
+				'fr-fr': "Lancez 2 pièces. Si ce sont deux faces, le Pokémon Défenseur est maintenant Brûlé, Paralysé et Empoisonné.",
+				'de-de': "Wirf 2 Münzen. Wenn beide Münzen \"Kopf\" gezeigt haben, ist das Verteidigende Pokémon jetzt gelähmt, verbrannt und vergiftet."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 278329,
+		tcgplayer: 90328
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

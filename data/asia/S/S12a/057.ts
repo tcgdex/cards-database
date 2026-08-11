@@ -1,0 +1,67 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ヨマワル",
+		'zh-tw': "夜巡靈",
+		'th-th': "โยมาวารุ",
+	},
+
+	illustrator: "SATOSHI NAKAI",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "いいつけを 守らない 子供を 見つけると 夜中に どこかへ 連れていくと いわれている。",
+		'zh-tw': "據說一旦發現不聽話的孩子，牠就會在深夜裡把那個孩子 帶去某個不知名的地方。",
+		'th-th': "ว่ากันว่าหากเจอเด็กที่ไม่เชื่อฟังคำสั่งสอน ตกกลางคืนจะลักพาตัวไปยังที่ ๆ ไม่มีใครรู้",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "まどわす",
+				'zh-tw': "蠱惑",
+				'th-th': "ทำให้สับสน",
+			},
+			damage: 10,
+			cost: ["Psychic"],
+			effect: {
+				'ja-jp': "コインを1回投げオモテなら、相手のバトルポケモンをこんらんにする。",
+				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【混亂】。",
+				'th-th': "ทอยเหรียญ 1 ครั้ง ถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687537,
+				tcgplayer: 571595,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577460,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "F",
+	rarity: "None",
+	dexId: [355],
+};
+
+export default card;

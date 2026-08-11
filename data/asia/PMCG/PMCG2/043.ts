@@ -1,0 +1,49 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ピジョット",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [18],
+	hp: 80,
+	types: ["Colorless"],
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "翼攻撃",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ハリケーン",
+			},
+			effect: {
+				'ja-jp': "この攻撃が防御ポケモンをノックアウトしない限り、防御ポケモンとそれに取り付けられたすべてのカードを相手の手に返します。",
+			},
+			damage: 30,
+		},
+	],
+
+
+	variants : [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 576637
+			},
+		},
+	],
+};
+
+export default card

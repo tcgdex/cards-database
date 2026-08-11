@@ -1,0 +1,37 @@
+import { Card } from "models/database/card"
+import Set from "../SV3a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ふしぎなアメ",
+		'zh-tw': "神奇糖果",
+		'th-th': "ลูกอมประหลาด"
+	},
+
+	illustrator: "Studio Bora Inc.",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の手札から2進化ポケモンを1枚選び、そのポケモンへと進化する自分の場のたねポケモンにのせ、1進化をとばして進化させる。（最初の自分の番や、出したばかりのポケモンには使えない。）",
+		'zh-tw': "從自己的手牌選擇1張【2階進化】寶可夢卡，放置於自己的場上的可進化成那隻寶可夢的【基礎】寶可夢身上，跳過【1階進化】完成進化。（無法對自己的最初回合或剛使出的寶可夢使用。）",
+		'th-th': "เลือกการ์ดโปเกมอน[ร่าง2] 1 ใบจากบนมือฝ่ายเรา วางบนโปเกมอน[พื้นฐาน]บนกระดานฝ่ายเราที่จะวิวัฒนาการเป็นโปเกมอนนั้น เพื่อให้วิวัฒนาการโดยข้าม[ร่าง1] ได้เลย (ไม่สามารถใช้ได้กับเทิร์นแรกสุดของฝ่ายเรา และโปเกมอนที่เพิ่งออกมา)"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 734292,
+				tcgplayer: 566911,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "G"
+}
+
+export default card

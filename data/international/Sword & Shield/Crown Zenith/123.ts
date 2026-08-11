@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../Crown Zenith"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Bea",
+		'fr-fr': "Faïza",
+		'es-es': "Judith",
+		'it-it': "Fabia",
+		'pt-br': "Bia",
+		'de-de': "Saida"
+	},
+
+	illustrator: "Atsushi Furusawa",
+	rarity: "Holo Rare",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Discard the top 5 cards of your deck, and attach any Energy cards you discarded in this way to your Benched Fighting Pokémon in any way you like.",
+		'fr-fr': "Défaussez les 5 cartes du dessus de votre deck et attachez les cartes Énergie défaussées de cette façon à vos Pokémon Fighting de Banc comme il vous plaît.",
+		'es-es': "Descarta las 5 primeras cartas de tu baraja y une cualquier carta de Energía que hayas descartado de esta manera a tus Pokémon Fighting en Banca de la manera que desees.",
+		'it-it': "Scarta le prime cinque carte del tuo mazzo e assegna ai tuoi Pokémon Fighting in panchina le carte Energia che hai appena scartato nel modo che preferisci.",
+		'pt-br': "Descarte as 5 cartas de cima do seu baralho e ligue quaisquer cartas de Energia que você descartou desta forma aos seus Pokémon Fighting no Banco como desejar.",
+		'de-de': "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel und lege alle Energiekarten, die du auf diese Weise auf deinen Ablagestapel gelegt hast, beliebig an die Fighting-Pokémon auf deiner Bank an."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "D",
+
+
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691842,
+				tcgplayer: 478163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691842,
+				tcgplayer: 478163
+			}
+		},
+	],
+}
+
+export default card

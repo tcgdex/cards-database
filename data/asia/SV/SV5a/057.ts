@@ -1,0 +1,37 @@
+import { Card } from "models/database/card"
+import Set from "../SV5a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ポケモンキャッチャー",
+		'zh-tw': "寶可夢捕捉器",
+		'th-th': "โปเกมอนแคชเชอร์"
+	},
+
+	illustrator: "Studio Bora Inc.",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		'zh-tw': "擲1次硬幣若為正面，則選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。",
+		'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว เลือกโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว สลับกับโปเกมอนบนตำแหน่งต่อสู้"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761517,
+				tcgplayer: 566112,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "G"
+}
+
+export default card

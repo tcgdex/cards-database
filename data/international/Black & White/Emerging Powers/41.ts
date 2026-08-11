@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Emerging Powers'
+
+const card: Card = {
+	name: {
+		'en-us': "Sigilyph",
+		'fr-fr': "Cryptéro",
+		'es-es': "Sigilyph",
+		'it-it': "Sigilyph",
+		'pt-br': "Sigilyph",
+		'de-de': "Symvolara"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		561,
+	],
+
+	hp: 90,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Reflect",
+				'fr-fr': "Protection",
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 40 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 40 (après application de la Faiblesse et de la Résistance).",
+			},
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Telekinesis",
+				'fr-fr': "Lévikinésie",
+			},
+			effect: {
+				'en-us': "Does 50 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
+				'fr-fr': "Inflige 50 dégâts à 1 des Pokémon de votre adversaire. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+	},
+
+	thirdParty: {
+		cardmarket: 280006,
+		tcgplayer: 89204
+	}
+}
+
+export default card

@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Unleashed'
+
+const card: Card = {
+	name: {
+		'en-us': "Horsea",
+		'fr-fr': "Hypotrempe",
+		'de-de': "Seeper"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [116],
+
+	hp: 50,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Beat",
+				'fr-fr': "Bataille",
+				'de-de': "Verprügler"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fin Smack",
+				'fr-fr': "Coup d’aileron",
+				'de-de': "Flossenklatscher"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: "20×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86192,
+				cardmarket: 279205
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86192,
+				cardmarket: 279205
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gustavo-wada"],
+			thirdParty: {
+				cardmarket: 868152,
+				tcgplayer: 480408
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["snowflake"],
+			languages: ["de"],
+		}
+	],
+
+}
+
+export default card

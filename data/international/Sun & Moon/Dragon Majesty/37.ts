@@ -1,0 +1,120 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon Majesty'
+
+const card: Card = {
+	name: {
+		'en-us': "Dragonite GX",
+		'fr-fr': "Dracolosse GX",
+		'es-es': "Dragonite GX",
+		'it-it': "Dragonite GX",
+		'pt-br': "Dragonite GX",
+		'de-de': "Dragoran GX"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		149,
+	],
+
+	hp: 250,
+
+	types: [
+		"Dragon",
+	],
+
+	evolveFrom: {
+		'en-us': "Dragonair",
+		'fr-fr': "Draco",
+	},
+
+	suffix: "GX",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe",
+				'es-es': "Garra Dragón",
+				'it-it': "Dragartigli",
+				'pt-br': "Garra de Dragão",
+				'de-de': "Drachenklaue"
+			},
+
+			damage: 70,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Giga Impact",
+				'fr-fr': "Giga Impact",
+				'es-es': "Giga Impacto",
+				'it-it': "Gigaimpatto",
+				'pt-br': "Gigaimpacto",
+				'de-de': "Gigastoß"
+			},
+			effect: {
+				'en-us': "This Pokémon can’t attack during your next turn.",
+				'fr-fr': "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				'es-es': "Este Pokémon no puede atacar durante tu próximo turno.",
+				'it-it': "Questo Pokémon non può attaccare durante il tuo prossimo turno.",
+				'pt-br': "Este Pokémon não poderá atacar durante a sua próxima vez de jogar.",
+				'de-de': "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
+			},
+			damage: 200,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dragonporter GX",
+				'fr-fr': "Dracoporteur-GX",
+				'es-es': "Portadragones-GX",
+				'it-it': "Dragotrasporto-GX",
+				'pt-br': "Dragoportal-GX",
+				'de-de': "Drachenträger-GX"
+			},
+			effect: {
+				'en-us': "Put 3 Dragon Pokémon from your discard pile onto your Bench. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Placez 3 Pokémon Dragon de votre pile de défausse sur votre Banc. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Pon 3 Pokémon Dragon de tu pila de descartes en tu Banca. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Prendi tre Pokémon Dragon dalla tua pila degli scarti e mettili nella tua panchina. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Coloque 3 Pokémon Dragon da sua pilha de descarte no seu Banco (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Lege 3 Dragon-Pokémon aus deinem Ablagestapel auf deine Bank. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fairy",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	thirdParty: {
+		cardmarket: 361550,
+		tcgplayer: 175450
+	}
+}
+
+export default card

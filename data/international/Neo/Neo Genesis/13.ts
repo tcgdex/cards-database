@@ -1,0 +1,110 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Genesis'
+
+const card: Card = {
+	name: {
+		'en-us': "Skarmory",
+		'fr-fr': "Airmure",
+		'de-de': "Panzaeron"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		227,
+	],
+
+	hp: 60,
+
+	types: [
+		"Metal",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+
+			name: {
+				'en-us': "Claw",
+				'fr-fr': "Mâchoire",
+				'de-de': "Claw"
+			},
+
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
+			},
+
+			damage: 20
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Steel Wing",
+				'fr-fr': "Aile d'acier",
+				'de-de': "Steel Wing"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lancez une pièce. Si c'est face, tous les dégâts infligés à Airmure par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Flip a coin. If heads, all damage done by attacks to Skarmory during your opponent's next turn is reduced by 20 (after applying Weakness and Resistance)."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
+		'fr-fr': "Ses ailes solides semblent lourdes, mais elles sont en fait creuses et légères, lui permettant de voler librement dans le ciel."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274413,
+				tcgplayer: 89232
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274413,
+				tcgplayer: 89232
+			}
+		}
+	]
+}
+
+export default card

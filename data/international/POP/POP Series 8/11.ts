@@ -1,0 +1,31 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 8'
+
+const card: Card = {
+	name: {
+		'en-us': "Roseanne’s Research",
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Search your deck for up to 2 in any combination of Basic Pokémon and basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+	},
+
+	trainerType: "Supporter",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278412,
+				tcgplayer: 88816
+			}
+		},
+	],
+}
+
+export default card

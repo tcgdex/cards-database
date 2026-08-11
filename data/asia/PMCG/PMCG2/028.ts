@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マンキー",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [56],
+	hp: 30,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'ja-jp': "ピーク",
+			},
+			effect: {
+				'ja-jp': "順番<em>（攻撃の前）</em>の間に、次のいずれかを見ることができます。どちらかのプレイヤーのデッキのトップカード、対戦相手の手からのランダムカード、またはプレイヤーの賞品の1つです。マンキーが眠ったり、混乱したり、麻痺している場合、この力は使用できません。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "傷",
+			},
+			damage: 10,
+		},
+	],
+
+
+	variants : [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576626
+			},
+		},
+	],
+};
+
+export default card

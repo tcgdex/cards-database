@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Unified Minds'
+
+const card: Card = {
+	dexId: [785],
+
+	name: {
+		'en-us': "Tapu Koko",
+		'fr-fr': "Tokorico",
+		'es-es': "Tapu Koko",
+		'it-it': "Tapu Koko",
+		'pt-br': "Tapu Koko",
+		'de-de': "Kapu-Riki"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+	hp: 120,
+
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				'en-us': "Electro Ball",
+				'fr-fr': "Boule Élek",
+				'es-es': "Bola Voltio",
+				'it-it': "Energisfera",
+				'pt-br': "Bola Elétrica",
+				'de-de': "Elektroball"
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Nature Dive",
+				'fr-fr': "Piqué Naturel",
+				'es-es': "Picado de la Naturaleza",
+				'it-it': "Immersione nella Natura",
+				'pt-br': "Mergulho na Natureza",
+				'de-de': "Manöver der Natur"
+			},
+			effect: {
+				'en-us': "If your opponent’s Active Pokémon is an Ultra Beast, this attack does 100 more damage, and discard 2 Energy from this Pokémon.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est une Ultra-Chimère, cette attaque inflige 100 dégâts supplémentaires et vous défaussez 2 Énergies de ce Pokémon.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Ultraente, este ataque hace 100 puntos de daño más, y descartas 2 Energías de este Pokémon.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un’Ultracreatura, questo attacco infligge 100 danni in più. Scarta due Energie assegnate a questo Pokémon.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for uma Ultracriatura, este ataque causará 100 pontos de dano a mais, e descarte 2 Energias deste Pokémon.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners eine Ultrabestie ist, fügt diese Attacke 100 Schadenspunkte mehr zu und du legst 2 Energien von diesem Pokémon auf deinen Ablagestapel."
+			},
+			damage: "100+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Although it's called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
+	},
+
+	thirdParty: {
+		cardmarket: 388167,
+		tcgplayer: 194995
+	}
+}
+
+export default card

@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Sandslash"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [28],
+
+	hp: 70,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Sandshrew"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Slash"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Fury Swipes"
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads."
+			},
+			damage: "20×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274827,
+				tcgplayer: 88930
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88930,
+				cardmarket: 274827
+			}
+		}
+	],
+
+}
+
+export default card

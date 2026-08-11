@@ -1,0 +1,112 @@
+import { Card } from "models/database/card"
+import Set from "../Brilliant Stars"
+
+const card: Card = {
+	dexId: [286],
+	set: Set,
+
+	name: {
+		'en-us': "Breloom",
+		'fr-fr': "Chapignon",
+		'es-es': "Breloom",
+		'it-it': "Breloom",
+		'pt-br': "Breloom",
+		'de-de': "Kapilz"
+	},
+
+	illustrator: "Sekio",
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Grass"],
+
+	evolveFrom: {
+		'en-us': "Shroomish",
+		'fr-fr': "Balignon",
+		'es-es': "Shroomish",
+		'it-it': "Shroomish",
+		'pt-br': "Shroomish",
+		'de-de': "Knilz"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'en-us': "Spore Ball",
+			'fr-fr': "Boule de Spores",
+			'es-es': "Bola Espora",
+			'it-it': "Pallaspore",
+			'pt-br': "Bola de Esporos",
+			'de-de': "Sporenbällchen"
+		},
+
+		effect: {
+			'en-us': "Your opponent's Active Pokémon is now Asleep.",
+			'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			'es-es': "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			'it-it': "Il Pokémon attivo del tuo avversario viene addormentato.",
+			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'de-de': "Das Aktive Pokémon deines Gegners schläft jetzt."
+		},
+
+		damage: 30
+	}, {
+		cost: ["Grass"],
+
+		name: {
+			'en-us': "Powdery Uppercut",
+			'fr-fr': "Uppercut Poudreux",
+			'es-es': "Gancho Pulverizador",
+			'it-it': "Montante Pulviscolare",
+			'pt-br': "Gancho Espoderoso",
+			'de-de': "Pudriger Kinnhaken"
+		},
+
+		effect: {
+			'en-us': "You can use this attack only if this Pokémon used Spore Ball during your last turn.",
+			'fr-fr': "Vous ne pouvez utiliser cette attaque que si ce Pokémon a utilisé Boule de Spores pendant votre dernier tour.",
+			'es-es': "Puedes usar este ataque solo si este Pokémon usó Bola Espora durante tu último turno.",
+			'it-it': "Puoi usare questo attacco solo se questo Pokémon ha usato Pallaspore durante il tuo ultimo turno.",
+			'pt-br': "Você só poderá usar este ataque se este Pokémon usou Bola de Esporos durante o seu último turno.",
+			'de-de': "Du kannst diese Attacke nur einsetzen, wenn dieses Pokémon während deines letzten Zuges Sporenbällchen eingesetzt hat."
+		},
+
+		damage: 130
+	}],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608428,
+				tcgplayer: 263583
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608428,
+				tcgplayer: 263583
+			}
+		},
+	],
+}
+
+export default card

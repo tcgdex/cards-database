@@ -1,0 +1,75 @@
+import { Card } from 'models/database/card'
+import Set from '../Poké Card Creator Pack'
+
+const card: Card = {
+	name: {
+		'en-us': "Pikachu"
+	},
+
+	illustrator: "Sylvia Forrest",
+	rarity: "None",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		25,
+	],
+
+	hp: 60,
+
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+	retreat: 1,
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thundershock"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hypno Splash"
+			},
+			effect: {
+				'en-us': "Discard all Lightning Energy cards attached to Pikachu or this attack does nothing."
+			},
+			damage: 60,
+
+		}
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting"
+		},
+	],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605996,
+				tcgplayer: 162272
+			},
+		}
+	]
+}
+
+export default card

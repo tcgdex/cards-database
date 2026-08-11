@@ -1,0 +1,46 @@
+import { Card } from "models/database/card"
+import Set from "../Wisdom of Sea and Sky"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull"
+	},
+
+	illustrator: "Akira Komayama",
+	rarity: "One Diamond",
+	category: "Pokemon",
+
+	dexId: [209],
+	hp: 60,
+	types: ["Psychic"],
+
+	description: {
+		'en-us': "It grows close to others easily and is also easily\nspoiled. The disparity between its face and its\nactions makes many young people wild about it.",
+		'fr-fr': "Il s'attache très facilement et aime être cajolé. Une telle sensibilité cachée derrière une mine renfrognée fait fondre beaucoup de jeunes gens."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'en-us': "Ram",
+			'fr-fr': "Collision"
+		},
+
+		damage: 20,
+		cost: ["Psychic"]
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "+20"
+	}],
+
+	retreat: 1,
+	boosters: ["ho-oh", "lugia"]
+}
+
+export default card

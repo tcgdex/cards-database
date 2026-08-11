@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon Vault'
+
+const card: Card = {
+	name: {
+		'en-us': "Kyurem",
+		'fr-fr': "Kyurem"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		646,
+	],
+
+	hp: 130,
+
+	types: [
+		"Dragon",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dragon Claw",
+				'fr-fr': "Dracogriffe"
+			},
+
+			damage: 60,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Blizzard",
+				'fr-fr': "Blizzard"
+			},
+			effect: {
+				'en-us': "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			damage: 90,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Dragon",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "It can produce ultracold air. Its body is frozen.",
+	},
+
+	thirdParty: {
+		cardmarket: 281021,
+		tcgplayer: 86563
+	}
+}
+
+export default card

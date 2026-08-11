@@ -1,0 +1,57 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ニドリーノ",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [33],
+	hp: 60,
+	types: ["Grass"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Grass", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ダブルキック",
+			},
+			effect: {
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+			},
+
+		},
+		{
+			cost: ["Grass", "Grass", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ホーンドリル",
+			},
+			damage: 50,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575650
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577077
+			},
+		}
+	],
+};
+
+export default card

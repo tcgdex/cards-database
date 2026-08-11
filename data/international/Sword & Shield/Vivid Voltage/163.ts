@@ -1,0 +1,50 @@
+import { Card } from 'models/database/card'
+import Set from '../Vivid Voltage'
+
+const card: Card = {
+	name: {
+		'en-us': "Coating Metal Energy",
+		'fr-fr': "Énergie Metal Revêtement",
+		'es-es': "Energía Metal Recubrimiento",
+		'it-it': "Energia Metal Protettiva",
+		'pt-br': "Energia Metal Revestida",
+		'de-de': "Schicht-Metal-Energie"
+	},
+
+	illustrator: undefined,
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+
+	effect: {
+		'en-us': "As long as this card is attached to a Pokémon, it provides Metal Energy.\n\nThe Metal Pokémon this card is attached to has no Weakness.",
+		'fr-fr': "Tant que cette carte est attachée à un Pokémon, elle fournit une Énergie Metal.\n\nLe Pokémon Metal auquel cette carte est attachée n'a pas de Faiblesse.",
+		'es-es': "Mientras esta carta esté unida a 1 Pokémon, proporciona 1 Energía Metal.\n\nEl Pokémon Metal al que\nesté unida esta carta no tiene Debilidad.",
+		'it-it': "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia Metal.\n\nIl Pokémon Metal a cui è assegnata questa carta non ha debolezza.",
+		'pt-br': "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia Metal.\n\nO Pokémon Metal ao qual esta carta está ligada não tem Fraqueza.",
+		'de-de': "Solange diese Karte an ein Pokémon angelegt ist, liefert sie Metal-Energie.\n\nDas Metal-Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+	},
+
+	energyType: "Special",
+	regulationMark: "D",
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512525,
+				tcgplayer: 226542
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512525,
+				tcgplayer: 226542
+			}
+		},
+	],
+}
+
+export default card

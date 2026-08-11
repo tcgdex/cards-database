@@ -1,0 +1,31 @@
+import { Card } from "models/database/card"
+import Set from "../S9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "シロナの覇気"
+	},
+
+	illustrator: "Megumi Mizutani",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の手札が5枚になるように、山札を引く。前の相手の番に、自分のポケモンがきぜつしていたなら、8枚になるように引く。"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606287,
+				tcgplayer: 569750,
+			},
+		},
+	],
+
+	trainerType: "Supporter"
+}
+
+export default card

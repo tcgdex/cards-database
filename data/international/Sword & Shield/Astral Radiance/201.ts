@@ -1,0 +1,45 @@
+import { Card } from "models/database/card"
+import Set from "../Astral Radiance"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Cyllene",
+		'fr-fr': "Selena",
+		'es-es': "Selena",
+		'it-it': "Selina",
+		'pt-br': "Cilene",
+		'de-de': "Zelestis"
+	},
+
+	illustrator: "nagimiso",
+	rarity: "Secret Rare",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Flip 2 coins. Put a number of cards up to the number of heads from your discard pile on top of your deck in any order.",
+		'fr-fr': "Lancez 2 pièces. De votre pile de défausse, mettez un nombre de cartes inférieur ou égal au nombre de côtés face obtenus sur le dessus de votre deck dans l'ordre de votre choix.",
+		'es-es': "Lanza 2 monedas. Coge de tu pila de descartes una cantidad de cartas igual o inferior al número de caras que te hayan salido y ponlas en la parte superior de tu baraja en el orden que quieras.",
+		'it-it': "Lancia due volte una moneta. Prendi dalla tua pila degli scarti un numero di carte uguale o inferiore al numero di volte in cui è uscito testa e mettile in cima al tuo mazzo nell'ordine che preferisci.",
+		'pt-br': "Jogue 2 moedas. Coloque um número de cartas da sua pilha de descarte como as cartas de cima do seu baralho em qualquer ordem até o número de caras.",
+		'de-de': "Wirf 2 Münzen. Lege bis zu so viele Karten, wie du Kopf geworfen hast, aus deinem Ablagestapel in beliebiger Reihenfolge auf dein Deck."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658862,
+				tcgplayer: 272455
+			}
+		},
+	],
+}
+
+export default card

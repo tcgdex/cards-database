@@ -74,9 +74,14 @@ export async function updateDatas(): Promise<boolean> {
 	return true
 }
 
+<<<<<<< HEAD
+export async function getCardMarketPrice(card: { thirdParty?: { cardmarket?: number } }): Promise<any> {
+	if (!dataCache || typeof card.thirdParty?.cardmarket !== 'number') {
+=======
 export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
 	const id = card.thirdParty?.cardmarket
 	if (typeof id !== 'number') {
+>>>>>>> origin/master
 		return null
 	}
 

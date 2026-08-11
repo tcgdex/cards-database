@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Call of Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Teddiursa",
+		'fr-fr': "Teddiursa",
+		'de-de': "Teddiursa"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [216],
+
+	hp: 50,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fake Tears",
+				'fr-fr': "Croco Larme",
+				'de-de': "Trugträne"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn, and any damage done to Teddiursa by attack is reduced by 30 (after applying weakness and resistance).",
+				'fr-fr': "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes\nDresseur de sa main lors de son prochain tour, et tous les dégâts infligés à Teddiursa par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen und Schaden, der Teddiursa durch Angriffe zugefügt wird, wird um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		'en-us': "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89860,
+				cardmarket: 279716
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89860,
+				cardmarket: 279716
+			},
+		},
+	],
+
+}
+
+export default card

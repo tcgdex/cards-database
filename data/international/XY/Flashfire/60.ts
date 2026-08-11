@@ -1,0 +1,115 @@
+import { Card } from 'models/database/card'
+import Set from '../Flashfire'
+
+const card: Card = {
+	name: {
+		'en-us': "Forretress",
+		'fr-fr': "Foretress",
+		'es-es': "Forretress",
+		'it-it': "Forretress",
+		'pt-br': "Forretress",
+		'de-de': "Forstellka"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		205,
+	],
+
+	hp: 100,
+
+	types: [
+		"Metal",
+	],
+
+	evolveFrom: {
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'es-es': "Pineco",
+		'it-it': "Pineco",
+		'pt-br': "Pineco",
+		'de-de': "Tannza"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Thorn Tempest",
+				'fr-fr': "Tempête d'Épines",
+				'es-es': "Tempestad de Espinas",
+				'it-it': "Spintempesta",
+				'pt-br': "Tempestade de Espinhos",
+				'de-de': "Stachelsturm"
+			},
+			effect: {
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez placer un marqueur de dégâts sur chacun des Pokémon de votre adversaire.",
+				'es-es': "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes poner 1 contador de daño en cada uno de los Pokémon de tu rival.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi mettere un segnalino danno su ciascuno dei Pokémon del tuo avversario.",
+				'pt-br': "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você pode colocar 1 contador de dano em cada um dos Pokémon do seu oponente.",
+				'de-de': "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du auf jedes Pokémon deines Gegners 1 Schadensmarke legen."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Iron Crash",
+				'fr-fr': "Fer Destructeur",
+				'es-es': "Impacto Férreo",
+				'it-it': "Schiacciaferro",
+				'pt-br': "Choque de Ferro",
+				'de-de': "Eiserner Sturz"
+			},
+			effect: {
+				'en-us': "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni Energia Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
+				'pt-br': "Esse ataque causa 20 de danos adicionais para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente.",
+				'de-de': "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+	},
+
+	thirdParty: {
+		cardmarket: 281543,
+		tcgplayer: 91197
+	}
+}
+
+export default card

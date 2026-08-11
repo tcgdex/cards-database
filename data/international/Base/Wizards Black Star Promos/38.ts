@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../Wizards Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Unown [J]",
+		'fr-fr': "Zarbi J"
+	},
+
+	illustrator: "Hideki Kazama",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		201,
+	],
+
+	hp: 40,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "[Join]",
+				'fr-fr': "JOIN"
+			},
+			effect: {
+				'en-us': "Once during your turn (before you attack), if you have Unown J, Unown O, Unown I, and Unown N on your Bench, you may search your deck for a Basic Pokémon or Evolution Pokémon card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+				'fr-fr': "Une fois durant votre tour (avant votre attaque), si vous avez Zarbi [J], Zarbi [O], Zarbi [I] et Zarbi [N] sur votre Banc, vous pouvez chercher une carte Pokémon de base ou Évolution dans votre deck. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Hidden Power",
+				'fr-fr': "Puis Cachee"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+		'fr-fr': "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. Certains croient qu'il existe un lien entre les hiéroglyphes et eux."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90215
+			},
+		}
+	]
+}
+
+export default card

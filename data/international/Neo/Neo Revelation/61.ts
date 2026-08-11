@@ -1,0 +1,43 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Revelation'
+
+const card: Card = {
+	name: {
+		'en-us': "Healing Field",
+		'fr-fr': "Champ de guérison",
+		'de-de': "Healing Field*"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn, he or she may flip a coin. If heads, that player removes 2 damage counters from his or her Active Pokémon (1 if it only has 1).",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez cette carte si une autre carte Stade arrive en jeu.\n\nUne fois durant le tour de chaque joueur, celui-ci peut lancer une pièce. Si c'est face, ce joueur peut retirer 2 marqueurs de dégâts sur son Pokémon Actif (1 s'il n'en a qu'un seul).",
+		'de-de': "Once during each player's turn, he or she may flip a coin. If heads, that player removes 2 damage counters from his or her Active Pokémon (1 if it only has 1)."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274647,
+				tcgplayer: 86041
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274647,
+				tcgplayer: 86041
+			}
+		}
+	]
+}
+
+export default card
+

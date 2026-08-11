@@ -1,0 +1,15 @@
+meta {
+  name: Get All cards
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{BASE_URL}}/v2/en/cards
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+}

@@ -1,0 +1,76 @@
+import { Card } from "models/database/card"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "洛奇亞V",
+		'th-th': "ลูเกียV",
+		'ja-jp': "ルギアV"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	category: "Pokemon",
+	hp: 220,
+	types: ["Colorless"],
+	stage: "Basic",
+	suffix: "V",
+
+	attacks: [{
+		name: {
+			'zh-tw': "讀風",
+			'th-th': "อ่านทิศทางลม",
+			'ja-jp': "かぜよみ"
+		},
+
+		effect: {
+			'zh-tw': "將自己的1張手牌丟棄。然後，從自己的牌庫抽出3張卡。",
+			'th-th': "ทิ้งการ์ดบนมือฝ่ายเรา 1 ใบที่ตำแหน่งทิ้งการ์ด หลังจากนั้น จั่วการ์ด 3 ใบจากสำรับการ์ดฝ่ายเรา",
+			'ja-jp': "自分の手札を1枚トラッシュする。その後、自分の山札を3枚引く。"
+		},
+
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'zh-tw': "氣旋俯衝",
+			'th-th': "แอโรไดฟ์",
+			'ja-jp': "エアロダイブ"
+		},
+
+		effect: {
+			'zh-tw': "若希望，將場上的競技場卡丟棄。",
+			'th-th': "หากต้องการ ทิ้งการ์ดสเตเดียมบนกระดานที่ตำแหน่งทิ้งการ์ด",
+			'ja-jp': "のぞむなら、場に出ているスタジアムをトラッシュする。"
+		},
+
+		damage: 130,
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680218,
+				tcgplayer: 570137,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "F",
+	rarity: "Double rare"
+}
+
+export default card

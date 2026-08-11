@@ -1,0 +1,31 @@
+import { Card } from "models/database/card"
+import Set from "../SV1S"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "博士の研究（オーリム博士）"
+	},
+
+	illustrator: "kirisAki",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の手札をすべてトラッシュし、山札を7枚引く。"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693065,
+				tcgplayer: 567216,
+			},
+		},
+	],
+
+	trainerType: "Supporter"
+}
+
+export default card

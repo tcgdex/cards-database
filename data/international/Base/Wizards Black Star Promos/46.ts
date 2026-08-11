@@ -1,0 +1,75 @@
+import { Card } from 'models/database/card'
+import Set from '../Wizards Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Electabuzz",
+	},
+	illustrator: "Miki Tanaka",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		125,
+	],
+	hp: 60,
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+			],
+			name: {
+				'en-us': "Lightning Rod",
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon and put a Lightning Rod marker on it. (A Pokémon can have only 1 Lightning Rod marker on it at a time.)",
+			},
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Lightning Bolt",
+			},
+			effect: {
+				'en-us': "This attack does 20 damage to any Pokémon with a Lightning Rod counter on it. Apply Weakness and Resistance.",
+			},
+			damage: 10,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Normally found near power plants, it can wander away and cause major blackouts in cities.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85111
+			},
+		}
+	]
+}
+
+export default card

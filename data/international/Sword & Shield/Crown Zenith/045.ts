@@ -1,0 +1,94 @@
+import { Card } from "models/database/card"
+import Set from "../Crown Zenith"
+
+const card: Card = {
+	dexId: [479],
+	set: Set,
+
+	name: {
+		'en-us': "Rotom V",
+		'fr-fr': "Motisma V",
+		'es-es': "Rotom V",
+		'it-it': "Rotom V",
+		'pt-br': "Rotom V",
+		'de-de': "Rotom V"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Holo Rare V",
+	category: "Pokemon",
+	hp: 190,
+	types: ["Lightning"],
+	stage: "Basic",
+	suffix: "V",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Instant Charge",
+			'fr-fr': "Charge Instantanée",
+			'es-es': "Carga Instantánea",
+			'it-it': "Carica Istantanea",
+			'pt-br': "Carga Instantânea",
+			'de-de': "Sofortladung"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, you may draw 3 cards. If you use this Ability, your turn ends.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez piocher 3 cartes. Si vous utilisez ce talent, votre tour se termine.",
+			'es-es': "Una vez durante tu turno, puedes robar 3 cartas. Si usas esta habilidad, tu turno termina.",
+			'it-it': "Una sola volta durante il tuo turno, puoi pescare tre carte. Se usi questa abilità, il tuo turno finisce.",
+			'pt-br': "Uma vez durante o seu turno, você poderá comprar 3 cartas. Se você usar esta Habilidade, o seu turno acabará.",
+			'de-de': "Einmal während deines Zuges kannst du 3 Karten ziehen. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Lightning", "Lightning"],
+
+		name: {
+			'en-us': "Scrap Short",
+			'fr-fr': "Court-Circuit Rebut",
+			'es-es': "Cortocircuito Chatarra",
+			'it-it': "Cortoscarto",
+			'pt-br': "Curto-circuito de Sucata",
+			'de-de': "Schrottkurzschluss"
+		},
+
+		effect: {
+			'en-us': "Put any number of Pokémon Tool cards from your discard pile in the Lost Zone. This attack does 40 more damage for each card you put in the Lost Zone in this way.",
+			'fr-fr': "Placez le nombre voulu de cartes Outil Pokémon de votre pile de défausse dans la Zone Perdue. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte placée dans la Zone Perdue de cette façon.",
+			'es-es': "Pon cualquier cantidad de cartas de Herramienta Pokémon de tu pila de descartes en la Zona Perdida. Este ataque hace 40 puntos de daño más por cada carta que hayas puesto en la Zona Perdida de esta manera.",
+			'it-it': "Prendi un numero qualsiasi di carte Oggetto Pokémon dalla tua pila degli scarti e mettile nell'area perduta. Questo attacco infligge 40 danni in più per ogni carta che hai messo nell'area perduta in questo modo.",
+			'pt-br': "Coloque qualquer número de cartas de Ferramenta Pokémon da sua pilha de descarte na Zona Perdida. Este ataque causa 40 pontos de dano a mais para cada carta que você colocou na Zona Perdida desta forma.",
+			'de-de': "Lege beliebig viele Pokémon-Ausrüstungen aus deinem Ablagestapel ins Nirgendwo. Diese Attacke fügt für jede auf diese Weise ins Nirgendwo gelegte Karte 40 Schadenspunkte mehr zu."
+		},
+
+		damage: "40+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "F",
+
+
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691762,
+				tcgplayer: 478150
+			}
+		},
+	],
+}
+
+export default card

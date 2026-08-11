@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Misty's Psyduck"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [54],
+
+	hp: 50,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scratch"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Call for Friend"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, you may search your deck for a Basic Pokémon with Misty in its name and put it onto your Bench. (You can't use this attack if your Bench is full.) Shuffle your deck afterward."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87539,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87539,
+				cardmarket: 274190
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["wotc"],
+			thirdParty: {
+				tcgplayer: 87539,
+				cardmarket: 274190
+			}
+		}
+	],
+}
+
+export default card

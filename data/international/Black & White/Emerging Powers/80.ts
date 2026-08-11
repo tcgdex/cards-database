@@ -1,0 +1,73 @@
+import { Card } from 'models/database/card'
+import Set from '../Emerging Powers'
+
+const card: Card = {
+	name: {
+		'en-us': "Pidove",
+		'fr-fr': "Poichigeon",
+		'es-es': "Pidove",
+		'it-it': "Pidove",
+		'pt-br': "Pidove",
+		'de-de': "Dusselgurr"
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		519,
+	],
+
+	hp: 50,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gust",
+				'fr-fr': "Tornade",
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Each follows its Trainer's orders as best it can, but they sometimes fail to understand complicated commands.",
+	},
+
+	thirdParty: {
+		cardmarket: 280045,
+		tcgplayer: 88056
+	}
+}
+
+export default card

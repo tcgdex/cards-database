@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "バタフリー",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [12],
+	hp: 70,
+	types: ["Grass"],
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "旋風",
+			},
+			effect: {
+				'ja-jp': "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Grass", "Grass", "Grass", "Grass"],
+			name: {
+				'ja-jp': "メガドレイン",
+			},
+			effect: {
+				'ja-jp': "防御ポケモンに与えられたダメージの半分に等しいバタフリーから多数のダメージカウンターを削除します（脱力と抵抗を適用した後）（最も近い10に丸められています）。蝶のダメージカウンターがそれよりも少ない場合は、それらすべてを削除します。",
+			},
+			damage: 40,
+		},
+	],
+
+
+	variants : [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576611
+			},
+		},
+	],
+};
+
+export default card

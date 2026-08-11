@@ -1,0 +1,57 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "オンバット",
+		'zh-tw': "嗡蝠",
+		'th-th': "ออนแบท",
+		'id-id': "Noibat"
+	},
+
+	illustrator: "chibi",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [714],
+	hp: 70,
+	types: ["Dragon"],
+
+	description: {
+		'ja-jp': "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。",
+		'zh-tw': "從大大的耳朵發出超音波，尋找水果來填飽肚子。 會把啃果蟲誤認成食物。",
+		'th-th': "ปล่อยคลื่นความถี่สูงจากหูใหญ่เพื่อค้นหาผลไม้ ชอบหลงคิดว่าคาจิชชูเป็นอาหาร",
+		'id-id': "Noibat mengeluarkan gelombang ultrasonik dari kuping besarnya untuk mencari buah makanannya. Ia keliru mengira Applin sebagai makanannya."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic", "Darkness"],
+
+		name: {
+			'ja-jp': "かぜおこし",
+			'zh-tw': "起風",
+			'th-th': "เรียกลม",
+			'id-id': "Hembusan Angin"
+		},
+
+		damage: 40
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705361,
+				tcgplayer: 565919,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

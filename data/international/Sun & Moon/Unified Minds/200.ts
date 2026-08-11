@@ -1,0 +1,36 @@
+import { Card } from 'models/database/card'
+import Set from '../Unified Minds'
+
+const card: Card = {
+	name: {
+		'en-us': "Hapu",
+		'fr-fr': "Paulie",
+		'es-es': "Hela",
+		'it-it': "Hapi",
+		'pt-br': "Lélia",
+		'de-de': "Hapu’u"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'fr-fr': "Regardez les 6 cartes du dessus de votre deck, puis ajoutez 2 d’entre elles à votre main. Défaussez les autres cartes.",
+		'en-us': "Look at the top 6 cards of your deck and put 2 of them into your hand. Discard the other cards.",
+		'es-es': "Mira las 6 primeras cartas de tu baraja y pon 2 de ellas en tu mano. Descarta el resto de las cartas.",
+		'it-it': "Guarda le prime sei carte del tuo mazzo e aggiungi due di esse alle carte che hai in mano. Scarta le altre carte.",
+		'pt-br': "Olhe as 6 primeiras cartas do seu baralho e coloque 2 delas na sua mão. Descarte as outras cartas.",
+		'de-de': "Schau dir die obersten 6 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten auf deinen Ablagestapel."
+	},
+
+	trainerType: "Supporter",
+
+	thirdParty: {
+		cardmarket: 388787,
+		tcgplayer: 195255
+	}
+}
+
+export default card

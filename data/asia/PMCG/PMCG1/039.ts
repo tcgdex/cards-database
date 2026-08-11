@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "レアコイル",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [82],
+	hp: 60,
+	types: ["Lightning"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Lightning", "Lightning", "Colorless"],
+			name: {
+				'ja-jp': "サンダーウェーブ",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+			},
+			damage: 30,
+		},
+		{
+			cost: ["Lightning", "Lightning", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "セルフデストラクト",
+			},
+			effect: {
+				'ja-jp': "各プレイヤーのベンチで各ポケモンに20のダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）マグネトンはそれ自体に80のダメージを与えます。",
+			},
+			damage: 80,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 575609
+			},
+		},
+		{
+			type: "holo",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577036
+			}
+		}
+	],
+};
+
+export default card

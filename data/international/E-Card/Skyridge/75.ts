@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Magikarp",
+		'de-de': "Karpador"
+	},
+
+	illustrator: "Keiko Fukuyama",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [129],
+
+	hp: 30,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Signs of Evolution",
+				'de-de': "Evolutionsanzeichen"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, search your deck for a card that evolves from Magikarp, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Wirf eine Münze. Durchsuche bei 'Kopf' dein Deck nach einer Karte, die aus Karpador entsteht, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Splash",
+				'de-de': "Platscher"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87023,
+				cardmarket: 275333
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 87023,
+				cardmarket: 275333
+			},
+		},
+	],
+}
+
+export default card

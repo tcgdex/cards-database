@@ -1,0 +1,35 @@
+import { Card } from "models/database/card"
+import Set from "../S9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "美味之水組合",
+		'ja-jp': "おいしいみずセット"
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+	category: "Trainer",
+
+	effect: {
+		'zh-tw': "將自己的所有寶可夢各恢復「20」HP。",
+		'ja-jp': "自分のポケモン全員のHPを、それぞれ「20」回復する。"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605939,
+				tcgplayer: 569716,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "F",
+	rarity: "Uncommon"
+}
+
+export default card

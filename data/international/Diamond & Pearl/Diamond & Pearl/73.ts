@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Diamond & Pearl'
+
+const card: Card = {
+	name: {
+		'en-us': "Buneary",
+		'fr-fr': "Laporeille",
+		'de-de': "Haspiror"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		427,
+	],
+
+	hp: 50,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Splash",
+				'fr-fr': "Trempette",
+				'de-de': "Platscher"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Jump Kick",
+				'fr-fr': "Pied Saute",
+				'de-de': "Sprungkick"
+			},
+			effect: {
+				'en-us': "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 10 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+		'fr-fr': "Il frappe l'ennemi en déroulant violemment ses oreilles. Cela peut faire pleurer un adulte."
+	},
+
+	thirdParty: {
+		cardmarket: 277572,
+		tcgplayer: 84037
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

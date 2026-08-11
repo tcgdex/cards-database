@@ -1,0 +1,115 @@
+import { Card } from "models/database/card"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Mismagius",
+		'fr-fr': "Magirêve",
+		'es-es': "Mismagius",
+		'es-mx': "Mismagius",
+		'de-de': "Traunmagil",
+		'it-it': "Mismagius",
+		'pt-br': "Mismagius"
+	},
+
+	evolveFrom: {
+		'en-us': "Misdreavus",
+		'fr-fr': "Feuforêve",
+		'es-es': "Misdreavus",
+		'es-mx': "Misdreavus",
+		'de-de': "Traunfugil",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus",
+	},
+
+	illustrator: "nisimono",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [429],
+	hp: 110,
+	types: ["Psychic"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Psychic", "Colorless"],
+
+		name: {
+			'en-us': "Assassin's Magic",
+			'fr-fr': "Magie Assassine",
+			'es-es': "Magia del Asesino",
+			'es-mx': "Magia del Asesino",
+			'de-de': "Meuchelmagie",
+			'it-it': "Magia dell'Assassino",
+			'pt-br': "Magia do Assassino"
+		},
+
+		effect: {
+			'en-us': "If your opponent's Active Pokémon is affected by a Special Condition, place 6 damage counters on 1 of your opponent's Benched Pokémon.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est affecté par un État Spécial, placez 6 marqueurs de dégâts sur l'un des Pokémon de Banc de votre adversaire.",
+			'es-es': "Si el Pokémon Activo de tu rival se ve afectado por una Condición Especial, pon 6 contadores de daño en uno de los Pokémon en Banca de tu rival.",
+			'es-mx': "Si el Pokémon Activo de tu rival se ve afectado por alguna Condición Especial, pon 6 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners von einem Speziellen Zustand betroffen ist, lege 6 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è influenzato da una condizione speciale, metti sei segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente estiver afetado por uma Condição Especial, coloque 6 contadores de dano em 1 dos Pokémon no Banco do seu oponente."
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	description: {
+		'en-us': "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869697,
+			tcgplayer: 675898
+		}
+	},
+	{
+		type: "holo",
+		stamp: ["pokemon-center"],
+		thirdParty: {
+			cardmarket: 894173,
+			tcgplayer: 704442
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870270,
+			tcgplayer: 676919
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870269,
+			tcgplayer: 677059
+		}
+	},
+],
+}
+
+export default card

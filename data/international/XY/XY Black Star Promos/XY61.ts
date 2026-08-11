@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Flygon EX",
+		'fr-fr': "Libégon EX",
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		330,
+	],
+
+	hp: 170,
+
+	types: [
+		"Dragon",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Voice of the Sands",
+				'fr-fr': "Voix du Désert",
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), if this Pokémon is your Active Pokémon, you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), si ce Pokémon est votre Pokémon Actif, vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec l'un de ses Pokémon de Banc.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spiral Buzz",
+				'fr-fr': "Bourdonnement Spiral"
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face."
+			},
+			damage: "80+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fairy",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	thirdParty: {
+		cardmarket: 289719
+	}
+}
+
+export default card

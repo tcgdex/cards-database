@@ -1,0 +1,51 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Volkner's Philosophy",
+		'fr-fr': "La Philosophie de Tanguy",
+		'de-de': "Volkners Philosophie"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. You may discard a card from your hand. Then, draw cards until you have 6 cards in your hand. (If you can't draw any cards, you can't play this card.)",
+		'fr-fr': "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous la jouez, placez-la à côté de votre Pokémon Actif. À la fin du tour, défaussez-la.",
+		'de-de': "Du kannst 1 Karte von deiner Hand auf deinen Ablagestapel legen. Danach ziehe so viele Karten, bis du 6 Karten auf der Hand hast. (Wenn du keine Karten ziehen kannst, kannst du diese Karte nicht spielen.)"
+	},
+
+	trainerType: "Supporter",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278672,
+				tcgplayer: 90406
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278672,
+				tcgplayer: 90406
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 278672,
+				tcgplayer: 246417
+			}
+		}
+	],
+
+}
+
+export default card

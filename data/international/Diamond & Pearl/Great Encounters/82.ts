@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Great Encounters'
+
+const card: Card = {
+	name: {
+		'en-us': "Slowpoke",
+		'fr-fr': "Ramoloss",
+		'de-de': "Flegmon"
+	},
+
+	illustrator: "Saya Tsuruta",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		79,
+	],
+
+	hp: 60,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rest",
+				'fr-fr': "Repos",
+				'de-de': "Ruhe"
+			},
+			effect: {
+				'en-us': "Remove all Special Conditions and 3 damage counters from Slowpoke. Slowpoke is now Asleep.",
+				'fr-fr': "Retirez à Ramoloss tous ses États Spéciaux et 3 marqueurs de dégât. Ramoloss est maintenant Endormi.",
+				'de-de': "Entferne alle Speziellen Zustände und 3 Schadensmarken von Flegmon. Flegmon schläft jetzt."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Tumble Over",
+				'fr-fr': "Culbuter",
+				'de-de': "Umkippen"
+			},
+			effect: {
+				'en-us': "Slowpoke can't attack during your next turn.",
+				'fr-fr': "Ramoloss ne peut pas attaquer lors de votre prochain tour.",
+				'de-de': "Flegmon kann in deinem nächsten Zug nicht angreifen."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+10"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+	},
+
+	thirdParty: {
+		cardmarket: 277984,
+		tcgplayer: 89331
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

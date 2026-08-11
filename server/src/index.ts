@@ -1,15 +1,20 @@
 import express, { type Response } from 'express'
-import jsonEndpoints from './V2/endpoints/jsonEndpoints'
-import openapi from './V2/endpoints/openapi'
-import graphql from './V2/graphql'
 import cluster from 'node:cluster'
 import { availableParallelism } from "node:os"
 import { Errors, sendError } from './libs/Errors'
-import status from './status'
+import jsonEndpoints from './V2/endpoints/jsonEndpoints'
+import openapi from './V2/endpoints/openapi'
+import graphql from './V2/graphql'
 import * as Sentry from "@sentry/node"
+<<<<<<< HEAD
+import { updateDatas } from './libs/providers/cardmarket'
+import { updateTCGPlayerDatas } from './libs/providers/tcgplayer'
+import status from './status'
+=======
 import { fillCardMarketDatas, getCardMarketPrice, updateDatas } from './libs/providers/cardmarket'
 import { fillTCGPlayerCache, getTCGPlayerPrice, updateTCGPlayerDatas } from './libs/providers/tcgplayer'
 import { Command } from './libs/threadUtils'
+>>>>>>> origin/master
 
 // Glitchtip will only start if the DSN is set :D
 Sentry.init({
@@ -184,7 +189,7 @@ if (cluster.isPrimary) {
 
 	// simple endpoint for monitoring
 	server.get('/ping', (_, res) => {
-		res.status(200).end()
+		res.status(200).json({ ok: true })
 	})
 
 	server.use(express.static('./public'))

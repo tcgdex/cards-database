@@ -1,0 +1,75 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Growlithe",
+	},
+
+	illustrator: "Sanosuke Sakuma",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		58,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rest",
+			},
+			effect: {
+				'en-us': "Heal all damage from this Pokémon. This Pokémon is now Asleep.",
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Lunge",
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
+	},
+
+	thirdParty: {
+		cardmarket: 281146
+	}
+}
+
+export default card
